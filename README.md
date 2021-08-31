@@ -1,0 +1,14 @@
+# GirlScript Winter of Contributing
+
+GirlScript Winter of Contributing is a three-month newly established initiative by **[GirlScript Foundation](https://www.girlscript.tech/home)** to be conducted during winters. GWOC encourages individuals to share their knowledge and ideas to develop technical skills and gain valuable experience in the field of tech education. Over the course of the program, participants can contribute to a variety of themes under the guidance of an expert facilitator. GWOC aims to create world's largest multilingual repository
+
+## Explore the topics
+- [Frontend Web Development](./Frontend-Web-Development)
+- [Backend Web Development](./Backend-Web-Development)
+- [Android Development](./Android-development)
+
+## Contributing Guidelines
+Please follow the [contributing guidelines](./.github/CONTRIBUTING.md) to contribute to the project.
+
+## Code of Conduct
+This project and everyone participating in it is governed by the [GirlScript Code of Conduct](./.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code

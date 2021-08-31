@@ -1,0 +1,1 @@
+# GirlScript Code of Conduct
