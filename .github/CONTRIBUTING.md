@@ -83,6 +83,8 @@ Click on fork to create a copy of project to your account. This creates a separa
 
 <br />
 
+<br />
+
 ### Clone the forked project
 
 You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
