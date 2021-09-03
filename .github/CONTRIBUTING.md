@@ -15,7 +15,7 @@ GWOC encourages individuals to share their knowledge and ideas to develop techni
 
 ### Types of contribution you can make
 
-We are focussing on 3 types of contributions as of now.
+Throughout the program there are three modes of contribution, as listed below:
 
 1. Documentation
 
