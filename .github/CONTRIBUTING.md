@@ -6,8 +6,8 @@ Hello 👋. We welcome you all to GirlScript Winter Of Contributing🎊🎊
 | [Contributing to this repo](#contributing-to-this-repository) |
 | [Role of Mentors](#role-of-mentors)           |
 | [Role of Supervisors](#role-of-supervisors)|
-| [Adding A New Domain](#adding-a-new-domain)|
-| [Index Files](#index-files)|
+| [Adding A New Domain](#adding-a-new-topic)|
+| [Index (readme) Files](#index-readme-files)|
 | [Basics of Git & GitHub](#basics-of-git-and-github)           |
 
 ## Contributing to this repository
@@ -55,7 +55,7 @@ Supervisors are experts in the Open Source project on which the team is currentl
 
 <br />
 
-## Adding a new domain
+## Adding a new topic
 
 If you are adding a new domain/field, you need to create a new branch. That branch should be created from branch `main` and not from any other branch. The naming convention of the branch should follow `Pascal_Snake_Case`. Examples are given below:
 
@@ -67,7 +67,7 @@ All branches and folder and sub-folder names should follow this naming conventio
 
 <br/>
 
-## Index files
+## Index (readme) files
 
 Inside each directory there is a `README` file. This is the index file of the directory. This `README` file should contain the list of sub-directories clicking on which one can navigate to a particular sub-directory. If you are adding a new sub-directory make sure you have added it to the `README` also. Again, inside subdirectories, there is another `README` file, that will contain all the topics that the subdirectory contains. The point of adding `README` inside directories and sub-directories is to help someone know about the content that is residing inside the directory or subdirectory. For the index files, please refer to the [templates](../templates)
 

@@ -6,6 +6,9 @@
 
 # Title (name of the topic)
 
+# Description
+Small description of the topic 
+
 ## Index
 
 <!-- this is just an example -->
@@ -14,10 +17,3 @@
 - [CSS](./css)
 - [JavaScript](./javascript)
 
-## Learning path
-
-<!-- this is just an example -->
-
-1. HTML
-2. CSS
-3. JavaScript
