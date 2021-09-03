@@ -1,7 +1,6 @@
 # Contributing Guidelines
 
-Hello 👋. We are glad to have you here.
-
+Hello 👋. We welcome you all to GirlScript Winter Of Contributing🎊🎊
 | Index                                                         |
 | ------------------------------------------------------------- |
 | [Contributing to this repo](#contributing-to-this-repository) |
@@ -38,7 +37,7 @@ Throughout the program there are three modes of contribution, as listed below:
 - Presentation can also be submitted along with audio [Optional]
 - Accepted via Google drive
 
-Note: For video and audio files, only link should be added to the repository with details of the video/audio.
+📌Note: For video and audio files, only link should be added to the repository with details of the video/audio.
 
 ✔ Participants are requested to give regular updates regarding their progress to the mentors.
 
@@ -62,11 +61,11 @@ Supervisors are experts in the Open Source project on which the team is currentl
 
 ### Git & GitHub
 
-Before we proceed, we'd like to clarify the distinction between Git and Github. Git is a version control system (VCS) that allows us to keep track of the history of our source code. GitHub is a service that hosts Git projects. 
+Before we proceed, we'd like to clarify the distinction between Git and Github. Git is a version control system (VCS) that allows us to keep track of the history of our source code , whereas GitHub is a service that hosts Git projects. 
 
 We assume you have created an account on Github and installed Git on your System.
 
-Now tell Git your name and E-mail (used on Github) address.
+Now enter your name and E-mail (used on Github) address in Git, by using following command.
 
 `$ git config --global user.name "YOUR NAME"`
 ` $ git config --global user.email "YOUR EMAIL ADDRESS"`
