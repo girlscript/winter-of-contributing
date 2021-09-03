@@ -148,7 +148,7 @@ The first command adds all the files or you can add specific files by removing -
 
 ### Push code and create a pull request
 
-Till this point you have a new branch with the changes you want in the project you had forked. Now push your new branch to your remote fork on github.
+You now have a new branch containing the modifications you want in the project you forked. Now, push your new branch to your remote github fork. 
 
 `$ git push origin <feature-branch>`
 Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
