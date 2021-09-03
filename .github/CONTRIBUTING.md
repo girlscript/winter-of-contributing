@@ -79,7 +79,7 @@ Inside each directory there is a `README` file. This is the index file of the di
 
 ### Git & GitHub
 
-Before we proceed, we'd like to clarify the distinction between Git and Github. Git is a version control system (VCS) that allows us to keep track of the history of our source code , whereas GitHub is a service that hosts Git projects. 
+Before we proceed, it's better to know the difference between Git and Github. Git is a version control system (VCS) that allows us to keep track of the history of our source code , whereas GitHub is a service that hosts Git projects. 
 
 We assume you have created an account on Github and installed Git on your System.
 
