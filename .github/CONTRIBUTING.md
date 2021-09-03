@@ -12,7 +12,7 @@ Hello 👋. We welcome you all to GirlScript Winter Of Contributing🎊🎊
 
 ## Contributing to this repository
 
-GWOC encourages individuals to share their knowledge and ideas to develop technical skills and gain valuable experience in the field of tech education. We are creating a content repository which is full of valuable resources. Folders for different domains like Android Development, Web Development have been created and contribution to a specific domain will go to that folder only. Inside each directory there will be subdirectories for sub-topics of that particular domain. **There is a specific branch for each of the domains and participants need to contribute to that branch only**. Eg, if someone is contributing to Web Development or any sub topic of it, contribution to that domain should go to the specific branch only.
+GWOC encourages individuals to share their knowledge and ideas to develop technical skills and gain valuable experience in the field of tech education. We are creating a content repository which is full of valuable resources. Folders for different domains like Android Development, Web Development have been created and contribution to a specific domain will go to that folder only. Inside each directory there will be subdirectories for sub-topics of that particular domain. **There is a specific branch for each of the domains and participants need to contribute to that branch only**. For example, if someone is contributing to Web Development or a subtopic of it, contributions to that domain should only go to that branch. 
 
 ### Types of contribution you can make
 
@@ -135,7 +135,7 @@ The last command pushes the latest code to your forked repository on Github. The
 
 ### Create a new branch for a feature or bugfix
 
-Normally, all repositories have a main branch which is considered to remain stable and all new features should be made in a separate branch and after completion merged into main branch. So we should create a new branch for our feature or bugfix and start working on the issue.
+Usually, all repositories have a main branch that is regarded to be stable, and any new features should be developed on a separate branch before being merged into the main branch. As a result, we should establish a new branch for our feature or bugfix and go to work on the issue. 
 
 `$ git checkout -b <feature-branch>`
 This will create a new branch out of master branch. Now start working on the problem and commit your changes.
@@ -157,7 +157,7 @@ Now you are ready to help the project by opening a pull request means you now te
 
 Remember your upstream base branch should be main and source should be your feature branch. Click on create pull request and add a name to your pull request. You can also describe your feature.
 
-Awesome! You have made your first contribution.
+Fantastic! You've already made your first contribution.🥳
 
 #### BE OPEN!
 
