@@ -6,7 +6,7 @@ Hello 👋. We welcome you all to GirlScript Winter Of Contributing🎊🎊
 | [Contributing to this repo](#contributing-to-this-repository) |
 | [Role of Mentors](#role-of-mentors)           |
 | [Role of Supervisors](#role-of-supervisors)|
-| [Adding A New Domain](#adding-a-new-topic)|
+| [Adding A New Topic](#adding-a-new-topic)|
 | [Index (readme) Files](#index-readme-files)|
 | [Basics of Git & GitHub](#basics-of-git-and-github)           |
 
