@@ -23,7 +23,7 @@ Throughout the program there are three modes of contribution, as listed below:
 - Content Creation in the form of codes or tutorials
 - Preferred language should be English
 - Accepted via [Google Colab](https://colab.research.google.com/)
-- Clear, Consise and Complete.
+- Clear, Concise and Complete.
 
 2. Video
 
@@ -35,7 +35,7 @@ Throughout the program there are three modes of contribution, as listed below:
 3. Audio
 
 - Should be in mp3 format
-- Includes speech clarity,concise ,low distortion
+- Includes speech clarity, concise, low distortion
 - Presentation can also be submitted along with audio [Optional]
 - Accepted via Google drive
 
@@ -51,7 +51,7 @@ Mentors will offer assistance to the contributors. They will be available to con
 
 ## Role of supervisors
 
-Supervisors are experts in the Open Source project on which the team is currently working. At the commencement of the program, they will provide project roadmap, and will also be available to evaluate pull requests, assist with concepts, encourage the team throughout the program. Supervisors can create directories and subdirectories as per requirement and they need to make sure projct under them is getting executed smoothly
+Supervisors are experts in the Open Source project on which the team is currently working. At the commencement of the program, they will provide project roadmap, and will also be available to evaluate pull requests, assist with concepts, encourage the team throughout the program. Supervisors can create directories and subdirectories as per requirement and they need to make sure project under them is getting executed smoothly.
 
 <br />
 
@@ -63,7 +63,7 @@ If you want to add the domain `Android Development` , the name of the correspond
 Branch: `Android_Development` <br/>
 Folder: `Android_Development` <br/>
 The starting letter of every word should be in uppercase. Do not use spaces or hyphen(-). Instead use underscore (_) to join words.
-All branches and folder and sub-folder names should follow this naming convention to maintain a uniformity in the repository
+All branches and folder and sub-folder names should follow this naming convention to maintain a uniformity in the repository.
 
 <br/>
 
