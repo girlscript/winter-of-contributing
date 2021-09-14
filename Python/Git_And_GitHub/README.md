@@ -4,10 +4,14 @@
 3. The learning path should act as a roadmap to the learners. The learners should not be clueless after coming to the repository.
   -->
 
-# Title (name of the field)
+# Title (name of the topic)
+
+# Description
+Small description of the topic 
 
 ## Index
-- [GitHub](./Git_And_GitHub)
-
-## Learning path
-1. Git & GitHub
+<!--
+- [HTML](./html)
+- [CSS](./css)
+- [JavaScript](./javascript)
+-->
