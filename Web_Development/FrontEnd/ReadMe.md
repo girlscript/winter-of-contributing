@@ -1,6 +1,7 @@
 # 📕Roadmap for Frond End Web Dev 📕
 
 ## 0️⃣ Basics of Internet
+
 - How does the Internet Work?
 - What is HTTP?
 - How does Browser Rendering Works?
@@ -9,6 +10,7 @@
 - Hosting & Name Servers.
 
 ## 1️⃣ HTML
+
 - Introduction to HTML
 - HTML Editors
 - HTML Text Formatting
@@ -25,6 +27,7 @@
 - Search Engine Optimisation Basics
 
 ## 2️⃣ CSS
+
 - Introduction to css
 - Selectors and pseudo selector
 - Classes and Id’s
@@ -49,7 +52,3 @@
    * Flex Box
    * CSS Grid
 - Responsive Design & Media Queries
-
-
-
-
