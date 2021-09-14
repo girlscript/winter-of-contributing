@@ -4,10 +4,13 @@
 3. The learning path should act as a roadmap to the learners. The learners should not be clueless after coming to the repository.
   -->
 
-# Title (name of the topic)
+# Learn version control- Git, GitHub
+
 
 # Description
-Small description of the topic 
+Git is an example of a distributed version control system (DVCS). Git is commonly used for both open source and commercial software development. 
+
+GitHub is a Git hosting repository that provides developers with tools to ship better code through command line features, issues (threaded discussions), pull requests, code review, or the use of a collection of free and for-purchase apps in the GitHub Marketplace.
 
 ## Index
 <!--
