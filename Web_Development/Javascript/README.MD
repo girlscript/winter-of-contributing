@@ -11,6 +11,4 @@
 - AJAX
 - Integrating with Other People's Libraries
 - Git and Bash
-- Node.js
-
-
+- Node JS
