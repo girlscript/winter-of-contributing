@@ -1,0 +1,19 @@
+# History of  Open Source
+
+Prior to the 1980s, free software such as UNIX was available, but users were not permitted to share or alter it. Charging for software licenses became a common business strategy for software firms and computer manufacturers in the late 1970s and early 1980s. Copyrights, trademarks, and other contracts were used to establish legal limitations. The process of enforcing licenses via legal means started. Piracy of software was born.
+
+BBS systems were used to distribute software in the 1980s. BASIC and other interpreted languages' software could only be delivered as source code. There was a lot of freebies accessible. Software modification grew popular, and Usenet became a useful tool for programmers and modders to collaborate. Richard Stallman established the Free Software Foundation and the GNU Project. The first businesses that made free software their main business started to appear.
+
+Linus Torvald's kernel was integrated with the GNU operating system in the early 1990s, giving the free software community the first fully free operating system. Debian was established in 1993 by Ian Murdock and is dedicated to the GNU and FSF free software ideals. In the late 1990s, companies and governments started to embrace Linux. Free web servers, particularly the Apache HTTP Server, were widely used by website-based businesses. The LAMP (Linux, Apache, MySQL, PHP) stack has surpassed costly proprietary solutions in popularity.
+
+Tim O'Reilly's Freeware Summit gathered together the leaders of free and open source initiatives. A developer poll chose Open Source over Sourceware as the new name. The Open Source Initiative was established much to the chagrin of Richard Stallman and the Free Software Foundation (FSF), who believed OSI was betraying some fundamental principles. The FSF and OSI are the two major schools of the movement today, and their philosophical disagreements are still present. Fortunately, they agree on many practical issues and can work together to achieve a shared goal.
+
+Big software companies started to view free software as a threat to their main business in the early 2000s. Steve Ballmer, the CEO of Microsoft, referred to Linux as a disease because of its copyleft license. In 2003, SCO claimed that Unix IPR had been copied into the Linux kernel and chose to dive right in by filing a lawsuit against IBM. They didn't short for courage, but it turned out that they lacked ownership of the IPRs they claimed had been infringed upon. Even though SCO filed for bankruptcy in 2007, following numerous court victories, the lawsuit is still legally open. Microsoft is said to have given money to SCO.
+
+The availability and popularity of hosted distributed revision control systems, such as GitHub, has lowered the obstacles to participation in free software projects since the late 2000s.
+
+In recent years, the free software community has seen several troubling corporate acquisitions, such as Sun Microsystems' purchase of MySQL and Oracle's purchase of Sun Microsystems.
+
+In the meanwhile, open source project involvement is skyrocketing. Telecom providers, for example, are embracing (or seriously exploring) free software alternatives. Many new school IT companies and enlightened in-house developers are leading the charge, preparing the way for this seismic change. New business models are developing; in the recent past, establishing a successful online service and open sourcing it everything would have been deemed financially crazy. It has now become the standard.
+
+Many government agencies have embraced free software and open innovation as essential components of a thriving information society. For example, the Helsinki Region Infoshare initiative has encouraged open data publishing in the Helsinki metropolitan region since 2010, opening up over a thousand datasets online and enabling for the free creation of new commercial applications.
