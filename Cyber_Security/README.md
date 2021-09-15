@@ -14,3 +14,5 @@
   - Network Virtuliazation
   - Virtual Desktop Infrastructure (VDI)
   - Application virtualization
+- [ ] Setup VirtualBox and Virtual Machine in Windows
+- [ ] Setup VirtualBox and Virtual Machine in Mac
