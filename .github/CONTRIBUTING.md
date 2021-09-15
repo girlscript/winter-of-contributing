@@ -106,7 +106,9 @@ Hello 👋. We are glad to have you here.
 | Index                                                         |
 | ------------------------------------------------------------- |
 | [Contributing to this repo](#contributing-to-this-repository) |
-| [Basic of Git & GitHub](#basics-of-git-and-github)            |
+| [Role of Mentors](#role-of-mentors)           |
+| [Role of Supervisors](#role-of-supervisors)|
+| [Basics of Git & GitHub](#basics-of-git-and-github)           |
 
 ## Contributing to this repository
 
@@ -143,6 +145,14 @@ Note: For video and audio files, only link should be added to the repository wit
 
 ✔ If the participant is not able to contribute to the assigned issue due to any reason, kindly let the mentors know so that the issue is assigned to some other participant.
 
+## Role of mentors
+
+Mentors will offer assistance to the contributors. They will be available to contribute to Github, assist contributors in creating content, answer questions, manage the subject repository, and provide assistance to the contributors throughout the program.
+
+## Role of supervisors
+
+Supervisors are experts in the Open Source project on which the team is currently working. At the commencement of the program, they will provide project roadmap, and will also be available to evaluate pull requests, assist with concepts, encourage the team throughout the program. Supervisors can create directories and subdirectories as per requirement and they need to make sure projct under them is getting executed smoothly
+
 <br />
 
 ---
@@ -167,8 +177,12 @@ This is an important step to mark your commits to your name and email.
 
 ### Fork a project
 
+<<<<<<< HEAD
 You can use github explore - https://github.com/explore to find a project that interests you and match your skills. Once you find your cool project to workon, you can make a copy of project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
 >>>>>>> 8386057 (docs: add contributing guidelines)
+=======
+You can make a copy of the project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
+>>>>>>> 512f899 (upd: contributing guidelines)
 
 <p align="center">  <img  src="https://i.imgur.com/P0n6f97.png">  </p>
 Click on fork to create a copy of project to your account. This creates a separate copy for you to work on.
@@ -234,6 +248,7 @@ You now have a new branch containing the modifications you want in the project y
 =======
 <br />
 
+<<<<<<< HEAD
 ### Finding a feature to work on
 
 >>>>>>> 5c5bb0f (upd: contributing guidelines)
@@ -243,11 +258,13 @@ Open Source projects always have something to work on and improves with each new
 
 <br />
 
+=======
+>>>>>>> 512f899 (upd: contributing guidelines)
 ### Clone the forked project
 
 You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
 
-`$ git clone https://github.com/<your-account-username>/<your-forked-project>.git`
+`$ git clone https://github.com/girlscript/winter-of-contributing.git` <br/>
 Now you have the project on your local machine.
 
 <br />
@@ -257,7 +274,7 @@ Now you have the project on your local machine.
 Remote means the remote location of project on Github. By cloning, we have a remote called origin which points to your forked repository. Now we will add a remote to the original repository from where we had forked.
 
 `$ cd <your-forked-project-folder>`
-`$ git remote add upstream https://github.com/<author-account-username>/<project>.git`
+`$ git remote add upstream https://github.com/girlscript/winter-of-contributing.git` <br/>
 You will see the benefits of adding remote later.
 
 <br />
@@ -266,10 +283,10 @@ You will see the benefits of adding remote later.
 
 Open Source projects have a number of contributors who can push code anytime. So it is necessary to make your forked copy equal with the original repository. The remote added above called Upstream helps in this.
 
-`$ git checkout master`
+`$ git checkout main`
 `$ git fetch upstream`
-`$ git merge upstream/master`
-`$ git push origin master`
+`$ git merge upstream/main`
+`$ git push origin main` <br/>
 The last command pushes the latest code to your forked repository on Github. The origin is the remote pointing to your forked repository on github.
 
 <br />
@@ -287,27 +304,9 @@ The first command adds all the files or you can add specific files by removing -
 
 <br />
 
-### Rebase your feature branch with upstream
-
-It can happen that your feature takes time to complete and other contributors are constantly pushing code. After completing the feature your feature branch should be rebase on latest changes to upstream master branch.
-
-`$ git checkout <feature-branch>`
-`$ git pull --rebase upstream master`
-Now you get the latest commits from other contributors and check that your commits are compatible with the new commits. If there are any conflicts solve them.
-
-<br />
-
-### Squashing your commits
-
-You have completed the feature, but you have made a number of commits which make less sense. You should squash your commits to make good commits.
-`$ git rebase -i HEAD~5`
-This will open an editor which will allow you to squash the commits.
-
-<br />
-
 ### Push code and create a pull request
 
-Till this point you have a new branch with the feature or bug fix you want in the project you had forked. Now push your new branch to your remote fork on github.
+Till this point you have a new branch with the changes you want in the project you had forked. Now push your new branch to your remote fork on github.
 
 <<<<<<< HEAD
 ```$ git push origin <feature-branch>```
@@ -320,6 +319,7 @@ Now you are ready to help the project by opening a pull request means you now te
 <p align="center">  <img  src="https://i.imgur.com/aGaqAD5.png">  </p>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Remember your upstream base branch should be main and source should be your feature branch. Click on create pull request and add a name to your pull request. You can also describe your feature.
 
 Fantastic! You've already made your first contribution.🥳
@@ -329,6 +329,9 @@ Fantastic! You've already made your first contribution.🥳
 #### Happy Coding 👩‍💻👩‍💻
 =======
 Remember your upstream base branch should be master and source should be your feature branch. Click on create pull request and add a name to your pull request. You can also describe your feature.
+=======
+Remember your upstream base branch should be main and source should be your feature branch. Click on create pull request and add a name to your pull request. You can also describe your feature.
+>>>>>>> 512f899 (upd: contributing guidelines)
 
 Awesome! You have made your first contribution.
 
