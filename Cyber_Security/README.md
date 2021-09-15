@@ -1,7 +1,7 @@
 # Cyber_Security 👨🏻‍💻
 ## Week:1 (Overview)
 - [ ] What is Information Security?
-- [ ] What is the importance and need for information security?
+- [x] What is the importance and need for information security?
 - [ ] Challenges in Information Security?
 - [ ] Information Security Controls?
 
