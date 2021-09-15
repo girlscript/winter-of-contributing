@@ -10,3 +10,9 @@
 - [ ] Challenges in Physical Security
 
 - [ ] Triangle of Security, Functionality, and Usability
+- [ ] Types of virtualization
+  - Network Virtuliazation
+  - Virtual Desktop Infrastructure (VDI)
+  - Application virtualization
+- [ ] Setup VirtualBox and Virtual Machine in Windows
+- [ ] Setup VirtualBox and Virtual Machine in Mac
