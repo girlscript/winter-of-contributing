@@ -85,7 +85,7 @@ get yourself started.
 3. If using Git instead of GitHub CLI, remember to set `upstream`
    as a remote pointing to the parent repository:
    ```bash
-   git remote set upstream https://github.com/girlscript/winter-of-contributing
+   git remote add upstream https://github.com/girlscript/winter-of-contributing
    ```
 
 Before starting a fresh contribution, make sure you pull all
