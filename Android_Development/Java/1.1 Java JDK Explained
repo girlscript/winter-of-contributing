@@ -1,0 +1,96 @@
+# Java JDK
+
+Every programming language need a platform to run like c++ needs **MinGW**, python needs python runtime.Just like that Java needs JDK.
+**JDK** or **Java Development Kit**-
+  - provides environment to test and develop Java programs.
+  - It has vast packages that includes :-
+     1. **JRE** :- Runtime environment to execute program.
+     2. **Compiler** :- Javac.
+     3. **Docs Generator** :- Java Document.
+     4. **Loader/Interpreter**.
+     5. **Development tools** :- Provides runtime for particular java program.
+
+---
+
+# Installation
+
+## Linux
+
+1. Open the terminal (**Ctrl**+**Alt**+**T**) and update your package repository.
+
+`sudo apt update`
+
+2. Run the following command to install latest **Java Development Kit**
+
+`sudo apt install default-jdk`
+
+3. Type **y** to confirm and hit **Enter**
+
+![Image](https://phoenixnap.com/kb/wp-content/uploads/2021/04/install-default-jdk-ubuntu.png)
+
+---
+
+## Windows
+
+1. Head to this [link](https://www.oracle.com/java/technologies/javase-downloads.html) and download JDK.
+
+![Image](https://phoenixnap.com/kb/wp-content/uploads/2021/04/install-default-jdk-ubuntu.png)
+
+2. Accept the license agreement and download JDK as per your system architecture(32bit or 64 bit)
+
+![Image](https://cdn.guru99.com/images/2/javainstall-2.png)
+
+3. You will need to create Oracle account to download Java 8, so follow the steps and you are good to go
+
+4. Run the JDK installer once the download is complete
+
+![Image](https://cdn.guru99.com/images/2/javainstall-4.png)
+
+5. Follow the steps by clicking next... Leave everything default
+ 
+ ![Image](https://cdn.guru99.com/images/2/javainstall-6.png)
+
+ ### Here is the crucial step, you have to set the environment path variable in order for java to run on Windows.
+
+ The path variable gives location of Java executable, and the full path is C:\Program Files\Java\jdk1.8.0_271\bin . Copy this as per your directory.
+
+ 1. Right click on my computer. **Select Properties**
+
+  ![Image](https://cdn.guru99.com/images/java/111417_1107_Java25.png)
+
+2. Click **Advanced System Settings**
+  ![Image](https://cdn.guru99.com/images/2/java-install-20.png)
+
+3. Click on **Environment Variables**
+  ![Image](https://cdn.guru99.com/images/java/111417_1107_Java27.png)
+
+4. Click on **New** button
+  ![Image](https://cdn.guru99.com/images/java/1912211_install_javaimage9.jpg)
+
+5. In Variable name TYPE **PATH**
+  ![Image](https://cdn.guru99.com/images/java/111417_1107_Java29.png)
+
+6. Copy the path of bin folder mentioned above
+  ![Image](https://cdn.guru99.com/images/2/java-install-21.png)
+
+7. Paste path in **Variable Value** and Hit OK
+  ![Image](https://cdn.guru99.com/images/2/java-install-22.png)
+
+8. Open powershell or command prompt type `javac` to check if jdk is installed or not.
+  ![Image](https://cdn.guru99.com/images/java/1912211_install_javaimage15.jpg)
+
+
+## Mac OS
+
+1. Download .dmg file for mac Installation
+  ![Image](https://i2.wp.com/techdecodetutorials.com/wp-content/uploads/2021/07/2_20210708_152537_0001.png?resize=1024%2C576&ssl=1)
+
+2. Agree with the license agreement
+  ![Image](https://i0.wp.com/techdecodetutorials.com/wp-content/uploads/2021/07/3_20210708_152537_0002.png?resize=1024%2C576&ssl=1)
+
+3. Open DMG file and a welcome windows for Installation will appear
+  ![Image](https://i0.wp.com/techdecodetutorials.com/wp-content/uploads/2021/07/6_20210708_152537_0005.png?resize=1024%2C576&ssl=1)
+
+4. In the installation window click on the install button, if asked enter the password of your Mac machine and JDK installation will begin.
+
+5. Verify install by opening terminal and typing `java --version` command to see if installation is properly done or not
