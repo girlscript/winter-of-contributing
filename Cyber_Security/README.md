@@ -2,7 +2,7 @@
 ## Week:1 (Overview)
 - [ ] What is Information Security?
 - [x] [What is the importance and need for information security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/InformationSecurity.md)
-- [x] Challenges in Information Security?
+- [x] [Challenges in Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.3_Challenges_in_InformationSecurity.md)
 - [ ] Information Security Controls?
 
 - [ ] What is Physical Security?
