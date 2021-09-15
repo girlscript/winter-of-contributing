@@ -10,6 +10,18 @@
 - [ ] Challenges in Physical Security
 
 - [ ] Triangle of Security, Functionality, and Usability
+- [ ] CIA triad
+- [ ] Types of Hackers
+  - White hat hackers
+  - Black hat hackers
+  - Grey hat hackers
+  - Script Kiddies.
+  - Green hat hackers
+  - Blue hat hackers
+  - Red hat hackers
+  - State/Nation Sponsored Hackers.
+
+
 - [ ] Types of virtualization
   - Network Virtuliazation
   - Virtual Desktop Infrastructure (VDI)
