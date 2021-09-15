@@ -25,15 +25,9 @@ Take, for example, the case of Ruby on Rails, an open-source web development fra
 
 There are many different types of open-source programming languages based on the type of project being built.
 These are some of the best open-source programming languages:
-
-<img src="chart_top_programming_laguages.png" style="max-width:80%;
+<br>
+<img src="https://user-images.githubusercontent.com/76050897/133487023-c6624bad-848e-4143-b3a5-1a6c834085a2.png" style="max-width:80%;
                             display: block;
                             margin-left: auto;
                             margin-right: auto;" />
 
-<!-- - Ruby on Rails (RoR)
-- Python
-- Swift
-- JavaScript
-- Java
-- Kotlin -->
