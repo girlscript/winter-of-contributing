@@ -1,4 +1,4 @@
-# Python 1.5: Brief History of Python
+# Python 1.5: Brief history of python
 
 ## What is Python?
 
