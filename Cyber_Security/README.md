@@ -11,6 +11,8 @@
 
 - [ ] Triangle of Security, Functionality, and Usability
 - [ ] CIA triad
+- [ ] Introduction to IT Act, 2000
+- [ ] Limitations of Indian IT Act, 2000
 - [ ] Types of Hackers
   - White hat hackers
   - Black hat hackers
