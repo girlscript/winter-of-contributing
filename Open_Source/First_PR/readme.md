@@ -13,4 +13,3 @@ This folder is basically made for a complete beginner make his/her first contrib
 - Make a PR.
 
 YAY!! You have made your first open source contribution ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿
-
