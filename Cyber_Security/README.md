@@ -2,7 +2,7 @@
 ## Week:1 (Overview)
 - [ ] What is Information Security?
 - [ ] What is the importance and need for information security?
-- [ ] Challenges in Information Security?
+- [x] Challenges in Information Security?
 - [ ] Information Security Controls?
 
 - [ ] What is Physical Security?
