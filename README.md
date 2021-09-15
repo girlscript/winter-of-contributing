@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # GirlScript Winter of Contributing <br/> ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](.github/CODE_OF_CONDUCT.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](.github/CONTRIBUTING.md)
+=======
+# GirlScript Winter of Contributing <br/> ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](.github/CODE_OF_CONDUCT.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](.github/CONTRIBUTING.md) 
+>>>>>>> 7921286b6f93a80d753f1d87e3e8b619a5fd4a87
 
 <img src="banner_readme.png"  style="max-width: 100%; height: auto;"/>
 

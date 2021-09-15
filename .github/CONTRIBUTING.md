@@ -2,6 +2,9 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7921286b6f93a80d753f1d87e3e8b619a5fd4a87
 Hello 👋. We welcome you all to GirlScript Winter Of Contributing🎊🎊
 | Index                                                         |
 | ------------------------------------------------------------- |
@@ -96,6 +99,7 @@ This is an important step to mark your commits to your name and email.
 ### Fork a project
 
 You can make a copy of the project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
+<<<<<<< HEAD
 =======
 ## How to contribute ?
 
@@ -183,12 +187,17 @@ You can use github explore - https://github.com/explore to find a project that i
 =======
 You can make a copy of the project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
 >>>>>>> 512f899 (upd: contributing guidelines)
+=======
+>>>>>>> 7921286b6f93a80d753f1d87e3e8b619a5fd4a87
 
 <p align="center">  <img  src="https://i.imgur.com/P0n6f97.png">  </p>
 Click on fork to create a copy of project to your account. This creates a separate copy for you to work on.
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7921286b6f93a80d753f1d87e3e8b619a5fd4a87
 <br />
 
 <br />
@@ -242,6 +251,7 @@ The first command adds all the files or you can add specific files by removing -
 You now have a new branch containing the modifications you want in the project you forked. Now, push your new branch to your remote github fork. 
 
 `$ git push origin <feature-branch>`
+<<<<<<< HEAD
 =======
 ### FINDING A FEATURE OR BUG TO WORK ON - 
 ***
@@ -314,12 +324,17 @@ Till this point you have a new branch with the changes you want in the project y
 =======
 `$ git push origin <feature-branch>`
 >>>>>>> 5c5bb0f (upd: contributing guidelines)
+=======
+>>>>>>> 7921286b6f93a80d753f1d87e3e8b619a5fd4a87
 Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
 
 <p align="center">  <img  src="https://i.imgur.com/aGaqAD5.png">  </p>
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7921286b6f93a80d753f1d87e3e8b619a5fd4a87
 Remember your upstream base branch should be main and source should be your feature branch. Click on create pull request and add a name to your pull request. You can also describe your feature.
 
 Fantastic! You've already made your first contribution.🥳
@@ -327,6 +342,7 @@ Fantastic! You've already made your first contribution.🥳
 #### BE OPEN!
 
 #### Happy Coding 👩‍💻👩‍💻
+<<<<<<< HEAD
 =======
 Remember your upstream base branch should be master and source should be your feature branch. Click on create pull request and add a name to your pull request. You can also describe your feature.
 =======
@@ -343,3 +359,5 @@ Awesome! You have made your first contribution.
 =======
 #### Happy Coding 👩‍💻👩‍💻
 >>>>>>> 5c5bb0f (upd: contributing guidelines)
+=======
+>>>>>>> 7921286b6f93a80d753f1d87e3e8b619a5fd4a87
