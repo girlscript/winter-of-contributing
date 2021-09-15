@@ -10,3 +10,7 @@
 - [ ] Challenges in Physical Security
 
 - [ ] Triangle of Security, Functionality, and Usability
+- [ ] Types of virtualization
+  - Network Virtuliazation
+  - Virtual Desktop Infrastructure (VDI)
+  - Application virtualization
