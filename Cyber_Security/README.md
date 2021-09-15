@@ -1,7 +1,7 @@
 # Cyber_Security 👨🏻‍💻
 ## Week:1 (Overview)
 - [ ] What is Information Security?
-- [x] What is the importance and need for information security?
+- [x] [What is the importance and need for information security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week:1/InformationSecurity.md)
 - [ ] Challenges in Information Security?
 - [ ] Information Security Controls?
 
