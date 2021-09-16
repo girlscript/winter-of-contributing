@@ -30,3 +30,5 @@
   - Application virtualization
 - [ ] Setup VirtualBox and Virtual Machine in Windows
 - [ ] Setup VirtualBox and Virtual Machine in Mac
+- [ ] Linux File System
+- [ ] Linux File System Directories
