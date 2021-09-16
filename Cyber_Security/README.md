@@ -30,5 +30,6 @@
   - Application virtualization
 - [ ] Setup VirtualBox and Virtual Machine in Windows
 - [ ] Setup VirtualBox and Virtual Machine in Mac
+- [ ] Familiar to Linux Terminal
 - [ ] Linux File System
 - [ ] Linux File System Directories
