@@ -53,19 +53,31 @@ git checkout MERN
    ```
 Branch structure: 
 
-MERN 
-| ----|  Web Development 
-| ----------- |  TOPICS 
-|-------------------| FRONTEND
-|-------------------| BACKEND 
-|-------------------| PROJECT
-|-------------------| Readme.md [consist of Roadmap] 
-|-------------------| contributing.md 
+MERN
 
-Inside FRONTEND> 
+    | ----|  Web Development 
+
+    | ----------- |  TOPICS 
+
+    |-------------------| FRONTEND
+
+    |-------------------| BACKEND 
+
+    |-------------------| PROJECT
+
+    |-------------------| Readme.md [consist of Roadmap] 
+
+    |-------------------| contributing.md 
+
+
+Inside FRONTEND
+
             |----React
+            
                    |----Subtopics
+                   
             |----Readme.md
+            
 
 3. For the topic folders, we will follow the following naming convention:
    ```
