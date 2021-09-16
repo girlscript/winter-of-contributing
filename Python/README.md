@@ -8,7 +8,7 @@
 
 ## Index
 - [GitHub](./Git_And_GitHub)
-- [Python 1.4](./Python1.4)
+- [Python 1.4](./Python_1.4)
 
 ## Learning path
 1. Git & GitHub
