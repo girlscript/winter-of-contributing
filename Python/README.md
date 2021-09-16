@@ -8,6 +8,8 @@
 
 ## Index
 - [GitHub](./Git_And_GitHub)
+- [Python 1.4](./Python 1.4)
 
 ## Learning path
 1. Git & GitHub
+2. What is a programming language? #77
