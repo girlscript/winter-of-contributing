@@ -1,0 +1,30 @@
+# Determines if we search the title (optional). Defaults to true.
+matchTitle: true
+
+# Determines if we search the body (optional). Defaults to true.
+matchBody: true
+
+# Determines if label matching is case sensitive (optional). Defaults to true.
+caseSensitive: false
+
+# Explicit keyword mappings to labels. Form of match:label. Required.
+labelMappings:
+  C: C
+  C-Plus-Plus: C-Plus-Plus
+  CPP: C-Plus-Plus
+  C++: C-Plus-Plus
+  OpenSource: Open-Source
+  MERN: MERN
+  DSA: DSA
+  CyberSecurity: Cyber Security
+  GoLang: Go Lang
+  ReactJS: ReactJS
+  Angular: Angular
+  Vue: Vue
+  Python: Python
+  ML: Machine Learning
+  Android Java: Android with Java
+  Android Kotlin: Android with Kotlin
+  Android Flutter: Android with Flutter
+  documentation: documentation
+  doc : documentation
