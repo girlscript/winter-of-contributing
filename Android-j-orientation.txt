@@ -1,0 +1,66 @@
+Orientation of Android Activity:-
+
+First things first, let us first understand what orientation is.
+
+Orientation is nothing but the way a window, or a page or say the screen renders its elements. It is the way how the page is oriented, and how it appears.
+Orientation can primarily be classified as Portrait and Landscape. Now, when we build an android application, by default the orientation can change on rotating the screen.
+
+The orientation of an android activity can be the following:-
+
+1)PORTRAIT
+2)LANDSCAPE
+3)UNSPECIFIED
+4)SENSOR
+
+Let us first see how these four type of orientations differ from each other.
+
+1.Portrait can be thought of as a vertical alignment of the components on a page.
+2.Landscape can be thought of as a horizontal alignment of the components on a page.
+3.Unspecified orientation means the orientation of the activty will be chosen according to the system's default orientation.
+4.Sensor orientation as the name suggests is decided by the device orientation sensor.
+Now, to keep a fixed orientation of an activity, we use an attribute named screenOrientation.
+
+This attribute can have any of the orientation types as its value. It is defined in the AndroidManifest.xml file under the activity tag.
+
+<activity
+            android:name=".name_of_your_activity"
+            android:screenOrientation="orientation_type">
+</activity>
+
+In the above code "name_of_your_activity" has to be replaced by the name of the activity whose orientation you are setting. The orientation_type will be replaced by the type of orientation you want to give.
+
+Now, we have talked about how we can fix the orientation. But, in case you have not fixed the orientation and it keeps switching everytime you rotate your screen, there is a problem. The problem is that your activity restarts everytime it switches. To avoid this, we can add one attribute in the AndroidManifest.xml file under the activity tag to call a function named onConfigurationChanged(). This would prevent the restarting of the activity.
+
+Now, let us see how we can do this.
+
+First in the AndroidManifest.xml file under the activity tag, add the following code:-
+
+<activity
+            android:name=".MainActivity"
+            android:configChanges="orientation">
+</activity>
+This attribute will tell the .java file about the change in orientation. Now in your Activity.java file override the onConfigurationChanged method and make the following changes:-
+
+@Override
+    public void onConfigurationChanged(@NonNull Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        if(newConfig.orientation==Configuration.ORIENTATION_PORTRAIT)
+        {
+            Toast.makeText(getApplicationContext(), "Portrait Mode", Toast.LENGTH_SHORT).show();
+        }
+        else if(newConfig.orientation==Configuration.ORIENTATION_LANDSCAPE) {
+            Toast.makeText(getApplicationContext(), "Landscape mode", Toast.LENGTH_SHORT).show();
+        }
+    }
+We have talked about the orientation of an android activity, let us talk about the orientation of a layout in an android activity.
+
+It can be of two types, horizontal or vertical. As the name suggests, it renders the components as per the orientation defined in the layout.
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="orientation_type">
+</LinearLayout>
+Replace the "orientation_type by horizontal or vertical." In the LinearLayout, the orientation by default is horizontal.
+
+This was all about the orientations in an android activity and layouts.
