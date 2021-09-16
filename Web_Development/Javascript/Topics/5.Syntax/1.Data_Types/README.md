@@ -21,7 +21,7 @@ Single quotes or double quotes may be used to assign a value to a string variabl
 
 Example:
 
-```
+```js
     let str = 'javascript';
 ```
 
@@ -33,7 +33,7 @@ Boolean type in JavaScript represents two values, logical true (or 1) or logical
 
 Example:
 
-```
+```js
     let isGameOver = true;
     isGameOver = 0;
 ```
@@ -44,7 +44,7 @@ JavaScript has only one number type. Decimals, Integers, Whole numbers all are r
 
 Example:
 
-```
+```js
     let x = 12.34;
     let y = 123;
     let negativeNumber = -34;
@@ -56,7 +56,7 @@ The Null type represents the intentional absence of a value in Javascript. It is
 
 Example:
 
-```
+```js
     let value = null;
 ```
 
@@ -66,7 +66,7 @@ The Undefined type in JavaScript is its way of saying, it doesn't know what's pr
 
 Example:
 
-``` 
+``` js
     let x; // x is not assigned any value
     typeof(x); // hence, it's type is undefined
 ```
@@ -82,7 +82,7 @@ A bigint could be created by :
 
 Example:
 
-``` 
+``` js
     const bigint = 1234567890123456789012345678901234567890n; // by appending n at the end
     const newBigint = BigInt("1234567890123456789012345678901234567890"); // by calling BigInt function
 ```
@@ -93,7 +93,7 @@ An object in JavaScript is a collection of related data and/or functionality con
 
 Example:
 
-``` 
+``` js
     let person = {
         firstName:"John", // each of these are a property consisting of a key-value pair
         lastName:"Doe", 
