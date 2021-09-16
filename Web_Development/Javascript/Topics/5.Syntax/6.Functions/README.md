@@ -90,3 +90,4 @@ limited and can't be used in all situations.
 ## Why use functions?
 Functions are a good alternative to having repeating blocks of code in a program. Functions also increase the reusability of code. Values can be passed to a function using variables – we call these parameters or arguments.
 Functions can also return values.
+
