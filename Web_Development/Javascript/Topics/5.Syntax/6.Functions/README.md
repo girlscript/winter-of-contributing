@@ -30,7 +30,7 @@ In a web browser, global variables are deleted when you close the browser window
 - After parenthesis, open and close curly braces.
 - Within curly braces, write your lines of code.
 ``` javascript 
-function funcname()
+function funcName()
 {
 
   lines of code to be executed
@@ -39,7 +39,7 @@ function funcname()
 ```
 Let's look at an example 
 ``` javascript 
-function sayHi(){
+function sayHello(){
    console.log("Hello");
 }
 ```
@@ -59,7 +59,7 @@ while function definition.
 
 ### Types of function in javascript 
 1. Anonymous Function 
-- Anonymous function is function with no name.
+- Anonymous function is a function with no name.
 - Let's look at its syntax.
 ```javascript 
 var fullName = function(firstName, lastName) {
@@ -69,7 +69,7 @@ var fullName = function(firstName, lastName) {
 
 2. Generator Functions 
 - Generators are functions that can be exited and later re-entered. 
-- Let's have a look at syntax.
+- Let's have a look at its syntax.
 ``` javascript 
 function* name(param) {
    statements
