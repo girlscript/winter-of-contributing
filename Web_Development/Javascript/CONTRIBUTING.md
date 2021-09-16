@@ -194,6 +194,18 @@ git checkout Javascript
    mentors before being sent to the supervisor, to ensure
    no abuse of incomprehensibility.
    
+Updates (September 16, 2021):
+- Each issue will uniquely identify a single topic/sub-topic.
+- Every issue must have a checklist representing what kind of contributions are left undone (document, audio, video).
+- Since a PR resolves and closes an issue, it'll manually be reopened after each kind of contribution is done. That's just fair, because multiple forms of contributions revolving the same issue would still require changing the same files, which isn't possible.
+- For each topic, we'll first accept a document-based contribution before accepting any video/audio contribution.
+- As long as we're not out of options, one contributor may contribute to one topic only in one format i. e. Either document, video, or audio, but not multiple.
+- Although more issues will be generated, if you find an issue having been assigned to too many contributors already, I recommend you to:
+  1. Look for other issues,.
+  2. Request contribution to the same issue for a different format (document, audio, video).
+  3. Create your own issue and request the tag from me (you may reference the roadmap).
+- There will be a soft limit on the number of issues a single person may work simultaneously on.
+
 ## Issues
 You may raise relevant issues within the repository, keeping
 the following points in mind:
