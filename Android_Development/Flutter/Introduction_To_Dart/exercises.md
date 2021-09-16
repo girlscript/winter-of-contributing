@@ -8,7 +8,7 @@
 - Print "Excellent work" if the student scores A grade
 
 
-  ```
+  ```dart
   void main() {
   String grade = "A";
   if (grade == "A") {
@@ -24,7 +24,7 @@
 ### 2. If Else Condition
 
 - Find maximum between two numbers
-```
+```dart
   import 'dart:io';
 
    void main() {
@@ -51,7 +51,7 @@
 
 ### 3. Else If Ladder Condition
 
-- Write a progeram to input the names of five subjects Physics,Chemistry,Biology,
+- Write a progeram to input the names of five      subjects Physics,Chemistry,Biology,
   Maths and Computer. Calculate percentage and grade according to the given conditions
   Percentage >= 90% : Grade A
   Percentage >= 80% : Grade B
@@ -60,14 +60,14 @@
   Percentage >= 40% : Grade E
   Percentage < 40%  : Grade F
 
-```
+```dart
   import 'dart:io';
 
    void main() {
    stdout.write("Enter Physics Mark: ");
-   int? physics = int.parse(stdin.readLineSync()!);
+   int? physics = int.parse(stdin.readLineSync()!);//Getting input from user
    stdout.write("Enter Chemistry Mark: ");
-   int? chemistry = int.parse(stdin.readLineSync()!);
+   int? chemistry = int.parse(stdin.readLineSync()!)//using ? and ! because of null safety
    stdout.write("Enter Biology Mark: ");
    int? biology = int.parse(stdin.readLineSync()!);
    stdout.write("Enter Maths Mark: ");
@@ -76,7 +76,7 @@
    int? computer = int.parse(stdin.readLineSync()!);
 
    double percentage = double.parse(
-         ((chemistry + physics + maths + biology + computer) / 5.0)
+         ((chemistry + physics + maths + biology + computer) / 5.0)//Getting total percentage
             .toStringAsFixed(2));
    print("Percentage is : $percentage");
 
@@ -109,7 +109,7 @@
 ### 4. Nested - If Condition
 - Find Maximum between three numbers
 
-```
+```dart
 import 'dart:io';
 
 void main() {
@@ -123,18 +123,18 @@ void main() {
 
   if (number1 > number2) {
     if (number1 > number3) {
-      /* If num1 > num2 and num1 > num3 */
+      /* If number1 > number2 and number1 > number3 */
       print("Maximum Number = $number1");
     } else {
-      /* If num1 > num2 but num1 > num3 is not true */
+      /* If number1 > number2 but number1 > number3 is not true */
      print("Maximum Number = $number3");
     }
   } else {
     if (number2 > number3) {
-      /* If num1 is not > num2 and num2 > num3 */
+      /* If number1 is not > number2 and number2 > number3 */
       print("Maximum Number = $number2");
     } else {
-      /* If num1 is not > num2 and num2 > num3 */
+      /* If number1 is not > number2 and number2 > number3 */
       print("Maximum Number = $number3");
     }
   }
