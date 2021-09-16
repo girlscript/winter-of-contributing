@@ -2,7 +2,8 @@
 
 
 
-## 1. If Condition
+## Conditional Statements :
+### 1. If Condition
 
 - Print "Excellent work" if the student scores A grade
 
@@ -20,7 +21,7 @@
     Excellent work
    ```
 
-## 2. If Else Condition
+### 2. If Else Condition
 
 - Find maximum between two numbers
 ```
@@ -48,7 +49,7 @@
    First number is greater
 ```
 
-## 3. Else If Ladder Condition
+### 3. Else If Ladder Condition
 
 - Write a progeram to input the names of five subjects Physics,Chemistry,Biology,
   Maths and Computer. Calculate percentage and grade according to the given conditions
@@ -105,7 +106,7 @@
    Grade D
 ```
 
-## 4. Nested - If Condition
+### 4. Nested - If Condition
 - Find Maximum between three numbers
 
 ```
