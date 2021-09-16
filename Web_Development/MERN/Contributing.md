@@ -50,7 +50,6 @@ git checkout MERN
    which is the unarguable standard to be enforced in the event
    repository. We shall stick to the same.
 2. The repository structure will be something like this:
-   ```
 Branch structure: 
 
 MERN
