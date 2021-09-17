@@ -22,4 +22,4 @@ This project and everyone participating in it is governed by the [GirlScript Cod
 ##Roadmap for Machine Learning :
  
  
-[embed]https://docs.google.com/spreadsheets/d/1692pAopoefipKZi4LxhWc-dAL0XmaIx4h4BolRcMvsc/edit?usp=sharing[/embed]
+[embed]https://drive.google.com/file/d/1LvZopQnVGYZNzTTO_MZh3JVlFO-kRd1Z/view?usp=sharing[/embed]
