@@ -6,7 +6,7 @@
 
 # How to get Work
 
-We will create issues according to Roadmap.You guys can comment under the issues in which you are intrested to work on.We are following first come first method.
+We will create issues according to Roadmap.You guys can comment under the issues in which you are intrested to work on alon with in which type you are going to do it.We are following first come first method.
 - You can find the issues at [https://github.com/girlscript/winter-of-contributing/milestone/3](url)
 
 ## Imp
