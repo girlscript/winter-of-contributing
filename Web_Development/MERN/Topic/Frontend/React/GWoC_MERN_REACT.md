@@ -55,7 +55,7 @@ To create a project, go to terminal and type-
 1. Using npx:
     > npx create-react-app name-of-app
 
-   _[npx](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)  npx is a tool intended to help round out the experience of using packages from the npm registry and it installs all the necessory dependencies._ 
+   _[`npx`](https://medium.com/@maybekatz/introducing-npx-an-npm-package-runner-55f7d4bd282b)  npx is a tool intended to help round out the experience of using packages from the npm registry and it installs all the necessory dependencies._ 
   
   2. Using npm:
         >npm init react-app name-of-app
