@@ -19,10 +19,10 @@ To use the Angular framework, you should be familiar with the following:
 Angular requires an active LTS(version **14**) or maintenance LTS(version **12**) version of Node.js only.
 Download and install [Node.js](https://nodejs.org/en/download/) on your computer. It will be installed globally in your computer.
 2. [**npm (Node Package Manager)**]() :  is the world's largest software registry. It contains over 800,000 **code packages** that can be used into any project for free. It uses **Node.js** to install packages locally in your app. CLI is most commanly used to interact with npm. To check that you have the npm client installed, run `npm -v` in a terminal window.
-#### Windows Example
->C:\>npm install <package_name>
-#### Mac OS Example
->npm install <package_name>
+	#### Windows Example
+	>C:\>npm install <package_name>
+	#### Mac OS Example
+	>npm install <package_name>
  
 ## Install the Angular CLI
 You use the Angular CLI to create projects, generate application and library code, and perform a variety of ongoing development tasks such as testing, bundling, and deployment.
