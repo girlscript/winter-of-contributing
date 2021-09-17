@@ -1,9 +1,9 @@
 # Operators in Javascript
 
-#### Operators are the symbols between values that allow us to do different operation like addition, subtraction, multiplication and more
+#### Operators are the symbols between values that allow us to do different operation like addition, subtraction, multiplication and more.
 
-#### Different Types of Opeartor
-Javascript has different types of opeartor to do specific task with values.
+#### Different Types of Operator
+Javascript has different types of operator to do specific task with values.
 
 - [Assignment Operators](AssignmentOperator.md#assignment-operator)
 - [Arithmetic Operators](ArithmeticOperator.md#arithmetic-operators)
@@ -98,5 +98,5 @@ var result = condition ? trueValue : falseValue;
 If the condition is true, the trueValue is returned, otherwise the falseValue is returned.
 
 
-## Contributed by:
+### Contributed by:
 ****[Rwitesh Bera](https://github.com/rwiteshbera)****
