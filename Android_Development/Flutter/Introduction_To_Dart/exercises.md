@@ -33,19 +33,11 @@
 
 A Dart string is a sequence of UTF-16 (16-bit Unicode Transformation Format) code units. It makes Dart more powerful to build our mobile and web applications in any language. In this tutorial, we’re gonna look at many Dart String Functions & Operators that are helpful. You will know:
 
-Ways to create some kind of Strings in Dart/Flutter
-Methods get data from a String in Dart/Flutter
-Basic methods to validate data inside a String in Dart/Flutter
-How to transfrom, split, join, trim Strings in Dart/Flutter
-Some kind of methods to replace substring in a String in Dart/FlutterA Dart string is a sequence of UTF-16 (16-bit Unicode Transformation Format) code units. It makes Dart more powerful to build our mobile and web applications in any language. In this tutorial, we’re gonna look at many Dart String Functions & Operators that are helpful. You will know:
+How to create Strings in Dart ?
+How to input data from a String in Dart ?
+How to get a substring from a given String in Dart ?
 
--Ways to create some kind of Strings in Dart/Flutter
--Methods get data from a String in Dart/Flutter
--Basic methods to validate data inside a String in Dart/Flutter
--How to transfrom, split, join, trim Strings in Dart/Flutter
--Some kind of methods to replace substring in a String in Dart/Flutter
-
-### If
+### How to create Strings in Dart ?
 
 In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
 
@@ -77,7 +69,7 @@ if (isRaining) {
 
  The same goes for the second condition, if isRaining is false the if block will not be executed and we do not see any output. In order to see the result of a falsy condition, we should have another block, which is going to be _else_.
 
-### If Else
+### How to input data from a String in Dart ?
 
 If condition is true the first block will be executed, if not the else condition will be executed.
 
@@ -128,7 +120,7 @@ if (isRaining) {
 
 The last condition is false, therefore the else block was executed. What if we have more than two conditions? In that case,  we would use *else if* conditions.
 
-### If  Else if Else
+### How to get a substring from a given String in Dart ?
 
 On our daily life, we make decisions on daily basis. We make decisions not by checking  one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full of conditions. We use *else if* when we have multiple conditions.
 
@@ -173,105 +165,6 @@ if (weather === 'rainy') {
 }
 ```
 
-### Switch
-
-Switch  is an alternative for **if else if else else**.
-The switch statement starts with a *switch* keyword followed by a parenthesis and code block. Inside the code block we will have different cases. Case block runs if the value in the switch statement parenthesis matches with the case value. The break statement is to terminate execution so the code execution  does not go down after the condition is satisfied.  The default block runs if all the cases don't satisfy the condition.
-
-```js
-switch(caseValue){
-  case 1:
-    // code
-    break
-  case 2:
-   // code
-   break
-  case 3:
-  // code
-  default:
-   // code
-}
-```
-
-```js
-let weather = 'cloudy'
-switch (weather) {
-  case 'rainy':
-    console.log('You need a rain coat.')
-    break
-  case 'cloudy':
-    console.log('It might be cold, you need a jacket.')
-    break
-  case 'sunny':
-    console.log('Go out freely.')
-    break
-  default:
-    console.log(' No need for rain coat.')
-}
-
-// Switch More Examples
-let dayUserInput = prompt('What day is today ?')
-let day = dayUserInput.toLowerCase()
-
-switch (day) {
-  case 'monday':
-    console.log('Today is Monday')
-    break
-  case 'tuesday':
-    console.log('Today is Tuesday')
-    break
-  case 'wednesday':
-    console.log('Today is Wednesday')
-    break
-  case 'thursday':
-    console.log('Today is Thursday')
-    break
-  case 'friday':
-    console.log('Today is Friday')
-    break
-  case 'saturday':
-    console.log('Today is Saturday')
-    break
-  case 'sunday':
-    console.log('Today is Sunday')
-    break
-  default:
-    console.log('It is not a week day.')
-}
-
-```
-
-// Examples to use conditions in the cases
-
-```js
-let num = prompt('Enter number');
-switch (true) {
-  case num > 0:
-    console.log('Number is positive');
-    break;
-  case num == 0:
-    console.log('Numbers is zero');
-    break;
-  case num < 0:
-    console.log('Number is negative');
-    break;
-  default:
-    console.log('Entered value was not a number');
-}
-```
-
-### Ternary Operators
-
-Another way to write conditionals is using ternary operators. We have covered this in other sections, but we should also mention it here.
-
-```js
-let isRaining = true
-isRaining
-  ? console.log('You need a rain coat.')
-  : console.log('No need for a rain coat.')
-```
-
-🌕  You are extraordinary and you have a remarkable potential. You have just completed day 4 challenges and you are four steps ahead to your way to greatness. Now do some exercises for your brain and  muscle.  
 
 ## 💻 Exercises
 
