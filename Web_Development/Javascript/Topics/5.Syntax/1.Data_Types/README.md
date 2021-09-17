@@ -64,7 +64,12 @@ __Example:__
 ```javascript
 let rollNo = null; // value here is unknown
 ```
+# Difference Between ```null``` and ```undefined```
+1. ```undefined``` is a type whereas ```null``` is an object.
+2. ```undefined``` means a variable has been declared, but no value has been assigned to it.
 
+    whereas ```null``` means you can assign it to the variable.
+    
 # JavaScript Non-Primitive Data Types
 ## 1. Object
 It represents instances through which we can access the members.
