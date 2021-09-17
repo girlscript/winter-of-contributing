@@ -143,7 +143,7 @@ Components
  
 ## Vue RoadMap 
  
-### Introduction (Week-1)
+### 1) Introduction (Week-1)
 - VueJS Intro (uses, benefits, scalability)
 - Introduction to VueJS using CDN
 - Installation using NPM and about Vue CLI
@@ -151,37 +151,38 @@ Components
 - Installing Vue-DevTools
 - Vue Components
 
-### Data Manipulation in VueJS (Week-2)
+### 2) Data Manipulation in VueJS (Week-2)
 - Data and Methods
 - Data Manipulation in VueJS (using methods)
 - Computed Properties
 - Watchers
 - Filters
 
-### DOM Manipulation (Week-3)
+### 3) DOM Manipulation (Week-3)
 - Inline style manipulation
 - Class binding
 - **ref** keyword in VueJS
-### Directives (Week-4)
+
+### 4) Directives (Week-4)
 - Conditional rendering (v-if / v-show)
 - One way data binding (v-bind) & Two way data binding (v-model)
 - Event Listening (v-on)
 - List rendering (v-for)
 - HTML rendering (v-html)
 
-### Event Handling (Week-5)
+### 5) Event Handling (Week-5)
 - Event Listening and Handling in VueJs (using v-on)
 - Emitting events
 - Creating custom Events
 
-### Component reusability (Week-6)
+### 6) Component reusability (Week-6)
 - Props
 - Slots
 - Child Component Data manipulation using events (Child to Parent)
 - Component Lifecycle hooks methods
 - Dynamic Components
 
-### Plugins (Week-7)
+### 7) Plugins (Week-7)
 - Plugins introduction and installation in VueJs (Vue Router & Vuex)
 - Creating Routes (Static and Dynamic)
 - Nested Routes
@@ -190,7 +191,7 @@ Components
 - Route Meta fields
 - Handling routes Programmatically
 
-### State management (Week-8)
+### 8) State management (Week-8)
 - Need of State Management
 - Workflow of State Management in Vue Js
 - Vuex Installation
