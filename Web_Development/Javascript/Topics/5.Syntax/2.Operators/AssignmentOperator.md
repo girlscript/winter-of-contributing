@@ -1,4 +1,6 @@
-# Assignment Operator
+# Assignment Operators
+[Back to Homepage](README.md#operators-in-javascript)
+
 #### 1. Values Assignment (=)
 ```js
 let count = 5;
@@ -55,7 +57,7 @@ Or,
 ```js
 let count = count % x;
 ```
-#### 6. Exponentiation (**=)
+#### 7. Exponentiation (**=)
 Exponentiation Assignment (**=) assigns the result to the variable after getting the value of the variable to the power right operand.
 ```js
 let count **= x;
@@ -72,7 +74,7 @@ count **= 2; // 5 to the power 2
 console.log(count); // 25
 ```
 
-#### 7. Left Shift Assignment (<<=)
+#### 8. Left Shift Assignment (<<=)
 Left shift assignment moved the specified amounts of bit to the left side and assigns its value to left operand.
 ```js
 let a = 3; // 00000000000000000000000000000011
@@ -82,7 +84,7 @@ a <<=2; //    00000000000000000000000000001100
 console.log(a); // Output: 12
 ```
 
-#### 7. Right Shift Assignment (>>=)
+#### 9. Right Shift Assignment (>>=)
 Right shift assignment moved the specified amounts of bit to the right side and assigns its value to left operand.
 ```js
 let a = 3; // 00000000000000000000000000000011
@@ -92,7 +94,7 @@ a >>=2; //    00000000000000000000000000000000
 console.log(a); // Output: 0
 ```
 
-#### 8. Bitwise AND (&=)
+#### 10. Bitwise AND (&=)
 Bitwise AND assignment assigns the result of bitwise AND operation to the left operand.
 
 ```js
@@ -102,7 +104,7 @@ a &= 2; //    00000000000000000000000000000010
 console.log(a); // Output: 2
 ```
 
-#### 9. Bitwise OR (|=)
+#### 11. Bitwise OR (|=)
 Bitwise OR assignment assigns the result of bitwise OR operation to the left operand.
 
 ```js
@@ -113,7 +115,7 @@ a |= 2; //    00000000000000000000000000000110
 console.log(a); // Output: 6
 ```
 
-#### 10. Bitwise XOR (^=)
+#### 12. Bitwise XOR (^=)
 Bitwise XOR assignment assigns the result of bitwise XOR operation to the left operand.
 
 ```js
@@ -123,3 +125,11 @@ a ^= 2; //    00000000000000000000000000000110
 
 console.log(a); // Output: 6
 ```
+
+
+Related Topics:
+- [Arithmetic Operators](ArithmeticOperator.md#arithmetic-operators)
+- [Comparison Operators](ComparisonOperator.md#comparison-operators)
+- [Bitwise Operators](BitwiseOperator.md#bitwise-operators)
+- [logical Operators](LogicalOperator.md#logical-operators)
+- [Ternary/ Conditonal Operators](TernaryOperator.md#ternary-operators)
