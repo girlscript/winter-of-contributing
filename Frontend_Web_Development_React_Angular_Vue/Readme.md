@@ -16,10 +16,11 @@ We will create issues according to Roadmap.You guys can comment under the issues
 
 Guys Please Take Care that ,while making a **PR** please follow these instructions
 1. Please add Frontend With Framework In Beginning of your PR Heading,as in issues
-2. Send your PR Link  in discord general chat of our domain
-3. Add your file in your domain folder only(eg:For React there is a React folder)
-4. Inside your domain folder there are Week based folder's
-5. Add your PR in that folders according to the Week(you can find which week is going on now by looking at the top of this Readme.md)
+- (eg: Frontend With FrameWork - your pr heading)
+3. Send your PR Link  in discord general chat of our domain
+4. Add your file in your domain folder only(eg:For React there is a React folder)
+5. Inside your domain folder there are Week based folder's
+6. Add your PR in that folders according to the Week(you can find which week is going on now by looking at the top of this Readme.md)
 
 Otherwise your PR will be lost in tones of PR.Please follow this Trend
 
