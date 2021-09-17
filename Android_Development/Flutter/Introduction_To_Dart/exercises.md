@@ -12,27 +12,11 @@
    You are left with 3 years to drive.
    ```
 
-<div align="center">
-  <h1> 30 Days Of JavaScript: Conditionals</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
 
-  <sub>Author:
-  <a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-  <small> January, 2020</small>
-  </sub>
-</div>
 
-[<< Day 3](../03_Day_Booleans_operators_date/03_booleans_operators_date.md) | [Day 5 >>](../05_Day_Arrays/05_day_arrays.md)
+[
 
-![Thirty Days Of JavaScript](../images/banners/day_1_4.png)
-
-- [📔 Day 4](#-day-4)
-  - [Conditionals](#conditionals)
+  - [Strings](#strings)
     - [If](#if)
     - [If Else](#if-else)
     - [If  Else if Else](#if-else-if-else)
@@ -43,29 +27,29 @@
     - [Exercises: Level 2](#exercises-level-2)
     - [Exercises: Level 3](#exercises-level-3)
 
-# 📔 Day 4
 
-## Conditionals
 
-Conditional statements are used for  make decisions based on different conditions.
-By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
+## Strings
 
-- Conditional execution: a block of one or more statements will be executed if a certain expression is true
-- Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true. In this section, we will cover _if_, _else_ , _else if_ statements. The comparison and logical operators we learned in the previous sections will be useful in here.
+A Dart string is a sequence of UTF-16 (16-bit Unicode Transformation Format) code units. It makes Dart more powerful to build our mobile and web applications in any language. In this tutorial, we’re gonna look at many Dart String Functions & Operators that are helpful. You will know:
 
-Conditions can be implementing using the following ways:
+Ways to create some kind of Strings in Dart/Flutter
+Methods get data from a String in Dart/Flutter
+Basic methods to validate data inside a String in Dart/Flutter
+How to transfrom, split, join, trim Strings in Dart/Flutter
+Some kind of methods to replace substring in a String in Dart/FlutterA Dart string is a sequence of UTF-16 (16-bit Unicode Transformation Format) code units. It makes Dart more powerful to build our mobile and web applications in any language. In this tutorial, we’re gonna look at many Dart String Functions & Operators that are helpful. You will know:
 
-- if
-- if else
-- if else if else
-- switch
-- ternary operator
+-Ways to create some kind of Strings in Dart/Flutter
+-Methods get data from a String in Dart/Flutter
+-Basic methods to validate data inside a String in Dart/Flutter
+-How to transfrom, split, join, trim Strings in Dart/Flutter
+-Some kind of methods to replace substring in a String in Dart/Flutter
 
 ### If
 
 In JavaScript and other programming languages the key word _if_ is to used check if a condition is true and to execute the block code. To create an if condition, we need _if_ keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
 
-```js
+```dart
 // syntax
 if (condition) {
   //this part of code runs for truthy condition
@@ -74,7 +58,7 @@ if (condition) {
 
 **Example:**
 
-```js
+```dart
 let num = 3
 if (num > 0) {
   console.log(`${num} is a positive number`)
@@ -84,7 +68,7 @@ if (num > 0) {
 
 As you can see in the  condition example above, 3 is greater than 0, so it is a positive number. The condition was true and the block of code was executed. However, if the condition is false, we won't  see any results.
 
-```js
+```dart
 let isRaining = true
 if (isRaining) {
   console.log('Remember to take your rain coat.')
@@ -383,8 +367,3 @@ isRaining
   ```
 
 1. Write a program which tells the number of days in a month, now consider leap year.
-
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 3](../03_Day_Booleans_operators_date/03_booleans_operators_date.md) | [Day 5 >>](../05_Day_Arrays/05_day_arrays.md)
