@@ -106,7 +106,7 @@ Click on fork to create a copy of project to your account. This creates a separa
 
 You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
 
-`$ git clone https://github.com/girlscript/winter-of-contributing.git` <br/>
+`$ git clone https://github.com/"YOUR_ACCOUNT_NAME"/girlscript/winter-of-contributing.git` <br/>
 Now you have the project on your local machine.
 
 <br />
