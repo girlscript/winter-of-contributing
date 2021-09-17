@@ -21,6 +21,8 @@ true, next iteration of loop starts.
 4. It is important to note that the do-while loop will execute its statements atleast once before any condition is checked, and therefore is an
 example of exit control loop.
 
+![](Do_while_1.png)
+
 ### Do While loop vs While loop
 
 - In While loop, the condition tested at the beginning of the
