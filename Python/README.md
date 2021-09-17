@@ -8,8 +8,7 @@
 
 ## Index
 - [GitHub](./Git_And_GitHub)
-- [About Python](./About_Python)
+
 
 ## Learning path
 1. Git & GitHub
-2. About Python
