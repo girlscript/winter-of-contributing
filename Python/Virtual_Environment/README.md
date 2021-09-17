@@ -23,7 +23,7 @@
 ## Python Virtual environment
 ### Python applications may often use packages and modules that don’t come as part of the standard library. This might require the installation of the packages and modules needed.
 ### On installation, the older versions of the packages/modules get deleted.In order to prevent this, a Virtual environment is created  that contains a Python installation for a particular version of Python, plus a number of additional packages.
-![Alt text](./img/venv.jpeg)
+<img src="https://github.com/Yashesvinee/winter-of-contributing/blob/Python/Python/Virtual_Environment/img/venv.jpeg" width="400"><br>
 ----
 ## Creating a Virtual environment
 ### The module used to create and manage virtual environments is called *venv*. *venv* will usually install the most recent version of Python available. If you have multiple versions on your system, you can select a specific Python version by running the version you want.<br>To create a virtual environment, decide upon a directory where you want to place it, and run the venv module as a script with the directory path:
