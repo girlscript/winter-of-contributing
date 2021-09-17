@@ -61,13 +61,14 @@ The Angular CLI includes a server, for you to build and serve your app locally.
 1.  Navigate to the workspace folder, such as  `my-app`.
     
 2.  Run the following command:
-	 #### Windows Example
-	 >C:\>cd my-app
-	 >C:\my-app\>ng serve --open
+	 
+	#### Windows Example
+	>C:\>cd my-app
+	>C:\my-app\>ng serve --open
 	
-	 #### Mac OS Example
-	 >cd my-app 
-	 >ng serve --open
+	#### Mac OS Example
+	>cd my-app 
+	>ng serve --open
 
 The  `ng serve`  command launches the server, watches your files, and rebuilds the app as you make changes to those files.
 
