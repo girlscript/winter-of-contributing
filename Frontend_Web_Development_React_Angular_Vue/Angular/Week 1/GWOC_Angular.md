@@ -54,7 +54,8 @@ library code, and perform a variety of ongoing development tasks such as
 testing, bundling, and deployment.
 
 To install the Angular CLI, open a terminal window and run the following
-command: \#\#\#\# Windows Example \>C:\>npm install -g @angular/cli
+command: 
+\#\#\#\# Windows Example \>C:\>npm install -g @angular/cli
 \#\#\#\# Mac OS Example \>npm install -g @angular/cli
 
 npm uses Node.js to install the **cli (Command Line Interface)** from
@@ -102,12 +103,16 @@ locally.
 
 1.  Navigate to the workspace folder, such as `my-app`.
 
-2.  Run the following command: \#\#\#\# Windows Example \>C:\>cd my-app
+2.  Run the following command: 
+    
+    \#\#\#\# Windows Example
+    \>C:\>cd my-app
     \>C:\my-app\>ng serve --open
 
     #### Mac OS Example
 
-    > cd my-app ng serve --open
+    > cd my-app 
+    > ng serve --open
 
 The `ng serve` command launches the server, watches your files, and
 rebuilds the app as you make changes to those files.
