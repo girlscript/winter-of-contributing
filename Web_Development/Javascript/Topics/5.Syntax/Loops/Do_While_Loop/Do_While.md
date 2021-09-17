@@ -13,10 +13,6 @@ while (condition);
 
 ```
 
-### Flowchart:
-
-![Untitled](Do_while_1.png)
-
 1. do while loop starts with the execution of the statement(s). There is no checking of any condition for the first time.
 2. After the execution of the statements, and update of the variable value, the
 condition is checked for true or false value. If it is evaluated to

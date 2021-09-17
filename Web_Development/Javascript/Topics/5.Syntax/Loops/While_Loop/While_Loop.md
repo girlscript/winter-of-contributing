@@ -14,8 +14,6 @@ while (boolean condition)
 
 Control Flow of a while loop
 
-![Untitled](While_1.png)
-
 - While loop starts with the checking for the condition. If the condition is true, then the loop body is executed. It is an **Entry control loop**
 - Once the condition is evaluated to true, the statements in the loop body are
 executed. Normally the statements contain an update value for the

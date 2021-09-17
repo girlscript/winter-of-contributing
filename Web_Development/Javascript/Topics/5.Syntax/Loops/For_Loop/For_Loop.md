@@ -10,8 +10,6 @@ for ([initialExpression]; [conditionExpression]; [incrementExpression]){
 }
 ```
 
-![Untitled](For_2.png)
-
 - **Initialization condition:** Here, we initialize the
 variable in use. It marks the start of a for loop. An already declared
 variable can be used or a variable can be declared, local to loop only.
@@ -19,10 +17,6 @@ variable can be used or a variable can be declared, local to loop only.
 - **Statement execution:** Once the condition is evaluated to true, the statements in the loop body are executed.
 - **Increment/ Decrement:** It is used for updating the variable for next iteration.
 - **Loop termination:** When the condition becomes false, the loop terminates marking the end of its life cycle.
-
-## The scope of a for loop
-
-![Untitled](For_1.png)
 
 ## Example of a for loop
 ```javascript
