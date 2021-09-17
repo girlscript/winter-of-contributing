@@ -1,5 +1,5 @@
 # Ternary/ Conditional Operators
-[Back to Homepage](README.md#operators-in-javascript)
+[Back to Operators in Javascript](README.md#operators-in-javascript)
 
 The conditional operator is a ternary operator that is used to evaluate a condition and return a result.
 

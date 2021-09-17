@@ -9,7 +9,7 @@ Javascript has different types of operator to do specific task with values.
 - [Arithmetic Operators](ArithmeticOperator.md#arithmetic-operators)
 - [Comparison Operators](ComparisonOperator.md#comparison-operators)
 - [Bitwise Operators](BitwiseOperator.md#bitwise-operators)
-- [logical Operators](LogicalOperator.md#logical-operators)
+- [Logical Operators](LogicalOperator.md#logical-operators)
 - [Ternary/ Conditonal Operators](TernaryOperator.md#ternary-operators)
   
 ### [Assignment Operators](AssignmentOperator.md#assignment-operators)

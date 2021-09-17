@@ -1,5 +1,5 @@
 # Comparison Operators
-[Back to Homepage](README.md#operators-in-javascript)
+[Back to Operators in Javascript](README.md#operators-in-javascript)
 
 Comparison operators are used to compare values and returns boolean value (true or false).
 

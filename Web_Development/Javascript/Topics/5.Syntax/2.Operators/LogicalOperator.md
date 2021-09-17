@@ -1,5 +1,5 @@
 # logical Operators
-[Back to Homepage](README.md#operators-in-javascript)
+[Back to Operators in Javascript](README.md#operators-in-javascript)
 
 #### 1. Logical AND Operator (&&)
 ##### Usage : expression1 && expression2

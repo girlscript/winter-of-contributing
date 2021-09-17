@@ -1,5 +1,5 @@
 # Bitwise Operators
-[Back to Homepage](README.md#operators-in-javascript)
+[Back to Operators in Javascript](README.md#operators-in-javascript)
 
 #### 1. Bitwise AND (&)
 Set each bit to 1 if both bits are 1. Otherwise set to 0.
