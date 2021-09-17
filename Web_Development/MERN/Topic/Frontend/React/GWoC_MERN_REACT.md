@@ -60,7 +60,7 @@ To create a project, go to terminal and type-
   2. Using npm:
         >npm init react-app name-of-app
         
-        `npm init <initializer>`  is available in npm 6+
+        _[`npm init <initializer>`]()  is available in npm 6+_
     
   3. Using yarn:
        >yarn create react-app name-of-app
