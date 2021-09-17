@@ -2,6 +2,27 @@
 
 ![Alt text](./assets/react.png?raw=true) ![Alt text](./assets/angular.png?raw=true)![Alt text](./assets/vue.png?raw=true)
 
+## Week 1 is going on !!!!
+
+# How to get Work
+
+We will create issues according to Roadmap.You guys can comment under the issues in which you are intrested to work on alon with in which type you are going to do it.We are following first come first method.
+- You can find the issues at [https://github.com/girlscript/winter-of-contributing/milestone/3](url)
+
+## Imp
+- Contributers are not allowded to create issues
+ 
+# Important Things before making PR
+
+Guys Please Take Care that ,while making a **PR** please follow these instructions
+1. Please add Frontend With Framework In Beginning of your PR Heading,as in issues
+2. Send your PR Link  in discord general chat of our domain
+3. Add your file in your domain folder only(eg:For React there is a React folder)
+4. Inside your domain folder there are Week based folder's
+5. Add your PR in that folders according to the Week(you can find which week is going on now by looking at the top of this Readme.md)
+
+Otherwise your PR will be lost in tones of PR.Please follow this Trend
+
 # Road Map
  
 ## Angular Road Map 
