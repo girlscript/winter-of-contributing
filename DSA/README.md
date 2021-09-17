@@ -16,9 +16,9 @@ This is the DSA branch for contribution under Girlscript Winter Of Contributing.
 </div>
 
 ## Introduction
-Data Structure can be defined as the group of data elements which provides an efficient way of storing and organising data in the computer so that it can be used efficiently. Data Structures are widely used in almost every aspect of Computer Science i.e. Operating System, Compiler Design, Artifical intelligence, Graphics and many more.
+Data Structures are the main part of many computer science algorithms as they enable the programmers to handle the data in an efficient way. Data Structures are widely used in almost every aspect of Computer Science i.e. Operating System, Compiler Design, Artifical intelligence, Graphics and many more.
 
-Data Structures are the main part of many computer science algorithms as they enable the programmers to handle the data in an efficient way. It plays a vital role in enhancing the performance of a software or a program as the main function of the software is to store and retrieve the user's data as fast as possible.
+  In this project, we're creating a multilingual content repo intended to contain tutorials, code walkthroughs, explanatory articles, etc pertaining to the DSA topics in the form of doc, audio and video.
 
 ## Roadmap (Overview of Code Structure)
 ### Data Structures
@@ -54,6 +54,15 @@ Reference to get started:
 ## License
 
 This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## Maintainers
+<a href="https://github.com/nimisha-yadav">
+  <img src="https://contrib.rocks/image?repo=nimisha-yadav/nimisha-yadav" />
+</a>
+<a href="https://github.com/pjdurden">
+  <img src="https://contrib.rocks/image?repo=pjdurden/pjdurden" />
+</a>
+
 <hr>
 
 ![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
