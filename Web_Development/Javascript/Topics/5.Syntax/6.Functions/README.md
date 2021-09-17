@@ -134,6 +134,8 @@ Functions are primarily classified into 2 types,i.e, **First Class Functions** a
 - In the newest version of Javascript, concepts like class, method and constructor were introduced but this are nothing more than syntactic sugar over the same functionalities, already covered by the function.
 - Functions are everywhere, why not use them!
 
+<br><br><br>
 
+##### Contributor: Sushovan Banerjee 
 
 
