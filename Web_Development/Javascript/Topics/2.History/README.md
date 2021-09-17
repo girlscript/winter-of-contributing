@@ -1,20 +1,20 @@
 <br>
 
-# WHAT IS JAVASCRIPT?
+# What Is JavaScript?
 
 <br>
 
 ![image](js-1.png)
 <br><br>
 
-# TIMELINE OF JAVASCRIPT
+# Timeline Of JavaScript
 
 <br>
 
 ![image](js-2.png)
 <br><br>
 
-# A BRIEF HISTORY OF JAVASCRIPT
+# A Brief History Of Javascript
 
 <br>
 
