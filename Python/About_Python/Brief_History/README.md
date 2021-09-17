@@ -4,12 +4,16 @@
 3. The learning path should act as a roadmap to the learners. The learners should not be clueless after coming to the repository.
   -->
 
-# Title (name of the field)
+## Brief History of Python
 
-## Index
-- [GitHub](./Git_And_GitHub)
-- [About Python](./About_Python)
 
-## Learning path
-1. Git & GitHub
-2. About Python
+
+
+<!--
+- [HTML](./html)
+- [CSS](./css)
+- [JavaScript](./javascript)
+-->
+- [Documentation]()
+- [Video](https://biteable.com/watch/3235056/2fa7b444c37b410cbc5a821d75e4c683)
+- [Audio]()

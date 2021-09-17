@@ -4,12 +4,15 @@
 3. The learning path should act as a roadmap to the learners. The learners should not be clueless after coming to the repository.
   -->
 
-# Title (name of the field)
+# About Python
+
+# Description
+Python is an interpreted, object-oriented, high-level programming language.
 
 ## Index
-- [GitHub](./Git_And_GitHub)
-- [About Python](./About_Python)
-
-## Learning path
-1. Git & GitHub
-2. About Python
+<!--
+- [HTML](./html)
+- [CSS](./css)
+- [JavaScript](./javascript)
+-->
+- [Brief History](./Brief_History)
