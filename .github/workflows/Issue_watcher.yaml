@@ -11,9 +11,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@main
       - name: Run Action
-        uses: TesseractCoding/Issue_Watcher@main
+        uses: Suvraneel/Issue_Watcher@main
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           author: "${{github.actor}}"
           repo: Suvraneel/Automated-assign-labeler #Change the Repo name
-          maxIssue: 2
+          maxIssue: 3
