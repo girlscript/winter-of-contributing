@@ -2,15 +2,14 @@
 
 ### Exercises:
 
-1. Maps
+## 1. Maps
 
 ### Statement :- Access the student via roll no.
+// Map is a data type which contains key , value pairs and the values can only be accessed by using keys.
+// Every Key is unique in Map but the values can be same.
+// The map that I have created in this example is <String , String>.
 
-### Map is a data type which contains key , value pairs and the values can only be accessed by using keys.
-### Every Key is unique in Map but the values can be same.
-### The map that I have created in this example is <String , String>.
-
-```
+```dart
 void main() {
 Map data = {
 "1": "Rohan",
@@ -29,13 +28,13 @@ Output:
    Pranav
 ```
 
-2. Lists
+## 2. Lists
 
 ### statement :- Create a list and access their all values and add one extra value and print all again.
-### List is simply an ordered group of objects.
-### The values in Lists are also accessed by Indices.
-### The List can be growable
-```
+// List is simply an ordered group of objects.
+// The values in Lists are also accessed by Indices.
+// The List can be growable
+```dart
 void main(){
 List myList = ["This is the First index" , "This is the Second index" , "This is the Third index"];
 
