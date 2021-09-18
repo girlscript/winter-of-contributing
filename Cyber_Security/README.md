@@ -36,3 +36,7 @@
 - [ ] Familiar to Linux Terminal
 - [ ] Linux File System
 - [ ] Linux File System Directories
+## Week-2 (Networking)
+- [ ] What is IP address
+    - ipv4
+    - ipv6
