@@ -1,6 +1,6 @@
 # Do While Loop
 
-do while loop is similar to while loop with only difference that it checks for condition after executing the statements, and therefore is an example of Exit Control Loop.
+do while loop is similar to while loop with only difference that it checks for the condition after executing the statements, and therefore it is an example of Exit Control Loop.
 
 **Syntax:**
 
@@ -18,7 +18,7 @@ while (condition);
 condition is checked for true or false value. If it is evaluated to
 true, next iteration of loop starts.
 3. When the condition becomes false, the loop terminates which marks the end of its life cycle.
-4. It is important to note that the do-while loop will execute its statements atleast once before any condition is checked, and therefore is an
+4. It is important to note that the do-while loop will execute its statements atleast once before any condition is checked, and therefore it is an
 example of exit control loop.
 
 ![](Do_while_1.png)
