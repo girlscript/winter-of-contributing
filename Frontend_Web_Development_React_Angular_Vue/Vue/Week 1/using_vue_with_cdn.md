@@ -9,7 +9,7 @@ To use Vue.js with a CDN, simply add the following script tag to the head tag of
 
 ### Example
 Let's take a look at an example.
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
