@@ -1,5 +1,5 @@
 # 💻 Exercises
-
+## Array Utility Methods
 1. Explain briefly about the working of the Array Utility Methods forEach(), map() and reduce(). Use these methods to solve the following questions.\
    a) Given an array **numbers** = [2,3,5,6,8,9], print the square of these numbers.\
    b) Given an array **principal_amount** = [100,500,2000,700,950], return a new array, filled with the simple interest of each of the element in principal_amount array for a **time period** of **2 years** and a **rate of interest** of **15%**.\
@@ -10,8 +10,10 @@ The forEach() method, traverses over every element of the given iterable and per
 The map() method is similar to forEach(), but it actually returns an iterable, whereas forEach() returns a void type.\
 The reduce() method is used to obtain a cumulative single value from a given collection.
 \
+```
 a)
 ```
+```dart
   void main(){
       var numbers = [2,3,5,6,8,9];
       var op = numbers.forEach((number)=>print(number*number));
@@ -26,7 +28,7 @@ a)
       81
 ```  
       b)
-```
+```dart
    void main(){
       var principal_amount = [100,500,2000,700,950];
       var op = principal_amount.map((p)=>p*2*15/100);
@@ -37,7 +39,7 @@ a)
    (30, 150, 600, 210, 285)
 ```
       c)
-```
+```dart
    void main(){
       var studentHeigths = [171,185,163,154,173];
       var op = studentHeigths.reduce((current,next)=>current+next);
@@ -50,7 +52,7 @@ a)
 2. Given an array of building heights **bHeights** = [828,501,1002,321,978,200], sort the array and print the building heights in descending order.\
 \
 **Answer:**
-```
+```dart
    void main(){
       var bHeights = [828,501,1002,321,978,200];
       bHeights.sort((h1,h2)=>h2-h1);
@@ -68,7 +70,7 @@ a)
 3. Given an array of shortlisted candidates for a program **candidates** = ["James","Joseph","Jessica","John","Jonas"], check if a student called John is present in it.\
 \
 **Answer:**
-```
+```dart
    void main(){
       var candidates = ["James","Joseph","Jessica","John","Jonas"];
       print(candidates.contains("John"));
@@ -76,6 +78,8 @@ a)
 
    Output:
    true
+```
+
 
 
 ## Conditional Statements :
@@ -84,18 +88,18 @@ a)
 - Print "Excellent work" if the student scores A grade
 
 
-  ```dart
+```dart
   void main() {
   String grade = "A";
   if (grade == "A") {
     print("Excellent work");
     } 
   } 
-  ```
-   ```
+```
+```
    Output:
     Excellent work
-   ```
+```
 
 ### 2. If Else Condition
 
