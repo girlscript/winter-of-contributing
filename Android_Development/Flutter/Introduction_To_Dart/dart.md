@@ -131,8 +131,10 @@ You can control the flow of your Dart code using any of the following:
 * while and do-while loops
 * break and continue
 * switch and case
+
 #### if and else
 Dart supports if statements with optional else statements, as the next sample shows.
+
 **Syntax**
 ```
 if (isRaining()) {
@@ -145,6 +147,7 @@ if (isRaining()) {
 ``` 
 #### for loops
 You can iterate with the standard for loop.
+
 **Syntax**
 ```
 var message = StringBuffer('Dart is fun');
@@ -154,6 +157,7 @@ for (var i = 0; i < 5; i++) {
 ``` 
 #### while and do-while
 A while loop evaluates the condition before the loop:
+
 **Syntax**
 ```
 while (!isDone()) {
@@ -161,6 +165,7 @@ while (!isDone()) {
 }
 ``` 
 A do-while loop evaluates the condition after the loop:
+
 **Syntax**
 ```
 do {
@@ -169,6 +174,7 @@ do {
 ``` 
 #### break and continue
 Use break to stop looping:
+
 **Syntax**
 ```
 while (true) {
@@ -177,6 +183,7 @@ while (true) {
 }
 ``` 
 Use continue to skip to the next loop iteration:
+
 **Syntax**
 ```
 for (int i = 0; i < candidates.length; i++) {
@@ -191,6 +198,7 @@ for (int i = 0; i < candidates.length; i++) {
 Switch statements in Dart compare integer, string, or compile-time constants using ==. The compared objects must all be instances of the same class (and not of any of its subtypes), and the class must not override ==. Enumerated types work well in switch statements.
 Each non-empty case clause ends with a break statement, as a rule. Other valid ways to end a non-empty case clause are a continue, throw, or return statement.
 Use a default clause to execute code when no case clause matches:
+
 **Syntax**
 ```
 var command = 'OPEN';
@@ -215,10 +223,11 @@ switch (command) {
 }
 ``` 
 
-#### Dart Classes
+### Dart Classes
 Dart is an object-oriented language. It supports object-oriented programming features like classes, interfaces, etc. A class in terms of OOP is a blueprint for creating objects. A class encapsulates data for the object. Dart gives built-in support for this concept called class.
-#### Declaring a Class
+### Declaring a Class
 Use the class keyword to declare a class in Dart. A class definition starts with the keyword class followed by the class name; and the class body enclosed by a pair of curly braces.
+
 **Syntax**
 ```
 class class_name {  
@@ -234,6 +243,7 @@ A class definition can include the following −
 * Setters and Getters − Allows the program to initialize and retrieve the values of the fields of a class. A default getter/ setter is associated with every class. However, the default ones can be overridden by explicitly defining a setter/ getter.
 * Constructors − responsible for allocating memory for the objects of the class.
 * Functions − Functions represent actions an object can take. They are also at times referred to as methods.
+
 **Example**
 ```
 class Car {  
@@ -248,8 +258,9 @@ class Car {
 ``` 
 > The example declares a class Car. The class has a field named engine. The disp() is a simple function that prints the value of the field engine.
 
-#### Creating Instance of the class
+### Creating Instance of the class
 To create an instance of the class, use the new keyword followed by the class name.
+
 **Syntax**
 ```
 var object_name = new class_name([ arguments ])
@@ -262,7 +273,7 @@ var object_name = new class_name([ arguments ])
 var obj = new Car("Engine 1")
 ``` 
 
-#### Accessing Attributes and Functions
+### Accessing Attributes and Functions
 A class’s attributes and functions can be accessed through the object. Use the ‘.’ dot notation (called as the period) to access the data members of a class.
 ```
 //accessing an attribute 
@@ -290,8 +301,9 @@ class Car {
 ``` 
 The output of the above program will be **E1001**
 
-#### Dart Constructors
+### Dart Constructors
 A constructor is a special function of the class that is responsible for initializing the variables of the class. Dart defines a constructor with the same name as that of the class. A constructor is a function and hence can be parameterized. However, unlike a function, constructors cannot have a return type. If you don’t declare a constructor, a default no-argument constructor is provided for you.
+
 **Syntax**
 ```
 Class_name(parameter_list) { 
@@ -311,22 +323,25 @@ class Car {
 ``` 
 The output of the above program will be **E1001**
 
-#### Dart Class ─ Getters and Setters
+### Dart Class ─ Getters and Setters
 **Getters** and **Setters**, also called as **accessors** and **mutators**, allow the program to initialize and retrieve the values of class fields respectively. Getters or accessors are defined using the get keyword. Setters or mutators are defined using the **set** keyword.
 
 A default getter/setter is associated with every class. However, the default ones can be overridden by explicitly defining a setter/ getter. A getter has no parameters and returns a value, and the setter has one parameter and does not return a value.
+
 **Syntax: Defining a getter**
 ```
 Return_type  get identifier 
 { 
 } 
 ``` 
+
 **Syntax: Defining a setter**
 ```
 set identifier 
 { 
 }
 ``` 
+
 **Example**
 ```
 class Student { 
