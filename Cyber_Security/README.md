@@ -6,7 +6,7 @@
 - [x] [Challenges in Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.3_Challenges_in_InformationSecurity.md)
 - [ ] Information Security Controls?
 
-- [ ] What is Physical Security?
+- [x] [What is Physical Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.5_What_is_physical_security.md)
 - [ ] Importance of Physical Security
 - [ ] Challenges in Physical Security
 
