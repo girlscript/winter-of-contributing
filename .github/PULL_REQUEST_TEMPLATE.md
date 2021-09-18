@@ -48,9 +48,10 @@ Fixes # <issue_number_here>
 <hr>
 <!----Please enter your batch number inside the parenthesis. For example, Batch (0) like this----->
 
-#### Batch ( )
+#### Batch ( ) 🔱
 
 <hr>
+
 ## Checklist ✅
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
