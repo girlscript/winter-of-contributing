@@ -18,7 +18,3 @@ Please follow the [contributing guidelines](./.github/CONTRIBUTING.md) to contri
 ## Code of Conduct
 This project and everyone participating in it is governed by the [GirlScript Code of Conduct](./.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code
 
-
-## Roadmap for Machine Learning :
- 
-https://docs.google.com/spreadsheets/d/1692pAopoefipKZi4LxhWc-dAL0XmaIx4h4BolRcMvsc/edit?usp=sharing
