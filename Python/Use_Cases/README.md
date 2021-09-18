@@ -13,7 +13,7 @@ From simple web application development to big data analysis and infrastructure 
 - Internet of Things
 - Web Scraping
 
-![use_cases_final](C:\Users\Aditya Nair\Documents\Essential_Docs\Open_Source\GWOC\Python\Use_Cases\use_cases_final.png)
+![use_cases_final](https://user-images.githubusercontent.com/48587119/133889048-36d85537-ffdd-419b-94fa-99df4cf78679.png)
 
 ## Web Development
 
