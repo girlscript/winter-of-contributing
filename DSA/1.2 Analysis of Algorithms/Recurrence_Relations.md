@@ -1,10 +1,10 @@
-# Asymptopic Notation
+# Asymptotic  Notation
 
-### Definition Of Asymptopic Notation
-> Asymptopic Notation in simple may be defined as *"mathematical tools to represent the time complexity of algorithms for asymptotic analysis"*. 
+### Definition Of Asymptotic  Notation
+> Asymptotic  Notation in simple may be defined as *"mathematical tools to represent the time complexity of algorithms for asymptotic analysis"*. 
 
 
-### Use of Asymptopic Notation
+### Use of Asymptotic  Notation
 
 > Asymptotic Notation is used to describe the running time of an algorithm - how much time an algorithm takes with a given input, n. 
 
@@ -17,13 +17,13 @@
 
 
 
-### Why it is named as Asymptopic Notation?
-> When doing any complexity analysis we always try to find a fuction g(n) from our given function f(n), which approximats f(n) at higher values of n. That means g(n) is also a curve which approximates f(n) at higher values of n. In mathematics, we call such a curve an *asymptopic curve*. And because of that we call it Asymptopic Notation.
+### Why it is named as Asymptotic  Notation?
+> When doing any complexity analysis we always try to find a fuction g(n) from our given function f(n), which approximates f(n) at higher values of n. That means g(n) is also a curve which approximates f(n) at higher values of n. In mathematics, we call such a curve an *Asymptotic  curve*. And because of that we call it Asymptotic  Notation.
 
 
 
 
-### Benefits of using Asymptopic Notation
+### Benefits of using Asymptotic  Notation
 
 > Using Asympropic Notation, we represent the upper bound or lower bound of run-time in mathematical equations and thus help us perform our task with the best efficiency and fewer efforts.
 
@@ -68,7 +68,7 @@
 
 </details>
 
-> In a particularly bad case where the data are sorted in the opposite to the order you want, the time taken becomes f(n^2). Thus, the time complexity at this case would be O(n^2), which signifies uppper bound concept. But if the data is already sorted, then it will only take O(n) time which signifies lower bound concept.
+> In a particularly bad case where the data are sorted in the opposite to the order you want, the time taken becomes f(n^2). Thus, the time complexity at this case would be O(n^2), which signifies upper bound concept. But if the data is already sorted, then it will only take O(n) time which signifies lower bound concept.
 
 > In that case, the upper and lower bounds are different, even though the big-O complexity remains the same.
 
