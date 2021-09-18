@@ -43,4 +43,4 @@ Let's take a look at an example.
 ```
 ### This code renders the following page in the browser:
 
-![](assets/cdnoutput.png)
+![ ](./assets/cdnoutput.png)
