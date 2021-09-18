@@ -12,7 +12,7 @@ Fixes # 96
 <!----Please delete options that are not relevant.And in order to tick the check box just put x inside them for example [x] like this----->
 
 - [ ] Audio (Should be in mp3 format Includes speech clarity, Concise ,Low distortion)
-- [x] Video (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
+- [ ] Video (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
 - [x] Documentation (Content Creation in the form of codes or tutorials)
 - [ ] Other (If you choose other, Please mention changes below)
 - [x] Screenshots and Explaination
