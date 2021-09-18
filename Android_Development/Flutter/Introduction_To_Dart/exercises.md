@@ -12,8 +12,6 @@
 
 ### The map that I have created in this example is <String , String>.
 
-### Output
-
 ```
 void main() {
 Map data = {
