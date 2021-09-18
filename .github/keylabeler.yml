@@ -9,6 +9,9 @@ caseSensitive: false
 
 # Explicit keyword mappings to labels. Form of match:label. Required.
 labelMappings:
+  Audio : Audio
+  Video : Video
+  Documentation : Documentation
   Android Dev (Flutter, Java, Kotlin) : Android Dev (Flutter, Java, Kotlin)
   Backend Dev (Java, .NET, Python) :  Backend Dev (Java, .NET, Python)
   C/CPP : C/CPP
