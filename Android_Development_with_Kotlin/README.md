@@ -1,4 +1,4 @@
-![image](https://github.com/Lakshit-Chiranjiv/GWOC-2021-personal-workflow/blob/main/Android%20dev%20with%20Kotlin/images/1.png)
+![banner image](https://i.imgur.com/7qKCOU0.png)
 
 # Android Development with Kotlin
 
@@ -211,15 +211,15 @@
 
 ## Project guide :-
 
-- After 8th --> calculator app | tip calculator app | currency app
+- After 8th topic we can begin with building a calculator app or a tip calculator app or we can also go with converter kind of app like a currency converter app.
 
-- Uptil 19th --> word shuffler | music maker
+- Uptil 19th topic, we will be good for working on something like a word shuffler or even a music maker.
 
-- After 21th --> GitHub profile checker | movie recommendation app | clone of Zomato | API
+- And after 21st topic, we can advance onto making a GitHub profile checker & movie recommendation app. We can even work on making clones to have some idea about professional world apps like clone of Zomato.Lastly, it would be great if we also start with APIs
 
-- After 23rd --> Any Backend app
+- Then after 23rd topic, we can proceed with any Backend app to get a hang of how everything works in the backend.
 
-- After 25th --> most app with wider range of devices
+- Finally after 25th topic, we should try for most app with wider range of devices.
 
 
 >ALL THE BEST 👍
