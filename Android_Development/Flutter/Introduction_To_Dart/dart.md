@@ -217,7 +217,7 @@ switch (command) {
 
 #### Dart Classes
 Dart is an object-oriented language. It supports object-oriented programming features like classes, interfaces, etc. A class in terms of OOP is a blueprint for creating objects. A class encapsulates data for the object. Dart gives built-in support for this concept called class.
-### Declaring a Class
+#### Declaring a Class
 Use the class keyword to declare a class in Dart. A class definition starts with the keyword class followed by the class name; and the class body enclosed by a pair of curly braces.
 **Syntax**
 ```
