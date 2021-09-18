@@ -5,7 +5,7 @@
 # Work to be done
  
 ## 1) Components (Week-1) 
-- [ ] Creating a component using the Angular CLI 
+- [x] Creating a component using the Angular CLI 
 - [ ] Creating a component manually 
 - [ ] Component LifeCycle 
 - [ ] Component Interaction 
