@@ -37,6 +37,9 @@
 - [ ] Linux File System
 - [ ] Linux File System Directories
 ## Week-2 (Networking)
-- [ ] What is IP address
+- [ ] IP address
     - ipv4
     - ipv6
+- [ ] MAC address
+- [ ] IP v/s MAC
+- [ ] TCP
