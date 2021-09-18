@@ -7,22 +7,22 @@
 
 ## Roadmap for GWoC '21
 ### :yellow_circle: *Week 1 [Statistics for Machine Learning]* :
-   - [ ] **1.1. Variables, Range, Population Distribution, Sample Distribution**
-   - [ ] **1.2. PDFs, CDFs**
-   - [ ] **1.3. Central Limit Theorem**
-   - [ ] **1.4. Variance, Standard Deviation, Expectation**
-   - [ ] **1.5. Probability Distributions (Gaussian, Standard, Poisson)**
-   - [ ] **1.6. Maximum Likelyhood Estimation**
-   - [ ] **1.7. Parzen Windows**
+   - **1.1. Variables, Range, Population Distribution, Sample Distribution**   
+   - **1.2. PDFs, CDFs**
+   - **1.3. Central Limit Theorem**
+   - **1.4. Variance, Standard Deviation, Expectation**
+   - **1.5. Probability Distributions (Gaussian, Standard, Poisson)**
+   - **1.6. Maximum Likelyhood Estimation**
+   - **1.7. Parzen Windows**
 
 ### :yellow_circle: *Week 2 [Supervised Machine Learning (Classic Algorithms)]* :
-   - [ ] **2.1. What is Learning? Why Machine Learning works?**
-   - [ ] **2.2. Linear Regression**
-   - [ ] **2.3. Logistic Regression**
-   - [ ] **2.4. Sessions on Numpy and Pandas**
-   - [ ] **2.5. Implementing Linear Regression with Logistic Regression**
-   - [ ] **2.6. K-Nearest Neighbour Algorithms**
-   - [ ] **2.7. Decision Trees**
+   - **2.1. What is Learning? Why Machine Learning works?**
+   - **2.2. Linear Regression**
+   - **2.3. Logistic Regression**
+   - **2.4. Sessions on Numpy and Pandas**
+   - **2.5. Implementing Linear Regression with Logistic Regression**
+   - **2.6. K-Nearest Neighbour Algorithms**
+   - **2.7. Decision Trees**
 
 *N.B.: Upcoming roadmap will be published as the program goes!*
 
