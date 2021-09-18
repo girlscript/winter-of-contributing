@@ -131,6 +131,6 @@ The basic difference between them is that __Getters__ are the object accessor th
 
 Congratulations! You've successfully learnt about JavaScript Object.
 
-Keeping exploring JavaScript :wave:
+Keep exploring JavaScript :wave:
 
 __Contributor :__ [Abhinandan Adhikari](https://github.com/AbhinandanAdhikari) :heart: 
