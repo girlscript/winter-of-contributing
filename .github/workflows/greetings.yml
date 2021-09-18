@@ -14,9 +14,9 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         issue_message: 'Hello @${{github.actor}}, <br>
-                        Thank you for opening an issue. :partying_face: <br>
+                        Thank you for opening an issue. :octocat: <br>
                         To get assigned to this particular issue please use <b>/assign</b><br>
-                        <i> Check this <a href="https://github.com/smv1999/CompetitiveProgrammingQuestionBank/blob/master/CONTRIBUTING.md">guide</a> before contributing.'
+                        <i> Check this <a href="https://github.com/girlscript/winter-of-contributing/blob/main/.github/CONTRIBUTING.md">guide</a> before contributing.'
         PR_message:
-                      '<h1> :partying_face: Congratulations :tada: </h1>:pray:
-                      Thank you @${{github.actor}} for taking out your time and contributing to our project. Our team will now review this and if everything looks good it will be merged.'
+                      '<h1> :fleur_de_lis: Congratulations </h1> :octocat:
+                      Thank you @${{github.actor}} for taking out your time and contributing to GWOC21. Our team will review this soon and if everything looks good it will be merged. :heavy_check_mark:'
