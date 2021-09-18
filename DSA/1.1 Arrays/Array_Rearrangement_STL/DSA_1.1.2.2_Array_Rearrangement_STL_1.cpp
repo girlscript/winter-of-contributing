@@ -1,7 +1,9 @@
 /*
 Problem definition : Minimum swaps required to bring elements less than equal to k together.
 
-Approach (Sliding Window):
+Prerequisite Knowledge: Sliding Window Technique
+
+Explanation:
 
 1- Count the total number of elements which are less than equal to k,let it be denoted by "less_equal_cnt"
 
@@ -14,11 +16,11 @@ Approach (Sliding Window):
 5- keep moving the window forward and repeat steps 3 and 4 until we have processed the whole array.
 
 Time Complexity: O(n),where n is the size of the input array
-Space Complexity: O(1)  
+Auxiliary Space Complexity: O(1)  
  
 */
 
-//Code
+//Implementation in C++
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -80,3 +82,4 @@ int main()
     cout << "The minimum number of swaps required is " << ans;
     return 0;
 }
+
