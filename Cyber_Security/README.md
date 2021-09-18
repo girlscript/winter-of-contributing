@@ -12,7 +12,9 @@
 
 - [x] [Triangle of Security, Functionality, and Usability](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.8%20Security%2C%20Usability%20%26%20Functionality%20Triangle.md)
 - [ ] CIA triad
-- [ ] Introduction to IT Act, 2000
+- [x] Introduction to IT Act, 2000
+  - [x] [Documentation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Introduction%20to%20IT%20Act%202000.md)
+  - [x] [Video](https://github.com/girlscript/winter-of-contributing/tree/Cyber_Security/Cyber_Security/Week_1)
 - [ ] Limitations of Indian IT Act, 2000
 - [ ] Types of Hackers
   - White hat hackers
