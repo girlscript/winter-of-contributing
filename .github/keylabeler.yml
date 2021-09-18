@@ -9,22 +9,30 @@ caseSensitive: false
 
 # Explicit keyword mappings to labels. Form of match:label. Required.
 labelMappings:
-  C: C
-  C-Plus-Plus: C-Plus-Plus
-  CPP: C-Plus-Plus
-  C++: C-Plus-Plus
-  OpenSource: Open-Source
-  MERN: MERN
-  DSA: DSA
-  CyberSecurity: Cyber Security
-  GoLang: Go Lang
-  ReactJS: ReactJS
-  Angular: Angular
-  Vue: Vue
-  Python: Python
-  ML: Machine Learning
-  Android Java: Android with Java
-  Android Kotlin: Android with Kotlin
-  Android Flutter: Android with Flutter
-  documentation: documentation
-  doc : documentation
+  [x] Android Dev (Flutter, Java, Kotlin) : Android Dev (Flutter, Java, Kotlin)
+  [x] Backend Dev (Java, .NET, Python) :  Backend Dev (Java, .NET, Python)
+  [x] C/CPP : C/CPP
+  [x] Competitive Programming : Competitive Programming
+  [x] Cyber Security : Cyber Security
+  [x] DSA : DSA
+  [x] Database : Database
+  [x] Datascience with Python : Datascience with Python
+  [x] Datascience with R : Datascience with R
+  [x] Frontend Dev (HTML, CSS, JS) : Frontend Dev (HTML, CSS, JS)
+  [x] Frontend Dev (React, Angular, Vue) : Frontend Dev (React, Angular, Vue)
+  [x] Golang : Golang
+  [x] Interview Prep : Interview Prep
+  [x] Java : Java
+  [x] JavaScript : JavaScript
+  [x] MERN : MERN
+  [x] Machine Learning : Machine Learning
+  [x] Open Source : Open Source
+  [x] Python : Python
+  [x] Rust : Rust
+  [x] Statistics : Statistics
+  [x] UI/UX : UI/UX
+  B1 : Batch 1
+  B2 : Batch 2
+  B3 : Batch 3
+  B4 : Batch 4
+  B5 : Batch 5
