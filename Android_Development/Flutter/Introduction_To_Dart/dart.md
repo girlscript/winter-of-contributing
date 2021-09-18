@@ -94,3 +94,32 @@ void main() {
 ``` 
 > From the above program we can conclude that **growable list** means the size of the list grows whenever new elements is added to the list , In other words size of the list is not **predefined**
 
+### Dart conditonals
+The conditionals (ternary) operator is the only Dart Operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is **truthy** followed by a colon (:), and finally the expression to execute if the condition is **falsy**.
+
+**Syntax**
+```
+condition ? exprIfTrue : exprIfFalse
+``` 
+> Where:
+> * condition: An expression whose value is used as a condition.
+> * exprIfTrue: An expression which is evaluated if the condition evaluates to a **truthy** value (one which equals or can be converted to true).
+> * exprIfFalse: An expression which is executed if the condition is **falsy** (that is, has a value which can be converted to false).
+
+**Example**
+
+```
+String message(bool isValid) {
+  return isValid ? 'This is valid' : 'This is not valid';
+}
+
+void main() {
+  print(message(true));
+}
+``` 
+
+```
+Center(
+        child: isLogin ? Text('You are a member') : Text('Hello Guest'),
+),
+```
