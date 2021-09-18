@@ -15,7 +15,7 @@ Description: Describe what you are contributing
 ## Pull Request Format
 Labels: GWOC21, Competitive Programming, Documentation/Audio/Video
 
-Fixes: <Link Issue Here>
+Fixes: Link Issue Here
 
 Format: Documentation/Video/Audio
 
