@@ -22,9 +22,7 @@ labelMappings:
   Vue: Vue
   Python: Python
   ML: Machine Learning
-  Android Java: Android with Java
-  Android Kotlin: Android with Kotlin
-  Android Flutter: Android with Flutter
+  [x] Android Dev (Flutter, Java, Kotlin) : Android Dev
   documentation: documentation
   doc : documentation
   ui : UI/UX
