@@ -33,6 +33,7 @@
   <tr>
 <td align="center"><a href="https://github.com/abhisheks008"><img src="https://avatars.githubusercontent.com/u/68724349?v=4" width="80px;" alt=""/><br /><sub><b>Abhishek S (B1)</b></sub></a></td>
 <td align="center"><a href="https://github.com/raina-akshay"><img src="https://avatars.githubusercontent.com/u/65475383?v=4" width="80px;" alt=""/><br /><sub><b>Akshay Raina (B2)</b></sub></a></td>
+<td align="center"><a href="https://github.com/isha307"><img src="https://avatars.githubusercontent.com/u/56998032?v=4" width="80px;" alt=""/><br /><sub><b>Isha Shaw (B3)</b></sub></a></td>     
 <td align="center"><a href="https://github.com/geeythree"><img src="https://avatars.githubusercontent.com/u/30996989?v=4" width="80px;" alt=""/><br /><sub><b>Gayathri S</b></sub></a></td>    
 </tr>
    </table>
