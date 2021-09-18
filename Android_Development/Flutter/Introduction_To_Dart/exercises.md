@@ -24,24 +24,24 @@
           } 
    }    
       // Inherits the super class  
-class ScienceStudent extends Student{    
+   class ScienceStudent extends Student{    
          void studiesScience(){  
              print("The student studies science.");  
                  }               
-}  
+   }  
    
-// Inherits the ScienceStudent base class  
-class MathsStudent extends ScienceStudent{    
+   // Inherits the ScienceStudent base class  
+   class MathsStudent extends ScienceStudent{    
          void studiesMaths(){  
              print("The science student studies Maths.");  
                  }               
-}   
-void main() {  
+   }   
+   void main() {  
       // Creating object of the child class  
       MathsStudent s=new MathsStudent();    
       s.walks();    
       s.talks();    
       s.studiesScience();
       s.studiesMaths();
-} 
+   } 
    ```
