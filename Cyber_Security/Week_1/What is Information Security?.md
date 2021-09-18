@@ -4,19 +4,20 @@
 
 ## Overview of Contents
 
-[What is it ?🤔](#What_is_it_?🤔)
-[Some Common Information Security Risks](#Some_Common_Information_Security_Risks)
-[The misconception: Information Security vs Cybersecurity](#The misconception:_Information_Security_vs_Cybersecurity)
-[Principles of InfoSec](#Principles_of_InfoSec)
-[InfoSec Technologies](#InfoSec_Technologies)
+- What is it ?🤔
+- Some Common Information Security Risks
+- The misconception: Information Security vs Cybersecurity
+- Principles of InfoSec
+- InfoSec Technologies
 
-{:toc}
+<br>
 
 ## What is it ?🤔
 
 information security as the name suggests “Information”  & “Security” is the practice/implementation of protecting ones data/information by reducing or mitigating information risks. Sometimes, Information Security in short is also referred to as **InfoSec**.
 
 
+<br>
 
 ## Some Common Information Security Risks
 
@@ -37,6 +38,7 @@ In everyday operations, there are many risks that can affect an individuals or a
 👉**Man-in-the-middle (MitM) attack**
 
 
+<br>
 
 ## The misconception: Information Security vs Cybersecurity
 
@@ -44,7 +46,7 @@ These two terms are often used interchangeably, so one might confuse one with th
 
 
 
-
+<br>
 
 ## Principles of InfoSec
 
@@ -58,7 +60,7 @@ There are some core components to InfoSec, 3 to be exact which can be considered
 
 
 
-
+<br>
 
 ## InfoSec Technologies
 
@@ -84,7 +86,7 @@ There’s a wide variety of tools and technologies that can be used in creating 
 
 
 
-
+<br>
 
 ## Certifications in InfoSec
 
