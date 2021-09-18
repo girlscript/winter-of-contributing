@@ -3,8 +3,8 @@ Operators are special symbols in Python that carry out arithmetic or logical com
 
 ### Types of Operators :
 
-1. [**Arithmetic Operators**](./1.%Arithmetic%Operators.ipynb)
-2. [**Assignment Operators**](./2.%Assignment Operators.ipynb)
+1. [**Arithmetic Operators**](./1.%20Arithmetic%20Operators.ipynb)
+2. [**Assignment Operators**](./2.%20Assignment%20Operators.ipynb)
 3. [**Comparison Operators**]()
 4. [**Logical Operators**]()
 5. [**Identity operators**]()
