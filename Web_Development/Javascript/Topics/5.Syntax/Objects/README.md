@@ -1,7 +1,7 @@
 # JavaScript Objects
-An JavaScript object is anything(entity) having properties and methods.
+A JavaScript object is anything(entity) having properties and methods.
 
-JavaScript is an object-based language, almost everything is an object. For eg:- numbers, strings etc are objects if they are defined with the ```new``` keyword.
+JavaScript is an Object-Oriented Programming language, almost everything is an object. For eg:- numbers, strings etc are objects if they are defined with the ```new``` keyword.
 
 Objects are also variables but objects can contain many values.
 
