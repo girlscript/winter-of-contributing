@@ -57,7 +57,7 @@ A blank browser window will open. Right click on the blank window area, and sele
 
 <br>
 
- ![Console](/1.Hello_World/console.png "This is console in Chrome") 
+ ![Console](./console.png) 
  
  <br>
 
@@ -66,7 +66,7 @@ Click on console tab and you will finally see the **output** as shown:
 
 <br>
 
-![Console](/1.Hello_World/Output1.png "This is the output") 
+![Console](./Output1.png) 
 
 <br>
 
@@ -96,7 +96,8 @@ Yes! there is a way we can print the code "Hello! World" on the browser window a
 
 This will give the following output:
 
-![Console](/1.Hello_World/Output2.png "This is page in Chrome")
+![Console](./Output2.png) 
+
 
 <br>
 
