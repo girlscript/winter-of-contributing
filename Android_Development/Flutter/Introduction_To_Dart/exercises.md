@@ -1,5 +1,5 @@
 # 💻 Exercises
-## Array Utility Methods
+## :star: Array Utility Methods : 
 1. Explain briefly about the working of the Array Utility Methods forEach(), map() and reduce(). Use these methods to solve the following questions.\
    a) Given an array **numbers** = [2,3,5,6,8,9], print the square of these numbers.\
    b) Given an array **principal_amount** = [100,500,2000,700,950], return a new array, filled with the simple interest of each of the element in principal_amount array for a **time period** of **2 years** and a **rate of interest** of **15%**.\
@@ -82,7 +82,7 @@ a)
 
 
 
-## Conditional Statements :
+## :star: Conditional Statements :
 ### 1. If Condition
 
 - Print "Excellent work" if the student scores A grade
