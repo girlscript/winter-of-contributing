@@ -10,7 +10,7 @@
 [The misconception: Information Security vs Cybersecurity](#The misconception:_Information_Security_vs_Cybersecurity)
 [Principles of InfoSec](#Principles_of_InfoSec)
 [InfoSec Technologies](#InfoSec_Technologies)
-
+{:toc}
 
 ## What is it ?🤔
 
