@@ -15,5 +15,5 @@ jobs:
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           author: "${{github.actor}}"
-          repo: Suvraneel/Automated-assign-labeler #Change the Repo name
+          repo: girlscript/winter-of-contributing #Change the Repo name
           maxIssue: 3
