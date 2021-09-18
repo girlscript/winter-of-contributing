@@ -6,7 +6,7 @@
 
 ### Week 1 
 - [ ] JSX 
-- [ ] Babel 
+- [x] Babel 
 - [ ] ES6 template literals 
 - [ ] JSX Attributes and Styling react elements 
 - [ ] npm 
