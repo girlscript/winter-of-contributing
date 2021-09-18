@@ -23,11 +23,11 @@ print(data["1"]);
 print(data["2"]);
 print(data["3"]);
 }
-
+```
+```
    Rohan
    Rohit
    Pranav
-
 ```
 
 2. Lists
@@ -55,6 +55,8 @@ print("List after the adding: ");
 }
 }
 
+```
+```
 List before the adding:
 This is the First index
 This is the Second index
@@ -64,5 +66,4 @@ This is the First index
 This is the Second index
 This is the Third index
 This is the Fourth index
-
 ```
