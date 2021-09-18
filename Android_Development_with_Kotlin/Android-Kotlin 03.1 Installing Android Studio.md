@@ -8,7 +8,7 @@
 ## For Windows Users :
 ---
 ---
-* Step 1: Go to the link : [https://developer.android.com/studio]("https://developer.android.com/studio")
+* Step 1: Go to the link : [https://developer.android.com/studio](https://developer.android.com/studio)
  ---
 * Step 2: here download the latest version of Android Studio. 
  ---
@@ -38,7 +38,7 @@ and select the location where you want to download the executeble file(.exe) of 
 ## For Mac Users:
 ---
 ---
-* Step 1: Go to the link : [https://developer.android.com/studio]("https://developer.android.com/studio")
+* Step 1: Go to the link : [https://developer.android.com/studio](https://developer.android.com/studio)
  ---
 * Step 2: here download the latest version of Android Studio. 
  ---
@@ -70,7 +70,7 @@ and it will start getting downloaded.
 ## For Linux Users
 ---
 ---
-* Step 1: Go to the link : [https://developer.android.com/studio]("https://developer.android.com/studio")
+* Step 1: Go to the link : [https://developer.android.com/studio](https://developer.android.com/studio)
  ---
  * Step 2: here download the latest version of Android Studio. 
  ---
