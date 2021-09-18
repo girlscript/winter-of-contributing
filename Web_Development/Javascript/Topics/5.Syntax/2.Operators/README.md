@@ -13,42 +13,48 @@ Arithmetic operators take numerical values as operands and evaluates it to a sin
 
     **Example:**  
     ```js
-                  var x = 10;      // assign the value 10 to x
-                  var y = 4;       // assign the value 4 to y
-                   alert(x + y);    // 0utput: 14
+                   var x = 10;      
+                   var y = 4;       
+                   alert(x + y);  
+		       0utput : 14   
     ```                     
              
 * **Subtraction(-)** - It subtracts the two numeric operands. If any one of them is not a number or cannot be converted to number, then 'NaN' is printed.
 
      **Example:** 
      ```js
-             var x = 10;      // assign the value 10 to x             
-             var y = 4;       // assign the value 4 to y
-             alert(x - y);    // 0utput: 6
+             var x = 10;     
+             var y = 4;       
+             alert(x - y);  
+	         0utput: 6
      ``` 
 * **Division(/)** - It divides the first operand with the second operand. If the second operator is '+0' or '-0', then 'Infinity' and '-Infinity'are printed respectively. If they are not divisible 'NaN' is printed.
 
      **Example:**   
-     ```js
-               var x = 10;      // assign the value 10 to x
-               var y = 5;       // assign the value 5 to y
-               alert(x / y);    // 0utput: 2
-      ``` 
-* **Multiplication(*)** - It multiplies the two numeric operand. Any number multiplied with Infinity prints 'Infinity'. If the other number is zero, then 'NaN' is printed.
+   ```js
+               var x = 10;      
+               var y = 5;       
+               alert(x / y);    
+	           0utput: 2    
+		   
+     ```
+*  **Multiplication(*)** - It multiplies the two numeric operand. Any number multiplied with Infinity prints 'Infinity'. If the other number is zero, then 'NaN' is printed.
 
      **Example:**  
      ```js
-                var x = 10;      // assign the value 10 to x
-                var y = 5;       // assign the value 5 to y
-                alert(x * y);    // 0utput: 50
+                var x = 10;      
+                var y = 5;       
+                alert(x * y);    
+		        0utput: 50
      ```
 * **Remainder(%)** - It finds the remainder left after division. If one of the operand is 'Infinity' or 'NaN', then 'NaN' is printed.
 
     **Example:**     
     ```js
-                var x = 10;      // assign the value 10 to x
-                var y = 5;       // assign the value 5 to y
-                alert(x % y);    // 0utput: 0
+                var x = 10;      
+                var y = 5;      
+                alert(x % y);   
+		    0utput: 0
      ```
 
 ## **2. Assignment Operators** 
@@ -57,8 +63,8 @@ Assignment operators are used to assign value of the right operand/expression to
 
 **Example:** 
 ```js
-        var x = 10; // assign the value 10 to x
-        var y = x;  // will assign value 10 to y. 
+        var x = 10; 
+        var y = x;  
 ```
 
 Other assignment operators are shorthand operations of other operators. They are called compound assignment operators. Some of them with their meaning (i.e. the extended version of these operations) are provided below -
@@ -70,9 +76,10 @@ Other assignment operators are shorthand operations of other operators. They are
 
      **Example:**
      ```js
-             var x = 20;  // assign the value 20 to x
-             x += 30; // assign x = x + y 
-             alert(x); // Output: 50                    
+             var x = 20; 
+             x += 30; 
+             alert(x); 
+	         Output: 50                    
       ```
   2. Division Assignment         
      Shorthand operator   x /=y  
@@ -80,9 +87,10 @@ Other assignment operators are shorthand operations of other operators. They are
 
        **Example:** 
        ```js
-             var x = 50;  // assign the value 50 to x
-             x /= 10; // assign x = x / y 
-             alert(x); // Output: 5                   
+             var x = 50;  
+             x /= 10; 
+             alert(x); 
+	         Output: 5                   
         ```
 
   3. Exponentiation Assignment  
@@ -91,9 +99,10 @@ Other assignment operators are shorthand operations of other operators. They are
 
      **Example:** 
      ```js
-              var x = 10;  // assign the value 10 to x
+              var x = 10; 
               x = x ** 2 ;    
-              alert(x);      // Output: 100          
+              alert(x);      
+	          Output: 100          
       ```
 
   4. Right Shift Assignment    
@@ -103,8 +112,8 @@ Other assignment operators are shorthand operations of other operators. They are
       **Example:**  	
       ```js
               5 >> 1
-              0101 >> 1     //In binary form
-              0010          //output
+              0101 >> 1    
+              output: 0010         
       ```
   5. Bitwise XOR Assignment     
      Shorthand operator   x ^=y         
@@ -113,8 +122,8 @@ Other assignment operators are shorthand operations of other operators. They are
      **Example:**	
      ```js
               5 ^ 1	
-              0101 ^ 0001	//In binary form
-              0100        //output
+              0101 ^ 0001	
+              output: 0100  
       ```
 ## **3. Increment and Decrement Operator**  
 
@@ -128,23 +137,31 @@ There are two ways to use increment and decrement -
 
  **Example:**
  ```js
-         var x; // Declaring Variable
+         var x;
  
          x = 10;
-         alert(++x); // Output: 11
-         alert(x);   // Output: 11
+         alert(++x); 
+	     Output: 11
+         alert(x);   
+	     Output: 11
  
          x = 10;
-         alert(x++); // Output: 10
-         alert(x);   // Output: 11
+         alert(x++); 
+	     Output: 10
+         alert(x);  
+	     Output: 11
  
          x = 10;
-         alert(--x); // Output: 9
-         alert(x);   // Output: 9
+         alert(--x); 
+             Output: 9
+         alert(x);   
+	     Output: 9
  
          x = 10;
-         alert(x--); // Output: 10
-         alert(x);   // Output: 9.
+         alert(x--); 
+	     Output: 10
+         alert(x);   
+	     Output: 9.
   ```
  
 ## **4. Comparison Operators**  
@@ -165,49 +182,54 @@ There is another comparison operator (===) known as strict equality operator. It
   ● Inequality (!=) - It returns the opposite result of the equality operator. 
  **Example:**  
  ```js
-           var var1 = 3;  // assign the value 3 to var1
-           var var2 = 4;  // assign the value 4 to var2
-           var1 != 4      //true 
+           var var1 = 3;  
+           var var2 = 4;  
+           var1 != 4      
+	       Output: true 
         
            
  ```
   ● Strict Inequality (!==) - It returns the opposite result of the strict equality. 
   **Example:** 
   ```js
-           var var1 = 3;  // assign the value 3 to var1
-           var var2 = 4;  // assign the value 4 to var2
-           var1 !== "3"   //true
-           
+           var var1 = 3;  
+           var var2 = 4;  
+           var1 !== "3"   
+           Output: true
   ```
   ● Greater Than (>) - It returns true if left operand is greater than the right one. 
   **Example:** 
   ```js
-           var var1 = 3;  // assign the value 3 to var1
-           var var2 = 4;  // assign the value 4 to var2
-           var2 > var1    //true
+           var var1 = 3;  
+           var var2 = 4;  
+           var2 > var1  
+	       Output: true
   ```      
   ● Greater Than or Equal (>=) - It returns true if left operand is greater than or equal
 to the right one. 
  **Example:** 
  ```js
-           var var1 = 3;  // assign the value 3 to var1
-           var var2 = 4;  // assign the value 4 to var2
-            var2 >= var1 //true
+           var var1 = 3;  
+           var var2 = 4; 
+           var2 >= var1 
+	       Output: true
  ```
   ● Less Than (<) - It returns true if left operand is less than the right one.
   **Example:** 
   ```js
-           var var1 = 3;  // assign the value 3 to var1
-           var var2 = 4;  // assign the value 4 to var2
-           var1 < var2    //true
+           var var1 = 3;  
+           var var2 = 4;  
+           var1 < var2    
+	       Output: true
   ```
   ● Less Than or Equal (<=) - It returns true if left operand is less than or equal to the
 right one.
  **Example:**
  ```js
-           var var1 = 3;  // assign the value 3 to var1
-           var var2 = 4;  // assign the value 4 to var2
-           var1 <= var2   //true
+           var var1 = 3;  
+           var var2 = 4;  
+           var1 <= var2  
+	       Output: true
  ```
 ## **5. Logical Operators**
 
@@ -265,30 +287,60 @@ The several bitwise operators are -
 **Example:**  
 ```js
           ~ 5	  
-          ~0101	// binary form
-          1010 //  output
+          ~0101	
+         output: 1010 
 ```
 ● Left Shift (<<) - shifts bits to the left and insert 0s from right. 
 **Example:**
 ```js
         5 << 1	
-        0101 << 1   // binary form
-      	1010       //output
+        0101 << 1   
+   	output: 1010      
  ```
 ● Sign-propagating Right Shift (>>) - shifts bits to the right and insert either 0s or 1s from the left according to the sign of the number ('0' for positive and '1' for negative).
  **Example:** 
  ```js     5 >> 1	
-           0101 >> 1  // binary form
-	         0010       //output
+           0101 >> 1  
+	       output: 0010       
  ```
 
 ● Zero-fill Right Shift (>>>) - shifts bits to the right and insert 0s from left.
  **Example:** 
  ```js
          5 >>> 1
-         0101 >>> 1	// binary form
-         0010       //output
+         0101 >>> 1	
+         output: 0010      
+ ``` 
+
+## **7. Conditional (ternary) Operator**
+
+ The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy. This operator is frequently used as a shortcut for the if statement.
+ 
+ **Example:** 
+ ```js    
+  function getFee(isMember) {
+  return (isMember ? '$2.00' : '$10.00');
+}
+console.log(getFee(true));
+
+output: "$2.00"      
  ```
+## **8.Nullish coalescing operator (??)**
+
+The nullish coalescing operator (??) is a logical operator that returns its right-hand side operand when its left-hand side operand is null or undefined, and otherwise returns its left-hand side operand.
+
+**Example:** 
+ ```js    
+const foo = null ?? 'default string';
+console.log(foo);
+output: "default string"
+
+const baz = 0 ?? 42;
+console.log(baz);
+output: 0
+     
+ ```
+
 # Conclusion
 
 Congratulations! You've successfully learnt about JavaScript Operators.
