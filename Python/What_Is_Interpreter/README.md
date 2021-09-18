@@ -1,4 +1,4 @@
-#  What is python iterpreter and How it Works.
+#  What is python iterpreter .
 
 # **What is an Interpreter?**
 Interpreter is a type of computer program which directly executes the set of instructions which are written in a programming or scripting language and it is not requred that the codes would have to be compiled previously in machine language.
