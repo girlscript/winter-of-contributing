@@ -24,7 +24,7 @@
    - [ ] **2.6. K-Nearest Neighbour Algorithms**
    - [ ] **2.7. Decision Trees**
 
-
+*N.B.: Upcoming roadmap will be published as the program goes!*
 
 ***************************************************************
 
