@@ -8,7 +8,7 @@
 
 ## Index
 - [GitHub](./Git_And_GitHub)
-- [What_Is_Programming_Language](.What_Is_Programming_Language)
+- [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What is type conversion ?](./Type_Conversion)
 ## Learning path
 1. Git & GitHub
