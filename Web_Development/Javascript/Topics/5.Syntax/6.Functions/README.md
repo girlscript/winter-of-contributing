@@ -10,7 +10,7 @@ example
 if (true) {
   const a = 2;
 }
-console.log(a); //ReferenceError
+console.log(a); //ReferenceError: a is undefined
 ```
 This time javascript throws an error. Why is it so?
 Because **if** block creates a scope for `a` and `a` can be used within that scope only.
