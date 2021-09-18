@@ -1,7 +1,5 @@
 <h1 align="left">Datascience_With_Python 👨🏻‍💻</h1>
 
-# Data Science With Python
-
 ## Index
 
 - [Artificial Intelligence](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Artificial%20Intelligence)
