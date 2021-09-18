@@ -1,19 +1,15 @@
 Limitations of Information Technology Act, 2000
 ===============================================
 
-![it
-act](https://legodesk.com/wp-content/uploads/2019/03/Information-Technology-Act-2000-LD-xb0.jpg)
-
-* * * * *
+<img src="https://legodesk.com/wp-content/uploads/2019/03/Information-Technology-Act-2000-LD-xb0.jpg" width="40%">
 
 * * * * *
 
 -   Related to Digital Signatures
     -----------------------------
 
-    ![digital
-    sign](https://www.globalsign.com/application/files/3515/8885/5116/electronic_signature_vs_digital_signature.jpg)
-
+    <img src="https://www.globalsign.com/application/files/3515/8885/5116/electronic_signature_vs_digital_signature.jpg" width="30%">
+    
     The Act provides legal verification for digital signatures and
     considers contracts/documents made through electronic channels as
     valid, but the act is not applicable for some of the documents which
@@ -26,9 +22,8 @@ act](https://legodesk.com/wp-content/uploads/2019/03/Information-Technology-Act-
     ---------------------------
 
     ### Spamming
-
-    ![it
-    act](https://image.shutterstock.com/image-vector/spamming-mailbox-concept-emails-on-260nw-785999662.jpg)
+    
+    <img src="https://image.shutterstock.com/image-vector/spamming-mailbox-concept-emails-on-260nw-785999662.jpg" width="35%">
 
     There is no section inside the law that deals with spamming.
     Spamming is sending out emails/messages in bulk to many users. Not
@@ -38,8 +33,7 @@ act](https://legodesk.com/wp-content/uploads/2019/03/Information-Technology-Act-
 
     ### Identity Theft
 
-    ![identity
-    theft](https://blog.shieldapps.com/wp-content/uploads/2017/09/hacker-steal-905x509.jpg)
+    <img src="https://blog.shieldapps.com/wp-content/uploads/2017/09/hacker-steal-905x509.jpg" width="35%">
 
     Identity theft is gathering someone's private and personal
     information illegally. This can give attackers a chance to threaten
@@ -47,9 +41,8 @@ act](https://legodesk.com/wp-content/uploads/2019/03/Information-Technology-Act-
     that information. The IT Act fails to cover this topic.
 
     ### Phishing
-
-    ![identity
-    theft](https://blog.malwarebytes.com/wp-content/uploads/2018/09/shutterstock_749866270-900x506.jpg)
+        
+    <img src="https://blog.malwarebytes.com/wp-content/uploads/2018/09/shutterstock_749866270-900x506.jpg" width="35%">
 
     Phishing is the method where an attacker disguises himself/herself
     as a trustworthy entity and steals information out of the victim.
@@ -58,9 +51,8 @@ act](https://legodesk.com/wp-content/uploads/2019/03/Information-Technology-Act-
     any laws regarding phishing
 
     ### Data Protection in Internet Banking
-
-    ![identity
-    theft](https://mrooppss.files.wordpress.com/2016/11/1.jpg)
+    
+    <img src="https://mrooppss.files.wordpress.com/2016/11/1.jpg" width="35%">
 
     Information about the customers held by banks is very confidential
     and should be protected at any cost. A lot of risks is involved in
