@@ -1,7 +1,7 @@
 <h1 align="center">Cyber_Security 👨🏻‍💻</h1>
 
 ## Week:1 (Overview)
-- [ ] What is Information Security?
+- [x] [What is Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/What%20is%20Information%20Security%3F.md)
 - [x] [What is the importance and need for information security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/InformationSecurity.md)
 - [x] [Challenges in Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.3_Challenges_in_InformationSecurity.md)
 - [ ] Information Security Controls?
@@ -15,7 +15,7 @@
 - [x] Introduction to IT Act, 2000
   - [x] [Documentation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Introduction%20to%20IT%20Act%202000.md)
   - [x] [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/ITAct2000.md)
-- [ ] Limitations of Indian IT Act, 2000
+- [x] [Limitations of Indian IT Act, 2000](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Limitations%20of%20IT%20Act%2C%202000.md)
 - [x] Types of Hackers
   - [White hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#white-hat-hackers)
   - [Black hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#black-hat-hackers)
