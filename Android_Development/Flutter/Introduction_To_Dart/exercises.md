@@ -6,10 +6,8 @@
 
 ### Statement :- Access the student via roll no.
 
-### It is a data type which contains key , value pairs and the values can only be accessed by using keys.
-
+### Map is a data type which contains key , value pairs and the values can only be accessed by using keys.
 ### Every Key is unique in Map but the values can be same.
-
 ### The map that I have created in this example is <String , String>.
 
 ```
@@ -25,6 +23,7 @@ print(data["3"]);
 }
 ```
 ```
+Output:
    Rohan
    Rohit
    Pranav
@@ -33,11 +32,8 @@ print(data["3"]);
 2. Lists
 
 ### statement :- Create a list and access their all values and add one extra value and print all again.
-
 ### List is simply an ordered group of objects.
-
 ### The values in Lists are also accessed by Indices.
-
 ### The List can be growable
 ```
 void main(){
@@ -57,6 +53,7 @@ print("List after the adding: ");
 
 ```
 ```
+Output:
 List before the adding:
 This is the First index
 This is the Second index
