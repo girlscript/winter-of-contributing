@@ -1,6 +1,6 @@
 # Information Security
 
-<img src="D:\Gwoc\Hacker-cuate.png" alt="Hacker-cuate" style="zoom: 25%;" />
+<img src="images\Hacker-cuate.png" alt="Hacker-cuate" style="zoom: 25%;" />
 
 ## Overview of Contents
 
