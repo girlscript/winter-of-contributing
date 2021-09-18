@@ -36,11 +36,10 @@ code block at least once even if the condition Fails.
 ### Example
 
 ```jsx
-		var x = 21;
+    var x = 21;
     do 
     {
-        // The line while be printed even
-        // if the condition is false
+        // The line while be printed even if the condition is false
         console.log("Value of x:" + x + "<br />");
         x++;
     } while (x < 20);
