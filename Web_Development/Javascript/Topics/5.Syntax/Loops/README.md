@@ -48,4 +48,8 @@ The different types of statements to use loops are in JavaScript are :
 - While loop
 - do-while loop
 
+aditionally
+- for each method
+- every method
+
 You can learn about each loop by reading about them using the different files in this directory
