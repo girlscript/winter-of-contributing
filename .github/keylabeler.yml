@@ -33,8 +33,23 @@ labelMappings:
   UI/UX : UI/UX
   audio : Audio
   video : Video
-  B1 : Batch 1
-  B2 : Batch 2
-  B3 : Batch 3
-  B4 : Batch 4
-  B5 : Batch 5
+  Batch (1) : Batch 1
+  Batch (2) : Batch 2
+  Batch (3) : Batch 3
+  Batch (4) : Batch 4
+  Batch (5) : Batch 5
+  Batch (6) : Batch 6
+  Batch (7) : Batch 7
+  Batch (8) : Batch 8
+  Batch (9) : Batch 9
+  Batch (10) : Batch 10
+  Batch (11) : Batch 11
+  Batch (12) : Batch 12
+  Batch (13) : Batch 13
+  Batch (14) : Batch 14
+  Batch (15) : Batch 15
+  Batch (16) : Batch 16
+  Batch (17) : Batch 17
+  Batch (18) : Batch 18
+  Batch (19) : Batch 19
+  Batch (20) : Batch 20
