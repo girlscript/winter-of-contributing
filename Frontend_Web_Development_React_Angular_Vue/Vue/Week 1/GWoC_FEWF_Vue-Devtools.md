@@ -114,11 +114,13 @@ Follow the following steps :
  
 **Vue-DevTools** can be activated by opening the Developer Tools in the browser and moving to the Vue panel.
 To use the devtools, we must open the Developer Tools panel, using `View → Developer → Developer Tools`, or `Cmd-Alt-i`.
+ 
  <img src="https://flaviocopes.com/vue-devtools/devtools-window.png"  
    alt="Markdown Monster icon"  
    style="float: left; margin-right: 10px;" />
 
 Another option is to right-click on any element in the page, and choose `Inspect Vue component`:
+ 
  <img src="https://flaviocopes.com/vue-devtools/inspect-vue-component.png"  
    alt="Markdown Monster icon"  
    style="float: left; margin-right: 10px;" />
