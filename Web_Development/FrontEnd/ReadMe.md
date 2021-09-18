@@ -1,4 +1,4 @@
-# 📕Roadmap for Frond End Web Dev 📕
+# 📕Roadmap for Front End Web Dev 📕
 
 ## 0️⃣ Basics of Internet
 
