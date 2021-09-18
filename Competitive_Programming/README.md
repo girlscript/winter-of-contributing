@@ -1,4 +1,4 @@
-## Table of Content
+<!-- ## Table of Content -->
 
 ## New Issue Format
 Labels: GWOC21, Competitive Programming, Documentation/Audio/Video
