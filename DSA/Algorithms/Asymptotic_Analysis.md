@@ -2,13 +2,14 @@
 
 
 ### 🤔 What is Asymptotic Analysis?
-Asymptotic Analysis is the general methodolgy for studying the performance of algorithms, especially their run time and space requirements. It is used to determine an algorithm's **efficiency**, taking into consideration the best case, average case and the worst case inputs. 
-In asymptotic notations, we derive the complexity concerning the size of the input. In simple words, it helps us determine **how the running time (or space) would be affected as the input size goes on increasing**. </br>
+Asymptotic Analysis is the general methodolgy for studying how the algorithms perform in terms of their running time and space required. It is used to determine an algorithm's **efficiency**, taking into consideration the best case, average case and the worst case inputs. 
+In asymptotic notations, we derive the complexity of algorithms on the basis of size of the input. In simple words, it helps us determine **how the running time (or space) would be affected as the input size goes on increasing**. </br>
+
 Remember: **Time complexity is NOT EQUAL TO running time of the algorithm !**
 
 It is important because: 
 - Takes into account **all possible inputs**.
-- Allows one to evaluate the efficiency of any algorithm in a way that is **independent of the hardware and software** environment.
+- Allows one to evaluate the efficiency of an algorithm **independently of the hardware (processors, memory,etc) and software (operating system, IDE, etc)** used for testing the algorithm.
 - It allows us to **compare** the performances of different algorithms so that we can choose the most efficient one.
 
 The analysis is simplified by getting rid of the details which may be present because of specific implementation and hardware characteristics. 
@@ -65,8 +66,8 @@ e.g.
 | Linearithmic | O(n log n) | Merge sort, Heap sort, Quick sort (best case) | 
 | Quadratic | O(n^2) | Bubble sort, Selection sort, Traversal of 2D array | 
 | Cubic | O(n^3) | Naive multiplication of two n×n matrices, Calculating partial correlation | 
-| Exponential | O(2^n) | Traveling salesman problem using dynamic programming, Matrix chain multiplication via brute-force search | 
-| Factorial | O(n!) |Traveling salesman problem via brute-force search |
+| Exponential | O(2^n) | Traveling salesman problem using dynamic programming, Matrix chain multiplication with brute-force search | 
+| Factorial | O(n!) |Traveling salesman problem with brute-force search |
 
 Note: 
 - Constant time complexity means that the running time is independent of the input size. It always remains the same, no matter how large or small the input is.
