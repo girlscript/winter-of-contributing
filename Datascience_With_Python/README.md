@@ -4,20 +4,20 @@
 
 ## Index
 
-- [Artificial Intelligence](./Artificial Intelligence)
-- [Calculus](./Calculus)
-- [Computer Vision](./Computer Vision)
-- [DS Datasets](./DS Datasets)
-- [DS Resources](./DS Resources)
-- [Data Analysis and Visualization](./Data Analysis and Visualization)
-- [Deep Learning](./Deep Learning)
-- [Interview Preparations](./Interview Preparations)
-- [Kaggle Competitions](./Kaggle Competitions)
-- [Linear Algebra](./Linear Algebra)
-- [Machine Learning](Machine Learning)
-- [Natural Language Processing](Natural Language Processing)
-- [Programming](Programming)
-- [Statistics](Statistics)
+- [Artificial Intelligence](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Artificial%20Intelligence)
+- [Calculus](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Calculus)
+- [Computer Vision](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision)
+- [DS Datasets](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/DS%20Datasets)
+- [DS Resources](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/DS%20Resources)
+- [Data Analysis and Visualization](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization)
+- [Deep Learning](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Deep%20Learning)
+- [Interview Preparations](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Interview%20Preparation)
+- [Kaggle Competitions](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions)
+- [Linear Algebra](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Linear%20Algebra)
+- [Machine Learning](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Machine%20Learning)
+- [Natural Language Processing](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Natural%20Language%20Processing)
+- [Programming](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Programming)
+- [Statistics](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Statistics)
 
 
 ## Learning path
