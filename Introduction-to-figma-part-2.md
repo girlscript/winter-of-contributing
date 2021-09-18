@@ -1,4 +1,4 @@
-# Introduction to Figma (part 2)
+# Introduction to Figma (part 2) - Frames and Shapes
 
 In this video, we will learn the properties and usage of Frames and Shapes in Figma. We also learn about quick exporting using slice tool.
 
