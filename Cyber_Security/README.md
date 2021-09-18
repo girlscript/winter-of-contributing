@@ -12,17 +12,19 @@
 
 - [x] [Triangle of Security, Functionality, and Usability](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.8%20Security%2C%20Usability%20%26%20Functionality%20Triangle.md)
 - [ ] CIA triad
-- [ ] Introduction to IT Act, 2000
+- [x] Introduction to IT Act, 2000
+  - [x] [Documentation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Introduction%20to%20IT%20Act%202000.md)
+  - [x] [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/ITAct2000.md)
 - [ ] Limitations of Indian IT Act, 2000
-- [ ] Types of Hackers
-  - White hat hackers
-  - Black hat hackers
-  - Grey hat hackers
-  - Script Kiddies.
-  - Green hat hackers
-  - Blue hat hackers
-  - Red hat hackers
-  - State/Nation Sponsored Hackers.
+- [x] Types of Hackers
+  - [White hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#white-hat-hackers)
+  - [Black hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#black-hat-hackers)
+  - [Grey hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#grey-hat-hackers)
+  - [Script Kiddies](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#script-kiddies)
+  - [Green hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#green-hat-hackers)
+  - [Blue hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#blue-hat-hackers)
+  - [Red hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#red-hat-hackers)
+  - [State/Nation Sponsored Hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#statenation-sponsored-hackers)
 
 - [x] [What is virtualization](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9%20What%20is%20Virtualization%20and%20the%20need%20for%20Virtualization.md)
 - [ ] Types of virtualization
