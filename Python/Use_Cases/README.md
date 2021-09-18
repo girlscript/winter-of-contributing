@@ -2,6 +2,12 @@
 
 An overview of major use cases of python programming language.
 
+
+
+[TOC]
+
+
+
 ## Major Use Cases
 
 From simple web application development to big data analysis and infrastructure automations, python has several frameworks and libraries to provide support for various tasks and is utilized by several roles in the IT industry such as developers, data analysts, IT infrastructure specialists, etc. A few of the use cases are listed below:
