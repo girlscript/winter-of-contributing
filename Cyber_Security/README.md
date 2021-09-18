@@ -14,7 +14,7 @@
 - [ ] CIA triad
 - [x] Introduction to IT Act, 2000
   - [x] [Documentation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Introduction%20to%20IT%20Act%202000.md)
-  - [x] [Video](https://github.com/girlscript/winter-of-contributing/tree/Cyber_Security/Cyber_Security/Week_1)
+  - [x] [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/ITAct2000.md)
 - [ ] Limitations of Indian IT Act, 2000
 - [ ] Types of Hackers
   - White hat hackers
