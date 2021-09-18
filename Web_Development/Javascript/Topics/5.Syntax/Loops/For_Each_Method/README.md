@@ -16,7 +16,7 @@ The `forEach` method passes a callback function for each element of an array to
 - Index (optional) - The current element's index number
 - Array (optional) - The array object to which the current element belongs
 
-![Untitled](For_each_1.png)
+![For each method control flow diagram](For_each_1.png)
 
 For example: 
 

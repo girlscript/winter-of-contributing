@@ -18,7 +18,7 @@ variable can be used or a variable can be declared, local to loop only.
 - **Increment/ Decrement:** It is used for updating the variable for next iteration.
 - **Loop termination:** When the condition becomes false, the loop terminates marking the end of its life cycle.
 
-![](For_loop_1.png)
+![For loop control flow diagram](For_loop_1.png)
 
 ## Example of a for loop
 ```javascript
