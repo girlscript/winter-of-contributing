@@ -10,13 +10,16 @@ The forEach() method, traverses over every element of the given iterable and per
 The map() method is similar to forEach(), but it actually returns an iterable, whereas forEach() returns a void type.\
 The reduce() method is used to obtain a cumulative single value from a given collection.
 \
+
 a)
-```
+
+```dart
   void main(){
       var numbers = [2,3,5,6,8,9];
       var op = numbers.forEach((number)=>print(number*number));
   }
-
+```
+```
   Output:
       4
       9
@@ -25,38 +28,46 @@ a)
       64
       81
 ```  
-      b)
-```
+
+   b)
+
+```dart
    void main(){
       var principal_amount = [100,500,2000,700,950];
       var op = principal_amount.map((p)=>p*2*15/100);
       print(op);
    }
+```
 
+```
    Output:
    (30, 150, 600, 210, 285)
 ```
-      c)
-```
+
+   c)
+   
+```dart
    void main(){
       var studentHeigths = [171,185,163,154,173];
       var op = studentHeigths.reduce((current,next)=>current+next);
       print(op/studentHeigths.length);
    }
-
+```
+```
    Output:
    169.2
 ```
 2. Given an array of building heights **bHeights** = [828,501,1002,321,978,200], sort the array and print the building heights in descending order.\
 \
 **Answer:**
-```
+```dart
    void main(){
       var bHeights = [828,501,1002,321,978,200];
       bHeights.sort((h1,h2)=>h2-h1);
       bHeights.forEach((height)=>print(height));
    }
-
+```
+```
    Output:
    1002
    978
@@ -68,15 +79,17 @@ a)
 3. Given an array of shortlisted candidates for a program **candidates** = ["James","Joseph","Jessica","John","Jonas"], check if a student called John is present in it.\
 \
 **Answer:**
-```
+```dart
    void main(){
       var candidates = ["James","Joseph","Jessica","John","Jonas"];
       print(candidates.contains("John"));
    }
+```
 
+```
    Output:
    true
-
+```
 
 ## Conditional Statements :
 ### 1. If Condition
