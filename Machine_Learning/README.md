@@ -27,6 +27,14 @@
 *N.B.: Upcoming roadmap will be published as the program goes!*
 
 ***************************************************************
+### Supervisors of Machine Learning
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/abhisheks008"><img src="https://avatars.githubusercontent.com/u/68724349?v=4" width="80px;" alt=""/><br /><sub><b>Abhishek S (B1)</b></sub></a></td>
+<td align="center"><a href="https://github.com/raina-akshay"><img src="https://avatars.githubusercontent.com/u/65475383?v=4" width="80px;" alt=""/><br /><sub><b>Akshay Raina (B2)</b></sub></a></td>
+</tr>
+   </table>
 
 ### Happy Contributions!
 
