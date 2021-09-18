@@ -39,7 +39,6 @@ code block at least once even if the condition Fails.
 		var x = 21;
     do 
     {
-        // The line while be printer even
         // if the condition is false
         console.log("Value of x:" + x + "<br />");
         x++;
