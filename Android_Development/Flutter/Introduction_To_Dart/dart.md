@@ -379,6 +379,4 @@ void main() {
 } 
 ``` 
 
-[Go to Top](### What is Dart?)
-
   - - - -
