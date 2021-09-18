@@ -108,7 +108,7 @@ Follow the following steps :
 	  }
 	  ```
 		**host** -argument that tells your application where devtools middleware server is running, required only while debugging on mobile.
-		**port** - argument that tells your application on what port devtools middleware server is running. If you use proxy server, you might want to set it to `null` so the port won't be added to connection URL.
+		**port** - argument that tells your application on what port devtools middleware server is running. If you use proxy server, you might want to set it to `null`    so the port won't be added to connection URL.
 
 # How to open Vue-DevTools in the browser?
  
@@ -119,7 +119,7 @@ To use the devtools, we must open the Developer Tools panel, using `View → Dev
    style="float: left; margin-right: 10px;" />
 
 Another option is to right-click on any element in the page, and choose `Inspect Vue component`:
-<img src="https://flaviocopes.com/vue-devtools/inspect-vue-component.png"  
+ <img src="https://flaviocopes.com/vue-devtools/inspect-vue-component.png"  
    alt="Markdown Monster icon"  
    style="float: left; margin-right: 10px;" />
 
