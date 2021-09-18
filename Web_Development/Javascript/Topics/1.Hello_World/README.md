@@ -48,6 +48,8 @@ __Explanation:__
 
 The Output will be generated in an alert box of your browser. 
 
+![image](alert.png)
+
 If we use ```console.log()``` method instead of ```alert()``` method then the output will be generated at console screen. To See the Output go through following steps:
 1. Press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>I</kbd> on your HTML page opened in browser. 
 2. Click on Console tab and see the output.
@@ -98,6 +100,9 @@ __Output:__
 ```
 Hello, World!
 ```
+
+![image](img.png)
+
 __Explanation:__
 
 This will display your output on the HTML Page.
