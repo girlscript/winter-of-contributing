@@ -46,11 +46,6 @@ Fixes # <issue_number_here>
 - [ ] UI/UX
 
 <hr>
-<!----Please enter your batch number inside the parenthesis. For example, Batch (0) like this----->
-
-## Batch ( ) 🔱
-
-<hr>
 
 ## Checklist ✅
 
