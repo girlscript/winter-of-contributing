@@ -1,7 +1,35 @@
 # Python Development and Debugging Software
 
+### 👨‍💻 Development Software:
+<p align="center">
+  <img width="400" height="200" src="https://user-images.githubusercontent.com/73184612/133919228-fdda1956-e3d6-45c7-8611-a788cf15609c.jpg">
+</p>
+
+#### 1. IDLE
+IDLE is the default IDE that comes along with the installation of any python version. It has a Python shell window(interactive interpreter), features such as auto-completion, syntax highlighting, smart indentation, and a basic integrated debugger. It is light-weight and simple to use, however might not be suitable for large projects.
+
+#### 2. Sublime Text
+
+#### 3. Atom
+
+#### 5. Thonny
+
+#### 6. Pycharm
+
+#### 7. Visual Studio Code
+
+#### 8. Spyder
+
+#### 9. Vim
+
+#### 10. Jupyter Notebook
+
+***
+
 ### 🐛 Debugging software: 
-![Debugging](https://user-images.githubusercontent.com/73184612/133916596-832b72af-4835-4e8d-a8ae-d204ec6ff3ad.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73184612/133916596-832b72af-4835-4e8d-a8ae-d204ec6ff3ad.jpg">
+</p>
 
 Debugging can be a cumbersome task for many developers. However, it is important to be able to debug your code for detecting the logical or semantic errors that might be giving you an unexpected output. </br>
 Using print statements for debugging is a good approach for beginners working on a short codes. As the size of the code becomes larger, this method becomes less feasible and 
@@ -21,14 +49,46 @@ python -m pdb filename.py
 #### 2. PyCharm IDE
 PyCharm is a famous python IDE that provides a visual way to debug and test your code. Code of any size can be debugged easily. We can put breakpoints and step into the code. A dialog box appears for guiding the user through the execution process and offers the choice of several debugging parameters. The window contains dedicated panes for displaying input and output information in the form of frames, variables, watches tab and the console. Inline debugging is an excellect feature of PyCharm- on pressing a breakpoint, PyCharm shows you the value of your variables in the editor itself.
 > Download PyCharm from : https://www.jetbrains.com/pycharm/download/
-> 
+ 
 ![debugging_console](https://user-images.githubusercontent.com/73184612/133917183-40d798d6-0e5a-4ee9-8fc5-5058470f3062.jpg) 
 <h6 style="margin-top:0;"> Image Src: https://www.tutorialspoint.com/pycharm/pycharm_debugging_and_breakpoints.htm </h6>
 
 ***
 
-#### 3. Visual Studio Code debugger
+#### 3. Visual Studio Code 
+Microsoft Visual Studio Code is a light-weight, full featured and multi-language IDE. It has some advanced debugging tools apart from Git control, syntax highlighting, and code refactoring. There are many debugger extensions available in VS Code marketplace to support multiple languages like PHP, Ruby, Go, C#, Python, C++, etc.
+We can put breakpoints, conditional breakpoints, can skip steps (into/out/over), put exception breakpoints and break on an unhandled exception. </br>
+> Download VS Code from : https://code.visualstudio.com/download
+<img src="https://user-images.githubusercontent.com/73184612/133918541-3dcd4bd5-ee7d-4fc5-ba76-73b3ff1074d0.png" height=400, width=700>
+<h6 style="margin-top:0;"> Image Src: https://code.visualstudio.com/docs/editor/debugging </h6>
+
+***
 
 #### 4. Komodo
+Komodo is a full-featured IDE for mixed-language applications. It is designed and developed by ActiveState with remarkable debugging features.
+The Komodo debugger uses dialog boxes to present the user with debugger options. On choosing the default debugger setting, it will run without further prompts. It has built-in debuggers for Python, Perl, Ruby, NodeJS, JavaScript, PHP, etc. </br>
+Set breakpoints, run the code upto the breakpoint and inspect the debug window to detect the errors. </br>
+Komodo has a sophisticated way to detect different programming languages. It has the ability to handle usage of different languages within the same program file.
+Komodo also offers visualization in the debugger mode, allowing the developers to deepen their understanding of the code. Moreover, it can perform unit tests easily, supports live peer viewing and team collaboration too.
+> Download Komodo from: https://www.activestate.com/products/komodo-ide/download-ide/
+<img src="https://user-images.githubusercontent.com/73184612/133918868-6fa882e9-84d5-475f-aa2b-16e75cf7c224.png" height=300, width=600>
+<h6 style="margin-top:0;"> Image Src: https://www.activestate.com/blog/advanced-debugging-komodo-ide/ </h6>
+
+***
 
 #### 5. Jupyter Visual debugger
+Jupyter has released a visual debugger that can be used within the Jupyter environment.  Using this debugger, we can set breakpoints in notebook cells, inspect variables and navigate the call stack. That makes debugging in Jupyter notebooks very efficient. The debugger can be installed by running the following command:
+```
+conda install xeus-python -c conda-forge
+```
+In this way we can use Jupyter as a full development environment without the need to test and debug the code elsewhere.
+
+<img src="https://user-images.githubusercontent.com/73184612/133919026-5e00fd35-6535-415d-8862-a24b68d74c54.gif" height=400, width=700>
+<h6 style="margin-top:0;"> Src: https://blog.jupyter.org/a-visual-debugger-for-jupyter-914e61716559 </h6>
+
+***
+</br>
+</br>
+Image sources: </br>
+https://www.indiamart.com/proddetail/python-software-development-22386550097.html </br>
+https://www.javatpoint.com/debugging
