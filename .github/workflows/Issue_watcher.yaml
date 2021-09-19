@@ -16,4 +16,4 @@ jobs:
           token: "${{ secrets.GITHUB_TOKEN }}"
           author: "${{github.actor}}"
           repo: girlscript/winter-of-contributing #Change the Repo name
-          maxIssue: 3
+          # maxIssue: 3
