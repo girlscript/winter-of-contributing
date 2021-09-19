@@ -25,4 +25,11 @@
   6.For Superscript text:<br>
   ```<strong>The Text is <sup>Subscript</sup></strong>```<br>Result: <strong>The Text is <sup>Subscript</sup></strong>
   <br><br>
+  ## Header tags:
+  1. ```<h1>```tags: <h1>Heading 1</h1>
+  2. ```<h2>```tags: <h2>Heading 2</h2>
+  3. ```<h3>```tags: <h3>Heading 3</h3>
+  4. ```<h4>```tags: <h4>Heading 4</h4>
+  5. ```<h5>```tags: <h5>Heading 5</h5>
+  6. ```<h6>```tags: <h6>Heading 6</h16>
   ### There are many more text editors  like the above examples
