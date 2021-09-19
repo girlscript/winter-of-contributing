@@ -3,18 +3,33 @@
 ### Exercises:
 
    VARIABLES
-   1. What are the naming rules for identifier?
-
-     ```
-
-     Following are the naming rules:-
-     -Identifiers should not contain white spaces, special characters except underscore (_) and dollar sign($).
-     -Identifiers should not start with a number.
-     -Identifiers should not contain alphabates and numbers.
+   1.Write a program to print a name and a number.
 
 
-     ```
-   2. How to declare a variable which stay constant at compile time?     Demonstrate with example.
+   ```
+   void main() { 
+      int num=12;
+      String name="John"; 
+      print(num);
+      print(name) ;
+   }
+   Output-
+      12 John
+   ```
+
+    
+   2. Use of var keyword
+   ```
+   We can declare any data types using var keyword.
+   For example:-
+   var name = 'Vani';
+   var year = 1999;
+   var radius = 4.5;
+   var array = ['Ram', 'Sita', 'Mohan'];
+   
+   ```  
+
+   3.  How to declare a variable which stay constant at compile time?     Demonstrate with example.
    
 
    ```
@@ -28,20 +43,6 @@
 }
 The code given above will throw error.
       
-   ```
-
-   3. Write a code to print a name and a number.
-
-
-   ```
-   void main() { 
-      int num=12;
-      String name="John"; 
-      print(num);
-      print(name) ;
-   }
-   Output-
-      12 John
    ```
 
 
