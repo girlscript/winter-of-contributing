@@ -1,1 +1,69 @@
-[Introduce JavaScript's usage in the Web Browser](https://colab.research.google.com/drive/1tOfKxrvryGtGM67KHwjb6AnCFzns-OMx#scrollTo=bu2Qfi_5hCx2)
+[Introduce JavaScript's usage in the Web Browser](https://colab.research.google.com/drive/1tOfKxrvryGtGM67KHwjb6AnCFzns-OMx?usp=sharing)
+
+# Introduction To Javascript
+
+Javascript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow client-side script to interact with the user and make dynamic pages. It is an interpreted programming language with object-oriented capabilities. Javascript capabilities greatly depend on the environment it's running in. For intance, Node.js supports functions that allow javascript to read/write arbitary files, perform network requests, etc.
+
+# Javascript In-Browser
+
+In-browser javascript can do everything related to webpage manipulation, interaction with the user, and the webserver.
+For instance, in -browser Javascript is able to:
+
+- Add new HTML to the page, change the existing content, modify styles.
+- React to user actions, run on mouse clicks, pointer movements, key presses.
+- Send requests over the network to remote servers, download and upload files.
+- Get and set cookies, ask questions to the visitor, show messages.
+- Remember the data on the client-side ("local storage").
+
+Almost all browsers like: Google Chrome, Safari, Firefox and Edge understand Javascript and allows you to write code directly into the browser, using something called the console. Most programmers use the console as the tool to help them debug.
+
+# The < script > Tag
+
+In HTML, Javascript code is inserted between < script > and < /script> tags.
+Example
+
+< script >
+document.getElementById("demo).innerHTML = "My First Javascript";
+< /script >
+
+# External Javascript
+
+Scripts can also be placed in external files. External scripts are practical when the same code is used in many different web pages.
+Javascript files have the file extention.js.
+
+To use an external script, put the name of the script file in the src (source) attribute of a < script > tag:
+Example
+
+< script src="myScript.js">< /script >
+
+You can place an external script reference in < head > or < body > as you like. But it is prefered to put it at the end of the body tag. The script will behave as if it was located exactly where the < script > tag is located.
+
+# External Javascript Advantages
+
+Placing scripts in external files has some advantages:
+
+- It separates HTML and Javascript code
+- It makes HTML and Javascript easier to read and maintain
+- Cached Javascript files can speed up page loads
+- To add several script files to one page-use several script tags:
+
+Example
+
+< script src="myScript1.js">< /script >
+< script src="myScript2.js">< /script >
+
+# Why do we need Javascript ❔
+
+While HTML is used to define the structure of the webpage and CSS is used to specify the style or layout of the webpage, Javascript is used to program the behaviour of the webpages. Javascript is used both on the client-side and server-side.
+
+# Javascript is used for:
+
+- Adding interactive behaviour to webpages to webpages
+- Creating web and mobile applications
+- Building web servers and developing server applications
+- Game development
+- Why use Javascript over other programming languages ❔
+- Javascript is the only programming language native to the web browser
+- Javascript is the most popular language with an ever-increasing scope
+- There's a low threshold to get started
+- It's an interesting language to learn.
