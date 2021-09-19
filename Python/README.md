@@ -12,10 +12,11 @@
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What is type conversion ?](./Type_Conversion)
 - [Use_Cases](./Use_Cases)
+- [Operators](./Operators)
 ## Learning path
 1. Git & GitHub
 2. Brief history of python
-3. What is a programming language? #77
+3. What is a programming language?
 4. What is type conversion ?
 5. Use cases of Python
-
+6. Operators
