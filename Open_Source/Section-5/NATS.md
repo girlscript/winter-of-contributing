@@ -37,14 +37,23 @@
 
 # Main Features
 <p>
+  
   - Pure pub-sub
+  
   - Clustered mode server
+  
   - Auto-pruning of subscribers
+  
   - Text-based protocol
+  
   - Multiple qualities of service (QoS)
+  
   - Durable subscriptions
+  
   - Event streaming service
+  
   - Last/Initial value caching
+  
 </p>
 
 <p align="center">
@@ -55,13 +64,16 @@
 <p>
   NATS can run anywhere, from large servers and cloud instances, through edge gateways and even IoT devices. Use cases for NATS include:
   
-  -Cloud Messaging
-    -Services (microservices, service mesh)
-    -Event/Data Streaming (observability, analytics, ML/AI)
+  - Cloud Messaging
   
-  -Command and Control
-    -IoT and Edge
-    -Telemetry / Sensor Data / Command and Control
+    - Services (microservices, service mesh)
+    - Event/Data Streaming (observability, analytics, ML/AI)
+  
+  - Command and Control
+  
+    - IoT and Edge
+    - Telemetry / Sensor Data / Command and Control
+  
   Augmenting or Replacing Legacy Messaging Systems
 
 <br>
