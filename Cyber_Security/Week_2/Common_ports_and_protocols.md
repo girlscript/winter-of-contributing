@@ -81,6 +81,18 @@
     It is used for interacting with web resources in form of HTML files.
     This is used for transmitting and receiving hypertext messages
     between the client and the server.
+    
+-   ### Port 123
+
+    <img
+        src="https://www.grandmetric.com/wp-content/uploads/2018/12/network-time-protocol-ntp.jpg"
+        alt="http"
+        width="50%"
+      />
+
+    This port is for NTP which stands for Network Time Protocol.
+    It is used for transmission and receiving accurate time sources over the network.
+    It allows network devices to synchronize their clocks with a central source clock.
 
 -   ### Port 194
 
