@@ -13,6 +13,7 @@
 - [What is type conversion ?](./Type_Conversion)
 - [Use_Cases](./Use_Cases)
 - [Operators](./Operators)
+- [List_&_Matrix](./List_&_Matrix)
 ## Learning path
 1. Git & GitHub
 2. Brief history of python
@@ -20,3 +21,4 @@
 4. What is type conversion ?
 5. Use cases of Python
 6. Operators
+7. List_&_Matrix
