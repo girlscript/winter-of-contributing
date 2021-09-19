@@ -40,4 +40,9 @@
   4.```<nav>``` tag: Can be used for navigating Links.<br>
   5.```<a>``` tag: Used for using Links.<br>
   6.```<img>``` tag: Used for Posting an Image.<br>
+  7.```<aside>``` tag: Defines Content aside from the page content.<br>
+  8.```<details>``` tag: Includes additional details that an user can view.<br>
+  9.```<main>``` tag: Specifies the main content of the document.<br>
+  10.```<summary>``` tag: Defines a visible heading element.<br>
+  11.```<time>``` tag: Denotes a date/time.<br>
   ### There are many more text formattors  like the above examples
