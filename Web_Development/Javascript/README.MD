@@ -1,4 +1,4 @@
-# 📕Roadmap for Javascript 📕 
+# 📕Roadmap for Javascript 📕
 
 - Functions and Scope
 - Specifications
