@@ -1,10 +1,10 @@
 # 💻 Exercises
 ## 📑 Contents
-- [Variables](#variables)
-- [Conditional Statements](#conditionals)
-- [Maps And Lists](#conditionals)
-- [ForEach And Map](#conditionals)
-- [Inheritance](#conditionals)
+- [Variables](#-variables)
+- [Conditional Statements](#-conditional-statements)
+- [Maps And Lists](#1-maps)
+- [ForEach And Map](#-foreach-and-map)
+- [Inheritance](#-inheritance-in-dart)
 
   
 # ✅ Variables
