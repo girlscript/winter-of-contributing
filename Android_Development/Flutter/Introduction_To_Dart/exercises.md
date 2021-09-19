@@ -303,3 +303,58 @@ a)
    Output:
    true
 ```
+
+## Inheritance in Dart
+
+# Question :
+Write a program with class Student as the super class and class ScienceStudent as its child. Class MathsStudent is in turn the child of ScienceStudent. Student class has two methods walk() and talk(). Class ScienceStudent has a method studiesScience() and lass MathsStudent has a method likesMaths(). Inherit the properties of the super class in the sub classes.
+
+# Solution:
+As the Student() class is the the top most in hierarchy followed by the ScienceStudent and MathsStudent classes, the properties of Student class is retaied in both the classes.
+
+```
+   class Student{    
+      void walk()  
+         {  
+            print("The student walks.\n");  
+          } 
+          
+          void talk()  
+         {  
+            print("The student talks.\n");  
+          }
+        }
+      // Inherits the super class  
+  class ScienceStudent Extends Student{  
+         //child class function  
+         void studiesScience(){  
+             print("The student studies Science.\n");               }            
+        }
+        
+        // Inherits the super class  
+  class MathsStudent extends ScienceStudent{
+         //child class function  
+         void likesMaths{
+             print("The student likes Maths.\n");             }            
+        }
+       }
+void main(){ 
+      // Creating object of the child class  
+      MathsStudent student=new MathsStudent();
+      student.likesMaths();
+      student.studiesScience();
+      student.walk();
+      student.talk();
+     }
+```
+#Output :
+```
+The student likes Maths.
+The student studies Science.
+The student walks.
+The student talks.
+
+```
+
+
+     
