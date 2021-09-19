@@ -113,24 +113,23 @@ git checkout Javascript
    repository. We shall stick to the same.
 2. The repository structure will be something like this:
    ```
-   -> Winter of Contributing
+   -> Winter of Contributing (Javascript branch)
        |
-       |- Web_Development
-       |        |
-       |        |- Javascript
-       |        |      |- README.md <- The main index file
-       |        |      |- Topics/
-       |        |      |    |- 1.Hello_World/
-       |        |      |    |        |- README.md
-       |        |      |    |        |   ^- The content goes here
-       |        |      |    |        |- ...
-       |        |      |    |- 2.History/
-       |        |      |    |        |- README.md
-       |        |      |    |        |- ...
-       |        |      |    |- 3.Strings/
-       |        |      |    |        |- README.md
-       |        |      |    |        |- ...
-       |        |      |    |- ...
+       |
+       |- JavaScript
+       |      |- README.md <- The main index file
+       |      |- Topics/
+       |      |    |- 1.Hello_World/
+       |      |    |        |- README.md
+       |      |    |        |   ^- The content goes here
+       |      |    |        |- ...
+       |      |    |- 2.History/
+       |      |    |        |- README.md
+       |      |    |        |- ...
+       |      |    |- 3.Strings/
+       |      |    |        |- README.md
+       |      |    |        |- ...
+       |      |    |- ...
    ```
 3. For the topic folders, we will follow the following naming convention:
    ```
@@ -142,7 +141,8 @@ git checkout Javascript
 
    We will have the following name for the folder:
    ```
-   2.History_Of_JavaScript.md
+   2.History_Of_JavaScript
+   2.History_Of_JavaScript/README.md
    ```
    `.md` is the extension. Please note that there is no space
    after the `.` after the serial number.
@@ -201,7 +201,7 @@ Updates (September 16, 2021):
 - For each topic, we'll first accept a document-based contribution before accepting any video/audio contribution.
 - As long as we're not out of options, one contributor may contribute to one topic only in one format i. e. Either document, video, or audio, but not multiple.
 - Although more issues will be generated, if you find an issue having been assigned to too many contributors already, I recommend you to:
-  1. Look for other issues,.
+  1. Look for other issues.
   2. Request contribution to the same issue for a different format (document, audio, video).
   3. Create your own issue and request the tag from me (you may reference the roadmap).
 - There will be a soft limit on the number of issues a single person may work simultaneously on.
