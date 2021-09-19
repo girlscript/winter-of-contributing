@@ -15,8 +15,22 @@
   
   They are also being defined by location independence and mobility, and not just for things we would typically recognize as front end technologies. Today’s systems and the backend processes, microservices and stream processing are being asked to be location independent and mobile as well, all while being secure.
   
+</p>
+
 <p align="center">
   <img src="https://nats.io/img/new_social_nats.png ">
 </p>
+
+<br>
+
+# What makes NATS Unique
+
+<p>
   
-</p>
+   - NATS manages addressing and discovery based on subjects and not hostname and ports. Defaulting to M:N communications, which is a superset of 1:1, meaning it can do 1:1 but can also do so much more. If you have a 1:1 system that is successful in development, ask how many other moving parts are required for production to work around the assumption of 1:1? Things like load balancers, log systems, and network security models, as well as proxies and sidecars. If your production system requires all of these things just to get around the fact that the connective technology being used, e.g. HTTP or gRPC, is 1:1, it’s time to give NATS.io a look.
+  
+   - NATS can be deployed nearly anywhere; on bare metal, in a VM, as a container, inside K8S, on a device, or whichever environment you choose. NATS runs well within deployment frameworks or without.
+  
+   - Similarly, NATS is secure by default and makes no requirements on network perimeter security models. When you start considering mobilizing your backend microservices and stream processors, many times the biggest roadblock is security.
+  
+</p> 
