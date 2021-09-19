@@ -1,5 +1,6 @@
 # Assignment Operators
-[Back to Operators in Javascript](README.md#operators-in-javascript)
+[Back to Operators in Javascript](../README.md#operators-in-javascript)
+
 
 #### 1. Values Assignment (=)
 ```js
@@ -128,8 +129,8 @@ console.log(a); // Output: 6
 
 
 Related Topics:
-- [Arithmetic Operators](ArithmeticOperator.md#arithmetic-operators)
-- [Comparison Operators](ComparisonOperator.md#comparison-operators)
-- [Bitwise Operators](BitwiseOperator.md#bitwise-operators)
-- [logical Operators](LogicalOperator.md#logical-operators)
-- [Ternary/ Conditonal Operators](TernaryOperator.md#ternary-operators)
+- [Arithmetic Operators](2.Arithmetic_Operators/README.md#arithmetic-operators)
+- [Comparison Operators](3.Comparison_Operators/README.md#comparison-operators)
+- [Bitwise Operators](4.Bitwise_Operators/README.md#bitwise-operators)
+- [Logical Operators](5.Logical_Operators/README.md#logical-operators)
+- [Ternary/ Conditional Operator](6.Ternary_Operators/README.md#ternary-operator)

@@ -5,14 +5,15 @@
 #### Different Types of Operator
 Javascript has different types of operator to do specific task with values.
 
-- [Assignment Operators](AssignmentOperator.md#assignment-operator)
-- [Arithmetic Operators](ArithmeticOperator.md#arithmetic-operators)
-- [Comparison Operators](ComparisonOperator.md#comparison-operators)
-- [Bitwise Operators](BitwiseOperator.md#bitwise-operators)
-- [Logical Operators](LogicalOperator.md#logical-operators)
-- [Ternary/ Conditonal Operators](TernaryOperator.md#ternary-operators)
-  
-### [Assignment Operators](AssignmentOperator.md#assignment-operators)
+- [Assignment Operators](1.Assignment_Operators/README.md#assignment-operators)
+- [Arithmetic Operators](2.Arithmetic_Operators/README.md#arithmetic-operators)
+- [Comparison Operators](3.Comparison_Operators/README.md#comparison-operators)
+- [Bitwise Operators](4.Bitwise_Operators/README.md#bitwise-operators)
+- [Logical Operators](5.Logical_Operators/README.md#logical-operators)
+- [Ternary/ Conditional Operator](6.Ternary_Operators/README.md#ternary-operator)
+
+
+### [Assignment Operators](1.Assignment_Operators/README.md#assignment-operators)
 An Assignment Operators are those operators that assign values to left operand based on values of the right operand.
 
 |Operator |Meaning       |Description                                           |
@@ -32,7 +33,7 @@ An Assignment Operators are those operators that assign values to left operand b
 
 
 
-### [Arithmetic Operators](ArithmeticOperator.md#arithmetic-operators)
+### [Arithmetic Operators](2.Arithmetic_Operators/README.md#arithmetic-operators)
 An Arithmetic operators are used to perform arithemetical operations on given values.
 
 | Operator              | Example                                                     | Output        |
@@ -50,22 +51,23 @@ An Arithmetic operators are used to perform arithemetical operations on given va
 
 
 
-### [Comparison Operators](ComparisonOperator.md#comparison-operators)
+### [Comparison Operators](3.Comparison_Operators/README.md#comparison-operators)
 Comparison operators are used to compare values and return true or false based on the result.
 
 | Operator                  |  Example                                                     | Output        |
 |---------------------------|--------------------------------------------------------------|---------------|
-| Equal (=)                 | `console.log(1 == 2);`                                       | `false`       |
+| Equal (==)                | `console.log(1 == 2);`                                       | `false`       |
 | Not Equal (!=)            | `console.log(1 != 2);`                                       | `true`        |
 | Greater Than (>)          | `console.log(1 > 2);`                                        | `false`       |
 | Less Than (<)             | `console.log(1 < 2);`                                        | `true`        |
 | Greater Than or Equal (>=)| `console.log(1 >= 2);`                                       | `false`       |
 | Less Than or Equal (<=)   | `console.log(1 <= 2);`                                       | `true`        |
-| Strict Equality (===)     | `console.log(1 === '1');`                                    | `false`       |
+| Strict Equal To (===)     | `console.log(1 === '1');`                                    | `false`       |
+| Strict Not Equal To (!==) | `console.log(1 !== '1');`                                    | `true`        |
 
 
 
-### [Bitwise Operators](BitwiseOperator.md#bitwise-operators)
+### [Bitwise Operators](4.Bitwise_Operators/README.md#bitwise-operators)
 Bitwise operators compare the value in binary format (32 bits) and perform bitwise operations on them.
 
 | Operator                  | Description                                                                           |
@@ -79,7 +81,7 @@ Bitwise operators compare the value in binary format (32 bits) and perform bitwi
 
 
 
-### [Logical Operators](LogicalOperator.md#logical-operators)
+### [Logical Operators](5.Logical_Operators/README.md#logical-operators)
 Logical operators are used to perform logical operations on given values.
 
 | Operator          | Description                                                                            |
@@ -90,7 +92,7 @@ Logical operators are used to perform logical operations on given values.
 
 
 
-### [Ternary Operators](TernaryOperator.md#ternary-operators)
+### [Ternary/ Conditional Operator](6.Ternary_Operators/README.md#ternary-operator)
 Conditional Operators (also known as Ternary Operator) works on three operands. If first operand is true, then operand two will be executed otherwise operand three will be exectued.
 ```js
 var result = condition ? trueValue : falseValue;

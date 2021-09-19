@@ -1,5 +1,6 @@
 # Arithmetic Operators
-[Back to Operators in Javascript](README.md#operators-in-javascript)
+[Back to Operators in Javascript](../README.md#operators-in-javascript)
+
 
 #### 1. Addition (+)
 The addition operator (+) is used to add two given variables.
@@ -38,8 +39,8 @@ console.log(12/4);
 // expected output: 3
 ```
 
-#### 5. Remainder (%)
-The remainder operator (%) is used to get the remainder after dividing two variables.
+#### 5. Modulus Operator (%)
+The Modulus operator (%) is used to get the remainder after dividing two variables.
 ```js
 console.log(8 % 3);
 // expected output: 2
@@ -109,8 +110,8 @@ console.log(2**4); // Expected output: 16
 
 
 Related Topics:
-- [Assignment Operators](AssignmentOperator.md#assignment-operator)
-- [Comparison Operators](ComparisonOperator.md#comparison-operators)
-- [Bitwise Operators](BitwiseOperator.md#bitwise-operators)
-- [logical Operators](LogicalOperator.md#logical-operators)
-- [Ternary/ Conditonal Operators](TernaryOperator.md#ternary-operators)
+- [Assignment Operators](1.Assignment_Operators/README.md#assignment-operators)
+- [Comparison Operators](3.Comparison_Operators/README.md#comparison-operators)
+- [Bitwise Operators](4.Bitwise_Operators/README.md#bitwise-operators)
+- [Logical Operators](5.Logical_Operators/README.md#logical-operators)
+- [Ternary/ Conditional Operator](6.Ternary_Operators/README.md#ternary-operator)
