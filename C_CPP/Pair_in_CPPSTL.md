@@ -10,21 +10,18 @@
 
 <h2>Syntax</h2>
 pair (data_type1, data_type2) Pair_name;
+<h2>code</h2> 
 
-<h2> code </h2>
-``` 
-#include <iostream>
-#include <utility>
-using namespace std;
-int main()
+#include some header files(iostream , utility) <br>
+using namespace std;<br>
+int main()<br>
 {
-	pair<int, char> PAIR1;
-	PAIR1.first = 100;
-	PAIR1.second = 'G';
-    cout << PAIR1.first << " ";
-	cout << PAIR1.second << endl;
-	return 0;
+	pair<int, char> PAIR1;<br>
+	PAIR1.first = 100;<br>
+	PAIR1.second = 'G';<br>
+    cout << PAIR1.first << " ";<br>
+	cout << PAIR1.second << endl;<br>
+	return 0;<br>
 }
-```
 <h2>Output</h2>
 100 G
