@@ -1,7 +1,7 @@
 # Boolean Data Type in Python
 
  The Python Boolean type is one of Python’s built-in data types.\
- A Boolean variable will have two values; True or False. \
+ A Boolean variable can take two values; True or False. \
  Boolean do Comparison, Check equality/identity. 
  
  
