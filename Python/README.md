@@ -8,6 +8,7 @@
 
 ## Index
 - [GitHub](./Git_And_GitHub)
+- [Installing software for python](./Installing_Software)
 - [Brief History of Python](./History_Of_Python)
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What is type conversion ?](./Type_Conversion)
