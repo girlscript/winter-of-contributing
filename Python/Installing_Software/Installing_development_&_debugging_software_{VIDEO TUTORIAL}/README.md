@@ -16,3 +16,5 @@ link : https://www.youtube.com/watch?v=Q0YCYSGQ5og&t=4s
 
 
 Comparing both Pycharm and Vs code and which I personally prefer.
+<img src="procedure screenshots/comparison.png"  style="max-width: 100%; height: auto;"/>
+
