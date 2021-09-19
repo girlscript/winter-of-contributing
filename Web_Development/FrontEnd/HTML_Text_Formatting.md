@@ -19,10 +19,10 @@
   4.For small text:<br>
   ```<small>The Text is small</small>```<br>Result: <small>The Text is small</small>
   <br><br>
-  5.For Subscripted text:<br>
-  ```<strong>The Text is <sub>Subscripted</sub></strong>```<br>Result: <strong>The Text is <sub>Subscripted</sub></strong>
+  5.For Subscript text:<br>
+  ```<strong>The Text is <sub>Subscript</sub></strong>```<br>Result: <strong>The Text is <sub>Subscript</sub></strong>
   <br><br>
- 5.For Superscripted text:<br>
-  ```<strong>The Text is <sup>Subscripted</sup></strong>```<br>Result: <strong>The Text is <sup>Subscripted</sup></strong>
+  6.For Superscript text:<br>
+  ```<strong>The Text is <sup>Subscript</sup></strong>```<br>Result: <strong>The Text is <sup>Subscript</sup></strong>
   <br><br>
   ### There are many more text editors  like the above examples
