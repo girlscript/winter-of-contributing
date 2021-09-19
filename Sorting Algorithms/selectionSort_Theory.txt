@@ -1,0 +1,16 @@
+1. Selection Sort : 
+
+Approach:
+Keep two separate parts:-sorted and unsorted. 
+So at the beginning we will keep inserting the sorted part. 
+So to achieve this we have to first find the minimum element in the whole array and put it at the first index.
+ So now the beginning part is sorted. 
+Now find the minimum element in the remaining unsorted array and 
+place it at the next index after the sorted part. Keep doing the same until whole array is sorted. 
+When only one element is left in the unsorted part means the whole array is sorted.  
+
+Time Complexity: O(N^2) 
+Space complexity: O(1).
+
+In Place Algorithm: Yes
+Stable Algorithm: No

@@ -1,0 +1,11 @@
+Insertion sort :
+
+Approach:
+Keep sorted part at the beginning and the unsorted part at the end. 
+Keep the first element of the unsorted part at the right position in the sorted part so that the sorted part remains sorted. 
+Keep this for element with index 1 to n-1. 
+
+Time complexity: O(N^2) for worst case & O(N) for best case. 
+Space Complexity: O(1)
+Inplace algorithm: YES
+Stable algorithm: YES

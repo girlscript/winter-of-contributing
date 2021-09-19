@@ -1,0 +1,12 @@
+Bubble Sort : 
+
+Approach: Keep two separate parts, unsorted at the beginning and sorted at the end of the array. 
+For n-1 iterations, swap elements from the beginning if arr[i]>arr[i+1] 
+so that the maximum element in the unsorted part is placed at the first position of the sorted part of the array. 
+For every itr th iteration run a loop from from 0th index to n-itr-1 th iteration. 
+After n-1 iterations the array will be sorted. 
+
+Time complexity: O(N^2) for worst case & O(N) for best case. 
+Space Complexity: O(1)
+InPlace Algorithm: Yes
+Stable algorithm: Yes
