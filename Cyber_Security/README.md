@@ -43,3 +43,6 @@
 - [ ] MAC address
 - [ ] IP v/s MAC
 - [ ] TCP
+- [ ] UDP
+- [ ] 3-wah handshake
+- [ ] Ports and Protocols
