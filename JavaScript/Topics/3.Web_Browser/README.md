@@ -21,7 +21,7 @@ The following material shows how to use the `<script>` element in a web browser 
 
 # Use of `<script>` tag
 
-Externally, JavaScript may be used by generating a separate file with the `.js` extension and linking to the HTML file. This is called *external JavaScript*. Or it can be used inside in HTML files which is called *internal JavaScript*.
+Externally, JavaScript may be used by generating a separate file with the `.js` extension and linking to the HTML file. This is called *external JavaScript*. Or it can be used inside HTML files which is called *internal JavaScript*.
 
 ## 1. Internal JavaScript
 
@@ -121,4 +121,4 @@ The output is shown below, after running the HTML file.<br>
    
 <br>
 
-<b>Contributors: </b> @subhendudash02
+<b>Contributors: </b> https://github.com/subhendudash02
