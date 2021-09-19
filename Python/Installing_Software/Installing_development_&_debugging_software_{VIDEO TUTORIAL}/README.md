@@ -1,9 +1,9 @@
- #Python: 2.3 Installing development & debugging software #339 
+ # Python: 2.3 Installing development & debugging software #339 
 
 link : https://www.youtube.com/watch?v=Q0YCYSGQ5og&t=4s
 
  In this Video tutorial I have shown how to setup python ,  VS code for Python and Pycharm which are two very Popular IDEs for Python Programming 
-#summary
+# summary
  step 1 Installing Python iff not installed already 
 
 
