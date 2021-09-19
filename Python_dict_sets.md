@@ -12,7 +12,8 @@ let us see an example
 code:
 dict={}
 print(dict)
-Output:
+
+OUTPUT:
 {}
 
 ACCESSING VALUES
@@ -124,3 +125,4 @@ Example
 What is the data type of a set?
 myset = {"apple", "banana", "cherry"}
 print(type(myset))
+
