@@ -1,0 +1,50 @@
+QUESTION: LEETCODE PROBLEM 94. Binary Tree Inorder Traversal
+
+APPROACH: 
+
+Recursive Approach: 1. Base Case: If root node is NULL, we can return.
+		   2. Recursive Case: Step 1: Traverse the left subtree recursively
+				   Step 2. Traverse or Visit the root node
+				   Step 3. Traverse the right subtree recursively
+
+Time Complexity: O(N) , N is the number of nodes in the binary tree.								
+
+SOLUTION: 
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    void inorderTraversalHelper(TreeNode* root,vector<int>& res){
+        
+        //Base case
+        if(root==NULL){
+            return;
+        }
+        
+        //Step 1. Traverse left subtree recursively
+        inorderTraversalHelper(root->left,res);
+        
+        //Step 2. Traverse root node
+        res.push_back(root->val);       
+        
+        //Step 3. Traverse right subtree recursively
+        inorderTraversalHelper(root->right,res);
+        
+        return;
+    }
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> res;
+        inorderTraversalHelper(root,res);
+        return res;
+    }
+};

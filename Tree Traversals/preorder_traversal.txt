@@ -1,0 +1,50 @@
+QUESTION: LEETCODE PROBLEM 144. Binary Tree Preorder Traversal 
+
+APPROACH: 
+
+Recursive Approach: 1. Base Case: If root node is NULL, we can return.
+		   2. Recursive Case: Step 1: Traverse or Visit the root node
+				   Step 2. Traverse the left subtree recursively
+				   Step 3. Traverse the right subtree recursively
+
+Time Complexity: O(N) , N is the number of nodes in the binary tree.								
+
+SOLUTION: 
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    void preorderTraversalHelper(TreeNode* root,vector<int>& res){
+        
+        //Base case
+        if(root==NULL){
+            return;
+        }
+        
+        //Step 1. Traverse root node
+        res.push_back(root->val);
+        
+        //Step 2. Traverse left subtree recursively
+        preorderTraversalHelper(root->left,res);
+        
+        //Step 3. Traverse right subtree recursively
+        preorderTraversalHelper(root->right,res);
+        
+        return;
+    }
+    vector<int> preorderTraversal(TreeNode* root) {
+        vector<int> res;
+        preorderTraversalHelper(root,res);
+        return res;
+    }
+};
