@@ -16,7 +16,7 @@
 - [Operators](./Operators)
 - [List_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
-- [Installing_Software](./Installing_Software)
+
 
 ## Learning path
 1. Git & GitHub
