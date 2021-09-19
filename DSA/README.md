@@ -18,11 +18,11 @@ This is the DSA branch for contribution under Girlscript Winter Of Contributing.
 ## Introduction
 Data Structures are the main part of many computer science algorithms as they enable the programmers to handle the data in an efficient way. Data Structures are widely used in almost every aspect of Computer Science i.e. Operating System, Compiler Design, Artifical intelligence, Graphics and many more.
 
-  In this project, we're creating a multilingual content repo intended to contain tutorials, code walkthroughs, explanatory articles, etc pertaining to the DSA topics in the form of doc, audio and video.
+  In this project, we're creating a multilingual content repository intended to contain tutorials, code walkthroughs, explanatory articles, etc pertaining to the DSA topics in the form of documentation, audio and video.
 
 ## Roadmap (Overview of Code Structure)
 ### Data Structures
-- Week 1: Array
+- Week 1: [Array](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.1%20Arrays)
 - Week 2: Strings
 - Week 3: Linked List
 - Week 4: Stacks, Queues
@@ -33,7 +33,7 @@ Data Structures are the main part of many computer science algorithms as they en
 - Week 9: Fenwick Tree, Segment Tree
 - Week 10: Tries, Disjoint Set Union
 ### Algorithms
-- Week 1: Analysis of Algorithms
+- Week 1: [Analysis of Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms)
 - Week 2: Searching & Sorting Algorithms
 - Week 3: Greedy Algorithms
 - Week 4: Pattern Searching Algorithms
@@ -69,4 +69,4 @@ This project follows the [MIT License](https://choosealicense.com/licenses/mit/)
 
 <hr>
 
-![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/nimisha-yadav)
