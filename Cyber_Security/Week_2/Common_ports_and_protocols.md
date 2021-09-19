@@ -1,13 +1,15 @@
-Some Common Ports and Protocols {align="center"}
-===============================
+<h1 align="center">Some Common Ports and Protocols</h1>
+<hr>
 
-* * * * *
-
-Following are some common ports and protocols:
+<h3>Following are some common ports and protocols:</h3>
 
 -   ### Port 20, 21
 
-    ![ftp](https://blog.ipswitch.com/hs-fs/hubfs/ftp-diagram.png?width=750&height=378&name=ftp-diagram.png)
+    <img
+        src="https://blog.ipswitch.com/hs-fs/hubfs/ftp-diagram.png?width=750&height=378&name=ftp-diagram.png"
+        alt="ftp"
+        width="45%"
+      />
 
     This port is for FTP which stands for File Transfer Protocol. It is
     used for transfer of files between computers over the network. FTP
@@ -17,7 +19,11 @@ Following are some common ports and protocols:
 
 -   ### Port 22
 
-    ![ssh](https://www.ssh.com/hubfs/Imported_Blog_Media/SSH_simplified_protocol_diagram-2.png)
+    <img
+        src="https://www.ssh.com/hubfs/Imported_Blog_Media/SSH_simplified_protocol_diagram-2.png"
+        alt="ssh"
+        width="60%"
+      />
 
     This port is for SSH which stands for Secure Shell. It is used for
     generating a secure connection over some unsecured network. So,
@@ -27,7 +33,11 @@ Following are some common ports and protocols:
 
 -   ### Port 23
 
-    ![dns](https://networkinterview.com/wp-content/uploads/2019/06/WHAT-IS-TELNET.jpg)
+    <img
+        src="https://networkinterview.com/wp-content/uploads/2019/06/WHAT-IS-TELNET.jpg"
+        alt="telnet"
+        width="55%"
+      />
 
     This port is for Telnet protocol to remotely administer network
     devices. It is used for remote maintainence of networking
@@ -35,7 +45,11 @@ Following are some common ports and protocols:
 
 -   ### Port 25
 
-    ![smtp](https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png)
+    <img
+        src="https://cdn.educba.com/academy/wp-content/uploads/2019/07/smtp-protocol.png"
+        alt="smtp"
+        width="55%"
+      />
 
     This port is for SMTP which stands for Simple Mail Transfer
     Protocol. It is used for delivering and receiving email messages
@@ -43,7 +57,11 @@ Following are some common ports and protocols:
 
 -   ### Port 53
 
-    ![dns](https://kinsta.com/wp-content/uploads/2018/05/what-is-dns.png)
+    <img
+        src="https://kinsta.com/wp-content/uploads/2018/05/what-is-dns.png"
+        alt="dns"
+        width="45%"
+      />
 
     This port is for DNS which stands for Domain Name System Service.
     DNS basically helps to map the website names to their following IP
@@ -53,7 +71,11 @@ Following are some common ports and protocols:
 
 -   ### Port 80
 
-    ![ssh](https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Internet1.svg/2000px-Internet1.svg.png)
+    <img
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Internet1.svg/2000px-Internet1.svg.png"
+        alt="http"
+        width="35%"
+      />
 
     This port is for HTTP which stands for Hyper Text Transfer Protocol.
     It is used for interacting with web resources in form of HTML files.
@@ -62,7 +84,11 @@ Following are some common ports and protocols:
 
 -   ### Port 194
 
-    ![ssh](https://www.esds.co.in/blog/wp-content/uploads/2011/01/internet-relay-chat.jpg)
+    <img
+        src="https://www.esds.co.in/blog/wp-content/uploads/2011/01/internet-relay-chat.jpg"
+        alt="irc"
+        width="45%"
+      />
 
     This port is for IRC which stands for Internet Relay Chat. This
     Protocol is used for real-time chat messaging with between the
@@ -70,7 +96,11 @@ Following are some common ports and protocols:
 
 -   ### Port 443
 
-    ![ssh](https://www.hallaminternet.com/assets/https.jpg)
+    <img
+        src="https://www.hallaminternet.com/assets/https.jpg"
+        alt="https"
+        width="35%"
+      />
 
     This port is for HTTPS which stands for Hyper Text Transfer
     Protocol. This Protocol is works same as the HTTP protocol but in a
