@@ -12,7 +12,7 @@ Elements of a 2D array are stored in consecutive memory locations in ```Row Majo
 
 </p> <br>
 
-![Diagram](Diagrams/Diagram.png)
+![Diagram](https://github.com/kashyap1905/winter-of-contributing/blob/Pointer-and-Two-Dimentional-Array/C_CPP/Diagrams/Diagram.png)
 
 <br>
 
