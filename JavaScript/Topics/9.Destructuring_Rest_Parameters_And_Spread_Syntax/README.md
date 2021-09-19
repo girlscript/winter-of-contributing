@@ -145,4 +145,4 @@ console.log(answer);
 <hr>
 <br><br><br>
 
-#### Contributor: ![Sushovan Banerjee](https://github.com/sushovanb02)
+#### Contributor: [Sushovan Banerjee](https://github.com/sushovanb02)
