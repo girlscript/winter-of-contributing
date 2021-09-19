@@ -17,6 +17,33 @@ const officer = {
     age : 28
 };
 ```
+# Defining an Object
+---
+
+### Using an Object Literal
+---
+Its the easiest way to create a JavaScript Object. Using an object literal, we both define and create an object in a single statement.
+
+An object literal is a list of key:value pairs (like marks: 34) inside curly braces {}.
+
+Example
+```js
+const student = {name: "Rahul", rollNo: 10, marks: 57, age: 18}; // using Object Literal
+```
+
+### Using the new keyword 
+---
+We can also create an object using the new keyword present in JavaScript.
+
+Example
+```js
+const student = new Object(); // using the new keyword
+student.name = "Rahul";
+student.rollNo = 10; 
+student.marks = 57;
+student.age = 18; 
+```
+
 # Keys and Values
 
 Here in JavaScript Object, a ```key``` is a string i.e the __property name__ and a ```value``` can be anything.
@@ -85,6 +112,27 @@ const officer = {
 
 # Getters and Setters
 Getters and Setters are the JavaScript Accessors that allows you to define the Object Accessors.
+In JavaScript, there are two kinds of object properties:
+- Data properties
+- Accessor properties
+
+### Data Property
+---
+Here's an example of data property that we have been using since.
+
+```js
+const student = {
+    // data property
+    firstName: 'Rahul';
+};
+```
+
+### Accessor Property
+---
+In JavaScript, accessor properties are methods that get or set the value of an object. For that, we use these two keywords:
+- get - to define a getter method to get the property value
+- set - to define a setter method to set the property value
+
 ## Getter
 This makes use of ```get``` keyword. It works when a ```function``` without arguments is read.
 
@@ -134,3 +182,4 @@ Congratulations! You've successfully learnt about JavaScript Object.
 Keep exploring JavaScript :wave:
 
 __Contributor :__ [Abhinandan Adhikari](https://github.com/AbhinandanAdhikari) :heart: 
+<br> __Contributor :__ [Aniket Pathak](https://github.com/aniketpathak028)
