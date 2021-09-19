@@ -12,6 +12,7 @@
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What is type conversion ?](./Type_Conversion)
 - [Use_Cases](./Use_Cases)
+- [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
 ## Learning path
 1. Git & GitHub
@@ -19,4 +20,6 @@
 3. What is a programming language?
 4. What is type conversion ?
 5. Use cases of Python
-6. Operators
+6. Virtual Environment
+7. Operators
+
