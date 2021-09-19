@@ -8,22 +8,34 @@
 #### 1. IDLE
 IDLE is the default IDE that comes along with the installation of any python version. It has a Python shell window(interactive interpreter), features such as auto-completion, syntax highlighting, smart indentation, and a basic integrated debugger. It is light-weight and simple to use, however might not be suitable for large projects.
 
-#### 2. Sublime Text
+#### 2. Sublime Text, Vim, Atom
+These are a popular code editors that support many programming languages. Sublime text has a built-in support for python. There are packages available for debugging, auto completion, code-linting, etc. which can be installed and used. There are various other packages for development in the fields of web, scientific computation, machine learning, etc. They are highly customisable code editors that can give you a full fledged python development environment as per your need.
 
-#### 3. Atom
+> Download Sublime Text from: https://www.sublimetext.com/download </br>
+> Download Vim from: https://www.vim.org/download.php </br>
+> Download Atom from: https://atom.io/
 
-#### 5. Thonny
+#### 3. Thonny
+Thonny IDE is ddedicated to python and has python 3 version built in. This IDE is best for beginners because of the simple user interface. It supports features like syntax error highlighting, debugger, code completion, step through expression evaluation, etc.
+> Download Thonny from: https://thonny.org/
 
-#### 6. Pycharm
+#### 4. Pycharm
+PyCharm, created by JetBrains is a suitable IDE for professional developers. It has features like code completion and inspection, error-highlighting, debugging, version control system and code refactoring. PyCharm comes in 2 versions: Community and Profesional. Community version is free and open-source, suitable for students. Professional version is a paid one, as it is a full-featured IDE supporting lots of tools and features for scientific as well as web development.
+> Download PyCharm from: https://www.jetbrains.com/pycharm/download/
 
-#### 7. Visual Studio Code
+#### 5. Visual Studio Code
+Visual studio code from Microsoft is a powerful open-source IDE. It can easily be used to create a Python development environment by adding the necessary extensions.
+It provides several intelligent features: code completion, linting for potential errors, debugging, unit testing, etc.
+> Download Visual Studio Code from: https://code.visualstudio.com/download
 
-#### 8. Spyder
+#### 6. Spyder
+Spyder is another opem-source IDE, popularly used for scientific development using python. It is bundled with Anaconda distribution. The Anaconda distribution includes lots of different packages for data science and machine learning applications, like numpy, pandas, scikit-learn, etc. Spyder supports autocompletion, debugging and iPython shell.
+> Refer this link to download Spyder: https://docs.spyder-ide.org/current/installation.html#standalone-installers-ref
 
-#### 9. Vim
-
-#### 10. Jupyter Notebook
-
+#### 7. Jupyter Notebook
+Jupyter is a free and open source interactive web tool. Using this, developers can combine software code, output, explanatory texts, links and resources in a single document.
+It works not only as an IDE, but also as an educational tool.
+> Download Jupyter Notebook from: https://jupyter.org/install
 ***
 
 ### 🐛 Debugging software: 
@@ -89,6 +101,10 @@ In this way we can use Jupyter as a full development environment without the nee
 ***
 </br>
 </br>
+References: </br>
+https://www.programiz.com/python-programming/ide </br>
+https://towardsdatascience.com/5-python-debugging-tools-that-are-better-than-print-1aa02eba35
+
 Image sources: </br>
 https://www.indiamart.com/proddetail/python-software-development-22386550097.html </br>
 https://www.javatpoint.com/debugging
