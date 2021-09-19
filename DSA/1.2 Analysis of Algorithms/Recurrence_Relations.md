@@ -55,14 +55,16 @@
   ### Bubble Sort
   > For every element of arr[], we check if arr[i]>arr[i+1], then we swap them. Bt this method, we are putting the largest element at last. We can improve the best case by maintaining a flag that will return 0, if arr[] is already sorted. Pseudo code for it would be.
   ```
-  int pass,i,temp;
-  bool swapped=1;
-  for(pass>=n-1; pass>=0 && swapped; pass--){
-      if(arr[i]>arr[i+1]){
+  void bubbleSort(int arr[], int n){
+    int pass,i,temp;
+    bool swapped=1;
+    for(pass>=n-1; pass>=0 && swapped; pass--){
+        if(arr[i]>arr[i+1]){
           swap(arr[i],arr[i+1]);
           swapped=1;
-      }
-  } 
+        }
+    } 
+  }
 
    ```
 
