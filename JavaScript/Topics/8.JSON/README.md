@@ -196,4 +196,6 @@ Use the JavaScript function JSON.stringify() to convert it into a string.
 ```js
 const myJSON = JSON.stringify(obj);
 ```
+<br>
 
+ __Contributor :__ [Aniket Pathak](https://github.com/aniketpathak028)
