@@ -34,3 +34,36 @@
    - Similarly, NATS is secure by default and makes no requirements on network perimeter security models. When you start considering mobilizing your backend microservices and stream processors, many times the biggest roadblock is security.
   
 </p> 
+
+# Main Features
+<p>
+  - Pure pub-sub
+  - Clustered mode server
+  - Auto-pruning of subscribers
+  - Text-based protocol
+  - Multiple qualities of service (QoS)
+  - Durable subscriptions
+  - Event streaming service
+  - Last/Initial value caching
+</p>
+
+<p align="center">
+  <img src="https://www.cncf.io/wp-content/uploads/2020/08/NATS1-1.png">
+</p>
+
+<h2> Use Cases </h2>
+<p>
+  NATS can run anywhere, from large servers and cloud instances, through edge gateways and even IoT devices. Use cases for NATS include:
+  
+  -Cloud Messaging
+    -Services (microservices, service mesh)
+    -Event/Data Streaming (observability, analytics, ML/AI)
+  
+  -Command and Control
+    -IoT and Edge
+    -Telemetry / Sensor Data / Command and Control
+  Augmenting or Replacing Legacy Messaging Systems
+
+<br>
+
+
