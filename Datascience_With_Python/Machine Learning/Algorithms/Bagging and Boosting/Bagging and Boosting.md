@@ -1,4 +1,5 @@
 # Bagging and Boosting
+<img src="https://github.com/ishreyakumari/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Images/bagging-and-boosting.png">
 
 ## Introduction
 Bagging and Boosting are Ensemble techniques. In bagging and boosting, we utilize multiple models and predict the dataset by considering outputs of all models. Ensemble techniques mainly focused on training multiple models (called weak learners) to solve same problem and their prediction will be combined together to predict accurate result. The primary importance of this technique is that, when multiple models are correctly combined, we can obtain more robust model.
