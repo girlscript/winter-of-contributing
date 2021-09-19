@@ -2,7 +2,7 @@
 
 link : https://www.youtube.com/watch?v=Q0YCYSGQ5og&t=4s
 
- In this Video tutorial I have shown how to setup python ,  VS code for Python and Pycharm which are two very Popular IDEs for Python Programming 
+ In this Video tutorial I have shown how to setup python ,  VS code and Pycharm which are two very Popular IDEs for Python Programming 
 # Video Summary
  step 1 Installing Python iff not installed already 
  
