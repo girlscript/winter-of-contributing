@@ -2,6 +2,28 @@
 
 ![Alt text](./assets/react.png?raw=true) ![Alt text](./assets/angular.png?raw=true)![Alt text](./assets/vue.png?raw=true)
 
+## Week 1 is going on !!!!
+
+# How to get Work
+
+We will create issues according to Roadmap.You guys can comment under the issues in which you are intrested to work on alon with in which type you are going to do it.We are following first come first method.
+- You can find the issues at [https://github.com/girlscript/winter-of-contributing/milestone/3](url)
+
+## Imp
+- Contributers are not allowded to create issues
+ 
+# Important Things before making PR
+
+Guys Please Take Care that ,while making a **PR** please follow these instructions
+1. Please add Frontend With Framework In Beginning of your PR Heading,as in issues
+- (eg: Frontend With FrameWork - your pr heading)
+3. Send your PR Link  in discord general chat of our domain
+4. Add your file in your domain folder only(eg:For React there is a React folder)
+5. Inside your domain folder there are Week based folder's
+6. Add your PR in that folders according to the Week(you can find which week is going on now by looking at the top of this Readme.md)
+
+Otherwise your PR will be lost in tones of PR.Please follow this Trend
+
 # Road Map
  
 ## Angular Road Map 
@@ -121,27 +143,57 @@ Components
  
 ## Vue RoadMap 
  
-### WEEK - 1 
-- Introduction to Vue JS 
-### WEEK - 2 
-- Basics of Vue JS 
-### WEEK - 3 
-- Conditional Rendering 
-### WEEK - 4 
-- Computer Properties & Watchers 
-### WEEK - 5  
-- Events & Event Handling 
-### WEEK - 6 
-- Bindings 
-### WEEK - 7 
-- State Management 
-### WEEK - 8 
-- Components & their usage 
-### WEEK - 9 
-- Reusable Code in Vue 
-### WEEK - 10 
-- Custom Functionality 
-### WEEK - 11 
-- Tooling 
-### WEEK -12 
-- Routers
+### 1) Introduction (Week-1)
+- VueJS Intro (uses, benefits, scalability)
+- Introduction to VueJS using CDN
+- Installation using NPM and about Vue CLI
+- Intro to Lifecycle Diagram and Lifecycle Hooks (Theory explanation)
+- Installing Vue-DevTools
+- Vue Components
+
+### 2) Data Manipulation in VueJS (Week-2)
+- Data and Methods
+- Data Manipulation in VueJS (using methods)
+- Computed Properties
+- Watchers
+- Filters
+
+### 3) DOM Manipulation (Week-3)
+- Inline style manipulation
+- Class binding
+- **ref** keyword in VueJS
+
+### 4) Directives (Week-4)
+- Conditional rendering (v-if / v-show)
+- One way data binding (v-bind) & Two way data binding (v-model)
+- Event Listening (v-on)
+- List rendering (v-for)
+- HTML rendering (v-html)
+
+### 5) Event Handling (Week-5)
+- Event Listening and Handling in VueJs (using v-on)
+- Emitting events
+- Creating custom Events
+
+### 6) Component reusability (Week-6)
+- Props
+- Slots
+- Child Component Data manipulation using events (Child to Parent)
+- Component Lifecycle hooks methods
+- Dynamic Components
+
+### 7) Plugins (Week-7)
+- Plugins introduction and installation in VueJs (Vue Router & Vuex)
+- Creating Routes (Static and Dynamic)
+- Nested Routes
+- Using Routing Guards
+- History Mode in routes
+- Route Meta fields
+- Handling routes Programmatically
+
+### 8) State management (Week-8)
+- Need of State Management
+- Workflow of State Management in Vue Js
+- Vuex Installation
+- Implementation of State Management using Vuex (states, getters, actions, mutations and modules)
+
