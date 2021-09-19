@@ -362,40 +362,42 @@ Write a program with class Student as the super class and class ScienceStudent a
 # Solution:
 As the Student() class is the the top most in hierarchy followed by the ScienceStudent and MathsStudent classes, the properties of Student class is retaied in both the classes.
 
-```
-   class Student{    
-      void walk()  
-         {  
-            print("The student walks.\n");  
-          } 
-          
-          void talk()  
-         {  
-            print("The student talks.\n");  
-          }
-        }
-      // Inherits the super class  
+```dart
+  
+  class Student{    
+      void walk() {  
+          print("The student walks.\n");  
+      }     
+      void talk() {  
+          print("The student talks.\n");  
+      }
+  }
+  
+  // Inherits the super class  
   class ScienceStudent Extends Student{  
-         //child class function  
-         void studiesScience(){  
-             print("The student studies Science.\n");               }            
-        }
+      //child class function  
+      void studiesScience(){  
+          print("The student studies Science.\n");
+      }            
+  }
         
-        // Inherits the super class  
+  // Inherits the super class  
   class MathsStudent extends ScienceStudent{
-         //child class function  
-         void likesMaths{
-             print("The student likes Maths.\n");             }            
-        }
-       }
-void main(){ 
+      //child class function  
+      void likesMaths{
+          print("The student likes Maths.\n");           
+      }
+  }
+  
+  void main(){ 
       // Creating object of the child class  
       MathsStudent student=new MathsStudent();
       student.likesMaths();
       student.studiesScience();
       student.walk();
       student.talk();
-     }
+  }
+  
 ```
 #Output :
 ```
