@@ -8,17 +8,20 @@
 - [ ] JSX 
 - [x] Babel 
 - [ ] ES6 template literals 
+- [ ] ES6 features (destructuring, higher order array methods, arrow functions, spread operator etc.)
 - [ ] JSX Attributes and Styling react elements 
 - [ ] npm 
-- [ ] Creating React App 
+- [ ] Creating React App (Include setup for Windows/Linux/Mac)
+- [ ] The anatomy of a React App and Concept of Virtual DOM
 
 ### Week 2 
 - [ ] Components 
 - [ ] Class components 
-- [ ] Function components 
-- [ ] import,export,modules 
+- [ ] Functional components 
+- [ ] import, export, modules 
 - [ ] React Props vs State 
 - [ ] Mapping data to components 
+- [ ] Using the React Developer Tools
 ### Week 3 
 - [ ] List and Keys 
 - [ ] Composition vs Inheritance 
@@ -32,11 +35,11 @@
  ### Week 5 
 - [ ] Common hooks(useRef,useContent etc) 
 - [ ] Refs 
-- [ ] Writiing your own hooks *High order 
-Components 
+- [ ] Writiing your own hooks *High order Components 
 - [ ] Fibre Architecture 
  ### Week 6 
-- [ ] Multi page react app 
+- [ ] Multi page react app (React Router)
+- [ ] Good Coding Practices
 - [ ] Context 
 - [ ] Render Props 
  
@@ -47,6 +50,7 @@ Components
  
 ### Week 8 
 - [ ] REST API Calls 
+- [ ] Using built-in Fetch API
 - [ ] Axios  
 - [ ] Unfetch 
 - [ ] Superagent 
