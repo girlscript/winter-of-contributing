@@ -17,6 +17,15 @@ To use *@Input()* decorator we have to
 
 **Item's property can be of any type string, number, boolean or object to decorate**.
 
+```` Example
+import { Component, Input } from '@angular/core'; // First, import Input
+export class ItemDetailComponent {
+  @Input() item = ''; // decorate the property with @Input()
+}
+````
+
+
+
 
 
 ### <u>Configuring the Parent class</u>
@@ -27,7 +36,16 @@ Now, We have to *bind the property* in the parent component's template.
 - Then use the **binding property** to bind the property in the child component.
 - In the parent component class , there will be a designated value for currentItem.
 
-With @input , Angular passes the value for currentItem to the child component.
+With @input() , Angular passes the value for currentItem to the child component.
+
+```` Examle
+<app-item-detail [item]="currentItem"></app-item-detail>
+export class AppComponent {
+  currentItem = 'Television';
+}
+````
+
+
 
 
 
@@ -53,12 +71,37 @@ To create an event @*output*() must have **EventEmitter**
 - Then in the component class, decorate a property with @*Output*().
 - *Create an addNewItem() method* in the same component class.
 
+```` Example
+import { Output, EventEmitter } from '@angular/core';
+@Output() newItemEvent = new EventEmitter<string>();
+export class ItemOutputComponent {
+
+  @Output() newItemEvent = new EventEmitter<string>();
+
+  addNewItem(value: string) {
+    this.newItemEvent.emit(value);
+  }
+}
+````
+
+
+
 
 
 ### <u>Configuring the parent component</u>
 
 - AppComponent used to create the list of items in an array and also a method for adding more items to an array.
 - addItem takes the argument in form of string and add it into items array.
+
+```` Example
+export class AppComponent {
+  items = ['item1', 'item2', 'item3', 'item4'];
+
+  addItem(newItem: string) {
+    this.items.push(newItem);
+  }
+}
+````
 
 
 
@@ -75,5 +118,14 @@ Using  *@Input() and @Output()* on the **same child component**.
 *@Input()* property receives its value from *Parent's property*.
 
 When user clicks on delete the child component raises an event it raises the event ***deleteRequest*** that is argument for parent component.
+
+```` Example
+<app-input-output
+  [item]="currentItem"
+  (deleteRequest)="crossOffItem($event)">
+</app-input-output>
+````
+
+
 
 <u>To combine property and event bindings using the banana-in-a-box syntax, [()], see Two-way Binding.</u>
