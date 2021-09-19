@@ -32,4 +32,14 @@
   4. ```<h4>```tags: <h4>Heading 4</h4>
   5. ```<h5>```tags: <h5>Heading 5</h5>
   6. ```<h6>```tags: <h6>Heading 6</h16>
+  <br><br>
+  ## Other Sementic:
+  1.```<p>``` tag: Used for writing paragraph. <br>
+  2.```<section``` tag: Used for including a section.<br>
+  3.```<article>``` tag: Used for including an article.<br>
+  4.```<header>``` tag: Used for including the Header.<br>
+  5.```<footer>``` tag: Used for Including the Footer.<br>
+  6.```<nav>``` tag: Can be used for navigating Links.<br>
+  7.```<a>``` tag: Used for using Links.<br>
+  8.```<img>``` tag: Used for Posting an Image.<br>
   ### There are many more text editors  like the above examples
