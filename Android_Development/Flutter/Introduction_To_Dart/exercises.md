@@ -1,9 +1,15 @@
 # 💻 Exercises
+## 📑 Contents
+- [Variables](#variables)
+- [Conditional Statements](#conditionals)
+- [Maps And Lists](#conditionals)
+- [ForEach And Map](#conditionals)
+- [Inheritance](#conditionals)
 
-  ## VARIABLES
   
-  1.Write a program to print a name and a number.
-
+# ✅ Variables
+  
+- Write a program to print a name and a number.
 
    ```dart
    void main() { 
@@ -13,18 +19,17 @@
       print(name) ;
    }
    ```
-   
+
    ```
    Output-
       12 John
    ```
 
-    
-   2. Use of var keyword
-   
-   ```
-   We can declare any data types using var keyword.
-   For example:-
+- Use of var keyword
+
+   ```dart
+   //We can declare any data types using var keyword.
+  // For example:-
    var name = 'Vani';
    var year = 1999;
    var radius = 4.5;
@@ -32,11 +37,10 @@
    
    ```  
 
-   3.  How to declare a variable which stay constant at compile time?     Demonstrate with example.
-   
+- How to declare a variable which stay constant at compile time?     Demonstrate with example.
 
-  ```
-   The final and const keyword are used to declare constants. We can not modify the values of a variable declared using the final or const keyword. 
+  ```dart
+  /* The final and const keyword are used to declare constants. We can not modify the values of a variable declared using the final or const keyword. */
      
     For example:-
        void main() { 
@@ -45,16 +49,15 @@
           v2 = 12; 
      }
     
-    The code given above will throw error.
+   // The code given above will throw error.
       
    ```
 
-## Conditional Statements :
+# ✅ Conditional Statements
 
 ### 1. If Condition
 
 - Print "Excellent work" if the student scores A grade
-
 
   ```dart
   void main() {
@@ -64,7 +67,8 @@
     } 
   } 
   ```
-   ```
+
+   ```sh
    Output:
     Excellent work
    ```
@@ -72,6 +76,7 @@
 ### 2. If Else Condition
 
 - Find maximum between two numbers
+
 ```dart
   import 'dart:io';
 
@@ -88,7 +93,8 @@
    }
    }
 ```
-```
+
+```sh
   Output:
   Enter first number
    30
@@ -101,12 +107,12 @@
 
 - Write a progeram to input the names of five      subjects Physics,Chemistry,Biology,
   Maths and Computer. Calculate percentage and grade according to the given conditions
-  Percentage >= 90% : Grade A
-  Percentage >= 80% : Grade B
-  Percentage >= 70% : Grade C
-  Percentage >= 60% : Grade D
-  Percentage >= 40% : Grade E
-  Percentage < 40%  : Grade F
+  - Percentage >= 90% : Grade A
+  - Percentage >= 80% : Grade B
+  - Percentage >= 70% : Grade C
+  - Percentage >= 60% : Grade D
+  - Percentage >= 40% : Grade E
+  - Percentage < 40%  : Grade F
 
 ```dart
   import 'dart:io';
@@ -143,7 +149,8 @@
    }
    } 
 ```
-```
+
+```sh
   Output:
    Enter Physics Mark: 40
    Enter Chemistry Mark: 60
@@ -155,6 +162,7 @@
 ```
 
 ### 4. Nested - If Condition
+
 - Find Maximum between three numbers
 
 ```dart
@@ -197,11 +205,11 @@ Enter Third Number: 60
 Maximum Number = 60
 ```
 
+# ✅Maps And Lists
 
-## 1. Maps
+### 1. Maps
 
-### Statement :- Access the student via roll no.
-
+- Access the student via roll no
 
 ```dart
 // Map is a data type which contains key , value pairs and the values can only be accessed by using keys.
@@ -219,7 +227,8 @@ print(data["2"]);
 print(data["3"]);
 }
 ```
-```
+
+```sh
 Output:
    Rohan
    Rohit
@@ -228,7 +237,7 @@ Output:
 
 ## 2. Lists
 
-### statement :- Create a list and access their all values and add one extra value and print all again.
+- Create a list and access their all values and add one extra value and print all again.
 
 ```dart
 // List is simply an ordered group of objects.
@@ -251,7 +260,8 @@ print("List after the adding: ");
 }
 
 ```
-```
+
+```sh
 Output:
 List before the adding:
 This is the First index
@@ -263,18 +273,23 @@ This is the Second index
 This is the Third index
 This is the Fourth index
 ```
-1. Explain briefly about the working of the Array Utility Methods forEach(), map() and reduce(). Use these methods to solve the following questions.\
-   a) Given an array **numbers** = [2,3,5,6,8,9], print the square of these numbers.\
-   b) Given an array **principal_amount** = [100,500,2000,700,950], return a new array, filled with the simple interest of each of the element in principal_amount array for a **time period** of **2 years** and a **rate of interest** of **15%**.\
-   c) Given an array **studentHeigths** = [171,185,163,154,173], find the average height of the students.\
-   \
-**Answer:**\
-The forEach() method, traverses over every element of the given iterable and performs a function over that element.\
-The map() method is similar to forEach(), but it actually returns an iterable, whereas forEach() returns a void type.\
-The reduce() method is used to obtain a cumulative single value from a given collection.
-\
 
-a)
+# ✅ ForEach And Map
+
+- Explain briefly about the working of the Array Utility Methods forEach(), map() and reduce(). Use these methods to solve the following questions.
+  - A) Given an array **numbers** = [2,3,5,6,8,9], print the square of these numbers.
+  - B) Given an array **principal_amount** = [100,500,2000,700,950], return a new array, filled with the simple interest of each of the element in principal_amount array for a **time period** of **2 years** and a **rate of interest** of **15%**.
+  - C) Given an array **studentHeigths** = [171,185,163,154,173], find the average height of the students.
+
+
+
+```sh
+The forEach() method, traverses over every element of the given iterable and performs a function over that element.
+The map() method is similar to forEach(), but it actually returns an iterable, whereas forEach() returns a void type.
+The reduce() method is used to obtain a cumulative single value from a given collection.
+```
+
+**A)**
 
 ```dart
   void main(){
@@ -282,7 +297,8 @@ a)
       var op = numbers.forEach((number)=>print(number*number));
   }
 ```
-```
+
+```sh
   Output:
       4
       9
@@ -292,7 +308,7 @@ a)
       81
 ```  
 
-   b)
+**B)**
 
 ```dart
    void main(){
@@ -302,13 +318,13 @@ a)
    }
 ```
 
-```
+```sh
    Output:
    (30, 150, 600, 210, 285)
 ```
 
-   c)
-   
+   **C)**
+
 ```dart
    void main(){
       var studentHeigths = [171,185,163,154,173];
@@ -316,13 +332,16 @@ a)
       print(op/studentHeigths.length);
    }
 ```
-```
+
+```sh
    Output:
    169.2
 ```
-2. Given an array of building heights **bHeights** = [828,501,1002,321,978,200], sort the array and print the building heights in descending order.\
-\
-**Answer:**
+
+- Given an array of building heights **bHeights** = [828,501,1002,321,978,200], sort the array and print the building heights in descending order.
+
+
+
 ```dart
    void main(){
       var bHeights = [828,501,1002,321,978,200];
@@ -330,6 +349,7 @@ a)
       bHeights.forEach((height)=>print(height));
    }
 ```
+
 ```
    Output:
    1002
@@ -339,9 +359,11 @@ a)
    321
    200
 ```
-3. Given an array of shortlisted candidates for a program **candidates** = ["James","Joseph","Jessica","John","Jonas"], check if a student called John is present in it.\
-\
-**Answer:**
+
+- Given an array of shortlisted candidates for a program **candidates** = ["James","Joseph","Jessica","John","Jonas"], check if a student called John is present in it.
+
+
+
 ```dart
    void main(){
       var candidates = ["James","Joseph","Jessica","John","Jonas"];
@@ -354,12 +376,14 @@ a)
    true
 ```
 
-## Inheritance in Dart
+# ✅ Inheritance in Dart
 
-# Question :
-Write a program with class Student as the super class and class ScienceStudent as its child. Class MathsStudent is in turn the child of ScienceStudent. Student class has two methods walk() and talk(). Class ScienceStudent has a method studiesScience() and lass MathsStudent has a method likesMaths(). Inherit the properties of the super class in the sub classes.
+## Question
 
-# Solution:
+ - Write a program with class Student as the super class and class ScienceStudent as its child. Class MathsStudent is in turn the child of ScienceStudent. Student class has two methods walk() and talk(). Class ScienceStudent has a method studiesScience() and lass MathsStudent has a method likesMaths(). Inherit the properties of the super class in the sub classes.
+
+## Solution
+
 As the Student() class is the the top most in hierarchy followed by the ScienceStudent and MathsStudent classes, the properties of Student class is retaied in both the classes.
 
 ```dart
@@ -399,8 +423,10 @@ As the Student() class is the the top most in hierarchy followed by the ScienceS
   }
   
 ```
-#Output :
-```
+
+## Output
+
+```sh
 The student likes Maths.
 The student studies Science.
 The student walks.
