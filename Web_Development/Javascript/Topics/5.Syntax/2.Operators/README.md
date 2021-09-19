@@ -56,8 +56,8 @@ Comparison operators are used to compare values and return true or false based o
 
 | Operator                  |  Example                                                     | Output        |
 |---------------------------|--------------------------------------------------------------|---------------|
-| Equal (==)                | `console.log(1 == 2);`                                       | `false`       |
-| Not Equal (!=)            | `console.log(1 != 2);`                                       | `true`        |
+| Equal To (==)             | `console.log(1 == 2);`                                       | `false`       |
+| Not Equal To(!=)          | `console.log(1 != 2);`                                       | `true`        |
 | Greater Than (>)          | `console.log(1 > 2);`                                        | `false`       |
 | Less Than (<)             | `console.log(1 < 2);`                                        | `true`        |
 | Greater Than or Equal (>=)| `console.log(1 >= 2);`                                       | `false`       |

@@ -5,10 +5,12 @@
 Comparison operators are used to compare values and returns boolean value (true or false).
 
 #### 1. Equal To Operator (==)
-It will return true if both values are equal, otherwise false.
+It will return true if both values are equal, otherwise false. It does not check data type of values
+but only checks if they are equal.
 
 ```js
 console.log(5==5); // true
+console.log(5=='5'); // false
 console.log(4==3); // false
 ```
 
@@ -17,7 +19,7 @@ It will return true if both values are not equal, otherwise false.
 
 ```js
 console.log(5!=5); // false
-console.log(0!='0'); // return true because left value is a number and right value is a string.
+console.log(0!='0'); // return true even if the data types are different but the values are same on the left hand side and right hand side
 console.log(4!=3); // true
 ```
 
