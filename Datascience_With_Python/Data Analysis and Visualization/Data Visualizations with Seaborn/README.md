@@ -1,0 +1,2 @@
+# Data Visualizations with Seaborn
+Data Visualization is a critical though undermined skill required in pursuit of a Data Science career. This is an attempt to help Data Science aspirants gain necessary Data Visualization skills required to progress in their career. It includes all the types of plot offered by Seaborn, applied on random or fabricated datasets. The knowledge gained for inference shall in no way be limited to just Seaborn.
