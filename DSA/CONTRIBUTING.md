@@ -99,8 +99,8 @@ $ git push origin --delete <branch-name>
 ## Project Structure
 1. For the naming of directories, strictly use snake_case (underscore_separated) in your file_name and push it in correct folder.
 2. The repository structure will be something like this:
-- DS
-- Algorithms
+- DS(Topic) -> Sub-topics -> Your file
+- Analysis of Algorithms -> Topics -> Sub-topics(Your file)
 
 ## Code Base
 - Make sure you do not copy codes from external sources like GFG, hackerearth, etc because that work will not be considered. **Plagiarism is strictly not allowed.** 
