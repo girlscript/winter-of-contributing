@@ -1,4 +1,4 @@
-# Documentaion
+# Documentation
 # HTML Text Formatting
 
 ## HTML contains several elements or text for defining a special meaning
@@ -35,11 +35,9 @@
   <br><br>
   ## Other Sementic:
   1.```<p>``` tag: Used for writing paragraph. <br>
-  2.```<section``` tag: Used for including a section.<br>
-  3.```<article>``` tag: Used for including an article.<br>
-  4.```<header>``` tag: Used for including the Header.<br>
-  5.```<footer>``` tag: Used for Including the Footer.<br>
-  6.```<nav>``` tag: Can be used for navigating Links.<br>
-  7.```<a>``` tag: Used for using Links.<br>
-  8.```<img>``` tag: Used for Posting an Image.<br>
-  ### There are many more text editors  like the above examples
+  2.```<header>``` tag: Used for including the Header.<br>
+  3.```<footer>``` tag: Used for Including the Footer.<br>
+  4.```<nav>``` tag: Can be used for navigating Links.<br>
+  5.```<a>``` tag: Used for using Links.<br>
+  6.```<img>``` tag: Used for Posting an Image.<br>
+  ### There are many more text formattors  like the above examples
