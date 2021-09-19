@@ -7,7 +7,7 @@
 - [ ] Information Security Controls?
 
 - [x] [What is Physical Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.5_What_is_physical_security.md)
-- [ ] Importance of Physical Security
+- [x] [Importance of Physical Security](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.6_Importance_of_Physical_Security.md)
 - [ ] Challenges in Physical Security
 
 - [x] [Triangle of Security, Functionality, and Usability](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.8%20Security%2C%20Usability%20%26%20Functionality%20Triangle.md)
