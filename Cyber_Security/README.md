@@ -44,7 +44,7 @@
 - [ ] IP v/s MAC
 - [ ] TCP
 - [ ] UDP
-- [ ] 3-wah handshake
+- [ ] 3-way handshake
 - [ ] Ports and Protocols
 - [x] [OSI model](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.8_OSI_model.md)
 - [ ] Switches
