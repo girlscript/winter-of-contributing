@@ -30,7 +30,7 @@ JavaScript code can be written in the HTML file inside `<script>` tag.
 <b>Note:</b><br>
 a) If the `<script>` content is inside the `<body>` content, then make sure to include it at the last.
 
-```
+``` HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -57,7 +57,7 @@ b) If the `<script>` content is inside the header content, then add *window.onlo
 
 After adding the `window.onload` function:
 
-```
+``` HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,7 +91,7 @@ The following code snippet is added inside the header content to link JavaScript
 `<script src = "file_name.js"></script>`
 
 The js file is shown below:<br>
-```
+``` JS
 "use strict";
 window.onload = function what() {
     let x = document.getElementById("main");
@@ -121,4 +121,4 @@ The output is shown below, after running the HTML file.<br>
    
 <br>
 
-<b>Contributors: </b> https://github.com/subhendudash02
+<b>Contributors: </b> [Subhendu Dash](https://github.com/subhendudash02)
