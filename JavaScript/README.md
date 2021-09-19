@@ -10,4 +10,10 @@
 
 ## Index
 
-*To do...*
+- [Hello World!](Topics/1.Hello_World)
+- [History](Topics/2.History)
+- Platforms
+  1. [Web Browser](Topics/3.Web_Browser)
+  2. [Command-Line](Topics/4.Command_Line)
+- [Syntax](Topics/5.Syntax)
+- [Hoisting](Topics/6.Hoisting)
