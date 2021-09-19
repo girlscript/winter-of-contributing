@@ -11,10 +11,10 @@
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What is type conversion ?](./Type_Conversion)
 - [Use_Cases](./Use_Cases)
-- [What_Is_Interpreter](./What_Is_Interpreter)
+
 ## Learning path
 1. Git & GitHub
 2. What is a programming language? #77
 3. What is type conversion ?
 4. Use cases of Python
-5. What_Is_Interpreter
+
