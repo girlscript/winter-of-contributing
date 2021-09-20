@@ -9,26 +9,28 @@
 
 ## What are pointers?
 * Pointers are variables which stores the address of another variable or a memory location.
-* Pointers contains address of a variable of same data type.
+* Pointers contain address of the variables of same data type.
 
 ## Understanding Pointers With an Example
 For example, lets imagine a computer having a memory of size 1500 bytes. In which first byte's address is 0 and its last byte's address is 1499.  
 
 A C/C++ language program consists of code:- `int numberVariable = 5;`. 
-Here, for an integer variable - 4 bytes of memory is being allocated, i.e., 1004-1007, by the computer when the program is being run.  
+Here, for an integer variable - 4 bytes of contiguous memory is being allocated, i.e., 1004 to 1007 (1004-1005-1006-1007), by the computer when the program is being run.  
 
 Now, `numberVariable` is located at address 1004, which is the starting address of the variable. 
 This address 1004 can be stored in a variable called pointers.
 
 Note : Memory addresses here are taken as base 10 integer numbers(like 1004, 1007) for simple understanding only. 
 
-## How to Declare Pointers
-Pointers are declared with a data type of variable so that its address can be stored.  
-It is declared with * (Dereference Operator or Indirection Operator)
+## How to Declare and Initialise Pointers
+1. Pointers are declared with a data type of variable so that its address can be stored. It is declared with * (Dereference Operator or Indirection Operator).  
 Syntax for declaration of pointer - `data_type *pointer_variable_name;`  
 
-After pointer declaration, to initialise the address of the variable to the pointer, & (Address Operator) is used.  
+2. After pointer declaration, to initialise the address of the variable to the pointer, & (Address Operator) is used.  
 Initialising a value to the pointer - `pointer_variable_name = &data_variable_name;`
+
+3. With the help of `printf` we can use %p format specifier, which is used to display the address of variable stored in the pointer.  
+Syntax for printing the address of the variable - `printf( "%p", pointer_variable_name )`
 
 ## Example Code Snippet 
 ```C
