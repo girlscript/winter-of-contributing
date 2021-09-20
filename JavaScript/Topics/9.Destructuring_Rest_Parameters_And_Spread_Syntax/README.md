@@ -48,7 +48,7 @@ console.log(b); // 2
 # Rest Parameters
 Rest parameter is an improved way to handle function parameter, allowing us to more easily handle various input as parameters in a function. The rest parameter syntax allows us to represent an indefinite number of arguments as an array. With the help of a rest parameter a function can be called with any number of arguments, no matter how it was defined.
 ```js
-function functionname[...parameters]//... is the rest parameter
+function functionname(...parameters)//... is the rest parameter
 {
 statement;
 }
