@@ -45,7 +45,7 @@ export class AdDirective {
 
 ## loading Components
 
-
+To make things simpler, The HTML is in @component decorator.
 
 ad banner used to add in **as-banner.component.ts.** 
 
@@ -72,7 +72,51 @@ template: `
 
 Actually **AdServices** loads an array of **AdItem**. Passing an array of component **AdBannerComponent** allows for a dynamic list of ads using its **getadd**() method.
 
-**AdBannerComponent** runs through that array and loads all items of array in every 3 seconds using **loadComponent**() . 
+**AdBannerComponent** runs through that array and loads all items of array in every 3 seconds using **loadComponent**() using getAds() method.
+
+```` Code
+export class AdBannerComponent implements OnInit, OnDestroy {
+
+  @Input() ads: AdItem[] = [];
+
+  currentAdIndex = -1;
+
+  @ViewChild(AdDirective, {static: true}) adHost!: AdDirective;
+  interval: number | undefined;
+
+  constructor(private componentFactoryResolver: ComponentFactoryResolver) { }
+
+  ngOnInit() {
+    this.loadComponent();
+    this.getAds();
+  }
+
+  ngOnDestroy() {
+    clearInterval(this.interval);
+  }
+
+  loadComponent() {
+    this.currentAdIndex = (this.currentAdIndex + 1) % this.ads.length;
+    const adItem = this.ads[this.currentAdIndex];
+
+    const componentFactory = this.componentFactoryResolver.resolveComponentFactory(adItem.component);
+
+    const viewContainerRef = this.adHost.viewContainerRef;
+    viewContainerRef.clear();
+
+    const componentRef = viewContainerRef.createComponent<AdComponent>(componentFactory);
+    componentRef.instance.data = adItem.data;
+  }
+
+  getAds() {
+    this.interval = setInterval(() => {
+      this.loadComponent();
+    }, 3000);
+  }
+}
+````
+
+
 
 
 
@@ -82,4 +126,26 @@ Usually all components implement in a common interface so that it can standardiz
 
 
 
-After it You finally got your ad banner interface.
+```` code
+import { Component, Input } from '@angular/core';
+
+import { AdComponent } from './ad.component';
+
+@Component({
+  template: `
+    <div class="job-ad">
+      <h4>{{data.headline}}</h4>
+      {{data.body}}
+    </div>
+  `
+})
+export class HeroJobAdComponent implements AdComponent {
+  @Input() data: any;
+}
+````
+
+
+
+
+
+After it You finally got your ad banner interface. For Live Example ***<u>[Click here](https://stackblitz.com/angular/pamkboeamvb?file=src%2Fapp%2Fapp.component.ts) .</u>***
