@@ -7,6 +7,7 @@
 # Title (name of the field)
 
 ## Index
+
 - [GitHub](./Git_And_GitHub)
 - [Brief History of Python](./History_Of_Python)
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
@@ -14,9 +15,12 @@
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
-- [List_&_Matrix](./List_&_Matrix)
+- [List\_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
+- [How_to_install_Python](./How_to_install_Python)
+
 ## Learning path
+
 1. Git & GitHub
 2. Brief history of python
 3. What is a programming language?
@@ -24,4 +28,5 @@
 5. Use cases of Python
 6. Virtual Environment
 7. Operators
-8. List_&_Matrix
+8. List\_&_Matrix
+9. How_to_Install_Python
