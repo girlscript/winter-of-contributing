@@ -14,6 +14,7 @@
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
+- [Loops](./Loops)
 ## Learning path
 1. Git & GitHub
 2. Brief history of python
