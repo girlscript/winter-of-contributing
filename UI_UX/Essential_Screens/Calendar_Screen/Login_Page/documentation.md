@@ -78,6 +78,6 @@ If we want to add the battery and network icons we can do so by selecting the Ic
 This is the [Figma](https://www.figma.com/file/d6CHgJLvUHc7CaZx8v3xHf/Login-Sign-up-UI?node-id=0%3A1) prototype, check out the link.
 <br>
 
-Made by Liza Deka.
+Made by [Liza Deka](https://github.com/Baba-Yaga-1)
 
 
