@@ -26,3 +26,4 @@
 6. Virtual Environment
 7. Operators
 8. List_&_Matrix
+9. Installing Software
