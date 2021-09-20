@@ -42,4 +42,8 @@
   6.```<img>``` tag: Used for Posting an Image.<br>
   7.```<summary>``` tag: Defines a visible heading element.<br>
   8.```<time>``` tag: Denotes a date/time.<br>
+  9.```<q>``` tag: Defines a short quotation.<br>
+  10.```<bdo>``` tag: Defines text direction.<br>
+  11.```<!-- -->``` tag: Contains important information, not executed as code.
+  12.```<u>```tags: Used for underlined texts.
   ### There are many more text formattors  like the above examples
