@@ -1,8 +1,8 @@
-<h1 align="center"> ** Getting Started With React** </h1>
+<h1 align="center">  Getting Started With React </h1>
 
 ## What is React JS?
 
-React JS is one of the most popular and widely used Javascript interfaces to create user interfaces. It is efficient, reusable and flexible and makes the process of coding significantly easier by allowing us to create various components.
+React JS is one of the most popular and widely used Javascript libraries to create user interfaces. It is efficient, reusable and flexible and makes the process of coding significantly easier by allowing us to create various components.
 
 ## Installation and Setup
 
@@ -10,8 +10,11 @@ To install and setup React JS on your preferred text editor like VSCode,you need
 
 Step 1: Type the following in the terminal of your text editor to make sure you have Node js successfully installed.
 
-````cd <your-folder-name>
-node```
+```
+cd <your-folder-name>
+node
+
+```
 
 This command will display a message on your terminal showing the version number of Node installed on your system.
 
@@ -24,14 +27,17 @@ Step 2: You can now create a new React Application.
 
 In the same terminal,press CTRL+C twice ,type the following command and press enter to create your own blank new react app.
 
-```npx create-react-app my-react-app```
+`npx create-react-app my-react-app`
 
 This will create a new React Application.To make changes in the UI,you have to make changes in the ./src folder of your project.
 
 Step 3: To see your application running,type the following command in your terminal and press enter
 
-```cd my-react-app
-npm start```
+```
+cd my-react-app
+npm start
+
+```
 
 Step 4: You can now see the demo application running on **http://localhost:3000/** of your default browser.
 
@@ -47,17 +53,17 @@ Step 2:Inside the ./Components create a new file called 'HelloWorld.jsx'
 
 Step 3:Put the following code in 'HelloWorld.jsx'
 
-````
+```
 
 import React from 'react';
 
 const HelloWorld = () => {
-return (
+    return (
 
-<div>
-<h1>Hello World</h1>
-</div>
-)
+            <div>
+                <h1>Hello World</h1>
+            </div>
+        );
 }
 
 export default HelloWorld;
@@ -146,4 +152,3 @@ export default App;
 ```
 
 This way we can use the Reusable Components and render different messages without any code repitition.
-```
