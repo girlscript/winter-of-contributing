@@ -110,3 +110,40 @@ class GWoC_JSX extends Component{
 }
 export default GWoC_JSX;
 ```
+
+# Fragments
+We may render a single element or multiple elements, though rendering multiple elements will require a **‘div’** tag around the content as the render method will only render a single root node inside it at a time which is not acceptable to many developers.
+Hence **fragemnts** are used instead of **div**.
+```javascript
+import React,  {  Component  }  from  'react';
+class  GWoC_JSX extends  Component{
+	render()
+		return(
+		<React.Fragment>
+			<h1>Hello GWoC { 2020+1 } familt!!</h1>
+			<h2>JSX Demo</h2>
+			<p  className="demoData">JavaScript inide JSX</p>
+		</React.Fragment>
+		);
+	}
+}
+export default GWoC_JSX;
+```
+
+
+We can also use **<> </>** instead of **<React.Fragment> </React.Fragment>**:
+
+```javascript
+import React,  {  Component  }  from  'react';
+class  GWoC_JSX extends  Component{
+	render()
+		return(
+		<>
+			<h1>Hello GWoC { 2020+1 } familt!!</h1>
+			<h2>JSX Demo</h2>
+			<p  className="demoData">JavaScript inide JSX</p>
+		</>
+		);
+	}
+}
+export default GWoC_JSX;
