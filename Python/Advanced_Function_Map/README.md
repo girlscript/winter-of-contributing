@@ -8,8 +8,6 @@ The map() function is used for applying a function to every item of an iterable.
 map(func,iter,...)
 ```
 
-<br>
-
 ## Parameters:
 
 The map() function takes two parameters:
@@ -19,13 +17,9 @@ The map() function takes two parameters:
 
 The map() function can take more than one iterable.
 
-<br>
-
 ## Return Value:
 
 The map() function returns an object of map class. The returned value can be passed to functions like list, tuple or set to return an iterable.
-
-<br>
 
 ## Example 1
 
@@ -52,8 +46,6 @@ print(list(cubed_numbers))
 
 In the above example, each item of myNumbers list is cubed.
 
-<br>
-
 ## Example 2
 
 ```bash
@@ -70,8 +62,6 @@ print(list(str_to_int))
 ```
 
 In the above example, each item of list a is type converted into int with just one line of code using map()
-
-<br>
 
 ## Advantage of map function
 
