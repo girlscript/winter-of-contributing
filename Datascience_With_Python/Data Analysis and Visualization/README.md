@@ -13,7 +13,7 @@
 
 
   
-## INFROMATION ABOUT DATASET
+## INFORMATION ABOUT DATASET
 
 To share my understanding of the concept and techniques I know,I’ll take an example of Haberman Cancer Survival  dataset which is available on kaggle(link provided in important link section) and try to catch hold of as many insights from the dataset using EDA.
 
