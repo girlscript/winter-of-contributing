@@ -42,6 +42,40 @@ Using the above function, we can obtain the class, given the predictors.
   <li>Now, use Naive Bayesian equation to calculate the posterior probability for each class. The class with the highest posterior probability is the outcome of prediction.</li>
 </ol>
 <br>
-  ![image](https://user-images.githubusercontent.com/64693139/133976742-b0b3d8d5-165c-4ece-83dc-3ff4b7b81849.png)
 
-  
+![1](https://user-images.githubusercontent.com/64693139/134051352-b5c2d792-9b9f-4349-8e40-ee89aaaf3fd0.jpg)
+
+![2](https://user-images.githubusercontent.com/64693139/134051388-060f0276-c983-4e9a-8140-4f4bce916746.jpg)
+
+![3](https://user-images.githubusercontent.com/64693139/134051409-1fa4a7be-4af5-48a9-badd-54a020184eac.jpg)
+
+Naive Bayes uses a similar method to predict the probability of different class based on various attributes. This algorithm is mostly used in text classification and with problems having multiple classes.
+
+<h2>Types of Naive Bayes Classifier:</h2>
+<ol>
+  <li><em>Multinomial Naive Bayes:</em> This is mostly used for document classification problem, i.e. whether a document belongs to the category of sports, politics, technology etc. The features/predictors used by the classifier are the frequency of the words present in the document.</li>
+  <li><em>Bernoulli Naive Bayes:</em> This is similar to the multinomial naive bayes but the predictors are Boolean variables. The parameters that we use to predict the class variable take up only values yes or no, for example if a word occurs in the text or not.</li>
+  <li><em>Gaussian Naive Bayes:</em> When the predictors take up a continuous value and are not discrete, we assume that these values are sampled from a gaussian distribution.</li>
+</ol>
+
+<h2>Pros and Cons of Naive Bayes:</h2>
+<b>Pros:</b>
+<ul>
+  <li>This algorithm works very fast and can easily predict the class of a test dataset.</li>
+  <li>You can use it to solve multi-class prediction problems as it’s quite useful with them.</li>
+  <li>Naive Bayes classifier performs better than other models with less training data if the assumption of independence of features holds.</li>
+  <li>If you have categorical input variables, the Naive Bayes algorithm performs exceptionally well in comparison to numerical variables.</li>
+</ul>
+<b>Cons:</b>
+<ul>
+  <li>If your test data set has a categorical variable of a category that wasn’t present in the training data set, the Naive Bayes model will assign it zero probability and won’t be able to make any predictions in this regard. This phenomenon is called ‘Zero Frequency,’ and you’ll have to use a smoothing technique to solve this problem.</li>
+  <li>It assumes that all the features are independent. While it might sound great in theory, in real life, you’ll hardly find a set of independent features.</li>
+</ul>
+
+<h2>Applications of Naive Bayes Algorithm:</h2>
+<ol>
+  <li><em>Real time Prediction:</em> Naive Bayes is an eager learning classifier and it is sure fast. Thus, it could be used for making predictions in real time. </li>
+  <li><em>Multi class Prediction:</em> This algorithm is also well known for multi class prediction feature. Here we can predict the probability of multiple classes of target variable.</li>
+  <li><em>Text classification/ Spam Filtering/ Sentiment Analysis:</em> Naive Bayes classifiers mostly used in text classification, have higher success rate as compared to other algorithms. As a result, it is widely used in Spam filtering and Sentiment Analysis.</li>
+  <li><em>Recommendation System:</em> Naive Bayes Classifier and Collaborative Filtering together builds a Recommendation System that uses machine learning and data mining techniques to filter unseen information and predict whether a user would like a given resource or not.</li>
+</ol>
