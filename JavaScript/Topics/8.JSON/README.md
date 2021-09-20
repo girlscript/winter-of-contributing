@@ -32,7 +32,7 @@ The JSON format is syntactically similar to the code for creating JavaScript obj
 JSON Syntax Rules:
 
 - Data is in name/value pairs
-- ata is separated by commas
+- Data is separated by commas
 - Curly braces hold objects
 - Square brackets hold arrays
 
