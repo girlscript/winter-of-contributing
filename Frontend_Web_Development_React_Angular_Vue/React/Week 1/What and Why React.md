@@ -3,6 +3,12 @@ React.js is a JavaScript library using for the speedy creation of user interface
 
 React.js works in accordance to the algorithm of Tree Data Structure. It has a root component, say, ‘App’, where all the child components are rendered by importing each one of them.
 
+React was created by Jordan Walke, a software engineer at Facebook, who released an early prototype of React called "FaxJS". He was influenced by XHP, an HTML component library for PHP. It was first deployed on Facebook's News Feed in 2011 and later on Instagram in 2012.
+
+![react data survey](https://user-images.githubusercontent.com/79986094/134026970-beb8cc8e-8bb7-47cf-b4d9-91e3dfe1eede.png)
+
+[Click here to view the image source](https://www.geeksforgeeks.org/angular-vs-reactjs-which-one-is-most-in-demand-frontend-development-framework-in-2019/)
+
 E.g. :The frontend of a banking website given below (Fig : 1) is made using React.js. The entire website had been broken down into components like Navbar, HeroSection, Footer, etc and then integrated into the parent file named ‘index.js’.
 
 ![financizy ss](https://user-images.githubusercontent.com/79986094/133939494-c746bb7d-9426-4c4a-8f0f-1de740759552.png)
