@@ -17,6 +17,7 @@
 - [Operators](./Operators)
 - [List_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
+
 ## Learning path
 1. Git & GitHub
 2. Installing development and debugging software for python
@@ -27,3 +28,4 @@
 7. Virtual Environment
 8. Operators
 9. List_&_Matrix
+10. Objects in Python
