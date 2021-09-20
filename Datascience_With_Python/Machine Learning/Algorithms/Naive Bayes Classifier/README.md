@@ -38,7 +38,7 @@ Using the above function, we can obtain the class, given the predictors.
 <h2> Working of Naïve Bayes Classifier Example </h2>
 <ol>
   <li>Convert the data set into a frequency table.</li>
-  <li>Create Likelihood table by finding the probabilities like Overcast probability = 0.29 and probability of playing is 0.64.</li>
+  <li>Create Likelihood table by finding the probabilities of each feature.
   <li>Now, use Naive Bayesian equation to calculate the posterior probability for each class. The class with the highest posterior probability is the outcome of prediction.</li>
 </ol>
 <br>
