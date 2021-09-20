@@ -198,3 +198,147 @@ If you want to create a short name or abbreviate any command in git you can use 
 In simple words- 
 
 alias- short name    (to remember)
+
+# GITHUB 
+
+   ![Image](p4.jpeg)
+
+   **GitHub** ,
+   
+   Inc. is a provider of Internet hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.
+
+## BRANCING 
+
+**Branching** in git is simply a lightweight movable pointer to one of any commits.
+The default branchname in git is master(the main branch).
+
+* Branching is diverging from the main branch.
+
+
+If you want to check how many branches you have use 
+
+20.        git branch
+          
+If you want to see the current working branch
+
+21.       git branch -v
+
+If you want to create a branch use
+
+22.      git branch <branchname>
+
+**IMPORTANT**- 
+
+Head pointer always points to the working branch .
+
+
+If you want to switch to another branch use
+
+23.      git checkout <branchname>
+
+If you want to switch to a new branch and the branch does not exist or you have not created that one then you can use the following command to create and switch in 1 go.
+
+24.     git checkout -b <branchname>
+
+If you want to see all the branches made in 1 pictorial go in the form of tree use
+
+25.     git log --oneline --graph --all
+   
+If you want to delete a branch that has merged 
+
+26.     git branch -d <filename>
+
+
+If you want delete a branch that is non merged 
+
+ 27.       git branch -D <filename>
+
+# Rebasing 
+
+Integrating the changes of 1 branch to another branch is rebasing.
+
+Rebasing has the same output as the merging process just the way to execute it is different.
+**Rebase is a linear development.**
+
+After rebasing ,to move the master pointer to the last commit use
+
+28.     git merge <branchname you rebased/last branch>
+
+29.     git rebase --onto <base> <1branch> 
+
+To do rebasing you should present in the working branch and then use 
+30.     Git rebase <base name>
+
+
+31.     git push origin main   
+     Pushes the code to the central server i.e. github.
+
+
+If you want to jump to the previous directory or folder then use 
+
+32.     cd ..
+
+
+A local Git repository can be connected to one or more remote repositories by using REMOTES.
+
+33.     git remote -v (this cmd shows all the available remotes you have)
+
+if you want to delete any remote use 
+
+34.     git remote remove <remotename>
+
+If you want to copy a code from github in your directory then use 
+
+35.     git clone <code url>
+
+The git fetch command downloads the commits files and refs from the remote repository to your local repository.
+use 
+
+36.     git fetch 
+   then
+
+37.     git merge origin/master
+     
+then you will be able to see the file you downloaded in your local system.
+
+
+## git pull and git fetch
+
+   
+Git pull can directly pull the code from the remote directory to you working directory while git fetch fetches the code from the remote directory to the local repository and the we have to use git merge in order to get the code to the working directory.
+
+
+   ![Image](p6.png)
+
+
+in short---- 
+
+38.      git pull = git fetch + git merge
+
+39.      git pull <remote name> <branchname>
+
+## Forking - 
+
+**A Fork is a copy of a repository.**
+
+ Forking a repository allows you to freely experiment with changes without affecting the original project.
+
+upstream is that repository from where you are syncing or taking the data.
+
+![Image](p5.png)
+
+
+### miscellaneous git tools----->
+
+we can see what changes we made in that particular commit by using 
+
+40.      git show <commitid>
+
+### Note: 
+commitid is 40 char long string but here writing 4-5 starting chars are sufficient to run the cmd
+
+
+
+## Hope this was helpful for you to understand about Git and Github .
+## Thank you
+## Happy learning
