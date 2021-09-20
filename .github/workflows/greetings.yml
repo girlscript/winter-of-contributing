@@ -13,7 +13,7 @@ jobs:
     - uses: Saviour1001/Greeting-action@main
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-	      issue_message: 'Hello @${{github.actor}}, <br>
+	issue_message: 'Hello @${{github.actor}}, <br>
                         Thank you for opening an issue. :octocat: <br>
                         To get assigned to this particular issue please use <b>/assign</b><br>
                         Note - Assigns to the author of the issue will be prioritised first.<br>
