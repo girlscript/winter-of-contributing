@@ -2,9 +2,12 @@
 
   
 
-We need lists everywhere in our lives.
+We need lists everywhere in our lives. Be it shopping list, a to-do list or many some other lists that we need
+to follow. Similarily, a web page might need a bunch of lists. For example - it can be the list of all links in nav bar
+or it can be the list of all the data to filled inside a table etc. Follow along to know what are HTML lists and
+how they are implemented.
 
-Consisting mainly of two types on the basis of the order of elements it holds.
+HTML consists mainly of two types on the basis of the order of elements it holds.
 
 1. Ordered lists
 
