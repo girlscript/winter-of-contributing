@@ -2,7 +2,7 @@
 
 > ## Stacks
 >>
->> ### [Introduction](https://github.com/itsKiranay/winter-of-contributing/blob/Python/Python/Stack_and_Queue/queue.ipynb)
+>> ### [Introduction](https://github.com/itsKiranay/winter-of-contributing/blob/Python/Python/Stack_and_Queue/Stacks.ipynb)
 >> ### [Source Code](https://github.com/itsKiranay/winter-of-contributing/blob/Python/Python/Stack_and_Queue/Stack_scode.ipynb)
 >>
 > ## Queue
