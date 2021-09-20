@@ -34,7 +34,7 @@
 - [ ] Setup VirtualBox and Virtual Machine in Windows
 - [ ] Setup VirtualBox and Virtual Machine in Mac
 - [ ] Familiar to Linux Terminal
-- [ ] Linux File System
+- [x] Linux File System
 - [ ] Linux File System Directories
 ## Week-2 (Networking)
 - [ ] IP address
