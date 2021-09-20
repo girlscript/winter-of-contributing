@@ -18,7 +18,7 @@ The two major features of AJAX allow you to do the following:
 
 When an event occurs in a web page (the page is loaded, a button is clicked), an XMLHttpRequest object is created by JavaScript. The XMLHttpRequest object sends a request to a web server. The server processes the request then sends a response back to the web page. The response is then read by JavaScript and a proper action (like page update) is performed by JavaScript.
 
-![](/Working%20of%20AJAX.png)
+![](AJAX.png)
 
 ## AJAX - The XMLHttpRequest Object
 ---
