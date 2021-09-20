@@ -26,9 +26,9 @@ The fundamental Naive Bayes assumption is that each feature is:
 <li>Equal: Secondly, each feature is given the same weight (or importance). For example, knowing only temperature and humidity alone can’t predict the outcome accurately. None of the attributes is irrelevant and assumed to be contributing equally to the outcome.</li>
 </ul>
 
-Now, with regards to our dataset, we can apply Bayes’ theorem in following way:
+Now, with regards to our dataset, we can apply Bayes’ theorem in following way: <br>
 ![image](https://user-images.githubusercontent.com/64693139/133975680-446c7550-5ac8-45b6-b62f-251bdaabcfb2.png) <br>
-where, y is class variable and X is a dependent feature vector (of size n) where:
+where, y is class variable and X is a dependent feature vector (of size n) where: <br>
 ![image](https://user-images.githubusercontent.com/64693139/133975709-c47fafe1-05e1-413b-b3e5-d2d009f93457.png) <br>
 Now, we can obtain the values for each by looking at the dataset and substitute them into the equation. For all entries in the dataset, the denominator does not change, it remains static. Therefore, the denominator can be removed and a proportionality can be introduced.
 ![image](https://user-images.githubusercontent.com/64693139/133975745-be97d4d8-358c-4c63-9d42-db025701a77c.png) <br>
