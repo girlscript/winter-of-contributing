@@ -22,7 +22,6 @@ jobs:
           days_until_warning: 5
           days_until_unassign: 7
           stale_assignment_label: Open
-      #Issue-Watcher - Modded & Revamped (will not close issue, but will simply unassign)
       - name: Checkout code
         uses: actions/checkout@main
       - name: Run Action
@@ -30,5 +29,5 @@ jobs:
         with:
           token: "${{ secrets.GITHUB_TOKEN }}"
           author: "${{github.actor}}"
-          repo: Suvraneel/Automated-assign-labeler #Change the Repo name
+          repo: girlscript/winter-of-contributing #Change the Repo name
           maxIssue: 3
