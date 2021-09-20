@@ -35,7 +35,7 @@ To GWOC`);
 
 // without Template Literal
 
-console.log("Welcome Everyone \n To GWOC");
+console.log("Welcome Everyone\nTo GWOC");
 ```
 
 __Output:__
@@ -81,8 +81,7 @@ Before ES6, we use to pass the argument inside```()``` .
 
 __Example:__
 ```js
-function tag(str)
-{
+function tag(str){
     return str;
 }
 let res = tag("Hello, GWOC!"); //passing argument inside ()
@@ -96,17 +95,27 @@ After ES6, there's no need to use ```()```, just use back-ticks with function.
 
 __Example:__
 ```javascript
-function tag(str)
-{
-    return str;
+const name = 'Glenn';
+const hail = true;
+
+function taggedLiteral(str, value) {
+    let str1 = str[0]; // Hey
+    let str2 = str[1]; // , How are you doing?
+
+    if(hail) {
+        return `${str1}${value}${str2}`;
+    }
 }
-let res = tag`Hello, GWOC!`;
-console.log(res);
+
+
+const result = tagExample`Hey ${name}, How are you doing?`;
+
+console.log(result);
 ```
 
 __Output:__
 ```
-[ Hello, GWOC! ]
+Hey Glenn, How are you doing?
 ```
 # Raw Strings
 ```String.raw()``` is a tag function of Template Literals. 
