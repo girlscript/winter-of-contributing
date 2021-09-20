@@ -123,3 +123,6 @@ async function fetchText() {
     console.log(data);
 }
 ```
+<br> 
+
+__Contributor :__ [Aniket Pathak](https://github.com/aniketpathak028)
