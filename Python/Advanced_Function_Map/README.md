@@ -17,7 +17,7 @@ The map() function takes two parameters:
 - func: It is a built-in or user-defined function that is applied to each element of the given iterable.
 - iter: It is an iterable (list, tuple, sets, etc.) which is to be mapped.
 
-You can pass more than one iterable to the map() function
+The map() function can take more than one iterable.
 
 <br>
 
