@@ -17,6 +17,8 @@
   - [x] [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/ITAct2000.md)
 - [x] [Limitations of Indian IT Act, 2000](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Limitations%20of%20IT%20Act%2C%202000.md)
 - [x] Types of Hackers
+  - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7%20Types_of_Hackers.md)
+  - Documentation
   - [White hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#white-hat-hackers)
   - [Black hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#black-hat-hackers)
   - [Grey hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#grey-hat-hackers)
