@@ -7,3 +7,4 @@
    - **1.5. Probability Distributions (Gaussian, Standard, Poisson)**
    - **1.6. Maximum Likelyhood Estimation**
    - **1.7. Parzen Windows**
+   - **1.8. A\B Testing**
