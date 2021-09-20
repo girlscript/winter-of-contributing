@@ -103,7 +103,7 @@ When the request completes, the resource is available. At this time, the promise
 
 *Note : Fetch is the newer way of making requests via JS that Supports promises however it is not supported in Internet Explorer*
 
-## Reading Response
+### Reading Response
 ---
 
 If the contents of the response are in the raw text format, you can use the text() method. The text() method returns a Promise that resolves with the complete contents of the fetched resource:
