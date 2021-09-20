@@ -32,7 +32,7 @@ Initialising a value to the pointer - `pointer_variable_name = &data_variable_na
 3. With the help of `printf` we can use %p format specifier, which is used to display the address of variable stored in the pointer.  
 Syntax for printing the address of the variable - `printf( "%p", pointer_variable_name )`
 
-## Example Code Snippet 
+### Example Code Snippet 
 ```C
 //for example, address of numberVariable --> 0x7ffcded83754
 int numberVariable = 5;
@@ -41,10 +41,36 @@ int numberVariable = 5;
 int* ptr;
 ptr = &numberVariable;
 
-//value of ptr is printed in the output console
+//value of ptr(i.e., the address of numberVariable) is printed in the output console
 printf( "%p", ptr );
 ```
 ### Output
 ```
 0x7ffcded83754
 ```
+
+## How to Dereference a Pointer?
+Dereferencing a pointer means accessing the data stored in the address of memory location, which is pointed by the pointer.  
+Dereference Pointer(or Indirection Pointer) is used in this case.  
+Syntax for dereferencing a pointer and storing it in a new variable - `data_type new_variable_name = *pointer_variable_name`  
+
+### Example Code Snippet 
+```C
+int numberVariable = 5;
+
+//ptr is a integer pointer which holds the address of numberVariable
+int* ptr = &numberVariable;
+
+/* value of numberVariable is accessed by dereferencing the pointer ptr 
+  and the integer 5 is stored in newVariable */
+int newVariable = *ptr;
+printf( "%d", newVariable );
+
+// or you can directly use this line of code to print the integer 5 --> printf( "%d", *ptr );
+```
+### Output
+```
+5
+```
+
+<hr>
