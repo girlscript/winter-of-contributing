@@ -22,7 +22,7 @@ This address 1004 can be stored in a variable called pointers.
 
 Note : Memory addresses here are taken as base 10 integer numbers(like 1004, 1007) for simple understanding only. 
 
-## How to Declare and Initialise Pointers
+## How to Declare and Initialise a Pointer
 1. Pointers are declared with a data type of variable so that its address can be stored. It is declared with * (Dereference Operator or Indirection Operator).  
 Syntax for declaration of pointer - `data_type *pointer_variable_name;`  
 
