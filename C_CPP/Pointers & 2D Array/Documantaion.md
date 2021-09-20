@@ -12,11 +12,11 @@ Elements of a 2D array are stored in consecutive memory locations in ```Row Majo
 
 </p> <br>
 
-![Diagram](Diagrams/Diagram.png)
+![Diagram](https://github.com/kashyap1905/winter-of-contributing/blob/Pointer-and-Two-Dimentional-Array/C_CPP/Diagrams/Diagram.png)
 
 <br>
 
-<h2> Allocation of memory for the elements of a 2D array using pointer - </h2> <hr>
+<h2> Allocation of memory for the elements of a 2D array using pointer - </h2>
 
 <p>
     
@@ -31,7 +31,7 @@ Suppose we want to create a 2D array of integer type with dimension ```(m × n)`
 
 <br>
 
-<h2> Accessing elements of a 2D array using pointer - </h2> <hr>
+<h2> Accessing elements of a 2D array using pointer - </h2>
 
 <p>
 
@@ -55,13 +55,13 @@ Therefore, if we need to access ```j-th``` element of ```i-th``` row, we need to
         printf("\n");
     }
 
-</p> <br> <br>
+</p> <br>
 
 <h2>
 
 <u> Below is the implementation of above explained concept using C language - </u>
 
-</h2> <br>
+</h2>
 
     #include<stdio.h>
     #include<stdlib.h>
@@ -121,7 +121,7 @@ Therefore, if we need to access ```j-th``` element of ```i-th``` row, we need to
         return 0;
     }
 
-<h3> <u> Output - </u> </h> <br>
+<br><h2> <u> Output - </u> </h2>
 
 <p>
 
