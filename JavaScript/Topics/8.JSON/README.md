@@ -86,6 +86,7 @@ In JSON, values must be one of the following data types:
 
 Both JSON and XML can be used to receive data from a web server.
 
+### JSON
 ```JSON
 {"students":[
   { "firstName":"Rahul", "lastName":"Roy" },
@@ -94,6 +95,7 @@ Both JSON and XML can be used to receive data from a web server.
 ]}
 ```
 
+### XML
 ```xml
 <students>
   <student>
