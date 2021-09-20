@@ -3,23 +3,24 @@ Given an array of N elements and you have to answer Q queries of the form L R K 
 smaller than K in range L to R.
 
 
-##Example
-###Input
+## Example
 ```
+Input:-
+
 Length of array = 10
 Number of queries = 2
 arr[ ] = {1 4 3 5 6 4 3 2 4 1}
 Query = {3 7 4} 
 	   {6 10 6}
 ```
-
-###Output
 ```
+Output
+
 2
 5
 ```
 
-##Explanation
+## Explanation
 The given array is:-
 1    4    3    5    6    4    3    2    4    1
 
@@ -27,26 +28,31 @@ The given array is:-
 The first query  {3   7   4}  says we have to find the number of elements smaller that 4 between the 3rd and the 7th element (inclusive) of the array.
 
 1    4    3    5    6    4    3    2    4    1
-	 |———————|     —Elements smaller than 4 are 3 (3rd element) and 3 (7th element) so answer is 2.
+     —Elements smaller than 4 are 3 (3rd element) and 3 (7th element) so answer is 2.
 
 
 
 The second query  {6   10   6}  says we have to find the number of elements smaller that 6 between the 6th and the 10th element (inclusive) of the array.
 
 1    4    3    5    6    4    3    2    4    1
-	 	       |———————|     —Elements smaller than 6 are all the elements from the 6th element to the 10th element i.e. last element so the answer is 5
+	—Elements smaller than 6 are all the elements from the 6th element to the 10th element i.e. last element so the answer is 5
 
 
 
-##Algorithm
+## Algorithm
 
 1. Declare two arrays one of integer type and one of vector<int> type (integer for user input array vector for merge sort tree)
 
 2. Declare following variables:-
+	
     —> n length of the input array
+	
     —> q number of queries
+	
     —> r starting index of query
+	
     —> l ending index of query 
+	
     —> k number with which comparison is to be done
 
 3. Build a **segment tree** but replace every node with a vector of integer and divide the right half and left only on the basis if starting index of the array is not equal to the end index.
@@ -56,9 +62,12 @@ The second query  {6   10   6}  says we have to find the number of elements smal
 5. After tree is completely build take input for queries.
 
 6. In queries function check few conditions
+	
 	—> if the range of query lies outside the range of vector return 0
-	-> if the range of query lies completely within the range of vector binary search is done in order to find the number of elements smaller than k and the result 	is returned.
-	-> if the range of query is overlapping with two ranges of vector then searching is done seperately in the left and the right subtree then the result is added 		and returned.
+	
+	-> if the range of query lies completely within the range of vector binary search is done in order to find the number of elements smaller than k and the 	    result is returned.
+	
+	-> if the range of query is overlapping with two ranges of vector then searching is done seperately in the left and the right subtree then the result is 	     added and returned.
 
 7. Finally the output from the query function is displayed.
 
@@ -168,7 +177,7 @@ int main() {
 ```
 
 
-##Output
+## Output
 ```
 2
 5
