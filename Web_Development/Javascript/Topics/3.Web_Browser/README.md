@@ -5,9 +5,9 @@
 * The core object for **JavaScript** in web browser is the window object. It represents web browser window and simultaneously the ECMAScript Global object. 
 
 * The window object has properties that specify details of the browser window **(navigator, location, history) and methods (alert(), setTimeot())** which perform various operations.
-</br>
+
 * Another **important part of JavaScript in web browser** is handling events. Event handler allow you to define function, that is called when specified event (for example an click) occurs.
-</br>
+
 * The most important of them is **XMLHttpRequest object** which enables communication with servers.
 
 ## **In this tutorial, we will see How to write JavaScript and what are the methods to write it.**
@@ -79,4 +79,4 @@ So I believe you must have got some basic ideas about JavaScript and the develop
 </html>
 
 ```
-# Contributer Damini Mehra
+**Contributor**: [Damini Mehra](https://github.com/daminimehra)
