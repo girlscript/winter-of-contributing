@@ -102,3 +102,6 @@ Both the techniques work by penalizing the magnitude of coefficients of features
 Random Forest is used in removing the branches in the decision tree which helps in increasing its accuracy, efficiency and reducing complexity.
 All of the embedded methods are mostly used to reduce as regularization techniques which helps in avoiding overfit in data.
 
+## Links:
+- [Dataset link](https://github.com/deepthi1107/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/DS%20Datasets/heart.csv)
+- [Code link](https://github.com/deepthi1107/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Feature%20Selection%20Techniques%20%23347/Feature%20selection%20code.ipynb)
