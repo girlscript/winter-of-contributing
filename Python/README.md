@@ -14,6 +14,8 @@
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
+- [List_&_Matrix](./List_&_Matrix)
+- [What_is_an_object_in_Python](./What_is_an_object_in_Python)
 ## Learning path
 1. Git & GitHub
 2. Brief history of python
@@ -22,4 +24,4 @@
 5. Use cases of Python
 6. Virtual Environment
 7. Operators
-
+8. List_&_Matrix
