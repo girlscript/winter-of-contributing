@@ -44,3 +44,7 @@
 
 ## 6. Activation function
 ![Hyperparameter Tuning](https://github.com/imedusa/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Hyperparameter_Tuning/Images/activation_function.png)
+
+# Useful Resources
+* [Course 2 of Deep Learning Specialization](https://www.coursera.org/learn/deep-neural-network#syllabus)
+* [Hyper-Parameter Optimization: A Review of Algorithms and Applications](https://arxiv.org/abs/2003.05689)
