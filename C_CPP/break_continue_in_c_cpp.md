@@ -2,7 +2,7 @@
 ---
 Break and Countiue are *keywords* used in C/CPP.
 ## Break
-* There are situtations where we want to jump out of loop instantly, no matter what is written after that.
+* There are situtations where we want to terminate the loop, no matter what is written after that.
 * The keyword break allows us to do this. Whenever we encounter break , we come out of the loop instantly.
 * In simple words statements written after break in a loop are not evaluated and control goes to next statement after loop.
 
