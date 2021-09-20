@@ -1,7 +1,7 @@
 
 ## Week 1 : Statistics for Machine Learning
    - **1.1. Variables, Range, Population Distribution, Sample Distribution**   
-   - **1.2. PDFs, CDFs**
+   - [**1.2. PDFs, CDFs**](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/ML_1_2_PDFs_and_CDFs_(D).ipynb)
    - **1.3. Central Limit Theorem**
    - **1.4. Variance, Standard Deviation, Expectation**
    - **1.5. Probability Distributions (Gaussian, Standard, Poisson)**
