@@ -75,7 +75,7 @@ So, if we have a pointer pointing to the ```zeroth``` element of a 1D array, the
 
 <br>
 
-This relationship of pointer and 1D array is used in dynamic array and while sending array to functions.
+This relationship of pointer and 1D array is used in ```dynamic array``` and while ```sending array to functions```.
 
 </p><br>
 
