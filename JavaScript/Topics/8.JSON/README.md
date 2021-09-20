@@ -143,7 +143,7 @@ Using XML:
 Using JSON:
 
 - Fetch a JSON string
-- JSON.Parse the JSON string
+- JSON.parse() the JSON string
 
 ## JSON Data Types
 
@@ -170,7 +170,7 @@ JSON is used to exchange data to/from a web server. When receiving data from a w
 
 Example:
 
-Suppose we received this text from a web server:
+Suppose we received this JSON from a web server:
 
 ```JSON
 '{
@@ -180,7 +180,7 @@ Suppose we received this text from a web server:
   }'
 ```
 
-Use the JavaScript function JSON.parse() to convert text into a JavaScript object:
+Use the JavaScript function JSON.parse() to convert JSON into a JavaScript object:
 
 ```js
 const obj = JSON.parse('{
@@ -210,6 +210,7 @@ Use the JavaScript function JSON.stringify() to convert it into a string.
 
 ```js
 const myJSON = JSON.stringify(obj);
+console.log(myJSON) // prints stringified object
 ```
 <br>
 
