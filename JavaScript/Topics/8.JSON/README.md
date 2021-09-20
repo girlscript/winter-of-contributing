@@ -2,7 +2,7 @@
 
 ## What is JSON?
 
-JSON stands for **`JavaScript Object Notation`** it is a text format for storing and transporting data which is "self-describing" and easy to understand. The JSON object contains methods for parsing **`JavaScript Object Notation`** (JSON) and converting values to JSON. It can't be called or constructed, and aside from its two method properties, it has no interesting functionality of its own.
+JSON stands for `JavaScript Object Notation` it is a text format for storing and transporting data which is "self-describing" and easy to understand. The JSON object contains methods for parsing `JavaScript Object Notation` (JSON) and converting values to JSON. It can't be called or constructed, and aside from its two method properties, it has no interesting functionality of its own.
 
 Example:
 
