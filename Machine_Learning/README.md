@@ -40,6 +40,7 @@
 <td align="center"><a href="https://github.com/k-sashank"><img src="https://avatars.githubusercontent.com/u/42696167?v=4" width="80px;" alt=""/><br /><sub><b>Madipally Sai Krishna Sashank (B4)</b></sub></a></td>
 <td align="center"><a href="https://github.com/geeythree"><img src="https://avatars.githubusercontent.com/u/30996989?v=4" width="80px;" alt=""/><br /><sub><b>Gayathri S</b></sub></a></td>    
 <td align="center"><a href="https://github.com/darpankhanna"><img src="https://avatars.githubusercontent.com/u/72389408?v=4" width="80px;" alt=""/><br /><sub><b>Darpan K</b></sub></a></td> 
+<td align="center"><a href="https://github.com/kshitijshrivastava1903"><img src="https://avatars.githubusercontent.com/u/62825399?v=4" width="80px;" alt=""/><br /><sub><b>Kshitij S (B6)</b></sub></a></td>           
 </tr>
    </table>
 
