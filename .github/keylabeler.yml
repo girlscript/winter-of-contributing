@@ -12,8 +12,8 @@ labelMappings:
   Audio : Audio
   Video : Video
   Documentation : Documentation
-  Android Dev (Flutter, Java, Kotlin) : Android Dev (Flutter, Java, Kotlin)
-  Backend Dev (Java, .NET, Python) :  Backend Dev (Java, .NET, Python)
+  Android Dev : Android Dev
+  Backend Dev :  Backend Dev
   C/CPP : C/CPP
   Competitive Programming : Competitive Programming
   Cyber Security : Cyber Security
@@ -21,16 +21,16 @@ labelMappings:
   Database : Database
   Datascience with Python : Datascience with Python
   Datascience with R : Datascience with R
-  Frontend Dev (HTML, CSS, JS) : Frontend Dev (HTML, CSS, JS)
-  Frontend Dev (React, Angular, Vue) : Frontend Dev (React, Angular, Vue)
+  Frontend Dev HTML/CSS/JS : Frontend Dev HTML/CSS/JS
+  Frontend Dev React/Angular/Vue : Frontend Dev React/Angular/Vue
   Golang : Golang
   Interview Prep : Interview Prep
-  Java : Java
+  Java_Domain : Java
   JavaScript : JavaScript
   MERN : MERN
   Machine Learning : Machine Learning
   Open Source : Open Source
-  Python : Python
+  Python_Domain : Python
   Rust : Rust
   Statistics : Statistics
   UI/UX : UI/UX
