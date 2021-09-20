@@ -17,9 +17,9 @@
 
 - Check MinGW is working by writing
 		`g++ --version` no error is generated then it's perfectly installed.
-		
+
 	![](s1.jpg)
-- [x] Download and setup VS Code
+- [x] Download VS Code and needed extensions 
 
   **Note:- You can use your own preferded code editor.**
   
