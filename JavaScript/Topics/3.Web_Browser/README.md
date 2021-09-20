@@ -147,8 +147,8 @@ This bytecode gets interpreted by Virtual Machine. Then it is converted to machi
 4. Less memory usage.
 
 ## Disadvantages of JIT compiler
-1. More cache memory.
-2. More startup time.
+1. JIT reserve more cache memory.
+2. JIT requires more startup time when executed for the first time.
 
 <br><hr><br>
 
