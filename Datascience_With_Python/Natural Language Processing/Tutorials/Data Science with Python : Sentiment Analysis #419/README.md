@@ -12,8 +12,8 @@ Dataset link: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-r
 It is dataset of 50,000 movie reviews. The data contains 2 columns: reviews and sentiment
 
 
-Libraries used:
-pandas
-nltk
-sklearn
+Libraries used:<br>
+pandas<br>
+nltk<br>
+sklearn<br>
 TextBlob
