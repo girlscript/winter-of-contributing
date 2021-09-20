@@ -9,5 +9,5 @@
 ### Contents
 1.Introduction to Boolean \
 2.Defining a Boolean Variable \
-3.Evaluation of Statements using boolean, The bool() method 
+3.Evaluation of Statements using boolean, the bool() method 
 
