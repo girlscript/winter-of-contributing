@@ -19,7 +19,7 @@ document.write(string); // will print Hello, World on Web Page
 
 __Output:__
 ```
-Hello, World
+Hello, World!
 ```
 
 # Multiline Strings
@@ -75,7 +75,7 @@ Before ES6, we have to use ```+``` for string interpolation.
 
 # Tagged Templates
 
-Tagged Templates are allows to parse a Template literals with a function
+Tagged Templates allows to parse a Template literal with a function.
 
 Before ES6, we use to pass the argument inside```()``` .
 
