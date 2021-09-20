@@ -5,11 +5,11 @@
 # Work Need To Be Completed
 
 ### Week 1 
-- [ ] JSX 
+- [x] JSX 
 - [x] Babel 
-- [ ] ES6 template literals 
-- [ ] JSX Attributes and Styling react elements 
-- [ ] npm 
+- [x] ES6 template literals 
+- [x] JSX Attributes and Styling react elements 
+- [x] npm 
 - [ ] Creating React App (Include setup for Windows/Linux/Mac)
 - [ ] The anatomy of a React App and Concept of Virtual DOM
 - [ ] Installing the React Developer Tools
