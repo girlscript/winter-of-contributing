@@ -51,7 +51,7 @@ Mentors will offer assistance to the contributors. They will be available to con
 
 ## Role of supervisors
 
-Supervisors are experts in the Open Source project on which the team is currently working. At the commencement of the program, they will provide project roadmap, and will also be available to evaluate pull requests, assist with concepts, encourage the team throughout the program. Supervisors can create directories and subdirectories as per requirement and they need to make sure projct under them is getting executed smoothly
+Supervisors are experts in the Open Source project on which the team is currently working. At the commencement of the program, they will provide a project roadmap, and will also be available to evaluate pull requests, assist with concepts, encourage the team throughout the program. Supervisors can create directories and subdirectories as per requirement and they need to make sure the project under them is getting executed smoothly
 
 <br />
 
@@ -113,7 +113,7 @@ Now you have the project on your local machine.
 
 ### Add a remote (upstream) to original project repository
 
-Remote means the remote location of project on Github. By cloning, we have a remote called origin which points to your forked repository. Now we will add a remote to the original repository from where we had forked.
+Remote means the remote location of the project on Github. By cloning, we have a remote called origin which points to your forked repository. Now we will add a remote to the original repository from where we had forked.
 
 `$ cd <your-forked-project-folder>`
 `$ git remote add upstream https://github.com/girlscript/winter-of-contributing.git` <br/>
