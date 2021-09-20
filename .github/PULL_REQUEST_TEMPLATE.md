@@ -31,22 +31,18 @@ Fixes # <issue_number_here>
 - [ ] Database
 - [ ] Datascience with Python
 - [ ] Datascience with R
-- [ ] Frontend Dev (HTML, CSS, JS)
-- [ ] Frontend Dev (React, Angular, Vue)
-- [ ] Golang
-- [ ] Interview Prep
-- [ ] Java
+
 - [ ] JavaScript
 - [ ] MERN
 - [ ] Machine Learning
 - [ ] Open Source
-- [ ] Python
+
 - [ ] Rust
 - [ ] Statistics
 - [ ] UI/UX
 
 <hr>
- 
+
 ## Checklist ✅
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
@@ -63,4 +59,4 @@ Fixes # <issue_number_here>
 
 ## Screenshots / Gif (Optional) 📸
 
-<hr>
+
