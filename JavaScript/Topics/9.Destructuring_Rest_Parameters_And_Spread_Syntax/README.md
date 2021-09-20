@@ -1,4 +1,4 @@
-# JavaScript Destructuring
+# Destructuring
 Destructuring assignment is a syntax that allows you to assign object properties or array items as variables. This can greatly reduce the lines of code necessary to manipulate data in these structures.
 <br>
 
