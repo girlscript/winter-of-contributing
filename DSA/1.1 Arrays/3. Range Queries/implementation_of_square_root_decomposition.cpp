@@ -1,10 +1,10 @@
-#include<iostream>
-#include<vector>
-#include<cmath>
+#include<iostream> // for using `cout`
+#include<vector>   // for using `vector`
+#include<cmath>    // for using `ceil` and `sqrt`
 using namespace std;
 
-/*
-* Square root decomposition allows us to answer queries in sqrt(N) time.
+/**
+ * @brief Square root decomposition allows us to answer queries in sqrt(N) time.
 */
 class SqrtDecomposition{
     vector<int> arr;
@@ -25,7 +25,7 @@ class SqrtDecomposition{
             }
         }
 
-        /*
+        /**
         * @param index: The index to be updated.
         * @param value: The value to set the element at specified index.
         */
@@ -35,6 +35,31 @@ class SqrtDecomposition{
             arr[index] = value;
         }
 
+        /**
+         * @param left: The stating index.
+         * @param right: The ending index.
+         * @return The sum from index left to right
+         */
+        long query(int left, int right){
+            int startBlockIndex = left/sqroot;
+            int endBlockIndex = right/sqroot;
+            long sum = 0;
+            for(int i = startBlockIndex+1; i < endBlockIndex; i++)
+                sum += blockSum[i];
+            
+            int startIndex = left%sqroot;
+            int endIndex = right%sqroot;
+            for(int i = startIndex; i < sqroot; i++)
+                sum += arr[startBlockIndex*sqroot+i];
+            for(int i = 0; i <= endIndex; i++)
+                sum += arr[endBlockIndex*sqroot+i];
+
+            return sum;
+        }
+
+        /**
+        * @brief function to print arr and blockSum array.
+        */
         void print(){
             cout<< "\nSquare Root Decomposition: "<< endl;
             cout<< "Array Is: "<< endl;
@@ -47,17 +72,25 @@ class SqrtDecomposition{
         }
 };
 
+/**
+* @brief main function or the driver function.
+* @return 0
+*/
 int main(){
     // Initilizing input array.
-    vector<int> input{1, 2, 6, 7, 9, 3, 1, 9};
+    vector<int> input{1, 2, 6, 7, 9, 3, 1, 9, 7};
     
     // Printing Initial Array.
     SqrtDecomposition sqrtDecomposition(input);
     sqrtDecomposition.print();
 
-    // Updating index 5 with value 7.
-    sqrtDecomposition.update(5, 7);
+    // Updating index 6 with value 8.
+    sqrtDecomposition.update(6, 8);
     sqrtDecomposition.print();
 
+    // Execuring sum query within range.
+    cout<< "\nSum Query Within Range 2 to 7 Is: " << sqrtDecomposition.query(2, 7)<< endl;
+
     return 0;
+    // End of main function.
 }
