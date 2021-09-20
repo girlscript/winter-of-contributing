@@ -2,7 +2,6 @@
 <br>
 <h2>Introduction</h2> 
 <p> An <b> HTML form </b> is a section of a document which contains controls such as text fields, password fields, checkboxes, radio buttons, submit button, menus etc. An HTML form facilitates the user to enter data that is to be sent to the server for processing such as name, email address, password, phone number etc. </p>
-<br>
 <h3> Example: </h3>
 <pre>
 <code>&lt;html&gt;
@@ -57,6 +56,26 @@
    <code>&lt;input type="checkbox" name="subscribeforupdates" name="subscribe" value="updates"&gt;
    &lt;label for="subscribe"&gt;Subscribe for updates?&lt;/label&gt;</code>
   </pre>
+    <li>Email</li>
+  <pre>
+    <code>&lt;input type="email" id="email"&gt;</code> 
+  </pre>
+    <li>Range</li>
+  <pre>
+    <code>&lt;input type="range" id="volume" name="volume"min="0" max="11"&gt;</code> 
+  </pre>
+    <li>Date</li>
+  <pre>
+    <code>&lt;input type="date"id="bdaydate" name="bdaydate"&gt;</code> 
+  </pre>
+    <li>Month</li>
+  <pre>
+    <code>&lt;input type="month" id="bdaymonth" name="bdaymonth"&gt;</code> 
+  </pre>
+     <li>Color</li>
+  <pre>
+    <code>&lt;input type="color" id="favcolor" name="favcolor" value="#ff0000"&gt;</code> 
+  </pre>
   </ul>
   <br>
   <h2>Textarea</h2>
@@ -99,4 +118,28 @@
 &lt;/html&gt;</code></pre>
 <div>
     <img width="40%" alt="listAttribute" src="https://www.htmlgoodies.com/wp-content/uploads/2021/04/list-attribute.png">
+</div>
+<h2>Select Elements</h2>
+<p>The select element allows users to choose between multiple options from a selected list,Depending on the value of this multiple attribute, the behavior of this element changes substantially.</p>
+<pre><code>&lt;html&gt;
+&lt;body&gt;
+&lt;h1&gt;The Select element&lt;/h1&gt;
+&lt;p&gt;A drop-down list:&lt;/p&gt;
+&lt;form action="../form-result.php" target="_blank"&gt;
+  &lt;p&gt;
+   Favorite sport:
+    &lt;select name="sport"&gt;
+      &lt;option&gt;Football&lt;/option&gt;
+      &lt;option&gt;Tennis&lt;/option&gt;
+      &lt;option&gt;Basketball&lt;/option&gt;
+      &lt;option&gt;Swimming&lt;/option&gt;
+      &lt;option&gt;Voley-ball&lt;/option&gt;
+    &lt;/select&gt;
+    &lt;input type="submit" value="Submit"&gt;
+  &lt;/p&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<div>
+    <img width="40%" alt="SelectElement" src="https://www.htmlgoodies.com/wp-content/uploads/2021/04/select-element.png">
 </div>
