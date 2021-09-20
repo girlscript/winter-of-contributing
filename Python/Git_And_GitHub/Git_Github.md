@@ -25,13 +25,13 @@ Copy paste this in your terminal.
 
   git clone https://github.com/git/git
 
-   ![Image](p1.jpeg)	
+   ![Image](gitignore/../.gitignore/p1.jpeg)	
 
 * **Git**  tracks your activity in your Project directory in which you have initialized git and take snapshots and remembers everything that you do and helps you get your Project efficiency better.
 
 
 * This is how your git bash terminal looks in your Windows Operating system.
-![Image](p2.png)	
+![Image](gitignore/../.gitignore/P2.png)	
 
 * ONE THING TO KEEP IN MIND IS THAT -
 
@@ -126,7 +126,7 @@ making commits , creates version/snapshots of your project.
 The blow Pictorial representation will let you know more about the Procedure before commit your chenges . **Git handles everything.**
 
 
-![Image](p3.png)
+![Image](gitignore/../.gitignore/p3.png)
 
 * **Important** - 
   
@@ -201,7 +201,7 @@ alias- short name    (to remember)
 
 # GITHUB 
 
-   ![Image](p4.jpeg)
+   ![Image](gitignore/../.gitignore/P4.jpeg)
 
    **GitHub** ,
    
@@ -308,7 +308,7 @@ then you will be able to see the file you downloaded in your local system.
 Git pull can directly pull the code from the remote directory to you working directory while git fetch fetches the code from the remote directory to the local repository and the we have to use git merge in order to get the code to the working directory.
 
 
-   ![Image](p6.png)
+   ![Image](gitignore/../.gitignore/p6.png)
 
 
 in short---- 
@@ -325,7 +325,7 @@ in short----
 
 upstream is that repository from where you are syncing or taking the data.
 
-![Image](p5.png)
+![Image](gitignore/../.gitignore/p5.png)
 
 
 ### miscellaneous git tools----->
