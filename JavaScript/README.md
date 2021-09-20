@@ -17,4 +17,4 @@
   2. [Command-Line](Topics/4.Command_Line)
 - [Syntax](Topics/5.Syntax)
 - [Hoisting](Topics/6.Hoisting)
-- [Promises](Topics/7.Promises)
+
