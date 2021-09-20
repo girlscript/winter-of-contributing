@@ -15,8 +15,7 @@ In this, the part of the code will only execute if the condition given is ```tru
 
 __Syntax:__
 ```js
-if(condition)
-{
+if (condition) {
     // code to be executed if the condition satisfies
 }
 ```
@@ -24,8 +23,7 @@ if(condition)
 __Example:__
 ```javascript
 var a = 10;
-if(a<=15) // condition is true(10<=15)
-{
+if (a<=15) { // condition is true(10<=15)
     console.log("Value of a is less than 15");
 }
 ```
@@ -45,12 +43,9 @@ In this, if the given condition satisfies the part of code under ```if``` will g
 
 __Syntax:__
 ```js
-if(condition)
-{
+if (condition) {
     // code get executes if the condition is true
-}
-else
-{
+} else {
     // this will get execute if the condition is false
 }
 ```
@@ -60,12 +55,9 @@ An example program to check whether the citizen is adult or not.
 
 ```javascript
 var age = 26;
-if(age>=18)
-{
+if (age>=18) {
     console.log("Citizen is Adult");
-}
-else
-{
+} else {
     console.log("Citizen is not Adult");
 }
 ```
@@ -89,16 +81,11 @@ In this, if the conditions of ```if``` and ```else if``` is satisfied the code u
 
 __Syntax:__
 ```js
-if(condition 1)
-{
+if (condition 1) {
     // will execute if the condition is true
-}
-else if(condition 2)
-{
+} else if (condition 2) {
     // will executes if condition 2 is true
-}
-else
-{
+} else {
     // will execute if the condition is false
 }
 ```
@@ -107,16 +94,11 @@ __Example:__
 
 ```javascript
 var a = 100;
-if(a==10)
-{
+if (a==10) {
     console.log("Value of a is equal to 10");
-}
-else if(a==50)
-{
+} else if (a==50) {
     console.log("Value of a is equal to 50);
-}
-else
-{
+} else {
     console.log("Value of a is not equal to 10 or 50");
 }
 ```
@@ -137,8 +119,7 @@ It is similar to ```if``` - ```else if``` statement and in ```switch``` you can 
 
 __Syntax:__
 ```js
-switch(condtion)
-{
+switch (condtion) {
     case 1:
     // gets executes if condition satisfies
     break;
@@ -162,8 +143,7 @@ __Example:__
 var res = 9.0;
 var grade;
 
-switch(res)
-{
+switch (res) {
     case 9.0:
     grade = 'A';
     break;
