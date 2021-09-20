@@ -21,12 +21,24 @@ class SqrtDecomposition{
                     blockSum[i] += arr[startIndex+j];
             }
         }
+
+        void print(){
+            cout<< "\nSquare Root Decomposition: "<< endl;
+            cout<< "Array Is: "<< endl;
+            for(int i = 0; i < arr.size(); i++)
+                cout<< arr[i]<< " ";
+            cout<< "\nBlock Sum Is: "<< endl;
+            for(int i = 0; i < blockSum.size(); i++)
+                cout<< blockSum[i]<< " ";
+            cout<< endl;
+        }
 };
 
 int main(){
 
     vector<int> input{1, 2, 6, 7, 9, 3, 1, 9};
     SqrtDecomposition sqrtDecomposition(input);
+    sqrtDecomposition.print();
 
     return 0;
 }
