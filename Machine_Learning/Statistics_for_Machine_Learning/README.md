@@ -8,3 +8,5 @@
    - **1.6. Maximum Likelyhood Estimation**
    - **1.7. Parzen Windows**
    - **1.8. A\B Testing**
+   - **1.9. Hypothesis Testing**
+   - **1.10. P-Value**
