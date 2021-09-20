@@ -40,7 +40,7 @@ sns.pairplot(df, hue="species")
 * Pair Plots
 * Heat maps
 
-You can see the elaborated implimentation of the following Seaborn plots in the [notebook given in the repository]()
+You can see the elaborated implimentation of the following Seaborn plots in the [notebook given in the repository](./Data%20Visualizations%20with%20Seaborn.ipynb)
 #### 1. Distribution Plots
 We can compare the distribution plot in Seaborn to histograms in Matplotlib. They both offer pretty similar functionalities. Instead of frequency plots in the histogram, here we’ll plot an approximate probability density across the y-axis.
 We will be using sns.distplot() in the code to plot distribution graphs.
