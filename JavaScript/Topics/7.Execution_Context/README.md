@@ -79,7 +79,7 @@ Whenever a new execution context is created, it gets stacked above the previous 
 
 ## Wrap up
 
-Great! Now we know what execution context it and why is it so useful for our beloved JS engine ❤️
+Great! Now we know what execution context is and why it is so useful for our beloved JS engine. ❤️
 We got a good grasp of the differences between Global Execution Context & Local Execution Context, along with the phases required in their creation.
 
 > Author :
