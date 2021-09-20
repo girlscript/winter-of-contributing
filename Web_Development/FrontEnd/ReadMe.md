@@ -24,7 +24,7 @@
 - Form Validation
 - Conventions & Best Practices
 - Accessibility
-- Search Engine Optimisation Basics
+- [Search Engine Optimisation Basics](SEO_Basics)
 
 ## 2️⃣ CSS
 
