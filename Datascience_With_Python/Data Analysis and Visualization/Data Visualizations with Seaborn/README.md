@@ -50,7 +50,7 @@ Pie Chart is generally used to analyze the data on how a numeric variable change
 
 #### 3. Scatter Plots
 Scatter Plot is used when we want to plot the relationship between any two numeric columns from a dataset. These plots are the most powerful visualization tools that are being used in the field of machine learning.
-* Regression Plot
+* Regression Plot: 
 Regression plots create a regression line between 2 numerical parameters in the jointplot(scatterplot) and help to visualize their linear relationships.
 
 #### 4. Pair Plots
