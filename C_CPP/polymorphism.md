@@ -2,7 +2,7 @@
 <p> Let's discuss about the defination </p>
 <p> The word Polymorphism in cpp or c means the having the many forms , if me split word polymorphism "poly" means many and "morphism" means forms. It is the ability of a object or function etc to be displayed in more than one form.
 
-<p> Types of polymorphism </p>
+<p> Types of Polymorphism </p>
 1. Compile Time Polymorphism <br>
 2. Run Time Polymorphism <br><br>
 
