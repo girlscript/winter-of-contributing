@@ -3,44 +3,56 @@
 
 using namespace std;
 
-void printgwoc(deque<int> g)
+void printg(deque<int> g)
 {
     deque<int>::iterator it;
-    for (it = g.begin(); it != g.end(); ++it)
+    for (it = g.begin(); it != g.end(); it++)
     {
-        cout << '\t' << *it;
+        cout << '\t' << *it; // printing the elements of deque
     }
     cout << endl;
+}
+
+void back(int arr[], int n)
+{
+    deque<int> gwoc;
+
+    cout << "Pushing From Back : ";
+    for (int i = 0; i < n; i++)
+    {
+        gwoc.push_back(arr[i]); // adding elements from front
+    }
+
+    printg(gwoc);
+}
+
+void front(int arr[], int n)
+{
+    deque<int> gwoc;
+    cout << "Pushing From Front : ";
+    for (int i = 0; i < n; i++)
+    {
+        gwoc.push_front(arr[i]); // adding elements from back
+    }
+
+    printg(gwoc);
 }
 
 // driver code
 int main()
 {
-    deque<int> gwoc;
-    gwoc.push_back(50);  // adding element from back
-    gwoc.push_front(60); // adding element from front
-    gwoc.push_back(90);  // adding element from back
-    gwoc.push_front(85); // adding element from front
-    gwoc.push_back(40);  // adding element from back
-    gwoc.push_front(25); // adding element from front
+    int n;
+    cout << "Enter the number of elements : ";
+    cin >> n;
+    int arr[n];
 
-    cout << "The deque gwoc is : ";
-    printgwoc(gwoc); // function call
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i]; // taking input from the user
+    }
 
-    cout << "\ngwoc.size() : " << gwoc.size();         // prints actual size of deque
-    cout << "\ngwoc.max_size() : " << gwoc.max_size(); // prints maximum size of deque
-
-    cout << "\ngwoc.at(3) : " << gwoc.at(3);     // prints an element at index-3
-    cout << "\ngwoc.front() : " << gwoc.front(); // prints first element
-    cout << "\ngwoc.back() : " << gwoc.back();   // prints last element
-
-    cout << "\ngwoc.pop_front() : ";
-    gwoc.pop_front(); // deletes an element from the front
-    printgwoc(gwoc);  // function call
-
-    cout << "\ngwoc.pop_back() : ";
-    gwoc.pop_back(); // deletes an element from the back
-    printgwoc(gwoc); // function call
+    front(arr, n); // calling front function
+    back(arr, n);  // calling back function
 
     return 0;
 }
