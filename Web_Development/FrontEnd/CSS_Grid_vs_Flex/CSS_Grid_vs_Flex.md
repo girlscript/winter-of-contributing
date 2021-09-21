@@ -1,9 +1,9 @@
-#CSS GRID VS. FLEXBOX
+# CSS GRID VS. FLEXBOX
 **Flexbox** and **CSS Grid** are two CSS layout modules that have become mainstream in recent years. Both allow us to create complex layouts that were previously only possible by applying CSS hacks and/or JavaScript. Flexbox and CSS Grid share multiple similarities and many layouts can be solved with both of them.
 
 Let's first understand the basics of both.
 
-##What is CSS Grid Layout: 
+## What is CSS Grid Layout: 
 CSS Grid Layout (aka “Grid” or “CSS Grid”), is a **two-dimensional grid-based layout system with rows and columns** that, compared to any web layout system of the past, completely changes the way we design user interfaces. It is useful in creating more complex and organized layouts.
 
 ![CSS Grid](https://i.morioh.com/2020/05/01/768324f99431.jpg)
@@ -22,7 +22,7 @@ or
   display: inline-grid;
 }
 ```
-##What is CSS Flexbox:
+## What is CSS Flexbox:
 The CSS Flexbox is a **one-dimensional layout**. It is useful in allocating and aligning the space among items in a grid container. It works with various kinds of display devices and screen sizes. Flex layout makes it easier to design and build responsive web pages without using many float and position properties in the CSS code.
 
 ![CSS Grid](https://i.morioh.com/200827/6b167dc9.webp)
@@ -36,7 +36,8 @@ Example:
 }
 ```
 <br>
-##CSS Grid vs. Flexbox: Which Should You Use and When?
+
+## CSS Grid vs. Flexbox: Which Should You Use and When?
 
 <ol>
 <h3><li>One vs. Two Dimensions</li></h3>
@@ -55,7 +56,8 @@ The most common misconception about the two layout modules is that Grid is for f
 
 <h4>Focus on Content Placement: CSS Grid</h4>
 
-CSS Grid focuses on precise content placement. Each item is a grid cell, lined up along both a horizontal and a vertical axis. If you want to accurately control the position of items within a layout, CSS Grid is the way to go. As per W3C - 
+CSS Grid focuses on precise content placement. Each item is a grid cell, lined up along both a horizontal and a vertical axis. If you want to accurately control the position of items within a layout, CSS Grid is the way to go. As per W3C -
+ 
 > “It provides a mechanism for authors to divide available space for layout into columns and rows using a set of predictable sizing behaviors. Authors can then precisely position and size the building block elements of their application into the grid areas defined by the intersections of these columns and rows.”
 
 
@@ -112,7 +114,8 @@ Flexbox has fairly good browser support, while CSS Grid is not supported by IE11
 ![CSS Grid Layout Module](https://cms-assets.tutsplus.com/cdn-cgi/image/width=850/uploads/users/30/posts/30184/image/caniuse-grid.png)
 </ol>
 <br>
-##Usage of CSS Grid and Flexbox
+
+## Usage of CSS Grid and Flexbox
 
 You should consider using Grid layout when:
 <ul>
@@ -128,11 +131,12 @@ You should consider using Flexbox when:
 </ul>
 
 
-##Wrap Up
+## Wrap Up
 In this CSS Grid vs Flexbox Documentation, you have looked into the differences between CSS Grid and Flexbox layout, how they function in modern browsers. With the right amount of practice, you can master both the layouts and create impressive web pages.
 
 <br><br>
 *Thanks for reading!*
+
 > Author:
 > <cite>[Raunak Gayen](https://github.com/RaunakGN2001)</cite>
 
