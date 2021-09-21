@@ -5,19 +5,18 @@
   -->
 
 # Title (name of the field)
+FRONTEND WEB DEVELOPMENT 
 
 ## Index
 
 <!-- this is just an example -->
 
-- [HTML](./html)
 - [CSS](./css)
-- [JavaScript](./javascript)
 
 ## Learning path
 
 <!-- this is just an example -->
 
-1. HTML
-2. CSS
-3. JavaScript
+CSS:-
+
+1. CSS ANIMATION

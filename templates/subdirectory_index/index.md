@@ -5,15 +5,18 @@
   -->
 
 # Title (name of the topic)
+CSS ANIMATION
 
 # Description
-Small description of the topic 
+Frontend Web Development
+CSS
+CSS animation:
+Different properties of animation and live examples discuss
 
 ## Index
 
 <!-- this is just an example -->
 
-- [HTML](./html)
 - [CSS](./css)
-- [JavaScript](./javascript)
+
 
