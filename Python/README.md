@@ -16,6 +16,7 @@
 - [Operators](./Operators)
 - [List_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
+- [Stack_and_Queue](./Stack_and_Queue)
 ## Learning path
 1. Git & GitHub
 2. Brief history of python
@@ -25,3 +26,4 @@
 6. Virtual Environment
 7. Operators
 8. List_&_Matrix
+9. Stack_and_Queue
