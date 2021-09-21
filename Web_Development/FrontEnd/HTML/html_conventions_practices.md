@@ -27,17 +27,17 @@ Always declare the document type as the first line in your document. It is essen
 
 -   Good Practice:
 
-    ```sh
+    ```html
     <!DOCTYPE html>
     ```
 
 -   Bad Practice:
 
-    ```sh
+    ```html
     <!DOCTYPE Html>
     ```
 
-    ```sh
+    ```html
     <!doctype HTML>
     ```
 
@@ -54,7 +54,7 @@ However, HTML allows the use of lowercase or uppercase element names; we recomme
 
 -   Good Practice:
 
-    ```sh
+    ```html
     <body>
         <p>Winter of Contributing</p>
     </body>
@@ -62,7 +62,7 @@ However, HTML allows the use of lowercase or uppercase element names; we recomme
 
 -   Bad Practice:
 
-    ```sh
+    ```html
     <BODY>
         <p>Winter of Contributing</p>
     </BODY>
@@ -78,15 +78,15 @@ HTML allows the use of lowercase or uppercase element names; we recommend you to
 
 -   Good Practice:
 
-    ```sh
-    <img src="gwoc.gif" alt="GWOC" style="width:128px;height:128px">
+    ```html
+    <img src="gwoc.gif" alt="GWOC">
     <a href="https://gwoc.girlscript.tech/">Visit GWOC</a>
     ```
 
 -   Bad Practice:
 
-    ```sh
-    <img SRC="gwoc.gif" ALT="GWOC" STYLE="width:128px;height:128px">
+    ```html
+    <img SRC="gwoc.gif" ALT="GWOC">
     <a HREF="https://gwoc.girlscript.tech/">Visit GWOC</a>
     ```
 
@@ -96,7 +96,7 @@ It is not recommended to use indentation unnecessarily in an HTML document. Inde
 
 -   Good Practice:
 
-    ```sh
+    ```html
     <body>
       <h1>Open Source</h1>
 
@@ -109,7 +109,7 @@ It is not recommended to use indentation unnecessarily in an HTML document. Inde
 
 -   Bad Practice:
 
-    ```sh
+    ```html
     <body>
       <h1>Open Source</h1>
       <h2>GSSOC</h2>
@@ -132,7 +132,7 @@ HTML allows attribute values without quotes. However, we recommend quoting attri
 
 -   Good Practice:
 
-    ```sh
+    ```html
     <body class="container">
       <p>Winter of Contributing</p>
     </body>
@@ -140,13 +140,13 @@ HTML allows attribute values without quotes. However, we recommend quoting attri
 
 -   Bad Practice:
 
-    ```sh
+    ```html
     <body class=container>
       <p>Winter of Contributing</p>
     </body>
     ```
 
-    ```sh
+    ```html
     <body class=body container>
       <p>Winter of Contributing</p>
     </body>
@@ -160,7 +160,7 @@ Well, If the code/element is working without closing tag, then that doesn't make
 
 -   Good Practice:
 
-    ```sh
+    ```html
     <body>
       <p>Girlscript Foundation</p>
       <p>Winter of Contributing</p>
@@ -169,7 +169,7 @@ Well, If the code/element is working without closing tag, then that doesn't make
 
 -   Bad Practice:
 
-    ```sh
+    ```html
     <body>
       <p>Girlscript Foundation
       <p>Winter of Contributing
@@ -182,19 +182,32 @@ Like Images,
 
 Always specify the alt attribute for images. This attribute is important if the image for some reason cannot be displayed.
 
-Also, always define the width and height of images.Because the browser can reserve space for the image before loading and sometimes image ratio differs.
+Also, always define the width and height of images(recommended to use css instead of inline style). Because the browser can reserve space for the image before loading and sometimes image ratio differs.
 
 -   Good Practice:
 
-    ```sh
-    <img src="gwoc.gif" alt="GWOC" style="width:128px;height:128px"/>
+    ```html
+    <img src="gwoc.gif" alt="GWOC"/>
     ```
 
 -   Bad Practice:
 
-    ```sh
+    ```html
     <img SRC="html5.gif">
     ```
+
+### Inline-CSS vs CSS file in HTML
+
+Recommended to use CSS file instead of using inline-css, Let's say you're debugging, and want to modify your page-css, make a certain section only look better. Instead of creating your styles inline the quick and dirty and un-maintainable way, you can do what I do these days and take a staged approach.
+
+The advantage for having a different css file are:
+
+- Easy to maintain your html page
+- Change to the Look and feel will be easy and you can have support for many themes on your pages.
+- Your css file will be cached on the browser side. So you will contribute a little on internet traffic by not loading some kbs of data every time a the page is refreshed or user navigates your site.
+
+Never create your css inline, by which I mean: `<element style='color:red'>` or even `<img style='float:right'>` It's very convenient, but doesn't reflect actual selector specificity in a real css file later, and if you keep it, you'll regret the maintenance load later.
+
 
 ### Spaces, Equal Signs and Blank Lines
 
@@ -205,9 +218,9 @@ HTML allows spaces around equal signs. But space-less is easier to read and grou
 
 -   Good Practice:
 
-    ```sh
+    ```html
     <body>
-      <img src="gwoc.gif" alt="GWOC" style="width:128px;height:128px"/>
+      <img src="gwoc.gif" alt="GWOC"/>
         <p>Admins</p>
 
         <p>Supervisors</p>
@@ -217,10 +230,10 @@ HTML allows spaces around equal signs. But space-less is easier to read and grou
 
 -   Bad Practice:
 
-    ```sh
+    ```html
     <body>
 
-    <img src = "gwoc.gif" alt = "GWOC" style = "width:128px;height:128px">
+    <img src = "gwoc.gif" alt = "GWOC">
 
         <p>Admins</p>
 
@@ -236,7 +249,7 @@ HTML allows spaces around equal signs. But space-less is easier to read and grou
 
 -   Good Table Example:
 
-    ```sh
+    ```html
     <table>
       <tr>
         <th>Name</th>
@@ -255,7 +268,7 @@ HTML allows spaces around equal signs. But space-less is easier to read and grou
 
 -   Good List Example
 
-    ```sh
+    ```html
     <ul>
       <li>Managers</li>
       <li>Admins</li>
@@ -269,18 +282,18 @@ HTML allows spaces around equal signs. But space-less is easier to read and grou
 
 As we seen above, A HTML page can be validated without writing or closing a tag.
 
--   The <title> element is required in HTML.
+-   The `<title>` element is required in HTML.
 -   The contents of a page title is very important for search engine optimization (SEO)!
 -   The page title is used by search engine algorithms to decide the order when listing pages in search results.
--   Omitting <body> tag can produce errors in older browsers.
--   Omitting <html> tag and <body> can also crash DOM and XML software.
--   If we omit <head> tag, Browsers will add all elements before <body>, to a default <head> element.
+-   Omitting `<body>` tag can produce errors in older browsers.
+-   Omitting `<html>` tag and `<body>` can also crash DOM and XML software.
+-   If we omit `<head>` tag, Browsers will add all elements before `<body>`, to a default `<head>` element.
 
 ### HTML Lang Attribute
 
 We should always specify the lang attribute to define the language of the web-page to the browsers and the search engines.
 
-```sh
+```html
 <!DOCTYPE html>
   <html lang="en-US">
   <head>
@@ -294,24 +307,24 @@ We should always specify the lang attribute to define the language of the web-pa
 
 ### HTML Meta Data
 
-The <meta> tag contains additional information related to the document such as page description, keywords, author, character set, etc.
+The `<meta>` tag contains additional information related to the document such as page description, keywords, author, character set, etc.
 
 -   The web browsers use the metadata to display content, and keywords are used by search engines and other web-services.
 -   Best Practice:
 
-    ```sh
+    ```html
     <meta charset="UTF-8">
     ```
 
 ### Setting viewport in HTML
 
-We use the <meta> tag of the head to create a viewport for a website.
+We use the `<meta>` tag of the head to create a viewport for a website.
 
 -   The browser controls the scaling of the web-page, using the meta viewport. The width=device-width specifies that page’s width will be equal to the device’s width where the web page will be displayed.
 -   The initial-scale=1.0 is used to set the initial zoom level of the web-page when it is first loaded.
 -   Best Practice:
 
-    ```sh
+    ```html
     <!DOCTYPE html>
       <html>
       <head>
@@ -330,19 +343,19 @@ For linking stylesheets,we can use simple linking syntax. The type attribute is 
 
 -   Best Practice:
 
-    ```sh
+    ```html
     <link rel="stylesheet" href="style.css">
     ```
 
 -   We should compress short CSS rules in a single line.
 
-    ```sh
+    ```html
     p{font-family:Verdana; font-size:15px}
     ```
 
 -   We should write long CSS rules over multiple lines.
 
-    ```sh
+    ```html
     body {
       background-color: black;
       font-family: "Arial Black";
@@ -364,7 +377,7 @@ The type attribute is not necessary for linking the javascript files. Use the si
 -   There should be a correct use of id attributes to access HTML elements else it would produce errors.
 -   Best Practice:
 
-    ```sh
+    ```html
     <!DOCTYPE html>
     <html lang="en-US">
     <head>
@@ -380,7 +393,7 @@ The type attribute is not necessary for linking the javascript files. Use the si
     </body>
     ```
 
-    ```sh
+    ```html
     <script src="app.js">
     ```
 
