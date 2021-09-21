@@ -78,8 +78,7 @@ The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML doc
 A browser does not display the HTML tags, but uses them to determine how to display the document:
 
 <br>
-<img src="https://docs.microsoft.com/en-us/visualstudio/ide/media/vs-2019/
-csharp-aspnet-index-page-hello-world.png?view=vs-2019" width="500px"><img>
+<img src="https://opentechschool.github.io/python-flask/core/images/hello-world.png" width="500px"><img>
 <hr>
 <br>
 
