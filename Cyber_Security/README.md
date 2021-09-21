@@ -56,8 +56,8 @@
 
 ## Week-3 (Computer Viruses and Threats)
 - [ ] Computer Viruses
-- [ ] Macro Virus
-- [ ] Multipartite virus
-- [ ] Overwrite virus
-- [ ] Browser Hijacker
-- [ ] Polymorphic virus
+    - Macro Virus
+    - Multipartite virus
+    - Overwrite virus
+    - Browser Hijacker
+    - Polymorphic virus
