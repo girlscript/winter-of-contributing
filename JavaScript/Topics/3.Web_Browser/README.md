@@ -6,6 +6,8 @@ JavaScript is commonly utilised in both front-end and back-end web development. 
 
 The structure of a web page is provided by HTML, the layout and rudimentary animations are provided by CSS, and the website's interactivity is provided by JavaScript.
 
+So, In a nutshell we can say : <b>HTML = NOUN, CSS = ADJECTIVE, JS = VERB.</b>
+
 JavaScript can support:<br>
 
 1. Rich UI libraries
@@ -126,9 +128,9 @@ Else, it can be added in the head content and JS can access the DOM elements if 
 
 <br><hr><br>
 
-# How JavaScript files get compiled?
+# How JavaScript code get compiled?
 
-In most low-level languages, the files get compiled and then executed accordingly. But in JavaScript, compilation takes place during the execution of the file. This type of compiler is known as Just-in-time(JIT) compiler.
+In most low-level languages, the code gets compiled and then executed accordingly. But in JavaScript, compilation takes place during the execution of the file. This type of compilation is known as Just-In-Time(JIT) compilation.
 
 For example, V8 engine is used for compilation of JavaScript files. It is developed by Google.
 
@@ -138,6 +140,8 @@ For example, V8 engine is used for compilation of JavaScript files. It is develo
 
 The Source code of JS file is converted into the *byte code*, which is the intermediate conversion.<br> 
 This bytecode gets interpreted by Virtual Machine. Then it is converted to machine understandable code in section-wise (can be per function or per line) dynamically so that the program can run faster.
+
+![JIT compiler working](images/../Code_Snippets/4.JIT_compiler_flowchart.png)
 
 ## Advantages of JIT compiler
 
@@ -159,6 +163,7 @@ This bytecode gets interpreted by Virtual Machine. Then it is converted to machi
 3. JavaScript contains a large library of libraries, such as jQuery, AJAX, and others, that are useful for complex work/projects.
 4. Many front-end engineers prefer JavaScript because of its clear and straightforward syntax.
 5. JavaScript is rapidly improving as a result of its popularity, and its capacity to make web pages more interactive is growing by the day.
+6. The console API provided by JavaScript is useful for debugging the code.
    
 <br><hr><br>
 
