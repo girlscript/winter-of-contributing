@@ -1,4 +1,4 @@
-# Difference between const, var and let
+# Difference between var, let & const
 There are 3 ways to declare a JavaScript variable:
 
 - Using `var`
