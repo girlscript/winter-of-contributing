@@ -126,6 +126,6 @@ eg-
 </html>
 ```  
 ### Output  
-![example](./Capture.png)  
+![example](./Capture.PNG)  
 
 ## Contributed by Arpita Gupta 😊
