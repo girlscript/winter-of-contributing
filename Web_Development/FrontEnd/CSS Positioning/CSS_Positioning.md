@@ -1,344 +1,172 @@
-﻿
+# CSS Positioning
 
-**CSS Positioning**
+---
 
-The position CSS property sets how an element is positioned in a
-
-document.
+The position CSS property sets how an element is positioned in a document. 
 
 **Three things to remember first:-**
 
-\1. Your Content is Everything:-
+1. Your Content is Everything:-
 
-The content is the first thing that determines how large
+    The content is the first thing that determines how large things gets displayed and what's the height and this is despite any usage of CSS.
 
-things gets displayed and what's the height and this is
+2. Order comes from Code:-
 
-despite any usage of CSS.
+    The order of of the elements on the screen comes form your HTML code. For example:-
 
-\2. Order comes from Code:-
+    ```html
+    <h1> Hello </h1>
+    <h3> Good Evening </h3>
+    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+    <p> ut labore et dolore magna aliqua. Ut enim ad minim veniam <p>
+    ```
 
-The order of of the elements on the screen comes form your
+    In this case the we can see that H1 is followed by H3 which is followed by two paragraph tags so the thing which will be rendered in the display screen would be like:-
 
-HTML code. For example:-
+    So the default layout would be determined by your HTML code.
 
-<h1> Hello </h1>
+    ![image](https://user-images.githubusercontent.com/61539946/134206713-333b6096-afe2-4a35-8b0b-7187ce0a576f.png)
 
-<h3> Good Evening </h3>
+3. A DIV always comes first:-
 
-<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
+    So, what I mean to say is that when your code is covered by a div then first that div comes and then the content inside it for example:-
 
-ncididunt </p>
-
-<p> ut labore et dolore magna aliqua. Ut enim ad minim veniam <p>
-
-In this case the we can see that H1 is followed by H3 which
-
-is followed by two paragraph tags so the thing which will be
-
-rendered in the display screen would be like:-
-
-So the default layout would be determined by your HTML code.
-
-CSS Positioning
-
-1
-
-
-
-
-
-\3. A DIV always comes first:-
-
-So, what I mean to say is that when your code is covered by a
-
-div then first that div comes and then the content inside it
-
-for example:-
-
+```html
 <div class = 'a'>
-
 <h1> Hello! </h1>
-
 <h3> This is Div1 </h3>
-
 </div>
-
-.a{
-
-background-color: #A2CDCD;
-
-}
-
-.b{
-
 <div class = 'b'>
-
 <h1> Hello! </h1>
-
 <h3> This is Div2 </h3>
-
 </div>
-
-background-color: #C6D57E;
-
-}
-
-.c{
-
-background-color: #FFE1AF;
-
-}
-
 <div class = 'c'>
-
 <h1> Hello! </h1>
-
 <h3> This is Div3 </h3>
-
 </div>
+```
 
-So these are som of the default rules of how things gets
+```css
+.a{
+background-color: #A2CDCD;
+}
+.b{
+background-color: #C6D57E;
+}
+.c{
+background-color: #FFE1AF;
+}
+```
+![image](https://user-images.githubusercontent.com/61539946/134206814-92777fe5-aea3-4a28-8297-8c9721f7164e.png)
 
-rendered on the screen just by HTML. Now we can also set a CSS
 
-property which is the position property in order to position
 
-elements on screen the way that you want it to instead of just
-
-going along with the default layout, and in most cases people
-
-wants to make changes to the default layout.
+So these are some of the default rules of how things gets rendered on the screen just by HTML. Now we can also set a CSS property which is the position property in order to position elements on screen the way that you want it to instead of just going along with the default layout, and in most cases people wants to make changes to the default layout.
 
 **There are three major types of positioning in CSS:-**
 
-Static
+- Static
+- Relative
+- Absolute
+- Fixed
 
-Relative
+### Static Positioning
 
-Absolute
+In relative positioning, the element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties have no effect. This is the default output of the HTML Code which will be rendered.
 
-CSS Positioning
+### Relative Positioning
 
-2
+In relative positioning, the element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static. 
 
-
-
-
-
-Fixed
-
-**Static Positioning**
-
-In relative positioning, the element is positioned according to
-
-the normal flow of the document. The top, right, bottom, left,
-
-and z-index properties have no effect. This is the default
-
-output of the HTML Code which will be rendered.
-
-**Relative Positioning**
-
-In relative positioning, the element is positioned according to
-
-the normal flow of the document, and then offset relative to
-
-itself based on the values of top, right, bottom, and left. The
-
-offset does not affect the position of any other elements; thus,
-
-the space given for the element in the page layout is the same
-
-as if position were static.
-
+```html
 <html lang="en" dir="ltr">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div class="box" id="one">
+				One
+		</div>
+		<div class="box" id="two">
+				Two
+		</div>
+		<div class="box" id="three">
+				Three
+		</div>
+		<div class="box" id="four">
+				Four
+		</div>
+  </body>
+</html>
+```
 
-\* {
-
-box-sizing: border-box;
-
-<head>
-
-<title></title>
-
+```css
+* {
+  box-sizing: border-box;
 }
-
-</head>
-
-<body>
 
 .box {
-
-<div class="box" id="one">
-
-display: inline-block;
-
-One
-
-width: 100px;
-
-</div>
-
-height: 100px;
-
-<div class="box" id="two">
-
-background: #343F56;
-
-color: #F54748;
-
-Two
-
-</div>
-
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #343F56;
+  color: #F54748;
 }
-
-<div class="box" id="three">
-
-Three
 
 #two {
-
-position: relative;
-
-</div>
-
-<div class="box" id="four">
-
-top: 20px;
-
-Four
-
-</div>
-
-left: 20px;
-
-background: #F5E6CA;
-
-color: #F54748;
-
-</body>
-
-</html>
-
+  position: relative;
+  top: 20px;
+  left: 20px;
+  background: #F5E6CA;
+  color: #F54748;
 }
+```
 
-CSS Positioning
+![image](https://user-images.githubusercontent.com/61539946/134206977-c9e1701f-8c4c-4994-b15f-b76ede963b68.png)
 
-3
+### Absolute Positioning
 
+In absolute positioning, the element is removed from the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left. However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. For example:-
 
-
-
-
-**Absolute Positioning**
-
-In absolute positioning, the element is removed from the normal
-
-document flow, and no space is created for the element in the
-
-page layout. It is positioned relative to its closest positioned
-
-ancestor, if any; otherwise, it is placed relative to the
-
-initial containing block. Its final position is determined by
-
-the values of top, right, bottom, and left. However; if an
-
-absolute positioned element has no positioned ancestors, it uses
-
-the document body, and moves along with page scrolling. For
-
-example:-
-
+```html
 <h1>Lorem Ipsum</h1>
 
-\* {
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
-box-sizing: border-box;
+<p class="positioned">Sed viverra tellus in hac habitasse platea dictumst vestibulum. Nunc mattis enim ut tellus elementum sagittis vitae et.</p>
 
-<p>Lorem ipsum dolor sit amet, consectet
+<p>Elementum nibh tellus molestie nunc. Mattis pellentesque id nibh tortor id aliquet lectus proin nibh.</p>
 
-ur adipiscing elit, sed do eiusmod tempo
+<p>Lorem ipsum <span>dolor sit amet</span> , consectetur adipiscing elit, <span>sed do</span> eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+```
 
-r incididunt ut labore et dolore magna a
 
-liqua.</p>
 
+```css
+* {
+  box-sizing: border-box;
 }
-
 body {
-
-width: 500px;
-
-margin: 0 auto;
-
+  width: 500px;
+  margin: 0 auto;
 }
-
-<p class="positioned">Sed viverra tellus
-
-in hac habitasse platea dictumst vestibu
-
-lum. Nunc mattis enim ut tellus elementu
-
-m sagittis vitae et.</p>
-
 p {
-
-background: #FFC996;
-
-border: 5px solid black;
-
-padding: 10px;
-
-margin: 10px;
-
-<p>Elementum nibh tellus molestie nunc.
-
-Mattis pellentesque id nibh tortor id a
-
-liquet lectus proin nibh.</p>
-
+  background: #FFC996;
+  border: 5px solid black;
+  padding: 10px;
+  margin: 10px;
 }
-
 span {
-
-background: #FF8474;
-
-border: 1px solid black;
-
-<p>Lorem ipsum <span>dolor sit amet</spa
-
-n> , consectetur adipiscing elit, <span>
-
-sed do</span> eiusmod tempor incididunt
-
-ut labore et dolore magna aliqua. </p>
-
+  background: #FF8474;
+  border: 1px solid black;
 }
-
 .positioned {
-
-position: absolute;
-
-background: #9F5F80;
-
-CSS Positioning
-
-4
-
-
-
-
-
-bottom: 30px;
-
-left: 30px;
-
+  position: absolute;
+  background: #9F5F80;
+  bottom: 30px;
+  left: 30px;
 }
+```
 
-CSS Positioning
-
-5
-
+![image](https://user-images.githubusercontent.com/61539946/134207060-b5facdcc-11b3-478f-906f-bb01ff9522c1.png)
+![image](https://user-images.githubusercontent.com/61539946/134207096-eb68986d-3cd4-4577-b3d8-9a23511d65ac.png)
