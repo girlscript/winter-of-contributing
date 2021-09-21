@@ -1,4 +1,4 @@
-#GRAPH
+# GRAPH
 
 1. Graph is non-linear data structure, that stores data in the form of nodes and edges. Graphs are used to represent networks or relationship 
 2. Node: A finite set of vertices 
@@ -22,6 +22,6 @@
 >                                    }
 >                                }
 >                            }
->                             **Time Complexity: O(node+edge)**
->                             **Space Complexity: O(node)**
+5.**Time Complexity: O(node+edge)**\
+6.**Space Complexity: O(node)**
                          
