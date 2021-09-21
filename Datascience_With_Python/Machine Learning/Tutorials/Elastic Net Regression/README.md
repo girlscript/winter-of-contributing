@@ -26,7 +26,7 @@ In addition to setting and choosing a lambda value elastic net also allows us to
 
 In this section, we will see how to use the Elastic Net regression algorithm.
 
-Let’s introduce a standard regression dataset. We will use the housing dataset.
+**Let’s introduce a standard regression dataset. We will use the housing dataset.**
 
 We will use the housing dataset. The housing dataset is a standard machine learning dataset comprising 506 rows of data with 13 numerical input variables and a numerical target variable.
 
@@ -36,5 +36,5 @@ The dataset involves predicting the house price given details of the house’s s
 
 [Housing Dataset (housing.csv)](https://raw.githubusercontent.com/jbrownlee/Datasets/master/housing.csv)
 
-Visit the file for the code for example of [Elastic Net Regression](https://colab.research.google.com/drive/1ZaA9Of9Nf0CinU_EWtgRNtQat12I8Rg8?usp=sharing)
+# **Visit the file for the code for example of [Elastic Net Regression](https://colab.research.google.com/drive/1ZaA9Of9Nf0CinU_EWtgRNtQat12I8Rg8?usp=sharing)**
 
