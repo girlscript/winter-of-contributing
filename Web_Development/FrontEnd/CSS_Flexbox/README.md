@@ -1,14 +1,12 @@
 # CSS Flexbox
 
 ## What is  CSS Flexbox?
-The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities.
+The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model , that could offer differnent properties for a good and responsive webdeisgning.
 
-The main idea behind the flex layout is to give the container the ability to alter its items’ width/height (and order) to best fill the available space (mostly to accommodate to all kind of display devices and screen sizes). A flex container expands items to fill available free space or shrinks them to prevent overflow.
+Flexbox is a useful and powerfull property in CSS. This gives us a flexibilty to design our containers accroding to our need easily. 
 
 ## Basic Layout and terminology of Flex Box
-Since flexbox is a whole module and not a single property, it involves a lot of things including its whole set of properties. Some of them are meant to be set on the container (parent element, known as “flex container”) whereas the others are meant to be set on the children (said “flex items”).
-
-If “regular” layout is based on both block and inline flow directions, the flex layout is based on “flex-flow directions”. Please have a look at this figure from the specification, explaining the main idea behind the flex layout.
+Flexbox is a whole module with set of prperties. By using those properties we can design our container(parent) and items(child) of the container(parent). Please look into that given picture to visulize the basic layout of Flexbox.
 
 ![](./assets/flex_box.png)
 
