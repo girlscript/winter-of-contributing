@@ -1,9 +1,10 @@
 ## Problem Statement
-Given an array of N elements and you have to answer Q queries of the form L R K , To Count the numbers 
-smaller than K in range L to R.
+Explanation of Merge Sort Tree and its Implementation.
 
 
 ## Example
+Given an array of N elements and you have to answer Q queries of the form L R K , To Count the numbers 
+smaller than K in range L to R.
 ```
 Input:-
 
