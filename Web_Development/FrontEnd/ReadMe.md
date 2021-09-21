@@ -16,7 +16,7 @@
 - HTML Text Formatting
 - HTML Style Attribute
 - HTML Links and Images
-- HTML Tables
+- [HTML Tables](./HTML_Tables)
 - HTML Lists
 - HTML Classes and IDs
 - HTML Forms
