@@ -63,7 +63,7 @@ Lets configure Visual Studio Code to run C/C++ programs on Mac OS
 ---
 ### Exception solved - Cannot edit in read-only editor
 
-Unable to write or give the input in the **VS Code terminal** for an input taking C++ programs.
+Unable to write or give the input in the **VS Code terminal** for an input taking C/C++ programs.
 
 -  Go to **File** in windows or **Code** in Mac.
 -  Select **Preferences**.
