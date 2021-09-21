@@ -282,8 +282,14 @@ plt.show()
 ```
 <img src="https://i.ibb.co/GsHL5xT/image.png" style="width:50%"><br><br>
 
-## ***View the complete [ipynb](Support_Vector_Machine.ipynb) file***
+## **<ins>Conclusion</ins>**
+This work demonstrates the modelling of breast cancer as classification task using Support Vector Machine
 
+The SVM performs better when the dataset is standardized so that all attributes have a mean value of zero and a standard deviation of one. We can calculate this from the entire training dataset and apply the same transform to the input attributes from the validation dataset.
+
+SVM is a supervised learning algorithm which separates the data into different classes through the use of a hyperplane. The chosen hyperplane is one with the greatest margin between the hyperplane and all points, this yields the greatest likelihood of accurate classification. It’s a very versatile, memory efficient algorithm, however it’s prone to overfitting, can be computationally expensive depending on the size of the data and fails to provide a probabilistic explanation of the results.
+
+## **View the complete [ipynb](support_vector_machines.ipynb) file**
 
 ### ***Contribution by : Abhinav Mathur***
 
