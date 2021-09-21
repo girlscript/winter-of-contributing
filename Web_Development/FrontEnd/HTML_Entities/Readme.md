@@ -1,4 +1,4 @@
-# HTML Entities #1191
+# HTML Entities
 There are some characters that are used in and reserved by HTML code. (For example, the left and right angled brackets.)
 <br>
 
