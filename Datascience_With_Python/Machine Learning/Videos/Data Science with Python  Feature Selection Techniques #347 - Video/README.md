@@ -1,7 +1,7 @@
 ## TOPIC: Data Science with Python : Feature Selection Techniques #347
 
 **VIDEO LINK :**
-![Feature Selection Techniques](https://drive.google.com/file/d/16fDMa39he98Gla7NNlBbN_l0vXFuZwvT/view)
+[Feature Selection Techniques](https://drive.google.com/file/d/16fDMa39he98Gla7NNlBbN_l0vXFuZwvT/view)
 
 **Feature selection** is the process of reducing the number of input variables when developing a predictive model.
 
