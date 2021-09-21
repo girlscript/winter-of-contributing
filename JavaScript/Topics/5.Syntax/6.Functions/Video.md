@@ -4,7 +4,6 @@
 
 <iframe  width="560"  height="315"  src="https://www.youtube.com/embed/LAl0vdiPVZQ"  title="YouTube video player"  frameborder="0"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
 
-**Created by :** [Sarfraz Alam](https://github.com/Sarfraz-droid)
 
 ## Transcript
 
@@ -118,3 +117,6 @@ function subtract(num1, num2) {
    without having to do all the trouble.
  - If you want to change something, you can just edit the function and
    its done. Function also makes your code small and concise
+   
+   **Created by :** [Sarfraz Alam](https://github.com/Sarfraz-droid)
+
