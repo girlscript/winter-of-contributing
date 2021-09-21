@@ -34,6 +34,6 @@ While the first version of java was nothing short of revolutionary, it still man
 | Java SE 14 | 2020 | This update gave a stable functionality to Switch Expression which was in preview. It also added new preview features such as records and a second preview of Text Blocks.|
 | Java SE 15 | 2020 | It added support for Text Blocks and ZGC. Preview features such as Sealed classes, Hidden classes and pattern matching for ```instanceof```.  |
 | Java SE 16 | 2021 | JDK 16 removes Ahead-of-Time compilation and Graal JIT options. Complete support for record (which was a preview in earlier versions) was added along with pattern matching for ```instanceof```. |
-| Java SE 17 (LTS) | 2021 | JDK 17 is the current long term support (LTS). It provides support for Sealed classes and adds Pattern matching fow switch (Preview).|
+| Java SE 17 (LTS) | 2021 | JDK 17 is the current long term support (LTS). It provides support for Sealed classes and adds Pattern matching for switch (Preview).|
 
 
