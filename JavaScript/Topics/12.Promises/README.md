@@ -70,8 +70,8 @@ Example:
 
 ```js
 var promise = new Promise(function(resolve, reject) {
-const x = "geeksforgeeks";
-const y = "geeksforgeeks"
+const x = "javascript";
+const y = "javascript"
 if(x === y) {
 	resolve();
 } else {
@@ -109,7 +109,7 @@ Syntax:
 Example: Promise Resolved
 ```js
 var promise = new Promise(function(resolve, reject) {
-	resolve('Geeks For Geeks');
+	resolve('Javascript');
 })
 
 promise
