@@ -1,0 +1,9 @@
+To traverse the 2d matrix in spiral order, we will have to do the following 4 steps. Lets first consider R be the number of rows, and C be the number of columns of 2d array. r = 1, c = 1;
+
+1.   Traverse the rth row and increment r.
+2.   Traverse the Cth column and decrement C.
+3.   Traverse the Rth row and decrement R.
+4.   Traverse the cth column and increment c.
+
+There are few edge cases that we will have to take care of. Refer code for further details.
+
