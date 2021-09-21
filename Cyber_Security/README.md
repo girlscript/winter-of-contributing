@@ -17,6 +17,8 @@
   - [x] [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/ITAct2000.md)
 - [x] [Limitations of Indian IT Act, 2000](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Limitations%20of%20IT%20Act%2C%202000.md)
 - [x] Types of Hackers
+  - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7%20Types_of_Hackers.md)
+  - Documentation
   - [White hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#white-hat-hackers)
   - [Black hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#black-hat-hackers)
   - [Grey hat hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#grey-hat-hackers)
@@ -28,19 +30,19 @@
 
 - [x] [What is virtualization](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9%20What%20is%20Virtualization%20and%20the%20need%20for%20Virtualization.md)
 - [ ] Types of virtualization
-  - Network Virtuliazation
-  - Virtual Desktop Infrastructure (VDI)
+  - [Network Virtuliazation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.1_Types%20of%20Virtualization%20-%20What%20is%20Network%20Virtualization%20.md)
+  - [Virtual Desktop Infrastructure (VDI)](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.2_Types%20of%20Virtualization-What%20is%20Virtual%20Desktop%20Infrastructure(VDI)%20.md)
   - Application virtualization
-- [ ] Setup VirtualBox and Virtual Machine in Windows
+- [ ] [Setup VirtualBox and Virtual Machine in Windows](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Setup%20VirtualBox%20and%20Virtual%20Machine%20on%20Windows.md)
 - [ ] Setup VirtualBox and Virtual Machine in Mac
 - [ ] Familiar to Linux Terminal
-- [ ] Linux File System
+- [x] [Linux File System](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.9.1%20FileSystemInLinux.md)
 - [ ] Linux File System Directories
 ## Week-2 (Networking)
-- [ ] IP address
+- [x] [IP address](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.1_IP_Addresses.md)
     - ipv4
     - ipv6
-- [ ] MAC address
+- [x] [MAC address](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.2_Mac_Address.md)
 - [ ] IP v/s MAC
 - [ ] TCP
 - [ ] UDP
@@ -49,4 +51,4 @@
 - [x] [OSI model](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.8_OSI_model.md)
 - [ ] Switches
 - [ ] Router
-- [ ] HUB
+- [x] [HUB](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.2_HUBs.md)
