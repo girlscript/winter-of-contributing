@@ -15,11 +15,8 @@ Wait.. lets break it into different parts first
 
 ```javascript
 function myFunction(p1, p2) {
-
-return p1 * p2; // The function returns the product of p1 and p2
-
+    return p1 * p2; // The function returns the product of p1 and p2
 }
-```
 
 But before learning functions, lets learn about **scope**.
 
