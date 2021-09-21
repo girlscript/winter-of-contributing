@@ -1,4 +1,4 @@
-# Scheduling
+# Scheduling in JavaScript
 
 There are primarily two ways of scheduling a task in JavaScript - ```setTimeout()``` and ```setInterval()```.
 <br>
