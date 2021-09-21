@@ -81,5 +81,3 @@ Difference Between Class and ID
 
 
 ```
-
-The table will be seen something this:
