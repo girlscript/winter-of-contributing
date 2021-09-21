@@ -10,3 +10,5 @@
    - **1.8. A\B Testing**
    - **1.9. Hypothesis Testing**
    - **1.10. P-Value**
+   - **1.11. Skewness**
+   - **1.12. Confusion Matrix**
