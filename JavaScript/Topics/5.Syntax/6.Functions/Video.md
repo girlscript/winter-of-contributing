@@ -28,16 +28,11 @@ The scope is basically the availability of your code.
 Let’s see by an example
 
 ``` javascript
-
 if (true) {
-
-const a = 2;
-
+    const a = 2;
 }
 
 console.log(a); //ReferenceError
-
-```
 
 This time javascript throws an error. Why is it so?
 
