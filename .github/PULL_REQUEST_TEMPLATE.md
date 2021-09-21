@@ -20,14 +20,34 @@ Fixes # <issue_number_here>
 
 ## Domain of Contribution 📊
 
-<!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
+<!----Please delete the hashtag from your domain----->
 
 - [ ] Android Dev #(Flutter)
 - [ ] Android Dev #(Java)
-- [ ] Android Dev (Kotlin)
+- [ ] Android Dev #(Kotlin)
 - [ ] Backend Dev #(Java)
-- [ ] Backend Dev (.NET)
+- [ ] Backend Dev #(.NET)
 - [ ] Backend Dev #(PHP)
+- [ ] C/#CPP
+- [ ] Competitive #Programming
+- [ ] Cyber #Security
+- [ ] DS#A
+- [ ] Data#base
+- [ ] Datascience with #Python
+- [ ] Datascience with #R
+- [ ] Frontend Dev #HTML/CSS/JS
+- [ ] Frontend Dev #React/Angular/Vue
+- [ ] Go#lang
+- [ ] Interview #Prep
+- [ ] Java_#Domain
+- [ ] Java#Script
+- [ ] ME#RN
+- [ ] Machine #Learning
+- [ ] Open #Source
+- [ ] Python_#Domain
+- [ ] Ru#st
+- [ ] Statis#tics
+- [ ] UI/#UX
 
 <hr>
 
