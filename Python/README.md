@@ -23,5 +23,5 @@
 5. Use cases of Python
 6. Virtual Environment
 7. Operators
-8. Loop Break
+8. Loops Break
 
