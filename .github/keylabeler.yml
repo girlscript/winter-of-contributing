@@ -12,8 +12,13 @@ labelMappings:
   Audio : Audio
   Video : Video
   Documentation : Documentation
-  Android Dev : Android Dev
-  Backend Dev :  Backend Dev
+  Android Dev (Flutter): Android-Dev-Java
+  Android Dev (Kotlin): Android-Dev-Kotlin
+  Android Dev (Java): Android-Dev-Java
+  Backend Dev (Java):  Backend-Dev-Java
+  Backend Dev (.NET):  .NET
+  Backend Dev (PHP):  Backend-Dev-PHP
+  Backend Dev (Python): Backend-Dev-Python
   C/CPP : C/CPP
   Competitive Programming : Competitive Programming
   Cyber Security : Cyber Security
