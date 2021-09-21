@@ -31,7 +31,6 @@ pseudo-classes.
 }
 ```
 
-
 ## Button Colors
 
 The property that is used for setting colors is `background-color` of the button element. Use colors that compliment each other. [Colorhexa](https://www.colorhexa.com/) is a 
