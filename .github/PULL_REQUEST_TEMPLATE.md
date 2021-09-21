@@ -22,8 +22,13 @@ Fixes # <issue_number_here>
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 
-- [ ] Android Dev (Flutter, Java, Kotlin)
-- [ ] Backend Dev (Java, .NET, Python)
+- [ ] Android Dev (Flutter)
+- [ ] Android Dev (Java)
+- [ ] Android Dev (Kotlin)
+- [ ] Backend Dev (Java)
+- [ ] Backend Dev (.NET)
+- [ ] Backend Dev (PHP)
+- [ ] Backend Dev (Python)
 - [ ] C/CPP
 - [ ] Competitive Programming
 - [ ] Cyber Security
