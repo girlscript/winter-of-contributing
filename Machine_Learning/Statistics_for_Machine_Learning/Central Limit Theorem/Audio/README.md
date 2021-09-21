@@ -1,4 +1,4 @@
-![Central Limit Theorem](https://drive.google.com/file/d/1_WdXeT39NEHnCiIDnWChQK2ysZ-IUKsp/view?usp=sharing)
+![Central Limit Theorem](https://drive.google.com/uc?export=view&id=<file/d/1_WdXeT39NEHnCiIDnWChQK2ysZ-IUKsp>)
 
 Topic: Central Limit Theorem
 
