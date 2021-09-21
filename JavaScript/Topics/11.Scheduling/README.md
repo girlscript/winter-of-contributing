@@ -10,6 +10,12 @@ Both ```setTimeout()``` and ```setInterval()``` are built-in methods of the glob
   The ```setTimeout``` function is a native JavaScript function. It sets a timer (a countdown set in milliseconds) for an execution of a callback function, calling the function upon completion of the timer.
 
   The ```setTimeout()``` method accepts two arguments: a callback function and a delay in milliseconds, and calls the function once.
+  
+Syntax:
+```js
+myVar = setTimeout(function, milliseconds);
+clearTimeout(myVar);
+```
 
   In your js file, implement a ```setTimeout()``` method and pass in an anonymous function as the first argument, and a number in milliseconds as the second argument:
   
@@ -29,6 +35,12 @@ function alertFunc() {
   Similar to ```setTimeout()```, the ```setInterval()``` method accepts two arguments: a callback function and a delay in milliseconds. The method also accepts additional arguments to pass into the callback function.
   
   The difference is that the ```setInterval()``` method invokes the callback function regularly with a specified delay between calls.
+  
+Syntax:
+```js
+let myVar = setInterval(function, milliseconds);
+clearInterval(myVar);
+```
 
 ```js
 var myVar;
