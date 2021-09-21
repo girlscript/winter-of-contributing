@@ -23,7 +23,7 @@
   ```<strong>The Text is <sub>Subscript</sub></strong>```<br>Result: <strong>The Text is <sub>Subscript</sub></strong>
   <br><br>
   6.For Superscript text:<br>
-  ```<strong>The Text is <sup>Subscript</sup></strong>```<br>Result: <strong>The Text is <sup>Subscript</sup></strong>
+  ```<strong>The Text is <sup>Superscript</sup></strong>```<br>Result: <strong>The Text is <sup>Superscript</sup></strong>
   <br><br>
   ## Header tags:
   1. ```<h1>```tags: <h1>Heading 1</h1>
