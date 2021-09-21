@@ -30,6 +30,7 @@
         - [Storing the DSU explicitly in a set list / Applications of this idea when merging various data structures](#storing-the-dsu-explicitly-in-a-set-list)
         - [Storing the DSU by maintaining a clear tree structure / Online bridge finding in O(α(n)) on average](#storing-the-dsu-by-maintaining-a-clear-tree-structure)
     3. [Historical retrospective](#historical-retrospective)
+    4. [Problems for Disjoint Set Union](#problems)
 
 <hr>
 
@@ -477,3 +478,18 @@ Finally in 1989 Fredman and Sachs proved that in the adopted model of computatio
 However it should also be noted, that there are several articles disputing this provisional valuation and asserting that the DSU with path compression and Union by rank runs in O(1) time on average (Zhang "The Union-Find Problem Is Linear", Wu, Otoo "A Simpler Proof of the Average Case Complexity of Union-Find with Path Compression").
                   
 </details>
+<br><br>
+              
+## Problems
+
+* [TIMUS - Anansi's Cobweb](http://acm.timus.ru/problem.aspx?space=1&num=1671)
+* [Codeforces - Roads not only in Berland](http://codeforces.com/contest/25/problem/D)
+* [TIMUS - Parity](http://acm.timus.ru/problem.aspx?space=1&num=1003)
+* [SPOJ - Strange Food Chain](http://www.spoj.com/problems/CHAIN/)
+* [SPOJ - COLORFUL ARRAY](https://www.spoj.com/problems/CLFLARR/)
+* [SPOJ - Consecutive Letters](https://www.spoj.com/problems/CONSEC/)
+* [Toph - Unbelievable Array](https://toph.co/p/unbelievable-array)
+* [HackerEarth - Lexicographically minimal string](https://www.hackerearth.com/practice/data-structures/disjoint-data-strutures/basics-of-disjoint-data-structures/practice-problems/algorithm/lexicographically-minimal-string-6edc1406/description/)
+* [HackerEarth - Fight in Ninja World](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/practice-problems/algorithm/containers-of-choclates-1/)
+
+
