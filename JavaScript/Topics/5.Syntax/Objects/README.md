@@ -26,22 +26,121 @@ Its the easiest way to create a JavaScript Object. Using an object literal, we b
 
 An object literal is a list of key:value pairs (like marks: 34) inside curly braces {}.
 
-Example
+__Example:__
 ```js
 const student = {name: "Rahul", rollNo: 10, marks: 57, age: 18}; // using Object Literal
 ```
 
-### Using the new keyword 
+### Using New Operator or Constructor
 ---
-We can also create an object using the new keyword present in JavaScript.
+The second way to create an object is to use the constructor function. If we call a function using a new operator, the function acts as a constructor and returns an object. Consider the following code:
 
-Example
+__Example:__
 ```js
-const student = new Object(); // using the new keyword
-student.name = "Rahul";
-student.rollNo = 10; 
-student.marks = 57;
-student.age = 18; 
+function Car(model, color) {
+    this.model = model;
+    this.color = color;
+}
+
+var c1 = new Car('BMW', 'red');
+console.log(c1.model);
+```
+This method of creating an object is also called the Constructor Invocation Pattern. There are two steps to work with the constructor function:
+
+- Create a function, which will define the object type.
+- Create an instance of an object using a new operator.
+
+To create a Student object, first, create a function as shown below. In this example, this represents the object being created, so name and age will be properties of the newly created object.
+
+```js
+function Student(name, age) {
+    this.name = name;
+    this.age = age;
+}
+```
+Next, create instances of the Student object type as shown below:
+```js
+var s1 = new Student('foo', 7);
+console.log(s1.name);
+var s2 = new Student('koo', 9);
+console.log(s2.name);
+```
+We can use the instanceof operator to find types of the instance and determine whether s1 is an instance of the Student object, as shown below:
+```js
+var s1 = new Student('foo', 9);
+console.log(s1 instanceof Student);
+```
+We can also use Object.defineProperty to create properties in the constructor function, as shown below:
+```js
+function Car(model) {
+    Object.defineProperty(this, "model", {
+        writable: true,
+        enumerable: true,
+        configurable: false,
+        value: model
+    });
+}
+
+var myCar = new Car("Audi A3");
+console.log(myCar.model);    // Audi  A3
+```
+
+*Note: The main advantage of using Object.defineProperty is that you can set values for object property descriptors.*
+
+### Object.create() Method
+---
+We can also create new objects using the Object.create() method, which allows you to specify the prototype object and the properties.
+
+__Example:__
+```js
+var Car = {
+    model: 'BMW',
+    color: 'red'
+}
+```
+
+We can use the Car object as a prototype to create another object, as shown below:
+```js
+var ElectricCar = Object.create(Car);
+console.log(ElectricCar.model); // BMW
+```
+
+In this example, you have created an object called ElectricCar using the Car  object as a prototype, so the ElectricCar object will have all the properties of the Car object. We can also add properties as shown below:
+```js
+var ElectricCar = Object.create(Car, {
+    type: {
+        value: 'Electric',
+        writable: true,
+        configurable: false,
+        enumerable: true
+    }
+});
+console.log(ElectricCar.type); // Electric
+```
+Properties should be passed as objects and can be set using the property descriptor. We can also use the Object.create method to create inheritance between objects.
+
+### Using Class
+---
+ECMAScript 6 introduced the class keyword to create classes in JavaScript. Now we can use the class attribute to create a class in JavaScript instead of a function constructor, and use the new operator to create an instance. Consider the following code:
+```js
+class Car {
+
+    constructor(maker, price) {
+        this.maker = maker;
+        this.price = price;
+    }
+
+    getInfo() {
+        console.log(this.maker + " costs : " + this.price);
+    }
+}
+```
+We can use the Car class to create objects as shown below:
+```js
+var car1 = new Car("BMW", 100);
+car1.getInfo();
+var car2 = new Car("Audi", 150);
+car2.getInfo();
 ```
 
 # Keys and Values
