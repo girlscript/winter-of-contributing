@@ -7,13 +7,10 @@ For example, a ```<p>``` tag indicates that the enclosed text is a paragraph. Th
 Examples of non-semantic elements: ```<div>``` and ```<span>``` - Tells nothing about its content.
 
 Examples of semantic elements: ```<form>```, ```<table>```, and ```<article>``` - Clearly defines its content.
-## Topics
 
 ## Why use Semantic HTML?
 
 The benefit of writing semantic HTML stems from what should be the driving goal of any web page: the desire to communicate. By adding semantic tags to your document, you provide additional information about that document, which aids in communication. Specifically, semantic tags make it clear to the browser what the meaning of a page and its content is. That clarity is also communicated with search engines, ensuring that the right pages are delivered for the right queries.
-
-Semantic HTML tags provide information about the contents of those tags that goes beyond just how they look on a page. Text that is enclosed in the ```<code>``` tag is immediately recognized by the browser as some type of coding language. Instead of trying to render that code, the browser understands that you are using that text as an example of the code for the purposes of an article or online tutorial.
 
 Some of the benefits from writing semantic markup are as follows:
 - Search engines will consider its contents as important keywords to influence the page's search rankings 
@@ -24,7 +21,7 @@ Some of the benefits from writing semantic markup are as follows:
 
 ## Semantic Elements in HTML
 
-Many web sites contain HTML code like: <div id="nav"> <div class="header"> <div id="footer"> to indicate navigation, header, and footer.
+Many web sites contain HTML code like: ```<div id="nav"> <div class="header"> <div id="footer">``` to indicate navigation, header, and footer.
 
 In HTML there are some semantic elements that can be used to define different parts of a web page:  
 - ```<article>```
