@@ -208,3 +208,9 @@ An element with fixed postion is positioned relative to the viewport, which mean
 }
 ```
 ![image](https://user-images.githubusercontent.com/61539946/134213339-8078c6d2-fea9-4f8a-b1de-77d38fb40a1b.png)
+
+
+## References
+https://www.w3schools.com/css/css_positioning.asp
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/position
