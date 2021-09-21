@@ -39,7 +39,7 @@
 - [x] [Linux File System](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.9.1%20FileSystemInLinux.md)
 - [ ] Linux File System Directories
 ## Week-2 (Networking)
-- [ ] IP address
+- [x] [IP address](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.1_IP_Addresses.md)
     - ipv4
     - ipv6
 - [x] [MAC address](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.2_Mac_Address.md)
