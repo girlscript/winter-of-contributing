@@ -55,11 +55,11 @@ Use creation hooks if you need to set things up in your component, both during c
 * _beforeCreate_
 * _created_
 
-`beforeCreate`
+### `beforeCreate`
 
 This is the very first lifecycle hook that gets called Vue JS, it gets called immediately after the Vue instance has been initialized. At this stage data has not been made reactive, and events have not been set up yet:
 
-```javascript
+```HTML
 <script>
     export default {
         beforeCreate() {
@@ -71,3 +71,201 @@ This is the very first lifecycle hook that gets called Vue JS, it gets called im
 In this example, when the `beforeCreate` hook is run, this snippet will log the message: `At this point, events and lifecycle have been initialized..`
 
 Using the `beforeCreate` hook is useful when you need some sort of logic/API call that does not need to be assigned to data. Because if we were to assign something to data now, it would be lost once the state was initialized.
+
+### `created`
+
+This is the second lifecycle hook that is called after the beforeCreate hook. At this stage, the Vue instance has been initialized and has activated the start of things like computed properties, watchers, events, data properties and manipulations that come with it.
+
+```javascript
+export default {
+   data() { 
+     return { 
+       val: 'hello'    
+     }
+   },
+   created() {     
+     console.log('Value of val is: ' + this.val)   
+   }
+}
+```
+The output of this would be `Value of val is: hello` because we have initialized our data.
+
+Using the created method is useful when dealing with reading/writing the reactive data. For example, if you want to make an API call and then store that value, this is the place to do it.
+
+## 2. Mounting Hooks (DOM insertion)
+
+Mounting hooks are often the most used hooks. They allow you to access your component immediately before and after the first render. They do not, however, run during server-side rendering.
+
+**When to use mounting hooks?**
+
+Mounting hooks are often the most used hooks. They allow you to access your component immediately before and after the first render. They do not, however, run during server-side rendering.
+
+Mounting hooks are often the most used hooks. They allow you to access your component immediately before and after the first render. They do not, however, run during server-side rendering.
+
+**Mounting hooks are :-**
+
+* _beforeMount_
+* _mounted_
+
+### `beforeMount`
+
+The `beforeMount` hook runs right before the initial render happens and after the template or render functions have been compiled but you still cannot manipulate the DOM yet, the element property is not still available. Here is where initializations that you do not want lying around in your component should go into:
+
+```javascript
+export default {
+   beforeMount() {
+     console.log(this.$el)
+   }
+ }
+```
+### `mounted`
+
+This is the next lifecycle hook to be called after the beforeMounted is called. It is called right after the instance has been mounted. Here the app component, or any other component in the project becomes functional and can now be used.
+
+```javascript
+<template>
+  <div ref="example-element">Example component.</div>
+</template>
+
+<script>
+export default {
+  mounted() {
+    console.log(`At this point, vm.$el has been created and el has been replaced.`);
+    console.log(this.$el.textContent) // Example component.
+  }
+}
+</script>
+```
+In this example, when the `mounted` hook is run, this snippet will log the message `At this point, vm.$el has been created and el has been replaced.`. In addition, a message of `Example content.` (`this.$el.textContent`) will be logged.
+
+## 3. Updating Hooks (Reactivity in the Vue js lifecycle)
+
+The updated lifecycle event is triggered whenever reactive data is modified, triggering a render update. They allow you to hook into the watch-compute-render cycle for your component.
+
+**When to use update hooks?**
+
+Use updating hooks if you need to know when your component re-renders, perhaps for debugging or profiling. Do not use updating hooks if you need to know when a reactive property on your component changes
+
+**Update hooks are :-**
+
+* _beforeUpdate_
+* _updated_
+
+### `beforeUpdate`
+
+The `beforeUpdate` hook runs after data changes on your component and the update cycle begins, right before the DOM is patched and re-rendered.  This is a good place to update the DOM manually before any changes happen. For example, you can remove event listeners.
+
+`beforeUpdate` could be useful for tracking the number of edits made to a component or even tracking the actions to create an “undo” feature.
+
+```javascript
+<template>
+    <div> {{hello}}
+    </div>
+</template>
+
+<script>
+ export default {
+  name: 'Test',
+  data() {
+   return {
+    books: 0,
+    hello: 'welcome to Vue JS'
+   }
+ },
+beforeUpdate(){
+ alert('beforeUpdate hook has been called');
+},
+mounted(){
+ this.$data.hello= 'lalalalallalalalalaalal';
+ }
+}
+</script>
+```
+This originally has a welcome note on the DOM but in the mounted stage (which is where the DOM can be manipulated), the data gets changed and so the alert for beforeUpdate appears just before it changes.
+
+### `updated`
+
+The `updated` hook runs after data changes on your component and the DOM re-renders. DOM related operations can be performed here, although it is not advisable to change state inside this hook as Vue already provides platforms specifically for that.
+
+```javascript
+<template>
+ <div> {{hello}}
+ </div>
+</template>
+<script>
+ export default {
+  name: 'Test',
+  data() {
+   return {
+    books: 0,
+    hello: 'welcome to Vue JS'
+   }
+  },
+beforeUpdate(){
+ alert('beforeUpdate hook has been called');
+},
+updated(){
+ alert('Updated hook has been called');
+},
+mounted(){
+ this.$data.hello= 'lalalalallalalalalaalal';
+ }
+}
+</script>
+```
+
+## 4. Destrution Hooks (Teardown)
+
+Destruction hooks allow you to perform actions when your component is destroyed, such as cleanup or analytics sending. They fire when your component is being torn down and removed from the DOM.
+
+**Destruction hooks are :-**
+
+* _beforeDestroy_
+* _destroyed_
+
+### `beforeDestroy`
+
+This Vue lifecycle hook is called just before a Vue instance is destroyed, the instance and all the functionalities are still intact and working here. This is the stage where you can do resource management, delete variables and clean up the component.
+
+```javascript
+<script>
+export default {
+  data() {
+    return {
+      exampleLeakyProperty: 'This represents a property that will leak memory if not cleaned up.'
+    }
+  },
+
+  beforeDestroy() {
+    console.log(`At this point, watchers, child components, and event listeners have not been teared down yet.`)
+    // Perform the teardown procedure for exampleLeakyProperty.
+    // (In this case, effectively nothing)
+    this.exampleLeakyProperty = null
+    delete this.exampleLeakyProperty
+  }
+}
+</script>
+```
+
+This snippet will first store `exampleLeakyProperty`. When the beforeDestroy hook is run, this snippet will log the message `At this point, watchers, child components, and event listeners have not been torn down yet`. and then `exampleLeakyProperty` is deleted.
+
+### `destroyed`
+
+This is the final stage of the Vue lifecycle where all the child Vue instances have been destroyed, things like event listeners and all directives have been unbound at this stage. It gets invoked after running destroy on the object.
+
+```javascript
+<script>
+export default {
+  destroyed() {
+    this.$destroy() 
+    console.log(this)
+  }
+}
+</script>
+```
+
+When you run the app and take a look at the console, you will see nothing.
+
+## Conclusion
+
+In this article, you have been introduced to the eight lifecycle hooks and what and when they are to be used. Now you can use the lifecycle hooks to add our custom logic at different stages of the lifecycle of your Vue instance controlling the flow from creation to destruction. To learn more about Vue refer to its [documentaion](https://vuejs.org/v2/guide/).
