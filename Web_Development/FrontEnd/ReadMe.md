@@ -22,7 +22,7 @@
 - HTML Forms
 - Semantic HTML
 - Form Validation
-- Conventions & Best Practices
+- [Conventions & Best Practices](HTML_Conventions_Practices/readme.md)
 - Accessibility
 - Search Engine Optimisation Basics
 
