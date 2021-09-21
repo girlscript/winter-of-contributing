@@ -88,13 +88,11 @@ Lets now look at different types of functions:
  - As the name suggests its anonymous and it doesn’t have a name to it.
 
 ```javascript
-	const show = function(){
-		console.log("Anonymouse Function");
-	}
+const show = function(){
+	console.log("Anonymouse Function");
+}
 	
-	show();
-	
-```
+show();
 
 **Named/Generator function**
 
