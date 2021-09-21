@@ -45,6 +45,9 @@ Example array : arr[]={6,7,3,4,5}
 ### Solution:
 To solve this problem we must find the position (k) of the lowest numeral in the array. This position (k) will tell us the number of anti-clockwise rotations required for the lowest numeral to take the first position in the sorted array. In our example 3 is the lowest numeral which occupies the position k = 2. So we would perform 2 anti-clockwise rotations.
 
+![problem](https://github.com/arjyo851/winter-of-contributing/blob/DSA-rotation/DSA/1.1%20Arrays/problem2.drawio.png)
+
+
 ### Implemetation(C++)
 
 ```c++
