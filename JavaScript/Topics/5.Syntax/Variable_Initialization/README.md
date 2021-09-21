@@ -26,7 +26,7 @@ Then we "output" the value inside an HTML paragraph with id="demo":
     <p id="demo"></p>
     <script>
     var carName = "Volvo";
-    document.getElementById("demo").innerHTML = carName;
+    document.getElementById("demo").textContent = carName;
     </script>
 
 *It's a good programming practice to declare all variables at the beginning of a script.*
