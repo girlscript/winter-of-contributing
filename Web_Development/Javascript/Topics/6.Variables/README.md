@@ -21,7 +21,6 @@ var name;
 //you can also assign values to the variables when you declare them:
 var x=5;
 var name="Ram";
-
 ```
 **Note :-** When you assign a text value to a variable, use quotes around the value. If you redeclare a
 JavaScript variable, it will not lose its value.
@@ -42,14 +41,14 @@ __Source Code:__
 
 ```html
 <html>
-<body>
-<script>  
-var x = 10;  
-var y = 20;  
-var z=x+y;  
-document.write("x+y = ",z);  
-</script>  
-</body>
+ <body>
+  <script>  
+    var x = 10;  
+    var y = 20;  
+    var z=x+y;  
+    document.write("x+y = ",z);  
+  </script>  
+ </body>
 </html>
 ```
 ## Output of the above example
@@ -65,15 +64,15 @@ A JavaScript local variable is declared inside block or function. It is accessib
 
 __Source Code:__
 ```html
-    <html>
-    <body>
-    <script>  
-    function abc(){  
-      var x=10;//local variable  
-    }  
-    </script>  
+   <html>
+     <body>
+      <script>  
+        function abc(){  
+          var x=10;//local variable  
+        }  
+     </script>  
     </body>
-    </html>
+   </html>
 ```
 ## JavaScript global variable
 
@@ -83,22 +82,20 @@ __Source Code:__
 
 ```html
 <html>
-<body>
-<script>  
-var data=200;//gloabal variable  
-function a(){  
-  document.writeln(data);  
-}  
-function b(){  
-  document.writeln(data);  
-}  
-a();//calling JavaScript function
-b();
-  
-</script>  
-</body>
+ <body>
+   <script>  
+     var data=200;//gloabal variable  
+     function a(){  
+        document.writeln(data);  
+     }  
+     function b(){  
+        document.writeln(data);  
+     }  
+     a();//calling JavaScript function
+     b(); 
+   </script>  
+ </body>
 </html>
-
 ```
 ## Output of the above example
 ```
@@ -117,18 +114,18 @@ Now it can be declared inside any function and can be accessed from any function
 __Source Code:__
 ```html
 <html>
-<body>
-<script>
-function m(){  
-  window.value=100;//declaring global variable by window object  
-}  
-function n(){  
-  alert(window.value);//accessing global variable from other function  
-}  
-m();
-n();
-</script>
-</body>
+ <body>
+  <script>
+    function m(){  
+      window.value=100;//declaring global variable by window object  
+    }  
+    function n(){  
+      alert(window.value);//accessing global variable from other function  
+    }  
+    m();
+    n();
+  </script>
+ </body>
 </html>
 ```
 
