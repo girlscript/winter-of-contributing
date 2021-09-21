@@ -43,7 +43,21 @@ JSON data is written as name/value pairs (aka key/value pairs). A name/value pai
 Example:
 
 ```JSON
-"name":"Rahul"
+{
+    "firstName": "Rahul",
+    "lastName": "Roy",
+    "gender": "male",
+    "age": 24,
+    "address": {
+        "streetAddress": "MG road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "postalCode": "95221"
+    },
+    "phoneNumbers": [
+        { "type": "home", "number": "27627" }
+    ]
+}
 ```
 
 ### JSON - Evaluates to JavaScript Objects
@@ -55,7 +69,21 @@ Example:
 #### JSON
 
 ```JSON
-"name": "Rahul"
+{
+    "firstName": "Rahul",
+    "lastName": "Roy",
+    "gender": "male",
+    "age": 24,
+    "address": {
+        "streetAddress": "MG road",
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "postalCode": "95221"
+    },
+    "phoneNumbers": [
+        { "type": "home", "number": "27627" }
+    ]
+}
 ```
 
 In JavaScript, keys can be strings, numbers, or identifier names.
@@ -65,7 +93,21 @@ Example:
 #### Javascript
 
 ```js
-name: "Rahul"
+const person = {
+    firstName: "Rahul",
+    lastName: "Roy",
+    gender: "male",
+    age: 24,
+    address: {
+        streetAddress: "MG road",
+        city: "Kolkata",
+        state: "West Bengal",
+        postalCode: 95221
+    },
+    phoneNumbers: [
+        { type: "home", number: 27627 }
+    ]
+};
 ```
 
 *Note: JSON names require double quotes.*
