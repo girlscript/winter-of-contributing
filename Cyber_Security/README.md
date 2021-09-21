@@ -50,5 +50,5 @@
 - [ ] Ports and Protocols
 - [x] [OSI model](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.8_OSI_model.md)
 - [ ] Switches
-- [ ] Router
+- [x] [Router](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Router.md)
 - [x] [HUB](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.2_HUBs.md)
