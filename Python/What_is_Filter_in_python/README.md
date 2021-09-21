@@ -1,6 +1,6 @@
 # Python: Advanced functions-Filter #571
 # What is Filter in python?
-- **Filter** is an inbuilt function in Python.
+- **Filter** is an inbuilt function in python.
 - Filter function iterates through **sequence** and apply **fuction** to each element in given sequence. If function returns true it will print result as per in given function. In short it will check either true or false for each and every element in sequence and returns result accordingly.
 
 # Detail Documentation
