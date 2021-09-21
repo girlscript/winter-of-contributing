@@ -17,9 +17,9 @@
 - [Operators](./Operators)
 - [List_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
-- [What_Is_Interpreter](./What_Is_Interpreter)
+- [Stack_and_Queue](./Stack_and_Queue)
+- - [What_Is_Interpreter](./What_Is_Interpreter)
 
-=======
 
 ## Learning path
 1. Git & GitHub
@@ -32,4 +32,7 @@
 8. Operators
 9. List_&_Matrix
 10. Objects in Python
-11. What_Is_Interpreter
+11. Stack and Queue
+12. 11. What_Is_Interpreter
+
+
