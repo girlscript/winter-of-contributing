@@ -1,4 +1,4 @@
-# HTML TABLES _ #869
+# HTML TABLES
 Tables are used to show the tabular data. To achieve this many tags are used. All the table- data is enclosed within the ```<table>``` tags.
 <br>
 
