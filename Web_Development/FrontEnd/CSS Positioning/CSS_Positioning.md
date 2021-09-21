@@ -29,7 +29,7 @@ The position CSS property sets how an element is positioned in a document.
 
 3. A DIV always comes first:-
 
-    So, what I mean to say is that when your code is covered by a div then first that div comes and then the content inside it for example:-
+    It mean to say is that when your code is covered by a div then first that div comes and then the content inside it for example:-
 
 ```html
 <div class = 'a'>
@@ -170,3 +170,41 @@ span {
 
 ![image](https://user-images.githubusercontent.com/61539946/134207060-b5facdcc-11b3-478f-906f-bb01ff9522c1.png)
 ![image](https://user-images.githubusercontent.com/61539946/134207096-eb68986d-3cd4-4577-b3d8-9a23511d65ac.png)
+
+### Fixed Positioning
+An element with fixed postion is positioned relative to the viewport, which means it always stays in the same place even after the page is scrolled.
+```html
+<div class="outer">
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue tortor eget pulvinar lobortis.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue tortor eget pulvinar lobortis.
+  </p>
+  <div class="box" id="one">BOX</div>
+</div>
+```
+```css
+* {
+  box-sizing: border-box;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: #DDDDDD;
+}
+#one {
+  position: fixed;
+  top: 80px;
+  left: 10px;
+  background: #3C8DAD;
+}
+.outer {
+  width: 500px;
+  height: 300px;
+  overflow: scroll;
+  padding-left: 150px;
+}
+```
+![image](https://user-images.githubusercontent.com/61539946/134213339-8078c6d2-fea9-4f8a-b1de-77d38fb40a1b.png)
