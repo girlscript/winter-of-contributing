@@ -46,7 +46,8 @@ Data Structures are the main part of many computer science algorithms as they en
 
 ## Contribution Guidelines :gear:
 Please refer to the **[DSA Contribution Guidelines](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/CONTRIBUTING.md)** within the same folder for all the submission guidelines. It contains the documentation process to assist you. Please go through it before creating issues/PRs.
-
+  
+  **Important Note: Kindly create issues/PRs only according to the Week Agenda present above. Your issues/PRs will be closed if you take up any topic outside the specific week's mentioned topic. Example: For Week 1, the week agenda includes Array and Analysis of Algorithms so you may create issues/PRs pertaining to only these topics.**
 Reference to get started:
 - [GeeksForGeeks](https://www.geeksforgeeks.org/)
 - [Hackerearth](https://www.hackerearth.com/practice/)
