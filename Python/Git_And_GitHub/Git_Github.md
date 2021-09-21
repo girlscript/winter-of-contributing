@@ -1,4 +1,4 @@
-# LEARNING VERSION CONTROL AND CONTRIBUTING ON GITHUB 
+# **LEARNING VERSION CONTROL AND CONTRIBUTING ON GITHUB**
 
 **Hello Learners**,
 
@@ -6,6 +6,8 @@
 
 * This is most Important thing you need to know if you work on Projects and are under tech domain.
 ## Git 
+
+![Image](https://appuals.com/wp-content/uploads/2020/06/intro.jpg)
 * Git is the Version control system and is most widely used among all developers.Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
    Now,
@@ -25,13 +27,13 @@ Copy paste this in your terminal.
 
   git clone https://github.com/git/git
 
-   ![Image](gitignore/../.gitignore/p1.jpeg)	
+   ![Image](https://zarkom.net/tutorials/images/git-win/git-win-060.png)	
 
 * **Git**  tracks your activity in your Project directory in which you have initialized git and take snapshots and remembers everything that you do and helps you get your Project efficiency better.
 
 
 * This is how your git bash terminal looks in your Windows Operating system.
-![Image](gitignore/../.gitignore/P2.png)	
+![Image](https://initialcommit.com/img/initialcommit/how-to-paste-in-git-bash.png)	
 
 * ONE THING TO KEEP IN MIND IS THAT -
 
@@ -123,10 +125,10 @@ making commits , creates version/snapshots of your project.
 
       Removes the file from the directory and this function is unstaged.
 
-The blow Pictorial representation will let you know more about the Procedure before commit your chenges . **Git handles everything.**
+The blow Pictorial representation will let you know more about the Procedure before commit your changes . **Git handles everything.**
 
 
-![Image](gitignore/../.gitignore/p3.png)
+![Image](https://miro.medium.com/max/1204/1*zpvd5fjZAFGsVAEsvMGKxA.png)
 
 * **Important** - 
   
@@ -201,7 +203,7 @@ alias- short name    (to remember)
 
 # GITHUB 
 
-   ![Image](gitignore/../.gitignore/P4.jpeg)
+   ![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ820ETIz-RdCjY6vN7Xot355BX4T4hrmx96A&usqp=CAU)
 
    **GitHub** ,
    
@@ -308,7 +310,7 @@ then you will be able to see the file you downloaded in your local system.
 Git pull can directly pull the code from the remote directory to you working directory while git fetch fetches the code from the remote directory to the local repository and the we have to use git merge in order to get the code to the working directory.
 
 
-   ![Image](gitignore/../.gitignore/p6.png)
+   ![Image](https://cdn.educba.com/academy/wp-content/uploads/2019/10/Github-Fetch-vs-Github-Pull.jpg)
 
 
 in short---- 
@@ -325,7 +327,7 @@ in short----
 
 upstream is that repository from where you are syncing or taking the data.
 
-![Image](gitignore/../.gitignore/p5.png)
+![Image](https://github-images.s3.amazonaws.com/help/bootcamp/Bootcamp-Fork.png)
 
 
 ### miscellaneous git tools----->

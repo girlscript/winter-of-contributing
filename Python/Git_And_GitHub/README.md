@@ -1,7 +1,7 @@
 # Learning Git- Contributing in Github
 #47
 
-Welcome to readme.md ,
+Welcome to readme File,
 
 ## In this folder 
 
