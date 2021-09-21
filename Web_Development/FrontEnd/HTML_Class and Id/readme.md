@@ -1,22 +1,25 @@
-
-
 # HTML Classes and Ids #1277
-***
-The only difference between Classes and Ids  is that “id” is unique in a page and can only apply to at most one element, while “class” selector can apply to multiple elements. 
-***
 
-**CLASS SELECTORS**
---
+---
+
+The only difference between Classes and Ids is that “id” is unique in a page and can only apply to at most one element, while “class” selector can apply to multiple elements.
+
+---
+
+## **CLASS SELECTORS**
+
 A Class is a style definition that you create in pretty much the same way as you created a global style , but it isn't necessarily bound to any one tag . Instead , you can apply it anywhere you like . The class selector starts with a dot (.) character.
 <br>
 The class name is case sensitive
+
 ```
 .highlight {
     background-color: yellow;
 }
 ```
-**ID SELECTORS**
---
+
+## **ID SELECTORS**
+
 In addition to classes , you can use IDs to apply styles to your pages Except for the syntax , assigning a style to an ID isn't any different from assigning one to a class , and the usage is also similar. The id selector starts with a hash (#) character.
 <br>
 
@@ -25,10 +28,13 @@ In addition to classes , you can use IDs to apply styles to your pages Except fo
     background-color: yellow;
 }
 ```
-***
+
+---
+
 Difference Between Class and ID
 <br>
 --
+
 ```
 <!DOCTYPE html>
 <html>
@@ -47,7 +53,7 @@ Difference Between Class and ID
   background-color: blue;
   color: white;
   padding: 10px;
-} 
+}
 </style>
 </head>
 <body>
@@ -75,4 +81,5 @@ Difference Between Class and ID
 
 
 ```
+
 The table will be seen something this:

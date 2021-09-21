@@ -5,7 +5,10 @@
 <br/>
 <br/>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/Frontend_Web_Development_HTML_CSS_JS
 **GirlScript Winter of Contributing** is a three-month newly established initiative by **[GirlScript Foundation](https://www.girlscript.tech/home)** that will take place over the winter months. GWOC invites people to contribute their expertise and ideas in order to improve their technical abilities and obtain significant experience in the field of tech education.Throughout the program, the participants can contribute to a range of themes while being guided by an expert facilitator.The goal of GWOC is to develop the world's largest multilingual repository.🧡
 
 <!-- ## Explore the topics

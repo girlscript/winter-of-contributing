@@ -31,22 +31,38 @@ Fixes # <issue_number_here>
 - [ ] Database
 - [ ] Datascience with Python
 - [ ] Datascience with R
+<<<<<<< HEAD
 - [ ] Frontend Dev HTML/CSS/JS
 - [ ] Frontend Dev React/Angular/Vue
 - [ ] Golang
 - [ ] Interview Prep
 - [ ] Java_Domain
+=======
+- [ ] Frontend Dev (HTML, CSS, JS)
+- [ ] Frontend Dev (React, Angular, Vue)
+- [ ] Golang
+- [ ] Interview Prep
+- [ ] Java
+>>>>>>> upstream/Frontend_Web_Development_HTML_CSS_JS
 - [ ] JavaScript
 - [ ] MERN
 - [ ] Machine Learning
 - [ ] Open Source
+<<<<<<< HEAD
 - [ ] Python_Domain
+=======
+- [ ] Python
+>>>>>>> upstream/Frontend_Web_Development_HTML_CSS_JS
 - [ ] Rust
 - [ ] Statistics
 - [ ] UI/UX
 
 <hr>
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> upstream/Frontend_Web_Development_HTML_CSS_JS
 ## Checklist ✅
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
@@ -63,4 +79,8 @@ Fixes # <issue_number_here>
 
 ## Screenshots / Gif (Optional) 📸
 
+<<<<<<< HEAD
 <hr>
+=======
+<hr>
+>>>>>>> upstream/Frontend_Web_Development_HTML_CSS_JS
