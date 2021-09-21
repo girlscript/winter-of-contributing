@@ -22,3 +22,12 @@ jobs:
           days_until_warning: 5
           days_until_unassign: 7
           stale_assignment_label: Open
+      - name: Checkout code
+        uses: actions/checkout@main
+      - name: Run Action
+        uses: Suvraneel/Issue_Watcher@main
+        with:
+          token: "${{ secrets.GITHUB_TOKEN }}"
+          author: "${{github.actor}}"
+          repo: girlscript/winter-of-contributing #Change the Repo name
+          maxIssue: 3
