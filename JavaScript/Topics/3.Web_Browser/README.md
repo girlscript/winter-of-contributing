@@ -143,6 +143,8 @@ This bytecode gets interpreted by Virtual Machine. Then it is converted to machi
 
 ![JIT compiler working](images/../Code_Snippets/4.JIT_compiler_flowchart.png)
 
+<i>Source: Flowchart by V8 engine (Google)</i>
+
 ## Advantages of JIT compiler
 
 1. Suited for dynamic programming languages.
