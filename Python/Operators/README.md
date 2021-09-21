@@ -9,4 +9,4 @@ Operators are special symbols in Python that carry out arithmetic or logical com
 4. [**Logical Operators**]()
 5. [**Identity operators**](https://github.com/SHAIMA-HAQUE/winter-of-contributing/blob/Python/Python/Operators/Python_3_3_What_are_Membership_and_Identity_Operators_.ipynb)
 6. [**Membership operators**](https://github.com/SHAIMA-HAQUE/winter-of-contributing/blob/Python/Python/Operators/Python_3_3_What_are_Membership_and_Identity_Operators_.ipynb)
-7. [**Bitwise operators**]()
+7. [**Bitwise operators**](./bitwiseOperator.ipynb)
