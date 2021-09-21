@@ -6,7 +6,7 @@ In this tutorial I will discuss the important concept of Hoisting in Javascript.
 >Hoisting is a mechanism in javascript where the variable and function declarations are moved to the top of their respective scopes before the code execution phase.
 
 Obviously now you must have many doubts after reading the intro. So let's simplify it with an example.  
-Did you ever notice that you can call a function even before it is declared ? 
+Did you ever notice that you can call a function even before it is declared ?
 ```js
 console.log(sayHi())
 
@@ -99,7 +99,7 @@ function hoistExample(){
 
 hoistExample();
 
-// The result will be : Girlscript 
+// The result will be : Girlscript
 ```
 
 If you have guessed the output right, then congratulations to you . If you guessed it wrong I'll explain what's happenning here.
@@ -154,7 +154,7 @@ const love;
 console.log(love);
 love = "code";
 
-//The result will be: 
+//The result will be:
 //Uncaught SyntaxError: Missing initializer in const declaration
 ```
 Therefore a **const** variable must be both declared and initialized before use.  
@@ -219,7 +219,7 @@ hoistingExpression()
 hoistingExpression = function(){
     console.log("Hi Girlscript")
 }
-``` 
+```
 If you use ES6 Arrow functions it also behaves the same
 
 ```js
@@ -245,6 +245,169 @@ const hoistingExpression = ()=> {
 // The result will be:
 // Uncaught ReferenceError: hoistingExpression is not defined
 ```
+
+### Strict Mode
+
+
+Now, there is  a utility of JavaScript called as strict - mode , by using this feature , we can better take care of variable declarations.
+
+By enabling strict-mode , we choose a restricted variant of JavaScript which will not allow the usage of variables before they are declared.
+
+
+**Benefits of Running Code in strict mode**
+
+  1. Eliminate some silent JS errors by changing them into explicit throw errors.
+
+  1. Fixes mistakes, so that JavaScript engines can perform optimizations.(It can sometimes execute faster than identical code that's not strict mode).
+
+
+
+You can enable strict mode in your JavaScript code by writing this line at the top of JavaScript file :
+
+```js
+'use strict';
+
+//or
+
+"use strict";
+```
+
+Now, after knowing about strict mode , we can test it.
+
+```js
+"use strict";
+
+console.log(hoistedVar); //ReferenceError: hoistedVar is not defined
+
+hoistedVar = "Girlscript";
+```
+
+>Strict mode behaves differently in some browsers however, so it’s good to perform feature testing thoroughly before depending on it in production.
+
+
+Now, there is a important thing which needs to keep in mind.
+
+
+>Function declarations are hoisted over variable declarations but not over variable assignments.
+
+What does above line means? Let's understand this by an example.
+
+**Variable assignments over function declarations**
+
+```js
+  var ten = 10;
+
+  function ten(n)
+  {
+    return n*2;
+  }
+
+  console.log(typeof ten); //Output : number
+```
+
+**Function declarations over variable declarations**
+
+```js
+  var ten;
+
+  function ten(n)
+  {
+    return n*2;
+  }
+
+  console.log(typeof ten); //Output : function
+```
+
+### Class Hoisting
+
+In JavaScript, classes can be of two types just like as functions :
+
+1. Class declarations
+1. Class expressions
+
+**Class declarations**
+
+Class declarations are hoisted in JavaScript but it remains uninitialized when hoisted. This means that JavaScript can find reference for a class that we created ,however, it cannot use that class before it is defined.
+
+
+Let's consider an example :
+
+```js
+var person = new Person();
+person.name = "John";
+person.age = 24;
+
+console.log(person); //Output : Uncaught ReferenceError : Cannot access 'Person' before initialization"
+
+
+class Person {
+    constructor(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+}
+```
+
+So , to access the class declaration, you have to declare them first.
+
+Correct Code :
+
+```js
+class Person {
+    constructor(name, age) {
+      this.name = name;
+      this.age = age;
+    }
+}
+
+var person = new Person();
+person.name = "John";
+person.age = 24;
+
+console.log(person);//Output: {name : John, age : 24}
+
+```
+
+**Class expressions**
+
+Like the functions expressions, class expressions are not hoisted.
+
+Let's take an example :
+
+```js
+var dog = new Animal();
+dog.name  = "Tommy";
+dog.sound = "woof woof";
+
+console.log(dog); // Output: TypeError: Animal is not a constructor
+
+var Animal = class Animal{
+  constructor(name,sound) {
+    this.name = name;
+    this.sound = sound;
+  }
+};
+```
+
+Correct Code :
+
+```js
+var Animal = class Animal{
+  constructor(name,sound) {
+    this.name = name;
+    this.sound = sound;
+  }
+};
+
+var dog = new Animal();
+dog.name  = "Tommy";
+dog.sound = "woof woof";
+
+console.log(dog); //Output : {name : Tommy , sound : woof woof}
+```
+
+
+
 ## Conclusion
 
 Let's summarise our learnings so far.
@@ -253,6 +416,11 @@ Let's summarise our learnings so far.
 2. While accessing the variables decalred with **let / const** it will lead to **Reference error** as the variables are unitialized before execution phase.
 3. Regular functions are hoisted to top of their scope and can be invoked even before they are declared
 4. Function declarations are also hoisted but they now behave like normal variables and thus possed the hoisting properties of variables.
-   
-> Author :
+
+5. It is always good to declare and initialize JavaScript variables before using them.
+
+6. Using **strict mode** , we can avoid using undeclared variables before declaring and initializing them.
+
+> Contributed by  :
 > <cite>[Arpan Mondal](https://github.com/arp99)</cite>
+>[Anjali Rai](https://github.com/anjalirai12)
