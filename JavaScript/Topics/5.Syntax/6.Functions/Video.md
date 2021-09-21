@@ -55,9 +55,7 @@ Now lets go back to our function example:
   
 ```javascript
 function myFunction(p1, p2) {
-
-return p1 * p2; // The function returns the product of p1 and p2
-
+    return p1 * p2; // The function returns the product of p1 and p2
 }
 ```
 Here the myFunction block creates scope of p1 and p2. Which now gets us to a point which is lifetime of function parameters.
