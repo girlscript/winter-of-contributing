@@ -5,8 +5,6 @@ In this article you are going to learn everything about **Javascript Variables**
 Variables are "containers" for storing information JavaScript variables are used to hold values or
 expressions. A variable can have a short name, like x, or a more descriptive name, like carname.
 
-
-
  ## Rules for declaring Javascript Variable name:
 There are some rules while declaring a JavaScript variable (also known as identifiers).
 
@@ -14,16 +12,12 @@ There are some rules while declaring a JavaScript variable (also known as identi
    2. After first letter we can use digits (0 to 9), for example value1.
    3. JavaScript variables are case sensitive, for example x and X are different variables.
 
-
-
 Creating variables in JavaScript is most often referred to as "declaring" variables.
 There are 3 ways to declare a JavaScript variable:
    1. Using **var**
    2. Using **let**
    3. Using **const**
 ## Javascript var Variable
-
-
 Before the advent of ES6, var declarations ruled. There are issues associated with variables declared with var, though. That is why it was necessary for new ways to declare variables to emerge.**var variables can be re-declared and updated.**
 
 First, let's get to understand var more before we discuss those issues.
@@ -35,10 +29,8 @@ var name;
 var x=5;
 var name="Ram";
 ```
-
 **Note :-** When you assign a text value to a variable, use quotes around the value. If you redeclare a
 JavaScript variable, it will not lose its value.
-
 
 var is function scoped when it is declared within a function. This means that it is available and can be accessed only within that function.
 
@@ -67,8 +59,6 @@ We'll get an error which is as a result of hello not being available outside the
 ## Example of JavaScript var variable
 
 Let’s see a simple example of JavaScript variable.
-
-
 __Source Code:__
 
 ```html
@@ -83,11 +73,9 @@ __Source Code:__
  </body>
 </html>
 ```
-
 ## Output of the above example
 
 ![image](output.png)
-
 
 ## Javascript Let Variable
 
@@ -134,8 +122,6 @@ Just like var,  a variable declared with let can be updated within its scope. Un
 </body>
 </html>
 ```
-## Example
-
 ## Javascript Const Variable
 Variables declared with the const maintain constant values. const declarations share some similarities with let declarations.**const declarations are block scoped.**
 Like let declarations, const declarations can only be accessed within the block they were declared.
@@ -203,14 +189,11 @@ Use **const** when you declare:
 
 ![image](word-image-110.png)
 
-
 ## Types of Javascript Variables
 
 A JavaScript variable is simply a name of storage location. There are two types of variables in JavaScript : **local variable and global variable**.
 
 ## Javascript Local Variable
-
-
 A JavaScript local variable is declared inside block or function. It is accessible within the function or block only.
 
 __Source Code:__
@@ -252,18 +235,12 @@ __Source Code:__
 ```
 200 200
 ```
-
 ## Javascript global variable with window object
-
-
 To declare JavaScript global variables inside function, you need to use window object. For example:
-```
+```js
 window.value=90;  
-    
 ```
 Now it can be declared inside any function and can be accessed from any function.
-
-
 __Source Code:__
 ```html
 <html>
@@ -281,7 +258,6 @@ __Source Code:__
  </body>
 </html>
 ```
-
 ## Output of the above example
   This will generate a alert box in your browser.
 
