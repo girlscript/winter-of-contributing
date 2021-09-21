@@ -1,6 +1,10 @@
 # Girl Script Winter Of Contribution
+
 <img src="https://github.com/girlscript/winter-of-contributing/blob/main/banner_readme.png"  style="max-width: 100%; height: auto;"/>
+
 # Topics in Backend Development With PHP
+
+	- Links are not working right now but we will update it soon :)
 
 ### 1.&nbsp;&nbsp; <a href="#">Getting started</a>
   - <a href="#">Use the Current Stable Version (8.0)</a>
