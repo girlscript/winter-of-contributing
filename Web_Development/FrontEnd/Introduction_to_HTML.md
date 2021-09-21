@@ -81,7 +81,7 @@ A browser does not display the HTML tags, but uses them to determine how to disp
 
 <br>
 <img src="https://docs.microsoft.com/en-us/visualstudio/ide/media/vs-2019/
-csharp-aspnet-index-page-hello-world.png?view=vs-2019" width="500px"><img>
+csharp-aspnet-index-page-hello-world.png?view=vs-2019" width="500px">
 <hr>
 <br>
 
