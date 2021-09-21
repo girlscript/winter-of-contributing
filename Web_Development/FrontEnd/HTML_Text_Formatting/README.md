@@ -28,7 +28,7 @@ Following is the list of Formatting tags used in HTML :
 ```
 Output:
 
-![](bold.jpeg)
+![](images/bold.jpeg)
 
 *Note- Here it seems that \<b> tag ,
  AJAX is a misleading name. Although X in Ajax stands for XML, JSON is preferred over XML nowadays because of its many advantages such as being a part of JavaScript, thus being lighter in size. Both JSON and XML are used for packaging information in the Ajax model.*
