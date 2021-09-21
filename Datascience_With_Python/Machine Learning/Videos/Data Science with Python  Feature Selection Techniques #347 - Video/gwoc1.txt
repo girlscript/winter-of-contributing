@@ -1,0 +1,22 @@
+Data science with python: 
+
+Hello, I am M. Ashish Reddy. I would like to do documentation on this issue.
+Batch number: 5
+serial number:174.
+
+
+ML:
+
+Hello, I am M. Ashish Reddy, I would like to work on this issue. 
+Batch Number: 2
+Serial Number: 260
+GitHub Profile Link: https://github.com/ashish-reddy-20-08
+contribution you want to make : Documentation
+
+
+
+data science with R:
+
+Hello, I am M. Ashish Reddy, I would like to work on this issue. 
+Batch - 1
+serial number: 12 
