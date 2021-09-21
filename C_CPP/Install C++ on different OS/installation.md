@@ -29,4 +29,4 @@
       [(C/C++ overview)](https://code.visualstudio.com/docs/languages/cpp)
 ---
 ## C++ for Mac
-
+- [x] To do for mac
