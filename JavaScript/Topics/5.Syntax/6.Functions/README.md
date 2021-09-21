@@ -48,13 +48,13 @@ be accessed outside its scope.
     - Variables are accessible only inside block (block scoped)
     - HOWEVER, this only applies to let and const variables!
     - Functions are also block scoped (only in strict mode)
-    ```js
-    if (year >= 1981 && year <= 1996){
-        const millenial = true;
-        const food = 'Pasta';
-    }
-    console.log(millenial) //Reference Error
-    ```
+```js
+if (year >= 1981 && year <= 1996){
+   const millenial = true;
+   const food = 'Pasta';
+}
+console.log(millenial) //Reference Error
+```
 
 <hr>
 <br>
