@@ -19,16 +19,16 @@
 - [ ] Database
 - [ ] Datascience with Python
 - [ ] Datascience with R
-- [ ] Frontend Dev (HTML, CSS, JS)
-- [ ] Frontend Dev (React, Angular, Vue)
+- [ ] Frontend Dev HTML/CSS/JS
+- [ ] Frontend Dev React/Angular/Vue
 - [ ] Golang
 - [ ] Interview Prep
-- [ ] Java
+- [ ] Java_Domain
 - [ ] JavaScript
 - [ ] MERN
 - [ ] Machine Learning
 - [ ] Open Source
-- [ ] Python
+- [ ] Python_Domain
 - [ ] Rust
 - [ ] Statistics
 - [ ] UI/UX
