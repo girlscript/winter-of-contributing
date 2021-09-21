@@ -1,10 +1,10 @@
-# Installation of C++ on different OS
+# Installation of C/C++ in Windows and Mac OS
 
  
-## C++ for Windows
+## C/C++ for Windows
 
-- [x] C++ Compiler
-Let's get started with downloading and installing the C++ Compiler! 
+- [x] C/C++ Compiler
+Let's get started with downloading and installing the C/C++ Compiler! 
 - [MinGW](https://nuwen.net/mingw.html), this is the third party page for downloading the MinGW compiler it consist of self extracting archive for mingw.
 - Now click over **mingw-17.1-without-git.exe** which you will see in the referded page.
  - Extract the **mingw** to your preferded directory
@@ -29,10 +29,10 @@ Let's get started with downloading and installing the C++ Compiler!
 	2. C/C++ (Debugger)
 [C/C++ overview](https://code.visualstudio.com/docs/languages/cpp)
 ---
-## C++ for Mac
+## C/C++ for Mac
 
 Lets configure Visual Studio Code to run C/C++ programs on Mac OS
-- [x] C++ Compiler
+- [x] C/C++ Compiler
 	- Open terminal use this code snipet to download and install homebrew
 			
       1. Apple M1 Chip Mac
