@@ -85,3 +85,6 @@ Another approach:
 
 Output :
   Maximum contiguous sum is 6
+Time Complexity  = O(n)
+space Complexity = O(n)
+  
