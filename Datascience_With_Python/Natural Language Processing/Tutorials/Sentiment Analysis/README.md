@@ -12,7 +12,7 @@ Sentiment analysis is important for companies as they help to understand the emo
 ##SUMMARY OF TUTORIAL:<br>
 In this tutorial, I have provided all the necessary concepts from introducing NLP, sentiment analysis, its applications, the workflow of sentiment analysis with the help of an example, and code snippets.<br>
 
-Provided a demonstration of sentiment analysis on movie reviews using logistic regression.
+Provided a demonstration of sentiment analysis on movie reviews using logistic regression.<br>
 Movie review dataset link: https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews<br>
 It is dataset of 50,000 movie reviews. The data contains 2 columns: reviews and sentiment
 
