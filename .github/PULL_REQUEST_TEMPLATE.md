@@ -9,12 +9,12 @@ Fixes # <issue_number_here>
 
 ## Type of change 📝
 
-<!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
+<!----Please delete the hashtag from the correct option----->
 
-- [ ] Audio (Should be in mp3 format Includes speech clarity, Concise ,Low distortion)
-- [ ] Video (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
-- [ ] Documentation (Content Creation in the form of codes or tutorials)
-- [ ] Other (If you choose other, Please mention changes below) 
+- [ ] A#udio (Should be in mp3 format Includes speech clarity, Concise ,Low distortion)
+- [ ] V#ideo (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
+- [ ] D#ocumentation (Content Creation in the form of codes or tutorials)
+- [ ] O#ther (If you choose other, Please mention changes below) 
 
 <hr>
 
@@ -28,6 +28,7 @@ Fixes # <issue_number_here>
 - [ ] Backend Dev #(Java)
 - [ ] Backend Dev #(.NET)
 - [ ] Backend Dev #(PHP)
+- [ ] Backend Dev #(Python)
 - [ ] C/#CPP
 - [ ] Competitive #Programming
 - [ ] Cyber #Security
