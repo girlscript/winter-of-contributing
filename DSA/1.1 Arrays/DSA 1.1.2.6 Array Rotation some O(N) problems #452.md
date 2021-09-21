@@ -12,7 +12,7 @@ Note: Left rotation means counter-clockwise rotation.
   - shift the remaining element towards left with a for loop. 
   - replace last position with temporary variable containg first element.
 
-![array](https://github.com/arjyo851/winter-of-contributing/blob/DSA-rotation/DSA/1.1%20Arrays/Untitled%20Diagram.jpg)
+![array](https://github.com/arjyo851/winter-of-contributing/blob/DSA-rotation/DSA/1.1%20Arrays/Problem1.jpg)
 ### Implementation(C++):
 
 ```c++
