@@ -1,6 +1,7 @@
-# Promises In Javascript
+# Promises in JavaScript
 
 ### Video Lecture On Promises
-Video-[promises](https://youtu.be/ASfaBnNbeDc)
- 
-Made with Love By-Devyank
+Video Link: [Promises in JavaScript](https://youtu.be/ASfaBnNbeDc)
+
+ Contributor: [Devyank Nagpal](https://github.com/2devyank)
+
