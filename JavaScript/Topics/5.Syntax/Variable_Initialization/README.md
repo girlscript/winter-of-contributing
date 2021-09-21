@@ -10,7 +10,7 @@ There are 3 ways to declare a JavaScript variables:
 Creating a variable in JavaScript is called "declaring" a variable.
 You declare a JavaScript variable with the `var` keyword:
 
-    var carName;
+var carName;
 After the declaration, the variable has no value (technically it has the value of undefined).
 
 To assign a value to the variable, use the equal sign:
