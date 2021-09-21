@@ -11,10 +11,10 @@ Fixes # <issue_number_here>
 
 <!----Please delete the hashtag from the correct option----->
 
-- [ ] A#udio (Should be in mp3 format Includes speech clarity, Concise ,Low distortion)
-- [ ] V#ideo (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
-- [ ] D#ocumentation (Content Creation in the form of codes or tutorials)
-- [ ] O#ther (If you choose other, Please mention changes below) 
+- [ ] Au#dio (Should be in mp3 format Includes speech clarity, Concise ,Low distortion)
+- [ ] Vi#deo (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
+- [ ] Doc#umentation (Content Creation in the form of codes or tutorials)
+- [ ] Other (If you choose other, Please mention changes below) 
 
 <hr>
 
