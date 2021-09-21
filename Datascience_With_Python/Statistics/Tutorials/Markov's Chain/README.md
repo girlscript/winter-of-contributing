@@ -34,7 +34,7 @@ let us take an example to understand the advantage of this tool,
      suppose my friend is suggesting to have a meal. I may say that I do not want a pizza as I have that one hour ago. But Is it appropriate if I say that I do not want a pizza because I have it two months ago ? That means in this case, my probability of picking a meal is entirely dependent on my immediately preceding meal. 
 Here is the effectiveness of Markov Chain.
 
-## Conclution :
+## Conclusion :
 
 We have learnt to code our simple Markov chain from scratch, how to do a random walk through the Markov chain, how to calculate Stationary distribution. Also we have find the probability of a particular state sequence. Markov chain is a useful tool for many more complex stochastic models which are used in various fields such as physics, statistics, signal processing, speech recognition and many more.
 
