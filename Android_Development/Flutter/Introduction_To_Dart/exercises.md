@@ -9,6 +9,7 @@
 - [ForEach And Map](#-foreach-and-map)
 - [Inheritance](#-inheritance-in-dart)
 - [Functions](#functions)
+- [Strings](#strings)
 
 # ✅ Variables
   
@@ -711,7 +712,7 @@ Enter a number:2
 ```
 
 
-## Strings
+# ✅Strings
 
 A Dart string is a sequence of UTF-16 (16-bit Unicode Transformation Format) code units. Strings are mainly used to represent text. A character may be represented by multiple code points, each code point consisting of one or two code units It makes Dart more powerful to build our cross-platform applications in any language. Here we are going to take three basic questions based upon Strings and implement them using Dart programming language.
 
@@ -833,9 +834,7 @@ str.substring(3);   // lScript
 
 ## 💻 Exercises
 
-### Exercise 1
-
-1. Create a string and print the same
+- Create a string and print the same
 
 
 ```dart
@@ -852,10 +851,7 @@ Output:
 Open Source Contributor
 ```
 
-
-### Exercises 2
-
-1. Write a code that takes  multiple strings as a input and print customized message
+- Write a code that takes  multiple strings as a input and print customized message
 
 ```dart
 import 'dart:io'; 
@@ -879,9 +875,10 @@ void main()
     }
     
  
-  ```
-  ```
-  Output 1:
+```
+ 
+ ```
+  Output:
    Enter your name
    XYZ
    Enter your favourite programming language 
@@ -889,24 +886,12 @@ void main()
    Are you proficient in Java?. Enter Yes or No only 
    Yes
    Congrats! XYZ you are welcome to contribute to the Java project
- 
-   
-Output 2:
-   Enter your name
-   ABC
-   Enter your favourite programming language 
-   Dart
-   Are you proficient in Java?. Enter Yes or No only 
-   No
-   Sorry, ABC you need to hone your Dart skills first
 
   ```
 
-### Exercises 3
+- Write a program which we take a input String and find the substring of it defined by starting index and ending index which is also given by user.
 
- - Write a program which we take a input String and find the substring of it defined by starting index and ending index which is also given by user.
-
-  ```dart
+```dart
 import 'dart:io'; 
 void main() 
 { 
@@ -926,11 +911,11 @@ print(result);
 else
 print("Wrong indices provided");
 }
-  ```
+```
 
 ```
 
-Output 1:
+Output:
    Enter a string of your choice
    GirlScriptwinterofcontributing
    
@@ -943,29 +928,5 @@ Output 1:
    irlScriptw
  
    
-Output 2:
-   Enter a string of your choice
-   GirlScriptwinterofcontributing
-   
-   Enter startIndex
-   -1
-   
-   Enter endIndex
-   10
-   
-   Wrong indices provided
-   
-  
-
-Enter a string of your choice
-   GirlScriptwinterofcontributing
-   
-   Enter startIndex
-   1
-   
-   Enter endIndex
-   55
-   
-   Wrong indices provided
 
   ```
