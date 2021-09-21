@@ -55,6 +55,31 @@ This element is used to take input from predefined set of values.
 The `<input type="submit">`defines a button for submitting the form data to a particular form handler.
 The form-handler is specified in the form's action attribute.
 
+4. **Checkboxes**
+ 
+Checkboxes let a user select ZERO or MORE options of a limited number of choices.
+**Example**
+ ```HTML
+ <form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+ </form>
+ ```
+ 
+5. **File Upload Box**
+ 
+If you want to allow a user to upload a file to your web site, you will need to use a file upload box, also known as a file select box. This is also created using the <input> element but type attribute is set to file.
+**Example**
+```HTML
+ <form>
+         <input type = "file" name = "fileupload" accept = "image/*" />
+ </form>
+```
+ 
+ 
+ 
 <hr>
 There are many types of inputs , the most used are specified above.
 
