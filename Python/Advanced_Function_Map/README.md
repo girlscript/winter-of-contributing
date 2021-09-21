@@ -67,7 +67,7 @@ In the above example, each item of list a is type converted into int with just o
 
 Python’s map() allows you to apply a transformational function to all the items in an iterable without using an explicit `for` loop.
 
-Please see the file with extention .ipynb. You can run the file in jupyter notebook by opening the file using
+In order to understand it more clearly, please see the file with extention .ipynb. You can run the file in jupyter notebook by opening the file using
 
 ```bash
 jupyter notebook
