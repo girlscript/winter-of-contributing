@@ -1,5 +1,4 @@
-# To Do
-#JavaScript Operators
+# JavaScript Operators
 
 **Operators** are used to perform some action on operands. Operand can be of any data type, eg. number, boolean, string.
 
