@@ -118,5 +118,5 @@ function subtract(num1, num2) {
  - If you want to change something, you can just edit the function and
    its done. Function also makes your code small and concise
    
-   **Created by :** [Sarfraz Alam](https://github.com/Sarfraz-droid)
+**Created by :** [Sarfraz Alam](https://github.com/Sarfraz-droid)
 
