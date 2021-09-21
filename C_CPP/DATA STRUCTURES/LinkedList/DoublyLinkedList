@@ -1,0 +1,257 @@
+class myDoublyLinkedList{
+
+    /**
+     * Structure of a Doubly linked list is defined in the class Node
+     */
+
+    private class Node{
+        Node next; //This points to the prev node
+        Node prev; //This points to the next node
+        int value; //This holds the data inn the current node
+
+        Node(int data)
+        {
+            this.value = data;
+            this.next = null;
+            this.prev = null;
+
+        }
+
+    }
+
+
+    /*
+    -----------------------------------------------------------------------------------------------------------------------
+     */
+
+    /**
+     * Starting of Node Insertion Section
+     */
+
+
+    /**
+     * This functions insert a new node at the end of the linked list
+     * @param root, it takes the head of Doubly LL (i.e is the first node)
+     * @param data, the data to be stored in the new node
+     * @return the updated new head
+     */
+    Node insertEnd(Node root, int data)
+    {
+        if(root==null)
+        {
+            root = new Node(data);
+            return root;
+        }
+
+
+        Node lastNode = root;
+
+        while (lastNode.next!=null)
+        {
+            lastNode = lastNode.next;
+        }
+
+        Node temp = new Node(data);
+        temp.prev = lastNode;
+        lastNode.next = temp;
+
+
+        return root;
+
+    }
+
+    /**
+     * This functions insert a new node at the beginning of the list
+     * @param root, the head of the Doubly LL
+     * @param data, the data to be stored in the new node
+     * @return, the updated new head
+     */
+    Node insertBegin(Node root, int data)
+    {
+        if(root==null)
+            return new Node(data);
+
+        Node temp = new Node(data);
+        temp.next = root;
+        root.prev = temp;
+
+        return temp;
+    }
+
+
+    /**
+     * This function insert a new node after a specified node.
+     * e.g consider a Doubly LL with element 5 10 15 20 25 30
+     * if we pass node number as 2 (3rd node contains 15) and data 50, the LL updates to 5 10 15 50 20 25 30
+     * @param root, the head of LL
+     * @param data , the data to be stored in the new Node
+     * @param nodeNumber, the node after which new node is to be inserted (0 based indexing)
+     * for simplicity of understanding we are assuming the nodeNumber passed is always valid.
+     * @return , the updated head
+     *
+     */
+
+    Node insertAfter(Node root, int data, int nodeNumber)
+    {
+        int currentNode = 0;
+        Node current = root;
+
+        //5 10 15 20 25 30
+
+        while (currentNode<=nodeNumber) {
+            current = current.next;
+            currentNode++;
+        }
+
+
+        Node temp = new Node(data);
+        temp.next = current.next;
+        temp.prev = current;
+
+        if(current.next!=null) //Handling the case when the node number is last node
+            current.next.prev = temp;
+
+        current.next = temp;
+
+        return root;
+    }
+
+    /**
+     * This function insert a new node before a specified node.
+     * e.g consider a Doubly LL with element 5 10 15 20 25 30
+     * if we pass node number as 2 (3rd node contains 15) and data 50, the LL updates to 5 10 50 15 20 25 30
+     * @param root, the head of LL
+     * @param data , the data to be stored in the new Node
+     * @param nodeNumber, the node after which new node is to be inserted (0 based indexing)
+     * for simplicity of understanding we are assuming the nodeNumber passed is always valid.
+     * @return , the updated head
+     *
+     */
+
+    Node insertBefore(Node root, int data, int nodeNumber)
+    {
+        int currentNode = 0;
+        Node current = root;
+
+        //5 10 15 20 25 30
+
+        while (currentNode<nodeNumber) {
+            current = current.next;
+            currentNode++;
+        }
+
+        Node temp = new Node(data);
+        temp.next = current.next;
+        temp.prev = current;
+
+        current.next.prev = temp;
+
+        current.next = temp;
+
+        return root;
+
+    }
+
+    /**
+     * Ending of Node Insertion Section
+     */
+
+    /*
+    ------------------------------------------------------------------------------------------------------------------------------
+     */
+
+    /**
+     * Starting of Node Deletion Section
+     */
+
+
+    /**
+     * Delete the first node of LL
+     * @param root,  the head of LL
+     * @return, the new updated head
+     */
+    Node deleteHead(Node root)
+    {
+        if(root==null)
+            return null;
+
+        root = root.next; //Root points to next node
+
+        if(root!=null) //Handling case where LL contains only one node
+            root.prev = null;
+
+        return root;
+
+    }
+
+    /**
+     * Deleting the last node of LL
+     * @param root , the head of LL
+     * @return, new updated head
+     */
+    Node deleteLast(Node root)
+    {
+        if(root==null) //Handle the case where LL is empty
+            return null;
+
+        Node current = root;
+
+        while (current.next!=null)
+        {
+            current = current.next;
+        }
+
+        current =  current.prev;
+
+        if(current.prev!=null) //Handling the case where LL contains only one node
+            current.next = null; //Making the next node null
+
+        return root;
+
+    }
+
+    /**
+     * This functions delete Node at a particular index (0 based indexing)
+     * @param root, the head of the LL
+     * @param nodeNumber, the node index to be deleted
+     * for simplicity of understanding we are assuming the nodeNumber passed is always valid.
+     * @return , the updated new head
+     */
+    Node deleteNode(Node root, int nodeNumber)
+    {
+        if(root==null) //Handle the case where LL is empty
+            return null;
+
+        if(nodeNumber==0) //Handling case where it is first node
+            return deleteHead(root);
+
+        int currentNode = 0;
+        Node current = root;
+
+        //5 10 15 20 25 30
+
+        while (currentNode<=nodeNumber) { //Traversing to the appropriate node
+            current = current.next;
+            currentNode++;
+        }
+
+
+        /*
+            Changing the links
+         */
+
+        Node previousNode = current.prev;
+        Node nextNode = current.next;
+        previousNode.next = nextNode;
+
+        if(nextNode!=null) //Handling the case where the nodeNumber is last node.
+            nextNode.prev = previousNode;
+
+        return root;
+    }
+
+    /**
+     * End of Delete node section
+     */
+
+}
