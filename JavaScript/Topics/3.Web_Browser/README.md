@@ -6,7 +6,7 @@ JavaScript is commonly utilised in both front-end and back-end web development. 
 
 The structure of a web page is provided by HTML, the layout and rudimentary animations are provided by CSS, and the website's interactivity is provided by JavaScript.
 
-So, In a nutshell we can say : <b>HTML = NOUN, CSS = ADJECTIVE, JS = VERB.</b>
+So, in a nutshell we can say : <b>HTML = NOUN, CSS = ADJECTIVE, JS = VERB.</b>
 
 JavaScript can support:<br>
 
