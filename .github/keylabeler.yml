@@ -12,7 +12,7 @@ labelMappings:
   Audio : Audio
   Video : Video
   Documentation : Documentation
-  Android Dev (Flutter): Android-Dev-Java
+  Android Dev (Flutter): Android-Dev-Flutter
   Android Dev (Kotlin): Android-Dev-Kotlin
   Android Dev (Java): Android-Dev-Java
   Backend Dev (Java):  Backend-Dev-Java
