@@ -31,22 +31,38 @@ Fixes # <issue_number_here>
 - [ ] Database
 - [ ] Datascience with Python
 - [ ] Datascience with R
+<<<<<<< HEAD
 - [ ] Frontend Dev HTML/CSS/JS
 - [ ] Frontend Dev React/Angular/Vue
 - [ ] Golang
 - [ ] Interview Prep
 - [ ] Java_Domain
+=======
+- [ ] Frontend Dev (HTML, CSS, JS)
+- [ ] Frontend Dev (React, Angular, Vue)
+- [ ] Golang
+- [ ] Interview Prep
+- [ ] Java
+>>>>>>> d04cc7d5022b5b4a532e56aaa24d3abdbfad2d28
 - [ ] JavaScript
 - [ ] MERN
 - [ ] Machine Learning
 - [ ] Open Source
+<<<<<<< HEAD
 - [ ] Python_Domain
+=======
+- [ ] Python
+>>>>>>> d04cc7d5022b5b4a532e56aaa24d3abdbfad2d28
 - [ ] Rust
 - [ ] Statistics
 - [ ] UI/UX
 
 <hr>
+<<<<<<< HEAD
 
+=======
+ 
+>>>>>>> d04cc7d5022b5b4a532e56aaa24d3abdbfad2d28
 ## Checklist ✅
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
@@ -63,4 +79,8 @@ Fixes # <issue_number_here>
 
 ## Screenshots / Gif (Optional) 📸
 
+<<<<<<< HEAD
 <hr>
+=======
+<hr>
+>>>>>>> d04cc7d5022b5b4a532e56aaa24d3abdbfad2d28
