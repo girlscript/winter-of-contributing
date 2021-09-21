@@ -18,8 +18,10 @@ node
 
 This command will display a message on your terminal showing the version number of Node installed on your system.
 
+```
 Welcome to Node.js v<your-version-number>.
 Type ".help" for more information.
+```
 
 ## Create React App
 
@@ -51,7 +53,7 @@ These components can be easily imported in the ./App.js file and thereby rendere
 
 Step 2:Inside the ./Components create a new file called 'HelloWorld.jsx'
 
-Step 3:Put the following code in 'HelloWorld.jsx'
+Step 3:Put the following code in **HelloWorld.jsx**
 
 ```
 
@@ -64,7 +66,7 @@ const HelloWorld = () => {
                 <h1>Hello World</h1>
             </div>
         );
-}
+};
 
 export default HelloWorld;
 
@@ -75,9 +77,9 @@ The most basic component in React is this kind of a stateless functional compone
 They do not require any kind of internal state management.
 
 You can treat them as simple Javascript Functions.
-This creates a stateless Hello World comnonent that renders a Hello World message on localhost:3000/.
+This creates a stateless Hello World comnonent that renders a Hello World message on **localhost:3000/**.
 
-Step 4 :You can now easily import it to ./App.js.
+Step 4 :You can now easily import it to **./App.js**.
 
 To do so,replace the code in ./App.js with the following:
 
@@ -87,13 +89,13 @@ import "./App.css";
 import HelloWorld from "./Components/HelloWorld";
 
 function App() {
-return (
+    return (
 
-<div className="App">
-<HelloWorld/>
-</div>
-);
-}
+        <div className="App">
+            <HelloWorld/>
+        </div>
+    );
+};
 
 export default App;
 
@@ -106,9 +108,10 @@ And connecting a particular class to an element using the following syntax.
 
 `<elementTag className="class"> 'Some Text' </elementTag>`
 
+
 ## Absolute Basics of Creating Reusable Components
 
-React is known for the functionality of creating reuable components.And Props play a major role in it.Props are like attributes passed through these stateless functions to render different messages depending on these props.
+React is known for the functionality of creating reuable components.
 
 They still look the same without having to repeat the same code again and again.Let's convert our HelloWorld Component into a Reusable One.To do so,let's make some minor changes and add a prop to our HelloWorld Component.
 
@@ -117,14 +120,14 @@ They still look the same without having to repeat the same code again and again.
 import React from 'react';
 
 const HelloWorld = props => {
-return (
+    return (
 
-<div>
-<h1>Hello {props.name}</h1>
-<h2>{props.content}</h2>
-</div>
-)
-}
+        <div>
+            <h1>Hello {props.name}</h1>
+            <h2>{props.content}</h2>
+        </div>
+    );
+};
 
 export default HelloWorld;
 
@@ -138,14 +141,14 @@ import "./App.css";
 import HelloWorld from "./Components/HelloWorld";
 
 function App() {
-return (
+    return (
 
-<div className="App">
-<HelloWorld name="Your Name" content="My first Reusable Component in React"/>
-<HelloWorld name="World" content="Basics of Reusable Components in React"/>
-</div>
-);
-}
+        <div className="App">
+            <HelloWorld name="Your Name" content="My first Reusable Component in React"/>
+            <HelloWorld name="World" content="Basics of Reusable Components in React"/>
+        </div>
+    );
+};
 
 export default App;
 
