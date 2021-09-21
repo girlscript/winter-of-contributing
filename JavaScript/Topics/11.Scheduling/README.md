@@ -17,11 +17,11 @@ Both ```setTimeout()``` and ```setInterval()``` are built-in methods of the glob
 var myVar;
 
 function myFunction() {
-myVar = setTimeout(alertFunc, 3000);
+  myVar = setTimeout(alertFunc, 3000);
 }
 
 function alertFunc() {
-alert("Hello!");
+  alert("Hello!");
 }
 // This will display an alert box after 3 seconds (3000 milliseconds)
 ```
@@ -34,11 +34,11 @@ alert("Hello!");
 var myVar;
 
 function myFunction() {
-myVar = setInterval(alertFunc, 3000);
+  myVar = setInterval(alertFunc, 3000);
 }
 
 function alertFunc() {
-alert("Hello!");
+  alert("Hello!");
 }
 // This will Alert "Hello" every 3 seconds (3000 milliseconds)
 ```
@@ -49,11 +49,11 @@ alert("Hello!");
 var myVar;
 
 function myFunction() {
-myVar = setTimeout(function(){ alert("Hello"); }, 3000);
+  myVar = setTimeout(function(){ alert("Hello"); }, 3000);
 }
 
 function myStopFunction() {
-clearTimeout(myVar);
+  clearTimeout(myVar);
 }
 // Prevent the function set with the setTimeout() to execute
 ```
@@ -64,13 +64,13 @@ clearTimeout(myVar);
 var myVar = setInterval(myTimer, 1000);
 
 function myTimer() {
-var d = new Date();
-var t = d.toLocaleTimeString();
-document.getElementById("demo").innerHTML = t;
+  var d = new Date();
+  var t = d.toLocaleTimeString();
+  document.getElementById("demo").innerHTML = t;
 }
 
 function myStopFunction() {
-clearInterval(myVar);
+  clearInterval(myVar);
 }
 // Display the current time (the setInterval() method will execute the "myTimer" function once every 1 second). Use clearInterval() to stop the time
 ```
