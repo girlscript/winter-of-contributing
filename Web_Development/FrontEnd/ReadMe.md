@@ -11,7 +11,7 @@
 
 ## 1️⃣ HTML
 
-- [Introduction to HTML](./Introoduction_to_Html)
+- [Introduction to HTML](./Introduction_to_Html)
 - HTML Editors
 - HTML Text Formatting
 - HTML Style Attribute
