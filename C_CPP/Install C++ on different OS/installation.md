@@ -18,7 +18,7 @@ Let's get started with downloading and installing the C/C++ Compiler!
 		
     `g++ --version` no error is generated then it's perfectly installed.
 	
-  ![](image.jpg)
+  ![image](https://user-images.githubusercontent.com/66905426/134203023-90d766f1-78a5-4126-b156-3a7c670091aa.png)
   
 - [x] Download and setup VS Code
 **Note:- You can use your own preferded code editor.**
@@ -73,5 +73,3 @@ Unable to write or give the input in the **VS Code terminal** for an input takin
 -  Close the settings, run the code again it will work fine.
 
 **Note :- If the terminal didn't allow tyou to edit still then restart the VS Code. It will work fine.**   
-
-> Contributed by Ayushmaan
