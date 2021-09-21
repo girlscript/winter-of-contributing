@@ -11,7 +11,7 @@
 
 ## 1️⃣ HTML
 
-- Introduction to HTML
+- [Introduction to HTML](./Introduction_to_Html)
 - HTML Editors
 - HTML Text Formatting
 - HTML Style Attribute
@@ -22,7 +22,7 @@
 - HTML Forms
 - Semantic HTML
 - Form Validation
-- Conventions & Best Practices
+- [Conventions & Best Practices](HTML_Conventions_Practices/readme.md)
 - Accessibility
 - Search Engine Optimisation Basics
 
