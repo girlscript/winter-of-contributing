@@ -8,6 +8,7 @@
 
 ## Index
 - [GitHub](./Git_And_GitHub)
+- [Installing software for python](./Installing_Software)
 - [Brief History of Python](./History_Of_Python)
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What is type conversion ?](./Type_Conversion)
@@ -16,14 +17,20 @@
 - [Operators](./Operators)
 - [List_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
+- [Stack_and_Queue](./Stack_and_Queue)
 - [Generators](./Generators)
+
 ## Learning path
 1. Git & GitHub
-2. Brief history of python
-3. What is a programming language?
-4. What is type conversion ?
-5. Use cases of Python
-6. Virtual Environment
-7. Operators
-8. List_&_Matrix
-9. Generators
+2. Installing development and debugging software for python
+3. Brief history of python
+4. What is a programming language?
+5. What is type conversion ?
+6. Use cases of Python
+7. Virtual Environment
+8. Operators
+9. List_&_Matrix
+10. Objects in Python
+11. Stack and Queue
+12. Generators
+
