@@ -7,11 +7,11 @@ JSON stands for `JavaScript Object Notation` it is a text format for storing and
 Example:
 
 ```JSON
-'{
+{
      "name": "Rahul",
      "age": 30,
      "salary": 13000
-}'
+}
 ```
 It defines an object with 3 properties:
 - name
@@ -173,21 +173,21 @@ Example:
 Suppose we received this JSON from a web server:
 
 ```JSON
-'{
+  {
       "name":"Rahul", 
       "age":30, 
       "city":"Delhi"
-  }'
+  }
 ```
 
 Use the JavaScript function JSON.parse() to convert JSON into a JavaScript object:
 
 ```js
-const obj = JSON.parse('{
+const obj = JSON.parse({
                               "name":"Rahul", 
                               "age":30, 
                               "city":"Delhi"
-                        }');
+                       });
 ```
 
 ## JSON.stringify()
