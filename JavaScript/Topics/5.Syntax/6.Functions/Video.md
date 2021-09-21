@@ -65,14 +65,12 @@ Lets write our first function that prints the sum of two elements :
 
 
 ```javascript
-	function sum(a,b)
-	{
-		c = a+b
-		console.log(c);
-	}
+function sum(a,b) {
+	c = a+b
+	console.log(c);
+}
 
-	sum(10,12);
-```
+sum(10,12);
 
 <hr>
 
