@@ -1,46 +1,55 @@
-Circular array problem(Maximize sum, Maximize difference), left and right shift on
-the circular array.
+## Circular array problem(Maximize sum, Maximize difference), left and right shift on the circular array.
 
-Circular Array :- 
-  When an array become circular array ?
+## Circular Array :- 
+  + When an array become circular array ? <br>
   So till now we have a basic idea of array .  if we consider the first element as next of the last element of the array than we can call this array as a circular array.
-
+   <br>
   suppouse consider 5 people P Q R S T  and given name as ‘S’. People sitting in a circular manner starting from S are S T P Q R.
+   <br>
+   
+   
+## Problem name : 
+  Maximum Sum Circular Subarray :
 
-Problem name : Maximum Sum Circular Subarray :- 
-
-Problem Statement : 
+## Problem Statement : 
    Given a circular integer array nums of length n, return the maximum possible sum of a non-empty subarray of nums.
+## Constraints:
 
-Constraints:
++ 1 <= nums.length() <= 3 * 104
++ -3 * 104 <= nums[i] <= 3 * 104
 
- 1 <= nums.length() <= 3 * 104
--3 * 104 <= nums[i] <= 3 * 104
-
-Naive approach :
+## Naive approach :
+<br>
   The naive approach to solve this problem is using  using three nested loop.
-  and the time complexity would be O(n^3).  It is very simple you just have to run three 
-  loop and find the maximum sub array sum.
-  pesedo code of this approach :
-     sum = 0, res=0
+   <br>
+  and the time complexity would be O(n^3).  
+   <br>
+  It is very simple you just have to run three loop and find the maximum sub array sum.
+
+  ## pesedo code of this approach :
+  
+  ```sum = 0, res=0 ;
      for(int i=0; i<n; i++)
-     {
-       for(int j=i+1; j<n; j++)
-       {
-         for(int k=j+1 ; k<n; k++)
-         {
+     {                     
+       for(int j=i+1; j<n; j++) 
+       {                        
+         for(int k=j+1 ; k<n; k++) 
+         {                     
            sum = sum + a[i] + a[j] + a[k];
            res = max(res, sum);
-         }
+         } 
        }
      }
      return res;
-  time complexity = O(n*n*n);     
-Another approach:
+  ```
+  
+## time complexity = O(n * n * n);    
+## Another approach:
   The Another approach is to use Kadane's Algorithm.The simple idea of Kadane’s algorithm is to look for all positive contiguous segments of the array (cur is used for this). And keep track of maximum sum (ans is used for this);
-
-  Algorithm:
-  Initialize:
+  
+ ## Algorithm :
+```
+ Initialize:
     ans = INT_MIN
     cur = 0
 
@@ -51,11 +60,12 @@ Another approach:
     (c) if(cur < 0)
               cur = 0
   return ans;
-   
-   Code Implementation (in c++):
-    #include<bits/stdc++.h>
-  
-    using namespace std;
+ 
+ ```
+## Code Implementation (in c++):
+
+     #include<bits/stdc++.h>
+     using namespace std;
     
     int maxSubArray(int a[], int n)
     {
@@ -82,9 +92,11 @@ Another approach:
         cout << "Maximum contiguous sum is " << sum;
         return 0;
     }
+    
+## Output :
+  Maximum contiguous sum is 6.
 
-Output :
-  Maximum contiguous sum is 6
-Time Complexity  = O(n)
-space Complexity = O(n)
+ 
++ Time Complexity  = O(n)
++ space Complexity = O(n)
   
