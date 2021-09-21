@@ -100,11 +100,9 @@ show();
        values to it
 
 ```javascript
-function subtract(num1, num2)
-{
+function subtract(num1, num2) {
 	return num1 - num2;
 }
-```
 
 **Arrow Functions**
 
