@@ -36,11 +36,13 @@ There can be two possiblity
 Take the minimum of all the operations. 
 
 ## 💡 Implementation of Naive Approach: 
-```
+```c++
 int edit_distance_recursive(string str1, string str2, int n, int m)
 {
-    if(m==0) return n;  // If string 2 is empty then remove all character of string 1
-    if(n==0) return m;  // If string 1 is empty then insert all character of string 2
+    // If string 2 is empty then remove all character of string 1
+    if(m==0) return n;  
+    // If string 1 is empty then insert all character of string 2
+    if(n==0) return m;  
 
     // If at ith index both are same no operations needed to be performed 
     if(str1[n-1]==str2[m-1])  {
@@ -51,7 +53,8 @@ int edit_distance_recursive(string str1, string str2, int n, int m)
     int remove = edit_distance_recursive(str1,str2,n-1,m);
     int replace = edit_distance_recursive(str1,str2,n-1,m-1); 
 
-    return 1+min({insert,remove,replace});         // Return minimum of all operations 
+    // Return minimum of all operations 
+    return 1+min({insert,remove,replace});         
 }
 ```
 
@@ -72,17 +75,20 @@ If it has been calculated before then return the result of computation else, com
 
 #### Code 💻 
 
-```
+```c++
 // Recursive DP with Memoization (Top Down Approach) 
 
 vector<vector<int>> dp(2005,vector<int>(2005,-1));
 int edit_distance_recursive(string str1, string str2, int n, int m)
 {
-    if(m==0) return n;  // If string 2 is empty then remove all character of string 1
-    if(n==0) return m;  // If string 1 is empty then insert all character of string 2
+    // If string 2 is empty then remove all character of string 1
+    if(m==0) return n;  
+    // If string 1 is empty then insert all character of string 2
+    if(n==0) return m;  
 
     int &ans=dp[n][m];
-    if(ans!=-1) return ans;    // If dp[i][j] is already computed before then return result else store 
+    // If dp[i][j] is already computed before then return result else store 
+    if(ans!=-1) return ans;    
 
     //If at ith index both are same no operations needed to be performed 
     if(str1[n-1]==str2[m-1]) {
@@ -115,11 +121,12 @@ Possible Cases for state F(n,m)
 
 ####  Code 💻
 
-```
+```c++
 // Iterative DP (Bottom Up Approach) 
 int edit_distance_iterative(string str1, string str2, int n, int m)
 {
-    int dp[n+1][m+1];    //For Storing Results 
+    //For Storing Results 
+    int dp[n+1][m+1];    
     for(int i=0; i<=n; i++)
      {
         for(int j=0; j<=m; j++) 
