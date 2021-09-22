@@ -14,7 +14,7 @@ An Inline Element does not start on a new line.
 
 Examples of Inline Elements
 
-`<a>` <span> <img> <code> <site> <button> <input> 
+`<a>` `<span>` `<img>` `<code>` `<site>` `<button>` `<input>` 
 
     
     
@@ -44,7 +44,7 @@ One more interesting fact about Block Elements is that they have top and bottom 
 
 Examples of Block Elements
 
-<div> <header> <footer> <form> <hr> <table> <section> 
+`<div>` `<header>` `<footer>` `<form>` `<hr>` `<table>` `<section>` 
 
 ```
 <!DOCTYPE html>
