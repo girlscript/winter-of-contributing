@@ -60,5 +60,5 @@
     - [Macro Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.1%20Macro%20Virus%20%231672.md)
     - Multipartite virus
     - Overwrite virus
-    - Browser Hijacker
+    - [Browser Hijacker](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/BROWSER_HIJACKERS.md)
     - Polymorphic virus
