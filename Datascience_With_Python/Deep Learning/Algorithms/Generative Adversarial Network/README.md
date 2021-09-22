@@ -51,4 +51,11 @@ These images along with the fake ones will be fed in batches to the Discriminato
 
 Here, two neural network will compete with each other . The discriminator will detect the ground truth ( real or fake ) of generated images and return possiblities a number between 0 and 1 . here 0 represent fake and 1 is real .
 
+# Conclusion 
+This article shows Generative Adversarial Network's brief history , architecture, advantages , disadvantages, implentation and some applications. If you are more interested in working this amazing Deep learning architecture, follow this references :
+
+![1] (https://machinelearningmastery.com/how-to-code-the-generative-adversarial-network-training-algorithm-and-loss-functions/)
+![2] (https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-by-step-tutorial-fdefff170391)
+![3] (https://medium.com/intel-student-ambassadors/mnist-gan-detailed-step-by-step-explanation-implementation-in-code-ecc93b22dc60)
+
 
