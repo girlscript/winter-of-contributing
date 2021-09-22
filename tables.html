@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<!--So basically this is my css part i.e form style type internal css 
+I would like to tell priority is Inline>internal > external for css 
+and we have selectors etc in css 
+now coming to tables we need to make a table so add the tag  <table> and at end close it </table> tag for a table 
+now list of few table tags -->
+<style>
+table, th, td {
+  border:1px solid red;
+  background-color :beige;
+}
+</style>
+<body>
+
+<h2>A basic HTML table</h2>
+<!--few important table tags 
+<table>	Defines a table
+<th>	Defines a header cell in a table
+<tr>	Defines a row in a table it will create a row 
+<td>	Defines a cell in a table
+<caption>	Defines a table caption this will appera on top of the table 
+    other tags like colspan and row span can also be used for further special effects
+css box model helps to understand the content area,padding , border ,margin concept(self study>
+and other tags are also used like, tbody ,thead ,tfoot ,
+<thead>	Groups the header content in a table
+<tbody>	Groups the body content in a table
+<tfoot>	Groups the footer content in a table)-->
+
+<table style="width:100%">
+    <caption>Cricket</caption>
+  <tr>
+    <th>Player</th>
+    <th>Number</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Rohit </td>
+    <td>45</td>
+    <td>India</td>
+  </tr>
+  <tr>
+    <td>Dhoni </td>
+    <td>7</td>
+    <td>India</td>
+  </tr>
+</table>
+
+<p>To undestand the example better, we have added borders to the table and we can also add col span and row span </p>
+<table>
+     <caption>Life Expectancy</caption>
+     <tr>
+        <th colspan="2">65</th>
+        <th colspan="2">40</th> 
+        <th colspan="2">20</th> 
+        </tr> 
+        <tr> 
+            <th>Men</th>
+            <th>Women</th>
+            <th>Men</th>
+            <th>Women</th>
+            <th>Men</th>
+            <th>Women</th>
+        </tr>
+                 
+                 <tr> 
+                    <td>80</td> 
+                    <td>83</td> 
+                    <td>78</td>
+                    <td>82</td>
+                    <td>75</td>
+                    <td>66</td>
+                </tr> 
+</table>
+
+
+</body>
+</html>
