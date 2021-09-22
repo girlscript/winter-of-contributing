@@ -14,9 +14,6 @@ link : https://drive.google.com/file/d/1-3mTpT4aqD76Az06lLt_4iLMJwP3cO5O/view?us
 <!----Please delete the hashtag from the correct option----->
 
 - [ ] Audio (Should be in mp3 format Includes speech clarity, Concise ,Low distortion)
-- [ ] Vi#deo (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
-- [ ] Doc#umentation (Content Creation in the form of codes or tutorials)
-- [ ] Other (If you choose other, Please mention changes below) 
 
 <hr>
 
@@ -24,33 +21,9 @@ link : https://drive.google.com/file/d/1-3mTpT4aqD76Az06lLt_4iLMJwP3cO5O/view?us
 
 <!----Please delete the hashtag from your domain----->
 
-- [ ] Android Dev #(Flutter)
-- [ ] Android Dev #(Java)
-- [ ] Android Dev #(Kotlin)
-- [ ] Backend Dev #(Java)
-- [ ] Backend Dev #(.NET)
-- [ ] Backend Dev #(PHP)
-- [ ] Backend Dev #(Python)
-- [ ] C/#CPP
-- [ ] Competitive #Programming
-- [ ] Cyber #Security
-- [ ] DS#A
-- [ ] Data#base
-- [ ] Datascience with #Python
-- [ ] Datascience with #R
-- [ ] Frontend Dev #HTML/CSS/JS
-- [ ] Frontend Dev #React/Angular/Vue
-- [ ] Go#lang
-- [ ] Interview #Prep
-- [ ] Java_#Domain
-- [ ] Java#Script
-- [ ] ME#RN
-- [ ] Machine #Learning
-- [ ] Open #Source
+
 - [ ] Python_Domain
-- [ ] Ru#st
-- [ ] Statis#tics
-- [ ] UI/#UX
+
 
 <hr>
 
