@@ -58,7 +58,7 @@ This article shows Generative Adversarial Network's brief history , architecture
 
 ![Link 2](https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-by-step-tutorial-fdefff170391)
 
-![LInk 3(https://medium.com/intel-student-ambassadors/mnist-gan-detailed-step-by-step-explanation-implementation-in-code-ecc93b22dc60)
+![LInk 3](https://medium.com/intel-student-ambassadors/mnist-gan-detailed-step-by-step-explanation-implementation-in-code-ecc93b22dc60)
 
 Thank You.
 
