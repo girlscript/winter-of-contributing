@@ -241,9 +241,7 @@ __Source Code:__
 </html>
 ```
 ## Output of the above example
-```
-200 200
-```
+![image](op.png)
 ## Javascript global variable with window object
 To declare JavaScript global variables inside function, you need to use window object. For example:
 ```js
