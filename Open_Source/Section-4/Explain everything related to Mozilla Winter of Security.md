@@ -13,3 +13,7 @@ team introduction and motivation (max 1000 characters)
 - Presentation of the university program (max 500 characters)
 - Short description of each team member (skills, interest, ...) (max 500 character for each team member)
 - Links to relevant resources (university website, resumes, ...)
+
+*References*-
+- MozillaWiki - https://wiki.mozilla.org/Security/Automation/Winter_Of_Security_2016#Winter_Of_Security_2016
+- Mozilla Security Blog - https://blog.mozilla.org/security/2015/07/15/mozilla-winter-of-security-is-back/
