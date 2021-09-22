@@ -2,7 +2,7 @@
 
 ## Use of Bit Operators
 
-Bit operators perform operations much faster than arthmetic or logical operators
+Bitwise operators perform operations much faster than arithmetic or logical operators.
 
 ## Types of Bit Operator
 
