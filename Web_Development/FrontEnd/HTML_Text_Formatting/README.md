@@ -17,7 +17,7 @@ Following is the list of Formatting tags used in HTML :
 * `<small>` - This tag is used to decrease the font size by one unit.
 * `<big>` - This tag is used to increase the font size by one unit.
 * `<del>` - This tag defines that the text has been deleted from the document.
-* `<s>` - This tag is used to diplay the text which is no longer correct or relevant.
+* `<s>` - This tag is used to display the text which is no longer correct or relevant.
 * `<code>` - This tag displays the text in monospaced font , used commonly to display source code.
 * `<pre>` - This tag is used to define preformatted text. The browsers displays the enclosed text with white spaces and line breaks.
 * `<ins>` - This tag displays the content which is added.
