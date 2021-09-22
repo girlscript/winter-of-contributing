@@ -9,8 +9,7 @@ These two types define the default display value of a particular element.
 ***
 
 ## Inline Elements
-Basically Inline Elements are the type of elements which occupy the space bounded by its parent element. As the name suggests these elements these elements are restricted to a particular line only. Moreover, they are included as part of main text only and not as a separate section.
-An Inline Element does not start on a new line.
+Basically Inline Elements are the type of elements which occupy the space bounded by its parent element. As the name suggests these elements these elements are restricted to a particular line only. Moreover, they are included as part of main text only and not as a separate section. An Inline Element does not start on a new line.
 
 Examples of Inline Elements
 
@@ -36,7 +35,7 @@ Examples of Inline Elements
 
 ![image](https://user-images.githubusercontent.com/65715910/134344755-1cca59db-4486-4827-91e4-2ddd7837b1fe.png)
 
-
+ 
 ***
     
 ## Block Elements
