@@ -29,7 +29,7 @@ In this project, we'll talk about Deque (Double Ended Queue), a topic under The 
 - maps
 - stack
 - queue
-- [deque](https://github.com/ankushsingh24/winter-of-contributing/tree/C_CPP/C_CPP/Deque/Deque%20STL%20in%20%20C%2B%2B)
+- [deque](https://github.com/ankushsingh24/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc)/Deque/Deque%20STL%20in%20%20C%2B%2B)
 - set
 - map
 - multimap
