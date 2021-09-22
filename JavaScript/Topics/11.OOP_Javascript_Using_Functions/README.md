@@ -15,7 +15,8 @@ Let's see
 - scratch
 - Code (may be)
   
-![Cat coding](./images/cat.gif)
+![Cat coding](./images/cat.gif)  
+**Image source [Giphy](https://giphy.com/)**
   
 So a cat have all these characteristics and can also perform the above actions. So this is an example of a real life object.
 
