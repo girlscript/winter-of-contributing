@@ -1,1 +1,1 @@
-- [Installation](installation.md)
+- [Installation Guide](installation.md)
