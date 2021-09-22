@@ -1,8 +1,13 @@
 Name-Arya Gupta
+
 Domain-Frontend with HTML CSS
+
 Batch-16
+
 Serial No-3172
+
 Issue Number-1150
+
 Type-Audio
 
 Asynchronous Javascript and XML is a set of technologies that allows us to bring improvements to the UI and UX of a webpage. XML (Extensible Markup Language) is used for storing 
