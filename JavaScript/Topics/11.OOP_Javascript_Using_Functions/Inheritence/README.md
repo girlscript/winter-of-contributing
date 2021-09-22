@@ -117,5 +117,4 @@ console.log(myPrototype);
 ## Summary
 Inheritance in JavaScript is when an object is based on another object. Inheritance allows us to reuse existing code, having objects take on properties of other objects. That's it the end of discussion.
 
-> Author :
-> <cite>[Arpan Mondal](https://github.com/arp99)</cite>
+__Contributor:__ [Arpan Mondal](https://www.github.com/arp99)
