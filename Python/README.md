@@ -22,6 +22,8 @@
 - [Loop Break](./Loops_Break)
 - [Decorators](./Decorators)
 - [What_is_Filter_in_python](./What_is_Filter_in_python)
+- [OOP-Class](./OOP-Class)
+- [Advanced_function_reduce()](./Advanced_function_reduce())
 
 ## Learning path
 1. Git & GitHub
@@ -38,3 +40,5 @@
 12. Loop Break
 13. Decorators
 14. What_is_Filter_in_python
+15. OOP-Class
+16. Advanced function-reduce()
