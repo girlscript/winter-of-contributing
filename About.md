@@ -26,4 +26,14 @@ Few important parameters and their usage are listed below:
 9.      feature_fraction : It specifies the fraction of features to be considered in each iteration. The default value is one.
 
 
+References:
 
+https://www.geeksforgeeks.org/lightgbm-vs-xgboost-which-algorithm-is-better/
+https://www.analyticsvidhya.com/blog/2017/06/which-algorithm-takes-the-crown-light-gbm-vs-xgboost/
+https://www.geeksforgeeks.org/ml-gradient-boosting/
+https://www.geeksforgeeks.org/xgboost-for-regression/
+https://www.geeksforgeeks.org/ml-xgboost-extreme-gradient-boosting/
+https://www.geeksforgeeks.org/boosting-in-machine-learning-boosting-and-adaboost/
+https://www.geeksforgeeks.org/xgboost/
+https://medium.com/@pushkarmandot/https-medium-com-pushkarmandot-what-is-lightgbm-how-to-implement-it-how-to-fine-tune-the-parameters-60347819b7fc
+https://www.geeksforgeeks.org/lightgbm-light-gradient-boosting-machine/#:~:text=LightGBM%20is%20a%20gradient%20boosting,model%20and%20reduces%20memory%20usage.&text=Gradient%2Dbased%20One%20Side%20Sampling%20Technique%20for%20LightGBM%3A,the%20computation%20of%20information%20gain.
