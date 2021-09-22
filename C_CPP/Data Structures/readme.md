@@ -1,0 +1,3 @@
+- [Graphs](Data%20Structures/Graphs)
+- [Standard Template Library (Vectors, Maps etc)](Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc))
+- [User Defined (Fenwick Tree, Segment Tree etc)](Data%20Structures/User%20Defined%20(Fenwick%20Tree%2C%20Segment%20Tree%20etc))
