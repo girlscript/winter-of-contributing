@@ -2,15 +2,21 @@
 
 ---
 
-The only difference between Classes and Ids is that “id” is unique in a page and can only apply to at most one element, while “class” selector can apply to multiple elements.
+In CSS, selectors are used to target a specific element or range of elements on a web page. Once an element has been targeted, a style or set of styles can be applied to the element.
+
+There is a wide range of selectors available. Two of the most commonly used are `CLASS` and `ID`. Both are used to target elements to which a style should be applied.
 
 ---
 
 ## **CLASS SELECTORS**
 
 A Class is a style definition that you create in pretty much the same way as you created a global style , but it isn't necessarily bound to any one tag . Instead , you can apply it anywhere you like . The class selector starts with a dot (.) character.
+
+_The class name is case sensitive._
 <br>
-The class name is case sensitive
+_You can use the same class on multiple elements._
+<br>
+_You can use multiple classes on the same element._
 
 ```
 .highlight {
@@ -18,10 +24,22 @@ The class name is case sensitive
 }
 ```
 
+## When to assign an Class attribute to an HTML element :
+
+1. As a style sheet selector (when an author wishes to assign style information to a set of elements).
+2. For general purpose processing by user agents.
+
+---
+
 ## **ID SELECTORS**
 
 In addition to classes , you can use IDs to apply styles to your pages Except for the syntax , assigning a style to an ID isn't any different from assigning one to a class , and the usage is also similar. The id selector starts with a hash (#) character.
+
+_The ID name is case sensitive._
 <br>
+_Each element can have only one ID_
+<br>
+_Each page can have only one element with that ID_
 
 ```
 #highlight {
@@ -29,11 +47,26 @@ In addition to classes , you can use IDs to apply styles to your pages Except fo
 }
 ```
 
+## When to assign an id attribute to an HTML element :
+
+1. stylize that element differently than other elements of the same type.
+2. link to a particular element within a web page.
+
+3. directly access that element using Javascript.
+
 ---
 
-Difference Between Class and ID
+## **DIFFERENCE BETWEEN `CLASS` AND `ID`**
+
+## <br>
+
+The only difference between `Class` and `Id` is that _ID_ is unique in a page and can only apply to at most one element, while _Class_ selector can apply to multiple elements.
 <br>
---
+|CLASS | ID|
+-------| -------------
+|On the other hand class assigned to an element has its name starts with “.” followed by class name. | In Html for an element ID name starts with the “#” symbol followed by a unique name assigned to it|
+Multiple class selectors can be attached to an element.| Only one ID selector can be attached to an element.
+|Id is unique in a page and can only apply to at most one element|The class can be applied to multiple elements so it could be multiple times on a single page.|
 
 ```
 <!DOCTYPE html>
@@ -81,3 +114,22 @@ Difference Between Class and ID
 
 
 ```
+
+Output Of The Above Code
+<br>
+--
+![1](./1.jpg)
+
+---
+
+## **WHEN TO USE CLASS VS ID IN CSS**
+
+<br>
+
+The basic rule that you need to keep in mind while using classes and ids in CSS is that, id is used for single elements that appear on the page for only once **(e.g. header, footer, menu)**, whereas class is used for single or multiple elements that appear on the page for once or more than once **(e.g. paragraphs, links, buttons, input boxes)**.
+
+## **CONCLUSION**
+
+---
+
+When you’re working with CSS, there are no specific reasons forcing you to use an ID over a class. However, it is best practice to only use IDs if you want a style to apply to one element on the web page, and to use classes if you want a style to apply to multiple elements.
