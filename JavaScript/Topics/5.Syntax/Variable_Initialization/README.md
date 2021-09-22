@@ -25,7 +25,7 @@ Then we "output" the value inside an HTML paragraph with id="demo":
 #### Example
     <p id="demo"></p>
     <script>
-    var carName = "Volvo";
+      var carName = "Volvo";
     document.getElementById("demo").textContent = carName;
     </script>
 
