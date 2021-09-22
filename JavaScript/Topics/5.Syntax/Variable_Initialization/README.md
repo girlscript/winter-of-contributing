@@ -19,7 +19,7 @@ To assign a value to the variable, use the equal sign:
 You can also assign a value to the variable when you declare it:
 
     var carName = "Volvo";
-In the example below, we create a variable called carName and assign the value "Volvo" to it.
+In the example above, we create a variable called carName and assign the value "Volvo" to it.
 
 Then we "output" the value inside an HTML paragraph with id="demo":
 #### Example
