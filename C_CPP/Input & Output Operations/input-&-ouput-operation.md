@@ -13,11 +13,11 @@ When we mention **Output**, we mean show some data on the screen, printer, or in
 ```
 # Print Hello World
 
-#include<stdio.h>   # Step1: Include Header File.
-int main()  # Step2: main() Function where the program execution begins
+#include<stdio.h>  
+int main()  
 {
-    printf("Hello, World!");    # Step3: Printing the String 
-    return 0;   # Step4: Terminates the main() function
+    printf("Hello, World!");     
+    return 0;   
 }
 ```
 **Output**
