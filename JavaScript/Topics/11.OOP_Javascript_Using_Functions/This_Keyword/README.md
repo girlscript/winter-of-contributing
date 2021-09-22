@@ -165,3 +165,5 @@ add.apply(window, [20, 5])
 In the next section I will discuss most usable feature of Object Oriented Programming: `Inheritence`
 
 [Inheritence](../Inheritence/README.md)
+
+__Contributor:__ [Arpan Mondal](https://www.github.com/arp99)

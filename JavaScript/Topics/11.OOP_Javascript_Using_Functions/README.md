@@ -52,3 +52,5 @@ const cat = {
 But this is just one cat, what if we want to have many such similar cats with different characteristic, how can we create ? To answer this I will continue the discussion in the next topic of `constructor functions`
 
 [Constructor Functions](Constructor_Functions/README.md)
+
+__Contributor:__ [Arpan Mondal](https://www.github.com/arp99)
