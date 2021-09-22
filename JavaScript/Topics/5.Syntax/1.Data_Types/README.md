@@ -107,7 +107,7 @@ let person = {
     eyeColor:"blue"};
 ```
 ## 2. Arrays
-Arrays are collection of values of similar data type.
+Arrays are collection of values of similar data type. In JavaScript, array can also be a collection of data of different data types.
 
 JavaScript Arrays are written with square bracket<kbd>[ ]</kbd>, seperated by commas.
 
