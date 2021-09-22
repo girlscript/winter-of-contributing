@@ -24,7 +24,7 @@ Structure variables can be initialized. The initialization for each variable mus
 
 If you find this syntax a bit complicated, don't worry guys.
 
-Open [structure in C++], for a beginner friendly documentation.
+Open [structure in C++](https://github.com/ankushsingh24/winter-of-contributing/tree/C_CPP/C_CPP/Procedural%20Structures/Structure/Structure%20in%20C%2B%2B), for a beginner friendly documentation.
 
 Happy Learning.
 
