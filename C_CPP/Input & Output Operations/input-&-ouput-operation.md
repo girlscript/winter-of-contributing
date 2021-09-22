@@ -5,6 +5,11 @@ When we mention **Output**, we mean show some data on the screen, printer, or in
 
 ```Printf()``` is a common output function in C programming. The function's output is sent to the screen in formatted form. For example,
 
+* Step1: Include Header File.
+* Step2: main() Function where the program execution begins.
+* Step3: Printing the String using ``printf()`` Function.
+* Step4: Terminates the main() function.
+
 ```
 # Print Hello World
 
@@ -28,20 +33,27 @@ A command line or a file can be used as an input. To read input, the C programmi
 
 ``Scanf()`` is a widely used function in C programming to receive user input. Standard input like keyboards may be scanned using the ``scanf()`` method. For example,
 
+* Step1: Include Header File.
+* Step2: main() Function where the program execution begins.
+* Step3: Declare the variable.
+* Step4: Taking User Input.
+* Step5: Printing the user input value.
+* Step6: Terminates the main() function.
+
 ```
 # Taking User Input
 
-#include<stdio.h>   # Step1: Include Header File.
-int main()  # Step2: main() Function where the program execution begins
+#include<stdio.h>  
+int main()  
 {
-   int a;   # Step3: Declare the variable.
+   int a;   
    printf("Enter Number : ");   
 
-   scanf("%d", a);  # Step4: Taking User Input.
+   scanf("%d", a);  
 
-   printf("Number : %d", a);    $ Step5: Printing the user input value
+   printf("Number : %d", a);    
 
-   return 0;    # Step6: Terminates the main() function
+   return 0;    
 }
 ```
 
