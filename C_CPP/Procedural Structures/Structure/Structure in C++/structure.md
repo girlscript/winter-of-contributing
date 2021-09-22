@@ -9,6 +9,7 @@ It is also similar to a Class, as a Class also store different data types in it.
 ![Structure](https://github.com/ankushsingh24/winter-of-contributing/blob/C_CPP/C_CPP/Procedural%20Structures/Structure/Diagram/structure-in-cpp.png)
 
 <br>
+
 ## Syntax Of Structure
 
 ```
