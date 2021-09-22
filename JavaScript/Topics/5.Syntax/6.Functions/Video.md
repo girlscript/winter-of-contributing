@@ -16,7 +16,7 @@ Wait.. lets break it into different parts first
 function myFunction(p1, p2) {
     return p1 * p2; // The function returns the product of p1 and p2
 }
-
+```
 But before learning functions, lets learn about **scope**.
 
 <hr>
@@ -30,7 +30,7 @@ Let’s see by an example
 if (true) {
     const a = 2;
 }
-
+```
 console.log(a); //ReferenceError
 
 Because (**if**) block creates a scope for `a` and `a` can be used within that scope only.
@@ -68,7 +68,7 @@ function sum(a,b) {
 }
 
 sum(10,12);
-
+```
 <hr>
 
 Lets now look at different types of functions:
@@ -83,7 +83,7 @@ const show = function(){
 }
 	
 show();
-
+```
 **Named/Generator function**
 
  - This is useful when we have to call it many times and pass different
@@ -93,7 +93,7 @@ show();
 function subtract(num1, num2) {
 	return num1 - num2;
 }
-
+```
 **Arrow Functions**
 
  - Its a compact way to express a function
