@@ -119,7 +119,7 @@ The above code increases width of div element by 2 times.
   transform: skew(50deg, 20deg);
 }
   ```
-Thise skews the <div> element 50 degrees along the X-axis, and 20 degrees along the Y-axis:
+Thise skews the div element 50 degrees along the X-axis, and 20 degrees along the Y-axis:
 
 If the second parameter is not specified, it has a zero value.
   
@@ -147,3 +147,66 @@ If the second parameter is not specified, it has a zero value.
   transform: skewY(20deg);
 }
   ```
+  
+  ## matrix()
+  
+  * The matrix() method combines all the 2D transform methods into one.
+  * The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements.
+  * The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
+
+```css
+  div {
+  transform: matrix(1, -0.5, 1, 1, 0, 0);
+}
+  ```
+  
+  ## Multiple Values:
+  With a space-separated list you can add multiple values to the transform property:
+
+```css
+  .div {
+  width: 20px;
+  height: 20px; 
+  transform: scale(20) skew(-20deg);
+}
+  ```
+  
+  ## 3D Transforms:
+  CSS also supports 3D transformations. Most of the above properties have 3D versions of them.
+
+  ## translate3d() or translateZ()
+The third value in translate3d or the value in translateZ moves the element toward the viewer, negative values away.
+  ```css
+  translate3d(x, y, z)
+  translateZ(z)
+  ```
+  
+  ## scale3d or scaleZ()
+  The third value in scale3d or the value in scaleZ affects the scaling along the z-axis.
+  
+  ```css
+  scale3d(sx, sy, sz)
+  scaleZ(sz)
+  ```
+  
+  ## rotate3d or rotateX or rotateY or rotateZ
+rotateX and rotateY will rotate an element in 3D space around those axises. rotate3d allows you to specify a point in 3D space in which to rotate the element around.
+  
+  ```css
+  rotateX(value)
+  rotateY(value)
+  rotate3d(x, y, z)
+  ```
+  
+  ## perspective()
+  This value doesn’t affect the element itself, but it affects the transforms of descendent elements’ 3D transforms, allowing them to all have a consistent depth perspective.
+  The perspective is what gives us the 3D impression. The farther from the viewer the elements are, the smaller they are.
+  
+  ```css
+  perspective(value)
+```
+  
+  
+  
+  
+  
