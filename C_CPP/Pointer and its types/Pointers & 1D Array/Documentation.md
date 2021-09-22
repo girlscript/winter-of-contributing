@@ -27,7 +27,7 @@ This will create a ```1D array``` for ```10``` element of type ```int``` in the 
 
 <br>
 
-![Diagram](Diagrams/Diagram1.png)
+![Diagram1](https://user-images.githubusercontent.com/87887741/134401544-9df57d72-3160-496e-bdaf-c82afb88b2f6.png)
 
 </p><br>
 
@@ -50,7 +50,7 @@ This will allocate ```consecutive memory``` for ```m``` elements and returns a `
 
 <br>
 
-![Diagram](Diagrams/Diagram1.png)
+![Diagram2](https://user-images.githubusercontent.com/87887741/134401665-e19d460f-209b-4839-8b57-28769eacc5b3.png)
 
 </p><br>
 
