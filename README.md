@@ -19,4 +19,4 @@ Please follow the [contributing guidelines](./.github/CONTRIBUTING.md) to contri
 This project and everyone participating in it is governed by the [GirlScript Code of Conduct](./.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code
 
 ## Stack Roadmap 
-[Database Roadmap](https://github.com/girlscript/winter-of-contributing/blob/Database/Roadmap.xlsx)
+[Database Roadmap](https://docs.google.com/spreadsheets/d/1WRyc9oL6T6GuhoqUxyEv6lu2wIAPiV0B/edit?usp=sharing&ouid=112029512696232086411&rtpof=true&sd=true)
