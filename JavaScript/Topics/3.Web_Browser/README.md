@@ -48,7 +48,7 @@ a) If the `<script>` content is inside the `<body>` content, then make sure to i
     <script>
         "use strict";
         let x = document.getElementById("main");
-        x.innerHTML = "Internal JavaScript";
+        x.textContent = "Internal JavaScript";
     </script>
 </body>
 </html>
@@ -75,7 +75,7 @@ After adding the `window.onload` function:
         "use strict";
         window.onload = function what() {
             let x = document.getElementById("main");
-            x.innerHTML = "Internal JavaScript";
+            x.textContent = "Internal JavaScript";
         };
     </script>
 </head>
@@ -102,7 +102,7 @@ The js file is shown below:<br>
 "use strict";
 window.onload = function what() {
     let x = document.getElementById("main");
-    x.innerHTML = "External JavaScript";
+    x.textContent = "External JavaScript";
 };
 
 ```
