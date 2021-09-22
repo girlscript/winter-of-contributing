@@ -25,3 +25,5 @@ typedef struct Map
 ### The *telno* is used to get a key for the hashmap used using a suitable hash function.
 
 ### This problem then maps the telephone no. to the name of an entry. 
+
+[C_CPP : Maps in C](https://github.com/a-rcane/winter-of-contributing/blob/C_CPP/C_CPP/Introduction%20of%20C/maps.c)
