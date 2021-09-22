@@ -55,7 +55,7 @@ Step 2:Inside the ./Components create a new file called 'HelloWorld.js'
 
 Step 3:Put the following code in **HelloWorld.js**
 
-```
+```javascript
 
 const HelloWorld = () => {
     return (
@@ -81,7 +81,7 @@ Step 4 :You can now easily import it to **./App.js**.
 
 To do so,replace the code in ./App.js with the following:
 
-```
+```javascript
 
 import "./App.css";
 import HelloWorld from "./Components/HelloWorld";
@@ -113,7 +113,7 @@ React is known for the functionality of creating reuable components.
 
 They still look the same without having to repeat the same code again and again.Let's convert our HelloWorld Component into a Reusable One.To do so,let's make some minor changes and add a prop to our HelloWorld Component.
 
-```
+```javascript
 
 const HelloWorld = props => {
     return (
@@ -131,7 +131,7 @@ export default HelloWorld;
 
 These props hold the information to be passed so that it is reusable .You can pass the value to these props from the parent component i.e. ./App.js in this way.
 
-```
+```javascript
 
 import "./App.css";
 import HelloWorld from "./Components/HelloWorld";
