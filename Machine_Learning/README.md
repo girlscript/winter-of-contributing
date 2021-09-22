@@ -17,6 +17,9 @@
    - **1.8. A/B Testing**
    - **1.9. Hypothesis Testing**
    - **1.10. P-Value**
+   - **1.11. Skewness**
+   - **1.12. Confusion Matrix**
+   - **1.13. Types of distribution**
 
 ### :yellow_circle: *Week 2 [Supervised Machine Learning (Classic Algorithms)]* :
    - **2.1. What is Learning? Why Machine Learning works?**
@@ -26,6 +29,10 @@
    - **2.5. Implementing Linear Regression with Logistic Regression**
    - **2.6. K-Nearest Neighbour Algorithms**
    - **2.7. Decision Trees**
+   - **2.8. Implement kNN+DT**
+   - **2.9. Support Vector Machines**
+   - **2.10. Naive Bayes**
+   - **2.11. Implement SVMs+NBs**
 
 *N.B.: Upcoming roadmap will be published as the program goes!*
 

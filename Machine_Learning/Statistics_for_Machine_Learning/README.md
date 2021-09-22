@@ -12,3 +12,4 @@
    - **1.10. P-Value**
    - **1.11. Skewness**
    - **1.12. Confusion Matrix**
+   - **1.13. Types of Distribution**
