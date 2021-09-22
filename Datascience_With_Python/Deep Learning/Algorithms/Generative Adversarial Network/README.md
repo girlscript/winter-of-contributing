@@ -21,5 +21,7 @@ So, the generative network creates candidates while the discriminative network j
 
 Firstly, the generator is equipped with fixed-length random data as input. This data is drawn from predefined latent space. Then the generator is trained by deceiving the discriminator enough. Finally, the discriminator evaluates them and specifies the real and fake data. Initially, the discriminator is trained with a known dataset until it reaches acceptable accuracy. It is a simple classification model. After training has been done, the discriminator is terminated. Independent backpropagation can help to produce better sample data.
 
-![Model Architecture](Datascience_With_Python/Deep Learning/Algorithms/Generative Adversarial Network/Images/generative-adversarial-network.png)
+![Model Architecture](https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Deep%20Learning/Algorithms/Generative%20Adversarial%20Network/Images/generative-adversarial-network.png)
+
+
 
