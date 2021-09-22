@@ -5,7 +5,7 @@ The Winter of Security (MWOS) is a program organized by Mozilla's Security teams
 Projects are focused on building security tools, and students are expected to write code which must be released as Open Source. Universities are free to specify their own requirements to projects, such as written reports. Mozilla does not influence the way grades are allocated, but advisers will provide any information professors need in order to grade their students.
 
 ## Selection Process
-Selection process
+
 Projects are assigned to groups of students. Groups are defined by the universities, and can be of any size between 1 and 4 students. The selection process is open to all students in undergraduate/license and graduate/master programs. A group applies to up to 3 projects by submitting an application that contains:
 
 - The names of the projects the team is applying to
