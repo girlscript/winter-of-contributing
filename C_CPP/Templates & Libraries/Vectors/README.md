@@ -14,16 +14,16 @@ Certain functions associated with the vector are:
 8. **clear()** - Used to clear all the elements from the vector
 
 ## INDEX
-1. [Declaring a Vector](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#declaring-an-vector)
-2. [Insertng elements](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#inserting-elements)
-3. [Deleting elements](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#deleting-elements)
-4. [clear function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#clear-function)
-5. [size function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#size-function)
-6. [empty function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#empty-function)
-7. [capacity function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#capacity-function)
-8. [at function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#at-function)
-9. [front and back function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#front-and-back-function)
-10. [Test code](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#test-code)
+1. [Declaring a Vector](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#declaring-an-vector)
+2. [Inserting elements](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#inserting-elements)
+3. [Deleting elements](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#deleting-elements)
+4. [clear function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#clear-function)
+5. [size function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#clear-function)
+6. [empty function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#empty-function)
+7. [capacity function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#capacity-function)
+8. [at function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#at-function)
+9. [front and back function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#front-and-back-function)
+10. [Test code](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries/Vectors#test-code)
 
 
 ## Declaring an Vector
@@ -150,7 +150,7 @@ using namespace std;
 
 int main()
 {
-    vecto<int>v {1,2,3,4};
+    vector<int>v {1,2,3,4};
     vector<int>iterator:: it = v.begin();
     
     v.erase(it);   //removes first element from the vector
@@ -306,3 +306,5 @@ Output:
 >Before clear2
 >
 >After Clear 0
+
+---
