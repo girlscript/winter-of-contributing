@@ -24,7 +24,7 @@ To open the JavaScript Console in Chrome, you can navigate to the menu at the to
 
 This will open a panel where you can click on Console along the top menu bar to bring up the JavaScript Console if it is not highlighted already:
 
-![image2](images/image2.PNG)
+![image2](images/image2.png)
 
 You can also enter into the JavaScript Console by using the keyboard shortcut CTRL + SHIFT + J on Linux or Windows, or COMMAND + OPTION + J on macOS, which will bring focus immediately to the Console.
 
