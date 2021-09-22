@@ -11,15 +11,24 @@ There are some rules while declaring a JavaScript variable (also known as identi
    1. Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
    2. After first letter we can use digits (0 to 9), for example value1.
    3. JavaScript variables are case sensitive, for example x and X are different variables.
-
+## Correct JavaScript variables
+```js
+    var x = 10;  
+    var _value="sonoo";  
+```
+## Incorrect JavaScript variables
+```js
+    var  123=30;  
+    var *aa=320;  
+```
 Creating variables in JavaScript is most often referred to as "declaring" variables.
 There are 3 ways to declare a JavaScript variable:
    1. Using **var**
    2. Using **let**
    3. Using **const**
+
 ## Javascript var Variable
 Before the advent of ES6, var declarations ruled. There are issues associated with variables declared with var, though. That is why it was necessary for new ways to declare variables to emerge.**var variables can be re-declared and updated.**
-
 First, let's get to understand var more before we discuss those issues.
 ## Syntax For Variable *var*:-
 ```js
