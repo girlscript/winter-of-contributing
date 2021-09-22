@@ -1,4 +1,5 @@
 ### Link the thumbnail and follow along the audio and slide to know about CDF and PDF :
+<br>
 
 
 
