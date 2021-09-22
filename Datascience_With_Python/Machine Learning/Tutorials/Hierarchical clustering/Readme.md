@@ -63,7 +63,7 @@
 
 ## 1. MIN
 
-This is also known as single-linkage algorithm can be defined as the similarity of two clusters C1 and C2 is equal to the minimum of the similarity between points Pi and Pj such that Pi belongs to C1 and Pj belongs to C2.
+- This is also known as single-linkage algorithm can be defined as the similarity of two clusters C1 and C2 is equal to the minimum of the similarity between points Pi and Pj such that Pi belongs to C1 and Pj belongs to C2.
 
 ![image](https://user-images.githubusercontent.com/63282184/134361351-425dc982-d8e2-4e40-9d0c-3b31c756ecea.png)
 
@@ -80,15 +80,80 @@ This is also known as single-linkage algorithm can be defined as the similarity 
 ![image](https://user-images.githubusercontent.com/63282184/134362687-2ab3c381-ac48-4897-9898-b0caf2f84ac8.png)
 
 
+## 2. **MAX**
+
+- It is known as the complete linkage algorithm, this is exactly opposite to the MIN approach.
+- The similarity of two clusters C1 and C2 is equal to the maximum of the similarity between points Pi and Pj such that Pi belongs to C1 and Pj belongs to C2.
+
+![image](https://user-images.githubusercontent.com/63282184/134370428-a5aacc66-0a50-4ecb-9a14-e0071228d3db.png)
+
+**Advantages of Max:**
+
+- MAX approach does well in separating clusters if there is noise between clusters.
+
+![image](https://user-images.githubusercontent.com/63282184/134370685-c2aeb43d-fd7a-4829-91ad-eeab1d12c375.png)
 
 
+**Disadvantages of Max:**
+
+- Max approach is biased towards globular clusters.
+- Max approach tends to break large clusters.
+
+![image](https://user-images.githubusercontent.com/63282184/134370833-4922c60f-199d-46ad-83e9-5ff47a049e8e.png)
 
 
+## 3. **Group Average**
+
+- Take all the pairs of points and compute their similarities and calculate the average of the similarities.
+
+![image](https://user-images.githubusercontent.com/63282184/134370997-145e13bc-14f7-42cc-ac9e-df1767d2c993.png)
 
 
+**Advantages of Group Average:**
+- The group Average approach does well in separating clusters if there is noise between clusters.
+
+**Disadvantages of Group Average:**
+- The group Average approach is biased towards globular clusters.
 
 
+## 4. **Distance Between Centroids**
 
+- Compute the centroids of two clusters C1 & C2 and take the similarity between the two centroids as the similarity between two clusters. 
+- This is a less popular technique in the real world.
+
+![image](https://user-images.githubusercontent.com/63282184/134371740-1cc9cd6d-8162-4f81-ae3f-84f3d559d8b1.png)
+
+
+## 5. **Ward’s Method**
+
+- This approach of calculating the similarity between two clusters is exactly the same as Group Average except that Ward’s method calculates the sum of the square of the distances Pi and PJ.
+
+**Advantages of Ward's Method:**
+- Ward’s method approach also does well in separating clusters if there is noise between clusters.
+
+**Disadvantages of Ward's Method:**
+- Ward’s method approach is also biased towards globular clusters.
+
+## Space and Time Complexity of Hierarchical clustering Technique:
+
+**Space complexity:**
+
+- The space required for the Hierarchical clustering Technique is very high when the number of data points are high as we need to store the similarity matrix in the RAM. The space complexity is the order of the square of n.
+
+- **Space complexity = O(n²)** where n is the number of data points.
+
+**Time complexity:**
+
+- Since we’ve to perform n iterations and in each iteration, we need to update the similarity matrix and restore the matrix, the time complexity is also very high. The time complexity is the order of the cube of n.
+
+- **Time complexity = O(n³)** where n is the number of data points.
+
+## Limitations of Hierarchical clustering Technique:
+
+1. There is no mathematical objective for Hierarchical clustering.
+2. All the approaches to calculate the similarity between clusters has its own disadvantages.
+3. High space and time complexity for Hierarchical clustering. Hence this clustering algorithm cannot be used when we have huge data.
+  
 
 
 
