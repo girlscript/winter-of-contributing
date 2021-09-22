@@ -1,5 +1,5 @@
 
-# Project Title
+# Decorators
 
 A video for beginners to get knowledge about decorators.
 
