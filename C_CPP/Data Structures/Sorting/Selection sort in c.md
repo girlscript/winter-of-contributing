@@ -58,7 +58,7 @@ int main(){
 
 ```
 #### For complexity of Selection Sort Algorithm
-<p>Considering the above array A with N elements ,let there be f(N) no.of comparisions which is independent of the original order of elements.This means that while searching the smallest element in first case there will be(N-1) comparisions, then there will be (N-2) comparisions while looking for the second most smallest element in second case and so on.</p>
+<p>Considering the above array A with N elements ,let there be f(N) no.of comparisons which is independent of the original order of elements.This means that while searching the smallest element in first case there will be(N-1) comparisions, then there will be (N-2) comparisions while looking for the second most smallest element in second case and so on.</p>
 <p>So now f(N)= (N-1) + (N-2) ....+ 2 + 1 = (N(N-1)/2)= O(N^2)</p>
 From this we get both the worst and average case for the selection sort algorithm is O(N^2).
 Also,the number of swaps and assignments doesn't depend upon on the original order of elements of array and the sum of these operations doesn't exceed a factor of N^2.
