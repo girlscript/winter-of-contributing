@@ -3,6 +3,8 @@
 Algorithm analysis is an important part of computational complexity theory, which provides theoretical estimation for the required resources of an algorithm to solve a specific computational problem. Most algorithms are designed to work with inputs of arbitrary length. Analysis of algorithms is the determination of the amount of time and space resources required to execute it.
 
 <img src="https://lastmomenttuitions.com/wp-content/uploads/2019/08/AOA.jpg" width="500" height="300">
+Image Reference:- https://lastmomenttuitions.com/course/analysis-of-algorithm/
+
 
 Usually, the efficiency or running time of an algorithm is stated as a function relating the input length to the number of steps, known as **time complexity**, or volume of memory, known as **space complexity**.
 
