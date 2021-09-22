@@ -1,11 +1,10 @@
-<hr>
 
 # CSS VALUES AND UNITS
 
 ## CSS Properties and Values
 Now before we get into units, we must have some basic knowledge about what *properties* are. The CSS Properties are used to modify and customise the standard HTML elements like divs, paragraphs, sections and a whole lot more according to our own free will. CSS declarations work in a property / value pair. In short a property is **what you want to modify** in a page and the value you set tells you **how you want to modify it**. Example:
 
-```
+```css
 .redbox{
   height:100px;
   width:100px;
@@ -64,40 +63,38 @@ Relative units are units that take up their value relative to a parent element. 
 Now, usage of each of these unit depends totally on the scenario. Let us see few scenarios..
 
 - em and rem will be mostly used to alter the size of the font your webpage. For example, when you want the font size of the child element to be half as that of the parent element, you would do something like
-```
+```css
 .child-content{
-font-size: 0.5rem
+  font-size: 0.5rem;
 }
 ```
 
 - % is used more often used in modifying the layout of the page
-```
+```css
 .box{
-  width:100% // takes up 100% of the screen's width
+  width:100%; // takes up 100% of the screen's width
 }
 ```
 - rem is used when you want the a particular font with a size relative to the root element's font-size
-```
+```css
 .remfont{
-  font-size:2rem //2 times the font-size of root element
+  font-size:2rem; //2 times the font-size of root element
 }
 ```
 - vh and vw both are used when something must have the dimensions of the viewport
 
-```
+```css
 .box{
   height:100vh; // takes up the full height of the viewport
-  width:100vw // takes up the full width of the viewport
+  width:100vw; // takes up the full width of the viewport
 }
 ```
 - vmin and vmax are used when an element has to take up its dimensions relative to the the screen's smaller dimension or the larger dimension.
 
-```
- .cat-image{
+```css
+.cat-image{
   height:20vmin; // takes up 20% of the screen's minimum dimension as its height
-  width:10vmax // takes up 10% of the screen's maximum dimension as its width
+  width:10vmax; // takes up 10% of the screen's maximum dimension as its width
  }
 ```
-Thanks for reading !
 
-<hr>
