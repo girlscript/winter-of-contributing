@@ -4,14 +4,14 @@ Vectors are same as dynamic arrays with the ability to resize itself automatical
 
 Certain functions associated with the vector are:
 
-1. begin() – Returns an iterator pointing to the first element in the vector
-2. end() – Returns an iterator pointing to the theoretical element that follows the last element in the vector
-3. capacity() - Returns the capacity of the vector.
-4. size() - Returns the size of the vector (number of elements)
-5. at() - Returns the element of the vector at the position specifiesd
-6. push_back() - Used to push element into the vector
-7. pop_back() - Used to pop the last element from the vector
-8. clear() - Used to clear all the elements from the vector
+1. *begin()* – Returns an iterator pointing to the first element in the vector
+2. *end()* – Returns an iterator pointing to the theoretical element that follows the last element in the vector
+3. *capacity()* - Returns the capacity of the vector.
+4. *size()* - Returns the size of the vector (number of elements)
+5. *at()* - Returns the element of the vector at the position specifiesd
+6. *push_back()* - Used to push element into the vector
+7. *pop_back()* - Used to pop the last element from the vector
+8. *clear()* - Used to clear all the elements from the vector
 
 ## INDEX
 1. Declaring a Vector
@@ -26,48 +26,49 @@ Certain functions associated with the vector are:
 10. Test code
 
 
-### Declaring an Vector
+## Declaring an Vector
+
 * Declaring a vector of integers
 
-`
+```
 #include <vector>
 
 int main()
 {
     std::vector<int> v;  //Declare an empty vector named (v) of integer data type
 }
-`
+```
 
 * Declaring a vector of strings
 
-`
+```
 #include <vector>
 
 int main()
 {
     std::vector<string> v {"Aditya" ,"The" ,"Competitive" ,"Coder"};
 }
-`
+```
 
 * Initializing a vector with one element a certain number of times
 
-`
+```
 #include <vector>
 
 int main()
 {
     std::vector<string> v(4 , "test");
 }
-`
+```
 
-IMage
+There is an image
 
 ## Inserting Elements
 
 ### push_back function
 push_back() is used for inserting an element at the end of the vector. If the type of object passed as parameter in the push_back() is not same as that of the vector or is not interconvertible an exception is thrown.
 
-IMAGE
+Image here
 
 Code:
 
