@@ -1,6 +1,6 @@
 <h1 align = "center"><strong>Valid Brackets Using Stack</strong></h1>
 <hr>
-<h2>Problem Statement :- <br><br><em><strong> • Check for Balanced Brackets in an expression (well-formedness) using Stack </strong></em></h2>
+<h2>Problem Statement :- <br><br><em><strong> • Check for Balanced Brackets in an expression using Stack.</strong></em></h2>
 <hr>
 <h2><strong>Brackets which we all most commonly use or encounter are of 3 main types :-</strong></h2>
 <ul>
