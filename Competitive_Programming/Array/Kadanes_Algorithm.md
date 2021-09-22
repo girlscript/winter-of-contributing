@@ -3,6 +3,8 @@
 ## What is Kadane's Algorithm?
 > Kadane's Algorithm is an algorithm to solve the "Maximum Subarray Sum" problem in the most efficient way. This algorithm is based on Dynamic Programming. 
 
+
+
 ## Problem Statement
 
 **Write a program to find the largest sum of contiguous array in efficient approach.**
@@ -10,16 +12,23 @@
 
 > Expected time complexity:- O(n) <br> Expected Auxiliary Complexity:- O(1) 
 
+
+
 <details>
     <summary> What is a contiguous Array? </summary>
     A contiguous array is just an array stored in an unbroken block of memory: to access the next value in the array, we just move to the next memory address
 </details>
 
+
+
 ## Explanation of Kadane's Algorithm
  Kadane's Algorithm, like other algorithms of Dynamic Programming works on the ideology of breaking the complex problem in smaller easily parts so that sub-problem appears and we can solve it easily.
 
+
+
 ### Approach
  The simple approach of Kadane’s algorithm is start looking for all positive elements of array and sum up them to store in a variable(let's say max_ending_here). Now, keep maintaining the track of maximum sum contiguous segment in another variable(max_so_far). Each time we get a positive-sum compare it with max_so_far and update max_so_far if it is greater than max_so_far. 
+
 
 
 ## Algorithm
@@ -38,6 +47,7 @@
     return max_so_far
 
 ```
+
 
 
 ## Implementation
