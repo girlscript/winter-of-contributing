@@ -9,6 +9,8 @@
 
 ![image](https://user-images.githubusercontent.com/63282184/134355337-737f160b-9d31-46f5-8e25-e927ba38bd14.png)
 
+
+
 ## **1. Agglomerative**
 
 - The agglomerative clustering is the most common type of hierarchical clustering which is used to group objects into clusters based on their similarity. 
@@ -36,7 +38,15 @@
 - In the end, we’ll be left with n clusters.
 - As we’re dividing the single clusters into n clusters, it is named as Divisive Hierarchical clustering.
 
+![image](https://user-images.githubusercontent.com/63282184/134359640-2caf09c0-338e-400f-a76a-aa1121f8531d.png)
 
+
+## Dendrogram
+**The Hierarchical clustering Technique can be visualized using a Dendrogram.**
+
+![image](https://user-images.githubusercontent.com/63282184/134359840-bb525d3f-ae04-4220-9d7d-af5234ac6de6.png)
+
+**A Dendrogram is a tree-like diagram that records the sequences of merges or splits.**
 
 
 
