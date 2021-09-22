@@ -17,7 +17,7 @@ Examples of Inline Elements
 
     
     
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -46,7 +46,7 @@ Examples of Block Elements
 
 `<div>` `<header>` `<footer>` `<form>` `<hr>` `<table>` `<section>` 
 
-```
+```html
 <!DOCTYPE html>
 <html>
     <head>
