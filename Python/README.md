@@ -25,7 +25,7 @@
 - [What_is_Filter_in_python](./What_is_Filter_in_python)
 - [OOP-Class](./OOP-Class)
 - [Advanced_function_reduce()](<./Advanced_function_reduce()>)
-- [Advanced_Function_Map](./Advanced_Function_map)
+- [Advanced_Function_Map](./Advanced_Function_Map)
 
 ## Learning path
 
