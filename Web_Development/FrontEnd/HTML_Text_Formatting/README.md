@@ -12,9 +12,15 @@ Following is the list of Formatting tags used in HTML :
 * `<i>` - This tag is used to make text Italic.
 * `<em>` - This tag is used to Emphasize text i.e displays the contents in Italic.
 * `<mark>` - This tag is used to highlight texts.
+* `<tt>` - This tag is used to display a text in Teletype . 
 * `<small>` - This tag is used to decrease the font size by one unit.
+* `<big>` - This tag is used to increase the font size by one unit.
 * `<del>` - This tag defines that the text has been deleted from the document.
+* `<s>` - This tag is used to diplay the text which is no longer correct or relevant.
+* `<code>` - This tag displays the text in monospaced font , used commonly to display source code.
+* `<pre>` - This tag is used to define preformatted text. The browsers displays the enclosed text with white spaces and line breaks.
 * `<ins>` - This tag displays the content which is added.
+* `<u>` - This tag is used to underline the text written within it.
 * `<sub>` - This tag is used to display the content slightly below the normal line.
 * `<sup>` - This tag is used to display the content slightly above the normal line.
 
@@ -79,39 +85,90 @@ This Element is used to mark or highlight a text .
 
 ![](images/mark.jpeg)
 
-5. **HTML \<small> Element.**
+5. **HTML \<tt> Element.**
 
-This tag is used to decrease the font size by one unit from base font size.
+This tag is a teletype element which applies monospace highlighting to the content.
+
+**Example**
+
+``` HTML
+    <p>This will add <tt>monospaced</tt> teletype in the text .</p>
+```
+**Output :**
+
+![](images/mono.jpeg)
+
+5. **HTML \<small> and \<big> Element.**
+
+The HTML \<small> tag is used to decrease the font size by one unit from base font size.
+<br>
+The HTML \<big> tag is used to increase the font size by one unit from base font size.
 
 ``` HTML
     <p>I like to <small>write</small> contents.</p>
+    <p>She is very <big>fond</big> of writing poems.</p>
 ```
 **Output :**
 
 ![](images/small.jpeg)
 
+5. **HTML \<code> Element.**
 
-6. **HTML \<ins> Element.**
+This tag displays the content in monospaced font. This is commonly used to display computer codes.
 
-This tag displays the content which is added in the Documents.
+**Example**
+
+``` HTML
+        <p><code>This is my HTML Code</code></p>
+```
+**Output :**
+
+![](images/code.jpeg)
+
+5. **HTML \<pre> Element.**
+
+The \<pre> tag is used to define preformatted text. The browsers render the enclosed text with white spaces and line breaks.
+
+**Example**
+
+``` HTML
+    <pre>Got this via email.
+               Hello there !!
+               Welcome.
+    </pre>
+```
+**Output :**
+
+![](images/pre.jpeg)
+
+
+6. **HTML \<ins> and \<u> Element.**
+
+The HTML \<ins> element displays the content which is added in the Documents.<br>
+Whereas \<u> element is used to underline the text for stylistic purpose.
 
 ``` HTML
     <p>I want to <ins>add</ins> contents.</p>
+    <p>There is <u>something </u> new in the wardrobe. </p>
 ```
 **Output :**
 
-![](images/ins.jpeg)
+![](images/u.jpeg)
 
-7. **HTML \<del> Element.**
+7. **HTML \<del> and \<s> Element.**
 
-The HTML \<del> element displays the text that has been deleted from a document. 
+The HTML \<del> element displays the text that has been deleted from a document. <br>
+Whereas \<s> element is used to represent the texts which is no longer correct in the document. 
 
 ``` HTML
     <p>Please delete <del>Icecream</del> from the List .</p>
+    <p>I don't need <s>this sentence</s> in my content.</p>
 ```
 **Output :**
 
-![](images/del.jpeg)
+![](images/s.jpeg)
+
+*NOTE - Although they both draw a strikethough in the text within it but they both have different semantic meanings to the browser.*
 
 <hr>
 
