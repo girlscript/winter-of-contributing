@@ -4,14 +4,14 @@ Vectors are same as dynamic arrays with the ability to resize itself automatical
 
 Certain functions associated with the vector are:
 
-1. *begin()* – Returns an iterator pointing to the first element in the vector
-2. *end()* – Returns an iterator pointing to the theoretical element that follows the last element in the vector
-3. *capacity()* - Returns the capacity of the vector.
-4. *size()* - Returns the size of the vector (number of elements)
-5. *at()* - Returns the element of the vector at the position specifiesd
-6. *push_back()* - Used to push element into the vector
-7. *pop_back()* - Used to pop the last element from the vector
-8. *clear()* - Used to clear all the elements from the vector
+1. **begin()** – Returns an iterator pointing to the first element in the vector
+2. **end()** – Returns an iterator pointing to the theoretical element that follows the last element in the vector
+3. **capacity()** - Returns the capacity of the vector.
+4. **size()** - Returns the size of the vector (number of elements)
+5. **at()** - Returns the element of the vector at the position specifiesd
+6. **push_back()** - Used to push element into the vector
+7. **pop_back()** - Used to pop the last element from the vector
+8. **clear()** - Used to clear all the elements from the vector
 
 ## INDEX
 1. Declaring a Vector
@@ -61,14 +61,14 @@ int main()
 }
 ```
 
-There is an image
+<p align="center">  <img  src="https://github.com/adityaraj079/winter-of-contributing/blob/C_CPP/.github/Images/inserting-data-vector.webp">  </p>
 
 ## Inserting Elements
 
 ### push_back function
-*push_back()* is used for inserting an element at the end of the vector. If the type of object passed as parameter in the *push_back()* is not same as that of the vector or is not interconvertible an exception is thrown.
+**push_back()** is used for inserting an element at the end of the vector. If the type of object passed as parameter in the **push_back()** is not same as that of the vector or is not interconvertible an exception is thrown.
 
-Image here
+<p align="center">  <img  src="https://github.com/adityaraj079/winter-of-contributing/blob/C_CPP/.github/Images/push_back%20working.webp">  </p>
 
 Code:
 
@@ -97,9 +97,9 @@ Output:
 > 1 2 4
 
 ### insert function
-*insert(itr, element)* method inserts the element in vector before the position pointed by iterator *itr*.
+**insert(itr, element)** method inserts the element in vector before the position pointed by iterator **itr**.
 
-Image
+<p align="center">  <img  src="https://github.com/adityaraj079/winter-of-contributing/blob/C_CPP/.github/Images/single-insert-vector.webp">  </p>
 
 Syntax:
 ```
@@ -109,7 +109,9 @@ v.insert(i, v2.begin(), v2.end());
 ## Deleting Elements 
 
 ### pop_back function
-*pop_back()* is used to remove the *last* element from the vector. It reduces the size of the vector by *one*.
+**pop_back()** is used to remove the **last** element from the vector. It reduces the size of the vector by **one**.
+
+<p align="center">  <img  src="https://github.com/adityaraj079/winter-of-contributing/blob/C_CPP/.github/Images/pop_back-example.webp">  </p>
 
 Code:
 ```
@@ -137,7 +139,7 @@ Output:
 
 
 ### erase function
-*erase(itr_pos)* removes the element pointed by the iterator *itr_pos*. *erase* method can also be overloaded with an extra iterator specifying the end point of the range to be removed, i.e *erase(itr_start, itr_end)*.
+**erase(itr_pos)** removes the element pointed by the iterator **itr_pos**. **erase** method can also be overloaded with an extra iterator specifying the end point of the range to be removed, i.e **erase(itr_start, itr_end)**.
 
 Code:
 ```
@@ -166,7 +168,7 @@ Output:
 > 3 4
 
 ## clear function
-This method *clears* the whole vector, removes all the elements from the vector but do not *delete* the vector.
+This method **clears** the whole vector, removes all the elements from the vector but do not **delete** the vector.
 
 Syntax:
 ```
@@ -175,7 +177,7 @@ v.clear();
 > For a vector v, v.clear() will clear it, but not delete it.
 
 ## size function
-This method returns the *size* of the vector.
+This method returns the **size** of the vector.
 
 Syntax:
 ```
@@ -183,7 +185,7 @@ v.size();
 ```
 
 ## empty function
-This method returns *true* if the vector is empty else returns *false*.
+This method returns **true** if the vector is empty else returns **false**.
 
 Syntax:
 ```
@@ -191,7 +193,7 @@ cout<<v.empty();
 ```
 
 ## capacity function
-This method returns the number of elements that can be inserted in the vector based on the *memory allocated* to the vector.
+This method returns the number of elements that can be inserted in the vector based on the **memory allocated** to the vector.
 
 Syntax:
 ```
@@ -199,7 +201,7 @@ cout<<v.capacity();
 ```
 
 ## at function
-This method works same in case of vector as it works for *array.vector_name.at(i)* returns the element at ith index in the vector vector_name.
+This method works same in case of vector as it works for **array.vector_name.at(i)** returns the element at ith index in the vector vector_name.
 
 Syntax:
 ```
@@ -207,7 +209,7 @@ cout<<v.ar(2);  //Print the element at the 2nd position in the vector
 ```
 
 ## front and back function
-*vector_name.front()* retuns the element at the front of the vector (i.e. leftmost element). While *vector_name.back()* returns the element at the back of the vector (i.e. rightmost element).
+**vector_name.front()** retuns the element at the front of the vector (i.e. leftmost element). While **vector_name.back()** returns the element at the back of the vector (i.e. rightmost element).
 
 Syntax:
 ```
