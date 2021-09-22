@@ -1,19 +1,17 @@
 # Topics in the C++ language
 
-
-## Arrays
-- [Middle elements of an Array in C](https://github.com/amelia2802/winter-of-contributing/blob/main/C_CPP/Arrays/middleArray.c)
-
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Introduction%20of%20C">Introduction of C</a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Programming%20components%2C%20Structure%20%26%20Keyword">Programming components, Structure & Keyword</a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Operators%20%26%20Expressions">Operators & Expressions</a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Input%20%26%20Output%20Operations">Input & Output Operations</a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Decision%20Making%20%26%20Branching%20Structure">Decision Making & Branching Structure</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Looping%20Control%20Structure%20or%20Statements">Looping Control Structure/Statements</a>
+### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Looping%20Control%20Structure%20or%20Statements">Looping Control Structure/Statements
+- [Fibonacci without recursion in C](https://github.com/amelia2802/winter-of-contributing/blob/main/C_CPP/Looping%20Control%20Structure%20or%20Statements/fibonacci.c)</a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Break%20or%20Continue">Break/Continue </a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Static%20scoping%20%26%20Dynamic%20Scoping">Static scoping & Dynamic Scoping</a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Functions%20%26%20Recursion%20and%20its%20types">Functions & Recursion and its types</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Arrays">Arrays</a>
+### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Arrays">Arrays
+- [Middle elements of an Array in C](https://github.com/amelia2802/winter-of-contributing/blob/main/C_CPP/Arrays/middleArray.c)</a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Strings%20and%20their%20functions">Strings and their functions</a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Pointer%20and%20its%20types">Pointer and its types</a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Dynamic%20Memory%20allocation">Dynamic Memory allocation</a>
