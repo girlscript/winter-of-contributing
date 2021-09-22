@@ -7,6 +7,7 @@
 # Title (name of the field)
 
 ## Index
+
 - [GitHub](./Git_And_GitHub)
 - [Installing software for python](./Installing_Software)
 - [Brief History of Python](./History_Of_Python)
@@ -16,16 +17,18 @@
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
 - [Loops](./Loops)
-- [List_&_Matrix](./List_&_Matrix)
+- [List\_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
 - [Stack_and_Queue](./Stack_and_Queue)
 - [Loop Break](./Loops_Break)
 - [Decorators](./Decorators)
 - [What_is_Filter_in_python](./What_is_Filter_in_python)
 - [OOP-Class](./OOP-Class)
-- [Advanced_function_reduce()](./Advanced_function_reduce())
+- [Advanced_function_reduce()](<./Advanced_function_reduce()>)
+- [Advanced_Function_Map](./Advanced_Function_map)
 
 ## Learning path
+
 1. Git & GitHub
 2. Installing development and debugging software for python
 3. Brief history of python
@@ -34,7 +37,7 @@
 6. Use cases of Python
 7. Virtual Environment
 8. Operators
-9. List_&_Matrix
+9. List\_&_Matrix
 10. Objects in Python
 11. Stack and Queue
 12. Loop Break
@@ -42,3 +45,4 @@
 14. What_is_Filter_in_python
 15. OOP-Class
 16. Advanced function-reduce()
+17. Advanced function-map()
