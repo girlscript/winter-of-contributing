@@ -276,18 +276,33 @@ int main()
 
 Output:
 >print copies
+
 >1 1 1 1 1 
+
 >Capacity 0
+
 >Capacity 1
+
 >Capacity 2
+
 >Capacity 4
+
 >Size 3
+
 >Element at 2nd index 3
->first element 1       
+
+>first element 1    
+
 >End 3
+
 >Before pop
+
 >1 2 3 
+
 >After pop
+
 >1 2
+
 >Before clear2
+
 >After Clear 0
