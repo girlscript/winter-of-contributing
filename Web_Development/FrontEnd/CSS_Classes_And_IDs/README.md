@@ -30,7 +30,7 @@ In CSS file
 
  <br>
 
- The output is
+ Output is
  ![CSS Classes](Images/CSS_Classes.png)
 
 
@@ -44,7 +44,7 @@ In CSS file
 <h2 class = "redHeading">Also Red</h2> 
 ```
 
-The output is
+Output is
 ![Repeated Use](Images/CSS_Classes_Repeated_Use.png)
 
 <br>
@@ -72,7 +72,7 @@ In CSS file
 }
 ```
 
-The output is
+Output is
 ![Output IDs](Images/CSS_Ids.png)
 
 <b>Note: </b><br>
@@ -95,7 +95,7 @@ let x = document.getElementById("main");
 x.innerHTML = "Embedded by JavaScript";
 ```
 
-The output is
+Output is
 ![IDs JS](Images/IDs_JavaScript_Demonstration.png)
 
 In the above output, only the first heading is visible and the `<h2>` is not visible if the ID name is same.
