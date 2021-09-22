@@ -32,7 +32,7 @@
 - Selectors and pseudo selector
 - Classes and Id’s
 - CSS general rule
-- Colors in css
+- [Colors in css](CSS_Colors_In_CSS/Colors_In_CSS.md)
 - Text manipulation
 - The css box model
 - Content manipulation - margin,padding,align
