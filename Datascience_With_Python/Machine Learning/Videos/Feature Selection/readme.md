@@ -4,6 +4,10 @@
 
 **Feature selection** is the process of reducing the number of input variables when developing a predictive model.
 
+It is desirable to reduce the number of input variables to both reduce the computational cost of modeling and, in some cases, to improve the performance of the model.
+
+Statistical-based feature selection methods involve evaluating the relationship between each input variable and the target variable using statistics and selecting those input variables that have the strongest relationship with the target variable. These methods can be fast and effective, although the choice of statistical measures depends on the data type of both the input and output variables.
+
 **Overview of the topics covered in the video :**
 
 - Example of Feature Selection model:
@@ -31,3 +35,10 @@
 - Choosing a Feature selection Method: 
 
 ![image](https://user-images.githubusercontent.com/63282184/134143018-b9b858a2-edc6-4a5c-a1eb-d1fbe69bca50.png)
+
+
+**KEY TAKEAWAYS:**
+
+- There are two main types of feature selection techniques: supervised and unsupervised, and supervised methods may be divided into wrapper, filter and intrinsic.
+- Filter-based feature selection methods use statistical measures to score the correlation or dependence between input variables that can be filtered to choose the most relevant features.
+- Statistical measures for feature selection must be carefully chosen based on the data type of the input variable and the output or response variable.
