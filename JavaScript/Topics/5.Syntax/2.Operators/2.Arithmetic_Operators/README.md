@@ -33,7 +33,7 @@ console.log(5*8);
 The division operator (/) is used to divide one variable by another.
 ```js
 console.log(8/3);
-// expected output: 2
+// expected output: 2.6666666666666665
 
 console.log(12/4);
 // expected output: 3
@@ -57,7 +57,7 @@ console.log(5%1);
 ```
 
 #### 6. Increment (++)
-The increment operator (++) is used to increment a variable by one.
+The increment operator (++) is used to increment a number variable by one unit.
 
 If (++) is used as prefix, it will increment first and then assign the result to the variable.
 ```js

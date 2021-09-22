@@ -6,7 +6,7 @@
 ```js
 let count = 5;
 ```
-In this example we use (=) assignment operator to assign the value 5 (Right Operand) to the counter variable (Left Operand).
+In this example we use (=) assignment operator to assign the value 5 (Right Operand) to the count variable (Left Operand).
 
 
 #### 2. Addition (+=)
@@ -72,7 +72,7 @@ Example
 ```js
 let count = 5;
 count **= 2; // 5 to the power 2
-console.log(count); // 25
+console.log(count); // Output: 25
 ```
 
 #### 8. Left Shift Assignment (<<=)

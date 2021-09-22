@@ -10,7 +10,7 @@ but only checks if they are equal.
 
 ```js
 console.log(5==5); // true
-console.log(5=='5'); // false
+console.log(5=='5'); // true
 console.log(4==3); // false
 ```
 
