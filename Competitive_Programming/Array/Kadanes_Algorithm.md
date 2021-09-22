@@ -1,15 +1,14 @@
 # Kadane's Algorithm 
 
-## What is Kadane's Algorithm
+## What is Kadane's Algorithm?
 > Kadane's Algorithm is an algorithm to solve the "Maximum Subarray Sum" problem in the most efficient way. This algorithm is based on Dynamic Programming. 
 
 ## Problem Statement
-> Write a program to find the largest sum of contiguous array in efficient approach.
+
+**Write a program to find the largest sum of contiguous array in efficient approach.**
 
 
-> Expected time complexity:- O(n)
-
-> Expected Auxiliary Complexity:- O(1) 
+> Expected time complexity:- O(n) <br> Expected Auxiliary Complexity:- O(1) 
 
 <details>
     <summary> What is a contiguous Array? </summary>
@@ -17,9 +16,10 @@
 </details>
 
 ## Explanation of Kadane's Algorithm
-> Kadane's Algorithm, like other algorithms of Dynamic Programming works on the ideology of breaking the complex problem in smaller easily parts so that sub-problem appears and we can solve it easily.
+ Kadane's Algorithm, like other algorithms of Dynamic Programming works on the ideology of breaking the complex problem in smaller easily parts so that sub-problem appears and we can solve it easily.
 
-> *Approach*:- The simple approach of Kadane’s algorithm is start looking for all positive elements of array and sum up them to store in a variable(let's say max_ending_here). Now, keep maintaining the track of maximum sum contiguous segment in another variable(max_so_far). Each time we get a positive-sum compare it with max_so_far and update max_so_far if it is greater than max_so_far. 
+### Approach
+ The simple approach of Kadane’s algorithm is start looking for all positive elements of array and sum up them to store in a variable(let's say max_ending_here). Now, keep maintaining the track of maximum sum contiguous segment in another variable(max_so_far). Each time we get a positive-sum compare it with max_so_far and update max_so_far if it is greater than max_so_far. 
 
 
 ## Algorithm
@@ -43,8 +43,8 @@
 ## Implementation
 
 ### Implemtation in C++
-```
 
+```
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -95,8 +95,7 @@ class Kadane
 	    for(int i=0; i<n; i++){
 	        a[i]= sc.nextInt();
 	    }
-		System.out.println("Maximum contiguous sum is " +
-									maxSubArraySum(a));
+		System.out.println("Maximum contiguous sum is " + maxSubArraySum(a));
 	}
 
 	static int maxSubArraySum(int a[])
