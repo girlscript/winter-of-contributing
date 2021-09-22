@@ -14,7 +14,7 @@ An Inline Element does not start on a new line.
 
 Examples of Inline Elements
 
-<a> <span> <img> <code> <site> <button> <input> 
+`<a>` <span> <img> <code> <site> <button> <input> 
 
     
     
