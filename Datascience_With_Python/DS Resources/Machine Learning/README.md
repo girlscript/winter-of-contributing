@@ -1,4 +1,5 @@
 Introduction to Numpy Resources:
+
 https://www.geeksforgeeks.org/python-numpy/
 https://data-flair.training/blogs/numpy-features/
 https://medium.com/fintechexplained/why-should-we-use-numpy
