@@ -14,16 +14,16 @@ Certain functions associated with the vector are:
 8. **clear()** - Used to clear all the elements from the vector
 
 ## INDEX
-1. Declaring a Vector
-2. Insertng elements
-3. Deleting elements
-4. clear function
-5. size function
-6. empty function
-7. capacity function
-8. at function
-9. front and back function
-10. Test code
+1. [Declaring a Vector](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#declaring-an-vector)
+2. [Insertng elements](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#inserting-elements)
+3. [Deleting elements](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#deleting-elements)
+4. [clear function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#clear-function)
+5. [size function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#size-function)
+6. [empty function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#empty-function)
+7. [capacity function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#capacity-function)
+8. [at function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#at-function)
+9. [front and back function](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#front-and-back-function)
+10. [Test code](https://github.com/adityaraj079/winter-of-contributing/tree/C_CPP/C_CPP/Vectors#test-code)
 
 
 ## Declaring an Vector
