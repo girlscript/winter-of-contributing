@@ -15,6 +15,7 @@
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
+- [Loops](./Loops)
 - [List_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
 - [Stack_and_Queue](./Stack_and_Queue)
