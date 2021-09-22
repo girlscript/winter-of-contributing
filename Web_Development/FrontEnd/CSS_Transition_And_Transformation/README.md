@@ -22,6 +22,10 @@ With the CSS transform property you can use the following 2D transformation meth
 * skewY()
 * skew()
 * matrix()
+  
+ ## 3D Transforms:
+  CSS also supports 3D transformations. Most of the above properties have 3D versions of them.
+* perspective
 
 Visit the files for in depth code and explainations.
   
