@@ -1,259 +1,210 @@
-# JSON
+# Javascript Object Notation (JSON)
+JSON is data interchange format followed by Javascript object syntax, which was made by [Douglas Crockford](https://en.wikipedia.org/wiki/Douglas_Crockford). It is based on  subset of ECMA-262 3rd edition (1999). JSON is easier to read and write than XML. It is also faster to parse and generate. It can be used indepnedently from Javascript and can be stored in its own file with `.json` extension.
 
-## What is JSON?
 
-JSON stands for `JavaScript Object Notation` it is a text format for storing and transporting data which is "self-describing" and easy to understand. The JSON object contains methods for parsing `JavaScript Object Notation` (JSON) and converting values to JSON. It can't be called or constructed, and aside from its two method properties, it has no interesting functionality of its own.
+### Structure of JSON
+  JSON is a collection of key-value pairs. Each key must be string and the value can be any data type. JSON is a text format, so it can be read and written by a computer. It is not a binary format.
 
-Example:
+  1. Data is enclosed in curly braces `{}`
+  2. Data is in key-value pairs
+  3. Data is separated by commas
+  4. Square brackets `[]` are used to denote arrays
 
-```JSON
+- Example
+```json
+    {
+      "name": "Aryan",
+      "age": 25,
+      "salary": 12000,
+      "address": {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+    }
+```
+
+#### How to access JSON Data
+  Store it in a variable and then use dot notation to access the data.
+
+```javascript
+var data =  {
+      "name": "Aryan",
+      "age": 25,
+      "salary": 12000,
+      "address": {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "country": "India"
+      }
+    }
+
+
+console.log(data.name); // Output: Aryan
+console.log(data.address.city); // Output: Pune
+```
+
+
+#### JSON Values and Types
+  JSON values can be of any type. JSON types are:
+  - String
+  - Number
+  - Object
+  - Array
+  - Boolean
+  - `null`
+
+### Arrays in JSON
+  JSON arrays are enclosed in square brackets `[]` and can contain any type of data.
+
+- Example
+```json
 {
-     "name": "Rahul",
-     "age": 30,
-     "salary": 13000
+    "employees" : [
+        {
+            "name": "Bob",
+            "age": 35
+        },
+        {
+            "name": "Jack",
+            "age": 28
+        },
+        {
+            "name": "John",
+            "age": 31
+        }
+    ]
 }
 ```
-It defines an object with 3 properties:
-- name
-- age
-- salary
+
+#### Access array items from JSON
+Access array items from JSON using square brackets `[]` and index number.
+
+```javascript
+const jsonObject = {
+    "array" : ["India", "UK", "USA"]
+}
+
+console.log(jsonObject.array[0]); // Output: India
+console.log(jsonObject.array[1]); // Output: UK
+```
+
+### JSON vs XML
+**Similarities**
+- JSON and XML are human readable.
+- Both are text based formats.
+- JSON and XML are hierarchical (values within values).
+- JSON and XML can be parsed and generated.
+- Both JSON and XML can be fetched with an XMLHttpRequest
+
+**Difference**
+- JSON is easier to read and write than XML.
+- JSON doesn't has any end tag.
+- JSON is shorted and quicker to read and write.
+- JSON can use arrays and objects.
   
-Each property has a value.
-If we parse the JSON string in JavaScript, we can access the data as an object.
+**Why JSON is better than XML?**
+- JSON is faster to parse and generate because it is specially designed for data interchange.
+- JSON parser are more robust and can handle more complex data.
+- XML is slower to parse and generate.
 
-*Note: The JSON syntax is derived from JavaScript object notation, but the JSON format is text only. Code for reading and generating JSON exists in many programming languages.*
 
-## Why use JSON?
+### JSON Stringify
+  JSON.stringify() is used to convert JSON object to string. A common use of this method is to exchange data with a server. When you use JSON.stringify(), you can send the data to the server as a string.
 
-The JSON format is syntactically similar to the code for creating JavaScript objects. Because of this, a JavaScript program can easily convert JSON data into JavaScript objects. Since the format is text only, JSON data can easily be sent between computers, and used by any programming language.
-
-## JSON Syntax
-
-JSON Syntax Rules:
-
-- Data is in name/value pairs
-- Data is separated by commas
-- Curly braces hold objects
-- Square brackets hold arrays
-
-### JSON Data
-
-JSON data is written as name/value pairs (aka key/value pairs). A name/value pair consists of a field name (in double quotes), followed by a colon, followed by a value.
-
-Example:
-
-```JSON
-{
-    "firstName": "Rahul",
-    "lastName": "Roy",
-    "gender": "male",
-    "age": 24,
-    "address": {
-        "streetAddress": "MG road",
-        "city": "Kolkata",
-        "state": "West Bengal",
-        "postalCode": "95221"
-    },
-    "phoneNumbers": [
-        { "type": "home", "number": "27627" }
-    ]
+```javascript
+const student = {
+    "name": "Raj",
+    "age": 20,
+    "marks": [90,80,70,60,50]
 }
+
+const jsonData = JSON.stringify(student);
+console.log(jsonData); 
+// Output: {"name":"Raj","age":20,"marks":[90,80,70,60,50]}
 ```
 
-### JSON - Evaluates to JavaScript Objects
 
-The JSON format is almost identical to JavaScript objects. In JSON, keys must be strings, written with double quotes.
+### JSON Parsing
+The `JSON.parse` method parses a JSON and construct a object described in the JSON text. When you use JSON.parse(), you can receive the data from the server as a string.
 
-Example:
+- Example
+```javascript
+const data = '{"name":"John", "age":20, "city":"Dubai"}';
 
-#### JSON
-
-```JSON
-{
-    "firstName": "Rahul",
-    "lastName": "Roy",
-    "gender": "male",
-    "age": 24,
-    "address": {
-        "streetAddress": "MG road",
-        "city": "Kolkata",
-        "state": "West Bengal",
-        "postalCode": "95221"
-    },
-    "phoneNumbers": [
-        { "type": "home", "number": "27627" }
-    ]
-}
+const result = JSON.parse(data);
+console.log(result); // Output: {name: "John", age: 20, city: "Dubai"}
+console.log(result.name); // Output: John
+console.log(result.age); // Output: 20
 ```
 
-In JavaScript, keys can be strings, numbers, or identifier names.
 
-Example:
-
-#### Javascript
-
-```js
-const person = {
-    firstName: "Rahul",
-    lastName: "Roy",
-    gender: "male",
-    age: 24,
-    address: {
-        streetAddress: "MG road",
-        city: "Kolkata",
-        state: "West Bengal",
-        postalCode: 95221
-    },
-    phoneNumbers: [
-        { type: "home", number: 27627 }
-    ]
+### Delete Key-Value Pairs
+  To delete a key-value pair, you can use the delete operator.
+```javascript
+const data = {
+    "name":"John", 
+    "age":20,
+     "city":"Dubai"
 };
+
+console.log(data); 
+// Output: { name: 'John', age: 20, city: 'Dubai' }
+
+delete data.name; // Delete key-value pair
+
+console.log(data); 
+// Output: { age: 20, city: 'Dubai' }
 ```
 
-*Note: JSON names require double quotes.*
-
-### JSON Values
-
-In JSON, values must be one of the following data types:
-
-- string
-- number
-- object
-- array
-- boolean
-- null
-
-## JSON vs XML
-
-Both JSON and XML can be used to receive data from a web server.
-
-### JSON
-
-```JSON
-{
-     "students":
-          [
-               { "firstName":"Rahul", "lastName":"Roy" },
-               { "firstName":"Raj", "lastName":"Biswas" },
-               { "firstName":"Anjali", "lastName":"Mathur" }
-          ]
+### Looping through array items
+  To loop through array items, you can use `for` loop.
+```javascript
+const jsonObject ={
+    "name" : "Johan",
+    "age" : 46,
+    "skills": ["HTML", "CSS", "JavaScript"]
 }
+
+for (i in jsonObject.skills) {
+    let x = jsonObject.skills[i];
+    console.log(x);
+}
+
+// Output:
+// HTML
+// CSS
+// JavaScript
 ```
 
-### XML
+### Multidimensional Arrays in JSON
+```javascript
+const jsonObject ={
+    "name" : "Rohan",
+    "age" : 36,
+    "skills": [
+        [
+            "Javascript", "React"
+        ],
+        [
+            "Java", "Kotlin"
+        ]
+    ]
+}
 
-```xml
-<students>
-  <student>
-    <firstName>Rahul</firstName> <lastName>Roy</lastName>
-  </student>
-  <student>
-    <firstName>Raj</firstName> <lastName>Biswas</lastName>
-  </student>
-  <student>
-    <firstName>Anjali</firstName> <lastName>Mathur</lastName>
-  </student>
-</students>
+for (i in jsonObject.skills) {
+    for(j in jsonObject.skills[i]) {
+        let x = jsonObject.skills[i][j];
+        console.log(x);
+    }
+}
+
+// Output:
+Javascript
+React
+Java
+Kotlin
 ```
 
-### Similarities
 
-- JSON and XML are "self describing" (human readable)
-- JSON and XML are hierarchical (values within values)
-- JSON and XML can be parsed and used by lots of programming languages
-- JSON and XML can be fetched with an XMLHttpRequest
-
-### Differences
-
-- JSON doesn't use end tag
-- JSON is shorter
-- JSON is quicker to read and write
-- JSON can use arrays
-
-### Why JSON is Better Than XML?
-
-
-XML is much more difficult to parse than JSON. JSON is parsed into a ready-to-use JavaScript object.
-For AJAX applications, JSON is faster and easier than XML:
-
-Using XML:
-
-- Fetch an XML document
-- Use the XML DOM to loop through the document
-- Extract values and store in variables
-  
-Using JSON:
-
-- Fetch a JSON string
-- JSON.parse() the JSON string
-
-## JSON Data Types
-
-
-### Valid Data Types
-
-In JSON, values must be one of the following data types:
-- string
-- number
-- object (JSON object)
-- array
-- boolean
-- null
-
-JSON values cannot be one of the following data types:
-
-- a function
-- a date
-- undefined
-
-## JSON.parse()
-
-JSON is used to exchange data to/from a web server. When receiving data from a web server, the data is always a string. Parse the data with JSON.parse(), and the data becomes a JavaScript object.
-
-Example:
-
-Suppose we received this JSON from a web server:
-
-```JSON
-  {
-      "name":"Rahul", 
-      "age":30, 
-      "city":"Delhi"
-  }
-```
-
-Use the JavaScript function JSON.parse() to convert JSON into a JavaScript object:
-
-```js
-const obj = JSON.parse({
-                              "name":"Rahul", 
-                              "age":30, 
-                              "city":"Delhi"
-                       });
-```
-
-## JSON.stringify()
-
-When sending data to a web server, the data has to be a string. Convert a JavaScript object into a string with JSON.stringify().
-
-Example:
-
-Suppose we have this object in JavaScript:
-
-```js
-const obj = {
-                  name: "Rahul", 
-                  age: 30, 
-                  city: "Delhi"
-            };
-```
-
-Use the JavaScript function JSON.stringify() to convert it into a string.
-
-```js
-const myJSON = JSON.stringify(obj);
-console.log(myJSON) // prints stringified object
-```
-<br>
-
- __Contributor :__ [Aniket Pathak](https://github.com/aniketpathak028)
+#### Contributed by [Rwitesh Bera](https://github.com/rwiteshbera)
