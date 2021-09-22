@@ -51,13 +51,11 @@ Step 1:Create a folder called 'Components' in the ./src folder.
 
 These components can be easily imported in the ./App.js file and thereby rendered on localhost:3000/
 
-Step 2:Inside the ./Components create a new file called 'HelloWorld.jsx'
+Step 2:Inside the ./Components create a new file called 'HelloWorld.js'
 
-Step 3:Put the following code in **HelloWorld.jsx**
+Step 3:Put the following code in **HelloWorld.js**
 
 ```
-
-import React from 'react';
 
 const HelloWorld = () => {
     return (
@@ -116,8 +114,6 @@ React is known for the functionality of creating reuable components.
 They still look the same without having to repeat the same code again and again.Let's convert our HelloWorld Component into a Reusable One.To do so,let's make some minor changes and add a prop to our HelloWorld Component.
 
 ```
-
-import React from 'react';
 
 const HelloWorld = props => {
     return (
