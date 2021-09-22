@@ -8,7 +8,7 @@
 <p> Speciality of Deque : Double ended queues are a special case of queues where insertion and deletion operations are possible at both the ends. </p>
 <br>
 
-![Deque](https://github.com/ankushsingh24/winter-of-contributing/blob/C_CPP/C_CPP/Deque/Diagram/deque.png)
+![Deque](https://github.com/ankushsingh24/winter-of-contributing/blob/C_CPP/C_CPP/Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc)/Deque/Diagram/deque.png)
 
 <br>
 
