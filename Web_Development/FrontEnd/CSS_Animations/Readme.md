@@ -1,6 +1,8 @@
 # Animations in CSS
 ![](animation.png)
 
+__[Banner Image Credits](https://www.litmus.com/wp-content/uploads/2020/04/a-simple-guide-to-understanding-css-animations-in-email.png)__
+
 ## What is an animation?
 An animation is the effect applied to a webpage's elements that makes them change overtime.
 An element's styling is governed by CSS, hence animation is nothing but
@@ -12,7 +14,7 @@ Various animation properties helps you change different aspects of the animation
 - animation-name
 - animation-duration
 - animation-delay
-- -animation-iteration-count
+- animation-iteration-count
 - animation-direction
 - animation-timing-function
 - animation-fill-mode
@@ -22,15 +24,15 @@ Various animation properties helps you change different aspects of the animation
 This tag is to define what all changes in the CSS will take place.
 ```CSS
 @keyframes first-animation{
-    from { background-color: red; };
-    to { background-color: yellow; };
+    from { background-color: red; }
+    to { background-color: yellow; }
 }
 ```
 Or alternatively,
 ```CSS
 @keyframes first-animation{
-    0% { background-color: red; };
-    100% { background-color: yellow; };
+    0% { background-color: red; }
+    100% { background-color: yellow; }
 }
 ```
 
@@ -55,8 +57,8 @@ This property is to define the time duration of one cycle of the animation.
 _For example, check this code below_
 ```CSS
 @keyframes first-animation{
-    0% { background-color: red; };
-    100% { background-color: yellow; };
+    0% { background-color: red; }
+    100% { background-color: yellow; }
 }
 .mydiv{
     animation-name: first-animation;
@@ -65,6 +67,9 @@ _For example, check this code below_
 ```
 Now as the code suggests, any element with `class='mydiv'` will undergo the change of
 _background-color from red to yellow, over 2 seconds of time period_.
+
+![](1_red_to_yellow_animation.gif)
+
 > You can play around with various CSS properties to make different effects as per requirements.
 
 ___An example of a fade-in animation___
@@ -91,6 +96,8 @@ ___An example of a fade-in animation___
 }
 ```
 
+![](2_simple_fadein_animation.gif)
+
 #### animation-delay
 This property is to add a delay to the animation start.
 By default it's equal to 0, hence the animation runs on page load directly.
@@ -102,6 +109,8 @@ By default it's equal to 0, hence the animation runs on page load directly.
 }
 ```
 > The animation will start 5 seconds after the page load
+
+![](3_delayed_animation.gif)
 
 #### animation-iteration-count
 This property is to assign how many times the cycle of animtion will run
@@ -116,6 +125,9 @@ By default it's equal to 1.
 > The animation will run 5 times
 
 To make the animation run over and over again, you can set the property to `infinite`
+
+![](4_5_iterated_animation.gif)
+
 ```CSS
 .mydiv{
     animation-name: first-animation;
@@ -143,9 +155,39 @@ Or
 .mydiv{
     animation-name: first-animation;
     animation-duration: 2s;
+    animation-iteration-count: 3;
     animation-direction: alternate;
 }
 ```
+
+![](5_reversed_animation.gif)
+
+#### animation-timing-function
+This tag is to specify the speed curve of an animation
+It can have the following values:
+- __ease__ : (Default state) slow start of the animation, then fast, then ending slowly.
+- __linear__ : same speed of the animation from start to end.
+- __ease-in__ : slow start of the animation, then regular speed.
+- __ease-out__ : regular speed with a slow ending.
+- __ease-in-out__ : slow start of the animation, then regular speed, then ending slowly.
+- __cubic-bezier(n,n,n,n)__ : lets you define your own values in a cubic-bezier function.
+```CSS
+.mydiv{
+    animation-name: first-animation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+```
+Or, 
+```CSS
+.mydiv{
+    animation-name: first-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+```
+
+![](6_linear_timed_animation.gif)
 
 #### animation-fill-mode
 This tag is to specify a style for the target element when the animation is not playing (i.e. before it starts, after it ends, or both).
@@ -173,6 +215,8 @@ Or,
 ```
 > The element will get the red color before running
 
+![](7_forward_filled_animation.gif)
+
 #### animation
 This is the shorthand way to write all the above mentioned animation properties under one single property tag.
 ```CSS
@@ -194,6 +238,8 @@ This code block is equivalent to
 > This comes very handy when you have to use only a few of the properties, or even all at once.
 > It also makes the code look a lot cleaner.
 
+![](8_shorthand_animation.gif)
+
  ___A simple infinite scrolling animation (like that of a headline news)___
 
 ```HTML
@@ -201,6 +247,7 @@ This code block is equivalent to
   Important News Bar
 </div>
 ```
+
 ```CSS
 body{
   overflow-x: hidden;
@@ -219,5 +266,7 @@ body{
     font-size: 30px;
 }
 ```
+
+![](9_imp_news_animation.gif)
 
 Contributor: [Ayush Verma](https://github.com/ayush02av)
