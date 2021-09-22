@@ -20,8 +20,9 @@ Following are the main points for understanding the relationship of pointers wit
 Elements of a 1D array are stored in ```consecutive memory locations```. If we create a 1D array of ```n``` elements, there will be a ```consecutive memory allocation``` for ```n``` elements. The name of the array will be a ```constant pointer``` that will point to the address of ```zeroth element``` or ```base address```.
 
 For example -
-
-    int a[10];
+```C
+int a[10];
+```
 
 This will create a ```1D array``` for ```10``` element of type ```int``` in the memory. The elements will be assigned ```consecutive memory locations```.
 
