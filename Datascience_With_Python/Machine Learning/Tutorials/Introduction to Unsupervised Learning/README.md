@@ -14,7 +14,7 @@ Unsupervised learning is the training of a machine using information that is nei
 Unlike supervised learning, no teacher is provided that means no training will be given to the machine. Therefore the machine is restricted to find the hidden structure in unlabeled data by itself. 
 
 
-#Example of Unsupervised Machine Learning
+# Example of Unsupervised Machine Learning
 
 For instance, suppose a image having both dogs and cats which it has never seen.
 
@@ -22,7 +22,7 @@ Thus the machine has no idea about the features of dogs and cats so we can’t c
 
 It allows the model to work on its own to discover patterns and information that was previously undetected. It mainly deals with unlabelled data.
 
-#Why Unsupervised Learning?
+# Why Unsupervised Learning?
 
 Here, are prime reasons for using Unsupervised Learning in Machine Learning:
 
@@ -39,13 +39,13 @@ Here, are prime reasons for using Unsupervised Learning in Machine Learning:
 
 >It is easier to get unlabeled data from a computer than labeled data, which needs manual intervention.
 
-#Unsupervised Learning Algorithms
+# Unsupervised Learning Algorithms
 
 
 
 Unsupervised Learning Algorithms allow users to perform more complex processing tasks compared to supervised learning. Although, unsupervised learning can be more unpredictable compared with other natural learning methods. Unsupervised learning algorithms include clustering, anomaly detection, neural networks, etc.
 
-#Unsupervised learning is classified into two categories of algorithms: 
+# Unsupervised learning is classified into two categories of algorithms: 
  
 
 >Clustering: A clustering problem is where you want to discover the inherent groupings in the data, such as grouping customers by purchasing behavior.
@@ -54,7 +54,7 @@ Unsupervised Learning Algorithms allow users to perform more complex processing 
 >Association: An association rule learning problem is where you want to discover rules that describe large portions of your data, such as people that buy X also tend to buy Y.
 
 
-#a)Clustering
+# a)Clustering
 
 
 Clustering is an important concept when it comes to unsupervised learning.
@@ -65,28 +65,28 @@ Clustering is an important concept when it comes to unsupervised learning.
  
   You can also modify how many clusters your algorithms should identify. It allows you to adjust the granularity of these groups.
 
-#There are different types of clustering you can utilize:
+# There are different types of clustering you can utilize:
 
-#1.Exclusive (partitioning)
+# 1.Exclusive (partitioning)
 
 In this clustering method, Data are grouped in such a way that one data can belong to one cluster only.
 
 Example: K-means
 
-#2.Agglomerative
+# 2.Agglomerative
 
 In this clustering technique, every data is a cluster. The iterative unions between the two nearest clusters reduce the number of clusters.
 
 Example: Hierarchical clustering
 
-#3.Overlapping
+# 3.Overlapping
 In this technique, fuzzy sets is used to cluster data. Each point may belong to two or more clusters with separate degrees of membership.
 
 Here, data will be associated with an appropriate membership value.
 
  Example: Fuzzy C-Means
 
-#4.Probabilistic
+# 4.Probabilistic
 This technique uses probability distribution to create the clusters
 
 Example: Following keywords
@@ -101,7 +101,7 @@ Example: Following keywords
 
 can be clustered into two categories “shoe” and “glove” or “man” and “women.”
 
-#Clustering Types
+# Clustering Types
 Following are the clustering types of Machine Learning:
 
 Hierarchical clustering
@@ -120,10 +120,10 @@ Independent Component Analysis
 
 
 
-#1.Hierarchical Clustering
+# 1.Hierarchical Clustering
 >Hierarchical clustering is an algorithm which builds a hierarchy of clusters. It begins with all the data which is assigned to a cluster of their own. Here, two close cluster are going to be in the same cluster. This algorithm ends when there is only one cluster left.
 
-#2.K-means Clustering
+# 2.K-means Clustering
 >K-means it is an iterative clustering algorithm which helps you to find the highest value for every iteration. Initially, the desired number of clusters are selected. In this clustering method, you need to cluster the data points into k groups. A larger k means smaller groups with more granularity in the same way. A lower k means larger groups with less granularity.
 
 >The output of the algorithm is a group of “labels.” It assigns data point to one of the k groups. In k-means clustering, each group is defined by creating a centroid for each group. The centroids are like the heart of the cluster, which captures the points closest to them and adds them to the cluster.
@@ -135,25 +135,25 @@ Agglomerative clustering
 Dendrogram
 
 
-#Agglomerative clustering
+# Agglomerative clustering
 
 >This type of K-means clustering starts with a fixed number of clusters. It allocates all data into the exact number of clusters. This clustering method does not require the number of clusters K as an input. Agglomeration process starts by forming each data as a single cluster.
 
 >This method uses some distance measure, reduces the number of clusters (one in each iteration) by merging process. Lastly, we have one big cluster that contains all the objects.
 
-#Dendrogram
+# Dendrogram
 >In the Dendrogram clustering method, each level will represent a possible cluster. The height of dendrogram shows the level of similarity between two join clusters. The closer to the bottom of the process they are more similar cluster which is finding of the group from dendrogram which is not natural and mostly subjective.
 
-#K- Nearest neighbors
+# 3.K- Nearest neighbors
 
 >K- nearest neighbour is the simplest of all machine learning classifiers. It differs from other machine learning techniques, in that it doesn’t produce a model. It is a simple algorithm which stores all available cases and classifies new instances based on a similarity measure.
 
 It works very well when there is a distance between examples. The learning speed is slow when the training set is large, and the distance calculation is nontrivial.
 
-#4.Principal Components Analysis
+# 4.Principal Components Analysis
 >In case you want a higher-dimensional space. You need to select a basis for that space and only the 200 most important scores of that basis. This base is known as a principal component. The subset you select constitute is a new space which is small in size compared to original space. It maintains as much of the complexity of data as possible.
 
-#5.Singular value decomposition
+# 5.Singular value decomposition
 >The singular value decomposition of a matrix is usually referred to as the SVD.
 This is the final and best factorization of a matrix:
 A = UΣV^T
@@ -167,10 +167,10 @@ distinct eigenvectors of A. However, S may not be orthogonal; the matrices U
 and V in the SVD will be. 
 
 
-#6.Independent Component Analysis
+# 6.Independent Component Analysis
 >Independent Component Analysis (ICA) is a machine learning technique to separate independent sources from a mixed signal. Unlike principal component analysis which focuses on maximizing the variance of the data points, the independent component analysis focuses on independence, i.e. independent components.
 
-#b)Association
+# b)Association
 >Association rules allow you to establish associations amongst data objects inside large databases. This unsupervised technique is about discovering interesting relationships between variables in large databases. For example, people that buy a new home most likely to buy new furniture.
 
 >Other Examples:
@@ -184,7 +184,7 @@ and V in the SVD will be.
 
 
  
-#Applications of Unsupervised Machine Learning
+# Applications of Unsupervised Machine Learning
 Some application of Unsupervised Learning Techniques are:
 
 1.Clustering automatically split the dataset into groups base on their similarities
@@ -198,7 +198,7 @@ Some application of Unsupervised Learning Techniques are:
 
 4.Latent variable models are widely used for data preprocessing. Like reducing the number of features in a dataset or decomposing the dataset into multiple components.
 
-#Real-life Applications Of Unsupervised Learning
+# Real-life Applications Of Unsupervised Learning
 
 Machines are not that quick, unlike humans. It takes a lot of resources to train a model based on patterns in data. Below are a few of the wonderful real-life simulations of unsupervised learning.
 
@@ -208,7 +208,7 @@ Machines are not that quick, unlike humans. It takes a lot of resources to train
 
 2.Segmentation – Unsupervised learning can be used to segment the customers based on certain patterns. Each cluster of customers is different whereas customers within a cluster share common properties. Customer segmentation is a widely opted approach used in devising marketing plans.
 
-#Advantages of unsupervised learning
+# Advantages of unsupervised learning
 
 1.It can see what human minds cannot visualize.
 
@@ -221,7 +221,7 @@ Machines are not that quick, unlike humans. It takes a lot of resources to train
 5.It is reasonably easier to obtain unlabeled data.
 
 
-#Disadvantages of Unsupervised Learning
+# Disadvantages of Unsupervised Learning
 
 1.You cannot get precise information regarding data sorting, and the output as data used in unsupervised learning is labeled and not known.
 
@@ -233,9 +233,9 @@ The user needs to spend time interpreting and label the classes which follow tha
 4.Spectral properties of classes can also change over time so you can’t have the same class information while moving from one image to another.
 
 
-#How to use Unsupervised learning to find patterns in data
+# How to use Unsupervised learning to find patterns in data
 
-#CODE:
+# CODE:
 
 
 from sklearn import datasets
@@ -244,7 +244,7 @@ from sklearn import datasets
 import matplotlib.pyplot as plt
 
 
-
+ 
 
 iris_df = datasets.load_iris()
 
@@ -270,12 +270,12 @@ plt.scatter(x_axis, y_axis, c=iris_df.target)
 
 plt.show()
 
-#Explanation:
+# Explanation:
 
 As the above code shows, we have used the Iris dataset to make predictions.The dataset contains a records under four attributes-petal length, petal width, sepal length, sepal width.And also it contains three iris classes:setosa, virginica and versicolor .We'll feed the four features of our flowers to the unsupervised algorithm and it will predict which class the iris belongs.For that we have used scikit-learn library in python to load the Iris dataset and matplotlib for data visualisation.  
 
 
-#OUTPUT:
+# OUTPUT:
 
 As we can see here the violet colour represents setosa,green colour represents versicolor and yellow
  colour represents virginica.
