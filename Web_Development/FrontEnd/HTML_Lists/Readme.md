@@ -1,40 +1,44 @@
 # HTML LISTS_#1055
 
 <div align="center">
-<img  src="../../images/HTML_Lists.jpg"/>
+<img  src="https://designzonic.com/knowledge-base/wp-content/uploads/2019/05/Beyond-bland_HTML-lists-with-style.png"/>
 
 </div>
 <br>
 <br>
 
 # HTML Lists
+
 HTML lists allow web developers to group a set of related items in lists.
 <br>
 <br>
 
 ## What are Lists ?
+
 <hr>
 
 - Lists are used to group related pieces of information together, so they are clearly associated with each other and easy to read.
 
 - HTML lists are used to present list of information in well formed and semantic way.
 
-- In modern web development lists are very important  elements, frequently used for navigation as well as general content. 
+- In modern web development lists are very important elements, frequently used for navigation as well as general content.
 
 <br>
 
 **<hr>**
 <br>
+
 ## Types of Lists in HTML
+
 <hr>
 
-There are three types of lists in HTML and each one has a specific purpose and meaning : 
+There are three types of lists in HTML and each one has a specific purpose and meaning :
 
 - <span style="color:lightsalmon;">**UnOrdered List**</span> — used to group a set of related items, in no particular order.
 
--  <span style="color:lightsalmon;">**Ordered List**</span>—used to group a set of related items, in a specific order.
+- <span style="color:lightsalmon;">**Ordered List**</span>—used to group a set of related items, in a specific order.
 
--   <span style="color:lightsalmon;">**Definition List**</span>—used to display name/value pairs such as terms and their definitions, or times and events.
+- <span style="color:lightsalmon;">**Definition List**</span>—used to display name/value pairs such as terms and their definitions, or times and events.
 
 <br>
 
@@ -43,7 +47,8 @@ There are three types of lists in HTML and each one has a specific purpose and m
 
 # UnOrdered Lists in HTML
 
-Unordered lists, or bulleted lists, are used when a set of items can be placed in any order. An example is a shopping list : 
+Unordered lists, or bulleted lists, are used when a set of items can be placed in any order. An example is a shopping list :
+
 - milk
 - bread
 - butter
@@ -51,36 +56,39 @@ Unordered lists, or bulleted lists, are used when a set of items can be placed i
 
 <br>
 
-These items are all part of one list, however, we could put the items in any order and the list would still make sense : 
+These items are all part of one list, however, we could put the items in any order and the list would still make sense :
+
 - bread
-- coffee 
+- coffee
 - milk
 - butter
 
 <br>
 
 **Example :**
+
 <br>
 
 <div align="center">
-<img src="../../images/bulleted.jpg"> 
+<img src="https://i0.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/01/Unordered-List.jpg?fit=474%2C397&ssl=1" /> 
 </div>
 
-
+<br>
 <br>
 
 ## Syntax For UnOrdered List
+
 <hr>
 
-- We use the ```<ul>``` tag to create an unordered  list. 
+- We use the `<ul>` tag to create an unordered list.
 
 - Items will appear with bullets
 
-- The list items are created with the ```<li>``` tag. 
+- The list items are created with the `<li>` tag.
 
 **For Example :**
 
-      <ul> 
+      <ul>
           <li>Entry 1</li>
           <li>Entry 2</li>
           <li>Entry 3</li>
@@ -88,22 +96,23 @@ These items are all part of one list, however, we could put the items in any ord
 
 <br>
 
-## Changing *"Bullets"*
+## Changing _"Bullets"_
+
 <hr>
 
 - By default Unordered lists appear with bullets.
 
-- But if required then we can change this symbol to *“square”* or *“circle”*.
+- But if required then we can change this symbol to _“square”_ or _“circle”_.
 
-- To do this we need to handle *“type”* attribute of ```<ul>``` tag. 
+- To do this we need to handle _“type”_ attribute of `<ul>` tag.
 
 **For Example :**
-      
+
       <ul type= “square">
             <li>Entry 1</li>  
             <li>Entry 2</li> 
             <li>Entry 3</li>
-      </ul> 
+      </ul>
 
 <br>
 
@@ -112,7 +121,7 @@ These items are all part of one list, however, we could put the items in any ord
 
 # Ordered Lists In HTML
 
-Ordered lists, or numbered lists, are used to display a list of items that need to be placed in a specific order. 
+Ordered lists, or numbered lists, are used to display a list of items that need to be placed in a specific order.
 
 <br>
 
@@ -122,23 +131,24 @@ An example would be cooking instructions, which must be completed in order for t
 
 <br>
 <div align="center">
-<img src="../../images/ordered.jpg"> 
+<img src="https://i2.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/01/ordered-list.jpg?fit=474%2C397&ssl=1"> 
 </div>
 
 <br>
 <br>
 
 ## Syntax For Ordered List
+
 <hr>
 
-- We use the ```<ol>``` tag to create an unordered  list.
+- We use the `<ol>` tag to create an unordered list.
 
 - Items will appear with numbers
-The list items are created with the ```<li>``` tag. 
+  The list items are created with the `<li>` tag.
 
-**For Example :** 
+**For Example :**
 
-      <ol> 
+      <ol>
          <li>Entry 1</li>
          <li>Entry 2</li>
          <li>Entry 3</li>
@@ -146,56 +156,58 @@ The list items are created with the ```<li>``` tag.
 
 <br>
 
-## Changing *"Numbers"*
+## Changing _"Numbers"_
+
 <hr>
 
 - By default Ordered lists appear with numbers.
 
 - But if required then we can change numbers to letters or roman numerals
 
-- To do this we need to handle *“type”* attribute of ```<ol>``` tag.
+- To do this we need to handle _“type”_ attribute of `<ol>` tag.
 
-- Possible values are : 
-*“A”, ”a”, ”I”, ”i”*
- 
+- Possible values are :
+  _“A”, ”a”, ”I”, ”i”_
+
 **For Example :**
-      
+
       <ol type= “A">
             <li>Entry 1</li>  
             <li>Entry 2</li> 
             <li>Entry 3</li>
-      </ol> 
+      </ol>
 
  <br>
 
- ## Beginning Ordered Lists with Numbers Other than 1
+## Beginning Ordered Lists with Numbers Other than 1
+
  <hr>
 
- It is possible to get an Ordered list to start with a number other than 1 (or i, or I, etc.). 
+It is possible to get an Ordered list to start with a number other than 1 (or i, or I, etc.).
 
 <br>
 
-This is done using the *“start”* attribute, which takes a numeric value, even if we’re using the list counters to be alphabetic or roman using the *“type”* property.
+This is done using the _“start”_ attribute, which takes a numeric value, even if we’re using the list counters to be alphabetic or roman using the _“type”_ property.
 
 <br>
 
 **For Example :**
-      
+
       <ol start= “4">
             <li>Entry 1</li>  
             <li>Entry 2</li> 
             <li>Entry 3</li>
-      </ol> 
+      </ol>
 
 <br>
 
 **For Alphabetic lists:**
-           
+
       <ol type="A" start=“4">
            <li>Entry 1</li>  
            <li>Entry 2</li> 
            <li>Entry 3</li>
-      </ol> 
+      </ol>
 
 <br>
 
@@ -210,11 +222,11 @@ Definition lists, or Description lists, create a list with two parts to each ent
 
 There are three tags associated with the definition list :
 
-```<dl>```  to define the list
+`<dl>` to define the list
 
-```<dt>```  to define the title term
+`<dt>`  to define the title term
 
-```<dd>``` to define the definition of the term
+`<dd>` to define the definition of the term
 
 <br>
 
@@ -222,20 +234,21 @@ There are three tags associated with the definition list :
 
 <br>
 <div align="center">
-<img src="../../images/DEFINITION.jpg"> 
+<img src="https://i0.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/01/Description-List.jpg?fit=474%2C397&ssl=1"> 
 </div>
 
 <br>
 <BR>
 
 ## Syntax For Definition List
+
 <hr>
 
-- We use the ```<dl>``` tag to create a definition  list.
+- We use the `<dl>` tag to create a definition list.
 
 **For Example :**
 
-      <dl> 
+      <dl>
           <dt>
              HTML
           </dt>
@@ -252,37 +265,37 @@ There are three tags associated with the definition list :
 
 <br>
 
-*The Result :*
-   
+_The Result :_
+
         HTML
-           The language used to write Web pages. 
+           The language used to write Web pages.
         CSS
-           The language used to design and format Web pages. 
+           The language used to design and format Web pages.
 
 
- 
-          
+
+
 
 <br>
 
 <br>
 
 **<hr>**
-<br> 
+<br>
 
 # Nested List
 
-A list item can contain another entire list — this is known as *"nesting"* a list. It is useful for things like tables of contents
-
+A list item can contain another entire list — this is known as _"nesting"_ a list. It is useful for things like tables of contents
 
 ## Syntax For Nested List
+
 <hr>
 
-- We use the ```<ul>``` tag to create an unordered  list. 
+- We use the `<ul>` tag to create an unordered list.
 
 - Items will appear with bullets
 
-- The list items are created with the ```<li>``` tag. 
+- The list items are created with the `<li>` tag.
 
 **For Example :**
 
@@ -303,11 +316,11 @@ A list item can contain another entire list — this is known as *"nesting"* a l
          <li>Meat</li>
       </ul>
 
-*And here's the resulting nested list :*
+_And here's the resulting nested list :_
 
 <br>
 <div align="center">
-<img src="../../images/nested.png"> 
+<img src="https://s3.amazonaws.com/webucator-how-tos/419.png"> 
 </div>
 
 <br>
@@ -317,7 +330,7 @@ A list item can contain another entire list — this is known as *"nesting"* a l
 
 # Styling Lists In CSS
 
-**CSS** provides several properties for styling and formatting the most commonly used *unordered* and *ordered lists*. 
+**CSS** provides several properties for styling and formatting the most commonly used _unordered_ and _ordered lists_.
 
 These **CSS list properties** typically allow you to :
 
@@ -331,12 +344,13 @@ Following are the properties provided by CSS for styling any list:
 
 - list-style-type
 - list-style-position
-- list-style-image 
-- list-style 
+- list-style-image
+- list-style
 
 <br>
 
-## The *List-Style Property*
+## The _List-Style Property_
+
 <hr>
 The list-style-type property allows us to control the shape or style of marker in the list.
 
@@ -350,14 +364,13 @@ For unordered lists possible values are:
 <br>
 
 **Example :**
-  
-    ul 
-	  { 
-		list-style-type: none; 
-	  }
 
+    ul
+      {
+    	list-style-type: none;
+      }
 
-This will style all unordered list to be displayed without any  marker , instead of bullets.
+This will style all unordered list to be displayed without any marker , instead of bullets.
 
 <br>
 
@@ -373,12 +386,11 @@ For ordered lists possible values are :
 <br>
 
 **Example :**
-  
-    ol 
-	  { 
-		list-style-type: decimal-leading-zero; 
-	  }
 
+    ol
+      {
+    	list-style-type: decimal-leading-zero;
+      }
 
 This will style all ordered list to be displayed 0 prefixed numbers as marker , for single digit numbers.
 
@@ -387,13 +399,14 @@ This will style all ordered list to be displayed 0 prefixed numbers as marker , 
 **<hr>**
 <br>
 
-## The *List-Style-Position* Property
+## The _List-Style-Position_ Property
+
 <hr>
 By default, the marker of each list item is positioned outside of their display boxes.
 <br>
 <br>
 
-However, we can also position these markers or bullet points inside of the list item's display boxes using the list-style-position property along with the value inside. 
+However, we can also position these markers or bullet points inside of the list item's display boxes using the list-style-position property along with the value inside.
 <br>
 <br>
 
@@ -403,14 +416,14 @@ In this case the lines will wrap under the marker instead of being indented.
 
 **Example :**
 
-    ol.in li 
-		  { 
-			 list-style-position: inside; 
-		  } 
-    ol.out li 
-		  { 
-			 list-style-position: outside; 
-	   	  }
+    ol.in li
+    	  {
+    		 list-style-position: inside;
+    	  }
+    ol.out li
+    	  {
+    		 list-style-position: outside;
+       	  }
 
 <br>
 
@@ -418,17 +431,18 @@ In this case the lines will wrap under the marker instead of being indented.
 
 <br>
 
-## The *List-Style-Image* Property 
+## The _List-Style-Image_ Property
+
 <hr>
 
-We  can also set an image as a list marker using the property list-style-image .
+We can also set an image as a list marker using the property list-style-image .
 <br>
 
 **Example:**
-     
-     ul li { 
-		     list-style-image: url("images/bullet.png"); 
-	       }
+
+     ul li {
+    	     list-style-image: url("images/bullet.png");
+           }
 
 The style rule in the above code assigns a PNG image “bullet.png" as the list marker
 
@@ -440,15 +454,14 @@ The style rule in the above code assigns a PNG image “bullet.png" as the list 
 
 # Setting All Lists Properties At Once
 
-The **list-style** property is a **shorthand** property for defining all the three properties : *list-style-type, list-style-image*, and *list-style-position* of a list in one place.
+The **list-style** property is a **shorthand** property for defining all the three properties : _list-style-type, list-style-image_, and *list-style-position* of a list in one place.
 <br>
 
 **Example :**
-	
-    ul 
-	{ 
-		list-style: square inside url("images/bullet.png"); 
-	}
+ul
+{
+list-style: square inside url("images/bullet.png");
+}
 
 <br>
 
@@ -461,13 +474,13 @@ The **list-style** property is a **shorthand** property for defining all the t
 <br>
 
 <div align="center">
-<img  src="../../images/nav_bar.jpg"/>
+<img  src="https://www.otallu.com/wp-content/uploads/2014/07/Create-a-simple-navigation-bar-with-CSS.jpg" />
 
 </div>
 <br>
 <br>
 
-HTML lists are frequently used to create horizontal navigation bar or menu that typically appears at the top of a website. 
+HTML lists are frequently used to create horizontal navigation bar or menu that typically appears at the top of a website.
 
 <br>
 
@@ -477,25 +490,25 @@ But since the list items are block elements, so to display them inline we need t
 
 **Example :**
 
-    ul 
-	   {
-		  padding: 0; 
-		  list-style: none;
-		  background: #f2f2f2; 
-	   } 
-	ul li 
-		{ 
-		   display:  inline-block; 
-		} 
-	ul li a 
-		{ 
-		display: block; 
-		padding: 10px 25px; 
-		color: #333; 
-		text-decoration: none; 
-		} 
-	ul li a:hover 
-		{ 
-		color: #fff; 
-		background: #939393; 
-		
+    ul
+       {
+    	  padding: 0;
+    	  list-style: none;
+    	  background: #f2f2f2;
+       }
+    ul li
+    	{
+    	   display:  inline-block;
+    	}
+    ul li a
+    	{
+    	display: block;
+    	padding: 10px 25px;
+    	color: #333;
+    	text-decoration: none;
+    	}
+    ul li a:hover
+    	{
+    	color: #fff;
+    	background: #939393;
+
