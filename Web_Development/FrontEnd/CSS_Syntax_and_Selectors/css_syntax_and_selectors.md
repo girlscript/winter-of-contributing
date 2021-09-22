@@ -60,7 +60,7 @@ Example
 }
 ```
 
-## CSS Univerasl Selector
+## CSS Universal Selector
  (*) is CSS universal selector and it selects all the **HTML** elements.
 
 example-
