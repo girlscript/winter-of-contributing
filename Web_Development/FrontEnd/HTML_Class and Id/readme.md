@@ -1,4 +1,4 @@
-# HTML Classes and Ids
+# HTML Classes and Ids #1277
 
 ---
 
@@ -119,6 +119,78 @@ Output Of The Above Code
 <br>
 --
 ![1](./1.jpg)
+
+<br>
+
+## Using ID and CLASS together
+
+<br>
+
+1. We can specify a class and an id on the same element.
+
+```
+  <div id=" y" class= "x">
+```
+
+2.  We can even specify more than one class for each element.
+
+```
+<div class=" x y b ">
+```
+
+3.  We **cannot** use more than one id per element.
+
+```
+ <div id="  y w ">
+```
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+#y.x {
+ /* will select element of id="y" that also has class="x" */
+ background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+
+
+
+.city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+}
+
+</style>
+</head>
+<body>
+<h1 id="y" class="x">My Cities</h1>
+
+<!-- Multiple elements with same class -->
+<h2 class="city">London</h2>
+<p>London is the capital of England.</p>
+
+<h2 class="city">Paris</h2>
+<p>Paris is the capital of France.</p>
+
+<h2 class="city">Tokyo</h2>
+<p>Tokyo is the capital of Japan.</p>
+
+</body>
+</html>
+
+
+```
+
+Output Of The Above Code
+<br>
+![2](./2.jpg)
+<br>
 
 ---
 
