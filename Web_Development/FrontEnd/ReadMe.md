@@ -11,18 +11,18 @@
 
 ## 1️⃣ HTML
 
-- Introduction to HTML
+- [Introduction to HTML](./Introduction_to_Html)
 - HTML Editors
 - HTML Text Formatting
 - HTML Style Attribute
 - HTML Links and Images
-- HTML Tables
+- [HTML Tables](./HTML_Tables)
 - HTML Lists
 - HTML Classes and IDs
 - HTML Forms
 - Semantic HTML
 - Form Validation
-- Conventions & Best Practices
+- [Conventions & Best Practices](HTML_Conventions_Practices/readme.md)
 - Accessibility
 - Search Engine Optimisation Basics
 
