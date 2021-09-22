@@ -54,3 +54,5 @@ If, all the elements in the first half are less than (or equal) to all elements 
 
         Time Complexity : O(log(min(n, m))), where n and m are the sizes of given sorted array
 
+# References 
+https://www.geeksforgeeks.org/median-two-sorted-arrays-different-sizes-ologminn-m/
