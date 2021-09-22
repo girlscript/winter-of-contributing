@@ -6,7 +6,7 @@
 
 
 ## What are JavaScript Objects?
-
+<img src="./Js object.png" alt="">
 To understand this clearly let's think of some real world examples such as motorbike. We can consider motorbike as an object in real world and we often use the term "property" and "functioning" to differentiate one motorbike from others. Properties such as brand, color, body design, posture of motorbike, etc. And motorbike also performs some functioning like applingBrake(), accelerate() which defines the working of the objects.
 
 Now taking the above example of motorbike as consideration, We can easily understand objects in Javascript, they are more or less as same as that motorbike having different values and properties. In javascript objects consist of **values** instead of properties and **methods** in place of functioning. 
