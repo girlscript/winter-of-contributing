@@ -53,12 +53,12 @@ A standard normal distribution is a normal distribution with mean 0 and standard
 
 2.	Alternative Hypothesis
 
-**1.Null hypothesis:** In inferential statistics (make predictions (“inferences”) from that data.), the null hypothesis is a general statement or default position that there is no relationship between two measured phenomena, or no association among groups
+**1. Null hypothesis:** In inferential statistics (make predictions (“inferences”) from that data.), the null hypothesis is a general statement or default position that there is no relationship between two measured phenomena, or no association among groups
 In other words, it is a basic assumption or made, based on the domain or problem knowledge.
 
 **Ex:** a company production is = 50 unit/per day etc.
 
-**2.Alternative hypothesis:**
+**2. Alternative hypothesis:**
 The alternative hypothesis is the hypothesis used in hypothesis testing that is contrary to the null hypothesis. It is usually taken to be that the observations are the result of a real effect (with some amount of chance variation superposed)
 
 **Ex:** A company production is! =50 unit/per day etc.
@@ -88,7 +88,7 @@ This is normally denoted with alpha(maths symbol ) and generally it is 0.05 or 5
 
 (1)a college != 4000 student
 
-(2 )data science != 80% org adopted
+(2)data science != 80% org adopted
 
 ![image](https://user-images.githubusercontent.com/63282184/134290903-7f0ef93d-aedc-4573-bc2e-3a59582f83c9.png)
 
@@ -128,7 +128,7 @@ With that constraint, the first value in the data set is free to vary. Whatever 
 4.	**ANOVA**
 5.	**Chi-Square Test**
 
-**1.T- TEST**
+**1. T- TEST**
 
 **A t-test is used to compare the mean of two given samples. **
 
@@ -154,7 +154,7 @@ n2 = size of sample 2
 
 ![image](https://user-images.githubusercontent.com/63282184/134291349-a2983c36-32ef-4513-8d7f-959b59c595bd.png)
 
-**2.Z-TEST**
+**2. Z-TEST**
 
 In a z-test, the sample is assumed to be normally distributed. 
 
@@ -179,7 +179,7 @@ You would use a Z test if:
 •	Your data should be randomly selected from a population, where each item has an equal chance of being selected.
 •	Sample sizes should be equal if at all possible.
 
-**3.F-TEST**
+**3. F-TEST**
 
 An “F Test” is a term for any test that uses the F-distribution. In most cases, F-Test, what people are actually talking about is The F-Test to Compare Two Variances. However, the f-statistic is used in a variety of tests including regression analysis, the Chow test and the Scheffe Test (a post-hoc ANOVA test).
 
@@ -191,7 +191,62 @@ F Statistic = variance of the group means / mean of the within group variances.
 You can find the F Statistic in the F-Table.
 3.	Support or Reject the Null Hypothesis.
 
-**4.ANOVA**
+**4. ANOVA**
+
+ANOVA, also known as analysis of variance, is used to compare multiple (three or more) samples with a single test.
+
+There are 2 major flavors of ANOVA
+
+1. One-way ANOVA: It is used to compare the difference between the three or more samples/groups of a single independent variable.
+2. MANOVA: MANOVA allows us to test the effect of one or more independent variable on two or more dependent variables. In addition, MANOVA can also detect the difference in co-relation between dependent variables given the groups of independent variables.
+
+The hypothesis being tested in ANOVA is
+
+Null: All pairs of samples are same i.e., all sample means are equal
+
+Alternate: At least one pair of samples is significantly different
+
+The statistics used to measure the significance, in this case, is called F-statistics. The F value is calculated using the formula
+
+**F= ((SSE1 — SSE2)/m)/ SSE2/n-k**, where
+
+SSE = residual sum of squares
+
+m = number of restrictions
+
+k = number of independent variables
+
+There are multiple tools available such as SPSS, R packages, Excel etc. to carry out ANOVA on a given sample.
+
+![image](https://user-images.githubusercontent.com/63282184/134293706-52f045d1-3b7e-473d-8d29-a314aa09d9cb.png)
+
+
+**5. Chi-Square Test**
+
+**Chi-square test is used to compare categorical variables**. There are two type of chi-square test
+
+1. Goodness of fit test, which determines if a sample matches the population.
+2. A chi-square fit test for two independent variables is used to compare two variables in a contingency table to check if the data fits.
+
+a. A small chi-square value means that data fits
+b. A high chi-square value means that data doesn’t fit.
+
+The hypothesis being tested for chi-square is
+
+Null: Variable A and Variable B are independent
+
+Alternate: Variable A and Variable B are not independent.
+
+The statistic used to measure significance, in this case, is called chi-square statistic. 
+
+The formula used for calculating the statistic is
+
+**Χ2 = Σ [ (Or,c — Er,c)2 / Er,c ]**
+
+![image](https://user-images.githubusercontent.com/63282184/134293956-aa97827d-d343-4038-86dd-052027663020.png)
+
+
+
 
 
 
