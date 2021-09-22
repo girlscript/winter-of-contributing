@@ -1,20 +1,4 @@
 # Standard Template Library (STL)
-<hr>
-Hey everyone! 👋 [GirlScript Winter of Contributing](https://gwoc.girlscript.tech/) is a three-month newly established initiative by GirlScript Foundation to be conducted during winters. GWOC encourages individuals to share their knowledge and ideas to develop technical skills and gain valuable experience in the field of tech education. Over the course of the program, participants can contribute to a variety of themes under the guidance of an expert facilitator.
-
-This is the C/CPP branch for contribution under Girlscript Winter Of Contributing. All the GWOC Contributors and Mentors are welcome!
-
-
-<div align="center">
-
-[![Issues](https://img.shields.io/github/issues/girlscript/winter-of-contributing)](https://github.com/girlscript/winter-of-contributing/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Forks](https://img.shields.io/github/forks/girlscript/winter-of-contributing?style=social)](https://github.com/girlscript/winter-of-contributing) 
-[![Stars](https://img.shields.io/github/stars/girlscript/winter-of-contributing?style=social)](https://github.com/girlscript/winter-of-contributing) 
-[![Watchers](https://img.shields.io/github/watchers/girlscript/winter-of-contributing?style=social)](https://github.com/girlscript/winter-of-contributing)
-</div>
-
-<hr>
 
 ## Introduction
 <p> Standard Template Library (STL) are the main part of many computer science algorithms as they enable the programmers to handle the data in an efficient way. The Standard Template Library (STL) is a set of C++ template classes to provide common programming data structures and functions.
