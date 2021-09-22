@@ -11,12 +11,15 @@ Hello 👋,, We present you all the contributing guidelines of **Android Dev Kot
 ## Guidelines for Contributors
 1. All the contributors can contribute with the following format :
     * **Documentation** : Contributors can work on making a nice, well-formatted markdown file with proper indentation of code and proper workflow to be maintained.
+    
     ![image1](https://i.imgur.com/D7MFNy1.png)
 
     * **Audio** : The contributors can also submit an audio file (mp3 file), the volunteer editor of this domain (if any) will help you editing audio and video files.
+
     ![image2](https://i.imgur.com/XxTmYdB.png)
     
     * **Video** : Contributors can make videos explaining a particular topic, videos are currently only accepted through drive (will update this later on).
+    
     ![image3](https://i.imgur.com/ZDyoRbY.png)
     
 2.	Contributor or Mentor can create issues but the only mentor will assign that issue based on first come first serve.
