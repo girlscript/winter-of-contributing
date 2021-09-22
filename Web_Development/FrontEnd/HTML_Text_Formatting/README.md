@@ -189,6 +189,17 @@ Whereas \<s> element is used to represent the texts which is no longer correct i
 <hr>
 
 
-<br><br>
+<br>
 
-__Contributer :__[Ruhi_Rani](https://github.com/ruhirani011)
+## Reference
+https://www.w3schools.com/html/html_formatting.asp
+<br>
+https://www.javatpoint.com/html-formatting
+<br>
+https://www.w3docs.com/learn-html/html-tags-for-text-formatting.html
+<br>
+https://www.tutorialspoint.com/html/html_formatting.htm
+
+
+
+__Contributed by :__[ Ruhi Rani 😊](https://github.com/ruhirani011)
