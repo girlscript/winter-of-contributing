@@ -1,0 +1,130 @@
+# Switch Expressions in Java
+
+
+A switch expression is like a normal expression, except that it will be evaluated to a value. This is an improvement of the switch statement. In a switch expression:
+
+-   Each case supports multiple labels.
+
+-   It can return value by arrow label and yield statement.
+
+Switch statement example-:
+--------------------------
+
+<pre><code>
+public enum Day { SUNDAY, MONDAY, TUESDAY,
+    WEDNESDAY, THURSDAY, FRIDAY, SATURDAY; }
+// ...
+    int numLetters = 0;
+    Day day = Day.WEDNESDAY;
+    switch (day) {
+        case MONDAY:
+        case FRIDAY:
+        case SUNDAY:
+            numLetters = 6;
+            break;
+        case TUESDAY:
+            numLetters = 7;
+            break;
+        case THURSDAY:
+        case SATURDAY:
+            numLetters = 8;
+            break;
+        case WEDNESDAY:
+            numLetters = 9;
+            break;
+        default:
+            throw new IllegalStateException("Invalid day: " + day);
+    }
+    System.out.println(numLetters);
+</code></pre>
+
+Now the above code is the most basic and traditional method of using switch-case statements in JAVA. Some more methods by which we can use them in our code are given below-:
+
+-   Using switch expressions
+    ------------------------
+
+### 1\. **Using arrow label to return value**
+
+It would be better if you could "return" the length of the day's name instead of storing it in the variable numLetters; you can do this with a switch expression. Furthermore, it would be better if you didn't need break statements to prevent fall through; they are laborious to write and easy to forget. You can do this with a new kind of case label. The following is a switch expression that uses the new kind of case label to print the number of letters of a day of the week:
+
+<pre>code>
+    Day day = Day.WEDNESDAY;    
+    System.out.println(
+        switch (day) {
+            case MONDAY, FRIDAY, SUNDAY -> 6;
+            case TUESDAY                -> 7;
+            case THURSDAY, SATURDAY     -> 8;
+            case WEDNESDAY              -> 9;
+            default -> throw new IllegalStateException("Invalid day: " + day);
+        }
+    );  
+</code></pre>
+    
+The new kind of case label has the following form:
+
+<pre><code>
+case label_1, label_2, ..., label_n -> expression;|throw-statement;|block
+</code></pre>
+
+When the Java runtime matches any of the labels to the left of the arrow, it runs the code to the right of the arrow and does not fall through; it does not run any other code in the switch expression (or statement). If the code to the right of the arrow is an expression, then the value of that expression is the value of the switch expression.
+
+You can use the new kind of case label in switch statements. The following is like the first example, except it uses "arrow case" labels instead of "colon case" labels:
+
+<pre><code>
+int numLetters = 0;
+    Day day = Day.WEDNESDAY;
+    switch (day) {
+        case MONDAY, FRIDAY, SUNDAY -> numLetters = 6;
+        case TUESDAY                -> numLetters = 7;
+        case THURSDAY, SATURDAY     -> numLetters = 8;
+        case WEDNESDAY              -> numLetters = 9;
+        default -> throw new IllegalStateException("Invalid day: " + day);
+    };
+    System.out.println(numLetters);
+</code></pre>
+
+### 2\. **Using YIELD to return value**
+
+Java SE 13 introduces the yield statement. It takes one argument, which is the value that the case label produces in a switch expression.
+
+The yield statement makes it easier for you to differentiate between switch statements and switch expressions. A switch statement, but not a switch expression, can be the target of a break statement. Conversely, a switch expression, but not a switch statement, can be the target of a yield statement.
+
+Note:- It's recommended that you use "arrow case" labels. It's easy to forget to insert break or yield statements when using "colon case" labels; if you do, you might introduce unintentional fall through in your code.
+
+For "arrow case" labels, to specify multiple statements or code that are not expressions or throw statements, enclose them in a block. Specify the value that the case label produces with the yield statement:
+
+<pre><code>
+int numLetters = switch (day) {
+        case MONDAY, FRIDAY, SUNDAY -> {
+            System.out.println(6);
+            yield 6;
+        }
+        case TUESDAY -> {
+            System.out.println(7);
+            yield 7;
+        }
+        case THURSDAY, SATURDAY -> {
+            System.out.println(8);
+            yield 8;
+        }
+        case WEDNESDAY -> {
+            System.out.println(9);
+            yield 9;
+        }
+        default -> {
+            throw new IllegalStateException("Invalid day: " + day);
+        }
+    };  
+</pre></code>
+
+In the above code, we have replaced the yield statement with an arrow label (->). The colon (:) at the end of the case label is also removed. By adding a switch expression we are able to make the code shorter and more readable.
+
+* * * * *
+
+When using the switch expression, it must either complete normally, with a value, or complete abruptly by throwing an exception.
+
+When we create a switch expression that doesn't yield a value it will throw an error as //Group doesn't contain a yield statement.
+
+-   You can install Java 14 on your machine to test the switch expression. [Download Java 14 here](https://www.oracle.com/in/java/technologies/javase/jdk14-archive-downloads.html).
+
+HAPPY LEARNING 😎🙌
