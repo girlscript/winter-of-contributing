@@ -19,8 +19,7 @@
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
 - [Stack_and_Queue](./Stack_and_Queue)
 - [Loop Break](./Loops_Break)
-
-
+- [Decorators](./Decorators)
 
 ## Learning path
 1. Git & GitHub
@@ -35,4 +34,4 @@
 10. Objects in Python
 11. Stack and Queue
 12. Loop Break
-
+13. Decorators
