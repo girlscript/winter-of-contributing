@@ -21,6 +21,7 @@
 - [Stack_and_Queue](./Stack_and_Queue)
 - [Loop Break](./Loops_Break)
 - [Decorators](./Decorators)
+- [Advanced_functions_Reduce](./Advanced_functions_Reduce)
 
 ## Learning path
 1. Git & GitHub
@@ -36,3 +37,4 @@
 11. Stack and Queue
 12. Loop Break
 13. Decorators
+14. Advanced functions-Reduce
