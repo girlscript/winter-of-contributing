@@ -33,8 +33,6 @@ if (true) {
 
 console.log(a); //ReferenceError
 
-This time javascript throws an error. Why is it so?
-
 Because (**if**) block creates a scope for `a` and `a` can be used within that scope only.
 
 You are free to access the variable within its scope , but a variable cannot
