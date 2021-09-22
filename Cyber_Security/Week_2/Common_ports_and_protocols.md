@@ -82,6 +82,19 @@
     This is used for transmitting and receiving hypertext messages
     between the client and the server.
     
+-   ### Port 110
+
+    <img
+        src="https://support.content.office.net/en-us/media/d82dd150-cbd4-4476-9955-4eb4618a1a60.gif"
+        alt="pop3"
+        width="40%"
+      />
+
+    This port is for POP3 which stands for Post Office Protocol 3.With POP3 we can fetch and 
+    download email messages from a remote computer to our local machine and read them even when 
+    we are offline. POP3 works on 2 ports i.e. 110 and other one is 995. 995 is used when we 
+    want to use POP3 securely.
+    
 -   ### Port 123
 
     <img
