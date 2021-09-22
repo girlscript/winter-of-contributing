@@ -1,2 +1,1 @@
-- [
-Constructor & Destructor](Constructor_Destructor.md)
+- [Constructor & Destructor](Constructor_Destructor.md)
