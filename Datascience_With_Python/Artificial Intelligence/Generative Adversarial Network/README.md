@@ -1,6 +1,6 @@
 # A Breif Introduction to Generative Adversarial Network (GAN)
 
-![GAN](https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Deep%20Learning/Algorithms/Generative%20Adversarial%20Network/Images/GAN.png)
+![GAN](https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Artificial%20Intelligence/Generative%20Adversarial%20Network/Images/GAN.png)
 
 Perhaps all of you heard about Deepfake where AI can generate fake speech or images which are hard to difficult to distinguish from the actual one. These systems are built on Generative Adversarial Network (GAN) and currently it's one of the most versatile neural network architecture.
 
@@ -21,9 +21,7 @@ So, the generative network creates candidates while the discriminative network j
 
 Firstly, the generator is equipped with fixed-length random data as input. This data is drawn from predefined latent space. Then the generator is trained by deceiving the discriminator enough. Finally, the discriminator evaluates them and specifies the real and fake data. Initially, the discriminator is trained with a known dataset until it reaches acceptable accuracy. It is a simple classification model. After training has been done, the discriminator is terminated. Independent backpropagation can help to produce better sample data.
 
-![Model Architecture](https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Deep%20Learning/Algorithms/Generative%20Adversarial%20Network/Images/generative-adversarial-network.png)
-
-
+![Model Architecture](https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Artificial%20Intelligence/Generative%20Adversarial%20Network/Images/generative-adversarial-network.png)
 # Advantages of GAN
 
 - GAN can produce similar real data or different versions of real text, audio or video.
