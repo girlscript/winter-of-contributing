@@ -22,6 +22,7 @@
 - [Loop Break](./Loops_Break)
 - [Decorators](./Decorators)
 - [OOP-Class](./OOP-Class)
+- [Advanced_function_reduce()](./Advanced_function_reduce())
 
 ## Learning path
 1. Git & GitHub
@@ -38,3 +39,4 @@
 12. Loop Break
 13. Decorators
 14. OOP-Class
+15. Advanced function-reduce()
