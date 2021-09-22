@@ -18,7 +18,7 @@ While the first version of java was nothing short of revolutionary, it still man
 | Java Version | Year of release | Changes |
 |:------------:|----------------:|---------|
 | Java 1.0     |            1996 |    -    |
-| Java 1.1     |            1997 | The first major upgrade change the way how events were handled and enhanced various features from the initial release. Some of the functions were deprecated.s|
+| Java 1.1     |            1997 | The first major upgrade change the way how events were handled and enhanced various features from the initial release. Some of the functions were deprecated.|
 | J2SE 1.2     | 1998| It added several new features such as Swing and Collections Framework and it also enhanced JVM. It deprecated several functions from the thread class including ```suspend()```, ```resume()``` and ```stop()```.|
 | J2SE 1.3     | 2000 | For the most part, it added to the existing functionality and "tightened up" the development environment.|
 | J2SE 1.4     | 2002 | This release contained several important upgrades, enhancements, and additions. It added the new keyword assert, chained exceptions and a channel based I/O subsystem. It enhanced the collections framework and the networking classes.|
