@@ -1,4 +1,4 @@
-# Input & Output Function in C
+# Input & Output Operation in C
 ## Output Function
 
 When we mention **Output**, we mean show some data on the screen, printer, or in any file. The C programming language comes with a collection of built-in functions for displaying and saving data on the computer screen and in text and binary files, respectively. 
