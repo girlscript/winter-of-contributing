@@ -1,0 +1,80 @@
+ES6 TEMPLATE LITERALS:-
+
+Template literals are a new feature introduced in ECMAScript 2015/ ES6.
+It provides an easy way to create multiline strings and perform string interpolation. Template literals are the string literals and allow embedded expressions.
+
+Before ES6, template literals were called as template strings. 
+Unlike quotes in strings, template literals are enclosed by the backtick (` `) character (key below the ESC key in QWERTY keyboard). 
+Template literals can contain placeholders, which are indicated by the dollar sign and curly braces ($(expression}). 
+Inside the backticks, if we want to use an expression, then we can place that expression in the ($(expression}).
+
+Syntax:-
+var str = `string value`;  
+
+MULTILINE STRINGS:-
+In normal strings, we have to use an escape sequence \n to give a new line for creating a multiline string. 
+However, in template literals, there is no need to use \n because string ends only when it gets backtick(`) character.
+
+EXAMPLE:-
+// Without template literal   
+console.log('Without template literal \n multiline string');   
+    
+// With template literal   
+console.log(`Using template literal  
+multiline string`);  
+
+STRING INTERPOLATION:-
+ES6 template literals support string interpolation. Template literals can use the placeholders for string substitution. 
+To embed expressions with normal strings, we have to use the ${} syntax.
+
+EXAMPLE:-
+var name = 'World';  
+var cname = 'GirlScript';  
+console.log(`Hello, ${name}!  
+Welcome to ${cname}`); 
+
+OUTPUT:-
+Hello, World!
+Welcome to GirlScript
+
+TAGGED TEMPLATES:-
+Tagged templates are one of the more advanced form of template literals. 
+Tagged template literals allow us to parse template literals with a function.
+
+The first argument of the tag function contains an array having string values, and the remaining arguments are related to the expression. 
+The writing of tagged literal is similar to the function definition, but the difference occurs when the tagged literals get called. 
+There are no parentheses () required to call a literal.
+
+EXAMPLE:-
+function TaggedLiteral(str) {   
+    console.log(str);   
+}   
+    
+TaggedLiteral `Hello World`;  
+
+OUTPUT:-
+[ 'Hello World' ]
+
+RAW STRINGS:-
+The template literal raw method allows the accessing of raw strings as they were entered. 
+In addition to this, the string.raw() method exists for creating the raw strings as similar to the default template function. It allows us to write the backslashes as we would in a regular expression literal.
+
+The string.raw() method is used to show the strings without any interpretation of backslashed characters. It is also useful to print windows sub-directory locations without require to use a lot of backslashes.
+
+EXAMPLE:-
+var rawText = String.raw`Hello \n World \n Welcome back! `   
+console.log(rawText)  
+
+OUTPUT:-
+Hello \n World \n Welcome back!
+
+String.fromCodePoint():-
+This method returns a string, which is created by using the specified sequence of Unicode code points. It throws a RangeError if there is an invalid code point is passed.
+
+EXAMPLE:-
+console.log(String.fromCodePoint(49))          
+console.log(String.fromCodePoint(80, 76))  
+
+OUTPUT:-
+1
+PL
