@@ -1,5 +1,7 @@
 <h1 align = "center"><strong>Valid Brackets Using Stack</strong></h1>
-
+<hr>
+<h2>Problem Statement :- <br><br><em><strong> • Check for Balanced Brackets in an expression (well-formedness) using Stack </strong></em></h2>
+<hr>
 <h2><strong>Brackets which we all most commonly use or encounter are of 3 main types :-</strong></h2>
 <ul>
     <li>Round brackets, open brackets or parentheses: ( )</li>
@@ -56,40 +58,61 @@
 <h2><strong>Code implementation in JAVA:-</strong></h2>
 <br>
 
-```
-import java.util.*;
+``` JAVA 
+import java.util.*; // imports all the classes and interfaces within JAVA
 
+// Solution class
 public class Solution {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.next();
-        boolean ans = isValid(s);
 
+    // main function (Execution of the program start from here)
+    public static void main(String[] args) { 
+    
+        // Object of scanner class to input using input stream
+        Scanner sc = new Scanner(System.in);
+        
+        // String input using .next() function
+        String s = sc.next();
+        
+        // return value of our function in which input is passed is of boolean type that is true or false
+        boolean ans = isValid(s);
+        
+        // if return value is true we print "Valid Brackets"
         if(ans == true) {
             System.out.println("Valid Brackets");
         }
-
+        
+        // else if the return value if false than we print "Invalid Brackets"
         else {
             System.out.println("Invalid Brackets");
         }
     }
-
+    
+    // isValid function of return value type boolean
     public static boolean isValid(String s) {
+    
+        // length of the string passed in function as parameter
         int n = s.length();
+        
+        // Memory allocation for stack data structure using "new" 
         Stack<Character> stack = new Stack<Character>();
-
-        char c;
-
+  
+        // for loop to check Validation for Brackets
         for(int i = 0 ; i<n ; i++) {
+        
+            // Checking opening Brackets 
             if(s.charAt(i) == '(' || s.charAt(i) == '[' || s.charAt(i) == '{') {
                 stack.push(s.charAt(i));
             }
+            
             else {
+                // if stack is empty, return "false"
                 if(stack.empty()) {
                     return false;
                 }
-
-                c = stack.pop();
+                
+                // poping the top value out of the stack and checking if it is a valid Bracket combination
+                char c = stack.pop();
+                
                 if(c == '(') {
                     if(s.charAt(i) != ')') {
                         return false;
@@ -102,7 +125,7 @@ public class Solution {
                     }
                 }
 
-                if(c == '{') {
+                else if(c == '{') {
                     if(s.charAt(i) != '}') {
                         return false;
                     }
@@ -110,12 +133,15 @@ public class Solution {
             }
         }
 
+        // condition to check if stack is empty or not. If empty return "true" else return "false"
         if(stack.empty()) {
             return true;
         }
+        
         return false;
-    }
-}
+    } // End of isValid() function (user defined)
+    
+} // End of Program
 ```
 
 <h2><strong>Input and Output :-</strong></h2>
@@ -129,3 +155,12 @@ Output :- Valid Brackets
 Input :- [{))}]
 Output :- Invalid Brackets
 ```
+<br>
+
+<p>
+    
+- Time Complexity: O(n) 
+- Auxiliary Space: O(n) for stack. 
+ 
+</p>
+
