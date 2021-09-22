@@ -11,7 +11,7 @@ Basically Inline Elements are the type of elements which occupy the space bounde
 An Inline Element does not start on a new line.
 
 Examples of Inline Elements:
-    <a> <span> <img> <code> <site> <button> <input> etc.
+    <a> <span> <img> <code> <site> <button> <input> 
 
 ```
 <!DOCTYPE html>
@@ -37,7 +37,7 @@ Unlike Inline Elements Block Elements always start from a new line. Also they ta
 One more interesting fact about Block Elements is that they have top and bottom margin available to them.
 
 Examples of Block Elements:
-    <div> <header> <footer> <form> <hr> <table> <section> etc.
+    <div> <header> <footer> <form> <hr> <table> <section> 
 
 ```
 <!DOCTYPE html>
