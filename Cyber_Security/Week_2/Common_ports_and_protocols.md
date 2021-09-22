@@ -100,12 +100,26 @@
     <img
         src="https://www.grandmetric.com/wp-content/uploads/2018/12/network-time-protocol-ntp.jpg"
         alt="http"
-        width="50%"
+        width="40%"
       />
 
     This port is for NTP which stands for Network Time Protocol.
     It is used for transmission and receiving accurate time sources over the network.
     It allows network devices to synchronize their clocks with a central source clock.
+    
+-   ### Port 143
+
+    <img
+        src="https://askleo.askleomedia.com/wp-content/uploads/2012/10/imap.png"
+        alt="http"
+        width="50%"
+      />
+
+    This port is for IMAP which stands for Internet Message Access Protocol.
+    Just like POP3 it is also used to to fetch emails from  a remote server but unlike POP3 it allows
+    simultaneous access to the emails from multiple clients. This allows access to your email from different
+    locations. It also works with 2 ports i.e. 143 and other one is 993. 993 is used if we want to connect with
+    IMAP securely.
 
 -   ### Port 194
 
