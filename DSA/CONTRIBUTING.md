@@ -99,14 +99,15 @@ $ git push origin --delete <branch-name>
 ## Project Structure
 1. For the naming of directories, strictly use snake_case (underscore_separated) in your file_name and push it in correct folder.
 2. The repository structure will be something like this:
-- DS
-- Algorithms
+- DS(Topic) -> Sub-topics -> Your file
+- Analysis of Algorithms -> Topics -> Sub-topics(Your file)
 
 ## Code Base
 - Make sure you do not copy codes from external sources like GFG, hackerearth, etc because that work will not be considered. **Plagiarism is strictly not allowed.** 
 - Use **1 tab or 4 spaces** indentation.
 - Add the **description** of your algorithm using multi-line comments at the starting of the code.
 - Add **comments** to your code in a **new line** and use single-line comments with **1 tab or 4 spaces** indentation.
+- ``.md`` extension is preferred for documentation.
 
 
 ## Issues
@@ -125,6 +126,7 @@ Keep following points in mind while raising issues within the repository:
 Please note the following points while creating PRs:
 - The PR must mention which issue(s) is/are being resolved, with the `resolves`, `closes`, or `fixes` keyword preceding the issue number prefixed with a `#` example `Fixes #3`
 - PRs with too many commits will be squashed before merge. The commit messages must be clear and comprehensible.
+- PR should be named as your assigned issue.
 
 
 ## End
