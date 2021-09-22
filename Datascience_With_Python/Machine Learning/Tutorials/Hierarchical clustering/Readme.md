@@ -50,6 +50,37 @@
 
 
 
+## How do we measure the similarity between the clusters:
+
+- Measuring the similarity between two clusters is important to merge or divide the clusters. 
+- Some of the approaches which are used to calculate the similarity between two clusters are:
+
+1. **MIN**
+2. **MAX**
+3. **Group Average**
+4. **Distance Between Centroids**
+5. **Ward’s Method**
+
+## 1. MIN
+
+This is also known as single-linkage algorithm can be defined as the similarity of two clusters C1 and C2 is equal to the minimum of the similarity between points Pi and Pj such that Pi belongs to C1 and Pj belongs to C2.
+
+![image](https://user-images.githubusercontent.com/63282184/134361351-425dc982-d8e2-4e40-9d0c-3b31c756ecea.png)
+
+**Advantages of MIN:**
+
+- This approach can separate non-elliptical shapes as long as the gap between the two clusters is not small.
+
+![image](https://user-images.githubusercontent.com/63282184/134362455-82857f21-eb09-4642-a625-5b9189a67df9.png)
+
+**Disadvantages of MIN:**
+
+- MIN approach cannot separate clusters properly if there is noise between clusters.
+
+![image](https://user-images.githubusercontent.com/63282184/134362687-2ab3c381-ac48-4897-9898-b0caf2f84ac8.png)
+
+
+
 
 
 
