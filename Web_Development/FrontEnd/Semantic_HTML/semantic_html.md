@@ -1,36 +1,40 @@
 # Semantic HTML
 
-Semantic HTML or semantic markup is HTML that introduces meaning to the web page rather than just presentation.A semantic element clearly describes its meaning to both the browser and the developer.
-For example, a ```<p>``` tag indicates that the enclosed text is a paragraph. This is both semantic and presentational because people know what paragraphs are, and browsers know how to display them.
+Semantic HTML or semantic markup is HTML that describes its meaning to both the browser and the developer.
+
+Semantic - relating to meaning
+<br>
+
+*"what purpose or role does that HTML element have?"*
 
 ### Examples
-Examples of non-semantic elements: ```<div>``` and ```<span>``` - Tells nothing about its content.
+Non-semantic elements: ```<div>``` and ```<span>``` - No information about content.
 
-Examples of semantic elements: ```<form>```, ```<table>```, and ```<article>``` - Clearly defines its content.
+Semantic elements: ```<form>```, ```<table>```, and ```<article>``` - Gives information about its content.
 
 ## Why use Semantic HTML?
 
-The benefit of writing semantic HTML stems from what should be the driving goal of any web page: the desire to communicate. By adding semantic tags to your document, you provide additional information about that document, which aids in communication. Specifically, semantic tags make it clear to the browser what the meaning of a page and its content is. That clarity is also communicated with search engines, ensuring that the right pages are delivered for the right queries.
+The benefit of writing semantic HTML is the driving goal of any web page: the desire to communicate. By adding semantic tags we are providing additional information about that document which helps in communication. 
 
-Some of the benefits from writing semantic markup are as follows:
-- Search engines will consider its contents as important keywords to influence the page's search rankings 
-- Screen readers can use it as a signpost to help visually impaired users navigate a page
-- Finding blocks of meaningful code is significantly easier than searching through endless divs with or without semantic or namespaced classes
-- Suggests to the developer the type of data that will be populated
+Below I have listed some benefits of writing semantic markup:
+- Search engines give importance to its contents which influence the page's search rankings 
+- Screen readers can use it to help visually impaired users to navigate a webpage
+- We can easily find blocks of meaningful code than searching through endless divs without semantic
+- It suggests to the developer the type of data that will be populated
 - Semantic naming mirrors proper custom element/component naming
 
 ## Semantic Elements in HTML
 
-Many web sites contain HTML code like: ```<div id="nav"> <div class="header"> <div id="footer">``` to indicate navigation, header, and footer.
+Many websites use HTML code like: ```<div id="nav"> <div class="header"> <div id="footer">``` to indicate navigation, header, and footer.
 
-In HTML there are some semantic elements that can be used to define different parts of a web page:  
+Semantic elements in HTML that can be used to define different parts of a web page:  
 - ```<article>```
 - ```<aside>```
 - ```<details>```
-- ```<figcaption>```
-- ```<figure>```
 - ```<footer>```
 - ```<header>```
+- ```<figcaption>```
+- ```<figure>```
 - ```<main>```
 - ```<mark>```
 - ```<nav>```
@@ -38,79 +42,78 @@ In HTML there are some semantic elements that can be used to define different pa
 - ```<summary>```
 - ```<time>```
 
-<img src="https://user-images.githubusercontent.com/84666741/134252097-2d8852dd-4c97-4866-a9a4-41295a56b8a1.png">
+<img src="https://user-images.githubusercontent.com/84666741/134342946-54b71609-f6b8-4284-a432-fbdbb4ed8713.png">
 
 ## HTML ```<section>``` Element
 The ```<section>``` HTML element represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it. Sections should always have a heading, with very few exceptions.
 ```html
-<h1>Choosing an Apple</h1>
+<h1>Choosing a job?</h1>
 <section>
-    <h2>Introduction</h2>
-    <p>This document provides a guide to help with the important task of choosing the correct Apple.</p>
+    <h2>idea</h2>
+    <p>The guide will help to to choose the job which suits you best.</p>
 </section>
 
 <section>
     <h2>Criteria</h2>
-    <p>There are many different criteria to be considered when choosing an Apple — size, color, firmness, sweetness, tartness...</p>
+    <p>when choosing a job see your intrests and personality aligns with the comapny or not. Don't forget to have a look at the work culture,....</p>
 </section>
 
 ```
 
 ## HTML ```<article>``` Element
-The ```<article>``` HTML element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable.
+The ```<article>``` HTML element defines a self-contained composition in a document, page, application, or site. An article is meant to be independently distributable or reusable.
 ```html
 <article>
   <header>
-    <h1>What Does WWF Do?</h1>
-    <p>WWF's mission:</p>
+    <h1>What Does naari Do?</h1>
+    <p>narri's mission:</p>
   </header>
-  <p>WWF's mission is to stop the degradation of our planet's natural environment,
-  and build a future in which humans live in harmony with nature.</p>
+  <p>naari's mission is to promote equality and opportunities for women and create awareness.</p>
 </article>
 ```
 
 ## HTML ```<header>``` Element
-The ```<header>``` HTML element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+The ```<header>``` HTML element defines the introductory content. It can contain some heading elements and also a logo, a search form, an author name, and other elements.
 ```html
 <header class="page-header">
-    <h1>Cute Puppies Express!</h1>
+    <h1>The Ultimate FOOD Blog!</h1>
 </header>
 
 <main>
-    <p>I love beagles <em>so</em> much! Like, really, a lot. They’re adorable and their ears are so, so snuggly soft!</p>
+    <p>I love indian food <em>so</em> much! If you have never tasted t before then its a must have.</p>
 </main>
 ```
 
 ## HTML ```<footer>``` Element
-The ```<footer>``` HTML element represents a footer for its nearest sectioning content or sectioning root element. A <footer> typically contains information about the author of the section, copyright data or links to related documents.
+The ```<footer>``` HTML element represents the footer for its nearest sectioning content.It typically contains information about copyright details,author of the section or links to related documents and references.
 ```html
 <footer>
-  <p>Author: Hege Refsnes</p>
-  <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+  <p>Author: abc</p>
+  <p><a href="mailto:abc@gmail.com">abc@gmail.com</a></p>
 </footer>
 ```
 
 ## HTML ```<nav>``` Element
-The ```<nav>``` element defines a set of navigation links.
+The ```<nav>``` element defines a set of navigation links for a website.
 ```html
 <nav>
-  <a href="/html/">HTML</a> |
-  <a href="/css/">CSS</a> |
-  <a href="/js/">JavaScript</a> |
-  <a href="/jquery/">jQuery</a>
+  <a href="/home/">Home</a> |
+  <a href="/about/">About</a> |
+  <a href="/tools/">Tools</a> |
+  <a href="/contact/">Contact</a>
 </nav>
 ```
 ## HTML ```<aside>``` Element
 The ```<aside>``` HTML element represents a portion of a document whose content is only indirectly related to the document's main content. Asides are frequently presented as sidebars or call-out boxes.
 
-Display some content aside from the content it is placed in:
+Display some content other than the content it is placed in:
 
 ```html
-<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
+<p>My family and I visited The Kids center this weekend. The weather was nice, and he center was amazing! I had a great summer together with my family!</p>
 
 <aside>
-<h4>Epcot Center</h4>
-<p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+<h4>Kids Center</h4>
+<p>Kid center is a fun place to visit with family and kids. It has lots of stuff that children enjoy.</p>
 </aside>
 ```
 
@@ -128,16 +131,24 @@ The ```<figcaption>``` HTML element represents a caption or legend describing th
 
 | Tag  | Description |
 | ------------- | ------------- |
-| ```<article>```  | Defines independent, self-contained content |
-| ```<aside>```  | Defines content aside from the page content  |
-| ```<details>```  | Defines additional details that the user can view or hide |
-| ```<figcaption>```  | Defines a caption for a <figure> element |
+| ```<article>```  | Used for independent, self-contained content |
+| ```<aside>```  |  Used for content aside from the page content  |
+| ```<details>```  |  Used for additional details that the user can view or hide |
+| ```<figcaption>```  | Used for caption for a <figure> element |
 | ```<figure>```  | Specifies self-contained content, like illustrations, diagrams, photos, code listings, etc. |
-| ```<footer>```  | Defines a footer for a document or section |
-| ```<header>```  | Defines a header for a document or section |
-| ```<main>```  | Specifies the main content of a document |
-| ```<mark>```  | Defines marked/highlighted text |
-| ```<nav>```  | Defines navigation links |
-| ```<section>```  | Defines a section in a document |
-| ```<summary>```  | Defines a visible heading for a ```<details>``` element |
-| ```<time>```  | Defines a date/time |
+| ```<footer>```  | Used for footer for a document or section |
+| ```<header>```  | Used for header for a document or section |
+| ```<main>```  | Used for the main content of a document |
+| ```<mark>```  | Used for marked/highlighted text |
+| ```<nav>```  | Used for navigation links |
+| ```<section>```  | Used for section in a document |
+| ```<summary>```  | Used for visible heading for a ```<details>``` element |
+| ```<time>```  | Used for adate/time |
+
+### References  
+    https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+    https://www.w3schools.com/html/html5_semantic_elements.asp
+    photo: 
+    https://miro.medium.com/max/1000/1*zHJFnu7QF-PgUb8108aLcA.png
+
+Contributor: [Harsha Priya](https://github.com/harshapriyaa)❄️
