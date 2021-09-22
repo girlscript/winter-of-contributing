@@ -68,7 +68,7 @@ _For example, check this code below_
 Now as the code suggests, any element with `class='mydiv'` will undergo the change of
 _background-color from red to yellow, over 2 seconds of time period_.
 
-![](1_red_to_yellow_animation.gif)
+<img src="1_red_to_yellow_animation.gif" width="350px">
 
 > You can play around with various CSS properties to make different effects as per requirements.
 
@@ -96,7 +96,7 @@ ___An example of a fade-in animation___
 }
 ```
 
-![](2_simple_fadein_animation.gif)
+<img src="2_simple_fadein_animation.gif" width="350px">
 
 #### animation-delay
 This property is to add a delay to the animation start.
@@ -110,7 +110,7 @@ By default it's equal to 0, hence the animation runs on page load directly.
 ```
 > The animation will start 5 seconds after the page load
 
-![](3_delayed_animation.gif)
+<img src="3_delayed_animation.gif" width="350px">
 
 #### animation-iteration-count
 This property is to assign how many times the cycle of animtion will run
@@ -126,7 +126,7 @@ By default it's equal to 1.
 
 To make the animation run over and over again, you can set the property to `infinite`
 
-![](4_5_iterated_animation.gif)
+<img src="4_5_iterated_animation.gif" width="350px">
 
 ```CSS
 .mydiv{
@@ -160,7 +160,7 @@ Or
 }
 ```
 
-![](5_reversed_animation.gif)
+<img src="5_reversed_animation.gif" width="350px">
 
 #### animation-timing-function
 This tag is to specify the speed curve of an animation
@@ -187,7 +187,7 @@ Or,
 }
 ```
 
-![](6_linear_timed_animation.gif)
+<img src="6_linear_timed_animation.gif" width="350px">
 
 #### animation-fill-mode
 This tag is to specify a style for the target element when the animation is not playing (i.e. before it starts, after it ends, or both).
@@ -215,7 +215,7 @@ Or,
 ```
 > The element will get the red color before running
 
-![](7_forward_filled_animation.gif)
+<img src="7_forward_filled_animation.gif" width="350px">
 
 #### animation
 This is the shorthand way to write all the above mentioned animation properties under one single property tag.
@@ -238,7 +238,7 @@ This code block is equivalent to
 > This comes very handy when you have to use only a few of the properties, or even all at once.
 > It also makes the code look a lot cleaner.
 
-![](8_shorthand_animation.gif)
+<img src="8_shorthand_animation.gif" width="350px">
 
  ___A simple infinite scrolling animation (like that of a headline news)___
 
@@ -267,6 +267,8 @@ body{
 }
 ```
 
-![](9_imp_news_animation.gif)
+<img src="9_imp_news_animation.gif" width="100%">
 
-Contributor: [Ayush Verma](https://github.com/ayush02av)
+> Thanks for reading
+> 
+> Author: [Ayush Verma](https://github.com/ayush02av)
