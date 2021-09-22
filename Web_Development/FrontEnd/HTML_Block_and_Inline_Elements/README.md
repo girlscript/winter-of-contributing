@@ -34,6 +34,7 @@ Examples of Inline Elements
 
 ### Output
 
+![image](https://user-images.githubusercontent.com/65715910/134344755-1cca59db-4486-4827-91e4-2ddd7837b1fe.png)
 
 
 ***
@@ -60,6 +61,8 @@ Examples of Block Elements
 </html>  
 ```   
 ### Output
+
+![image](https://user-images.githubusercontent.com/65715910/134344895-514954e1-1ec8-40aa-8786-a6dcdad642ec.png)
 
 
     
