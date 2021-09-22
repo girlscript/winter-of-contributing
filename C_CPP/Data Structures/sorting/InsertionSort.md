@@ -34,3 +34,7 @@ int main(){
     cout<<endl;
 }
 ```
+- COMPLEXITY OF INSERTION SORT </br>
+
+   Insertion Sort is an easy-to-implement,stable sorting algorithm with time complexity of O(n^2)in the average case and O(n) in the best case and the worst case occurs when the array is sorted in reverse order. For vey small n, Insertion Sort is faster than more efficient algorithms.</br>
+   Insertion sort is stable sort with a space complexity of O(1).
