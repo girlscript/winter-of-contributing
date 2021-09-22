@@ -52,3 +52,8 @@ Ensemble Learning is generally used to solve classification tasks but it can als
 ### Conclusion
 Any machine learning task seeks to determine a single model that best predicts our desired outcome. Rather than creating a single model and hope it is the best/most accurate predictor possible, ensemble methods consider a variety of models and aggregate them to get an one final model.<br>
 Although ensemble methods can help you win machine learning competitions by devising sophisticated algorithms and producing results with high accuracy, it is often not preferred in the industries where interpretability is more important. Nonetheless, the effectiveness of these methods are undeniable, and their benefits in appropriate applications can be tremendous. It's worth noting that Decision Trees aren't the only type of ensemble approach; they're merely the most popular and useful in Data Science currently.
+
+### References
+https://scikit-learn.org<br>
+https://machinelearningmastery.com/why-use-ensemble-learning/<br>
+https://bdtechtalks.com/2020/11/12/what-is-ensemble-learning/
