@@ -2,6 +2,8 @@
 
 In Flutter, almost everything is a widget—even layout models are widgets. The images, icons, and text that you see in a Flutter app are all widgets. But things you don’t see are also widgets, such as the rows, columns, and grids that arrange, constrain, and align the visible widgets.
 
+![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSELKPYWkzlvwdIs9_B5jBqyJylZIv92awI6_a2uy1Oiwsg_MjNpe6gJBUpqpwmZEp7AYM&usqp=CAU)
+
 ## **Layout a widget**
 
 Let us learn how we can create and display a simple widget. The following steps show how to layout a widget:
@@ -61,8 +63,10 @@ Step 4: Finally, add the layout widget to the page where you want to display.
 
 - A Flutter app is itself a widget, and most widgets have a build() method. Instantiating and returning a widget in the app’s build() method displays the widget.
 
-.
+Below in this image you can view the layout
 
+
+![image](https://flutter.dev/assets/images/docs/ui/layout/button-section-diagram.png)
 ## **Types of Layout Widgets**
 
 We can categories the layout widget into two types:
@@ -80,6 +84,8 @@ For example, Center widget just centers it child widget with respect to its pare
 
 Single child widgets are great options to create high quality widget having single functionality such as button, label, etc.
 
+
+![image](https://miro.medium.com/max/839/1*KQADRGpUgkINaEAeCWYs8w.png)
 The list of different types of single child widgets are:
 
 - # **Container**
@@ -107,7 +113,7 @@ It is a widget that is used to arrange its child widget by the given padding. It
 const Greetings(
  child: Padding(
  padding: EdgeInsets.all(14.0),
- child: Text('Hello JavaTpoint!'),
+ child: Text('Hello World!'),
  ),
 )
 
@@ -116,6 +122,7 @@ const Greetings(
 - # **Center**:
 
   This widget allows you to center the child widget within itself.
+  ![image](https://miro.medium.com/max/724/0*65BU2MRL2p4qWfqw.png)
 
 - # **Align**:
   It is a widget, which aligns its child widget within itself and sizes it based on the child's size. It provides more control to place the child widget in the exact position where you need it.
@@ -134,6 +141,8 @@ const Greetings(
  ),
 )
 ```
+Here you can see that how alignment of row and column are done 
+![image](https://miro.medium.com/max/1218/1*DbZVIPcRxe7Mg8avHmf5Sw.jpeg)
 
 - # **SizedBox**:
   This widget allows you to give the specified size to the child widget through all screens.
@@ -142,9 +151,10 @@ const Greetings(
 SizedBox(
   width: 300.0,
   height: 450.0,
-  child: const Card(child: Text('Hello JavaTpoint!')),
+  child: const Card(child: Text('Hello World!')),
 )
 ```
+![image](https://miro.medium.com/max/1400/1*-m4us0a915zWjSQbXa5_Mw.jpeg)
 
 - # **AspectRatio**:
   This widget allows you to keep the size of the child widget to a specified aspect ratio.
@@ -157,6 +167,7 @@ AspectRatio(
   ),
 ),
 ```
+![image](https://i.stack.imgur.com/cY4AS.png)
 
 - # **Baseline**:
   This widget shifts the child widget according to the child's baseline.
@@ -189,3 +200,4 @@ ConstrainedBox(
   ),
 ),
 ```
+![image](https://cdn.codetober.com/wp-content/uploads/2019/09/06184913/flutter_widget_samples-1024x551.png)
