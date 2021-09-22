@@ -4,6 +4,7 @@
 <div align="center">
     <img width="700" alt="DNS" src="https://kinsta.com/wp-content/uploads/2018/05/what-is-dns.png">
 </div>  
+*<b>Source:</b> https://kinsta.com/knowledgebase/what-is-dns/
 <h3><b>Domain:</b></h3>
 <p>A domain name is the identity of one or more IP addresses; for example, the domain name google.com points to the IP address "74.125. 127.147". Domain names are invented as it is easy to remember a name rather than a long string of numbers.</p>
 <p>There are various kinds of DOMAIN:</p>
@@ -16,6 +17,7 @@
 <div align="center">
     <img width="700" alt="DNS" src="https://upload.wikimedia.org/wikipedia/commons/7/72/Strucutre-of-dns.jpg">
 </div>
+*<b>Source:</b> https://en.wikipedia.org
 <h2><b>How Does DNS Work?</b></h2>
 <p>When a user enters a URL in their web browser, DNS gets to work to connect that URL to the IP address of the actual server. This is called DNS name resolution and involves a DNS recursor querying various nameservers to figure out the actual IP address of a server.</p>
 <p>DNS is primarily concerned with four components:</p>
@@ -32,6 +34,7 @@
 <div align="center">
     <img alt="DomainRegistrar" src="https://gotechug.com/wp-content/uploads/2018/08/How-to-know-your-domain-registrar.png">
 </div> 
+*<b>Source:</b> https://gotechug.com/5-ways-to-know-your-domain-registrar-host/
 <h2>Nameservers</h2>
 <p>Nameservers are servers much like web servers. However, they are configured to store DNS records rather than to serve up websites or web applications.</p>
 <p>This means that when you want to change any DNS record you must change those DNS records on the nameservers that have been specified by the registrar or third-party service such as Cloudflare.</p>
@@ -39,6 +42,7 @@
 <div align="center">
     <img alt="Nameserver" src="https://www.cloudflare.com/img/learning/dns/what-is-dns/dns-record-request-sequence-3.png">
 </div> 
+*<b>Source:</b> https://www.cloudflare.com
 <h2>DNS Records</h2>
 <p>DNS records associate a domain with a web-based service.</p>
 <p>There are several different types of DNS records, but in most cases, only 4 or 5 types of DNS records are used:</p>
@@ -51,9 +55,11 @@
 <div align="center">
     <img alt="DNSrecords" src="https://www.mustbegeek.com/wp-content/uploads/2019/03/Understanding-Different-Types-of-Record-in-DNS-Server-2-1.png">
 </div> 
+*<b>Source:</b> https://www.mustbegeek.com/understanding-different-types-of-record-in-dns-server/
  <h2>Web Services</h2>
  <p>In our case, the web service is website hosting. An A record (or AAAA record) must be added to a domain’s nameservers to associate that domain with the web servers that host the website.</p>
  <p>There are many other types of web services that are associated with a domain through DNS records: email, SFTP, hosting control panels, webmail applications, and phpMyAdmin just to name a few.</p>
 <div align="center">
     <img alt="WebServices" src="https://media.ttmind.com/Media/tech/article_82_12-10-201812-46-13PM.jpg">
 </div>
+*<b>Source:</b> https://www.ttmind.com/techpost/WEB-SERVICES-REST-VS-gRPC
