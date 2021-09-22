@@ -54,8 +54,10 @@ Here, two neural network will compete with each other . The discriminator will d
 # Conclusion 
 This article shows Generative Adversarial Network's brief history , architecture, advantages , disadvantages, implentation and some applications. If you are more interested in working this amazing Deep learning architecture, follow this references :
 
-![1] (https://machinelearningmastery.com/how-to-code-the-generative-adversarial-network-training-algorithm-and-loss-functions/)
-![2] (https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-by-step-tutorial-fdefff170391)
-![3] (https://medium.com/intel-student-ambassadors/mnist-gan-detailed-step-by-step-explanation-implementation-in-code-ecc93b22dc60)
+(https://machinelearningmastery.com/how-to-code-the-generative-adversarial-network-training-algorithm-and-loss-functions/)
+
+(https://towardsdatascience.com/generative-adversarial-network-gan-for-dummies-a-step-by-step-tutorial-fdefff170391)
+
+(https://medium.com/intel-student-ambassadors/mnist-gan-detailed-step-by-step-explanation-implementation-in-code-ecc93b22dc60)
 
 
