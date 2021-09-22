@@ -63,7 +63,7 @@ background-color: #FFE1AF;
 
 So these are some of the default rules of how things gets rendered on the screen just by HTML. Now we can also set a CSS property which is the position property in order to position elements on screen the way that you want it to instead of just going along with the default layout, and in most cases people wants to make changes to the default layout.
 
-**There are three major types of positioning in CSS:-**
+**There are four major types of positioning in CSS:-**
 
 - Static
 - Relative
