@@ -32,7 +32,7 @@ The operation will be 1 only when both the bits are 1 otherwise it remains 0.
 
 ## **_Bitwise OR_**
 
-The bitwise OR operator takes two arguments and performs OR operation on each bit of the value of the operand. In the OR operation in binary, the resultant is 0 when both operands are 0 otherwise it is 1.
+The bitwise OR operator takes two arguments and performs OR operations on each bit of the operands. In the OR operation, the resultant is 0 when i-th bit of both the operands is 0 otherwise the result is 1.
 
 ![](https://i2.wp.com/techvidvan.com/tutorials/wp-content/uploads/sites/2/2019/12/bitwise-or-operations.jpg?resize=325%2C238&ssl=1)
 
@@ -40,7 +40,7 @@ The bitwise OR operator takes two arguments and performs OR operation on each bi
 
 ## **_Bitwise XOR_**
 
-The bitwise Xor takes two operands and performs Xor operation on the binary digits. The Xor operation gives 0 as a result when both operands are the same and 1 when operands are different.
+The bitwise XOR takes two operands and performs XOR operation on the binary digits. The Xor operation gives 0 as a result when i-th bit of both the operands is same and 1 when the bits are different.
 
 ![](https://i2.wp.com/techvidvan.com/tutorials/wp-content/uploads/sites/2/2019/12/example-of-bitwise-Xor-operation.jpg?resize=500%2C197&ssl=1)
 
