@@ -40,4 +40,15 @@ In Python, random forests have their own independent implementation.
 - **Bagging**: It's a model for homogeneous weak learners that learns from each other in parallel and then combines the results to determine the model average.
 - **Boosting**: It's also a model for homogeneous weak learners, but it's not as effective as Bagging. Learners in this approach learn sequentially and adaptively to enhance a learning algorithm's model predictions.
 - **Voting**: Voting is an ensemble machine learning algorithm. For regression, a voting ensemble involves making a prediction that is the average of multiple other regression models. In classification, a _hard voting_ ensemble involves summing the votes for crisp class labels from other models and predicting the class with the most votes. A _soft voting_ ensemble involves summing the predicted probabilities for class labels and predicting the class label with the largest sum probability.
+- **Extra Trees**: An extra-trees classifier/regressor. This class implements a meta estimator that fits a number of randomized decision trees (a.k.a. extra-trees) on various sub-samples of the dataset and uses averaging to improve the predictive accuracy and control over-fitting.
 
+### Advantages
+- Performance: An ensemble can make better predictions and achieve better performance than any single contributing model.
+- Robustness: An ensemble reduces the spread or dispersion of the predictions and model performance.
+
+### Applications
+Ensemble Learning is generally used to solve classification tasks but it can also perform well on regression tasks. Ensemble Learning can be used in healthcare where even the smallest amount of improvement in the accuracy of machine learning algorithms can be something truly valuable.
+
+### Conclusion
+Any machine learning task seeks to determine a single model that best predicts our desired outcome. Rather than creating a single model and hope it is the best/most accurate predictor possible, ensemble methods consider a variety of models and aggregate them to get an one final model.<br>
+Although ensemble methods can help you win machine learning competitions by devising sophisticated algorithms and producing results with high accuracy, it is often not preferred in the industries where interpretability is more important. Nonetheless, the effectiveness of these methods are undeniable, and their benefits in appropriate applications can be tremendous. It's worth noting that Decision Trees aren't the only type of ensemble approach; they're merely the most popular and useful in Data Science currently.
