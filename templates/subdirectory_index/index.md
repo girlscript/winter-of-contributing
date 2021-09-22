@@ -5,9 +5,10 @@
   -->
 
 # Title (name of the topic)
+CSS animation
 
 # Description
-Small description of the topic 
+Different kind of properties and live demo examples
 
 ## Index
 
