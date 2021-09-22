@@ -30,9 +30,19 @@ Case 2: Total elements is even, the median will be average of elements at index 
 
 We start by partitioning the two arrays into two groups by makimg cut1 and cut2 in the respective arrays consisiting of elements from both the arrays. The first half contains some first elements from the first and the second arrays, and the second half contains the rest (or the last) elements form the first and the second arrays. 
 
+![image](https://user-images.githubusercontent.com/68536395/134367427-c124799f-6147-4d63-b7a5-79650f28e3a6.png)
+
 Partition is choosen in such a form that all the elements in the first half are less than the elements in the second half, and all the elements in the second half are greater than the elements in the first half.
 
+
 If an element in the first half is greater than the element in the secodn half, then we try partinioning by decreasing on element fron the first half and putting it in the second half and vice versa.
+
+![image](https://user-images.githubusercontent.com/68536395/134367706-15d9cfd7-de1f-4e79-8bc3-4178804e398d.png)
+
+![image](https://user-images.githubusercontent.com/68536395/134367795-483e8e42-fa18-4d27-a9d0-7382b6e0376f.png)
+
+![image](https://user-images.githubusercontent.com/68536395/134367877-741fb541-a6ec-403e-a681-e4c182954629.png)
+
 
 How to lead to median?
 
