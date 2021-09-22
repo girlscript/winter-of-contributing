@@ -24,4 +24,31 @@ Firstly, the generator is equipped with fixed-length random data as input. This 
 ![Model Architecture](https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Deep%20Learning/Algorithms/Generative%20Adversarial%20Network/Images/generative-adversarial-network.png)
 
 
+# Advantages of GAN
+
+- GAN can produce similar real data or different versions of real text, audio or video.
+- Better Interpretation of machine learning.
+- More efficient in Object detection or speech recgonition.
+
+# Disadvantages of GAN 
+- It's really hard to train this model becuase of power consumption .
+- Speech or text data generation is challenging.
+
+# Applications of GAN
+
+-  DeepFake 
+-  Realistic images or speech like human
+-  Image to Image Translation.
+-  Text to Image Translation
+-  Face aging or emojis detection
+-  Image to Text translation
+-  3d object Generation 
+
+# Implementation
+
+We are going to implement GAN to a ![Pokeman dataset](https://www.kaggle.com/kvpratama/pokemon-images-dataset) consists of 819 images . 
+These images along with the fake ones will be fed in batches to the Discriminator.Let's take a look at the steps our GAN will follow-
+
+Here, two neural network will compete with each other . The discriminator will detect the ground truth ( real or fake ) of generated images and return possiblities a number between 0 and 1 . here 0 represent fake and 1 is real .
+
 
