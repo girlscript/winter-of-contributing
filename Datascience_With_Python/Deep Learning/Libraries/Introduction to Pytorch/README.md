@@ -3,7 +3,7 @@
 ## Description:
 This Tutorial should make you familiar with the basics of PyTorch.
 
-PyTorch is an open source machine learning library based on the Torch library (Torch Library is no longer being developed), used for applications such as computer vision and natural language processing, primarily developed by Facebook's AI Research lab (FAIR).
+PyTorch is an open source machine learning library based on the Torch library (Torch Library is no longer being developed), used for applications such as computer vision and natural language processing, developed by Facebook.
 
 ## Brief Summary:
 In this Notebook you will learn about:
