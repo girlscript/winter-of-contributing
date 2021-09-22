@@ -146,9 +146,9 @@ The ```<figcaption>``` HTML element represents a caption or legend describing th
 | ```<time>```  | Used for adate/time |
 
 ### References  
-    https://developer.mozilla.org/en-US/docs/Glossary/Semantics
-    https://www.w3schools.com/html/html5_semantic_elements.asp
-    photo: 
-    https://miro.medium.com/max/1000/1*zHJFnu7QF-PgUb8108aLcA.png
+https://developer.mozilla.org/en-US/docs/Glossary/Semantics <br>
+https://www.w3schools.com/html/html5_semantic_elements.asp <br>
+photo: 
+https://miro.medium.com/max/1000/1*zHJFnu7QF-PgUb8108aLcA.png
 
 Contributor: [Harsha Priya](https://github.com/harshapriyaa)❄️
