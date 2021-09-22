@@ -233,5 +233,5 @@ Pratul
 >```
 >The sum is : 10
 >```
-**Contributors:** [Harsh Mathur](https://github.com/harshmathurx) and [Gurpreet Singh](https://github.com/gurpreet-legend)
+**Contributor(s):** [Gurpreet Singh](https://github.com/gurpreet-legend)
 
