@@ -9,9 +9,11 @@ In Java, there are ```two categories``` of data types -
 
 ```Integers``` are in the category of <em>```Primitive Data Types```</em>. ```Integers``` represents the ```whole numbers```, that is, they can have any numeric value, <em>```without decimal point```</em>.
 
-<!-- Image here -->
+<br>
+    
+![DataTypes](https://user-images.githubusercontent.com/87887741/134543635-ef6eccdf-528e-4569-bccf-6c2e73a1f0e0.png)
 
-</p><br>
+</p>
 
 <h2><em><u>Types of Integers -</u></em></h2>
 
@@ -21,14 +23,16 @@ Depending upon the range of numeric values a data type can represent, ```Integer
 
 <em>
 
-1. ```byte```
-2. ```short```
-3. ```int```
-4. ```long```
+1. [`Byte`](#Byte-Type)
+2. [`Short`](#Short-Type)
+3. [`Int`](#Int-Type)
+4. [`Long`](#Long-Type)
 
 </em>
 
-<!-- Image here -->
+<br>
+    
+![integer-data-types](https://user-images.githubusercontent.com/87887741/134544170-3c2a4726-c7ab-4116-90a8-9a3dd0615a60.png)
 
 A variable of each of these data types can hold whole numbers within a certain ```range```, depending upon the ```size``` of the data type. A variable of all the four types of ```integers``` can hold whole numbers within ```different ranges```. Therefore, they all have ```different sizes```.
 
@@ -36,7 +40,7 @@ Let us discuss all four ```Integer``` types in detail.
 
 </p><br>
 
-<h2><em>1. <u>Byte Type -</u></em></h2>
+<h2><em><u>Byte Type</u></em></h2>
 
 <p>
 
@@ -204,7 +208,7 @@ Since ```byte``` is the <em>```smallest sized integer type```</em>, so it can be
 
 
 
-<h2><em>2. <u>Short Tyep -</u></em></h2>
+<h2><em><u>Short Type</u></em></h2>
 
 <p>
 
@@ -370,7 +374,7 @@ Since ```short``` data type is still smaller type than two other ```Integer``` t
 
 
 
-<h2><em>3. <u>Int Type -</u></em></h2>
+<h2><em><u>Int Type</u></em></h2>
 
 <p>
 
@@ -536,7 +540,7 @@ Data type of 'Integer' class --> int
 
 
 
-<h2><em>4. <u>Long Type -</u></em></h2>
+<h2><em><u>Long Type</u></em></h2>
 
 <p>
 
@@ -692,7 +696,8 @@ public class Main
 ```
 Output:
 ```
-<!-- Image of output here -->
+
+![Screenshot (777)](https://user-images.githubusercontent.com/87887741/134544579-e7e9d0a9-09fa-4b2f-8c0b-92ee9e32a77a.png)
 
 <br>
 
@@ -858,7 +863,7 @@ As we know, we have ```4``` data types of ```Integer``` category - <em>```byte``
 
 <br>
 
-<!-- Image here -->
+![Screenshot (778)](https://user-images.githubusercontent.com/87887741/134544749-9cfefc10-3ab1-49de-8801-e8549effd9ef.png)
 
 <br>
 
