@@ -104,6 +104,11 @@
 ### I have done a simple implementation of RBT, with the assumption that the reader knows about BST operations.
 <br>
 
+### References
+- [GeekforGeeks](https://www.geeksforgeeks.org/red-black-tree-set-2-insert/)
+- [Medium.com](https://medium.com/@ben.tom.vincent/why-use-a-red-black-tree-over-a-regular-binary-search-tree-a63857916907)
+<br>
+
 [Red Black Trees in C]()
 
 
