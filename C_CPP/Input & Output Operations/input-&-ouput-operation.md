@@ -31,9 +31,6 @@ Other Ways to print Output:
 
 * ``putchar()``:- It is possible to write an unsigned character (as an int) to the standard output using the C library function ``putchar(int char)``. 
 
-* ``Puts()``:- It is quite similar to the ``printf()`` function.
-The ``puts()`` method is used to output a previously read string to the console using either the ``gets()`` or ``scanf()`` functions. The number of characters shown on the console is returned by the ``puts()`` method. Because it adds a newline character to the string and uses that to shift the cursor to a new line on the console, the integer value returned by ``puts()`` is always equal to the number of characters in the string plus 1. 
-
 ```
 // C program to demonstrate putchar() method
   
@@ -56,6 +53,9 @@ Output:
 ```
 K
 ```
+* ``Puts()``:- It is quite similar to the ``printf()`` function.
+The ``puts()`` method is used to output a previously read string to the console using either the ``gets()`` or ``scanf()`` functions. The number of characters shown on the console is returned by the ``puts()`` method. Because it adds a newline character to the string and uses that to shift the cursor to a new line on the console, the integer value returned by ``puts()`` is always equal to the number of characters in the string plus 1. 
+
 ```
 // C program to demonstrate puts() method
 
@@ -117,7 +117,6 @@ Enter Number : (user input value)
 Other Methods to take Input from user:
 * ``getchar()``:- The C library's int getchar(void) function reads a character from standard input (an unsigned char).This is the same as using getc with stdin as an argument. 
 
-* ``gets()``:- Reads characters from the standard input (stdin) and saves them as a C string in str until a newline character or the end of the file is reached. 
  
  ```
  // C program to demonstrate getchar() method
@@ -143,7 +142,7 @@ int main ()
  Enter character: a
  Character entered: a
  ```
-
+* ``gets()``:- Reads characters from the standard input (stdin) and saves them as a C string in str until a newline character or the end of the file is reached. 
  ```
  // C program to demonstrate gets() method
 
