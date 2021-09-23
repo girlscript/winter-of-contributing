@@ -1,7 +1,7 @@
 # Domain Name Basics
 
-![](https://i.gifer.com/ML7C.gif) <br>
-![](https://i.imgur.com/F8ma32d.jpg)
+
+<image src="https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d1.gif">
 
 ## ***📌What is a domain name / domain?***
 
@@ -96,7 +96,7 @@ A *domain alias* is a domain name that acts as an alias for another domain. A do
 This system is essentially like the “phone book” of the Web that organizes and identifies domains. While a phone book translates a name like "Peter Parker" into the correct phone number to call, the DNS maps and translates a web address like "www.google.com" into the physical IP address—such as "74.125.19.147" that is of the computer hosting that site .
 <br> 
 
-![](https://cloudacademy.com/wp-content/uploads/2015/07/how-dns-works.jpg)
+![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d3.jpg)
 
 ### ***Some terminologies:***
 - *Domain host:* 
@@ -109,7 +109,7 @@ A name server serves as a reference point for your domain’s DNS data and is ty
 The WHOIS directory is a public listing of domain names, and the people or organizations associated with each name.
 Some domain name owners might prefer to have their personal information hidden from the WHOIS directory, just as we might want your personal telephone number to be unlisted from a local telephone book.
 
-![](https://phoenixnap.com/kb/wp-content/uploads/2021/04/flush-dns-how-dns-works.png)
+![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d4.png)
 
 <br>
  
@@ -128,7 +128,7 @@ The domain name is one of the pieces inside a URL and most easily recognized par
  
 To summarize, the domain name is a part of the URL, which points to the associated IP address. <br><br>
 
-![](https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/01/seo-domain-name.jpg)
+![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d2.jpg)
  
 ***A popular analogy can be : “People find web pages in a manner similar to the way that they use maps to find physical locations. If the Internet is like a phone book, and a web page is like a physical building, the URL would be the precise street address of that building. The IP address would be like the car that travels to its destination.”***
  
