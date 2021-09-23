@@ -1,19 +1,47 @@
-# GirlScript Winter of Contributing <br/> ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](.github/CODE_OF_CONDUCT.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](.github/CONTRIBUTING.md) 
+##Python Errors and its Types - Documentation
+Outline of Topics covered:
+Elaborated the use and code snippets for Errors in Python in this [!Python noteook](Python_Errors.ipynb).
 
-<img src="banner_readme.png"  style="max-width: 100%; height: auto;"/>
+*What are Errors?
+*What are the types of Errors?
+*What are Syntax Error?
+*What are Logical Error?
+*Types of Logical Error?
 
-<br/>
-<br/>
+#Summary of Topics Covered
+What are Errors?
+Python errors are errors in a program due to which the program will not execute.These errors occur because the program is not in the format prescribed.
+<br><br>
 
-**GirlScript Winter of Contributing** is a three-month newly established initiative by **[GirlScript Foundation](https://www.girlscript.tech/home)** that will take place over the winter months. GWOC invites people to contribute their expertise and ideas in order to improve their technical abilities and obtain significant experience in the field of tech education.Throughout the program, the participants can contribute to a range of themes while being guided by an expert facilitator.The goal of GWOC is to develop the world's largest multilingual repository.🧡
+##Python Error-
+Python errors are errors in a program due to which the program will not execute.These errors occur because the program is not in the format prescribed.These errors are common in the development process.Programming errors are Inevitable.
+<br><br>
 
-<!-- ## Explore the topics
-- [Frontend Web Development](./Frontend-Web-Development)
-- [Backend Web Development](./Backend-Web-Development)
-- [Android Development](./Android-development) -->
+**What are the types of Errors?**<br>
+Python has many in-built exceptions(errors) which will occur whenever there is a mistake in the code during run-time.
+<br><br>
 
-## Contributing Guidelines
-Please follow the [contributing guidelines](./.github/CONTRIBUTING.md) to contribute to the project.
+## We are going to see some important python errors-
+ 
+**What are Syntax Error?**<br>
+1.Syntax Error
+Error causes when proper syntax is not followed are termed as Syntax error.The python interpreter will immediately report the error with its reason.
+eg.While printing “Hello World” if we miss the closing parentheses it will throw a syntax error as”EOFError”.
+<br>
+![image](images/img1.png)
+<br><br>
 
-## Code of Conduct
-This project and everyone participating in it is governed by the [GirlScript Code of Conduct](./.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code
+**What are Logical Error?**<br>
+2.Logical Errors(Exception)
+Sometimes even if there is no syntax error the interpreter will throw an exception .Such error is run-time errors which are caused during runtime.These are also called Exceptions.
+eg.While dividing a number by zero it will throw run-time error/ZeroDivisionError.
+<br>
+![image](images/img2.png)
+<br><br>
+
+
+##Some important in-built exception are-
+**Types of Logical Error?**
+<br>
+![image](images/img3.png)
+<br><br>
