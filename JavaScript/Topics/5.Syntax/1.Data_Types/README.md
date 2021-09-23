@@ -50,6 +50,17 @@ let y = 123;
 let negativeNumber = -34;
 ```
 
+In addition to representing floating-point numbers, the number type has three symbolic values: +Infinity, -Infinity and NaN("Not a Number"). 
+
+Example:
+
+```js
+> 100 / +0
+Infinity
+> 100/-0
+-Infinity
+```
+
 ## Null Type
 ---
 The Null type represents the intentional absence of a value in Javascript. It is a primitive type and is treated as falsy for boolean operations.
