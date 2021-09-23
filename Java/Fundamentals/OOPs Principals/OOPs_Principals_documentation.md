@@ -9,7 +9,7 @@
  
 -------------
 ## Introduction to class and object 
-- Classes and objects are one of the most fundametal things of many Java application and frameworks. 
+- Classes and objects are one of the most fundametal units of many Java application and frameworks. 
 - As Java is an object oriented programming language we can see classes and objects everywhere. So it's quite important to understand these concepts .
 - If we take example of our surrounding we can find objects everywhere like car, dogs, humans etc .
 - All these thing have something in common and that is 
