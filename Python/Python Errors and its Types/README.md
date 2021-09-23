@@ -1,4 +1,4 @@
-##Python Errors and its Types - Documentation
+## Python Errors and its Types - Documentation
 Outline of Topics covered:
 Elaborated the use and code snippets for Errors in Python in this [!Python noteook](Python_Errors.ipynb).
 
@@ -8,12 +8,12 @@ Elaborated the use and code snippets for Errors in Python in this [!Python noteo
 *What are Logical Error?
 *Types of Logical Error?
 
-#Summary of Topics Covered
+# Summary of Topics Covered
 What are Errors?
 Python errors are errors in a program due to which the program will not execute.These errors occur because the program is not in the format prescribed.
 <br><br>
 
-##Python Error-
+## Python Error-
 Python errors are errors in a program due to which the program will not execute.These errors occur because the program is not in the format prescribed.These errors are common in the development process.Programming errors are Inevitable.
 <br><br>
 
@@ -40,7 +40,7 @@ eg.While dividing a number by zero it will throw run-time error/ZeroDivisionErro
 <br><br>
 
 
-##Some important in-built exception are-
+## Some important in-built exception are-
 **Types of Logical Error?**
 <br>
 ![image](images/img3.png)
