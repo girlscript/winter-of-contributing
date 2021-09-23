@@ -1,4 +1,4 @@
-<h1 style="text-align:center;"> <strong><em><u>Integers in Java</u></em></strong></h1>
+<h1 align="center"> <strong><u>Integers in Java</u></strong></h1>
 
 <p>
 
@@ -13,9 +13,9 @@ In Java, there are ```two categories``` of data types -
     
 ![DataTypes](https://user-images.githubusercontent.com/87887741/134543635-ef6eccdf-528e-4569-bccf-6c2e73a1f0e0.png)
 
-</p>
+</p><br>
 
-<h2><em><u>Types of Integers -</u></em></h2>
+<h2 align="center"><em><u>Types of Integers -</u></em></h2>
 
 <p>
 
@@ -31,7 +31,7 @@ Depending upon the range of numeric values a data type can represent, ```Integer
 </em>
 
 <br>
-    
+
 ![integer-data-types](https://user-images.githubusercontent.com/87887741/134544170-3c2a4726-c7ab-4116-90a8-9a3dd0615a60.png)
 
 A variable of each of these data types can hold whole numbers within a certain ```range```, depending upon the ```size``` of the data type. A variable of all the four types of ```integers``` can hold whole numbers within ```different ranges```. Therefore, they all have ```different sizes```.
@@ -40,7 +40,7 @@ Let us discuss all four ```Integer``` types in detail.
 
 </p><br>
 
-<h2><em><u>Byte Type</u></em></h2>
+<h2 align="center"><em><u>Byte Type</u></em></h2>
 
 <p>
 
@@ -208,7 +208,7 @@ Since ```byte``` is the <em>```smallest sized integer type```</em>, so it can be
 
 
 
-<h2><em><u>Short Type</u></em></h2>
+<h2 align="center"><em><u>Short Type</u></em></h2>
 
 <p>
 
@@ -374,7 +374,7 @@ Since ```short``` data type is still smaller type than two other ```Integer``` t
 
 
 
-<h2><em><u>Int Type</u></em></h2>
+<h2 align="center"><em><u>Int Type</u></em></h2>
 
 <p>
 
@@ -540,7 +540,7 @@ Data type of 'Integer' class --> int
 
 
 
-<h2><em><u>Long Type</u></em></h2>
+<h2 align="center"><em><u>Long Type</u></em></h2>
 
 <p>
 
@@ -843,7 +843,7 @@ Data type of 'Long' class --> long
 
 
 
-<h2><em><u>
+<h2 align="center"><em><u>
 
 A Brief Discussion on Incorrect Value Assignment to variables of Integer Category -
 
