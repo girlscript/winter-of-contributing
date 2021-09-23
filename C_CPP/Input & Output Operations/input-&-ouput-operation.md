@@ -11,12 +11,15 @@ When we mention **Output**, we mean show some data on the screen, printer, or in
 * Step4: Terminates the main() function.
 
 ```
-# Print Hello World
+// C Program to demonstrate printf() method
 
-#include<stdio.h>  
+#include<stdio.h> 
+
 int main()  
 {
-    printf("Hello, World!");     
+
+    printf("Hello, World!");
+
     return 0;   
 }
 ```
@@ -24,6 +27,55 @@ int main()
 ```
 Hello, World!
 ```
+Other Ways to print Output:
+
+* ``putchar()``:- It is possible to write an unsigned character (as an int) to the standard output using the C library function ``putchar(int char)``. 
+
+* ``Puts()``:- It is quite similar to the ``printf()`` function.
+The ``puts()`` method is used to output a previously read string to the console using either the ``gets()`` or ``scanf()`` functions. The number of characters shown on the console is returned by the ``puts()`` method. Because it adds a newline character to the string and uses that to shift the cursor to a new line on the console, the integer value returned by ``puts()`` is always equal to the number of characters in the string plus 1. 
+
+```
+// C program to demonstrate putchar() method
+  
+#include <stdio.h>
+  
+int main()
+{
+  
+    // Get the character to be written
+    char ch = 'K';
+  
+    // Write the Character to stdout
+    putchar(ch);
+  
+    return (0);
+}
+```
+Output: 
+
+```
+K
+```
+```
+// C program to demonstrate puts() method
+
+#include<stdio.h>  
+
+void main()  
+{  
+
+    puts("I'm GWOC Contributor.");
+    puts("This is my Contribution.");
+
+    return 0;
+}  
+```
+Output: 
+```
+I'm GWOC Contributor.
+This is my Contribution.
+```
+
 <hr>
 
 ## Input Function
@@ -41,7 +93,7 @@ A command line or a file can be used as an input. To read input, the C programmi
 * Step6: Terminates the main() function.
 
 ```
-# Taking User Input
+// C program to demonstrate scanf() method
 
 #include<stdio.h>  
 int main()  
@@ -62,4 +114,61 @@ int main()
 ```
 Enter Number : (user input value)
 ```
+Other Methods to take Input from user:
+* ``getchar()``:- The C library's int getchar(void) function reads a character from standard input (an unsigned char).This is the same as using getc with stdin as an argument. 
+
+* ``gets()``:- Reads characters from the standard input (stdin) and saves them as a C string in str until a newline character or the end of the file is reached. 
+ 
+ ```
+ // C program to demonstrate getchar() method
+
+ #include <stdio.h>
+
+int main () 
+{
+    char c;
+ 
+    printf("Enter character: ");
+    a = getchar();
+ 
+    printf("Character Entered: ");
+    putchar(a);
+
+    return 0;
+}
+ ```
+
+ Output:
+ ```
+ Enter character: a
+ Character entered: a
+ ```
+
+ ```
+ // C program to demonstrate gets() method
+
+ #include <stdio.h>
+
+int main () 
+{
+    char str[10];
+ 
+    printf("Enter a string: ");
+    gets(str);
+ 
+    printf("You entered: %s", str);
+    putchar(a);
+
+    return 0;
+}
+ ```
+
+ Output:
+ ```
+ Enter a string: I'm GWOC contributor 
+ You entered: I'm GWOC contributor
+ ```
+
+
+
 <hr>
