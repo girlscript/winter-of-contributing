@@ -1,8 +1,6 @@
 # **HTML LISTS**
 <div align="center">
 <img src="https://designzonic.com/knowledge-base/wp-content/uploads/2019/05/Beyond-bland_HTML-lists-with-style.png"/>
-
-*Image source : https://designzonic.com/knowledge-base/category/html/*
 </div>
 
 <br>
@@ -59,8 +57,6 @@ An *Unordered lists* are used when a set of items can be placed in any order. Th
 
 <div align="center">
 <img src="https://i0.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/01/Unordered-List.jpg?fit=474%2C397&ssl=1" /> 
-
-*Image source : https://www.tutorialbrain.com/html_tutorial/html_lists/*
 </div>
 
 <br>
@@ -121,9 +117,6 @@ An example would be cooking instructions, which must be completed in order for t
 <br>
 <div align="center">
 <img src="https://i2.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/01/ordered-list.jpg?fit=474%2C397&ssl=1"> 
-
-*Image source : https://www.tutorialbrain.com/html_tutorial/html_lists/*
-
 </div>
 
 <br>
@@ -229,9 +222,6 @@ There are three tags associated with the definition list :
 <br>
 <div align="center">
 <img src="https://i0.wp.com/www.tutorialbrain.com/wp-content/uploads/2019/01/Description-List.jpg?fit=474%2C397&ssl=1"> 
-
-*Image source : https://www.tutorialbrain.com/html_tutorial/html_lists/*
-
 </div>
 
 <br>
@@ -241,6 +231,8 @@ There are three tags associated with the definition list :
 <hr>
 
 - We use the `<dl>` tag to create a definition list.
+- The `<dt>` tag defines terms/names.
+- The `<dd>` tag describes each term/name.
 
 **For Example :**
 
@@ -321,8 +313,6 @@ _And here's the resulting nested list :_
 <img src="https://s3.amazonaws.com/webucator-how-tos/419.png"> 
 
 </div>
-
-*Reference : https://www.webucator.com/article/how-to-properly-nest-lists-in-html/*
 
 <br>
 <br>
@@ -462,9 +452,8 @@ The ***list-style*** property is a **shorthand** property for defining all the
 
 <div align="center">
 <img  src="https://www.otallu.com/wp-content/uploads/2014/07/Create-a-simple-navigation-bar-with-CSS.jpg" />
-
-*Image source : https://www.otallu.com/tutorials/simple-navigation-bar-with-html-css/*
 </div>
+<br>
 <br>
 
 HTML lists are frequently used to create horizontal navigation bar or menu that typically appears at the top of a website.
@@ -499,3 +488,17 @@ But since the list items are block elements, so to display them inline we need t
     	color: #fff;
     	background: #939393;
 
+<br>
+<br>
+
+## *Reference Links:*
+ - https://www.w3schools.com/html/html_lists.asp
+ - https://www.webucator.com/article/how-to-properly-nest-lists-in-html/
+ - https://www.tutorialspoint.com/css/css_lists.htm
+ 
+ <br>
+
+ ## *Image Sources:*
+ - https://designzonic.com/knowledge-base/category/html/
+ - https://www.tutorialbrain.com/html_tutorial/html_lists/
+ -  https://www.otallu.com/tutorials/simple-navigation-bar-with-html-css/
