@@ -11,7 +11,10 @@ In Java, there are ```two categories``` of data types -
 
 <br>
     
-![DataTypes](https://user-images.githubusercontent.com/87887741/134543635-ef6eccdf-528e-4569-bccf-6c2e73a1f0e0.png)
+<!-- ![DataTypes](https://user-images.githubusercontent.com/87887741/134543635-ef6eccdf-528e-4569-bccf-6c2e73a1f0e0.png) -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87887741/134543635-ef6eccdf-528e-4569-bccf-6c2e73a1f0e0.png">
+</p><br>
 
 </p><br>
 
@@ -31,8 +34,12 @@ Depending upon the range of numeric values a data type can represent, ```Integer
 </em>
 
 <br>
+    
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87887741/134544170-3c2a4726-c7ab-4116-90a8-9a3dd0615a60.png">
+</p><br>
 
-![integer-data-types](https://user-images.githubusercontent.com/87887741/134544170-3c2a4726-c7ab-4116-90a8-9a3dd0615a60.png)
+<!-- ![integer-data-types](https://user-images.githubusercontent.com/87887741/134544170-3c2a4726-c7ab-4116-90a8-9a3dd0615a60.png) -->
 
 A variable of each of these data types can hold whole numbers within a certain ```range```, depending upon the ```size``` of the data type. A variable of all the four types of ```integers``` can hold whole numbers within ```different ranges```. Therefore, they all have ```different sizes```.
 
@@ -697,13 +704,14 @@ public class Main
 Output:
 ```
 
-![Screenshot (777)](https://user-images.githubusercontent.com/87887741/134544579-e7e9d0a9-09fa-4b2f-8c0b-92ee9e32a77a.png)
-
-<br>
+<!-- ![Screenshot (777)](https://user-images.githubusercontent.com/87887741/134544579-e7e9d0a9-09fa-4b2f-8c0b-92ee9e32a77a.png) -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87887741/134544579-e7e9d0a9-09fa-4b2f-8c0b-92ee9e32a77a.png">
+</p><br>
 
 Therefore, all of the above example clarifies that how we can ```declare``` and ```assign``` values to a variable of ```long``` type.
 
-</p><br>
+</p>
 
 By default, a ```long``` variable is initialized with ```0``` by the compiler, if not initialised manually.
 
@@ -863,7 +871,10 @@ As we know, we have ```4``` data types of ```Integer``` category - <em>```byte``
 
 <br>
 
-![Screenshot (778)](https://user-images.githubusercontent.com/87887741/134544749-9cfefc10-3ab1-49de-8801-e8549effd9ef.png)
+<!-- ![Screenshot (778)](https://user-images.githubusercontent.com/87887741/134544749-9cfefc10-3ab1-49de-8801-e8549effd9ef.png) -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/87887741/134544749-9cfefc10-3ab1-49de-8801-e8549effd9ef.png">
+</p><br>
 
 <br>
 
