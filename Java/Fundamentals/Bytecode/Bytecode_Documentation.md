@@ -1,5 +1,5 @@
 # __Java Bytecode__
-Whenever a ```.java``` file is compiled by a Java compiler, it generates a ```.class``` file, i.e., Bytecode. It can be considered as machine code in the form of a ```.class``` format. Bytecode is an instruction set for the Java Virtual Machine(JVM).
+Whenever a ```.java``` file is compiled by a Java compiler, it generates a ```.class``` file, i.e., Bytecode. It can be considered as machine code in the form of a ```.class``` format. Bytecode is considered as an instruction set for the Java Virtual Machine(JVM).
 
 # Internal working of Java Program
 
@@ -32,7 +32,7 @@ java name
 # Advantages of __Java Bytecode__
 
 - __Java Bytecode__ is one of the reasons that makes Java, a __platform-independent__ langauge. Thus, Bytecode is a very essential component of any java program.
-- A set of instruction for JVM may differ from system to system but they all can interpret bytecode.
+- A set of instructions may differ from system to system for JVM but they all can interpret bytecode.
 - A bytecode is non-runnable code that totally relies only on JVM to interpret it and get it execute.
 - It gives Java program portablity i.e __Write Once, read anywhere__(WORA).
 
