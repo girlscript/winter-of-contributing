@@ -2,7 +2,7 @@
 
 In this article you are going to learn everything about **Javascript Variables** from scratch. 
 
-Variables are "containers" for storing information JavaScript variables are used to hold values or
+Variables are "containers" for storing information, JavaScript variables are used to hold values or
 expressions. A variable can have a short name, like x, or a more descriptive name, like carname.
 
  ## Rules for declaring Javascript Variable name:
