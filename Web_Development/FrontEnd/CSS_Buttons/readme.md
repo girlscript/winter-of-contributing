@@ -1,4 +1,4 @@
-  <h3>CSS BUTTONS</h3>
+  <h2>CSS BUTTONS</h2>
 
   The `<button>` HTML element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality. By default, HTML buttons  are presented in a style resembling the platform the user agent runs on, but you can change button's appearance with CSS.
 
@@ -12,117 +12,152 @@
   This will create a button representing two words on it i.e “Click me!”, which on clicking gives us an alert saying “You pressed the button!”.
 
   Now, let's start with CSS. These are most common button styles which is achieved by CSS properties:
-
-  <h2>Colored Buttons:</h2>
+  <ol>
+  <li>Colored Buttons:</li>
   In most systems, default color of button is blue. Use the “background-colour” property to change the background colour of a button.
   <br>Syntax:
+ 
    ```
+   
    .button1 {background-colour: #4CAF50;} /* Green */
-   <br>.button2 {background-colour: #008CBA;} /* Blue */
+   .button2 {background-colour: #008CBA;} /* Blue */
+   
    ```
 
-  <h2>Big Buttons</h2> 
+  <li>Big Buttons:</li> 
   Use the “font-size” property to change the font size of a button.
    <br>Syntax:
-   <br>'''
-   <br>.button {font-size: 16px;}
-   <br>'''
+   
+   ```
+   
+   .button {font-size: 16px;}
+   
+   ```
 
-  <h2>Padded Buttons:</h2>
+  <li>Padded Buttons:</li>
   Use the “padding” property to change the padding of a button.
   <br> Syntax:
-  <br> '''
-  <br> .button {padding: 10px 24px;}
-  <br> '''
+  
+  ```
+  
+  .button {padding: 10px 24px;}
+  
+  ```
 
-  <h2>Curvy Buttons:</h2>
+  <li>Curvy Buttons:</li>
   Use the “border-radius” property to add rounded corners to a button.
    <br> Syntax: 
-   <br> '''
-   <br>.button1 {border-radius: 2px;} 
-   <br>.button2 {border-radius: 50%;}
-   <br>'''
+  
+   ```
+   
+   .button1 {border-radius: 2px;} 
+   .button2 {border-radius: 50%;}
+   
+   ```
 
-  <h2>Colored Borders:</h2>
+  <li>Colored Borders:</li>
   Use the “border” property to add a coloured border to a button.
     <br>Syntax:
-    <br>'''
-    <br>.button {
-    <br>background-color: white;
-    <br>color: black;
-   <br> border: 2px solid #4CAF50; /* Green */}
-    <br>'''
-
-    <br><h2>Hoverable Buttons:</h2>
-     <br>Use the “:hover” selector to change the style of a button when you move the mouse over it. You can Use the transition-duration property to determine the speed of the "hover" effect. 
+    
+    .button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; /* Green */}
+   
+    
+  <li>Hoverable Buttons:</li>
+     Use the “:hover” selector to change the style of a button when you move the mouse over it. You can Use the transition-duration property to determine the speed of the    "hover" effect. 
   <br>Syntax:
-  <br>'''
-  <br>.button { transition-duration: 0.4s;}
-  <br>.button:hover {
-  <br>background-color: #4CAF50; /* Green */
-  <br>color: white;}
-  <br>'''
 
-  <h2>Shadow Buttons:</h2>
+  ```
+  
+  .button { transition-duration: 0.4s;}
+  .button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;}
+  
+  ```
+
+  <li>Shadow Buttons:</li>
   Use the “box-shadow” property to add shadows to button.
- <br> Syntax:
- <br> '''
- <br> .button1 {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
-  <br>.button2:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); }
-  <br>'''
+  <br> Syntax:
+ 
+  ```
+  
+  .button1 {box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);}
+  .button2:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); }
+  
+  ```
 
-  <h2>Disabled Button:</h2> 
+  <li>Disabled Button:</li> 
   Use the “opacity” property to add transparency to the button. You can also add “cursor”  property with a value of “ not-allowed” , which will display a “no parking sign “when   you mouse over the button.
  <br> Syntax:
- <br> '''
- <br> .disabled {
- <br> opacity: 0.6;
- <br> cursor: not-allowed; }
-  <br>'''
+ 
+  ```
+  
+  .disabled {
+  opacity: 0.6;
+  cursor: not-allowed; }
+ 
+ ```
 
-  <h2>Wider Button:</h2>
+  <li>Wider Button:</li>
   By default, the size of the button is determined by its text content (as wide as its content). Use the “width” property to change the width of a button. 
   <br>Syntax: 
-  <br>'''
-  <br>.button1 {width: 250px;}
-  <br>.button2 {width: 50%;}
-  <br>'''
+  
+  ```
+  
+  .button1 {width: 250px;}
+  .button2 {width: 50%;}
+  
+  ```
 
-  <h2>Grouped Buttons:</h2>
+  <li>Grouped Buttons:</li>
   Remove margins and add float:left to each button to create a button group.
-  
-  Syntax:
+  <br>Syntax:
    
-  '''
+  ```
   
-  <br>.button {float: left;}
+  .button {float: left;}
   
-  '''
+  ```
 
-  <h2>Grouped buttons-Bordered:</h2>
+  <li>Grouped buttons-Bordered:</li>
   Use the “border” property and remove margins by adding “float:left” to each button to create button group.
   <br>Syntax:
-  <br>'''
-  <br>.button {
+  
+  ```
+  
+  .button {
   <br>float: left;
   <br>border: 1px solid green;}
-  <br>'''
+  
+  ```
 
-  <h2>Vertical Button Group:</h2>
+  <li>Vertical Button Group:</li>
   Use display:block instead of float:left to group the buttons below each other, instead of side by side.
   <br>Syntax:
-  <br>'''
-  <br>.button {
+  
+  ```
+  
+  .button {
   <br>display: block;}
-  <br>'''
-
-
+  
+  ```
+  
+  </ol>
+    
+<br>
 
 Now, Let’s give some animation to our buttons by Vanilla CSS
-
-  <h2>1.ADD ARROW ON HOVER</h2>
-  '''
+  
+  <ul>
+  <li>ADD ARROW ON HOVER</li>
+  
   Code:
+  
+  ```
+  
   <!DOCTYPE html>
   <html>
   <head>
@@ -176,13 +211,16 @@ Now, Let’s give some animation to our buttons by Vanilla CSS
 
   </body>
   </html>
-  '''
+  
+  ```
 
 
-  <h2>2.ADD RIPPLE EFFECT ON HOVER:</h2>
+  <li>ADD RIPPLE EFFECT ON HOVER:</li>
 
   Code:
-  '''
+  
+  ```
+  
   <!DOCTYPE html>
   <html>
   <head>
@@ -231,8 +269,9 @@ Now, Let’s give some animation to our buttons by Vanilla CSS
 
   </body>
   </html>
-  '''
-
+  
+  ```
+  </ul>
 
   <h2>TRICK:</h2>
   There are many websites in which you specify what properties or designs you want with your buttons and you can have code for it. Ready to use, just in a flash. One such   suggested web are as follows:
