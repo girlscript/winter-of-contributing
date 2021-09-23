@@ -10,7 +10,9 @@
 - [GitHub](./Git_And_GitHub)
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What is type conversion ?](./Type_Conversion)
+- [Python_errors_and_its_types](Python_erros_and_its_types)
 ## Learning path
 1. Git & GitHub
 2. What is a programming language? #77
 3. What is type conversion ?
+4. 4.Python Error and its Types?
