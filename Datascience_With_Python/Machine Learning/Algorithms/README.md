@@ -1,1 +1,1 @@
-[a relative link](Apriory Algorithm)
+[a relative link](Apriori Algorithm)
