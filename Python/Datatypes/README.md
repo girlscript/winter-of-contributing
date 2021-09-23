@@ -1,1 +1,1 @@
-# Title (name of the topic)
+# Title (Basic Datatypes of Python- int, str & float)
