@@ -1,3 +1,5 @@
+# GirlScript Winter of Contributing <br/> ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](.github/CODE_OF_CONDUCT.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](.github/CONTRIBUTING.md) 
+
 
 ##  :world_map: [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
 # Topics in the C++ language &nbsp;&nbsp;&nbsp;&nbsp; ![C](https://img.shields.io/badge/C-black?style=for-the-badge&logo=c&labelColor=black&color=404040) &nbsp;&nbsp; ![C++](https://img.shields.io/badge/CPP-blue?style=for-the-badge&logo=cplusplus&labelColor=006199)
