@@ -36,7 +36,7 @@
 The input element is the most commonly used form element. It is used to make a  **text field**  where the user can type some  **information**  for example  **email**,  **password**  etc.
 
 
-## List of all  _input types_  in html5
+## 🎯  List of all  _input types_  in html5
 
  ```
 <input type="button">
@@ -340,7 +340,7 @@ The difference between Select Menu and Radio Button is that radio buttons show y
 
 **
 
-## CSS
+## 🎯 CSS
 
 **
 
@@ -463,6 +463,7 @@ The difference between Select Menu and Radio Button is that radio buttons show y
     }
 
 
+***
 ## 📝: Reference
 
 >   
@@ -473,3 +474,4 @@ The difference between Select Menu and Radio Button is that radio buttons show y
 ***
 
 ## 👷‍♂️🚀   [Vikky singh](https://github.com/vikky-10)   🚀
+
