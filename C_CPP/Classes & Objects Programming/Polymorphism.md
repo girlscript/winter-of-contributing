@@ -20,19 +20,20 @@ class Function_Overloading {
   
   // 1st function with number of arguments 1 and signature of int type.
   
-  void Function(int a){   
+  void Function(int a) {   
    cout<<"\nYour Entered Integer is : "<<a;
   }
   
   // function with same name with number of arguments 1 and with different signature of float.
   
-  void Function(double a){ 
+  void Function(double a) { 
       cout<<"\nYour Entered Float number is :"<<a;
   }
   
   // function with same name and with number of arguments 2 and with signature same as 1st function.
-  void Function(int a,int b){ //
-      cout<<"\n Your Entered Two integers are :"<<a<<" , "<<b;
+  
+  void Function(int a,int b) { 
+  cout<<"\n Your Entered Two integers are :"<<a<<" , "<<b;
   }
 };
     
@@ -40,12 +41,15 @@ int main() {
 	Function_Overloading fo;
 	
 	// calling the first function
+	
 	fo.Function(5);
 	
 	// calling the second function
+	
 	fo.Function(3.4);
 	
 	//calling the third Function
+	
 	fo.Function(5,6);
 	return 0;
 }
@@ -54,7 +58,7 @@ Output :
 ```
 Your Entered Integer is : 5
 Your Entered Float number is : 3.4
- Your Entered Two integers are : 5 , 6
+Your Entered Two integers are : 5 , 6
 ```
 
 ### 2. Operator Overloading
@@ -67,27 +71,29 @@ class Complex_addition {
 private:
     int real,imaginary;
 public:
-    Complex_addition(int r=0,int i=0)  
-    {real = r;   
-    imaginary = i;}
+    Complex_addition(int r=0,int i=0) {  
+    real = r;   
+    imaginary = i;
+    }
+    
     // addition between two Complex numbers and Overloading the operator
+    
     Complex_addition operator + (Complex_addition &c) {
          Complex_addition com;
          com.real = real + c.real;
          com.imaginary = imaginary + c.imaginary;
          return com;
     }
-    void print_complex() 
-    { cout << real << " + " << imaginary<<"i"<<"\n"; 
-        
-    }
+    void print_complex() { 
+    cout << real << " + " << imaginary<<"i"<<"\n"; 
+        }
 };
    
 int main()
 {
     Complex_addition com1(2, 3);
     Complex_addition com2(4, 5);
-    Complex_addition com3 = com1 + com2; // calling the operator overloaded function "operator+"
+    Complex_addition com3 = com1 + com2;  // calling the operator overloaded function "operator+"
     com3.print_complex();
 }
 ```
@@ -110,22 +116,28 @@ using namespace std;
 class parent
 {
 public:
-    virtual void display()
-    { cout<< "this is our base class" <<"\n"; }
+    virtual void display() {
+    cout<< "this is our base class" <<"\n"; 
+    }
    
-    void show ()
-    { cout<< "showing the base class" <<"\n"; }
+    void show () {
+    cout<< "showing the base class" <<"\n"; 
+    }
 };
    
 class child:public parent
 {
 public:
+
 //display() is already virtual function in derived class and we also declared as virtual void display() and it will be called when we call display function.
-    void display() 
-    { cout<< "this is our child class" <<"\n"; }
+    
+    void display() { 
+    cout<< "this is our child class" <<"\n"; 
+     }
    
-    void show ()
-    { cout<< "showing child class" <<"\n"; }
+    void show () {
+    cout<< "showing child class" <<"\n"; 
+    }
 };
 int main() 
 {
@@ -134,9 +146,11 @@ int main()
     p= &c;
        
     //virtual function (Runtime polymorphism)
+    
     p->display(); 
        
     // Non-virtual function
+    
     p->show(); 
   
     return 0;
