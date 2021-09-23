@@ -7,10 +7,9 @@ CSS supports 2D and 3D transformations.
 ## 2D Transformations: <br>
 Using the `Transform` CSS property you can `rotate`, `scale`, `skew`, or `translate` an element. 
   
-   ![Transforms](https://user-images.githubusercontent.com/70155541/134402288-3747cba1-de77-41b2-962d-9b7eb24a9d42.png)<br>
- Image Source: https://tipsmake.com/3d-transform-in-css <br>
-  
+  ![image](https://user-images.githubusercontent.com/70155541/134528299-953f7944-54c2-47e2-9cdf-b8da5807d840.png)
 
+  
 With the CSS transform property you can use the following 2D transformation methods:
 
 * translate()
@@ -83,7 +82,7 @@ Rotates div element by 25 degrees clockwise. Neg will rotate it counter clock wi
   transform: scale(3, 0.5);
 }
   ```
- increases the <div> element to be three times of its original width, and half its original height.
+ increases the div element to be three times of its original width, and half its original height.
   
   We can similarly use it with hover to see the actual effect:
   
@@ -150,8 +149,8 @@ If the second parameter is not specified, it has a zero value.
   
   ## matrix()
   
-  * The matrix() method combines all the 2D transform methods into one.
-  * The matrix() method take six parameters, containing mathematic functions, which allows you to rotate, scale, move (translate), and skew elements.
+  * This method combines all the 2D transform methods into one.
+  * The matrix() method takes 6 parameters,which allows you to rotate, scale, translate, and skew elements.
   * The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
 
 ```css
@@ -173,6 +172,8 @@ If the second parameter is not specified, it has a zero value.
   
   ## 3D Transforms:
   CSS also supports 3D transformations. Most of the above properties have 3D versions of them.
+     ![Transforms](https://user-images.githubusercontent.com/70155541/134402288-3747cba1-de77-41b2-962d-9b7eb24a9d42.png)<br>
+ Image Source: https://tipsmake.com/3d-transform-in-css <br>
 
   ## translate3d() or translateZ()
 The third value in translate3d or the value in translateZ moves the element toward the viewer, negative values away.
