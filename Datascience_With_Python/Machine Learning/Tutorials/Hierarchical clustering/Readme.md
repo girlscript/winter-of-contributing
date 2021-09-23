@@ -4,8 +4,8 @@
 - The output is a set of clusters, where each cluster is distinct from each other cluster, and the objects within each cluster are broadly similar to each other.
 
 **The Hierarchical Clustering can be dived into 2 types:**
-1. Agglomerative
-2. Divisive
+1. Agglomerative Clustering
+2. Divisive Clustering
 
 ![image](https://user-images.githubusercontent.com/63282184/134355337-737f160b-9d31-46f5-8e25-e927ba38bd14.png)
 
