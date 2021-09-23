@@ -27,5 +27,5 @@ Let's say a script of Python which will execute every 2/4 hours to do our work. 
 As I've already talked about first example, let's talk about second example with... an example. Right now, I'm doing an Internship where not much work 
 has been given except for writing about 25 Apps of a specific keyword, let's say, scanner. So, we know such apps which does scanning of our documents. <br>
 <i><b>Not much problem, right? But, can you do this everyday without feeling frustrated? Feeling like it's not worth of your time?</b></i> <br>
-Don't know about you guys, but I do feel so.<br>
+Don't know about you, but I do feel so.<br>
 So if I create a script which will extract data of a specific keyword from Google Play store everyday, isn't the problem solved? And that's what automation is!!!
