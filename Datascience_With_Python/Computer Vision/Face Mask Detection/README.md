@@ -59,7 +59,7 @@ $ source test/scripts/activate
 ```
 For windows :
 ```
-$ test/scripts/activate
+$ test\scripts\activate
 ```
 4. Now, run the following command in your Terminal/Command Prompt to install the libraries required
 ```
