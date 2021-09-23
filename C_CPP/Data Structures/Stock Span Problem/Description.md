@@ -19,6 +19,8 @@ I am presenting the code and the logic of this problem which I developed during 
 
 ### NOTE
 This problem is very famous and common during the placement procedure.
+For reference of whole statement of problem you can click on Question link:-
+[Question link](https://leetcode.com/problems/online-stock-span/)
 #  CODE
 You can look on to the code for reference:-
 
