@@ -461,3 +461,15 @@ The difference between Select Menu and Radio Button is that radio buttons show y
       }
     
     }
+
+
+## 📝: Reference
+
+>   
+> [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp)
+> [MDN
+> docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
+
+***
+
+## 👷‍♂️🚀   [Vikky singh](https://github.com/vikky-10)   🚀
