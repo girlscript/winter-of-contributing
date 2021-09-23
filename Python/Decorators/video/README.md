@@ -24,7 +24,7 @@ Time stamps:
 
 18:10 ->Using Classes with decorators
 
-19:15 ->Decorators
+19:15 ->Decorators chaining
 
 20:00 ->Conclusion
 
