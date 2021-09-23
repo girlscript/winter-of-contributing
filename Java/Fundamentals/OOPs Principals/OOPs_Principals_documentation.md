@@ -9,7 +9,7 @@
  
 -------------
 ## Introduction to class and object 
-- Classes and objects are one of the most fundametal units of many Java application and frameworks. 
+- Classes and objects are one of the most fundamental units of many Java application and frameworks. 
 - As Java is an object oriented programming language we can see classes and objects everywhere. So it's quite important to understand these concepts .
 - If we take example of our surrounding we can find objects everywhere like car, dogs, humans etc .
 - All these thing have something in common and that is 
@@ -23,7 +23,7 @@
 <!-- Image stating the difference between states and behaviour -->
 ![state and behaviour](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/IMG1.jpg)
 - Now let us talk about classes. In layman term **Classes** are nothing but the logical description of how an object will behave and what are the states the object is going to have.
-- So let us take another **Example**. When you are creating a house, what is the first thing you do ? Yes you do the planning and make a sketch of it and if we make this sketch  with proper measurements and all, then it will be a **Blueprint**. So Blueprint will contain all the details and measuremnets of the floor ,cieling and how it will be designed .
+- So let us take another **Example**. When you are creating a house, what is the first thing you do ? Yes you do the planning and make a sketch of it and if we make this sketch  with proper measurements and all, then it will be a **Blueprint**. So Blueprint will contain all the details and measurements of the floor ,ceiling and how it will be designed .
 <!-- Image of a house (blueprint) -->
 ![class as a blueprint](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/IMG2.jpg)
 - Based on these logical descriptions which we call it as a Blueprint we build our house and now this house is a physical object . So like that in software domain too , we can think of the class as a blueprint of the house that describes the various characteristics .
@@ -32,7 +32,7 @@
 ## What is a class ?
 - So earlier we have seen that in layman term class is nothing but a Blueprint of an object .
 - Let us redefine it properly. **A class is an user defined template that logically describes the states and behaviours of an object.**
-- In general, class includes **varaibles (State)** and **methods (Behaviours)**.
+- In general, class includes **variables (State)** and **methods (Behaviours)**.
 - **Syntax** for defining class: 
 <!-- class Syntax -->
 ![Class Syntax](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/classSyntax.jpg)
@@ -72,14 +72,14 @@
 -----------
 ## Memory Allocation
 - Memory Allocation is a process by which computer programs are assigned with some memory space .
-- As we know that object's address are stored in the reference variable of type class.Then to which place this address refer to ? Its the address of a space taken by the object in heap memory (which we will talk in this section) and that address is stored in reference variable. Can we print this address? **NO**, we can't print the address of the object but we can print the identity hashcode of that object by writing 
+- As we know that object's address are stored in the reference variable of type class. Then to which place this address refer to ? Its the address of a space taken by the object in heap memory (which we will talk in this section) and that address is stored in reference variable. Can we print this address? **NO**, we can't print the address of the object but we can print the identity hashcode of that object by writing 
 ```Java
     object.toString();
 ```
 Now let us take a deep dive into memory allocation of variables. Java memory allocation is divided into mainly three parts **Stack area**, **Heap area**, and **Class Area**
 - **Stack area :** Stack is a section of the memory where local primitive or object reference variables are stored. These variables are stored in the stack until the block or the method is being executed.
 - **Heap Area :** Heap is another section of the memory where the memory for object are being allocated. So we can say objects are stored in heap memory. Heap memory is dynamic in nature. So heap memory is used for dynamic memory allocation of the object which is created using **new** keyword.
-- **Class Area :** In the class area all the static varibles of the class or we can say the class variables are stored, so that it can be accessed by everyone.
+- **Class Area :** In the class area all the static variables of the class or we can say the class variables are stored, so that it can be accessed by everyone.
 
 Here is an **Example**
 <!-- Example of heap and stack -->
