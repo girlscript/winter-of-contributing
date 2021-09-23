@@ -255,6 +255,7 @@ Pratul
 >array.forEach(function(currentValue, index))
 >```
 >- *currentValue* - Value of the current element
+>- *index* - Index of the current element
 >
 >***For Example :***
 >```js
