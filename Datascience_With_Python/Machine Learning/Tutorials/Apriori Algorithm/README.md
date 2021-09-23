@@ -57,11 +57,11 @@ We now apply the association rules to find if they surpass the minimum confidenc
 This shows that all the above association rules are strong if minimum confidence threshold is 60%.
 
 <b>Limitations of this algorithm</b><br>
-1.It requires high computation if the itemsets are very large and the minimum support is kept very low.
-2.The entire database needs to be scanned.
+1.It requires high computation if the itemsets are very large and the minimum support is kept very low.<br>
+2.The entire database needs to be scanned.<br>
 
 
 
 
-Resources  -- https://www.softwaretestinghelp.com/apriori-algorithm/
+Resources  -- https://www.softwaretestinghelp.com/apriori-algorithm/ <br>
 https://intellipaat.com/blog/data-science-apriori-algorithm/
