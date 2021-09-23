@@ -1,0 +1,20 @@
+What is HTTP (Hypertext Transfer Protocol)?
+
+The Hypertext Transfer Protocol is an application protocol for distributed, collaborative, hypermedia information systems that allows users to communicate data on the World Wide Web.
+ 
+What is the purpose of HTTP?
+HTTP was invented alongside HTML to create the first interactive, text-based web browser: the original World Wide Web. Today, the protocol remains one of the primary means of using the Internet.
+How does HTTP work?
+As a request-response protocol, HTTP gives users a way to interact with web resources such as HTML files by transmitting hypertext messages between clients and servers. HTTP clients generally use Transmission Control Protocol (TCP) connections to communicate with servers.
+
+HTTP utilizes specific request methods in order to perform various tasks. All HTTP servers use the GET and HEAD methods, but not all support the rest of these request methods:
+•	GET requests a specific resource in its entirety
+•	HEAD requests a specific resource without the body content
+•	POST adds content, messages, or data to a new page under an existing web resource
+•	PUT directly modifies an existing web resource or creates a new URI if need be
+•	DELETE gets rid of a specified resource
+•	TRACE shows users any changes or additions made to a web resource
+•	OPTIONS shows users which HTTP methods are available for a specific URL
+•	CONNECT converts the request connection to a transparent TCP/IP tunnel
+•	PATCH partially modifies a web resource
+
