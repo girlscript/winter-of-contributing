@@ -9,13 +9,13 @@ When you make a ```.java``` file, firstly, the Java compiler compiles it and gen
 
 # What happens at __Runtime__?
 
-Java Virtual machine is a virtual machine that provides __Java bytecode__ with a runtime enviroment in which it can be executed. It can also run codes which are written in other language and generate __Java bytecode__.
+Java Virtual machine is a virtual machine that provides __Java bytecode__ with a runtime environment in which it can be executed. It can also run codes which are written in other language and generate __Java bytecode__.
 
 At runtime, JVM does the following tasks:
 
 - Loads all the ```.class``` file, whenever a you run a java program, it is first loaded by a __Classloader__ present in JVM.
 - Verifies the __Bytecode__, so that the access rights to objects is not violated by the code.
-- Provides runtime enviroment and executes the __bytecode__.
+- Provides runtime environment and executes the __bytecode__.
 
 ![image](../Assets/bytecode_runtime.png)
 
