@@ -1,4 +1,5 @@
 - [Graphs](Graphs)
 - [Sorting](Sorting)
+- [Trees](Trees)
 - [Standard Template Library (Vectors, Maps etc)](Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc))
 - [User Defined (Fenwick Tree, Segment Tree etc)](User%20Defined%20(Fenwick%20Tree%2C%20Segment%20Tree%20etc))
