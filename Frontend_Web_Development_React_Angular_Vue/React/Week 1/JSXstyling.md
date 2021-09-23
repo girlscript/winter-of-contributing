@@ -18,7 +18,7 @@
 
 <u><h3>Example</h3></u> <br/>
 
-```
+```javascript:
 import React from 'react';
 
 export default function App() {
@@ -41,7 +41,7 @@ return (
 <u><h3>Example</h3></u>
 <br/>
 
-```
+```javascript:
 import React from "react";
 
 export default function App() {
@@ -66,18 +66,17 @@ const xyz={ color: "green", fontSize: "3rem" }
 <br/>
 <br/>
 
-```
+```css:
 /* styles.css file */
 .header {
 color: green;
 font-size: 3rem;
 }
-<br/><br/>
 ```
 
 <b>App.js File</b> <br/> <br/>
 
-```
+```javascript:
 import React from "react";
 import './styles.css';
 export default function App() {
@@ -103,3 +102,56 @@ export default function App() {
 </i>
 <h2>Difference between index.css and App.css in default app created by <i><b>create-react-app</i></b>  </h2>
 <span>index.css is a global CSS that will applied to every component but App.css is used in App.js Component.</span>
+<br/>
+<u><h2>CSS Modules Stylesheet</h2></u><br/>
+<span>In CSS Modules Stylesheet all class and animation names are scoped locally by default.</span><br/>
+<span>When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names.</span><br/>
+<u><h3>Example</h3></u><br/>
+<b>CSS File</b>
+<br/>
+<br/>
+
+```css:
+/*styles.css file*/
+.err {
+  color: red;
+}
+
+```
+
+<br/>
+<b>MODULE CSS File</b>
+<br/>
+<br/>
+
+```css:
+/* Button.module.css */
+.err {
+  background-color: red;
+}
+
+
+```
+
+<br/>
+<b>App.js File</b>
+<br/>
+<br/>
+
+```javascript:
+import React from 'react';
+import styles from './Button.module.css'; // Import css modules stylesheet as styles
+import './styles.css'; // Import regular stylesheet
+
+export default function App() {
+return(
+    // reference as a js object
+    <button className={styles.err}>Hello World</button>
+    );
+  }
+```
+
+<u><h3>Output</h3></u>
+
+<img src="https://i.imgur.com/opmD5h9.png"></img><br/>
+<span>Link to the <a href="https://codesandbox.io/s/css-module-sheet-hzggb">code</a></span> <br/> <br/>
