@@ -4,7 +4,7 @@
 A video for beginners to get knowledge about decorators.
 
 
-![Decorators](https://drive.google.com/drive/u/2/folders/1Gqz_hAihUbzAazjqfauOQoiqoUKsFiKA)
+link-https://drive.google.com/drive/u/2/folders/1Gqz_hAihUbzAazjqfauOQoiqoUKsFiKA
 
 
 
