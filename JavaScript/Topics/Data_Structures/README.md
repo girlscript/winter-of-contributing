@@ -292,8 +292,4 @@ This is wonderful because the WeakSets objects set to null are garbage-collected
 
 Within this feature lies a chance for you to write light-weight solutions to programming problems without having to bother with the details of memory management.
 
-# Conclusion
-
-we’ve taken a look at Sets and Maps and how they handle unique items and key-value pairs respectively. These useful data structures provide easier and more efficient ways to structure and access data under certain use cases.
-
-*Special modifications such as WeakSets and WeakMaps provide more options for the developer and are handy for memory management.*
+__Contributor :__ [Sakshi Mishra](https://github.com/SakshiMishra1) :heart: 
