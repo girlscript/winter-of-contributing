@@ -12,6 +12,8 @@ So let's start the learning and below is the Index for Topic Contents we are goi
 | [What is Standardization?](#what-is-standardization)                               |
 | [Standardization vs Normalization](#standardization-vs-normalization)              |
 | [Normalization and Standardization using Sklearn library](#normalization-and-standardization-using-sklearn-library)        |
+| [Overall Summary](#overall-summary)                                                |
+| [Conclusion](#conclusion)                                                          |
 
 ## Feature Scaling?
 
