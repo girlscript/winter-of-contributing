@@ -70,6 +70,11 @@ Example:
 let x; // x is not assigned any value
 typeof(x); // hence, it's type is undefined
 ```
+## Difference Between ```null``` and ```undefined```
+1. ```undefined``` is a type whereas ```null``` is an object.
+2. ```undefined``` means a variable has been declared, but no value has been assigned to it.
+
+    whereas ```null``` means you can assign it to the variable.
 
 ## BigInt
 ---
@@ -86,8 +91,9 @@ Example:
 const bigint = 1234567890123456789012345678901234567890n; // by appending n at the end
 const newBigint = BigInt("1234567890123456789012345678901234567890"); // by calling BigInt function
 ```
+# JavaScript Non-Primitive Data Types
 
-## Objects
+## 1. Objects
 ---
 An object in JavaScript is a collection of related data and/or functionality consisting of variables and functions — which are called properties and methods when they are inside objects.
 
@@ -100,4 +106,28 @@ let person = {
     age:50, 
     eyeColor:"blue"};
 ```
+## 2. Arrays
+Arrays are collection of values of similar or different data types.
 
+JavaScript Arrays are written with square bracket<kbd>[ ]</kbd>, seperated by commas.
+
+__Example:__
+```javascript
+const bike = ["BMW","Honda","Suzuki"];
+```
+Array indexes are zero-based, means the first item is at  arrayName[0].
+## ```typeof``` Operator
+To find the type of JavaScript variable, you can use ```typeof``` operator. It returns the type of a variable;
+
+__Example:__
+```javascript
+typeof "GWOC" // returns strings
+typeof 25 // returns number
+typeof true // returns boolean
+```
+# Conclusion
+Congratulations! You've successfully learnt about JavaScript Data Types.
+
+Keep Exploring JavaScript :wave:
+
+__Contributor :__  [Aniket Pathak]() & [Abhinandan Adhikari](https://github.com/AbhinandanAdhikari) :heart: 
