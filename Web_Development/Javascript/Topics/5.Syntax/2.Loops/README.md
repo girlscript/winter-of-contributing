@@ -153,7 +153,7 @@ for (value of iterable) {
 
 ***For Example :***
 
-- For in over **arrays**
+- For of over **arrays**
 ```js
 const arr = ["Mango", "Orange", "Apple"];
 let fruits = "";
@@ -168,7 +168,23 @@ Output :
 ```
 My favorite fuits are : Mango Orange Apple
 ```
-> **Note:** You can also use for of loop with *strings*
+- For of over **strings**
+```js
+let str= "Attack on Titan";
+
+let text = "";
+for (let x of str) {
+  if(x==' ')
+    x='*';
+    
+  text += x;
+}
+console.log(text);
+```
+Output:
+```
+Attack*on*Titan
+```
 
 ### 4. While Loop:
 Syntax of ***while*** loop :
