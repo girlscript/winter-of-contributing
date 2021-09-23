@@ -58,7 +58,7 @@
 ## Week-3 (Computer Viruses and Threats)
 - [ ] Computer Viruses
     - [Macro Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.1%20Macro%20Virus%20%231672.md)
-    - Multipartite virus
+    - [Multipartite virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.2%20Multipartite%20virus%20%231673.md)
     - Overwrite virus
     - [Browser Hijacker](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/BROWSER_HIJACKERS.md)
     - [Polymorphic virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Polymorphic_Virus.md)
