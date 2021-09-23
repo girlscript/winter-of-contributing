@@ -1,6 +1,36 @@
 # Execution Context in JavaScript
 
-When running code, **Execution Context** gets created by our JS engine, which does all the magic in the background. Here's how!
+Before diving deep into what the execution context is we have to first understand what the javascript engine is because it plays a crucial role and performs a lot of tasks before the role of execution context came.
+
+# What is Javascript Engine?
+Javascript Engine is nothing but a program that executes our javascript code. Every browser has its own Javascript engine but probably the most well-known engine is Google's V8.
+Javascript Engine has actually two components:
+# 1. Callstack
+ The CallStack is the place where our code is actually executed using execution context. Inside the CallStack various execution contexts are stacked on the top of one another and gets popped out from the stack whenever the entire code present inside the execution context is executed.
+# 2. Heap
+On the other hand, Heap is a unstructured memory pool which stores all the objects that our application needs.
+
+# Task of JS Engine
+Before starting out the task of execution context or we say before execution context came into picture, the very first step which is performed is to actually send the piece of javascript code into the javascript engine.
+As the piece of code enters into the javascript engine, it actually parse the code. Parsing the code simply means to read the code.
+During the parsing, the code is  parsed into the special data structure called as the abstract syntax tree. This works by first splitting up the each line of code into pieces that are meaningful to the language like the const or the function keywords and then eventually saving all these pieces into a tree called as Abstract syntax tree.
+
+Note: This step also checks if there are any syntax errors.
+Now, the next step comes as a complilation wich takes the generated AST and converts that AST into the machine code. 
+Execution of code only happens after compilation.
+Now, our code is ready to be executed. What happens then is so called global execution context is created and from now on execution context comes into picture.
+
+# Javascript Runtime
+
+We can imagine the Javascript runtime as a big-box or a big container that includes all the things we need to use the javascript.
+(In this case container is our browser).
+
+Note: The heart of any Javascript rutime is our Javascript engine. Without Javascript engine, there is noruntime and there is no javascript at all.
+
+However, the engine alone  is not enough. In order to work properly, we alsoneed toaccess to the web APIs.
+Web APIs are actually the functionalities provided to the JS engine. JS simply gets access to these web APIs through the global window object.
+
+
 
 # What is Execution Context?
 
@@ -10,12 +40,14 @@ By the name we can decode it as:
 **Context** = specific environment
 
 Hence, Execution Context provides information about our *environment* where our *specific* code is *stored and executed*. 
+It stores all the necessary information for some code to be executed like variables, arguments, functions etc.
 
 Whenever a script is executed by the JS engine, a new execution context is created. By default **Global Execution Context** is created.
 
 ## Global/Default Execution Context
 
 It is the first thing that is created when we write JavaScript code. Hence referred to as Default Context. Since JS is a single-threaded language, only one Global Execution Context(GEC) is created for executing the code.
+Note: This global execution context is created for the code that is not inside any function i.e for only top level code
 
 It has two phases:
 
