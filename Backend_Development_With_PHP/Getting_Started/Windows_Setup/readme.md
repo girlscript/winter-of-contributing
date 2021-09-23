@@ -18,13 +18,19 @@
 7. Click on the "Finish" button.
 8. Now, set up environment path variable for php. path -> `C:\xampp\php` .
 9. Now open your command prompt and type ` php --version ` you will see the information about php and it's version. 
+
 ![cmd.png](cmd.PNG)
 
 ## Test your PHP code
 
-1. Open xampp from explorer menu and start apache server. ![xampp.png](xampp.PNG)
+1. Open xampp from explorer menu and start apache server.
+
+![xampp.png](xampp.PNG)
+
 2. Start Apace Server
 3. Now open your favourite browser and type ` localhost ` in the searchbar.
 4. if you see this following output then Congratulations !! you have successfully installed PHP on your machine.
-		[localhost.png](localhost.PNG)
+
+![localhost.png](localhost.PNG)
+
 5. Happy Coding in PHP.
