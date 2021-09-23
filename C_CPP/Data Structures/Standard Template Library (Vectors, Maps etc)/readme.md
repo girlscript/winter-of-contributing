@@ -18,9 +18,12 @@ Priority Queue is more specialized data structure than Queue. Like ordinary queu
 **isEmpty** − check if queue is empty.
 ## Insert / Enqueue Operation
 Whenever an element is inserted into queue, priority queue inserts the item according to its order. Here we're assuming that data with high value has low priority.
+
 ![alt text](https://www.tutorialspoint.com/data_structures_algorithms/images/queue_insert.jpg)
 
 ## Deletion / Dequeue Operation
+Whenever an element is to be removed from queue, queue get the element using item count. Once element is removed. Item count is reduced by one.
+
 ![alt text](https://www.tutorialspoint.com/data_structures_algorithms/images/queue_remove.jpg)
 
 ## Demo Program
