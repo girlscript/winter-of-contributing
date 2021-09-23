@@ -26,7 +26,7 @@
 - [OOP-Class](./OOP-Class)
 - [Advanced_function_reduce()](<./Advanced_function_reduce()>)
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
-- [Advanced_function_map()](./Advanced_Function_Map)
+- [Advanced_function_map()](./Advanced_function_map())
 
 ## Learning path
 
