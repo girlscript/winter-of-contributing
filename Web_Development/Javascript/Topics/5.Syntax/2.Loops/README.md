@@ -210,7 +210,7 @@ Pratul
 ```
 
 >### ***Curious Corner :***
-> You can iterate over an array which the help of ``Array.forEach()`` method as well instead of using loops. It was introduced with **ES5** version.
+> You can iterate over an array with the help of ``Array.forEach()`` method as well instead of using loops. It was introduced with **ES5** version.
 >
 >Syntax :
 >```js
