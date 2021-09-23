@@ -32,7 +32,7 @@ There are a few terms that we have to be familiar with before proceeding to unde
 
 #5 This process goes on with increasing number of k in k-itmesets until the most frequent itemset is achieved.
 
-Let us understand this by the following example.
-[!image1](https://www.softwaretestinghelp.com/wp-content/qa/uploads/2019/09/Support-and-Confidence-for-Itemset-A-and-B.png)
+Let us understand this by the following example.<br>
+![image1](https://www.softwaretestinghelp.com/wp-content/qa/uploads/2019/09/Support-and-Confidence-for-Itemset-A-and-B.png)
 
 
