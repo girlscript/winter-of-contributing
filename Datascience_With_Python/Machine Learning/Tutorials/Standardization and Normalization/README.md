@@ -10,7 +10,7 @@ So let's start the learning and below is the Index for Topic Contents we are goi
 | [Feature Scaling?](#feature-scaling)                                               |
 | [What is Normalization?](#what-is-normalization)                                   |
 | [What is Standardization?](#what-is-standardization)                               |
-| [Standardization vs Normalization](#standardization-vs-normalization)                               |
+| [Standardization vs Normalization](#standardization-vs-normalization)              |
 | [Normalization and Standardization using Sklearn library](#normalization-and-standardization-using-sklearn-library)        |
 
 ## Feature Scaling?
@@ -50,6 +50,9 @@ Here max(x) and min(x) are the maximum and minimum values of the features respec
 
 So with the help of this formula, we have scaled our feature between 0 and 1.
 
+### Purpose
+The goal of normalization is to change the values of numeric columns in the dataset to a common scale, without distorting differences in the ranges of values. For machine learning, every dataset does not require normalization. It is required only when features have different ranges.
+
 ## What is Standardization?
 
 Standardization is scaling technique where the values are centered around the mean with a unit standard deviation. This means that the mean of the attribute becomes zero and the resultant distribution has a unit standard deviation.
@@ -61,6 +64,10 @@ Here is the formula of Standardization
 Here X(mean) and standard deviation is the mean and standard deviation of the feature values respectively.
 
 Here the values are not restricted within a given range unlike normalization.
+
+### Purpose
+Data standardization is the process of bringing data into a uniform format that allows analysts and others to research, analyze, and utilize the data. In statistics, standardization refers to the process of putting different variables on the same scale in order to compare scores between different types of variables.
+
 So the biggest question now is that what should we use Normaliation or Standardization🤔
 
 ## Standardization vs Normalization
@@ -72,3 +79,11 @@ While, Normalization can be used if a values of our feature does not follow a Ga
 ## Normalization and Standardization using Sklearn library
 
 Check the notebook attached in this folder for the Implementation of Standardization and Normalization in python using sklearn.
+
+## Overall Summary
+
+So, now we know Feature scaling is a scaling technique that is used in order to standardize our feature value within a fixed range and it is an essential technique in order to improve the efficiency of our machine learning algorithms and hence the resulting output also we learnt normalization is a scaling technique that is used to bring feature values within a range of 0 and 1 given that features values does not follows a gaussian distribution, while Standardization is scaling technique where the values are centered around the mean with a unit standard deviation given that features values follows a gaussian distribution.
+
+## Conclusion
+
+So from this tutorial we have understood what is feature scaling and it's various scaling techniques. Also how important is the role of feature scaling in improving the efficiency of machine learning algorithms also we learnt how and when to use Standardization and Normalization in real world projects. I hope you enjoyed this tutorial and it may have helped you in learning something new. Thank you for reading, have a nice day 😊
