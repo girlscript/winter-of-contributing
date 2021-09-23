@@ -1,3 +1,4 @@
+### [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
 # Topics in the C++ language
 
 ### [Introduction of C](Introduction%20of%20C/)
@@ -12,6 +13,7 @@
 ### [Arrays](Arrays/)
 ### [Strings and their functions](Strings%20and%20their%20functions/)
 ### [Pointer and its types](Pointer%20and%20its%20types/)
+### [Procedural Structures](Procedural%20Structures/)
 ### [Dynamic Memory allocation](Dynamic%20Memory%20allocation/)
 ### [Structure padding, Union, Enum, & typedef](Structure%20padding%2C%20Union%2C%20Enum%2C%20%26%20typedef/)
 ### [File Management / Handling](File%20Management%20or%20Handling/)
@@ -41,6 +43,4 @@
 ### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
 ### [Juice Framework with C++](Juice%20Framework%20with%20C%2B%2B/)
 ### [C++ 14](C%2B%2B%2014/)
-### [C++ 17](C%2B%2B%201/)
-
-### Break and Continue statements used in C/CPP
+### [C++ 17](C%2B%2B%2017/)
