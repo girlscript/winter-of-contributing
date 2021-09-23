@@ -15,3 +15,4 @@
    - **1.13. Types of Distribution**
    - **1.14. ANOVA**
    - **1.15. Confidence Interval**
+   - **1.16. Bootstrap Sampling**
