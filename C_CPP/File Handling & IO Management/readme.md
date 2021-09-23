@@ -1,2 +1,2 @@
 
-- [Stream Model Class in C++]("stream-class-model.md")
+- [Stream Class Model in C++]("stream-class-model.md")
