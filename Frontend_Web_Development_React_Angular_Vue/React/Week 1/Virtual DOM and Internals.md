@@ -69,6 +69,24 @@ In the second div, the react diffing algorithm now matches the component with th
 
 <p>&nbsp;</p>
 
+## How is Virtual DOM faster?
+
+A virtual DOM, which is represented as a tree, is formed when new components are added to the UI. On this tree, each element is a node. A new virtual DOM tree is produced if the state of any of these components changes. This tree is then compared to the preceding virtual DOM tree, or `"diffed"`.
+
+After that, the virtual DOM determines the most efficient way to make these modifications to the real DOM. This guarantees that just the most basic actions are performed on the actual DOM. As a result, the performance cost of updating the actual DOM is reduced.
+
+The virtual DOM tree and the diffing procedure are depicted in the figure below.
+
+<p>&nbsp;</p>
+
+![VDOM is Faster](https://i0.wp.com/programmingwithmosh.com/wp-content/uploads/2018/11/lnrn_0201.png?ssl=1)
+
+<p>&nbsp;</p>
+
+The red circles represent the nodes that have changed. These nodes represent the UI elements that have had their state changed. The difference between the previous version of the virtual DOM tree and the current virtual DOM tree is then calculated. The whole parent subtree then gets re-rendered to give the updated UI. This updated tree is then batch updated to the real DOM.
+
+<p>&nbsp;</p>
+
 ## Advantages of Virtual DOM
 
 
@@ -128,6 +146,9 @@ Fiber Reconciler is a new reconciliation mechanism in React that was introduced 
 ---
 ### External References 
 - [Virtual DOM](https://reactjs.org/docs/faq-internals.html)
+
+
+- [How Virtual DOM works](https://www.youtube.com/watch?v=BYbgopx44vo)
 
 
 - #### React Fiber
