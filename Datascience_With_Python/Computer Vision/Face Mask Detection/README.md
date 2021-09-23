@@ -1,6 +1,6 @@
 <h1 align="center"> :mask: Face Mask Detection using Python, Keras and OpenCV</h1>
 
-<div align= "center"><img src="https://user-images.githubusercontent.com/72177954/134400125-1a1050db-35b3-470e-9691-1133ea32f278.png" width="540" height="360"/>
+<div align= "center"><img src="https://github.com/NeerajHazarika/winter-of-contributing/blob/Data-Science-with-Python-Face-Mask-Detection/Datascience_With_Python/Computer%20Vision/Face%20Mask%20Detection/Images/Face%20Mask%20Detection.png" width="540" height="360"/>
 
 </div>
 
@@ -162,11 +162,11 @@ faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
 
 - Our model gave 99% accuracy for Face Mask Detection after training 
 
-![Untitled](https://user-images.githubusercontent.com/72177954/134510949-45fc590d-f653-4a71-8e84-49ad4f1d5dc0.png)
+![Untitled](https://github.com/NeerajHazarika/winter-of-contributing/blob/Data-Science-with-Python-Face-Mask-Detection/Datascience_With_Python/Computer%20Vision/Face%20Mask%20Detection/Images/training%20model%20accuracy.png)
 
 - We got the following accuracy/loss training curve plot
 
-![plot](https://user-images.githubusercontent.com/72177954/134034483-ecb0875f-1efa-491d-9891-6b21610c335b.png)
+![plot](https://github.com/NeerajHazarika/winter-of-contributing/blob/Data-Science-with-Python-Face-Mask-Detection/Datascience_With_Python/Computer%20Vision/Face%20Mask%20Detection/Images/train%20and%20loss%20accuracy%20plot.png)
 
 - Live demo 
 
