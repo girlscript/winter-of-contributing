@@ -56,7 +56,7 @@
 - [x] [WAN](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.5_WAN.md)
 
 ## Week-3 (Computer Viruses and Threats)
-- [ ] Computer Viruses
+- [x] [Computer Viruses](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity:%203%20Computer%20Viruses%3F%20%231671.md)
     - [Macro Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.1%20Macro%20Virus%20%231672.md)
     - [Multipartite virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.2%20Multipartite%20virus%20%231673.md)
     - Overwrite virus
