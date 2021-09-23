@@ -1,8 +1,10 @@
 # CSS Transitions:
 ![transitions-animations](https://user-images.githubusercontent.com/70155541/134525113-dcad46fa-31df-4312-ba5a-ebc7a1466a7d.gif)
 
+## What is a Transition? And whats the difference between an Animation and a Transition?<br>
+CSS transitions allows one to change values of a property smoothly, over a given time duration. All transitions need a trigger to start Eg. A mouse hover or click. Whereas Animations start as soon as the web page is loaded and can run for an infinite amount of time.
 
-CSS transitions allows one to change values of a property smoothly, over a given time duration.
+## Transition Methods <br>
 
 Following are the methods in css transitions:
 * transition
