@@ -1,5 +1,4 @@
-##Description
-
+# Description
 Frontend Development HTML,CSS,JS
 <!--
 1. Every major folder, for example, Frontend Web Development, Backend Web Development, Data Structures and Algorithm, etc, will have an index page.
@@ -7,13 +6,11 @@ Frontend Development HTML,CSS,JS
 3. The learning path should act as a roadmap to the learners. The learners should not be clueless after coming to the repository.
   -->
 
-# Title (name of the field)
-HTML head tag
+# HTML head
+Complete guide about the HTML head tag and its subcontents.
 
 ## Index
-
 <!-- this is just an example -->
-
 - [HTML head](./html)
 ## Learning path
 
