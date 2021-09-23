@@ -83,7 +83,7 @@ Arrays are a special type of objects. The `typeof` operator in JavaScript return
 	     const last_element = GWoC[1];
 	   ```
 	
-	3. Looping through Array Elements using **for loop** and **Array.forEach()** :
+  3. Looping through Array Elements using **for loop** and **Array.forEach()** :
 	   ```js
 	      const GWoC= [ "2021" ,  "2020" ];
 	      
@@ -100,7 +100,7 @@ Arrays are a special type of objects. The `typeof` operator in JavaScript return
 		  text += "</ul>";   
 		  }
 	   ```
-	  4. Adding Array Elements : using push() method.
+   4. Adding Array Elements : using push() method.
 	     ```js
 	     const GWoC= [ "2021" ,  "2020" ];
 	     GWoC.push("2022");
