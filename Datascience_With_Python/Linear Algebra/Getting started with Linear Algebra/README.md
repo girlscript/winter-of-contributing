@@ -1,11 +1,12 @@
 <h1 align="left">Getting started with Linear Algebra</h1>
 
-## Index
 # What is Linear Algebra?
- 
+<h3>A branch of mathematics dealing with linear equations.</h3>
+</br>
 
-> **1. VECTORS AND PROPERTIES**
- 
+***Some important topics of Linear Algebra in relation to Data Science:*** 
+> **1. VECTORS AND PROPERTIES** 
+
           1.1 ADDITION
           1.2 DOT PRODUCT
           1.3 MAGNITUDE OF A VECTOR
@@ -19,8 +20,6 @@
           2.5 INVERSE OF A MATRIX
 >**3. EIGEN VECTORS AND VALUES**
 
-          3.1 EIGEN VECTORS
-          3.3 EIGEN VALUE
->**4. LINEAR ALGEBRA IN DATASCIENCE**
-
-
+## Conclusion:
+**Linear Algebra is an integral part of datascience. It helps in simplifing and understanding a dataset
+     which contains thousands of rows and columns. A basic knowledge in maths and algebra can help an individual to master Linear Algebra quickly.**
