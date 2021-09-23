@@ -25,11 +25,31 @@ Now, our code is ready to be executed. What happens then is so called global exe
 We can imagine the Javascript runtime as a big-box or a big container that includes all the things we need to use the javascript.
 (In this case container is our browser).
 
+These things that we need to use the javascript which is a part of Javascript runtime are:
+1.Javascript Engine
+2.Web APIs
+3.Callback queue
+4.Event loop
+
 Note: The heart of any Javascript rutime is our Javascript engine. Without Javascript engine, there is noruntime and there is no javascript at all.
 
-However, the engine alone  is not enough. In order to work properly, we alsoneed toaccess to the web APIs.
-Web APIs are actually the functionalities provided to the JS engine. JS simply gets access to these web APIs through the global window object.
+As we have already discussed about the Javascript engine, now let's talk about the web APIs.
 
+# Web APIs
+Web APIs present in a browser let javascript do a wide variety of things in a go. For example, If we want to apply some styling to our webpages dynamically like changing the border, changing the color, pixel updation and many more other things then for that browser has the API available called as DOM API.
+
+Similarly, If we want to fetch some data from a server then for that also we have a API called as The Fetch API  which provides an interface for fetching the resources across the network by using the generic definitions of the request and response objects.
+
+# Callback queue
+The callback queue simply stores the callback functions sent from the Web APIs in the order in which they were added.
+Callback functions will sit in the queue until the call stack is empty, they are then moved into the stack by the event loop.
+
+# Event loop
+The event loop is constantly monitoring the call stack and the callback queue; if the call stack is empty it will move the callback function at the front of the queue to the call stack, scheduling it for execution.That is only the tip of the iceberg about Event loop. It is itself a good topic to discuss. So we will talk about that in detail in separate event loop topic.
+
+The workflow mechanism of this Javascript Runtime is depicted diagrammatically below:
+
+![image](https://user-images.githubusercontent.com/34187897/134546681-26fb8cdc-79e3-4336-a973-914517a3db8a.png)
 
 
 # What is Execution Context?
