@@ -28,7 +28,7 @@ Whenever an element is to be removed from queue, queue get the element using ite
 
 ## Demo Program
     #include<stdio.h>
-    #define max 5
+    #define max 5 	/* insert maximum 5 items */
     int PQ[2][max];
     int F=-1;
     int R=-1;
@@ -43,39 +43,40 @@ Whenever an element is to be removed from queue, queue get the element using ite
     void peek();
     int main()
     {
-    int ch,x,y;
-    do{
-    printf("\n1.insert\t2.arrange\t3.delete\t4.checkfull\t5.check empty\t6.peek\t7.size\t8.display\t9.exit\n");
-    printf("enter your choice:\t");
-    scanf("%d",&ch);
-     switch(ch){
-            case 1:insertion();
-            break;
-            case 2:arrange();
-            break;
-            case 3:deletion();
-            break;
-            case 4:x=isfull();
-            if(x==1)
-	           printf("\nqueue is full");
-	           else
-	           printf("\nnot full");
-            break;
-            case 5:x=isempty();
-            if(x==1)
-	           printf("\nqueue is empty");
-	           else
-	           printf("\nnot empty");
-	           break;
-            case 6: peek();
-            break;
-            case 7:y=size_PQ();
-                    printf("%d",y);
-            break;
-            case 8:display();
-            }
-    }while(ch!=9);
+    	int ch,x,y;
+    	do{
+    	printf("\n1.insert\t2.arrange\t3.delete\t4.checkfull\t5.check empty\t6.peek\t7.size\t8.display\t9.exit\n");
+    	printf("enter your choice:\t");
+    	scanf("%d",&ch);
+     		switch(ch){
+            		case 1:insertion();
+            		break;
+            		case 2:arrange();
+            		break;
+            		case 3:deletion();
+            		break;
+            		case 4:x=isfull();
+            		if(x==1)
+	           		printf("\nqueue is full");
+	           		else
+	           		printf("\nnot full");
+            		break;
+            		case 5:x=isempty();
+            		if(x==1)
+	           		printf("\nqueue is empty");
+	           		else
+	           		printf("\nnot empty");
+	           		break;
+            		case 6: peek();
+            		break;
+            		case 7:y=size_PQ();
+                    		printf("%d",y);
+            		break;
+            		case 8:display();
+            		}
+    	}while(ch!=9);
     }
+# Function to insert an element into the queue
     void insertion()
     {
         if(isfull()==1){
@@ -84,6 +85,7 @@ Whenever an element is to be removed from queue, queue get the element using ite
         }
         else
         {
+	// if queue is empty, insert the data
         printf("\nenter the element to insert:\n");
         scanf("%d %d",&item,&priority);
         if(R==-1)
@@ -98,9 +100,11 @@ Whenever an element is to be removed from queue, queue get the element using ite
         PQ[1][R]=priority;
         }
     }
+# Function to arrange an element in the queue
     void arrange()
     {
         int i,j;
+#### Swap and continue if condition is not False
         if(size_PQ()>1)
         {
             for(int i=F;i<=R;i++)
@@ -120,13 +124,16 @@ Whenever an element is to be removed from queue, queue get the element using ite
             }
         }
     }
+# Function to delete an element from the queue
     void deletion(){
         int a,b;
+	// As queue is empty, elements will be deleted
         if(isempty()==1){
         printf("queue is empty");
         }
         else
         {    
+	// remove one item
         a=PQ[0][F];
         b=PQ[1][F];
         printf("\ndeleted element is:%d and priority is %d",a,b);
@@ -138,6 +145,7 @@ Whenever an element is to be removed from queue, queue get the element using ite
         }
         }
     }
+# Function to check queue is full or not 
     int isfull(){
         if(R==max-1){
             return 1;
@@ -146,6 +154,7 @@ Whenever an element is to be removed from queue, queue get the element using ite
             return 0;
         }
     }
+# Function to check queue is empty or not 
     int isempty(){
         if(F==-1 && R==-1){
             return 1;
@@ -154,6 +163,7 @@ Whenever an element is to be removed from queue, queue get the element using ite
             return 0;
         }
     }
+# Function to get the element at front of the queue
     void peek(){
         if(!isempty())
         {
@@ -164,6 +174,7 @@ Whenever an element is to be removed from queue, queue get the element using ite
         int size=R-F+1;
             return size;
     }
+ # Function to display all element
     void display()
     {
         printf("\ndispaly element is:");
@@ -171,7 +182,7 @@ Whenever an element is to be removed from queue, queue get the element using ite
         printf("%d %d\t",PQ[0][i],PQ[1][i]);
     }
 
-If we compile and run the above program then it would produce following result −
+*If we compile and run the above program then it would produce following result −*
 
 ![App Screenshot](gc1.png)
 ![App Screenshot](gc2.png)
