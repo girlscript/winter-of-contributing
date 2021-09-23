@@ -1,0 +1,23 @@
+#Problem Statement
+ 
+Given an array A[] consisting 0s, 1s and 2s. The task is to write a function that sorts the given array. The functions should put all 0s first, then all 1s and all 2s in last.
+Examples: 
+ 
+
+Input: {0, 1, 2, 0, 1, 2}
+Output: {0, 0, 1, 1, 2, 2}
+
+Input: {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1}
+Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
+
+Approach
+There are many approaches to solve this problem, the approach I'll dicuss here is naive and easy to understand.
+Time complexitiy -O(n)
+Space complexity-O(1)
+
+Algorithm
+1. Initialize three vairables count0=0,count1=0, count2=0
+2. Now traverse through the array and increase count0 if element is 0, count1 if element is 1 and similarly increase count2 if element is 2.
+3. Now again traverse the array and replace the first count0 elements with 0 , count1 elements with 1 and count2 elements with 2.
+
+
