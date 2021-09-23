@@ -26,7 +26,7 @@ The main purpose of this algorithm is to find the optimal number of cluters and 
 ## **Brief summary** 
 
 K means clutering algorithm is used for clustering based problems where it finds the optimal number of clusters present in the data. Firstly, we have to preprocess the data to know better about the data we'll be using.
-Then visulize the data for better understanding which is followed by application of elbow methos to find the optimal number of clusters.
+Then visualize the data for better understanding which is followed by application of elbow method to find the optimal number of clusters.
 Finally, visualized the number of clusters along with their centriods.
 
 
