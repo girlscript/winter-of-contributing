@@ -7,7 +7,7 @@
 
 ## Transcript
 
-A **JavaScript function** is a block of code designed to perform a particular task. Its basically dividing you program into different parts.
+A **JavaScript function** is a block of code designed to perform a particular task. Its basically dividing your program into different functional components.
 
 Now a function looks like this..  
 Wait.. lets break it into different parts first
