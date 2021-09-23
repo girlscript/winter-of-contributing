@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0; bottom: 0;right: 0;left: 0;
+}
+
+.button button{
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.button button:hover{
+    color: white;
+    background-color: black;
+}
+
+/* modal  */
+.modal{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    top: 0;bottom: 0;right: 0;left: 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    height: 50%;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.close{
+    font-family: 'Quicksand', sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    
+}
+
+.close:hover{
+    background-color: red;
+    color: white;
+}
+
+/* footer  */
+
+.footer {
+    font-family: 'Quicksand', sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.253);
+    color: black;
+    text-align: center;
+  }
+
+.heart{
+    color: red;
+}
+
+.github{
+    text-decoration: none;
+}
+
+.gwoc{
+    color: tomato;
+}

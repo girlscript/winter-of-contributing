@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif; 
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    
+}
+
+.box{
+    background-color: white;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box h1{
+    margin-bottom: 20px;
+}
+
+.box p{
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.buttons button{
+    background-color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+#decrease{
+    color: red;
+    border: 2px solid red;
+}
+
+#decrease:hover{
+    color:white;
+    background-color: red;
+}
+
+#increase{
+    color: green;
+    border: 2px solid green;
+}
+
+#increase:hover{
+    color: white;
+    background-color: green;
+}
+
+#reset:hover{
+    color: white;
+    background-color: black;
+}
+
+/* footer */
+
+.footer {
+    font-family: 'Quicksand', sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.253);
+    color: black;
+    text-align: center;
+  }
+
+.heart{
+    color: red;
+}
+
+.github{
+    text-decoration: none;
+}
+
+.gwoc{
+    color: tomato;
+}
