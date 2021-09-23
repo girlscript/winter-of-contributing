@@ -32,7 +32,7 @@ Physical Tags Have the Following Characteristics:
 
 There are many kinds of physical tags here is the list of some of them :
 
-> Note: **Lots of tags can't be rendered via README files**: [Click here to visualize them!](/Images/TEXT_Formatting.png)
+> Note: **Lots of tags can't be rendered via README files**: [Click here to visualize them!](Web_Development/FrontEnd/HTML Text Formatting/Images/TEXT_Formatting.png)
 
 | Tags       | Meaning          | Purpose                                                                                 | Visualization                                               |
 | :--------- | :--------------- | :-------------------------------------------------------------------------------------- | :---------------------------------------------------------- |
@@ -62,7 +62,7 @@ Some cases when we could use logical tags are:
 
 There are many kinds of logical tags here is the list of some of them :
 
-> Note: **Lots of tags can't be rendered via README files**: [Click here to visualize them!](/Images/TEXT_Formatting.png)
+> Note: **Lots of tags can't be rendered via README files**: [Click here to visualize them!](Web_Development/FrontEnd/HTML Text Formatting/Images/TEXT_Formatting.png)
 
 | Tags           | Meaning                  | Purpose                                                                                                                                                                                                       | Visualization                                                                                                                                    |
 | :------------- | :----------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------------------------------------------------- |
