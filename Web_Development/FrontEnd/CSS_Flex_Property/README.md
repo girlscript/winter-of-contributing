@@ -109,4 +109,5 @@ flex: flex-grow flex-shrink flex-basis | auto | none | initial | inherit;
   </body>
 </html>
 ```
-[Output]()
+### Screenshot
+![image](https://user-images.githubusercontent.com/84243683/134486080-2596c13a-5a42-44e9-afe2-b1c60706c98b.png)
