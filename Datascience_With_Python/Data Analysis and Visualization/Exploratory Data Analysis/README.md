@@ -59,7 +59,7 @@ df.head()
 
 
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/head.PNG' alt='headimg'>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/head.PNG'>
 
 
 ### Printing the last five rows of dataset
@@ -70,15 +70,13 @@ tail() method is used to display last five rows
 df.tail()
 ```
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/tail.PNG'>
-
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/tail.PNG'>
 
 ### info()
 
 info() display concise summary of the dataset
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/info.PNG'>
-
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/info.PNG'>
 ---
 
 #### Observation:
@@ -104,12 +102,12 @@ features=df.drop('status', axis=1)
 sns.heatmap(features.corr(),annot=True)
 ```
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/heatmap.PNG'>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/heatmap.PNG'>
 
 
 ### describe()
 describe() is used to view some basic statistical details like percentile, mean, std etc. of a data frame or a series of numeric values
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/describe.PNG'>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/describe.PNG'>
 
 ---
 
@@ -155,8 +153,7 @@ plt.show()
 
 ```
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/plot1.PNG'>
-
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/plot1.PNG'>
 
 ```
 
@@ -170,7 +167,7 @@ plt.show()
 
 ```
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/plot2.PNG'>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/plot2.PNG'>
 
 
 ```
@@ -187,8 +184,7 @@ plt.show()
 
 
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/plot3.PNG'>
-
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/plot3.PNG'>
 
 ---
 
@@ -217,7 +213,7 @@ plt.show()
 
 ```
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/pairplot.PNG'>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/pairplot.PNG'>
 
 
 ---
@@ -244,7 +240,7 @@ plt.show()
 
 ```
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/boxplot1.PNG'>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/boxplot1.PNG'>
 
 ```
 sns.boxplot(x='status',y='nodes', data=df)
@@ -253,7 +249,7 @@ plt.show()
 ```
 
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/boxplot2.PNG'>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/boxplot2.PNG'>
 
 
 
@@ -280,7 +276,7 @@ plt.show()
 
 ```
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/voilinplot1.PNG'>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/voilinplot1.PNG'>
 
 
 
@@ -292,7 +288,7 @@ plt.show()
 
 ```
 
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Images/voilinplot2.PNG'>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/Images/voilinplot2.PNG'>
 
 
 
