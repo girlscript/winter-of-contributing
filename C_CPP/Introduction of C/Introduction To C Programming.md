@@ -42,7 +42,7 @@
 ### Tokens in C
 A token is either a keyword, an identifier, a constant, a string literal, or a symbol. For example, the following C statement consists of five tokens - <br />
                                  ```
-				 printf("Hello, World! \n");  
+				 printf("Welcome to Girlscript Winter Of Contributing! \n");  
 				 ``` <br />
 The individual tokens are - <br />
 
@@ -52,7 +52,7 @@ The individual tokens are - <br />
 				 
 				 (
 				 
-				 "\nHello, World! \n"
+				 "Welcome to Girlscript Winter Of Contributing! \n"
 				 
 				 ) 
 				 
@@ -60,18 +60,41 @@ The individual tokens are - <br />
 				
 				 
 ### Semicolon
-In a C Program, the semicolon is a statement terminator. That is, each individual statement must be ended with a semicolon 
+In a C Program, the semicolon is a statement terminator. That is, each individual statement must be ended with a semicolon terminator. That is, each individual statement must be ended with a semicolon. It indicates the end of one logical entity.
+				
+				
+						printf("Welcome to Girlscript Winter Of Contributing! \n");
+						return 0;
+						
+### Comments 
+Comments are likely helping text in your C program and thy are ignored by the compiler. Single Line comment start with **\\** and multiline comment start with **/*** and terminate with the characters ***/**  as shown below
 
+**//** Single line comment
 
+**/*** Demostration of Multiline comment ***/**
 
+### Identifier
+A C identifier is a name used to identify a variable, function, or any other user-defined item. An identifier starts with a letter A to Z, a to z, or an underscore **'_'** followed by zero or more letters, underscores, and digits(0 to 9).
 
+C does not allow punctuation characters such as @, $, and % within identifiers.
 
+C is a case-sensitive programming language.
+ 
+Thus, **Girlscript** and **girlscript** are two different identifiers in C. Here are some examples of acceptable identifiers:
+- mohd 
+- zara 
+- abc	
+- move_name	
+- a_123 
+- mynamee50	
+- _temp	 
+- k	
+- a23b9	 
+- retVal
 
-
-
-
+						
 ### Keywords
-Keywords are the reserved words in C. These reserved words may not be used as constants or variables or any other identifier names. List of 32 keywords are:
+Keywords are the reserved words in C. These reserved words may not be used as constants or variables or any other identifier names. List of **32** keywords are:
 - auto	
 - double	
 - int	
@@ -113,14 +136,40 @@ C provides various types of data-types which allow the programmer to select the 
 
 The data-type in a programming language is the collection of data with values having fixed meaning as well as characteristics. Some of them are an integer, floating point, character, etc. Usually, programming languages specify the range values for given data-type.
 
+
+**ANSI C provides three types of data types:**
+
 1. *Primary(Built-in) Data Types:*
+
 void, int, char, double and float.
 
 2. *Derived Data Types:*
+
 Array, References, and Pointers.
 
 3. *User Defined Data Types:*
+
 Structure, Union, and Enumeration.
+
+
+## Primary(Built-in) Data Types
+
+		void 								As the name suggests, it holds no value and is generally used for
+										specifying the type of function or what it returns. If the function has a 
+										void type, it means that the function will not return any value.
+
+		int 								Used to denote an integer type.
+
+		char								Used to denote a character type.
+
+		float								Used to denote a floating point type.
+		double
+
+
+		int *								Used to denote a pointer type.
+		float *
+		char *
+
 
 # Declaration
 				int	age ;
@@ -176,34 +225,38 @@ Structure, Union, and Enumeration.
 					};
 					
 ## sizeof()
-The  storage  representation  and  machine  instructions  differ from machine to machine. sizeof operator can use to get the exact size of a type or a variable on a particular platform.
+The  storage  representation  and  machine  instructions  differ from machine to machine. sizeof() operator can use to get the exact size of a type or a variable on a particular platform.
 
 				#include<stdio.h>
 				#include<limits.h>
 				int main()
 				{
-				printf("Storage  size  for  int  is:	96d	\n",  sizeof(int));
-				printf("Storage size for  char  is:	%d	\n",  sizeof(char));
+				printf("Storage  size  for  int  is: %d\n",  sizeof(int));
+				printf("Storage size for  char  is: %d\n",  sizeof(char));
 				return	0;
 				};
 				
 				
 ## Derived Data Types
-C supports 3 derived data types:
+**C supports 3 derived data types:**
 
 	Data Types									Description
 
-	Arrays										Arrays are sequences of data items having homogeneous values. They have adjacent memory 											locations to store values.
+	Arrays										Arrays are sequences of data items having homogeneous values. 
+											They have adjacent memory locations to store values.
 
 
 	References 									Function pointers allow referencing functions with a particular signature.
 
 
 
-	Pointers 									These are powerful C features which are used to access the memory and deal with their 												addresses.
+	Pointers 									These are powerful C features which are used to access the memory and deal with
+											their addresses.
+	
+	
 	
 ## User defined Data Types
-C allows the feature called type definition which allows programmers to define their identifier that would represent an existing data type. There are three such types:
+**C allows the feature called type definition which allows programmers to define their identifier that would represent an existing data type. There are three such types:**
 
 	Data Types									Description
 
@@ -211,7 +264,10 @@ C allows the feature called type definition which allows programmers to define t
 											done to handle data efficiently. "struct" keyword is used to define a structure.
 
 	Union 										These allow storing various data types in the same memory location.
-											Programmers can define a union with different members, but only a single member can 												contain a value at a given time. It is used for
+											Programmers can define a union with different members, but only 
+											a single member cancontain a value at a given time. 
 
 	Enum 										Enumeration is a special data type that consists of integral constants, and
-											each of them is assigned with a specific name. "enum" keyword is used to define the 												enumerated data type.
+											each of them is assigned with a specific name. "enum" keyword is used 
+											to define the enumerated data type.
+												
