@@ -790,7 +790,156 @@ So that’s how we can use the Fetch API to consume a REST API.
 
 <p>&nbsp</p>
 
+## Data Fetching using the Axios API with componentDidMount() method
 
+<p>&nbsp</p>
+
+A React component can be created using a function or a class-based component, and the class-based component can use different lifecycle hooks.
+
+But quite often, we need to load data from the server to render the same data into the DOM. To do that, we can use a widely used lifecycle hook called `componentDidMount`.
+
+The `componentDidMount()` method will be triggered as soon as the component is mounted or inserted into the DOM.
+
+The basic syntax to use `componentDidMount()` is looks like this:
+
+```js
+componentDidMount() {
+    // your source code to load initial data
+}
+```
+
+This method used widely by developers because it loads immediately once the component is mounted. Hence, it’s quite handy when we need to get data from a remote endpoint.
+
+This hook is also used to apply or configure the subscription with the initial render, but we need to unsubscribe it using another hook called `componentWillUnmount()`.
+
+Let’s look at an example of fetching data from a remote endpoint and using the same data into `render()` to render it into the DOM.
+
+We call the API using Axios, and the method should look like this.
+
+```js
+async getTodos() {
+    let data = await axios
+      .get("https://jsonplaceholder.typicode.com/todos?_limit=10")
+      .then(function(response) {
+        return response;
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+    this.setState({ todos: data.data });
+  }
+```
+
+**Note:** We have used the free API endpoint `json-placeholder`, which provides the dummy data for the demo purpose.
+
+In the above method, we have used Axios as the HTTP promise-based client, which uses `XMLHttpRequests` to request data from the browser.
+
+Now let’s call the method `getTodos()` from the `componentDidMount()` hook, like this:
+
+```js
+  componentDidMount() {
+    this.getTodos();
+  }
+```
+
+By calling this method, we will be able to call the remote endpoint once the current component is mounted and added into the DOM tree.
+
+Finally, we will use the response data coming from the API in the `render()`, like this:
+
+```js
+  render() {
+    const { todos } = this.state;
+    return (
+      <div>
+        <h3>Using componentDidMount for initial data render</h3>
+        <hr />
+        {todos &&
+          todos.map(todo => {
+            return (
+              <table>
+                <tr>
+                  <td>{todo.id}</td>
+                  <td>
+                    <p key={todo.id}>{todo.title}</p>
+                  </td>
+                </tr>
+              </table>
+            );
+          })}
+      </div>
+    );
+  }
+```
+
+Here in the `render()` method, we have used a `map()` in order to iterate the items of the `todos` that are stored in the state object.
+
+The complete component code should look like this:
+
+```js
+import React, { Component } from "react";
+import { render } from "react-dom";
+import axios from "axios";
+
+class Usingdidmount extends Component {
+  constructor() {
+    super();
+    this.state = {
+      name: "React"
+    };
+    this.getTodos = this.getTodos.bind(this);
+  }
+
+  componentDidMount() {
+    this.getTodos();
+  }
+
+  async getTodos() {
+    let data = await axios
+      .get("https://jsonplaceholder.typicode.com/todos?_limit=10")
+      .then(function(response) {
+        return response;
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+    this.setState({ todos: data.data });
+  }
+
+  render() {
+    const { todos } = this.state;
+    return (
+      <div>
+        <h3>Using componentDidMount for initial data render</h3>
+        <hr />
+        {
+        todos &&
+          todos.map(todo => {
+            return (
+              <table>
+                <tr>
+                  <td>{todo.id}</td>
+                  <td>
+                    <p key={todo.id}>{todo.title}</p>
+                  </td>
+                </tr>
+              </table>
+            );
+          })}
+      </div>
+    );
+  }
+}
+
+export default Usingdidmount;
+```
+
+In the above example, we have implemented:
+
+ - The `componentDidMount()` hook that calls the `getTodos()` method in order to fetch data from the API using AXIOS client
+
+- The `getTodos()` method, where we have implemented an actual AXIOS snippet to get the response
+
+- The `render()` method, where we rendered the data using the `map()` into the actual DOM tree.
 
 ---
 
@@ -801,3 +950,5 @@ So that’s how we can use the Fetch API to consume a REST API.
   - [45% Faster React Functional Components](https://medium.com/missive-app/45-faster-react-functional-components-now-3509a668e69f)
 
   - [React Today and Tomorrow and 90% Cleaner React With Hooks](https://www.youtube.com/watch?v=dpw9EHDh2bM)
+
+  - [How To Use Axios With React](https://www.freecodecamp.org/news/how-to-use-axios-with-react/#how-to-set-up-axios-with-react)
