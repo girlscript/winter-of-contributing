@@ -1,3 +1,14 @@
+## What is Clustering?
+
+- Clustering is a type of unsupervised learning method of machine learning.
+- In the unsupervised learning method, the inferences are drawn from the data sets which do not contain labelled output variable. 
+- It is an exploratory data analysis technique that allows us to analyze the multivariate data sets.
+
+## Types of Clustering
+
+![image](https://user-images.githubusercontent.com/63282184/134457458-2a8f77b6-3b56-476e-9d0b-a61d7cf90bc7.png)
+
+
 ## **What is Hierarchical Clustering?**
 
 - Hierarchical clustering, also known as hierarchical cluster analysis, is an algorithm that groups similar objects into groups called clusters.
