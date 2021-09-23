@@ -39,22 +39,22 @@ Both these quantities can be calculated as follows:<br>
 <b>EXAMPLE</b><br>
 Let us understand this by the following example.<br>
 Let their be a set of 6 transactions of items l1,l2,l3,l4,l5. We have specified min_sup=3 and minimun confidence level to be 60%.<br>
-![image2](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Apriori%20Algorithm/images/table%201.png)
+![image2](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Apriori%20Algorithm/images/table%201.png)
 <br>
 1. First we find the number of occurances of each item in these transactions and table it down.
-![image3](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Apriori%20Algorithm/images/table%202.png)<br>
+![image3](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Apriori%20Algorithm/images/table%202.png)<br>
 2. We can see that some of the list elements have a count less than min_sup of value 3. Hence, we will prune those items and make a new table.
- ![image4](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Apriori%20Algorithm/images/table%203.png)<br>
+ ![image4](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Apriori%20Algorithm/images/table%203.png)<br>
 3. Now using these many items, we will join 2-itemsets and find out their counts.
-![image5](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Apriori%20Algorithm/images/table%204.png)<br>
+![image5](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Apriori%20Algorithm/images/table%204.png)<br>
 4. Again in the next step, the rows having less than required count will get pruned, giving us the table below.
-![image6](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Apriori%20Algorithm/images/table%205.png)<br>
+![image6](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Apriori%20Algorithm/images/table%205.png)<br>
 5. The join process will take place, this time with 3-itemsets and we calculate their count and get the table shown below.
-![image7](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Apriori%20Algorithm/images/table%206.jpg)<br>
+![image7](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Apriori%20Algorithm/images/table%206.jpg)<br>
 6. We observe that only one itemset <b>{l1 l2 l3}</b> pass the criteria of having count 3 and hence hece only that itemset can be called a frequent itemset.<br>
 
 We now apply the association rules to find if they surpass the minimum confidence value or not.
-![image8](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Apriori%20Algorithm/images/rules.png)
+![image8](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Apriori%20Algorithm/images/rules.png)
 This shows that all the above association rules are strong if minimum confidence threshold is 60%.
 
 <b>Limitations of this algorithm</b><br>
