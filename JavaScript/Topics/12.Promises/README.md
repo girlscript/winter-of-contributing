@@ -1,11 +1,11 @@
-# Promises
+# Promises in JavaScript
 ---
 The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
 
 Example:
 ```js
 let myPromise = new Promise(function(myResolve, myReject) {
-// "Producing Code" (May take some time)
+// "Processing Code" (May take some time)
 
   myResolve(); // when successful
   myReject();  // when error
@@ -13,7 +13,7 @@ let myPromise = new Promise(function(myResolve, myReject) {
 
 // "Consuming Code" (Must wait for a fulfilled Promise)
 myPromise.then(
-  function(value) { /* code if successful */ },
+  function(value), { /* code if successful */ },
   function(error) { /* code if some error */ }
 );
 ```
@@ -80,10 +80,10 @@ if(x === y) {
 });
 
 promise.
-	then(function () {
+	then(function (result) {
 		console.log('Success, You are a coder');
 	}).
-	catch(function () {
+	catch(function (error) {
 		console.log('Some error has occured');
 	});
 ```
@@ -191,25 +191,118 @@ myPromise
 ---
 Wait for all promises to be resolved, or for any to be rejected. If the returned promise resolves, it is resolved with an aggregating array of the values from the resolved promises, in the same order as defined in the iterable of multiple promises. If it rejects, it is rejected with the reason from the first promise in the iterable that was rejected.
 
+Example:
+```js
+const promise1 = Promise.resolve(3);
+const promise2 = 42;
+const promise3 = new Promise((resolve, reject) => {
+  setTimeout(resolve, 100, 'foo');
+});
+
+Promise.all([promise1, promise2, promise3]).then((values) => {
+  console.log(values);
+});
+// expected output: Array [3, 42, "foo"]
+```
+
 ### 2. Promise.allSettled(iterable)
 ---
 Wait until all promises have settled (each may resolve or reject). Returns a Promise that resolves after all of the given promises is either fulfilled or rejected, with an array of objects that each describe the outcome of each promise.
+
+Example:
+```js
+Promise.allSettled([
+  Promise.resolve(33),
+  new Promise(resolve => setTimeout(() => resolve(66), 0)),
+  99,
+  Promise.reject(new Error('an error'))
+])
+.then(values => console.log(values));
+
+// [
+//   {status: "fulfilled", value: 33},
+//   {status: "fulfilled", value: 66},
+//   {status: "fulfilled", value: 99},
+//   {status: "rejected",  reason: Error: an error}
+// ]
+```
 
 ### 3. Promise.any(iterable)
 ---
 Takes an iterable of Promise objects and, as soon as one of the promises in the iterable fulfills, returns a single promise that resolves with the value from that promise.
 
+Example:
+```js
+const pErr = new Promise((resolve, reject) => {
+  reject("Always fails");
+});
+
+const pSlow = new Promise((resolve, reject) => {
+  setTimeout(resolve, 500, "Done eventually");
+});
+
+const pFast = new Promise((resolve, reject) => {
+  setTimeout(resolve, 100, "Done quick");
+});
+
+Promise.any([pErr, pSlow, pFast]).then((value) => {
+  console.log(value);
+  // pFast fulfils first
+})
+// expected output: "Done quick"
+```
+
 ### 4. Promise.race(iterable)
 ---
 Wait until any of the promises is fulfilled or rejected. If the returned promise resolves, it is resolved with the value of the first promise in the iterable that resolved. If it rejects, it is rejected with the reason from the first promise that was rejected.
+
+Example:
+```js
+const promise1 = new Promise((resolve, reject) => {
+  setTimeout(resolve, 500, 'one');
+});
+
+const promise2 = new Promise((resolve, reject) => {
+  setTimeout(resolve, 100, 'two');
+});
+
+Promise.race([promise1, promise2]).then((value) => {
+  console.log(value);
+  // Both resolve, but promise2 is faster
+});
+// expected output: "two"
+```
 
 ### 5. Promise.reject(reason)
 ---
 Returns a new Promise object that is rejected with the given reason.
 
+Example:
+```js
+function resolved(result) {
+  console.log('Resolved');
+}
+
+function rejected(result) {
+  console.error(result);
+}
+
+Promise.reject(new Error('fail')).then(resolved, rejected);
+// expected output: Error: fail
+```
+
 ### 6. Promise.resolve(value)
 ---
 Returns a new Promise object that is resolved with the given value. If the value is a thenable (i.e. has a then method), the returned promise will "follow" that thenable, adopting its eventual state; otherwise, the returned promise will be fulfilled with the value. Generally, if you don't know if a value is a promise or not, Promise.resolve(value) it instead and work with the return value as a promise.
+
+Example:
+```js
+Promise.resolve('Success').then(function(value) {
+  console.log(value); // "Success"
+}, function(value) {
+  // not called
+});
+```
 
 #### References:
  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
