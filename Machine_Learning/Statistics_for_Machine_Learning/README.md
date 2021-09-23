@@ -13,3 +13,5 @@
    - **1.11. Skewness**
    - **1.12. Confusion Matrix**
    - **1.13. Types of Distribution**
+   - **1.14. ANOVA**
+   - **1.15. Confidence Interval**
