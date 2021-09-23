@@ -22,4 +22,8 @@ void prefix_sum_array(int c, int* A, int n, int* P)
 
 ```
 
+The same work can be done by simple array structure explained as follows:-
+
+![alt_txt](https://github.com/Ayushi2811/Project-on-Data-structure/blob/master/cna.jpg)
+
 
