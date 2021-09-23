@@ -1,6 +1,34 @@
 
 # Data Structures in JavaScript
 
+# **JavaScript Iterables**
+
+**Iterable** objects are a generalization of **arrays**. That’s a concept that allows us to make any object useable in a ``for..of loop``.
+
+Of course, **Arrays are iterable.** But there are many other built-in objects, that are iterable as well. For instance, strings are also iterable.
+
+If an object isn’t technically an array, but represents a collection (list, set) of something, then ``for..of`` is a great syntax to loop over it, so let’s see how to make it work.
+
+## **Iterating Over a String**
+You can use a ``for..of`` loop to iterate over the elements of a string:
+
+**For Example**
+```js
+for (const x of "GWOC") {
+  // code block to be executed
+}
+```
+
+## **Iterating Over an Array**
+You can use a **for..of** loop to iterate over the elements of an Array:
+
+**For Example**
+```js
+for (const x of [1,2,3,4,5] {
+  // code block to be executed
+}
+```
+
 ## **JavaScript Iterators**
 The iterator protocol defines how to produce a sequence of values from an object.
 
