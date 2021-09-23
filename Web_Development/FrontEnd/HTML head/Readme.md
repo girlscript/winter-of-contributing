@@ -13,7 +13,7 @@ Complete guide about the HTML head tag and its subcontents.
 
 ## Index
 <!-- this is just an example -->
-- [HTML head](./html)
+- [HTML head]
 
 ## Learning path
 
