@@ -84,7 +84,7 @@ $ python3 detect_mask_video.py
 - We are going to convert all our images from with_mask and without_mask into arrays so that with those arrays we can create our deep learning model.
 - We then will create two list, "data" and "labels" inside the list we will append all the image array in that list and inside the labels list we will append the corresponding label to the image if it is with_mask or without_mask.
 - We then loop through each image in both the directories "with_mask" and "without_mask", and convert each image into size 224x224 pixels (uniformity) and then into an array (to train deep learning model).
-- Now we use mobelnets
+- Now we then use mobelnets
 - Then we append the image array into data list and their resptextive category in labels list.
 
 ```
