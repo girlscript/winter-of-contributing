@@ -281,3 +281,20 @@ As we can see here the violet colour represents setosa,green colour represents v
  colour represents virginica.
  
  ![picture](https://github.com/Robinrai2612/winter-of-contributing/blob/Data-Science-With-Python-Introduction-to-Unsupervised-Learning/Datascience_With_Python/Machine%20Learning/Tutorials/Introduction%20to%20Unsupervised%20Learning/images/project%20pic.png)
+ 
+# Conclusion:
+In conclusion,the unsupervised learning algorithms allow you to do more commplex processing tasks.Various types of unsupervised learning help in deploying new ideas and innovation in action and create an out of box experience.
+
+
+ 
+# Summary
+- Unsupervised learning is a machine learning technique, where you do not need to supervise the model.
+- Unsupervised machine learning helps you to finds all kind of unknown patterns in data.
+- Clustering and Association are two types of Unsupervised learning.
+- Four types of clustering methods are 1) Exclusive 2) Agglomerative 3) Overlapping 4) Probabilistic.
+- Important clustering types are: 1)Hierarchical clustering 2) K-means clustering 3) K-NN 4) Principal Component Analysis 5) Singular Value Decomposition 6) Independent Component  Analysis.
+- Association rules allow you to establish associations amongst data objects inside large databases.
+- In Unsupervised learning Algorithms are used against data which is not labelled.
+- Anomaly detection can discover important data points in your dataset which is useful for finding fraudulent transactions.
+- The biggest drawback of Unsupervised learning is that you cannot get precise information regarding data sorting.
+
