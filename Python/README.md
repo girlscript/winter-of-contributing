@@ -24,7 +24,7 @@
 - [What_is_Filter_in_python](./What_is_Filter_in_python)
 - [OOP-Class](./OOP-Class)
 - [Advanced_function_reduce()](./Advanced_function_reduce())]
-- [List_Comprehension](./List Comprehension)
+- [List_Comprehension](./List_Comprehension)
 
 ## Learning path
 1. Git & GitHub
