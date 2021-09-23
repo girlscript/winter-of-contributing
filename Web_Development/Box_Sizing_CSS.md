@@ -7,6 +7,7 @@ A box model is a rectangular box that wraps around every HTML element. It compri
 It’s worth mentioning again: Every element on a page is a rectangular box.
 
 ![image](https://user-images.githubusercontent.com/55577276/134489895-efbd21f8-1d41-4d92-bdc5-cdd47fc1bb67.png)
+
 *Figure 1*
 
 Let’s understand what each of these properties are:
@@ -45,9 +46,23 @@ Thus, in order to get the desired width and height as specified in the design fo
 
 In the snippet below, the actual width of the element is 300px, but since we assign border and padding to it, we manually recalculate the width as
 
+`my-div{
+  width: 250px;
+  border: solid 5px #82B366;
+  padding: 20px;
+}`
+
 width = 300–40(padding-right and padding-left)–10(border-right and border-left) or use the calc function.
+
 This makes the code less readable because, it doesn’t make it very obvious when we see that the assigned width is 250px, while the rendered width is 300px. Here comes the use case of applying the box-sizing property to an element.
+
 It could be possible that we may have increased values(width and height) when an element is rendered on the DOM if we do not recalculate the width and height of the element as in the above example. In the example below, we see that the total width rendered on the DOM is 350px(recalculation of the width isn’t done)
+
+`my-div{
+  width: 300px;
+  border: solid 5px #82B366;
+  padding: 20px;
+}`
 
 To overcome situations like these, we can make use of the CSS3 property “BOX-SIZING”.
 
@@ -62,6 +77,13 @@ Box-sizing property has the following syntax:
 By default it takes the value content-box.  
 
 When box-sizing: border box, property-value combination is used in an element, this tells the browser to render the width property as the actual rendered width. Modifying the previous code as follows:
+
+`my-div{
+  box-sizing: border-box;
+  width: 300px;
+  border: solid 5px #82B366;
+  padding: 20px;
+}`
 
 ![image](https://user-images.githubusercontent.com/55577276/134493069-39a3ba69-c2d5-41cf-8a31-3e973e6f3490.png)
 
