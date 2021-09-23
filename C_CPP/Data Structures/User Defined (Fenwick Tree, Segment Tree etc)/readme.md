@@ -1,2 +1,1 @@
-- [Binary Search Tree](Binary Search Tree)
-- [test](readme.md)
+- [Binary Search Tree](Binary%20Search%20Tree)
