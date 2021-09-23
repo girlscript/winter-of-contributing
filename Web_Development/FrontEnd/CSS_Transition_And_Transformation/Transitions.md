@@ -26,7 +26,7 @@ div:hover {
 }
 ```
 
-##Change Multiple Property Values
+## Change Multiple Property Values <br>
 The transition property is specified as one or more single-property transitions, separated by commas.
 
 ```css
@@ -34,7 +34,7 @@ div {
   transition: width 2s, height 4s;
 }
 ```
-##Selecting all properties
+## Selecting all properties <br>
 transition-property takes a special value: `all`. When all is specified, any CSS property that changes will be transitioned.
 
 ```css
@@ -43,7 +43,7 @@ transition: all 2s;
 }
 ```
 
-## Transition Timing function
+## Transition Timing function<br>
 The transition-timing-function property specifies the speed curve of the transition effect.
 The transition-timing-function property can have the following values:
 
