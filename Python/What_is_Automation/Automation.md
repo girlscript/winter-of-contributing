@@ -1,7 +1,7 @@
 ## WHAT IS AUTOMATION?
 In a simple word, automation is a process which make a task to operate automatically. Take me for an example, I have to always check if there is any new mail and for that
 I have to enter in all my Gmail account which is really tiring. 
-Sometimes, I skip it, resulting me to miss an important announcement. But if I have, say, a robot to check every 2/4 hours if there is any new mail, then Voila!!! Problem solved.
+Sometimes, I skip it, resulting me to miss an important announcement. But if I have, say, a robot to check every 2/4 hours if there is any new mail, then Bingo!!! Problem solved.
 But robot is a far-fetch thought. Why don't we think of something easiest and efficient to make?
 Let's say a script of Python which will execute every 2/4 hours to do our work. And that's what automation is. <br>
 <i><b>Doesn't it pique your interest?</b></i><br>
