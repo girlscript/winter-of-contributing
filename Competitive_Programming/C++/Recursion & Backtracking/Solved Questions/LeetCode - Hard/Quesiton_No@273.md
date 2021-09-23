@@ -1,0 +1,83 @@
+The code is written in C++
+Leetcode question : https://leetcode.com/problems/integer-to-english-words/
+Difficulty : Hard
+Type :Recursion
+
+class Solution {
+public:
+  vector <string> singles{"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
+  vector <string> tens{"And","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"};
+  vector <string> hundreds{"Zero","Ten","Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"};
+  vector <string> Billion{"Hundred","Thousand","Million","Billion"};
+
+  int Index;
+  string print(vector <string> vect)
+  {
+    string Answer;
+    for (int i = 0; i < vect.size(); i++)
+    {
+      Answer += vect[i];
+      if (i != (vect.size()-1))
+      {
+        Answer += " ";
+      }
+    }
+    return Answer;
+  }
+
+  string Helper (int num)
+  {
+    vector <string> answer;
+    if (num < 1000)
+    {
+      if (num/100 >0)
+      {
+        answer.push_back(singles[num/100]);
+        answer.push_back(Billion[0]);
+        if (num % 100 ==0)
+        {
+          return print(answer);
+        }
+      }
+      num %= 100;
+      if (num%10 == 0)
+      {
+            num /= 10;
+            answer.push_back(hundreds[num]);
+            return print(answer);
+      }
+      if (num/10 == 1)
+      {
+            answer.push_back(tens[num%10]);
+            return print(answer);
+      }
+      else
+      {
+        if (num/10 > 1)
+        {
+          answer.push_back(hundreds[num/10]);
+          num %= 10;
+        }
+        answer.push_back(singles[num]);
+        return print(answer);
+      }
+    }
+
+
+    int divido = num/pow(1000,Index);
+    int modulo = num%int(pow(1000,Index));
+    if (modulo == 0)
+      return Helper(divido) +" " + Billion[Index--];
+    else
+    {
+      return Helper(divido) +" " + Billion[Index--] + " " + Helper(modulo);
+    }
+
+  }
+
+    string numberToWords(int num)
+    {
+      Index= (to_string(num).size()-1)/3 ;
+      return Helper(num);
+    }
+};
