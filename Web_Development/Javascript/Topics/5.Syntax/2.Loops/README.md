@@ -117,6 +117,28 @@ The array sum is : 15
 >### ***Curious Corner :***
 >- Do not use ``for in`` over an array if the index **order** is important.
 >
+>***For Example :***
+>```js
+>var obj = {
+> "first":"first",
+> "2":"2",
+> "34":"34",
+> "1":"1",
+> "second":"second"
+>};
+>
+>for (let key in obj) {
+>  console.log("Index: "+key+" and its value is: "+obj[key]);
+>}
+>```
+>Output:
+>```
+>Index: 1 and its value is: 1
+>Index: 2 and its value is: 2
+>Index: 34 and its value is: 34
+>Index: first and its value is: first
+>Index: second and its value is: second
+>```
 >- It is better to use a ``for loop``, a ``for of`` loop, or ``Array.forEach()`` when the order is important.
 
 ### 3. For of Loop:
