@@ -1,4 +1,4 @@
-![npm](https://www.rigelnetworks.com/wp-content/uploads/2017/05/Dom-1.png)
+![VDOM](https://www.rigelnetworks.com/wp-content/uploads/2017/05/Dom-1.png)
 
 
 <h1 align="center"> Virtual DOM and Internals </h1>
@@ -10,6 +10,62 @@ The virtual DOM is a representation of the real DOM that is stored in memory. Po
 In other terms, the virtual DOM (VDOM) is a programming concept in which a memory-based ideal, or "virtual," representation of a user interface is maintained and synchronised with the "real" DOM using a library like ReactDOM. The phrase "reconciliation" refers to the entire procedure.
 
 This method makes it possible to use React's declarative API: You tell React what state you want the UI to be in, and it updates the DOM accordingly. This abstracts away the attribute manipulation, event handling, and manual DOM updates that you'd have to do otherwise to construct your app.
+
+<p>&nbsp;</p>
+
+## How Virtual DOM works ?
+As a result, when the virtual DOM is updated, react compares the virtual DOM to a snapshot of the virtual DOM obtained just before the update.
+
+With the assistance of this comparison, React determines which UI components require updating. Diffing is the term for this procedure. The diffing algorithm is the algorithm that is utilised in the diffing process.
+
+React replaces the old DOM nodes with the modified DOM nodes after it determines which components have been changed.
+
+Let's understand this with a Example.
+<p>&nbsp;</p>
+
+<strong>Initial DOM</strong>
+<p><img src="assets/../../../assets/Initial_DOM.jpg"></p>
+
+<p>&nbsp;</p>
+
+<strong>Updated DOM</strong>
+<p><img src="assets/../../../assets/Updated_DOM.jpg"></p>
+
+<p>&nbsp;</p>
+
+When the UI changes, react compares the new virtual DOM to the previous virtual DOM and notices that the content of the second `<div>` has changed, so it only updates the content of the second div in the actual DOM.
+
+This procedure is quick since just one node has to be changed, rather than the entire UI being repainted.
+
+But what happens if DOM components are added?
+
+<p><img src="assets/../../../assets/New_DOM_init.jpg"></p>
+
+<p>&nbsp;</p>
+
+Because just a node has been added to the second div in this case, React simply adds it to the real DOM.
+
+But wait, the element was added at the very end of the div.
+
+What if we add a top-level element?
+
+<p><img src="assets/../../../assets/New_DOM_nxt.jpg"></p>
+
+<p>&nbsp;</p>
+
+When compared to the pre-updated virtual DOM, the virtual DOM would repaint the entire second div since the first child in the second div was h1 and now it is h2, thus it doesn't simply add the new element, it replaces the entire div element.
+
+Imagine there are 1000s of hierarchical components inside the second div tag instead of simply two. It will re-render the tens of thousands of components that haven't changed.
+
+To resolve this problem, A key attribute is supported by React. React uses the keys to match children in the pre-updated virtual DOM when the children of React components have keys.
+
+Let's examine how these keys help us solve our difficulty in the case above.
+
+<p><img src="assets/../../../assets/Final_DOM_res.jpg"></p>
+
+<p>&nbsp;</p>
+
+In the second div, the react diffing algorithm now matches the component with the old key `asdda` and a new element with key `12dsa`. In this case, react just marks the new element, which is then added to the actual DOM. This eliminates the need for needless re-rendering of components that haven't changed.
 
 <p>&nbsp;</p>
 
