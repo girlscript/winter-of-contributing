@@ -5,15 +5,14 @@
   -->
 
 # Title (name of the topic)
+DSA
 
 # Description
-Small description of the topic 
+Largest Arithmetic Subarray 
 
 ## Index
 
 <!-- this is just an example -->
 
-- [HTML](./html)
-- [CSS](./css)
-- [JavaScript](./javascript)
+
 

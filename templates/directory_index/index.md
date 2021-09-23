@@ -5,19 +5,15 @@
   -->
 
 # Title (name of the field)
-
+Largest Arithmetic Subarray
 ## Index
 
 <!-- this is just an example -->
 
-- [HTML](./html)
-- [CSS](./css)
-- [JavaScript](./javascript)
-
+- DSA
 ## Learning path
 
 <!-- this is just an example -->
 
-1. HTML
-2. CSS
-3. JavaScript
+1. DSA
+
