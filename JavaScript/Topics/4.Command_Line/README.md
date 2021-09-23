@@ -13,6 +13,8 @@ Some JavaScript shells that are stand-alone environments are:
 
 ***Node.js*** is a popular JS runtime environment for creating web applications on server side, that is it allows us to run JS on the backend outside the browser. It comes with a lot of built-in modules and it enables us to run and test JS code very fast and efficiently mainly because of its asynchronous event run model running on Google V8 engine.<br>
 ![NodeJS]("https://github.com/TishaJhabak1014/winter-of-contributing/blob/Javascript/JavaScript/Topics/4.Command_Line/nodeimages.png")
+![3]("https://github.com/TishaJhabak1014/winter-of-contributing/blob/Javascript/JavaScript/Topics/4.Command_Line/img3.png")
+
 
 Run our first JS program as follows : <br>
 Having Node.js installed in our system, to run a stand-alone JS program in node.js, we follow steps as :<br>
@@ -28,7 +30,9 @@ Now, coming to ***NPM***, a popular package manager for JavaScript, can be used 
 We can also install and use Bootstrap, skeleton and other front-end frameworks via npm.
 
 Some popular NodeJs frameworks for web-applications are Express.JS, Feather.js, Meteor.js, Total.js, Socket.io, Nest.js, Hapi.js, Sails.js etc.<br>
+ 
 ![Frameworks]("https://github.com/TishaJhabak1014/winter-of-contributing/blob/Javascript/JavaScript/Topics/4.Command_Line/2.frameworks.jpg")
+ 
 <hr>
 Developing desktop applications can be full of challenges that make it difficult to approach, considering the hard parts for things like packaging, installation and managing updates but there's also the design of the application itself where we have to translate creativity across different operating systems. If we want to make use of native features like menus and notifications, that presents hurdles even for experienced developers, supporting multiple platforms.<br><br>
 What if we can combine the pervasiveness of web technology and the native experience of a desktop application, across the cross-platform versatility of the different web browser and wrap everything everything into a single package with all the advantages!<br><br>
