@@ -1,6 +1,5 @@
-# Transformation And Transitions:<r>
   
-## CSS Transforms:<br>
+# CSS Transforms:<br>
 By modifying the coordinate space, CSS transforms change the shape and position of the affected content without disrupting the normal document flow.
 CSS supports 2D and 3D transformations.
 
@@ -207,8 +206,7 @@ rotateX and rotateY will rotate an element in 3D space around those axises. rota
   perspective(value)
 ```
   
-  
-  
+
   
   
 
