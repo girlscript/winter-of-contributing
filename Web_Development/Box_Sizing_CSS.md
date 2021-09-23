@@ -29,9 +29,11 @@ The size of the box in figure 1 is determined as described below:
 
 
 ### Why do we need to use the box-sizing property?
+
 ![image](https://user-images.githubusercontent.com/55577276/134490961-fcef439d-4132-4185-be20-0b8949b8b199.png)
 
 *Figure 2*
+
 To understand Figure 2. better, let’s consider an example:  
 An element is assigned a width of 100px or a relative width of 40%, the element will have the exact width on the DOM, only if there is no padding or margin assigned to the element. If it does have a padding and/or border assigned to it then the actual values for the rendered element will be as follows:
 
@@ -48,21 +50,39 @@ This makes the code less readable because, it doesn’t make it very obvious whe
 It could be possible that we may have increased values(width and height) when an element is rendered on the DOM if we do not recalculate the width and height of the element as in the above example. In the example below, we see that the total width rendered on the DOM is 350px(recalculation of the width isn’t done)
 
 To overcome situations like these, we can make use of the CSS3 property “BOX-SIZING”.
-What is box-sizing?
+
+### What is box-sizing?
+
 The box-sizing property tells the browser what the sizing properties (width and height) should include.
-Box-sizing property has the following syntax:
-Box-sizing: content-box|border-box|padding-box|initial|inherit;
-By default it takes the value content-box.
+
+Box-sizing property has the following syntax:   
+
+> Box-sizing: content-box|border-box|padding-box|initial|inherit;
+
+By default it takes the value content-box.  
+
 When box-sizing: border box, property-value combination is used in an element, this tells the browser to render the width property as the actual rendered width. Modifying the previous code as follows:
 
+![image](https://user-images.githubusercontent.com/55577276/134493069-39a3ba69-c2d5-41cf-8a31-3e973e6f3490.png)
 
-Figure 3: Difference in the rendered width by using box-sizing property
+*Figure 3: Difference in the rendered width by using box-sizing property*
+
 Here, the padding or border will not be applied to the rendered width. Instead, this property-value pair will automatically subtract the space available within the content-area(refer figure 2) of the element.
 Below is a codepen demonstrating an example of an element with and without the box-sizing property.
 
 To have a more natural and intuitive approach for a layout, most web designers and developers commend the usage of box-sizing property.
-Universal box-sizing:
+Universal box-sizing:  
 
-Vendor-prefixes for box-sizing:
+`*, *:before, *:after{  
+  box-sizing: border-box;  
+}`
+
+Vendor-prefixes for box-sizing:  
+`*{ 
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+}`
+
 
 Use these vendor prefixes to support box-sizing on different browsers and this property is IE8+ enabled.
