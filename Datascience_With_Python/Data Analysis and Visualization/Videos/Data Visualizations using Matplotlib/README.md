@@ -1,4 +1,7 @@
 # Data Visualizations with Matplotlib
+
+**Video link:** [Data Visualizations with Matplotlib](https://vimeo.com/612732219)
+
 Data visualization refers to the representation of data or information in charts, graphs, maps or other visual formats. The resulting visual representation of data makes it easier to identify and share real-time trends, outliers, and new insights about the information represented in the data.  Here, I am attempting to make sure that you understand the most basic and simple library used for data visualization - Matplotlib. 
 
 ## What is Matplotlib
