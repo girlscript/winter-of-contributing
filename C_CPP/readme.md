@@ -1,47 +1,61 @@
-# Topics in the C++ language
+<table>
+  <tr>
+    <td>
+      <div><img src="GWOC_logo_spin.gif" height="100px" width=auto/></div>
+    </td>
+    <td>
+      <h1> GirlScript Winter of Contributing </h1>
+      <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103">
+      <a href="../LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
+      <a href="../.github/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"/></a> 
+      <a href="../.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-green.svg"/></a> </div>
+    </td>
+  </tr>
+</table>
 
-### [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
-### [Introduction of C](Introduction%20of%20C/)
-### [Programming components, Structure & Keyword](Programming%20components%2C%20Structure%20%26%20Keyword/)
-### [Operators & Expressions](Operators%20%26%20Expressions/)
-### [Input & Output Operations](Input%20%26%20Output%20Operations/)
-### [Decision Making & Branching Structure](Decision%20Making%20%26%20Branching%20Structure/)
-### [Looping Control Structure/Statements](Looping%20Control%20Structure%20or%20Statements/)
-### [Break/Continue](Break%20or%20Continue/) 
-### [Static scoping & Dynamic Scoping](Static%20scoping%20%26%20Dynamic%20Scoping/)
-### [Functions & Recursion and its types](Functions%20%26%20Recursion%20and%20its%20types/)
-### [Arrays](Arrays/)
-### [Strings and their functions](Strings%20and%20their%20functions/)
-### [Pointer and its types](Pointer%20and%20its%20types/)
-### [Dynamic Memory allocation](Dynamic%20Memory%20allocation/)
-### [Structure padding, Union, Enum, & typedef](Structure%20padding%2C%20Union%2C%20Enum%2C%20%26%20typedef/)
-### [File Management / Handling](File%20Management%20or%20Handling/)
-### [Install C++ on different OS](Install%20C%2B%2B%20on%20different%20OS/) 
-### [Introduction of OOPs in C++](Introduction%20of%20OOPs%20in%20C%2B%2B/)
-### [Classes & Objects Programming](Classes%20%26%20Objects%20Programming/)
-### [Constructor & Destructor](Constructor%20%26%20Destructor/) 
-### [Virtual Functions, Friend Functions & Friend Classes](Virtual%20Functions%2C%20Friend%20Functions%20%26%20Friend%20Classes/) 
-### [Polymorphism / Overloading](Polymorphism%20or%20Overloading/)
-### [Inheritance and its types / Function overriding](Inheritance%20and%20its%20types%20or%20Function%20overriding/)
-### [Encapsulation](Encapsulation/)
-### [Operator Overloadin](Operator%20Overloading/) 
-### [Advance C++ OOPs programming](Advance%20C%2B%2B%20OOPs%20programming/)
-### [Templates & Libraries](Templates%20%26%20Libraries/)
-### [Exception Handling](Exception%20Handling/)
-### [File Handling & IO Management](File%20Handling%20%26%20IO%20Management/)
-### [Number System i.e Binary, Octal, Decimal, HexaDecimal etc](Number%20System%20i.e%20Binary%2C%20Octal%2C%20Decimal%2C%20HexaDecimal%20etc/)
-### [Data Structures](Data%20Structures/)
+##  :world_map: [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
+# Topics in the C++ language &nbsp;&nbsp;&nbsp;&nbsp; ![C](https://img.shields.io/badge/C-black?style=for-the-badge&logo=c&labelColor=black&color=404040) &nbsp;&nbsp; ![C++](https://img.shields.io/badge/CPP-blue?style=for-the-badge&logo=cplusplus&labelColor=006199)
+
+- ### [Introduction of C](Introduction%20of%20C/)
+- ### [Programming components, Structure & Keyword](Programming%20components%2C%20Structure%20%26%20Keyword/)
+- ### [Operators & Expressions](Operators%20%26%20Expressions/)
+- ### [Input & Output Operations](Input%20%26%20Output%20Operations/)
+- ### [Decision Making & Branching Structure](Decision%20Making%20%26%20Branching%20Structure/)
+- ### [Looping Control Structure/Statements](Looping%20Control%20Structure%20or%20Statements/)
+- ### [Break/Continue](Break%20or%20Continue/) 
+- ### [Static scoping & Dynamic Scoping](Static%20scoping%20%26%20Dynamic%20Scoping/)
+- ### [Functions & Recursion and its types](Functions%20%26%20Recursion%20and%20its%20types/)
+- ### [Arrays](Arrays/)
+- ### [Strings and their functions](Strings%20and%20their%20functions/)
+- ### [Pointer and its types](Pointer%20and%20its%20types/)
+- ### [Procedural Structures](Procedural%20Structures/)
+- ### [Dynamic Memory allocation](Dynamic%20Memory%20allocation/)
+- ### [Structure padding, Union, Enum, & typedef](Structure%20padding%2C%20Union%2C%20Enum%2C%20%26%20typedef/)
+- ### [File Management / Handling](File%20Management%20or%20Handling/)
+- ### [Install C++ on different OS](Install%20C%2B%2B%20on%20different%20OS/) 
+- ### [Introduction of OOPs in C++](Introduction%20of%20OOPs%20in%20C%2B%2B/)
+- ### [Classes & Objects Programming](Classes%20%26%20Objects%20Programming/)
+- ### [Constructor & Destructor](Constructor%20%26%20Destructor/) 
+- ### [Virtual Functions, Friend Functions & Friend Classes](Virtual%20Functions%2C%20Friend%20Functions%20%26%20Friend%20Classes/) 
+- ### [Polymorphism / Overloading](Polymorphism%20or%20Overloading/)
+- ### [Inheritance and its types / Function overriding](Inheritance%20and%20its%20types%20or%20Function%20overriding/)
+- ### [Encapsulation](Encapsulation/)
+- ### [Operator Overloadin](Operator%20Overloading/) 
+- ### [Advance C++ OOPs programming](Advance%20C%2B%2B%20OOPs%20programming/)
+- ### [Templates & Libraries](Templates%20%26%20Libraries/)
+- ### [Exception Handling](Exception%20Handling/)
+- ### [File Handling & IO Management](File%20Handling%20%26%20IO%20Management/)
+- ### [Number System i.e Binary, Octal, Decimal, HexaDecimal etc](Number%20System%20i.e%20Binary%2C%20Octal%2C%20Decimal%2C%20HexaDecimal%20etc/)
+- ### [Data Structures](Data%20Structures/)
 
   - [Standard Template Library (Vectors, Maps etc)](Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc)/)
   - [User Defined (Fenwick Tree, Segment Tree etc)](Data%20Structures/User%20Defined%20(Fenwick%20Tree%2C%20Segment%20Tree%20etc)/)
   
-### [Operating System Concepts (Scheduling, Memory management, etc)](Operating%20System%20Concepts%20(Scheduling%2C%20Memory%20management%2C%20etc)/)
-### [Competitive Programming](Competitive%20Programming/)
-### [Algorithmic Approaches(Greedy, Dynamic, Branch & Bound, NP-completeness etc)](Algorithmic%20Approaches(Greedy%2C%20Dynamic%2C%20Branch%20%26%20Bound%2C%20NP-completeness%20etc)/)
-### [OpenGL using C++ (3D,2D graphics using C++)](OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)/)
-### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
-### [Juice Framework with C++](Juice%20Framework%20with%20C%2B%2B/)
-### [C++ 14](C%2B%2B%2014/)
-### [C++ 17](C%2B%2B%201/)
-
-### Break and Continue statements used in C/CPP
+- ### [Operating System Concepts (Scheduling, Memory management, etc)](Operating%20System%20Concepts%20(Scheduling%2C%20Memory%20management%2C%20etc)/)
+- ### [Competitive Programming](Competitive%20Programming/)
+- ### [Algorithmic Approaches(Greedy, Dynamic, Branch & Bound, NP-completeness etc)](Algorithmic%20Approaches(Greedy%2C%20Dynamic%2C%20Branch%20%26%20Bound%2C%20NP-completeness%20etc)/)
+- ### [OpenGL using C++ (3D,2D graphics using C++)](OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)/)
+- ### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
+- ### [Juice Framework with C++](Juice%20Framework%20with%20C%2B%2B/)
+- ### [C++ 14](C%2B%2B%2014/)
+- ### [C++ 17](C%2B%2B%2017/)
