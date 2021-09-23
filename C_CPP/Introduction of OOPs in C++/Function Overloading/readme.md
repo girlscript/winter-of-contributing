@@ -9,15 +9,15 @@
 # Description
 I have added my own documentation explaining function overloading in C++
 
-#Type of change 📝
+# Type of change 📝
 Documentation 
 
-#Domain of Contribution 📊
+# Domain of Contribution 📊
 C/CPP
 
-#Checklist ✅
--I follow Contributing Guidelines & Code of conduct of this project.
--I have performed a self-review of my own code or work.
--I have commented on my code, particularly in hard-to-understand areas.
--My changes generates no new warnings.
--I'm GWOC'21 contributor
+# Checklist ✅
+- I follow Contributing Guidelines & Code of conduct of this project.
+- I have performed a self-review of my own code or work.
+- I have commented on my code, particularly in hard-to-understand areas.
+- My changes generates no new warnings.
+- I'm GWOC'21 contributor
