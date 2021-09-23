@@ -36,7 +36,10 @@ Uncaught TypeError: Assignment to constant variable.
 ```
 <p>&nbsp;</p>
 
-### 2. ***The Spread Operator*** : - It is denoted by ... .It is used to expand iterable objects into multiple elements and also to combine multiple arrays into one array
+### 2. ***Three dots(...) feature*** : - This new feature of ES6 can be used as Spread Operator or Rest Parameter. Both of these are denoted by `...`
+
+
+- a) **The Spread Operator** : - It is used to expand iterable objects into multiple elements and also to combine multiple arrays into one array.
  ```jsx
 const github = ["fork", "clone", "star"];
 const pr = ["pull","commit", "push"];
@@ -48,6 +51,25 @@ console.log(combine);
 //output
 fork clone star
 ['fork', 'clone', 'star', 'pull', 'commit', 'push']
+```
+
+<p>&nbsp;</p>
+
+- b) **The Rest Parameter** : - It is used to represent any number of arguments into an array so that a function can be called with indefinite number of arguments. The rest parameter has to be the last argument because it  collects all of the remaining elements into an array.
+
+ ```jsx
+function opensource(msg1, msg2,...restMsgs) {  
+  let finalmsg = msg1 + msg2;
+  for (let i of restMsgs) {  
+      finalmsg += i;  
+  }  
+  console.log(finalmsg);  
+}  
+  
+opensource("I am", " Contributing in", " Girlscript", " Winter Of", " Code 2021");  
+
+//output
+I am Contributing in Girlscript Winter Of Code 2021
 ```
 
 <p>&nbsp;</p>
@@ -99,7 +121,9 @@ console.log(opensource('GSSoC')); // GSSoC 2021
 ```
 <p>&nbsp;</p>
 
-### 6. ***Extracting data from an array***
+### 6. ***Destructing***
+
+- a)**Extracting data from an array**
 
 ```jsx
 // ES5
@@ -127,7 +151,7 @@ console.log(a, b, c);
 ```
 <p>&nbsp;</p>
 
-### 7. ***Extracting data from a object***
+- b)**Extracting data from a object**
 
 ```jsx
 // ES5
@@ -160,7 +184,7 @@ opensource 2021
 ```
 <p>&nbsp;</p>
 
-### 8. ***Initialising Objects*** 
+### 7. ***Initialising Objects*** 
 
 ```jsx
 // ES5
