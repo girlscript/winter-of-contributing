@@ -30,4 +30,66 @@ To make the same logic work in O(1) time complexity,we use range update queries 
 
 ![alt_txt](https://github.com/Ayushi2811/Project-on-Data-structure/blob/master/Screenshot%202021-09-23%20163652.jpg)
 
+The best application of difference arrays is observed in range update queries code which is explained as follow:
+
+```
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cout<<"Enter size of array: ";
+    cin>>n;
+    int a[n];
+    cout<<"Enter array elements: ";
+    //inserting orignal array from the user:-
+    for(int i=0;i<n;i++)
+    cin>>a[i];
+//initialising differnce array 'd' with zeroes in all places:-
+    int d[n]={0};
+    //creating differnce array:-
+    for(int i=0;i<n;i++)
+    {
+        if(i==0)
+            d[i]=a[i];
+        else
+        {
+            d[i]=a[i]-a[i-1];
+        }
+    }
+
+    int l;
+    int r ;
+    int value;
+    //inserting the range and the value ehre we need to do the desired changes:-
+    cout<<"Enter left,right,value: ";
+    cin>>l>>r>>value;
+    //updating the queries with value:-
+    d[l] = d[l]+value;
+    d[r+1] = d[r+1] - value;
+    
+    // find the prefix sum array of difference array
+cout<<"Result: ";
+   for(int i=0;i<n;i++)
+  {
+        if(i==0)
+        {a[i]=d[i]; cout<<a[i]<<" ";}
+        else
+        {
+            a[i]=d[i]+d[i-1];
+            d[i]=d[i]+d[i-1];
+            cout<<a[i]<<" ";
+     }
+     //we got the desired result:-
+
+  }
+  cout<<endl;
+  return 0;
+}
+    
+```
+
+## Output
+![alt_txt](https://github.com/Ayushi2811/Project-on-Data-structure/blob/master/Screenshot%202021-09-23%20110450.jpg)
+
 
