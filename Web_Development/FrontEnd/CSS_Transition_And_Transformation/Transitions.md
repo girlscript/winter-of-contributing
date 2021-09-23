@@ -45,13 +45,13 @@ transition: all 2s;
 
 ## Transition Timing function<br>
 The transition-timing-function property specifies the speed curve of the transition effect.
-The transition-timing-function property can have the following values:
+This property can have the following values:
 
-* ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
-* linear - specifies a transition effect with the same speed from start to end
-* ease-in - specifies a transition effect with a slow start
-* ease-out - specifies a transition effect with a slow end
-* ease-in-out - specifies a transition effect with a slow start and end
+* ease -Transition effect with a slow start, then fast, and then ends slowly (default)
+* linear - Transition effect with same speed from start to end
+* ease-in - Transition effect with slow start
+* ease-out - Transition effect with slow end
+* ease-in-out - Transition effect with slow start and end
 * cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
 
 
