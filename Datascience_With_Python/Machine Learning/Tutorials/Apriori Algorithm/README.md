@@ -18,6 +18,8 @@ Apriori algorithm discovers relation between different items in a dataset.It che
 There are a few terms that we have to be familiar with before proceeding to understand the algorithm.They are listed here:<br>
 1.Support - Suppose the support percentage of item x and y is given as 2%, it means that in 2% of the total transactions x and y were bought together. <br>
 2.Confidence - Suppose the confidence percentage of items x and y is given to be 60%, then it means that about 60% customers who bought x as well as y.<br>
+Both these quantities can be calculated as follows<br>![image1](https://www.softwaretestinghelp.com/wp-content/qa/uploads/2019/09/Support-and-Confidence-for-Itemset-A-and-B.png)
+
 3.Join - The join step find all the occurances of a k-itemset in every iteration<br>
 4.Prune - This step scans the count of each item in the database. If the candidate item does not meet minimum support, then it is regarded as infrequent and thus it is removed.<br>
 
@@ -33,6 +35,6 @@ There are a few terms that we have to be familiar with before proceeding to unde
 #5 This process goes on with increasing number of k in k-itmesets until the most frequent itemset is achieved.
 
 Let us understand this by the following example.<br>
-![image1](https://www.softwaretestinghelp.com/wp-content/qa/uploads/2019/09/Support-and-Confidence-for-Itemset-A-and-B.png)
+![image2]
 
 
