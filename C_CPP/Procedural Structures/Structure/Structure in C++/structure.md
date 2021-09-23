@@ -6,7 +6,10 @@ It is also similar to a Class, as a Class also store different data types in it.
 </p>
 <br>
 
-![Structure](https://github.com/ankushsingh24/winter-of-contributing/blob/C_CPP/C_CPP/Procedural%20Structures/Structure/Diagram/structure-in-cpp.png)
+<!-- ![Structure](https://github.com/ankushsingh24/winter-of-contributing/blob/C_CPP/C_CPP/Procedural%20Structures/Structure/Diagram/structure-in-cpp.png) -->
+
+<img width="600" alt="structure" src="https://user-images.githubusercontent.com/83535682/134462533-e6bdf4d0-71db-47c9-b6f2-ca27d8dbd290.png">
+
 
 <br>
 
