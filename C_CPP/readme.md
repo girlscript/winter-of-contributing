@@ -1,4 +1,17 @@
-# GirlScript Winter of Contributing <br/> ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](.github/CODE_OF_CONDUCT.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](.github/CONTRIBUTING.md) 
+<table>
+  <tr>
+    <td>
+      <div><img src="GWOC_logo_spin.gif" height="100px" width=auto/></div>
+    </td>
+    <td>
+      <h1> GirlScript Winter of Contributing </h1>
+      <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103">
+      <a href="../LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
+      <a href="../.github/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"/></a> 
+      <a href="../.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-green.svg"/></a> </div>
+    </td>
+  </tr>
+</table>
 
 
 ##  :world_map: [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
