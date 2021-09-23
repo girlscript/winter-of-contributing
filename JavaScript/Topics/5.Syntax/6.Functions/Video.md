@@ -31,13 +31,11 @@ if (true) {
     const a = 2;
 }
 ```
+
+```
 console.log(a); //ReferenceError
-
-Because (**if**) block creates a scope for `a` and `a` can be used within that scope only.
-
-You are free to access the variable within its scope , but a variable cannot
-
-be accessed outside its scope.
+```
+Because (**if**) block creates a scope for `a` and `a` can be used within that scope only. You are free to access the variable within its scope , but a variable cannot  be accessed outside its scope.
 
 <hr>
 
