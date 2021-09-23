@@ -1,4 +1,4 @@
-<h1 align="left">Datascience with Python: Getting started with Linear Algebra #438</h1>
+<h1 align="left">Getting started with Linear Algebra</h1>
 
 ## Index
 # What is Linear Algebra?
