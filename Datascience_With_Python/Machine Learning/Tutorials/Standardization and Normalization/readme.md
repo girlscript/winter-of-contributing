@@ -11,7 +11,6 @@ So let's start the learning and below is the Index for Topic Contents we are goi
 | [What is Normalization?](#what-is-normalization)                                   |
 | [What is Standardization?](#what-is-standardization)                               |
 | [Standardization vs Normalization](#standardization-vs-normalization)                               |
-| [Implementing Feature Scaling in Python](#implementing-feature-scaling-in-python)  |
 | [Normalization and Standardization using Sklearn library](#normalization-and-standardization-using-sklearn-library)        |
 
 ## Feature Scaling?
