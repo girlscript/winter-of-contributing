@@ -31,7 +31,6 @@
 4. if you see this following output then Congratulations !! you have successfully installed PHP on your machine.
 
 ![localhost.png](localhost.PNG)
-<br/>
 
 ## Contributor
 [![vasu-1](https://contrib.rocks/image?repo=vasu-1/vasu-1)](https://github.com/vasu-1)
