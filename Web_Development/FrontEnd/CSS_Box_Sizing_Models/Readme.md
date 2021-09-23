@@ -1,5 +1,5 @@
 # Box_Sizing_CSS
-This is my first contribution as Open Source and here I will be expalining in detail about the various CSS Box Sizing Types.  
+This is my first contribution as Open Source (thanks to GWOC) and here I will be expalining in detail about the various CSS Box Sizing Types.  
 
 Before we proceed any further first of all we need to know what a box model is.
 
