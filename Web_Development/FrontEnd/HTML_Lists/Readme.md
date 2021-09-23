@@ -1,6 +1,6 @@
 # **HTML LISTS**
 <div align="center">
-<img  width="70%" height="70%" src="https://designzonic.com/knowledge-base/wp-content/uploads/2019/05/Beyond-bland_HTML-lists-with-style.png"/>
+<img src="https://designzonic.com/knowledge-base/wp-content/uploads/2019/05/Beyond-bland_HTML-lists-with-style.png"/>
 
 *Image source : https://designzonic.com/knowledge-base/category/html/*
 </div>
