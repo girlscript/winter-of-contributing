@@ -14,6 +14,12 @@
    - **1.5. Probability Distributions (Gaussian, Standard, Poisson)**
    - **1.6. Maximum Likelyhood Estimation**
    - **1.7. Parzen Windows**
+   - **1.8. A/B Testing**
+   - **1.9. Hypothesis Testing**
+   - **1.10. P-Value**
+   - **1.11. Skewness**
+   - **1.12. Confusion Matrix**
+   - **1.13. Types of distribution**
 
 ### :yellow_circle: *Week 2 [Supervised Machine Learning (Classic Algorithms)]* :
    - **2.1. What is Learning? Why Machine Learning works?**
@@ -23,6 +29,10 @@
    - **2.5. Implementing Linear Regression with Logistic Regression**
    - **2.6. K-Nearest Neighbour Algorithms**
    - **2.7. Decision Trees**
+   - **2.8. Implement kNN+DT**
+   - **2.9. Support Vector Machines**
+   - **2.10. Naive Bayes**
+   - **2.11. Implement SVMs+NBs**
 
 *N.B.: Upcoming roadmap will be published as the program goes!*
 
@@ -34,10 +44,13 @@
 <td align="center"><a href="https://github.com/abhisheks008"><img src="https://avatars.githubusercontent.com/u/68724349?v=4" width="80px;" alt=""/><br /><sub><b>Abhishek S (B1)</b></sub></a></td>
 <td align="center"><a href="https://github.com/raina-akshay"><img src="https://avatars.githubusercontent.com/u/65475383?v=4" width="80px;" alt=""/><br /><sub><b>Akshay Raina (B2)</b></sub></a></td>
 <td align="center"><a href="https://github.com/isha307"><img src="https://avatars.githubusercontent.com/u/56998032?v=4" width="80px;" alt=""/><br /><sub><b>Isha Shaw (B3)</b></sub></a></td>
-<td align="center"><a href="https://github.com/k-sashank"><img src="https://avatars.githubusercontent.com/u/42696167?v=4" width="80px;" alt=""/><br /><sub><b>Madipally Sai Krishna Sashank (B4)</b></sub></a></td>
+<td align="center"><a href="https://github.com/k-sashank"><img src="https://avatars.githubusercontent.com/u/42696167?v=4" width="80px;" alt=""/><br /><sub><b>K Sashank (B4)</b></sub></a></td>
 <td align="center"><a href="https://github.com/geeythree"><img src="https://avatars.githubusercontent.com/u/30996989?v=4" width="80px;" alt=""/><br /><sub><b>Gayathri S</b></sub></a></td>    
+<td align="center"><a href="https://github.com/darpankhanna"><img src="https://avatars.githubusercontent.com/u/72389408?v=4" width="80px;" alt=""/><br /><sub><b>Darpan K</b></sub></a></td> 
+<td align="center"><a href="https://github.com/kshitijshrivastava1903"><img src="https://avatars.githubusercontent.com/u/62825399?v=4" width="80px;" alt=""/><br /><sub><b>Kshitij S (B6)</b></sub></a></td>           
 </tr>
    </table>
+
 
 ### Happy Contributions!
 
