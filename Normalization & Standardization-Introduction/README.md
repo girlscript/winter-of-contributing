@@ -51,8 +51,16 @@ It’s useful when there are a few outliers, but not so extreme that you need cl
 #### Will these methods improve data?
 It is hard to know whether rescaling your data will improve the performance of your algorithms before you apply them. If often can, but not always.
 
+### Applications of Data Scaling
+It is compulsory for data to be normalized and scaled before making predictions, because the data range can be randomly distributed and for more clear data, it has to be scaled for a certain range.
+
+### Advantages of Data Scaling&Normalization
+ a) Machine learning algorithms required scaled data for good outputs.
+ b) Data can be more easy to predict
+ c) Training the data can be done faster
+
 A good tip is to create rescaled copies of your dataset and race them against each other using your test harness and a handful of algorithms you want to spot check. 
 This can quickly highlight the benefits (or lack there of) of rescaling your data with given models, and which rescaling method may be worthy of further investigation.
 
-
+Here is the audio clip of what is normalization,scaling,types and some tips on scaling the data. Good luck :)
 https://drive.google.com/file/d/1r5DVECjTEzpmpEU3XVb4PXSZzVFUuiq2/view?usp=sharing
