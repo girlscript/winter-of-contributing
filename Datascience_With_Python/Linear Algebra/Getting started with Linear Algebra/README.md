@@ -1,6 +1,9 @@
 <h1 align="left">Getting started with Linear Algebra</h1>
 
-# What is Linear Algebra?
+## Aim:
+To give a brief introduction on what is Linear Algebra, some of its important topics ,basic examples and code snipets for simple calculation using numpy library.
+
+## What is Linear Algebra?
 <h3>A branch of mathematics dealing with linear equations.</h3>
 </br>
 
@@ -19,6 +22,12 @@
           2.4 TRANSPOSE MATRIX
           2.5 INVERSE OF A MATRIX
 >**3. EIGEN VECTORS AND VALUES**
+
+## Applications:
+   1. Plays a major role in managing and simplifing the huge datasets required for datascience.
+   2. Linear regression can be easily found with the help of Linear algebra.
+   3. Natural Language Processing also requires Linear algebra for managing the hugwe amount of words.
+   4. Linear Algebra has a importance in Computer Vision for image processing techniques.
 
 ## Conclusion:
 **Linear Algebra is an integral part of datascience. It helps in simplifing and understanding a dataset
