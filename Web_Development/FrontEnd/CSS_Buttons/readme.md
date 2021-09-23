@@ -15,25 +15,25 @@
 
   <h2>Colored Buttons:</h2>
   In most systems, default color of button is blue. Use the “background-colour” property to change the background colour of a button.
-  Syntax:
-  '''
-  .button1 {background-colour: #4CAF50;} /* Green */
-  .button2 {background-colour: #008CBA;} /* Blue */
-  '''
+  <br></br>Syntax:
+   <br></br>'''
+   <br></br>.button1 {background-colour: #4CAF50;} /* Green */
+   <br></br>.button2 {background-colour: #008CBA;} /* Blue */
+   <br></br>'''
 
   <h2>Big Buttons</h2> 
   Use the “font-size” property to change the font size of a button.
-  Syntax:
-  '''
-  .button {font-size: 16px;}
-  '''
+   <br></br>Syntax:
+   <br></br>'''
+   <br></br>.button {font-size: 16px;}
+   <br></br>'''
 
   <h2>Padded Buttons:</h2>
   Use the “padding” property to change the padding of a button.
-  Syntax:
-  '''
-  .button {padding: 10px 24px;}
-  '''
+  <br></br> Syntax:
+  <br></br> '''
+  <br></br> .button {padding: 10px 24px;}
+  <br></br> '''
 
   <h2>Curvy Buttons:</h2>
   Use the “border-radius” property to add rounded corners to a button.
