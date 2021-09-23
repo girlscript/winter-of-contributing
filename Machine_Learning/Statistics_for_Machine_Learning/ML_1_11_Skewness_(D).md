@@ -28,7 +28,7 @@ In left skew mean < median < mode.
 
 - Skewness is a measure that helps to understand the distribution of data points. 
 - It helps to identify outliers and noise data points.  
-- It finds the in which direction do outliers or noise occur.
+- It finds the direction in which outliers or noise occur.
 - It also helps to roughly understand the frequencies of each data point.
 
 **Disadvantages of skewness:**
