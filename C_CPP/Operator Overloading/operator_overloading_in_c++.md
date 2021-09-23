@@ -1,4 +1,4 @@
-**Operator Overloading**
+#Operator Overloading
 
 The utility of operators( +,  -, *, /, and so on) are predefined in any programming language. The programmers can directly use these operators on built-in data types. But these operators do not work for user-defined types(objects).To enable C++'s operator to work with class objects, C++ allows programmers to provide their own definition for an operator(to extend the meaning of existing operators)by overloading the built-in operator. This feature is called operator overloading.
 
@@ -23,9 +23,10 @@ The utility of operators( +,  -, *, /, and so on) are predefined in any programm
 - Through member function
 - Through friend function(non-member function)
 
-```c
+
 **Code for operator overloading implemented using member function**
 
+```c
 /*Add two arrays using operator overloading implemented through member function*/
 
 #include <iostream>
@@ -39,10 +40,10 @@ int arr[5];
 int sizeArr;
 
 public:
-AddArray();                     //defaut constructor
-AddArray(int);                  //paremeterized constructor
+AddArray();                     //default constructor
+AddArray(int);                  //parameterized constructor
 void display();                 //function for displaying the elements of an array
-AddArray operator+(AddArray &); //member function to overload + operator
+AddArray operator+(AddArray &); //member function to overload +operator
 };
 
 AddArray::AddArray()
@@ -118,9 +119,10 @@ Displaying the elements of the array :
 90 99 78 120 187
 ```
 
-```c
+
 **Code for operator overloading implemented using non-member function**
 
+```c
 /*Add two arrays using operator overloading implemented through non-member (friend) function*/
 
 #include <iostream>
@@ -134,8 +136,8 @@ private:
     int sizeArr;
 
 public:
-    AddArray();                     //defaut constructor
-    AddArray(int);                  //paremeterized constructor
+    AddArray();                     //default constructor
+    AddArray(int);                  //parameterized constructor
     void display();                 //function for displaying the elements of an array
     friend AddArray operator+(AddArray ,AddArray ); //non-member function to overload + operator
 };
