@@ -18,7 +18,7 @@ In Java, there are ```two categories``` of data types -
 
 </p><br>
 
-<h2 align="center"><em><u>Types of Integers -</u></em></h2>
+<h2 align="center"><em><u>Types of Integers</u></em></h2>
 
 <p>
 
@@ -209,11 +209,9 @@ Data type of 'Byte' class --> byte
 
 Since ```byte``` is the <em>```smallest sized integer type```</em>, so it can be used to <em>```save memory```</em> while working with ```larger sized arrays```. Also, it can be used in place of other ```integer``` types if the data is in the range of ```-128 to 127```, that is, within the range of ```byte``` type to save memory.
 
-</p><hr><br>
+</p><hr>
 
-
-
-
+[`↑Back to Top`](#Types-of-Integers)<br>
 
 <h2 align="center"><em><u>Short Type</u></em></h2>
 
@@ -375,10 +373,9 @@ Data type of 'Short' class --> short
 
 Since ```short``` data type is still smaller type than two other ```Integer``` types, they can also be used to save memory just like ```byte``` data type.
 
-</p><hr><br>
+</p><hr>
 
-
-
+[`↑Back to Top`](#Types-of-Integers)<br>
 
 
 <h2 align="center"><em><u>Int Type</u></em></h2>
@@ -541,10 +538,9 @@ Size of int in bits --> 32
 Size of int in bytes --> 4
 Data type of 'Integer' class --> int
 ```
-</p><hr><br>
+</p><hr>
 
-
-
+[`↑Back to Top`](#Types-of-Integers)<br>
 
 
 <h2 align="center"><em><u>Long Type</u></em></h2>
@@ -845,10 +841,9 @@ Size of long in bits --> 64
 Size of long in bytes --> 8
 Data type of 'Long' class --> long
 ```
-</p><hr><br><hr>
+</p><hr>
 
-
-
+[`↑Back to Top`](#Types-of-Integers)<br><hr>
 
 
 <h2 align="center"><em><u>
@@ -909,4 +904,6 @@ b = s;  // Incorrect assignment, since 'byte' is smaller than 'short'
 
 ````
 
-<br></p>
+<br></p><hr>
+
+[`↑Back to Top`](#Types-of-Integers)
