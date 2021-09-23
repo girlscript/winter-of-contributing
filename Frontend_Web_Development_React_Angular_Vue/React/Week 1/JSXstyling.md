@@ -18,7 +18,7 @@
 
 <u><h3>Example</h3></u> <br/>
 
-```javascript:
+```javascript
 import React from 'react';
 
 export default function App() {
@@ -41,7 +41,7 @@ return (
 <u><h3>Example</h3></u>
 <br/>
 
-```javascript:
+```javascript
 import React from "react";
 
 export default function App() {
@@ -66,7 +66,7 @@ const xyz={ color: "green", fontSize: "3rem" }
 <br/>
 <br/>
 
-```css:
+```css
 /* styles.css file */
 .header {
 color: green;
@@ -76,7 +76,7 @@ font-size: 3rem;
 
 <b>App.js File</b> <br/> <br/>
 
-```javascript:
+```javascript
 import React from "react";
 import './styles.css';
 export default function App() {
@@ -111,7 +111,7 @@ export default function App() {
 <br/>
 <br/>
 
-```css:
+```css
 /*styles.css file*/
 .err {
   color: red;
@@ -124,7 +124,7 @@ export default function App() {
 <br/>
 <br/>
 
-```css:
+```css
 /* Button.module.css */
 .err {
   background-color: red;
@@ -138,7 +138,7 @@ export default function App() {
 <br/>
 <br/>
 
-```javascript:
+```javascript
 import React from 'react';
 import styles from './Button.module.css'; // Import css modules stylesheet as styles
 import './styles.css'; // Import regular stylesheet
