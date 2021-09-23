@@ -39,32 +39,54 @@ Shorthand notation can be used when the operand on both sides of '=' is same. eg
 - a=a*b can be written as a\*=b  
 - a=a/b can be written as a/=b  
 - a=a%b can be written as a%=b  
+## Result data type for Arithmetic Operations -  
+Data Type of Result | Data Type of Operands  
+--- | ---  
+long | Neither operand is a float or a double (integer arithmetic); at least one operand is a long.  
+int	| Neither operand is a float or a double (integer arithmetic); neither operand is a long.  
+double | At least one operand is a double.  
+float | At least one operand is a float; neither operand is a double.
+
 <hr>  
 
 ## Unary Operators  
 
-Unary operators are the operators that need only one operand to operate upon.We have 2 types of Unary Operators :   
+Unary operators are the operators that need only one operand to operate upon.The different types of Unary Operators are:  
+- Unary Plus Operator - Indicates Positive value.  
+- Unary Minus Opearor - negates an expression.   
 - Increment(++) - It is used to increase the value of the operand by 1.   
 	- PreIncrement(++a) - here we first increment the operand and then use it.
 	- PostIncrement(a++) - here we first use the operand and then increment it.
 - Decrement(--) - It is used to decrease the value of the operand by 1.  
 	- PreDecrement(--a) - here we first decrement the operand and then use it.  
-	- PostDecrement(a--) - here we first use the operand and then decrement it.
+	- PostDecrement(a--) - here we first use the operand and then decrement it.  
+- Logical complement operator(!a) - inverts the value of a boolean.  
 
+Example to test unary operators-  
 ```
 class UnaryOperators{
 	public static void main(String args[])
 	{
 		int a = 10,b=20;
-		System.out.println(++a); //a is first incremented then printed
-		System.out.println(a++); //a is first printed then incremented
+		boolean isBeautiful = false;
+		System.out.println(-a);
+		System.out.println(+b);
+		System.out.println(++a); //a is first incremented and then printed
+		System.out.println(a++); //a is first printed and then incremented
 		System.out.println(++b); 
 		System.out.println(b++);
 		System.out.println("a= "+a+" "+"b= "+b);
 		System.out.println(a++ + ++b + --a + b--); //12+23+12+23
+		System.out.println(!isBeautiful);
 	}
 }
 ```  
 ## Output  
-![Example2](../Assets/UO1.PNG) 
+![Example2](../Assets/UO1.PNG)  
+## References  
+https://www.geeksforgeeks.org/java-arithmetic-operators-with-examples/  
+ https://www.iitk.ac.in/esc101/05Aug/tutorial/java/nutsandbolts/arithmetic.html  
+
+ ## Contributed By Arpita Gupta😊
+
 
