@@ -31,7 +31,7 @@ Finally, visualized the number of clusters along with their centriods.
 
 
 ## **Visual Representations**
-![]()
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/K%20Means%20Clustering%20Algorithm/Images/k1.jpg)
 
 ## **Test Cases**
 
@@ -52,7 +52,7 @@ Finally, visualized the number of clusters along with their centriods.
 - Easily adapts to new examples.
 
 ## **Screenshots**
-
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/K%20Means%20Clustering%20Algorithm/Images/k2.jpg)
 
 ## **Conclusion**
 
