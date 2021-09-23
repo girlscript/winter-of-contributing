@@ -3,7 +3,7 @@ So before diving into Constraint Layout first see what is a View Group.
 <p align="center">
 <img src="https://developer.android.com/codelabs/basic-android-kotlin-training-birthday-card-app/img/e4c1f4e455d72c81.png?authuser=1"> 
 </p> 
-When you are making an app there are various Views in it, it could be like a TextView an ImageView and etc. <br />
+When you are making an app there are multiple Views in it, there could be a TextView and an ImageView and etc. <br />
 Every View has a relationship with each other, for example:-
   an image may be next to some text, and buttons may form a row. 
   
