@@ -39,7 +39,7 @@ Face mask detection is an AI based technology that analyzes a video stream to de
 
 ## :key: Prerequisites
 
-All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/NeerajHazarika/Face-Mask-Detection/blob/main/requirements.txt)
+All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/NeerajHazarika/winter-of-contributing/blob/Data-Science-with-Python-Face-Mask-Detection/Datascience_With_Python/Computer%20Vision/Face%20Mask%20Detection/requirements.txt)
 
 
 ## 🚀&nbsp; Installation
