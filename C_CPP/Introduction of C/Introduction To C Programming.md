@@ -1,5 +1,5 @@
 ## Facts about C Programming Language
-- In 	1988,  the  American  National  Standards  Institute 	(ANSI)  had formalized the C language.
+- In 	1988,  the  American  National  Standards  Institute (ANSI)  had formalized the C language.
 - C was invented to write UNIX operating system.
 - C is a successor of 'Basic Combined Programming Language' (BCPL) called B language.
 - Linux OS, PHP, and MySQL are written in C. 
@@ -32,7 +32,7 @@
 - A program will always do what we tell it to do, not what we meant to tell it to do. 
 
 ## Errors
-- A program can have three types of errors:
+**A program can have three types of errors:**
 1. The compiler will find syntax errors and other basic problems (compile-time errors)
 - [x] If compile-time errors exist, an executable version of the program is not created.
 2. A problem can occur during program execution, such as trying to divide by zero, which causes a program to terminate abnormally (run-time errors)
@@ -40,7 +40,7 @@
 
 ## C Basic Syntax
 ### Tokens in C
-A token is either a keyword, an identifier, a constant, a string literal, or a symbol. For example, the following C statement consists of five tokens - <br />
+A token is either a keyword, an identifier, a constant, a string literal, or a symbol. For example, the following C statement consists of five tokens- <br />
                                  ```
 				 printf("Welcome to Girlscript Winter Of Contributing! \n");  
 				 ``` <br />
@@ -78,7 +78,7 @@ A C identifier is a name used to identify a variable, function, or any other use
 
 C does not allow punctuation characters such as @, $, and % within identifiers.
 
-C is a case-sensitive programming language.
+C is a **case-sensitive** programming language.
  
 Thus, **Girlscript** and **girlscript** are two different identifiers in C. Here are some examples of acceptable identifiers:
 - mohd 
@@ -171,7 +171,7 @@ Structure, Union, and Enumeration.
 		char *
 
 
-# Declaration
+#### Declaration:
 				int	age ;
 				char	letter ;
 				float	height,width;
@@ -195,6 +195,9 @@ Structure, Union, and Enumeration.
            long	                                       8 bytes	                               -9223372036854775808 to 9223372036854775807
 
        unsigned long	                               8 bytes	                                0 to 18446744073709551615
+       
+       
+# 1byte = 8 bits
        
        
 ### Floating point Data Types:
