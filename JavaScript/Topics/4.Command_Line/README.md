@@ -53,14 +53,17 @@ Overall, it serves for :
 - High data security
 <hr>
 
-<image src="https://github.com/TishaJhabak1014/winter-of-contributing/blob/Javascript/JavaScript/Topics/4.Command_Line/divv5.jpg" width=100%>
+
  
 Coming to Native and Hybrid frameworks, ***Hybrid*** are built upon web technologies like HTML, CSS and JavaScript whereas ***Native*** frameworks are built with specific technology and language for specific platforms like Java for Android, Swift for iOS. So, hybrid framework supports a single code base for all platforms, i.e write once and run anywhere but for native app scenarios, we need to build and maintain separate apps and code for different platforms.<br>
  
-<image src="https://github.com/TishaJhabak1014/winter-of-contributing/blob/Javascript/JavaScript/Topics/4.Command_Line/divv9.png" width="100%">
+<image src="https://github.com/TishaJhabak1014/winter-of-contributing/blob/Javascript/JavaScript/Topics/4.Command_Line/divv5.jpg" width=100%>
  
 ***📌React Native*** is a hybrid mobile application development framework,  for developing hybrid mobile applications that can run natively on both Android and iOS. So, React Native, written on JavaScript, is classified as a hybrid framework as it is platform independent. It tends to combine the high-performance capabilities of a native application while retaining the fundamental ease of development as in web technologies.<br><br>
 ***📌Ionic*** is a hybrid app development framework  for web developers. We can build amazing mobile, web, and desktop apps all with one shared code base and open web standards. It uses **Cordova**, an open-source mobile development framework. behind the scenes.<br><br>
+ 
+<image src="https://github.com/TishaJhabak1014/winter-of-contributing/blob/Javascript/JavaScript/Topics/4.Command_Line/divv9.png" width="100%">
+
 However, considering the pros and cons, the choice between Native or Hybrid frameworks is based on different use cases, ideas and goals.
 <hr>
  
