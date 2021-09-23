@@ -252,7 +252,7 @@ Pratul
 >
 >Syntax :
 >```js
->array.forEach(function(currentValue))
+>array.forEach(function(currentValue, index))
 >```
 >- *currentValue* - Value of the current element
 >
