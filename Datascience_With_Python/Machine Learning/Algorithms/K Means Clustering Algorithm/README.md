@@ -1,5 +1,6 @@
 # **K Means Clustering Algorithm**
 
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/K%20Means%20Clustering%20Algorithm/Images/k3.png)
 ## **Introduction**
 
 - K means clustering algorithm comes under unsupervised Machine Learning Algorithm where no labelled data is used,it divides the dataset into k-number of clusters, and repeats the process until it does not find the best clusters.
@@ -30,7 +31,7 @@ Finally, visualized the number of clusters along with their centriods.
 
 
 ## **Visual Representations**
-!()[]
+![]()
 
 ## **Test Cases**
 
