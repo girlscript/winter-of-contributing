@@ -327,7 +327,7 @@ _And here's the resulting nested list :_
 <br>
 <br>
 
-# Styling Lists WithCSS
+# Styling Lists With CSS
 
 **CSS** provides several properties for styling and formatting the most commonly used _unordered_ and _ordered lists_.
 
