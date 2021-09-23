@@ -1,8 +1,5 @@
-## Feature Selection Techniques #347
-Submitted by:
-Deepthi M
-, Batch Number: 05
-, Serial number: 172.
+## Feature Selection Techniques 
+
 
 Working with datasets of different domains is emerging more as it helps to discover new insights and patterns. But while working with datasets, we come across different challenges like a huge number of columns, different ranges of values, inconsistent data to tackle these challenges we do a feature selection process which helps to overcome the challenges. We do a feature selection process in order to improve efficiency, accuracy and also to avoid overfitting problems.
  
