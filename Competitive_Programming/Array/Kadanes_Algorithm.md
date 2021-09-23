@@ -62,13 +62,11 @@ using namespace std;
 int maxSubArraySum(int a[], int size)
 {
 	int max_so_far = INT_MIN, max_ending_here = 0;
-
 	for (int i = 0; i < size; i++)
 	{
 		max_ending_here = max_ending_here + a[i];
 		if (max_so_far < max_ending_here)
 			max_so_far = max_ending_here;
-
 		if (max_ending_here < 0)
 			max_ending_here = 0;
 	}
@@ -112,7 +110,6 @@ class Kadane
 	{
 		int size = a.length;
 		int max_so_far = a[0], max_ending_here = 0;
-
 		for (int i = 0; i < size; i++)
 		{
 			max_ending_here += a[i];
@@ -134,19 +131,16 @@ class Kadane
 int maxSubArraySum(int a[], int size)
 {
 	int max_so_far = a[0], max_ending_here = 0;
-
 	for (int i = 0; i < size; i++)
 	{
 		max_ending_here = max_ending_here + a[i];
 		if (max_so_far < max_ending_here)
 			max_so_far = max_ending_here;
-
 		if (max_ending_here < 0)
 			max_ending_here = 0;
 	}
 	return max_so_far;
 }
-
 
 int main(void)
 {
@@ -155,7 +149,6 @@ int main(void)
     int arr[n];
     for(int i=0; i<n; i++)
         scanf("%d",&arr[i]);
-
     int max_sum = maxSubArraySum(arr,n);
 	printf("Maximum contiguous sum is %d", max_sum);
 	return 0;
