@@ -5,7 +5,7 @@ Priority Queue is more specialized data structure than Queue. Like ordinary queu
 
  - **deletion / dequeue** − remove an item from the front of the queue.
  ## Priority Queue Representation
- ![alt text](https://www.tutorialspoint.com/data_structures_algorithms/images/queue.jpg)
+![alt text](https://www.tutorialspoint.com/data_structures_algorithms/images/queue.jpg)
 
  We're going to implement Queue using array in this article. There is few more operations supported by queue which are following.
 
