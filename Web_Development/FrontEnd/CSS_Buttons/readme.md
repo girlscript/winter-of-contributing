@@ -1,14 +1,14 @@
   <h3>CSS BUTTONS</h3>
 
-  The "<button>" HTML element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality. By default, HTML buttons  are presented in a style resembling the platform the user agent runs on, but you can change button's appearance with CSS.
+  The `<button>` HTML element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality. By default, HTML buttons  are presented in a style resembling the platform the user agent runs on, but you can change button's appearance with CSS.
 
   Before styling buttons with CSS, let’s take a quick look how button is created with HTML.
   
-   The "<button>" element is used to create an HTML button. Any text appearing between the opening and closing tags will appear as text on the button. No action takes place by   default when a button is clicked. Actions must be added to buttons using JavaScript or by associating the button with a form.
-  Code Example:
-  '''
+   The `<button>` element is used to create an HTML button. Any text appearing between the opening and closing tags will appear as text on the button. No action takes place by   default when a button is clicked. Actions must be added to buttons using JavaScript or by associating the button with a form.
+  <br>Code Example:
+  ```
   <button type = “button” onclick = “alert (‘You pressed the button!’)”>Click me!</button>
-  '''
+  ```
   This will create a button representing two words on it i.e “Click me!”, which on clicking gives us an alert saying “You pressed the button!”.
 
   Now, let's start with CSS. These are most common button styles which is achieved by CSS properties:
@@ -16,10 +16,10 @@
   <h2>Colored Buttons:</h2>
   In most systems, default color of button is blue. Use the “background-colour” property to change the background colour of a button.
   <br>Syntax:
-   <br>'''
-   <br>.button1 {background-colour: #4CAF50;} /* Green */
+   ```
+   .button1 {background-colour: #4CAF50;} /* Green */
    <br>.button2 {background-colour: #008CBA;} /* Blue */
-   <br>'''
+   ```
 
   <h2>Big Buttons</h2> 
   Use the “font-size” property to change the font size of a button.
