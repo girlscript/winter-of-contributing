@@ -1,6 +1,6 @@
 <h1 align="center"> :mask: Face Mask Detection using Python, Keras and OpenCV</h1>
 
-<div align= "center"><img src="https://github.com/NeerajHazarika/winter-of-contributing/blob/Data-Science-with-Python-Face-Mask-Detection/Datascience_With_Python/Computer%20Vision/Face%20Mask%20Detection/Images/Face%20Mask%20Detection.png" width="540" height="360"/>
+<div align= "center"><img src="./Images/Face%20Mask%20Detection.png" width="540" height="360"/>
 
 </div>
 
@@ -39,7 +39,7 @@ Face mask detection is an AI based technology that analyzes a video stream to de
 
 ## :key: Prerequisites
 
-All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](https://github.com/NeerajHazarika/winter-of-contributing/blob/Data-Science-with-Python-Face-Mask-Detection/Datascience_With_Python/Computer%20Vision/Face%20Mask%20Detection/requirements.txt)
+All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](./requirements.txt)
 
 
 ## 🚀&nbsp; Installation
@@ -70,11 +70,7 @@ $ pip3 install -r requirements.txt
 ```
 $ python3 train_mask_detector.py 
 ```
-2. To detect face masks in an image type the following command: 
-```
-$ python3 detect_mask_image.py 
-```
-3. To detect face masks in real-time video streams type the following command:
+2. To detect face masks in real-time video streams type the following command:
 ```
 $ python3 detect_mask_video.py 
 ```
@@ -84,8 +80,7 @@ $ python3 detect_mask_video.py
 - We are going to convert all our images from with_mask and without_mask into arrays so that with those arrays we can create our deep learning model.
 - We then will create two list, "data" and "labels" inside the list we will append all the image array in that list and inside the labels list we will append the corresponding label to the image if it is with_mask or without_mask.
 - We then loop through each image in both the directories "with_mask" and "without_mask", and convert each image into size 224x224 pixels (uniformity) and then into an array (to train deep learning model).
-- Now we then use mobelnets
-- Then we append the image array into data list and their resptextive category in labels list.
+- Then we append the image array into data list and their resptective category in labels list.
 
 ```
 data = []
@@ -162,11 +157,11 @@ faceNet = cv2.dnn.readNet(prototxtPath, weightsPath)
 
 - Our model gave 99% accuracy for Face Mask Detection after training 
 
-![Untitled](https://github.com/NeerajHazarika/winter-of-contributing/blob/Data-Science-with-Python-Face-Mask-Detection/Datascience_With_Python/Computer%20Vision/Face%20Mask%20Detection/Images/training%20model%20accuracy.png)
+![Untitled](./Images/training%20model%20accuracy.png)
 
 - We got the following accuracy/loss training curve plot
 
-![plot](https://github.com/NeerajHazarika/winter-of-contributing/blob/Data-Science-with-Python-Face-Mask-Detection/Datascience_With_Python/Computer%20Vision/Face%20Mask%20Detection/Images/train%20and%20loss%20accuracy%20plot.png)
+![plot](./Images/train%20and%20loss%20accuracy%20plot.png)
 
 - Live demo 
 
