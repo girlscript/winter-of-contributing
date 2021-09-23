@@ -1,14 +1,18 @@
 ## What is a Computer Virus?
 <hr>
 
+__VIRUS(Vital Information Resources Under Siege)__
 ```
-A computer virus, much like a flu or cold virus, that is designed to spread from host to host and has the ability 
-to replicate itself. Virus is nothing on its own and thus needs a host. The host helps the virus get into 
-other systems and execute it when triggered. In other words, the computer virus spreads by itself into 
-other executable code or documents. 
-
-VIRUS(Vital Information Resources Under Siege) is the malware that supports Spyware-
+                                              is the malware that supports Spyware-
 the process in which personal details are kept an eye on to hack the accounts and reveal personal data.
+
+A computer virus is a set of code with the purpose of stealing information or corrupting the victims file.
+If one's computer is affected with virus then its almost impossible to remove the virus completely.
+The best one can do is to protect it computer from further damage, this can be done by installing antivirus 
+and other methods which will be discussed later on.
+
+Computer Virus, much like the cold or flu virus has the ability to replicate itself and crawl to the other parts
+of the system as well as to other systems too. But without the host Virus is nothing, just like the flu virus.
 
 ```
 <hr>
@@ -17,9 +21,17 @@ the process in which personal details are kept an eye on to hack the accounts an
 
 ```
 
-One of the ideal methods by which viruses spread is through emails, opening the attachment in the email, 
+One of the ideal methods by which viruses spread is through emails, opening the attachment in the email,
 visiting an infected website can cause the virus to spread to your system. It can also spread while 
 connecting with already infected removable storage devices, such as USB drives.
+
+Once a computer is infected with virus it can't be removed, only the further damage can be prevented
+virus disguises itself as executable files or folder, as soon as you run or open these files or folders 
+your computer is infected.
+
+In case of USB drives the common Virus is the Resident Virus, it stays hidden inside an USB and as soon
+plug-in the USB it gets stored in the system memory and the next time you boot your system it enters the BIOS 
+and corrupts the whole OS.
 
 ```
 <hr>
@@ -86,9 +98,9 @@ Such viruses spread when you open an infected document, often through email atta
 ```
 
 1. Make sure your computer has updated anti-virus software running locally. Automatic updates are essential for 
-   effective virus protection. Combined with server-side scanning, you now have two layers of security.
-2. Disable message preview in your email client, especially on Windows platforms. 
-   Otherwise, malicious programs attached to incoming messages may execute automatically and infect your computer.
+   effective virus protection.
+2. Never open an email attachment from an unknown source.
 3. Take caution when opening graphics and media attachments, as viruses can be disguised as such files.
+4. Never plug-in an USB that is suspicious to contain VIRUS.
 
 ```
