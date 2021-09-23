@@ -26,4 +26,8 @@ The same work can be done by simple array structure explained as follows:-
 
 ![alt_txt](https://github.com/Ayushi2811/Project-on-Data-structure/blob/master/cna.jpg)
 
+To make the same logic work in O(1) time complexity,we use range update queries with the help of difference arrays.
+
+![alt_txt](https://github.com/Ayushi2811/Project-on-Data-structure/blob/master/Screenshot%202021-09-23%20163652.jpg)
+
 
