@@ -32,7 +32,7 @@ if (true) {
 }
 ```
 ```javascript
-console.log(a); //ReferenceError
+console.log(a); //ReferenceError : a is not defined
 ```
 Because (**if**) block creates a scope for `a` and `a` can be used within that scope only. You are free to access the variable within its scope , but a variable cannot  be accessed outside its scope.
 
