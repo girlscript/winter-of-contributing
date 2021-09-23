@@ -3,7 +3,7 @@
 
 __VIRUS(Vital Information Resources Under Siege)__
 ```
-                                              is the malware that supports Spyware-
+It is the malware that supports Spyware-
 the process in which personal details are kept an eye on to hack the accounts and reveal personal data.
 
 A computer virus is a set of code with the purpose of stealing information or corrupting the victims file.
