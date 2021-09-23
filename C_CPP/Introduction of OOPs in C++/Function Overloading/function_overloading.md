@@ -15,10 +15,13 @@ if it can distinguish them by their number and type of arguments.
 
 # Example of overloaded functions
 #include<bits/stdc++.h>
+<br>
 void display(int n)                                    //function 1 overloaded for integers 
+<br>
 {
    cout<<"This is of integer type"<<endl;
 }
+<br>
 void display(char ch)                                  //function 2 overloaded for characters 
 {
    cout<<"This is of character type"<<endl;
