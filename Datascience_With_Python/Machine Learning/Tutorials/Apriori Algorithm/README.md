@@ -4,8 +4,7 @@
 1. What are itemsets and frequent itemsets
 2. What does apriori algorithm do?
 3. Important terms
-4. Association rule
-5. Steps explanation using example
+4. Steps explanation using example
 
 <b>What are itemsets and frequent itemsets?</b><br>
 When different kinds of items together form a set, it is called an itemset. If it contains k different types of items, then it is precisely called 'k-itemset'.When in a certain amount of transactions, a particular itemset is occuring frequently, it is called a frequent itemset.<br>
@@ -17,5 +16,10 @@ Apriori algorithm discovers relation between different items in a dataset.It che
 
 <b>Important terms</b><br>
 There are a few terms that we have to be familiar with before proceeding to understand the algorithm.They are listed here:<br>
-1. 
+1.Support<br>
+2.Confidence<br>
+3.Association rules<br>
+4.join<br>
+5.prune<br>
+
 
