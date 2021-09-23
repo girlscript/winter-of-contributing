@@ -1,6 +1,6 @@
 # **HTML LISTS**
 <div align="center">
-<img  src="https://designzonic.com/knowledge-base/wp-content/uploads/2019/05/Beyond-bland_HTML-lists-with-style.png"/>
+<img  width="70%" height="70%" src="https://designzonic.com/knowledge-base/wp-content/uploads/2019/05/Beyond-bland_HTML-lists-with-style.png"/>
 
 *Image source : https://designzonic.com/knowledge-base/category/html/*
 </div>
@@ -21,8 +21,6 @@
 - HTML lists are good from a structural point of view as they help create a well-structured, more accessible, easy-to-maintain document.
 
 <br>
-
-**<hr>**
 <br>
 
 ## Types of Lists in HTML
@@ -42,8 +40,6 @@ There are three types of lists in HTML, which are :
 **Note :** We can create a list inside another list, which will be termed as *Nested List*.
 
 <br>
-
-**<hr>**
 <br>
 
 # UnOrdered or Bulleted Lists in HTML
@@ -112,8 +108,6 @@ An *Unordered lists* are used when a set of items can be placed in any order. Th
       </ul>
 
 <br>
-
-**<hr>**
 <br>
 
 # Ordered or Numbered Lists In HTML
@@ -212,8 +206,6 @@ This is done using the _“start”_ attribute, which takes a numeric value, eve
       </ol>
 
 <br>
-
-**<hr>**
 <br>
 
 # Definition or Description Lists in HTML
@@ -281,10 +273,6 @@ _The Result :_
 
 
 <br>
-
-<br>
-
-**<hr>**
 <br>
 
 # Nested List
@@ -337,8 +325,6 @@ _And here's the resulting nested list :_
 *Reference : https://www.webucator.com/article/how-to-properly-nest-lists-in-html/*
 
 <br>
-
-**<hr>**
 <br>
 
 # Styling Lists WithCSS
@@ -403,8 +389,6 @@ For ordered lists possible values are :
 This will style all ordered list to be displayed 0 prefixed numbers as marker , for single digit numbers.
 
 <br>
-
-**<hr>**
 <br>
 
 ## The List-Style-Position Property
@@ -434,9 +418,6 @@ In this case the lines will wrap under the marker instead of being indented.
        	  }
 
 <br>
-
-**<hr>**
-
 <br>
 
 ## The List-Style-Image Property
@@ -473,9 +454,6 @@ The ***list-style*** property is a **shorthand** property for defining all the
      }
 
 <br>
-
-**<hr>**
-
 <br>
 
 # Creating Nav Bar Using List
