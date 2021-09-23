@@ -25,3 +25,25 @@
 
 ![Capture](https://user-images.githubusercontent.com/79050917/134517426-5a6b041b-9989-4593-b5dd-4b612d37b60c.PNG)
 
+**What makes clusters good:**
+
+Intra-class similarity is high and inter –class similarity is low
+
+
+**Challenges:**
+
+- In accurate results as it involves human intervention to validate the output.
+- Computational complexity due to large training data.
+
+**Advantages:**
+
+- No apriori information about the number of clusters required.
+
+- Easy to implement and gives best result in some cases.
+
+**Disadvantages:**
+
+- Algorithm can never undo what was done previously.
+## **Conclusion:**
+
+Hierarchical clustering is a powerful technique that allows you to build tree structures from data similarities. You can now see how different sub-clusters relate to each other, and how far apart data points are. 
