@@ -1,5 +1,5 @@
 # __Java Bytecode__
-Whenever a ```.java``` file is compiled by a Java compiler, it generates a ```.class``` file, i.e., Bytecode. It can be considered as machine code in the form of a ```.class``` format. Bytecode is considered as an instruction set for the Java Virtual Machine(JVM).
+Whenever a ```.java``` file is compiled by a Java compiler, it generates a ```.class``` file, i.e., Bytecode. It can be considered as machine code in the form of a ```.class``` format. Bytecode is considered as a set of instructions for the Java Virtual Machine(JVM).
 
 # Internal working of Java Program
 
