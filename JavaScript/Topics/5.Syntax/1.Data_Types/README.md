@@ -107,7 +107,7 @@ let person = {
     eyeColor:"blue"};
 ```
 ## 2. Arrays
-Arrays are collection of values of similar data type. In JavaScript, array can also be a collection of data of different data types.
+Arrays are collection of values of similar or different data types.
 
 JavaScript Arrays are written with square bracket<kbd>[ ]</kbd>, seperated by commas.
 
@@ -115,8 +115,7 @@ __Example:__
 ```javascript
 const bike = ["BMW","Honda","Suzuki"];
 ```
-Array indexes are zero-based, means the first item is at [0].
-
+Array indexes are zero-based, means the first item is at  arrayName[0].
 ## ```typeof``` Operator
 To find the type of JavaScript variable, you can use ```typeof``` operator. It returns the type of a variable;
 
