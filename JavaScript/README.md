@@ -17,4 +17,9 @@
   2. [Command-Line](Topics/4.Command_Line)
 - [Syntax](Topics/5.Syntax)
 - [Hoisting](Topics/6.Hoisting)
+- [Execution Context](Topics/7.Execution_Context)
+- [JSON](Topics/8.JSON)
+- [Destructuring, Rest Parameters, and Spread Syntax](Topics/9.Destructuring_Rest_Parameters_And_Spread_Syntax)
+- [Template Strings](Topics/10.Template_Strings)
+- [Scheduling](Topics/11.Scheduling)
 
