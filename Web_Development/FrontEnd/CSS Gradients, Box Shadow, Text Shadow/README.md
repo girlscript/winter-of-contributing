@@ -90,7 +90,7 @@ Let us start learning how to create various gradient effects :
       background: radial-gradient(yellow, blue);
     }
     ```
-    ![Radial-Basic]()
+    ![Radial-Basic](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Radial-basic.png)
  
   * ### Radial Color stops and their positioning
     As compared to linear gradients, the `color stop` has the same functionality in radial gradients and they could be specified by an absolute         length or a percentage
@@ -101,7 +101,7 @@ Let us start learning how to create various gradient effects :
       background: radial-gradient(blue 10px, yellow 30%, #1e90ff 50%);
     }
     ```
-    ![Radial-pos]()
+    ![Radial-pos](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Radial-pos.png)
     
     > `Note :` here `10px`,`30%` and `50%` are `color stop`
     
@@ -114,7 +114,7 @@ Let us start learning how to create various gradient effects :
       background: radial-gradient(at 10% 60%, blue 10px, yellow 30%, #1e90ff 50%);
     }
     ```
-    ![Radial-center]()
+    ![Radial-center](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Radial-center.png)
     
     > `Note :` If only one value is specified for the positioning, then it is repeated, otherwise as here in the above code we can see two value.          Now, `10%` is **_position from left_** and `60%` is **_position from top_** and as you guessed, `10px`, `30%` and `50%` are the `color stop`        values
 
@@ -129,7 +129,7 @@ Let us start learning how to create various gradient effects :
       background: conic-gradient(blue,yellow);
     }
     ```
-    ![Conic-Basic]()
+    ![Conic-Basic](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Conic-Basic.png)
     
   * ### Positioning of the center 
     Positioning the center of the conic gradient follows the exact procedure as positioning the center of radial gradient
@@ -140,7 +140,7 @@ Let us start learning how to create various gradient effects :
       background: conic-gradient(at 0% 30%, blue 10%, yellow 30%, #1e90ff 50%);
     }
     ```
-    ![Conic-center]()
+    ![Conic-center](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Conic-center.png)
     
   * ### Conic gradient using Angle
     ```css
@@ -149,6 +149,6 @@ Let us start learning how to create various gradient effects :
       background: conic-gradient(from 45deg, blue, red 50%, yellow 85%, green);
     }
     ```
-    ![Conic-Angle]()
+    ![Conic-Angle](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Conic-Angle.png)
     
     > `Note :` The keyword `from` mentions the starting angle of the conic gradient
