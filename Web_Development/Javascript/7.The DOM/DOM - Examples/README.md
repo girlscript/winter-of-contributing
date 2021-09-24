@@ -6,5 +6,5 @@
 ## 4. Modal
 ## 5. Sort courses
 <br>
-Contributor: <a href="https://github.com/amankumar11">Aman Kumar</a>
+
 
