@@ -1,5 +1,5 @@
 # Priority Queue 
- A priority queue is a data structure in which each element is assigned a priority.The priority of the element will be used to determine the order in which the elements will be processed.A Priority Queue is called an ascending - priority queue,if the item with the smallest key has the highest priority(that means,delete the smallest element always).Similary,a priority queue is said to be a decending - priority queue if the item with the largest key has the highest priority (delete the maximum element always). Since these two types are symmetric we will concentrating on one of them ascending -priority queue.
+We can say a priority is a data structure in which each element is given a priority.We can say a priority of the element will be used to decide the order in which the elements will be treated first.We can say a Priority Queue is known as an ascending - priority queue,if the item with the smallest key has the highest priority(that means,delete the smallest element always).Similary,a priority queue is said to be a decending - priority queue if the item with the largest key has the highest priority (delete the maximum element always). Since these two types are symmetric we will concentrating on one of them ascending -priority queue.
 Following are the principal methods of a Priority Queue.
 ### Main Priority Queues  Operations
  - **Insert(key,element)** − Inserts an element with key to the priority queue.Elements are ordered based on key.
@@ -127,7 +127,7 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
             }
         }
     }
-# Function to delete an element from the queue
+## Function to delete an element from the queue
     void deletion(){
         int a,b;
 	// As queue is empty,then elements will be deleted
@@ -148,7 +148,7 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
         }
         }
     }
-# Function to check queue is full or not 
+## Function to check queue is full or not 
     int isfull(){
         if(R==max-1)      /* when our queue size is gone to max,that is the condition when queue is full */
 	{
@@ -158,7 +158,7 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
             return 0;
         }
     }
-# Function to check queue is empty or not 
+## Function to check queue is empty or not 
     int isempty(){
         if(F==-1 && R==-1){	/* this is the condition when queue is empty */
             return 1;
@@ -167,7 +167,7 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
             return 0;
         }
     }
-# Function to get the element at front of the queue
+## Function to get the element at front of the queue
     void peek(){
         if(!isempty())
         {
@@ -178,7 +178,7 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
         int size=R-F+1;
             return size;
     }
- # Function to display all element
+ ## Function to display all element
     void display()
     {
         printf("\ndispaly element is:");
