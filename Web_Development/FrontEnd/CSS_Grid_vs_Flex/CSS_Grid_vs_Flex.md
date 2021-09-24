@@ -25,7 +25,7 @@ or
 ## What is CSS Flexbox:
 The CSS Flexbox is a **one-dimensional layout**. It is useful in allocating and aligning the space among items in a grid container. It works with various kinds of display devices and screen sizes. Flex layout makes it easier to design and build responsive web pages without using many float and position properties in the CSS code.
 
-![CSS Grid](https://i.morioh.com/200827/6b167dc9.webp)
+![CSS Flexbox](https://i.morioh.com/200827/6b167dc9.webp)
 
 In order to use Flexbox, we need to create a flex container using the ```display: flex``` property. Every element inside the particular flex container will act as a flex item.
 
@@ -66,12 +66,12 @@ CSS Grid has properties such as ```grid-template-rows``` and ```grid-template-co
 
 
 **Implementation of CSS Grid**
-![CSS Grid](https://www.simplilearn.com/ice9/free_resources_article_thumb/grid-vs-flexbox-1.JPG)
+![CSS Grid](https://www.simplilearn.com/ice9/free_resources_article_thumb/grid-vs-flexbox-1.JPG)  
 *HTML code*
 
 <br>
 
-![CSS Grid](https://www.simplilearn.com/ice9/free_resources_article_thumb/grid-vs-flexbox-2.JPG)
+![CSS Grid](https://www.simplilearn.com/ice9/free_resources_article_thumb/grid-vs-flexbox-2.JPG)  
 *CSS code*
 <br>
 
@@ -92,7 +92,7 @@ Flexbox enables you to allocate space and align items flexibly.
 
 ##### Implementation of Flexbox
 
-![CSS Grid](https://www.simplilearn.com/ice9/free_resources_article_thumb/grid-vs-flex-4.JPG)
+![CSS Grid](https://www.simplilearn.com/ice9/free_resources_article_thumb/grid-vs-flex-4.JPG)  
 *CSS code*
 <br>
 
@@ -130,22 +130,27 @@ You should consider using Flexbox when:
     <li>You don’t know how your content will look on the page, and you want everything to fit in.
 </ul>
 
+<br>
 
 ## Wrap Up
 In this CSS Grid vs Flexbox Documentation, you have looked into the differences between CSS Grid and Flexbox layout, how they function in modern browsers. With the right amount of practice, you can master both the layouts and create impressive web pages.
+
+<br>
+
+## Credits
+<ul>
+  <li>https://morioh.com/p/96ae54d49d81</li>
+  <li>https://webdesign.tutsplus.com/articles/flexbox-vs-css-grid-which-should-you-use--cms-30184</li>
+  <li>https://css-tricks.com</li>
+  <li>https://www.simplilearn.com/tutorials/css-tutorial/css-grid-vs-flexbox</li>
+  <li>https://www.w3schools.com/css/</li>
+  <li>https://blog.logrocket.com/flexbox-vs-css-grid/</li>
+</ul>
 
 <br><br>
 *Thanks for reading!*
 
 > Author:
 > <cite>[Raunak Gayen](https://github.com/RaunakGN2001)</cite>
-
-
-
-
-
-
-
-
 
 
