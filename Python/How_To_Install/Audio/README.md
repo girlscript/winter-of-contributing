@@ -1,10 +1,11 @@
 ## How to Install Python (Audio)
 <br>
-# Topic-How to Install Python
-# Outline-
+**Topic-How to Install Python**<br>
+ **Outline-**
 <br>
 Python installation means to install python on your system.Install means copy all files to path and whenever we want to run python program we can open the python software and start running our code.
-# Importance-
+<br>
+**Importance-**
 <br>
 When we download python software we are downloading a compliation of C libraries that comprises python language.Also whenever we want to complie our python code we need the python interpreter and all the libarray associated with it.IT is important to have python installed on our system.
 The Link below will explain the installation of the python on your system
