@@ -7,7 +7,7 @@ The notebook file contains the documentation of the concepts of 'Text Preprocess
 importance, what and why text preprocessing is important along with the various steps involved. Sample code has been added to show the
 implementation of the concepts and relevant documentation links have been provided. I hope this walks you through all the necessary topics. 
 
-Dataset used: https://drive.google.com/file/d/1sCuPR_soHW9d9VQcjdgkrR5OuZ-O5OOW/view?usp=sharing
+Dataset used: https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews
 
 Libraries used:
 - pandas
