@@ -107,3 +107,5 @@ It has numerous number of subpackages:
 <a name="sum"></a>
 ## Conclusion:
 As a sum of whole documentation, Scientific Python (SciPy)'s benefits, environment setup and its applications are discussed below. It has vast range of functionalities becuase of its multiple subpackages which is used to manipulate and visualize data using high level commands.
+
+Thank you.
