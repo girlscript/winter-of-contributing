@@ -30,8 +30,8 @@ d. A match through application of a user defined conversion.<br></p>
 <p>By overloading function we tend to save compiler from the trouble of pushing default argument values on the function call stack, hence the function does not require to test default values.
 Also a class can also have overloaded constructors. A destructor function can’t be overloaded.</p>
 
-## Example of function overloading with help of a program on calculating simple interest with default arguments.
-```
+### Example of function overloading with help of a program on calculating simple interest with default arguments.
+```c++
 #include<iostream> 
 using namespace std; 
 void amt(float pr,int t=2,float r=0.08); //prototype
