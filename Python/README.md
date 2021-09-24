@@ -25,6 +25,7 @@
 - [OOP-Class](./OOP-Class)
 - [Advanced_function_reduce()](./Advanced_function_reduce())
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
+- [What is Automation?](./What_is_Automation)
 
 ## Learning path
 1. Git & GitHub
@@ -44,3 +45,4 @@
 15. OOP-Class
 16. Advanced function-reduce()
 17. Advanced Function - Zip
+18. What is Automation?
