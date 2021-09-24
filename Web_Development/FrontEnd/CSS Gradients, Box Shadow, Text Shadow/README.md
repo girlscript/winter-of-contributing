@@ -131,4 +131,24 @@ Let us start learning how to create various gradient effects :
     ```
     ![Conic-Basic]()
     
-    >
+  * ### Positioning of the center 
+    Positioning the center of the conic gradient follows the exact procedure as positioning the center of radial gradient
+
+    ```css
+    .conic-center
+    {
+      background: conic-gradient(at 0% 30%, blue 10%, yellow 30%, #1e90ff 50%);
+    }
+    ```
+    ![Conic-center]()
+    
+  * ### Conic gradient using Angle
+    ```css
+    .conic-angle
+    {
+      background: conic-gradient(from 45deg, blue, red 50%, yellow 85%, green);
+    }
+    ```
+    ![Conic-Angle]()
+    
+    > `Note :` The keyword `from` mentions the starting angle of the conic gradient
