@@ -1,8 +1,7 @@
 # Example 3 - Tab Switching
 
-<img src='example3.gif'>
-<br>
-<br>
+![Example 3](./example3.gif)
+
 HTML Code
 
 ```html
@@ -112,7 +111,6 @@ HTML Code
 </body>
 </html>
 ```
-<br>
 CSS Code
 
 ```css
@@ -221,7 +219,6 @@ CSS Code
     color: tomato;
 }
 ```
-<br>
 Javascript Code
 
 ```javascript

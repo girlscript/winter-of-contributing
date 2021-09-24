@@ -1,8 +1,7 @@
 # Example5 - Sort Courses
 
-<img src="sort.gif">
-<br>
-<br>
+![Example 5](./sort.gif)
+
 HTML Code
 
 ```html
@@ -39,7 +38,6 @@ HTML Code
   </body>
 </html>
 ```
-<br>
 CSS Code
 
 ```css
@@ -95,7 +93,6 @@ body {
   color: tomato;
 }
 ```
-<br>
 Javascript Code
 
 ```javascript

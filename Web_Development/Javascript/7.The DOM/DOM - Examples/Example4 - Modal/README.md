@@ -1,8 +1,7 @@
 # Example 4 - Modal
 
-<img src="example4.gif">
-<br>
-<br>
+![Example 4](./example4.gif)
+
 HTML Code
 
 ```html
@@ -30,7 +29,7 @@ HTML Code
 </body>
 </html>
 ```
-<br>
+
 CSS Code
 
 ```css
@@ -123,7 +122,7 @@ CSS Code
     color: tomato;
 }
 ```
-<br>
+
 Javascript Code
 
 ```javascript

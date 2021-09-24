@@ -1,8 +1,7 @@
 # Example 1 - Background color changer
 
-<img src="example1.gif"/>
-<br>
-<br>
+![Example 1](./example1.gif)
+
 HTML Code
 
 ```html
@@ -29,7 +28,7 @@ HTML Code
 </body>
 </html>
 ```
-<br>
+
 CSS Code
 
 ```css
@@ -100,7 +99,6 @@ CSS Code
     color: tomato;
 }
 ```
-<br>
 Javascript Code
 
 ```javascript
