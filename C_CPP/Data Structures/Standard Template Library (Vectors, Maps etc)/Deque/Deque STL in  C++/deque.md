@@ -8,7 +8,7 @@
 <p> Speciality of Deque : Double ended queues are a special case of queues where insertion and deletion operations are possible at both the ends. </p>
 <br>
 
-![Deque](https://github.com/ankushsingh24/winter-of-contributing/blob/C_CPP/C_CPP/Deque/Diagram/deque.png)
+![Deque](https://github.com/ankushsingh24/winter-of-contributing/blob/C_CPP/C_CPP/Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc)/Deque/Diagram/deque.png)
 
 <br>
 
@@ -17,9 +17,7 @@
 ```
 #include <iostream>
 #include <deque>
-
 using namespace std;
-
 void printg(deque<int> g)
 {
     deque<int>::iterator it;
@@ -29,20 +27,16 @@ void printg(deque<int> g)
     }
     cout << endl;
 }
-
 void back(int arr[], int n)
 {
     deque<int> gwoc;
-
     cout << "Pushing From Back : ";
     for (int i = 0; i < n; i++)
     {
         gwoc.push_back(arr[i]); // adding elements from front
     }
-
     printg(gwoc);
 }
-
 void front(int arr[], int n)
 {
     deque<int> gwoc;
@@ -51,10 +45,8 @@ void front(int arr[], int n)
     {
         gwoc.push_front(arr[i]); // adding elements from back
     }
-
     printg(gwoc);
 }
-
 // driver code
 int main()
 {
@@ -62,25 +54,20 @@ int main()
     cout << "Enter the number of elements : ";
     cin >> n;
     int arr[n];
-
     for (int i = 0; i < n; i++)
     {
         cin >> arr[i]; // taking input from the user
     }
-
     front(arr, n); // calling front function
     back(arr, n);  // calling back function
-
     return 0;
 }
-
 ```
 
 ### Output
 ```
 Enter the number of elements : 5
 10 20 30 40 50
-
 Pushing From Front :    50      40      30      20      10
 Pushing From Back :     10      20      30      40      50
 ```
