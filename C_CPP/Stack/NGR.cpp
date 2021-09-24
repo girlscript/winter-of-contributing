@@ -1,3 +1,4 @@
+\n
 class solution{
      public:
     //Function to find the next greater element for each element of the array.
@@ -35,4 +36,4 @@ class solution{
         reverse(v.begin(), v.end());
         return v;
     }
-};
+};\n
