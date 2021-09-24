@@ -1,1 +1,2 @@
 - [Selection sort in C](https://github.com/AditiRout/winter-of-contributing/blob/turtle/C_CPP/Data%20Structures/Sorting/Selection%20sort%20in%20c.md)
+- [Bubble sort in C++](BubbleSort.md)
