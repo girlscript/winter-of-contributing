@@ -220,5 +220,5 @@ export default {
 ```
 <br/>
 
-#Best method.............
+# Best method.............
 **Out of all those above defined methods, Single-File-Components are most versatile and powerfull option in almost each and every scenerio.**
