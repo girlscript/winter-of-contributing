@@ -1,7 +1,7 @@
 # Central Limit Theorem
 
-## Defination 
-The Central Limit Theorm is a statistical theory which states that given a large sample size from a dataset with a finite level of varience, the mean of all samples from the same dataset will be approximately equal to the mean of the dataset. It uses sampling distribution to generalize the samples and use to calculate approx mean, standard daviation and other important parameters.
+## Definition 
+The Central Limit Theorem(CLT) is a statistical theory which states that given a large sample size from a dataset with a finite level of variance, the mean of all samples from the same dataset will be approximately equal to the mean of the dataset. It uses sampling distribution to generalize the samples and use it to calculate approx mean, standard deviation and other important parameters.
 
 In a nutshell central limit theorem can also be defined as, The distribution of mean values of a not normal distribution is close to normal. 
 
