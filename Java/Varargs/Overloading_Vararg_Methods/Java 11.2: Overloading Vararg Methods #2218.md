@@ -53,31 +53,33 @@ Here the method overloading is done in two ways:-
     This means the type of varargs which is more specific according to the rule will be called.    
     The following rules define the direct supertype relation among the primitive types in this case:
     
-    <ul>
+   <ul>
     
-    <li>double > float</li>
+   <li>double > float</li>
     
-    <li>float > long</li>
+   <li>float > long</li>
     
-    <li>long > int</li>
+   <li>long > int</li>
     
-    <li>int > char</li>
+   <li>int > char</li>
     
-    <li>int > short</li>
+   <li>int > short</li>
     
-    <li>short > byte</li>
+   <li>short > byte</li>
+   
+   </ul>
     
-    </ul>
     
-   So the output of this code snippet will be **_int varargs_**, because int is more specific than double and float.
+    So the output of this code snippet will be **_int varargs_**, because int is more specific than double and float.
+    
+    For understanding the concept of more specific type parameters :- https://www.geeksforgeeks.org/type-conversion-java-examples/
   
-   For understanding the concept of more specific type parameters :- https://www.geeksforgeeks.org/type-conversion-java-examples/
   
   2. Overloading when methods have varargs alongwith other parameters
-     
-     This type is same as the Normal Method overloading in which Java uses both the number of arguments and 
-     the type of the arguments to determine which method to call. Leaving the arguments empty like 
-     in the first case is not an option.
+      
+    This type is same as the Normal Method overloading in which Java uses both the number of arguments and 
+    the type of the arguments to determine which method to call. Leaving the arguments empty like 
+    in the first case is not an option.
      
      If the arguments while function calling is left empty compiler will give run-time error 
      like this
