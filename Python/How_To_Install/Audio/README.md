@@ -6,14 +6,14 @@ link-
 <br>
 # Summary of Audio Link
 <br><br>
-The Audio contains the steps make sure to follow the steps for sccessfull installation.
+The Audio contains the steps make sure to follow the steps for sccessfull installation.<br>
 Step1-Go T google and type Python.<br>
 Step2-Click on Python.org link<bt>
 Step3-Click on dwonload on the top.<br>
 Step4-After completion of download click on .exe file and window will open.<br>
 Step5-Click on Run Button.<br>
 Step6- Complete the steps as mentioned in audio link.<br>
-Step7-You have suceesfully installed Python in your system.<br>
+Step7-You have suceesfully installed Python on your system.<br>
 
 
 
