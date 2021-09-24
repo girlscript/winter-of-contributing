@@ -26,7 +26,7 @@ b. A match through promotion<br>
 c. A match through application of standard c++ conversion rules.<br>
 d. A match through application of a user defined conversion.<br></p>
 
-## What are the advantages of function overloading?
+### What are the advantages of function overloading?
 <p>By overloading function we tend to save compiler from the trouble of pushing default argument values on the function call stack, hence the function does not require to test default values.
 Also a class can also have overloaded constructors. A destructor function can’t be overloaded.</p>
 
