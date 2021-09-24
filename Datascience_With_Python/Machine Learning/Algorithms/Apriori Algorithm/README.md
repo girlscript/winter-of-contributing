@@ -9,7 +9,8 @@
 5. Steps
 6. Example of how algorithm works
 7. Limitations
-8. Code description
+8. Summary
+9. Code description
 
 <b>What are itemsets and frequent itemsets?</b><br>
 When different kinds of items together form a set, it is called an itemset. If it contains k different types of items, then it is precisely called 'k-itemset'.When in a certain amount of transactions, a particular itemset is occuring frequently, it is called a frequent itemset.<br>
@@ -66,7 +67,9 @@ This shows that all the above association rules are strong if minimum confidence
 
 <b>Limitations of this algorithm</b><br>
 1.It requires high computation if the itemsets are very large and the minimum support is kept very low.<br>
-2.The entire database needs to be scanned.<br>
+2.The entire database needs to be scanned.<br><br>
+
+<b>Summary</b><br>
 
 <b>Code Description</b><br>
 
