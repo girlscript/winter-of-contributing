@@ -23,15 +23,15 @@ Let us start learning how to create various gradient effects :
     background: linear-gradient(green,yellow);
   }
   ```
-  ![Basic gradient]()
+  ![Basic gradient](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Basic%20Linear%20Gradient.png)
   
   * ### Gradient towards a direction
    Now let's try and make the same gradient `to left` direction
    
   ```css
-  .gradient
+  .gradient-direction
   {
     background: linear-gradient(to left,green,yellow);
   }
   ```
-  ![Gradient-to left]()
+  ![Gradient-to left](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Gradient-to%20left.png)
