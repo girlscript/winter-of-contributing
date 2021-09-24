@@ -26,6 +26,7 @@
 - [OOP-Class](./OOP-Class)
 - [Advanced_function_reduce()](<./Advanced_function_reduce()>)
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
+- [List_Comprehension](./List_Comprehension)
 - [Advanced_function_map()](./Advanced_function_map())
 - [What is Automation?](./What_is_Automation)
 
@@ -47,6 +48,7 @@
 14. What_is_Filter_in_python
 15. OOP-Class
 16. Advanced function-reduce()
-17. Advanced function-zip()
-18. Advanced function-map()
-19. What is Automation?
+17. Advanced Function - Zip
+18. List Comprehension
+19. Advanced function-map()
+20. What is Automation?
