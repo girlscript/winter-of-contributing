@@ -13,5 +13,5 @@
 - Finally, push the next in the stack.
 - After the loop is over, reverse the vector and print it to get the desired output.
 - ----------------------------------------------------------------------------------------
-(https://github.com/keshav12122000/winter-of-contributing/blob/C_CPP/C_CPP/Stack/NGR.cpp)
+Path:-(C_CPP/Stack/Nearest greater to Right/NGR.cpp)
 
