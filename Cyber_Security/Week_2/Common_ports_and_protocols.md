@@ -1,4 +1,4 @@
-Some Common Ports and Protocols {align="center"}
+Some Common Ports and Protocols
 ===============================
 
 * * * * *
