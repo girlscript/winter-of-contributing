@@ -83,9 +83,9 @@ Here is the syntax for an unordered map,
       unordered_map <int, int> m;
 Let us now look at an example of unordered map:
 
+```cpp
 /*implementation of map with the help of a program
 Write a program to print the frequency of each digit in an array.*/
-```cpp
 # include<bits/stdc++.h>
 using namespace std;
 
