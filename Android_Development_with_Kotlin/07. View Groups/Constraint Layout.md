@@ -20,8 +20,11 @@ A constraint is a connection or alignment between two UI elements. Each constrai
 <p align = "center">
 <img src="https://user-images.githubusercontent.com/59731205/134669516-83aeb058-7b3d-45cb-877d-005cf1fd0636.png">
 </p>
+
+In the above image:
+* B is constrained to stay to the right of A.
+* C is constrained to stay below A
 <hr/>
-In the above image:-
 <p align = "center">
 <img src="https://user-images.githubusercontent.com/59731205/134587750-796e98c7-e363-4405-9492-86ae1e164a6e.gif">
 </p>
@@ -54,9 +57,40 @@ Just like these attributes there are also attributes which we can use to connect
 Now, according to what we have learnt so far we can design our apps through Drag and Drop feature of Editor and also by coding a XML file for our layout.
 
 ### We will leran how to implement Constraint Layout
-* **Creating Project**
+* **Step 1: Creating Project**
   * Create a new project in Android Studio.
   * Choose **Empty Activity** as your layout and proceed further.
   * Select **Kotlin** as your language
-* **Adding Dependency**
-  * Navigate to 
+* **Step 2: Adding Dependency**
+  * Navigate to the app > Gradle scripts > build.gradle file and add the below dependency to it in the dependencies section.
+  `implementation 'androidx.constraintlayout:constraintlayout:2.0.4'`
+* **Step 3: Working with activity_main.xml file**
+  * Navigate to the app > res > layout > activity_main.xml and add the below code to that file. Below is the code for the activity_main.xml file.
+  ```
+  <?xml version="1.0" encoding="utf-8"?>
+  <androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MyActivity">
+
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="8dp"
+		android:layout_marginRight="8dp"
+		android:gravity="center"
+		android:padding="10dp"
+		android:text="Your Name"
+		android:textColor="@color/black"
+		android:textSize="25sp"
+    app:layout_constraintTop_toTopOf="parent" />
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+  </androidx.constraintlayout.widget.ConstraintLayout>
+  ```
+### I would highly recommend to play with all these values so that you can get an idea about what these things do.
