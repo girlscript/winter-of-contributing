@@ -5,8 +5,12 @@ we will reject the Null hypothesis and accept the alternative hypothesis. But if
 null hypothesis. 
 P value is represented by a graph of probabilistic distribution of any particular observation vs set of possible observation. In this case p value is found
 mathematically with the help of integral calculus & area under the curve. 
-Once we find p value in a case-
+Once we find p value in a case (this will now act as an evidence to decide whether we should choose or reject null hypothesis)-
+
 if p value<0.05 then
+
 we must reject Null Hypothesis and accept Alternative Hypothesis (there is strong evidence that Null hypothesis is wrong)
+
 if p value>0.05 then
+
 we can accept Null Hypothesis (there is strong evidence that Null hypothesis is right)
