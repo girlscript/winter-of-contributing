@@ -79,3 +79,5 @@ Naive Bayes uses a similar method to predict the probability of different class 
   <li><em>Text classification/ Spam Filtering/ Sentiment Analysis:</em> Naive Bayes classifiers mostly used in text classification, have higher success rate as compared to other algorithms. As a result, it is widely used in Spam filtering and Sentiment Analysis.</li>
   <li><em>Recommendation System:</em> Naive Bayes Classifier and Collaborative Filtering together builds a Recommendation System that uses machine learning and data mining techniques to filter unseen information and predict whether a user would like a given resource or not.</li>
 </ol>
+<h2>Conclusion</h2>
+Naive Bayes algorithms are mostly used in sentiment analysis, spam filtering, recommendation systems etc. They require a small amount of training data to estimate the necessary parameters. They are fast and easy to implement but their biggest disadvantage is that the requirement of predictors to be independent. In most of the real life cases, the predictors are dependent, this sometimes hinders the performance of the classifier.
