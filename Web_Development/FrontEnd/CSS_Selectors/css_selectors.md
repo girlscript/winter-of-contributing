@@ -81,7 +81,7 @@ eg: here the `h1` and `p` elements will have the same styles:
         color: red;
     }
 
-## **pseudo- classes**
+## **Pseudo- classes**
 
 Pseudo-classes are used to style the elements in a particular state.
 
@@ -94,11 +94,11 @@ button's color to red when user hovers over it:
 
 
 ![unhovered](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zx4jxz8crusk7naijha9.png)
-*button before user hovers over it*
+<figcaption><i>button before user hovers over it</i></figcaption>
 
-\
+
 ![hovered](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v7qk79uy0im5rmxv3xs8.png)
-*button after user hovers over it*
+</figcaption><i>button after user hovers over it</i></figcaption>
 
 **Syntax:**
 
@@ -140,12 +140,12 @@ eg: here `::first-letter`  is used to apply style to the first letter of a parag
     }
 
 ![paragraph](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fvaj34bfgpz71lp31fw0.png)
-*before applying style*
+<figcaption><i>before applying style</i></figcaption>
 
 
 
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9qkd32lkn7k2ce1pfn98.png)
-*after applying style*
+<figcaption><i>after applying style</i></figcaption>
 
 **Syntax:**
 
