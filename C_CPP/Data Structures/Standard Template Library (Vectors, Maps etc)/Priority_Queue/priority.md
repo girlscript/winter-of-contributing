@@ -1,17 +1,13 @@
 # Priority Queue 
- A priority queue is a data structure in which each element is assigned a priority.The priority of the
- element will be used to determine the order in which the elements will be processed.A Priority Queue is called an ascending - priority queue,if the item with the smallest key has the highest priority(that means,delete the smallest element always).Similary,a priority queue is said to be a decending - priority queue if the item with the largest key has the highest priority (delete the maximum element always). Since these two types are symmetric we will concentrating on one of them ascending -priority queue.
+ A priority queue is a data structure in which each element is assigned a priority.The priority of the element will be used to determine the order in which the elements will be processed.A Priority Queue is called an ascending - priority queue,if the item with the smallest key has the highest priority(that means,delete the smallest element always).Similary,a priority queue is said to be a decending - priority queue if the item with the largest key has the highest priority (delete the maximum element always). Since these two types are symmetric we will concentrating on one of them ascending -priority queue.
 Following are the principal methods of a Priority Queue.
 ### Main Priority Queues  Operations
  - **Insert(key,element)** − Inserts an element with key to the priority queue.Elements are ordered based on key.
  - **DeletionMin/DeleteMax** − Remove and return the element with he smallest/key.
  ## Implementation of a Priority Queue
-There are two ways to implement a priority queue. We can either use a sorted list to store the
-elements so that when an element has to be taken out, the queue will not have to be searched for
-the element with the highest priority(smallest key) or we can use an unsorted list so that insertions are always done at the end of the list. Every time when an element has to be removed from the list, the element
-with the highest priority(smallest key) will be searched and removed. While a sorted list takes O(n) time to insert an element in the list, it takes only O(1) time to delete an element. On the contrary, an unsorted list will take O(1) time to insert an element and O(n) time to delete an element from the list.
-Practically, both these techniques are inefficient and usually a blend of these two approaches
-is adopted that takes roughly O(log n) time or less.
+There are two route to implement a priority queue. We can use any type of it.First one is a sorted list and another one is unsorted list for storing the elements.In sorted list when an element has to be taken out, the queue will not have to be searched for the element with the highest priority(smallest key) or In unsorted list that insertions are always done at the end of the list.Every time when an element has to be removed from the list, the element with the highest priority(smallest key) will be searched and removed. we know  in sorted list there has takes O(n) time to insert an element in the list and for deletion it takes  only O(1) for an element.On the other side,an unsorted list will take O(1) time to insert an element and for deletion O(n) time for an element from the list.
+Practically, both these actions are influence.
+beacuse it is takes roughly O(log n) time or less.
  ## Priority Queue Representation
 
 ![App Screenshot](priority1.jpg)
@@ -26,18 +22,18 @@ is adopted that takes roughly O(log n) time or less.
 
 **IsEmpty** − check if queue is empty.
 ### Insert / Enqueue Operation
-Whenever an element is inserted into queue, priority queue inserts the item according to its order. Here we're assuming that data with high value has low priority.
+Whenever an element is inserted into queue, priority queue inserts the item according to its order(lower number is treated as more priority).so,we insert first high priority element and so on.
 
 ### Deletion / Dequeue Operation
 To delete an element, we find the first nonempty
 queue and then process the front element of
 the first non-empty queue.Whenever an element is to be removed from queue, queue get the element using item count. Once element is removed. Item count is reduced by one.
 
-## Demo Program
+# Demo Program
     #include<stdio.h>
     #define max 5 	/* insert maximum 5 items */
     int PQ[2][max];
-    int F=-1; //Front
+    int F=-1; //Front   /* we are declare rear and front is -1 because there is no element we can say empty queue */
     int R=-1; //Rear
     int item,priority;
     void insertion();
@@ -83,16 +79,16 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
             		}
     	}while(ch!=9);
     }
-# Function to insert an element into the queue
+## Function to insert an element into the queue
     void insertion()
     {
         if(isfull()==1){
-        // As queue is full, elements will not be inserted
+        // As queue is full,then elements will not be inserted
         printf("\nqueue is full");
         }
         else
         {
-	// if queue is empty, insert the data
+	// if queue is empty,then insert the element
         printf("\nenter the element to insert:\n");
         scanf("%d %d",&item,&priority);
         if(R==-1)
@@ -107,7 +103,7 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
         PQ[1][R]=priority;
         }
     }
-# Function to arrange an element in the queue
+## Function to arrange an element in the queue
     void arrange()
     {
         int i,j;
@@ -134,7 +130,7 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
 # Function to delete an element from the queue
     void deletion(){
         int a,b;
-	// As queue is empty, elements will be deleted
+	// As queue is empty,then elements will be deleted
         if(isempty()==1){
         printf("queue is empty");
         }
@@ -154,7 +150,8 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
     }
 # Function to check queue is full or not 
     int isfull(){
-        if(R==max-1){
+        if(R==max-1)      /* when our queue size is gone to max,that is the condition when queue is full */
+	{
             return 1;
         }
         else{
@@ -163,7 +160,7 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
     }
 # Function to check queue is empty or not 
     int isempty(){
-        if(F==-1 && R==-1){
+        if(F==-1 && R==-1){	/* this is the condition when queue is empty */
             return 1;
         }
         else{
