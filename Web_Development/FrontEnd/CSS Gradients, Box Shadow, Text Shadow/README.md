@@ -35,3 +35,24 @@ Let us start learning how to create various gradient effects :
   }
   ```
   ![Gradient-to left](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Gradient-to%20left.png)
+
+  * ### Diagonal Gradient
+  ```css
+  .gradient-diagonal
+  {
+    background: linear-gradient(to bottom right,green,yellow);
+  }
+  ```
+  ![Gradient-to left]()
+  
+  * ### Gradient using Angle
+  ```css
+  .gradient-angle
+  {
+    background: linear-gradient(60deg,green,yellow);
+  }
+  ```
+  ![Gradient-angle]()
+  
+  `Note`: When creating gradient with angles, **0deg** creates a vertical gradient which runs from _bottom to top_ and **90deg** creates a horizontal gradient which runs from _left to right_. Therefore **positive** angles run in the _clockwise_ direction, whereas **negative** angles run in he _anti-clockwise_ direction.
+  
