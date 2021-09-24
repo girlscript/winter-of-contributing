@@ -31,4 +31,17 @@ double x = 1.5; //since the variable was already initialized as int it cannot be
 - Ruby
 - Smalltalk
 
+#
+
+### Static strong vs Dyamic strong
+
+In statically typed languages the type of the variable is checked during compilation of code.
+
+In dynamically typed languages the type of the variable is checked during run time of the code.
+
+These combined with the statements above for strongly typed language makes either a statically strong or a dynamically strong typed language.
+
+### Examples : Python is dynamically typed and Java is statically typed language.
+
+
 ---
