@@ -25,12 +25,13 @@
 - [Functions](./Functions)
 - [What_is_Filter_in_python](./What_is_Filter_in_python)
 - [OOP-Class](./OOP-Class)
+- [Advanced_Function_Lambda](./Advanced_Function_Lambda)
 - [Advanced_function_reduce()](<./Advanced_function_reduce()>)
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
 - [List_Comprehension](./List_Comprehension)
 - [Advanced_function_map()](./Advanced_function_map())
 - [What is Automation?](./What_is_Automation)
-- [Advanced_Function_Lambda](./Advanced_Function_Lambda)
+- 
 
 
 ## Learning path
