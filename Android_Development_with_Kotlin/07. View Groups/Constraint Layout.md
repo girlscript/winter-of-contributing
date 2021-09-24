@@ -86,7 +86,7 @@ Now, according to what we have learnt so far we can design our apps through Drag
 		android:padding="10dp"
 		android:text="Your Name"
 		android:textColor="@color/black"
-		android:textSize="25sp"
+		android:textSize="36sp"
     app:layout_constraintTop_toTopOf="parent" />
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintLeft_toLeftOf="parent"
@@ -94,3 +94,7 @@ Now, according to what we have learnt so far we can design our apps through Drag
   </androidx.constraintlayout.widget.ConstraintLayout>
   ```
 ### I would highly recommend to play with all these values so that you can get an idea about what these things do.
+<hr/>
+Now run the code and see the result.
+
+In the above code we have applied 4 **Constraints** to the **TextView**.Each constraint is attached to the parent.
