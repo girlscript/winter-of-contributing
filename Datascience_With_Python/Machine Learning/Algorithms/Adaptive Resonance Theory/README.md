@@ -32,3 +32,56 @@ It consists of the following two units −
 * **Reset Mechanism** − The work of this mechanism is based upon the similarity between the top-down weight and the input vector. Now, if the degree of this similarity is less than the vigilance parameter, then the cluster is not allowed to learn the pattern and a rest would happen.
 
 <img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Computational%20Unit.png">
+
+**Supplement Unit** − Actually the issue with Reset mechanism is that the layer **F2** must have to be inhibited under certain conditions and must also be available when some learning happens. That is why two supplemental units namely, **G1** and **G2** is added along with reset unit, **R**. They are called **gain control units**. These units receive and send signals to the other units present in the network. ‘+’ indicates an excitatory signal, while ‘−’ indicates an inhibitory signal.
+
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Supplement%20Unit.png">
+
+#### Parameters Used
+Following parameters are used -
+* **n** − Number of components in the input vector
+* **m** − Maximum number of clusters that can be formed
+* **bij** − Weight from F1b to F2 layer, i.e. bottom-up weights
+* **tji** − Weight from F2 to F1b layer, i.e. top-down weights
+* **ρ** − Vigilance parameter
+* **||x||** − Norm of vector x
+
+#### Algorithm
+**Step 1** − Initialize the learning rate, the vigilance parameter, and the weights as follows −
+
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo1.png">
+
+**Step 2** − Continue step 3-9, when the stopping condition is not true.
+**Step 3** − Continue step 4-6 for every training input.
+**Step 4** − Set activations of all F1 a and F1 units as follows
+
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo2.png">
+
+**Step 5** − Input signal from F1a to F1b layer must be sent like
+
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo3.png">
+
+**Step 6** − For every inhibited F2 node
+
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo4.png">
+
+**Step 7** − Perform step 8-10, when the reset is true.
+**Step 8** − Find J for yJ ≥ yj for all nodes j
+**Step 9** − Again calculate the activation on F1 b as follows
+
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo5.png">
+
+**Step 10** − Now, after calculating the norm of vector x and vector s, we need to check the reset condition as follows −
+
+    If ||x||/ ||s|| < vigilance parameter ρ,⁡then⁡inhibit ⁡node J and go to step 7
+
+    Else If ||x||/ ||s|| ≥ vigilance parameter ρ, then proceed further.
+
+**Step 11** − Weight updating for node J can be done as follows −
+
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo6.png">
+
+**Step 12** − The stopping condition for algorithm must be checked and it may be as follows −
+* Do not have any change in weight.
+* Reset is not performed for units.
+* Maximum number of epochs reached.
