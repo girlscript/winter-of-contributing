@@ -15,4 +15,4 @@ Return the topmost element of stack without deleting it.
 Return true if stack is empty otherwise false.<br><br>
 Stacks can be implemented using arrays as well as linked list.
 
-![Stack](Images/stack.png)
+![Stack](https://user-images.githubusercontent.com/63473496/134737117-100a0083-d1c0-4cc4-a7a8-ff41053421c6.png)
