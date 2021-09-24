@@ -33,3 +33,6 @@ And, the standard deviation of the sample mean is denoted as:
 ### Practical Applications 
   - To calculate the mean income of a particular region
  - Political elections: here it is used to estimate the percentage of people who support a particular candidate  
+
+## Example of Implementing CLT
+[Click here](https://github.com/prishita-s/winter-of-contributing/blob/main/Machine_Learning/Statistics_for_Machine_Learning/1.3%20Central%20Limit%20Theorem/1_3_Central_Limit_Theorem_(D).ipynb) to check out a sample code where CLT is demonstrated. 
