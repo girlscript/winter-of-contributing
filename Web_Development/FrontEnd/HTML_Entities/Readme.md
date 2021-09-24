@@ -16,6 +16,38 @@ When using escape characters, it is important to check the page in your browser 
 ![5](https://user-images.githubusercontent.com/86145099/134108747-a40f3705-ca4d-4694-aa32-40b89b751522.PNG)
 
 ***
+## :dart: Examples:
+
+- copyright(&copy;) : This entity display the (©) on the screen;
+  ```html  
+  <p> &copy; Copyright 2021. All Rights Reserved </p>
+  ```
+  Output: <p> &copy; Copyright 2021. All Rights Reserved </p>
+
+- Ampersand(&amp;) : This entity display the (&amp;) on the screen;
+  ```html  
+  <p>Ampersand using entity : &amp; </p>
+  ```
+  Output: <p>Ampersand using entity : &amp; </p>
+                      
+- Euro(&euro;) : This entity display the (&euro;) on the screen;
+  ```
+  <p>currency : &euro; </p>
+  ```
+  Output: <p>currency : &euro; </p>
+- quotes(&quot;) : This entity display (&quot;) on the screen;
+  ```html  
+  <p>&quot;character&quot;</p>
+  ```
+  Output: <p>&quot;character&quot;</p>
+  
+  - One-fourth(&frac14;): This entity display fraction one-fourth on the screen;
+  ```html  
+  <p>half of half is : &frac14;</p>
+  ```
+  Output: <p>half of half is : &frac14;</p>
+  
+***
 
 ## :dart: Summary:
 
@@ -30,3 +62,7 @@ When using escape characters, it is important to check the page in your browser 
 ## :books: Character Entity Reference Chart
 
 https://dev.w3.org/html5/html-author/charref
+
+## :books: Entity Decoder Tool
+
+https://mothereff.in/html-entities
