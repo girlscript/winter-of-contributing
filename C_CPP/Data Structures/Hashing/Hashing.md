@@ -105,6 +105,6 @@ int main()
 ```
 We now, can clearly understand the implementation of unordered maps and sets.
 
-<h3>Here is an explaination of the code,</h3>
+<h3>Here is an explanation of the code,</h3>
 <hr>
-https://drive.google.com/file/d/1AT8uLDtcFEc1wnQ4lkFKuAdx3cDUT4lI/view?usp=sharing
+[Video on Hashing by elixir14082002](https://drive.google.com/file/d/1AT8uLDtcFEc1wnQ4lkFKuAdx3cDUT4lI/view?usp=sharing)
