@@ -1,1 +1,3 @@
-### GETTING STARTED
+## GETTING STARTED
+
+[Windows Setup](Windows_Setup)
