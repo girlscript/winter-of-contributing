@@ -101,7 +101,7 @@ Just like these attributes there are also attributes which we can use to connect
 
 Now, according to what we have learnt so far we can design our apps through Drag and Drop feature of Editor and also by coding a XML file for our layout.
 
-### We will leran how to implement Constraint Layout
+### We will learn how to implement Constraint Layout
 
 * **Step 1: Creating Project**
   * Create a new project in Android Studio.
