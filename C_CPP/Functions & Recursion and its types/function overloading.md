@@ -6,23 +6,25 @@
 
 ## How to declare or implement function overloading?
 <p>The key to function overloading is a function’s argument list which is also known as the function signature.
-There might be a situation where a function has same name and same number of arguments then we must keep in mind that c++ lets you overload a function name only if the function has same name but different signatures.
-Example-
-Void area (int l, int b);
-Void area (int r);
+There might be a situation where a function has same name and same number of arguments then we must keep in mind that c++ lets you overload a function name only if the function has same name but different signatures.<br>
+Example-<br>
+Void area (int l, int b);<br>
+Void area (int r);<br>
 Note-Also if the function has same name and different signature with different return types are allowed.</p>
 
 ## How to call an overloaded function?
 <p> Overloaded functions are called just like other function, the only thing that works here that what number of arguments are passed according to which the function is called that is best matched.
-While calling a function there are 3 possibilities:
-1.	Match
-2.	No match
-3.	Ambiguous match
-So in order to deal with this the compiler follows the following steps to find the best match:
-1.search for an exact match by comparing the type of the argument with the defined instance type.
-2.a match through promotion
-3.a match through application of standard c++ conversion rules.
-4. a match through application of a user defined conversion.</p>
+While calling a function there are 3 possibilities:<br>
+1.	Match <br>
+2.	No match<br>
+3.	Ambiguous match <br>
+   <br>
+So in order to deal with this the compiler follows the following steps to find the best match: <br>
+   <br>
+a. Search for an exact match by comparing the type of the argument with the defined instance type.<br>
+b. A match through promotion<br>
+c. A match through application of standard c++ conversion rules.<br>
+d. A match through application of a user defined conversion.<br></p>
 
 ## What are the advantages of function overloading?
 <p>By overloading function we tend to save compiler from the trouble of pushing default argument values on the function call stack, hence the function does not require to test default values.
@@ -76,5 +78,5 @@ case4
  time : 0years 
  rate : 0.08 
  Simple interest : 0 
-
+```
 
