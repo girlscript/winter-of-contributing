@@ -1,7 +1,8 @@
 
 # Constraint Layout
 
-So before diving into Constraint Layout first see what is a View Group. 
+#### So before diving into Constraint Layout first we will see what is a View Group.
+
 <hr/>
 <p align="center">
 <img src="https://developer.android.com/codelabs/basic-android-kotlin-training-birthday-card-app/img/e4c1f4e455d72c81.png?authuser=1"> 
