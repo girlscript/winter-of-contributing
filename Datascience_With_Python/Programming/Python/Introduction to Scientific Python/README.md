@@ -1,14 +1,15 @@
 
-# **Introduction to Scientic python**
-![Scipy](https://images.app.goo.gl/gJ57C1xEpXfrgnBS8)
+# **Introduction to Scientic Python**
+
+![Scipy](https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Programming/Python/Introduction%20to%20Scientific%20Python/Images/SciPy-a-Python-library-for-mathematics-science-and-engineering.jpg)
 
 
 # Table of Contents:
  1. [ Introduction ](#introduction)
  2. [ Features](#benefits)
- 3. [ Environment setup](#env)
+ 3. [ Environment Setup](#env)
  4. [ SciPy Subpackages](#sub)
- 5. [ SciPy Algorithms](#algo)
+ 5. [ Topics covered in ipnyb file](#topic)
  6. [ Applications](#app)
  7. [ Resources](#res)
  8. [ Summary](#sum)
@@ -22,7 +23,7 @@ Scientific Python (SciPy) is scientific computation library for solving mathemat
 
 <a name="benefits"></a>
 
-### Features:
+## Features:
 - Contains varieties of sub packages for Scientific Computation.
 - Easy to use and understand.
 - Fast because of high computational power.
@@ -31,38 +32,69 @@ Scientific Python (SciPy) is scientific computation library for solving mathemat
 - Works as interactive Python session supporting alike a data-processing library 
 - Can Compete with MATLAB, Octave, R-Lab,etc
 
+<a name="env"></a>
 
-![Numpy Arrays](https://fgnt.github.io/python_crashkurs_doc/_images/numpy_array_t.png)
+##  Environment Setup
+To setup the environment for Scientiific python (SciPy), we can use pip or anaconda command.
+ 
+#### For windows :
+Go to command prompt and type :
+$ pip install scipy  
+or 
+$ conda install -c anaconda scipy  
 
-### Topics covered in the ipynb file:
-1. Use of NumPy
-2. Language preferred to write NumPy
-3. Installation of NumPy
-4. Importing NumPy
-5. Structure of NumPy's array
-6. Creating,indexing and basic operations of a Numpy array
-7. Operations using NumPy
-8. Numpy Applications with Other Libraries
+#### For Ubuntu:
+Run the following command:
 
-### Usage and advantages:
-* Mathematical and logical operations on arrays.
-* Fourier transforms and routines for shape manipulation.
-* Operations related to linear algebra. NumPy has in-built functions for linear algebra and random number generation.
-* NumPy maintains minimal memory.
+$ sudo apt install python3-venv python3-pip  
 
-### Resources referred:
-1. https://www.geeksforgeeks.org/python-numpy/
-2. https://data-flair.training/blogs/numpy-features/
-3. https://medium.com/fintechexplained/why-should-we-use-numpy
-4. https://www.w3schools.com/python/numpy
-5. https://www.tutorialspoint.com/numpy/numpy_introduction.htm
+For activating the latest version, follow the command
 
-Image links:
+$ sudo apt install python3.7 python3.7-dev python3.7-venv  
+$ python3.7 -m venv work 3.7  
+$ source work3.7/bin/activate  
+$ pip install scipy
 
-6. https://d33wubrfki0l68.cloudfront.net/45c16b8431eb262b3fdce9a32a26fc7a4dda7e22/aec0f/images/numpyfordatascience/numpy-slicing.png
-7. https://i.stack.imgur.com/EeBUb.png
-8. https://fgnt.github.io/python_crashkurs_doc/_images/numpy_array_t.png
+#### For Mac:
+As it doesn't have preinstall package manager, run following command:
+$ sudo port install py35-numpy py35-scipy py35-matplotlib py35-ipython +notebook py35-pandas py35-sympy py35-nose  
+ 
+<a name="sub"></a>
 
-### Summary:
-To conclude, we have seen Numpy applications. NumPy is a core Python library with a tremendous amount of functionalities. It has a vast range of built-in functionalities and an extensible as well as flexible nature.
+## SciPy Subpackages
+It has numerous number of subpackages:
+1. scipy.cluster for  vector quantization/ Kmeans.
+2. scipy.constants for representing  physical and mathematical constants
+3. scipy.fftpack  for fourier transform.
+4. scipy.integrate for integration routines.
+5. scipy.interpolation for interpolation.
+6. scipy.linalg for linear algebra routine
+7. scipy.io for  data input and output.
+8. scipy.ndimage for the n-dimension image.
+9. scipy.optimize for optimization.
+10. scipy.signal	use in signal processing.
 
+<a name="topic"></a>
+##  Topics covered in ipnyb file 
+
+
+<a name="app"></a>
+## Applications :
+* Data representations and interactions.
+* Linear models, multiple factors, and analysis of variance.
+* 3D plotting with Mayavi.
+* Slicing and dicing data: sources, modules and filters.
+* Making animatic solutions.
+* Signal Processing.
+
+<a name="res"></a>
+## Resources :
+1. https://www.javatpoint.com/scipy-sub-packages
+2. https://www.geeksforgeeks.org/data-analysis-with-scipy/
+3. https://www.w3schools.com/python/scipy/scipy_intro.php
+4. https://www.scipy.org/
+5. https://www.guru99.com/scipy-tutorial.html
+
+<a name="sum"></a>
+## Conclusion:t 
+As a sum of whole documentation, Scientific Python (SciPy)'s benefits, environment setup and its applications are discussed below. It has vast range of functionalities becuase of its multiple subpackages which is used to manipulate and visualize data using high level commands.
