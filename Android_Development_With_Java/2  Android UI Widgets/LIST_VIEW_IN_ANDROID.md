@@ -2,25 +2,13 @@
 
 Displays a vertically scrollable collection of views, where each view is
 positioned immediately below the previous view in the list. For a more
-modern, flexible, and performant approach to displaying lists, use
-[[RecyclerView]{.ul}](https://developer.android.com/reference/androidx/recyclerview/widget/RecyclerView.html)
+modern, flexible, and performant approach to displaying lists, use **RecyclerView** <br>
 
-A list view is an [[adapter
-view]{.ul}](https://developer.android.com/guide/topics/ui/declaring-layout#AdapterViews)
-that does not know the details, such as type and contents, of the views
-it contains. Instead, list view requests views on demand from a
-[[ListAdapter]{.ul}](https://developer.android.com/reference/android/widget/ListAdapter)
-as needed, such as to display new views as the user scrolls up or down.
+A list view is an **adapter view** as needed, such as to display new views as the user scrolls up or down.<br>
+In order to display items in the list, call **setAdapter(android.widget.ListAdapter)** to associate an adapter with the list. For a simple example, see the discussion of Filling an adapter view with text in the Layouts guide. <br>
+Below Visual will help you to understand ListView.
+![Screenshot (160)](https://user-images.githubusercontent.com/58635404/134666083-2bd85dfd-415b-41d7-8d39-cac0ed7d356a.png)
 
-In order to display items in the list, call
-[[setAdapter(android.widget.ListAdapter)]{.ul}](https://developer.android.com/reference/android/widget/ListView#setAdapter(android.widget.ListAdapter))
-to associate an adapter with the list. For a simple example, see the
-discussion of Filling an adapter view with text in the
-[[Layouts]{.ul}](https://developer.android.com/guide/topics/ui/declaring-layout#FillingTheLayout)
-guide.
-
-![](./mediaFolder/media/image1.png){width="5.317708880139983in"
-height="4.049468503937008in"}
 
 +----------------------+-----------------------------------------------+
 | ###                  |                                               |
