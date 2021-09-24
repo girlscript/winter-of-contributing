@@ -48,7 +48,7 @@
 - [x] [UDP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/User%20Datagram%20Protocol%20(UDP).md)
     - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/UDP_vedio.md)
 - [ ] 3-way handshake
-- [ ] Ports and Protocols
+- [x] [Ports and Protocols](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Common_ports_and_protocols.md)
 - [x] [OSI model](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.8_OSI_model.md)
 - [ ] Switches
 - [x] [Router](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Router.md)
