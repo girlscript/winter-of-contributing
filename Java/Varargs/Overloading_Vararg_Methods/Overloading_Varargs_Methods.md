@@ -70,7 +70,7 @@ Here the method overloading is done in two ways:-
    </ul>
     
     
-    So the output of this code snippet will be **_int varargs_**, because int is more specific than double and float.
+   So the output of this code snippet will be **_int varargs_**, because int is more specific than double and float.
     
     For understanding the concept of more specific type parameters :- https://www.geeksforgeeks.org/type-conversion-java-examples/
   
@@ -82,11 +82,12 @@ Here the method overloading is done in two ways:-
     in the first case is not an option.
      
      If the arguments while function calling is left empty compiler will give run-time error 
-     like this
-     
-    error: reference to fun is ambiguous
+     like this:-
+   ```  
+   error: reference to fun is ambiguous
 		              fun();
-     
+   ````
+	
  **Example:-**
 
 	// A method that takes varargs(here integers).
