@@ -79,3 +79,56 @@ Let us start learning how to create various gradient effects :
     ![Gradient color-band](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Gradient-band.png)
 
     > `Please notice` here each colour is followed by two % values like `red 50% 75%`. Here, 50% denotes the `color start` value and 75% denotes        the `color stop` value. Then, why does `purple 25%` have just one percentage value? Because here `color start` value is 0 and therefore, does      not need to written seperately.
+
+* ## Radial Gradient
+  This type of gradient is formed by radiating out from a central point, which(central point) can be modified by the user
+  
+  * ### Basic Radial Gradient
+    ```css
+    .radial-basic
+    {
+      background: radial-gradient(yellow, blue);
+    }
+    ```
+    ![Radial-Basic]()
+ 
+  * ### Radial Color stops and their positioning
+    As compared to linear gradients, the `color stop` has the same functionality in radial gradients and they could be specified by an absolute         length or a percentage
+    
+    ```css
+    .radial-pos
+    {
+      background: radial-gradient(blue 10px, yellow 30%, #1e90ff 50%);
+    }
+    ```
+    ![Radial-pos]()
+    
+    > `Note :` here `10px`,`30%` and `50%` are `color stop`
+    
+  * ### Center of the gradient and its positioning  
+    The center of the gradient can be positioned via keyterms, absolulte lengths or percentages
+    
+    ```css
+    .radial-center
+    {
+      background: radial-gradient(at 10% 60%, blue 10px, yellow 30%, #1e90ff 50%);
+    }
+    ```
+    ![Radial-center]()
+    
+    > `Note :` If only one value is specified for the positioning, then it is repeated, otherwise as here in the above code we can see two value.          Now, `10%` is **_position from left_** and `60%` is **_position from top_** and as you guessed, `10px`, `30%` and `50%` are the `color stop`        values
+
+* ## Conic Gradient
+  This helps create an effect of transition of colours rotating about a fixed point
+  
+  * ### Basic Conic Gradient
+  
+    ```css
+    .conic-basic
+    {
+      background: conic-gradient(blue,yellow);
+    }
+    ```
+    ![Conic-Basic]()
+    
+    >
