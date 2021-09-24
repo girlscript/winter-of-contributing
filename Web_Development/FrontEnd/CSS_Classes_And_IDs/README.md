@@ -30,11 +30,11 @@ In CSS file
 
  <br>
 
- Output is
+ Output is <br>
  ![CSS Classes](Images/CSS_Classes.png)
 
 
- <b>Note: </b><br> 
+ <b>Note: </b>
  The CSS classes can be used repeatedly to any part of the HTML file.
 
  For example, 
@@ -44,7 +44,7 @@ In CSS file
 <h2 class = "redHeading">Also Red</h2> 
 ```
 
-Output is
+Output is <br>
 ![Repeated Use](Images/CSS_Classes_Repeated_Use.png)
 
 <br>
@@ -72,10 +72,10 @@ In CSS file
 }
 ```
 
-Output is
+Output is <br>
 ![Output IDs](Images/CSS_Ids.png)
 
-<b>Note: </b><br>
+<b>Note: </b>
 As mentioned above, IDs can't be used repeatedly and this can't be realised within HTML and CSS, but this property is significant while using JavaScript. While using the function `document.getElementById("id_name")`.
 
 For example, <br>
@@ -95,12 +95,12 @@ let x = document.getElementById("main");
 x.innerHTML = "Embedded by JavaScript";
 ```
 
-Output is
+Output is <br>
 ![IDs JS](Images/IDs_JavaScript_Demonstration.png)
 
 In the above output, only the first heading is visible and the `<h2>` is not visible if the ID name is same.
 
-On inspecting the element in any suitable browser,
+On inspecting the element in any suitable browser, <br>
 ![Inspect Element](Images/Inspect_Element_CSS_IDs.png)
 
 The `<h2>` content is not visible on inspecting.
@@ -108,14 +108,12 @@ The `<h2>` content is not visible on inspecting.
 
 Therefore, IDs are supposed to be used once.
 
-<hr><br><hr>
+
 
 # Differences between CSS IDs and CSS Classes
 
 1. CSS classes can be reused whereas IDs can be used only once.
 2. In CSS files, class is initialised using period (`.`) and IDs with hashtags (`#`).
-
-<br><hr><br>
 
 # References
 1. https://www.w3schools.com/html/html_id.asp
@@ -123,6 +121,5 @@ Therefore, IDs are supposed to be used once.
 3. https://www.geeksforgeeks.org/difference-between-an-id-and-class-in-html/
 4. https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Type_Class_and_ID_Selectors
 
-<br><hr><br>
 
 <b>Contributors: </b> [Subhendu Dash](https://github.com/subhendudash02)
