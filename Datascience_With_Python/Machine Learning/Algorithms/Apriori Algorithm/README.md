@@ -71,7 +71,6 @@ This shows that all the above association rules are strong if minimum confidence
 
 <b>Summary</b><br>
 
-<b>Code Description</b><br>
 
 
 
