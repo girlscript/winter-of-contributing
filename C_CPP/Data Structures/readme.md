@@ -1,4 +1,5 @@
 - [Graphs](Graphs)
+- [Hashing](https://github.com/elixir14082002/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Hashing)
 - [Sorting](Sorting)
 - [Trees](Trees)
 - [Standard Template Library (Vectors, Maps etc)](Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc))
