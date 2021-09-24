@@ -1,0 +1,12 @@
+# Algorithms
+
+- [Sorting Algorithm](./Sorting)
+- [Brute Force Algorithm](./Brute%20Force)
+- [Recursive Algorithm](./Recursive)
+- [Divide & Conquer Algorithm](./Divide%20%26%20Conquer)
+- [Greedy Algorithm](./Greedy)
+- [Dynamic Programming Algorithm](./Dynamic)
+- [Backtracking Algorithm](./Backtracking)
+- [Randomised Algorithm](./Randomised)
+- [Branch & Bound Algorithm](./Branch%20%26%20Bound)
+- [NP Complete Algorithm](./NP%20Completeness)

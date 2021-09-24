@@ -1,4 +1,4 @@
-# **Different Sorting Technique in C++**
+# **Different Sorting Technique in C/C++**
 ## What is sorting?
 Sorting means arranging the data or some records or numbers in increasing and decreasing order.
 
@@ -17,7 +17,7 @@ After sorting the sorted array becomes {1,2,4,5,6}
 
 * Insertion Sort
 
-* Selection sort
+* [Selection sort](Selection%20sort%20in%20c.md)
 
 * Bubble Sort
 

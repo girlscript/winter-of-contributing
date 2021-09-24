@@ -1,6 +1,28 @@
-- [Graphs](Graphs)
-- [Hashing](https://github.com/elixir14082002/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Hashing)
-- [Sorting](Sorting)
-- [Trees](Trees)
-- [Standard Template Library (Vectors, Maps etc)](Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc))
-- [User Defined (Fenwick Tree, Segment Tree etc)](User%20Defined%20(Fenwick%20Tree%2C%20Segment%20Tree%20etc))
+# Data Structures
+
+- ## [Array](./Array)
+
+- ## [Linked List](./LinkedList)
+
+- ## [Stack](./Stack)
+
+- ## [Queue](./Queue)
+
+- ## [Binary Tree](./BinaryTree)
+
+- ## [Binary Search Tree](./BinarySearchTree)
+  
+- ## [Heap](./Heap)
+  
+- ## [Hashing](./Hashing)
+  
+- ## [Graph](./Graph)
+  
+- ## [Matrix](./Matrix)
+  
+- ## [Trees](./Trees)
+  
+- ## [Standard Template Library](./Standard%20Template%20Library)
+  
+- ## [Advanced Data Structure](./AdvancedDataStructure)
+  -  []
