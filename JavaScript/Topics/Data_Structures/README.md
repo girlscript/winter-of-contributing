@@ -1,7 +1,7 @@
 
 # Data Structures in JavaScript
 
-# **JavaScript Iterables**
+## **JavaScript Iterables**
 
 **Iterable** objects are a generalization of **arrays**. That’s a concept that allows us to make any object useable in a ``for..of loop``.
 
