@@ -71,7 +71,7 @@ floor(double a);
  * *You must be wondering what will this function return if we take a number which is already an integer😮 , will we get error?*  
 --->Well, same like in the ceil function, there will be no change. The integer value will be returned and no error will be there!
 *** 
-* *What if we pass null as an argument ❓     
+* *What if we pass null as an argument* ❓     
 --->Similar to the ceil function, it will return 0 and not an error!😏
 ***
  * There are some prototypes for floor().  
