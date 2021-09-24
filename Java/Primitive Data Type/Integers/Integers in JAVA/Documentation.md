@@ -211,7 +211,14 @@ Since ```byte``` is the <em>```smallest sized integer type```</em>, so it can be
 
 </p><hr>
 
-[`↑Back to Top`](#Types-of-Integers)<br>
+&nbsp; &nbsp;
+[`↑ Back to Top`](#Types-of-Integers) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Byte`](#Byte-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Short`](#Short-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Int`](#Int-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Long`](#Long-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Go to Last`](#A-Brief-Discussion-on-Incorrect-Value-Assignment-to-variables-of-Integer-Category)<br><hr><br>
+
 
 <h2 align="center"><em><u>Short Type</u></em></h2>
 
@@ -375,7 +382,13 @@ Since ```short``` data type is still smaller type than two other ```Integer``` t
 
 </p><hr>
 
-[`↑Back to Top`](#Types-of-Integers)<br>
+&nbsp; &nbsp;
+[`↑ Back to Top`](#Types-of-Integers) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Byte`](#Byte-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Short`](#Short-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Int`](#Int-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Long`](#Long-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Go to Last`](#A-Brief-Discussion-on-Incorrect-Value-Assignment-to-variables-of-Integer-Category)<br><hr><br>
 
 
 <h2 align="center"><em><u>Int Type</u></em></h2>
@@ -540,7 +553,13 @@ Data type of 'Integer' class --> int
 ```
 </p><hr>
 
-[`↑Back to Top`](#Types-of-Integers)<br>
+&nbsp; &nbsp;
+[`↑ Back to Top`](#Types-of-Integers) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Byte`](#Byte-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Short`](#Short-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Int`](#Int-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Long`](#Long-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Go to Last`](#A-Brief-Discussion-on-Incorrect-Value-Assignment-to-variables-of-Integer-Category)<br><hr><br>
 
 
 <h2 align="center"><em><u>Long Type</u></em></h2>
@@ -843,12 +862,18 @@ Data type of 'Long' class --> long
 ```
 </p><hr>
 
-[`↑Back to Top`](#Types-of-Integers)<br><hr>
+&nbsp; &nbsp;
+[`↑ Back to Top`](#Types-of-Integers) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Byte`](#Byte-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Short`](#Short-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Int`](#Int-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Long`](#Long-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↓ Go to Last`](#A-Brief-Discussion-on-Incorrect-Value-Assignment-to-variables-of-Integer-Category)<br><hr><br>
 
 
 <h2 align="center"><em><u>
 
-A Brief Discussion on Incorrect Value Assignment to variables of Integer Category -
+A Brief Discussion on Incorrect Value Assignment to variables of Integer Category
 
 </u></em></h2>
 
@@ -906,4 +931,9 @@ b = s;  // Incorrect assignment, since 'byte' is smaller than 'short'
 
 <br></p><hr>
 
-[`↑Back to Top`](#Types-of-Integers)
+&nbsp; &nbsp;
+[`↑ Back to Top`](#Types-of-Integers) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Byte`](#Byte-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Short`](#Short-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Int`](#Int-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+[`↑ Long`](#Long-Type) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
