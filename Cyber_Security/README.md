@@ -29,10 +29,10 @@
   - [State/Nation Sponsored Hackers](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.7_Types_of_Hackers.md#statenation-sponsored-hackers)
 
 - [x] [What is virtualization](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9%20What%20is%20Virtualization%20and%20the%20need%20for%20Virtualization.md)
-- [ ] Types of virtualization
+- [x] Types of virtualization
   - [Network Virtuliazation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.1_Types%20of%20Virtualization%20-%20What%20is%20Network%20Virtualization%20.md)
   - [Virtual Desktop Infrastructure (VDI)](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.2_Types%20of%20Virtualization-What%20is%20Virtual%20Desktop%20Infrastructure(VDI)%20.md)
-  - Application virtualization
+  - [Application virtualization](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.3_Types_of_Virtualization.md)
 - [ ] [Setup VirtualBox and Virtual Machine in Windows](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Setup%20VirtualBox%20and%20Virtual%20Machine%20on%20Windows.md)
 - [ ] Setup VirtualBox and Virtual Machine in Mac
 - [ ] Familiar to Linux Terminal
@@ -43,12 +43,29 @@
     - ipv4
     - ipv6
 - [x] [MAC address](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.2_Mac_Address.md)
-- [ ] IP v/s MAC
+- [x] [IP v/s MAC](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.3_ip_address_vs_mac_address.md)
 - [ ] TCP
 - [x] [UDP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/User%20Datagram%20Protocol%20(UDP).md)
-- [ ] 3-wah handshake
-- [ ] Ports and Protocols
+    - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/UDP_vedio.md)
+- [ ] 3-way handshake
+- [x] [Ports and Protocols](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Common_ports_and_protocols.md)
 - [x] [OSI model](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.8_OSI_model.md)
 - [ ] Switches
-- [ ] Router
+- [x] [Router](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Router.md)
 - [x] [HUB](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.2_HUBs.md)
+- [x] [FireWall](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.3%20Firewall.md)
+- [x] [LAN](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.4_LAN_adv_disadv.md)
+- [x] [WAN](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.5_WAN.md)
+
+## Week-3 (Computer Viruses and Threats)
+- [x] [Computer Viruses](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity:%203%20Computer%20Viruses%3F%20%231671.md)
+    - [Macro Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.1%20Macro%20Virus%20%231672.md)
+    - [Multipartite virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.2%20Multipartite%20virus%20%231673.md)
+    - Overwrite virus
+    - [Browser Hijacker](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/BROWSER_HIJACKERS.md)
+    - [Polymorphic virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Polymorphic_Virus.md)
+    - Resident virus
+    - Trojan Horse
+    - [Web Scripting Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.8%20Web%20scripting%20virus%20%231958.md)
+    - [File Injecting virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/File-Infector_Virus.md)
+    - Boot Sector Virus
