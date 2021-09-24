@@ -3,8 +3,10 @@
 For deleting an element we have to consider two cases:
 - The element is present as **Leaf Node**
 > If the element is present as Leaf node than we can simply remove that node from BST
-- If the element is not present as **Leaf Node**
-> If the element has only one child then we can place that child in place of the original node and remove the original node.<br>But If the node has two child nodes then we can swap it with the Right-most node in the Left-Subtree and remove that Right-most node (It will be a Leaf node) or we can also swap it with the Left-most node in the Right-Subtree and remove that Left-most node.
+- If the element is present as **Non-Leaf Node with one child**
+> If the element has only one child then we can place that child (along with it's subtree) in place of the original node and remove the original node.
+- If the element is present as **Non-Leaf Node with two child nodes**
+> If the node has two child nodes then we can swap it with the Right-most node in the Left-Subtree and remove that Right-most node (It will be a Leaf node) or we can also swap it with the Left-most node in the Right-Subtree and remove that Left-most node.
 ## Sample BST
 ![image](https://user-images.githubusercontent.com/73171376/134691879-a72f3279-50fa-4dfc-b9f5-7b7a517bcaef.png)
 
