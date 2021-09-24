@@ -1,21 +1,25 @@
-  <h2>CSS BUTTONS</h2>
+## CSS BUTTONS
 
-  The `<button>` HTML element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality. By default, HTML buttons  are presented in a style resembling the platform the user agent runs on, but you can change button's appearance with CSS.
+The `<button>` HTML element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality. By default, HTML buttons  are presented in a style resembling the platform the user agent runs on, but you can change button's appearance with CSS.
 
-  Before styling buttons with CSS, let’s take a quick look how button is created with HTML.
+Before styling buttons with CSS, let’s take a quick look how button is created with HTML.
   
-   The `<button>` element is used to create an HTML button. Any text appearing between the opening and closing tags will appear as text on the button. No action takes place by   default when a button is clicked. Actions must be added to buttons using JavaScript or by associating the button with a form.
-  <br>Code Example:
+The `<button>` element is used to create an HTML button. Any text appearing between the opening and closing tags will appear as text on the button. No action takes place by   default when a button is clicked. Actions must be added to buttons using JavaScript or by associating the button with a form.
+
+Code Example:
+
   ```
   <button type = “button” onclick = “alert (‘You pressed the button!’)”>Click me!</button>
   ```
-  This will create a button representing two words on it i.e “Click me!”, which on clicking gives us an alert saying “You pressed the button!”.
+  
+This will create a button representing two words on it i.e ***Click me!***, which on clicking gives us an alert saying ***You pressed the button!***.
 
-  Now, let's start with CSS. These are most common button styles which is achieved by CSS properties:
-  <ol>
-  <li>Colored Buttons:</li>
-  In most systems, default color of button is blue. Use the “background-colour” property to change the background colour of a button.
-  <br>Syntax:
+Now, let's start with CSS. These are most common button styles which is achieved by CSS properties:
+ 
+* Colored Buttons:
+In most systems, default color of button is blue. Use the "background-colour" property to change the background colour of a button.
+
+Syntax:
  
    ```
    
@@ -24,9 +28,10 @@
    
    ```
 
-  <li>Big Buttons:</li> 
-  Use the “font-size” property to change the font size of a button.
-   <br>Syntax:
+* Big Buttons:
+Use the “font-size” property to change the font size of a button.
+
+Syntax:
    
    ```
    
@@ -34,9 +39,10 @@
    
    ```
 
-  <li>Padded Buttons:</li>
-  Use the “padding” property to change the padding of a button.
-  <br> Syntax:
+* Padded Buttons:
+Use the “padding” property to change the padding of a button.
+
+Syntax:
   
   ```
   
@@ -44,9 +50,10 @@
   
   ```
 
-  <li>Curvy Buttons:</li>
-  Use the “border-radius” property to add rounded corners to a button.
-   <br> Syntax: 
+* Curvy Buttons:
+Use the “border-radius” property to add rounded corners to a button.
+
+Syntax: 
   
    ```
    
@@ -55,19 +62,22 @@
    
    ```
 
-  <li>Colored Borders:</li>
-  Use the “border” property to add a coloured border to a button.
-    <br>Syntax:
+* Colored Borders:
+Use the “border” property to add a coloured border to a button.
+
+Syntax:
     
+    ```
     .button {
     background-color: white;
     color: black;
     border: 2px solid #4CAF50; /* Green */}
-   
+    ```
     
-  <li>Hoverable Buttons:</li>
-     Use the “:hover” selector to change the style of a button when you move the mouse over it. You can Use the transition-duration property to determine the speed of the    "hover" effect. 
-  <br>Syntax:
+* Hoverable Buttons:
+Use the “:hover” selector to change the style of a button when you move the mouse over it. You can Use the transition-duration property to determine the speed of the "hover" effect.
+
+Syntax:
 
   ```
   
@@ -78,9 +88,10 @@
   
   ```
 
-  <li>Shadow Buttons:</li>
-  Use the “box-shadow” property to add shadows to button.
-  <br> Syntax:
+* Shadow Buttons:
+Use the “box-shadow” property to add shadows to button.
+
+Syntax:
  
   ```
   
@@ -89,9 +100,10 @@
   
   ```
 
-  <li>Disabled Button:</li> 
-  Use the “opacity” property to add transparency to the button. You can also add “cursor”  property with a value of “ not-allowed” , which will display a “no parking sign “when   you mouse over the button.
- <br> Syntax:
+* Disabled Button:
+Use the “opacity” property to add transparency to the button. You can also add “cursor”  property with a value of “ not-allowed” , which will display a “no parking sign" when   you mouse over the button.
+
+Syntax:
  
   ```
   
@@ -99,11 +111,12 @@
   opacity: 0.6;
   cursor: not-allowed; }
  
- ```
+  ```
 
-  <li>Wider Button:</li>
-  By default, the size of the button is determined by its text content (as wide as its content). Use the “width” property to change the width of a button. 
-  <br>Syntax: 
+* Wider Button:
+By default, the size of the button is determined by its text content (as wide as its content). Use the “width” property to change the width of a button. 
+
+Syntax: 
   
   ```
   
@@ -112,9 +125,10 @@
   
   ```
 
-  <li>Grouped Buttons:</li>
-  Remove margins and add float:left to each button to create a button group.
-  <br>Syntax:
+* Grouped Buttons:
+Remove margins and add "float:left" to each button to create a button group.
+
+Syntax:
    
   ```
   
@@ -122,9 +136,10 @@
   
   ```
 
-  <li>Grouped buttons-Bordered:</li>
-  Use the “border” property and remove margins by adding “float:left” to each button to create button group.
-  <br>Syntax:
+* Grouped buttons-Bordered:
+Use the “border” property and remove margins by adding “float:left” to each button to create button group.
+
+Syntax:
   
   ```
   
@@ -134,9 +149,10 @@
   
   ```
 
-  <li>Vertical Button Group:</li>
-  Use display:block instead of float:left to group the buttons below each other, instead of side by side.
-  <br>Syntax:
+* Vertical Button Group:
+Use display:block instead of float:left to group the buttons below each other, instead of side by side.
+
+Syntax:
   
   ```
   
@@ -144,17 +160,12 @@
   <br>display: block;}
   
   ```
-  
-  </ol>
-    
-<br>
-
+     
 Now, Let’s give some animation to our buttons by Vanilla CSS
   
-  <ul>
-  <li>ADD ARROW ON HOVER</li>
+* ADD ARROW ON HOVER
   
-  Code:
+Code:
   
   ```
   
@@ -214,10 +225,9 @@ Now, Let’s give some animation to our buttons by Vanilla CSS
   
   ```
 
+* ADD RIPPLE EFFECT ON HOVER:
 
-  <li>ADD RIPPLE EFFECT ON HOVER:</li>
-
-  Code:
+Code:
   
   ```
   
@@ -271,11 +281,11 @@ Now, Let’s give some animation to our buttons by Vanilla CSS
   </html>
   
   ```
-  </ul>
+  
 
-  <h2>TRICK:</h2>
-  There are many websites in which you specify what properties or designs you want with your buttons and you can have code for it. Ready to use, just in a flash. One such   suggested web are as follows:
-  <a href="https://css3buttongenerator.com/">CSS Button Generator</a>
+## TRICK:
+There are many websites in which you specify what properties or designs you want with your buttons and you can have code for it. Ready to use, just in a flash. One such   suggested web are as follows:
+  [CSS Button Generator](https://css3buttongenerator.com/)
 
 
 
