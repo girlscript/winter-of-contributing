@@ -7,7 +7,7 @@ link-
 # Summary of Audio Link
 <br><br>
 The Audio contains the steps make sure to follow the steps for sccessfull installation.<br>
-Step1-Go T google and type Python.<br>
+Step1-Go to google and type Python.<br>
 Step2-Click on Python.org link<bt>
 Step3-Click on dwonload on the top.<br>
 Step4-After completion of download click on .exe file and window will open.<br>
