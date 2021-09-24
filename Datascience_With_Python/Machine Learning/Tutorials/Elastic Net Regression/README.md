@@ -9,9 +9,9 @@ Linear regression is the standard algorithm for regression that assumes a linear
 An extension to linear regression involves adding penalties to the loss function during training that encourage simpler models that have smaller coefficient values. 
 These extensions are referred to as regularized linear regression or penalized linear regression.
 
-# **Elastic net** 
+# **Elastic net Regression** 
 
-Elastic Net is an extension of linear regression that adds regularization penalties to the loss function during training.
+Elastic Net Regression is an extension of linear regression that adds regularization penalties to the loss function during training.
 Elastic net is a popular type of regularized linear regression that combines two popular penalties, specifically the L1 and L2 penalty functions.
 ![image](https://user-images.githubusercontent.com/57637086/134214127-d36b3b93-21bc-49e4-b74a-6c0bb0362311.png)
 The benefit is that elastic net allows a balance of both penalties, which can result in better performance than a model with either one or the other penalty on some problems.
@@ -38,3 +38,29 @@ The dataset involves predicting the house price given details of the house’s s
 
 # **Visit the file for the code for example of [Elastic Net Regression](https://colab.research.google.com/drive/1ZaA9Of9Nf0CinU_EWtgRNtQat12I8Rg8?usp=sharing)**
 
+![image](https://user-images.githubusercontent.com/57637086/134709778-b5dfeac9-ecf3-48a4-9c2e-12e386658bf8.png)
+
+
+Next, we can look at configuring the model hyperparameters.
+
+# *Tuning Elastic Net Hyperparameters*
+
+It is good practice to test a suite of different configurations and discover what works best.
+
+One approach would be to gird search l1_ratio values between 0 and 1 with a 0.1 or 0.01 separation and alpha values from perhaps 1e-5 to 100 on a log-10 scale and discover what works best for a dataset.
+
+The example below demonstrates this using the GridSearchCV class with a grid of values we have defined.
+
+![image](https://user-images.githubusercontent.com/57637086/134709298-adf57969-4134-4af5-b847-fd7d65c1046b.png)
+
+In this case, we can see that we achieved slightly better results than the default 3.378 vs. 3.682. Ignore the sign; the library makes the MAE negative for optimization purposes.
+
+We can see that the model assigned an alpha weight of 0.01 to the penalty and focuses exclusively on the L2 penalty.
+
+# *Summary*
+
+In this tutorial, you discovered how to develop Elastic Net regularized regression in Python.
+
+1. Elastic Net is an extension of linear regression that adds regularization penalties to the loss function during training.
+2. How to evaluate an Elastic Net model and use a final model to make predictions for new data.
+3. How to configure the Elastic Net model for a new dataset via grid search and automatically.
