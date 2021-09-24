@@ -25,6 +25,7 @@
     <li>We first always check that our stack should not be empty , because if the stack is empty that implies that the first character we encountered in the string is a close bracket. and if we get this condition we just simply need to return back from the function and no need to check further ,<strong> hence the given input of strings are not Valid Brackets.</strong></li><br>
     <li>Or, else we pop the value out of the stack and compare it with the character we have encountered with i.e. it's valid combination with the closed brackets. Valid Combinations are as follows :-</li><br>
     <ul>
+
         <li>Valid Combination for : <strong>(</strong> -> <strong>)</strong></li>
         <li>Valid Combination for : <strong>[</strong> -> <strong>]</strong></li>
         <li>Valid Combination for : <strong>{</strong> -> <strong>}</strong></li>
@@ -42,7 +43,7 @@
 </p>
 <br>
 
-![Diagram](Diagram.png)
+<img align = "center" src = "https://user-images.githubusercontent.com/85160299/134719168-bb84eb3a-8f6e-454e-b8a7-8f08da4bd298.png">
 
 <br>
 <h2><strong>Let us see some examples to understand better:-</strong></h2>
