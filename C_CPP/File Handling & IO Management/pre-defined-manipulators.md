@@ -39,7 +39,7 @@ Here are some commonly used manipulators:
 <br />
   
   
-- ## _setpricision(int p)_:
+- ## _setprecision(int p)_:
   
   - This manipulator is used to set the floating point precision to 'p'.
   - Here's an example below explaining the same:
