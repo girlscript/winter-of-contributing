@@ -20,9 +20,11 @@ If number of occurance of an itemset is greater than or equal to this specified 
 Apriori algorithm discovers relation between different items in a dataset.It checks on which items together are forming strong association rules and hence can be called frequent itemsets.<br><br>
 
 <b>Applications</b><br>
-
-
-
+1.Market Basket analysis - Shop owners identify patterns in customer behaviour and find out which products are frequently being bought together in order to think about new schemes and come up with new strategies.<br>
+2.Recommendation systems - Based on user history, items, music, movies etc. can be recommended to a new user.<br>
+3.Health pattern recognition - Many health related issues can have a pattern and reserchers are using this apriori algorithm to find out possible relationship between them<br>
+4.In Forestry- Analysis of probability and intensity of forest fire with the forest fire data.<br>
+These are some of the many applications of this algorithm.<br><br>
 
 <b>Important terms</b><br>
 There are a few terms that we have to be familiar with before proceeding to understand the algorithm.They are listed here:<br>
@@ -69,6 +71,9 @@ This shows that all the above association rules are strong if minimum confidence
 2.The entire database needs to be scanned.<br><br>
 
 <b>Summary</b><br>
+Apriori algorithm is an efficient algorithm that scans the database only once.<br>
+
+It reduces the size of the itemsets in the database considerably providing a good performance. Thus, data mining helps consumers and industries better in the decision-making process.
 
 
 
