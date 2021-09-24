@@ -30,6 +30,7 @@
 - [List_Comprehension](./List_Comprehension)
 - [Advanced_function_map()](./Advanced_function_map())
 - [What is Automation?](./What_is_Automation)
+- [Advanced_Function_Lambda](./Advanced_Function_Lambda)
 
 
 ## Learning path
@@ -50,9 +51,10 @@
 14. Functions
 14. What_is_Filter_in_python
 15. OOP-Class
-16. Advanced function-reduce()
-17. Advanced Function - Zip
-18. List Comprehension
-19. Advanced function-map()
-20. What is Automation?
+16. Advanced_function_Lambda
+17. Advanced function-reduce()
+18. Advanced Function - Zip
+19. List Comprehension
+20. Advanced function-map()
+21. What is Automation?
 
