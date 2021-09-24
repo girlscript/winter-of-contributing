@@ -12,7 +12,7 @@ Void area (int l, int b);<br>
 Void area (int r);<br>
 Note-Also if the function has same name and different signature with different return types are allowed.</p>
 
-## How to call an overloaded function?
+### How to call an overloaded function?
 <p> Overloaded functions are called just like other function, the only thing that works here that what number of arguments are passed according to which the function is called that is best matched.
 While calling a function there are 3 possibilities:<br>
 1.	Match <br>
