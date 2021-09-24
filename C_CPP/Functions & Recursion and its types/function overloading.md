@@ -1,4 +1,4 @@
-## FUNCTION OVERLOADING
+# FUNCTION OVERLOADING
 
 ### DEFINATION- A function name having several definitions that are differentiable by the number or types of their arguments is known as function overloading.
 ## Why we need it? How is it useful?
@@ -29,53 +29,52 @@ So in order to deal with this the compiler follows the following steps to find t
 Also a class can also have overloaded constructors. A destructor function can’t be overloaded.</p>
 
 ## Example of function overloading with help of a program on calculating simple interest with default arguments.
-
-#include<iostream> <br>
-using namespace std; <br>
-void amt(float pr,int t=2,float r=0.08); <br>
-void amt(float pr,int t,float r) <br>
-{<br>
-   cout<<"\n principal amt: "<<pr; <br>
-    cout<<"\n time : "<<t<<"years"; <br>
-    cout<<"\n rate : "<<r; <br>
-    cout<<"\n Simple interest : "<<(pr*t*r)<<"\n"; <br>
-    
-} <br>
-int main() <br>
+```
+#include<iostream> 
+using namespace std; 
+void amt(float pr,int t=2,float r=0.08); 
+void amt(float pr,int t,float r)
 {
-    system("cls"); <br>
-    cout<<"case1"; <br>
-    amt(1000); <br>
-    cout<<"case2"; <br>
-    amt(1000,3); <br>
-    cout<<"case3"; <br>
-    amt(1000,3,0.11); <br>
-   cout<<"case4"; <br>
-    amt(1000,0.12); <br>
-    return 0; <br>
-} <br>
-  
-###Output of the program:
- 
- case1<br>
- principal amt: 1000 <br>
- time : 2years <br>
- rate : 0.08 <br>
- Simple interest : 160 <br>
-case2 <br>
- principal amt: 1000 <br>
- time : 3years <br>
- rate : 0.08 <br>
- Simple interest : 240 <br>
-case3 <br>
- principal amt: 1000 <br>
- time : 3years <br>
- rate : 0.11 <br>
- Simple interest : 330 <br>
-case4 <br>
- principal amt: 1000 <br>
- time : 0years <br>
- rate : 0.08 <br>
- Simple interest : 0 <br>
+   cout<<"\n principal amt: "<<pr; 
+    cout<<"\n time : "<<t<<"years"; 
+    cout<<"\n rate : "<<r; 
+    cout<<"\n Simple interest : "<<(pr*t*r)<<"\n"; 
+}
+int main() 
+{
+    system("cls"); 
+    cout<<"case1"; 
+    amt(1000); 
+    cout<<"case2"; 
+    amt(1000,3); 
+    cout<<"case3"; 
+    amt(1000,3,0.11); 
+   cout<<"case4";
+    amt(1000,0.12); 
+    return 0; 
+} 
+ ``` 
+### Output of the program:
+ ```
+ case1
+ principal amt: 1000 
+ time : 2years 
+ rate : 0.08 
+ Simple interest : 160 
+case2 
+ principal amt: 1000 
+ time : 3years 
+ rate : 0.08 
+ Simple interest : 240 
+case3 
+ principal amt: 1000 
+ time : 3years 
+ rate : 0.11 
+ Simple interest : 330 
+case4 
+ principal amt: 1000 
+ time : 0years 
+ rate : 0.08 
+ Simple interest : 0 
 
 
