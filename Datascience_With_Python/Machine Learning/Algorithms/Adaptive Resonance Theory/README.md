@@ -23,6 +23,7 @@ It is a type of ART, which is designed to cluster binary vectors. We can underst
 
 #### Architecture of ART1
 It consists of the following two units −
+
 **Computational Unit** − It is made up of the following −
 * **Input unit (F1 layer)** − It further has the following two portions −
     * **F1 a layer** *Inputportion* − In ART1, there would be no processing in this portion rather than having the input vectors only. It is connected to F1b layer interfaceportion.
