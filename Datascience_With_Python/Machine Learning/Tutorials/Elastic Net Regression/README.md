@@ -57,6 +57,17 @@ In this case, we can see that we achieved slightly better results than the defau
 
 We can see that the model assigned an alpha weight of 0.01 to the penalty and focuses exclusively on the L2 penalty.
 
+The scikit-learn library also provides a built-in version of the algorithm that automatically finds good hyperparameters via the ElasticNetCV class.
+
+To use this class, it is first fit on the dataset, then used to make a prediction. It will automatically find appropriate hyperparameters.
+
+By default, the model will test 100 alpha values and use a default ratio. We can specify our own lists of values to test via the “l1_ratio” and “alphas” arguments, as we did with the manual grid search.
+
+The example below demonstrates this.
+
+![image](https://user-images.githubusercontent.com/57637086/134710735-afa75290-8ae0-421d-8576-a3d61ff78b17.png)
+
+
 # *Summary*
 
 In this tutorial, you discovered how to develop Elastic Net regularized regression in Python.
