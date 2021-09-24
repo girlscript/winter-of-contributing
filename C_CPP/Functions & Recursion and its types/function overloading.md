@@ -1,7 +1,7 @@
 # FUNCTION OVERLOADING
 
-### DEFINATION- A function name having several definitions that are differentiable by the number or types of their arguments is known as function overloading.
-## Why we need it? How is it useful?
+- **Definition** : A function name having several definitions that are differentiable by the number or types of their arguments is known as function overloading.
+### Why we need it? How is it useful?
 <p>Function overloading not just implements polymorphism but also reduces number of comparisons in a program and hence makes the program faster.</p>
 
 ## How to declare or implement function overloading?
