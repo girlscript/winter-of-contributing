@@ -10,7 +10,6 @@
 6. Example of how algorithm works
 7. Limitations
 8. Summary
-9. Code description
 
 <b>What are itemsets and frequent itemsets?</b><br>
 When different kinds of items together form a set, it is called an itemset. If it contains k different types of items, then it is precisely called 'k-itemset'.When in a certain amount of transactions, a particular itemset is occuring frequently, it is called a frequent itemset.<br>
