@@ -1,4 +1,3 @@
-
 # CYCLIC SORT
 
 Cyclic Sort is an in-place and unstable sorting algorithm.
@@ -13,8 +12,12 @@ If range => [1,N]
 
 - every element will be at index = value - 1
 
+Ex- 1,2,3,4,5,6,7,8,9......24
+
+so range will be [1,24], so N is the last number!
 
 # Code
+
 ```
 // C+++ program for CYCLIC SORT
 
@@ -73,21 +76,18 @@ int main()
 }
 
 ```
+
 # Output
 
 ```
 Before Cyclic Sort
-5 4 3 2 1         
-After Cyclic Sort 
-1 2 3 4 5   
+5 4 3 2 1
+After Cyclic Sort
+1 2 3 4 5
 ```
+
 // n is number of elements int the array.
 
-Time Complexity : O(n)   
+Time Complexity : O(n)
 
 Space Complexity : O(1)
-
-
-  
-
-
