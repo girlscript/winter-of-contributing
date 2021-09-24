@@ -74,7 +74,7 @@ This algorithm requires only one additional memory space for the temp variable w
 
 ## Stability of Bubble Sorting:
 
-Stability of a sorting algorithm means that- when two instances with equal values appear in the same order in the sorted output as they appear in the array as given by the user. Hence, Bubble Sort is stable.
+Stability of a sorting algorithm means that- when two instances with equal values appear in the same order in the sorted output as they appear in the array as given by the user. Hence, Bubble Sort is stable as only adjacent element swaps occur.
 
 For eg:
 Suppose we have a list of 3 3-letter words-
