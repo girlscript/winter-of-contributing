@@ -9,11 +9,11 @@ In this project, we'll talk about Deque (Double Ended Queue), a topic under The 
 
 ## Standard Template Library (STL) contains:
 - array
-- vector
+- [vector](Vector)
 - maps
 - stack
 - queue
-- [deque](Deque%20STL%20in%20%20C%2B%2B)
+- [deque](Deque)
 - set
 - map
 - multimap
