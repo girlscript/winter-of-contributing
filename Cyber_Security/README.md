@@ -46,12 +46,14 @@
 - [x] [IP v/s MAC](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.3_ip_address_vs_mac_address.md)
 - [ ] TCP
 - [x] [UDP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/User%20Datagram%20Protocol%20(UDP).md)
+    - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/UDP_vedio.md)
 - [ ] 3-way handshake
-- [ ] Ports and Protocols
+- [x] [Ports and Protocols](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Common_ports_and_protocols.md)
 - [x] [OSI model](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.8_OSI_model.md)
 - [ ] Switches
 - [x] [Router](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Router.md)
 - [x] [HUB](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.2_HUBs.md)
+- [x] [FireWall](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.3%20Firewall.md)
 - [x] [LAN](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.4_LAN_adv_disadv.md)
 - [x] [WAN](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.5_WAN.md)
 
@@ -65,5 +67,5 @@
     - Resident virus
     - Trojan Horse
     - [Web Scripting Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.8%20Web%20scripting%20virus%20%231958.md)
-    - File Injecting virus
+    - [File Injecting virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/File-Infector_Virus.md)
     - Boot Sector Virus
