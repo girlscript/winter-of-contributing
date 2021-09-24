@@ -76,7 +76,16 @@ It has numerous number of subpackages:
 
 <a name="topic"></a>
 ##  Topics covered in ipnyb file 
-
+* File input/Output ([scipy.io](http://docs.scipy.org/doc/scipy/reference/io.html))
+* Special functions ([scipy.special](http://docs.scipy.org/doc/scipy/reference/special.html))
+* Linear Algebra ([scipy.linalg](http://docs.scipy.org/doc/scipy/reference/linalg.html))
+* Integration ([scipy.integrate](http://docs.scipy.org/doc/scipy/reference/integrate.html))
+* Fourier Transforms ([scipy.fftpack](http://docs.scipy.org/doc/scipy/reference/fftpack.html))
+* Optimization ([scipy.optimize](http://docs.scipy.org/doc/scipy/reference/optimize.html))
+* Interpolation ([scipy.interpolate](http://docs.scipy.org/doc/scipy/reference/interpolate.html))
+* Statistics ([scipy.stats](http://docs.scipy.org/doc/scipy/reference/stats.html))
+* Image processing ([scipy.ndimage](http://docs.scipy.org/doc/scipy/reference/ndimage.html))
+* Sparse matrix Problems ([scipy.sparse](http://docs.scipy.org/doc/scipy/reference/sparse.html))
 
 <a name="app"></a>
 ## Applications :
