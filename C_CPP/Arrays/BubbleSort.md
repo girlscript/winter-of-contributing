@@ -27,8 +27,6 @@ int main (){
          a[j] = temp;
       }
     }
-    
-    
    count++;
    }
    //bubble sort ends.
@@ -68,7 +66,30 @@ In the first iteration we make (N-1) comparisons, in the second iteration we mak
   
 Hence the worst-case time complexity is O(n^2). 
 
+When the input array is already sorted, that becomes the best-case time complexity. Hence the best-case time complexity of bubble sort is O(n).
   
 ## Space Complexity of Bubble Sorting:
 This algorithm requires only one additional memory space for the temp variable while swapping. Hence the space complexity for bubble sort algorithm is O (1).
 
+
+## Stability of Bubble Sorting:
+
+Stability of a sorting algorithm means that- when two instances with equal values appear in the same order in the sorted output as they appear in the array as given by the user. Hence, Bubble Sort is stable.
+
+For eg:
+Suppose we have a list of 3 3-letter words-
+- cat
+- bat
+- can
+
+If we sort the list by just the first letter of each word then a stable-sort would produce-
+- bat
+- cat
+- can
+
+In bubble sort the relative position of cat and can will stay same as it was in the input. An unstable sort may have theire relative positions interchanged.
+
+## Adaptivity of Bubble Sorting:
+
+If the order of the elements to be sorted, of an input array affects the time complexity of a sorting algorithm, then that algorithm is called an “Adaptive” sorting algorithm.
+Bubble sort is adaptive as it gives O(n) estimation if input is already sorted.
