@@ -75,7 +75,7 @@
 <hr>
 
 > **Note - 1:** *Results may vary if random state or hyperparameter or some other changes occur.*
-<br>
+
 > **Note  - 2:** *Logistic Regreesion and KNN Model Perform with the same Accuracy.*
 
 ```Preffered: Decision Tree Classifier (Accuracy: 98.18%)```
