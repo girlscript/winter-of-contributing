@@ -1,4 +1,4 @@
-### JAVA Method Basics
+# JAVA Method Basics
 
 ## What is a Method?
 
