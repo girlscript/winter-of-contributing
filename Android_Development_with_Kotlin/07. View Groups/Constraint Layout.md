@@ -96,5 +96,10 @@ Now, according to what we have learnt so far we can design our apps through Drag
 ### I would highly recommend to play with all these values so that you can get an idea about what these things do.
 <hr/>
 Now run the code and see the result.
+<hr/>
+<img src="https://user-images.githubusercontent.com/59731205/134682422-f313d32d-c9ad-47cf-8344-4d649174f5a8.gif">
+<hr/>
+In the above code we have applied four Constraints to the TextView.<br/>Each constraint is attached to the parent view.
 
-In the above code we have applied 4 **Constraints** to the **TextView**.Each constraint is attached to the parent.
+## Author
+* [@shubhmittal297](https://github.com/shubhmittal07)
