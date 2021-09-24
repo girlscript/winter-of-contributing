@@ -21,11 +21,11 @@
 - **State** is nothing but the values or the data . In human case their Name and gender are considered as state .
 - **Behaviour** is the action or the work or the task the object performs. Here human is able to talk, talking is action or we can say behaviour. Similarly barking is a behaviour of dog. For better understanding you can look at this image 
 <!-- Image stating the difference between states and behaviour -->
-![state and behaviour](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/IMG1.jpg)
+![state and behaviour](../Assets/IMG1.jpg)
 - Now let us talk about classes. In layman term **Classes** are nothing but the logical description of how an object will behave and what are the states the object is going to have.
 - So let us take another **Example**. When you are creating a house, what is the first thing you do ? Yes you do the planning and make a sketch of it and if we make this sketch  with proper measurements and all, then it will be a **Blueprint**. So Blueprint will contain all the details and measurements of the floor ,ceiling and how it will be designed .
 <!-- Image of a house (blueprint) -->
-![class as a blueprint](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/IMG2.jpg)
+![class as a blueprint](../Assets/IMG2.jpg)
 - Based on these logical descriptions which we call it as a Blueprint we build our house and now this house is a physical object . So like that in software domain too , we can think of the class as a blueprint of the house that describes the various characteristics .
 - So once we have got our plan or the Blueprint we can create as many houses we want .
 -------
@@ -35,11 +35,11 @@
 - In general, class includes **variables (State)** and **methods (Behaviours)**.
 - **Syntax** for defining class: 
 <!-- class Syntax -->
-![Class Syntax](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/classSyntax.jpg)
+![Class Syntax](../Assets/classSyntax.jpg)
 
 - **For example** let us define some of the states and behaviour in the class
 <!-- defining class  -->
-![defining class](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/class.jpg)
+![defining class](../Assets/class.jpg)
 <!-- Image of the states and behaviour -->
 ----------
 ## What is an object ?
@@ -52,14 +52,14 @@
     - **Initialization** :- After the '**new**' keyword we call the constructor .This initializes the new object.
 - **Syntax** of defining object : 
 <!-- Syntax of creating object -->
-![object](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/objectsyntax.jpg)
+![object](../Assets/objectsyntax.jpg)
 
 - Once we have created an object, then to access these class members we will use a special operator that is **Dot operator**.
 - **Syntax** of using dot operator:
  <!-- Dot operator  -->
-![dot operator](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/dotoperator.jpg)
+![dot operator](../Assets/dotoperator.jpg)
 ----------
-##Difference between Classes and Objects in Java
+## Difference between Classes and Objects in Java
 |Class                                                         |Object                                                 |
 |--------------------------------------------------------------|-------------------------------------------------------|
 |Classes is a logical description of an object                 |Object is a physical instance of the class             |
@@ -74,7 +74,7 @@
 - Memory Allocation is a process by which computer programs are assigned with some memory space .
 - As we know that object's address are stored in the reference variable of type class. Then to which place this address refer to ? Its the address of a space taken by the object in heap memory (which we will talk in this section) and that address is stored in reference variable. Can we print this address? **NO**, we can't print the address of the object but we can print the identity hashcode of that object by writing 
 ```Java
-    object.toString();
+    object.hashCode();
 ```
 Now let us take a deep dive into memory allocation of variables. Java memory allocation is divided into mainly three parts **Stack area**, **Heap area**, and **Class Area**
 - **Stack area :** Stack is a section of the memory where local primitive or object reference variables are stored. These variables are stored in the stack until the block or the method is being executed.
@@ -83,6 +83,6 @@ Now let us take a deep dive into memory allocation of variables. Java memory all
 
 Here is an **Example**
 <!-- Example of heap and stack -->
-![Class](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/code.jpg)
+![Class](../Assets/code.jpg)
 <!-- heap and stack area -->
-![heap and stack area](https://github.com/amitx007/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/heapAndStack.JPG)
+![heap and stack area](../Assets/heapAndStack.JPG)
