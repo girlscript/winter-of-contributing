@@ -20,6 +20,9 @@
 <br>
 
 ### **CSS EXAMPLE:**
+<br>
+
+1. 
 ```jsx
 <!DOCTYPE html>
   <html>
@@ -54,6 +57,83 @@
 <br>
 <img src="assets/CSS_Example.png" alt="Example of CSS" style="width:600px; height:300px;">
 <br>
+<br>
+
+2. 
+```jsx
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        body {
+          background-color: lightblue;
+        }
+        h1 {
+          text-decoration: underline;
+        }
+        .p1 {
+          font-family: "Times New Roman", Times, serif;
+          text-align: center;
+        }
+
+        .p2 {
+          font-family: Arial, Helvetica, sans-serif;
+          text-align: center;
+        }
+
+        .p3 {
+          font-family: "Lucida Console", "Courier New", monospace;
+          text-align: center;
+        }
+      </style>
+    </head>
+  <body>
+
+<h1 align="center"><b>GirlScript Winter of Contributing</b></h1>
+<p class="p1">GirlScript Winter of Contributing is a three-month newly established initiative by GirlScript Foundation to be conducted during winters. GWOC encourages individuals to share their knowledge and ideas to develop technical skills and gain valuable experience in the field of tech education. Over the course of the program, participants can contribute to a variety of themes under the guidance of an expert facilitator.</p>
+  </body>
+</html>
+```
+
+## **Output:**
+<br>
+<img src="assets/CSS_Example2.png" alt="Example of CSS" style="width:700px; height:300px;">
+<br>
+<br>
+
+3. 
+```jsx
+<!DOCTYPE html>
+  <html>
+    <head>
+      <style>
+        div {
+          background-color: lightgrey;
+          width: 300px;
+          border: 15px solid green;
+          padding: 50px;
+          margin: 20px;
+        }
+      </style>
+    </head>
+<body>
+
+<h2><strong>Demonstrating the Box Model</strong></h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div align="center">This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border.
+</div>
+
+</body>
+</html>
+```
+
+## **Output:**
+<br>
+<img src="assets/CSS_Example3.png" alt="Example of CSS" style="width:700px; height:400px;">
+<br>
+<br>
 
 ### **CSS STYLE SHEET:**
 - The CSS StyleSheet interface represents a single CSS stylesheet which inspects and modifies the list of rules contained in the stylesheet.
@@ -65,31 +145,69 @@
      - An external style sheet is used to define the style for many HTML pages.
      - It is used by adding a link to it in the &lt;head&gt; section of each HTML page.
       ```jsx
-      <head>
-        <link rel="externalstylesheet" href="styles.css">
-      </head>
+      <!DOCTYPE html>
+        <html>
+          <head>
+            <link rel="stylesheet" href="styles.css">
+          </head>
+        <body>
+          <h1>This is a heading</h1>
+          <p>This is a paragraph.</p>
+        </body>
+      </html>
       ```
+
+  ## **Output:**
+  <br>
+    <img src="assets/CSS_Example4.png" alt="Example of CSS" style="width:600px; height:300px;">
+  <br>
+<br>
+
   2. **Internal Style Sheet:**
      - An internal CSS is used to define a style for a single HTML page.
      - It is defined in the &lt;head&gt; section of an HTML page, within a &lt;style&gt; attribute.
 
       ```jsx
-
-      <head>
-        <style>
-          body {background-color: LightGray;}
-          h1   {color: lightblue;}
-          p    {color: red;}
-        </style>
-      </head>
-
+      <!DOCTYPE html>
+        <html>
+          <head>
+            <style>
+              body {background-color: LightGray;}
+              h1   {color: blue;}
+              p    {color: red;}
+            </style>
+          </head>
+       <body>
+         <h1><b>Internal Style Sheet<b></h1>
+         <p><b>CSS Basics and Syntax<b></p>
+       </body>
+       </html>
       ```
+
+  ## **Output:**
+  <br>
+    <img src="assets/CSS_Example5.png" alt="Example of CSS" style="width:600px; height:300px;">
+  <br>
+<br>
+
   3. **Inline Style Sheet:**
      - An inline CSS is used to apply a unique style to a single HTML element.
      - It uses the style attribute of an HTML element.
      ```jsx
-     <h1 style="color:orange;">A Orange Heading</h1>
+     <!DOCTYPE html>
+       <html>
+       <body>
+         <h1 style="color:blue;">Inline Style Sheet</h1>
+         <p style="color:red;">CSS Basics and Syntax</p>
+        </body>
+     </html>
      ```
+
+     ## **Output:**
+  <br>
+    <img src="assets/CSS_Example6.png" alt="Example of CSS" style="width:600px; height:300px;">
+  <br>
+<br>
 <br>
 <br>
 
