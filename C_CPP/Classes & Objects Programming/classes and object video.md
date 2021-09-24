@@ -1,7 +1,4 @@
 # CLASSES AND OBJECT VIDEO
+LINK-https://drive.google.com/file/d/1vIXvP5JasjJ-JSZmAKNxWdgIHKKi9iDL/view?usp=sharing 
 <br>
-<iframe width="800" height="500"
-src="https://drive.google.com/file/d/1vIXvP5JasjJ-JSZmAKNxWdgIHKKi9iDL/preview" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+![image](https://user-images.githubusercontent.com/76872340/134707897-f04f9448-e615-45cf-9cec-6c7cfb4a5f97.png)
