@@ -4,7 +4,7 @@
 <b>Content</b>
 1. What are itemsets and frequent itemsets
 2. What does apriori algorithm do?
-3. Applications
+3. Applications and Advantages
 4. Important terms
 5. Steps
 6. Example of how algorithm works
@@ -20,11 +20,18 @@ If number of occurance of an itemset is greater than or equal to this specified 
 Apriori algorithm discovers relation between different items in a dataset.It checks on which items together are forming strong association rules and hence can be called frequent itemsets.<br><br>
 
 <b>Applications</b><br>
+You can use this for a number of real world problems like below:-<br>
 1.Market Basket analysis - Shop owners identify patterns in customer behaviour and find out which products are frequently being bought together in order to think about new schemes and come up with new strategies.<br>
 2.Recommendation systems - Based on user history, items, music, movies etc. can be recommended to a new user.<br>
-3.Health pattern recognition - Many health related issues can have a pattern and reserchers are using this apriori algorithm to find out possible relationship between them<br>
+3.Health pattern recognition - Many health related issues can have a pattern and researchers are using this apriori algorithm to find out possible relationship between them<br>
 4.In Forestry- Analysis of probability and intensity of forest fire with the forest fire data.<br>
 These are some of the many applications of this algorithm.<br><br>
+<b>Advantages</b><br>
+->Easy to understand algorithm<br>
+->Join and Prune steps are easy to implement on large itemsets in large databases<br>
+->The resulting rules are intuitive and easy to communicate to an end user<br>
+->It doesn't require labeled data as it is fully unsupervised; as a result, you can use it in many different situations because unlabeled data is often more accessible<br>
+->The algorithm is exhaustive, so it finds all the rules with the specified support and confidence<br>
 
 <b>Important terms</b><br>
 There are a few terms that we have to be familiar with before proceeding to understand the algorithm.They are listed here:<br>
@@ -44,10 +51,10 @@ Both these quantities can be calculated as follows:<br>
 
 <b>#4</b> The 2-itemset candidates are pruned using min-sup threshold value. Now the table will have 2 –itemsets with min-sup only.
 
-<b>#5</b> This process goes on with increasing number of k in k-itmesets until the most frequent itemset is achieved.<br><br>
+<b>#5</b> This process goes on with increasing number of k in k-itemsets until the most frequent itemset is achieved.<br><br>
 <b>EXAMPLE</b><br>
 Let us understand this by the following example.<br>
-Let their be a set of 6 transactions of items l1,l2,l3,l4,l5. We have specified min_sup=3 and minimun confidence level to be 60%.<br>
+Let their be a set of 6 transactions of items <b>l1,l2,l3,l4,l5</b>. We have specified min_sup=3 and minimun confidence level to be 60%.<br><br>
 ![image2](https://github.com/rachita11/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Apriori%20Algorithm/images/table%201.png)
 <br>
 1. First we find the number of occurances of each item in these transactions and table it down.
@@ -70,10 +77,12 @@ This shows that all the above association rules are strong if minimum confidence
 1.It requires high computation if the itemsets are very large and the minimum support is kept very low.<br>
 2.The entire database needs to be scanned.<br><br>
 
-<b>Summary</b><br>
-Apriori algorithm is an efficient algorithm that scans the database only once.<br>
 
-It reduces the size of the itemsets in the database considerably providing a good performance. Thus, data mining helps consumers and industries better in the decision-making process.
+
+<b>Summary</b><br>
+Apriori algorithm is an efficient algorithm that scans the database only once.
+It reduces the size of the itemsets in the database considerably providing a good performance. Thus, data mining helps consumers and industries better in the decision-making process.<br>In this file, we saw what Apriori Algorithm really does and in what situations we can use it in, along with some of the limitations but like any other machine learning model, we can not expect a very accurate result and the final output/information derivation would always be tentative.However, it still plays an important role in giving a good rough analysis. We also have to keep in mind that if the dataset is small, the algorithm can find many false associations that happened simply by chance. You can address this issue by evaluating obtained rules on the held-out test data for the support, confidence, lift, and conviction values.
+For seeing how this algorithm works in a real world problem, head over to the python file in this folder and we'll see how we can implement this algorithm.
 
 
 
