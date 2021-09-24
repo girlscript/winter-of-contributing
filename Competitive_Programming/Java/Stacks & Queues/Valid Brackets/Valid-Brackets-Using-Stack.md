@@ -43,7 +43,9 @@
 </p>
 <br>
 
-<img align = "center" src = "https://user-images.githubusercontent.com/85160299/134719168-bb84eb3a-8f6e-454e-b8a7-8f08da4bd298.png">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/85160299/134719168-bb84eb3a-8f6e-454e-b8a7-8f08da4bd298.png">
+</p>
 
 <br>
 <h2><strong>Let us see some examples to understand better:-</strong></h2>
