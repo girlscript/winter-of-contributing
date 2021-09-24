@@ -57,7 +57,10 @@ public static void main(String[] args) {
 }  
 }  
 ```
-**Output:** 10
+**Output:** 
+```
+10
+```
 
 **Example of Switch Case without break statement:**
 
