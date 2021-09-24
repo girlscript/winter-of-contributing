@@ -1,4 +1,6 @@
+
 # Constraint Layout
+
 So before diving into Constraint Layout first see what is a View Group. 
 <hr/>
 <p align="center">
@@ -14,7 +16,9 @@ Every View has a relationship with each other, for example:-
 
 ### One kind of ViewGroup is a ConstraintLayout, which helps you arrange the Views inside it in a flexible way.
 
+
 ## Constraints
+
 A constraint is a connection or alignment between two UI elements. Each constraint connects or aligns one view to another view, or to the parent layout.
 <hr/>
 <p align = "center">
@@ -26,14 +30,53 @@ In the above image:
 * C is constrained to stay below A
 <hr/>
 <p align = "center">
-<img src="https://user-images.githubusercontent.com/59731205/134587750-796e98c7-e363-4405-9492-86ae1e164a6e.gif">
+<img src="https://user-images.githubusercontent.com/59731205/134717994-c0df0140-2009-49f1-b497-13c1230be99c.gif" width= "800" height= "400">
 </p>
 <hr/>
 In the following GIF as you can see , both the views (ImageView and Button) are interconnected to each other.<br/>
 Moving the image also moves the button.
 <br/><br/>This is the code of the following demonstration.<br/>I would like you to go through this code after doing this tutorial
 
+```
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="142dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/button_01"
+        android:textSize="30sp"
+        app:backgroundTint="#F44336"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="267dp"
+        android:layout_height="352dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407"
+        tools:srcCompat="@drawable/dice_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+
 ### Now to do so we have to use some Attributes provided in Constraint Layout-:
+
 |   Attributes       | Description     | 
 | :------------- | :----------: | 
 |  android:id  | This is used to give a unique id to the layout.   | 
@@ -49,6 +92,7 @@ These attributes are used to connect one side of a View to other side of other V
 Just like these attributes there are also attributes which we can use to connect two diiferent sides of Views.
 
 #### Now after we have got some idea of what really Constraint Layout is, now we will talk about some of it's Advantages:-
+
 * It helps to improve the UI performance over other layouts.
 * ConstraintLayout provides you the ability to completely design your UI with the drag and drop feature provided by the Android Studio design editor.
 * With the help of ConstraintLayout, we can control the group of widgets through a single line of code.
@@ -58,6 +102,7 @@ Just like these attributes there are also attributes which we can use to connect
 Now, according to what we have learnt so far we can design our apps through Drag and Drop feature of Editor and also by coding a XML file for our layout.
 
 ### We will leran how to implement Constraint Layout
+
 * **Step 1: Creating Project**
   * Create a new project in Android Studio.
   * Choose **Empty Activity** as your layout and proceed further.
@@ -94,7 +139,9 @@ Now, according to what we have learnt so far we can design our apps through Drag
 		app:layout_constraintRight_toRightOf="parent"
   </androidx.constraintlayout.widget.ConstraintLayout>
   ```
+  
 ### I would highly recommend to play with all these values so that you can get an idea about what these things do.
+
 <hr/>
 Now run the code and see the result.
 <hr/>
@@ -103,5 +150,7 @@ Now run the code and see the result.
 In the above code we have applied four Constraints to the TextView 
 <br/>Each constraint is attached to the parent view.
 
+
 ## Author
+
 * [@shubhmittal297](https://github.com/shubhmittal07)
