@@ -18,34 +18,58 @@ When using escape characters, it is important to check the page in your browser 
 ***
 ## :dart: Examples:
 
-- copyright(&copy;) : This entity display the (©) on the screen;
+- copyright(```&copy;```) : This entity display the (©) on the screen;
   ```html  
   <p> &copy; Copyright 2021. All Rights Reserved </p>
   ```
   Output: <p> &copy; Copyright 2021. All Rights Reserved </p>
 
-- Ampersand(&amp;) : This entity display the (&amp;) on the screen;
+- Ampersand(```&amp;```) : This entity display the (&amp;) on the screen;
   ```html  
   <p>Ampersand using entity : &amp; </p>
   ```
   Output: <p>Ampersand using entity : &amp; </p>
                       
-- Euro(&euro;) : This entity display the (&euro;) on the screen;
+- Euro(```&euro;```) : This entity display the (&euro;) on the screen;
   ```
   <p>currency : &euro; </p>
   ```
   Output: <p>currency : &euro; </p>
-- quotes(&quot;) : This entity display (&quot;) on the screen;
+- quotes(```&quot;```) : This entity display (&quot;) on the screen;
   ```html  
   <p>&quot;character&quot;</p>
   ```
   Output: <p>&quot;character&quot;</p>
   
-  - One-fourth(&frac14;): This entity display fraction one-fourth on the screen;
+- One-fourth(```&frac14;```): This entity display fraction one-fourth on the screen;
   ```html  
   <p>half of half is : &frac14;</p>
   ```
   Output: <p>half of half is : &frac14;</p>
+  
+- less than(```&lt;```) : This entity display the (&lt;) on the screen;
+  ```html  
+  <p> 1 &lt; 2 </p>
+  ```
+  Output: <p> 1 &lt; 2 </p>
+  
+- deree(```&deg;```) : This entity display the (&deg;) on the screen;
+  ```html  
+  <p> 37 &deg; </p>
+  ```
+  Output: <p> 37 &deg; </p>
+  
+- pi(```&pi;```) : This entity display the (&pi;) on the screen;
+  ```html  
+  <p> &pi; =3.14..... </p>
+  ```
+  Output:   <p> &pi; =3.14..... </p>
+  
+- snowman(```&#x2603;```):  This entity display the (&#x2603;) on the screen;
+  ```html  
+  <p>winter is fun &#x2603; </p>
+  ```
+  Output:   <p>winter is fun &#x2603; </p>
   
 ***
 
