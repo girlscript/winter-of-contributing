@@ -27,6 +27,7 @@
 - [Advanced_function_reduce()](<./Advanced_function_reduce()>)
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
 - [Advanced_function_map()](./Advanced_function_map())
+- [What is Automation?](./What_is_Automation)
 
 ## Learning path
 
@@ -48,3 +49,4 @@
 16. Advanced function-reduce()
 17. Advanced function-zip()
 18. Advanced function-map()
+19. What is Automation?
