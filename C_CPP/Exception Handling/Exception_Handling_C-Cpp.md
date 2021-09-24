@@ -23,7 +23,6 @@ exception it moves to function which handle these issues known as 'Handler'.
 * C++ standard Exception
 * User-defined Exception
 -----
------
 ### exception handling technique using following keywords:
 * **try**
 * **throw**
@@ -40,35 +39,30 @@ exception it moves to function which handle these issues known as 'Handler'.
 Now try to understand this concept using following examples:
 ### example1:
 ~~~
-try
-{
-    //read input for divisor from user
-    if(b==0)throw 0;
-    //perform division
+try {
+     //read input for divisor from user
+     if(b==0)throw 0;
+     //perform division
 }   //immediately start related catch block
-catch(int x)
-{
-    //print division not possible 
-    // closing of program
+catch(int x) {
+     //print division not possible 
+     // closing of program
 }
 ~~~
 ### example 2:
 ~~~
 main()
 {
-   try
-     {
+   try {
        //testing exception
        cout<<"Before throw\n";
        throw 5;
        cout<<"After throw\n";
-     }
-   catch(int x)
-      {
+    }
+   catch(int x) {
         cout<<x<<"is displayed\n";
-      }
-      
-      }
+   }
+}
 ~~~
 
 We all know nested if else and loops. There is also a concept of nested try-catch block.
@@ -76,16 +70,15 @@ We can nest try blocks within each other,i.e, keep one try-catch block
 within another.
 ### Nested try-catch block:
 ~~~
-try{
-  try{
+try {
+  try {
      //your code
-     }
-  catch ()
-     {
+  }
+  catch () {
         throw;
-     }
+  }
 }
-catch(...){
+catch(...) {
 //code
 }
 ~~~
