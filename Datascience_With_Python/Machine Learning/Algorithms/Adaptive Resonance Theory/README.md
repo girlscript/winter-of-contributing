@@ -30,3 +30,5 @@ It consists of the following two units −
     * **F1 b layer** *Interfaceportion* − This portion combines the signal from the input portion with that of F2 layer. F1b layer is connected to F2 layer through bottom up weights bij and F2 layer is connected to F1b layer through top down weights tji.
 * **Cluster Unit (F2 layer)** − This is a competitive layer. The unit having the largest net input is selected to learn the input pattern. The activation of all other cluster unit are set to 0.
 * **Reset Mechanism** − The work of this mechanism is based upon the similarity between the top-down weight and the input vector. Now, if the degree of this similarity is less than the vigilance parameter, then the cluster is not allowed to learn the pattern and a rest would happen.
+
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Computational%20Unit.png">
