@@ -12,7 +12,7 @@
  5. [ Topics covered in ipnyb file](#topic)
  6. [ Applications](#app)
  7. [ Resources](#res)
- 8. [ Summary](#sum)
+ 8. [ Conclusion](#sum)
 
 <a name="introduction"></a>
 
@@ -96,5 +96,5 @@ It has numerous number of subpackages:
 5. https://www.guru99.com/scipy-tutorial.html
 
 <a name="sum"></a>
-## Conclusion:t 
+## Conclusion:
 As a sum of whole documentation, Scientific Python (SciPy)'s benefits, environment setup and its applications are discussed below. It has vast range of functionalities becuase of its multiple subpackages which is used to manipulate and visualize data using high level commands.
