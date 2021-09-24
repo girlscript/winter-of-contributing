@@ -1,115 +1,60 @@
-# HTML LISTS
+# HTML Lists
 
-  
-
-We need lists everywhere in our lives. Be it shopping list, a to-do list or many some other lists that we need
-to follow. Similarily, a web page might need a bunch of lists. For example - it can be the list of all links in nav bar
-or it can be the list of all the data to filled inside a table etc. Follow along to know what are HTML lists and
-how they are implemented.
+We need lists everywhere in our lives. Be it shopping list, a to-do list or many some other lists that we need to follow. Similarily, a web page might need a bunch of lists. For example - it can be the list of all links in nav bar or it can be the list of all the data to filled inside a table etc. Follow along to know what are HTML lists and how they are implemented.
 
 HTML consists mainly of two types on the basis of the order of elements it holds.
-
 1. Ordered lists
-
 2. Unordered lists
 
-  
+## Ordered List
 
-### Ordered List
-
-  
-
-It contains elements that are stored in an order or sequence. For example -
-
-a list of numbers
-
+It contains elements that are stored in an order or sequence. For example - a list of numbers
 1. One
-
 2. Two
-
 3. Three
-
-  
-
 Here the elements are evenly arranged in a definite fashion and are not random.
 
-  
-
-### Unordered List
-
-  
-
+## Unordered List
 Such lists are unorganised and are places randomly. Take the same example of list of numbers -
-
 - Four
-
 - Nine
-
 - Hundered
-
 - Sixty Four
-
-  
-
 Here these numbers are not organized. first is four, second is nine and so on. There is no definite sequence is followed here.
 
-  
-
-### HOW TO CREATE LISTS IN HTML ?
-
-  
-
+### How to create lists in HTML?
 The above mentioned lists can be created in HTML as given below -
-
-  
-
 Using the` <ul>` and` <ol> `tags. These tags are to initiated before forming a list in HTML. After that to add elements `<li>` is used.
-
-  
-
 As the tag name suggests`<ul>` and `<ol>`are nothing but unordered list and ordered list respectively. And li is the list element. In HTML, ordered lists have bullet marks as numbers and unordered lists have small shapes like circles or squares.
 
 ### OTHER TAGS REALTED TO LISTS
-
-  
-
 There are few more tags used in HTML lists -
-
 1. `<dl>` - it is list where you can add descriptions to elements added in the list
-
 2. `<dt>` - this tag is used to add the elements to the description list
-
 3. `<dd>` - this tag is used to add the description of the elements in the description list
 
-  
-
 ### EXAMPLES
-
-  
-
 **Create a list**
 
-  
+` <html>
 
-` <HTML>
+	<head>LISTS</head>
 
-	<HEAD>LISTS</HEAD>
-
-	<BODY>
+	<body>
 
 	<ul>
 
 	UNORDERED LIST
 
-	<li>APPLE</li>
+	<li>Apple</li>
 
-	<li>CUSTARD</li>
+	<li>Custard</li>
 
-	<li>PIE</li>
+	<li>Pie</li>
 
-	<li>MELON</li>
+	<li>Melon</li>
 
-	<li>BIKE</li>
+	<li>Bike</li>
 
 	</ul>
 
@@ -119,15 +64,15 @@ There are few more tags used in HTML lists -
 
 	ORDERED LIST
 
-	<li>MATHS</li>
+	<li>Maths</li>
 
-	<li>PHYSICS</li>
+	<li>Physics</li>
 
-	<li>CHEMISTRY</li>
+	<li>Chemistry</li>
 
-	<li>SOFT SKILLS</li>
+	<li>Soft Skills</li>
 
-	<li>COMPUTER SCIENCE</li>
+	<li>Computer Science</li>
 
 	</ol>
 
@@ -137,65 +82,62 @@ There are few more tags used in HTML lists -
 
 	DESCRIPTION LIST (with descriptions added)
 
-	<dt>SHRUTI</dt>
+	<dt>Shruti</dt>
 
 	<dd>- school captain</dd>
 
-	<dt>ABHISEKH</dt>
+	<dt>Abhisekh</dt>
 
 	<dd>- sports captain</dd>
 
-	<dt>SAM</dt>
+	<dt>Sam</dt>
 
 	<dd>- chess player</dd>
 
-	<dt>AMANDA</dt>
+	<dt>Amanda</dt>
 
 	<dd>- senior secretary</dd>
 
-	<dt>AMRITA</dt>
+	<dt>Amrita</dt>
 
 	<dd>- club incharge</dd>
 
 	</dl>
 
-	</BODY>
-</HTML> `
+	</body>
+</html> `
 
 ### HERE'S HOW IT WILL LOOK LIKE WHEN VEIWED IN ANY WEB BROWSER
 
 LISTS
 
-UNORDERED LIST-   APPLE
--   CUSTARD
--   PIE
--   MELON
--   BIKE
+UNORDERED LIST-   
+-   Apple
+-   Custard
+-   Pie
+-   Melon
+-   Bike
 
-ORDERED LIST1.  MATHS
-1.  PHYSICS
-2.  CHEMISTRY
-3.  SOFT SKILLS
-4.  COMPUTER SCIENCE
+ORDERED LIST1. 
+1.  Maths
+2.  Physics
+3.  Chemistry
+4.  Soft Skills
+5.  Computer Science
 
 DESCRIPTION LIST (with descriptions added)
 
-SHRUTI
+Shruti
+- school captain
 
-`- `school captain
+Abhisekh
+- sports captain
 
-ABHISEKH
+Sam
+- chess player
 
-`-`sports captain
+Amanda
+- senior secretary
 
-SAM
-
-`-` chess player
-
-AMANDA
-
-`-` senior secretary
-
-AMRITA
-
-`-` club incharge
+Amrita
+- club incharge
