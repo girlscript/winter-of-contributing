@@ -1,5 +1,6 @@
-Documentation for Java Method basics:
-
+<hr>
+##Documentation for Java Method basics:
+</hr>
 Methods are block of codes that are executed only when they are called.
 Methods are used to perform certain actions, and they are also known as functions.
 Methods can also include parameters that are passed to them during the time of calling.
