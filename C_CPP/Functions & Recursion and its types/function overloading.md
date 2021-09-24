@@ -34,8 +34,8 @@ Also a class can also have overloaded constructors. A destructor function can’
 ```
 #include<iostream> 
 using namespace std; 
-void amt(float pr,int t=2,float r=0.08); 
-void amt(float pr,int t,float r)
+void amt(float pr,int t=2,float r=0.08); //prototype
+void amt(float pr,int t,float r)//overload function
 {
    cout<<"\n principal amt: "<<pr; 
     cout<<"\n time : "<<t<<"years"; 
@@ -46,13 +46,13 @@ int main()
 {
     system("cls"); 
     cout<<"case1"; 
-    amt(1000); 
+    amt(1000); //only one argument is passed
     cout<<"case2"; 
-    amt(1000,3); 
+    amt(1000,3); //two arguments are passed
     cout<<"case3"; 
-    amt(1000,3,0.11); 
+    amt(1000,3,0.11); //three arguments are passed
    cout<<"case4";
-    amt(1000,0.12); 
+    amt(1000,0.12); //two arguments passed with t=2 as default
     return 0; 
 } 
  ``` 
