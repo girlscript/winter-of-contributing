@@ -4,7 +4,7 @@
 ### Why we need it? How is it useful?
 <p>Function overloading not just implements polymorphism but also reduces number of comparisons in a program and hence makes the program faster.</p>
 
-## How to declare or implement function overloading?
+### How to declare or implement function overloading?
 <p>The key to function overloading is a function’s argument list which is also known as the function signature.
 There might be a situation where a function has same name and same number of arguments then we must keep in mind that c++ lets you overload a function name only if the function has same name but different signatures.<br>
 Example-<br>
