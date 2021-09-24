@@ -1,5 +1,5 @@
 # Sieve Of Eratosthenes
-Sieve of Eratosthenes is an algorithm to find prime numbers in the range 1 to n, in time complexity of O(n*log(log(n))) and space complexity of O(n). The basic idea behind Sieve is that a number is said to be prime if it is not divided by any of the smaller prime numbers.
+Sieve of Eratosthenes is an algorithm to find prime numbers in the range 1 to n, in time complexity of `O(n*log(log(n)))` and space complexity of `O(n)`. The basic idea behind Sieve is that a number is said to be prime if it is not divisible by any of the smaller prime numbers.
 
 ## Pseudo Code:
 >     sieve(int ){
