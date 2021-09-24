@@ -1,11 +1,14 @@
 ![Mapping](https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2020/12/17132206/react-how-to-use-map.jpg)
 
 # Mapping in React
+<br>
 
 ## What is Map
 
 The Map is an Advanced Function that is used to perform a specific task to all the elements in a list. A Map cannot have duplicate keys so it can only be a map once. As a consequence, we can easily iterate over a list without duplication.
+<br><br>
 
+---
 ## Syntax
 
 ```javascript
@@ -13,7 +16,9 @@ list.map((data) => {
   return <h1>(data)</h1>;
 });
 ```
+<br><br>
 
+---
 ## Use Of Map in React
 
 1. The main use of react is to render multiple components
@@ -94,3 +99,12 @@ export default Learn_Mapping = () => {
 
 The Output will be as shown Below:
 <p align="center" ><img src="./assets/Mapping.jpeg" height = "200"></p>
+<br><br>
+
+---
+## Reference
+[React Documentation](https://reactjs.org/docs/lists-and-keys.html)
+<br>
+[Javapoint](https://www.javatpoint.com/react-map)
+<br>
+https://www.pluralsight.com/guides/how-to-use-the-map()-function-to-export-javascript-in-react
