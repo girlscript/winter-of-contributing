@@ -1,1 +1,2 @@
 - [Classes & Objects](Classes&Objects.md)
+- [Programming Paradigms](Programming Paradigms.md)
