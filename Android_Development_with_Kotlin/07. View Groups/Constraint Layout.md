@@ -62,7 +62,7 @@ Now, according to what we have learnt so far we can design our apps through Drag
   * Choose **Empty Activity** as your layout and proceed further.
   * Select **Kotlin** as your language
 * **Step 2: Adding Dependency**
-  * Navigate to the app > Gradle scripts > build.gradle file and add the below dependency to it in the dependencies section.
+  * Navigate to the **app > Gradle scripts > build.gradle file** and add the below dependency to it in the dependencies section.
   `implementation 'androidx.constraintlayout:constraintlayout:2.0.4'`
 * **Step 3: Working with activity_main.xml file**
   * Navigate to the app > res > layout > activity_main.xml and add the below code to that file. Below is the code for the activity_main.xml file.
@@ -99,7 +99,8 @@ Now run the code and see the result.
 <hr/>
 <img src="https://user-images.githubusercontent.com/59731205/134682422-f313d32d-c9ad-47cf-8344-4d649174f5a8.gif">
 <hr/>
-In the above code we have applied four Constraints to the TextView.<br/>Each constraint is attached to the parent view.
+In the above code we have applied four Constraints to the TextView 
+<br/>Each constraint is attached to the parent view.
 
 ## Author
 * [@shubhmittal297](https://github.com/shubhmittal07)
