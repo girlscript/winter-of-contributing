@@ -55,9 +55,9 @@ int main()
     amt(1000,0.12); //two arguments passed with t=2 as default
     return 0; 
 } 
- ``` 
+``` 
 ### Output of the program:
- ```
+```
  case1
  principal amt: 1000 
  time : 2years 
@@ -78,5 +78,5 @@ case4
  time : 0years 
  rate : 0.08 
  Simple interest : 0 
-```
+ ```
 
