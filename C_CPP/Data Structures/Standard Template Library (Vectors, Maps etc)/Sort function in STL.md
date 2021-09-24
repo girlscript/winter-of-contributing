@@ -11,7 +11,7 @@ It generally takes two parameters :-
 
 *By default this function sort the array or vector in ascending order.*
 
-**Example of simple sort():-**
+## **Example of simple sort():-**
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -32,9 +32,9 @@ Array after sorting in default way:
 0 1 2 3 4 5 6 7 8 9
 **For Sort the array in decending order**
 sort() takes a third parameter which is used to specify the order in which elements are to be sorted. We can pass the “greater()” function to sort in descending order.
-## **Example Of sort function in decending order:-**
+## **Example of sort function in decending order:-**
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int main()
