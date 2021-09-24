@@ -31,6 +31,7 @@ In the above image:
 <hr/>
 In the following GIF as you can see , both the views (ImageView and Button) are interconnected to each other.<br/>
 Moving the image also moves the button.
+<br/><br/>This is the code of the following demonstration.<br/>I would like you to go through this code after doing this tutorial
 
 ### Now to do so we have to use some Attributes provided in Constraint Layout-:
 |   Attributes       | Description     | 
