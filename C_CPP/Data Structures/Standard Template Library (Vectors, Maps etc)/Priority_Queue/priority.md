@@ -10,7 +10,7 @@ Practically, both these actions are influence.
 beacuse it is takes roughly O(log n) time or less.
  ## Priority Queue Representation
 
-![App Screenshot](priority1.jpg)
+![image](https://user-images.githubusercontent.com/63473496/134657811-39221427-9e08-4386-9fd4-21960a4df30f.png)
 
  We're going to implement Queue using array.There is few more operations supported by queue which are following :-
 
@@ -188,7 +188,7 @@ the first non-empty queue.Whenever an element is to be removed from queue, queue
 
 *If we compile and run the above program then it would produce following result −*
 
-![App Screenshot](priority2.png)
-![App Screenshot](priority3.png)
+![image](https://user-images.githubusercontent.com/63473496/134657950-d4835334-541d-49bd-82bb-8955925f16d9.png)
+![image](https://user-images.githubusercontent.com/63473496/134658013-89b0aa8f-f65e-4731-b393-eabe42ebbc90.png)
 
 **Contributor**: [Shalini Kumari](https://github.com/Raghavshalu)
