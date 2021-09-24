@@ -1,15 +1,18 @@
-<hr>
-##Documentation for Java Method basics:
-</hr>
+Documentation for Java Method basics:
+
+What is a Method?
+
 Methods are block of codes that are executed only when they are called.
 Methods are used to perform certain actions, and they are also known as functions.
 Methods can also include parameters that are passed to them during the time of calling.
 
-Purpose of using a Method:- To reuse the code.
-                          - Reduce code writing time and space.
+
+Purpose of using a Method:-
+- To reuse the code.
+- Reduce code writing time and space.
+
 
 Creation of a Method:-
-
 Methods must be created inside the class so that it can be accessed there. Java also provides some predefined methods such as System.out.println(), but we can also create our
 own methods to serve different purpose.
 
@@ -18,9 +21,7 @@ A Method/function is always represented by "methodName()".
 Syntax to define a Method:
               
               modifier returnType nameOfMethod (Parameter List) {
-                  
                   // method body
-              
               }
 
 
@@ -88,7 +89,7 @@ The Methods that don't have any returnType (void) don't return any value. They j
          }
       }
 
-      The above function gives output = 6.
+   The above function gives output = 6.
 
 
    Here int c = minFunction(a, b); is the Method calling statement. c is a variable of integer data type that calls the minFunction().
@@ -125,7 +126,7 @@ The Methods that don't have any returnType (void) don't return any value. They j
          }
       }
 
-      The output of the above fucntion: A
+   The output of the above function: A
 
  Here the methodRankPoints() doesn't return any value to main method because there is no return type here. It's void.
  Rather the methodRankPoints() just prints the result and ends the program.
@@ -167,7 +168,7 @@ The Methods that don't have any returnType (void) don't return any value. They j
 
   Here the value of a & b doesn't change, they are just passed to n1 & n2 respectively.
 
-Important thing regarding the parameters declared inside the Method is that the variable names should be different than the original variables that are being passed from the main().
+Important thing regarding the parameters declared inside the Method is that the variable names should be different than the name of variables that are being passed from the main().
 In the above example as we can see that the variables inside are a,b and the variables declared in the minFunction() are n1,n2. 
 The variable names in minFunction() can't be a,b. They can be anything else.
 
