@@ -78,4 +78,4 @@ Let us start learning how to create various gradient effects :
     ```
     ![Gradient color-band](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Gradient-band.png)
 
-    > `Please notice` here each colour is preceded by two % values like `red 50% 75%`. Here, 50% denotes the `color start` value and 75% denotes        the `color stop` value. Then, why does `purple 25%` have just one percentage value? Because here `color start` value is 0 and therefore, does      not need to written seperately.
+    > `Please notice` here each colour is followed by two % values like `red 50% 75%`. Here, 50% denotes the `color start` value and 75% denotes        the `color stop` value. Then, why does `purple 25%` have just one percentage value? Because here `color start` value is 0 and therefore, does      not need to written seperately.
