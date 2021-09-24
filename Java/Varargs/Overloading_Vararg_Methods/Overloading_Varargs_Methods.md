@@ -25,23 +25,23 @@ Here the method overloading is done in two ways:-
      
     public static void main(String[] args)
 	  {
-	  	fun();
+	  	foo();
 	  }
 
 	  //varargs method with float datatype
-	  static void fun(float... x)
+	  static void foo(float... x)
 	  {
 	  	System.out.println("float varargs");
   	}
 	
 	  //varargs method with int datatype
-	  static void fun(int... x)
+	  static void foo(int... x)
 	  {
 	  	System.out.println("int varargs");
 	  }
 	
 	  //varargs method with double datatype
-	  static void fun(double... x)
+	  static void foo(double... x)
 	  {
 		  System.out.println("double varargs");
 	  }
@@ -85,48 +85,48 @@ Here the method overloading is done in two ways:-
      like this:-
    ```  
    error: reference to fun is ambiguous
-		              fun();
+		              foo();
    ````
 	
  **Example:-**
 
 	// A method that takes varargs(here integers).
-	static void fun(int ... a)
+	static void foo(int ... arr)
 	{
-		System.out.print("fun(int ...): " +
-				"Number of args: " + a.length +
+		System.out.print("foo(int ...): " +
+				"Number of args: " + arr.length +
 				" Contents: ");
 		
-		// using for each loop to display contents of a
-		for(int x : a)
+		// using for each loop to display contents of arr
+		for(int x : arr)
 			System.out.print(x + " ");
 		
 		System.out.println();
 	}
 	
 	// A method that takes varargs(here booleans).
-	static void fun(boolean ... a)
+	static void foo(boolean ... arr)
 	{
-		System.out.print("fun(boolean ...) " +
-				"Number of args: " + a.length +
+		System.out.print("foo(boolean ...) " +
+				"Number of args: " + arr.length +
 				" Contents: ");
 		
-		// using for each loop to display contents of a
-		for(boolean x : a)
+		// using for each loop to display contents of arr
+		for(boolean x : arr)
 			System.out.print(x + " ");
 		
 		System.out.println();
 	}
 	
 	// A method takes string as a argument followed by varargs(here integers).
-	static void fun(String msg, int ... a)
+	static void foo(String msg, int ... arr)
 	{
-		System.out.print("fun(String, int ...): " +
-				msg + a.length +
+		System.out.print("foo(String, int ...): " +
+				msg + arr.length +
 				" Contents: ");
 		
-		// using for each loop to display contents of a
-		for(int x : a)
+		// using for each loop to display contents of arr
+		for(int x : arr)
 			System.out.print(x + " ");
 		
 		System.out.println();
@@ -134,10 +134,10 @@ Here the method overloading is done in two ways:-
 	
 	public static void main(String args[])
 	{
-		// Calling overloaded fun() with different parameter
-		fun(1, 2, 3);
-		fun("Testing: ", 10, 20);
-		fun(true, false, false);
+		// Calling overloaded foo() with different parameter
+		foo(3,2,1);
+		foo("Test:- ", 10, 20);
+		foo(false, true, false);
 	}
 	
 ![Screenshot 2021-09-24 at 2 35 02 PM](https://user-images.githubusercontent.com/70788113/134649136-da1acf5c-7cb8-4246-8954-71ade4753112.png)
@@ -145,9 +145,9 @@ Here the method overloading is done in two ways:-
 
 **Output:-**
 
-    fun(int ...): Number of args: 3 Contents: 1 2 3 
-    fun(String, int ...): Testing: 2 Contents: 10 20 
-    fun(boolean ...) Number of args: 3 Contents: true false false
+    foo(int ...): Number of args: 3 Contents: 3 2 1
+    foo(String, int ...): Test: 2 Contents: 10 20 
+    foo(boolean ...) Number of args: 3 Contents: false true false
     
 
  
