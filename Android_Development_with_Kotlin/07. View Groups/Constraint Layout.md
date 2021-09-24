@@ -1,5 +1,6 @@
 # Constraint Layout
 So before diving into Constraint Layout first see what is a View Group. 
+<hr/>
 <p align="center">
 <img src="https://developer.android.com/codelabs/basic-android-kotlin-training-birthday-card-app/img/e4c1f4e455d72c81.png?authuser=1"> 
 </p>
@@ -19,3 +20,21 @@ Every View has a relationship with each other, for example:-
 <hr/>
 In the following GIF as you can see , both the views (ImageView and Button) are interconnected to each other.<br/>
 Moving the image also moves the button.
+
+### Now to do so we have to use some Attributes provided in Constraint Layout-:
+|   Attributes       | Description     | 
+| :------------- | :----------: | 
+|  android:id  | This is used to give a unique id to the layout.   | 
+|  app:layout_constraintBottom_toBottomOf  | This is used to constrain the view with respect to the bottom position. |
+|  app:layout_constraintRight_toRightOf    | This attribute is used to constrain the view with respect to the left position.|
+|  app:layout_constraintTop_toTopOf        | This attribute is used to constrain the view with respect to the top position.|
+<hr/>
+<p align = "center">
+<img src="https://user-images.githubusercontent.com/59731205/134665849-ab8d76e7-0c0e-4d45-ba12-a5beac960575.png">
+</p>
+<hr/>
+These attributes are used to connect one side of a View to other side of other View.<br/>
+Just like these attributes there are also attributes which we can use to connect two diiferent sides of Views.
+<br/><br/>
+
+
