@@ -22,6 +22,7 @@
 - [Stack_and_Queue](./Stack_and_Queue)
 - [Loop Break](./Loops_Break)
 - [Decorators](./Decorators)
+- [Functions](./Functions)
 - [What_is_Filter_in_python](./What_is_Filter_in_python)
 - [OOP-Class](./OOP-Class)
 - [Advanced_function_reduce()](<./Advanced_function_reduce()>)
@@ -29,6 +30,7 @@
 - [List_Comprehension](./List_Comprehension)
 - [Advanced_function_map()](./Advanced_function_map())
 - [What is Automation?](./What_is_Automation)
+
 
 ## Learning path
 
@@ -45,6 +47,7 @@
 11. Stack and Queue
 12. Loop Break
 13. Decorators
+14. Functions
 14. What_is_Filter_in_python
 15. OOP-Class
 16. Advanced function-reduce()
@@ -52,3 +55,4 @@
 18. List Comprehension
 19. Advanced function-map()
 20. What is Automation?
+
