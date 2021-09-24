@@ -33,6 +33,7 @@
 
   - <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc)">Standard Template Library (Vectors, Maps etc) </a>
   - <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/User%20Defined%20(Fenwick%20Tree%2C%20Segment%20Tree%20etc)">User Defined (Fenwick Tree, Segment Tree etc) </a>
+  - <a href="https://github.com/sinu-02/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Stock%20Span%20Problem">Stock Span Problem</a>
   
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Operating%20System%20Concepts%20(Scheduling%2C%20Memory%20management%2C%20etc)">Operating System Concepts (Scheduling, Memory management, etc) </a>
 ### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Competitive%20Programming">Competitive Programming</a>
