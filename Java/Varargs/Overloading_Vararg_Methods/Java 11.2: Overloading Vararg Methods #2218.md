@@ -12,7 +12,7 @@ e.g.
     int foo(int i, float j);
     
     float foo(float i, float j);
-    
+
 **NOTE:- Only changing the return type of method is not method overloading.**
 
 <br/>
@@ -45,6 +45,9 @@ Here the method overloading is done in two ways:-
 	  {
 		  System.out.println("double varargs");
 	  }
+	  
+   ![Screenshot 2021-09-24 at 2 09 13 PM](https://user-images.githubusercontent.com/70788113/134648966-6eb99a3c-32fc-47c3-b396-d8f6814090a3.png)
+	  
   
     Here Java will call the function using the rule that the most specific method is chosen according to type promotion.    
     This means the type of varargs which is more specific according to the rule will be called.    
@@ -133,6 +136,8 @@ Here the method overloading is done in two ways:-
 		fun("Testing: ", 10, 20);
 		fun(true, false, false);
 	}
+	
+![Screenshot 2021-09-24 at 2 35 02 PM](https://user-images.githubusercontent.com/70788113/134649136-da1acf5c-7cb8-4246-8954-71ade4753112.png)
   
 
 **Output:-**
@@ -142,5 +147,5 @@ Here the method overloading is done in two ways:-
     fun(boolean ...) Number of args: 3 Contents: true false false
     
 
-  
-  
+ 
+ Reference Website:- https://www.geeksforgeeks.org
