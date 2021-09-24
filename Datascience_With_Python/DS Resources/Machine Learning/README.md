@@ -1,8 +1,4 @@
 Introduction to Numpy Resources:
-
-
-[Apriori Algorithm](./Apriori Algorithm)
-
 1. https://www.geeksforgeeks.org/python-numpy/
 2. https://data-flair.training/blogs/numpy-features/
 3. https://medium.com/fintechexplained/why-should-we-use-numpy
