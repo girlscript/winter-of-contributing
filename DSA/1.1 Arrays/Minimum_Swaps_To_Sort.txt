@@ -1,0 +1,53 @@
+Given an array of n distinct elements. Find the minimum number of swaps required to sort the array in strictly increasing order.
+
+Example 1:
+Input:
+nums = {2, 8, 5, 4}
+Output:
+1
+Explaination:
+swap 8 with 4.
+
+
+
+class Solution
+{
+    //Function to find the minimum number of swaps required to sort the array.
+    public int minSwaps(int nums[])
+    {
+        //create a hashmap to store indexes of the array
+        HashMap<Integer,Integer> hm=new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            hm.put(nums[i],i);
+        }
+        
+        //create a temp array and sort it 
+        //Step1:- if element in temp and nums are not equal then increment the count.
+        //Step2:- Swap the values using indexing done in hashmap
+        //Step3:- Then update the hashmap as the values has been swapped so their index need to be get updated
+        
+        int[] temp = Arrays.copyOfRange(nums, 0, nums.length);
+        Arrays.sort(temp);    
+        
+        int c=0;
+        for(int i=0;i<nums.length;i++){ //Step 1
+            if(nums[i]!=temp[i]){
+                c++;
+                int idx=hm.get(temp[i]);
+                
+                //Step 2 -> SWAPPING 
+                int t=nums[i];
+                nums[i]=nums[idx];
+                nums[idx]=t;
+                
+                //STEP 3 -> UPDATION OF HASHMAP
+                hm.put(t,idx);
+                hm.put(temp[i],i);
+                
+              
+            }
+           
+        }
+        return c;
+    }
+}
