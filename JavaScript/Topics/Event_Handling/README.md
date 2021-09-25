@@ -54,7 +54,8 @@
              for the same event,'addEventListener()' is a good choice
 
     3. Click Event-
-       The click eventoccurs when the user clicks on an element. The click event is completed when the mouse button is pressed and releasedon a single element.
+       The click eventoccurs when the user clicks on an element. The click event is completed when the mouse button is pressed 
+       and releasedon a single element.
 
        The syntax is- You can use one of the following syntax:<br>
        -target.onclick= functionRef;<br>
@@ -133,27 +134,27 @@ These are the some important event handlers.There are many event handlers like-
           </script>
      </body>
 </html>
-# Example: Simple Program on onload() Event handler
-<html>
-     <head>
-     <script type="text/javascript">
-     function time()
-     {
-          var d = new Date();
-          var ty = d.getHours() + ":"+d.getMinutes()+":"+d.getSeconds();
-          document.frmty.timetxt.value=ty;
-          setInterval("time()",1000)
-     }
-     </script>
-     </head>
-<body onload="time()">
-     <center><h2>Displaying Time</h2>
-          <form name="frmty">
-               <input type=text name=timetxt size="8">
-          </form>
-     </center>
-</body>
-</html>
+# Example: Simple Program on onload() Event handler<br>
+<html><br>
+     <head><br>
+     <script type="text/javascript"><br>
+     function time()<br>
+     {<br>
+          var d = new Date();<br>
+          var ty = d.getHours() + ":"+d.getMinutes()+":"+d.getSeconds();<br>
+          document.frmty.timetxt.value=ty;<br>
+          setInterval("time()",1000)<br>
+     }<br>
+     </script><br>
+     </head><br>
+<body onload="time()"><br>
+     <center><h2>Displaying Time</h2><br>
+          <form name="frmty"><br>
+               <input type=text name=timetxt size="8"><br>
+          </form><br>
+     </center><br>
+</body><br>
+</html><br>
 So basically Event handlers can be used to handle and verify user input, user actions, and browser actions:<br>
 ● Things that should be done every time a page loads.<br>
 ● Things that should be done when the page is closed.<br>
