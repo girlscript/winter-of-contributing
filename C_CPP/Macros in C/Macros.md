@@ -13,7 +13,7 @@ A macro is a piece of code that is given a name. It can be defined by using the 
 Let's have  alook at each of the following: <br><br>
 
 ## Object like Macros
-These are basically used to assign a value to a certain variable and are mostly used to define mathematical values and constants like Pi, e, iota etc. 
+These are used to assign a value to a certain variable and are mostly used to define mathematical values and constants like Pi, e, iota etc. 
 
 For example: &nbsp; **#define speed 10000**
 
