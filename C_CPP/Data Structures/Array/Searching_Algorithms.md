@@ -15,8 +15,8 @@ There are various types of algorithms but we will stick to the most commonly use
    
    #### A simple approach
       1. Given an array (for simplicity) and a target element. 
-      2. Traverse the entire array starting from the left most index till the end and check whether the target element matches with the
-         current element at a particular index of an array.
+      2. Traverse the entire array starting from the left most index till the end and check whether the target element matches
+         with the current element at a particular index of an array.
       3. Return the index of the element if found in the array otherwise return -1 .
   
   #### Code sample in C++
@@ -29,17 +29,17 @@ There are various types of algorithms but we will stick to the most commonly use
 #include<bits/stdc++.h>
 using namespace std;
 
-int fun(int arr[],int n,int key)
+int fun(int arr[],int size,int key)
 {
   // if the size of the array is 0, means array does not exist and straight away return -1
-  if(n == 0)         
+  if(size == 0)         
     return -1;
   
   // traversing the entire array by placing a check and comparing with the key (i.e target)
-  for (int i = 0; i < n; i++)
+  for (int index = 0; index < size; index++)
   {
-    if(arr[i] == key)
-      return i;       // returns the index of the element if found 
+    if(arr[index] == key)
+      return index;       // returns the index of the element if found 
   }
 
   // means element not found so return -1
@@ -49,23 +49,25 @@ int fun(int arr[],int n,int key)
 int main()
 {
 
-  int n,target;
-  cin>>n>>target; // taking input from the user, size of the array and the target element
-  int arr[n];
+  int size,target;
+  cin>>size>>target; // taking input from the user, size of the array and the target element
+  int arr[size];
   
   // inserting elements in the array
-  for (int i = 0; i < n; i++)
-    cin>>arr[i];
+  for (int index = 0; index < size; index++)
+    cin>>arr[index];
 
-  int x = fun(arr,n,target);  // function call that returns the index of the element 
+  int x = fun(arr,size,target);  // function call that returns the index of the element 
                               // if not found returns -1 
   if(x == -1)
    cout<<"Element not found";
   else 
    cout<<"Element is found at index "<<x;  
-   
+
   return 0;
 }
+
+
 ```
 
   ##### Test case 1
@@ -99,5 +101,8 @@ int main()
    
    In the best case the time complexity of the above algorithm is O(1) , in this case the element will be present at the 0th index of
    the array.
+   
+  ## Binary Search
+   
       
       
