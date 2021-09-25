@@ -14,10 +14,12 @@
    **Overview on different stages and flow of interview**
    - **Quick notes or cheat sheets technology wise**
    - **Online Assessment:**
-       - Topic Wise Content references
-    - **Technical**
+     - Topic Wise Content reference
+   - **Technical**
        - Aspects one would be judged upon
        - Common Topic wise Questions list
+   - **Behavorial**
+       - Commonly asked questions + references
 
 
 ### :orange_circle: *Module 2* :
