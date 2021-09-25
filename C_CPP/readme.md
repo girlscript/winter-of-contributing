@@ -64,7 +64,7 @@
 
 - ### [File Handling & IO Management](./File%20Handling%20%26%20IO%20Management/)
 
-- ### [Number System i.e Binary, Octal, Decimal, HexaDecimal etc](./Number%20System/)
+- ### [Number System](./Number%20System/)
 
 - ### [Data Structures](Data%20Structures/)
   
