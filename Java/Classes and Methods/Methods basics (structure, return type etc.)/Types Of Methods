@@ -21,7 +21,7 @@ class example
 
 In the above exmple we're having main(), println(), sqrt() functions, which we've used directly without defining them.
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2.) USER-DEFINED METHODS:
 These type of methods are defined by users according to their need, and also they can modify them according to their requirements.
@@ -45,4 +45,4 @@ In the above example as soon as the compiler reaches at sum() function the contr
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Congratulations! you've got the basic knowledge of types of functions in java, keep learning, keep coding, and also keep exploring 😁😁.
+Congraulations! you've got the basic knowledge of types of functions in java, keep learning, keep coding, and also keep exploring 😁😁.
