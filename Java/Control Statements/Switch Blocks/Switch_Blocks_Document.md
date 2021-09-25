@@ -102,22 +102,36 @@ public class WeekDays{
         switch(dayNumber)
         {
             //case statements within the switch block
-            case 1: day="Sunday";
-            break;
-            case 2: day="Monday";
-            break;
-            case 3: day="Tuesday";
-            break;
-            case 4: day="Wednesday";
-            break;
-            case 5: day="Thursday";
-            break;
-            case 6: day="Friday";
-            break;
-            case 7: day="Sunday";
-            break;
+            case 1: 
+	       day="Sunday";
+	       System.out.println(day);
+	       break;
+            case 2:
+	       day="Monday";
+	       System.out.println(day);
+               break;
+            case 3: 
+	       day="Tuesday";
+	       System.out.println(day);
+	       break;
+            case 4: 
+	       day="Wednesday";
+               System.out.println(day);
+	       break;
+            case 5: 
+	       day="Thursday";
+               System.out.println(day);
+	       break;
+            case 6: 
+	       day="Friday";
+               System.out.println(day);
+	       break;
+            case 7: 
+	       day="Sunday";
+	       System.out.println(day);
+               break;
             default:
-            System.out.println("Invalid day number");
+               System.out.println("Invalid day number");
         }
     }
 }
