@@ -1,5 +1,5 @@
 # Kadane's Algorithm
-Efficient method to find the sum of contiguous subarray within a one-dimensional array of numbers that has the largest sum. 
+Given a one-dimensional array of numbers, the task is to evaluate the maximum subarray sum efficiently!
 
 ![alt text](https://www.alphacodingskills.com/algo/img/kadane-algo.PNG)
 
@@ -92,5 +92,4 @@ int main()
 
 **Time Complexity: O(n)**
 **Auxiliary Space: O(1)**
-
 
