@@ -487,6 +487,9 @@ Split means parting the things apart or in simpler words separating the things. 
 ```
 String split(String regex)
 ```
+
+### Example
+```
 Public class Example{
       public static void main(String[] args) {
 	String str1 = “This is the split method”;
@@ -497,6 +500,7 @@ Public class Example{
       }
 }
 ```
+
 Here Output will be
 ```
 This
