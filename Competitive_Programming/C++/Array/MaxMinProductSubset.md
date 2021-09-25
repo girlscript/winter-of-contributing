@@ -52,7 +52,7 @@ void getsubsets(vector<int> &arr, vector<vector<int>> &temp_container, vector<in
 ```
 
 As visible each element is check twice so basically 2 recursive calls for its inclusion/exculsion , adding to that the size of the given array hence by basic combinotronics it becomes 2<sub>n</sub> and as another vector is initialized in midway to work on, this increases both the time & space complexity of the whole program overall as :
-Time Complexity : **nO(2<sub>n</sub>)**
+Time Complexity : **nO(2<sup>n</sup>)**
 Space Complexity : O(n)
 
 Above explanation puts a clear picture how it would slow down the operation activity of the simple program.
