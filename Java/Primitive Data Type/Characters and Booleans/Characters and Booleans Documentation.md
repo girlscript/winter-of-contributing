@@ -29,7 +29,7 @@ System.out.println("char2: "+char2);
 ```
 ``` j
 output :  char1: a
-		  char2: A
+	  char2: A
 ```				
  **ASCII Code for Commonly Used Characters**:--
  -
@@ -65,7 +65,7 @@ output :  char1: a
  output : b
  ```
  - **Casting between char and numeric types**:--
-    A char can be converted into any numeric type, and vice versa. All numeric operations can be applied to the char operands. Example;
+    A char can be converted into any numeric type, and vice versa. All numeric operations can be done using char operands. Example;
  ```java
 int i = 'a';     // Same as int i = (int)'a';     // (int) a is 97
 int j = 1 + 'a'; 
@@ -151,6 +151,7 @@ output : 92
 | boolean equals( object obj)| Returns true if the objects are same|
 |static Character valueOf (Character ch)|Returns a Character instance representing the specified char value|
 
+[Back to top](#characters-and-booleans)
 
  # Booleans
  
