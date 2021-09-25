@@ -48,7 +48,9 @@ int main(){
    
    Insertion sort is stable sort with a space complexity of O(1) and it is said to be stable  if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted. Stability is mainly important when we have key value pairs with duplicate keys possible  and we want to sort these objects by keys.</br>
    A sorting algorithm is stable if-</br>
-   i < j\:\:and\:\:A[i]\equiv A[j]\:\:implies\:\:\pi (i) < \pi (j)</br>
+   ![image](https://user-images.githubusercontent.com/88306424/134772494-1d97f885-8f4e-4f9f-8aa1-b1d87405d9df.png)
+
+   
 where \pi is the sorting permutation ( sorting moves A[i] to position \pi(i) )</br>
 Informally, stability means that equivalent elements retain their relative positions, after sorting.
 ![image](https://user-images.githubusercontent.com/88306424/134770958-c8a7012e-6827-47eb-b12a-f103dc4d7ab6.png)
