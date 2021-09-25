@@ -14,7 +14,8 @@
    - **1.5. Probability Distributions (Gaussian, Standard, Poisson)**
    - **1.6. Maximum Likelyhood Estimation**
    - **1.7. Parzen Windows**
-
+   - **1.11. Skewness**
+   
 ### :yellow_circle: *Week 2 [Supervised Machine Learning (Classic Algorithms)]* :
    - **2.1. What is Learning? Why Machine Learning works?**
    - **2.2. Linear Regression**
