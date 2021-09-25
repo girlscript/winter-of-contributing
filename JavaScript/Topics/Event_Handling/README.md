@@ -50,8 +50,8 @@
   
         Example of on<event> handlers are 'onclick', 'onkeypress', etc.<br>
  
-       NOTE: When using on<event>, you can only have one handle for each event for an element. To use more than one event handler for the same event, 
-            'addEventListener()' is a good choice
+       NOTE: When using on<event>, you can only have one handle for each event for an element. To use more than one event handler
+             for the same event,'addEventListener()' is a good choice
 
     3. Click Event-
        The click eventoccurs when the user clicks on an element. The click event is completed when the mouse button is pressed and releasedon a single element.
