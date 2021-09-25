@@ -1,2 +1,2 @@
 - [Classes & Objects](Classes&Objects.md)
-- [Programming Paradigms](https://github.com/winter-of-contributing/C_CPP/Classes_&_Objects/Programming_Paradigms.md)
+- [Programming Paradigms](https://github.com/winter-of-contributing/C_CPP/Classes%20&%20Objects/Programming%20Paradigms.md)
