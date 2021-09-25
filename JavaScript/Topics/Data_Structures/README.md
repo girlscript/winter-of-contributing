@@ -1,4 +1,3 @@
-
 # Data Structures in JavaScript
 
 ## **JavaScript Iterables**
@@ -9,22 +8,30 @@ Of course, **Arrays are iterable.** But there are many other built-in objects, t
 
 If an object isn’t technically an array, but represents a collection (list, set) of something, then ``for..of`` is a great syntax to loop over it, so let’s see how to make it work.
 
-## **Iterating Over a String**
+### **Iterating Over a String**
 You can use a ``for..of`` loop to iterate over the elements of a string:
 
 **For Example**
 ```js
 for (const x of "GWOC") {
   // code block to be executed
+  console.log(x);
 }
 ```
+**Output:**
+```
+G
+W
+O
+C
+```
 
-## **Iterating Over an Array**
+### **Iterating Over an Array**
 You can use a **for..of** loop to iterate over the elements of an Array:
 
 **For Example**
 ```js
-for (const x of [1,2,3,4,5] {
+for (const x of [1,2,3,4,5]) {
   // code block to be executed
 }
 ```
@@ -293,9 +300,9 @@ Differences between JavaScript Objects and Maps:
 
                 |Object                     |Map  
 
-    |Iterable|	Not directly iterable       |Directly iterable
+    |Iterable|  Not directly iterable       |Directly iterable
 
-    |Size|   	Do not have a size property |Have a size property
+    |Size|      No size property            |Have a size property
 
     |Key Types| Keys must be Strings        |Keys can be any datatype
 
