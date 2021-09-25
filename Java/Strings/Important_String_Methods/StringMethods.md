@@ -1,0 +1,344 @@
+# Java String Method
+
+As many other methods in Java, Java String Class also has some very useful methods.
+
+## Definition of String Methods
+
+String methods can be defined as a way to perform operation on the strings. These operations cannot be handled directly thus 
+methods are used and Java provides a number of in-built methods to carry out these operations and manipulate the String.  
+
+## Types of String Methods
+
+Here we will look onto some of the important Java String Methods:
+- charAt()
+- compareTo()
+- concat()
+- contains()
+- equals()
+- equalsIgnoreCase()
+- format()
+- indexOf()
+- isEmpty()
+- join()
+- length()
+- replace()
+- replaceAll()
+- split()
+- substring()
+- toCharArray()
+- toLowerCase()
+- toUpperCase()
+-	trim()
+-	valueOf()
+
+
+
+
+
+### charAt() Method
+
+We very well know that char is basically a datatype representing character types. 
+
+So, the method charAt() basically takes an index value as parameter and return the character value at the index provided. 
+The range of index must lie between 0 to n-1. Now you might be noticing what this n – 1. 
+This n – 1 indicates the last index of the String i.e., if the String is of length n then index ranges from 0 to n-1. 
+If the index is out of this range then the StringIndexOutOfBoundsException is given.
+
+**Syntax**
+
+```
+public char charAt(int index)
+```
+**public** is the access modifier.
+**char** represents the return type.
+**charAt()** is the method used.
+**int index** will be the value provided to the parameter which will be of type integer.
+
+Now let us go through an example to understand it better.
+
+### Example
+```
+public class Example{
+      public static void main(String args[]){
+            String s = “HelloWorld”;
+            Char ch = s.charAt(5);
+            System.out. println(ch);
+      }
+}
+```
+The Output will be
+```
+W
+```
+We can notice that **charAt()** is provided with index 5, hence we need to display the 5th index in the **String s** or 
+we can say we have to display the 6th element of the String which is **W**. Hence the output is W.
+
+
+
+
+
+### compareTo() Method
+
+As the name itself suggests it compares the Strings. This method take a String as parameter and compares it with the other String. 
+The comparison is done on the basis of **Unicode Value** of every character present in the Strings. Now you might be wondering what Unicode Value is? 
+So, it is basically a unique numeric value which is assigned to each letter, digit or symbol according to the international encoding standards so that 
+they can be used with any language or across any platform.
+
+The method return a positive, negative or a 0. Now let’s check all these 3 conditions.
+
+So a positive number is returned if the string1 is greater than string 2. 
+A negative number will be returned if string1 is less than string 2 and.
+Zero is returned if both the string are equal.
+
+**Syntax**
+```
+public int compareTo(String nameOfString)
+```
+Let’s analyse this
+
+**int** is the return type as this method returns an integer.
+**compareTo()** is the method used.
+**String** is the type of parameter provided
+**nameOfString** is the parameter name, basically the string which will provided to compare.
+
+Now let’s see a simple example to understand this
+
+
+### Example
+```
+public class CompareStrings{
+      public static void main(String args[]) {
+            	String str1 = “HelloWorld”;
+String str2 = “Helloworld”;
+String str3 = “Hello”;
+String str4 = “HelloWorld”;
+Sustem.out.println(str1.compareTo(str2)); 
+System.out.println(str1.compareTo(str3));
+System.out.println(str1.compareTo(str4));
+      }
+}
+```
+
+Here the output will be
+```
+-32
+5
+0
+```
+
+In the first case **w** and **W** has a difference of 32 hence -32 is returned. W comes before W in Unicode hence the output is negative. W is 32 times lower than W.
+In second case the difference in length of String is returned i.e., 5. If length of **str1** would have been less than **str3** then negative number would have returned.
+In third case both the Strings are **equal** hence 0 is returned.
+
+
+
+
+
+
+## concat() Method
+
+What does concat means? So concat is an abbreviation for concatenation. Concatenation means joining together. 
+In Java this method helps to join two Strings together and returns a combined or concatenated string.
+
+**Syntax**
+```
+public String concat(String stringToConcat)
+```
+
+**stringToConcat** is the string which is to be added to another String.
+
+
+### Example
+```
+public class StringConcat{
+      public static void main(String args[]){
+	String str1 = “You are reading”;
+	String str2 = “ the String concat method.”;
+	str1 = str1.concat(str2);
+	System.out.println(str1);
+      }
+}
+```
+
+The Output will be
+```
+You are reading the String concat method.
+```
+
+What we have done is we declared two Strings namely **str1** and **str2** and then concatenated the str2 to str1 and stored the result in the str1.
+
+
+
+
+
+### contains() method
+
+The contains method of Java checks whether a particular character or a sequence of characters is present in the String. 
+It has a return type of Boolean i.e.; it return true if the character or the series is found else it returns false.
+
+**Syntax**
+```
+public boolean contains(CharSequence charName);
+```
+
+Here you might be thinking what is CharSequence. So, it is basically a readable sequence of character values. Let’s see an example to make it clearer.
+
+
+### Example
+```
+public class Example{
+      public static void main(String args[]) {
+	String s = “You are reading about contains method”;
+	System.out.println (s.contains(“reading”));
+System.out.println (s.contains(“mth”));
+	System.out.println (s.contains(“ab”));
+      }
+}
+```
+
+Here the Output will be:
+true
+false
+true
+
+**reading** is found in the String hence it returned true. The next sequence **mth** is not found in anywhere in the string hence it returned false 
+while the **ab** again returned true as **ab** was found in the string in the **about**.
+
+
+
+
+
+### equals() method
+The equals method basically compares two given strings based on the characters in the string. If any single character is even not matched then the equals method return false. 
+Thus we can say that each character and its type should be matched. The type here means if a particular character in one string is in Upper case 
+then in the second string it should be upper case as well. 
+The return type is boolean i.e. it return true if string are equal else returns false.
+
+**Syntax**
+```
+Public boolean equals(Object anotherString)
+```
+
+You might be wondering here why I have used the **parameter type** as **Object**. So basically here we overrides the equals() method of the Object Class, 
+and while overriding it is important to follow the same Signature or in simpler words Syntax. 
+We also know that String is a class and not a datatype thus object of String class can be provide as parameter here.
+
+
+### Example
+```
+public class EqualsExample {
+      public static void main (String args[]) {
+	String str1 = “HelloWorld”;
+	String str2 = “HELLOworld”;
+	String str3 = “Welcome”;
+	String str4 = “HelloWorld”;
+	System.out.println(str1.equals(str2));
+System.out.println(str1.equals(str3));
+System.out.println(str1.equals(str4));
+      }
+}
+```
+
+Here the output will be
+```
+false
+false
+true
+```
+The case of **HELLO**was different form the **Hello** in **str1** thus it returned false. The **str3** was completely different thus returned false 
+while **str4** was exactly same as **str1** thus returned true.
+
+
+
+
+
+## equalsIgnoreCase() Method
+
+As we looked in the equals method the comparison was done on the basis of content of Strings as well as the case of the characters 
+while here in the **equalsIgnoreCase()** method we just compare the two given strings on basis of content while the case is ignored. 
+If any letter’s content is not matched then the method return false.
+
+Thus the return type is boolean. If both Strings are matched then method returns equals else returns false.
+
+**Syntax**
+```
+Public boolean equalsIgnoreCase(String compString)
+```
+**compString** is the string that is to be compared.
+
+Lets take the previous example only in this case as well so to compare both the methods.
+
+
+### Example
+```
+public class EqualsExample {
+      public static void main (String args[]) {
+	String str1 = “HelloWorld”;
+	String str2 = “HELLOworld”;
+	String str3 = “Welcome”;
+	String str4 = “HelloWorld”;
+	System.out.println(str1.equals(str2));
+System.out.println(str1.equals(str3));
+System.out.println(str1.equals(str4));
+      }
+}
+```
+
+Here the Output will be
+```
+true
+false
+true
+```
+As the content of **str1, str2 and str 4** were same if we ignore the case hence comparing **str1** with **str2** and **str4** returned true, 
+while with **str3** It returned false which contains different content.
+
+
+### format() Method
+
+Formatiing means making changes, thus a Java format() method returns a formatted String by given locale. It is also supplied with format and arguments.
+One important point to remember here is the String.format() merhod by default calls a Locale.getDefault() method if we don’t specify the locale in the method.
+Here there can be two different syntax i.e. one with locale in the parameter and other without it.
+
+**Syntax**
+```
+Public static String format(String format, Object args)
+
+public static String format(Locale locale, String format, Object args)
+```
+
+Here the **format**  is the format of the String and is specified by the Format Specifier. For example it is **%c** for character, **%x** for integer, 
+**%f** for floating point etc.
+**args** is the format String arguments. They can be any positive number.
+
+Lets analyze this using an example
+
+
+### Example
+```
+public  class Example {
+      public static void main(String arge[]) {
+	String str1 = String.format(“name %s “, JavaProgramming);
+	String str2 = String.format(“%.9f “, 15.113);
+	String str3 = String.format( “The value is %10.2f”, 23.222768);
+	System.out.println(str1);
+	System.out.println(str2);
+	System.out.println(str3);
+      }
+}
+```
+
+The output here will be
+```
+JavaProgramming
+15.113000000
+The value is         23.22
+```
+
+
+Now what is happening here is in the **str2** ***%.9f*** is given thus after the point it has to show a total of 9 digits, 3 digits were already present 
+so the method added 6 zeros to fill up the space.
+Similarly in the **str3**, it was ***%10.2 f*** thus before the decimal a total of 10 places should be available and after the decimal only 2 places. 
+Thus 8 blank spaces were given between the statement and the number and only 2 digits were printed after the decimal.
+
+
