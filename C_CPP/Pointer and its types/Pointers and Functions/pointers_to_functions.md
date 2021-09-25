@@ -33,8 +33,8 @@ int main(){
 The numbers before swapping are:10 and 20
 The numbers after swapping are:20 and 10
 ```
-![Diagram1](https://user-images.githubusercontent.com/77008381/134775453-0d4c7f86-98bb-46ff-aeb1-8a6afc16d0e3.jpg)
-
+<!-- ![Diagram1](https://user-images.githubusercontent.com/77008381/134775453-0d4c7f86-98bb-46ff-aeb1-8a6afc16d0e3.jpg) -->
+<p align = "center"><img src = "https://user-images.githubusercontent.com/77008381/134775453-0d4c7f86-98bb-46ff-aeb1-8a6afc16d0e3.jpg"></p>
 ## Functions returning Pointer
 <hr>
 
@@ -64,8 +64,8 @@ int main(){
 The value returned by function: 10
 ```
 
-![Diagram2](https://user-images.githubusercontent.com/77008381/134776100-3a05c4a6-88e9-419c-8cb5-fd24b5a9f752.jpg)
-
+<!-- ![Diagram2](https://user-images.githubusercontent.com/77008381/134776100-3a05c4a6-88e9-419c-8cb5-fd24b5a9f752.jpg) -->
+<p align = "center"><img src = "https://user-images.githubusercontent.com/77008381/134776100-3a05c4a6-88e9-419c-8cb5-fd24b5a9f752.jpg"></p>
 ## Pointer to Function variables
 <hr>
 
@@ -92,4 +92,5 @@ void display(){
 ```
 Hello World
 ```
-![Diagram3](https://user-images.githubusercontent.com/77008381/134776788-14ff02fc-6f36-45e4-b9b3-e7ed787e34d8.jpg)
+<!-- ![Diagram3](https://user-images.githubusercontent.com/77008381/134776788-14ff02fc-6f36-45e4-b9b3-e7ed787e34d8.jpg) -->
+<p align = "center"><img src = "https://user-images.githubusercontent.com/77008381/134776788-14ff02fc-6f36-45e4-b9b3-e7ed787e34d8.jpg"></p>
