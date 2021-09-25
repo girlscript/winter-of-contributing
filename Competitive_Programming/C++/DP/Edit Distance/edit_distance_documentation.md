@@ -64,7 +64,7 @@ __Time Complexity for the Naive Approach is Exponential__. Since we are performi
 
 ![image](https://user-images.githubusercontent.com/58984074/134164390-56828bac-3a4f-4fbd-9b9b-3211fdf02dd1.png)
 
-It can be concluded that are lots of overlapping subproblems that are solved again and again. Example f(2,2) is calculated many times. Hence we can store the intermediate results of computations and use them further if required. 
+It can be concluded that there are lots of overlapping subproblems that are solved again and again. Example f(2,2) is calculated many times. Hence we can store the intermediate results of computations and use them further if required. 
 Hence a **_Dynamic Programming_** Recursion + Memoization approach can be used here.  
 
 
