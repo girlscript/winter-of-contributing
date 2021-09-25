@@ -82,7 +82,8 @@ element.addEventListener("event", "callback function");
 </html>
 ```
 
-Output
+**Output**
+
 ![output gif](clickEventHTML.gif)
 
 2. Performed in javascript
@@ -102,7 +103,8 @@ Output
 </html>
 ```
 
-Output
+**Output**
+
 ![output gif](clickEventJS.gif)
 
 ## Events with brief description and code
@@ -246,4 +248,4 @@ Output
     ![output gif](keyupdown.gif)
 
 
-####<p align="center">__Written with :heart: by__ [its-me-Harsh-Anand](https://github.com/its-me-Harsh-Anand)</p>
+#### <p align="center">__Written with :heart: by__ [its-me-Harsh-Anand](https://github.com/its-me-Harsh-Anand)</p>
