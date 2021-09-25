@@ -12,8 +12,8 @@
 **Code**
 
  **// CPP program of pair**  
- #include <iostream>  
- #include <utility>  
+ #include < iostream >  
+ #include < utility >  
  using namespace std;
  
  int main( )  
@@ -45,7 +45,45 @@
 > - pair PAIR3 ( PAIR2 );      // copy of PAIR2 is made in PAIR3
 > - PAIR4 = **make_pair** ( 1 , 'a' );  //using make_pair function
 
+**Functions**
+ - **Swap**
+   This function is used to swap the content of two pair of same type with each other.  
+ 
+ **Syntax**
+ > PAIR1.swap(PAIR2);  
+ 
+ **Code**  
+ 
+ #include < iostream >  
+ #include < utility >  
+  using namespace std;   
+ int main()    
+  {  
+    pair<float, int>pair1 = make_pair(2.6, 1);  
+    pair<float, int>pair2 = make_pair(5.7, 2);  
+ 
+    cout << "Before swapping:\n " ;  
+    cout << pair1.first << " " << pair1.second ;  
+    cout << pair2.first << " " << pair2.second ;  
+    pair1.swap(pair2);  
+ 
+    cout << "\nAfter swapping:\n ";  
+    cout << pair1.first << " " << pair1.second ;  
+    cout << pair2.first << " " << pair2.second ;  
+ 
+    return 0;
+}  
+ 
+**Output** 
 
+>Before swapping:  
+>2.6, 1  
+>5.7, 2    
+
+>After swapping:  
+>5.7, 2  
+>2.6, 1  
+ 
 
 
 
