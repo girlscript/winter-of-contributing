@@ -131,6 +131,7 @@ There are two type of pseudo selectors in  CSS.
 ### Pseudo-class selectors:
 
 A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). 
+For example, :hover can be used to change a button's color when the user's pointer hovers over it.
 
 
 ###### 
@@ -158,13 +159,9 @@ div:hover {
 <div>Mouse Over Me</div>
 ```
 
+Below we can see how it works.
 
-
-![Tryit Editor v3 7 - Brave 22-09-2021 15_24_01](https://user-images.githubusercontent.com/78275713/134323476-95bbc7e1-48e8-48b3-b7dc-f7f16c46aa4d.png)
-
-
-
-![Tryit Editor v3 7 - Brave 22-09-2021 15_24_04](https://user-images.githubusercontent.com/78275713/134323576-92c4df35-c351-4f2e-90b6-81ca27cf54b6.png)
+![Tryit Editor v3 7 - Brave 22-09-2021 15_24_04](https://j.gifs.com/Dq85Ek.gif)
 
 
 ### Pseudo-element selectors:
@@ -178,7 +175,6 @@ color: red;
 }
 ```
 
-  
 
 
 ##### HTML
@@ -187,13 +183,12 @@ color: red;
 <p>This is a paragraph with first letter of different color.</p>
 ```
 
-  
-
-![pseudo-element](https://user-images.githubusercontent.com/78275713/134329232-66044513-4193-421c-b868-9869eeea09c5.png)
-
-
 ## Contributor
 
 - [@Tushar Tiwari](https://github.com/brassgolem-25)
 
   
+## Refrence 
+
+- [MDN DOCS](https://developer.mozilla.org/en-US/)
+- [W3 School](https://www.w3schools.com/)
