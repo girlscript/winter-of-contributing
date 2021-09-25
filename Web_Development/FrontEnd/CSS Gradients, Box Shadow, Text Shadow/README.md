@@ -90,7 +90,7 @@ Let us start learning how to create various gradient effects :
       background: radial-gradient(yellow, blue);
     }
     ```
-    ![Radial-Basic]()
+    ![Radial-Basic](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Radial-basic.png)
  
   * ### Radial Color stops and their positioning
     As compared to linear gradients, the `color stop` has the same functionality in radial gradients and they could be specified by an absolute         length or a percentage
@@ -101,7 +101,7 @@ Let us start learning how to create various gradient effects :
       background: radial-gradient(blue 10px, yellow 30%, #1e90ff 50%);
     }
     ```
-    ![Radial-pos]()
+    ![Radial-pos](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Radial-pos.png)
     
     > `Note :` here `10px`,`30%` and `50%` are `color stop`
     
@@ -114,7 +114,7 @@ Let us start learning how to create various gradient effects :
       background: radial-gradient(at 10% 60%, blue 10px, yellow 30%, #1e90ff 50%);
     }
     ```
-    ![Radial-center]()
+    ![Radial-center](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Radial-center.png)
     
     > `Note :` If only one value is specified for the positioning, then it is repeated, otherwise as here in the above code we can see two value.          Now, `10%` is **_position from left_** and `60%` is **_position from top_** and as you guessed, `10px`, `30%` and `50%` are the `color stop`        values
 
@@ -129,7 +129,7 @@ Let us start learning how to create various gradient effects :
       background: conic-gradient(blue,yellow);
     }
     ```
-    ![Conic-Basic]()
+    ![Conic-Basic](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Conic-Basic.png)
     
   * ### Positioning of the center 
     Positioning the center of the conic gradient follows the exact procedure as positioning the center of radial gradient
@@ -140,7 +140,7 @@ Let us start learning how to create various gradient effects :
       background: conic-gradient(at 0% 30%, blue 10%, yellow 30%, #1e90ff 50%);
     }
     ```
-    ![Conic-center]()
+    ![Conic-center](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Conic-center.png)
     
   * ### Conic gradient using Angle
     ```css
@@ -149,6 +149,82 @@ Let us start learning how to create various gradient effects :
       background: conic-gradient(from 45deg, blue, red 50%, yellow 85%, green);
     }
     ```
-    ![Conic-Angle]()
+    ![Conic-Angle](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Conic-Angle.png)
     
     > `Note :` The keyword `from` mentions the starting angle of the conic gradient
+
+## CSS Box Shadow
+Box Shadow in CSS is used to put a shadow effect to one or more elements by specifying its `x-offset` and `y-offset`
+
+ * ### Syntax of a basic box-shadow
+   ```css
+   .box-shadow-basic
+   {
+     box-shadow: 10px 11px black;
+   }
+   ```
+   ![Box-Basic]()
+  
+   > `Note :` Here `10px` is the `x-offset`, `11px` is the `y-offset` and `black` is the colour of the shadow. Also know that a negative value of        each of the offsets would result in the shadow in being produced in the opposite direction in respect to their positive offset values 
+
+ * ### Syntax of box-shadow with `blur-radius`
+   ```css
+   .box-shadow-blur
+   {
+     box-shadow: 10px 11px 5px black;
+   }
+   ```
+   ![Box-Blur]()
+  
+   > `Note :` Here `5px` refers to the `blur-radius` value, i.e the extent till which the shadow would be blurred. The higher the value, bigger is       the blur
+ 
+ * ### Syntax of box-shadow with `blur-radius` and `spread-radius`
+   ```css
+   .box-shadow-all
+   {
+     box-shadow: 10px 11px 5px 3px black;
+   }
+   ```
+   ![Box-All]()
+  
+   > `Note :` Here `3px` refers to the `spread-radius` value, i.e the extent till which the shadow would spread. The higher the value, bigger is is       spread
+
+  **FINAL SYNTAX** -  box-shadow: `x-offset` `y-offset` `blur-radius` `spread-radius` `color` ;
+
+ * ### Some other properties of box-shadow
+   * `inset` : changes a shadow from an outer to inner shadow
+   * `initial` : default values are set
+   * `inherit` : helps inherit the properties of its parent element
+
+## CSS Text Shadow
+Text Shadow in CSS is used to apply shadow to texts
+
+ * ### Syntax of a basic text-shadow
+   ```css
+   .text-shadow-basic
+   {
+    text-shadow: 2px 1px rgb(15, 3, 70);
+   }
+   ```
+   ![Text-basic]()
+   
+   > `Note :` Here similar to box-shadow, `2px` and `1px` are `x-offset` and `y-offset` respectively followed by colour
+ 
+ * ### Syntax of text-shadow with `blur-radius`
+   ```css
+   .text-shadow-blur
+   {
+    text-shadow: 2px 3px 4px rgb(15, 3, 70);
+   }
+   ```
+   ![]()
+   
+   > `Note :` Here `4px` is the `blur-radius` value i.e the extent till which the shadow would be blurred. The higher is its value, bigger the blur       of the text-shadow
+ 
+ **FINAL SYNTAX** : text-shadow : `x-offset` `y-offset` `blur-radius` `color` ;
+ 
+ **Text shadow also has the properties `inset`, `initial` and `inherit` and have the same funaction as they do for box-shadow**
+ 
+ ### Sources
+ https://developer.mozilla.org/en-US/docs/Learn
+ https://www.w3schools.com/cssref/default.asp
