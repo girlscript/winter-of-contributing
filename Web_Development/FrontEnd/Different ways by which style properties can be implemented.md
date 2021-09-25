@@ -195,7 +195,7 @@ body {
     background-color: #fff;
   }
   ```
-#### All the above code snippets yield the same result as given below :
+##### All the above code snippets yield the same result as given below :
   ![batman](https://user-images.githubusercontent.com/79986094/134778023-6e9d578a-7baa-4f32-bdc3-863728bfe0a1.png)
 
 ### CREDIBILITY
