@@ -1,4 +1,4 @@
 # References
-* [Course 2 of Deep Learning Specialization](https://www.coursera.org/learn/deep-neural-network#syllabus)
-* [Simple Guide to Hyperparameter Tuning in Neural Networks](https://towardsdatascience.com/simple-guide-to-hyperparameter-tuning-in-neural-networks-3fe03dad8594)
-* [Overview of hyperparameter tuning](https://cloud.google.com/ai-platform/training/docs/hyperparameter-tuning-overview)
+* [Artificial Neural Network Adaptive Resonance Theory](https://www.tutorialspoint.com/artificial_neural_network/artificial_neural_network_adaptive_resonance_theory.htm)
+* [Adaptive resonance theory - Scholarpedia](http://www.scholarpedia.org/article/Adaptive_resonance_theory)
+* [Adaptive Resonance Theory: How a brain learns to consciously attend, learn, and recognize a changing world](https://www.sciencedirect.com/science/article/abs/pii/S0893608012002584)
