@@ -40,9 +40,9 @@
         });
  
     2. on<event> Handlers-
-       The on<event>handlers are a group of properties offered by DOM elements to help manage how that element reacts to events.<br>
+       The on<event>handlers are a group of properties offered by DOM elements to help manage how that element reacts to events.
  
-       The syntax is -target.on<event> = functionRef;<br>
+       The syntax is -target.on<event> = functionRef;
        Here;<br>
          The 'target' represents the element on which the event is added/attached.<br>
          The 'functionRef' represents the function name or a function expression.<br>
@@ -50,7 +50,8 @@
   
         Example of on<event> handlers are 'onclick', 'onkeypress', etc.<br>
  
-       NOTE:When using on<event>, you can only have one handle for each event for an element. To use more than one event handler for the same event, 'addEventListener()' is a good choice
+       NOTE: When using on<event>, you can only have one handle for each event for an element. To use more than one event handler for the same event, 
+            'addEventListener()' is a good choice
 
     3. Click Event-
        The click eventoccurs when the user clicks on an element. The click event is completed when the mouse button is pressed and releasedon a single element.
@@ -58,7 +59,7 @@
        The syntax is- You can use one of the following syntax:<br>
        -target.onclick= functionRef;<br>
        OR
-       target.addEventListener("click", function() {<br>
+       target.addEventListener("click", function(){
          // JavaScript Code<br>
        });
 
@@ -153,16 +154,16 @@ These are the some important event handlers.There are many event handlers like-
      </center>
 </body>
 </html>
-So basically Event handlers can be used to handle and verify user input, user actions, and browser actions:
-● Things that should be done every time a page loads.
-● Things that should be done when the page is closed.
-● Action that should be performed when a user clicks a button.
-● Content that should be verified when a user inputs data.
- and even more.....
-Many different methods can be used to let JavaScript work with events:
-● HTML event attributes can execute JavaScript code directly.
-● HTML event attributes can call JavaScript functions.
-● You can assign your own event handler functions to HTML elements.
-● You can prevent events from being sent or being handled.
- and even more.....
+So basically Event handlers can be used to handle and verify user input, user actions, and browser actions:<br>
+● Things that should be done every time a page loads.<br>
+● Things that should be done when the page is closed.<br>
+● Action that should be performed when a user clicks a button.<br>
+● Content that should be verified when a user inputs data.<br>
+ and even more.....<br>
+Many different methods can be used to let JavaScript work with events:<br>
+● HTML event attributes can execute JavaScript code directly.<br>
+● HTML event attributes can call JavaScript functions.<br>
+● You can assign your own event handler functions to HTML elements.<br>
+● You can prevent events from being sent or being handled.<br>
+ and even more.....<br>
   
