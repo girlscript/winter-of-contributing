@@ -226,5 +226,5 @@ Text Shadow in CSS is used to apply shadow to texts
  **Text shadow also has the properties `inset`, `initial` and `inherit` and have the same funaction as they do for box-shadow**
  
  ### Sources
- https://developer.mozilla.org/en-US/docs/Learn
- https://www.w3schools.com/cssref/default.asp
+  * https://developer.mozilla.org/en-US/docs/Learn
+  * https://www.w3schools.com/cssref/default.asp
