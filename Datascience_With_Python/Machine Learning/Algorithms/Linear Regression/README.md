@@ -8,8 +8,8 @@
 
   
 ### 🔗 IMPORTANT LINKS 
-#### Documentation: [![Documentation](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]
-#### Dataset: [![Dataset](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://www.kaggle.com/krpiku/haberman.csv)
+#### Documentation: [![Documentation](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Linear%20Regression/linear_regression.ipynb)
+
 
 
 
@@ -368,13 +368,41 @@ Y is predicted or dependent variable.
 
 ## Estimation of accuracy and mean square error
 
+When working with linear regression, our main goal is to find the best fit line that means the error between predicted values and actual values should be minimized. The best fit line will have the least error.
+
+The different values for bias or the coefficient of lines (a, b) gives a different line of regression, so we need to calculate the best values for a and b to find the best fit line, so to calculate this we use error or cost function.
+
+
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Linear%20Regression/Images/error.PNG'>
 
 
 
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Linear%20Regression/Images/accuracy.PNG'>
+
+
+---
 
 
 
+## Visualization of True price and Predicted price 
 
+
+Visualization of predicted and actual values from the Linear Regression model.In the following mentioned plot, data points are the actual values and the straight line passing through is the predicted values.The straight line is known as "Line of Regression".
+
+```
+plt.scatter(xtrain,ytrain,color='red')
+plt.plot(xtrain,mymodel.predict(xtrain))
+plt.show()
+```
+
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Linear%20Regression/Images/plot2.PNG'>
+
+
+
+## Contributor
+- ID : 253
+- DSWP BATCH : 8
+- [@Ayushi Jindal](https://github.com/ayushijindal)
 
 
 
