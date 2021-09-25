@@ -26,6 +26,7 @@
 
 
 ```
+<img width="800" alt="back" src="https://user-images.githubusercontent.com/69414725/134756396-9f4f7ab1-61f4-4a32-954b-9948fd0c3c6d.PNG">
 
 ## Text Color
 
@@ -38,6 +39,8 @@
 <p style="color:MediumSeaGreen;">This is Paragraph 2</p>
 
 ```
+<img width="221" alt="para" src="https://user-images.githubusercontent.com/69414725/134756450-289b55bb-a6fa-4e7a-9b46-c5d31d64c7ec.PNG">
+
 
 ## Border Color
 
@@ -50,6 +53,8 @@
 <h1 style="border:2px solid Gray;">Hello World</h1>
 
 ```
+<img width="567" alt="border" src="https://user-images.githubusercontent.com/69414725/134756467-14b7b9f8-cb42-4a20-90d3-c31227266253.PNG">
+
 
 ## Color Values
 
@@ -64,6 +69,8 @@
 <h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
 
 ```
+<img width="611" alt="value" src="https://user-images.githubusercontent.com/69414725/134756489-61e002c2-3722-4ecf-8cc0-c6687340ef96.PNG">
+
 
 <p> The following two div elements have their background color set with RGBA and HSLA values, which adds an Alpha channel to the color (here we have 50% transparency): </p>
 
@@ -73,6 +80,8 @@
 <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
 
 ```
+<img width="613" alt="val" src="https://user-images.githubusercontent.com/69414725/134756505-3784aeb4-4a15-43a5-b78d-fd2f1ec3126a.PNG">
+
 
 ## HTML RGB and RGBA Colors
 
@@ -94,6 +103,16 @@ Another example, rgb(0, 255, 0) is displayed as green, because green is set to i
 
 </p>
 
+<h1> Example </h1>
+<img width="576" alt="rgb" src="https://user-images.githubusercontent.com/69414725/134756578-e50f1bfc-c22f-429f-9de2-f157bfe5bb1e.PNG">
+
+## Shades of Grey
+
+<p>Shades of gray are often defined using equal values for all three parameters:</p>
+<h1> Example </h1>
+<img width="561" alt="shades" src="https://user-images.githubusercontent.com/69414725/134756612-58d6c510-8b15-46b8-8272-a02db610a5de.PNG">
+
+
 ## RGBA Color Values
 
 <p> RGBA color values are an extension of RGB color values with an Alpha channel - which specifies the opacity for a color.
@@ -104,6 +123,8 @@ The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not tra
 
  </p>
  
+ <img width="589" alt="rgba" src="https://user-images.githubusercontent.com/69414725/134756889-21e64a0f-481b-42a9-92e8-4d394d1a2e3b.PNG">
+
  ## HEX Color Values
  
  <p> In HTML, a color can be specified using a hexadecimal value in the form:
@@ -119,6 +140,8 @@ Another example, #00ff00 is displayed as green, because green is set to its high
 To display black, set all color parameters to 00, like this: #000000.
 
 To display white, set all color parameters to ff, like this: #ffffff.</p>
+<img width="567" alt="hex" src="https://user-images.githubusercontent.com/69414725/134756922-829e0513-cafc-4da1-8dbf-330f0c7b2119.PNG">
+
 
 ## HTML HSL and HSLA Colors
 
@@ -137,6 +160,8 @@ Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 24
 Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color.
 
 Lightness is also a percentage value, 0% is black, and 100% is white. </p>
+<img width="584" alt="hsl" src="https://user-images.githubusercontent.com/69414725/134756956-7153b6be-6aa8-40cb-a385-0c062e19ad97.PNG">
+
 
 ## Saturation
  <p> Saturation can be described as the intensity of a color.
