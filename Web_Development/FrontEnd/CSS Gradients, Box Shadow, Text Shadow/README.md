@@ -152,3 +152,46 @@ Let us start learning how to create various gradient effects :
     ![Conic-Angle](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/Conic-Angle.png)
     
     > `Note :` The keyword `from` mentions the starting angle of the conic gradient
+
+## CSS Box Shadow
+Box Shadow in CSS is used to put a shadow effect to one or more elements by specifying its `x-offset` and `y-offset`
+
+ * ### Syntax of a basic box-shadow
+   ```css
+   .box-shadow-basic
+   {
+     box-shadow: 10px 11px black;
+   }
+   ```
+   ![Box-Basic]()
+  
+   > `Note :` Here `10px` is the `x-offset`, `11px` is the `y-offset` and `black` is the colour of the shadow. Also know that a negative value of        each of the offsets would result in the shadow in being produced in the opposite direction in respect to their positive offset values 
+
+ * ### Syntax of box-shadow with `blur-radius`
+   ```css
+   .box-shadow-blur
+   {
+     box-shadow: 10px 11px 5px black;
+   }
+   ```
+   ![Box-Blur]()
+  
+   > `Note :` Here `5px` refers to the `blur-radius` value, i.e the extent till which the shadow would be blurred
+ 
+ * ### Syntax of box-shadow with `blur-radius` and `spread-radius`
+   ```css
+   .box-shadow-all
+   {
+     box-shadow: 10px 11px 5px 3px black;
+   }
+   ```
+   ![Box-All]()
+  
+   > `Note :` Here `3px` refers to the `spread-radius` value, i.e the extent till which the shadow would spread
+
+  **FINAL SYNTAX** -  box-shadow: `x-offset` `y-offset` `blur-radius` `spread-radius` `color` ;
+
+ * ### Some other properties of box-shadow
+   * `inset` : changes a shadow from an outer to inner shadow
+   * `initial` : default values are set
+   * `inherit` : helps inherit the properties of its parent element
