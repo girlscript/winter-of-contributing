@@ -163,7 +163,7 @@ Box Shadow in CSS is used to put a shadow effect to one or more elements by spec
      box-shadow: 10px 11px black;
    }
    ```
-   ![Box-Basic]()
+   ![Box-Basic](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/BoxShadow-basic.png)
   
    > `Note :` Here `10px` is the `x-offset`, `11px` is the `y-offset` and `black` is the colour of the shadow. Also know that a negative value of        each of the offsets would result in the shadow in being produced in the opposite direction in respect to their positive offset values 
 
@@ -174,7 +174,7 @@ Box Shadow in CSS is used to put a shadow effect to one or more elements by spec
      box-shadow: 10px 11px 5px black;
    }
    ```
-   ![Box-Blur]()
+   ![Box-Blur](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/BoxShadow-blur.png)
   
    > `Note :` Here `5px` refers to the `blur-radius` value, i.e the extent till which the shadow would be blurred. The higher the value, bigger is       the blur
  
@@ -185,7 +185,7 @@ Box Shadow in CSS is used to put a shadow effect to one or more elements by spec
      box-shadow: 10px 11px 5px 3px black;
    }
    ```
-   ![Box-All]()
+   ![Box-All](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/BoxShadow-all.png)
   
    > `Note :` Here `3px` refers to the `spread-radius` value, i.e the extent till which the shadow would spread. The higher the value, bigger is is       spread
 
@@ -206,7 +206,7 @@ Text Shadow in CSS is used to apply shadow to texts
     text-shadow: 2px 1px rgb(15, 3, 70);
    }
    ```
-   ![Text-basic]()
+   ![Text-basic](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/TextShadow-basic.png)
    
    > `Note :` Here similar to box-shadow, `2px` and `1px` are `x-offset` and `y-offset` respectively followed by colour
  
@@ -217,7 +217,7 @@ Text Shadow in CSS is used to apply shadow to texts
     text-shadow: 2px 3px 4px rgb(15, 3, 70);
    }
    ```
-   ![]()
+   ![Text-blur](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Gradients%2C%20Box%20Shadow%2C%20Text%20Shadow/Assets/TextShadow-blur.png)
    
    > `Note :` Here `4px` is the `blur-radius` value i.e the extent till which the shadow would be blurred. The higher is its value, bigger the blur       of the text-shadow
  
