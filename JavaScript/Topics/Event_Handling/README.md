@@ -64,15 +64,15 @@
          // JavaScript Code<br>
        });
 
-       You can assign only one 'onclick' event to an element at a time as shown in below example:<br>
-       You can use the onclick event on an input tag as-<br>
-        functionabc(event){<br>
-          console.log("Input element contains text -",<br>
-          event.target.value);<br>
+       You can assign only one 'onclick' event to an element at a time as shown in below example:
+       You can use the onclick event on an input tag as-
+        functionabc(event){
+          console.log("Input element contains text -",
+          event.target.value);
         }<br>
-        document.getElementsByTagname("input")[0].onclick= abc;<br>
+        document.getElementsByTagname("input")[0].onclick= abc;
 
-        This will print the value written inside the first input element of the web page<br>
+        This will print the value written inside the first input element of the web page
  
 These are the some important event handlers.There are many event handlers like-
 1. onAbort-	It executes when the user aborts loading an image.
@@ -86,75 +86,8 @@ These are the some important event handlers.There are many event handlers like-
 9. onReset-	It executes when the user resets a form by clicking on the reset button.
 10. onSelect-	It executes when the user selects some of the text within a text or textarea field.
 11. onSubmit-	It calls when the form is submitted.
-12. onUnload-	It calls when a document is exited.
-
-# Example: Simple Program on onsubmit() & onfocus() Event handler.<br>
-<html><br>
-     <body><br>
-          <script><br>
-               function validateform()<br>
-               {<br>
-                    var uname=document.myform.name.value; <br>
-                    var upassword=document.myform.password.value;<br>  
-                    if (uname==null || uname=="")<br>
-                    {<br> 
-                         alert("Name cannot be left blank");<br> 
-                         return false;<br> 
-                    }<br>
-                    else if(upassword.length<6)<br>
-                    {  <br>
-                         alert("Password must be at least 6 characters long.");<br>  
-                         return false; <br> 
-                    }  <br>
-               } <br> 
-               function emailvalidation()<br>
-               {<br>
-                    var a=document.myform.email.value<br>
-                    if (a.indexOf("@")==-1)<br>
-                    {<br>
-                         alert("Please enter valid email address")<br>
-                         document.myform.email.focus()<br>
-                    }<br>
-               }<br>
-          </script><br>  
-     <body><br>
-          <form name="myform" method="post" action="validpage.html" onsubmit="return validateform()"><br>
-               Email: <input type="text" size="20" name="email" onblur="emailvalidation()"><br>
-               User Name: <input type="text" name="name"><br>  
-               Password: <input type="password" name="password"><br>  
-               <input type="submit" value="Submit" ><br> 
-          </form><br>  
-     </body><br> 
-</html><br> 
-
-<html><br> 
-     <body><br> 
-          <script type="text/javascript"><br> 
-               alert("You are a Valid User !!!");<br> 
-          </script><br> 
-     </body><br> 
-</html><br> 
-# Example: Simple Program on onload() Event handler<br>
-<html><br>
-     <head><br>
-     <script type="text/javascript"><br>
-     function time()<br>
-     {<br>
-          var d = new Date();<br>
-          var ty = d.getHours() + ":"+d.getMinutes()+":"+d.getSeconds();<br>
-          document.frmty.timetxt.value=ty;<br>
-          setInterval("time()",1000)<br>
-     }<br>
-     </script><br>
-     </head><br>
-<body onload="time()"><br>
-     <center><h2>Displaying Time</h2><br>
-          <form name="frmty"><br>
-               <input type=text name=timetxt size="8"><br>
-          </form><br>
-     </center><br>
-</body><br>
-</html><br>
+12. onUnload-	It calls when a document is exited.<br>
+ 
 So basically Event handlers can be used to handle and verify user input, user actions, and browser actions:<br>
 ● Things that should be done every time a page loads.<br>
 ● Things that should be done when the page is closed.<br>
