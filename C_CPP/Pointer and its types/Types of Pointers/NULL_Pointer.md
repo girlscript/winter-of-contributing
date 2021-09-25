@@ -3,7 +3,7 @@
 # NULL Pointer
 
 ## What is a NULL Pointer?
-* NULL Pointers are pointers which do not have any address assigned to it.   
+* NULL Pointers are pointers that do not have any address assigned to them.   
 * The pointer points to NULL, i.e. nothing.
 
 ## How to Declare a NULL Pointer?
@@ -14,7 +14,7 @@
 ```C
 //C Language Program
 
-//A pointer of type int is created and NULL is assigned to it, so now it is a NULL Pointer
+//A pointer of type int is created and NULL is assigned to it, so now it is a NULL pointer
 //Pointer is pointing to no address.
 int *pointer = NULL;
 
