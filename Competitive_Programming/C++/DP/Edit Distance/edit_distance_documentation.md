@@ -26,7 +26,7 @@ m = Length of String 1
 n = Lenght of String 2
 There can be two possiblity 
 
-**Case 1**: Last Characters of both the Strings are same. Nothing to Do, so cost=0 move to next index, i.e, Recur for (n-1,m-1)
+**Case 1**: Last Characters of both the Strings are the same. Nothing to do, so cost=0 move to next index, i.e, Recur for (n-1,m-1)
 
 **Case 2**: Last Characters of both the Strings are different. Now we have 3 Operations that we can perform either, 
  1. Insert the same character at that index i.e, recur for (n,m-1)
