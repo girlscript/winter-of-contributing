@@ -1,2 +1,2 @@
 
-## Data Types in Cpp
+### [Data Types in Cpp](/Datatypes-cpp.md)
