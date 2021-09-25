@@ -1,1 +1,1 @@
-[Templates_in_C++.md]
+[Templates_in_C++](./templates.md)
