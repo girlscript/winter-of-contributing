@@ -7,4 +7,4 @@
    - **1.5. Probability Distributions (Gaussian, Standard, Poisson)**
    - [**1.6. Maximum Likelyhood Estimation**](https://github.com/amitrakshar01/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/1.6.%20Maximum%20Likelihood%20Estimation.ipynb)
    - **1.7. Parzen Windows**
-   - **1.8. Skewness 
+   - **1.8. Skewness** 
