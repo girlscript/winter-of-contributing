@@ -35,6 +35,7 @@ This is the most frequently used event type which occurs when a user clicks the 
 object.onclick = function(){myScript};
 // In JavaScript, using the addEventListener() method:
 object.addEventListener("click", myScript);
+// Here "click" is the event and "myScript" is set as a EventListener 
 ```
 Example:
 
@@ -58,12 +59,13 @@ You can put your form validation against this event type.
 object.onsubmit = function(){myScript};
 // In JavaScript, using the addEventListener() method:
 object.addEventListener("submit", myScript);
+// Here "submit" is the event and "myScript" is set as a EventListener 
 ```
 
 Example:
 
 ```js
-// Execute a JavaScript when a form is submitted:
+// Execute ```myFunction()``` when the form is submitted:
 <form onsubmit="myFunction()">
   Enter name: <input type="text">
   <input type="submit">
@@ -71,6 +73,16 @@ Example:
 ```
 <br>
 
+# Event Listener and Event Handler in JavaScript
+An **event listener** is a procedure or function in a computer program that waits for an event to occur. Examples of an event are the user clicking or moving the mouse, pressing a key on the keyboard, disk I/O, network activity, or an internal timer or interrupt. The listener is programmed to react to an input or signal by calling the event's handler.
+
+The term **event listener** is often specific to Java and JavaScript. In other languages, a subroutine that performs a similar function is referred to as an **event handler**.
+
+The following JavaScript code would add an event listener to an HTML document:
+
+```js
+document.addEventListener('click', myfunction, false);
+```
 # Some HTML 5 Standard Events
 
 | Attribute          | Value  | Description                                                                                                  |
