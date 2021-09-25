@@ -1,3 +1,8 @@
+## Title
+
+Word Search using Backtracking
+
+
 <hr>
 
 ## Problem Statement
@@ -10,6 +15,18 @@ Note that the same word in the dictionary may be reused multiple times in the se
 Input: s = "leetcode", wordDict = ["leet","code"]
 <br>Output: true
 <br>Explanation: Return true because "leetcode" can be segmented as "leet code".
+
+## Example 2:
+Input: s = "applepenapple", wordDict = ["apple","pen"]
+<br>Output: true
+<br>Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
+<br>Note that you are allowed to reuse a dictionary word.
+
+## Example 3:
+Input: s = "catsandog", wordDict = ["cats","dog","sand","and","cat"]
+<br>Output: false
+
+
 <hr>
 
 ## Algorithm Approach
@@ -70,5 +87,3 @@ public:
      <li>Space complexity- O(n)</li>
     </ul>
     
-
-<hr>
