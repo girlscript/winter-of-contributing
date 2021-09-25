@@ -25,13 +25,13 @@ int main()
 
 <br>
 
-space for image
+![recursion](https://user-images.githubusercontent.com/83535682/134781509-5a86d32e-aa08-41dc-8d76-7289080696de.jpg)
 
 <br>
 
 <hr>
 
-<p> In this documentation, we'll discuss 3 methods to solve TAYLOR SERIES using Recursion </p>
+### In this documentation, we'll discuss 3 methods to solve TAYLOR SERIES using Recursion 
 
 1. Normal Recursion
 2. Iterative Method
@@ -82,7 +82,7 @@ int main()
 
 <hr>
 
-## 2. Iterative Recursion
+## 2. Iterative Method
 
 ```
 #include <iostream>
