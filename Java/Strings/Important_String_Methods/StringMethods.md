@@ -35,7 +35,7 @@ Here we will look onto some of the important Java String Methods:
 
 
 
-### charAt() Method
+## charAt() Method
 
 We very well know that char is basically a datatype representing character types. 
 
@@ -49,10 +49,10 @@ If the index is out of this range then the StringIndexOutOfBoundsException is gi
 ```
 public char charAt(int index)
 ```
-> **public** is the access modifier.
-> **char** represents the return type.
-> **charAt()** is the method used.
-> **int index** will be the value provided to the parameter which will be of type integer.
+**public** is the access modifier.
+**char** represents the return type.
+**charAt()** is the method used.
+**int index** will be the value provided to the parameter which will be of type integer.
 
 Now let us go through an example to understand it better.
 
@@ -77,7 +77,7 @@ we can say we have to display the 6th element of the String which is **W**. Henc
 
 
 
-### compareTo() Method
+## compareTo() Method
 
 As the name itself suggests it compares the Strings. This method take a String as parameter and compares it with the other String. 
 The comparison is done on the basis of **Unicode Value** of every character present in the Strings. Now you might be wondering what Unicode Value is? 
@@ -171,7 +171,7 @@ What we have done is we declared two Strings namely **str1** and **str2** and th
 
 
 
-### contains() method
+## contains() method
 
 The contains method of Java checks whether a particular character or a sequence of characters is present in the String. 
 It has a return type of Boolean i.e.; it return true if the character or the series is found else it returns false.
@@ -208,7 +208,7 @@ while the **ab** again returned true as **ab** was found in the string in the **
 
 
 
-### equals() method
+## equals() method
 The equals method basically compares two given strings based on the characters in the string. If any single character is even not matched then the equals method return false. 
 Thus we can say that each character and its type should be matched. The type here means if a particular character in one string is in Upper case 
 then in the second string it should be upper case as well. 
@@ -294,7 +294,7 @@ As the content of **str1, str2 and str 4** were same if we ignore the case hence
 while with **str3** It returned false which contains different content.
 
 
-### format() Method
+## format() Method
 
 Formatiing means making changes, thus a Java format() method returns a formatted String by given locale. It is also supplied with format and arguments.
 One important point to remember here is the String.format() merhod by default calls a Locale.getDefault() method if we don’t specify the locale in the method.
