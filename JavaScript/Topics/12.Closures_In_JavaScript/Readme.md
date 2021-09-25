@@ -14,7 +14,7 @@ Lexical Environment is basically a data structure that holds identifier-variable
 <p>&nbsp;</p>
 
 ### **Execution Context**
-Execution context is an abstract space where the JavaScript code is  evaluated and executed.
+Execution context is an abstract space where the JavaScript code is evaluated and executed.
 It is created in 2 phases:- 
 ```Memory Creation Phase```  and ```Code Execution Phase```
 
@@ -70,7 +70,7 @@ So for the console statement the JS Engine will search the value of q inside the
 
 ## Working of Closures
 
-We have two functions c and a:=
+We have two functions c and a :=
 ```
 function c(){
     var w=10;
@@ -121,7 +121,7 @@ var contribution= girlscript("Closures");
 - Closures can cause memory leaks if they are handled properly .
 
 
-### Contributor : [Ananya Gupta](https://github.com/Ananyagupta43)
+ Contributor : [Ananya Gupta](https://github.com/Ananyagupta43)
 
 
   
