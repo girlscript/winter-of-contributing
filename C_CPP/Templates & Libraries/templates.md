@@ -2,7 +2,8 @@
 
 ---
 
-## Why do we need templates and What actually are templates ?
+## Why do we need templates and What are templates ?
+
 
 Suppose we make a function to multiply two integers so will it able to multiply two float and double as well.
 **The answer is NO**.For that we would need various versions of that function for different data types.
