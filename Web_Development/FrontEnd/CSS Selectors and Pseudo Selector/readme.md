@@ -183,6 +183,9 @@ color: red;
 <p>This is a paragraph with first letter of different color.</p>
 ```
 
+![pseudo-element](https://user-images.githubusercontent.com/78275713/134329232-66044513-4193-421c-b868-9869eeea09c5.png)
+
+
 ## Contributor
 
 - [@Tushar Tiwari](https://github.com/brassgolem-25)
