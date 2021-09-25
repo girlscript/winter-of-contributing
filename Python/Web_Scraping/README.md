@@ -1,6 +1,6 @@
 ## What is Web Scraping?
 Web scraping, also known as web harvesting or web data extraction, is a type of data scraping that is used to extract information from websites. Using the Hypertext Transfer Protocol or a web browser, the web scraping software can directly access the World Wide Web. While web scraping can be done manually by a software user, the term usually refers to automated processes carried out with the assistance of a bot or web crawler. It is a type of copying in which specific data from the web is gathered and copied, typically into a central local database or spreadsheet for later retrieval or analysis.
-
+![](https://github.com/nakshatra-garg/winter-of-contributing/blob/Python/Python/Web_Scraping/images/web-scraping-process.png)
 ## Why use Web Scraping?
 Web scraping is used to collect large information from websites. There are primarily two methods for extracting data from a website:
 - Use the website's API (if it exists). Facebook, for example, has the Facebook Graph API, which allows for the retrieval of data posted on Facebook.
