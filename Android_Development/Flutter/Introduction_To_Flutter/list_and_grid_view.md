@@ -21,6 +21,7 @@ ListView(
 ```dart
 ListView(
           children:<Widget> [
+            //If you know the no.of items this is how you can specify.
             Container(
               height: 300,
               width: 300,
@@ -97,7 +98,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "Bangladesh",
     "Japan",
     "Ethiopia"
-  ];
+  ];// this is a dynamic data ,if you add or remove items it will reflect in the UI.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -137,10 +138,11 @@ GridView.count(
 
 ```dart
  GridView.count(
-          crossAxisCount: 2,
+          crossAxisCount: 2,//no. of columns 
           mainAxisSpacing: 10,//specifies space between grids horizontally
           crossAxisSpacing: 10,//specifies space between vertically
           children:<Widget> [
+            //If you know the no.of items this is how you can specify.
             Container(
               height: 300,
               width: 300,
@@ -244,7 +246,7 @@ class _MyHomePageState extends State<MyHomePage> {
     "Bangladesh",
     "Japan",
     "Ethiopia"
-  ];
+  ];// this is a dynamic data ,if you add or remove items it will reflect in the UI.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
