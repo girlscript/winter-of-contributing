@@ -1,1 +1,1 @@
-[![](https://en.wikipedia.org/wiki/File:Relationship_between_mean_and_median_under_different_skewness.png)](https://drive.google.com/file/d/1bd9VtxKjdPRKe4OXN7MxcvnPmUQJ3Yg7/view?usp=sharing)
+[![](https://github.com/karma659/winter-of-contributing/blob/main/Machine_Learning/Statistics_for_Machine_Learning/Assets/Skewness.png)](https://drive.google.com/file/d/1bd9VtxKjdPRKe4OXN7MxcvnPmUQJ3Yg7/view?usp=sharing)
