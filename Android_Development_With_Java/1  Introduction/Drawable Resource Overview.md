@@ -23,4 +23,10 @@ There are several different types of drawables:
 
 
 
+**1. Inflate Image Resource file (Bitmap files)**.
+Bitmap
+  
+image. Android supports bitmap files in three formats: .png (preferred), .jpg (acceptable), .gif (discouraged).
 
+You can reference a bitmap file directly, using the filename as the resource ID, or create an alias resource ID in XML.
+2. 
