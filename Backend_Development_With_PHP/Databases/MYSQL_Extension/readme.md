@@ -27,7 +27,7 @@ The very first work to be done before creating or accessing a existing database 
 			else echo "Connection established<br>";
 
 			?>
-```php
+```
 
 ### Creating a Databases
 
