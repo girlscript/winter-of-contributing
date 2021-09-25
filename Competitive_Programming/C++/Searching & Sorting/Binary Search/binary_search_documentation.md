@@ -14,7 +14,7 @@ If not present print -1 or print the position of the array.
 
 ---
 <p align="center">
-  <img width="460" height="300" src="https://miro.medium.com/max/247/1*fMQ2cLdIEr3DoHitYyiSsg.png">
+  <img src="https://github.com/ayushijindal/winter-of-contributing/blob/mybranch/Competitive_Programming/C%2B%2B/Searching%20%26%20Sorting/Binary%20Search/assests/BS.png">
 </p>
 
 ---
@@ -25,6 +25,40 @@ If not present print -1 or print the position of the array.
 3. Else If x is greater than the mid element, then x can only lie in the right half subarray after the mid element. So we recur for the right half.
 4. Else (x is smaller) recur for the left half.
 #### Note: To apply binary search array must be sorted.
+
+
+### Pseudocode
+
+
+arr ← sorted array
+
+size ← size of array
+
+item ← value to be searched
+
+start ← 0
+
+end ← (size-1)
+
+
+binarySearch(arr, size)
+		loop until beg is not equal to end
+    
+      midIndex = (beg + end)/2
+      
+      if (item == arr[midIndex] )
+          return midIndex
+          
+      else if (item > arr[midIndex] ) 
+          start = midIndex + 1
+          
+      else                       
+          end = midIndex - 1
+          
+     if item is not found after iterating through whole array then
+         return -1  
+
+
 
 #### Code in C++:
 
@@ -75,9 +109,10 @@ int main()
 }
 ```
 
-## Binary Search Problems
+## Some Common Binary Search Problems
 ### Question: 
-### Find the index of first 1 in a sorted array of 0’s and 1’s if 1 is not present in the array print -1
+### Find the index of first 1 in a sorted array of 0’s and 1’s if 1 is not present in the array then print -1
+
 
 
 #### Example:
@@ -235,7 +270,3 @@ int main(){
 ## End Note
 Hope this documentation provided you some basic idea about binary search algorithm and how to solve questions using this approach.
 Binary search runs in logarithmic time in the worst case, making O(log n) comparisons, where n is the number of elements in the array.Binary search is faster than linear search except for small arrays. However, the array must be sorted first to be able to apply binary search. There are specialized data structures designed for fast searching, such as hash tables, that can be searched more efficiently than binary search. However, binary search can be used to solve a wider range of problems, such as finding the next-smallest or next-largest element in the array relative to the target even if it is absent from the array.
-
-
-
-
