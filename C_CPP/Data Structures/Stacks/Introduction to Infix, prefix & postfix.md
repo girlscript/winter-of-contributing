@@ -53,7 +53,7 @@ e.g.
 ***
 
 
-## Postfix Expression (Prefix Notation)
+## Postfix Expression (Postfix Notation)
 
 While writing an arithmetic expression, the operator comes after the two operands.
 
