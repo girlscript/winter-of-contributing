@@ -45,4 +45,12 @@ int main(){
 - COMPLEXITY OF INSERTION SORT </br>
 
    Insertion Sort is an easy-to-implement,stable sorting algorithm with time complexity of O(n^2)in the average case and O(n) in the best case when the elements are already sorted and the worst case occurs when the array is sorted in reverse order. For vey small n, Insertion Sort is good for sorting small arrays . It sorts smaller arrays faster than any other sorting algorithm.It is very efficient for semi-sorted arrays . For an array of n elements ,where the maximum divergence an element can have from its "sorted"position is k, insertion sort takes O(n) time.</br>
-   Insertion sort is stable sort with a space complexity of O(1).
+   
+   Insertion sort is stable sort with a space complexity of O(1) and it is said to be stable  if two objects with equal keys appear in the same order in sorted output as they appear in the input array to be sorted. Stability is mainly important when we have key value pairs with duplicate keys possible  and we want to sort these objects by keys.</br>
+   A sorting algorithm is stable if-</br>
+   i < j\:\:and\:\:A[i]\equiv A[j]\:\:implies\:\:\pi (i) < \pi (j)</br>
+where \pi is the sorting permutation ( sorting moves A[i] to position \pi(i) )</br>
+Informally, stability means that equivalent elements retain their relative positions, after sorting.
+![image](https://user-images.githubusercontent.com/88306424/134770958-c8a7012e-6827-47eb-b12a-f103dc4d7ab6.png)
+
+
