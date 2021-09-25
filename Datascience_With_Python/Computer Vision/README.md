@@ -1,11 +1,11 @@
-# **CAMERA CALIBERATION USING OPENCV** *(COMPUTER VISION)*
+# **CAMERA CALIBRATION USING OPENCV** *(COMPUTER VISION)*
 
 ## **INTRODUCTION**
 *   Camera calibration is the process of estimating intrinsic and/or 
 extrinsic parameters. Intrinsic parameters deal with the camera's internal characteristics, such as, its focal length, skew, distortion, and image center. While, extrinsic parameters describe its position and orientation in the world.
 *   Computer vision is the field of computer science that focuses on creating digital systems that can process, analyze, and make sense of visual data (images or videos) in the same way that humans do.
 
-## **THE GOAL OF THE CALIBERATION**
+## **THE GOAL OF THE CALIBRATION**
 The goal of the process is to find the 3×3 matrix K, the 3×3 rotation matrix \mathbf{R}, and the 3×1 translation vector \mathbf{t} using a set of known 3D points (X_w, Y_w, Z_w) and their corresponding image coordinates (u, v). When we get the values of intrinsic and extrinsic parameters the camera is said to be calibrated.
 
 In summary, a camera calibration algorithm has the following inputs and outputs
@@ -24,7 +24,7 @@ Note : In OpenCV the camera intrinsic matrix does not have the skew parameter.
 2.   Take multiple images of the chessboard from different viewpoints in order to cover all the coordinates precisely.
 3.   Locate 2D coordinates of the chessboard.
 4.   Calculate camera distortion.
-5.   Undistort the image using the calculated caliberation.
+5.   Undistort the image using the calculated calibration.
 
 ![Screenshot (493)](https://user-images.githubusercontent.com/36481036/134770083-50cc94f5-f337-4d4a-8bfa-7fe3dc53e378.png)
 
