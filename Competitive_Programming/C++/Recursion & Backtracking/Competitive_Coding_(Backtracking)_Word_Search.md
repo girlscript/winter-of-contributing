@@ -12,6 +12,18 @@ Input: s = "leetcode", wordDict = ["leet","code"]
 <br>Explanation: Return true because "leetcode" can be segmented as "leet code".
 <hr>
 
+## Algorithm Approach
+
+<ul>
+    <li>First we will count the frequency of the given word dictionary.</li>
+<li>We will make a vector of DP of size of (n+1) and initialize with false.</li>
+<li>We will make first position of DP by 0.</li>
+<li>After this, we will traverse every sub string of s and we will check is it present or not in our map.</li>
+<li>If it is present then we will initialize with true, otherwise false.</li>
+<li>At the end, we will return nth position of DP vector.</li>
+    </ul>
+    
+
 ## Code
 
 ```
@@ -49,4 +61,14 @@ public:
 };
 
 ```
+<hr>
+
+## Complexity
+
+<ul>
+    <li>Time complexity - O(n)</li>
+     <li>Space complexity- O(n)</li>
+    </ul>
+    
+
 <hr>
