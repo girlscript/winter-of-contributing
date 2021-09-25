@@ -1,4 +1,4 @@
-# ML 1.15 : Types of Distribution
+# ML 1.15 : Types of Distribution 
 
 ## Definition
 
