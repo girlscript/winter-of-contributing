@@ -50,8 +50,11 @@ If the index is out of this range then the StringIndexOutOfBoundsException is gi
 public char charAt(int index)
 ```
 **public** is the access modifier.
+
 **char** represents the return type.
+
 **charAt()** is the method used.
+
 **int index** will be the value provided to the parameter which will be of type integer.
 
 Now let us go through an example to understand it better.
