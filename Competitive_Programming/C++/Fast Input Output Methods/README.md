@@ -9,8 +9,10 @@ Normally the input and output methods that we use i.e., cin and cout respectivel
 
 You can use <b>scanf/printf</b> instead of using <b>cin/cout</b> which will consume less time but there's another way to achieve the same results. You just have to include the given two lines in your <b>main()</b> function:
 
-`ios_base::sync_with_stdio(false);` <br>
-`cin.tie(NULL);`
+```
+ios_base::sync_with_stdio(false);  
+cin.tie(NULL);
+```
 </h3>
 Remember, these two lines should come before any other code in your main() function.
 <br>
