@@ -19,10 +19,8 @@ Here we will look onto some of the important Java String Methods:
 - format()
 - indexOf()
 - isEmpty()
-- join()
 - length()
 - replace()
-- replaceAll()
 - split()
 - substring()
 - toCharArray()
@@ -342,3 +340,171 @@ Similarly in the **str3**, it was ***%10.2 f*** thus before the decimal a total 
 Thus 8 blank spaces were given between the statement and the number and only 2 digits were printed after the decimal.
 
 
+
+
+
+## indexOf() Method
+
+This is a very simple method which provides the index value of the sequence of character or a specified character in the given string. The index returned is the first occurrence of that character. 
+So again, there are two syntax for this method. We can either only provide the character/sequence or we can provide the character/sequence along with an index number. Now what this index will do? So basically, this index will tell the method that the ser is searching for this particular character/sequence after this index. In other words, it is instructing to search after the provided index.
+
+**Syntax**
+```
+int indexOf(String s)
+int indexOf(String s, int index)
+```
+
+### Example
+```
+public lass Example{
+      public static void main(String args[]) {
+	String s = “You are reading the index Of Example”
+	int index1 = s.indexOf(“in”);
+	int index2 = s.indexOf(“in”, 15);
+	int index3 = s.indexOf(“the”);
+	System.out.println(index1);    
+	System.out.println(index2);
+	System.out.println(index3);
+      }
+}
+```
+
+The output will be :
+12
+20
+16
+
+In the case of index2 the method will find the index of **in** after the 15th index. Thus, it displayed the index as 20.
+
+
+
+
+
+## isEmpty() Method
+
+This method is very helpful to avoid nullPointer errors and is generally used with the loops or as conditions.
+So, what it basically does is, it checks if the entered String is Empty or not. So, it returns true if the length of String is 0 else or otherwise it returns false.
+
+**Syntax**
+```
+boolean isEmpty()
+```
+
+Let’s understand this in an example using the method in ***if condition***
+
+### Example
+```
+Public class Example{
+      public static void main(String[] args) {
+	String str1 = “This is isEmpty method”;
+	String str2 = “”;
+	if (str1.isEmpty()) {
+		System.out.println (“str1 is empty”);
+	} 
+	if (str2.isEmpty()) {
+		System.out.println(“str2 is empty”);
+	}
+      }
+}
+```
+The output will be:
+```
+str2 is empty
+```
+
+Now we can see that only str2 was empty thus only the **second if** condition satisfied and displayed the output. The first condition failed hence no output was given.
+
+
+
+
+
+## length() Method
+
+Length as it is defined by name finds the length of a string. Thus the length() method returns the Length of characters. This is a very simple method and I think the Syntax and Example will make it more clear.
+
+**Syntax**
+```
+int length()
+```
+
+Now lets take a look at an example
+
+### Example
+```
+Public class Example{
+      public static void main(String[] args) {
+	String str1 = “This is length method”;
+	System.out.println(“The length is “ + str1.length());
+      }
+}
+```
+
+Here the output will be 
+```
+21
+```
+
+The whitespaces will also be counted in length thus the total length is 21.
+
+
+
+
+
+## replace() Method
+The replace method helps to replace all the old characters/sequence with the newly provided character/sequence. This method takes two parameters namely the old character/sequence and the new character/sequence.
+
+**Syntax**
+```
+String replace(char oldCh, char newCh)
+Or
+String replace(CharSequence oldSq, CharSequence newSq)
+```
+
+### Example
+```
+Public class Example{
+      public static void main(String[] args) {
+	String str1 = “This is in replace method”;
+	String repStr = str1.replace(“in”, “the”);
+	System.out.println(repStr);
+      }
+}
+```
+
+This will give the Output:
+```
+This is the replace method
+```
+
+
+
+
+
+## split() Method
+Split means parting the things apart or in simpler words separating the things. In the same way the split() method splits the string following the given regular expression called regex. This method return a string array. 
+
+**Syntax**
+```
+String split(String regex)
+```
+Public class Example{
+      public static void main(String[] args) {
+	String str1 = “This is the split method”;
+	String[] elements = str1.split(“ ”);
+	For(String s : elements) {
+		System.out.println(s);
+	}
+      }
+}
+```
+Here Output will be
+```
+This
+is
+the
+split
+method
+```
+
+So what is happening is we provide ***str1.split(“ “)*** which split the str1 from the whitespaces, in simpler words the string str1 broke into separate words from wherever the blank-space was given. We store these words in an array of Strings.
+To retrieve the words from the array we used the **for each** loop and printed every element.
