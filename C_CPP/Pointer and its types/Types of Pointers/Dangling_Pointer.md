@@ -43,8 +43,8 @@ Error: Invalid Pointer
 
 ### 2. Variable Out of Scope
 * An integer pointer is declared.
-* Inside a if conditional Now the address of an integer variable is assigned to the pointer.
-* When the pointer is freed using `free()`, the memory is deleted or deallocated, i.e., now the pointer becomes an dangling pointer.
+* In the inner block, a int variable num is created and its address is assigned to the pointer.
+* Now when the control goes out of scope of the inner block, the variable num is no more available and in the outer block, the pointer is pointing to the invalid memory location.
 
 ### Example Code Snippet
 ```C
@@ -70,29 +70,45 @@ Error: Invalid Pointer
 
 ### 3. Function Call
 * An integer pointer is declared.
-* Inside a if conditional Now the address of an integer variable is assigned to the pointer.
-* When the pointer is freed using `free()`, the memory is deleted or deallocated, i.e., now the pointer becomes an dangling pointer.
+* A function call is made which returns an address to the int variable and it is stored in the pointer
+* But since a local variable's address is returned and after returning, the function variables are deleted from the stack memory, the pointer here is an dangling pointer
 
 ### Example Code Snippet
 ```C
 //C Language Program
 
-//We are declaring a int pointer
-int* pointer; 
+int* func()
+{
+    int variable = 10;
 
-int temp(){
-    int num = 2000;
-    pointer = &num;
+    //Address to the local variable of the function is return to the function call
+    return &variable;
 }
 
-printf("%d", *pointer);
+int main()
+{
+    //We are declaring an int pointer
+    int* pointer; 
+
+    //func() is called. It returns the address of var and it is stored in the pointer.
+    
+    pointer = func();
+
+    //var's address is returned but it is deleted from the stack memory after control of program returns back to main().
+    //Thus the pointer here is an dangling pointer
+    printf("%d", *pointer);
+}
 
 //To avoid dangling pointer, we can assign NULL to the pointer now
 ```
 
 ### Output
 ```
-Error: Invalid Pointer
+warning: address of stack memory associated with local
+      variable 'var' returned [-Wreturn-stack-address]
+    return &variable;
+            ^~~~~~~~
+1 warning generated.
 ```
 
 
