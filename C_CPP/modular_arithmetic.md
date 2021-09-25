@@ -25,7 +25,7 @@ if There exists two numbers a and b
 
  Code 
  ----------------------------
-
+```
  #include<bits/stdc++.h>
  
  using namespace std;
@@ -41,6 +41,7 @@ if There exists two numbers a and b
 
      cout<<"The Remainder is"<<S<<endl;
  }
+ ```
 
  * Modular Multiplication <br>
 
@@ -57,7 +58,7 @@ if There exists two numbers a and b
  Code 
  ----------------------------
 
-
+```
  #include<bits/stdc++.h>
  
  using namespace std;
@@ -73,7 +74,7 @@ if There exists two numbers a and b
 
      cout<<"The Remainder is"<<S<<endl;
  }
-
+```
 
  * Modular Divison <br>
 
@@ -95,7 +96,7 @@ Example:-
 
  Code 
  ----------------------------
-
+```
 
 #include<iostream>
 
@@ -172,7 +173,7 @@ int main()
 	modDivide(a, b, m);
 	return 0;
 }
-
+```
 
 
  * Modular Exponentiation <br>
@@ -188,9 +189,11 @@ int main()
 <br>
 <b>Ques->(x^y)%p</b>
 
+
 Code 
  ----------------------------
 
+```
 // C++ program to compute modular power -Iterative method
 
 #include <iostream>
@@ -234,7 +237,7 @@ int main()
     cout << "Power is " << power(x, y, p);
     return 0;
 }
-
+```
 
 <h1>Some Algorithms based on Modular Arithmetic</h1>
 
