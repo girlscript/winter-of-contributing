@@ -37,14 +37,24 @@ A + B * C - D
 
 ### Evaluation of Infix Expression
 
-Rules to evaluate infix expression :
+Rules :
 
 when we traversing the expression -
 - If we get operand in expression, it will push in stack.
-- If we get opening parenthesis `(` in expression then operator will push in stack. 
-- 
+- If we get opening `(` parentheses in expression, it will push in stack. 
+- If we get closing `)` parentheses in expression then it will pop all operators(`+` , `-` , `*` , `/`) till not get opening `)` parenthesis and at last opening`(` and `)` parenthesis also pop.
+- If we get any operator(`+` , `-` , `*` , `/`), it will pop greater than or equal  priority operators(`+` , `-` , `*` , `/`) till not get opening parentheses `(`.
 
-| Infix Expression : (2 + 4) / 5 - 7
+e.g.
+
+Prefix Expression : `(2 + 4) / 5 - 7`
+
+|---|---|
+|---|---|
+|---|---|
+|---|---|
+|---|---|
+
 
 ***
 
@@ -78,4 +88,3 @@ e.g.
 A + B C D * - 
 / - 2 4 5 7 +
 ```
-
