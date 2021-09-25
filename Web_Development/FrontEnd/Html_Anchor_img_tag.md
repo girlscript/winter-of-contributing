@@ -8,7 +8,7 @@ If we talk about the anchor tag it also defined as the hyperlink , it is special
 
 ### Default settings of Anchor tag
 1. Anchor tag is only a placeholder for a hyperlink.
-2. A linked page or website will be open in same tab if target equal to blank is not applied.
+2. Linked page or Website will be open in same tab if target equal to blank is not applied.
 
 
 ## Attributes of Anchor tag
@@ -17,7 +17,7 @@ If we talk about the anchor tag it also defined as the hyperlink , it is special
 ```
 <a href="/doc/GWOC'21.png" download>
 ```
-2. media : It is used when we have to implement the media query and specifies the type of device/screen size.
+2. media : When we have to implement the media query and specifies the type of device/screen size.
 
 ```
 <a href="images/GWOC'21.jpg"
@@ -30,27 +30,27 @@ media="view and (resolution:500dpi)">Open media image for viewing.
 <a href="https://www.GWOC'21.com" hreflang="en">W3Schools</a>
 ```
 
-4. ping : It actually Specifies the space-separated list of URLs and when the link is followed . It post requests with the body ping and information will be sent by the browser in simple words it is used for tracking. 
+4. ping : Specifies the space-separated list of URLs and when the link is followed . It post requests with the body ping and information will be sent by the browser in simple words it is used for tracking. 
 ```
 <a href="https://www.GWOC'21.com/htm" ping="https://www.GWOC'21.com/trackpings">
 ```
 
-5. referrerpolicy : It actually specifies to referrer information to send with the hyperlink.
+5. referrerpolicy : It specifies to referrer information to send with the hyperlink.
 ```
 <a href="https://www.GWOC'21.com" referrerpolicy="origin">
 ```
 
-6. rel : It is actually used when we have to show the relation between the current document and linked document.
+6. rel : Used when we have to show the relation between the current document and linked document.
 ```
 <a rel="nofollow" href="http://www.linkheaven.com/">Delicious Food</a>
 ```
 
-7. target : It actually specifies where to open the document.
+7. target : It specifies where to open the document.
 ```
 <a href="https://www.GWOC'21.com" target="_blank"> Visit GirlScript Winter of contribution! </a>
 ```
 
-8. type : It actually specifies the media type of the linked document.
+8. type : Specifies the media type of the linked document.
 ```
 <a href="https://www.GWOC'21.com" type="text/htm"> GirlScript Winter of Contribution</a>
 ```
@@ -68,22 +68,22 @@ Image tag or we can say img tag we use this to link the images to web pages and 
 
 ## Attributes Of Img Tag
 
-1. alt : It actually specifies the alternate text for an image which is displayed when the image is not loaded.
+1. alt : Specifies the alternate text for an image which is displayed when the image is not loaded.
 
 ```
 <img src="GWOC'21.gif" alt="GWOC'21 gif">
 ```
-2. crossorigin : This actually allow the images from others websites or third-party sites that allow cross-origin access to be used.
+2. crossorigin : This allow the images from others websites or third-party sites that allow cross-origin access to be used.
 ```
 <img src="GWOC'21.jpg" id="GWOC'21" crossorigin="anonymous">
 ```
 
-3. height : It basically specifies the height of the image.
+3. height : Specifies the height of the image.
 ```
 <img src="lickheaven.jpg" alt="lickheaven logo"  height="600">
 ```
 
-4. ismap : Thismis basically specifies the images as the server-side image map.
+4. ismap : ismap specifies the images as the server-side image map.
 ```
 <a href="/work_page.php">
   <img src="GWOC'21.gif" alt="www.GWOC'21.com" ismap>
@@ -95,17 +95,17 @@ Image tag or we can say img tag we use this to link the images to web pages and 
 <img src="Tajmahal.jpg" alt="Agra monument" style="width:100%" loading="lazy">
 ```
 
-6. longdesc : It basically specifies a URL to detailed description or explaination of the image.
+6. longdesc : longdesc specifies a URL to detailed description or explaination of the image.
 ```
 <img src="Down.jpg" alt="Down.com" width="100" height="132" longdesc="Down.txt">
 ```
 
-7. referrerpolicy : It actually specifies which refferer imformation to use when fetching with an image.
+7. referrerpolicy : referrerpolicy specifies which refferer imformation to use when fetching with an image.
 ```
 <img src="GirlScript.jpg" alt="GWOC image" referrerpolicy="no-referrer">
 ```
 
-8. sizes : It specifies the image size for different page layouts.
+8. sizes : Used to decide the image size for different page layouts.
 ```
 <img srcset="GWOC'21.jpg"
      sizes="(max-width: 701px) 122px,
@@ -125,12 +125,12 @@ Image tag or we can say img tag we use this to link the images to web pages and 
        srcset="time.png 1x, /en-us/web/html/element/img/clock-demo-400px.png">
 ```
 
-11. usemap : It actually Specifies an image for a client side image mapping.
+11. usemap : Specifies an image for a client side image mapping.
 ```
 <img src="workspace.jpg" alt="Workspace" usemap="#work" width="300" height="200">
 ```
 
-12. width : it typically specifies the width of image for different web pages.
+12. width : Used to set the width of image for different web pages.
 ```
 <img src="GWOC'21.jpg" alt="Girlscript Winter of contribution logo " width="100">
 ```
