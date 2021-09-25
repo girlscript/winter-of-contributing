@@ -9,9 +9,10 @@ We can imagine a box model as a rectangular box that wraps around each HTML elem
 We all know that all elements on a webpage is represnted as rectangular box.
 Below image represents a element with its various elements.
 
-![image](https://user-images.githubusercontent.com/55577276/134489895-efbd21f8-1d41-4d92-bdc5-cdd47fc1bb67.png)
+![image](https://user-images.githubusercontent.com/55577276/134778382-9124b5b1-bec4-4152-b55a-5d9c2aa4920f.png)
 
-*Figure 1*
+
+*Figure 1 (Reference : zellwk.com)*
 
 Let’s try understand what each of these properties signifies:
 
@@ -34,13 +35,13 @@ Size of figure 1  box is determined as described below:
 
 ### Need of using the box-sizing property?
 
-![image](https://user-images.githubusercontent.com/55577276/134490961-fcef439d-4132-4185-be20-0b8949b8b199.png)
+![image](https://user-images.githubusercontent.com/55577276/134778925-463dd780-2a4d-41fb-8911-e1c47bc1f578.png)
 
-*Figure 2*
+*Figure 2 (Reference : binvisions.com)*
 
 Now we need to understand Figure 2 better, so let’s consider an example: 
  
-Suppose we have a random element int the dom that is assigned a width of 300px, the element will have the exact width on the DOM, only if there is no padding or margin assigned to the element. If there are any padding and/or border assigned to it then the actual values for the rendered element will differ and be calculated as follows:
+Suppose we have a random element in the dom that is assigned a width of 300px, the element will have the exact width on the DOM, only if there is no padding or margin assigned to the element. If there are any padding and/or border assigned to it then the actual values for the rendered element will differ and be calculated as follows:
 
 > Actual rendered width = initial width assigned to the box + padding(right and left) + border(right and left)  
 >
@@ -91,7 +92,7 @@ When we give **box-sizing: border box**, the special combination property called
 
 ![image](https://user-images.githubusercontent.com/55577276/134493069-39a3ba69-c2d5-41cf-8a31-3e973e6f3490.png)
 
-*Figure 3: Difference in the rendered width by using box-sizing property*
+*Figure 3: Difference in the rendered width by using box-sizing property (Reference : medium.com)*
 
 We can also use the universal specifier specifing  box sizing as border box that will apply this to all the elements present in DOM.
 Universal box-sizing:  
