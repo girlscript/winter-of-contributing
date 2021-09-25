@@ -14,12 +14,9 @@ When we mention **Output**, we mean show some data on the screen, printer, or in
 // C Program to demonstrate printf() method
 
 #include<stdio.h> 
-
 int main()  
 {
-
     printf("Hello, World!");
-
     return 0;   
 }
 ```
@@ -34,11 +31,9 @@ Other Ways to print Output:
 ```
 // C program to demonstrate putchar() method
   
-#include <stdio.h>
-  
+#include <stdio.h>  
 int main()
 {
-  
     // Get the character to be written
     char ch = 'K';
   
@@ -48,7 +43,7 @@ int main()
     return (0);
 }
 ```
-Output: 
+**Output** 
 
 ```
 K
@@ -60,17 +55,15 @@ The ``puts()`` method is used to output a previously read string to the console 
 // C program to demonstrate puts() method
 
 #include<stdio.h>  
-
 void main()  
 {  
-
     puts("I'm GWOC Contributor.");
     puts("This is my Contribution.");
 
     return 0;
 }  
 ```
-Output: 
+**Output**
 ```
 I'm GWOC Contributor.
 This is my Contribution.
@@ -122,11 +115,9 @@ Other Methods to take Input from user:
  // C program to demonstrate getchar() method
 
  #include <stdio.h>
-
 int main () 
 {
     char c;
- 
     printf("Enter character: ");
     a = getchar();
  
@@ -137,7 +128,7 @@ int main ()
 }
  ```
 
- Output:
+ **Output**
  ```
  Enter character: a
  Character entered: a
@@ -147,11 +138,9 @@ int main ()
  // C program to demonstrate gets() method
 
  #include <stdio.h>
-
-int main () 
+ int main () 
 {
     char str[10];
- 
     printf("Enter a string: ");
     gets(str);
  
@@ -162,7 +151,7 @@ int main ()
 }
  ```
 
- Output:
+ **Output**
  ```
  Enter a string: I'm GWOC contributor 
  You entered: I'm GWOC contributor
