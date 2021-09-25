@@ -104,6 +104,55 @@ This code renders the following web page in the browser:
 
 Notice how the random numbers from methods are different, but the ones from computed properties are always the same. No matter how many time the computed property is called it would instantly return the previously computed value and will not run the function again.
 
+# Basic Implementation:
+Let us consider this basic implementation of computed properties. This webpage, takes in two numerical inputs from the user and displays a product of those numbers. Notice how computed properties are triggered when the value in the input field is changed (because it is a reactive dependency).
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- We are using a CDN to use Vue.js -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+    <div id = "demo" >
+        <!-- This div container has two input fields. The value in these input fields will be
+        assigned to the numberOne and numberTwo data properties in the vue instance.  -->
+        <div style="display: flex; flex-direction: row;justify-content: space-between; padding: 200px;">
+            <input style="width: 33%; height:50px;" type="number" v-model = "numberOne" placeholder="x">
+            <input style="width: 33%; height:50px;" type="number" v-model = "numberTwo" placeholder="y">
+        </div>
+        <!-- When there is a change in the input field, it will trigger the computed property,
+        productValue because, its reactive dependency has changed -->
+        <h3 style="text-align: center;">The product of {{numberOne}} and {{numberTwo}} is {{productValue}}</h3>
+    </div>
+    <script>
+        let vueInstance = new Vue({
+            //We are targeting the div container with the ID 'demo'
+            el:"#demo",
+            //The data used by the computed property. It is initialised as an empty string
+            data:{
+                numberOne: "",
+                numberTwo: "",
+            },
+            computed:{
+                productValue: function(){
+                    //parseInt() is used to convert a numerical string to its corresponding number
+                    return parseInt(this.numberOne)*parseInt(this.numberTwo);
+                }
+            }
+        })
+    </script>
+</body>
+</html>
+```
+
+![](./assets/computedProp3.gif)
+
 # Additional Resources:
 To learn more about Computed Properties in Vue.js, refer the following links:
 1. A detailed explanation about [computed properties](https://blog.logrocket.com/understanding-computed-properties-in-vue-js/#usingcomputedpropertiesassetters)
