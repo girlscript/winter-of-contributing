@@ -31,11 +31,11 @@ It consists of the following two units −
 * **Cluster Unit (F2 layer)** − This is a competitive layer. The unit having the largest net input is selected to learn the input pattern. The activation of all other cluster unit are set to 0.
 * **Reset Mechanism** − The work of this mechanism is based upon the similarity between the top-down weight and the input vector. Now, if the degree of this similarity is less than the vigilance parameter, then the cluster is not allowed to learn the pattern and a rest would happen.
 
-<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Computational%20Unit.png">
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Computational%20Unit.png">
 
 **Supplement Unit** − Actually the issue with Reset mechanism is that the layer **F2** must have to be inhibited under certain conditions and must also be available when some learning happens. That is why two supplemental units namely, **G1** and **G2** is added along with reset unit, **R**. They are called **gain control units**. These units receive and send signals to the other units present in the network. ‘+’ indicates an excitatory signal, while ‘−’ indicates an inhibitory signal.
 
-<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Supplement%20Unit.png">
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Supplement%20Unit.png">
 
 #### Parameters Used
 Following parameters are used -
@@ -49,27 +49,27 @@ Following parameters are used -
 #### Algorithm
 **Step 1** − Initialize the learning rate, the vigilance parameter, and the weights as follows −
 
-<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo1.png">
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo1.png">
 
 **Step 2** − Continue step 3-9, when the stopping condition is not true.
 **Step 3** − Continue step 4-6 for every training input.
 **Step 4** − Set activations of all F1 a and F1 units as follows
 
-<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo2.png">
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo2.png">
 
 **Step 5** − Input signal from F1a to F1b layer must be sent like
 
-<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo3.png">
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo3.png">
 
 **Step 6** − For every inhibited F2 node
 
-<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo4.png">
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo4.png">
 
 **Step 7** − Perform step 8-10, when the reset is true.
 **Step 8** − Find J for yJ ≥ yj for all nodes j
 **Step 9** − Again calculate the activation on F1 b as follows
 
-<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo5.png">
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo5.png">
 
 **Step 10** − Now, after calculating the norm of vector x and vector s, we need to check the reset condition as follows −
 
@@ -79,7 +79,7 @@ Following parameters are used -
 
 **Step 11** − Weight updating for node J can be done as follows −
 
-<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Algo6.png">
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo6.png">
 
 **Step 12** − The stopping condition for algorithm must be checked and it may be as follows −
 * Do not have any change in weight.
@@ -90,7 +90,7 @@ Following parameters are used -
 
 ART stands for Adaptive Resonance Theory. ART neural networks used for fast, stable learning and prediction have been applied in different areas. The application incorporates target recognition, face recognition, medical diagnosis, signature verification, mobile control robot.
 
-<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/images/Applications.png">
+<img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Applications.png">
 
 **Target recognition:**
 Fuzzy ARTMAP neural network can be used for automatic classification of targets depend on their radar range profiles. Tests on synthetic data show the fuzzy ARTMAP can result in substantial savings in memory requirements when related to k nearest neighbor(kNN) classifiers. The utilization of multiwavelength profiles mainly improves the performance of both kinds of classifiers.
