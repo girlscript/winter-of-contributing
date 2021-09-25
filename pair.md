@@ -1,31 +1,18 @@
-<<<<<<< HEAD
-#Introduction to Pair
-- Pair is a container defined in **<utility>** header consisting of two data elements.
+**Introduction to Pair**
+- Pair is a container defined in **< utility >** header consisting of two data elements.
 - Pair can have same as well different data-types of the two elements.
 - Pair have two entities namely **"first"** and **"second"**.
 - Order of first and second is fixed.
 - To reference the elements, we use variable name followed by dot operator followed by the keyword first or second.
 
-##**Syntax**
-> pair (data-type1 , data-type2 ) Pairname;
- 
-##**Code**
-=======
-Introduction to Pair
- - Pair is a container defined in "**< utility >**" header consisting of two data elements.  
- - Pair can have same as well different data-types of the two elements.
-- Pair have two entities namely **"first"** and **"second"**.
-- Order of first and second is fixed.
-- To reference the elements, we use variable name followed by dot operator followed by the keyword first or second.  
-
 **Syntax**
 > pair (data-type1 , data-type2 ) Pairname;
  
 **Code**
->>>>>>> 6f697cc4cfac7b85ac9642b99c182c0fb2ad6370
+
  **// CPP program of pair**  
- #include <iostream>  
- #include <utility>  
+ #include < iostream >  
+ #include < utility >  
  using namespace std;
  
  int main( )  
@@ -41,21 +28,14 @@ Introduction to Pair
     return 0;
    }
    
-<<<<<<< HEAD
-##**Output**
->10 , john 
 
-##**Methods of Initializing Pair in C++**
-
-###Syntax
-=======
 **Output**
 >10 , john 
 
 **Methods of Initializing Pair in C++**
 
 **Syntax**
->>>>>>> 6f697cc4cfac7b85ac9642b99c182c0fb2ad6370
+
 > pair( data-type1 , data-type2 ) Pair1(value1 , value2 );      
 
  There are various methods of initializing pair.  
@@ -64,9 +44,42 @@ Introduction to Pair
 > - pair PAIR3 ( PAIR2 );      // copy of PAIR2 is made in PAIR3
 > - PAIR4 = **make_pair** ( 1 , 'a' );  //using make_pair function
 
+**Functions**
+ - **Swap**
+   This function is used to swap the content of two pair of same type with each other.  
+ 
+ **Syntax**
+ > PAIR1.swap(PAIR2);  
+ 
+ **Code**  
+ 
+ #include < iostream >  
+ #include < utility >  
+  using namespace std;   
+ int main()    
+  {  
+    pair<float, int>pair1 = make_pair(2.6, 1);  
+    pair<float, int>pair2 = make_pair(5.7, 2);  
+ 
+    cout << "Before swapping:\n " ;  
+    cout << pair1.first << " " << pair1.second ;  
+    cout << pair2.first << " " << pair2.second ;  
+    pair1.swap(pair2);  
+ 
+    cout << "\nAfter swapping:\n ";  
+    cout << pair1.first << " " << pair1.second ;  
+    cout << pair2.first << " " << pair2.second ;  
+ 
+    return 0;
+}  
+ 
+**Output** 
 
-<<<<<<< HEAD
-=======
+>Before swapping:  
+>2.6, 1  
+>5.7, 2    
 
-
->>>>>>> 6f697cc4cfac7b85ac9642b99c182c0fb2ad6370
+>After swapping:  
+>5.7, 2  
+>2.6, 1  
+ 
