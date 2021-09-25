@@ -14,6 +14,7 @@
    <li> LightGray </li>
 </ul>
 <p> HTMl supports <a href="https://www.w3schools.com/colors/colors_names.asp"> 140 standard color names </a> </p>
+<hr>
 
 ## Background Color
 
@@ -27,6 +28,7 @@
 
 ```
 <img width="800" alt="back" src="https://user-images.githubusercontent.com/69414725/134756396-9f4f7ab1-61f4-4a32-954b-9948fd0c3c6d.PNG">
+<hr>
 
 ## Text Color
 
@@ -40,6 +42,7 @@
 
 ```
 <img width="221" alt="para" src="https://user-images.githubusercontent.com/69414725/134756450-289b55bb-a6fa-4e7a-9b46-c5d31d64c7ec.PNG">
+<hr>
 
 
 ## Border Color
@@ -54,6 +57,8 @@
 
 ```
 <img width="567" alt="border" src="https://user-images.githubusercontent.com/69414725/134756467-14b7b9f8-cb42-4a20-90d3-c31227266253.PNG">
+<hr>
+
 
 
 ## Color Values
@@ -81,6 +86,8 @@
 
 ```
 <img width="613" alt="val" src="https://user-images.githubusercontent.com/69414725/134756505-3784aeb4-4a15-43a5-b78d-fd2f1ec3126a.PNG">
+<hr>
+
 
 
 ## HTML RGB and RGBA Colors
@@ -124,6 +131,7 @@ The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not tra
  </p>
  
  <img width="589" alt="rgba" src="https://user-images.githubusercontent.com/69414725/134756889-21e64a0f-481b-42a9-92e8-4d394d1a2e3b.PNG">
+ <hr>
 
  ## HEX Color Values
  
@@ -141,6 +149,7 @@ To display black, set all color parameters to 00, like this: #000000.
 
 To display white, set all color parameters to ff, like this: #ffffff.</p>
 <img width="567" alt="hex" src="https://user-images.githubusercontent.com/69414725/134756922-829e0513-cafc-4da1-8dbf-330f0c7b2119.PNG">
+<hr>
 
 
 ## HTML HSL and HSLA Colors
@@ -171,10 +180,14 @@ Lightness is also a percentage value, 0% is black, and 100% is white. </p>
 50% is 50% gray, but you can still see the color.
 
 0% is completely gray, you can no longer see the color. </p>
+<img width="574" alt="saturation" src="https://user-images.githubusercontent.com/69414725/134776803-51bce3d6-2132-4722-8fdf-62343b007e26.PNG">
+
 
 ## Lightness
 
 <p> The lightness of a color can be described as how much light you want to give the color, where 0% means no light (black), 50% means 50% light (neither dark nor light) 100% means full lightness (white).</p>
+<img width="569" alt="Lightness" src="https://user-images.githubusercontent.com/69414725/134776818-74d9678f-9582-4759-8623-6ac1679dcec9.PNG">
+
 
 ## HSLA Color Values
 
@@ -185,3 +198,4 @@ An HSLA color value is specified with:
 hsla(hue, saturation, lightness, alpha)
 
 The alpha parameter is a number between 0.0 (fully transparent) and 1.0 (not transparent at all): </p>
+<img width="607" alt="hsla" src="https://user-images.githubusercontent.com/69414725/134776833-b6268428-3aa8-4f3e-acd7-6c2e4e33ca9c.PNG">
