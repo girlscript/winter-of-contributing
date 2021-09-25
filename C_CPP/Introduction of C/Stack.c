@@ -76,7 +76,7 @@ void traverse()
 {
     int i;
     if(top==-1)
-    {
+    {   
         printf("\nStack is empty!!");
     }
     else
