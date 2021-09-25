@@ -1,76 +1,76 @@
 # What is an Event?
  An HTML event is something that the browser does or something a user does. You can also call events as actions or occurrences that happen in the browser, to which you can respond to in some way.An event can be triggered by the user actione.g. clicking amouse button or tapping keyboard.
 
- Here are some more examples of HTML events-
- ● An HTML web page has finished loading
- ● An HTML input field was changed
- ● An HTML button was clicked
+ Here are some more examples of HTML events-<br>
+ ● An HTML web page has finished loading<br>
+ ● An HTML input field was changed<br>
+ ● An HTML button was clicked<br>
 
 # What are the functions of Event Handling?
-  Functions of Event Handling-
-  ● Event Handling identifies where an event should be forwarded.
-  ● It makes the forward event.
-  ● It receives the forwarded event.
-  ● It takes some kind of appropriate action in response, such as writing to a log, sending an error or   recovery routine or sending a message.
-  ● The event handler may ultimately forward the event to an event consumer.
+  Functions of Event Handling-<br>
+  ● Event Handling identifies where an event should be forwarded.<br>
+  ● It makes the forward event.<br>
+  ● It receives the forwarded event.<br>
+  ● It takes some kind of appropriate action in response, such as writing to a log, sending an error or   recovery routine or sending a message.<br>
+  ● The event handler may ultimately forward the event to an event consumer.<br>
 
-  Events can represent everything from basic user interactions to automated notifications of things happening in the rendering model.
-  To execute these events, you use functions and link them to an element. Sometimes in a function, you will see aparameter name such as 'event', 'evt' or 'e'. This is called an event objectand it is automatically passed to the function.
+  Events can represent everything from basic user interactions to automated notifications of things happening in the rendering model.<br>
+  To execute these events, you use functions and link them to an element. Sometimes in a function, you will see aparameter name such as 'event', 'evt' or 'e'. This is called an event objectand it is automatically passed to the function.<br>
 
-  To get notified of DOM events, you can use two ways -
-  ● Using addEventListener() method
+  To get notified of DOM events, you can use two ways -<br>
+  ● Using addEventListener() method<br>
   ● Using on<event> handlers
 
 # What are the types of Event Handling?
-  Types of Event-Handling are-
+  Types of Event-Handling are-<br>
 
-   1. addEventListener() Method-
-      The 'addEventListener()' method sets up a function that will be called whenever the specified event is delivered to the target.
+   1. addEventListener() Method-<br>
+      The 'addEventListener()' method sets up a function that will be called whenever the specified event is delivered to the target.<br>
 
-      The syntax is -target.addEventListener(type, listener, options);
-      Here;
-        The 'target' represents the element on which the event is added/attached.
-        The 'type' is a case-sensitive stringrepresenting the event type like 'click', 'keypress', etc.
-        The 'listener' is mostly a JavaScript function.
+      The syntax is -target.addEventListener(type, listener, options);<br>
+      Here;<br>
+        The 'target' represents the element on which the event is added/attached.<br>
+        The 'type' is a case-sensitive stringrepresenting the event type like 'click', 'keypress', etc.<br>
+        The 'listener' is mostly a JavaScript function.<br>
 
-      Example- you can show an alert box upon a mouse click on a button as-
-       varsubmitButton= document.getElementById("submit-button");
-       submitButton.addEventListener("click", function(){
-          alert("Submit Button is Clicked.");
+      Example- you can show an alert box upon a mouse click on a button as-<br>
+       varsubmitButton= document.getElementById("submit-button");<br>
+       submitButton.addEventListener("click", function(){<br>
+          alert("Submit Button is Clicked.");<br>
         });
  
     2. on<event> Handlers-
-       The on<event>handlers are a group of properties offered by DOM elements to help manage how that element reacts to events.
+       The on<event>handlers are a group of properties offered by DOM elements to help manage how that element reacts to events.<br>
  
-       The syntax is -target.on<event> = functionRef;
-       Here;
-         The 'target' represents the element on which the event is added/attached.
-         The 'functionRef' represents the function name or a function expression.
-         The function receives an argument of an 'Event' object.
+       The syntax is -target.on<event> = functionRef;<br>
+       Here;<br>
+         The 'target' represents the element on which the event is added/attached.<br>
+         The 'functionRef' represents the function name or a function expression.<br>
+         The function receives an argument of an 'Event' object.<br>
   
-        Example of on<event> handlers are 'onclick', 'onkeypress', etc.
+        Example of on<event> handlers are 'onclick', 'onkeypress', etc.<br>
  
        NOTE:When using on<event>, you can only have one handle for each event for an element. To use more than one event handler for the same event, 'addEventListener()' is a good choice
 
     3. Click Event-
        The click eventoccurs when the user clicks on an element. The click event is completed when the mouse button is pressed and releasedon a single element.
 
-       The syntax is- You can use one of the following syntax:
-       -target.onclick= functionRef;
+       The syntax is- You can use one of the following syntax:<br>
+       -target.onclick= functionRef;<br>
        OR
-       target.addEventListener("click", function() {
-         // JavaScript Code
+       target.addEventListener("click", function() {<br>
+         // JavaScript Code<br>
        });
 
-       You can assign only one 'onclick' event to an element at a time as shown in below example: 
-       You can use the onclick event on an input tag as-
-        functionabc(event){
-          console.log("Input element contains text -",
-          event.target.value);
-        }
-        document.getElementsByTagname("input")[0].onclick= abc;
+       You can assign only one 'onclick' event to an element at a time as shown in below example:<br>
+       You can use the onclick event on an input tag as-<br>
+        functionabc(event){<br>
+          console.log("Input element contains text -",<br>
+          event.target.value);<br>
+        }<br>
+        document.getElementsByTagname("input")[0].onclick= abc;<br>
 
-        This will print the value written inside the first input element of the web page
+        This will print the value written inside the first input element of the web page<br>
  
 These are the some important event handlers.There are many event handlers like-
 1. onAbort-	It executes when the user aborts loading an image.
