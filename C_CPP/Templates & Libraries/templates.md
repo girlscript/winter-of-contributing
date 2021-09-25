@@ -99,5 +99,6 @@ a is greater
 
 ## Points to Remember
 
-- A class created using class template is called a _template class_
-- A function created using function template is called a _template function_
+- A class created using a class template is called a _template class_
+- A function created using a function template is called a _template function_
+
