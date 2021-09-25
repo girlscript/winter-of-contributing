@@ -6,7 +6,7 @@ Let us see what happens when we finish writing our code and send it for compilat
 <br> <br>
 
 ### **What are Macros**
-A macro is basically a piece of code that is given a name. It can be defined by using the **#define** preprocessor directive. Macros are of two types: 
+A macro is a piece of code that is given a name. It can be defined by using the **#define** preprocessor directive. Macros are of two types: 
 - Object like Macros
 - Function like Macros
 
