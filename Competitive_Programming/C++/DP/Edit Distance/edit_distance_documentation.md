@@ -7,7 +7,7 @@ Given two strings str1 and str2. You can perform 3 operations on str1. i.e,
 2. Remove a character
 3. Replace a character
 
-Cost of all the above operations is same. Find the minimum number of operations that are required to convert ‘str1’ into ‘str2’.  
+The cost of all the above operations is the same. Find the minimum number of operations that are required to convert ‘str1’ into ‘str2’.  
 Example: 
 ``` 
 Input: str1="sitting",  str2="kitten"
