@@ -15,7 +15,7 @@ Let's take a look at an example:
 </head>
 <body>
     <!-- Notice how we are calculating the square of the number here. -->
-    <h1 id = "demo" style="text-align: center;">This number has a square root {{ sqNumber**2 }}</h1>
+    <h1 id = "demo" style="text-align: center;">This number has a square root : {{ sqNumber**2 }}</h1>
     <script>
         let vueInstance = new Vue({
             // We are targeting the element with the ID demo
@@ -49,7 +49,7 @@ let vueInstance = new Vue({
 ```
 Note that you should also change your template as follows as we are now using a computed property.
 ```html
-<h1 id = "demo" style="text-align: center;">This number has a square root {{ squaredValue }}</h1>
+<h1 id = "demo" style="text-align: center;">This number has a square root : {{ squaredValue }}</h1>
 ```
 # Usage
 To know when to use computed properties, we should first know the difference between computed properties and methods. When it comes to methods, the code is executed as long as the method is invoked. But that is not the case with computed properties. Computed properties are cache based, and will be triggered only when their reactive dependency (dependencies that can change) has changed. 
