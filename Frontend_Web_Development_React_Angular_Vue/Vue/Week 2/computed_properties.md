@@ -31,7 +31,7 @@ Let's take a look at an example:
 ```
 This code, produces the following output. 
 
-![](./assets/computedProp2.png)
+![](./assets/computedProp2R.png)
 
 While we get our desired output, notice how an operation takes place at the sqNumber template. Not only should our templates be concerned with only displaying their data, performing these operations individually if we need to display the squared number in multiple places will easily become hectic. So in this case, we can use computed properties. Replacing the vue instance in the previous code, with the following lines of code will produce the same output.
 ```js
