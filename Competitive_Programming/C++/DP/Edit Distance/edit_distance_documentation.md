@@ -70,7 +70,7 @@ Hence a **_Dynamic Programming_** Recursion + Memoization approach can be used h
 
 ## 💡 Implementation of Recursion + Memoization (Top Down Approach):
 
-The above Naive Recursive approach above can be optimized using memoization. A 2-D Vector can be used to store the intermediate results and for every state f(n,m) it can be checked whether it has been calculated before. 
+The above Naive Recursive approach above can be optimized using memoization. A 2-D vector can be used to store the intermediate results and for every state f(n,m) it can be checked whether it has been calculated before. 
 If it has been calculated before then return the result of computation else, compute the answer of the state, and store its value.  
 
 #### Code 💻 
