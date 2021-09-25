@@ -6,10 +6,11 @@
 
 Operators Precedence to Evaluate Expression (Highest priority to Lowest priority) :
 ```
-1. ( ), [ ], { }
-2. ^      right ->  left
-3. *, /   left  ->  right
-4. +, -   left  ->  right
+1. $
+2. ( ), [ ], { }
+3. ^      right ->  left
+4. *, /   left  ->  right
+5. +, -   left  ->  right
 ```
 
 ### Different Arithmetic Expressions :
@@ -33,6 +34,17 @@ e.g.
 A + B * C - D
 (2 + 4) / 5 - 7
 ```
+
+### Evaluation of Infix Expression
+
+Rules to evaluate infix expression :
+
+when we traversing the expression -
+- If we get operand in expression, it will push in stack.
+- If we get opening parenthesis `(` in expression then operator will push in stack. 
+- 
+
+| Infix Expression : (2 + 4) / 5 - 7
 
 ***
 
@@ -66,3 +78,4 @@ e.g.
 A + B C D * - 
 / - 2 4 5 7 +
 ```
+
