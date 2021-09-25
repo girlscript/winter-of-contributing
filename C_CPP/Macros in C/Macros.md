@@ -108,7 +108,7 @@ Some of the Macros are predefined in C and can be used in the following format(i
 printf("The value of this macro is: %s", __DATE__);
 ```
 
-Here is is a list of the predefined macros in C: 
+Here is a list of the predefined macros in C: 
 
 - __DATE__	A string containing the current date
 - __FILE__	A string containing the file name
