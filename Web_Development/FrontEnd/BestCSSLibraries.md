@@ -1,16 +1,15 @@
-> # What are CSS Libraries? 😕
+> # What are CSS Libraries?
 > CSS libraries are useful tools made to speed up design time and help developers achieve an amazing UI without building everything from scratch.
 > There are many awesome libraries available today for fonts, animation, and even for setting up the layout of the website.
 
 ## _Let's look at some of the best CSS libraries_ :sparkles:
 
-
+### Bootstrap
+Bootstrap is inevitably the most popular HTML, CSS, and JS library. It makes styling super easy and comes with amazing styles for buttons, drop-down menus, forms, navbars, cards, etc. that developers often use for their web pages. Even people who do not know much CSS can easily use Bootstrap, by simply following Bootstrap's well-written and easy-to-follow documentation. Check the documentation [here](https://getbootstrap.com/docs/5.1/getting-started/introduction/).
 ### Animate.css
 Animate.css can help you get rid of all the mess and hard work that we face while creating animation for their websites. It is a ready to use library that makes adding animations a lot much easier. Many types of animations can be added ranging from bounce, flash, pulse to fade in, fade out, flip in, flip out, etc. Check out their documentation page [here](https://animate.style/).
 ### Loading.io
 Loading.io is a library where individuals can create animations and use it for their websites. It offers preloaders, patterns, backgrounds, etc. and lets us animate them using various customizable effects. Loading.io also allows us to upload our own icon, backgrounds and animate them. We can also type in a text and make our very own animated text with GIF, SVG, APNG formats. Go check their website [here](https://loading.io/) to see the features they are offering.
-### Font Awesome
-Font Awesome is the most popular icon library containing free as well as paid icons for developers. Check their website [here](https://fontawesome.com/).
 ### Water.css
 Water.css helps to make simplistic but clean-looking responsive websites just by adding a few CSS functions. It has an incredibly low size (<2kb) and doesn't have classes. Check it out [here](https://watercss.kognise.dev/).
 ### Destyle.css
