@@ -1,0 +1,168 @@
+# What is an Event?
+ An HTML event is something that the browser does or something a user does. You can also call events as actions or occurrences that happen in the browser, to which you can respond to in some way.An event can be triggered by the user actione.g. clicking amouse button or tapping keyboard.
+
+ Here are some more examples of HTML events-
+ ● An HTML web page has finished loading
+ ● An HTML input field was changed
+ ● An HTML button was clicked
+
+# What are the functions of Event Handling?
+  Functions of Event Handling-
+  ● Event Handling identifies where an event should be forwarded.
+  ● It makes the forward event.
+  ● It receives the forwarded event.
+  ● It takes some kind of appropriate action in response, such as writing to a log, sending an error or   recovery routine or sending a message.
+  ● The event handler may ultimately forward the event to an event consumer.
+
+  Events can represent everything from basic user interactions to automated notifications of things happening in the rendering model.
+  To execute these events, you use functions and link them to an element. Sometimes in a function, you will see aparameter name such as 'event', 'evt' or 'e'. This is called an event objectand it is automatically passed to the function.
+
+  To get notified of DOM events, you can use two ways -
+  ● Using addEventListener() method
+  ● Using on<event> handlers
+
+# What are the types of Event Handling?
+  Types of Event-Handling are-
+
+   1. addEventListener() Method-
+      The 'addEventListener()' method sets up a function that will be called whenever the specified event is delivered to the target.
+
+      The syntax is -target.addEventListener(type, listener, options);
+      Here;
+        The 'target' represents the element on which the event is added/attached.
+        The 'type' is a case-sensitive stringrepresenting the event type like 'click', 'keypress', etc.
+        The 'listener' is mostly a JavaScript function.
+
+      Example- you can show an alert box upon a mouse click on a button as-
+       varsubmitButton= document.getElementById("submit-button");
+       submitButton.addEventListener("click", function(){
+          alert("Submit Button is Clicked.");
+        });
+ 
+    2. on<event> Handlers-
+       The on<event>handlers are a group of properties offered by DOM elements to help manage how that element reacts to events.
+ 
+       The syntax is -target.on<event> = functionRef;
+       Here;
+         The 'target' represents the element on which the event is added/attached.
+         The 'functionRef' represents the function name or a function expression.
+         The function receives an argument of an 'Event' object.
+  
+        Example of on<event> handlers are 'onclick', 'onkeypress', etc.
+ 
+       NOTE:When using on<event>, you can only have one handle for each event for an element. To use more than one event handler for the same event, 'addEventListener()' is a good choice
+
+    3. Click Event-
+       The click eventoccurs when the user clicks on an element. The click event is completed when the mouse button is pressed and releasedon a single element.
+
+       The syntax is- You can use one of the following syntax:
+       -target.onclick= functionRef;
+       OR
+       target.addEventListener("click", function() {
+         // JavaScript Code
+       });
+
+       You can assign only one 'onclick' event to an element at a time as shown in below example: 
+       You can use the onclick event on an input tag as-
+        functionabc(event){
+          console.log("Input element contains text -",
+          event.target.value);
+        }
+        document.getElementsByTagname("input")[0].onclick= abc;
+
+        This will print the value written inside the first input element of the web page
+ 
+These are the some important event handlers.There are many event handlers like-
+1. onAbort-	It executes when the user aborts loading an image.
+2. onBlur-	    It executes when the input focus leaves the field of a text, textarea or a select option.
+3. onChange-	It executes when the input focus exits the field after the user modifies its text.
+4. onError-	It executes when an error occurs while loading a document or an image.
+5. onFocus-	It executes when input focus enters the field by tabbing in or by clicking but not selecting input from the field.
+6. onLoad- 	It executes when a window or image finishes loading.
+7. onMouseOver- The JavaScript code is called when the mouse is placed over a specific link or an object.
+8. onMouseOut-	The JavaScript code is called when the mouse leaves a specific link or an object.
+9. onReset-	It executes when the user resets a form by clicking on the reset button.
+10. onSelect-	It executes when the user selects some of the text within a text or textarea field.
+11. onSubmit-	It calls when the form is submitted.
+12. onUnload-	It calls when a document is exited.
+
+# Example: Simple Program on onsubmit() & onfocus() Event handler.
+<html>
+     <body>
+          <script>  
+               function validateform()
+               {  
+                    var uname=document.myform.name.value;  
+                    var upassword=document.myform.password.value;  
+                    if (uname==null || uname=="")
+                    {  
+                         alert("Name cannot be left blank");  
+                         return false;  
+                    }
+                    else if(upassword.length<6)
+                    {  
+                         alert("Password must be at least 6 characters long.");  
+                         return false;  
+                    }  
+               }  
+               function emailvalidation()
+               {
+                    var a=document.myform.email.value
+                    if (a.indexOf("@")==-1)
+                    {
+                         alert("Please enter valid email address")
+                         document.myform.email.focus()
+                    }
+               }
+          </script>  
+     <body>  
+          <form name="myform" method="post" action="validpage.html" onsubmit="return validateform()">  
+               Email: <input type="text" size="20" name="email" onblur="emailvalidation()"><br>
+               User Name: <input type="text" name="name"><br>  
+               Password: <input type="password" name="password"><br>  
+               <input type="submit" value="Submit" >  
+          </form>  
+     </body>
+</html>
+
+<html>
+     <body>
+          <script type="text/javascript">
+               alert("You are a Valid User !!!");
+          </script>
+     </body>
+</html>
+# Example: Simple Program on onload() Event handler
+<html>
+     <head>
+     <script type="text/javascript">
+     function time()
+     {
+          var d = new Date();
+          var ty = d.getHours() + ":"+d.getMinutes()+":"+d.getSeconds();
+          document.frmty.timetxt.value=ty;
+          setInterval("time()",1000)
+     }
+     </script>
+     </head>
+<body onload="time()">
+     <center><h2>Displaying Time</h2>
+          <form name="frmty">
+               <input type=text name=timetxt size="8">
+          </form>
+     </center>
+</body>
+</html>
+So basically Event handlers can be used to handle and verify user input, user actions, and browser actions:
+● Things that should be done every time a page loads.
+● Things that should be done when the page is closed.
+● Action that should be performed when a user clicks a button.
+● Content that should be verified when a user inputs data.
+ and even more.....
+Many different methods can be used to let JavaScript work with events:
+● HTML event attributes can execute JavaScript code directly.
+● HTML event attributes can call JavaScript functions.
+● You can assign your own event handler functions to HTML elements.
+● You can prevent events from being sent or being handled.
+ and even more.....
+  
