@@ -176,7 +176,7 @@ Box Shadow in CSS is used to put a shadow effect to one or more elements by spec
    ```
    ![Box-Blur]()
   
-   > `Note :` Here `5px` refers to the `blur-radius` value, i.e the extent till which the shadow would be blurred
+   > `Note :` Here `5px` refers to the `blur-radius` value, i.e the extent till which the shadow would be blurred. The higher the value, bigger is       the blur
  
  * ### Syntax of box-shadow with `blur-radius` and `spread-radius`
    ```css
@@ -187,7 +187,7 @@ Box Shadow in CSS is used to put a shadow effect to one or more elements by spec
    ```
    ![Box-All]()
   
-   > `Note :` Here `3px` refers to the `spread-radius` value, i.e the extent till which the shadow would spread
+   > `Note :` Here `3px` refers to the `spread-radius` value, i.e the extent till which the shadow would spread. The higher the value, bigger is is       spread
 
   **FINAL SYNTAX** -  box-shadow: `x-offset` `y-offset` `blur-radius` `spread-radius` `color` ;
 
@@ -195,3 +195,36 @@ Box Shadow in CSS is used to put a shadow effect to one or more elements by spec
    * `inset` : changes a shadow from an outer to inner shadow
    * `initial` : default values are set
    * `inherit` : helps inherit the properties of its parent element
+
+## CSS Text Shadow
+Text Shadow in CSS is used to apply shadow to texts
+
+ * ### Syntax of a basic text-shadow
+   ```css
+   .text-shadow-basic
+   {
+    text-shadow: 2px 1px rgb(15, 3, 70);
+   }
+   ```
+   ![Text-basic]()
+   
+   > `Note :` Here similar to box-shadow, `2px` and `1px` are `x-offset` and `y-offset` respectively followed by colour
+ 
+ * ### Syntax of text-shadow with `blur-radius`
+   ```css
+   .text-shadow-blur
+   {
+    text-shadow: 2px 3px 4px rgb(15, 3, 70);
+   }
+   ```
+   ![]()
+   
+   > `Note :` Here `4px` is the `blur-radius` value i.e the extent till which the shadow would be blurred. The higher is its value, bigger the blur       of the text-shadow
+ 
+ **FINAL SYNTAX** : text-shadow : `x-offset` `y-offset` `blur-radius` `color` ;
+ 
+ **Text shadow also has the properties `inset`, `initial` and `inherit` and have the same funaction as they do for box-shadow**
+ 
+ ### Sources
+ https://developer.mozilla.org/en-US/docs/Learn
+ https://www.w3schools.com/cssref/default.asp
