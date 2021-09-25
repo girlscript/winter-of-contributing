@@ -65,7 +65,7 @@
     - [Browser Hijacker](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/BROWSER_HIJACKERS.md)
     - [Polymorphic virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Polymorphic_Virus.md)
     - Resident virus
-    - Trojan Horse
+    - [Trojan Horse](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Trojan_Horse.ipynb)
     - [Web Scripting Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.8%20Web%20scripting%20virus%20%231958.md)
     - [File Injecting virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/File-Infector_Virus.md)
     - Boot Sector Virus
