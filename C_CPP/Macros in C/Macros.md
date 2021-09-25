@@ -1,7 +1,7 @@
 # Macros in C
 <br>
 
-### **Something about the C preproccesor**
+### **Something about the C preprocessor**
 Let us see what happens when we finish writing our code and send it for compilation. Just before the program gets compiled, we have something called the C preprocessor, which transforms the program before compilation. This could include including a header file, expanding a macro etc. So this is where Macros come into play. Let us see what they are. 
 <br> <br>
 
