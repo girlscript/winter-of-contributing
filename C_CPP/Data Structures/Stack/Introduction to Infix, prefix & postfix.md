@@ -7,7 +7,7 @@
 Operators Precedence to Evaluate Expression (Highest priority to Lowest priority) :
 ```
 1. $
-2. ( ), [ ], { }
+2. (), [], {}
 3. ^      right ->  left
 4. *, /   left  ->  right
 5. +, -   left  ->  right
@@ -49,12 +49,7 @@ e.g.
 
 Prefix Expression : `(2 + 4) / 5 - 7`
 
-|---|---|
-|---|---|
-|---|---|
-|---|---|
-|---|---|
-
+Output : `7`
 
 ***
 
