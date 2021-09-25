@@ -1,5 +1,4 @@
 # STL LIST
-If we talk about the List in standard template library.
 <p> List is a sequence container that allows insertion and deletion operations in constant time from any place in the sequence and can iterate in both directions forward and backward but traversing is bit slower. </p>
 
 <p> Declaration of list in stl</p>
@@ -12,6 +11,81 @@ list < int > li = {100,20,30,30,50};
 
 ```
 list <int> :: iterator it;
+```
+<p> Code for list important functions </p>
+
+```
+#include <iostream>
+#include <list>
+#include <iterator>
+using namespace std;
+
+//function for printing the elements in a list
+void displayList(list <int> li)
+{
+	list <int> :: iterator it;
+	for(it = li.begin(); it != li.end(); it++) {
+	cout << "\t" << *it;
+     }
+	cout << '\n';
+}
+
+int main()
+{
+
+	list <int> l1, l2;
+
+
+	for (int i = 0; i < 10; ++i)
+	{
+		l1.push_back(i);
+		l2.push_front(i * 3);
+	}
+	cout << "\n List 1 (l1) is : ";
+	displayList(l1);
+
+	cout << "\nList 2 (l2) is : ";
+	displayList(l2);
+
+	cout << "\n l1.front() : " << l1.front();
+	cout << "\n l1.back() : " << l1.back();
+
+	cout << "\n l1.pop_front() : ";
+	l1.pop_front();
+	displayList(l1);
+
+	cout << "\n l2.pop_back() : ";
+	l2.pop_back();
+	displayList(l2);
+
+	cout << "\n l1.reverse() : ";
+	l1.reverse();
+	displayList(l1);
+
+	cout << "\n l2.sort(): ";
+	l2.sort();
+	displayList(l2);
+
+	return 0;
+
+}
+```
+Output
+```
+ List 1 (l1) is : 	0	1	2	3	4	5	6	7	8	9
+
+ List 2 (l2) is : 	27	24	21	18	15	12	9	6	3	0
+
+ l1.front() : 0
+ l1.back() : 9
+ l1.pop_front() : 	1	2	3	4	5	6	7	8	9
+
+ l2.pop_back() : 	27	24	21	18	15	12	9	6	3
+
+ l1.reverse() : 	9	8	7	6	5	4	3	2	1
+
+ l2.sort(): 	3	6	9	12	15	18	21	24	27
+
 ```
 
 ## Functions Used With List
