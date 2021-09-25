@@ -40,28 +40,28 @@
         });
  
     2. on<event> Handlers-
-       The on<event>handlers are a group of properties offered by DOM elements to help manage how that element reacts to events.
+       The on<event> handlers are a group of properties offered by DOM elements to help manage how that element reacts to events.
  
        The syntax is -target.on<event> = functionRef;
        Here;<br>
-         The 'target' represents the element on which the event is added/attached.<br>
-         The 'functionRef' represents the function name or a function expression.<br>
-         The function receives an argument of an 'Event' object.<br>
+         The 'target' represents the element on which the event is added/attached.
+         The 'functionRef' represents the function name or a function expression.
+         The function receives an argument of an 'Event' object.
   
-        Example of on<event> handlers are 'onclick', 'onkeypress', etc.<br>
+        Example of on<event> handlers are 'onclick', 'onkeypress', etc.
  
-       NOTE: When using on<event>, you can only have one handle for each event for an element. To use more than one event handler
-             for the same event,'addEventListener()' is a good choice
+       NOTE: When using on<event>, you can only have one handle for each event for an element. To use more than one event
+             handler for the same event,'addEventListener()' is a good choice.
 
     3. Click Event-
        The click eventoccurs when the user clicks on an element. The click event is completed when the mouse button is pressed 
        and releasedon a single element.
 
-       The syntax is- You can use one of the following syntax:<br>
-       -target.onclick= functionRef;<br>
+       The syntax is- You can use one of the following syntax:
+       -target.onclick= functionRef;
        OR
        target.addEventListener("click", function(){
-         // JavaScript Code<br>
+         // JavaScript Code
        });
 
        You can assign only one 'onclick' event to an element at a time as shown in below example:
@@ -69,10 +69,8 @@
         functionabc(event){
           console.log("Input element contains text -",
           event.target.value);
-        }<br>
+        }
         document.getElementsByTagname("input")[0].onclick= abc;
-
-        This will print the value written inside the first input element of the web page
  
 These are the some important event handlers.There are many event handlers like-
 1. onAbort-	It executes when the user aborts loading an image.
