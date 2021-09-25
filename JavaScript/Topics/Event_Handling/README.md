@@ -88,52 +88,52 @@ These are the some important event handlers.There are many event handlers like-
 11. onSubmit-	It calls when the form is submitted.
 12. onUnload-	It calls when a document is exited.
 
-# Example: Simple Program on onsubmit() & onfocus() Event handler.
-<html>
-     <body>
-          <script>  
-               function validateform()
-               {  
-                    var uname=document.myform.name.value;  
-                    var upassword=document.myform.password.value;  
-                    if (uname==null || uname=="")
-                    {  
-                         alert("Name cannot be left blank");  
-                         return false;  
-                    }
-                    else if(upassword.length<6)
-                    {  
-                         alert("Password must be at least 6 characters long.");  
-                         return false;  
-                    }  
-               }  
-               function emailvalidation()
-               {
-                    var a=document.myform.email.value
-                    if (a.indexOf("@")==-1)
-                    {
-                         alert("Please enter valid email address")
-                         document.myform.email.focus()
-                    }
-               }
-          </script>  
-     <body>  
-          <form name="myform" method="post" action="validpage.html" onsubmit="return validateform()">  
+# Example: Simple Program on onsubmit() & onfocus() Event handler.<br>
+<html><br>
+     <body><br>
+          <script><br>
+               function validateform()<br>
+               {<br>
+                    var uname=document.myform.name.value; <br>
+                    var upassword=document.myform.password.value;<br>  
+                    if (uname==null || uname=="")<br>
+                    {<br> 
+                         alert("Name cannot be left blank");<br> 
+                         return false;<br> 
+                    }<br>
+                    else if(upassword.length<6)<br>
+                    {  <br>
+                         alert("Password must be at least 6 characters long.");<br>  
+                         return false; <br> 
+                    }  <br>
+               } <br> 
+               function emailvalidation()<br>
+               {<br>
+                    var a=document.myform.email.value<br>
+                    if (a.indexOf("@")==-1)<br>
+                    {<br>
+                         alert("Please enter valid email address")<br>
+                         document.myform.email.focus()<br>
+                    }<br>
+               }<br>
+          </script><br>  
+     <body><br>
+          <form name="myform" method="post" action="validpage.html" onsubmit="return validateform()"><br>
                Email: <input type="text" size="20" name="email" onblur="emailvalidation()"><br>
                User Name: <input type="text" name="name"><br>  
                Password: <input type="password" name="password"><br>  
-               <input type="submit" value="Submit" >  
-          </form>  
-     </body>
-</html>
+               <input type="submit" value="Submit" ><br> 
+          </form><br>  
+     </body><br> 
+</html><br> 
 
-<html>
-     <body>
-          <script type="text/javascript">
-               alert("You are a Valid User !!!");
-          </script>
-     </body>
-</html>
+<html><br> 
+     <body><br> 
+          <script type="text/javascript"><br> 
+               alert("You are a Valid User !!!");<br> 
+          </script><br> 
+     </body><br> 
+</html><br> 
 # Example: Simple Program on onload() Event handler<br>
 <html><br>
      <head><br>
