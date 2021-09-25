@@ -8,7 +8,7 @@ The important point to note here is that indexing in arrays starts from 0 and go
 
 Let's suppose you want to store the marks of 10 students in a subject in an array. The array would be represented as:
 
-![Array Representation](0001.jpg)
+![Array Representation](https://user-images.githubusercontent.com/63473496/134768711-11fbd8d7-beb4-4c54-85ab-1d5a5ff43f3d.png)
 
 In the above figure,
 
