@@ -73,4 +73,3 @@ Here is a list of the predefined macros in C:
 - __LINE__	An integer representing the current line number
 - __STDC__	If follows ANSI standard C, then the value is a nonzero integer
 - __TIME__	A string containing the current date.
-
