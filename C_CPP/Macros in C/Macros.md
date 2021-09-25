@@ -48,7 +48,7 @@ Here, whenever we will use add in the program, it will get replaced by the funct
 <br>
 <br>
 
-You might be wondering **what is the need of Function like macros** when it is entirely similar to defining a function. Well, the interesting thing is, that when we define a function using a Macro, it takes any kind of data type. This actually allows us to do function overloading upto some extent in C, which is not really a function of C, unlike C++.  
+You might be wondering **what is the need of Function like macros** when it is entirely similar to defining a function. Well, the interesting thing is, that when we define a function using a Macro, it takes any kind of data type. This actually allows us to do function overloading upto some extent in C, which is not a function of C, unlike C++.  
 <br>
 <br>
 
