@@ -21,7 +21,7 @@ Explanation: insert 6 characters after str1 i.e 's', 'c', 'r', 'i', 'p', 't'
 
 ## Naive Approach 🧠
 
-A naive brute force idea is to traverse on the strings and process each character one by one. Let traverse both the strings from right to left. 
+A naive brute force idea is to traverse the strings and process each character one by one. Lets traverse both the strings from right to left. 
 m = Length of String 1 
 n = Lenght of String 2
 There can be two possiblity 
