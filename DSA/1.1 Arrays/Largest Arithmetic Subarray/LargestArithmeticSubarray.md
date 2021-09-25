@@ -85,6 +85,12 @@ int main()
 
 > Answer = 4
 
+**Time Complexity :**  O(N) for the first for loop to take input and another O(N) for the while loop so total O(2N) or we can simply say it O(N)
+
+**Space Complexity :** There is no such extra space is need to calculate the answer so space complexity will be O(1) [constant]
+
+<br/>
+
 
 Approach is similar in java, c or other languages...
 
