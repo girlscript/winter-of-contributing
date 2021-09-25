@@ -10,7 +10,7 @@ Outline:
 - CDF with conditions
 - Plotting PDF and CDF using python
 
-![image](https://user-images.githubusercontent.com/80235375/134771093-c28da028-f2df-40df-b47d-160fe6ae144b.png)
+![image](Machine_Learning/Statistics_for_Machine_Learning/Assets/pdf cdf.png)
 
 
 Video Link: https://drive.google.com/file/d/1XnwuC_4gxpvPqWEKM2FQDYARKEuhzVAD/view?usp=sharing
