@@ -56,3 +56,17 @@ Leave p-out cross-validation (LpOCV) is an exhaustive cross-validation technique
 **Conclusion:**
 
 Cross-Validation is a very useful tool of a data scientist for assessing the effectiveness of the model, especially for tackling overfitting and underfitting.
+
+**Code:**
+
+- k-fold:
+
+from sklearn.model_selection import KFold
+
+KFold(n_splits=10, random_state=1, shuffle=True)
+
+- RepeatedKFold:
+
+from sklearn.model_selection import RepeatedKFold
+
+rkf = RepeatedKFold(n_splits=2, n_repeats=2)
