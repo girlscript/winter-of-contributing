@@ -2,7 +2,7 @@
 
 <p>Evaluation of arithmetic expression is a application of stacks. Stacks play important role in evaluation of arithmetic expression consists of operands and operators.</p>
 
-`+ ,  - , * , /` are the operators which is used in arithmetic expressions.
+`+` , `-` , `*` , `/` are the operators which is used in arithmetic expressions.
 
 Operators Precedence to Evaluate Expression (Highest priority to Lowest priority) :
 ```
