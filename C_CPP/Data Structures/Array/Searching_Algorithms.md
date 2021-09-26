@@ -241,7 +241,7 @@ int main()
       
       -1
   
-   ### :timer_clock: Time Complexity Analysis in case of Binear Search
+   ### :timer_clock: Time Complexity Analysis in case of Binary Search
    
    The time complexity of the above algorithm is O(log(n)), where n is the size of the search space (say array of size n).
    
