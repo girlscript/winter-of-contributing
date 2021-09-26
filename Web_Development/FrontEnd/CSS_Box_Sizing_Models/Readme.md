@@ -12,7 +12,7 @@ Below image represents a element with its various elements.
 ![image](https://user-images.githubusercontent.com/55577276/134778382-9124b5b1-bec4-4152-b55a-5d9c2aa4920f.png)
 
 
-*Figure 1 (Reference : zellwk.com)*
+*Figure 1 (Reference : https://zellwk.com/blog/understanding-css-box-sizing/)*
 
 Let’s try understand what each of these properties signifies:
 
@@ -37,7 +37,7 @@ Size of figure 1  box is determined as described below:
 
 ![image](https://user-images.githubusercontent.com/55577276/134778925-463dd780-2a4d-41fb-8911-e1c47bc1f578.png)
 
-*Figure 2 (Reference : binvisions.com)*
+*Figure 2 (Reference : https://stackoverflow.com/questions/11070071/css-width-in-percentage-and-borders)*
 
 Now we need to understand Figure 2 better, so let’s consider an example: 
  
@@ -92,7 +92,7 @@ When we give **box-sizing: border box**, the special combination property called
 
 ![image](https://user-images.githubusercontent.com/55577276/134493069-39a3ba69-c2d5-41cf-8a31-3e973e6f3490.png)
 
-*Figure 3: Difference in the rendered width by using box-sizing property (Reference : medium.com)*
+*Figure 3: Difference in the rendered width by using box-sizing property (Reference : https://medium.com/prod-io)*
 
 We can also use the universal specifier specifing  box sizing as border box that will apply this to all the elements present in DOM.
 Universal box-sizing:  
