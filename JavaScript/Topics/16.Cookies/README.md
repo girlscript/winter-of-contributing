@@ -112,6 +112,110 @@ var getActive = browser.tabs.query({
 });
 getActive.then(getCookie);
 ```
+
+# Setting up cookies with Node.js
+Go ahead and create a project directory on your computer. Initialize Node.js using ```npm init -y``` to generate a ```package.json``` file to manage Node.js project dependencies.
+We will use the following NPM packages:
+
+- **Express** - this is an opinionated server-side framework for Node.js that helps you create and manage HTTP server REST endpoints.
+
+- **cookie-parser** - cookie-parser looks at the headers in between the client and the server transactions, reads these headers, parses out the cookies being sent, and saves them in a browser. In other words, cookie-parser will help us create and manage cookies depending on the request a user makes to the server.
+
+Run the following command to install these NPM packages:
+```
+npm install express cookie-parser
+```
+
+## Step 1 - Import the installed packages
+To set up a server and save cookies, import the cookie parser and express modules to your project. This will make the necessary functions and objects accessible.
+
+```js
+const express = require('express')
+const cookieParser = require('cookie-parser')
+```
+
+## Step - 2 Get your application to use the packages
+You need to use the above modules as middleware inside your application, as shown below.
+
+```js
+//setup express app
+const app = express()
+
+// let’s you use the cookieParser in your application
+app.use(cookieParser());
+```
+This will make your application use the cookie parser and Express modules.
+
+## Step - 3 Set a simple route to start the server
+We use the following code to set up a route for the homepage:
+
+```js
+//set a simple for homepage route
+app.get('/', (req, res) => {
+    res.send('welcome to a simple HTTP cookie server');
+});
+```
+
+## Step 4 - Set a port number
+This is the port number that the server should listen to when it is running. This will help us access our server locally. In this example, the server will listen to port 8000, as shown below.
+
+```js
+//server listening to port 8000
+app.listen(8000, () => console.log('The server is running port 8000...'));
+```
+
+# Setting cookies
+Let’s add routes and endpoints that will help us create, update and delete a cookie.
+
+## Step 1 - Set a cookie
+We will set a route that will save a cookie in the browser. In this case, the cookies will be coming from the server to the client browser. To do this, use the res object and pass cookie as the method, i.e. res.cookie() as shown below.
+
+```js
+//a get route for adding a cookie
+app.get('/setcookie', (req, res) => {
+    res.cookie(`Cookie token name`,`encrypted cookie string Value`);
+    res.send('Cookie have been saved successfully');
+});
+```
+When the above route is executed from a browser, the client sends a get request to the server. But in this case, the server will respond with a cookie and save it in the browser.
+
+Go ahead and run node app.js to serve the above endpoint. Open http://localhost:8000/getcookie your browser and access the route.
+
+To confirm that the cookie was saved, go to your browser’s inspector tool 🡆 select the application tab 🡆 cookies 🡆 select your domain URL.
+
+## Step 2 - Using the req.cookies method to check the saved cookies
+If the server sends this cookie to the browser, this means we can iterate the incoming requests through req.cookies and check the existence of a saved cookie. You can log this cookie to the console or send the cookie request as a response to the browser. Let’s do that.
+
+```js
+// get the cookie incoming request
+app.get('/getcookie', (req, res) => {
+    //show the saved cookies
+    console.log(req.cookies)
+    res.send(req.cookies);
+});
+```
+
+## Step 3 - Secure cookies
+One precaution that you should always take when setting cookies is security. In the above example, the cookie can be deemed insecure.
+
+For example, you can access this cookie on a browser console using JavaScript (document.cookie). This means that this cookie is exposed and can be exploited through cross-site scripting.
+
+## Step 4 - Deleting a cookie
+Typically, cookies can be deleted from the browser depending on the request that a user makes. For example, if cookies are used for login purposes, when a user decides to log out, the request should be accompanied by a delete command.
+
+Here is how we can delete the cookie we have set above in this example. Use ```res.clearCookie()``` to clear all cookies.
+
+```js
+// delete the saved cookie
+app.get('/deletecookie', (req, res) => {
+    //show the saved cookies
+    res.clearCookie()
+    res.send('Cookie has been deleted successfully');
+});
+```
+
+Open http://localhost:8000/deletecookie, and you will see that the saved cookie has been deleted.
+
 # Why do you need a Cookie?
 The communication between a web browser and server happens using a stateless protocol named HTTP. Stateless protocol treats each request independent. So, the server does not keep the data after sending it to the browser. But in many situations, the data will be required again. Here come cookies into a picture. With cookies, the web browser will not have to communicate with the server each time the data is required. Instead, it can be fetched directly from the computer.
 <br>
