@@ -48,8 +48,8 @@ But if the tree is too deep then the decision tree built using ID3 will be overf
 
 ## References :
 
-1. https://towardsdatascience.com/id3-decision-tree-classifier-from-scratch-in-python-b38ef145fd90#:~:text=%20ID3%20Decision%20Tree%20Classifier%20from%20scratch%20in,wind%20blows%20from%20the%20South.%20If...%20More%20
+1. <a href = "https://towardsdatascience.com/id3-decision-tree-classifier-from-scratch-in-python-b38ef145fd90#:~:text=%20ID3%20Decision%20Tree%20Classifier%20from%20scratch%20in,wind%20blows%20from%20the%20South.%20If...%20More%20\">ID3 Decision Tree Classifier from scratch in Python</a>
 
-2. https://iq.opengenus.org/id3-algorithm/#:~:text=Characteristics%20of%20ID3%20Algorithm%20are%20as%20follows%3A%201,produce%20the%20smallest%20possible%20tree.%20More%20items...%20
+2. <a href = "https://iq.opengenus.org/id3-algorithm/#:~:text=Characteristics%20of%20ID3%20Algorithm%20are%20as%20follows%3A%201,produce%20the%20smallest%20possible%20tree.%20More%20items...%20\">Characteristics of ID3 Algorithm</a>
 
-3. https://en.wikipedia.org/wiki/ID3_algorithm#Pseudocode
+3. <a href = "https://en.wikipedia.org/wiki/ID3_algorithm#Pseudocode\"> Pseudocode of ID3 Algorithm</a>
