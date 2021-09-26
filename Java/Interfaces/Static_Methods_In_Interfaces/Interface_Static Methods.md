@@ -10,6 +10,8 @@
 
 ### Sample Interface:
 
+
+```
 `interface Music {`
 
  
@@ -33,6 +35,8 @@
     `}`
   `}`
  `}`
+ 
+ ```
  
  
  
