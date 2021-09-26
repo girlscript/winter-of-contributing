@@ -52,7 +52,9 @@ Following parameters are used -
 <img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo1.png">
 
 **Step 2** − Continue step 3-9, when the stopping condition is not true.
+
 **Step 3** − Continue step 4-6 for every training input.
+
 **Step 4** − Set activations of all F1 a and F1 units as follows
 
 <img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo2.png">
@@ -66,7 +68,9 @@ Following parameters are used -
 <img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo4.png">
 
 **Step 7** − Perform step 8-10, when the reset is true.
-**Step 8** − Find J for yJ ≥ yj for all nodes j
+
+**Step 8** − Find J for yJ ≥ yj for all nodes j.
+
 **Step 9** − Again calculate the activation on F1 b as follows
 
 <img src="https://github.com/Apoorv-17/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Adaptive%20Resonance%20Theory/Images/Algo5.png">
