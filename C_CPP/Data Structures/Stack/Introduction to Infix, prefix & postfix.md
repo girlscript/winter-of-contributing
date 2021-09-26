@@ -5,12 +5,11 @@
 `+` , `-` , `*` , `/` are the operators which is used in arithmetic expressions.
 
 Operators Precedence to Evaluate Expression (Highest priority to Lowest priority) :
-```
-1. $
-2. (), [], {}
-3. ^      right ->  left
-4. *, /   left  ->  right
-5. +, -   left  ->  right
+``` 
+1. (), [], {}
+2. ^      right ->  left
+3. *, /   left  ->  right
+4. +, -   left  ->  right
 ```
 
 ### Different Arithmetic Expressions :
