@@ -4,7 +4,7 @@
 
 - ## [Linked List](./LinkedList)
 
-- ## [Stack](./Stack)  
+- ## [Stack](./Stack)
 
 - ## [Queue](./Queue)
 
