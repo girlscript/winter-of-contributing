@@ -1,2 +1,0 @@
-- [Classes & Objects](Classes&Objects.md)
-- [Polymorphism](Polymorphism.md)
