@@ -33,9 +33,9 @@
   - [Network Virtuliazation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.1_Types%20of%20Virtualization%20-%20What%20is%20Network%20Virtualization%20.md)
   - [Virtual Desktop Infrastructure (VDI)](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.2_Types%20of%20Virtualization-What%20is%20Virtual%20Desktop%20Infrastructure(VDI)%20.md)
   - [Application virtualization](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.3_Types_of_Virtualization.md)
-- [ ] [Setup VirtualBox and Virtual Machine in Windows](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Setup%20VirtualBox%20and%20Virtual%20Machine%20on%20Windows.md)
+- [x] [Setup VirtualBox and Virtual Machine in Windows](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Setup%20VirtualBox%20and%20Virtual%20Machine%20on%20Windows.md)
 - [ ] Setup VirtualBox and Virtual Machine in Mac
-- [ ] Familiar to Linux Terminal
+- [x] [Familiar to Linux Terminal](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.9.3.Familiar%20to%20Linux%20Terminal.md)
 - [x] [Linux File System](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.9.1%20FileSystemInLinux.md)
 - [ ] Linux File System Directories
 ## Week-2 (Networking)
@@ -44,7 +44,7 @@
     - ipv6
 - [x] [MAC address](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.2_Mac_Address.md)
 - [x] [IP v/s MAC](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.3_ip_address_vs_mac_address.md)
-- [ ] TCP
+- [x] [TCP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/726-Transmission%20Control%20Protocol(TCP).md)
 - [x] [UDP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/User%20Datagram%20Protocol%20(UDP).md)
     - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/UDP_vedio.md)
 - [ ] 3-way handshake
@@ -65,7 +65,11 @@
     - [Browser Hijacker](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/BROWSER_HIJACKERS.md)
     - [Polymorphic virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Polymorphic_Virus.md)
     - Resident virus
-    - Trojan Horse
+    - [Trojan Horse](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Trojan_Horse.ipynb)
     - [Web Scripting Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.8%20Web%20scripting%20virus%20%231958.md)
     - [File Injecting virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/File-Infector_Virus.md)
     - Boot Sector Virus
+    - [Malware](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.2%20Malware%20%232499.md)
+    - Phishing attacks
+    - Cloud jacking
+    - MAN-IN-THE-MIDDLE attack
