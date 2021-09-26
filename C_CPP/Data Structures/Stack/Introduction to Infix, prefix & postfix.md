@@ -47,7 +47,7 @@ when we traversing the expression -
 
 e.g.
 
-Infix Expression : `(2 + 4) / 5 - 7`
+Infix Expression : `( 2 + 4 ) / 5 - 7`
 
 Output : `7`
 
