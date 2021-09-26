@@ -6,7 +6,7 @@
 1) Bayesian is an 'approach' to solve regression problems.<br>
 2) As the dataset could have poorly distributed values, Bayesian approach does not find the model parameters but focuses on the 'Posterior' distribution of the parameters included in the dataset.<br>
 ## Main Mathematical Formula Involved
-<a href="https://www.codecogs.com/eqnedit.php?latex=Posterior=\frac{(Likelihood*Prior)}{Normalization}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Posterior=\frac{(Likelihood*Prior)}{Normalization}" title="Posterior=\frac{(Likelihood*Prior)}{Normalization}" /></a><br><br>
+### => Posterior ∝ (Prior * Likelihood)
 1) To find the 'best-fit' points, Normalization Probability Distribution techinique is used to find probability distribution of each model parameter in the dataset.This is known as the Posterior Distribution.<br>
 2) So, when we have missing/invalid data, Bayesian approch uses priors instead of the invalid coefficients.
 As usually the data is collected in 'real time' during Bayesian Approach, these 'priors' as the name suggests helps us to know/predict the expected value of a specific parameter before we have actually recieved the data in real-time.<br>
