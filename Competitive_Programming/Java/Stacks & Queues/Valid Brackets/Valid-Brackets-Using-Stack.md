@@ -11,7 +11,7 @@
 <br>
 <h2><strong>Let's Understand the approach first :-</strong></h2>
 <p>
-<h3>We have to determine whether the given input of Brackets are valid or not.</h3>
+<h3>We have to determine whether the given input of brackets is valid or not.</h3>
 <ul>
 <br>
 <li>To check this we first use stack data structure, which works on the principle of <strong>LIFO (Last in first out) .</strong></li><br>
