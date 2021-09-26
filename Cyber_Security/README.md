@@ -33,9 +33,9 @@
   - [Network Virtuliazation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.1_Types%20of%20Virtualization%20-%20What%20is%20Network%20Virtualization%20.md)
   - [Virtual Desktop Infrastructure (VDI)](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.2_Types%20of%20Virtualization-What%20is%20Virtual%20Desktop%20Infrastructure(VDI)%20.md)
   - [Application virtualization](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.3_Types_of_Virtualization.md)
-- [ ] [Setup VirtualBox and Virtual Machine in Windows](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Setup%20VirtualBox%20and%20Virtual%20Machine%20on%20Windows.md)
+- [x] [Setup VirtualBox and Virtual Machine in Windows](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Setup%20VirtualBox%20and%20Virtual%20Machine%20on%20Windows.md)
 - [ ] Setup VirtualBox and Virtual Machine in Mac
-- [ ] Familiar to Linux Terminal
+- [x] [Familiar to Linux Terminal](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.9.3.Familiar%20to%20Linux%20Terminal.md)
 - [x] [Linux File System](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.9.1%20FileSystemInLinux.md)
 - [ ] Linux File System Directories
 ## Week-2 (Networking)
