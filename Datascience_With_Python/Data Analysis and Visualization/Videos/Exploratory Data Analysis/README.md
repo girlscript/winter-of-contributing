@@ -1,6 +1,6 @@
-# Exploratory Data Analysis (Video)
+# Exploratory Data Analysis
 
-[Video Link](https://drive.google.com/file/d/1Fz56A72-L4OioZs1TYHc0REAQAtxUhlN/view?usp=sharing)
+### [Video Link](https://drive.google.com/file/d/1Fz56A72-L4OioZs1TYHc0REAQAtxUhlN/view?usp=sharing)
 
 Exploratory data analysis (EDA) is used by data scientists to analyze and investigate data sets and summarize their main characteristics, often employing data visualization methods. It helps determine how best to manipulate data sources to get the answers you need, making it easier for data scientists to discover patterns, spot anomalies, test a hypothesis, or check assumptions.
 
