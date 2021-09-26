@@ -23,18 +23,30 @@
 
 ### :yellow_circle: *Week 2 [Supervised Machine Learning (Classic Algorithms)]* :
    - **2.1. What is Learning? Why Machine Learning works?**
-   - **2.2. Linear Regression**
-   - **2.3. Logistic Regression**
-   - **2.4. Sessions on Numpy and Pandas**
-   - **2.5. Implementing Linear Regression with Logistic Regression**
-   - **2.6. K-Nearest Neighbour Algorithms**
-   - **2.7. Decision Trees**
-   - **2.8. Implement kNN+DT**
-   - **2.9. Support Vector Machines**
-   - **2.10. Naive Bayes**
-   - **2.11. Implement SVMs+NBs**
+   - **2.2. Contrast between Regression and Classification**
+   - **2.3. Numpy Cheatsheet: Most Useful Functions and Methods**
+   - **2.4. Pandas Cheatsheet: Most Useful Functions and Methods**
+   - **2.5. Linear Regression**
+   - **2.6. Logistic Regression**
+   - **2.7. Contrast between Linear and Logistic Regression - Do plotting and visually justify the contrast between both. How Logistic Regression attempts to fit better relative to Linear Regression.**
+   - **2.8. K-Nearest Neighbour Algorithm**
+   - **2.9. Decision Tree Algorithms**
+   - **2.10. Support Vector Machine Algorithms**
+   - **2.11. Naive Bayes Algorithms**
+   - **2.12. Implement Logistic Regression on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.13. Implement Naive Bayes Algorithms on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.14. Implement SVM on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.15. Implement Decision Tree Algorithms on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.16. Implement KNN on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.17. Random Forest Algorithms**
+   - **2.18. Implement Random Forest Algorithms on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.19. Gradient Descent Algorithms**
+   - **2.20. Implement Gradient Descent on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
 
-*N.B.: Upcoming roadmap will be published as the program goes!*
+
+
+
+*N.B.: Upcoming roadmap will be published as the program goes! and ⭐ marked issues are having extra points on successful completion.*
 
 ***************************************************************
 ### Supervisors of Machine Learning
