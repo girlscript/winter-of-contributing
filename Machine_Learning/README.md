@@ -36,6 +36,12 @@
    - **2.12. Implement Logistic Regression on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
    - **2.13. Implement Naive Bayes Algorithms on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
    - **2.14. Implement SVM on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.15. Implement Decision Tree Algorithms on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.16. Implement KNN on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.17. Random Forest Algorithms**
+   - **2.18. Implement Random Forest Algorithms on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
+   - **2.19. Gradient Descent Algorithms**
+   - **2.20. Implement Gradient Descent on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
 
 
 
