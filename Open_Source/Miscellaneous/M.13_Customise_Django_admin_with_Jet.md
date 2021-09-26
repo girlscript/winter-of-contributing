@@ -1,7 +1,4 @@
-# Everything you should know about JET
-
-
-
+# Everything you should know about Django-JET 🚀
 
 As we are talking about open source , Django being one , is high-level python backend framework which is not only open source but also offers us a  number of features which serves as crucial part for an application . It is Built and forged by skilled and experienced developers.
 
