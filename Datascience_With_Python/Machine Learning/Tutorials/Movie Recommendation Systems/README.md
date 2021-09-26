@@ -4,42 +4,42 @@ Data Science with Python : Movie Recommendation Systems
 
 ##RECOMMENDATION SYSTEM:<br>
 Recommendation systems are Machine Learning systems that are designed to recommend items to the users based on factors. It helps users to discover new products and services.<br>
-Companies like Netflix, Amazon uses recommendation systems to recommend movies or products to the users.
+Companies like Netflix, Amazon uses recommendation systems to recommend movies or products to the users.<br>
 
 
-##WHY DO WE NEED RECOMMENDATION SYSTEM:
+##WHY DO WE NEED RECOMMENDATION SYSTEM:<br>
 Recommender systems help the users to get personalized recommendations.<br>
-It reduces transaction costs of finding and selecting items such as movies or products from e-commerce site.
+It reduces transaction costs of finding and selecting items such as movies or products from e-commerce site.<br>
 
 
-#This tutorial is about movie recommendation system.
+#This tutorial is about movie recommendation system.<br>
 
 ##TYPES OF RECOMMENDATION SYSTEM:<br>
 The recommendation system is broadly classified into two types:<br>
 • Content-based recommendation system: This system works on the principle of similar content. <br>
-• Collaborative filtering recommendation system: This system works on the similarity between users.
+• Collaborative filtering recommendation system: This system works on the similarity between users.<br>
 
 
-##COSINE SIMILARITY
+##COSINE SIMILARITY:<br>
 The similarity of content or similarity between the users is calculated using the cosine similarity metric.<br>
-For that, we need to convert our data into vectors and then calculate the cosine angle between those vectors projected in a multi-dimensional space.
+For that, we need to convert our data into vectors and then calculate the cosine angle between those vectors projected in a multi-dimensional space.<br>
 
 
-#In this tutorial, we will build a content-based movie recommendation system that recommends movies given the title of the movie as input.
+#In this tutorial, we will build a content-based movie recommendation system that recommends movies given the title of the movie as input.<br>
 
-##DATASET:
+##DATASET:<br>
 Link: https://www.kaggle.com/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv<br>
 tmdb dataset of 5000 movies.<br>
 It includes two CSV files: <br>
 •tmdb_5000_movies: It has columns such as genres, budgets, keywords, title, overview, revenue, tagline, etc.<br>
-•tmdb_5000_credits: It has columns such as movie id, title, cast, and crew.
+•tmdb_5000_credits: It has columns such as movie id, title, cast, and crew.<br>
 
 
 ##LIBRARIES USED:<br>
 •pandas<br>
 •numpy<br>
 •sklearn<br>
-•nltk toolkit
+•nltk toolkit<br>
 
 
 ##REFERENCES:<br>
