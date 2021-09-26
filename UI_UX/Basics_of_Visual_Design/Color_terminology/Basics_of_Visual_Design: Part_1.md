@@ -78,4 +78,93 @@ These are some of the most common **Elements of Visual Design :**
 <img src="https://i.pinimg.com/originals/9d/43/da/9d43da092565f9f5003c3aaa64292902.gif" alt="Colors-in-Visual-Design"/>
 </p>
    
+### **The Psychology of Color**
 
+Color theory and the psychological effects color can have on users is a complex and often subjective topic. But there are certain aspects that can be addressed on a more universal level.
+
+Things like the common meanings of the main colors (primary, secondary, and tertiary), traditional color palettes, and cultural variations in color meanings are all fairly straightforward. Designers can easily learn these basics and apply them to their work. But there are finer points to be learned when it comes to using colors in UX design.
+
+<p>&nbsp</p>
+
+<p align="center">
+<img src="https://uploads.toptal.io/blog/image/126878/toptal-blog-image-1534361167527-5d50bd32f8e5ebacc10f46985f25995a.jpg" alt="Psychology-of-colors">
+</p>
+
+<p>&nbsp</p>
+
+The emotional impact of interface colors shouldn’t be overlooked. And while some colors are “universal” in UX design (such as black, white, and gray, at least one of which is used in virtually every good design out there), the colors they’re combined with can have a huge impact on a user’s perception.
+
+Of course, the way in which color is used can also have a dramatic impact on how it’s perceived. For example, blue used as a primary color in a modern, minimalist design will have a very different feel than the same blue used as an accent color in a more complex, corporate design.
+
+<p>&nbsp</p>
+
+<p align="center">
+<img src="https://miro.medium.com/max/3840/1*0wCvlKRMJxrGPuYmWRmRvQ.jpeg" alt="feelings-for-colors">
+</p>
+
+<p>&nbsp</p>
+
+### **Cultural Differences in Color**
+
+One issue designers tend to overlook is the [cultural differences](https://www.shutterstock.com/blog/color-symbolism-and-meanings-around-the-world) that can exist around different colors. For example, in many Western cultures, white is associated with things like purity, innocence, and hope. But in parts of Asia, white is associated with death, mourning, and bad luck.
+
+Some colours, such as orange, have universally good associations independent of culture, but others, such as white, vary considerably between countries. This might make it difficult for a designer to produce a design that would appeal to the widest potential audience.
+
+Designers must consider the cultural implications of their colour palettes dependent on the product or website's target audience. If a product is intended for a global audience, make sure the colours and imagery utilised are balanced to avoid unwanted cultural implications. Designers might pay less attention to the consequences of the selected palette in different cultures if a product is primarily targeted at a single culture.
+
+<p>&nbsp</p>
+
+<p align="center">
+<img src="https://uploads.toptal.io/blog/image/126881/toptal-blog-image-1534361184464-0180939cec4befc9493bf0d3f33ba736.png" alt="Cultural-differences-for-colors">
+</p>
+
+<p>&nbsp</p>
+
+---
+
+<p>&nbsp</p>
+
+## **different** *COLOR*, **different** *Meaning*
+
+<p>&nbsp</p>
+
+> *“All colors are the friends of their neighbors and the lovers of their opposites”*
+>
+> *— Mark Chagall*
+
+<p>&nbsp</p>
+
+
+### **Basic color wheel**
+
+
+This is to show the relationship between primary, secondary and tertiary colors.
+
+<p>&nbsp</p>
+
+<p align="center">
+<img src="https://miro.medium.com/max/700/1*xeDeHUpQCASarnvZ6VxtIA.png" width="450" height="450" alt="Color-wheel">
+</p>
+
+<p>&nbsp</p>
+
+
+- **Primary colors** on the color wheel are Red, Blue and Yellow.
+
+
+- **Secondary colors** are Violet, Green and Orange. These colors can be create by mixing two primary colors together.
+
+
+- **Tertiary colors** are Red-Violet, Blue-Violet, Blue-Green, Yellow-Green, Yellow-Orange and Red-Orange. Can make by mixing one primary color and its adjacent secondary color.
+
+<p>&nbsp</p>
+
+### **Tints, Shades and Tones**
+
+<p>&nbsp</p>
+
+<p align="center">
+<img src="https://miro.medium.com/max/700/1*A02o5ENk0joj-7Ku6vIMUQ.png" width="450" height="450" alt="Tints-Shades-and-Tones">
+</p>
+
+<p>&nbsp</p>
