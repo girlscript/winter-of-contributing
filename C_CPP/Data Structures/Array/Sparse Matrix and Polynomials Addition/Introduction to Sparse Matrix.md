@@ -57,7 +57,7 @@ For representing a <em>[`sparse matrix`](#Sparse-Matrix)</em>, we generally use 
 
 <br>
 
-> <em>Among the above two representation types, [Co-ordinate List Representation](#Coordinate-List-Representation) is most common in use. We will also use this method for representing and evaluating <strong>[Polynomials](Polynomial%20Representation.md)</strong>, later in this topic.</em>
+> <em>Among the above two representation types, [Co-ordinate List Representation](#Coordinate-List-Representation) is most common in use. We will also use this method for representing and evaluating <strong>[Polynomials](Polynomials%20Representation%20and%20Evaluation.md#polynomial-representation-and-evaluation)</strong>, later in this topic.</em>
 
 <hr>
 
@@ -65,7 +65,7 @@ For representing a <em>[`sparse matrix`](#Sparse-Matrix)</em>, we generally use 
 &nbsp;&nbsp;&nbsp;[`↑ Sparse Matrix Representations`](#Sparse-Matrix-Representations)
 &nbsp;&nbsp;&nbsp;[`↓ Co-ordinate List Representation`](#Coordinate-List-Representation)
 &nbsp;&nbsp;&nbsp;[`↓ Compressed Sparse Row`](#Compressed-Sparse-Row-Representation)
-&nbsp;&nbsp;&nbsp;[`Go to Polynomials →`](Polynomial%20Representation.md)  
+&nbsp;&nbsp;&nbsp;[`Go to Polynomials →`](Polynomials%20Representation%20and%20Evaluation.md)  
 
 <hr><br><br>
 
@@ -91,7 +91,7 @@ Below is the representation of the matrix shown in above example using <em>[`Co-
 
 In the above table, the first row represents <em>```total rows```</em>, <em>```total colomn```</em> & <em>```total non-zero values```</em> of original matrix. Rest of the rows represents the information about all non-zero values. Therefore, the size of the tabel will be ```1``` more than the number of non-zero elements.
 
-This is one of way in which we can represent a <em>[`sparse matrix`](#Sparse-Matrix)</em>. We will later use this representation to perform <em>[`Polynomial Addition Using Sparse Matrix`](Polynomial%20Representation.md#Polynomials-Addition)</em>.
+This is one of way in which we can represent a <em>[`sparse matrix`](#Sparse-Matrix)</em>. We will later use this representation to perform <em>[`Polynomial Addition Using Sparse Matrix`](Polynomials%20Representation%20and%20Evaluation.md#Polynomials-Addition)</em>.
 
 <br>
 
@@ -169,7 +169,7 @@ void Display (struct Sparse S)
 &nbsp;&nbsp;&nbsp;[`↑ Sparse Matrix Representations`](#Sparse-Matrix-Representations)
 &nbsp;&nbsp;&nbsp;[`↑ Co-ordinate List Representation`](#Coordinate-List-Representation)
 &nbsp;&nbsp;&nbsp;[`↓ Compressed Sparse Row`](#Compressed-Sparse-Row-Representation)
-&nbsp;&nbsp;&nbsp;[`Go to Polynomials →`](Polynomial%20Representation.md)  
+&nbsp;&nbsp;&nbsp;[`Go to Polynomials →`](Polynomials%20Representation%20and%20Evaluation.md)  
 
 <hr><br><br>
 
@@ -346,6 +346,6 @@ JA = [ 4 0 1 2 1 4 ]
 &nbsp;&nbsp;&nbsp;[`↑ Sparse Matrix Representations`](#Sparse-Matrix-Representations)
 &nbsp;&nbsp;&nbsp;[`↑ Co-ordinate List Representation`](#Coordinate-List-Representation)
 &nbsp;&nbsp;&nbsp;[`↑ Compressed Sparse Row`](#Compressed-Sparse-Row-Representation)
-&nbsp;&nbsp;&nbsp;[`Go to Polynomials →`](Polynomial%20Representation.md) 
+&nbsp;&nbsp;&nbsp;[`Go to Polynomials →`](Polynomials%20Representation%20and%20Evaluation.md) 
 
 <hr>
