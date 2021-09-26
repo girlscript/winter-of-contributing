@@ -33,7 +33,7 @@
     <li>If we encounter any, other combinations we just simply return back from the function and no need to check further ,<strong> hence the given input of strings are not Valid Brackets.</strong></li><br>
     <li>At last if we came out of the loop , we just need to check one condition whether our stack data structure is empty or not.</li><br>
     <ul> 
-        <li>If it is not empty than it means all of the Brackets are not matched and are not poped out completely. and,<strong> hence the given input of strings are not Valid Brackets.</strong> </li>
+        <li>If it is not empty then it means all of the Brackets are not matched and are not popped out completely and,<strong> hence the given input of strings are not Valid Brackets.</strong> </li>
         <li>Else, if the stack is empty then it means all of the brackets have matched properly and popped out completely and,<strong> hence, at last, we can say that the given input of strings are Valid Brackets.</strong> </li>
     </ul>
 
