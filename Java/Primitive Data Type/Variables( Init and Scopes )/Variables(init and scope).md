@@ -39,7 +39,7 @@ To create a variable and use it into the program, we must specify the datatype t
 
 <div align="center">
 
-![declaring_the_variable](/Assets/declaration.png)
+![declaring_the_variable](https://github.com/AbhishekBhatt072003/winter-of-contributing/blob/Java/Java/Primitive%20Data%20Type/Assets/declaration.png)
 
 </div>
 
