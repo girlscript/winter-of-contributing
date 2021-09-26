@@ -1,12 +1,12 @@
-# exit() Function
-* exit is a built-in function which terminates the going on program.
-* This function is included in **cstdlib** header file.
+# exit() Function in C++
+* exit is a built-in function which terminates the on going program.
+* This function is defined in **cstdlib** header file.
 * exit is a type of jump statement in C++.
 * It takes an integer as an argument.
 ***
 ## SYNTAX:  
-exit(exit_value);  
----where exit value is defining exit status.  
+exit(exit_code);  
+---where exit code is defining exit status.  
 For example:
 ```
 exit(0)
@@ -20,9 +20,9 @@ successful termination: exit code of 0/ EXIT_SUCCESS
 unsuccessful termination: exit code of 1/ EXIT_FAILURE 
 ```
 exit(0) indicates a clean exit without any error.  
-exit(1) indicates an error and that's why the program is terminating.
-Any other integer (except 0) will also indicate unsuccessful termination.
---->Both report the status of termination of the program to the host environment.
+exit(1) indicates an error and that's why the program is terminating.  
+--->Both report the status of termination of the program to the host environment.  
+Any other integer (except 0) will also indicate unsuccessful termination. 
 ***
 ```
 #include <iostream>
@@ -57,19 +57,23 @@ Denominator is 0.Exit failure!
 Enter denominator: 20
 Exit success! 50/20 = 2
 ```
-# _Exit() Function
-* This function was introduces in C11.
-* Just as in exit() function,_Exit() function is a built-in functions which terminates the going on program.
-* This function is also included in **cstdlib** header file.
+# _Exit() Function in C++
+* This function was introduced in C11.
+* Just as in exit() function,_Exit() function is a built-in function which terminates the going on program.
+* This function is also defined in **cstdlib** header file.
 ***
 ### SYNTAX:
-_Exit(exit_value);  
----where exit value is defining exit status.
+_Exit(exit_code);  
+---where exit code is defining exit status.
+For example:
+```
+_Exit(0)
+```
 ***
 * Exit function terminates the program without cleaning the resources.
 * This function returns the control to the host environment.
-* *You must be wondering that what is the need for this when we have exit() function to terminate the process?*  🤔  
---->So, the answer is: While using exit() function, there is some cleanup function like buffer removal...but _Exit() function will not perform any buffer removal or any type of cleanup and will terminate the program normally.
+* **You must be wondering that what is the need for this when we have exit() function to terminate the process?**  🤔  
+--->So, the answer is: While using exit() function, there is some cleanup function like buffer removal...but _Exit() function will not perform any buffer removal or any type of cleanup and will terminate the program immediately.
 * Just like the exit function, remaining code will not be executed after this function is executed.
 ```
 successful termination: exit code of 0/ EXIT_SUCCCESS
@@ -77,11 +81,12 @@ unsuccessful termination: exit code of 1/ EXIT_FAILURE
 ```
 exit(0) indicates a clean exit without any error.  
 exit(1) indicates an error and that's why the program is terminating.  
+--->Both report the status of termination of the program to the host environment.  
 Any other integer (except 0) will also indicate unsuccessful termination.
-This status gets returned to the host environment.
 ```
 #include<iostream>
 #include<cstdlib>
+using namespace std;
 
 int main(){
     printf("HEY! I am using _EXIT function");
@@ -93,7 +98,7 @@ int main(){
 ```
 (no output)
 ```
-** Wondering why there is no output? Look at this example: **
+**Wondering why there is no output? Look at this example:**
 ```
 #include<iostream>
 #include<cstdlib>
