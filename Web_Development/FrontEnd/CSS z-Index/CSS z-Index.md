@@ -33,8 +33,8 @@ p {
   z-index: -1;
 }
 ```
+![image](https://user-images.githubusercontent.com/61539946/134820307-271ecef3-673e-4358-84bb-9a3ff24e3ce2.png)
 
-![Untitled](z-Index%20b15da67eacf540aa8fd0e7dfc6f2aef6/Untitled.png)
 
 It is clearly visible that the paragraph with z index of -1 is pushed behind other one.
 
@@ -104,8 +104,8 @@ The integer value stack level of the generated box is user defined stacking orde
   opacity: 0.9;
 }
 ```
+![image](https://user-images.githubusercontent.com/61539946/134820312-f9a2c20f-80f8-4ea9-93ae-0ee33746d101.png)
 
-![Untitled](z-Index%20b15da67eacf540aa8fd0e7dfc6f2aef6/Untitled%201.png)
 
 ### Global Variable
 
