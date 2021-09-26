@@ -269,3 +269,17 @@ While color theory is a complex subject, it isn’t particularly complicated to 
 A well-designed color palette, particularly one that includes some unexpected hues, isn’t merely an aesthetic choice. It can have significant psychological effects on users, which UX designers should capitalize on in order to create better experiences.
 
 ---
+
+<p>&nbsp</p>
+
+## External Refrences
+
+- [The Role of Color in UX](https://www.toptal.com/designers/ux/color-in-ux)
+
+- [How to Use Color in UX Design](https://www.breakfreegraphics.com/design-blog/how-to-use-color-in-ux-design/)
+
+- [Color Psychology: A Brilliant Helping Hand in UX Design](https://medium.com/ux-trends/color-psychology-brilliant-helping-hand-in-ux-design-cdca6b783f43)
+
+- [Aesthetics](https://www.interaction-design.org/literature/topics/aesthetics)
+
+- [Role of colors in UX and UI Design](https://uigstudio.com/insights/role-of-colors-in-ux-and-ui-design)
