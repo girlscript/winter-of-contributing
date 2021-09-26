@@ -6,14 +6,16 @@ class prefixEvaluation
 {
 
 public:
-    void prefEval(string s)
+    void prefEval(string exp)
     {
-        stack<int> st;                              //st stack to store the output and perform the all operations.
-        for (int i = s.length() - 1; i >= 0; --i)   
+        stack<int> st;                              //st stack to store the ans and perform the all operations.
+        for (int i = exp.length() - 1; i >= 0; --i)   
         {
-            if (s[i] >= '0' and s[i] <= '9')
+            if (exp[i] >= '0' and exp[i] <= '9')
             {
-                st.push(s[i] - '0');
+                st.push(exp[i] - '0');
+            }else if(exp[i]==' '){
+                continue;
             }
             else
             {
@@ -22,7 +24,7 @@ public:
                 int second_op = st.top();
                 st.pop();
 
-                switch (s[i])
+                switch (exp[i])
                 {
                 case '+':
                     st.push(first_op + second_op);
@@ -52,10 +54,10 @@ public:
 int main()
 {   prefixEvaluation obj;
 
-    string s;                                           // Time Complexity => O(l), l = length of the string
+    string exp;                                           // Time Complexity => O(l), l = length of the string
     cout << "Enter the prefix expression : " << endl;
-    cin >> s;
-    obj.prefEval(s);
+    getline(cin, exp);
+    obj.prefEval(exp);
 
     return 0;
 }
