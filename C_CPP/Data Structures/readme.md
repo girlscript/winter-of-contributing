@@ -33,7 +33,6 @@
   -  [Suffix Tree](#)
 
 
-
   - ### [Segment Tree](#)
   - ### [Fenwick Tree](#)
   - ### [BTree](#)
