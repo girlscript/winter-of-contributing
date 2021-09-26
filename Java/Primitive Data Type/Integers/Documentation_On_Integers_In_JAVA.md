@@ -13,7 +13,7 @@ In Java, there are ```two categories``` of data types -
     
 <!-- ![DataTypes](https://user-images.githubusercontent.com/87887741/134543635-ef6eccdf-528e-4569-bccf-6c2e73a1f0e0.png) -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/87887741/134543635-ef6eccdf-528e-4569-bccf-6c2e73a1f0e0.png">
+  <img src="https://user-images.githubusercontent.com/87887741/134543635-ef6eccdf-528e-4569-bccf-6c2e73a1f0e0.png" height="420">
 </p><br>
 
 </p><br>
