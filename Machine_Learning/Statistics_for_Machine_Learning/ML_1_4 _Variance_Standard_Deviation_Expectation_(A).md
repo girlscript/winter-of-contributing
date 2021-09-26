@@ -1,0 +1,1 @@
+[![ML 1.4 : Variance, Standard Deviation, Expectation (A)](https://github.com/jainbhupesh533/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/Assets/variance-and-sd-formula.png)](https://drive.google.com/file/d/1PrlhrSK2ABvBUEy6wcUoTPSv8poOVrdr/view?usp=sharing  "ML 1.4 : Variance, Standard Deviation, Expectation (A)")
