@@ -8,31 +8,31 @@
 
 ---
 
-#### Sample Interface:
+### Sample Interface:
 
 `interface Music {`
 
  
- double vol, bass;
- public abstract void increaseVolume();
- void adjustBass(); //every method declared inside is public and abstract by default
+ `double vol, bass;`
+ `public abstract void increaseVolume();`
+ `void adjustBass(); //every method declared inside is public and abstract by default`
  
- }`
+ `}`
  
- `public class Party implements Music {
+ `public class Party implements Music {`
  
- public static void main (String [] args)
+ `public static void main (String [] args)`
  {
-   public abstract void increaseVolume()
-     {
-        System.out.println("Increased!!");
-       }
-   void adjustBass()
-   {
-      System.out.println("Adjusted!!");
-    }
-  }
- }`
+   `public abstract void increaseVolume()`
+     `{`
+        `System.out.println("Increased!!");`
+       `}`
+   `void adjustBass()`
+   `{`
+      `System.out.println("Adjusted!!");`
+    `}`
+  `}`
+ `}`
  
  
  
