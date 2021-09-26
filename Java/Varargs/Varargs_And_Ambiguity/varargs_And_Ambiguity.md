@@ -8,7 +8,7 @@
 
 
 #### Syntax
-```http
+```
 return_type method_name(data_type... variableName){};
 
 ```
@@ -19,7 +19,7 @@ return_type method_name(data_type... variableName){};
 Let's say you have to add 2 variables a and b.
 The function is given below:
 
-```http
+```
 public class varargs {
 
 static int sum(int a ,int b)  //function to add two variable a and b
@@ -39,7 +39,7 @@ System.out.println(“The sum of 4 and 5 is: “+ sum(5,4));
 Now again you need to add variables but this time you have to add 3 variables that are a,b and c.
 
 So for that also function is given below:
-```http
+```
 static int sum(int a ,int b)  //function to add two-variable a and b
 
 {
