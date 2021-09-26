@@ -98,25 +98,28 @@ class _MyHomePageState extends State<MyHomePage> {
     "Bangladesh",
     "Japan",
     "Ethiopia"
-  ];// this is a dynamic data ,if you add or remove items it will reflect in the UI.
+  ]; // this is a dynamic data ,if you add or remove items it will reflect in the UI.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
-        ),
-        body: ListView.builder(
-            itemCount: _items
-                .length, //fetching data dynamically i.e if we  change the value in _items it will also change here.
-            itemBuilder: (context, index) {
-              return Card(
-                child: ListTile(
-                  title: Text(_items[index].toString()),
-                ),
-              );
-            }));
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: ListView.builder(
+        itemCount: _items
+            .length, //fetching data dynamically i.e if we  change the value in _items it will also change here.
+        itemBuilder: (context, index) {
+          return Card(
+            child: ListTile(
+              title: Text(_items[index].toString()),
+            ),
+          );
+        },
+      ),
+    );
   }
 }
+
 ```
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/76723996/134699221-ff530f68-defd-4c56-aef1-5183a3a046cb.gif)
@@ -127,6 +130,7 @@ Grid view is a widget which is used to display items such as texts ,icons etc li
 ### :point_right: GridView.count():
 This is used when you have defined number of data. It takes **crossAxisCount** where you specify the number of columns you want. You can also use **mainAxisSpacing** and **crossAxisSpacing** to give spacing between grids.
 #### Syntax:
+
 ```dart
 GridView.count(
    crossAxisCount://no. of columns
@@ -246,27 +250,30 @@ class _MyHomePageState extends State<MyHomePage> {
     "Bangladesh",
     "Japan",
     "Ethiopia"
-  ];// this is a dynamic data ,if you add or remove items it will reflect in the UI.
+  ]; // this is a dynamic data ,if you add or remove items it will reflect in the UI.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(widget.title),
-        ),
-        body: GridView.builder(
-            itemCount: _items
-                .length, //fetching data dynamically i.e if we  change the value in _items it will also change here.
-            gridDelegate:
-                SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
-            itemBuilder: (context, index) {
-              return Card(
-                child: ListTile(
-                  title: Text(_items[index].toString()),
-                ),
-              );
-            }));
+      appBar: AppBar(
+        title: Text(widget.title),
+      ),
+      body: GridView.builder(
+        itemCount: _items
+            .length, //fetching data dynamically i.e if we  change the value in _items it will also change here.
+        gridDelegate:
+            SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+        itemBuilder: (context, index) {
+          return Card(
+            child: ListTile(
+              title: Text(_items[index].toString()),
+            ),
+          );
+        },
+      ),
+    );
   }
 }
+
 
 ```
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/76723996/134668346-61520cd0-540e-49a6-88fa-384961922db7.gif)
