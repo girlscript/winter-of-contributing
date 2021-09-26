@@ -106,6 +106,7 @@ new MyCarModelClass();
 public interface Inreface1 {
 public String carModelName="Name";
 }
+
 //Interface2
 public interface Inreface2 {
 public String carModelName="Name";
