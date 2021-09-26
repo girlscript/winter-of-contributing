@@ -1,3 +1,4 @@
+
 #Javascript Async And Await
 JavaScript is always synchronous and single-threaded that provides the event loops. The event loops enable us to queue up an activity. This activity will not happen until the loops become available after the program that queued the action has completed the execution. However, our program contains a large number of functionalities, which causes our code to be asynchronous. 
 The Async/Await functionality is one of them. Async/Await is an extension of promises that we get as language support.
