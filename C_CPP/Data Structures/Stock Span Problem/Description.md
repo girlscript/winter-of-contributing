@@ -78,7 +78,11 @@ int main()
 
     return 0;
 }
+
 Test case:
+
 Input: [100,80,60,70,60,75,85]
+
 Output:[1,1,1,2,1,4,6]
+
 Follow the above algorithm and code and we will get the required output.
