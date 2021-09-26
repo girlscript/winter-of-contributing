@@ -130,4 +130,7 @@ Some ART networks are inconsistent (like the Fuzzy ART and ART1) as they depend 
    * Supplement Unit
 * Its application incorporates target recognition, face recognition, medical diagnosis, signature verification, mobile control robot.
 
-
+## Contributor
+* ID: 537
+* DSWP Batch: 15
+* [@Apoorv Yadav](https://github.com/Apoorv-17)
