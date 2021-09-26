@@ -25,9 +25,9 @@ int main()
 
 <br>
 
-![recursion](https://user-images.githubusercontent.com/83535682/134781509-5a86d32e-aa08-41dc-8d76-7289080696de.jpg)
-
-<br>
+<p align = "center">
+    <img src = "https://github.com/ankushsingh24/winter-of-contributing/blob/Competitive_Programming/Competitive_Programming/C%2B%2B/Recursion%20%26%20Backtracking/Recursion/recursion.jpg" />
+</p>
 
 <hr>
 
