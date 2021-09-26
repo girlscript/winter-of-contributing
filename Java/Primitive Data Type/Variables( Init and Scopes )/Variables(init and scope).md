@@ -77,7 +77,7 @@ datatype variable_name = value;
 For Example :-
 <div align="center">
 
-![Initializing_the_variable](/Assets/initializing.png)
+![Initializing_the_variable](https://github.com/AbhishekBhatt072003/winter-of-contributing/blob/Java/Java/Primitive%20Data%20Type/Assets/initializing.png)
 
 </div>
 
