@@ -1,10 +1,16 @@
-# Exploratory Data Analysis using Python
+# Exploratory Data Analysis using Python #348
+
+
+##### Format : Documentation
+
+
 
   
 ### 🔗 IMPORTANT LINKS 
 #### Documentation: [![Documentation](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis%20using%20Python%20%23348/Exploratory_Data_Analysis_using_Python_348_.ipynb)
 #### Dataset: [![Dataset](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://github.com/ayushijindal/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/DS%20Datasets/Exploratory%20Data%20Analysis%20using%20Python)
-#### Video: [![Video](https://img.shields.io/badge/Google-Drive-100000?style=for-the-badge&logo=google-drivelogoColor=green)](https://github.com/nakshatra-garg/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Exploratory%20Data%20Analysis/exploratory_data_analysis_video.md)
+
+
 
   
 ## INFORMATION ABOUT DATASET
