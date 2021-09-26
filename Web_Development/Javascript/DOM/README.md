@@ -1,4 +1,4 @@
-#DOM
+# DOM
 
 DOM stands for Document Object Model. On loading a webpage, the browser converts the incoming HTML and CSS into a bunch of JavaScript objects that eventually represent the 
 webpage. These objects represent the DOM and they can be updated to reflect changes in our webpage. The DOM allows us to combine JavaScript along with HTML and CSS to create our 
