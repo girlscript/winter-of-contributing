@@ -32,7 +32,7 @@ File handling in C refers to the of storing data in the form of input or output 
 
 ### **Text files :**
 
-- .txt extension
+- includes files with .txt and .csv extensions
 
 - Stores information in the form of ASCII characters internally
 
