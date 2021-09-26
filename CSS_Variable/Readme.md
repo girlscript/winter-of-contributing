@@ -1,40 +1,35 @@
 
 # _CSS Custom Variable_
-Custom properties are the most useful way to change style by changing only one value.
-
+Custom properties are the most useful way to change style by changing only one value and the main reason of using them is "Don't Repeat Yourself(DRY)".
 ## _Syntax_
-For creating a custom variable , you need to give a name begins with two hyphens (--) and declace a value to it.
+Fisrtly, custom variable are declared in selector and begins with two hyphens(--).
 For Example:
-```
---name_color: blue;
-```
+![image](https://user-images.githubusercontent.com/76036422/134815039-f540a1e5-0cff-4eab-a568-3bbfb99ed7b5.png)
 This will create a varible name:  **name_color** and assign it value **blue**.
-We can create it either by using tag **:root** for global scope or inside the any selector i.e local scope.
-## _:root_
-This will create a global scope variable and can be applied to whole HTML file.
-Example :
-```
-:root{
-    --primary_size: 10rem;
-}
-```
-We can used the primary_size in any selector. 
+
+## _Scope of Variable_
+### _Global Scope and Local Scope_
+Global scope , we use :root variable and this will accessable by any selector. :root is a pseudo-class selector . For example given below : 
+--heading_color is accessable by any selector.
+On the other hand , local variable are accessable only by the block in which they are declared. For example : 
+--color is on accessable by #heading.
+Taking an Example:
+![image](https://user-images.githubusercontent.com/76036422/134784241-07e375a8-af0e-47ca-a300-c9c95ba65b5d.png)
+
+>Once a variable has been declared and assign value to it . You can go ahead and use them.
+For using CSS variable , var() function is used.
 ## _var() Function_
 CSS **var()** function is a function used to insert the value in CSS variable.This will help in changing variables in media queries and Javascript.
-## _Synatax_
+## _Syntax_
 **var(--name_of_variable,value);**
-## _Advantages_
--This will make the code easier and we can easily change the style mutiple time by only changing one value.
+![image](https://user-images.githubusercontent.com/76036422/134814880-3eafd594-d146-45d5-b332-1c626ebcfa13.png)
 ## _Fallback value_
-We can attach fallback value to CSS property so that browser can revert the value if given value is invalid.
-For Example: 
-```
-color: var(--web_color,purple);
-```
-This will set color to purple if your variable wasn't set. 
+When using your variable as a CSS property value, you can attach a fallback value that your browser will revert to if the given variable is invalid.
+![image](https://user-images.githubusercontent.com/76036422/134814967-fcf21362-f503-4c19-8185-271874a543e3.png)
+
 ## _Inherit CSS Variables_
-To make use of inheritance, CSS variables are often defined in the :root element.When you create a variable, it is available for you to use inside the selector in which you create it and also any other selector . This property is called Inheritance of CSS variable.
-In the below example you can see the **--para_size** is declare inside the **:root** and used in **#Para** and **#web**. 
+To make use of inheritance, CSS variables are often defined in the :root element.When you create a variable, it is available to use inside the selector in which you create it and also any other selector . This property is called Inheritance of CSS variable.
+In the below example you can see the **--para_size** is declare inside the **:root** You can then see that the variable is inherited and that all the child elements which use it get **font-size: 1rem** .
 
 ## _Example_
 HTML:
