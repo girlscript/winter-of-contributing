@@ -168,3 +168,104 @@ This is to show the relationship between primary, secondary and tertiary colors.
 </p>
 
 <p>&nbsp</p>
+
+### **Meanings behind colors**
+This will help you to understand how colors can influence on people to make decisions and how the impact that colors can have on our brains.
+
+<p>&nbsp</p>
+
+### *Red*
+Red is a very powerful color which symbolizes **strength, power, danger, love and desire**. In Design red is mostly used to get users attention.
+
+One of the basic colours on the colour wheel, which is extremely aggressive, is used as a warning colour and to indicate an incorrect state, but on the other hand, this is a colour that you can play with with a little to obtain some light red tints that complement the young sector.
+
+There are several well-known brands that utilise red as their primary colour. For instance, YouTube, KFC, Coca-Cola, CNN, Netflix, and so on...
+
+<p>&nbsp</p>
+
+![Red-and-its-feelings](https://filmdaily.co/wp-content/uploads/2021/09/youtuberesults-lede.jpg)
+
+<p>&nbsp</p>
+
+### *Blue*
+Blue is well known as the most preferred and most important color that is commonly used in design. It indicates the **trust, loyalty, wisdom, confidence, intelligence, faith and truth.**
+
+Because light blue is linked with health, meditation, and may be seen in hospitals, health applications, and fitness facilities, it represents water and sky, giving you a sense of peace and relaxation.
+
+On the other hand, most financial goods and social media businesses utilise blue to indicate that their product is trustworthy, dependable, and secure, which will help them get more consumers.
+
+Some common examples are PayPal, Genie, Pay Here, Facebook, Twitter, LinkedIn, and other social media sites...
+
+<p>&nbsp</p>
+
+![Blue-and-its-feelings](https://www.pymnts.com/wp-content/uploads/2021/01/PayPal-China-GoPay-acquistion.jpg)
+
+<p>&nbsp</p>
+
+### *Yellow*
+Yellow color is associated with **joy, energy, happiness, confidence, positivity, light and warmth**. If you overuse this color will become very disturbing.
+
+Instead of white lettering, yellow may blend seamlessly with black text to attract more user attention.
+
+McDonald's, IKEA, CAT, and other companies utilise yellow in their products.
+
+<p>&nbsp</p>
+
+![Yellow-and-its-feelings](https://knowledge.wharton.upenn.edu/wp-content/uploads/2017/10/ikea.jpg)
+
+<p>&nbsp</p>
+
+### *Green*
+Green is the color of nature as it connected with environment which can grab users attention easily.
+
+It is associated with meanings of **growth, relaxation, harmony, freshness and fertility**.
+
+Dark greens are associated with money and grandeur, whereas lighter colours are associated with tranquilly and harmony. Green, the polar opposite of red, denotes safety.
+
+Land Rover, Animal Planet, Whats App, Spotify, Sprite, and more brands utilise green as their primary hue.
+
+<p>&nbsp</p>
+
+![Green-and-its-feelings](https://miro.medium.com/max/700/1*T3jBlEfmAizJtP2S7jw4rg.gif)
+
+<p>&nbsp</p>
+
+### *Orange*
+As Orange is a mixture of red and yellow it shows the **creativity, cheerful, determination, attraction, encouragement and stimulation**.
+
+In the arts, entertainment, food, sports, and transportation industries, orange works best.
+
+Orange is the predominant colour of Fanta, Nickelodeon, and Sketch App.
+
+<p>&nbsp</p>
+
+![Orange-and-its-feelings](https://media.istockphoto.com/photos/orange-fanta-can-picture-id477562540?k=20&m=477562540&s=612x612&w=0&h=OAgFyrZODWHm7IUtqhrl5y-xO7hHfiupFdV_axMkeo0=)
+
+<p>&nbsp</p>
+
+### *Purple*
+Purple is the color of royalty and associated with **luxury, ambition, wisdom, independence and magic.**
+
+Yahoo, Cadbury are examples for brands which uses purple as their main color.
+
+![Purple-and-its-feelings](https://i.ytimg.com/vi/ZRDle7TZzII/maxresdefault.jpg)
+
+---
+
+<p>&nbsp</p>
+
+## Conclusion
+
+<p>&nbsp</p>
+
+<p align="center">
+<img src="https://media2.giphy.com/media/3oz8xxM3dKEaU9dkRO/giphy.gif" alt="Funny-Gify-art">
+</p>
+
+<p>&nbsp</p>
+
+While color theory is a complex subject, it isn’t particularly complicated to learn the basics. From there, designers can build on their knowledge to create more varied and sophisticated color palettes for their designs.
+
+A well-designed color palette, particularly one that includes some unexpected hues, isn’t merely an aesthetic choice. It can have significant psychological effects on users, which UX designers should capitalize on in order to create better experiences.
+
+---
