@@ -48,6 +48,13 @@ e.g.
 
 Infix Expression : `( 2 + 4 ) / 5 - 7`
 
+|Char. Scanned|Stack Contents|
+|---|---|
+|---|---|
+|---|---|
+|---|---|
+|---|---|
+
 Output : `-6`
 
 ***
@@ -78,6 +85,13 @@ In Prefix, we traversing the expression from the end -
 e.g.
 
 Prefix Expression : `- + 4 * 2 8 + 9 6`
+
+|Char. Scanned|Stack Contents|
+|---|---|
+|---|---|
+|---|---|
+|---|---|
+|---|---|
 
 Output : `5`                                                                                                                   
 
@@ -110,6 +124,13 @@ In Postfix, when we traversing the expression -
 e.g.
 
 Postfix Expression : `8 2 + 6 / 2 * 4 +`
+
+|Char. Scanned|Stack Contents|
+|---|---|
+|---|---|
+|---|---|
+|---|---|
+|---|---|
 
 Output : `6`
 
