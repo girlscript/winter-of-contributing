@@ -1,29 +1,26 @@
 # Topics Covered:
-<ul>
-   <li><a href="#def">Definition</a></li>
-   <li><a href="#types">Types</a>
-   <ul>
-      <li><a href="#1">Static Cast</a></li>
-      <li><a href="#2">Constant Cast</a></li>
-      <li><a href="#3">Dynamic Cast</a></li>
-      <li><a href="#4">Reinterpret Cast</a></li>
-   </ul>
-   </li>
-</ul>
 
-<h1 id="def">Casting Operator</h1>
-<p> Casting operators are special operators provided by C++ to cast or convert one data type to another data type explicitly.</p>
+- [Definition](#def)
+- [Types](#types)
+   
+    - [Static Cast](#1)
+    - [Constant Cast](#2)
+    - [Dynamic Cast](#3)
+    - [Reinterpret Cast](#4)
 
+<h1 id="def">Casting Operators</h1>
+
+Casting operators are special operators provided by C++ to cast or convert one data type to another data type explicitly.
 
 <h1 id="types">Types</h1>
-<p>There are four types of cast operators. They are:<p>
-<ul>
-    <li>Static Cast</li>
-    <li>Constant Cast</li>
-    <li>Dynamic Cast</li>
-    <li>Reinterpret Cast</li>
-</ul>
-<p> Let's look into each of them breifly!</p>
+There are four types of cast operators. They are:
+
+- Static Cast
+- Constant Cast
+- Dynamic Cast
+- Reinterpret Cast
+
+Let's look into each of them breifly!
 
 
 <h1 id="1">Static Cast</h1>
@@ -36,7 +33,7 @@
 
 > *static_cast &lt;data_type&gt;(var_name);*
 
-<p> Now,lets see some examples of how it is used! </p>
+ Now,lets see some examples of how it is used! 
 
 ```
 
