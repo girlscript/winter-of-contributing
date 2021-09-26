@@ -73,7 +73,7 @@ Rules :
 
 In Prefix, we traversing the expression from the end -
 - If we get operand in expression, it will push in stack.
-- If we get operator, it will pop two last operand from the stack and perform the arithmetic operation.
+- If we get operator(`+` , `-` , `*` , `/`) , it will pop two last operand from the stack and perform the arithmetic operation.
 - Then push the result in stack and print the output
 
 e.g.
@@ -105,7 +105,7 @@ Rules :
 
 In Postfix, when we traversing the expression -
 - If we get operand in expression, it will push in stack.
-- If we get operator, it will pop two last operand from the stack and perform the arithmetic operation.
+- If we get operator(`+` , `-` , `*` , `/`) , it will pop two last operand from the stack and perform the arithmetic operation.
 - Then push the result in stack and print the output
 
 e.g.
