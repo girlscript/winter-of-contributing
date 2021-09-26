@@ -1,6 +1,7 @@
 ![Mapping](https://daqxzxzy8xq3u.cloudfront.net/wp-content/uploads/2020/12/17132206/react-how-to-use-map.jpg)
 
 # Mapping in React
+
 <br>
 
 ## What is Map
@@ -9,6 +10,7 @@ The Map is an Advanced Function that is used to perform a specific task to all t
 <br><br>
 
 ---
+
 ## Syntax
 
 ```javascript
@@ -16,9 +18,11 @@ list.map((data) => {
   return <h1>(data)</h1>;
 });
 ```
+
 <br><br>
 
 ---
+
 ## Use Of Map in React
 
 1. The main use of react is to render multiple components
@@ -97,12 +101,24 @@ export default Learn_Mapping = () => {
 }
 ```
 
-The Output will be as shown Below:
-<p align="center" ><img src="./assets/Mapping.jpeg" height = "200"></p>
+<center>
+
+|  Name  | Age | Gender |
+| :----: | :-: | :----: |
+| Pranav | 27  |  male  |
+| Aachal | 24  | female |
+|  Dron  | 31  |  male  |
+
+</center>
+
+
+
 <br><br>
 
 ---
+
 ## Reference
+
 [React Documentation](https://reactjs.org/docs/lists-and-keys.html)
 <br>
 [Javapoint](https://www.javatpoint.com/react-map)
