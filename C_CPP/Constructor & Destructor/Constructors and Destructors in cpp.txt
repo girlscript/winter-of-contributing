@@ -1,0 +1,224 @@
+                                             Constructors:
+                                            ---------------
+
+Constructor in c++ is the member function of a class used to initialize data members of the class.
+
+Proprties of Constructor:
+
+1. It has same name as that of class.
+2. It is defined in the public section of the class.
+3. It has no return type.
+4. It is called automatically when objects are created.
+
+Types of Constructor:
+   1:Default Constructor
+   2:Parameterized Constructor
+   3:Constructor with default arguments
+   4:Copy Constructor
+
+We will discuss each one by one:
+
+---->                        Defult Constructor:
+
+Constructor without any parameter is called default constructor.
+            
+Example code for default constructor:
+
+#include<iostream>
+using namespace std;
+class Demodefault
+{
+public:
+int a,b;
+Demodefault()
+{
+   a=1;
+   b=2;
+}
+printdefault()
+{
+   cout<<"The value of and b is "<<a<<"and<<" "<<b<<endl;
+}
+};
+int main()
+{
+  Demodefault obj;
+  obj.printdefault();
+  return 0;
+}
+//// The output of above code is:
+     The value of a and b is 1 and 2
+
+
+---> In the above code Demodefault is a default constructor which initializes data members a and b of the class Demo with values and b respectively.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                     
+                         2). Parameterized Constructor:
+Constructor with parameters are called parameterized constructor.
+
+Example code for Parameterized Constructor:
+
+#include<iostream>
+using namespace std;
+class Demoparameterized
+{
+  public:
+   int a,b;
+   Demoparameterized(int x,int y)
+{
+   a=x;
+   b=y;
+}
+   printparameterized()
+{
+   cout<<"The value of a and b is "<<a<<"and<<" "<<b<<endl;
+}
+};
+int main()
+{
+   Demoparameterized obj(1,2);
+   obj.printparameterized();
+   return 0;
+}
+
+//// The output of above code is:
+     The value of and b is 1 and 2
+
+-----> In the above code Demoparameterized is a parameterized constructor with parameters x and y. When we create object of the class Demoparameterized
+we pass 1 and 2 as arguments which initializes the values of a and b as 1 and 2 respectively.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                 3).Constructor with default arguments:
+ 
+Constructors with default value for a parameter such that the member is assigned with that value if we do not pass that argument.
+
+Example code for constructor with default arguments:
+
+#include<stdio.h>
+using namespace std;
+class Demodefaultarg
+{
+    public:
+    int a,b;
+    Demodefaultarg(int x,int y=2)
+{   
+    a=x;
+    b=y;
+}
+    printdefaultarg()
+{
+    cout<<"The value of a and b is "<<a<<"and"<<" "<<b<<endl;
+}
+};
+int main()
+{
+    Demodefaultarg obj(1);
+    obj.printdefaultarg();
+    return 0;
+}
+
+//// The output of above code is:
+     The value of a and b is 1 and 2
+    
+----> In the above code Demodefaultarg is a constructor wich takes two arguments x and y with 2 as default value of y.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                           4). Copy Constructor:
+Copy Constructor initiliazes the object using the object of the same class.
+
+Example code for copy constructor
+
+#include<iostream>
+using namespace std;
+class Democopy
+{
+   public:
+   int a,b;
+   Democopy(int x,int y)
+{
+   a=x;
+   b=y;
+}
+   Democopy(Democopy &obj1)
+{   
+    a=obj1.x;
+    b=obj1.y;
+}
+   printcopy()
+{
+   cout<<"The value of a and b is "<<a<<"and<<" "<<b<<endl;
+}
+};
+int main()
+{
+  Democopy d1(1,2);
+  Democopy d2=d1;
+  d2.printcopy();
+  return 0;
+}
+
+//// The output of above code is :
+     The value of a and b is 1 and 2
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                                                            Destructors:
+                                                           --------------
+They are the member functions in the class that delete an object.They are called when the class object goes out of scope such as when the function ends, 
+the program ends, a delete variable is called etc.
+
+Properties of Destructor:
+ 
+1.They have the same as that of class.
+2.They are preceeded by a tilde sign.
+3.They neither take any argument nor return anything.
+
+Example code for Destructor:
+
+#include<stdio.h>
+using namespace std;
+class Demodestructor
+{
+  public:
+  int a,b;
+  Demodestructor(int x,int y)
+{
+  a=x;
+  b=y;
+}
+  printdestructor()
+{
+  cout<<"The value of a and b is "<<a<<"and"<<" "<<b<<endl;
+}
+  ~Demodestructor()
+{
+  cout<<"Inside destructor"<<endl;
+}
+};
+int main()
+{
+  Demodestructor obj(1,2);
+  obj.printdestructor();
+  return 0;
+}
+
+//// The output of the above code is:
+     The value of a and b is 1 and 2
+     Inside destructor
+
+----> In In the above program, the class Demodestructor contains a parameterized constructor that initializes a and b 
+with the values provided by x and y. It also contains a function printdestructor() that prints the value of a and b. 
+There is also a destructor in Demo that is called when the scope of the class object is ended.
+
+---------------------------------------------------------------xxx-------------------------------------------------------------------------------------------
+
+  
+
+
+   
+
+
+
+
