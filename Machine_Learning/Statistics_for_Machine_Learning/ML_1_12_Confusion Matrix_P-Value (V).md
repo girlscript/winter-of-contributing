@@ -23,7 +23,4 @@
   .
 
 
-## Link to the video
-----------------------
-https://drive.google.com/file/d/104e_6GFgxsY_AQ5ekyoo-ZKGvTIUWKmN/view
 
