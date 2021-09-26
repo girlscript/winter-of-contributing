@@ -50,7 +50,7 @@
 - [ ] 3-way handshake
 - [x] [Ports and Protocols](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Common_ports_and_protocols.md)
 - [x] [OSI model](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.8_OSI_model.md)
-- [ ] Switches
+- [x] [Switches](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9_Switches.md)
 - [x] [Router](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Router.md)
 - [x] [HUB](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.2_HUBs.md)
 - [x] [FireWall](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.3%20Firewall.md)
