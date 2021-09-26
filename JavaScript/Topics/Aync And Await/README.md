@@ -1,9 +1,11 @@
 
-#Javascript Async And Await
+**Javascript Async And Await**
+
 JavaScript is always synchronous and single-threaded that provides the event loops. The event loops enable us to queue up an activity. This activity will not happen until the loops become available after the program that queued the action has completed the execution. However, our program contains a large number of functionalities, which causes our code to be asynchronous. 
 The Async/Await functionality is one of them. Async/Await is an extension of promises that we get as language support.
 
 **Async**
+
 A Async function is a function declared with **Async** keyword wic means it will run in the backround while performing the code inside when the function is done, it automatically returns a promise.
 Async function always returns a Promise.
 ## Syntax
@@ -13,11 +15,12 @@ Async function always returns a Promise.
  }
  console.log(printHelloWorld());
  ````
- output-
+ Output-
 ```` Promise {<fulfilled>: 'Hello World !!!'}
 [[Prototype]]: Promise
 [[PromiseState]]: "fulfilled"
-[[PromiseResult]]: "Hello World !!!"````
+[[PromiseResult]]: "Hello World !!!"
+````
 
 Here "Hello World !!!" act as a fulfilled value of promise.
 
@@ -39,6 +42,39 @@ Output -
 ````
 Hello GirlScript!!!
 ````
+
+Example-
+````
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aync And Await Tutorial</title>
+</head>
+<body>
+    <h1></h1>
+    <h2></h2>
+    <script>
+            async function xyz(){
+                const heading = document.querySelector('h1').textContent = "Hey Everyone Welcome to this tutorial";
+                return "GirlScript";
+            }
+            async function printHelloWorld(){
+                let s;
+                await xyz().then(value=>s = value);
+                const heading = document.querySelector('h2').textContent = "Hope You are enjoying";
+                return `Hello ${s}!!!`;
+            }
+            printHelloWorld().then(value => console.log(value));
+    </script>
+</body>
+</html>
+````
+
+Output
+
 
 
 
