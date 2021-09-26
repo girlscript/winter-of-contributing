@@ -1,4 +1,4 @@
-## ML 2.7: Contrast between Linear and Logistic Regression (V) #2805
+## ML 2.7: Contrast between Linear and Logistic Regression (V) 
 Hello everyone in the following video I have covered an overview on the topic:
 - Linear Regression
 - Logistic Regression
