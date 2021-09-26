@@ -43,7 +43,7 @@ when we traversing the expression -
 - If we get operand in expression, it will push in stack.
 - If we get opening `(` parentheses in expression, it will push in stack. 
 - If we get closing `)` parentheses in expression then it will pop all operators(`+` , `-` , `*` , `/`) untill not get opening `)` parentheses and at last opening`(` and closing `)` parentheses also pop.
-- If we get any operator(`+` , `-` , `*` , `/`), it will pop greater than or equal  priority operators(`+` , `-` , `*` , `/`) untill not get opening parentheses `(`.
+- If we get any operator(`+` , `-` , `*` , `/`), it will pop greater than or equal priority operators(`+` , `-` , `*` , `/`) untill not get opening parentheses `(`.
 
 e.g.
 
