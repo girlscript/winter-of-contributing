@@ -75,7 +75,7 @@ Example-
 
 Output
 
-<img src="https://github.com/7sakshi7/AlgorithmVisualizer/blob/main/ss/Document%20-%20Google%20Chrome%208_9_2021%202_21_58%20PM.png" alt="7sakshi7" /> 
+<img src="https://github.com/7sakshi7/winter-of-contributing/blob/Javascript/JavaScript/Topics/Aync%20And%20Await/Example.png" alt="Output" /> 
 
 
  
