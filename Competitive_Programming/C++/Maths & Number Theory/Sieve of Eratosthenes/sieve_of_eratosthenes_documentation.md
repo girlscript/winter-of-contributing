@@ -56,11 +56,7 @@ int main(){
     return 0;
 }
 ~~~
-
-![credit:](https://javainterviewpoint.azureedge.net/wp-content/uploads/2020/08/Python-Sieve-of-Eratosthenes.png)image credit:JavaInterviewPoint.
-
-**Time Complexity:O(n*log(log(n)))** \
-**Space Complexity:O(n)**
+![credit:](https://javainterviewpoint.azureedge.net/wp-content/uploads/2020/08/Python-Sieve-of-Eratosthenes.png)
 
 ### Input
 >1                               
@@ -68,3 +64,36 @@ int main(){
 
 ### output
 >2 3 5 7 11 13 17 19
+
+**Time Complexity:O(n*log(log(n)))** \
+**Space Complexity:O(n)**
+
+# Sieve of Eratosthenes in Linear Time Complexity
+Classic Sieve of Eratosthens normally takes `O(n*log(log(n)))` time to do the required task. But the above code for Sieve of Eratosthenes can be modified for a better linear runtime of `O(n)`. A problem with this algorithm is though the runtime decreases, memory consumtion increases. Thus this algorithm works best for numbers of order `10^7 or less`.
+
+## Source Code
+~~~cpp
+void linear_sieve(int n){
+    //is_prime is a boolean type vector
+    is_prime[0]=is_prime[1]=false;
+    for(int i=2;i<=n;i++){
+        if(is_prime[i]){
+            //prime is vector to store all prime numbers separately
+            prime.push_back(i);
+            //lp array stores smallest prime factor
+            //and a prime number is its own smallest prime factor
+            lp[i]=i;
+         }
+         for(int j=0;j<prime.size() && i*prime[j]<=n && prime[j]<=lp[i];j++){
+            lp[i*prime[j]]=prime[j];
+            //mark all the multiples of 'i' as composites
+            is_prime[i*prime[j]]=false;
+         }
+     }
+ } 
+ ~~~
+ ## Explanatation
+ This algorithm is relatively simple and allows us to factorize number upto n very fast, since we know the smallest prime divisor so we can factorize any number 'i' in ~O(n)~.
+ Now let us suppose we are processing a number 'i' and its smallest prime divisor is 'P', then we mark every number of the form i*(P1) where P1<=P as false that is composite and set their smallest prime divisor to P1. This way we'll be crossing out each number exactly once and the algorithm will work in linear time complexity.
+
+##### image credit:javatutorialpoint
