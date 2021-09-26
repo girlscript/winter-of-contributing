@@ -49,7 +49,7 @@ e.g.
 
 Infix Expression : `( 2 + 4 ) / 5 - 7`
 
-Output : `7`
+Output : `-6`
 
 ***
 
