@@ -22,7 +22,7 @@
 <li>And, on the other hand in the else clause (condition).</li>
 <br>
 <ul>
-    <li>We first always check that our stack should not be empty , because if the stack is empty that implies that the first character we encountered in the string is a close bracket. and if we get this condition we just simply need to return back from the function and no need to check further ,<strong> hence the given input of strings are not Valid Brackets.</strong></li><br>
+    <li>We first always check that our stack should not be empty because if the stack is empty then that implies that the first character we encountered in the string is a close bracket. If we get this condition we just simply need to return back from the function and no need to check further,<strong> hence the given input of strings are not Valid Brackets.</strong></li><br>
     <li>Or, else we pop the value out of the stack and compare it with the character we have encountered with i.e. it's a valid combination with the closed brackets. Valid Combinations are as follows :-</li><br>
     <ul>
         <li>Valid Combination for : <strong>(</strong> -> <strong>)</strong></li>
