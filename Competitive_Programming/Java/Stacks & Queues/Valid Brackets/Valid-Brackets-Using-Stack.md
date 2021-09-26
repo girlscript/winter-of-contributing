@@ -14,7 +14,7 @@
 <h3>We have to determine whether the given input of Brackets are valid or not.</h3>
 <ul>
 <br>
-<li>To check this we first use stack data structure, which works on a principle of <strong>LIFO (Last in first out) .</strong></li><br>
+<li>To check this we first use stack data structure, which works on the principle of <strong>LIFO (Last in first out) .</strong></li><br>
 
 <li>We start iterating over the input string given to us , and in the if clause (statement) whenever we encounter a open bracket i.e. <strong> ( , [ , { </strong> we push that bracket in the stack data structure which we have used.</li>
 <br>
