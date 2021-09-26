@@ -1,5 +1,6 @@
-![Visual-Design-Basics](https://miro.medium.com/max/1400/1*ou4QU3q6j6ovhs8XvApspQ.png)
-
+<p align="center">
+<img src="https://miro.medium.com/max/1400/1*ou4QU3q6j6ovhs8XvApspQ.png" alt="Visual-Design-Basics" />
+</p>
 
 <h1 align="center">Basics of Visual Design</h1>
 
@@ -73,4 +74,8 @@ These are some of the most common **Elements of Visual Design :**
 
 <p>&nbsp</p>
 
-![Colors-in-Visual-Design](	https://i.pinimg.com/originals/9d/43/da/9d43da092565f9f5003c3aaa64292902.gif)
+<p align="center">
+<img src="https://i.pinimg.com/originals/9d/43/da/9d43da092565f9f5003c3aaa64292902.gif" alt="Colors-in-Visual-Design"/>
+</p>
+   
+
