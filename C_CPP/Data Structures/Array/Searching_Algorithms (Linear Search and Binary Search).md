@@ -2,7 +2,7 @@
 # :point_right: Searching Algorithms   
    Searching is an algorithm which is widely used in programming.
 
-   It is a type of algorithm which is used to check for an element or get some information about the element in a particular data structure like arrays and linked list.
+   It is a type of algorithm which is used to check for an element or get some information about the element in a particular data structure like arrays or linked list.
 
    The region where we need to look for a particular element ( i.e whether an element is present or not ) is called the search space. For instance,  in case of an array the search space is defined as the entire array or the two indices of the array within which searching needs to take place.
 
