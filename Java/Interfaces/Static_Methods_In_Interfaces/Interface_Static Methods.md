@@ -6,9 +6,11 @@
 
 - Another property that can be availed is that of multiple inheritance (Java doesn't allow direct implementation of it through ***extends*** keyword of classes).
 
+---
+
 #### Sample Interface:
 
-`interface Music {
+`interface Music {`
 
  
  double vol, bass;
