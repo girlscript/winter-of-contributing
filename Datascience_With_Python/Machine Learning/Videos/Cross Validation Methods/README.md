@@ -6,9 +6,7 @@ That is, to use a limited sample in order to estimate how the model is expected 
 
 ## What is Cross-Validation ?
 
-## Video Link:
-
-[![image](https://user-images.githubusercontent.com/63282184/134794379-97541607-607c-49c8-a1c6-da8970655735.png)](https://drive.google.com/file/d/1ToZRdKyO996QKVOZ9wQIUGpJgLRlTgYe/view?usp=sharing)
+## Video Link: [Cross-Validation Methods](https://drive.google.com/file/d/1ToZRdKyO996QKVOZ9wQIUGpJgLRlTgYe/view?usp=sharing)
 
 - Cross-validation is a resampling procedure used to evaluate machine learning models on a limited data sample.
 
