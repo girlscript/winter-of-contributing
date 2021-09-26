@@ -1,0 +1,1 @@
+[![](https://github.com/karma659/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/Assets/Skewness.png)](https://drive.google.com/file/d/1bd9VtxKjdPRKe4OXN7MxcvnPmUQJ3Yg7/view?usp=sharing)
