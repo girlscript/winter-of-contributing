@@ -9,7 +9,7 @@
     <li>curly brackets, squiggly brackets, swirly brackets, braces, or chicken lips: { }</li>
 </ul>
 <br>
-<h2><strong>Let's Understand the approach first :-</strong></h2>
+<h2><strong>Let's understand the approach first :-</strong></h2>
 <p>
 <h3>We have to determine whether the given input of brackets is valid or not.</h3>
 <ul>
