@@ -25,6 +25,7 @@ Async function always returns a Promise.
 Here "Hello World !!!" act as a fulfilled value of promise.
 
 **Await**
+
 JavaScript Await function is used to wait for the promise. It stops the execution of the function at this time until the promise is fulfilled.
 ````
 async function xyz(){
@@ -98,10 +99,36 @@ async function Demo(){
  ````
  ReferenceError: tryDemo is not defined
     at Demo
-    ````
+````
 
 
 **To Solve it re throw te error**
+
+<img src="https://github.com/7sakshi7/winter-of-contributing/blob/Javascript/JavaScript/Topics/Aync%20And%20Await/Aync%20And%20Await%20Tutorial%20-%20Google%20Chrome%209_26_2021%206_23_23%20PM%20(2).png" alt="Output" /> 
+
+## Multiple await in single async function
+
+````
+  let counter=0;
+        async function Hello(){
+            counter++;
+            return `Hello ${counter}`;
+        }
+        async function multipleAwaits(){
+            const res1 = await Hello().then(value => {return value});
+            const res2 = await Hello().then(value => {return value});
+            const res3 = await Hello().then(value => {return value});
+
+            return `${res1} ${res2} ${res3}`;
+        }
+      multipleAwaits().then(value => console.log(value));
+````
+
+Output-
+
+````
+Hello 1 Hello 2 Hello 3
+````
 
 
 
