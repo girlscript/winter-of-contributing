@@ -42,12 +42,12 @@ Rules :
 when we traversing the expression -
 - If we get operand in expression, it will push in stack.
 - If we get opening `(` parentheses in expression, it will push in stack. 
-- If we get closing `)` parentheses in expression then it will pop all operators(`+` , `-` , `*` , `/`) till not get opening `)` parenthesis and at last opening`(` and `)` parenthesis also pop.
-- If we get any operator(`+` , `-` , `*` , `/`), it will pop greater than or equal  priority operators(`+` , `-` , `*` , `/`) till not get opening parentheses `(`.
+- If we get closing `)` parentheses in expression then it will pop all operators(`+` , `-` , `*` , `/`) untill not get opening `)` parentheses and at last opening`(` and closing `)` parentheses also pop.
+- If we get any operator(`+` , `-` , `*` , `/`), it will pop greater than or equal  priority operators(`+` , `-` , `*` , `/`) untill not get opening parentheses `(`.
 
 e.g.
 
-Prefix Expression : `(2 + 4) / 5 - 7`
+Infix Expression : `(2 + 4) / 5 - 7`
 
 Output : `7`
 
@@ -57,7 +57,7 @@ Output : `7`
 
 While writing an arithmetic expression, the operator comes before the two operands.
 
-Format : `<operator>` `<operand>` `<operand>`
+Format : `<operator>` `<operand>` `<operand>` 
 
 ```
 e.g.
@@ -66,6 +66,21 @@ e.g.
 + A - * B C D
 - / + 2 4 5 7
 ```
+
+### Evaluation of Prefix Expression
+
+Rules :
+
+In Prefix, we traversing the expression from the end -
+- If we get operand in expression, it will push in stack.
+- If we get operator, it will pop two last operand from the stack and perform the arithmetic operation.
+- Then push the result in stack and print the output
+
+e.g.
+
+Prefix Expression : `- + 4 * 2 8 + 9 6`
+
+Output : `20`                                                                                                                   
 
 ***
 
@@ -83,3 +98,20 @@ e.g.
 A + B C D * - 
 / - 2 4 5 7 +
 ```
+
+### Evaluation of Postfix Expression
+
+Rules :
+
+In Postfix, when we traversing the expression -
+- If we get operand in expression, it will push in stack.
+- If we get operator, it will pop two last operand from the stack and perform the arithmetic operation.
+- Then push the result in stack and print the output
+
+e.g.
+
+Postfix Expression : `8 2 + 6 / 2 * 4 +`
+
+Output : `6`
+
+***
