@@ -14,10 +14,10 @@ If r > l
      4. Merge the two halves sorted in step 2 and 3:
              Call merge(arr, l, m, r)
 \
-\
+
 ![example](https://media.geeksforgeeks.org/wp-content/cdn-uploads/Merge-Sort-Tutorial.png)
 ###### image source: GeeksforGeeks
-\
+
 \
 ### Code.
 ```
@@ -88,7 +88,7 @@ int main(){
 }
 ```
 \
-\
+
 ### Complexity analysis.
 Sorting arrays on different machines. Merge Sort is a recursive algorithm and time complexity can be expressed as following recurrence relation. 
 T(n) = 2T(n/2) + θ(n)
@@ -100,7 +100,7 @@ Stable: Yes
 \
 The best-case and average-case complexity of the quick sort algorithm is O(n logn).
 \
-\
+
 ### Space Complexity
 The space complexity is calculated based on the space used in the recursion stack. The **worstcase** space used will be **O(n)** . The **average case** space used will be of the order **O(log n)**. The worst case space complexity becomes O(n), when the algorithm encounters its worst case where for getting a sorted list, we need to make n recursive calls.
 \
