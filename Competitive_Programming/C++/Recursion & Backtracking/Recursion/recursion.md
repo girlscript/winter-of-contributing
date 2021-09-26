@@ -38,9 +38,10 @@ int main()
 3. Horner's Rule
 
 ## 1. Normal Recursion
+<p> In this method, we'll use recursive function to recurse the program for solving. </p>
 
 ```
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 // Taylor Series
@@ -83,9 +84,10 @@ int main()
 <hr>
 
 ## 2. Iterative Method
+<p> In this method, we'll use iteration (for loop) to add each term one by one. </p>
 
 ```
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 // Taylor Series
@@ -119,9 +121,10 @@ int main()
 <hr>
 
 ## 3. Horner's Rule
+<p> In this method, we'll use Horner's Rule to recurse the program. </p>
 
 ```
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 // Taylor Series
@@ -170,20 +173,6 @@ int main()
 - It takes a lot of stack space compared to an iterative program
 - It can be slow.
 - It can be more difficult to debug compared to an equivalent iterative program
-
-<hr>
-
-Reference to get started:
-
-- [GeeksForGeeks](https://www.geeksforgeeks.org/)
-- [HackerRank](https://www.hackerrank.com/dashboard)
-- [HackerEarth](https://www.hackerearth.com/practice/)
-
-<hr>
-
-## License
-
-This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
 
 <hr>
 
