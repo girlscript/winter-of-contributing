@@ -30,7 +30,7 @@ It stores only non-zero elements of a matrix and thus, uses <em>```less memory``
 &nbsp;&nbsp;&nbsp;[`↓ Sparse Matrix Representations`](#Sparse-Matrix-Representations)
 &nbsp;&nbsp;&nbsp;[`↓ Co-ordinate List Representation`](#Coordinate-List-Representation)
 &nbsp;&nbsp;&nbsp;[`↓ Compressed Sparse Row`](#Compressed-Sparse-Row-Representation)
-&nbsp;&nbsp;&nbsp;[`Go to Polynomials →`](Polynomial%20Representation.md)  
+&nbsp;&nbsp;&nbsp;[`Go to Polynomials →`](Polynomials%20Representation%20and%20Evaluation.md)  
 
 
 <hr><br>
@@ -91,7 +91,7 @@ Below is the representation of the matrix shown in above example using <em>[`Co-
 
 In the above table, the first row represents <em>```total rows```</em>, <em>```total colomn```</em> & <em>```total non-zero values```</em> of original matrix. Rest of the rows represents the information about all non-zero values. Therefore, the size of the tabel will be ```1``` more than the number of non-zero elements.
 
-This is one of way in which we can represent a <em>[`sparse matrix`](#Sparse-Matrix)</em>. We will later use this representation to perform <em>[`Polynomial Addition Using Sparse Matrix`](Polynomials%20Representation%20and%20Evaluation.md#Polynomials-Addition)</em>.
+This is one of way in which we can represent a <em>[`sparse matrix`](#Sparse-Matrix)</em>. We will later use this representation to perform <em>[`Polynomial Addition Using Sparse Matrix`](Polynomials%20Representation%20and%20Evaluation.md#addition-of-polynomials)</em>.
 
 <br>
 
