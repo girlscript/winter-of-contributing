@@ -112,5 +112,7 @@ The space complexity is calculated based on the space used in the recursion stac
 \
 3.It goes through the whole process even if the array is sorted.
 
+## Author
 
+* [@ksheetiz](https://github.com/ksheetiz)
 
