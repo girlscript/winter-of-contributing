@@ -145,13 +145,16 @@ Both JSON and XML can be used to receive data from a web server.
 ```xml
 <students>
   <student>
-    <firstName>Rahul</firstName> <lastName>Roy</lastName>
+    <firstName>Rahul</firstName>
+    <lastName>Roy</lastName>
   </student>
   <student>
-    <firstName>Raj</firstName> <lastName>Biswas</lastName>
+    <firstName>Raj</firstName>
+    <lastName>Biswas</lastName>
   </student>
   <student>
-    <firstName>Anjali</firstName> <lastName>Mathur</lastName>
+    <firstName>Anjali</firstName>
+    <lastName>Mathur</lastName>
   </student>
 </students>
 ```
