@@ -22,7 +22,7 @@ const App = () => {
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
 This is a simplest React Application anyone can write, let's understand it line by line:
-- The first thing we do here, is to make our own component, `App`. React is all about making components. And then taking those components and making more components out of those.
+- The first thing we do here, is to make our own component, `App`. React is all about making components. And then taking those components to reuse and modularize in our application.
 - There are two types of components, `function` components and `class` components. In this example we used a function component. We'll see class components shortly.
 - The `return` statement is the only thing that is required in a function component.
 - In the body of the return statement, we have written JSX. This is a JavaScript XML extension. It is a way to write HTML inside a JavaScript file.
@@ -64,7 +64,7 @@ Hello John! Welcome to GWOC!
 Hello Jimmy! Welcome to GWOC!
 Hello Jack! Welcome to GWOC!
 ```
-This is a complete Information about React Components. Now you should practise by your hand to create some components and pass some props to it and try to render it, you will be able to understand the concept of components. Okay let's disscuss the types of it.
+This is a complete Information about React Components. Now you should practise by your hand to create some components and pass some props to it and try to render it, you will be able to understand the concept of components. Okay let's discuss the types of it.
 
 ## Types of Components
 
@@ -95,7 +95,7 @@ The output will be:
 Hello World!
 ```
 
-2. `class` components - class components are written in ES6 classes. Every class component extends `React.Component`. Every class component must have a render method that returns some sort of JSX / markup / call to `React.createElement`.
+2. `class` components - class components are written in ES6 classes. We can make our own class and inherit from that class, to be able to use the methods defined in that parent class. Every class component must have a render method that returns some sort of JSX / markup / call to `React.createElement`.
 
 example:
 ```js
