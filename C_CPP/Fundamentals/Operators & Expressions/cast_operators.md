@@ -159,3 +159,5 @@ int main()
 
 - The above code shows how one data type(char*) is converted to a fundamentally different type(int).
 
+In this way, each cast operator has its own unique property and helps in making handling compatible data.
+
