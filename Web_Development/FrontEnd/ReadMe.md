@@ -18,6 +18,7 @@
 - [HTML Links and Images](Html_Anchor_img_tag.md)
 - [HTML Tables](./HTML_Tables)
 - HTML Lists
+- [HTML Canvas](https://github.com/girlscript/winter-of-contributing/blob/61250d55f0f3adab4f31b9472e9188f907ad9f11/Web_Development/FrontEnd/HTML_Canvas/Canvas.md)
 - HTML Classes and IDs
 - HTML Forms
 - Semantic HTML
