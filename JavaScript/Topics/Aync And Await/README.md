@@ -1,5 +1,5 @@
 
-**Javascript Async And Await**
+## Javascript Async And Await
 
 JavaScript is always synchronous and single-threaded that provides the event loops. The event loops enable us to queue up an activity. This activity will not happen until the loops become available after the program that queued the action has completed the execution. However, our program contains a large number of functionalities, which causes our code to be asynchronous. 
 The Async/Await functionality is one of them. Async/Await is an extension of promises that we get as language support.
@@ -8,7 +8,7 @@ The Async/Await functionality is one of them. Async/Await is an extension of pro
 
 A Async function is a function declared with **Async** keyword wic means it will run in the backround while performing the code inside when the function is done, it automatically returns a promise.
 Async function always returns a Promise.
-## Syntax
+**Syntax**
 ````
  async function printHelloWorld(){
         return "Hello World !!!";
@@ -76,6 +76,34 @@ Example-
 Output
 
 <img src="https://github.com/7sakshi7/winter-of-contributing/blob/Javascript/JavaScript/Topics/Aync%20And%20Await/Example.png" alt="Output" /> 
+
+## Error Handling
+If error occurs in function of try and catch, adding catch handler won't work. Even tou tere was an error ten also async function will return fulfill values.
+
+````
+async function Demo(){
+            try{
+                const res = await tryDemo();
+                console.log(res);
+            }
+            catch(err){
+                console.log(err);
+            }
+        } 
+        Demo();
+ ````
+ 
+ Output-
+ 
+ ````
+ ReferenceError: tryDemo is not defined
+    at Demo
+    ````
+
+
+**To Solve it re throw te error**
+
+
 
 
  
