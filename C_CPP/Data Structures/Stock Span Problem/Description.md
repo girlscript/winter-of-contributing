@@ -15,7 +15,7 @@ I am presenting the code and the logic of this problem which I developed during 
 7. If the top of stack is lesser than the current pointed element then it has to be popped else that element index has to be added to the index.
 8. By following all these procedures we will get the index of all the greatest elemnts to the left of the pointed index.
 9. The final result i.e **the span of days** will be given by subtracting the index of the particular price in the array and the element present on the same index in the vector.
-10.This the algorithm I foolowed for this problem.
+10.This is the algorithm ,I followed for this problem.
 
 ### NOTE
 This problem is very famous and common during the placement procedure.
@@ -78,3 +78,7 @@ int main()
 
     return 0;
 }
+Test case:
+Input: [100,80,60,70,60,75,85]
+Output:[1,1,1,2,1,4,6]
+Follow the above algorithm and code and we will get the required output.
