@@ -13,7 +13,7 @@
 `interface Music {`
 
  
- `double vol, bass;`
+  `double vol, bass;`
  `public abstract void increaseVolume();`
  `void adjustBass(); //every method declared inside is public and abstract by default`
  
