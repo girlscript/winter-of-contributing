@@ -14,7 +14,7 @@ list <int> :: iterator it;
 ```
 <p> Code for list important functions </p>
 
-```
+```c++
 #include <iostream>
 #include <list>
 #include <iterator>
