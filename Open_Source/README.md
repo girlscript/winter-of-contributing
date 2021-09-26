@@ -154,6 +154,11 @@
 - [5.30 Thanos](5.CNCF_Projects/5.30_Thanos.md)
 
 
+### 6. Popular open source projects and softwares :
+
+- [6.1 npm - Node package manager](6.Popular_Projects/6.1_npm.md)
+
+
 ### Miscellaneous :
 
 - [M.1 Firebase hosting](Miscellaneous/M.1_Firebase_Hosting.md)
@@ -177,6 +182,10 @@
 - [M.10 Android in opensource](Miscellaneous/M.10_Android_In_Opensource.md)
 
 - [M.11 Amazon S3](Miscellaneous/M.11_Amazon_S3.md)
+
+- [M.12 Deploying projects to Heroku](Miscellaneous/M.12_Deploying_to_heroku.md)
+
+- [M.13 Customise Django-admin interface with Jet](Miscellaneous/M.13_Customise_Django_admin_with_Jet.md)
 
 <hr>
 
