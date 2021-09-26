@@ -45,10 +45,31 @@
  - pair PAIR1;                //default value 0 will be assigned to first
  - pair PAIR2 ( 1 , 2 );      //initialized,  same data type
  - pair PAIR3 ( PAIR2 );      // copy of PAIR2 is made in PAIR3
- - PAIR4 = **make_pair** ( 1 , 'a' );  //using make_pair function
 ```
+### make_pair( )
+You can initialize pair using **make_pair( )** function.
+### Syntax
+```c++
+ Pair1 = make_pair( value 1, value 2);
+```
+### Code
+```c++
+#include< iostream >
+#include< utility >
+using namespacde std;
 
-### Swap Functions
+int main( )
+{
+pair <int , char > PAIR1;
+PAIR1 = make_pair( 5 , 'A');
+cout<<PAIR1.first<<","<<PAIR1.second;
+return 0;
+}
+```
+**Output**
+> 5 , A
+
+### Swap Function
 
   - This function is used to swap the content of two pair of same type with each other.  
  
@@ -89,3 +110,35 @@
 >After swapping:  
 >5.7, 2  
 >2.6, 1 
+
+### Tie Function 
+- Tie is another important function used with pair in c++.
+- The work of tie is to unpack the values into separate variables.
+- **ignore** keyword ignores a particular pair element from getting unpacked.   
+### Syntax
+```c++
+tie(***int &***, ***int &***) = PAIR1; 
+```
+### Code
+```c++
+#include <bits/stdc++.h>
+using namespace std;
+ 
+int main()
+{
+    pair<int, int> pair1( 1,8);
+    int a, b;
+    tie(a, b) = pair1;
+    cout << a << " " << b << "\n";
+ 
+    pair<int, int> pair2 = { 3, 4 };
+    tie(a, ignore) = pair2;
+   
+    // prints old value of b
+    cout << a << " " << b << "\n";
+    
+}
+ ```
+**Output**  
+> 1 8  
+> 3 8
