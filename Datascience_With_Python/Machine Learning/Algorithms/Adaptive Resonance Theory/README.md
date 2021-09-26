@@ -114,3 +114,16 @@ Nowadays, we perceive a wide range of robotic devices. It is still a field of re
 
 #### Limitations of Adaptive Resonance Theory
 Some ART networks are inconsistent (like the Fuzzy ART and ART1) as they depend upon the order in which training data, or upon the learning rate.
+
+## Conclusion
+* Adaptive Resonance Theory comes under unsupervised learning and is always open to new learning adaptive without losing the old patterns resonance.
+* The main operation of ART network can be categorized into 3 types depending upon which of the stored pattern it resembles the most.
+   * Recognition phase
+   * Comparison phase
+   * Search phase
+* ART1 is designed to cluster binary vectors. Its architecture consists of 2 units −
+   * Computational Unit
+   * Supplement Unit
+* Its application incorporates target recognition, face recognition, medical diagnosis, signature verification, mobile control robot.
+
+
