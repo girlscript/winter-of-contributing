@@ -9,7 +9,7 @@ public:
 
 void postEval(string exp)
 {
-    stack<int> st;                              //st stack to store the ans and perform the all operations.
+    stack<int> st;                              //st stack to store the output and perform the all operations.
     for (int i = 0; i < exp.length(); i++)
     {
         if (exp[i] >= '0' and exp[i] <= '9')
