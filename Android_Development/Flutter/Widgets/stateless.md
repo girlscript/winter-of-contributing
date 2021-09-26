@@ -1,14 +1,25 @@
-#### State
-The State is the information that can be read synchronously when the widget is built and might change during the lifetime of the widget.
-#### What are stateless Widgets?
-The widgets whose state can not be altered once they are built are called stateless widgets. These widgets are immutable once they are built i.e any amount of change in the variables, icons, buttons, or retrieving data can not change the state of the app. examples can be Text, RaisedButton, IconButtons.
+### Stateless Widgets
+#### What is Stateless Widget ?
+State is information that can be read synchronously when the widget is built and might change during the lifetime of the widget.The widgets whose state can not be changed or rendered when they are built are called stateless widgets.which is immutable **Eg: Icon Widget where icon won't changes its state**
+#### Use of Stateless Widget :
+  - The widgets remain the same while build. 
+  - Stateless Widgets will be like immutable state which builds the UI State of the App.
+#### Syntax :
+```dart
 import 'package:flutter/material.dart';
-#### Use of Stateless Widgets.
-  - The widgets remain the same. 
-  - The build function is called only once which makes the UI of the screen.
-#### Syntax of Stateless Widget.
-<img width="371" alt="Screenshot 2021-09-21 101910" src="https://user-images.githubusercontent.com/71007973/134114175-ddf346b6-44c9-481f-980c-2fb02ab87c4b.png">
 
-#### Description of Keywords in the syntax with example.
-The name of the stateless widget is MyApp which is being called from the runApp() and extends a stateless widget. Inside this MyApp a build function is overridden and takes BuildContext as a parameter. This BuildContext is unique to each and every widget as it is used to locate the widget inside the widget tree
-The build function contains a container which is again a widget of Flutter inside which we will design the UI of the app.
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget{
+@override
+Widget build(BuildContext context) {
+	return Container();
+}
+}
+```
+#### Keyword Description :
+
+1. MyApp - name of stateless Widget
+2. build(BuildContext context) - It is overridden function , is used to locate the widget inside the widget tree
+3. Container() - Widget
+
