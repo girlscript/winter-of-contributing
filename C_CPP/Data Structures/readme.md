@@ -21,7 +21,6 @@
 - ## [Matrix](./Matrix)
   
 - ## [Trees](./Trees)
-- ## [Stock Span Problem](https://github.com/sinu-02/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Stock%20Span%20Problem)
   
 - ## [Standard Template Library](./Standard%20Template%20Library)
   
