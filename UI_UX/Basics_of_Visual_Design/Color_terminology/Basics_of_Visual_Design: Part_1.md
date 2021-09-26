@@ -272,7 +272,7 @@ A well-designed color palette, particularly one that includes some unexpected hu
 
 <p>&nbsp</p>
 
-## External Refrences
+## External References
 
 - [The Role of Color in UX](https://www.toptal.com/designers/ux/color-in-ux)
 
