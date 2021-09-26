@@ -3,8 +3,8 @@ Data types are the classification or categorization of data items. It represents
 
 Following are the standard or built-in data type of Python:
 
-1.Numeric
-2.Sequence Type
-3.Boolean
-4.Set
-5.Dictionary
+1.Numeric<br>.
+2.Sequence Type<br>
+3.Boolean<br>
+4.Set<br>
+5.Dictionary<br>
