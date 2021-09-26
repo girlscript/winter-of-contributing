@@ -80,7 +80,7 @@ e.g.
 
 Prefix Expression : `- + 4 * 2 8 + 9 6`
 
-Output : `20`                                                                                                                   
+Output : `5`                                                                                                                   
 
 ***
 
