@@ -22,7 +22,7 @@ As usually the data is collected in 'real time' during Bayesian Approach, these 
 3) We then calculate the likelihood which refers to a function where the marginalization of parameter variable has occured.<br>
 4) Using Product Rule between the two (Priors and Likelihood) gives the final Joint distribution value and helps to find the Posterior Distribution or the best-fit points so that the graph can easily be plotted.
 ## Implementation of Bayesian Regression
-Link to the sample code -  
+Link to the sample code - [bayesian_regression.ipynb](https://github.com/uttarabahad/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Bayesian%20Regression/bayesian_regression.ipynb)
 #### I) Steps Followed During Implementation
 1)We take two arrays(X ,Y) which states two different events/parameters that are occuring.<br>
 2)To find the Posterior Values as specified above, we perform Product Rule using the assumed(priors);alpha and beta values.<br>
