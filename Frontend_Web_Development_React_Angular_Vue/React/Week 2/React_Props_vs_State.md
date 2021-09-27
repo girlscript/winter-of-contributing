@@ -1,19 +1,15 @@
-<p align="center"><img src="https://cdn-media-1.freecodecamp.org/images/1*QeEbGcmtoQ3T_zUdpG8TZw.jpeg" width="500px"></p><br><br>
+<p align="center"><img src="https://cdn-media-1.freecodecamp.org/images/1*QeEbGcmtoQ3T_zUdpG8TZw.jpeg" width="500px"></p><br>
 
-<h1 align="center"> React Props vs State </h1>
+# React Props vs State
 
 ## React Props :-
-<br>
 
-    We know that components in React are used again and again in the UI, but we don’t normally render the same component with the same data. Sometimes we need to change the content inside a component. Props come to play in these cases, as they are passed into the component and the user. Let’s see how they work: 
+We know that components in React are used again and again in the UI, but we don’t normally render the same component with the same data. Sometimes we need to change the content inside a component. Props come to play in these cases, as they are passed into the component and the user. Let’s see how they work: 
 ___
-<br>
 
 ## Props in Class Component :-
-<br>
 
 **Example :-**
-<br>
 
 #App.js
 
@@ -35,7 +31,6 @@ class App extends React.Component {
 export default App;
 
 ```
-<br>
 
 #Index.js
 
@@ -55,20 +50,17 @@ ReactDOM.render(
 
 ```
 
-    A simple component and then we passes the props as attributes and then access them inside our component using this.props. So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
+A simple component and then we passes the props as attributes and then access them inside our component using this.props. So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
 
 **Output :-**
-<br>
 
 <img src="assets/../../../assets/Output1.png" width="400px">
 
 <hr>
 
 ## Props in Functional Component :-
-<br>
 
 **Example :-**
-<br>
 
 #App.js
 
@@ -86,7 +78,6 @@ function App(props) {
 }
 
 ```
-<br>
 
 #Index.js
 
@@ -106,15 +97,13 @@ ReactDOM.render(
 
 ```
 
-    we passes the props as attributes and then access them inside our component using props.title, So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
+we passes the props as attributes and then access them inside our component using props.title, So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
 
 **Output :-**
-<br>
 
 <img src="assets/../../../assets/Output_2.png" width="400px">
 
 <hr>
-<br>
 
 ## React State :-
 <br>
@@ -126,7 +115,6 @@ ReactDOM.render(
 * When the state object changes, the component re-renders.
 
 ## Creating the state Object :- 
-<br>
 
 ```javascript
 
@@ -145,10 +133,8 @@ class Car extends React.Component {
 }
 
 ```
-<br>
 
 ## Using the state Object :-
-<br>
 
 ```javascript
 
@@ -167,10 +153,8 @@ class Car extends React.Component {
 }
 
 ```
-<br>
 
 ## Changing the state Object :-
-<br>
 
 ```javascript
 
@@ -194,13 +178,10 @@ class App extends React.Component {
 }
 
 ```
-<br>
 
 **Output :-**
-<br>
 
 **Before Changing the State :-** 
-<br>
 
 <img src="assets/../../../assets/Output_3.png" width="400px"><br>
 
@@ -210,7 +191,6 @@ class App extends React.Component {
 <img src="assets/../../../assets/Output_4.png" width="400px"><br>
 
 <hr>
-<br>
 
 ## React Props vs State :-
 
