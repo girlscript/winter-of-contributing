@@ -1,0 +1,139 @@
+### Git and Bash
+Git and Bash are fairly different things but windows version of `git` comes with configured with bash shell. This is why  you can even execute the bash commands their . But you can not perform low level tasks with git-bash in windows.
+Lets just understand the difference in between them one by one and how they create a development workflow together.
+
+####What is Git
+-  Git is an free and open sources version control command line tool which can manage the commits and branches of your source code. 
+- Git can also push your codes to remote server . Where you can handle your codes , commits ,  and branches remotely using just Git on your local machine.
+- Using Git you can even shift to different branches and commits and even tracks all the commit logs.
+- Git gives and easy and flexible environment way to records , logs all of your codes.
+- Git gives you environment for multiple developers to work together on a projects .
+
+#### How to install Git
+
+- `Windows` users can go to their official [website](https://git-scm.com/) and download git bash.
+- For `Mac` users , Git already comes installed with their `MacOS`. you can check whether it is installed not by opening up your terminal and type.
+```shell
+git -version
+```
+- In maximum `Linux` distro git comes with already installed  but you can install it but depends upon which linux distro and package manager you are using.
+
+##### For Ubuntu
+```shell
+sudo apt install git
+```
+##### For Arch based distros
+```shell
+sudo pacman -Syu git
+```
+### Basic commands in git
+
+-  initializing a directory with git.
+```shell
+git init 
+```
+- Check logs of commits of current branch
+```shell
+git log
+```
+- Check whether a new changes are occured or not
+```shell
+git status
+```
+- make a new commit 
+```shell
+git add . && git commit -m "your message"
+```
+    make sure your message will be some meaning full text
+	you can also use a short command for this
+```shell
+git commit -am "your message"
+```
+- switch to  a particular commit
+```shell
+git checkout commit_id
+```
+    `commit_id` are the alphanumeric number which you get while `git logs`
+	
+- Making a new branch 
+```shell
+git branch branch_name
+```
+- shifting to a particular branch
+```shell
+git checkout branch_name
+```
+- deleting a branch
+```shell
+git branch -d branch_name
+```
+These are some basic commands which you will use for basic git operations.
+<hr>
+
+### Bash
+Bash also known <b>Bourne Again Shell</b> is a standard shell which available in Unix based system as a default shell. Nowadays it is comes as a standard shell in all GNU/LINUX system. Here term `shell` is outmost layer of kernal. so shell do the task of interacting with kernal by user commands.
+
+### Features of Bash
+- You can perform not only just one line commands but even multiline commands so basically you can use it as programming language.
+- Bash is suitable for using scripting related tasks.
+- Bash gives you interactive environment for executing any commands..
+- Bash is very customisable and flexible You can even make your configuration in `.bashrc` file which is situated in user `$HOME` directory.
+- Bash is more secure than any other shell . You can not perform any execution of any type of file untill user does not give permission to make that file executable.
+
+These are some basic features of Bash . 
+
+### Basic commands in Bash
+- echo or print any text
+```shell
+echo your_text
+```
+- listing out all directories and files
+```shell
+ls
+```
+- creating a new directory
+```shell
+mkdir directory_name
+```
+- creating a file
+```shell
+touch file_name
+```
+- finding pattern in a text file
+```shell
+grep `word_to_find`
+```
+- you can pipe symbol to treat output of a some commands as an input for some command.
+```shell
+echo this is me | grep me
+```
+- removing file and directory
+```shell
+//This will only remove file
+rm file_name 
+```
+```shell
+//This will remove an empty directory
+rm -f directory_name
+```
+```shell
+//This will remove non empty directory
+rm -rf directory_name
+```
+- you can also intialize a variable in bash and use it in your scripts
+```shell
+#!/bin/bash
+#Do not add space 
+name="bash"
+echo name
+```
+bash can also be used as a executable file even many programs uses bash script for their installation.
+<hr>
+
+### Final verdict
+
+- Both git and bash gives your powerful and flexible environment for anykind of workflow and development.
+- Windows version of git comes with bash shell . but you can only perform the basic tasks with that version of shell .
+- i would prefer you all to use wsl with git which gives you seperate linux environment for your development where you can use all of the features of bash as well as git too.
+
+### Contributed By [Prachi Singh]("https://github.com/prachi610/)
