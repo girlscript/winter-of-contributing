@@ -512,3 +512,43 @@ method
 
 So what is happening is we provide ***str1.split(“ “)*** which split the str1 from the whitespaces, in simpler words the string str1 broke into separate words from wherever the blank-space was given. We store these words in an array of Strings.
 To retrieve the words from the array we used the **for each** loop and printed every element.
+
+
+
+
+
+## substring() Method
+
+Substring in simpler words can be defined as part of String. This method takes integer type as parameter i.e. the index from the String provided. Then there are basically 2 methods either we just take the starting index, in this case the String is printed from the index given else we provide the starting index and the ending index , in this case the string between both the index is printed.
+Basically the beginning index start from 0 and ending index start from 1. Here StringOutOfBoundsException can be raised if the index value is greater than the number of character in string or the starting index is negative.
+
+**Syntax**
+```
+Public String substring(int startingIndex)
+Or
+Public String substring(int startingIndex, int endingIndex)
+```
+
+Lets analyse this using an example
+
+### Example
+```
+public class Example {
+      public static void main (String args[]) {
+	String str1 = “This is the substring method”;
+	System.out.println (str1.substring(5));
+	System.out.println (str1.substring(8, 23));
+      }
+}
+```
+
+This will produce the following output
+
+```
+is the substring method
+the substring m
+```
+
+One important point to note here is if both start index and ending index are provided in parameter than the output will be displayed from starting index upto the ending index but not including it.
+From the output in the 1st case ***i*** is at the 5th index so the complete string from the index 5 is displayed while in the 2nd case ***t*** is at 8th index and ***e*** is at 23rd index so the output displayed from 8th index to 22nd index which is ***m***.
+
