@@ -5,6 +5,7 @@
 - Changes should be made inside the MERN/ directory & MERN branch.
 - Checkout [Readme.md](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Readme.md) if to learn more about MERN project structure.
 
+
 ## Guidelines
 1. Pull requests (hereby referred to as PRs) and commits
    must be kept as granular and atomic as possible. PRs with
