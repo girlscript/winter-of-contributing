@@ -50,7 +50,7 @@ public:
                     char op = operators.top();
                     operators.pop();
 
-                    operands.push(applyOp(val1, val2, op));
+                    operands.push(apply_Opr(val1, val2, op));
                 }
 
                 if (!operators.empty())
@@ -70,7 +70,7 @@ public:
                     char op = operators.top();
                     operators.pop();
 
-                    operands.push(applyOp(val1, val2, op));
+                    operands.push(apply_Opr(val1, val2, op));
                 }
 
                 operators.push(ch[i]);
@@ -88,7 +88,7 @@ public:
             char op = operators.top();
             operators.pop();
 
-            operands.push(applyOp(val1, val2, op));
+            operands.push(apply_Opr(val1, val2, op));
         }
 
         return operands.top();
@@ -103,7 +103,7 @@ public:
         return 0;
     }
 
-    int applyOp(int a, int b, char optor)
+    int apply_Opr(int a, int b, char optor)
     {
         switch (optor)
         {
