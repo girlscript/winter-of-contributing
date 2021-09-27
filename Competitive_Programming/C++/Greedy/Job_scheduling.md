@@ -28,7 +28,7 @@ Goal: Schedule jobs to minimize penalty.
 
 ## Example:
 
-##Code
+## Code
 
 ```class Solution {
 public:
