@@ -1,4 +1,4 @@
-**Analysis Of Searching Algorithm**
+## Analysis Of Searching Algorithm
 
 The name itself makes it quite clear and transparent.
 These algorithms are designed to search for an element and to get the element from any  data structure where it is stored.
@@ -7,7 +7,8 @@ These algorithms are designed to search for an element and to get the element fr
 **These algorithms are generally classified into 2 categories.**
 
 
-1. **Sequential Search**:- In this type of search, we pick a very naive and straightforward method to search.
+## 1. Sequential Search:-
+In this type of search, we pick a very naive and straightforward method to search.
  		       We traverse through the list of arrays and every element is compared with the element to be searched.
 
 Example:- **Linear Search**
@@ -36,7 +37,8 @@ The time complexity for linear search is O(n) and the space complexity is consta
 
 
 
-2.**Interval Search**: These algorithms are specially designed for searching in data structures whose elements are already in a sorted array. They follow the divide and conquer rule. 
+## 2.Interval Search:
+These algorithms are specially designed for searching in data structures whose elements are already in a sorted array. They follow the divide and conquer rule. 
 example: **Binary Search**
 
 
@@ -68,27 +70,6 @@ The idea of binary search is to make use of the information that the array is so
 
 			The time complexity for Binary Search is O(logn)
 			and the space complexity is constant i.e. O(1)
-
-
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
