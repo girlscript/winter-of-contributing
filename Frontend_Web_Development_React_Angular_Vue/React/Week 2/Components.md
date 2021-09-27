@@ -22,7 +22,7 @@ const App = () => {
 ReactDOM.render(<App />, document.getElementById("root"));
 ```
 This is a simplest React Application anyone can write, let's understand it line by line:
-- The first thing we do here, is to make our own component, `App`. React is all about making components. And then taking those components to reuse and modularize in our application.
+- The first thing we do here, is to make our own component, `App`. React is all about making components. And then taking those components to implement reusability and modularity in our application.
 - There are two types of components, `function` components and `class` components. In this example we used a function component. We'll see class components shortly.
 - The `return` statement is the only thing that is required in a function component.
 - In the body of the return statement, we have written JSX. This is a JavaScript XML extension. It is a way to write HTML inside a JavaScript file.
@@ -95,7 +95,7 @@ The output will be:
 Hello World!
 ```
 
-2. `class` components - class components are written in ES6 classes. We can make our own class and inherit from that class, to be able to use the methods defined in that parent class. Every class component must have a render method that returns some sort of JSX / markup / call to `React.createElement`.
+2. `class` components - class components are written in ES6 classes. In general applications, we inherit from React.Component. But, we can also make our own class and inherit from that class, to be able to use the methods defined in that parent class. Every class component must have a render method that returns some sort of JSX / markup / call to `React.createElement`.
 
 example:
 ```js
