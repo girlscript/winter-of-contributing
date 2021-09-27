@@ -39,6 +39,7 @@
 - [Advanced_function_map()](./Advanced_function_map())
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
+- [Web_Scraping](./Web_Scraping)
 
 
 ## Learning path
@@ -69,6 +70,9 @@
 20. What is Automation?
 
 
-=======
+
 21. Args and Kwargs
+
+
+22. Web_Scraping
 
