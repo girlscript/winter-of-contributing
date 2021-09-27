@@ -3,4 +3,4 @@
 
 ## Link for the Audio:
 
-(https://drive.google.com/file/d/1WJk6jP0v6BOCa8-NERvQqnKxVBYyeKc7/view?usp=sharing)
+[![ML_1.1_Variables,Range ,Population and Sampling Distribution]()](https://drive.google.com/file/d/1WJk6jP0v6BOCa8-NERvQqnKxVBYyeKc7/view?usp=sharing)
