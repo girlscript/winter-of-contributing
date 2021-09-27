@@ -18,7 +18,10 @@ This columns are converted into numerical columns for performing some machine le
 - Consider a simple example of weather categories, as depicted in the following figure. 
 - We can see that we have six major classes or categories in this particular scenario without any concept or notion of order (windy doesn’t always occur before sunny nor is it smaller or bigger than sunny).
 
-There are three common approaches for converting ordinal and categorical variables to numerical values. They are:
+![image](https://user-images.githubusercontent.com/63282184/134946290-0bd45d62-97fb-4b98-a6dd-a38a4db39b79.png)
+
+
+## There are three common approaches for converting ordinal and categorical variables to numerical values. They are:
 
 - Ordinal Encoding
 - One-Hot Encoding
