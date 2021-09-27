@@ -24,7 +24,7 @@ How to solve this problem using one traversal of input string?
 ### Method 1
 Method 1 (Traversing from Left to Right) We traverse the string from left to right. We keep track of the leftmost index of every character. If a character repeats, we compare its leftmsot index with current result and update the result if result is greater 
 
-### Code
+### Implementation of Code in C++
 // CPP program to find first repeating
 // character
 #include <bits/stdc++.h>
@@ -75,6 +75,7 @@ int main()
 }
 ### Output
 ```
+Input: geeksforgeeks
 Output: 
 First Repeating character is g
 ``` 
@@ -86,7 +87,7 @@ Auxiliary Space : O(1)
 ### Method 2
 Method 2 (Traversing Right to Left) We traverse the string from right to left. We keep track of the visited characters. If a character repeats, we update the result. 
 
-### Code
+### Implementation of Code in C++
 // CPP program to find first repeating
 // character
 #include <bits/stdc++.h>
@@ -136,11 +137,14 @@ int main()
 
 ### Output
 ```
+Input: geeksforgeeks
 Output: 
 First Repeating character is g
  ```
 ### Complexity analysis
 Time Complexity : O(n). It does only one traversal of input string. 
 Auxiliary Space : O(1)
+```
 The method 2 is better than method 1 as it does fewer comparisons.
+``` 
 
