@@ -31,7 +31,6 @@
 - [List_Comprehension](./List_Comprehension)
 - [Advanced_function_map()](./Advanced_function_map())
 - [What is Automation?](./What_is_Automation)
-- 
 
 
 ## Learning path
@@ -58,4 +57,6 @@
 19. List Comprehension
 20. Advanced function-map()
 21. What is Automation?
+22. Args and Kwargs
+23. Web_Scraping
 
