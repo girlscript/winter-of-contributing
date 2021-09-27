@@ -2,7 +2,7 @@
 Git and Bash are fairly different things but windows version of `git` comes with configured with bash shell. This is why  you can even execute the bash commands their . But you can not perform low level tasks with git-bash in windows.
 Lets just understand the difference in between them one by one and how they create a development workflow together.
 
-#### What is Git
+####  What is Git
 -  Git is an free and open sources version control command line tool which can manage the commits and branches of your source code. 
 - Git can also push your codes to remote server . Where you can handle your codes , commits ,  and branches remotely using just Git on your local machine.
 - Using Git you can even shift to different branches and commits and even tracks all the commit logs.
