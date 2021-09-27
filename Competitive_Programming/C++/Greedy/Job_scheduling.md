@@ -1,12 +1,12 @@
-#Job Scheduling Problem
+# Job Scheduling Problem
 
-##Greedy 
+## Greedy 
 It is one of the approach for solving problems or a design to solve a particular problem where optimisation is required.
 
-###Optimisation Problems
+### Optimisation Problems
 A problem which requires either minimum or maximum results fall under this category.In one problem there can be many solution and out of them some will be feasible but there exist only one optimal solution which we calculate by greedy approach.It is acheiveing the goal of the problem.
 
-##Approach:
+## Approach:
 • We have n jobs.
 
 • Each of which takes unit time.
@@ -26,7 +26,7 @@ Schedule all jobs with such that minimum penalty should be paid.
 
 Goal: Schedule jobs to minimize penalty.
 
-##Example:
+## Example:
 
 ##Code
 
