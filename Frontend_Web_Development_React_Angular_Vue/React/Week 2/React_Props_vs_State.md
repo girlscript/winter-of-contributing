@@ -4,7 +4,7 @@
 
 ## React Props :-
 
-We know that components in React are used again and again in the UI, but we don’t normally render the same component with the same data. Sometimes we need to change the content inside a component. Props come to play in these cases, as they are passed into the component and the user. Let’s see how they work: 
+We know that components in React are used again and again in the UI, but we don’t normally render the same component with the same data. Sometimes we need to change the content inside a component. Props come to play in these cases, as they are passed into the component by the user. Let’s see how they work: 
 ___
 
 ## Props in Class Component :-
@@ -50,7 +50,7 @@ ReactDOM.render(
 
 ```
 
-A simple component and then we passes the props as attributes and then access them inside our component using this.props. So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
+A simple component and then we pass the props as attributes and then access them inside our component using this.props. So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
 
 **Output :-**
 
@@ -97,7 +97,7 @@ ReactDOM.render(
 
 ```
 
-we passes the props as attributes and then access them inside our component using props.title, So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
+We pass the props as attributes and then access them inside our component using props.title, So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
 
 **Output :-**
 
