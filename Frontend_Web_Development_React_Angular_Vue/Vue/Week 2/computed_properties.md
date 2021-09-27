@@ -123,6 +123,7 @@ Let us consider this basic implementation of computed properties. This webpage, 
         <!-- This div container has two input fields. The value in these input fields will be
         assigned to the numberOne and numberTwo data properties in the vue instance.  -->
         <div style="display: flex; flex-direction: row;justify-content: space-between; padding: 200px;">
+            <!-- We are using 2-way binding with the help of v-model, which we will cover later in this Documentation -->
             <input style="width: 33%; height:50px;" type="number" v-model = "numberOne" placeholder="x">
             <input style="width: 33%; height:50px;" type="number" v-model = "numberTwo" placeholder="y">
         </div>
