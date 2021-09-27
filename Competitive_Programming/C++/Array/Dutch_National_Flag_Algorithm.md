@@ -1,4 +1,6 @@
 # Dutch National Flag Algorithm
+
+## Problem Statement
 Given an array A[] consisting 0s, 1s and 2s. The task is to write a function that sorts the given array without using extra space and any sorting algorithm.
 
 #### Example
@@ -96,5 +98,6 @@ int main()
 **Output**
 0 0 1 1 2 2
 
-***Time Complexity:*** O(n)
+#### Complexity:
+***Time Complexity:*** O(n) \
 ***Auxilary Space:*** O(1)
