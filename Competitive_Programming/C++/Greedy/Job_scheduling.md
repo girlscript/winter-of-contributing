@@ -27,6 +27,7 @@ Schedule all jobs with such that minimum penalty should be paid.
 Goal: Schedule jobs to minimize penalty.
 
 ## Example:
+![alt_txt](https://github.com/Ayushi2811/Project-on-Data-structure/blob/master/Screenshot%202021-09-27%20105030.jpg)
 
 ## Code
 
