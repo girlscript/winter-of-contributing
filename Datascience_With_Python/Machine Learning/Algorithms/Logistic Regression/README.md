@@ -2,7 +2,14 @@
 
 ## Introduction
 
-Logistic regression is used for the classification rather than regression (given in its name) where it is used for binary classification systems in general. It coms under the category of supervised classification problems. Scikit learn library in Python helps us in implementing the logistic regression algorithm. This algorithm is useful when the dependent variable represents a category.
+Logistic regression is used for the classification rather than regression (given in its name) where it is used for binary classification systems in general. It comes under the category of supervised classification problems. Scikit learn library in Python helps us in implementing the logistic regression algorithm. This algorithm is useful when the dependent variable represents a category.
+
+## Types of Logistic Regression
+
+There are 3 types of logistic regression in Python:
+1. Binary Logistic Regression: Here, the target variable is binary in nature which means that it has only two possible values.
+2. Multinomial Logistic Regression:Here, the target variablecan take three or more values but these values without any order of preference.
+3. Ordinal Logistic Regression: Here, the target variable has three or more possible values having a particular preference.
 
 ## Applications
 
@@ -11,6 +18,19 @@ It has it applications in various problems nowadays. Few examples are:
 Credit Card Fraud Detection:Logistic regression can be used to find if a transaction is fraud using its features. Features can be the date of transaction, mode of payment, amount of payment,etc.
 Email Spam detection:It is used for classification of email as spam and label it accordingly.
 Tumour Prediction: It is used in prediction of whether a tumour is malignant benign after extraction of features from tumours.
+
+## Advantages 
+
+1. It is easy to understand and implement without making any assumptions of distribution in feature space.
+2. It is fast in nature and can predict classes of unknown records easily.
+3. It gives good results on simple datasets. Also, results are even better if the dataset is linearly separable. 
+4. Model coefficients are used for finding the relative importance of features.
+
+## Disadvantages
+
+1. Logistic Regression is not preferred if the number of observations is less than the number of features. In this case, overfitting can occur.
+2. It assumes that dependent variable and the independent variables are having linear relationship which causes disadvantage. 
+3. 
 
 ## How does it work?
 
@@ -26,3 +46,8 @@ where sigmoid function is given by:
 
 sigmoid(t)=1/(1+e^-t)
 We then specify a decision boundary according to which the values are classified into particular classes. After this, using the predicted values we can give different classes to the target variable.
+
+## Workflow of the algorithm
+
+
+## Conclusion
