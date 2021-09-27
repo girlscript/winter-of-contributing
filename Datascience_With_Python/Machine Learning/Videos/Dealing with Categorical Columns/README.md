@@ -6,6 +6,18 @@ This columns are converted into numerical columns for performing some machine le
 
 ## Dealing with Categorical columns: [VIDEO LINK](https://drive.google.com/file/d/1p4bPYE_dNoW72AtvZig_kUzT05rgYqCe/view?usp=sharing)
 
+## Understanding Categorical Data
+
+- Let’s get an idea about categorical data representations before diving into feature engineering strategies. 
+- Typically, any data attribute which is categorical in nature represents discrete values which belong to a specific finite set of categories or classes. 
+- These are also often known as classes or labels in the context of attributes or variables which are to be predicted by a model (popularly known as response variables). 
+- These discrete values can be text or numeric in nature (or even unstructured data like images!). 
+- There are two major classes of categorical data, nominal and ordinal.
+
+- In any nominal categorical data attribute, there is no concept of ordering amongst the values of that attribute. 
+- Consider a simple example of weather categories, as depicted in the following figure. 
+- We can see that we have six major classes or categories in this particular scenario without any concept or notion of order (windy doesn’t always occur before sunny nor is it smaller or bigger than sunny).
+
 There are three common approaches for converting ordinal and categorical variables to numerical values. They are:
 
 - Ordinal Encoding
