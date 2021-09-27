@@ -73,7 +73,27 @@ In the following are the outputs before and after the normalization of data. Fir
 If you closely examine the data points in the left and the right figures you might be able to see which data points shifted from pre-normalized to post-normalized model. These changes are often at the boundaries rather than at either end of the spectrum in the distribution
 <br><br>
 
-### **<ins>Disadvantages of Normalization in Machine Learning</ins>**
+### **<ins>Usage/Purpose od Data Normalization</ins>**
+Normalization helps to reduce redundancy and complexity by examining new data types used in the table. It is helpful to divide the large database table into smaller tables and link them using relationship. It avoids duplicate data or no repeating groups into a table.
+
+**Goals of Normalization**
+- Eliminating insertion, update and delete anomalies.
+- Establishing functional dependencies.
+- Removing transitive dependencies.
+- Reducing non-key data redundancy.
+<br><br>
+
+### **<ins>Benefits of Data Normalization</ins>**
+- Greater overall database organization
+- Reduction of redundant data
+- Data consistency within the database
+- A much more flexible database design
+- A better handle on database security
+- It improves the numerical stability of our model
+- It may speed up the training process
+<br><br>
+
+### **<ins>Disadvantages of Normalization</ins>**
 Normalization compresses data within a certain range, reduces the variance and applies equal weights to all features. We lose a lot of important information in the process.<br>
 One example is what happens to outliers — normalization lease absolutely no traces of outliers. We perceive outliers as bad guys and we need to get rid of them ASAP. But remember, outliers are real data points, once we lose that just to get a better model, we lose information.<br>
 In the process of normalization, the variables lose their units of measurements too. So at the end of modeling, we can’t really tell what are the key differences between the variables.
