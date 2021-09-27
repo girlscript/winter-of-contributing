@@ -62,7 +62,7 @@ cout<<a<<"\n"<<b+c;
 Input:
 3 4 5
 Output:
-3
+3 <br>
 9
 
 Note here that "\n" means new line.
