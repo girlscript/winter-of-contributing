@@ -64,21 +64,13 @@ Where can we use Random Forest Algorithm for Data Science?
 
 - First we start by collection of our data, for this we have chosen a dataset for Social Network Ads.
 
-- Then we continue on by reading the data, as shown.
+- Then we continue on by reading the data.
 
-![](https://github.com/Akshat2019VITB/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Random%20Forest%20Algorithm/Images/5.PNG)
+- Check for missing values with isnull().
 
-- Here we will be checking for missing values.
-
-![](https://github.com/Akshat2019VITB/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Random%20Forest%20Algorithm/Images/6.PNG)
-
-- As there are no missing values, we move on to identify outliers in our data. We do this by making boxplots and using the Z-score threshold to remove them.
-
-![](https://github.com/Akshat2019VITB/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Random%20Forest%20Algorithm/Images/8.PNG)
+- We move on to identify outliers in our data. We do this by making boxplots and using the Z-score threshold to remove them.
 
 - Now, we will be converting our categorical data into numeric data so that our ML model can work on it.
-
-![](https://github.com/Akshat2019VITB/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Random%20Forest%20Algorithm/Images/7.PNG)
 
 - After the processsing of data, we can now split the data into training and testing data and apply Random Forest Classifier to train our model.
 
