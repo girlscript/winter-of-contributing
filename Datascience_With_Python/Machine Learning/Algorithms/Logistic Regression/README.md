@@ -1,4 +1,4 @@
-**## LOGISTIC REGRESSION**
+## LOGISTIC REGRESSION
 
 # Introduction
 
