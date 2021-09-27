@@ -141,7 +141,7 @@ Features of Dataset (Columns of Dataset)
 ```
 print(df.feature_names)
 ```
-<img src='https://github.com/NikitaEmberi/winter-of-contributing/blob/Datascience_With_Python/Datascielnce_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/features.JPG'>
+<img src='https://github.com/NikitaEmberi/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/features.JPG'>
 
 Converting dictionary to dataframe and Exploring first 5 rows of Dataset with the help of pandas library 
 
