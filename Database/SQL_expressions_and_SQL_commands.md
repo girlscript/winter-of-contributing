@@ -9,9 +9,11 @@ SQL expression can be classified into following three categories.
 2.Numeric  
 3.Date
 
-Let us try to understand them with sample programs.
+Let us try to understand them with some sample example programs.
 
-**1. SQL Boolean Expression**
+---
+
+**1. SQL Boolean Expression:**
 
 SQL Boolean Expression fetches data based on the condition that is mentioned as part of the SQL query. As the name suggests it fetches only single valued data (Boolean).
 
@@ -20,63 +22,89 @@ Let us try to understand Boolean expression using an instructor table with some 
 |ID|NAME|SALARY|DEPTARTMENT|
 |---|---|---|---|
 |490|Abhijit Nazre|60000|Commerce|
-|567|Asif Shaik|60000|Computer Science|
+|567|Asif Shaik|70000|Computer Science|
 |645|Rahul Morya|60000|IT|
 |678|Rishi Gupta|60000|Commerce|
-|680|Shailesh Gupta|60000|Biology|
-|790|Pravin N|60000|Music|
+|680|Shailesh Gupta|65000|Biology|
+|790|Pravin N|50000|Music|
 
 
 
 ```SQL
-SELECT column  
-FROM table_name  
-WHERE SINGLE_VALUE_MATCHING_EXPRESSION;
+SELECT name  
+FROM instructor  
+WHERE id= 678;
 ```
-Let us try to understand Boolean expression using a sample table with some data.
-
-The query above will result in single value which is “John” for our query. SQL Boolean expressions should be used with primary keys to make suer you always get only one results. This is required incase of nested SQL select queries.
-
-**SQL Numeric Expression**
-
-SQL Numeric Expression is used for performing mathematical operation in SQL query. Its syntax is as follows:
 
 
-SELECT NUMERICAL_EXPRESSION as OPERATION_NAME
-FROM table_name
+The query above will result in single value which is “Rishi Gupta” for our query. SQL Boolean expressions should be used with _primary keys_ to make sure you always get only one results.
 
-NUMERICAL_EXPRESSION is the mathematical formula for function which will be used in the SQL query.
+---
 
-Let’s try to understand Numeric expression using an example.
+**2. SQL Numeric Expression:**
 
+SQL Numeric Expression is used for performing mathematical operation in SQL query._Numerical\_expression_ is the mathematical formula a function which will be used in the SQL query also known as _aggregate functions_.
 
-SELECT count(*) FROM Employee; -- 3
-The query above will result as 3 because the COUNT(\*) function will provide the total count of the rows based on the condition in WHERE clause. For example select count(*) from employee where empsalary > 2400; will return 2.
+Let’s try to understand Numeric expression using same example of instructor table.
 
-There are other functions also like sum(), avg(), min(), max() etc. These functions are used for mathematical operations. Let’s see some more example code snippets for SQL numeric expressions.
+```SQL
+SELECT count(*) 
+FROM instructor; -- 6
+```
 
+The above query will result as '6' because the `count(*)` function will provide the total count of the rows and also condition WHERE clause can be included. For e.g,
 
-SELECT sum(EmpSalary) as "Salary" FROM Employee; -- 7500
-select min(EmpSalary) from Employee; -- 2000
-select max(EmpSalary) from Employee; -- 3000
-select sum(EmpSalary) from Employee; -- 7500
-select avg(EmpSalary) from Employee; -- 2500.0000
+```SQL
+ SELECT count(*) 
+ FROM instructor 
+ WHERE salary > 60000;
+``` 
+The above query evaluates as 2 rows where the instructor salary is more then 60,000/- which in result counts to "2".
 
-**SQL Date Expression**
+>There are also other functions like:
+> - sum() : sum up all the rows of a column
+> - avg() : finds average of all the rows of a column
+> - min() : finds minimum value row of a column
+> - max() : finds maximum value row of a column   
+>etc. These functions are used for mathematical operations on set of data.
 
-SQL Date Expression results in datetime value.
+Lets take a look over some of these example codesnippets:
 
-Let’s try to understand Date expression with some sql statements.
+```SQL
+SELECT sum(Salary) as "Total_Salary" 
+FROM instructor; -- 365,000.00
 
-SELECT CURRENT_TIMESTAMP; -- 2018-01-20 10:32:37
+SELECT min(Salary) as "Minimum_Salary"
+FROM instructor; -- 50,000.00
+
+SELECT max(Salary) as "Maximum_Salary"
+FROM instructor; -- 70,000.00
+
+SELECT avg(Salary) as "Average_Salary"
+FROM instructor; -- 60,833.33
+```
+---
+**3. SQL Date Expression:**
+
+SQL Date Expression results in date and time of the system
+Let’s try to understand Date expression with some sql expressions.
+
+```sql
+-- SQL
+SELECT CURRENT_TIMESTAMP; -- 2021-09-27  10:56:48
 
 -- For MYQSL
-SELECT now(); -- 2018-01-20 10:32:57
+SELECT now(); -- 2021-09-27  10:56:48
 
 -- For SQL Server
-SELECT GetDate();
+SELECT GetDate(); -- 2021-09-27 
 
 -- For Oracle DB
 select sysdate from Dual; -- 20-JAN-18
+```
 
-The above queries will result in current time of the system. Note that every relational database vendor has specific methods to get current date and timestamp values, so there is a slight chance that one function in a database doesn’t work in another database.
+The above queries will result in current time and date of the system. Note that every relational database vendor has specific methods to get current date and timestamp values, so there is a slight chance that one function in a database doesn’t work in another database and there are different functions for each.
+
+---
+
+**References: JournelDev**
