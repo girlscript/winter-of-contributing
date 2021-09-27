@@ -107,4 +107,4 @@ The above queries will result in current time and date of the system. Note that 
 
 ---
 
-**References: JournelDev**
+**References: NPTEL and JournelDev**
