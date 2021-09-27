@@ -105,3 +105,6 @@ int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& pro
 };
 ```
 
+# Output
+![alt_txt](https://github.com/Ayushi2811/Project-on-Data-structure/blob/master/Screenshot%202021-09-27%20111003.jpg)
+
