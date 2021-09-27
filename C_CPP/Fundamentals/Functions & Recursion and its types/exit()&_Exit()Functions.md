@@ -22,7 +22,7 @@ exit(1) indicates an error and that's why the program is terminating.
 --->Both report the status of termination of the program to the host environment.  
 Any other integer (except 0) will also indicate unsuccessful termination. 
 ***
-```
+```c++
 #include <iostream>
 #include<cstdlib>
 using namespace std;
