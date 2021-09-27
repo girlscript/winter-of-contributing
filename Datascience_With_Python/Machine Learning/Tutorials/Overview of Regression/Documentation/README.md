@@ -14,7 +14,7 @@
 
 - Forecasting : The regression method of forecasting involves examining the relationship between two different variables, known as the dependent and independent variables. Suppose that you want to forecast future sales for your firm and you've noticed that sales rise or fall, depending on whether the gross domestic product goes up or down. (The gross domestic product, or GDP, is the sum of all goods and services produced within a nation's borders. In the U.S., it is calculated quarterly by the Commerce Department.)
 
-Your sales, then, would be the dependent variable, because they "depend" on the GDP, which is the independent variable. (An independent variable is the variable against which you are measuring something by comparison – your sales in this case.) You would need to figure out how closely these two variables - sales and GDP - are related. If the GDP goes up 2 percent, how much do your sales rise?
+  Your sales, then, would be the dependent variable, because they "depend" on the GDP, which is the independent variable. (An independent variable is the variable against which   you are measuring something by comparison – your sales in this case.) You would need to figure out how closely these two variables - sales and GDP - are related. If the GDP     goes up 2 percent, how much do your sales rise?
 
 - Time series modeling : Time series regression is a statistical method for predicting a future response based on the response history (known as autoregressive dynamics) and the transfer of dynamics from relevant predictors.
 
