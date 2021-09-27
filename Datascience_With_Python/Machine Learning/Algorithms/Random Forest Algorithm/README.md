@@ -84,13 +84,26 @@ These are the visual representations to identify outliers in our dataset
 
 ![](https://github.com/Akshat2019VITB/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Random%20Forest%20Algorithm/Images/2.PNG)
 
+## **Libaraies used**
+
+- Pandas
+
+- Numpy
+
+- Matplotlib
+
+- Seaborn
+
+- Scikit-learn
+
+- SciPy
+
+
 ## **Final Outcomes and Evaluation Results**
 
 - From this project we were able to learn on how to implement Random Forest Algorithm in Data Science using Python.
 
 - We saw it's advantages and how it is useful with its features and it's advantage over Decision Tree.
-
-- Libaraies used: pandas, numpy, matplotlib, seaborn, sklearn.preprocessing, scipy, sklearn.model_selection, sklearn.ensemble, sklearn.metrics
 
 - Data preprocessing was done to check for missing values and outliers, which were removed through Z-Score threshold.
 
