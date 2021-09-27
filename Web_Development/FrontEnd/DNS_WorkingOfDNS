@@ -12,23 +12,13 @@ You can simply think of the DNS system as the internet’s phonebook.
 When the Internet started,  names and addresses were personally assigned in a master list of every Internet-connected computer in a text file was called “hosts.txt”.
 But that didn’t last long as more devices and people joined the growing network, this was not a sustainable solution. Then the concept of DNS came into the picture. Now, Internet Engineering Task Force (IETF) in RFC 1035 is maintaining the standards of DNS.
 
-## DNS servers and IP addresses  A DNS server stores explicit data that matches a domain name with specific IP addresses. 
-
-Uber.com, for instance, has a large number of servers across the globe, and the physical server that a user associates inside one nation is reasonable totally unique in relation to another user somewhere else all throughout the planet. 
+## DNS servers and IP addresses  A DNS server stores explicit data that matches a domain name with specific IP addresses. Uber.com, for instance, has a large number of servers across the globe, and the physical server that a user associates inside one nation is reasonable totally unique in relation to another user somewhere else all throughout the planet. 
 The worldwide idea of Internet administrations requires an organization of disseminated and versatile DNS servers to guarantee that users can easily look up and resolve the mentioned server's location, from any place throughout the planet.
 
-
 ## Domains
-**What is a Domain Name?**
-
-A domain name is your personal or business home on the web , it’s a bit of online land that you simply control completely—as long as you own the rights to that name.
-
-A fully qualified name is formed from a top-level domain and a subdomain.
-
-A uniform resource locator (URL), sometimes called an internet address, contains the name of a site also as other information, including the transfer protocol and therefore the path.
+**What is a Domain Name?** A domain name is your personal or business home on the web , it’s a bit of online land that you simply control completely—as long as you own the rights to that name.A fully qualified name is formed from a top-level domain and a subdomain.A uniform resource locator (URL), sometimes called an internet address, contains the name of a site also as other information, including the transfer protocol and therefore the path.
 
 ![Logo](https://www.webdancers.com/wp-content/uploads/2015/12/url_diagram.png)
-
 
 **Different types of Domains :**
 - **Top Level Domains(TLD) :**
