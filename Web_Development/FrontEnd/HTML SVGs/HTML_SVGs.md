@@ -46,7 +46,7 @@ SVG has some predefined shape elements that can be used by developers:
 ## SVG Rectangle
 
 <img src="images/rectangle.jpeg " alt="rectangle svg image" />
-```C
+```HTML
 <svg  width="400"  height="110">
 <rect
 x="5"
