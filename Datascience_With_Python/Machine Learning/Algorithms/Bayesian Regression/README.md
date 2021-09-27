@@ -1,5 +1,5 @@
 ## Purpose
-In this documentation, we will learn about the basic concept behind Bayesian Regression and knows its usage/advantages by a practical implementation.
+In this documentation, we will learn about the basic concept behind Bayesian Regression and know its usage/advantages by a practical implementation.
 ## What is Regression?
 1) Regression is Supervised Machine Learning Techinque.<br>
 2) It predicts continuous, real values and plots the 'best-fit' prediction graph.<br>
@@ -29,10 +29,10 @@ Link to the sample code - [bayesian_regression.ipynb](https://github.com/uttarab
 3)Like this the Posterior Values of all the parameters/events in the data set are calculated.<br>
 4)These Posterior Values are the best-fit values obtained by Bayesian Aprroach and are then plotted suitable using the graph.<br>
 #### II) Outcome of the Implementation
-In the above Output Visualization-
+In the above Output Visualization-<br>
 <img src='https://github.com/uttarabahad/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Bayesian%20Regression/Images/Curve.png'>
-1) The orginal data points are represented by * symbols.
-2) The red curve shows us the 'best-fit' graph that could have been drawn,using Bayesian Regression Technique.
+1) The orginal data points are represented by * symbols.<br>
+2) The red curve shows us the 'best-fit' graph that could have been drawn,using Bayesian Regression Technique.<br>
 ## Advantages of Bayesian Regression
 1) Very accurate for simple, small datasets.<br>
 2) Very helpful when the data is recieved during real time and is not pre-processed or pre-stored.<br>
@@ -41,4 +41,4 @@ In the above Output Visualization-
 1) Not very efficient for large datasets as it can be time consuming to find the best-fit points.<br>
 2) It has a high computation cost as the posterior distribution calculation is very dependent on calculation of the priors.
 ## Conclusion
-Using the Bayesian Approach is very accurate when we have smaller data sets as it is very robust mathaematically.
+Using the Bayesian Approach is very accurate when we have smaller data sets as it is very robust mathematically.
