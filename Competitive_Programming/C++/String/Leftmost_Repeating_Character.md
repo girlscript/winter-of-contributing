@@ -1,4 +1,4 @@
-### Repeated Character Whose First Appearance is Leftmost (Strings)
+# Repeated Character Whose First Appearance is Leftmost (Strings)
 
 ### Problem Statement
 Given a string, find the repeated character present first in the string.
@@ -8,7 +8,8 @@ Examples:
 ```
 Input  : geeksforgeeks
 Output : g
-(mind that it will be g, not e as g is written before e. As a result we check if character g is repeated as we want to find the leftmost repeating character)
+(mind that it will be g, not e as g is written before e. As a result we check if character g 
+is repeated as we want to find the leftmost repeating character)
 
 Input  : abcdabcd
 Output : a
@@ -19,14 +20,17 @@ No character repeats
 
 ```
 
+
 How to solve this problem using one traversal of input string? 
 
 ### Method 1
 Method 1 (Traversing from Left to Right) We traverse the string from left to right. We keep track of the leftmost index of every character. If a character repeats, we compare its leftmsot index with current result and update the result if result is greater 
 
-### Implementation of Code in C++
+## Implementation of Code in C++
+``` C++
 // CPP program to find first repeating
 // character
+
 #include <bits/stdc++.h>
 using namespace std;
 #define NO_OF_CHARS 256
@@ -73,6 +77,7 @@ int main()
 			str[index]);
 	return 0;
 }
+``` 
 ### Output
 ```
 Input: geeksforgeeks
@@ -81,15 +86,21 @@ First Repeating character is g
 ``` 
  
 ### Complexity analysis
-Time Complexity : O(n). It does only one traversal of input string. 
+
+Time Complexity : O(n).
+
+It does only one traversal of input string. 
+
 Auxiliary Space : O(1)
 
 ### Method 2
 Method 2 (Traversing Right to Left) We traverse the string from right to left. We keep track of the visited characters. If a character repeats, we update the result. 
 
-### Implementation of Code in C++
+## Implementation of Code in C++
+``` C++
 // CPP program to find first repeating
 // character
+
 #include <bits/stdc++.h>
 using namespace std;
 #define NO_OF_CHARS 256
@@ -133,7 +144,7 @@ int main()
 			str[index]);
 	return 0;
 }
-
+```
 
 ### Output
 ```
@@ -142,9 +153,13 @@ Output:
 First Repeating character is g
  ```
 ### Complexity analysis
-Time Complexity : O(n). It does only one traversal of input string. 
+
+Time Complexity : O(n).
+
+It does only one traversal of input string. 
+
 Auxiliary Space : O(1)
-```
-The method 2 is better than method 1 as it does fewer comparisons.
-``` 
+
+***The method 2 is better than method 1 as it does fewer comparisons.***
+
 
