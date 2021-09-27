@@ -5,18 +5,22 @@
 * It takes an integer as an argument.
 ***
 ## SYNTAX:  
-    exit(exit_code);  
+```c++
+exit(exit_code); 
+```
 - where exit code is defining exit status.  
 For example:
 ```c++
 exit(0)
+```
 * When the program terminates,this value gets returned to the operating system and not to the caller.
 * Remaining code will not be executed after this function is executed.
 * Objects that have static storage duration, are dismantled and files created by tmpfile function are removed when exit function executes.
-```
-successful termination: exit code of 0/ EXIT_SUCCESS
+
+successful termination: exit code of 0/ EXIT_SUCCESS  
 unsuccessful termination: exit code of 1/ EXIT_FAILURE 
-```
+
+
 - exit(0) indicates a clean exit without any error.  
 - exit(1) indicates an error and that's why the program is terminating.  
 --->Both report the status of termination of the program to the host environment.  
@@ -45,13 +49,13 @@ int main()
 ```
 ### OUTPUT:
 * if value entered by user = 0
-```
+```c++
 Enter denominator: 0
 Denominator is 0.Exit failure!
 ```
 ### OUTPUT:
 * if value entered by user is not equal to 0
-```
+```c++
 Enter denominator: 20
 Exit success! 50/20 = 2
 ```
@@ -61,10 +65,12 @@ Exit success! 50/20 = 2
 * This function is also defined in **cstdlib** header file.
 ***
 ### SYNTAX:
-_Exit(exit_code);  
----where exit code is defining exit status.
-For example:
+``` c++
+_Exit(exit_code);
 ```
+---where exit code is defining exit status.  
+For example:
+```c++
 _Exit(0)
 ```
 ***
@@ -93,7 +99,7 @@ int main(){
 }
 ```
 ### OUTPUT:
-```
+```c++
 (no output)
 ```
 **Wondering why there is no output? Look at this example:**
@@ -119,13 +125,13 @@ int main(){
 ```
 ### OUTPUT:
 * if n=45
-```
+```c++
 Enter value of n: 45
 Exitting with exit function!
 ```
 ### OUTPUT:
 if n is not equal to 45
-```
+```c++
 Enter value of n: 10
 ```
 * In this example, when n=45, there is printing statement before exit function, so output will be printed and then program will terminate.  
