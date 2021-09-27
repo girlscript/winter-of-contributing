@@ -77,8 +77,8 @@ _Exit(0)
 successful termination: exit code of 0/ EXIT_SUCCCESS
 unsuccessful termination: exit code of 1/ EXIT_FAILURE 
 ```
-exit(0) indicates a clean exit without any error.  
-exit(1) indicates an error and that's why the program is terminating.  
+- _Exit(0) indicates a clean exit without any error.  
+- _Exit(1) indicates an error and that's why the program is terminating.  
 --->Both report the status of termination of the program to the host environment.  
 Any other integer (except 0) will also indicate unsuccessful termination.
 ```
