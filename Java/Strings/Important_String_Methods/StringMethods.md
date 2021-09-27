@@ -54,7 +54,7 @@ public char charAt(int index)
 
 Now let us go through an example to understand it better.
 
-### Example
+#### Example
 ```
 public class Example{
       public static void main(String args[]){
