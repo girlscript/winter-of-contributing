@@ -30,6 +30,7 @@ Link to the sample code - [bayesian_regression.ipynb](https://github.com/uttarab
 4)These Posterior Values are the best-fit values obtained by Bayesian Aprroach and are then plotted suitable using the graph.<br>
 #### II) Outcome of the Implementation
 In the above Output Visualization-
+<img src='https://github.com/uttarabahad/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Bayesian%20Regression/Images/Curve.png'>
 1) The orginal data points are represented by * symbols.
 2) The red curve shows us the 'best-fit' graph that could have been drawn,using Bayesian Regression Technique.
 ## Advantages of Bayesian Regression
