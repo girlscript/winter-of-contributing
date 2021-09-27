@@ -38,7 +38,7 @@ Here a `div` with a paragraph has a class of name `.container`
     background-color: cadetblue;
 }
 ```
-![Class-basic]()
+![Class-basic](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Class%20and%20ID%20Selectors/Assets/Class-basic.png)
 
 ## ID Selector
 The ID selector in CSS helps to select elements with a specific `id` attribute. 
@@ -74,7 +74,7 @@ Here a `div` with a paragraph has an id name of `#details`
     background-color: black;
 }
 ```
-![ID-basic]()
+![ID-basic](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Class%20and%20ID%20Selectors/Assets/ID-basic.png)
 
 ## Difference between `class` and `id` selectors
 | Class      | ID |
@@ -108,7 +108,7 @@ This is where we will apply our knowledge of `class` and `id` selectors
     font-size: 25px;
 }
 ```
-![Mixed]()
+![Mixed](https://raw.githubusercontent.com/srijanishere/winter-of-contributing/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Class%20and%20ID%20Selectors/Assets/mixed.png)
 
 > Note : The `background-color` of the `div` is **green**, the color of first paragraph is **black** and is smaller in size since it takes the properties of the ID `#first`, the color of second paragraph is **white** and is bigger in size since it takes the properties of the ID `#second#`.
 
