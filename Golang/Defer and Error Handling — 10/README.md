@@ -127,7 +127,7 @@ GoLang has support for errors in a really simple way. Go functions returns error
 
 ### Simple Error Methods
 
-There are multiple methods for creating errors. Here we will discuss the simple ones that can be created without much effort.
+There are multiple methods for creating errors. Here we will discuss the simple ones that can be created without much effort:
 
 1\. **Using the New function:**
 GoLang errors package has a function called New() which can be used to create errors easily. Below it is in action.
@@ -188,7 +188,7 @@ func main() {
 }
 ```
 
-### Panic and recover :-
+### Panic and recover:-
 Panic occurs when an unexpected wrong thing happens. It stops the function execution. Recover is the opposite of it. It allows us to recover the execution from stopping. Below shown code illustrates the concept.
 
 ```go
@@ -502,7 +502,7 @@ In Go language, panic is just like an exception, it also arises at runtime. Or i
 The panic function is an inbuilt function which is defined under the builtin package of the Go language. This function terminates the flow of control and starts panicking.
 
 ### Syntax:
-```
+```go
 func panic(v interface{})
 ```
 
@@ -682,7 +682,7 @@ import "fmt"
   
 /* This function is created to handle the panic occurs in entry function 
 but it does not handle the panic occurred in the entry function because 
-it called in the normal function*/
+it called in the normal function */
 func handlepanic() {
   
     if a := recover(); a != nil {
@@ -852,4 +852,4 @@ So thats all that you need to know about Defer and Error Handling in Golang . Yo
    <td>
     <a href="https://camo.githubusercontent.com/c725e0da1dbf862ab2f0efee91183f43e6dad0106400ab4e607435bf89ac2ad0/68747470733a2f2f692e6d6f72696f682e636f6d2f356135313263333139612e706e67">Link2</a></td><td> <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVbFEmVFBP11pID90g3kp0W2BwmPENjsgmqA&usqp=CAU">Link3</a> </td></tr></table>
 
-## 😎✨ THANKS FOR READING!!! <br>
+## THANKS FOR READING! ✨<br>
