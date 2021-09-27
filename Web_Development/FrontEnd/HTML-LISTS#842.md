@@ -12,7 +12,9 @@ It contains elements that are stored in an order or sequence. For example - a li
 1. One
 2. Two
 3. Three
-4. 
+
+![Screenshot (121)](https://user-images.githubusercontent.com/71889838/134956168-fe411a6a-bdd5-4f2e-9952-bd1f7c64ebda.png)
+  
 Here the elements are evenly arranged in a definite fashion and are not random.
 
 ## Unordered List
@@ -21,7 +23,10 @@ Such lists are unorganised and are places randomly. Take the same example of lis
 - Nine
 - Hundered
 - Sixty Four
-- 
+
+![Screenshot (122)](https://user-images.githubusercontent.com/71889838/134956431-957eca2f-f396-40f6-abd3-2a123a7f5a6e.png)
+
+
 Here these numbers are not organized. first is four, second is nine and so on. There is no definite sequence is followed here.
 
 ### How to create lists in HTML?
