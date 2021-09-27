@@ -67,3 +67,22 @@ On a web page this type of list looks something like this :
 ![](./assets/list_items.png)
 
 You can clearly see you can put anything in a list item be it a link, an image or other lists as well.
+
+## Other Lists
+
+**Description Lists / Definition List** - used to displays elements in definition form like in dictionary or notes.They are mainly uses implement a glossary or to display metadata (a list of key-value pairs).The <dl> element is used as description list,<dt> element used as a the term and <dd> element describes the term.
+
+```html
+<dl>
+  <dt>Data term </dt>
+     <dd>Data definition</dd>
+  <dt>First</dt>
+     <dd>One is First</dd>
+  <dt>Second</dt>
+     <dd>Two is Second</dd>
+</dl>
+```
+
+On a web page this type of list looks something like this :
+
+![](./assets/description_lists.png)
