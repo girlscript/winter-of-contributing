@@ -77,7 +77,7 @@ Before applying XGBoost, let us first explore the Boston Housing dataset. It is 
 #Returns all the keys of the dataset dictionary
 df.keys()
 ```
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/keys.JPG'>
+<img src='https://github.com/NikitaEmberi/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/keys.JPG'>
 
 Description of Dataset
 
@@ -141,7 +141,7 @@ Features of Dataset (Columns of Dataset)
 ```
 print(df.feature_names)
 ```
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/features.JPG'>
+<img src='https://github.com/NikitaEmberi/winter-of-contributing/blob/Datascience_With_Python/Datascielnce_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/features.JPG'>
 
 Converting dictionary to dataframe and Exploring first 5 rows of Dataset with the help of pandas library 
 
@@ -149,20 +149,20 @@ Converting dictionary to dataframe and Exploring first 5 rows of Dataset with th
 boston = pd.DataFrame(df.data,columns = df.feature_names)
 boston.head()
 ```
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/head.JPG'>
+<img src='https://github.com/NikitaEmberi/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/head.JPG'>
 
 Adding a  new column of target values to boston dataframe (cost)
 ```
 boston['TARGET_VALUE'] = df.target
 boston.head()
 ```
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/target_head.JPG'>
+<img src='https://github.com/NikitaEmberi/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/target_head.JPG'>
 
 Check if the dataset contains any null values or not.
 ```
 boston.isnull().sum()
 ```
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/null.JPG'>
+<img src='https://github.com/NikitaEmberi/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/null.JPG'>
 
 This shows that we do not have any null values present in our dataset. Hence, we can safely proceed ahead.
 
@@ -181,7 +181,7 @@ print(X_test.shape)
 print(y_train.shape)
 print(y_test.shape)
 ```
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/shape.JPG'>
+<img src='https://github.com/NikitaEmberi/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/shape.JPG'>
 
 The next step is to instantiate an XGBoost regressor object by calling the XGBRegressor() class from the XGBoost library with the hyper-parameters passed as arguments. For classification problems, you would have used the XGBClassifier() class.
 
@@ -206,7 +206,7 @@ from sklearn.metrics import mean_squared_error
 rmse = np.sqrt(mean_squared_error(y_test, preds))
 print("RMSE: %f" % (rmse))
 ```
-<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/rmse.JPG'>
+<img src='https://github.com/NikitaEmberi/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/XGBoost%20Algorithm/Images/rmse.JPG'>
 
 As, you can see that your RMSE for the price prediction came out to be around 10.03 per 1000$
 
