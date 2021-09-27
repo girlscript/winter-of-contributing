@@ -83,7 +83,7 @@ android:inputType="number"
 * Add Call permission in *AndroidManifest.xml*:
 `<uses-permission android:name="android.permission.CALL_PHONE" />`
 
-* Open *ActivityMain.kt* class file
+* Open *ActivityMain.kt* class file and add this code
 
 ```
 class MainActivity : AppCompatActivity() {
@@ -120,10 +120,16 @@ class MainActivity : AppCompatActivity() {
 
 }
 ```
+### Now run the app
 
 ## Conclusion:
 * You use an explicit intent for actions or presenting screens **in your own app** and are responsible for the entire process.
 * You commonly use implicit intents for performing actions **involving other apps and rely on the system to determine the end result**.
+
+
+
+## Author
+[@shubhmittal07](https://github.com/shubhmittal07)
 
 
 
