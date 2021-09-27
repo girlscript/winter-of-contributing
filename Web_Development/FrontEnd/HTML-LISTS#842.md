@@ -109,37 +109,4 @@ There are few more tags used in HTML lists -
 
 ### HERE'S HOW IT WILL LOOK LIKE WHEN VEIWED IN ANY WEB BROWSER
 
-LISTS
-
-UNORDERED LIST-   
--   Apple
--   Custard
--   Pie
--   Melon
--   Bike
-
-ORDERED LIST1. 
-1.  Maths
-2.  Physics
-3.  Chemistry
-4.  Soft Skills
-5.  Computer Science
-
-DESCRIPTION LIST (with descriptions added)
-
-Shruti
-- school captain
-
-Abhisekh
-- sports captain
-
-Sam
-- chess player
-
-Amanda
-- senior secretary
-
-Amrita
-- club incharge
-- 
 ![Screenshot (90)](https://user-images.githubusercontent.com/71889838/134722755-93a6a1ef-aa8b-4636-bf6c-750d8a635186.png)
