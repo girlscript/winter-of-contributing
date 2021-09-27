@@ -1,42 +1,21 @@
-<h1 align="center">DNS and Working of DNS</h1>
+## DNS and Working of DNS
+## What is DNS ? **Domain Name System (DNS)** is a various leveled naming framework based on a circulated information base for PCs, administrations,or any asset associated with the Internet or a private organization. 
 
-
-## What is DNS ?
-
-
-
-**Domain Name System (DNS)** is a various leveled naming framework based on a circulated information base for PCs, administrations,or any asset associated with the Internet or a private organization. 
-
-
-## What does DNS do?
-
-
-
-
-
-It is difficult for us to remember all the IP addresses for the various websites we visit everyday. 
+## What does DNS do?  It is difficult for us to remember all the IP addresses for the various websites we visit everyday. 
 Instead we use Domain Names like "girlscript.com" or "github.com".  
 You can simply think of the DNS system as the internet’s phonebook.
 **DNS converts this Domain Name to actual IP address of the server.**
 
-
-
-
-
 ![Logo](https://www.thesslstore.com/blog/wp-content/uploads/2019/04/DNS-Diagram.png)
 
+## History of DNS  In earlier days, the use of the Internet was very small as it was a newly emerging phenomenon.Therefore storing IP addresses was a very simple task. 
+When the Internet started,  names and addresses were personally assigned in a master list of every Internet-connected computer in a text file was called “hosts.txt”.
+But that didn’t last long as more devices and people joined the growing network, this was not a sustainable solution. Then the concept of DNS came into the picture. Now, Internet Engineering Task Force (IETF) in RFC 1035 is maintaining the standards of DNS.
 
-## History of DNS
-<p>In earlier days, the use of the Internet was very small as it was a newly emerging phenomenon.Therefore storing IP addresses was a very simple task. </p>
-<p>When the Internet started,  names and addresses were personally assigned in a master list of every Internet-connected computer in a text file was called “hosts.txt”.</p> 
-<p>But that didn’t last long as more devices and people joined the growing network, this was not a sustainable solution. Then the concept of DNS came into the picture. Now, Internet Engineering Task Force (IETF) in RFC 1035 is maintaining the standards of DNS.</p>
+## DNS servers and IP addresses  A DNS server stores explicit data that matches a domain name with specific IP addresses. 
 
-
-## DNS servers and IP addresses 
-<p>A DNS server stores explicit data that matches a domain name with specific IP addresses. </p>
-
-<p>Uber.com, for instance, has a large number of servers across the globe, and the physical server that a user associates inside one nation is reasonable totally unique in relation to another user somewhere else all throughout the planet. </p>
-<p>The worldwide idea of Internet administrations requires an organization of disseminated and versatile DNS servers to guarantee that users can easily look up and resolve the mentioned server's location, from any place throughout the planet.</p>
+Uber.com, for instance, has a large number of servers across the globe, and the physical server that a user associates inside one nation is reasonable totally unique in relation to another user somewhere else all throughout the planet. 
+The worldwide idea of Internet administrations requires an organization of disseminated and versatile DNS servers to guarantee that users can easily look up and resolve the mentioned server's location, from any place throughout the planet.
 
 
 ## Domains
@@ -50,7 +29,6 @@ A uniform resource locator (URL), sometimes called an internet address, contains
 
 ![Logo](https://www.webdancers.com/wp-content/uploads/2015/12/url_diagram.png)
 
-<br>
 
 **Different types of Domains :**
 - **Top Level Domains(TLD) :**
