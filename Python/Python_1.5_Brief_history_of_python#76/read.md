@@ -1,6 +1,5 @@
 <hr>
 
-## Description 📜
 # Python: 1.5 Brief history of python 
 ###### [Issue 76](https://github.com/girlscript/winter-of-contributing/issues/76)
 
