@@ -15,7 +15,7 @@ A third-party source-to-source compiler, GopherJS, compiles Go to JavaScript for
 
 ## History
 
-Go was designed at Google in 2007 to improve programming productivity in an era of multicore, networked machines and large codebases.[21] The designers wanted to address criticism of other languages in use at Google, but keep their useful characteristics:
+Go was designed at Google in 2007 to improve programming productivity in an era of multicore, networked machines and large codebases. The designers wanted to address criticism of other languages in use at Google, but keep their useful characteristics:
 
 - static typing and run-time efficiency (like C),
 - readability and usability (like Python or JavaScript),
