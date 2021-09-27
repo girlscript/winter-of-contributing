@@ -1,0 +1,180 @@
+                                                              CONSTRUCTOR AND DESTRUCTOR IN C++
+                                                              ----------------------------------
+WHAT IS CONSTRUCTOR ?
+-->A constructor is a special type of member function of a class which initializes objects of a class. In C++, Constructor is automatically called when object(instance of class) create. It is special member function of the class because it does not have any return type.
+
+PROPERTIES OF CONSTRUCTOR:
+1. Constructor has same name as the class itself.
+2. Constructors don’t have return type.
+3. A constructor is automatically called when an object is created.
+4. It must be placed in public section of class.
+5. If we do not specify a constructor, C++ compiler generates a default constructor for object (expects no parameters and has an empty body).
+
+WHY DO WE NEED CONSTRUCTORS?
+-->Constructors initialize the new object, that is, they set the startup property values for the object. They might also do other things necessary to make the object usable. You can distinguish constructors from other methods of a class because constructors always have the same name as the class
+
+TYPES OF CONSTRUCTOR IN C++
+                           |
+	                   |
+    -----------------------^--------------------------------
+    |                      |                                |
+  DEFAULT             PARAMETERIZED                        COPY
+CONSTRUCTOR            CONSTRUCTOR                      CONSTRUCTOR
+
+class_name()        class_name(parameter)     class_name(const class_name old_object)
+
+* NOW LET US DISCUSS EACH OF THEM IN BRIEF WITH CODE EXAMPLE
+
+1. DEFAULT CONSTRUCTOR: Default constructor is the constructor which doesn’t take any argument. It has no parameters.
+		        Even if we do not define any constructor explicitly, the compiler will automatically provide a default constructor implicitly.
+
+#include <iostream>
+using namespace std;
+class construct
+{
+public:
+    int num1,num2;
+    // Default Constructor
+    construct()
+    {
+        num1 = 10;
+        num2 = 20;
+    }
+}; 
+int main()
+{
+    // Default constructor called automatically
+    // when the object is created
+    construct num;
+    cout << "num1: " << num.num1 << endl
+         << "num2: " << num.num1;
+    return 0;
+}
+
+
+
+2. PARAMETERIZED CONSTRUCTOR: It is possible to pass arguments to constructors. Typically, these arguments help initialize an object when it is created. To create a parameterized constructor, simply add parameters to it the way you would to any other function. When you define the constructor’s body, use the parameters to initialize the object.When an object is declared in a parameterized constructor, the initial values have to be passed as arguments to the constructor function. The normal way of object declaration may not work. The constructors can be called explicitly or implicitly.
+			      
+#include<iostream>
+using namespace std;
+class construct
+{
+private:
+    int x, y; 
+public:
+    // Parameterized Constructor
+    construct(int x1, int y1)
+    {
+        x = x1;
+        y = y1;
+    }
+    int getX()
+    {
+        return x;
+    }
+    int getY()
+    {
+        return y;
+    }
+}; 
+int main()
+{
+    // Constructor called
+    construct p1(10, 15);
+    // Access values assigned by constructor
+    cout << "p1.x = " << p1.getX() << ", p1.y = " << p1.getY();
+    return 0;
+}
+
+USES OF PARAMETERIZED CONSTRUCTOR:
+a. It is used to initialize the various data elements of different objects with different values when they are created.
+b. It is used to overload constructors.
+
+
+
+3. COPY CONSTRUCTOR:  A copy constructor is a member function which initializes an object using another object of the same class.
+
+#include<iostream>
+using namespace std;
+class construct
+{
+private:
+  double x, y;
+public:
+  // Non-default Constructor &
+  // default Constructor
+  construct (double px, double py)
+  {
+    x = px, y = py;
+  }
+};
+int main(void)
+{
+  // Define an array of size
+  // 10 & of type point
+  // This line will cause error
+  construct a[10];
+  // Remove above line and program
+  // will compile without error
+  construct b = point(5, 6);
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+WHAT IS DESTRUCTOR?
+-->Destructor is an instance member function which is invoked automatically whenever an object is going to be destroyed. Meaning, a destructor is the last function that is going to be called before an object is destroyed.
+The thing is to be noted here, if the object is created by using new or the constructor uses new to allocate memory which resides in the heap memory or the free store, the destructor should use delete to free the memory.  
+
+PROPERTIES OF DESTRUCTOR:
+1. Destructor function is automatically invoked when the objects are destroyed.
+2. It cannot be declared static or const.
+3. The destructor does not have arguments.
+4. It has no return type not even void.
+5. An object of a class with a Destructor cannot become a member of the union.
+6. A destructor should be declared in the public section of the class.
+7. The programmer cannot access the address of destructor.
+
+WHY DO WE NEED DESTRUCTOR?
+-->If we do not write our own destructor in class, compiler creates a default destructor for us. The default destructor works fine unless we have dynamically allocated memory or pointer in class. When a class contains a pointer to memory allocated in class, we should write a destructor to release memory before the class instance is destroyed. This must be done to avoid memory leak.
+
+SYNTAX FOR WRITING A DESTRUCTOR IS: ~constructor-name();
+
+WHEN IS DESTRUCTOR CALLED?
+-->A destructor function is called automatically when the object goes out of scope: 
+(1) the function ends 
+(2) the program ends 
+(3) a block containing local variables ends 
+(4) a delete operator is called  
+
+How are destructors different from a normal member function? 
+-->Destructors have same name as the class preceded by a tilde (~) .
+   Destructors don’t take any argument and don’t return anything.
+   There can only one destructor in a class with classname preceded by ~, no parameters and no return type.
+
+#include<iostream>
+using namespace std;
+class destruct
+{
+public:
+  //Constructor
+  destruct(){
+    cout<<"Constructor is called"<<endl;
+  }
+  //Destructor
+  ~destruct(){
+    cout<<"Destructor is called"<<endl;
+   }
+   //Member function
+   void display(){
+     cout<<"Hello World!"<<endl;
+   }
+};
+int main(){
+   //Object created
+   destruct obj;
+   //Member function called
+   obj.display();
+   return 0;
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
