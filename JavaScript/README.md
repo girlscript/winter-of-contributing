@@ -34,5 +34,5 @@
 - [Closures](Topics/12.Closures_In_JavaScript)
 - [Promises](Topics/13.Promises)
 - [Web Browser APIs](Topics/14.Web_Browser_APIs)
-- [Events](Topics/15.Events_Frontend)
+- [Events (Front-end)](Topics/15.Events_Frontend)
 
