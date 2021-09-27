@@ -12,7 +12,7 @@ ___
 ## Props in Class Component :-
 <br>
 
-### **Example :-**
+**Example :-**
 <br>
 
 #App.js
@@ -57,7 +57,7 @@ ReactDOM.render(
 
     A simple component and then we passes the props as attributes and then access them inside our component using this.props. So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
 
-### **Output :-**
+**Output :-**
 <br>
 
 <img src="assets/../../../assets/Output1.png" width="400px">
@@ -67,7 +67,7 @@ ReactDOM.render(
 ## Props in Functional Component :-
 <br>
 
-### **Example :-**
+**Example :-**
 <br>
 
 #App.js
@@ -108,7 +108,7 @@ ReactDOM.render(
 
     we passes the props as attributes and then access them inside our component using props.title, So props makes components reusable by giving components the ability to receive data from the parent component in the form of props. They are immutable.
 
-### **Output :-**
+**Output :-**
 <br>
 
 <img src="assets/../../../assets/Output_2.png" width="400px">
@@ -181,13 +181,14 @@ class App extends React.Component {
   }
     changeTitle = () => {
     this.setState({Title : "Night"});
+    }
 
   render() {
     return (
       <div>
         <h1>Good {this.state.title}!</h1>
+        <button type="button" onClick={this.changeTitle}>Change Title</button>
       </div>
-      <button type="button" onClick={this.changeTitle}>Change Title</button>
     );
   }
 }
@@ -195,15 +196,15 @@ class App extends React.Component {
 ```
 <br>
 
-### **Output :-**
+**Output :-**
 <br>
 
-### **Before Changing the State :-** 
+**Before Changing the State :-** 
 <br>
 
 <img src="assets/../../../assets/Output_3.png" width="400px"><br>
 
-### **After changing the state :-** 
+**After changing the state :-** 
 <br>
 
 <img src="assets/../../../assets/Output_4.png" width="400px"><br>
@@ -213,7 +214,7 @@ class App extends React.Component {
 
 ## React Props vs State :-
 
-### **State :-**
+**State :-**
 
 * State changes can be asynchronous.
 * State is mutable.
@@ -224,7 +225,7 @@ class App extends React.Component {
 * State cannot make components reusable.
 * The State is internal and controlled by the React Component itself.
 
-### **Props :-**
+**Props :-**
 
 * Props are read-only.
 * Props are immutable.
