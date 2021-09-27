@@ -8,7 +8,7 @@ public:
 
     int infEval(string ch)
     {
-        stack<int> operands;
+        stack<int> operands;                        //stack to store the output and perform the all operations.
 
         stack<char> operators;
 
