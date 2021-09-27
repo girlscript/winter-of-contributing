@@ -2,7 +2,7 @@
 
 ## Description and overview :
 
-<b>ID3 algorithm</b> (Iterative Dichotomiser 3) is a specific machine learning algorithm. This classification algorithm follows a greedy approach of building a decision tree. 
+<b>ID3 algorithm</b> (Iterative Dichotomiser 3) is a specific machine learning algorithm. <b>Iteratively</b> means doing something repeatedly and <b>Dichotomizes</b> means divides. This classification algorithm is named such as it divides attributes or features into several groups, repeatedly. It follows a greedy approach of building a decision tree. 
 Let us learn about <b>decision tree</b> first, it is nothing but a simple tree-like model(with the root at the top) that depicts a clear pathway to a decision. There are two types of nodes decision nodes(contains a condition to split the data) and leaf nodes(decide the class of a new data point).
 There are four popular types of decision tree algorithms - ID3, CART, Chi-Square, Reduction in Variance.
 Now we will focus on ID3 Classification Algorithm.
