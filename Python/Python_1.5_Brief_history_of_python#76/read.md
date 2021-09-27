@@ -1,45 +1,24 @@
 <hr>
 
 ## Description 📜
+# Python: 1.5 Brief history of python 
+###### [Issue 76](https://github.com/girlscript/winter-of-contributing/issues/76)
 
-Brief history of Python including the release date and versions launched in the past are presented in audio format. Note that while compiling this issue, I have reserached multiple resources including interview of Guido van Rossum.
-Fixes # <76> 
+This audio file, 
+[link available here](https://soundcloud.com/anna-lotic/python-1) explains the brief history of python in the following chronology:
 
-link : https://drive.google.com/file/d/1-3mTpT4aqD76Az06lLt_4iLMJwP3cO5O/view?usp=sharing
-
-<hr>
-
-## Type of change 📝
-
-<!----Please delete the hashtag from the correct option----->
-
-- [ ] Audio (Should be in mp3 format Includes speech clarity, Concise ,Low distortion)
-
-<hr>
-
-## Domain of Contribution 📊
-
-<!----Please delete the hashtag from your domain----->
-
-
-- [ ] Python_Domain
-
+1. Intro
+2. Founder name and company
+3. Timeline:
+  - 1989 Python was intoduced by Guido van Rossum as a succession to ABC Programming Language, which had the interfacing with the Amoeba Operating System
+  - 1991 Release of Python version 0.9
+  - 1994 Release of Python 01 version
+        Features: functional programming tools like lambda, map, filter and reduce. 
+  - 2000 Release of Python 02 version 
+        Features: list comprehensions, a garbage collector capable of collecting reference cycles, supported nested scopes , and  unification of python types           and classes into one hierarchy. A "with" statement was introduced in Python 2.5 version. Last release of python 2 version occured on April 20,20 as             2.7.18 version
+  - 2008 Release of Python 03 version
+        Features: prominent details and less excessive code to perform the task and also removed duplicative.
+        Python 3.9 is the lastest release in python world along with preview version of 3.10 available and            future release of python version 3.11 is           expected in 2022.
 
 <hr>
 
-## Checklist ✅
-
-<!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
-
-- [x] I follow [Contributing Guidelines](https://github.com/girlscript/winter-of-contributing/blob/main/.github/CONTRIBUTING.md) & [Code of conduct](https://github.com/girlscript/winter-of-contributing/blob/main/.github/CODE_OF_CONDUCT.md) of this project.
-- [x] I have performed a self-review of my own code or work.
-- [x] My changes generates no new warnings.
-- [x] I'm GWOC'21 contributor
-
-<hr>
-
-<!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
-
-## Screenshots / Gif (Optional) 📸
-
-<hr>
