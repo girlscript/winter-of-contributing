@@ -8,7 +8,7 @@ class prefixEvaluation
 public:
     void prefEval(string exp)
     {
-        stack<int> st;                              //st stack to store the ans and perform the all operations.
+        stack<int> st;                              //st stack to store the output and perform the all operations.
         for (int i = exp.length() - 1; i >= 0; --i)   
         {
             if (exp[i] >= '0' and exp[i] <= '9')
