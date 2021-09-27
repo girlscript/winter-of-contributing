@@ -1,1 +1,0 @@
-[![ML 1.5 : Probability Distributions (Gaussian, Standard, Poisson)](https://github.com/Pratyaksha-047/winter-of-contributing/blob/7d779719fd10526e910c1fd040f0260d8557417d/Assets/Probability%20distributions.png)](https://drive.google.com/file/d/1XSsfAXGqVaAopOsXd_Nzxoh06kDuTQR7/view?usp=sharing)
