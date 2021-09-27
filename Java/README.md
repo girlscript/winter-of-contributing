@@ -45,6 +45,25 @@ Java is a high-level, class-based, object-oriented programming language. It is a
 | 22. | [Generics](#Generics)                                   |
 | 23. | [Lambda Expressions](#Lambda-Expressions)               |
 | 24. | [String Handling](#String-Handling)                     |
+| 25. | [Java.lang](#Java.lang)                                 |
+| 26. | [Collection Framework](#Collection-Framework)           |
+| 27. | [Input and Output](#Input-and-Output)                   |
+| 28. | [NIO](#NIO)                                             |
+| 29. | [Networking](#Networking)                               |
+| 30. | [Stream API](#Stream-API)                               |
+| 31. | [Regular Expressions](#Regular-Expressions)             |
+| 32. | [Reflection](#Reflection)                               |
+| 33. | [AWT](#AWT)                                             |
+| 34. | [AWT Controls](#AWT-Controls)                           |
+| 35. | [Images](#Images)                                       |
+| 36. | [Concurrent Utilities](#Concurrent-Utilities)           |
+| 37. | [Swing](#Swing)                                         |
+| 38. | [Swing Menus](#Swing-Menus)                             |
+| 39. | [JavaFX](#JavaFX)                                       |
+| 40. | [JavaFX Controls](#JavaFX-Controls)                     |
+| 41. | [Java Beans](#Java-Beans)                               |
+| 42. | [Servlets](#Servlets)                                   |
+| 43. | [Javadoc](#Javadoc)                                     |
 
 <hr>
 
@@ -572,6 +591,793 @@ Java is a high-level, class-based, object-oriented programming language. It is a
   `Audio🔉`
   `Video🖥️`
 - Importants methods of string buffer<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Java.lang
+
+- Runtime memory management<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Executing other programs at run time<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Process builder<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- System class<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Object class<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Class and classloader<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Math and strictMath<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Compiler<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Runtime permission<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Throwable <br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Security Manager<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- StackTraceElement<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Comparable Interface<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Iterable Interface<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Readable Interface<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- AutoCloseable Interface<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Subpackes<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Collection Framework
+
+- Collection Interface<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- List<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Set<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Sorted Set<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Navigable<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Queue<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Dequeue<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- ArrayList<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- LinkedList<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- TreeSet<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Priority Queue<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Array Deque<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Enum Set<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Spliterators<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- RandomAccess Interface<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Vector<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Stack<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Dictionary<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- HashTable<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Properties<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- StringTokenizer<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Bitset<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Optional<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Date,Calender,Gregorian Calender<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- TimeZone and SimpleTimeZone<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Locale<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Random<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Observable<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Timer and TimerTask<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Currency<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Formatter<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Scanner<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Other classes like jar,logging,prefs<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Other classes like regex,spi,stream,zip<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Input and Output
+
+- I/O: Basics<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Predefined Streams<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- PrintWriter Class<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Byte Stream part 1<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Byte Stream part 2<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Character Stream part 1<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Character Stream part 2<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Console Class<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Serialization<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## NIO
+
+- NIO Fundamentals<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Using NIO<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Networking
+
+- Networking Basic<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Networking Classes and Interfaces<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- InetAddress<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- TCP/IP client sockets<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- URL relation classes and methods<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Cookies<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- TCP/IP client sockets<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Datagrams<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Stream API
+
+- Stream basics<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Parallel streams<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Mapping<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Collecting<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Regular Expressions
+
+- Regular Expression basics<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Regular Expression Processing-Part 1<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Regular Expression Processing-Part 2<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Reflection
+
+- Reflection introductions<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Invoking Remote methods<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## AWT
+
+- Window fundamentals<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Frames<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Graphics part 1<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Graphics part 2<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Color<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Fonts<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- FontMetrics<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## AWT Controls
+
+- Awt Control fundamentals<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Labels<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Buttons<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Checkbox<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Lists<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- ScrollBars<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- TextFiekds<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- TextArea<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Layouts part 1<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Layouts part 2<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Menu<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Menu Bars<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Dialog boxes<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- FileDialog<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Images
+
+- Image fundamentals<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Image Observer<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Double Buffering<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Media Tracker<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Image Producer<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Image Consumer<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Image Filer<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Concurrent Utilities
+
+- Concurrent API Packages<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Synchronizations Objects<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Phaser<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Executor<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Locks<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Atomic Operations<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Swing
+
+- Swing Intro<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Components ans Containers<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Swing Packages<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- A simple swing application<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Event Handlig<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Swing Applet<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Painting in Swing<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Jlabel and ImageIcon<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- JTextField<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Jbuttons<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- JToggleButtons<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Check Boxes,Radio buttons<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- JtabbedPane<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- JScrollPane<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Jlist<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- JComboBox<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Trees<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Jtable<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Swing Menus
+
+- Menu Basics<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Mnemonics and accelerators<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Image and Tooltips<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- JRadioButtonMenuIterm<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- JCheckBoxMenuButton<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Actions<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Toolbar<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## JavaFX
+
+- JavaFx Basics<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Structure<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Application Thread<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Label Control<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Buttons and Events<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## JavaFX Controls
+
+- Image and Image View<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Toggle Button<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Radio Button<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- CheckBox<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- ListView<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- ComboBox<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- TextField<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- ScrollPane<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- TreeView<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Effects and Transform<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Menu Basics<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Images<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Context Menu<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- ToolBar<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Java Beans
+
+- Java Beans Introduction<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Common Design Patterns<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Persistence,customizers,properties<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Java Beans API<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- A Java beans Example<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Servlets
+
+- Servelet Introduction<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Creating Servlet<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Servlet API<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- java.servlet package<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- java.servlet.http package<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Parameters<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- HTTP requests and response<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Cookies<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Tracking<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+
+**[⬆ Back to Top](#table-of-contents)**
+
+## Javadoc
+
+- Javadocs Introductions<br>
+  `Documentation📃`
+  `Audio🔉`
+  `Video🖥️`
+- Common Javadoc tags<br>
   `Documentation📃`
   `Audio🔉`
   `Video🖥️`
