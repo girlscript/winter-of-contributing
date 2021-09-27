@@ -1,8 +1,8 @@
 # Installation of Flutter in Windows and Mac OS
  
 <p align="center">
-<img  src="images/img1.jpg" 
- alt="JSX-logo" width="80%" />
+<img  src="./images/img1.jpg" 
+ alt="Flutter-logo" width="80%" />
 </p>
 
 ## Pre-requisites
@@ -15,6 +15,6 @@
 
 ## Watch this [video](https://youtu.be/Fi9lnrZu0mE) or click the image below to watch the installation tutorial
 
-[<img src="images/img2.gif">](https://youtu.be/Fi9lnrZu0mE)
+[<img src="./images/img2.gif">](https://youtu.be/Fi9lnrZu0mE)
 
 <br></br>
