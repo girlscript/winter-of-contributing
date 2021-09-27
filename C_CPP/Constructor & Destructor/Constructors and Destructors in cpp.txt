@@ -1,5 +1,5 @@
                                              Constructors:
-                                            ---------------
+                                           -----------------
 
 Constructor in c++ is the member function of a class used to initialize data members of the class.
 
