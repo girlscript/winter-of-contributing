@@ -1,5 +1,5 @@
 
-Generators
+Generator in python
 
 A video for beginners to get knowledge about Generators.
 
