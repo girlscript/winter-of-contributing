@@ -59,11 +59,11 @@ Note: The cin and cout can contain multiple pairs of angular brackets for taking
 cin>>a>>b>>c;
 cout<<a<<"\n"<<b+c;
 ```
-Input:
-3 4 5
-Output:
+Input: <br>
+3 4 5 <br>
+Output: <br>
 3 <br>
 9
-
+<br>
 Note here that "\n" means new line.
 All important and useful topics about cin and cout streams have been covered up in the above documentation.
