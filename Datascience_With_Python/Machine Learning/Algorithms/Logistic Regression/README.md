@@ -1,10 +1,10 @@
-**##LOGISTIC REGRESSION**
+**## LOGISTIC REGRESSION**
 
-Introduction
+# Introduction
 
 Logistic regression is used for the classification rather than regression (given in its name) where it is used for binary classification systems in general. It coms under the category of supervised classification problems. Scikit learn library in Python helps us in implementing the logistic regression algorithm. This algorithm is useful when the dependent variable represents a category.
 
-Applications
+# Applications
 
 It has it applications in various problems nowadays. Few examples are:
 
@@ -12,7 +12,7 @@ Credit Card Fraud Detection:Logistic regression can be used to find if a transac
 Email Spam detection:It is used for classification of email as spam and label it accordingly.
 Tumour Prediction: It is used in prediction of whether a tumour is malignant benign after extraction of features from tumours.
 
-How does it work?
+# How does it work?
 
 In Logistic regression, sigmoid function which is an 'S' shaped graph is used for mapping of the predictions to their respective probabilities. It provides us with predictions between 0 and 1.
 
