@@ -42,7 +42,7 @@ So for that also function is given below:
 ```
 public class varargs 
 {
-    static int sum(int a ,int b,int c)  //function to add two variable a and b
+    static int sum(int a ,int b,int c)  //function to add three variable a and b and c
     {
         return a+b+c;
     }
@@ -59,7 +59,7 @@ Now again we need to add 4 numbers then again we will create another method (I.e
 So the function for that is below:
 
 ```
-    static int sum(int a ,int b,int c)  //function to add two-variabl e a and b
+    static int sum(int a ,int b,int c,int d)  //function to add four-variable a,b,c and d
     {
         return a+b+c+d;
     }
