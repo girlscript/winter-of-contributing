@@ -1,7 +1,7 @@
 
 ## Supervised Machine Learning
 
-2.1. What is Learning? Why Machine Learning works? (A+V)
+2.1. What is Learning? Why Machine Learning works? (A+V+D)
 
 2.2. Contrast between Regression and Classification (A+V+D)
 
