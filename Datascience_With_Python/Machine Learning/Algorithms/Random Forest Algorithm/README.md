@@ -16,6 +16,7 @@ The (random forest) algorithm establishes the outcome based on the predictions o
 ## **Brief summary** 
 
 A decision tree consists of three components: decision nodes, leaf nodes, and a root node. A decision tree algorithm divides a training dataset into branches, which further segregate into other branches. This sequence continues until a leaf node is attained. The leaf node cannot be segregated further.
+A random forest consists of many such decision trees. 
 
 ## **Features**
 
