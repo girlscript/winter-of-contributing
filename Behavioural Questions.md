@@ -11,30 +11,30 @@ If you can spend the prep time, you can stand out like Dwayne Johnson in a crowd
 
 
  These are Questions on some Conditions most likely to start with :-
-                             “If…”
-                             “Imagine…”
-                             “You’re asked to…”
-                             “Put yourself in the position of…”
+                    <ol>    <li>     “If…”   </li> 
+                          <li>    “Imagine…”  </li> 
+                          <li>    “You’re asked to…”  </li> 
+                          <li>    “Put yourself in the position of…”   </li>    </ol>
                            
-What are common behavioural interview questions?
-1."Tell me about a goal you reached and how you achieved it."
-2."Describe a goal you failed to achieve and what transpired."
-3."Share a time you prioritised a task over something else and why."
-4."Give an example of how you handle multitasking in one day."
-5."Recount a long-term project you completed. How did you keep the project on time and organised?"
-6."Share a time you learned a new skill or responsibility quickly."
-7."Discuss an example of when you made a tough decision."
-8."Tell me about a time you had to be flexible."
-9."Elaborate on the proudest moment in your professional career and why it is important to you."
-10."Has there ever been a time you felt dissatisfied with your work or role and how did you handle that?"
-11."Share how you stay motivated when doing repetitive tasks at work."
-12."Explain a project you feel affected your company significantly."
-13."Recount a time you had to say no at work."
-14."Describe a time you had to work closely with a colleague whose personality differed from yours."
-15."Tell me about a time you considered yourself an excellent leader."
-16."Share a time you felt you went beyond the standard responsibilities of your job."
-17."Recount a time when you disagreed with someone."
-18."Describe a time when you had too many to do items on your list. How did you solve the problem?"
-19."Describe a situation where your boss was 100% wrong. What did you do?"
-20."What if I say no matter how good you perform, I am not going to select you"?
-21."What if one Day you woke up and found your suspension mail in your mail box and the thing is you havn't done anything wrong"?
+What are common behavioural interview questions?   <br>
+1."Tell me about a goal you reached and how you achieved it."  <br>
+2."Describe a goal you failed to achieve and what transpired." <br>
+3."Share a time you prioritised a task over something else and why." <br>
+4."Give an example of how you handle multitasking in one day." <br>
+5."Recount a long-term project you completed. How did you keep the project on time and organised?" <br>
+6."Share a time you learned a new skill or responsibility quickly." <br>
+7."Discuss an example of when you made a tough decision." <br>
+8."Tell me about a time you had to be flexible." <br>
+9."Elaborate on the proudest moment in your professional career and why it is important to you." <br>
+10."Has there ever been a time you felt dissatisfied with your work or role and how did you handle that?" <br>
+11."Share how you stay motivated when doing repetitive tasks at work." <br>
+12."Explain a project you feel affected your company significantly." <br>
+13."Recount a time you had to say no at work." <br>
+14."Describe a time you had to work closely with a colleague whose personality differed from yours." <br>
+15."Tell me about a time you considered yourself an excellent leader." <br>
+16."Share a time you felt you went beyond the standard responsibilities of your job." <br>
+17."Recount a time when you disagreed with someone." <br>
+18."Describe a time when you had too many to do items on your list. How did you solve the problem?" <br>
+19."Describe a situation where your boss was 100% wrong. What did you do?" <br>
+20."What if I say no matter how good you perform, I am not going to select you"? <br>
+21."What if one Day you woke up and found your suspension mail in your mail box and the thing is you havn't done anything wrong"? <br>
