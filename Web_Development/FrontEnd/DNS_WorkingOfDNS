@@ -1,9 +1,10 @@
-## DNS and Working of DNS
+# DNS and Working of DNS
 ## What is DNS ? 
 **Domain Name System (DNS)** is a various leveled naming framework based on a circulated information base for PCs, administrations,or any asset associated with the Internet or a private organization. 
 ## What does DNS do?  
-It is difficult for us to remember all the IP addresses for the various websites we visit everyday. Instead we use Domain Names like "girlscript.com" or "github.com". You can simply think of the DNS system as the internet’s phonebook. **DNS converts this Domain Name to actual IP address of the server.**
+It is difficult for us to remember all the IP addresses for the various websites we visit everyday. Instead we use Domain Names like "girlscript.com" or "github.com". You can simply think of the DNS system as the internet’s phonebook. 
 
+**DNS converts this Domain Name to actual IP address of the server.**
 ![Logo](https://www.thesslstore.com/blog/wp-content/uploads/2019/04/DNS-Diagram.png)
 
 ## History of DNS  
@@ -18,14 +19,13 @@ A domain name is your personal or business home on the web , it’s a bit of onl
 
 ![Logo](https://www.webdancers.com/wp-content/uploads/2015/12/url_diagram.png)
 
-**Different types of Domains :**
-- **Top Level Domains(TLD) :**
+### Different types of Domains :
+- #### Top Level Domains(TLD) :
       Domain name which is at the top level of the internet’s domain name system. There are over a thousand TLDs available but the most common include .com, .org, .net, and .edu.
-- **Country Code Top Level Domains(ccTLD) :**
+- #### Country Code Top Level Domains(ccTLD) :
       These use just two alphabets based upon international country codes.For example, .us for the United States and .jp for Japan. 
-- **Generic Top Level Domain(gTLD) :**
+- #### Generic Top Level Domain(gTLD) :
        Doesn’t rely on a country code. Some examples of gTLDs include .mil (military), .gov (government), .org (for non-profits and organizations), and .net, which was originally designed for internet service providers (ISPs) but is now used more widely.
-
 ![Logo](https://www.computerhope.com/jargon/d/dns.gif)
 
 ## Basic Terms Associated With Domains
