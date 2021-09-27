@@ -4,7 +4,7 @@
 In Go language, defer statements delay the execution of the function or method or an anonymous method until the nearby functions returns. In other words, defer function or method call arguments evaluate instantly, but they don't execute until the nearby functions returns. You can create a deferred method, or function, or anonymous function by using the defer keyword.
 
 ### **Syntax:**
-<pre><code>
+```
 // Function
 defer func func_name(parameter_list Type)return_type{
 // Code
@@ -18,7 +18,7 @@ defer func (receiver Type) method_name(parameter_list){
 defer func (parameter_list)(return_type){
 // code
 }()
-</code></pre>
+```
 ### **Important Points:**
 
 -   In Go language, multiple defer statements are allowed in the same program and they are executed in LIFO(Last-In, First-Out) order as shown in Example 2.
@@ -28,7 +28,7 @@ Let us discuss this concept with the help of an example:
 
 **Example 1:**
 
-<pre><code>
+
 /* Go program to illustrate the
  concept of the defer statement */
 package main
@@ -74,7 +74,7 @@ Result:  1334
 -   Second, we call *mul()* function as a defer function using defer keyword, i.e, defer *mul(23, 58)* and it executes(Output: Result: 1334 ) when all the surrounding methods return.
 
 **Example 2:**
-<pre><code>
+```
 /* Go program to illustrate multiple defer statements, to illustrate LIFO policy */
 package main
  
@@ -98,7 +98,7 @@ func main() {
     defer add(34, 56)
     defer add(10, 10)
 }
-</code></pre>
+```
 
 **Output:**
 
@@ -132,7 +132,7 @@ There are multiple methods for creating errors. Here we will discuss the simple 
 1\. **Using the New function:**
 GoLang errors package has a function called New() which can be used to create errors easily. Below it is in action.
 
-<pre><code>
+```
 package main
  
 import (
@@ -155,19 +155,19 @@ func main() {
         fmt.Println(err, v)      // Zero cannot be used 0
     }   
 }
-</code></pre>
+```
 
 2\. **Using the Errorf function:**
 The fmt package has an Errorf() method that allows formatted errors as shown below.
 
-<pre><code>
+```
 fmt.Errorf("Error: Zero not allowed! %v", v)    // Error: Zero not allowed! 0
-</code></pre>
+```
 
 ### Checking for an Error
 To check for an error we simply get the second value of the function and then check the value with the nil. Since the zero value of an error is nil. So, we check if an error is a nil. If it is then no error has occurred and all other cases the error has occurred.
 
-<pre><code>
+```
 
 package main
  
@@ -187,12 +187,12 @@ func main() {
         fmt.Println(err)      // 42 is unexpected!
     }   
 }
-</code></pre>
+```
 
 ### Panic and recover :-
 Panic occurs when an unexpected wrong thing happens. It stops the function execution. Recover is the opposite of it. It allows us to recover the execution from stopping. Below shown code illustrates the concept.
 
-<pre><code>
+```
 package main
  
 import (
@@ -217,12 +217,12 @@ func main() {
      Recovered from panic */
 }
 
-</code></pre>
+```
 
 ### Creating custom errors
 As we have seen earlier the function errors.New() and fmt.Errorf() both can be used to create new errors. But there is another way we can do that. And that is implementing the error interface.
 
-<pre><code>
+```
 type CustomError struct {
     data string
 }
@@ -230,11 +230,11 @@ type CustomError struct {
 func (e *CustomError) Error() string {
     return fmt.Sprintf("Error occured due to... %s", e.data)
 }
-</code></pre>
+```
 
 ### Returning error alongside values
 Returning errors are pretty easy in Go. Go supports multiple return values. So we can return any value and error both at the same time and then check the error. Here is a way to do that.
-<pre><code>
+```
 import (
     "fmt"
     "errors"
@@ -250,12 +250,12 @@ func main() {
         fmt.Println(e, v)  // Error occured! 42
     }
 }
-</code></pre>
+```
 
 ### Ignoring errors in GoLang
 Go has the skip (-) operator which allows skipping returned errors at all. Simply using the skip operator helps here.
 
-<pre><code>
+```
 package main
  
 import (
@@ -272,7 +272,7 @@ func main() {
      
     fmt.Println(v)    // 42
 }
-</code></pre>
+```
 <hr>
 
 ## <div align="center">🎨 Custom Errors in GoLang</div>
@@ -283,16 +283,16 @@ func main() {
 Go provides two methods to create errors in the standard library, [`errors.New` and `fmt.Errorf`](https://www.digitalocean.com/community/tutorials/handling-errors-in-go#creating-errors). When communicating more complicated error information to your users, or to your future self when debugging, sometimes these two mechanisms are not enough to adequately capture and report what has happened. To convey this more complex error information and attain more functionality, we can implement the standard library interface type, [`error`](https://golang.org/pkg/builtin/#error). <br>
 The syntax for this would be as follows:
 
-<pre><code>
+```
 type error interface {
   Error() string
 }
-</code></pre>
+```
 
 The [`builtin`](https://golang.org/pkg/builtin/) package defines `error` as an interface with a single `Error()` method that returns an error message as a string. By implementing this method, we can transform any type we define into an error of our own.
 Let's try running the following example to see an implementation of the `error` interface:
 
-<pre><code>
+```
 package main
 
 import (
@@ -318,7 +318,7 @@ func main() {
     }
     fmt.Println("The string:", s)
 }
-</code></pre>
+```
 
 We'll see the following output:
 
@@ -336,7 +336,7 @@ Notice that we don't have to directly call `Error()`, since the `fmt` package
 
 Sometimes a custom error is the cleanest way to capture detailed error information. For example, let's say we want to capture the status code for errors produced by an HTTP request; run the following program to see an implementation of `error` that allows us to cleanly capture that information:
 
-<pre><code>
+```
 package main
 
 import (
@@ -370,7 +370,7 @@ func main() {
     }
     fmt.Println("success!")
 }
-</code></pre>
+```
 
 We will see the following output:
 
@@ -388,7 +388,7 @@ The `error` interface exposes only one method, but we may need to access the o
 Interfaces provide a narrow view into the wider set of methods provided by types, so we must use a *type assertion* to change the methods that view is displaying, or to remove it entirely. 
 The following example augments the `RequestError` shown previously to have a `Temporary()` method which will indicate whether or not callers should retry the request:
 
-<pre><code>
+```
 package main
 
 import (
@@ -436,7 +436,7 @@ func main() {
 
     fmt.Println("success!")
 }
-</code></pre>
+```
 
 We will see the following output:
 
@@ -454,7 +454,7 @@ Commonly, an error will be generated from something outside of your program such
 
 The following example demonstrates how we can attach some contextual information to an otherwise cryptic `error` returned from some other function:
 
-<pre><code>
+```
 package main
 
 import (
@@ -484,7 +484,7 @@ func main() {
 
     fmt.Println(err)
 }
-</code></pre>
+```
 
 We will see the following output:
 ```
@@ -507,9 +507,9 @@ In Go language, panic is just like an exception, it also arises at runtime. Or i
 The panic function is an inbuilt function which is defined under the builtin package of the Go language. This function terminates the flow of control and starts panicking.
 
 ### Syntax:
-<pre><code>
+```
 func panic(v interface{})
-</code></pre>
+```
 
 It can receive any type of argument. When the panic occurs in the Go program the program terminates at runtime and in the output screen an error message as well as the stack trace till the point where the panic occurred is shown. Generally, in Go language when the panic occurs in the program, the program does not terminate immediately, it terminates when the go completes all the pending work of that program.
 
@@ -517,7 +517,7 @@ For Example, suppose a function A calls panic, then the execution of the functio
 
 - **Example 1**:
 
-<pre><code>
+```
 /* Simple Go program which illustrates
  the concept of panic */
 package main
@@ -547,7 +547,7 @@ func main() {
     fmt.Println("Element 2: ", myarr[5])
   
 }
-</code></pre>
+```
 
 **Output**:
 ```
@@ -555,7 +555,7 @@ func main() {
 ```
 
 - **Example 2**:
-<pre><code>
+```
 /* Go program which illustrates how to create your own panic Using panic function */
 package main
   
@@ -586,8 +586,7 @@ func main() {
     entry(&A_lang, nil)
 }
 
-</code></pre>
-
+```
 **Output**:
 
 ```
@@ -603,7 +602,7 @@ main.main()
 
 - **Example 3**:
 
-<pre><code>
+```
 // Go program which illustrates the concept of Defer while panicking
 package main
   
@@ -643,8 +642,7 @@ func main() {
     entry(&A_lang, nil)
 }
 
-</code></pre>
-
+```
 **Output**:
 
 ```
@@ -673,9 +671,9 @@ Just like try/catch block in exception in languages like Java, C#, etc. are used
 
 ### Syntax:
 
-<pre><code>
+```
 func recover() interface{}
-</code></pre>
+```
 
 ### Important Points:
 
@@ -684,7 +682,7 @@ func recover() interface{}
 - If you want to find the stack trace, then use the PrintStack function which is defined under Debug package.
 
 - **Example 1:**
-<pre><code>
+```
 // Go program which illustrates the concept of recover
 package main
   
@@ -726,7 +724,7 @@ func main() {
     fmt.Printf("Return successfully from the main function")
 }
 
-</code></pre>
+```
 
 **Output:**
 ```
@@ -742,7 +740,7 @@ main.main()
 
 - **Example 2:**
 
-<pre><code>
+```
 // Go program which illustrates the concept of recover
 package main
   
@@ -787,8 +785,7 @@ func main() {
     fmt.Printf("Return successfully from the main function")
 }
 
-</code></pre>
-
+```
 **Output:**
 ```
 RECOVER Error: Author name cannot be nil
@@ -797,8 +794,8 @@ Return successfully from the main function
 ```
 
 - **Example 3:**
-<pre><code>
 
+```
 // Go program which illustrates recover in a goroutine
 package main
   
@@ -837,7 +834,7 @@ func main() {
     myfun1()
     fmt.Println("Return successfully from the main function")
 }
-</code></pre>
+```
 
 **Output:**
 ```
