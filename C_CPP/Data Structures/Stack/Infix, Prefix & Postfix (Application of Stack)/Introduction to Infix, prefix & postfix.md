@@ -48,8 +48,9 @@ e.g.
 
 Infix Expression : `( 2 + 4 ) / 5 - 7`
 
-<img src="https://user-images.githubusercontent.com/67793499/134872097-5b7b6d64-c0ea-442d-ab5a-74eee5eb17da.png" width="700" height="400">
-
+<p align="center">
+<img  src="https://user-images.githubusercontent.com/67793499/134872097-5b7b6d64-c0ea-442d-ab5a-74eee5eb17da.png" width="600" height="350">
+</p>
 
 Output : `-6`
 
@@ -82,12 +83,9 @@ e.g.
 
 Prefix Expression : `- + 4 * 2 8 + 9 6`
 
-|Char. Scanned|Stack Contents|
-|---|---|
-|---|---|
-|---|---|
-|---|---|
-|---|---|
+<p align="center">
+<img  src="https://user-images.githubusercontent.com/67793499/134878797-676f0bc2-bfe2-4c62-abff-7c378bdc0925.png" width="600" height="350">
+</p>
 
 Output : `5`                                                                                                                   
 
@@ -121,12 +119,9 @@ e.g.
 
 Postfix Expression : `8 2 + 6 / 2 * 4 +`
 
-|Char. Scanned|Stack Contents|
-|---|---|
-|---|---|
-|---|---|
-|---|---|
-|---|---|
+<p align="center">
+<img  src="https://user-images.githubusercontent.com/67793499/134880739-e989e876-24ef-4026-9333-a8fe54ad0f54.png" width="600" height="350">
+</p>
 
 Output : `6`
 
