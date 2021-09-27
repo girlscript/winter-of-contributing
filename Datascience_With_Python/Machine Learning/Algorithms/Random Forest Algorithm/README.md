@@ -84,12 +84,6 @@ Where can we use Random Forest Algorithm for Data Science?
 
 - Evaluation of our model will be done with an accuracy score as shown in the screenshots.
 
-## **Understanding a Boxplot**
-
-![](https://github.com/Akshat2019VITB/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Random%20Forest%20Algorithm/Images/9.png)
-
-The image above is a boxplot. A boxplot is a standardized way of displaying the distribution of data based on a five number summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”). It can tell you about your outliers and what their values are. It can also tell you if your data is symmetrical, how tightly your data is grouped, and if and how your data is skewed.
-
 ## **Visual Representations**
 
 These are the visual representations to identify outliers in our dataset
@@ -98,19 +92,13 @@ These are the visual representations to identify outliers in our dataset
 
 ![](https://github.com/Akshat2019VITB/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Random%20Forest%20Algorithm/Images/2.PNG)
 
-## **Screenshots**
-
-- These are the screenshots for the application of Random Forest Classifier and Accuracy Score obtained after evaluation.
-
-![](https://github.com/Akshat2019VITB/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Random%20Forest%20Algorithm/Images/3.PNG)
-
-![](https://github.com/Akshat2019VITB/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Random%20Forest%20Algorithm/Images/4.PNG)
-
 ## **Final Outcomes and Evaluation Results**
 
 - From this project we were able to learn on how to implement Random Forest Algorithm in Data Science using Python.
 
 - We saw it's advantages and how it is useful with its features and it's advantage over Decision Tree.
+
+- Libaraies used: pandas, numpy, matplotlib, seaborn, sklearn.preprocessing, scipy, sklearn.model_selection, sklearn.ensemble, sklearn.metrics
 
 - Data preprocessing was done to check for missing values and outliers, which were removed through Z-Score threshold.
 
