@@ -1,4 +1,3 @@
-
 # Impact of Java on Internet
 
 Earlier Java was known as "oak" after providing services like platform independence and creating 
@@ -62,6 +61,3 @@ on any computer on internet.
 
 1. https://www.ukessays.com/essays/computer-science/importance-of-java-to-the-internet-computer-science-essay.php
 2. https://www.brainkart.com/article/How-Java-Changed-the-Internet_10376/
-
-
-
