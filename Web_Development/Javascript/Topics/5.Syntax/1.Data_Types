@@ -1,1 +1,146 @@
+# javaScript Datatype
 
+The set of types in the JavaScript language consists of  primitive values US/docs/Web/JavaScript/Data_structures#primitive_values)  and  objects
+
+-   Primitive values
+    -   Boolean type
+    -   Null type
+    -   Undefined type
+    -   Number type
+    -   BigInt type
+    -   String type
+
+
+## Boolean :
+A  **Boolean**  is a logical data type that can have only the values  `true`  or  `false`.
+For example, in JavaScript, Boolean conditionals are often used to decide which sections of code to execute.
+
+```
+/* JavaScript if statement */
+if (boolean conditional) {
+   // code to execute if the conditional is true
+}
+
+if (boolean conditional) {
+  console.log("boolean conditional resolved to true");
+} else {
+  console.log("boolean conditional resolved to false");
+}
+
+/* JavaScript for loop */
+for (control variable; boolean conditional; counter) {
+  // code to execute repeatedly if the conditional is true
+}
+
+for (var i=0; i < 4; i++) {
+  console.log("I print only when the boolean conditional is true");
+}
+
+```
+## Null
+
+a **`null`** value represents a reference that points, generally intentionally, to a nonexistent or invalid object or address. The meaning of a null reference varies among language implementations.
+
+```
+typeof null === 'object' // true
+```
+
+## Undefined
+
+`undefined` is a property of the _global object_. That is, it is a variable in global scope. The initial value of `undefined` is the primitive value. A variable that has not been assigned a value is of type `undefined`. A method or statement also returns `undefined` if the variable that is being evaluated does not have an assigned value. A function returns `undefined` if a value was not `returned`
+
+```
+//  DON'T DO THIS
+
+//  logs "foo string"
+(function() {
+  var undefined = 'foo';
+  console.log(undefined, typeof undefined);
+})();
+
+//  logs "foo string"
+(function(undefined) {
+  console.log(undefined, typeof undefined);
+})('foo');
+```
+
+## Number
+
+The Number type is a double-precision 64-bit binary format IEEE 754 value (numbers between -(2^53 − 1) and 2^53 − 1). In addition to representing floating-point numbers, the number type has three symbolic values: `+Infinity`, `-Infinity`, and `NaN`
+
+The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary precision. With BigInts, you can safely store and operate on large integers even beyond the safe integer limit for Numbers.
+
+A BigInt is created by appending  `n`  to the end of an integer or by calling the constructor.
+
+```
+> const x = 2n ** 53n;
+9007199254740992n
+> const y = x + 1n;
+9007199254740993n
+
+```
+## BigInt
+
+You can use the operators  `+`,  `*`,  `-`,  `**`, and  `%`  with BigInts—just like with Numbers. A BigInt is not strictly equal to a Number, but it is loosely so.
+
+A BigInt behaves like a Number in cases where it is converted to boolean:  `if`,  `||`,  `&&`,  `Boolean`,  `!`.
+
+`BigInt`s cannot be operated on interchangeably with Numbers. Instead a  `TypeError`
+
+```
+// BigInt value
+const value1 = 900719925124740998n;
+
+// Adding two big integers
+const result1 = value1 + 1n;
+console.log(result1); // "900719925124740999n"
+
+const value2 = 900719925124740998n;
+
+// Error! BitInt and number cannot be added
+const result2 = value2 + 1; 
+console.log(result2); 
+```
+
+**Output**
+```
+900719925124740999n
+Uncaught TypeError: Cannot mix BigInt and other types
+```
+
+## String type
+
+JavaScript's String type is used to represent textual data. It is a set of "elements" of 16-bit unsigned integer values. Each element in the String occupies a position in the String. The first element is at index  `0`, the next at index  `1`, and so on. The length of a String is the number of elements in it.
+
+Unlike some programming languages (such as C), JavaScript strings are immutable. This means that once a string is created, it is not possible to modify it.
+
+However, it is still possible to create another string based on an operation on the original string. For example:
+
+-   A substring of the original by picking individual letters or using  `String.substr()`
+-   A concatenation of two strings using the concatenation operator (`+`) or  `String.concat()`
+
+```
+//strings example
+const name = 'ram';
+const name1 = "hari";
+const result = `The names are ${name} and ${name1}`;
+```
+
+
+## Type of
+
+The typeof operator is used to get the data type (returns a string) of its operand. The operand can be either a literal or a data structure such as a variable, a function, or an object. The operator returns the data type.
+
+```
+console.log(typeof 42);
+// expected output: "number"
+
+console.log(typeof 'blubber');
+// expected output: "string"
+
+console.log(typeof true);
+// expected output: "boolean"
+
+console.log(typeof undeclaredVariable);
+// expected output: "undefined"
+```
