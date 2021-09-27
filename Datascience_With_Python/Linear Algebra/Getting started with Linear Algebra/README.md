@@ -29,6 +29,9 @@ To give a brief introduction on what is Linear Algebra, some of its important to
    3. Natural Language Processing also requires Linear algebra for managing the hugwe amount of words.
    4. Linear Algebra has a importance in Computer Vision for image processing techniques.
 
+## Python Library used for implementation:
+   >***NUMPY***
+   
 ## Conclusion:
 **Linear Algebra is an integral part of datascience. It helps in simplifing and understanding a dataset
      which contains thousands of rows and columns. A basic knowledge in maths and algebra can help an individual to master Linear Algebra quickly.**
