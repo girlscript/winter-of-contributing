@@ -54,7 +54,7 @@ Branch structure:
 
 MERN
 
-    | ----|  Web Development 
+    | ----|  MERN 
 
     | ----------- |  TOPICS 
 
