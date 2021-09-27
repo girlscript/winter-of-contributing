@@ -97,7 +97,7 @@ int main(){
 (no output)
 ```
 **Wondering why there is no output? Look at this example:**
-```
+```c++
 #include<iostream>
 #include<cstdlib>
 using namespace std;
