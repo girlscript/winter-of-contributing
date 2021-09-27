@@ -48,12 +48,8 @@ e.g.
 
 Infix Expression : `( 2 + 4 ) / 5 - 7`
 
-|Char. Scanned|Stack Contents|
-|---|---|
-|---|---|
-|---|---|
-|---|---|
-|---|---|
+<img src="https://user-images.githubusercontent.com/67793499/134872097-5b7b6d64-c0ea-442d-ab5a-74eee5eb17da.png" width="700" height="400">
+
 
 Output : `-6`
 
