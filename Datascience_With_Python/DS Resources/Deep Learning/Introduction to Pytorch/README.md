@@ -30,3 +30,6 @@ Or simply put:*
 ### PYTORCH CONS:
 * Third-party needed for visualization.
 * API server needed for production.
+
+
+### [Reference video](https://www.youtube.com/watch?v=nbJ-2G2GXL0)
