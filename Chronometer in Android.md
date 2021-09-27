@@ -23,10 +23,10 @@ Click on Empty activity and finish
 |------|------| 
 |android:countDown|	         It defines whether the chronometer will count up or count down.|
 
-**Layout**
+```bash
+//Layout
 All codes related to  Chronometer with text appearance and background style settings are listed  below.
-
-'<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -55,9 +55,12 @@ All codes related to  Chronometer with text appearance and background style sett
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/chronometer"
         />
-</android.support.constraint.ConstraintLayout>'
+</android.support.constraint.ConstraintLayout>
+```
 
-**Activity**
+
+```bash
+//Activity
 'import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
@@ -97,11 +100,13 @@ public class ChronometerActivity  extends AppCompatActivity {
             ((Button)view).setText("Stop");
         }
     }
-} '
+} 
+```
 
-**AndroidManifest.xml file**
+```bash
+AndroidManifest.xml file
 
-'<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 package="com.gwocparth.Chronometerkotlinapp">
  
@@ -121,7 +126,8 @@ package="com.gwocparth.Chronometerkotlinapp">
     </activity>
 </application>
  
-</manifest>'
+</manifest>
+```
 
 
 
