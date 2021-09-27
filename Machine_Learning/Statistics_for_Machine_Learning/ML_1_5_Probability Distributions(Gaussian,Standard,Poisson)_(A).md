@@ -1,0 +1,1 @@
+[![ML 1.5 : Probability Distributions (Gaussian, Standard, Poisson)](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/Assets/Probability%20distributions.png)](https://drive.google.com/file/d/1XSsfAXGqVaAopOsXd_Nzxoh06kDuTQR7/view?usp=sharing)
