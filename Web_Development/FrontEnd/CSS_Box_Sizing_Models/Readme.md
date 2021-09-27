@@ -1,13 +1,16 @@
-# Box_Sizing_CSS
+# Box_Sizing_CSS  
+
+
 This is my first contribution as Open Source (thanks to GWOC) and here I will be expalining in detail about the various CSS Box Sizing Types.  
 
 Before we proceed any further first of all we need to know what a box model is.
 
+
 ## What is a box model? 
 
 We can imagine a box model as a rectangular box that wraps around each HTML element. It basically comprises of the padding, margin border and content inside the element.
-We all know that all elements on a webpage is represnted as rectangular box.
-Below image represents a element with its various elements.
+
+We all know that all elements on a webpage is represnted as rectangular box. Below image represents a element with its various elements.
 
 ![image](https://user-images.githubusercontent.com/55577276/134778382-9124b5b1-bec4-4152-b55a-5d9c2aa4920f.png)
 
@@ -16,13 +19,15 @@ Below image represents a element with its various elements.
 
 Let’s try understand what each of these properties signifies:
 
-**Content:** This is the main part of the box where the content put by the user appears. 
 
-**Padding:** This space is around the content inside an element (transparent).
 
-**Border:** This  is self expalnatory. It usually goes around the padding and content.
+- **Content:** This is the main part of the box where the content put by the user appears. 
 
-**Margin:** This the space around the box (also tranparent).
+- **Padding:** This space is around the content inside an element (transparent).
+
+- **Border:** This  is self expalnatory. It usually goes around the padding and content.
+
+- **Margin:** This the space around the box (also tranparent).
 
 You should remember that total space occupied by a any element (box) on the DOM is the combined space occupied by these four properties put together.
 
@@ -33,7 +38,8 @@ Size of figure 1  box is determined as described below:
 > **Total height of the box-model** = height assigned to the box + padding(top and bottom) + border(top and bottom) + margin(top and bottom) 
 
 
-### Need of using the box-sizing property?
+
+## Need of using the box-sizing property?
 
 ![image](https://user-images.githubusercontent.com/55577276/134778925-463dd780-2a4d-41fb-8911-e1c47bc1f578.png)
 
@@ -51,11 +57,13 @@ Thus, so as to urge the specified width and height as laid out in the planning f
 
 Here the actual width of the element is 300px, but since we assign border and padding to it, we manually recalculate the width as
 
-`my-div{
+```
+my-div{
   width: 350px;
   border: solid 5px #82B366;
   padding: 20px;
-}`
+}
+```
 
 width = 300–40(padding-right and padding-left)–10(border-right and border-left) or we can also use the CSSS calc function.
 
@@ -63,15 +71,19 @@ This is not a good practice as it doesn’t make it very obvious when we see tha
 
 We could also have increased values(width and height) when an element is rendered on the DOM if we do not recalculate the width and height of the element as in the above example. The demonstartion that we see below is that the total width rendered on the DOM is 350px( here the recalculation of the width isn’t need to be done)
 
-`my-div{
+
+```
+my-div{
   width: 300px;
   border: solid 5px #82B366;
   padding: 20px;
-}`
+}
+```
 
 In these kinds of situations where we can make use of the CSS3 beautiful property “BOX-SIZING”.
 
-### What is box-sizing?
+
+## What is box-sizing?
 
 Basically the box-sizing property tells the browser what the sizing properties (width and height) should include or not include.
 
@@ -83,12 +95,14 @@ By default it takes the value content-box.
 
 When we give **box-sizing: border box**, the special combination property called property-value is used in an element, which tells the browser to display the width property as the actual rendered width. Modifying the previous code as follows:
 
-`my-div{
+```
+my-div{
   box-sizing: border-box;
   width: 300px;
   border: solid 5px #82B366;
   padding: 20px;
-}`
+}
+```
 
 ![image](https://user-images.githubusercontent.com/55577276/134493069-39a3ba69-c2d5-41cf-8a31-3e973e6f3490.png)
 
@@ -97,19 +111,22 @@ When we give **box-sizing: border box**, the special combination property called
 We can also use the universal specifier specifing  box sizing as border box that will apply this to all the elements present in DOM.
 Universal box-sizing:  
 
-`*, *:before, *:after{  
+```
+*, *:before, *:after{  
   box-sizing: border-box;  
-}`
+}
+```
 
 Vendor-prefixes for box-sizing:  
-`*{ 
+```
+*{ 
   -webkit-box-sizing: border-box; 
   -moz-box-sizing: border-box;
   box-sizing: border-box; 
-}`
+}
+```
 
-**Reference**  
+# **Reference**  
 
 https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
 
-*Thank you !*
