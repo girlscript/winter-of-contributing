@@ -7,7 +7,7 @@
 
 <h2> These were the points you have to Cover in, while Answering "Tell me About yourself".There are a few important tips about what to avoid.</h2>
 •	<strong>Don’t Mention Personal Information’s such as marital status, children, political or religious affiliations, etc.</strong> These are highly sensitive things that can be against you as a candidate.<br> </br>
-•	strong>mention too many strengths without examples. </strong> You can choose 2 or 3 Qualities that you think will be suitable for the job profile. Also give short stories that can be substantiated by your work experience.<br> </br>
+•	<strong>mention too many strengths without examples. </strong> You can choose 2 or 3 Qualities that you think will be suitable for the job profile. Also give short stories that can be substantiated by your work experience.<br> </br>
 •	<strong>Don’t Read Out you Resume</strong> Mention the high points that are relevant to the position, other then Reading out the Resume. They are already having your Resume on their table. .<br> </br>
 •	Don’t rush into conversations regarding what you’re looking for in the role or how the company can benefit you. .<br> </br>
 
