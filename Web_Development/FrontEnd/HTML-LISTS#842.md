@@ -12,6 +12,7 @@ It contains elements that are stored in an order or sequence. For example - a li
 1. One
 2. Two
 3. Three
+4. 
 Here the elements are evenly arranged in a definite fashion and are not random.
 
 ## Unordered List
@@ -20,6 +21,7 @@ Such lists are unorganised and are places randomly. Take the same example of lis
 - Nine
 - Hundered
 - Sixty Four
+- 
 Here these numbers are not organized. first is four, second is nine and so on. There is no definite sequence is followed here.
 
 ### How to create lists in HTML?
@@ -34,7 +36,6 @@ There are few more tags used in HTML lists -
 3. `<dd>` - this tag is used to add the description of the elements in the description list
 
 ### EXAMPLES
-**Create a list**
 
 ` <html>
 
@@ -44,17 +45,17 @@ There are few more tags used in HTML lists -
 
 	<ul>
 
-	UNORDERED LIST
+		UNORDERED LIST
 
-	<li>Apple</li>
+		<li>Apple</li>
 
-	<li>Custard</li>
+		<li>Custard</li>
 
-	<li>Pie</li>
+		<li>Pie</li>
 
-	<li>Melon</li>
+		<li>Melon</li>
 
-	<li>Bike</li>
+		<li>Bike</li>
 
 	</ul>
 
@@ -62,17 +63,17 @@ There are few more tags used in HTML lists -
 
 	<ol>
 
-	ORDERED LIST
+		ORDERED LIST
 
-	<li>Maths</li>
+		<li>Maths</li>
 
-	<li>Physics</li>
+		<li>Physics</li>
 
-	<li>Chemistry</li>
+		<li>Chemistry</li>
 
-	<li>Soft Skills</li>
+		<li>Soft Skills</li>
 
-	<li>Computer Science</li>
+		<li>Computer Science</li>
 
 	</ol>
 
@@ -80,27 +81,27 @@ There are few more tags used in HTML lists -
 
 	<dl>
 
-	DESCRIPTION LIST (with descriptions added)
+		DESCRIPTION LIST (with descriptions added)
 
-	<dt>Shruti</dt>
+		<dt>Shruti</dt>
 
-	<dd>- school captain</dd>
+		<dd>- school captain</dd>
 
-	<dt>Abhisekh</dt>
+		<dt>Abhisekh</dt>
 
-	<dd>- sports captain</dd>
+		<dd>- sports captain</dd>
 
-	<dt>Sam</dt>
+		<dt>Sam</dt>
 
-	<dd>- chess player</dd>
+		<dd>- chess player</dd>
 
-	<dt>Amanda</dt>
+		<dt>Amanda</dt>
 
-	<dd>- senior secretary</dd>
+		<dd>- senior secretary</dd>
 
-	<dt>Amrita</dt>
+		<dt>Amrita</dt>
 
-	<dd>- club incharge</dd>
+		<dd>- club incharge</dd>
 
 	</dl>
 
