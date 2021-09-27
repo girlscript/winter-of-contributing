@@ -1,6 +1,6 @@
 # **Decision Tree Algorithm**
 
-![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/image/Decision%20tree.png)
+![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/images/9.png)
 ## **Introduction**
 
 - Decision tree algorithm comes under supervised Machine Learning Algorithm where labelled data is used, the decision tree algorithm can be used for solving regression and classification problems too.
@@ -39,17 +39,17 @@ Decision trees use multiple algorithms to decide to split a node into two or mor
 
 
 ## **Visual Representations**
-![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/image/Capture.PNG)
-![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/image/Capture1.PNG)
-![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/image/Capture2.PNG)
-![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/image/Capture3.PNG)
-![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/image/Capture%204.PNG)
+![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/images/8.PNG)
+![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/images/1.PNG)
+![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/images/2.PNG)
+![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/images/3.PNG)
+![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/images/4.PNG)
 
 
 ## **Test Cases**
 
-![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/image/Capture%205.PNG)
-![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/image/Capture%206.PNG)
+![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/images/5.PNG)
+![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/images/6.PNG)
 
 
 
@@ -74,7 +74,7 @@ Decision trees use multiple algorithms to decide to split a node into two or mor
 5 A Decision tree model is very intuitive and easy to explain to technical teams as well as stakeholders.
 
 ## **Screenshots**
-![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/image/Capture%207.PNG)
+![](https://github.com/dev123singh/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/Decision%20tree%20algorithm/images/7.PNG)
 
 ## **Conclusion**
 
