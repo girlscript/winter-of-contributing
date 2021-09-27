@@ -87,11 +87,10 @@ First Repeating character is g
  
 ### Complexity analysis
 
-Time Complexity : O(n).
-
-It does only one traversal of input string. 
+Time Complexity : O(n).        (It does only one traversal of input string.)
 
 Auxiliary Space : O(1)
+
 
 ### Method 2
 Method 2 (Traversing Right to Left) We traverse the string from right to left. We keep track of the visited characters. If a character repeats, we update the result. 
@@ -154,11 +153,10 @@ First Repeating character is g
  ```
 ### Complexity analysis
 
-Time Complexity : O(n).
-
-It does only one traversal of input string. 
+Time Complexity : O(n).       (It does only one traversal of input string.)
 
 Auxiliary Space : O(1)
+
 
 ***The method 2 is better than method 1 as it does fewer comparisons.***
 
