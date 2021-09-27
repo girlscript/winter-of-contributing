@@ -37,6 +37,5 @@ Here a `div` with a paragraph has a class of name `.container`
     color: black;
     background-color: cadetblue;
 }
+```
 ![Class-basic]()
-
-## ID Selctor
