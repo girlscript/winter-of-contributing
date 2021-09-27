@@ -72,7 +72,7 @@
 Branch structure: 
 
       - MERN
-        ```bash
+        ```css
   
         |- MERN  
         |     |- Topic
@@ -98,7 +98,7 @@ Branch structure:
 
       - Inside FRONTEND
 
-        ```bash
+        ```css
         |- React
         |     |- 1.1_Introduction_to_React(D).md  # Documentation
         |     |- 2.1_Introduction_to_React(V).md  # Video
