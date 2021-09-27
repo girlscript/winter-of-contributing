@@ -118,5 +118,5 @@ public class MyCarModelClass implements Inreface1, Inreface2
 Now, the code is confused which “carModelName” variable to use from which interface and to it is now in a ambiguous situation. And hence if this code runs it will give error like:
 **“The field name is ambiguous”**
 
-Refrence :Youtube Channels,JavaPoints and Quora
+Reference :Youtube Channels,JavaPoints and Quora
   
