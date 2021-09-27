@@ -1,8 +1,8 @@
 # Graph ✨
 > Graph is a non-linear data structure that is used in a wide number of applications in real life starting from Google Maps to Facebook. It is essentially a collection of nodes/vertices which are connected to each other through edges(either directed or undirected). 
 > The two algorithms for graph traversal are
-> #### BFS (Breadth First Search) 
-> #### DFS (Depth First Search)
+> #### 1. BFS (Breadth First Search) 
+> #### 2. DFS (Depth First Search)
 > Here, we will be talking about the implementation of graph traversal using DFS in cpp.
 ## What is Depth First Search? 🤔
 In this traversal algorithm, we start from a node, visit its adjacent vertex and then recursively keep on visiting all the reachable vertices from it till there are no reachable vertices left. When there is no reachable vertex to visit, the algorithm backtracks to a point from where it can choose a new vertex to visit. 
