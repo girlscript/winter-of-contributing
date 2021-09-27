@@ -1,1 +1,0 @@
-## Photos of all Documentation!
