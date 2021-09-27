@@ -1,12 +1,14 @@
-Repeated Character Whose First Appearance is Leftmost
+### Repeated Character Whose First Appearance is Leftmost (Strings)
 
+### Problem Statement
 Given a string, find the repeated character present first in the string.
 
 Examples:  
 
+```
 Input  : geeksforgeeks
 Output : g
-(mind that it will be g, not e.)
+(mind that it will be g, not e as g is written before e. As a result we check if character g is repeated as we want to find the leftmost repeating character)
 
 Input  : abcdabcd
 Output : a
@@ -15,7 +17,10 @@ Input  : abcd
 Output : -1
 No character repeats
 
+```
+
 How to solve this problem using one traversal of input string? 
+
 ### Method 1
 Method 1 (Traversing from Left to Right) We traverse the string from left to right. We keep track of the leftmost index of every character. If a character repeats, we compare its leftmsot index with current result and update the result if result is greater 
 
@@ -56,7 +61,8 @@ int firstRepeating(string& str)
 /* Driver program to test above function */
 int main()
 {
-	string str = "geeksforgeeks";
+	string str ;
+	cin>>str;
 	int index = firstRepeating(str);
 	if (index == -1)
 		printf("Either all characters are "
@@ -68,8 +74,10 @@ int main()
 	return 0;
 }
 ### Output
+```
 Output: 
 First Repeating character is g
+``` 
  
 ### Complexity analysis
 Time Complexity : O(n). It does only one traversal of input string. 
@@ -112,7 +120,8 @@ int firstRepeating(string& str)
 /* Driver program to test above function */
 int main()
 {
-	string str = "geeksforgeeks";
+	string str ;
+	cin>>str;
 	int index = firstRepeating(str);
 	if (index == -1)
 		printf("Either all characters are "
@@ -124,10 +133,12 @@ int main()
 	return 0;
 }
 
+
 ### Output
+```
 Output: 
 First Repeating character is g
- 
+ ```
 ### Complexity analysis
 Time Complexity : O(n). It does only one traversal of input string. 
 Auxiliary Space : O(1)
