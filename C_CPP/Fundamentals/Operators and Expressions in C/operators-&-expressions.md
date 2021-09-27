@@ -1,4 +1,4 @@
-# Operators in C Language
+# Operators  and Expressions in C Language
 
 Operators are the building blocks of any programming language. As a result, without the employment of operators, the functionality of the C programming language is incomplete. Operators can be defined as symbols that allow us to conduct precise mathematical and logical operations on operands.
 To put it another way, an operator controls the operands.
