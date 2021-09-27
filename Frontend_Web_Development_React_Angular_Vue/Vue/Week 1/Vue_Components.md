@@ -5,6 +5,7 @@
 
 So, the very first and foremost question arrives!!<br/>
 <hr/>
+
 ## What is Vue.js?
 - As mention earlier, Vue Js is a modular javascript framework for making and building user interfaces. It is made user freindly and adoptable and has come up as one of the most used JavaScript Frameworks. 
 - Vue is made cpable to collaborate and work in single pafe sophisticated web applications when used in combination with **SFC** (single file componenets).
