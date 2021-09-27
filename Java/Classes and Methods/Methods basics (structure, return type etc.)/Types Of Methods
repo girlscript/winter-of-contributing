@@ -1,0 +1,46 @@
+First of all a method is a set of codes that are grouped together to perform a certain task or we can say operation.
+
+So, basically there are two types of methods in java :-
+1.) Predefined Methods.
+2.) User-defined Methods.
+
+1.) PREDEFINED METHODS:
+These type of methods are already defines for us in java libraries, also known as standard library or built-in methods, there is no need to define them, we can directly use them
+at any point of code. ex: compareTo(), length(), sqrt() etc.
+
+let's have a look at the code snippet which will make you more clear about predefined methods:
+
+import java.util.*;
+class example
+{
+  public static void main(Strings args[]) throws IOException
+  {
+    System.out.println("the square root of 144 is :"+Math.sqrt(144));
+  }
+}
+
+In the above exmple we're having main(), println(), sqrt() functions, which we've used directly without defining them.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.) USER-DEFINED METHODS:
+These type of methods are defined by users according to their need, and also they can modify them according to their requirements.
+
+let's have a look at the code snippet which will make you more clear about user-defined methods:
+
+import java.util.*;
+class example_of_user_defined
+{
+    public static void sum(int a, int b)
+{
+     System.out.println("Sum is: "+(a+b));   
+}
+public static void main(String args[])
+{
+    sum(9,10);
+}
+}
+
+In the above example as soon as the compiler reaches at sum() function the control transfer to the function.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
