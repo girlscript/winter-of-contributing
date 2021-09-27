@@ -5,13 +5,11 @@
 * It takes an integer as an argument.
 ***
 ## SYNTAX:  
-exit(exit_code);  
----where exit code is defining exit status.  
+    exit(exit_code);  
+- where exit code is defining exit status.  
 For example:
-```
+```c++
 exit(0)
-```
-***
 * When the program terminates,this value gets returned to the operating system and not to the caller.
 * Remaining code will not be executed after this function is executed.
 * Objects that have static storage duration, are dismantled and files created by tmpfile function are removed when exit function executes.
