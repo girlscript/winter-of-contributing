@@ -33,7 +33,7 @@ Here we will look onto some of the important Java String Methods:
 
 
 
-## charAt() Method
+## **charAt() Method**
 
 We very well know that char is basically a datatype representing character types. 
 
