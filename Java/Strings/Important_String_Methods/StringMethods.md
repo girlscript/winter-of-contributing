@@ -30,10 +30,7 @@ Here we will look onto some of the important Java String Methods:
 -	valueOf()
 
 
-
-
-
-## **charAt() Method**
+## charAt() Method
 
 We very well know that char is basically a datatype representing character types. 
 
@@ -54,7 +51,7 @@ public char charAt(int index)
 
 Now let us go through an example to understand it better.
 
-#### Example
+### Example
 ```
 public class Example{
       public static void main(String args[]){
@@ -70,8 +67,6 @@ W
 ```
 We can notice that **charAt()** is provided with index 5, hence we need to display the 5th index in the **String s** or 
 we can say we have to display the 6th element of the String which is **W**. Hence the output is W.
-
-
 
 
 
@@ -131,8 +126,6 @@ In third case both the Strings are **equal** hence 0 is returned.
 
 
 
-
-
 ## concat() Method
 
 What does concat means? So concat is an abbreviation for concatenation. Concatenation means joining together. 
@@ -164,8 +157,6 @@ You are reading the String concat method.
 ```
 
 What we have done is we declared two Strings namely **str1** and **str2** and then concatenated the str2 to str1 and stored the result in the str1.
-
-
 
 
 
@@ -201,8 +192,6 @@ true
 
 **reading** is found in the String hence it returned true. The next sequence **mth** is not found in anywhere in the string hence it returned false 
 while the **ab** again returned true as **ab** was found in the string in the **about**.
-
-
 
 
 
@@ -248,8 +237,6 @@ while **str4** was exactly same as **str1** thus returned true.
 
 
 
-
-
 ## equalsIgnoreCase() Method
 
 As we looked in the equals method the comparison was done on the basis of content of Strings as well as the case of the characters 
@@ -290,6 +277,7 @@ true
 ```
 As the content of **str1, str2 and str 4** were same if we ignore the case hence comparing **str1** with **str2** and **str4** returned true, 
 while with **str3** It returned false which contains different content.
+
 
 
 ## format() Method
@@ -341,8 +329,6 @@ Thus 8 blank spaces were given between the statement and the number and only 2 d
 
 
 
-
-
 ## indexOf() Method
 
 This is a very simple method which provides the index value of the sequence of character or a specified character in the given string. The index returned is the first occurrence of that character. 
@@ -375,8 +361,6 @@ The output will be :
 16
 
 In the case of index2 the method will find the index of **in** after the 15th index. Thus, it displayed the index as 20.
-
-
 
 
 
@@ -416,8 +400,6 @@ Now we can see that only str2 was empty thus only the **second if** condition sa
 
 
 
-
-
 ## length() Method
 
 Length as it is defined by name finds the length of a string. Thus the length() method returns the Length of characters. This is a very simple method and I think the Syntax and Example will make it more clear.
@@ -448,8 +430,6 @@ The whitespaces will also be counted in length thus the total length is 21.
 
 
 
-
-
 ## replace() Method
 The replace method helps to replace all the old characters/sequence with the newly provided character/sequence. This method takes two parameters namely the old character/sequence and the new character/sequence.
 
@@ -475,8 +455,6 @@ This will give the Output:
 ```
 This is the replace method
 ```
-
-
 
 
 
@@ -512,8 +490,6 @@ method
 
 So what is happening is we provide ***str1.split(“ “)*** which split the str1 from the whitespaces, in simpler words the string str1 broke into separate words from wherever the blank-space was given. We store these words in an array of Strings.
 To retrieve the words from the array we used the **for each** loop and printed every element.
-
-
 
 
 
