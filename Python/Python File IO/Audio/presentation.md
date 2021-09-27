@@ -10,24 +10,25 @@ Basic file operations include-
 
 ## OPENING A FILE
 Python has an inbuilt function called open() used to open a file.
+```
 file = open(‘file path’, ‘mode’, ‘encoding’) 
-
+```
 Following is a list of arguments that can be passed in the open function-
 
-ARGUMENT TYPE	FUNCTION
+ARGUMENT TYPE	       FUNCTION
 
-file path	    The path of the file that is to be opened is passed as an argument. If file is present in the same 
-                directory, only the name can suffice. Otherwise, full path of file is to be specified.
+file path	           The path of the file that is to be opened is passed as an argument. If file is present in the same 
+                     directory, only the name can suffice. Otherwise, full path of file is to be specified.
 
-mode	        In this we specify if we want to open a file in read only mode, or as a writeable file, or both. 
+mode	               In this we specify if we want to open a file in read only mode, or as a writeable file, or both. 
 
-encoding	    The name of the encoding used to decode or encode the file. This should only be used in text mode. The default 
-                encoding is platform dependent, but any encoding supported by Python can be passed.
+encoding	           The name of the encoding used to decode or encode the file. This should only be used in text mode. The default 
+                      encoding is platform dependent, but any encoding supported by Python can be passed.
 
 
 
 ### Example: Opening a file
-
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20open%20eg%201.jpg)
  
 
 The available modes are:
@@ -44,8 +45,9 @@ Character	               Meaning
 **NOTE**:
 It is recommended that the open function includes the type of encoding as an argument. This is because when encoding is not specified, the default encoding is used, which is platform dependent and thus our code behaves differently in different platforms.
 
-Example- Recommended format of open function
- 
+###Example- Recommended format of open function
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20open%20eg%202.jpg)
 
 ## WRITING IN A FILE
 In order to write in a file, we need to open it in the following modes-
@@ -57,10 +59,13 @@ After opening the file, we use the write() function to write into a file. The co
 
 ### Example- Writing in a file using write() function
 Code:
- 
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20write%20eg1.jpg)
 
 Output:
- 
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20write%20output%201.jpg)
+
 
 ## READING A FILE
 In order to read a file we need to open it in the read only or ‘r’ mode.
@@ -72,47 +77,61 @@ The read function is used to read bytes of data. The size of data to be read is 
 
 ### Example-
 Code:
- 
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20read%20eg1.jpg)
 
 Output:
- 
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20read%20output%201.jpg)
 
 2.	Using the readline( ) function:
 The readline() function is used to print one line of a file at a time.
 Example-
 Code:
- 
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20read%20eg%202.jpg)
 
 Output:
  
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20read%20output%202.jpg)
 
 3.	Using a for loop:
-4.	A for loop can be used to print a line in one iteration, and the loop iterates until it reaches the end of the file i.e until the last line is printed.
+A for loop can be used to print a line in one iteration, and the loop iterates until it reaches the end of the file i.e until the last line is printed.
 
 Code:
- 
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20read%20eg%203.jpg)
 
 Output:
- 
 
-5.	Using the readlines( ) function:
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20read%20output%203.jpg)
+
+4.	Using the readlines( ) function:
 The readlines() function is used to print all the lines in a file in the form of a list. It includes newline characters like \n to signify start of a new line.
 Code:
  
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20read%20eg%204.jpg)
 
 Output:
- 
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20read%20output4.jpg)
 
 ## CLOSING A FILE
 Our final file operation is closing the file. After necessary file operations are performed, the file must be properly closed in order to free the resources engaged in this process. 
 Python has an inbuilt close() function for this purpose. 
- 
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20close%20eg1.jpg)
+
 However this method of directly calling the function is not recommended. This is because, in case an error occurs while performing file operations, the program will crash and the file will not be able to close properly.
 Thus we need to ensure that the file always closes even if an exception is raised. Thus we use the concept of ‘Python Exception Handling’ using a try… finally block.
 The try statement is used to catch an exception or error. Opening a file and other file operations that may give error are included under the try statement. 
 The finally statement contains code that need to be executed no matter what.
-   
+
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20close%20eg2.jpg)
+
 In the above example, the file operations under try statement are first executed. If no error is encountered, the interpreter moves on to the code under finally statement and closes the modified file. In case exception is raised, the try statement is exited, and the file operation under the ‘finally’ statement is executed i.e the file is closed.
 A better method is to use a ‘with’ statement. 
+ 
+![alt text](https://github.com/mridu-pant/winter-of-contributing/blob/6c4f918ba68324ce652b60cdc27f7768cf012b80/Python/Python%20File%20IO/Audio/images/file%20close%20eg3.jpg) 
  
 In this case, the file operation of closing the modified file is done internally and there is no need for the close function to be called explicitly as the block is automatically exited after all file operations are completed.
