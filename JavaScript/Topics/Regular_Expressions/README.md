@@ -61,7 +61,7 @@ The following table explains the usage of ranges in regular expressions.
 
 | Expressions | Description | Example |
 |-----------| ----------- | ----------- |
-| `[pqrs]` | String having either "p" or "q" or "r" or "s" | ![Range-1](images/7.Range_1.png) |
+| `[pqrs]` | String having either "p", "q", "r", "s" | ![Range-1](images/7.Range_1.png) |
 | `[a-z]` | String having only lowercase English characters | ![Range-2](images/8.Range_2.png) |
 | `[^a-z]` | String having any characters **except** lowercase English characters | ![Range-3](images/9.Range_3.png) |
 | `(a\|b)` | String having either "a" or "b" | ![Range-4](images/10.Range_4.png) |
