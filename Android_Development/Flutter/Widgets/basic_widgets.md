@@ -116,7 +116,7 @@ class _MyHomePageState extends State<MyHomePage> {
 ```
 The above code results in the following output,
 
-<img src = "./assets/rc.png" width = "200" height = "450"></img>
+<img src = "./assets/rc.png" width = "300" height = "550"></img>
 
 # Stack
 The stack widget stacks its children widgets on top of each other and helps in overlapping the widgets. This can be useful in a variety of situations, like overlaying an image on top of another widget.
@@ -204,7 +204,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
 This code renders the following output:
 
-<img src = "./assets/stack_cont.png" width = "200" height = "450"></img>
+<img src = "./assets/stack_cont.png" width = "300" height = "550"></img>
 
 # Additional Resources:
 To know more about these basic widgets, refer the following resources
