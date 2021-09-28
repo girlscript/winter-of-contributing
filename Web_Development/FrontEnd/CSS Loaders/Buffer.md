@@ -131,7 +131,7 @@
 
 ------
 
-## **Your Spinner will look like : **
+## **Your Spinner will look like :**
 
 ![Buffer](Buffer.gif)
 

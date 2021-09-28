@@ -49,9 +49,9 @@
 
 ------
 
-## **Your Spinner will look like : **
+## **Your Spinner will look like :**
 
-![Spinning wheel](Spinning wheel.gif)
+![Spinning wheel](Spinning_wheel.gif)
 
 ------
 

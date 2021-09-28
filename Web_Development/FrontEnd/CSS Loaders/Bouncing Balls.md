@@ -91,9 +91,9 @@
 
 ------
 
-## **Your Spinner will look like : **
+## **Your Spinner will look like :**
 
-![Bouncing Balls](Bouncing Balls.gif)
+![Bouncing Balls](Bouncing_Balls.gif)
 
 ------
 

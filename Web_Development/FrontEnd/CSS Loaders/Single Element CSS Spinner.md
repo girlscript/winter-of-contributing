@@ -83,9 +83,9 @@
 
 ------
 
-## **Your Spinner will look like : **
+## **Your Spinner will look like :**
 
-![Single Element CSS Spinner](Single Element CSS Spinner.gif)
+![Single Element CSS Spinner](Single_Element_CSS_Spinner.gif)
 
 ------
 

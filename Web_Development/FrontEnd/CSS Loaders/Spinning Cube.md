@@ -81,9 +81,9 @@
 
 ------
 
-## **Your Spinner will look like : **
+## **Your Spinner will look like :**
 
-![Spinning cube](Spinning cube.gif)
+![Spinning cube](Spinning_cube.gif)
 
 ------
 
