@@ -2,51 +2,47 @@
 
 ## **Introduction**
 
-- A random forest is a machine learning technique that’s used to solve regression and classification problems. It utilizes ensemble learning, which is a technique that combines many classifiers to provide solutions to complex problems.
+- Random Forest Algorithm is a Machine Learning Algorithm which is mainly used to solve regression based and classification problems.
+  It uses many classifiers to provide solutions to complex problems.
 
-- We will understand the working of this algorithm by a project example by following steps as below:
+- We will be working on this algorithm with a small project while following steps as below:
 
    1. Data Preprocessing with Visualization.
    2. Model Building
 
 ## **Purpose** 
 
-The (random forest) algorithm establishes the outcome based on the predictions of the decision trees. It predicts by taking the average or mean of the output from various trees. Increasing the number of trees increases the precision of the outcome.
+A random forest works by establishing the prediction based upon the work of decision trees. It gives an output by taking the average or the mean of the result from various trees. By doing this it increases the precision of the outcome.
 
 ## **Brief summary** 
 
-A decision tree consists of three components: decision nodes, leaf nodes, and a root node. A decision tree algorithm divides a training dataset into branches, which further segregate into other branches. This sequence continues until a leaf node is attained. The leaf node cannot be segregated further.
-A random forest consists of many such decision trees. 
+A random forest is a collection of decision trees, which contain three main components, leaf nodes, decision nodes, and a root node. A single decision tree algorithm separates training dataset into branches until a leaf node is attained.
 
 ## **Features**
 
-- It’s more accurate than the decision tree algorithm.
+- It is more precise than the decision tree algorithm.
 
-- It provides an effective way of handling missing data.
+- Handling data is much more effective.
 
-- It can produce a reasonable prediction without hyper-parameter tuning.
-
-- It solves the issue of overfitting in decision trees.
+- Issue of overfitting is reduced.
 
 - In every random forest tree, a subset of features is selected randomly at the node’s splitting point.
 
 ## **Advantages**
 
-- Random forests is considered as a highly accurate and robust method because of the number of decision trees participating in the process.
+- Due to a large amount of decision trees, random forest is highly robust an precise.
 
-- It does not suffer from the overfitting problem. The main reason is that it takes the average of all the predictions, which cancels out the biases.
+- The problem of overfitting is solved. The main reason is that it takes the average of all the predictions, which removes the biases.
 
-- The algorithm can be used in both classification and regression problems.
+- The algorithm is used in mainly classification and regression problems.
 
-- Random forests can also handle missing values. There are two ways to handle these: using median values to replace continuous variables, and computing the proximity-weighted average of missing values.
-
-- You can get the relative feature importance, which helps in selecting the most contributing features for the classifier.
+- We can get a relative feature importance, which can be used in selecting the most contributing features for the classifier.
 
 ## **Random Forest vs Decision Tree**
 
-- Random forests is a set of multiple decision trees.
+- Random forests consists of multiple decision trees.
 
-- Deep decision trees may suffer from overfitting, but random forests prevents overfitting by creating trees on random subsets.
+- Decision trees might suffer from overfitting, but random forests avoids overfitting by creating trees on random subsets.
 
 ## **Applications**
 
@@ -115,6 +111,6 @@ These are the visual representations to identify outliers in our dataset
 
 ## **Conclusion**
 
-- The Random Forest Algorithm is a machine learning algorithm that is easy to use and flexible. It uses ensemble learning, which enables organizations to solve regression and classification problems.
+- Random Forest Algorithm is a Machine Learning Algorithm which is mainly used to solve regression based and classification problems.
 
-- This is an ideal algorithm for developers because it solves the problem of overfitting of datasets. It’s a very resourceful tool for making accurate predictions needed in strategic decision making in organizations.
+- This is a great algorithm for developers because it prevents the problem of overfitting of training datasets. It’s a resourceful tool for making precise predictions needed in complex decision making in many organizations.
