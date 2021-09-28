@@ -1,4 +1,7 @@
-Multimap is an associative container that contains a sorted list of key-value pairs, while permitting multiple entries with the same key. Sorting is done according to the comparison function Compare, applied to the keys. Search, insertion, and removal operations have logarithmic complexity.
+Multimap is an associative container that contains a sorted list of key-value pairs, while permitting multiple 
+entries with the same key.In multimap there is a key and a particular value associated with it which is used for 
+our reference generally.Sorting is done according to the comparison function Compare, applied to the keys or the
+value depending upon our algorithm.Search, insertion, and removal operations have logarithmic complexity.
 One must include <map> header file to use multimap.
 
 Syntax to create multimap:

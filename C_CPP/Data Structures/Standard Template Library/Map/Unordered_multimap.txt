@@ -1,6 +1,11 @@
-Unordered multimaps are associative containers that store elements formed by the combination of a key value and a mapped value, much like unordered map containers, but allowing different elements to have equivalent keys.In an unordered_multimap, the key value is generally used to uniquely identify the element, while the mapped value is an object with the content associated to this key. Types of key and mapped value may differ.
+Unordered multimaps are associative containers that store elements formed by the combination of a key value and 
+a mapped value, much like unordered map containers, but allowing different elements to have equivalent keys.
+In an unordered_multimap, the key value is generally used to uniquely identify the element as the name suggest,
+while the mapped value is an object with the content associated to this key. Types of key and mapped value may 
+differ.
 
-Internally, the elements in the unordered_multimap are not sorted in any particular order with respect to either their key or mapped values,
+Internally, the elements in the unordered_multimap are not sorted in any particular order with respect to either
+their key or mapped values,
 
 Syntax to create unordered multimap:
 
@@ -11,25 +16,35 @@ Some Member Functions of map:
 
 
 
-1.begin( ): It returns an iterator(explained above) referring to the first element of unordered multimap.Its time complexity is O(1).
+1.begin( ): It returns an iterator(explained above) referring to the first element of unordered multimap.
+Its time complexity is O(1).
 Syntax:
 map_name.begin()
-2.insert( ):It inserts a single element or the range of elements in the unordered multmap.Its time complexity is O(N) where N is the number of elements inserted.
+2.insert( ):It inserts a single element or the range of elements in the unordered multmap.Its time complexity is
+ O(N) where N is the number of elements inserted.
 Syntax:
 map_name.insert({key,element})
-3.end( ): It returns an iterator referring to the theoretical element(doesn’t point to an element) which follows the last element.Its time complexity is O(1).
+3.end( ): It returns an iterator referring to the theoretical element(doesn’t point to an element) which follows
+ the last element.Its time complexity is O(1).
 Syntax:
 map_name.end()
-4.count( ):It searches the unordered multmap for the elements mapped by the given key and returns the number of matches..Its time complexity is O(N) where N is the number of elements counted.
+4.count( ):It searches the unordered multmap for the elements mapped by the given key and returns the number of 
+matches..Its time complexity is O(N) where N is the number of elements counted.
 Syntax:
 map_name.count(k) //k is the key
-5.find( ): It searches the unordered multmap for the element with the given key, and returns an iterator to it, if it is present in the unordered multimap otherwise it returns an iterator to the theoretical element which follows the last element of the unordered multmap.Its time complexity is O(1) in average case and O(N) in worst case where N number of elements in the unordered multimap.
+5.find( ): It searches the unordered multmap for the element with the given key, and returns an iterator to it, 
+if it is present in the unordered multimap otherwise it returns an iterator to the theoretical element which 
+follows the last element of the unordered multmap.Its time complexity is O(1) in average case and O(N) in worst 
+case where N number of elements in the unordered multimap.
 Syntax:
 map_name.find(key)
-6.clear( ): It clears the unordered multimap, by removing all the elements from the unordered multmap and leaving it with its size 0.Its time complexity is O(N) where N is the number of elements in the unordered multimap.
+6.clear( ): It clears the unordered multimap, by removing all the elements from the unordered multmap and 
+leaving it with its size 0.Its time complexity is O(N) where N is the number of elements in the unordered 
+multimap.
 Syntax:
 map_name.clear()
-7.empty( ): It checks whether the unordered multimap is empty or not. It doesn’t modify the unordered multimap.It returns 1 if the unordered multimap is empty otherwise it returns 0.Its time complexity is O(1).
+7.empty( ): It checks whether the unordered multimap is empty or not. It doesn’t modify the unordered multimap.
+It returns 1 if the unordered multimap is empty otherwise it returns 0.Its time complexity is O(1).
 Syntax:
 map_name.empty()
 8.erase( ): It removes a single element or the range of elements from the unordered multimap.
