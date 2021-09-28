@@ -47,8 +47,8 @@ if(!$are_we_connected)
 {
 	echo "Connection failed";
 }
-else echo "Connection established<br>";
-
+else
+{
 $create_database = "CREATE DATABASE STUDENTS";
 
 $query = mysqli_query($are_we_connected,$create_database);
@@ -56,6 +56,7 @@ $query = mysqli_query($are_we_connected,$create_database);
 if(!$query)
 	echo "An error occured";
 else echo "Database create successfully";
+}
 
 ?>
 ```
@@ -83,8 +84,8 @@ if(!$are_we_connected)
 {
 	echo "Connection failed";
 }
-else echo "Connection established<br>";
-
+else
+{
 $create_table_students = "CREATE TABLE students(
 Name VARCHAR(8),
 Semester INT,
@@ -96,7 +97,7 @@ $query = mysqli_query($are_we_connected, $create_table_students);
 if($query)
 	echo "An error occured while creating a table";
 else echo "Table created successfully";
-
+}
 ?>
 ```
 
@@ -118,8 +119,8 @@ if(!$are_we_connected)
 {
 	echo "Connection failed";
 }
-else echo "Connection established<br>";
-
+else
+{
 $Data_students = "INSERT INTO students VALUES('Kunal',4,987654321,'kunal@gmail.com')";
 
 $query = mysqli_query($are_we_connected,$Data_students);
@@ -129,6 +130,7 @@ if(!$query)
 else echo "Data entered successfully successfully";
 
 mysqli_close($are_we_connected);
+}
 ?>
 
 
@@ -152,13 +154,13 @@ if(!$are_we_connected)
 {
 	echo "Connection failed";
 }
-else echo "Connection established<br>";
-
+else{
 $Data_students = "DELETE FROM students WHERE Name='Kunal'";
 $query = mysqli_query($are_we_connected,$Data_students);
 if(!$query)
 	echo "An error occured while deleting data <br>";
 else echo "Data deleted successfully<br>";
+}
 
 ?>
 ```
@@ -189,8 +191,8 @@ if(!$are_we_connected)
 {
 	echo "Connection failed";
 }
-else echo "Connection established<br>";
-						
+else
+{						
 $retrieve_data = "SELECT * FROM students";
 					
 $query = mysqli_query($are_we_connected,$retrieve_data);
@@ -203,6 +205,7 @@ if(mysqli_num_rows($query)>0)
     }
 }	
 mysqli_close($are_we_connected);
+}
 ?>
 
 ```
