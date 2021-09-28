@@ -8,19 +8,23 @@ It is not parallelism.
 ---
 **Before discussing how concurrency is taken care in Go, we must first understand what is concurrency and how it is different from parallelism.**
 
-## 🔸 Concurrency vs Parallelism.<br>
+## ⚔️ Concurrency vs Parallelism.<br>
 Concurrency is not parallelism, although it enables parallelism.</br>
 
 | **Concurrency**  | **Parallelism** |
 | ------------- | ------------- |
-| 1. In Concurrency the single core processor can work on each task for a brief amount of time.  | 1. In parallelism, two cores can work on each task respectively.  |
-| 2. It has the capability to deal with lots of things at once.  | 2. It has the capability to deal with lots of things at once.  |
-
+| 1. Concurrency is the task of running and managing the multiple computations at the same time.  | 1. While parallelism is the task of running multiple computations simultaneously.  |
+| 2. Concurrency can be done by using a single processing unit.  | 2. While this can’t be done by using a single processing unit. it needs multiple processing units.  |
+| 3. Concurrency increases the amount of work finished at a time.  | 3. While it improves the throughput and computational speed of the system.  |
+| 4. Concurrency is achieved through the interleaving operation of processes on the central processing unit(CPU) or in other words by the context switching.  | 4. While it is achieved by through multiple central processing units(CPUs).  |
+| 5. Concurrency deals lot of things simultaneously.  | 5. While it do lot of things simultaneously.  |
+| 6. In concurrency debugging is very hard.  | 6. While in this debugging is also hard but simple than concurrency.  |
+| 7. Concurrency is the non-deterministic control flow approach.  | 7. While it is deterministic control flow approach.  |
 
 #### For better understanding, refer this [video](https://vimeo.com/49718712)!
 
 ---
-# 🔸 What is Goroutines?<br>
+# 📁 What is Goroutines?<br>
 Go language provides a special feature known as a Goroutines
 Goroutines are one of the most important aspects of the Go programming language. It is the smallest unit of execution and lightweight thread in GoLang. 
 It can continue its work alongside the main goroutine.It has its own call stack, which grows and shrinks as required.
@@ -65,7 +69,7 @@ func main() {
     display("Girlscript Winter of Contributing")
 }
 ```
-#### 📤 Output:
+#### 🌈 Output:
 Here we simply create a display() function and then call this function in two different ways 
 first one is a Goroutine, i.e. go display(“Welcome”) and
 another one is a normal function, i.e. `display(“Girlscript Winter of Contributing”)`.
@@ -107,14 +111,26 @@ func main() {
     display("Girlscript Winter of Contributing")
 }
 ```
-#### 📤 Output:<br>
+#### 🌈 Output:<br>
 We added the Sleep() method in our program which makes the main Goroutine sleeps for 1 second in between 1-second 
 the new Goroutine executes, displays “welcome” on the screen, 
 and then terminate after 1-second main Goroutine `re-schedule` and perform its operation.<br>
-<img src="https://user-images.githubusercontent.com/75877192/134782801-feff35f0-684e-463a-b74a-5610941b6b4a.jpg" width="360px">
+```
+Girlscript Winter of Contributing
+Welcome
+Welcome
+Girlscript Winter of Contributing
+Girlscript Winter of Contributing
+Welcome
+Welcome
+Girlscript Winter of Contributing
+Welcome
+Girlscript Winter of Contributing
+Girlscript Winter of Contributing
+```
 
 ---
-# 🔸 Channels.<br>
+# 🗂 Channels.<br>
 A channel in Go provides a connection between two goroutines, allowing them to communicate.
 It can be thought of as pipes using which Goroutines communicate. 
 Similar to how water flows from one end to another in a pipe, data can be sent from one end and received from the other end using channels.<br>
@@ -137,12 +153,14 @@ func main() {
     }
 }
 ```
-#### 📤 Output:<br>
+#### 🌈 Output:<br>
 The channel `a` declared in line no. 6 is `nil` as the zero value of a channel is `nil`. 
 Hence the statements inside the if condition are executed and the channel is defined. 
 `a` in the above program is a int channel. This program will output.<br>
-<img src="https://user-images.githubusercontent.com/75877192/134772904-f4bfc396-8695-4722-bc67-f4ac6347ab2a.jpg" width="350px">
-
+```
+channel a is nil, going to define it
+Type of a is chan int
+```
 *Enough of theory Let's write a program to understand how Goroutines communicate using channels.*<br>
 ### Example: 
 ```go
@@ -162,11 +180,14 @@ func main() {
     fmt.Println("main function")
 }
 ```
-#### 📤Output:
-<img src="https://user-images.githubusercontent.com/75877192/134782732-6d434cc0-ad90-405a-b359-8da365f40f01.jpg" width="260px">
+#### 🌈 Output:
+```
+Hello world goroutine
+main function
+```
 
 ---
-# 🔸 Buffered Channel in Golang.<br>
+# 🗂 Buffered Channel in Golang.<br>
 Channels can be defined as a pipes using which Goroutines communicate. 
 Similar to water flows from one end to another in a pipe, data can be sent from one end and received from the another end using channels.
 Buffered channels can be created by passing an additional capacity parameter to the `make( )` function which specifies the size of the buffer.
@@ -190,13 +211,16 @@ func main() {
 	fmt.Println(<-ch)
 }
 ```
-#### 📤 Output:
+#### 🌈 Output:
 In above code ,it is possible to write 2 strings into the channel without being blocked. 
 It take 2 strings to the channel  and does not block and print the result.<br>
-<img src="https://user-images.githubusercontent.com/75877192/134809941-996f7424-a662-4d95-9002-e1bf8b8d748b.jpg" width="300px">
+```
+Hello world goroutine
+main function
+```
 
 ---
-# 🔸 Range and Close.<br>
+# 🗂 Range and Close.<br>
 A sender can close a channel to indicate that no more values will be sent. 
 Receivers can test whether a channel has been closed by assigning a second parameter to the receive expression: 
 after ``v, ok := <-ch`` 
@@ -232,11 +256,22 @@ func main() {
     }
 }
 ```
-#### 📤 Output:<br>
-<img src="https://user-images.githubusercontent.com/75877192/134811236-9b4ce346-93a6-41d2-8816-2de0085b17ae.jpg" width="120px">
+#### 🌈 Output:<br>
+```
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+```
 
 ---
-# 🔸 What is select?<br>
+# 🗂 What is select?<br>
 The `select` statement is used to choose from multiple send/receive channel communication operations.
 A `select` blocks until one of its cases can run, then it executes that case. If multiple operations are ready it chooses one at random.
 If multiple operations are ready, one of them is chosen at random
@@ -273,7 +308,7 @@ func main() {
 }
 ```
  
-#### 📤 Output:<br>
+#### 🌈 Output:<br>
 In the program above, the `server1` function in line no. 8 sleeps for 6 seconds then writes the text from server1 to the channel `ch`. 
 The `server2` function in line no. 12 sleeps for 3 seconds and then writes from server2 to the channel `ch`.<br>
 The main function calls the go Goroutines `server1` and `server2` in line nos. 20 and 21 respectively.
@@ -283,7 +318,7 @@ In line no. 22, the control reaches the `select` statement. The `select` stateme
 from server2  
 ```
 ---
-# 🔸 Default Selection.<br>
+# 🗂 Default Selection.<br>
 The default case in a `select` is run if no other case is ready.
 This generally Use a `default` case to try a send or receive `select statement` without blocking.
 ### A small code example:
@@ -322,14 +357,25 @@ After calling the `process` Goroutine concurrently, an infinite for loop is star
 the first case of the select statement namely `case v := <-ch:` will not be ready since the `process` Goroutine will write to the `ch` channel 
 Hence the `default` case will be executed during this time and the program will print `No pull requrst received` 10 times.
 
-#### 📤 Output:<br>
+#### 🌈 Output:<br>
 the `process` Goroutine writes `process successful` to `ch`Now the first case of the select statement will be executed and 
 the program will print `Pull request received:  process successful` and then it will terminate. This program will output:-
-
-<img src="https://user-images.githubusercontent.com/75877192/134815433-3da97b94-4e70-430d-b1f3-e9b284054289.jpg" width="260px">
+```
+No pull requrst received
+No pull requrst received
+No pull requrst received
+No pull requrst received
+No pull requrst received
+No pull requrst received
+No pull requrst received
+No pull requrst received
+No pull requrst received
+No pull requrst received
+Pull request received:  process successful
+```
 
 ---
-# 🔸 Go Mutex.<br>
+# 🗂 Go Mutex.<br>
 A Mutex is used to provide a locking mechanism to ensure that 
 only one Goroutine is running the critical section of code at any point in time to prevent race conditions from happening.
 Mutex is available in the <a href="https://pkg.go.dev/sync">sync!</a> package. 
@@ -365,15 +411,15 @@ func main() {
     fmt.Println("final value of x", x)
 }
 ```
-#### 📤 Output:<br>
+#### 🌈 Output:<br>
 Mutex is a struct type and we create a zero valued variable `m` of type `Mutex` in line no. 15. 
 In the above program we have changed the `increment` function so that the code which increments x `x = x + 1` is between `m.Lock(`) and `m.Unlock()`.
 Now this code is void of any race conditions since only one Goroutine is allowed to execute this piece of code at any point in time.
 
 *Now if this program is run, it will output*
-
-<img src="https://user-images.githubusercontent.com/75877192/134818060-904464fe-cde4-476f-8f0b-c7d135907048.jpg" width="290px">
-
+```
+final value of x 1000
+```
 ---
 # 💫 Some Tips and Tricks:
 
