@@ -112,5 +112,6 @@ let totalMarks = studentRecords.reduce( ((acc,emp) => acc+emp.marks), 0)console.
 ```
 
 Here is a tweet by Steve Luscher to sum it up very well.
+![Tweet by Steve Luscher](https://user-images.githubusercontent.com/58532371/135125209-3a9b9f95-503f-46e4-b9f7-f03af8c568a5.png)
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Map/filter/reduce in a tweet:<br><br>map([🌽, 🐮, 🐔], cook)<br>=&gt; [🍿, 🍔, 🍳]<br><br>filter([🍿, 🍔, 🍳], isVegetarian)<br>=&gt; [🍿, 🍳]<br><br>reduce([🍿, 🍳], eat)<br>=&gt; 💩</p>&mdash; Steven Luscher (@steveluscher) <a href="https://twitter.com/steveluscher/status/741089564329054208?ref_src=twsrc%5Etfw">June 10, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+### **Contributor:** [Harsh Mathur](https://github.com/harshmathurx)
