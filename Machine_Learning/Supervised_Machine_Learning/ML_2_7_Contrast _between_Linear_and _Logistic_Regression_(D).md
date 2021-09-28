@@ -1,4 +1,6 @@
 # **Contrast between Linear and Logistic Regression**
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/lrlr1.png)
+
 Let's understand the difference between Linear regression and Logistic regression in Machine Learning.
 
 ## **Linear Regression**
@@ -23,7 +25,7 @@ Step 1: Preprocess and explore the data.This will help in understand what kind o
 
 Step 2: Split the data into training data and testing data with a specified ratio. 
 
-Step 3:Import Linear Regression from sklearn and initialize the regressor.
+Step 3: Import Linear Regression from sklearn and initialize the regressor.
 
 Step 4: Fit the data into the model so that it can train itself.
 
@@ -33,6 +35,8 @@ step 6: Check the performance of the model by accuracy check & erre check.
 
 ### **Implementation for Linear Regression**
 
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/lrlr4.jpg)
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/lrlr5.jpg)
 
 For the dataset being used [click here](https://www.kaggle.com/quantbruce/real-estate-price-prediction)
 
@@ -54,7 +58,7 @@ Step 1: Preprocess and explore the data.This will help in understand what kind o
 
 Step 2: Split the data into training data and testing data with a specified ratio. 
 
-Step 3:Import Logistic Regression from sklearn and initialize the classifier.
+Step 3: Import Logistic Regression from sklearn and initialize the classifier.
 
 Step 4: Fit the data into the model so that it can train itself.
 
@@ -63,12 +67,15 @@ Step 5: Perform classifications!
 step 6: Check the performance of the model by accuracy check & erre check.
 
 ### **Implementation for Logistic Regression**
-
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/lrlr6.jpg)
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/lrlr7.jpg)
 
 For the dataset being used [click here](https://www.kaggle.com/adityakadiwal/water-potability)
 
 ## **Visual Representation**
+
 ### **Linear Regression**
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/lrlr2.png)
 
 The dependent variable is on Y-axis (salary) and independent variable is on x-axis(experience).
 
@@ -77,6 +84,8 @@ The dependent variable is on Y-axis (salary) and independent variable is on x-ax
 Where, a0 and a1 are the coefficients and ε is the error term.
 
 ### **Logistic Regression**
+
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/lrlr3.png)
 
         P(y=1) = 1 / (1+ exp -(b0+b1x1+ b2x2+------bkxk))
 
@@ -87,16 +96,13 @@ Where, Y is target or dependent variable, b0 is intercept. x1,x2,x3...xk are pre
 - For Linear Regression, the visual representation is a STRAIGHT LINE. Whereas for Logistic Regression a S-SHAPED curve.
 - Linear Regression have a linear relationship between the dependent and independent variables. Whereas the  Logistic Regression does not have or need a linear relationship between the dependent and independent variables.
 - Linear Regression is used to predict the dependent variable incase there is  a change in independent variables.Whereas Logistic Regression is used to calculate the probability of an event(either 0 or 1). 
--Linear Regression provides a continuous output but Logistic Regression provides discreet output. 
+- Linear Regression provides a continuous output but Logistic Regression provides discreet output. 
 - The purpose of Linear Regression is to find the best-fitted line while Logistic regression is one step ahead and fitting the line values to the sigmoid curve.
 
 ### **Some Useful Resources**
 
+- [Linear Regression](https://www.javatpoint.com/linear-regression-in-machine-learning)
+- [Logistic Regression](https://www.javatpoint.com/logistic-regression-in-machine-learning)
 
 
-
-
-
-**Image Credits:**
-
-[javatpoint](https://www.javatpoint.com/linear-regression-vs-logistic-regression-in-machine-learning)
+**Image Credits:** [javatpoint](https://www.javatpoint.com/linear-regression-vs-logistic-regression-in-machine-learning)
