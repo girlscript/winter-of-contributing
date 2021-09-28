@@ -1,5 +1,6 @@
 # <div align="center">🧲 Polymorphism in GoLang</div>
-<p align="center"><img src="https://miro.medium.com/max/1200/1*BruAhzl61NYiVz83ZvEcEg.jpeg" alt="polymorphism" height=400x width=850px/></p>
+<p align="center"><img src="https://miro.medium.com/max/1200/1*BruAhzl61NYiVz83ZvEcEg.jpeg" alt="polymorphism" height=300x width=650px/></p>
+</br>
 In Object-Oriented Programming, an object can behave like another object. This property is called **Polymorphism**. This post will cover how we achieve polymorphism in GoLang.
 
 ## 🤔 What is Polymorphism?
@@ -43,7 +44,7 @@ Now, we can simply add any type and implement that interface and the type will b
 ## ✨ Polymorphism using interfaces
 
 <p align=center>
-<img src="https://zkm.de/media/styles/r17_720/public/bild/interfaces_logo.jpg?itok=-8Wk2whC&c=40e89473a13cc4a7badec2836961b9fb" alt="interfaces" height=400px width=800px/>
+<img src="https://zkm.de/media/styles/r17_720/public/bild/interfaces_logo.jpg?itok=-8Wk2whC&c=40e89473a13cc4a7badec2836961b9fb" alt="interfaces" height=300px width=550px/>
 </p>
 In GoLang, polymorphism is achieved mainly using interfaces. A type implementing a function defined in interface becomes the type defined as an interface. This is the property that makes polymorphism achievable in Go.
 
@@ -348,8 +349,8 @@ Polymorphism is used to reduce code in general. There will be less coupling if p
 ### Example-1:
 
 ```go
-// Golang program to illustrate the
-// concept of interfaces
+/* Golang program to illustrate the
+ concept of interfaces */
 package main
 
 import (
@@ -377,8 +378,8 @@ type Square struct{
 	side float64
 }
 
-// function to calculate
-// area of a rectangle
+/* function to calculate
+ area of a rectangle */
 func (rect Rectangle) Area() float64{
 
 	// Area of rectangle = l * b
@@ -386,8 +387,8 @@ func (rect Rectangle) Area() float64{
 	return area
 }
 
-// function to calculate
-// area of a square
+/* function to calculate
+area of a square */
 func (sq Square) Area() float64{
 	
 	// Area of square = a * a
@@ -427,8 +428,8 @@ Objects of different types are treated in a consistent way, as long as they stic
 ### Example-2:
 
 ```go
-// Golang program to illustrate the
-// concept of polymorphism
+/* Golang program to illustrate the
+ concept of polymorphism */
 package main
 
 import (
@@ -466,32 +467,32 @@ type Magazine struct{
 	page_count int
 }
 
-// function to calculate reading
-// time for book
+/* function to calculate reading
+ time for book */
 func (book Book) reading_time() int {
 	
-	// taking average speed
-	// of 10 mins per page
+	/* taking average speed
+	 of 10 mins per page */
 	read_time := 10 * book.page_count
 	return read_time
 }
 
-// function to calculate reading
-// time for newspaper
+/* function to calculate reading
+time for newspaper */
 func (newspaper Newspaper) reading_time() int {
 
-	// taking average speed
-	// of 30 mins per page
+	/* taking average speed
+	 of 30 mins per page */
 	read_time := 30 * newspaper.page_count
 	return read_time
 }
 
-// function to calculate reading
-// time for magazine
+/* function to calculate reading
+ time for magazine */
 func (magazine Magazine) reading_time() int {
 	
-	// taking average speed
-	// of 5 mins per page
+	/* taking average speed
+	of 5 mins per page */
 	read_time := 5 * magazine.page_count
 	return read_time
 }
@@ -501,13 +502,13 @@ func calcReadingTime(ReadingTime []Reading) int {
 
 		totalTime := 0
 	
-	// looping through elements
-	// of the Reading array
+	/* looping through elements
+	of the Reading array */
 		for _, t := range ReadingTime {
 		
-		// run time polymorphism, call to
-		// method depends on object being
-		// referred at run time
+		/* run time polymorphism, call to
+		 method depends on object being
+		 referred at run time */
 			totalTime += t.reading_time()
 		}
 	
