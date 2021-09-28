@@ -146,26 +146,6 @@ For example,
 
 ![split function](images/13.Split_Function.png)
 
-## 5. `matchAll()` function
-
-This function returns all possible ways of matched substring and returns in the iterable form.
-
-<b>Syntax: </b> `string.matchAll(regularExp)`
-
-For example,
-
-![matchall function](images/18.MatchAll_Function.png)
-
-## 6. `replaceAll()` function
-
-This functions looks for the match in the string as per the regular expression given in the argument and replaces with the new character passed.
-
-<b>Syntax: </b> `string.replaceAll(regularExp, newExp)`
-
-For example,
-
-![replaceall function](images/20.ReplaceAll_Function.png)
-
 <br>
 
 # References
