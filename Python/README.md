@@ -13,6 +13,7 @@
 - [Installing software for python](./Installing_Software)
 - [Brief History of Python](./History_Of_Python)
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
+- [What are datatypes?](./Datatypes)
 - [What is type conversion ?](./Type_Conversion)
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
@@ -42,23 +43,24 @@
 3. Installing development and debugging software for python
 4. Brief history of python
 5. What is a programming language?
-6. What is type conversion ?
-7. Use cases of Python
-8. Virtual Environment
-9. Operators
-10. List\_&_Matrix
-11. Objects in Python
-12. Stack and Queue
-13. Loop Break
-14. Decorators
-15. Functions
-16. What_is_Filter_in_python
-17. OOP-Class
-18. Advanced function-reduce()
-19. Advanced Function - Zip
-20. List Comprehension
-21. Advanced function-map()
-22. What is Automation?
-23. Args and Kwargs
-24. Web_Scraping
+6. What are python datatypes?
+7. What is type conversion ?
+8. Use cases of Python
+9. Virtual Environment
+10. Operators
+11. List\_&_Matrix
+12. Objects in Python
+13. Stack and Queue
+14. Loop Break
+15. Decorators
+16. Functions
+17. What_is_Filter_in_python
+18. OOP-Class
+19. Advanced function-reduce()
+20. Advanced Function - Zip
+21. List Comprehension
+22. Advanced function-map()
+23. What is Automation?
+24. Args and Kwargs
+25. Web_Scraping
 
