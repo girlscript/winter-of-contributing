@@ -144,8 +144,25 @@ For example,
 
 ![split function](images/14.Split_Function.png)
 
-<b>Note: </b>
-Functions like `exec()`, `test()`, `compile()`, `replaceAll()` isn't available anymore in Node 14+ and other browsers.
+## 5. `matchAll()` function
+
+This function returns all possible ways of matched substring and returns in the iterable form.
+
+<b>Syntax: </b> `string.matchAll(regularExp)`
+
+For example,
+
+![matchall function](images/19.MatchAll_Function.png)
+
+## 6. `replaceAll()` function
+
+This functions looks for the match in the string as per the regular expression given in the argument and replaces with the new character passed.
+
+<b>Syntax: </b> `string.replaceAll(regularExp, newExp)`
+
+For example,
+
+![replaceall function](images/20.ReplaceAll_Function.png)
 
 <br>
 
