@@ -3,7 +3,7 @@
 #### Lets talk about Algorithms and Flowcharts In C
 
 ### What is an Algorithm?
-Algorithm refers to **a set of rules/instructions** that **step-by-step** define how a work is to be executed upon in order to get the expected output.
+Algorithm refers to the **step-by-step instruction** to get the expected output.
 These Algorithms are **language-independent** i.e You can write them in rough language too!
 
 
@@ -27,19 +27,19 @@ START
 
 Step 1: Fill the 5-liter jar.
 
-Step 2: Empty 3 liters out of it into the 3-liter jar.
+Step 2: Transfer 3 liters out of it into the 3-liter jar.
 
-Step 3: Discard the contents of 3-liter jar.
+Step 3: Empty the 3-liter jar.
 
-Step 4: Empty the 2 liters in the 5-liter jar into the 3-liter jar. 
+Step 4: Transfer the rest 2 liters left in the 5-liter jar into the 3-liter jar. 
 
-Step 5: Fill the 5-liter jar again.
+Step 5: Refill the 5-liter jar again.
 
-Step 6: Empty a liter from the 5-liter jar into the partially filled 3-liter jar (which has 2 liters in it).
+Step 6: Empty 1-liter from the 5-liter jar into 3-liter jar (which has 2 liters in it).
 
-Step 7: Discard the contents of the 3-liter jar.
+Step 7: Empty the 3-liter jar.
 
-Step 8: The 5 liter jar has 4 liters left out in it.
+Step 8: The 5 liter jar now has 4 liters left in it.
 
 END
 
@@ -50,14 +50,14 @@ END
 
 
 ## What is a Flowchart?
-Programmers often use it as a **program-planning tool** to solve a problem. It makes use of **symbols** which are connected among them to indicate the flow of information and processing.
+Programmers often use it as a **program-planning tool** to solve a problem using **symbols**.
  
 ### Basic Symbols used in Flowchart Designs
-- **_Terminal_**: The **oval symbol** indicates **Start, Stop and Halt** in a program’s logic flow. Terminal is the **first** and **last** symbols in the flowchart.
-- **_Input/Output_**: A **parallelogram** denotes any function of input/output type.Program instructions that take input from input devices and  display  output  on  output  devices are indicated with **parallelogram** in a flowchart.
-- **_Processing_**: A **box** represents arithmetic instructions. All **arithmetic processes** such as adding, subtracting, multiplication and division are indicated by **action or process symbol**.
-- **_Decision_**: **Diamond** symbol represents a decision point. Decision based operations such as **yes/no** question or true/false are indicated by **diamond** in flowchart.
-- **_On-page Connector_**: Whenever flowchart becomes complex or it spreads over more than one page, it is useful to use connectors to **avoid any confusions**. It is represented by a **circle**.
+- **_Terminal_**: The **oval symbol** denotes **Start, Stop and Halt** in a program. Terminal is the **first** and **last** symbols in the flowchart.
+- **_Input/Output_**: A **parallelogram** denotes any function of input/output type.
+- **_Processing_**: A **box** represents arithmetic instructions(**adding, subtracting, multiplication and division**) are indicated by **action or process symbol**.
+- **_Decision_**: **Diamond** symbol represents a decision point( **yes/no**) question or (**true/false**).
+- **_On-page Connector_**: Connectors are used to **avoid any confusions** and **connect pages** . It is represented by a **circle**.
 
 
 ## An example of a flowchart: Draw a flowchart to input two numbers from user and display the largest of two numbers
@@ -65,7 +65,7 @@ Programmers often use it as a **program-planning tool** to solve a problem. It m
                                       
 
 ## What is a DFD(ata Flow Diagram)?
-Quite similar to Flowcharts, but a **DFD** shows how data flows through a system which is processed as well.The flow of the data from an external or internal source as well as where the data will end up is shown in a **DFD**.
+Quite similar to Flowcharts, but a **DFD** shows how data flows through a system which is processed as well.The flow of the data from an external or internal source and where the data will eventually end up is shown in a **DFD**.
 
-### NOTE: The main difference between DFD and Flowchart is that DFD is a graphical diagram that represents the data flow of a system while flowchart is a graphical diagram that represents the sequence of steps to solve a problem!👍
+### NOTE: The main difference between DFD and Flowchart is that DFD is the data flow of a system while flowchart represents the sequence of steps to solve a problem!👍
  
