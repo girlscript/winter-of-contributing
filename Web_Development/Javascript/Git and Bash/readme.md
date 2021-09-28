@@ -1,5 +1,5 @@
 ### Git and Bash
-Git and Bash are fairly different things but windows version of `git` comes with configured with bash shell. This is why  you can even execute the bash commands their . But you can not perform low level tasks with git-bash in windows.
+Git and Bash are fairly different things but windows version of `git` comes with configured with bash shell. This is why you can even execute the bash commands there. But you can not perform low level tasks with git-bash in windows.
 Lets just understand the difference in between them one by one and how they create a development workflow together.
 
 ####  What is Git
