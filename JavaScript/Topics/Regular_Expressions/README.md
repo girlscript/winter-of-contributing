@@ -9,6 +9,14 @@ let regExp = /x+/;
 ```
 Where `+` has its own meaning which will be covered in the next section.
 
+Regular expressions can also be represented using `RegExp()` function.
+
+<b>Syntax: </b> `RegExp(regularExp, "modifier")`
+
+For example, 
+
+![RegExp function](images/13.RegExp_Function.png)
+
 There are many functions in JavaScript which helps to check the validity of the regular expression, such as `match()`, `matchAll()`, etc.
 
 <br>
@@ -25,7 +33,7 @@ The following table explains the types of modifiers
 | Expressions | Description |
 |-----------|-----------|
 | `g` | Global search |
-| `i` | Case-insitive search |
+| `i` | Case-insensitive search |
 | `m` | Multiline search |
 
 ## Occurences
@@ -54,14 +62,32 @@ The following table explains the usage of ranges in regular expressions.
 | `[^a-z]` | String having any characters **except** lowercase English characters | ![Range-3](images/9.Range_3.png) |
 | `(a\|b)` | String having either "a" or "b" | ![Range-4](images/10.Range_4.png) |
 
+## Assertions
+
+Assertions are used to check whether a character is either ahead/behind of the other character. There are 4 types of assertions:
+1. Positive Lookahead
+2. Negative Lookahead
+3. Positive Lookbehind
+4. Negative Lookbehind
+
+The following table demonstrates those four types of assertions.
+
+| Name | Syntax | Description | Example |
+|-----------| ----------- |-----------| ----------- |
+| Positive Lookahead Assertion | `a(?= b)` | Whether "a" is followed by "b" | ![positive lookahead](images/15.Positive_Lookahead.png) |
+| Negative Lookahead Assertion | `a(?! b)` | Whether "a" is not followed by "b" | ![negative lookahead](images/16.Negative_Lookahead.png) |
+| Positive Lookbehind Assertion | `(?<= b)a` | Whether "b" comes before "a" | ![positive lookbehind](images/17.Positive_Lookbehind.png) |
+| Negative Lookbehind Assertion | `(?<! b)a` | Whether "b" doesn't come before "a" | ![negative lookbehind](images/18.Negative_Lookbehind.png) |
+
+
 ## Escape Sequences
 
 The escape sequences are the special characters which has a special meaning.
 
 The following table explains the different types of escape sequences.
 
-| Expressions | Description | Example |
-|-----------| ----------- | ----------- |
+| Expressions | Description |
+|-----------| ----------- |
 | `\n` | Newline character |
 | `\t` | Newtab character |
 | `\v` | Vertical character |
@@ -87,15 +113,7 @@ For example,
 
 ![match function](images/1.Asterisk_Notation.png)
 
-## 2. `matchAll()` function
-
-This function helps to find all types of occurences in the string as per the regular expression given in the argument, otherwise gives NULL as output.
-
-<b>Syntax: </b> `string.matchAll(regularExp)`
-
-For example,
-
-## 3. `search()` function
+## 2. `search()` function
 
 This function searches for the appropriate match of the regular expression. <br>
 It returns an index as the output. If the match is not found, it will return -1.
@@ -106,7 +124,7 @@ For example,
 
 ![search function](images/11.Search_function.png)
 
-## 4. `replace()` function
+## 3. `replace()` function
 
 This function replaces the word/character(can be in the form of RegEx too) with a new word/character.
 
@@ -116,3 +134,27 @@ For example,
 
 ![replace function](images/12.Replace_Function.png)
 
+## 4. `split()` function
+
+This function breaks the string as per the argument given and returns the output in the form of an array.
+
+<b>Syntax: </b> `string.split(regularExp)`
+
+For example, 
+
+![split function](images/14.Split_Function.png)
+
+<b>Note: </b>
+Functions like `exec()`, `test()`, `compile()`, `replaceAll()` isn't available anymore in Node 14+ and other browsers.
+
+<br>
+
+# References
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+2. https://www.w3schools.com/jsref/jsref_obj_regexp.asp
+3. https://2ality.com/2017/05/regexp-lookbehind-assertions.html#:~:text=The%20proposal%20%E2%80%9CRegExp%20Lookbehind%20Assertions,Ehrenberg%20is%20part%20of%20ES2018.&text=A%20lookaround%20assertion%20is%20a,but%20has%20no%20other%20effect.
+4. https://javascript.info/regexp-lookahead-lookbehind
+
+<br>
+
+<b>Contributors: </b> [Subhendu Dash](https://github.com/subhendudash02)
