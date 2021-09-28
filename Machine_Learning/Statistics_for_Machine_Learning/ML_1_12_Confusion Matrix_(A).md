@@ -5,4 +5,4 @@ is confused when it makes predictions.
 
 Terminologies like TP, FP, FN, TN.
 
-[Reference video](https://drive.google.com/drive/folders/1IvM1QYgeJ9iR21KiwV13IX51ifnQXXlO?usp=sharing)
+[Reference audio](https://drive.google.com/drive/folders/1IvM1QYgeJ9iR21KiwV13IX51ifnQXXlO?usp=sharing)
