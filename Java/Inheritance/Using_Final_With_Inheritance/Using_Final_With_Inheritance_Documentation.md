@@ -30,6 +30,9 @@ cannot assign a value to final variable finVariable
             finVariable = 20;
             ^
 ```
+## ```final``` reference variable
+
+Considering __reference variable__, if you declare them as ```final``` that means you can't reassign it to another __object__ or __reference__. But however that value of data members of that __object__ can be changed
 
 ## ```final``` method
 
@@ -123,6 +126,7 @@ cannot inherit from final Parent
 class Child extends Parent
                     ^
 ```
+__NOTE :__ A class declared as ```final``` does not mean that the value of data members of object of this ```final``` class cannot be changed.
 
 # Can a __final__ variable be inherited?
 
