@@ -8,50 +8,55 @@
                                     #include<conio.h>
                                     void main()
                                     {
-                                    char str[3];
-                                    int SCORE[1] ;
-                                    int x=300,y=415,flag=0,left=0,j ,k, m=0 ,n=0; 
-                                    int i=250,ch,gd=DETECT,gm;
-                                    initgraph(&gd,&gm,"C:\\TurboC3\\BGI"); 
-                                    setbkcolor(BLUE);
-                                    phirse:
-                                    setcolor(RED); 
-                                    setfillstyle(SOLID_FILL,RED);
-                                    for(k= 0 ; k<50;k++){
-                                    clearviewport();
-                                    circle(85+m,84+n,20); 
-                                    floodfill(85+m,84+n,RED);
-                                    if(m<500&&n<250){
-                                    m=m+10;
-                                    n=n+15;
-                                    delay(30);
-                                    } else{
-                                    m = m+5;
-                                    n = n-50;
-                                    delay(100);
-                                    }
-                                    }
-                                    for(k=0;k<50 ;k++){
-                                    settextstyle(7,0,5);
-                                    delay(5);
-                                    moveto(230,200);
-                                    setcolor(RED);
-                                    outtext("SuperBall");
-                                    delay(5);
-                                    moveto(230,200);
-                                    setcolor(BLUE);
-                                    outtext("SuperBall");
-                                    delay(5);
-                                    moveto(230,200);
-                                    setcolor(YELLOW);
-                                    outtext("SuperBall");
-                                    delay(5);
-                                    moveto(230,200);
-                                    setcolor(WHITE);
-                                    outtext("SuperBall");
-                                    setcolor(WHITE);
-                                    delay(5); 
-                                    /*settextstyle(7,0,4);
+                                          char str[3];
+                                          int SCORE[1] ;                         // To count the score
+                                          int x=300,y=415;                       // To maintain the dimensions
+                                          int flag=0,left=0,j ,k, m=0 ,n=0; 
+                                          int i=250,ch,gd=DETECT,gm;
+                                          initgraph(&gd,&gm,"C:\\TurboC3\\BGI"); 
+                                          setbkcolor(BLUE);                      // To set background as blue
+                                          phirse:
+                                          setcolor(RED); 
+                                          setfillstyle(SOLID_FILL,RED);         // To fill red colour to the circular ball
+                                          for(k= 0 ; k<50;k++)
+                                          {
+                                                clearviewport();
+                                                circle(85+m,84+n,20); 
+                                                floodfill(85+m,84+n,RED);
+                                                if(m<500&&n<250)
+                                                {
+                                                      m=m+10;
+                                                      n=n+15;
+                                                      delay(30);
+                                                } 
+                                                else
+                                                {
+                                                      m = m+5;
+                                                      n = n-50;
+                                                      delay(100);
+                                                }
+                                          }
+                                                for(k=0;k<50 ;k++){
+                                                settextstyle(7,0,5);       //To set text style using settextstyle() function
+                                                delay(5);
+                                                moveto(230,200);
+                                                setcolor(RED);
+                                                outtext("SuperBall");      // Text to be displayed on the screen
+                                                delay(5);
+                                                moveto(230,200);
+                                                setcolor(BLUE);
+                                                outtext("SuperBall");
+                                                delay(5);
+                                                moveto(230,200);
+                                                setcolor(YELLOW);
+                                                outtext("SuperBall");
+                                                delay(5);
+                                                moveto(230,200);
+                                                setcolor(WHITE);
+                                                outtext("SuperBall");
+                                                setcolor(WHITE);
+                                                delay(5);        /*settextstyle(7,0,4); outtextxy(250,220,"SuperBall"); settextstyle(2,0,5); */
+                  
                                     outtextxy(250,220,"SuperBall");
                                     settextstyle(2,0,5); */
                                     }settextstyle(2,0,5);
