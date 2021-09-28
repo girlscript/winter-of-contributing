@@ -114,7 +114,7 @@ And Many more , you can find it [here..](https://developer.mozilla.org/en-US/doc
 - All properties that affect or are affected by the font should be declared once together.
 - Choosing the right font is important because it create harmony and consitency in the design.
 
-See the example before...
+See the example below about how to chose right font...
 ```css
 h2{
 font-family: 'Montserrat', sans-serif;
