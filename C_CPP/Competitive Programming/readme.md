@@ -1,2 +1,1 @@
-- [SuperBall Game In C](SuperBall_Game_In_C.md)
 - [Simple ATM Bank in C](Simple_ATM_Bank_in_C.md)
