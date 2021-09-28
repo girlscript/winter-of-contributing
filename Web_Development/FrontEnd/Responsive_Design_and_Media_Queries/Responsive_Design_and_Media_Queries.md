@@ -1,13 +1,12 @@
 
-<p align="center">
-<img src="https://miro.medium.com/max/4800/1*YoXg1v9QIVbSKNaTIzr38A.jpeg" width="60%" height="60%" >
-</p>
 
-<h1 align="center">Responsive Design & Media Queries</h1>
+![Image](https://miro.medium.com/max/4800/1*YoXg1v9QIVbSKNaTIzr38A.jpeg)
 
-<p>&nbsp;</p>
 
-# **What is responsive design?**
+# Responsive Design & Media Queries
+
+
+# What is responsive design?
 
 Responsive style may be a style and production approach that permits a web site to be well viewed and used on all manner of devices (like on a smartphone, tablet, and desktop). The core principle is that every one devices get identical markup language supply, situated at identical universal resource locator, however totally different designs ar applied supported the viewport size to arrange elements and optimize usability.
 
@@ -15,18 +14,14 @@ It is vital to stay in mind that whereas planning a web site it ought to be atte
 
 
 
-<p>&nbsp;</p>
-
-# **Why responsive design** ?
+# Why responsive design ?
 We live in a multi-screen society. owing to this, it’s necessary for your web site to be seeable across as several devices as attainable, as a result of you never recognize what device somebody are going to be victimization to look at your web site.
 
 The main goal of responsive style is to avoid the excess resizing, scrolling, zooming, or panning that happens with sites that haven't been optimized for various devices.
 
 
 
-<p>&nbsp;</p>
-
-# **Advantages of responsive design**
+# Advantages of responsive design
 - **Cost effectiveness**
 
 Maintaining separate sites for your mobile and non-mobile audiences will get overpriced. By victimization responsive style, you'll be able to economize by eliminating the price of paying for a mobile website.
@@ -49,9 +44,9 @@ Again, multiple websites for multiple devices means that any changes must be cre
 
 
 
-<p>&nbsp;</p>
 
-# **What is  Media Query ?**
+
+# What is  Media Query ?
 
 Media query is a **CSS** technique introduced in CSS3. Media queries allow us to adjust the display and orientation of content at different screen sizes.
 
@@ -59,7 +54,7 @@ Media queries ar the simplest way to focus on browser by sure characteristics, f
 
 
 
-# **Media Query Syntax**
+# Media Query Syntax
 
 A media query consists of a media kind and might contain one or a lot of expressions, that resolve to either true or false.
 
@@ -71,9 +66,7 @@ A media query consists of a media kind and might contain one or a lot of express
 
 
 
-<p>&nbsp;</p>
-
-# **CSS3 Media Types**
+# CSS3 Media Types
 | Value       | Description                                           |
 | ----------- | -----------                                           |
 | all         | Used for all media type devices                       |
@@ -81,12 +74,9 @@ A media query consists of a media kind and might contain one or a lot of express
 | screen      | Used for computer screens, tablets, smart-phones etc. |
 |speech       | Used for screenreaders that "reads" the page out loud |
 
-<p>&nbsp;</p>
 
 
-
-
-# **Add a Breakpoint**
+# Add a Breakpoint
 There area unit several screens and devices with totally different heights and widths, therefore it's exhausting to make a particular breakpoint for every device. to stay things straightforward you may target 5 common groups:
 
 ```css
@@ -108,7 +98,7 @@ There area unit several screens and devices with totally different heights and w
 
 
 
-# **Media Queries Examples**
+# Media Queries Examples
 
 ```css
 @media screen and (min-width: 400px) {
@@ -119,7 +109,7 @@ There area unit several screens and devices with totally different heights and w
 ```
 This example changes the background-color to pink if the viewport is 400 pixels wide or wider.
 
-<p>&nbsp;</p>
+
 
 ```css
 @media screen and (max-width: 990px) {
