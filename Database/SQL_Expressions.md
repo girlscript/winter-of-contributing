@@ -13,7 +13,7 @@ Let us try to understand them with some sample example programs.
 
 ---
 
-**1. SQL Boolean Expression:**
+### **1. SQL Boolean Expression:**
 
 SQL Boolean Expression fetches data based on the condition that is mentioned as part of the SQL query. As the name suggests it fetches only single valued data (Boolean).
 
@@ -41,7 +41,7 @@ The query above will result in single value which is “Rishi Gupta” for our q
 
 ---
 
-**2. SQL Numeric Expression:**
+### **2. SQL Numeric Expression:**
 
 SQL Numeric Expression is used for performing mathematical operation in SQL query._Numerical\_expression_ is the mathematical formula a function which will be used in the SQL query also known as _aggregate functions_.
 
@@ -84,7 +84,7 @@ SELECT avg(Salary) as "Average_Salary"
 FROM instructor; -- 60,833.33
 ```
 ---
-**3. SQL Date Expression:**
+### **3. SQL Date Expression:**
 
 SQL Date Expression results in date and time of the system
 Let’s try to understand Date expression with some sql expressions.

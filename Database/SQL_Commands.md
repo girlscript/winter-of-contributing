@@ -260,4 +260,4 @@ SELECT column2
 FROM Table_A;
 ```
 ---
-#### **References: Powerbidocs**
+#### **References: NPTEL and Powerbidocs**
