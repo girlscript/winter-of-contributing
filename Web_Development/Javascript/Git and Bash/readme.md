@@ -134,12 +134,6 @@ echo name
 bash can also be used as a executable file even many programs uses bash script for their installation.
 <hr>
 
-### Final verdict
-
-- Both git and bash gives your powerful and flexible environment for anykind of workflow and development.
-- Windows version of git comes with bash shell . but you can only perform the basic tasks with that version of shell .
-- I would prefer you all to use wsl with git which gives you seperate linux environment for your development where you can use all of the features of bash as well as git too.
-
 ### WSL
 - Wsl stands for windows subsystem for linux which is based on virtualization. Which gives seperate space in your windows system for linux kernal.
 - It uses orginal linux kernal which is actually little modified by microsoft.
@@ -147,6 +141,12 @@ bash can also be used as a executable file even many programs uses bash script f
 - You can download any linux distro such as ubuntu from windows store after [setting up wsl](https://docs.microsoft.com/en-us/windows/wsl/install) then just search ubuntu in windows store and click install.
 - Wsl does not give real linux environment and lack many linux features like it does not have systemd.
 - Wsl is very handy and flexible for development related purposes in linux like environment.
+
+### Final verdict
+
+- Both git and bash gives your powerful and flexible environment for anykind of workflow and development.
+- Windows version of git comes with bash shell . but you can only perform the basic tasks with that version of shell .
+- I would prefer you all to use wsl with git which gives you seperate linux environment for your development where you can use all of the features of bash as well as git too.
 
 
 ### Contributed By [Prachi Singh]("https://github.com/prachi610/)
