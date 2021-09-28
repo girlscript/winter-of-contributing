@@ -4,7 +4,7 @@
 ## What is AJAX?
 ---
 
-AJAX stands for Asynchronous JavaScript And XML. In a nutshell, it is the use of the XMLHttpRequest object to communicate with servers. It can send and receive information in various formats, including JSON, XML, HTML, and text files. AJAX’s most appealing characteristic is its "asynchronous" nature, which means it can communicate with the server, exchange data, and update the page without having to refresh the page.
+AJAX stands for **Asynchronous JavaScript And XML**. In a nutshell, it is the use of the XMLHttpRequest object to communicate with servers. It can send and receive information in various formats, including JSON, XML, HTML, and text files. AJAX’s most appealing characteristic is its "asynchronous" nature, which means it can communicate with the server, exchange data, and update the page without having to refresh the page.
 
 The two major features of AJAX allow you to do the following:
 
@@ -122,6 +122,75 @@ async function fetchText() {
     let data = await response.text();
     console.log(data);
 }
+```
+
+### Sending a POST request
+---
+
+The post request is widely used to submit forms to the server. Fetch also supports the POST method call. To do a POST request we need to specify additional parameters with the request such as method, headers, etc. 
+
+In this example, we’ll do a POST request on the JSONPlaceholder and add a post in the posts. It’ll then return the same post content with an ID.
+
+```js
+// POST request using fetch()
+fetch("https://jsonplaceholder.typicode.com/posts", {
+	
+	// Adding method type
+	method: "POST",
+	
+	// Adding body or contents to send
+	body: JSON.stringify({
+		title: "foo",
+		body: "bar",
+		userId: 1
+	}),
+	
+	// Adding headers to the request
+	headers: {
+		"Content-type": "application/json; charset=UTF-8"
+	}
+})
+
+// Converting to JSON
+.then(response => response.json())
+
+// Displaying results to console
+.then(json => console.log(json));
+```
+## Cross Domain AJAX Request
+---
+A common problem for developers is a browser to refuse access to a remote resource. Usually, this happens when you execute AJAX cross domain request using jQuery Ajax interface, Fetch API, or plain XMLHttpRequest. As result is that the AJAX request is not performed and data are not retrieved.
+
+![Same-origin-policy](https://static.zinoui.com/img/blog/jquery-ajax-cross-domain.webp)
+
+### Same Origin Policy
+---
+
+This is a security policy which defines the rules of how a web page can access an external resource (e.g. fonts, AJAX requests). Under the same-origin policy, web browsers do not permit a web page to access resources who origin differ than that of the current page. The origin is considered to be different when the scheme, hostname or port of the resource do not match that of the page. Overcoming the limitations of same-origin security policy is possible using a technique called Cross-origin resource sharing or simply CORS.
+
+### Cross-Origin Resource Sharing (CORS)
+---
+
+CORS is a mechanism that defines a procedure in which the browser and the web server interact to determine whether to allow a web page to access a resource from different origin.
+
+![Same-origin-policy](https://static.zinoui.com/img/blog/cross-domain-ajax-request.webp)
+
+When you do a cross-origin request, the browser sends ```Origin``` header with the current domain value.
+
+```
+Origin: http://example.com
+```
+
+When the server receives the request, check whether the origin header is within the allowed list, and sends a response with ```Access-Control-Allow-Origin```
+
+```
+Access-Control-Allow-Origin: http://example.com
+```
+
+If you want to allow access for all, use a wildcard '*'
+
+```
+Access-Control-Allow-Origin: *
 ```
 <br> 
 
