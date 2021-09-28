@@ -64,6 +64,10 @@ It is compulsory for data to be normalized and scaled before making predictions,
  b) Data can be more easy to predict
  c) Training the data can be done faster
 
+All types of techniques -
+
+![image](https://user-images.githubusercontent.com/71919335/135027537-036f9f10-73a1-46a6-83d9-ed8576648f73.png)
+
 A good tip is to create rescaled copies of your dataset and race them against each other using your test harness and a handful of algorithms you want to spot check. 
 This can quickly highlight the benefits (or lack there of) of rescaling your data with given models, and which rescaling method may be worthy of further investigation.
 
