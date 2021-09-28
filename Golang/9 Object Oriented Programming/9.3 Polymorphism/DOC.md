@@ -1,10 +1,10 @@
 # <div align="center">🧲 Polymorphism in GoLang</div>
 <p align="center"><img src="https://miro.medium.com/max/1200/1*BruAhzl61NYiVz83ZvEcEg.jpeg" alt="polymorphism" height=400x width=850px/></p>
-In Object-Oriented Programming, an object can behave like another object. This property is called polymorphism. This post will cover how we achieve polymorphism in GoLang.
+In Object-Oriented Programming, an object can behave like another object. This property is called **Polymorphism**. This post will cover how we achieve polymorphism in GoLang.
 
-## 🤔 What is polymorphism?
+## 🤔 What is Polymorphism?
 
-Polymorphism is a property that is available to many Object Oriented-languages. Go despite not being an OO-language achieves polymorphism through [interfaces](https://golangdocs.com/interfaces-in-golang).
+**Polymorphism** is a property that is available to many Object Oriented-languages. Go despite not being an OO-language achieves polymorphism through [interfaces](https://golangdocs.com/interfaces-in-golang).
 
 Here is an example of polymorphism in action.
 
@@ -40,7 +40,7 @@ func main() {
 In the code above, the struct Dalmatian implements the Dog interface. Thus the struct becomes the type Dog and so that it can be passed in that function.
 Now, we can simply add any type and implement that interface and the type will behave as that interface. That is polymorphism. An object taking many different forms.
 
-## ✨Polymorphism using interfaces
+## ✨ Polymorphism using interfaces
 
 <p align=center>
 <img src="https://zkm.de/media/styles/r17_720/public/bild/interfaces_logo.jpg?itok=-8Wk2whC&c=40e89473a13cc4a7badec2836961b9fb" alt="interfaces" height=400px width=800px/>
@@ -201,7 +201,7 @@ func main() {
 }
 ```
 
-This program will output
+This program will output:-
 
 ```
 Income From Project 1 = $5000
@@ -551,12 +551,12 @@ func main() {
 Total Time is 2060 minutes.
 ```
 
-So thats all that you need to knwo about Polymorphism in Golang if you wish to know more you can definetly visit the official documentation of <a href="https://golang.org/doc/">Golang</a>.
+So that's all that you need to knwo about Polymorphism in Golang if you wish to know more you can definetly visit the official documentation of [Golang]("https://golang.org/doc/").
 
-### 🛠 References-: 
+### 🛠 References:-
 
-- The above documentation was prepared by reffering to the <a href="https://golang.org/doc/">official documentation</a> of Golang for authencity, <a href="https://www.geeksforgeeks.org/">Geeks for geeks</a> and some <a href="https://golangbot.com/polymorphism/">blogs</a>for explainging the concepts in detail.
-- The images that are used are also used form the following links-:
+- The above documentation was prepared by referring to the [official documentation]("https://golang.org/doc/")</a> of Golang for authencity, [Geeks for geeks](https://www.geeksforgeeks.org/) and some [blogs]("https://golangbot.com/polymorphism/") for explainging the concepts in detail.
+- The images that are used are also used form the following links:-
  <table align="center">
   <tr>
    <td>
@@ -566,4 +566,4 @@ So thats all that you need to knwo about Polymorphism in Golang if you wish to k
     </tr>
   </table>
 
-## THANKS FOR READING! 😎✨<br>
+## THANKS FOR READING! ✨<br>
