@@ -83,40 +83,36 @@ Here comes the concepts of Vargars.
   
 ### Ambiguity
 
-A Java class can implement multiple interfaces and each interface can have some variables with respective name.
-Now, suppose a class implements two interfaces but both have one or more variables of same type and same variable name.
-Now when we call the variable of interface(i.e carModelName in the below code) then the compiler will give us an error because it will get confused between the similar variables of the interface. This is the ambiguity problem in java.
-
-Please check the code below:
+unexpected errors can be result when overloading a method that takes a variable length argument. These errors involve ambiguity because both the methods are valid candidates for invocation. The compiler cannot decide onto which method to bind the method call
 
 ```
-public class MyCarModelClass implements Inreface1, Inreface2 
+class SomeClass 
 {
-    public MyCarModelClass() 
-    {
-        System.out.println("name is :: " + carModelName);
-    }
-    public static void main(String[] args) 
-    {
-        new MyCarModelClass();
-    }
+    void foo(int... num) 
+    {}
 
-    //Interface1
-    public interface Inreface1 
-    {
-        public String carModelName="Name";
-    }
+    void foo(boolean... isTrue) {} 
 
-    //Interface2
-    public interface Inreface2 
-    {   
-        public String carModelName="Name";
-    }      
+    public static void main(String[] args)
+    {
+        foo(); // ambiguous
+    }
 }
+``` 
+In above program, the overloading of fun() is correct but this program will not compile and it will give as error like fun(); // Error: Ambiguous!.
+
+
+Also in the code mentioned below ambiguity can arise:
+
 ```
+void foo(int num1, int... num2) {}
 
-Now, the code is confused which “carModelName” variable to use from which interface and to it is now in a ambiguous situation. And hence if this code runs it will give error like:
-**“The field name is ambiguous”**
+void foo(int.... num1) {}
 
-Reference :Youtube Channels,JavaPoints and Quora
+```
+This call may resolve to fun(int … a) or fun(int n, int … a) method, thus creating ambiguity. To solve these ambiguity errors like above, we will need to forego overloading and simply use two different method names.
+
+
+
+Reference :Youtube Channels,JavaPoints and Quora and GEEKS FOR GEEKS.
   
