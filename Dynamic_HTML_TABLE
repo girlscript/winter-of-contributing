@@ -52,7 +52,7 @@
     </style>
     <title>19BCT0175 Q6</title>
 </head>
-
+<!--  This is the base code for the table, it is optional -->
 <body>
     <table id="table" cellpadding="1" cellspacing="1" id="resultTable" border="2px"
         style="text-align: center; width: 50%;">
@@ -113,7 +113,7 @@
     <button onclick="myFunction()">Delete</button>
     <button onclick="adding()">Add</button>
     <button onclick="addingColor()">Put Colours</button>
-
+<!-- Below is the JS/JQuery Code -->
     <script>
         function myFunction() {
             document.getElementById("table").deleteRow(-1);
