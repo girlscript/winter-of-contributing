@@ -24,7 +24,7 @@ The allocated memory can only be accessed through pointers.
 
  <pre> ``` int *q = (cast-type*)malloc(n * sizeof(cast-type)) ``` </pre>    where n is the size as mentioned by the user. 
  
-+ It is necessary to type-cast here because, malloc() simply allocates memory withtout knowing the type of the data, and returns a void pointer which can point to any type of data. Hence it is the programmer's responsibility to type-cast it to the appropriate type.
++ It is necessary to type-cast here because, malloc() simply allocates memory without knowing the type of the data, and returns a void pointer which can point to any type of data. Hence it is the programmer's responsibility to type-cast it to the appropriate type.
 + On successfull memory allocation it returns a pointer which is pointing to the first byte of the allocated memory or else, if it fails, it returns the NULL pointer.
 
 ### Code:
