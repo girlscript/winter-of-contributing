@@ -12,6 +12,7 @@ The `class` and `id` selectors in CSS help in identifying various HTML elements 
 ## Class Selector
 
 The `class` selector in CSS helps to select the elements with a specific `class` attribute. Therefore, it matches all the HTML elements depending on the content of their `class`.
+
 It is defined by the symbol `.` followed by the class-name. For example : `.class_name`
 
 ### Syntax
@@ -48,6 +49,7 @@ Here a `div` with a paragraph has a class of name `.container`
 ## ID Selector
 
 The ID selector in CSS helps to select elements with a specific `id` attribute. 
+
 An `id` in CSS is created using the symbol `#` followed by the id-name. For example : `#id_name`
 
 **PLEASE NOTE that unlike class, `id` can only be used by one HTML element i.e., it is unique to each element**
