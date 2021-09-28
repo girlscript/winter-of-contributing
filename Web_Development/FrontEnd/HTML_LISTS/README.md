@@ -1,6 +1,9 @@
 # HTML LISTS
 Lists are structured HTML elements which are used to group similar or related items together in order to achieve better readability and an organised representation of information. Lists can be used to represent general data as well as for navigation purposes. 
 
+Using HTML lists not only organises our data, it also helps us style our website better because all the list items are independent and they can be styled differently using different CSS styles. We can also move the data around easily at any point of time by changing the order of our code. This can be a simple cut and paste, so they are very 
+easy to maintain as well.
+
 ## Types of Lists
 There are 3 types of lists present in HTML:
 ### 1. Ordered List
@@ -38,6 +41,8 @@ This produces an output as follows:
   <li>Stop</li>
 </ol>
 
+![alt text](assets/ol.jpg)
+
 The ordered list marker is numeric by default,however we can always use the ```type``` attribute to define the type of marker that we want in our ordered list. The markers can be numbers, upper and lower case letters and upper and lower case roman numbers.They follow the syntax:
 ``` <ol type="a"></ol> ``` 
 
@@ -69,6 +74,8 @@ This produces an output as follows:
   <li>Rice</li>
   <li>Sugar</li>
 </ul>
+
+![alt text](assets/ul.jpg)
 
 The default marker for an unordered list is the black disc shaped bullet, however we can change the list marker to circular, square bullets.We can also discard the bullets all together by using ``` type="none" ``` attribute inside the ``` <ul> ``` tag.
 
@@ -102,8 +109,7 @@ This produces an output as follows:
     <dd>Rank 3</dd>
 </dl>
 
-Using HTML lists not only organises our data, it also helps us style our website better because all the list items are independent and they can be styled differently using different CSS styles. We can also move the data around easily at any point of time by changing the order of our code. This can be a simple cut and paste, so they are very 
-easy to maintain as well.
+![alt text](assets/dl.jpg)
 
 ---
 
