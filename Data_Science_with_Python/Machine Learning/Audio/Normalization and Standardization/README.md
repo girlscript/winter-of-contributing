@@ -1,3 +1,6 @@
+Every industry irrespective of its category and background needs data to make decisions for the improvement of their company. But one can't use any random data that's not preprocessed. Data should be cleaned and normalized before using it to get the accurate decision from our Machine Learning Model. 
+This article helps us understand the data normalization process, what are the techniques involved , uses of it and the formulas used.
+
 ## Data Normalization?
 Data normalization is generally considered the development of clean data.Normalization is used to scale the data of an attribute so that it falls in a smaller range, such as -1.0 to 1.0 or 0.0 to 1.0. 
 It increases the cohesion of entry types leading to cleansing, lead generation, segmentation, and higher quality data.
@@ -55,6 +58,7 @@ It’s useful when there are a few outliers, but not so extreme that you need cl
 
 #### Will these methods improve data?
 It is hard to know whether rescaling your data will improve the performance of your algorithms before you apply them. If often can, but not always.
+It not only helps to improve accuracy, it also clears some digital memory with more useful information. The data set is segmented better, groups can be rapidly split into categories based on title.
 
 ### Applications of Data Scaling
 It is compulsory for data to be normalized and scaled before making predictions, because the data range can be randomly distributed and for more clear data, it has to be scaled for a certain range.
