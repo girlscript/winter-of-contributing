@@ -6,7 +6,7 @@
 - What is HTTP?
 - How does Browser Rendering Works?
 - DNS & Working of DNS?
-- Domain Name Basics.
+- [Domain Name Basics.](./domain_name_basics.md)
 - Hosting & Name Servers.
 
 ## 1️⃣ HTML
