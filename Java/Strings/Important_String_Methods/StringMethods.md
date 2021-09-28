@@ -197,8 +197,10 @@ while the **ab** again returned true as **ab** was found in the string in the **
 
 ## equals() method
 The equals method basically compares two given strings based on the characters in the string. If any single character is even not matched then the equals method return false. 
-Thus we can say that each character and its type should be matched. The type here means if a particular character in one string is in Upper case 
-then in the second string it should be upper case as well. 
+Thus we can say that each character and its type should be matched. 
+
+The type here means if a particular character in one string is in Upper case then in the second string it should be upper case as well. 
+
 The return type is boolean i.e. it return true if string are equal else returns false.
 
 **Syntax**
