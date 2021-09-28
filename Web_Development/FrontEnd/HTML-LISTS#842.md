@@ -26,7 +26,6 @@ Such lists are unorganised and are places randomly. Take the same example of lis
 
 ![Screenshot (122)](https://user-images.githubusercontent.com/71889838/134956431-957eca2f-f396-40f6-abd3-2a123a7f5a6e.png)
 
-
 Here these numbers are not organized. first is four, second is nine and so on. There is no definite sequence is followed here.
 
 ### How to create lists in HTML?
@@ -40,9 +39,12 @@ There are few more tags used in HTML lists -
 2. `<dt>` - this tag is used to add the elements to the description list
 3. `<dd>` - this tag is used to add the description of the elements in the description list
 
+For example - 
+![Screenshot (8)](https://user-images.githubusercontent.com/71889838/135022483-8847321a-8848-4502-9126-7e8d2eecf420.png)
+
 ### EXAMPLES
 
-` <html>
+ <html>
 
 	<head>LISTS</head>
 
@@ -111,8 +113,9 @@ There are few more tags used in HTML lists -
 	</dl>
 
 	</body>
-</html> `
+</html> 
 
 ### HERE'S HOW IT WILL LOOK LIKE WHEN VEIWED IN ANY WEB BROWSER
 
-![Screenshot (90)](https://user-images.githubusercontent.com/71889838/134722755-93a6a1ef-aa8b-4636-bf6c-750d8a635186.png)
+![Screenshot (7)](https://user-images.githubusercontent.com/71889838/135022540-fa9d8f39-f756-4ec8-ba0d-bd2b8f1497fd.png)
+
