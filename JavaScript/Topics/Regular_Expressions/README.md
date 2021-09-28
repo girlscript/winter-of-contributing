@@ -76,10 +76,10 @@ The following table demonstrates those four types of assertions.
 
 | Name | Syntax | Description | Example |
 |-----------| ----------- |-----------| ----------- |
-| Positive Lookahead Assertion | `a(?= b)` | Whether "a" is followed by "b" | ![positive lookahead](images/15.Positive_Lookahead.png) |
-| Negative Lookahead Assertion | `a(?! b)` | Whether "a" is not followed by "b" | ![negative lookahead](images/16.Negative_Lookahead.png) |
-| Positive Lookbehind Assertion | `(?<= b)a` | Whether "b" comes before "a" | ![positive lookbehind](images/17.Positive_Lookbehind.png) |
-| Negative Lookbehind Assertion | `(?<! b)a` | Whether "b" doesn't come before "a" | ![negative lookbehind](images/18.Negative_Lookbehind.png) |
+| Positive Lookahead Assertion | `a(?= b)` | Whether "a" is followed by "b" | ![positive lookahead](images/14.Positive_Lookahead.png) |
+| Negative Lookahead Assertion | `a(?! b)` | Whether "a" is not followed by "b" | ![negative lookahead](images/15.Negative_Lookahead.png) |
+| Positive Lookbehind Assertion | `(?<= b)a` | Whether "b" comes before "a" | ![positive lookbehind](images/16.Positive_Lookbehind.png) |
+| Negative Lookbehind Assertion | `(?<! b)a` | Whether "b" doesn't come before "a" | ![negative lookbehind](images/17.Negative_Lookbehind.png) |
 
 
 ## Escape Sequences
@@ -144,7 +144,7 @@ This function breaks the string as per the argument given and returns the output
 
 For example, 
 
-![split function](images/14.Split_Function.png)
+![split function](images/13.Split_Function.png)
 
 ## 5. `matchAll()` function
 
@@ -154,7 +154,7 @@ This function returns all possible ways of matched substring and returns in the 
 
 For example,
 
-![matchall function](images/19.MatchAll_Function.png)
+![matchall function](images/18.MatchAll_Function.png)
 
 ## 6. `replaceAll()` function
 
