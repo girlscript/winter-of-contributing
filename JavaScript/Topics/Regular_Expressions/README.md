@@ -15,7 +15,9 @@ Regular expressions can also be represented using `RegExp()` function.
 
 For example, 
 
-![RegExp function](images/13.RegExp_Function.png)
+``` JS
+let reg = RegExp("x+", "g");
+```
 
 There are many functions in JavaScript which helps to check the validity of the regular expression, such as `match()`, `matchAll()`, etc.
 
