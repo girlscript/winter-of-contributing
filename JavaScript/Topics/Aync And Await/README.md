@@ -11,14 +11,15 @@ Async function always returns a Promise.
 
 **Syntax**
 
-````
+````js
  async function printHelloWorld(){
         return "Hello World !!!";
  }
  console.log(printHelloWorld());
  ````
  Output-
-```` Promise {<fulfilled>: 'Hello World !!!'}
+````js
+Promise {<fulfilled>: 'Hello World !!!'}
 [[Prototype]]: Promise
 [[PromiseState]]: "fulfilled"
 [[PromiseResult]]: "Hello World !!!"
@@ -30,7 +31,7 @@ Here "Hello World !!!" act as a fulfilled value of promise.
 
 JavaScript Await function is used to wait for the promise. It stops the execution of the function at this time until the promise is fulfilled.
 
-````
+````js
 async function xyz(){
                 return "GirlScript";
             }
@@ -49,7 +50,7 @@ Hello GirlScript!!!
 ````
 
 Example-
-````
+````js
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,7 +86,7 @@ Output
 ## Error Handling
 If error occurs in function of try and catch, adding catch handler won't work. Even tou tere was an error ten also async function will return fulfill values.
 
-````
+````js
 async function Demo(){
             try{
                 const res = await tryDemo();
@@ -108,7 +109,7 @@ async function Demo(){
 
 **To Solve it throw the error again**
 
-````
+````js
 async function Demo(){
             try{
                 const res = await tryDemo();
@@ -125,7 +126,7 @@ async function Demo(){
 
 ## Multiple await in single async function
 
-````
+````js
   let counter=0;
         async function Hello(){
             counter++;
