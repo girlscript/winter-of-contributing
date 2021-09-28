@@ -64,3 +64,8 @@ We apply Label Encoding when:
 2. The number of categories is quite large as one-hot encoding can lead to high memory consumption
 
 
+## Purpose od dealing with categorical columns:
+
+- In the above we have seen there are three various ways to deal with categorical data, but the main aim of this is when we create a machine learning algorithm and we have some columns as categorical and some as numerical then we need to change the categorical data to the numerical format to maintain the same data type.
+- We all might be thinking why to maintain same data type, the answer would be because we all know that when we perform the machine learning algorithms then we need to have all the columns in the integer format and not strings . so we convert them to integer values.
+- Choosing which method to change data from categorical to integer format will be depending upon the the problem statement.
