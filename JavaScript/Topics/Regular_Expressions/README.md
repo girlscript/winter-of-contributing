@@ -82,7 +82,7 @@ The following table demonstrates those four types of assertions.
 
 ## Escape Sequences
 
-The escape sequences are the special characters which has a special meaning.
+Escape sequences are the special characters which has a special meaning.
 
 The following table explains the different types of escape sequences.
 
