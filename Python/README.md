@@ -40,6 +40,7 @@
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
+- [How_to_install_python](./How_to_install_python)
 
 
 ## Learning path
@@ -62,17 +63,10 @@
 15. OOP-Class
 16. Advanced function-reduce()
 17. Advanced Function - Zip
-
-
-
 18. List Comprehension
 19. Advanced function-map()
 20. What is Automation?
-
-
-
 21. Args and Kwargs
-
-
 22. Web_Scraping
+23. How to install Python
 
