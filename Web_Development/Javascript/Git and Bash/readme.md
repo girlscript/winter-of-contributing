@@ -12,7 +12,7 @@ Lets just understand the difference in between them one by one and how they crea
 #### How to install Git
 
 - `Windows` users can go to their official [website](https://git-scm.com/) and download git bash.
-- For `Mac` users , Git already comes installed with their `MacOS`. you can check whether it is installed not by opening up your terminal and type.
+- For `Mac` users , Git already comes installed with their `MacOS`. you can check whether it is installed or not by opening up your terminal and type.
 ```shell
 git -version
 ```
