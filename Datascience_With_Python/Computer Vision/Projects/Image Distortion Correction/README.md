@@ -67,6 +67,13 @@ Using the dataset, the distortion coefficeint was calculated as follows-
 ## :page_facing_up: **CONCLUSION**
 * Digital equipment can capture images at resolutions and with detail that far surpasses the human vision system. Computers can also detect and measure the difference between colors with very high accuracy. But making sense of the content of those images is a problem that computers have been struggling with for decades. To a computer, the above picture is an array of pixels, or numerical values that represent colors.
 
-* Computer vision is the field of computer science that focuses on replicating parts of the complexity of the human vision system and enabling computers to identify and process objects in images and videos in the same way that humans do
+* Computer vision is the field of computer science that focuses on replicating parts of the complexity of the human vision system and enabling computers to identify and process objects in images and videos in the same way that humans do.
+
+## :bust_in_silhouette: **CREDITS**
+* https://bdtechtalks.com/2019/01/14/what-is-computer-vision/
+* https://opencv24-python-tutorials.readthedocs.io/en/latest/
+* https://learnopencv.com/camera-calibration-using-opencv/
+* http://www.vision.caltech.edu/bouguetj/calib_doc/papers/DevelopmentCameraCalibrationMethodsModels.pdf
+* https://github.com/YoniChechik/AI_is_Math
 
 **:sunglasses:** **CREATOR**- https://github.com/theshredbox
