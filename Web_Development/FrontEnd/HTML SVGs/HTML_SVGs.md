@@ -46,7 +46,8 @@ SVG has some predefined shape elements that can be used by developers:
 ## SVG Rectangle
 
 <img src="images/rectangle.jpeg " alt="rectangle svg image" />
-```HTML
+  
+```html
 <svg  width="400"  height="110">
 <rect
 x="5"
@@ -59,6 +60,7 @@ style="fill: green; stroke-width: 3; stroke: rgb(0, 0, 0); opacity: 0.6"
 />
 </svg>
 ```
+  
 -   The width and height attributes of the <rect> element define the height and the width of the rectangle
 -   The x attribute defines the left position of the rectangle (e.g. x="5" places the rectangle 5 px from the left margin)
 -   The y attribute defines the top position of the rectangle (e.g. y="1" places the rectangle 1 px from the top margin)
@@ -72,7 +74,7 @@ style="fill: green; stroke-width: 3; stroke: rgb(0, 0, 0); opacity: 0.6"
 ## SVG circle
 
 <img src="images/circle.jpeg " alt="circle svg image" />
-```C
+```html
 <svg  height="100"  width="100">
 <circle
 cx="50"
@@ -84,13 +86,14 @@ fill="yellow"
 />
 </svg>
 ```
+  
 -   The cx and cy attributes define the x and y coordinates of the center of the circle. If cx and cy are omitted, the circle's center is set to (0,0)
 -   The r attribute defines the radius of the circle
 
 ## SVG ellipse
 
 <img src="images/ellipse.jpeg " alt="ellipse svg image" />	
-```C
+```html
 <svg  height="140"  width="500">
 <ellipse
 cx="200"
@@ -101,6 +104,7 @@ style="fill: pink; stroke: purple; stroke-width: 2"
 />
 </svg>
 ```
+  
 -   The cx attribute defines the x coordinate of the center of the ellipse
 -   The cy attribute defines the y coordinate of the center of the ellipse
 -   The rx attribute defines the horizontal radius
@@ -109,7 +113,7 @@ style="fill: pink; stroke: purple; stroke-width: 2"
 The following example combines two ellipses (one yellow and one white):
 <img src="images/ellipse overlapped.jpeg " alt="ellipse overlapped svg image" />
 
-```C
+```html
 <svg  height="100"  width="500">
 <ellipse  cx="240"  cy="50"  rx="220"  ry="30"  style="fill: blue"  />
 <ellipse  cx="220"  cy="50"  rx="190"  ry="20"  style="fill: magenta"  />
@@ -121,7 +125,7 @@ The following example combines two ellipses (one yellow and one white):
 The <polygon> element is used to create a graphic that contains at least three sides.
 <img src="images/polygon.jpeg " alt="polygon svg image" />
 
-```C
+```html
 <svg  height="250"  width="500">
 <polygon
 points="220,10 300,210 170,250 123,234"
@@ -133,7 +137,7 @@ style="fill: lime; stroke: purple; stroke-width: 1"
 - The points attribute defines the x and y coordinates for each corner of the polygon
   <img src="images/star.jpeg " alt="star shaped svg image" />
 
-```C
+```html
 <svg  height="210"  width="500">
 <polygon
 points="100,10 40,198 190,78 10,78 160,198"
@@ -169,7 +173,7 @@ A good understanding of paths is important when drawing SVGs. While creating com
 Bézier curves are used to model smooth curves that can be scaled indefinitely. Generally, the user selects two endpoints and one or two control points. A Bézier curve with one control point is called a quadratic Bézier curve and the kind with two control points is called cubic.
 <img src="images/curve.jpeg " alt="curve svg image" />
 
-```C
+```html
 <svg  height="400"  width="450">
 <path
 id="lineAB"
