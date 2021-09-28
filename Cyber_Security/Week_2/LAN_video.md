@@ -1,3 +1,3 @@
 # Local Area Networks (LANs)
 
-[Reference Video](https://youtu.be/BPH7TPGnwiU)
+[Reference Video](https://youtu.be/ZDRetBQMHP0)
