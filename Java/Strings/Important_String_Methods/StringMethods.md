@@ -102,12 +102,12 @@ Now let’s see a simple example to understand this
 public class CompareStrings{
       public static void main(String args[]) {
             	String str1 = “HelloWorld”;
-String str2 = “Helloworld”;
-String str3 = “Hello”;
-String str4 = “HelloWorld”;
-Sustem.out.println(str1.compareTo(str2)); 
-System.out.println(str1.compareTo(str3));
-System.out.println(str1.compareTo(str4));
+		String str2 = “Helloworld”;
+		String str3 = “Hello”;
+		String str4 = “HelloWorld”;
+		System.out.println(str1.compareTo(str2)); 
+		System.out.println(str1.compareTo(str3));
+		System.out.println(str1.compareTo(str4));
       }
 }
 ```
@@ -179,7 +179,7 @@ public class Example{
       public static void main(String args[]) {
 	String s = “You are reading about contains method”;
 	System.out.println (s.contains(“reading”));
-System.out.println (s.contains(“mth”));
+	System.out.println (s.contains(“mth”));
 	System.out.println (s.contains(“ab”));
       }
 }
@@ -220,8 +220,8 @@ public class EqualsExample {
 	String str3 = “Welcome”;
 	String str4 = “HelloWorld”;
 	System.out.println(str1.equals(str2));
-System.out.println(str1.equals(str3));
-System.out.println(str1.equals(str4));
+	System.out.println(str1.equals(str3));
+	System.out.println(str1.equals(str4));
       }
 }
 ```
@@ -263,8 +263,8 @@ public class EqualsExample {
 	String str3 = “Welcome”;
 	String str4 = “HelloWorld”;
 	System.out.println(str1.equals(str2));
-System.out.println(str1.equals(str3));
-System.out.println(str1.equals(str4));
+	System.out.println(str1.equals(str3));
+	System.out.println(str1.equals(str4));
       }
 }
 ```
