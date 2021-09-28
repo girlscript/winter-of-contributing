@@ -6,8 +6,8 @@ Lets just understand the difference in between them one by one and how they crea
 - Git is an free and open sources version control command line tool which can manage the commits and branches of your source code. 
 - Git can also push your codes to remote server . Where you can handle your codes , commits ,  and branches remotely using just Git on your local machine.
 - Using Git you can even shift to different branches and commits and even tracks all the commit logs.
-- Git gives and easy and flexible environment way to records , logs all of your codes.
-- Git gives you environment for multiple developers to work together on a projects .
+- Git gives and easy and flexible environment way to record all of logs and codes.
+- Git gives you an environment for multiple developers to work together on a projects.
 
 #### How to install Git
 
@@ -16,7 +16,7 @@ Lets just understand the difference in between them one by one and how they crea
 ```shell
 git -version
 ```
-- In maximum `Linux` distro git comes with already installed  but you can install it but depends upon which linux distro and package manager you are using.
+- In maximum `Linux` distro git comes with already installed but you can install it easily but it is depend upon which linux distro and package manager you are using.
 
 ##### For Ubuntu
 ```shell
@@ -56,7 +56,7 @@ git commit -am "your message"
 ```shell
 git checkout commit_id
 ```
-    commit_id is an alphanumeric number which you get while `git log`
+    commit_id is an alphanumeric number which you get while doing `git log`.
 	
 - Making a new branch 
 ```shell
