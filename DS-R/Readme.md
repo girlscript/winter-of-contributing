@@ -12,3 +12,7 @@
 
 Every day, Engineers continue to develop new R tools and discover new R applications. Over 10,000 user-generated libraries have been produced to improve R's functionality. These packages have received crowdsourced quality evaluation as well as support from well-known experts in each discipline. All of this is fantastic since R excels at all it does:
 > Experts can rapidly and simply comprehend, interact with, and visualize data with R.
+
+---
+
+[Source](https://bookdown.org/rdpeng/rprogdatascience/history-and-overview-of-r.html)
