@@ -49,15 +49,15 @@ There are several different types of drawables:
 - **Example:**
    1. Copy from system-
    
-       ![image](https://user-images.githubusercontent.com/70523057/134815113-4d258e41-5bf1-4c4f-9f1f-89f110dcd049.png)
+       <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134815113-4d258e41-5bf1-4c4f-9f1f-89f110dcd049.png" width="400" ></div> 
    
    2. Right click and paste in drawable folder-
-     ![image](https://user-images.githubusercontent.com/70523057/134814909-9a76c86d-8e50-4260-b14d-c1ce23a651ef.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134814909-9a76c86d-8e50-4260-b14d-c1ce23a651ef.png" width="600" ></div> 
    3. Add image to drawable folder-
-     ![image](https://user-images.githubusercontent.com/70523057/134815138-e2a5eb98-f4d1-4544-a20d-8de428b9c64d.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134815138-e2a5eb98-f4d1-4544-a20d-8de428b9c64d.png" width="600" ></div> 
    4. Give any name to the image-
    here it is android_image.png
-     ![image](https://user-images.githubusercontent.com/70523057/134815201-22d49228-daf2-4663-a84d-d5a95a21fb70.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134815201-22d49228-daf2-4663-a84d-d5a95a21fb70.png" width="500" ></div> 
    5. Inside the xml activity page add ImageView widget-
    
      ```bash
@@ -81,8 +81,9 @@ There are several different types of drawables:
    
    6. Drawable Image on Android Screen-
    
-    ![IMG_20210928_113049](https://user-images.githubusercontent.com/70523057/135032021-dfc62b6e-4cdd-470f-8c45-edb972a5f442.jpg)
-
+      <div align="center"><table><tr><td>
+      <img src="https://user-images.githubusercontent.com/70523057/135032021-dfc62b6e-4cdd-470f-8c45-edb972a5f442.jpg" width="240" >
+      </td></tr></table></div> 
 
 ## 2. Create an XML resource file that defines the drawable properties:
 
@@ -113,12 +114,11 @@ There are several different types of drawables:
 - **Example:**
   1. Right click on drawable folder and create resource xml file-
   
-     ![image](https://user-images.githubusercontent.com/70523057/134816211-bb12e446-553e-48e3-832f-5d820054ff4e.png)
-  
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134816211-bb12e446-553e-48e3-832f-5d820054ff4e.png" width="600" ></div> 
   
   2. Select the root element of xml and name the file-
   
-     ![image](https://user-images.githubusercontent.com/70523057/134816287-9fc0490e-2a8b-473b-94ef-a64b43b08b78.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134816287-9fc0490e-2a8b-473b-94ef-a64b43b08b78.png" width="600" ></div> 
   3. Added 3 drawable images of flowers in png format
   
   
@@ -161,7 +161,9 @@ There are several different types of drawables:
      ```
   6. Output in android Screen or Emulator-
   
-     ![image](https://user-images.githubusercontent.com/70523057/134816702-ec6a38fd-ea17-4003-9cc6-190d072454a3.png)
+     <div align="center"><table><tr><td>
+      <img src="https://user-images.githubusercontent.com/70523057/134816702-ec6a38fd-ea17-4003-9cc6-190d072454a3.png" width="350" >
+      </td></tr></table></div> 
 
 
    
@@ -217,7 +219,8 @@ There are several different types of drawables:
   ```
 - **Example:**
   1. Create drawable resource xml file by selecting root element and name the file
-     ![image](https://user-images.githubusercontent.com/70523057/134852542-6d4579ab-61a0-4a17-a72b-df3647c52311.png)
+
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134852542-6d4579ab-61a0-4a17-a72b-df3647c52311.png" width="600" ></div> 
   
   2. statelist.xml
   
@@ -253,11 +256,10 @@ There are several different types of drawables:
      </RelativeLayout>
      ```
   4. Output on Android Screen or Emulator-
+     <div align="center" >
 
 
-     https://user-images.githubusercontent.com/70523057/135059529-ad0da019-ca22-4639-a174-624e3d3c8b3d.mp4
-
-
+     https://user-images.githubusercontent.com/70523057/135059529-ad0da019-ca22-4639-a174-624e3d3c8b3d.mp4</div>
    
       
 #### 2.1.3 Level List
@@ -277,8 +279,9 @@ There are several different types of drawables:
    </level-list>
   ```
 - **Example:**
+
   1. Right click on drawable folder and create resource xml file
-     ![image](https://user-images.githubusercontent.com/70523057/134896654-40d3eaca-bc9d-4bca-80a9-4077f9e8da74.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134896654-40d3eaca-bc9d-4bca-80a9-4077f9e8da74.png" width="600" ></div> 
   2. levels.xml
      ```bash
      <?xml version="1.0" encoding="utf-8"?>
@@ -322,10 +325,13 @@ There are several different types of drawables:
      ImageView image= (ImageView)findViewById(R.id.level_list);
      image.setImageLevel(3);
      ```
-  > Here, the maximum level of the level list is 3, therefore we can see the @color/teal_700 which of level 3,
+     > Here, the maximum level of the level list is 3, therefore we can see the @color/teal_700 which of level 3,
   
   5. Output on Android Screen or Emulator
-     ![IMG_20210928_113000](https://user-images.githubusercontent.com/70523057/135048782-75459cf1-2125-422e-9d6c-4eb1600e6405.jpg)
+     <div align="center"><table><tr><td>
+      <img src="https://user-images.githubusercontent.com/70523057/135048782-75459cf1-2125-422e-9d6c-4eb1600e6405.jpg" width="240" >
+      </td></tr></table></div> 
+
 <br>
 
 #### 2.1.4 Shape Drawable
@@ -375,7 +381,7 @@ There are several different types of drawables:
 - **Example:**
   > Here, you can see the gradient example of shape drawable
   1. Right click on drawable folder and create resource xml file
-  ![image](https://user-images.githubusercontent.com/70523057/134817156-170bf398-fb8e-47d2-88fa-d9c908b2173e.png)
+  <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134817156-170bf398-fb8e-47d2-88fa-d9c908b2173e.png" width="600" ></div> 
   
   2. shape1.xml
   
@@ -413,8 +419,11 @@ There are several different types of drawables:
      ```
   
   4. Output on Android Screen or Emulator-
-     ![image](https://user-images.githubusercontent.com/70523057/135036623-e87d0a56-7f36-4d80-99db-80546b858d92.png)
-
+     <div align="center"><table><tr><td>
+      <img src="https://user-images.githubusercontent.com/70523057/135036623-e87d0a56-7f36-4d80-99db-80546b858d92.png" width="240" >
+      </td></tr></table></div> 
+      
+      
 #### 2.1.5 Scale Drawable
 > An XML file that defines a drawable which can  changes the size of another Drawable based on its current level value. 
 
@@ -434,7 +443,7 @@ There are several different types of drawables:
   ```
 - **Example:**
   1. Create drawable resource xml file by selecting root element and name the file
-     ![image](https://user-images.githubusercontent.com/70523057/134942442-d8fcb786-e826-4f03-b3c4-58cbf9f9261d.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134942442-d8fcb786-e826-4f03-b3c4-58cbf9f9261d.png" width="600" ></div> 
   
   2. scale.xml
      ```bash
@@ -466,9 +475,11 @@ There are several different types of drawables:
      </RelativeLayout>
      ```
   4. Output on Android Screen or Emulator-
-     ![IMG_20210928_113019](https://user-images.githubusercontent.com/70523057/135052768-78c260c5-88d4-4dc8-9077-d0e03167b487.jpg)
-     ![IMG_20210928_113108](https://user-images.githubusercontent.com/70523057/135052761-4e32b89e-5b5c-4feb-ac93-df2ab81d5256.jpg)
-
+     <div align="center"><table><tr>
+     <td><img src="https://user-images.githubusercontent.com/70523057/135052768-78c260c5-88d4-4dc8-9077-d0e03167b487.jpg" width="240" ></td>
+     <td><img src="https://user-images.githubusercontent.com/70523057/135052761-4e32b89e-5b5c-4feb-ac93-df2ab81d5256.jpg" width="240" ></td>
+     </tr></table></div> 
+   
 
 #### 2.1.6 Clip Drawable
 > An XML file that defines a drawable that clips another Drawable based on this Drawable's current level value. 
@@ -490,7 +501,7 @@ There are several different types of drawables:
   ```
 - **Example:**
   1. Create drawable resource xml file by selecting root element and name the file
-     ![image](https://user-images.githubusercontent.com/70523057/134941927-60cd1b0e-10bf-46b6-9c64-0061346ea6a3.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134941927-60cd1b0e-10bf-46b6-9c64-0061346ea6a3.png" width="600" ></div> 
   
   2. clip.xml
      ```bash
@@ -533,7 +544,9 @@ There are several different types of drawables:
      
      
 v.  Output on Android Screen or Emulator- 
-       ![IMG_20210928_113049](https://user-images.githubusercontent.com/70523057/135051034-3ee32c40-041f-48fe-8923-8ddbd03d4801.jpg)
+       <div align="center"><table><tr><td>
+      <img src="https://user-images.githubusercontent.com/70523057/135051034-3ee32c40-041f-48fe-8923-8ddbd03d4801.jpg" width="240" >
+      </td></tr></table></div> 
 
      
 #### 2.1.7 Transition Drawable
@@ -561,7 +574,7 @@ Only  two items are supported.
   ```
 - **Example:**
   1. Create drawable resource xml file by selecting root element and name the file
-     ![image](https://user-images.githubusercontent.com/70523057/134930432-c9f24a72-c5d2-4ddb-b614-6f54c7bf8b41.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134930432-c9f24a72-c5d2-4ddb-b614-6f54c7bf8b41.png" width="600" ></div> 
   2. transitions.xml
      ```bash
      <?xml version="1.0" encoding="utf-8"?>
@@ -608,12 +621,11 @@ Only  two items are supported.
      ```
 
   5. Output on Android Screen or Emulator-
-     
+     <div align="center">
 
+     
      https://user-images.githubusercontent.com/70523057/135058728-8b4f09f2-4730-49d6-a33f-f5179ac574dd.mp4
-     
-
-
+  </div>
 
 #### 2.1.8 Animation List Drawable
 > An object used to create **frame-by-frame** animations, defined by a series of Drawable objects, which can be used as a View object's background.
@@ -631,9 +643,8 @@ To run the animation we call `start()`.
     </animation-list>
   ```
 - **Example:**
-
   1. Create drawable resource xml file by selecting root element and name the file
-     ![image](https://user-images.githubusercontent.com/70523057/134929947-9cd81aa0-42dd-46ba-874c-34dfc7accdf5.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134929947-9cd81aa0-42dd-46ba-874c-34dfc7accdf5.png" width="600" ></div> 
   2. Now create different vector assets to show the animation inside the res/drawable/ folder
   
   3. animations.xml
@@ -666,7 +677,6 @@ To run the animation we call `start()`.
      
      </RelativeLayout>
      ```
-  
   5. MainActivity.java
           
      ```bash
@@ -677,14 +687,14 @@ To run the animation we call `start()`.
              // Start the animation.
              frameAnimation.start();
      ```
-    > Here, we have load the ImageView which host the animation and set its background to our AnimationDrawable XML resource.
+     > Here, we have load the ImageView which host the animation and set its background to our AnimationDrawable XML resource.
 
   6. Output on Android Screen or Emulator-
-     
+     <div align="center">
 
+     
      https://user-images.githubusercontent.com/70523057/135058744-c9efcc42-fcbd-480d-884a-53090c2a89bf.mp4
-     
-
+  </div>
 
 
 <br><br>
@@ -695,29 +705,28 @@ To run the animation we call `start()`.
 
 > _Steps_
   1. Right click on drawable folder and create **Image Assets**
-     ![image](https://user-images.githubusercontent.com/70523057/134815730-35d9d6b3-f358-4e36-8f01-fb61e8c3d37b.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134815730-35d9d6b3-f358-4e36-8f01-fb61e8c3d37b.png" width="600" ></div> 
   
   2. There are all over 3 types of assets inside, 
      we will be focusing at **image type**:
   
-      ![image](https://user-images.githubusercontent.com/70523057/134947261-f82f1ed6-a0e9-4238-b80e-1ae59cd8d223.png)
+      <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134947261-f82f1ed6-a0e9-4238-b80e-1ae59cd8d223.png" width="600" ></div> 
   
   3. These are the images file
   
-     ![image](https://user-images.githubusercontent.com/70523057/134947737-058f2100-e170-40f0-a224-b7999a23d994.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134947737-058f2100-e170-40f0-a224-b7999a23d994.png" width="600" ></div> 
   
   4. Created a new folder for all the image assets according to their density-
   
-     ![image](https://user-images.githubusercontent.com/70523057/134947837-10452854-2b05-4463-bc93-9d4f70bc9964.png)
-  
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134947837-10452854-2b05-4463-bc93-9d4f70bc9964.png" width="350" ></div> 
   
   5. Type 2: **Clip Art**
   
-     ![image](https://user-images.githubusercontent.com/70523057/134946807-e33d1b9f-9d7a-4101-a3fb-66fda3676154.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134946807-e33d1b9f-9d7a-4101-a3fb-66fda3676154.png" width="600" ></div> 
      
   6. Type 3: **Text**
    
-     ![image](https://user-images.githubusercontent.com/70523057/134947100-ff560f13-4d6b-4f1f-a752-d52016734938.png)
+     <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134947100-ff560f13-4d6b-4f1f-a752-d52016734938.png" width="600" ></div> 
 
      `#NOTE:` 
      :-
@@ -730,19 +739,19 @@ To run the animation we call `start()`.
 > **Image scalability is the major advantage of using the vector drawable.** 
 > The same file can be resized for different screen sizes without loss of image quality which results in smaller APK files and less developer maintenance. We can also use vector images for animation. 
 
-> _Steps_
+> _Steps_  
   1. Right click on drawable folder and create **Vector Assets**
-    ![image](https://user-images.githubusercontent.com/70523057/134816111-9930b272-c115-4c73-90df-cddfbfe1e74c.png)
+    <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134816111-9930b272-c115-4c73-90df-cddfbfe1e74c.png" width="600" ></div> 
   2. Select any one type and click on Clip Art to choose the assets
-    ![image](https://user-images.githubusercontent.com/70523057/134815817-8ce3359d-de63-4e86-b1ab-2e74b19620d3.png)
+    <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134815817-8ce3359d-de63-4e86-b1ab-2e74b19620d3.png" width="600" ></div> 
   3. Now select your vector
-    ![image](https://user-images.githubusercontent.com/70523057/134815928-a2e3c9ef-e5ef-49f7-9ac9-a5f584b1ad28.png)
+    <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134815928-a2e3c9ef-e5ef-49f7-9ac9-a5f584b1ad28.png" width="600" ></div> 
   4. Choose any color you want
-    ![image](https://user-images.githubusercontent.com/70523057/134816006-a841a4df-3e3f-490b-92b0-60ec2b5967ab.png)
+    <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134816006-a841a4df-3e3f-490b-92b0-60ec2b5967ab.png" width="600" ></div> 
   5. Give name and can Adjust the size
-    ![image](https://user-images.githubusercontent.com/70523057/134816082-bccd6ebf-70ca-4225-b0cc-81f46c76aa0c.png)
+    <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134816082-bccd6ebf-70ca-4225-b0cc-81f46c76aa0c.png" width="600" ></div> 
   6. You can see, the file will be saved as the name of ic_add_photo.xml
-    ![image](https://user-images.githubusercontent.com/70523057/134816098-07dcdd5a-9988-4a11-83ce-c92f8c43ed38.png)
+    <div align="center"><img src="https://user-images.githubusercontent.com/70523057/134816098-07dcdd5a-9988-4a11-83ce-c92f8c43ed38.png" width="600" ></div> 
   
   7. This is how vector xml file looks like:
   
@@ -759,6 +768,7 @@ To run the animation we call `start()`.
              android:pathData="M3,4V1h2v3h3v2H5v3H3V6H0V4H3zM6,10V7h3V4h7l1.83,2H21c1.1,0 2,0.9 2,2v12c0,1.1 -0.9,2 -2,2H5c-1.1,0 -2,-0.9 -2,-2V10H6zM13,19c2.76,0 5,-2.24 5,-5s-2.24,-5 -5,-5s-5,2.24 -5,5S10.24,19 13,19zM9.8,14c0,1.77 1.43,3.2 3.2,3.2s3.2,-1.43 3.2,-3.2s-1.43,-3.2 -3.2,-3.2S9.8,12.23 9.8,14z" />
      </vector>
      ```
+
   
 <br><br>
 <br><br>
