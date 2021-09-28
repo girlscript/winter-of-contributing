@@ -23,7 +23,7 @@ With JavaScript, a cookie can be created like this:
 ```js
 document.cookie = "username=John Doe; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
 ```
-
+![](https://i.stack.imgur.com/x3bGr.png)
 # Read a Cookie with JavaScript
 With JavaScript, cookies can be read like this:
 ```js
