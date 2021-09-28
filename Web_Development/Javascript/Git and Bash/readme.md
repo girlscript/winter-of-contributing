@@ -1,9 +1,9 @@
 ### Git and Bash
-Git and Bash are fairly different things but windows version of `git` comes with configured with bash shell. This is why you can even execute the bash commands there. But you can not perform low level tasks with git-bash in windows.
+Git and Bash are fairly different things but windows version of `git` comes preconfigured with bash shell. This is why you can even execute the bash commands there. But you can not perform low level tasks with git-bash in windows.
 Lets just understand the difference in between them one by one and how they create a development workflow together.
 
 ####  What is Git
--  Git is an free and open sources version control command line tool which can manage the commits and branches of your source code. 
+- Git is an free and open sources version control command line tool which can manage the commits and branches of your source code. 
 - Git can also push your codes to remote server . Where you can handle your codes , commits ,  and branches remotely using just Git on your local machine.
 - Using Git you can even shift to different branches and commits and even tracks all the commit logs.
 - Git gives and easy and flexible environment way to records , logs all of your codes.
@@ -135,12 +135,12 @@ bash can also be used as a executable file even many programs uses bash script f
 <hr>
 
 ### WSL
-- Wsl stands for windows subsystem for linux which is based on virtualization. Which gives seperate space in your windows system for linux kernal.
+- WSL stands for windows subsystem for linux which is based on virtualization. Which gives seperate space in your windows system for linux kernal.
 - It uses orginal linux kernal which is actually little modified by microsoft.
-- Wsl 2 also supported `virtual machine platform` which means you can even run gui apps in wsl2.
+- WSL 2 also supported `virtual machine platform` which means you can even run gui apps in wsl2.
 - You can download any linux distro such as ubuntu from windows store after [setting up wsl](https://docs.microsoft.com/en-us/windows/wsl/install) then just search ubuntu in windows store and click install.
-- Wsl does not give real linux environment and lack many linux features like it does not have systemd.
-- Wsl is very handy and flexible for development related purposes in linux like environment.
+- WSL does not give real linux environment and lack many linux features like it does not have systemd.
+- WSL is very handy and flexible for development related purposes in linux like environment.
 
 ### Final verdict
 
