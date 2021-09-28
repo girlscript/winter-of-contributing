@@ -39,7 +39,9 @@ a specificrange. Scaling is useful when you want to compare two different variab
 
 **Min-max normalization:** Guarantees all features will have the exact same scale but does not handle outliers well.
 
+**Min-Max Normalization**-
 
+![image](https://user-images.githubusercontent.com/71919335/134398319-ae62ea0d-aaf9-4a3e-8ccc-5d90c793e8bc.png)
 ## Standardization
 Standardization comes into picture when features of input data set have large differences between their ranges, or simply when they are measured in different measurement units. Z-score is one of the most popular methods to standardize data
 ### Z-Score -
@@ -47,6 +49,9 @@ Z-score is a variation of scaling that represents the number of standard deviati
 You would use z-score to ensure your feature distributions have mean = 0 and std = 1.
 It’s useful when there are a few outliers, but not so extreme that you need clipping.
 **Z-score normalization:** Handles outliers, but does not produce normalized data with the exact same scale.
+**Z-Score Normalization**-
+
+![image](https://user-images.githubusercontent.com/71919335/133934944-9f0fe074-f24b-4efb-b18d-fd009586e2c6.png)
 
 #### Will these methods improve data?
 It is hard to know whether rescaling your data will improve the performance of your algorithms before you apply them. If often can, but not always.
