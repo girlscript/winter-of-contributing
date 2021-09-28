@@ -95,3 +95,7 @@ int main()
 Approach is similar in java, c or other languages...
 
 Happy Coding!!!
+
+<br/><br/>
+contributor: Priyanka Kothari
+DSA: Batch 1
