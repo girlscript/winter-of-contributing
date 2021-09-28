@@ -8,7 +8,9 @@ The Async/Await functionality is one of them. Async/Await is an extension of pro
 
 A Async function is a function declared with **Async** keyword wic means it will run in the backround while performing the code inside when the function is done, it automatically returns a promise.
 Async function always returns a Promise.
+
 **Syntax**
+
 ````
  async function printHelloWorld(){
         return "Hello World !!!";
@@ -27,6 +29,7 @@ Here "Hello World !!!" act as a fulfilled value of promise.
 **Await**
 
 JavaScript Await function is used to wait for the promise. It stops the execution of the function at this time until the promise is fulfilled.
+
 ````
 async function xyz(){
                 return "GirlScript";
@@ -40,6 +43,7 @@ async function xyz(){
 ````
 
 Output - 
+
 ````
 Hello GirlScript!!!
 ````
@@ -102,7 +106,20 @@ async function Demo(){
 ````
 
 
-**To Solve it re throw te error**
+**To Solve it throw the error again**
+
+````
+async function Demo(){
+            try{
+                const res = await tryDemo();
+                console.log(res);
+            }
+            catch(err){
+                throw err;
+            }
+        } 
+        Demo();
+ ````
 
 <img src="https://github.com/7sakshi7/winter-of-contributing/blob/Javascript/JavaScript/Topics/Aync%20And%20Await/Aync%20And%20Await%20Tutorial%20-%20Google%20Chrome%209_26_2021%206_23_23%20PM%20(2).png" alt="Output" /> 
 
