@@ -4,9 +4,11 @@ Regular expressions are useful for determining the pattern in a string. It also 
 
 The syntax of the regular expression in JavaScript is enclosed between two slashes (`/<regular_expression>/`). <br>
 For example, <br>
+
 ``` JS
 let regExp = /x+/;
 ```
+
 Where `+` has its own meaning which will be covered in the next section.
 
 Regular expressions can also be represented using `RegExp()` function.
@@ -19,7 +21,7 @@ For example,
 let reg = RegExp("x+", "g");
 ```
 
-There are many functions in JavaScript which helps to check the validity of the regular expression, such as `match()`, `matchAll()`, etc.
+There are many functions in JavaScript which helps to check the validity of the regular expression, such as `match()`, `replace()`, etc.
 
 <br>
 
@@ -44,8 +46,8 @@ The following table explains the type of occurences used in the regular expressi
 
 | Expressions | Description | Example | 
 |-----------|-----------| ----------- |
-|`/x*/`| One or more occurences of "x" | ![* notation](images/1.Asterisk_Notation.png)
-| `/x+/` | Zero or more occurences of "x" | ![+ notation](images/2.Plus_Notation.png)
+|`/x*/`| Zero or more occurences of "x" | ![* notation](images/1.Asterisk_Notation.png)
+| `/x+/` | One or more occurences of "x" | ![+ notation](images/2.Plus_Notation.png)
 | `/x{a}/` | String having "a" times of "x" | ![a times x](images/3.Occurences.png) |
 | `/x{a, b}/` | String having "a" to "b" times of x | ![range between a and b](images/4.Occurences_2.png) |
 | `/^x/` | String beginning with "x" | ![start](images/5.starting_notation.png) |
