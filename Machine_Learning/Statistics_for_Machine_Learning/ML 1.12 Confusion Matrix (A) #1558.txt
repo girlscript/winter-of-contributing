@@ -1,8 +1,0 @@
-Confusion matrix:
-Confusion Matrix is a performance measurement for machine learning classification where output can be two or more classes. It shows the ways in which classification model 
-is confused when it makes predictions. 
-
-Terminologies like TP, FP, FN, TN.
-
-Link to the audio file:
-https://drive.google.com/file/d/1ndcupdv-5Bh-C2m3XjmIMWRYu9YHh8en/view?usp=sharing
