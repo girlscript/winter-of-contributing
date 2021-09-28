@@ -1,3 +1,5 @@
+code : 
+
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -36,3 +38,8 @@ int main(){
     print(arr,n);
     return 0;
 }
+
+
+
+
+video link :  https://youtu.be/EeAppyH_0-g
