@@ -77,7 +77,7 @@ For example, list items can be the names of students and their description can b
 
 
  <dl>
-    <dt>Rahul</dt>
+    <dt>Prateek</dt>
     <dd>Rank 1</dd>
 
     <dt>Amit</dt>
@@ -89,7 +89,7 @@ For example, list items can be the names of students and their description can b
 
 This produces an output as follows:
 <dl>
-    <dt>Rahul</dt>
+    <dt>Prateek</dt>
     <dd>Rank 1</dd>
    <dt>Amit</dt>
     <dd>Rank 2</dd>
