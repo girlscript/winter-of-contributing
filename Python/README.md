@@ -17,6 +17,7 @@
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
+- [Some More Data Structures](./Some_More_Data_structures)
 - [Loops](./Loops)
 - [List\_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
@@ -46,19 +47,20 @@
 7. Use cases of Python
 8. Virtual Environment
 9. Operators
-10. List\_&_Matrix
-11. Objects in Python
-12. Stack and Queue
-13. Loop Break
-14. Decorators
-15. Functions
-16. What_is_Filter_in_python
-17. OOP-Class
-18. Advanced function-reduce()
-19. Advanced Function - Zip
-20. List Comprehension
-21. Advanced function-map()
-22. What is Automation?
-23. Args and Kwargs
-24. Web_Scraping
+10. Some More Data Structures
+11. List\_&_Matrix
+12. Objects in Python
+13. Stack and Queue
+14. Loop Break
+15. Decorators
+16. Functions
+17. What_is_Filter_in_python
+18. OOP-Class
+19. Advanced function-reduce()
+20. Advanced Function - Zip
+21. List Comprehension
+22. Advanced function-map()
+23. What is Automation?
+24. Args and Kwargs
+25. Web_Scraping
 
