@@ -11,7 +11,7 @@ username = John Doe
 
 - When a user sends a request to the server, then each of that request is treated as a new request sent by the different user.
 - So, to recognize the old user, we need to add the cookie with the response from the server.
-- browser at the client-side.
+- **Browser**, at the client-side.
 - Now, whenever a user sends a request to the server, the cookie is added with that request automatically. Due to the cookie, the server recognizes the users.
 
 <p align="center">
