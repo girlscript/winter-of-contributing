@@ -4,9 +4,9 @@
 
 User Research is one of the most important elements of UX Designing.It includes :
 
-- Foundational Research
-- Design Research
-- Post-Launch Research
+- Foundational Research:Research that focuses on what to be built to address user problems i.e. thinking of optimised solutions to the problems.
+- Design Research:Research that focuses on how to build a good and interactive design that provides such a solution.
+- Post-Launch Research:Research that reflects how much we were actually successful in building such a design and solving user challenges.
 
 It is a continuous fragment of the lifecycle of product development .Broadly it invloves studies or interviews that helps UX Researchers gain insights into product usage from a user's end.It is conducted to understand how a person,the user in this case feels about interacting with or experiencing a product.
 
