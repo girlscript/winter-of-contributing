@@ -5,7 +5,7 @@
 Before this, lets talk a little about **Constants and Variables in C**
 
 ## Constants
-Constants refer to fixed values that the program may not alter during  its execution. These fixed values are also called **literals**.
+Constants are the constant(**fixed**) values that do not chnge their value during the program execution. They are also called **literals**.
 There are **two** simple ways in C to define constants -
 
 - Using **#define** preprocessor.
@@ -25,15 +25,14 @@ There are **two** simple ways in C to define constants -
                                     
 
 ## Variables 
-Variables are memory locations(storage area) in the C programming language. The primary purpose of variables is to store data in memory for later use.
-If you declare a variable in C, that means you are asking to the operating system for reserve a piece of memory with that variable name.
+Variables are used to store data in the C programming languagefor later use.
+If we declare a variable in C, we are reserving a piece of memory with that variable name.
 
 #### Lemme tell you an important fact: Unlike constants which do not change during the program execution, variables value may change during execution!💯 
 
 ### There are some rules to write a variable:
-- A variable name can consist of Capital letters A-Z, lowercase letters a-z, digits 0-9, and the underscore character(_).
-- The first character must be a letter or underscore(_). No blank spaces can be used in variable names.
-- Special characters like #, $ are not allowed.
+- A variable name can have alphabets(**lowercase & uppercase both**), digits(**0-9**), and the underscore character(**_**).- Special characters(**$,@**) are not allowed.
+- It must begin with a **letter or underscore(_) not digits**. No blank spaces can be used in variable names.
 
 #### NOTE: C keywords cannot be used as variable names and variable names are case sensitive.
 
@@ -45,31 +44,24 @@ If you declare a variable in C, that means you are asking to the operating syste
                                      
                                      
 ## Managing Input/Output
-I/O operations are useful for a program to interact with users.
 **stdlib** is the standard C library for input-output operations.
-In C, two important streams play their role:
-- Standard Input(stdin)
-- Standard Output(stdout)
-
-**Standard input** or **stdin** is used for taking input from devices such as Keyboard as a data stream.
-
-**Standard output** or **stdout** is used for giving output to a device such as Monitor.
+In C, there are two important streams:
+- Standard Input(stdin) : used for taking input.
+- Standard Output(stdout) : is used for giving output.
 
 #### NOTE: For using I/O functionality, programmers must include **_stdio_** header-file within the program
-
 
 ## Formatted Input/Output
 
 ### Formatted Output
-In C, **printf()** is one of the **main output function**. The function sends formatted output to the screen.
+In C, **printf()** is one of the **main output function**. The function displays output on the user's screen.
 
 #### Syntax:
                                     printf("control string", argl, arg2, arg3,.....argn);
                                     
                                    
 ### Formatted Intput
-In C, **scanf()** is one of the **main input function**. We have already encountered this and familiar with this function.
-
+In C, **scanf()** is one of the **main input function**.
 #### Syntax: 
                                     scanf("control string", argl, arg2, arg3,.....argn);
                                     
@@ -78,9 +70,9 @@ In C, **scanf()** is one of the **main input function**. We have already encount
                                     
 ## How does a program work?
 - All valid C program must contain the **main()** function. The code execution begins from the start of the main( ) function.
-- The **printf()** is a library function to send formatted output to the screen. The function prints the string inside quotations.
+- The **printf()** is a library function to display output on the user's screen. The function prints  whatever is enclosed inside quotations.
 - To use **printf()** & **scanf()** in our program, we need to include **stdio.h** header file using the **#include<stdio.h>** statement.
-- The **return 0;** statement inside the main() function is the **"Exit status"** of theprogram.**It's optional**.                                    
+- The **return 0;** indicates the **"Exit status"** of theprogram.**It's optional**.                                    
 
 ### Sample program of Formatted Input/Output:
                                     
@@ -103,9 +95,9 @@ Since, we have used format specifier. Lets talk about format specifiers in C
 
 ## C Format Specifier
 Format specifiers can be defined as the operators which are used in association with **printf()** function for printing the data that  is  referred  by  any  object  or  any variable.
-Format specifiers start with a percentage **% operator** and followed by a **special character** for identifying the type of data.
+Format specifiers begin with a percentage **% operator** followed by a **special character** for identifying the type of data.
 
-#### NOTE: When  a value  is stored  in  a  particular variable, then you cannot print the value stored  in  the  variable  straightforwardly without using the format specifiers. You can retrieve the data that are stored in the variables and can print them onto the console screen by implementing these format specifiers in a printf() function.
+#### NOTE: When  a value  is stored  in  a  particular variable, then you cannot print the value stored  in  the  variable  straightforwardly without using the format specifiers. 
 
 **_Mostly used format specifiers in C:_**
 - **%d** Integer Format specifier
@@ -114,9 +106,10 @@ Format specifiers start with a percentage **% operator** and followed by a **spe
 
 
 ## Escape Sequences In C
-In C programming language, there are **256** numbers of characters in character set. 
-The entire character set is divided into 2 parts i.e. **The ASCII characters set** and **The extended ASCII characters set**. 
-But apart from that, some other characters are also there which are not the part of any characters set, known as **ESCAPE characters**.
+The character set has 2 parts:
+- **The ASCII characters set** and
+- **The extended ASCII characters set**. 
+But the characters which are not the part of any characters set are known as **ESCAPE characters**.
 #### For example: 
                                      \a - Alarm or Beep
                                      \b - Backspace
@@ -141,12 +134,11 @@ But apart from that, some other characters are also there which are not the part
                                     will start here
                                     
                                     
-As we all know the **three** essential functions of a computer are **reading, processing and writing data**. Majority of the programs take **data as input**, and then after processing the **processed data is being displayed** which is called **information**.
 In C programming you can use **scanf()** and **printf()** predefined function to **read** and **print** data.
 
 
 ## Reading Character In C
-The easiest and simplest of all I/O operations are taking a character as input by reading that character from standard input (keyboard).
+To read a character from standard input, we use following functions: 
 **getchar()** function can be used to read a single character.**This function is alternate to scanf() function**.
 
 #### Syntax:
@@ -157,8 +149,7 @@ There are another functions to do that task : **getc(), getch() and getche()** w
 ### So, now lets know the difference between these input funtions!💯
 
 ##  Difference between getchar(), getc(), getch() and getche()
-All of these functions read a character from input and return an integer value. The integer is returned to accommodate a special value used to indicate failure. 
-- **getchar():** This function is used to read a single character.
+- **getchar():** This function reads a single character.
 #### Syntax:
                                     var_name = getchar();
                                     
@@ -196,9 +187,8 @@ It returns **EOF** on failure.
                                    
                                  
 
-- **getch():** It is a **nonstandard function** and is present in **conio.h** header file. It is **not** part of the **C standard library**.
-Like above functions, it reads also a single character from keyboard. 
-#### NOTE: But it does not use any buffer, so the entered character is immediately returned without waiting for the enter key.
+- **getch()&getche():** It is a **nonstandard function** and is present in **conio.h** header file. It is **not** part of the **C standard library**. It also reads a single character from keyboard. 
+#### NOTE: In getch()&getche(), the entered character is immediately returned without waiting for the enter key.
 #### Syntax:
                                     int getch();
                                     
@@ -217,9 +207,7 @@ Like above functions, it reads also a single character from keyboard.
                                     Enter a character:A
                                     Entered character is:A
  
- 
- 
-- **getche():** Like getch(), it also a **nonstandard function** and reads a single character from the keyboard and displays immediately on output screen without waiting for enter key.
+
 #### Syntax:
                                     int getche(void);
                                     
@@ -240,8 +228,7 @@ Like above functions, it reads also a single character from keyboard.
                                     
                                     
 ## Writing Character In C
-Similar to **getchar()** there is another function which is used to write characters, but one at a time.
-The output function is **putchar()**.
+The output function **putchar()** is used to write characters, but one at a time.
 
 #### Syntax:
                                     putchar(var_name);
