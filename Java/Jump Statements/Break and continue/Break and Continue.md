@@ -10,10 +10,10 @@ Syntax : break;
 
 <br>
 
-> -As the name suggests, __"break"__ statement is used to break out of a loop. <br>
--It is used to modify the flow of code. <br>
--We generally use __"break"__ statements in loops and switch case <br>
--Wherever the __"break"__ keyword is used, the loop is instantly terminated. <br>
+- As the name suggests, __"break"__ statement is used to break out of a loop. <br>
+- It is used to modify the flow of code. <br>
+- We generally use __"break"__ statements in loops and switch case <br>
+- Wherever the __"break"__ keyword is used, the loop is instantly terminated. <br>
 
 <br>
 
@@ -43,7 +43,7 @@ __4__ <br>
 
 <br>
 
-> Here we can see that the loops gets terminated when  __'i'__ becomes equal to __'5'__ and hence, the rest of the integers does not gets printed. 
+- Here we can see that the loops gets terminated when  __'i'__ becomes equal to __'5'__ and hence, the rest of the integers does not gets printed. 
 
 <br>
 
@@ -51,7 +51,7 @@ __4__ <br>
 
 <br>
 
-> Suppose you want to check whether a element is in an array or not & find it's index if it is present. To solve this problem, we will use Linear Search. In Linear Search, we will loop through all the elements of the array until we find our element.
+- Suppose you want to check whether a element is in an array or not & find it's index if it is present. To solve this problem, we will use Linear Search. In Linear Search, we will loop through all the elements of the array until we find our element.
 
 <br>
 
@@ -93,7 +93,7 @@ __Element is present in the array at index : 1__
 
 <br>
 
->In the above code, we can see that when we found our element if used the _"__break__"_ keyword as there is no need to run the loop ahead to check whether the rest of the elements in the array are equal to the __"element_to_find"__. 
+- In the above code, we can see that when we found our element if used the _"__break__"_ keyword as there is no need to run the loop ahead to check whether the rest of the elements in the array are equal to the __"element_to_find"__. 
 
 <br>
 <br>
@@ -107,8 +107,8 @@ syntax: continue;
 
 <br>
 
-> -It is used to skip one iteration in a loop. <br>
--It is also used to modify the normal flow of code.
+- It is used to skip one iteration in a loop. <br>
+- It is also used to modify the normal flow of code.
 
 <br>
 
@@ -136,6 +136,6 @@ __5__ <br>
 <img src="https://github.com/rajmadhu0406/winter-of-contributing/blob/raj/Java/Jump%20Statements/Break%20and%20continue/continue-gif.gif?raw=true" alt="continue_gif" width="500" height="410"/>
 
 
-> As you can see, the code runs in the top to bottom manner. First, the __"arrow"__ is at the start of the __"for"__ loop. Then it goes below, to the __"if"__ statement. Then inside the __"if"__ statement, points at the __"continue"__ statement. After executing the continue statement, the __"arrow"__ goes back to the top, at the start of the __"for"__ loop and skips the __"print"__ statement.
+- As you can see, the code runs in the top to bottom manner. First, the __"arrow"__ is at the start of the __"for"__ loop. Then it goes below, to the __"if"__ statement. Then inside the __"if"__ statement, points at the __"continue"__ statement. After executing the continue statement, the __"arrow"__ goes back to the top, at the start of the __"for"__ loop and skips the __"print"__ statement.
 
 ##
