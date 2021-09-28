@@ -37,7 +37,8 @@ getSum(x): Returns the sum of the sub-array arr[0,…,x]
 ```
 
 ### How does Binary Indexed Tree work? 
-The idea is based on the fact that all positive integers can be represented as the sum of powers of 2. For example 19 can be represented as 16 + 2 + 1. Every node of the BITree stores the sum of n elements where n is a power of 2. For example, in the first diagram above (the diagram for getSum()), the sum of the first 12 elements can be obtained by the sum of the last 4 elements (from 9 to 12) plus the sum of 8 elements (from 1 to 8). The number of set bits in the binary representation of a number n is O(Logn). Therefore, we traverse at-most O(Logn) nodes in both getSum() and update() operations. The time complexity of the construction is O(nLogn) as it calls update() for all n elements. 
+The idea is based on the fact that all positive integers can be represented as the sum of powers of 2. 
+For example 19 can be represented as 16 + 2 + 1. Every node of the BITree stores the sum of n elements where n is a power of 2. For example, in the first diagram above (the diagram for getSum()), the sum of the first 12 elements can be obtained by the sum of the last 4 elements (from 9 to 12) plus the sum of 8 elements (from 1 to 8). The number of set bits in the binary representation of a number n is O(Logn). Therefore, we traverse at-most O(Logn) nodes in both getSum() and update() operations. The time complexity of the construction is O(nLogn) as it calls update() for all n elements. 
 
 ### Code
 ```
@@ -86,13 +87,11 @@ int main()
     int freq[]= {2, 1, 1, 3, 2, 3, 4, 5, 6, 7, 8, 9};  // Taken auxilary array
     int n = freq.size();
     int *BITree = constructBITree(freq, n);
-    cout << "Sum of elements in arr[0..5] is "
-        << getSum(BITree, 5);
+    cout << "Sum of elements in arr[0..5] is " << getSum(BITree, 5)<<endl;
     freq[3] += 6;
     updateBIT(BITree, n, 3, 6); //Update BIT for above change in arr[]
  
-    cout << "\nSum of elements in arr[0..5] after update is "
-        << getSum(BITree, 5);
+    cout << "Sum of elements in arr[0..5] after update is " << getSum(BITree, 5)<<endl;
  
     return 0;
 }
@@ -102,3 +101,5 @@ int main()
 >Sum of elements in arr[0..5] is 12
 >
 >Sum of elements in arr[0..5] after update is 18
+
+---
