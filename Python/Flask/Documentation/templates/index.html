@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css", href="{{url_for('static', filename='styles/style.css')}}">
+    <script src="{{url_for('static', filename='scripts/script.js')}}"></script>
+    <title>My Flask App</title>
+</head>
+<body>
+    <img src="{{url_for('static', filename='images/image.png')}}" alt="">
+    <h1 id="hello">Hello World! from index.html</h1>
+    <button onclick="myFunction()">Click!</button>
+</body>
+</html>
