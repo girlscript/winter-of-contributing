@@ -139,11 +139,11 @@ bash can also be used as a executable file even many programs uses bash script f
 - i would prefer you all to use wsl with git which gives you seperate linux environment for your development where you can use all of the features of bash as well as git too.
 
 ### WSL
-- wsl stands for windows subsystem for linux which based on virtualization. Which gives seperate space in your system for linux environment.
+- wsl stands for windows subsystem for linux which is based on virtualization. Which gives seperate space in your windows system for linux kernal.
 - It uses orginal linux kernal which is actually little modified by microsoft.
-- wsl 2 also supported virtual machine which means you can even run gui apps.
-- you can download many linux distro from windows store which work with wsl for linux environment.
-- wsl does not give real linux environment because it does not systemd.
+- wsl 2 also supported `virtual machine platform` which means you can even run gui apps in wsl2.
+- you can download many linux distro from windows store after setting up wsl.
+- wsl does not give real linux environment and lack many linux features like it does not have systemd.
 - wsl is very handy and flexible for development related purposes in linux like environment.
 
 
