@@ -20,22 +20,15 @@ Here variable name has been assigned integer data type.
 
 ### Integer can further be  categorised in signed ,unsigned,long or short(these are known as data type modifier) depending on the size of variable .All of these have defined range within which we can apply them.
  
-Data type       |     Memory      |          Range                   |              Format specifier
-                     (bytes)
+|   Data type    |     Memory    |              Range               |      Format specifier   |
+|     :---:      |     :---:     |              :---:               |          :---:          |
+|int             |       4       |  -2,147,483,648 to 2,147,483,647 |            %d           |
+|short int       |       2       |         -32,768 to 32,767        |            %hd          |
+|long int        |       4       |  -2,147,483,648 to 2,147,483,647 |            %ld          |
+|unsigned int    |       4       |         0 to 4,294,967,295       |             %u          |
+|signed int      |       4       |           same as int            |             %d          |
 
---------------- | --------------- | -------------------------------  | ----------------------------------
-
-int             |         4       |  -2,147,483,648 to 2,147,483,647 |            %d
-
-short int       |         2       |         -32,768 to 32,767        |            %hd
-
-long int        |         4       |  -2,147,483,648 to 2,147,483,647 |            %ld
-
-unsigned int    |         4       |         0 to 4,294,967,295       |             %u
-
-signed int      |         4       |           same as int            |             %d
-
-**char data type**:
+ **char data type**:
 
 ### This data type is used for defining a single character in C. Mainly a letter or a symbol is represented by char data type. 
 Eg: A, b, C, $, 3, 5 etc
@@ -48,15 +41,11 @@ Syntax:
 ### Here variable ch stores a single character A .
 ### Below is the different range of character data types:
 
-Data type          |      Memory       |       Range       |       Format Specifier
-
------------------- | ----------------- | ----------------- | -----------------------
-
-char               |        1          |     -128 to 127   |               %c
-
-signed char        |        1          |    -128 to 127    |              %c
-
-unsigned char      |        1          |       0 to 255    |             %c
+|Data type          |      Memory       |       Range       |       Format Specifier    |
+| :---------------: | :---------------: | :---------------: | :-----------------------: |
+|char               |        1          |     -128 to 127   |               %c          |
+|signed char        |        1          |    -128 to 127    |              %c           |
+|unsigned char      |        1          |       0 to 255    |             %c            |
 
 
 
@@ -70,10 +59,8 @@ Syntax:
 **float pi=3.14**;
 ### Here pi is a float type variable which contains a decimal number.
 
-Data type     |     Memory        |             Range         |        Format Specifier
-
-------------  | ----------------  | -----------------------   | ------------------------
-
+Data type     |     Memory        |             Range          |        Format Specifier
+:----------:  | :--------------:  | :----------------------:   | :----------------------:
 float         |        4          |       3.4E-38 to 3.4E+38   |         %f
 
 
@@ -87,11 +74,8 @@ float         |        4          |       3.4E-38 to 3.4E+38   |         %f
 **double d = 8.6677**:
 
 Data type   |      Memory   |        Range              |    Format Specifier
-
------------ | ------------- | -----------------------   | -------------------
-
+:---------: | :-----------: | :---------------------:   | :-------------------:
 double      |       8       |    2.3E-308 to 1.7E+308   |       %lf
-
 long double |      16       |   3.4E-4932 to 1.1E+4932  |        %Lf
 
 
