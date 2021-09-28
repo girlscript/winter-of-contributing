@@ -20,6 +20,3 @@ There are even other methods rather than PCA under Dimensionality Reduction whic
 
 It can be applied on both linear and non linear forms of data. PCA is the most common way for dealing with linear dataset. 
 
-The two components of dimensionality reduction are->
-1) Feature Extraction
-2) Feature Selection
