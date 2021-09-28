@@ -14,7 +14,6 @@ The very first work to be done before creating or accessing an existing database
 $server_name = "localhost";
 $user_name = "root";
 $password = "";
-$database = "STUDENTS";
 
 //connecting to server using mysqli...
 $are_we_connected = mysqli_connect($server_name,$user_name,$password);
@@ -39,7 +38,6 @@ Now, we know how to connect to the server so we can proceed ahead. PHP provides 
 $server_name = "localhost";
 $user_name = "root";
 $password = "";
-$database = "STUDENTS";
 
 //connecting to server using mysqli...
 $are_we_connected = mysqli_connect($server_name,$user_name,$password);
