@@ -134,7 +134,7 @@ const express = require('express')
 const cookieParser = require('cookie-parser')
 ```
 
-## Step - 2 Get your application to use the packages
+## Step 2 - Get your application to use the packages
 You need to use the above modules as middleware inside your application, as shown below.
 
 ```js
@@ -146,7 +146,7 @@ app.use(cookieParser());
 ```
 This will make your application use the cookie parser and Express modules.
 
-## Step - 3 Set a simple route to start the server
+## Step 3 - Set a simple route to start the server
 We use the following code to set up a route for the homepage:
 
 ```js
