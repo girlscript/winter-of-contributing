@@ -63,7 +63,7 @@ return (
     <Greet name="Jack" />
 );
 ```
-This will going to throw an error. React can't render more than one element inside a single component. So we have to wrap our `Greet` component inside a `div` tag. After wrapping up inside `div`, this whole thing will be count as a single JSX element. For wrapping up, we can also use ghost tags.
+This will going to throw an error. React can't render more than one element inside a single component. So we have to wrap our `Greet` component inside a `fragment` tag. After wrapping up inside `fragment`, this whole thing will be count as a single JSX element. For wrapping up, we can also use ghost tags.
 ```js
 return (
     <>
