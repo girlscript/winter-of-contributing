@@ -1,17 +1,21 @@
-## Fenwick Tree    (Binary Seach tree)
+## Fenwick Tree    (Binary Indexed tree)
 
-The **Binary Search Tree** can be best understoods by the given case:
+The **Binary Indexed Tree** can be best understoods by the given case:
 
 Let us consider:
+
 We have an array **arr[0...n-1]**. And we would like to
 1. Compute the sum of the first i elements
 2. Modify the value of a specified element of the array **arr[i]=x** where **0<=i<=n-1**
 A simple solution is to run a loop from 0 to i-1 and calculate the sum of the elements. To update a value, simply do arr[i] = x. The first operation takes **O(n) time** and the second operation takes **O(1) time**.
 Another simple solution is to create an extra array and store the sum of the first i-th elements at the i-th index in this new array. The sum of a given range can now be calculated in **O(1) time**, but the update operation takes **O(n) time** now. 
+
 > This works well if there are a large number of query operations but a very few number of update operations.
+
 Could we perform both the query and update operations in O(log n) time? 
 One efficient solution is to use **Segment Tree** that performs both operations in **O(Logn) time**.
 An alternative solution is **Binary Indexed Tree**, which also achieves **O(Logn)** time complexity for both operations. 
+
 > Compared with Segment Tree, Binary Indexed Tree requires less space and is easier to implement..
 
 ### Representation 
@@ -79,18 +83,11 @@ int *constructBITree(int arr[], int n)
  
 int main()
 {
-    int t; cin>>t;  //Size of the array
-    int freq[t];
-    for (int i=0; i<t;i++)
-    {
-        cin>>freq[i];
-    }
+    int freq[]= {2, 1, 1, 3, 2, 3, 4, 5, 6, 7, 8, 9};  // Taken auxilary array
     int n = freq.size();
     int *BITree = constructBITree(freq, n);
     cout << "Sum of elements in arr[0..5] is "
         << getSum(BITree, 5);
- 
-    // Let use test the update operation
     freq[3] += 6;
     updateBIT(BITree, n, 3, 6); //Update BIT for above change in arr[]
  
