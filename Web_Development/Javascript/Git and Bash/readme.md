@@ -40,14 +40,15 @@ git log
 ```shell
 git status
 ```
-- make a new commit 
+- make a new commit but first track all the changes then commit using below two commands. 
 ```shell
 git add .
 ```
 ```shell
 git commit -m "your message"
-```
-- make sure your message will be some meaning full text you can also use a short command for this
+``` 
+> make sure your message will be some meaningful text.
+- you can also use a short command for this
 ```shell
 git commit -am "your message"
 ```
@@ -103,9 +104,10 @@ touch file_name
 ```
 - finding pattern in a text file
 ```shell
-grep `word_to_find`
+grep word_to_find
 ```
-- you can pipe symbol to treat output of a some commands as an input for some command.
+
+- you can pipe symbol to treat output of a some commands as an input for some different command.
 ```shell
 echo this is me | grep me
 ```
@@ -142,7 +144,7 @@ bash can also be used as a executable file even many programs uses bash script f
 - wsl stands for windows subsystem for linux which is based on virtualization. Which gives seperate space in your windows system for linux kernal.
 - It uses orginal linux kernal which is actually little modified by microsoft.
 - wsl 2 also supported `virtual machine platform` which means you can even run gui apps in wsl2.
-- you can download many linux distro from windows store after setting up wsl.
+- you can download any linux distro such as ubuntu from windows store after [setting up wsl](https://docs.microsoft.com/en-us/windows/wsl/install) then just search ubuntu in windows store and click install.
 - wsl does not give real linux environment and lack many linux features like it does not have systemd.
 - wsl is very handy and flexible for development related purposes in linux like environment.
 
