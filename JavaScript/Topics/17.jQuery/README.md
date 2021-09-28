@@ -77,19 +77,19 @@
   Both versions can be downloaded from jQuery.com.<br>
 
   The jQuery library is a single JavaScript file, and you reference it with the HTML <script> tag (note that the <script> tag should be inside the <head> section):<br>
-  <head>
-    <script src="jquery-3.5.1.min.js"></script>
-  </head>
+  <head><br>
+    <script src="jquery-3.5.1.min.js"></script><br>
+  </head><br>
   Important Points: Place the downloaded file in the same directory as the pages where you wish to use it.<br>
 
   --> jQuery CDN: If you don't want to download and host jQuery yourself, you can include it from a  CDN (Content Delivery Network).<br>
   Google is an example of someone who host jQuery:<br>
   Google CDN:<br>
-  <head>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  </head>
+  <head><br>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><br>
+  </head><br>
 
-  --> One big advantage of using the hosted jQuery from Google:
+  --> One big advantage of using the hosted jQuery from Google:<br>
       Many users already have downloaded jQuery from Google when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also, most CDN's will make sure that once a user requests a file from it, it will be served from the server closest to them, which also leads to faster loading time. 
 
 #  How to use jQuery in your scripting file?
@@ -102,7 +102,7 @@
    --> A jQuery action() to be performed on the element(s)<br>
    Examples:<br>
    --> $(this).hide() - hides the current element.<br>
-   --> $("p").hide() - hides all <p> elements.<br>
+   --> $("p").hide() - hides all "p" elements.<br>
    --> $(".test").hide() - hides all elements with class="test".<br>
    --> $("#test").hide() - hides the element with id="test". <br>
 
