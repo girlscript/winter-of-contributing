@@ -6,7 +6,7 @@ Given a string, find the repeated character present first in the string.
 Examples:  
 
 ```
-Input  : geeksforgeeks
+Input  : geeksaregood
 Output : g
 (mind that it will be g, not e as g is written before e. As a result we check if character g 
 is repeated as we want to find the leftmost repeating character)
@@ -80,9 +80,9 @@ int main()
 ``` 
 ### Output
 ```
-Input: geeksforgeeks
+Input: abcdabcd
 Output: 
-First Repeating character is g
+First Repeating character is a
 ``` 
  
 ### Complexity analysis
@@ -147,9 +147,9 @@ int main()
 
 ### Output
 ```
-Input: geeksforgeeks
+Input: abcdabcd
 Output: 
-First Repeating character is g
+First Repeating character is a
  ```
 ### Complexity analysis
 
