@@ -42,10 +42,12 @@ git status
 ```
 - make a new commit 
 ```shell
-git add . && git commit -m "your message"
+git add .
 ```
-    make sure your message will be some meaning full text
-	you can also use a short command for this
+```shell
+git commit -m "your message"
+```
+- make sure your message will be some meaning full text you can also use a short command for this
 ```shell
 git commit -am "your message"
 ```
@@ -53,7 +55,7 @@ git commit -am "your message"
 ```shell
 git checkout commit_id
 ```
-    `commit_id` are the alphanumeric number which you get while `git logs`
+    commit_id is an alphanumeric number which you get while `git log`
 	
 - Making a new branch 
 ```shell
@@ -109,11 +111,11 @@ echo this is me | grep me
 ```
 - removing file and directory
 ```shell
-//This will only remove file
+#This will only remove file
 rm file_name 
 ```
 ```shell
-//This will remove an empty directory
+#This will remove an empty directory
 rm -f directory_name
 ```
 ```shell
@@ -135,5 +137,14 @@ bash can also be used as a executable file even many programs uses bash script f
 - Both git and bash gives your powerful and flexible environment for anykind of workflow and development.
 - Windows version of git comes with bash shell . but you can only perform the basic tasks with that version of shell .
 - i would prefer you all to use wsl with git which gives you seperate linux environment for your development where you can use all of the features of bash as well as git too.
+
+### WSL
+- wsl stands for windows subsystem for linux which based on virtualization. Which gives seperate space in your system for linux environment.
+- It uses orginal linux kernal which is actually little modified by microsoft.
+- wsl 2 also supported virtual machine which means you can even run gui apps.
+- you can download many linux distro from windows store which work with wsl for linux environment.
+- wsl does not give real linux environment because it does not systemd.
+- wsl is very handy and flexible for development related purposes in linux like environment.
+
 
 ### Contributed By [Prachi Singh]("https://github.com/prachi610/)
