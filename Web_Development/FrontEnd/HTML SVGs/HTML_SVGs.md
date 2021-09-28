@@ -74,6 +74,7 @@ style="fill: green; stroke-width: 3; stroke: rgb(0, 0, 0); opacity: 0.6"
 ## SVG circle
 
 <img src="images/circle.jpeg " alt="circle svg image" />
+  
 ```html
 <svg  height="100"  width="100">
 <circle
@@ -93,6 +94,7 @@ fill="yellow"
 ## SVG ellipse
 
 <img src="images/ellipse.jpeg " alt="ellipse svg image" />	
+  
 ```html
 <svg  height="140"  width="500">
 <ellipse
@@ -110,7 +112,7 @@ style="fill: pink; stroke: purple; stroke-width: 2"
 -   The rx attribute defines the horizontal radius
 -   The ry attribute defines the vertical radius
 
-The following example combines two ellipses (one yellow and one white):
+The following example combines two ellipses (one magenta and one blue):
 <img src="images/ellipse overlapped.jpeg " alt="ellipse overlapped svg image" />
 
 ```html
@@ -123,6 +125,7 @@ The following example combines two ellipses (one yellow and one white):
 ## SVG polygon
 
 The <polygon> element is used to create a graphic that contains at least three sides.
+  
 <img src="images/polygon.jpeg " alt="polygon svg image" />
 
 ```html
@@ -135,6 +138,7 @@ style="fill: lime; stroke: purple; stroke-width: 1"
 ```
 
 - The points attribute defines the x and y coordinates for each corner of the polygon
+  
   <img src="images/star.jpeg " alt="star shaped svg image" />
 
 ```html
@@ -149,9 +153,10 @@ style="fill: blue ; stroke: purple; stroke-width: 5; fill-rule: evenodd"
 ## SVG polyline
 
 The <polyline> element is used to create any shape that consists of only straight lines (that is connected at several points):
+  
 <img src="images/stairs.jpeg " alt="polyline stairs svg image" />
 
-```C
+```html
 <svg  height="180"  width="500">
 <polyline
 points="0,40 40,40 40,80 80,80 80,120 120,120 120,160"
@@ -171,6 +176,7 @@ Paths create complex shapes by combining multiple straight lines or curved lines
 A good understanding of paths is important when drawing SVGs. While creating complex paths using an XML editor or text editor is not recommended, understanding how they work will allow to identify and repair display issues in SVGs.
 
 Bézier curves are used to model smooth curves that can be scaled indefinitely. Generally, the user selects two endpoints and one or two control points. A Bézier curve with one control point is called a quadratic Bézier curve and the kind with two control points is called cubic.
+  
 <img src="images/curve.jpeg " alt="curve svg image" />
 
 ```html
@@ -222,7 +228,8 @@ Because of the complexity involved in drawing paths it is highly recommended to 
 ## SVG Text
 
 <img src="images/girlscript.jpeg " alt="rotated text svg image" />	
-```C
+  
+```html
 <svg  height="60"  width="200">
 <text  x="0"  y="25"  fill="red"  transform="rotate(30 20,40)">
 GirlScript
@@ -230,8 +237,10 @@ GirlScript
 </svg>
 ```
 Rotate the text
+  
 <img src="images/gwoc.jpeg " alt="svg text image" />	
-```C
+  
+```html
     <svg height="90" width="200">
       <text x="10" y="20" style="fill: green">
         GirlScript
@@ -240,6 +249,7 @@ Rotate the text
       </text>
     </svg>
 ```
+  
 ##  SVG  Blur Effects
 ### defs and filter
 
@@ -250,9 +260,10 @@ The <filter> element is used to define an SVG filter. The <filter> element has a
 ### SVG < feGaussianBlur >
 
 The <feGaussianBlur> element is used to create blur effects
+  
 <img src="images/blur.jpeg " alt="ellipse svg image" />
 
-```C
+```html
 <svg  height="110"  width="110">
 <defs>
 <filter  id="f1"  x="0"  y="0">
@@ -283,8 +294,10 @@ filter="url(#f1)"
 The <feOffset> element is used to create drop shadow effects. The idea is to take an SVG graphic (image or element) and move it a little bit in the xy plane.
 
 The first example offsets a rectangle (with < feOffset > ), then blend the original on top of the offset image (with < feBlend >)
+  
 <img src="images/dds.jpeg " alt="drop down shadow svg image" />
-```C
+  
+```html
     <svg height="140" width="140">
       <defs>
         <filter id="f2" x="0" y="0" width="200%" height="200%">
@@ -321,9 +334,10 @@ Linear gradients can be defined as horizontal, vertical or angular gradients:
 - Horizontal gradients are created when y1 and y2 are equal and x1 and x2 differ
 - Vertical gradients are created when x1 and x2 are equal and y1 and y2 differ
 - Angular gradients are created when x1 and x2 differ and y1 and y2 differ
+  
   <img src="images/gradient horizontal.jpeg " alt="ellipse svg image" />
-
-```C
+  
+```html
     <svg height="150" width="400">
       <defs>
         <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -341,9 +355,10 @@ Linear gradients can be defined as horizontal, vertical or angular gradients:
 - The fill attribute links the ellipse element to the gradient
 
 vertical linear gradient from blue to black:
+  
 <img src="images/vertical gradient.jpeg " alt="ellipse svg image" />
 
-```C
+```html
     <svg height="150" width="400">
       <defs>
         <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -360,10 +375,10 @@ vertical linear gradient from blue to black:
 The < radialGradient > element is used to define a radial gradient.
 
 The < radialGradient > element must be nested within a < defs > tag. The < defs > tag is short for definitions and contains definition of special elements (such as gradients).
+  
 <img src="images/radial gradient.jpeg " alt="ellipse svg image" />
 
-```C
- 
+```html
     <svg height="150" width="500">
       <defs>
         <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
@@ -373,8 +388,6 @@ The < radialGradient > element must be nested within a < defs > tag. The < defs 
       </defs>
       <ellipse cx="200" cy="70" rx="85" ry="55" fill="url(#grad1)" />
     </svg>
-
-
 ```
 
 - The id attribute of the <radialGradient> tag defines a unique name for the gradient
