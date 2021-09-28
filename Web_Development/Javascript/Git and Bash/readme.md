@@ -121,7 +121,7 @@ rm file_name
 rm -f directory_name
 ```
 ```shell
-//This will remove non empty directory
+#This will remove non empty directory
 rm -rf directory_name
 ```
 - you can also intialize a variable in bash and use it in your scripts
