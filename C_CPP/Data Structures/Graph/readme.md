@@ -1,1 +1,1 @@
-- [Breadth First Search](BFS%20notes.md)
+- [Breadth First Search](./BreadthFirstSearch)
