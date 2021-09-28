@@ -30,7 +30,8 @@ Tumour Prediction: It is used in prediction of whether a tumour is malignant ben
 
 1. Logistic Regression is not preferred if the number of observations is less than the number of features. In this case, overfitting can occur.
 2. It assumes that dependent variable and the independent variables are having linear relationship which causes disadvantage. 
-3. 
+3. There should be minimum multicollinearity between independent variables in this algorithm.
+4. It is difficult to get complex relationships whereas Neural Networks are able to give better results than logistic regression.
 
 ## How does it work?
 
