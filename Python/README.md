@@ -17,7 +17,7 @@
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
-- [Some More Data Structures](./Some_More_Data_structures)
+- [Some More Data Structures](./Some_More_Data_Structures)
 - [Loops](./Loops)
 - [List\_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
