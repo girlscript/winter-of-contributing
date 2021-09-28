@@ -40,25 +40,17 @@
     $ git commit -m "your-commit-message" -m "your-commit-description"
     ```
 
-7. Merge your `Sample-Branch` with `MERN` branch in origin (forked repo)
-
-    ```bash
-    $ git checkout MERN
-    $ git pull upstream MERN
-    $ git merge <Sample-Branch>
-    ```
-    > Now resolve merge conflicts (if any).
-
-8. Push your local work to your remote URL (Forked Repo)
+7. Push your local work to your remote URL (Forked Repo)
 
    ```bash
-   $ git push origin MERN
+   $ git push origin <Sample-Branch>
    ```
 
-9. Create Pull Request.
+8. Create Pull Request.
     - Creating the PR using GitHub UI
-    - Create Pull Request from the MERN branch in your forked repository to the MERN branch in the upstream (GWoC) repository
-    - Link Pull Request to appropriate Issue.
+    - Create Pull Request from the `<sample-branch>` branch in your forked repository to the `MERN branch` in the upstream (GWoC) repository
+    - Link this Pull Request to the Issue that have been assigned to you.
+ 
 
 
 > Yey! 🤩 you have successfully created the PR, now supervisors will Merge your PR, if everything is fine.
