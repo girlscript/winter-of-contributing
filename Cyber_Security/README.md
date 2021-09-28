@@ -4,7 +4,7 @@
 - [x] [What is Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/What%20is%20Information%20Security%3F.md)
 - [x] [What is the importance and need for information security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/InformationSecurity.md)
 - [x] [Challenges in Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.3_Challenges_in_InformationSecurity.md)
-- [ ] Information Security Controls?
+- [x] [Information Security Controls?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.4%20Information%20security%20controls.md)
 
 - [x] [What is Physical Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.5_What_is_physical_security.md)
 - [x] [Importance of Physical Security](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.6_Importance_of_Physical_Security.md)
