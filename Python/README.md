@@ -33,6 +33,7 @@
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
+- [Python File I/O](./Python_File_IO)
 
 
 ## Learning path
