@@ -156,6 +156,7 @@ Table: Set Operators
 | `MINUS` | Returns all distinct rows selected by the first query but not the second | <pre lang="sql"><code> SELECT * FROM (SELECT SAL FROM EMP WHERE JOB = 'PRESIDENT' </code></pre><pre lang="sql"><code> MINUS </code></pre><pre lang="sql"><code> SELECT SAL FROM EMP WHERE JOB = 'MANAGER'); </code></pre> |
 
   Note: : The syntax for `INTERSECT ALL` is supported, but it returns the same results as `INTERSECT`.
+
 <br />
 
 # 7. Other Operators
