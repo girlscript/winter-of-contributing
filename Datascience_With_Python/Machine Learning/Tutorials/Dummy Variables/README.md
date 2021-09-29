@@ -7,7 +7,7 @@
 
   
 ### 🔗 IMPORTANT LINKS 
-#### Documentation: [![Documentation](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]
+#### Documentation: [![Documentation](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Dummy%20Variables/dummy_variables.ipynb)
 #### Dataset: [![Dataset](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)](https://data.princeton.edu/wws509/datasets/salary.dat)
 
 
