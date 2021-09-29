@@ -105,6 +105,12 @@ So , the final function is generated as CF(6,(11,33),(35,215))
 ## Complexity
 The time complexity of the algorithm is O(n), where n is the number of objects to be clustered. 
 
+## Applications
+<ul>
+  <li>Pixel classification in images</li>
+  <li>Image blending</li>
+  <li>Audio data classification</li>
+</ul> 
 
 ## Conclusion
 Experiments have shown the linear scalability of the algorithm with respect to the number of objects, and good quality of clustering of the data. However, since each node in a CF-tree can hold only a limited number of entries due to its size, a CF-tree node does not always correspond to what a user may consider a natural cluster. Moreover, if the clusters are not spherical in shape, BIRCH does not perform well because it uses the notion of radius or diameter to control the boundary of a cluster.The ideas of clustering features and CF-trees have been applied beyond BIRCH. The ideas have been borrowed by many others to tackle problems of clustering streaming
