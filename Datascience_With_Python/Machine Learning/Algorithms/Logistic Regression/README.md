@@ -50,11 +50,14 @@ where sigmoid function is given by:
 sigmoid(t)=1/(1+e^-t)
 
 <p align="center">
-  <img src="Sigmoid Curve.png" width="350" title="hover text">
+  <img src="Sigmoid Curve.png" width="350" title="sigmoid curve">
 </p>
 We then specify a decision boundary according to which the values are classified into particular classes. After this, using the predicted values we can give different classes to the target variable.
 
 ## Workflow of the algorithm
 
+<p align="center">
+  <img src="Code flowchart.jpeg" width="350" title="flowchart of code example">
+</p>
 
 ## Conclusion
