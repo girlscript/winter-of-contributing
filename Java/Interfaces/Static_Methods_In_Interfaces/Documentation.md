@@ -40,6 +40,11 @@ public class Party implements Music {
  }
  
  ```
+ 
+ ### Output:
+ 
+ ![gsoc1](https://user-images.githubusercontent.com/61372508/135284882-542f0f6b-508f-4589-898a-3da234e32b19.PNG)
+
  ---
  
  # Static Methods In Interfaces:
@@ -76,7 +81,10 @@ public class Party implements Music {
   
   *Output:*
   
-  ![gsoc1](https://user-images.githubusercontent.com/61372508/135284561-40cd78a7-aab2-4af9-babf-d95c3f70a7b2.PNG)
+  ![gwoc2](https://user-images.githubusercontent.com/61372508/135284946-ace0d4b7-bd5b-4b98-a694-75c275fee0ec.PNG)
+
+  
+  
 
   
   
@@ -117,7 +125,12 @@ public class prop1 implements property1
     }
 }
 
+
 ```
+ #### Output For Above Code Snippet:
+ 
+ ![gwoc3](https://user-images.githubusercontent.com/61372508/135285199-db213d2b-fa97-4d26-bde7-bb3d892f12cd.PNG)
+
 
 2. With respect to the scope of the static method of the interface, it has its resultant scope defined within the bounds of the interface only. In case a method with the same name is defined in the class implementing the interface, it's scope will get limited to class itself. To distinguish betwixt them, we invoke the interface's method using **`interfaceName.methodName();`**.
 
@@ -149,3 +162,8 @@ public class prop2
 }
 
 ```
+
+#### Output For Above Code Snippet:
+
+![gwoc4](https://user-images.githubusercontent.com/61372508/135285250-59dade21-af05-423e-85ed-13ac550b7ce5.PNG)
+
