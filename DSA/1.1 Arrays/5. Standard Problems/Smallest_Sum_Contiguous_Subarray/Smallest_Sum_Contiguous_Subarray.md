@@ -96,7 +96,7 @@ O(1)
 
  **Reference:**
   - Documentation -
- <a href=" https://www.geeksforgeeks.org/smallest-sum-contiguous-subarray/"> Geeks For Geeks</a>
+ <a href="https://www.geeksforgeeks.org/smallest-sum-contiguous-subarray/"> Geeks For Geeks</a>
 
 
 
