@@ -29,10 +29,10 @@ There are four steps of BIRCH Algorithm.
 # Implementation
 The implemention steps are illustrated below
 
-<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/s1_birch.PNG">
-<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/s3_birch.PNG">
-<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/s4.PNG">
-<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/s5.PNG">
+<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/Images/s1_birch.PNG">
+<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/Images/s3_birch.PNG">
+<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/Images/s4.PNG">
+<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/Images/s5.PNG">
 
 
 # References
