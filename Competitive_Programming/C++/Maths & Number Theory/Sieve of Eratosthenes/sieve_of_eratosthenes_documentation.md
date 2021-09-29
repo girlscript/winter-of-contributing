@@ -93,7 +93,7 @@ void linear_sieve(int n){
  } 
  ~~~
  ## Explanatation
- This algorithm is relatively simple and allows us to factorize number upto n very fast, since we know the smallest prime divisor so we can factorize any number 'i' in ~O(n)~.
+ This algorithm is relatively simple and allows us to factorize numbers up to n very fast since we know the smallest prime divisor so we can factorize any number 'i' in ~O(n)~.
  Now let us suppose we are processing a number 'i' and its smallest prime divisor is 'P', then we mark every number of the form i*(P1) where P1<=P as false that is composite and set their smallest prime divisor to P1. This way we'll be crossing out each number exactly once and the algorithm will work in linear time complexity.
 
 ##### image credit:javatutorialpoint
