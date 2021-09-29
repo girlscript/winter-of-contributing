@@ -46,9 +46,9 @@
 - Basics & Syntax
 - The Box Model
 - CSS Layouts
-   * Displays
-   * Floats
-   * Positions
-   * Flex Box
-   * CSS Grid
+  - Displays
+  - Floats
+  - Positions
+  - Flex Box
+  - CSS Grid
 - Responsive Design & Media Queries
