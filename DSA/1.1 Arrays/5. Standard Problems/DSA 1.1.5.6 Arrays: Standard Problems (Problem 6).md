@@ -98,11 +98,6 @@ It is O(n) as there is no representation such as 2O(n).
 
 ```
 
-
-## Output
-
-8
-
 <hr>
 
 **Reference Link**
