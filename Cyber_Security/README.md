@@ -55,6 +55,7 @@
 - [x] [HUB](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.2_HUBs.md)
 - [x] [FireWall](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.3%20Firewall.md)
 - [x] [LAN](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.4_LAN_adv_disadv.md)
+    - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/LAN_video.md)
 - [x] [WAN](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.5_WAN.md)
 
 ## Week-3 (Computer Viruses and Threats)
