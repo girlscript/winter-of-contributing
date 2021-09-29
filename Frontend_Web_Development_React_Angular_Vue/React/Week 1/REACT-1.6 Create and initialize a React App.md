@@ -59,11 +59,11 @@ NPX comes bundled with NPM version 5.2+
 *  The **create-react-app** script will install all of the dependencies and will build a base project in the **girlscript-Winter-Of-contribution-app** directory.
 
 * The code will download the dependencies and will create a base project. It may take a few minutes to finish. When it is complete, you will receive a **success** message. Your version may be slightly different if you use **yarn** instead of **npm**
-
-## What Is Yarn And How It Works 
-* Yarn is a package manager for our code that helps to manage project dependencies like NPM.
-* Yarn stores dependencies locally which avoids the download of these packages multiple times. 
+*  As Yarn is a package manager for our code that helps to manage project dependencies like NPM.
+* Yarn also stores dependencies locally which avoids the download of these packages multiple times. 
 * It can be  easily reinstalled without internet because it fetches from the disk when executing the**Yarn add** command.
+
+
 
 
 ### Output :
@@ -124,4 +124,8 @@ To create a production build, use npm build.
  alt="JSX-logo" width="40%"  />
 </p>
 * Stop the project by typing either CTRL+C or ⌘+C in the terminal
+
+---
+### Reference
+* https://reactjs.org/docs/create-a-new-react-app.html
 
