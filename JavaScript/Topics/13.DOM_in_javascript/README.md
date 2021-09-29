@@ -33,7 +33,7 @@ With the DOM , javascript get all the power it needs to create dynamic HTML . Wi
 * JavaScript can create new HTML events in the page
 
 
-## Document object in JS
+## Document object in JavaScript
 <br>
 
 A web page or say HTML document can be imagined as a nested set of boxes. Tags such as head and body enclose other tags, which in turn contain other tags or text. For example a simple webpage can have following structure :
