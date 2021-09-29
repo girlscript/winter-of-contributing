@@ -13,31 +13,29 @@
 
 ```
 interface Music {
-    
-   
     public abstract void increaseVolume();
     void adjustBass(); //every method declared inside is public and abstract by default
-    }
- 
+}
+
 public class Party implements Music {
     public void increaseVolume()
     {
-    
+
         System.out.println("Increased!!");
     }
-   public void adjustBass()
-   {
-     
-      System.out.println("Adjusted!!");
+    public void adjustBass()
+    {
+
+        System.out.println("Adjusted!!");
     }
-  public static void main(String args[])
-  {
-      Party par = new Party();
-      par.increaseVolume();
-      par.adjustBass();
-      
-  }
- }
+    public static void main(String args[])
+    {
+        Party par = new Party();
+        par.increaseVolume();
+        par.adjustBass();
+
+    }
+}
  
  ```
  
@@ -100,7 +98,7 @@ public class Party implements Music {
      #### Illustration of Property #1:
 
 ```
-interface property1 
+interface Property1 
 {
     static void display() //static method in an interface
     {
@@ -109,7 +107,7 @@ interface property1
     void display2(String s);
 }
 
-public class prop1 implements property1
+public class Prop1 implements Property1
 {
     public void display2(String s1) //overriding the abstract method of the interface
     {
@@ -117,9 +115,9 @@ public class prop1 implements property1
     }
     public static void main(String args[])
     {
-        prop1 obj = new prop1(); //object of class prop1
+        Prop1 obj = new Prop1(); //object of class prop1
         
-        property1.display(); //invoking the static method of the interface
+        Property1.display(); //invoking the static method of the interface
         obj.display2("Howdy? I'm fine!"); /*invoking the non-static or abstract method of the interface*/
         
     }
@@ -137,7 +135,7 @@ public class prop1 implements property1
    #### Illustration of Property #2: 
    
 ```
-interface property2
+interface Property2
 {
     static double area(double r)
     {
@@ -145,11 +143,11 @@ interface property2
         return a;
     }
 }
-public class prop2
+public class Prop2
 {
     public static void main(String args[])
     {
-        double ar1 = property2.area(2.4); //interface's static method
+        double ar1 = Property2.area(2.4); //interface's static method
         double ar2 = area(3.2);           //static method of the class
         System.out.println(ar1);
         System.out.println(ar2);
