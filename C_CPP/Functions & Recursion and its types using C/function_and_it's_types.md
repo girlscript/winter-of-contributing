@@ -7,7 +7,7 @@
 - A C program must have atleast one function.<br> i.e main()
 - Function name must be unique in a program.
 ## 2. Three Aspects of Function -
-<img src="images/img2.png" width="300"><br>
+<img src="images/img2.png" width="500"><br>
 
 ## 3. Types of Function -
 1. **Pre-defined function** 
@@ -16,7 +16,7 @@
 - already defined in the system libraries
 - eg. scanf(), printf(), getch() etc.
 
-<img src="images/img1.png" width="200"><br>
+<img src="images/img1.png" width="300"><br>
 
 2. **User-defined function** 
 - written by user to perform certain task
