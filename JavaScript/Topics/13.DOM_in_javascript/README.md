@@ -104,8 +104,6 @@ var form1 = x.item(0);
 
 
  ```
-
-
 <br>
 To access any particular element , DOM provides various method . Some of them are as follows :
 
