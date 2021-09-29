@@ -54,95 +54,25 @@
 
 ## 2. Arithmetic Operators
 
-Arithmetic operators manipulate numeric operands. The '-' operator is also used in date arithmetic. Supported arithmetic operators are listed in [Table 2-2](https://docs.oracle.com/cd/E12095_01/doc.10303/e12092/sqopr.htm#g1005796).
+- Arithmetic operators manipulate numeric operands. The '-' operator is also used in date arithmetic..
 
-Table 2-2 Arithmetic Operators
+Table: Arithmetic Operators
 
 | Operator | Description | Example |
 | :-- | :-- | :-- |
-|
+| + (unary) | Makes operand positive | `SELECT +3 FROM DUAL;` |
+| - (unary) | Negates operand | `SELECT -4 FROM DUAL;` |
+| / | Division (numbers and dates) | `SELECT SAL / 10 FROM EMP;` |
+| * | Multiplication | `SELECT SAL * 5 FROM EMP;` |
+| + | Addition (numbers and dates) | `SELECT SAL + 200 FROM EMP;` |
+| - | Subtraction (numbers and dates) | `SELECT SAL - 100 FROM EMP;` |
+<br />
 
-+ (unary)
-
- |
-
-Makes operand positive
-
- |
-
-`SELECT +3 FROM DUAL;`
-
- |
-|
-
-- (unary)
-
- |
-
-Negates operand
-
- |
-
-`SELECT -4 FROM DUAL;`
-
- |
-|
-
-/
-
- |
-
-Division (numbers and dates)
-
- |
-
-`SELECT SAL / 10 FROM EMP;`
-
- |
-|
-
-*
-
- |
-
-Multiplication
-
- |
-
-`SELECT SAL * 5 FROM EMP;`
-
- |
-|
-
-+
-
- |
-
-Addition (numbers and dates)
-
- |
-
-`SELECT SAL + 200 FROM EMP;`
-
- |
-|
-
- |
-
-Subtraction (numbers and dates)
-
- |
-
-`SELECT SAL - 100 FROM EMP;`
-
- |
-
-2.3 Character Operators
------------------------
+# Character Operators
 
 Character operators used in expressions to manipulate character strings are listed in [Table 2-3](https://docs.oracle.com/cd/E12095_01/doc.10303/e12092/sqopr.htm#g1005828).
 
-Table 2-3 Character Operators
+Table: Character Operators
 
 | Operator | Description | Example |
 | :-- | :-- | :-- |
