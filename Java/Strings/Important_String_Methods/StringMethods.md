@@ -704,7 +704,7 @@ AB
 
 Let’s look at what actually happened here
 - So in the first case we declared an ***integer number*** and displayed it by adding one. Now this is simple as addition of two integers yield an integer result. Thus we received the sum of both the numbers i.e. ***8 + 1 = 9***
-- In the second case using the value of method we converted the number to a String type and then added an integer to it. So this will concatenate the integer to the string hence ***“8” + 1 *** give 81 as a result.
+- In the second case using the value of method we converted the number to a String type and then added an integer to it. So this will concatenate the integer to the string hence ***“8” + 1*** give 81 as a result.
 - We took another example of char type, where a character type variable named ch was initialised to **‘A’**. When we added char type **‘B’** to char type **‘A’** it actually added the ***Unicode value*** of both the characters and displayed the integer result. This is because the characters cannot be concatenated.
 - When we used the valueOf method() to convert the character to the String, the char **‘A’** was converted to String type **“A”** and we know that String concatenation is possible. It is possible to append a character in the String  hence ***“A” + ‘B’*** gave ***AB***. 
 
@@ -712,6 +712,7 @@ Let’s look at what actually happened here
 This was all about the important String methods. 
 You can implement all these codes in any IDE or even online java compilers like 
 (https://www.onlinegdb.com/online_java_compiler)
+
 
 ## Author
 - [@Abhinay Garg] (https://github.com/techabhi08)
