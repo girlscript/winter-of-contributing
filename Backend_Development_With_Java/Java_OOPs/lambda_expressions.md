@@ -8,7 +8,7 @@ Lambda expressions are added in Java 8 and provide below functionalities.
 - A lambda expression can be passed around as if it was an object and executed on demand.
 
 e.g-
-```java
+```Java
 interface Lambda{
 	public void demo();
 }
