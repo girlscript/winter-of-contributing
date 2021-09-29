@@ -1,29 +1,24 @@
 ![image](https://user-images.githubusercontent.com/66017717/135299274-18b0801b-1a2a-478c-9b2d-d414663e6b1f.png)
 
         Input:  arr[] = {2, 1, 5, 6, 3}, 
-        k = 3
-
+                k = 3
         Output: 1
-
-        Explanation: Swap 5 and 3    
+	    Explanation: Swap 5 and 3    
                      arr[] = {2, 1, 3, 6, 5}
 
         Input:  arr[] = {2, 7, 9, 5, 8, 7, 4}, k = 5
         Output: 2
 
   
-  Brute force 
-  
-  Time Complexity - O(N2)
-	
-  • A simple solution is to first count all elements less than or equals to k. 
-	
-  • Now traverse for every sub-array and store the number of elements whose value is greater than k say eleToSwap. 
-	
-  • Find the minimum number of eleToSwap this will be the answer.
+   Brute force 
+   
+     Time Complexity - O(N2)
+     • A simple solution is to first count all elements less than or equals to k. 
+     • Now traverse for every sub-array and store the number of elements whose value is greater than k say eleToSwap. 
+     • Find the minimum number of eleToSwap this will be the answer.
 
 
-    Code
+   Code
 
     int minSwap(int *arr, int n, int k){
     int cnt = 0;
@@ -51,16 +46,16 @@
     }
 
    
+   
   Efficient Approach (Two pointer technique and Sliding Window)
-
-  Time Complexity - O(N)
-
+        
+	Time Complexity - O(N)
 	1. Find count of all elements which are less than or equals to ‘k’. (cnt)
 	2. Using two pointer technique for window of length ‘cnt’, each time keep track of how many elements in this range are greater than ‘k’. Let’s say the total count is ‘eleToSwap’.
 	3. Repeat step 2, for every window of length ‘cnt’ and take minimum of count ‘eleToSwap’ among them. This will be the final answer.
 	4. Also while checking in the current window of size cnt decrease the eleToSwap if a element was greater than or equal to k in the previous window.
 
-    Code
+   Code
    
     int minSwap(int *arr, int n, int k) {
     int cnt = 0;
