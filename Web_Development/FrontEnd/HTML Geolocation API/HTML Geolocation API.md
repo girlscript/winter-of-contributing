@@ -68,8 +68,3 @@ Option includes extra parameters which is :
 When we run this file and click on Click Here button then browser pop-up the window that ask for the permission for access your location.
 
 And when we accept that then output is generated like this which has Latitude and Longitude of user device.
-
---- 
-*Thanks for reading !!*
-
-**Author :** [@ Bhumit Bedse](https://github.com/bhumitbedse) 
