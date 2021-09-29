@@ -1,16 +1,14 @@
-# **Single Element CSS Spinner**
+# Single Element CSS Spinner
 
-------
-
-### **HTML**
+## HTML
 
 ```html
 <div class="loader">Loading...</div>
 ```
 
-> #### **Add the above `HTML` code in the `body` tag.**
+*Add the above `HTML` code in the `body` tag.*
 
-### **CSS**
+## CSS
 
 ```css
 .loader, .loader:before, .loader:after 
@@ -79,15 +77,11 @@
 
 ```
 
-> ### **Add the above `CSS` in the `.css` file**
+*Add the above `CSS` in the `.css` file*
 
-------
-
-## **Your Spinner will look like :**
+## Your Spinner will look like :
 
 ![Single Element CSS Spinner](Single_Element_CSS_Spinner.gif)
-
-------
 
 Reference : [**Single Element CSS Spinners**](https://projects.lukehaas.me/css-loaders/)
 

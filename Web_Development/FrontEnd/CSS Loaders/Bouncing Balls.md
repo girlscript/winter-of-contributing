@@ -1,8 +1,6 @@
-# **Bouncing Balls**
+# Bouncing Balls
 
-------
-
-### **HTML**
+## HTML
 
 ```html
 <div class="loader-wrapper">
@@ -15,9 +13,9 @@
 </div>
 ```
 
-> #### **Add the above `HTML` code in the `body` tag.**
+*Add the above `HTML` code in the `body` tag.*
 
-### **CSS**
+## CSS
 
 ```css
 .loader-wrapper
@@ -87,13 +85,9 @@
 }
 ```
 
-> #### **Add the above `CSS` in the `.css` file**
+*Add the above `CSS` in the `.css` file*
 
-------
-
-## **Your Spinner will look like :**
+## Your Spinner will look like :
 
 ![Bouncing Balls](Bouncing_Balls.gif)
-
-------
 

@@ -1,8 +1,6 @@
-# **Buffer**
+# Buffer
 
-------
-
-### **HTML**
+## HTML
 
 ```html
 <div class="lds-spinner">
@@ -21,9 +19,9 @@
 </div>
 ```
 
-> #### **Add the above `HTML` code in the `body` tag.**
+*Add the above `HTML` code in the `body` tag.*
 
-### **CSS**
+## CSS
 
 ```css
 .loader-wrapper
@@ -127,15 +125,11 @@
 }
 ```
 
-> #### **Add the above `CSS` in the `.css` file**
+*Add the above `CSS` in the `.css` file*
 
-------
-
-## **Your Spinner will look like :**
+## Your Spinner will look like :
 
 ![Buffer](Buffer.gif)
-
-------
 
 Reference : [**Loading.io**](https://loading.io/css)
 
