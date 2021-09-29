@@ -107,9 +107,9 @@ class Derived : public Base { };
 
 int main() 
 {
-	Base *pBDerived = new Derived;
-	Base *pBBase = new Base;
-	Derived *pd;
+	Base *pBDerived = new Derived;          //pointer of Base Class type pointing a Derived class
+	Base *pBBase = new Base;                //pointer of Base Class type pointing a Base Class
+	Derived *pd;                            //pointer of Derived Class type
 
 	pd = dynamic_cast<Derived*>(pBDerived);	//1
     if(pd != nullptr)
