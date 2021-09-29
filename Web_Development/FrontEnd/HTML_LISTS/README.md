@@ -1,69 +1,115 @@
-# HTML Lists
+# HTML LISTS
+Lists are structured HTML elements which are used to group similar or related items together in order to achieve better readability and an organised representation of information. Lists can be used to represent general data as well as for navigation purposes. 
 
-HTML element meant to help you structure the content on your page is the list element. Most of the websites you see usually contains some types of list in some way or other. These list helps us to understand the content in a much better and organized way.
-
-Lists are used to group together related pieces of information so they are clearly associated with each other and easy to read. In modern web development, lists are workhorse elements, frequently used for navigation as well as general content.
+Using HTML lists not only organises our data, it also helps us style our website better because all the list items are independent and they can be styled differently using different CSS styles. We can also move the data around easily at any point of time by changing the order of our code. This can be a simple cut and paste, so they are very 
+easy to maintain as well.
 
 ## Types of Lists
+There are 3 types of lists present in HTML:
+### 1. Ordered List
+The elements of an ordered list are arranged in a numbered order. Therefore, an ordered list is used when the order of the list elements is of importance. 
+For example, we need to write an algorithm for adding 2 numbers.
 
-There are majorly two types of lists used in most web-pages you see :
+1. Start
+2. Declare num1, num2 and sum.
+3. Read the num1 and num2 values.
+4. Add the 3 numbers and assign it to sum variable.
+5. Print sum.
+6. Stop
 
-1.**Ordered Lists** - used to group a set of related items in a specific order. One uses this type of list in their web-page when the order of list item is not important.
-
-```html
+Here, the order of the steps matters, therefore we will use an ordered list to represent it on our website. The ordered list uses the ``` <ol></ol>  ``` tag. Inside this we declare our list items using the ``` <li></li> ``` tag. 
+Eg.
+```
 <ol>
-  <li>First Item of the list</li>
-  <li>Second Item of the list</li>
-  <li>Third Item of the list</li>
+  <li>Start</li>
+  <li>Declare num1, num2 and sum</li>
+  <li>Read the num1 and num2 values</li>
+  <li>Add the 3 numbers and assign it to sum variable</li>
+  <li>Print sum</li>
+  <li>Stop</li>
 </ol>
 ```
 
-On a web page this type of list looks something like this :
 
-![](./assets/ordered_list.png)
+This produces an output as follows:
+<ol>
+  <li>Start</li>
+  <li>Declare num1, num2 and sum</li>
+  <li>Read the num1 and num2 values</li>
+  <li>Add the 3 numbers and assign it to sum variable</li>
+  <li>Print sum</li>
+  <li>Stop</li>
+</ol>
 
-2.**Unordered Lists** - used to group a set of related items in no particular order. This type of list is used in a web page when the order of list items is not important. These are represented in bullet points.
+![alt text](assets/ol.jpg)
 
-```html
-<ul>
-  <li>First Item of the list</li>
-  <li>Second Item of the list</li>
-  <li>Third Item of the list</li>
-</ul>
-```
-
-On a web page this type of list looks something like this :
-
-![](./assets/unordered_list.png)
+The ordered list marker is numeric by default,however we can always use the ```type``` attribute to define the type of marker that we want in our ordered list. The markers can be numbers, upper and lower case letters and upper and lower case roman numbers.They follow the syntax:
+``` <ol type="a"></ol> ``` 
 
 ---
 
-## List Items
+### 2. Unordered List
+The elements of an unordered list are not numbered. They are used commonly where the order of the elements of our list does not matter. For example, we list down the items that we need to buy from the grocery store. 
 
-Above you have seen something what is called a list item represented by the html tag `<li>`. We will now see what all we can put inside this list item.
+- Milk
+- Butter
+- Rice
+- Sugar
 
-```html
+The unordered list uses the tag ``` <ul></ul> ```. Inside this tag we list out our elements using the list items tag ``` <li></li> ```. It is similar to the syntax of an ordered list.
+Eg.
+```
 <ul>
-  <li><a href="google.com">Google</a></li>
-  <li>
-    <img
-      style="height:100px"
-      src="https://gwoc.girlscript.tech/assets/gwoc_logo_forweb.png"
-    />
-  </li>
-  <li>
-    Nested List
-    <ul>
-      <li>First</li>
-      <li>Second</li>
-      <li>Third</li>
-    </ul>
-  </li>
+  <li>Milk</li>
+  <li>Butter</li>
+  <li>Rice</li>
+  <li>Sugar</li>
 </ul>
 ```
 
-On a web page this type of list looks something like this :
+This produces an output as follows:
+<ul>
+  <li>Milk</li>
+  <li>Butter</li>
+  <li>Rice</li>
+  <li>Sugar</li>
+</ul>
 
-![](./assets/list_items.png)
+![alt text](assets/ul.jpg)
 
-You can clearly see you can put anything in a list item be it a link, an image or other lists as well.
+The default marker for an unordered list is the black disc shaped bullet, however we can change the list marker to circular, square bullets.We can also discard the bullets all together by using ``` type="none" ``` attribute inside the ``` <ul> ``` tag.
+
+---
+
+### 3. Description List
+Description lists are associated with values or elements of our list. It contains the description of the list items. A description list is defined using the ``` <dl></dl> ``` tag. Inside this tag we mention our list items using the ``` <dt></dt> ``` tag and it's description along with it using the ``` <dd></dd> ``` tag.
+For example, list items can be the names of students and their description can be their ranks in a class.
+
+
+```
+ <dl>
+    <dt>Prateek</dt>
+    <dd>Rank 1</dd>
+
+    <dt>Amit</dt>
+    <dd>Rank 2</dd>
+
+    <dt>Sara</dt>
+    <dd>Rank 3</dd>
+</dl>
+```
+
+This produces an output as follows:
+<dl>
+    <dt>Prateek</dt>
+    <dd>Rank 1</dd>
+   <dt>Amit</dt>
+    <dd>Rank 2</dd>
+   <dt>Sara</dt>
+    <dd>Rank 3</dd>
+</dl>
+
+![alt text](assets/dl.jpg)
+
+---
+
