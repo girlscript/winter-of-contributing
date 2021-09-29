@@ -334,7 +334,8 @@ Thus 8 blank spaces were given between the statement and the number and only 2 d
 ## indexOf() Method
 
 This is a very simple method which provides the index value of the sequence of character or a specified character in the given string. The index returned is the first occurrence of that character. 
-So again, there are two syntax for this method. We can either only provide the character/sequence or we can provide the character/sequence along with an index number. Now what this index will do? So basically, this index will tell the method that the ser is searching for this particular character/sequence after this index. In other words, it is instructing to search after the provided index.
+So again, there are two syntax for this method. We can either only provide the character/sequence or we can provide the character/sequence along with an index number. 
+Now what this index will do? So basically, this index will tell the method that the ser is searching for this particular character/sequence after this index. In other words, it is instructing to search after the provided index.
 
 **Syntax**
 ```
@@ -497,8 +498,9 @@ To retrieve the words from the array we used the **for each** loop and printed e
 
 ## substring() Method
 
-Substring in simpler words can be defined as part of String. This method takes integer type as parameter i.e. the index from the String provided. Then there are basically 2 methods either we just take the starting index, in this case the String is printed from the index given else we provide the starting index and the ending index , in this case the string between both the index is printed.
-Basically the beginning index start from 0 and ending index start from 1. Here StringOutOfBoundsException can be raised if the index value is greater than the number of character in string or the starting index is negative.
+Substring in simpler words can be defined as part of String. This method takes integer type as parameter i.e. the index from the String provided. 
+Then there are basically 2 methods either we just take the starting index, in this case the String is printed from the index given else we provide the starting index and the ending index , in this case the string between both the index is printed.
+Basically the beginning index start from 0 and ending index start from 1. Here ***StringOutOfBoundsException*** can be raised if the index value is greater than the number of character in string or the starting index is negative.
 
 **Syntax**
 ```
@@ -530,3 +532,186 @@ the substring m
 One important point to note here is if both start index and ending index are provided in parameter than the output will be displayed from starting index upto the ending index but not including it.
 From the output in the 1st case ***i*** is at the 5th index so the complete string from the index 5 is displayed while in the 2nd case ***t*** is at 8th index and ***e*** is at 23rd index so the output displayed from 8th index to 22nd index which is ***m***.
 
+
+
+### toCharArray() Method
+The method is very useful when one needs to convert the String to a character array. 
+A new array of character is created from the String which is of same length as the size of String. Thus the individual characters of a sequence of character can be retrieved from the array, using the loop.
+
+** Syntax ** 
+```
+char[] toCharArray()
+```
+
+### Example
+```
+public class Example {
+      public static void main (String args[]) {
+	String str1 = “Hello”;
+	char[] c = str1.toCharArray();
+	for(int i = 0; i < c.length; i++)
+		System.out.print(c[i]);
+      }
+}
+```
+The output here will be
+```
+H
+e
+l
+l
+o
+```
+
+Lets analyse this example. So basically we provided a String variable str1 and then converted it to char Array using the method. We stored the characters in an array named ***c***.
+Now using for loop we iterated from 0 to length of the array which is 5 and displayed each character on a new line. So this was the simple implementation using the toCharArray() Method.
+
+
+
+## toLowerCase()
+This method is used to change the case of the String. There are in general 3 kinds of cases i.e. lowercase, uppercase and CamelCase.
+Lower case is one where all the characters in the string are in lower or we can say smaller case. One simple example is “hello”, while for upper case it is “HELLO”, here all the characters will be in upper case. 
+The third type which is the camelCase is one in which first letter or character of every word is in UpperCase and rest all in lower case. A simple example is “HelloWorld”.
+
+Now lets see what this method does. So basically whatever the case in String is provided it is converted to lower case using this method. The method returns String with all lower case letters.
+
+**Syntax**
+```
+String toLowerCase()
+```
+
+This method is very easy to understand so we will look at a simple example.
+
+### Example
+```
+public class Example{
+      public static void main (String[] args) {
+	String str1 = “THIS is The LowER CasE METHOD”;
+	System.out.println (str1.toLowerCase());
+      }
+}
+```
+
+The output here will be
+```
+this is the lower case method.
+```
+
+## toUpperCase()
+This method is just opposite to the toLowerCase() method. In this method we convert the case of String to upper case. 
+
+**Syntax**
+```
+String toUpperCase()
+```
+
+Let’s take the previous example only to compare both the methods. I will just change the method here but will keep the String same.
+
+### Example
+```
+public class Example{
+      public static void main (String[] args) {
+	String str1 = “THIS is The LowER CasE METHOD”;
+	System.out.println (str1.toUpperCase());
+      }
+}
+```
+
+The output here will be
+```
+THIS IS THE LOWER CASE METHOD
+```
+
+It is as easy as it looks. All the characters in the String whether they be in lower case or upper case are converted to upper case. 
+
+
+
+## trim() Method
+
+The word trimming basically means removing. The trim() Method removes the extra space after or before the provided String. 
+One important point to remember is trim() Method does not remove space present between the two Strings.
+This method returns a String type.
+
+**Syntax**
+```
+Public String trim() 
+```
+
+Let’s look onto a simple example
+### Example
+```
+public class Example {
+      public static void main (String[] args) {
+	String str1 = “       This is the trim    ”;
+	System.out.println (str1 + “method”);
+	System.out.println (str1.trim() + “method”);
+      }
+}
+```
+The output will be:
+```
+This is the trim    method
+This is the trimmethod
+```
+
+So here we tested both the things, we displayed the String without trimming it for the first time. So you might be thinking why the initial spaces are removed. So this is basically inner functionality of Java where any number of spaces from the beginning are removed automatically as the output is not affected by it. 
+If purposely one has to centralize the text or provide space in the front then it is necessary to use the format method.
+In the second case the trim() Method trims the string removing all the spaces before and after and then add the String ***method*** to it.
+
+
+
+## valueOf() Method
+
+This is actually the most important method of the Java String Class. This method is seen as a part of autoboxing and unboxing. The method is used to convert different datatypes or even objects and character arrays to String.
+The method returns String.
+
+**Syntax**
+
+```
+public static String valueOf (datatype name)
+public static String valueOf (char[] name)
+public static String valueOf (Object name)
+```
+
+Here datatype can be int, long, char, boolean, float or double.
+
+Let’s take few simple examples
+
+### Example
+```
+public class Example{
+     public static void main(String[] args) {
+	int number = 8;
+	String str1 = String.valueOf(number);
+	System.out.println(number + 1);
+	
+	System.out.println(str1 + 1);
+	char ch = ‘A’
+	String str2 = String.valueOf(ch);
+	System.out.println(ch + ‘B’);
+	System.out.println(str2 + ‘B’);
+     }
+} 
+```
+
+This will give the output
+```
+9
+81
+131
+AB
+```
+
+Let’s look at what actually happened here
+- So in the first case we declared an ***integer number*** and displayed it by adding one. Now this is simple as addition of two integers yield an integer result. Thus we received the sum of both the numbers i.e. ***8 + 1 = 9***
+- In the second case using the value of method we converted the number to a String type and then added an integer to it. So this will concatenate the integer to the string hence ***“8” + 1 *** give 81 as a result.
+- We took another example of char type, where a character type variable named ch was initialised to **‘A’**. When we added char type **‘B’** to char type **‘A’** it actually added the ***Unicode value*** of both the characters and displayed the integer result. This is because the characters cannot be concatenated.
+- When we used the valueOf method() to convert the character to the String, the char **‘A’** was converted to String type **“A”** and we know that String concatenation is possible. It is possible to append a character in the String  hence ***“A” + ‘B’*** gave ***AB***. 
+
+
+This was all about the important String methods. 
+You can implement all these codes in any IDE or even online java compilers like 
+(https://www.onlinegdb.com/online_java_compiler)
+
+## Author
+- [@Abhinay Garg] (https://github.com/techabhi08)
