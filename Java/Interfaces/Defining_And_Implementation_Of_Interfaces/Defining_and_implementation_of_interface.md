@@ -15,7 +15,7 @@ An interface is quite similar to some other class, but it has got some method th
 ## Declaration of Interface 
 **SYNTAX** for declaring an interface 
 <!-- insert an image -->
-![Declarartion of interface](interfaceDeclaration.png)
+![Declarartion of interface](../Assets/interfaceDeclaration.png)
 
 here *smartphone* is the interface's name and *frontcamera*,*rearcamera* etc are the methods without the implemenatation (without body).
 
@@ -41,24 +41,24 @@ public static final double length=164;
 ```
 for better understanding look at the code snippet below :
 <!-- image 2 -->
-![under the hood](interfaceDeclaration2.png)
+![under the hood](../Assets/interfaceDeclaration2.png)
 This is how it works under the hood.
 
 But in **JDK8** a feature was added . We can define default , static and private method in interface . 
 
 Defining a static method in interface: 
 <!-- static method in interface code snippet-->
-![static method in interface](staticmethod.png)
+![static method in interface](../Assets/staticmethod.png)
 
 
 <!-- private method in interface code snippet -->
 Defining a private method in interface: 
-![private method in interface](privatemethod.png)
+![private method in interface](../Assets/privatemethod.png)
 
 
 <!-- default method in interface code snippet -->
 Defining a default method in interface: 
-![default method in interface](defaultmethod.png)
+![default method in interface](../Assets/defaultmethod.png)
 
 ------------
 ## How to use Interface ?
@@ -76,13 +76,13 @@ So, we can do only 2 things with interface :
 <!-- and write about it -->
 To implement interface we have to create an another class which can be instantiated. With the help of keyword **implements** we can implement the interface in that class. This is how we can declare a class that implements an interface : 
 <!-- insert the image  -->
-![](implementation.png)
+![](../Assets/implementation.png)
 Here implementor is the class that implements the interface smartphone and and it defines all the methods inside of it .
 
 ## Way #2
 ### Creating an Anonymous Class
 
 <!-- insert image  -->
-![anonymous class](anonymous.png)
+![anonymous class](../Assets/anonymous.png)
 <!-- and write about it -->
 Here we have created an anonymous class and inside of it we have defined all the methods .
