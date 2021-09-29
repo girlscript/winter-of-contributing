@@ -17,7 +17,7 @@ There are four steps of BIRCH Algorithm.
 - Step four: Cluster Refining: Fix Cluster tree data points.
 
 
-<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/birch.jpg">
+<img src="https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Audios/Birch%20Algorithm/Images/birch.jpg">
 
 # Important Factors
  There are three parameters in the BIRCH algorithm.
