@@ -91,10 +91,7 @@ It is equal to n as the size of map is also equal to n.
 **Space Complexity** = O(n)
 
 ```
-Space complexity is the total space taken and here it is space taken by array and map = O(n) + O(n) = O(n)
-
-Note
-It is O(n) as there is no representation such as 2O(n).
+Space complexity is the total space taken and here it is space taken by array and map -> O(n) + O(n) == O(n)
 
 ```
 
