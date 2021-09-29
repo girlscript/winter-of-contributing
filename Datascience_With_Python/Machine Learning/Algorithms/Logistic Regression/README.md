@@ -61,3 +61,5 @@ We then specify a decision boundary according to which the values are classified
 </p>
 
 ## Conclusion
+
+We have seen that Logistic regression is a supervised algorithm which is helpful in finding the probability of the target variable. It is useful for getting the value for the dependent variable which is binary. We have discussed different concepts related to Logistic Regression algorithm including its types, applications, advantages, disadvantages and how it works. Also, we have implemented a code involving logistic regression describing how it can be used over a dataset and the results obtained after applying it.
