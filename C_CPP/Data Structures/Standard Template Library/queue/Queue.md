@@ -2,9 +2,16 @@
 
 ## What is Queue?
 **Queue** is a sequence which follows First In First Out (FIFO) manner. We can see Queue in our life like a queue of customers outside a shop in which the customer who came first get his order first.
-![enter image description here](https://www.javascripttutorial.net/wp-content/uploads/2019/12/queue-at-a-bank.png)
+
+![enter image description here](Queueexample1.png)
+
+
+
 Queue as a data structure stores element from rear(back) and deletes it from front. It can be implemented using Arrays or Linked List.
-![enter image description here](https://iq.opengenus.org/content/images/2019/05/pq.png)
+
+
+
+![enter image description here](queue.png)
 
 ## Queues in C++ STL
 Standard Template Library (STL) in C++ contains the implementation of commonly known data structures such as arrays, lists, queues, stacks, etc.
@@ -20,22 +27,21 @@ We can use Queue in our code by including queue library.
 
 
  - In Queues, data does not remain in the data structure for as long as with stacks.
- -  In Queues, data is store in ordered manner.
+ - In Queues, data is store in ordered manner.
 
 **Disadvantages of Queues :**
 
  -  In Queues, data inserted after a particular data cant be deleted before that data.
-
  - In Queues, Random access of elements is impossible.
 
 **Functions supported by queue are :**
 
- 1.**push(element) -** adds the element at the end of the queue.
- 2. **pop( ) -** deletes the first element of the queue.
- 3. **empty( ) -** Returns whether the queue is empty.
-4. **size( ) -** Returns the size of the queue.
-5. **front( ) -** returns a reference to the first element of the queue.
-6. **back( ) -** returns a reference to the last element of the queue.
+ 1.**push(element) -** adds the element at the end of the queue.<br/>
+ 2. **pop( ) -** deletes the first element of the queue.<br/>
+ 3. **empty( ) -** Returns whether the queue is empty.<br/>
+4. **size( ) -** Returns the size of the queue.<br/>
+5. **front( ) -** returns a reference to the first element of the queue.<br/>
+6. **back( ) -** returns a reference to the last element of the queue.<br/>
 
 ### Code :
 ```c
