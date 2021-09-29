@@ -6,6 +6,12 @@ Real life example of queue can be,line of vehicles on road during heavy traffic.
 <img src="https://github.com/ishrutik/winter-of-contributing/blob/C_CPP/C_CPP/Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc)/Queue%20Implementation/Queue_Real_Life_Example.jpg"/>
 <br><br><br>
 Queue can be implemented using both linked list and arrays.<br><br>
+Implementation using Array<br>
+[Queue Implementation using Array](https://github.com/ishrutik/winter-of-contributing/blob/C_CPP/C_CPP/Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc)/Queue%20Implementation/Queue_Using_Array.cpp)
+<br><br>
+Implementation using Linked List<br>
+[Queue Implementation using Linked List](https://github.com/ishrutik/winter-of-contributing/blob/C_CPP/C_CPP/Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc)/Queue%20Implementation/Queue_Using_LL.cpp)
+<br><br>
 Operations which we need to perform on queue are:<br>
 - enqueue(element)<br>
   Insert the element in the queue i.e Insert element at rear side of queue.
