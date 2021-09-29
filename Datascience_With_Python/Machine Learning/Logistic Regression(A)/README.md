@@ -33,6 +33,8 @@ The Logistic regression equation can be obtained from the Linear Regression equa
 [![Logistic regression equation](https://github.com/Aaksha-sharma/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Logistic%20Regression(A)/Images/Logistic_regression_equation.png)]
 
 
+**IN THE SAMPLE CODE FILE I HAVE CLASSIFIED IRIS FLOWER USING LOGISTIC REGRESSION**
+
 
 **Click for audio lecture**
 [![Logistic Regression](https://github.com/Aaksha-sharma/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Logistic%20Regression(A)/Images/Logistic_regression.png)](https://drive.google.com/drive/folders/14DBfEWN8ExCKzrcudJNgoIocNu4Wvtwl?usp=sharing)
