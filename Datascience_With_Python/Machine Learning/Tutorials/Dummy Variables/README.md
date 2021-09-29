@@ -35,7 +35,7 @@ To share my understanding of the concept and techniques I know, I’ll take the 
 
 ## DESCRIPTION
 
-There are multiple independent features out of which some are categorical in nature and one dependent features
+In the chosen dataset there are multiple independent features out of which some of them are categorical in nature and one is dependent feature. In this documentation we will look how to use categorical variables in order to create model using Machine Learning algorithm to make optimal prediction.
 
 ## AIM
 In this documentation, we understood the concept of Dummy Variables with the help of an example dataset. We looked at how we can use categorical variables in the dataset, to train our model to predict 
