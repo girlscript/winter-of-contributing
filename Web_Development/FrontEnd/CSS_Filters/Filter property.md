@@ -63,8 +63,6 @@ The above image shows a *contrast* of **500%**.
 ```css
 filter : contrast(500%);
 ```
-  
-### Difference between Contrast and Brightness
 
 ### Drop-shadow
 
