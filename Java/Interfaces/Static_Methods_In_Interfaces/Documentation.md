@@ -76,6 +76,9 @@ public class Party implements Music {
   
   *Output:*
   
+  ![gsoc1](https://user-images.githubusercontent.com/61372508/135284561-40cd78a7-aab2-4af9-babf-d95c3f70a7b2.PNG)
+
+  
   
   
  Starting from Java 8, we get the added feature of being able to use static methods in interfaces too. How does it fare, you may wonder? Let's have a look at the properties that it offers.
