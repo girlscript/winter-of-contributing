@@ -20,10 +20,10 @@ Throughout the program there are three modes of contribution, as listed below:
 
 1. Documentation
 
-- Content such as codes or tutorials
+- Content Creation in the form of codes or tutorials
 - Preferred language should be English
 - Accepted via [Google Colab](https://colab.research.google.com/)
-- Clear, Consise and Complete
+- Clear, Consise and Complete.
 
 2. Video
 
