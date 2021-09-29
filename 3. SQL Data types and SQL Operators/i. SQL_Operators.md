@@ -143,11 +143,11 @@ Table: Logical Operators
 Table: Set Operators
 
 | Operator | Description | Example |
-| :-- | :-- | :-- |
-| `UNION` | Returns all distinct rows selected by either query. | `SELECT * FROM` , `(SELECT ENAME FROM EMP WHERE JOB = 'CLERK'` , `UNION`, `SELECT ENAME FROM EMP WHERE JOB = 'ANALYST');` |
-| `UNION ALL` | Returns all rows selected by either query, including all duplicates. | `SELECT * FROM` `(SELECT SAL FROM EMP WHERE JOB = 'CLERK'` `UNION` `SELECT SAL FROM EMP WHERE JOB = 'ANALYST');` |
-| `INTERSECT` and `INTERSECT ALL` | Returns all distinct rows selected by both queries | `SELECT * FROM orders_list1` `INTERSECT` `SELECT * FROM orders_list2` |
-| `MINUS` | Returns all distinct rows selected by the first query but not the second | `SELECT * FROM (SELECT SAL FROM EMP WHERE JOB = 'PRESIDENT'` `MINUS` `SELECT SAL FROM EMP WHERE JOB = 'MANAGER');` |
+| :-- | :-- | :-- | 
+| `UNION` | Returns all distinct rows selected by either query. | <pre lang="sql"><code> SELECT * FROM </code></pre><pre lang="sql"><code> (SELECT ENAME FROM EMP WHERE JOB = 'CLERK' </code></pre><pre lang="sql"><code> UNION </code></pre><pre lang="sql"><code> SELECT ENAME FROM EMP WHERE JOB = 'ANALYST'); </code></pre> |
+| `UNION ALL` | Returns all rows selected by either query, including all duplicates. | <pre lang="sql"><code> SELECT * FROM </code></pre><pre lang="sql"><code> (SELECT SAL FROM EMP WHERE JOB = 'CLERK' </code></pre><pre lang="sql"><code> UNION </code></pre><pre lang="sql"><code> SELECT SAL FROM EMP WHERE JOB = 'ANALYST'); </code></pre> |
+| `INTERSECT` and `INTERSECT ALL` | Returns all distinct rows selected by both queries | <pre lang="sql"><code> SELECT * FROM orders_list1 </code></pre><pre lang="sql"><code> INTERSECT </code></pre><pre lang="sql"><code> SELECT * FROM orders_list2 </code></pre> |
+| `MINUS` | Returns all distinct rows selected by the first query but not the second | <pre lang="sql"><code> SELECT * FROM (SELECT SAL FROM EMP WHERE JOB = 'PRESIDENT' </code></pre><pre lang="sql"><code> MINUS </code></pre><pre lang="sql"><code> SELECT SAL FROM EMP WHERE JOB = 'MANAGER'); </code></pre> |
 
   Note: : The syntax for `INTERSECT ALL` is supported, but it returns the same results as `INTERSECT`.
 <br />
