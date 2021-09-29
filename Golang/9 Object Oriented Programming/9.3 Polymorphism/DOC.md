@@ -1,7 +1,7 @@
 # <div align="center">🧲 Polymorphism in GoLang</div>
 <p align="center"><img src="https://miro.medium.com/max/1200/1*BruAhzl61NYiVz83ZvEcEg.jpeg" alt="polymorphism" height=300x width=650px/></p>
 </br>
-In Object-Oriented Programming, an object can behave like another object. This property is called **Polymorphism**. This post will cover how we achieve polymorphism in GoLang.
+In Object-Oriented Programming, an object can behave like another object. This property is called **Polymorphism**. This post will cover how we achieve **Polymorphism** in GoLang.
 
 ## 🤔 What is Polymorphism?
 
@@ -552,12 +552,12 @@ func main() {
 Total Time is 2060 minutes.
 ```
 
-So that's all that you need to knwo about Polymorphism in Golang if you wish to know more you can definetly visit the official documentation of [Golang]("https://golang.org/doc/").
+So that's all that you need to know about Polymorphism in Golang if you wish to know more you can definitely visit the official documentation of [Golang]("https://golang.org/doc/").
 
 ### 🛠 References:-
 
 - The above documentation was prepared by referring to the [official documentation]("https://golang.org/doc/")</a> of Golang for authencity, [Geeks for geeks](https://www.geeksforgeeks.org/) and some [blogs]("https://golangbot.com/polymorphism/") for explainging the concepts in detail.
-- The images that are used are also used form the following links:-
+- The images that are used are also used from the following links:-
  <table align="center">
   <tr>
    <td>
