@@ -1,4 +1,4 @@
-# Recursion and it's Types :
+# Recursion and it's Types:
 ## Recursion -
 - Function calling itself
 - every recursive solution has an iterative solution
