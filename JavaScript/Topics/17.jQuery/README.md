@@ -131,4 +131,4 @@ Syntax:  <head>
  <li> length:	Contains the number of elements in the jQuery object</li>    
   </ul>
   
- Contributor : Aditi Tomar
+ Contributor : [Aditi Tomar](https://aditi-247.github.io/AditiTomar/)
