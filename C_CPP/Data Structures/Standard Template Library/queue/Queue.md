@@ -3,7 +3,7 @@
 ## What is Queue?
 **Queue** is a sequence which follows First In First Out (FIFO) manner. We can see Queue in our life like a queue of customers outside a shop in which the customer who came first get his order first.
 
-![enter image description here](Queueexample1.png)
+![image1](Queueexample1.png)
 
 
 
@@ -11,7 +11,7 @@ Queue as a data structure stores element from rear(back) and deletes it from fro
 
 
 
-![enter image description here](queue.png)
+![image2](queue.png)
 
 ## Queues in C++ STL
 Standard Template Library (STL) in C++ contains the implementation of commonly known data structures such as arrays, lists, queues, stacks, etc.
