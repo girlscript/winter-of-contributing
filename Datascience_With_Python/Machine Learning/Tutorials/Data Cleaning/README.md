@@ -25,7 +25,9 @@ For the dataset being used  [click here](https://www.kaggle.com/benroshan/factor
 
 ## **Visual Representation**
 
-![]()
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Data%20Cleaning/Images/dc1.jpg)
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Data%20Cleaning/Images/dc2.jpg)
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Data%20Cleaning/Images/dc3.jpg)
 
 
 
