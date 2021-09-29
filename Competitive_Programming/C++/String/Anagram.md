@@ -68,13 +68,10 @@ int main()
 # Output
 ```
 Input:
-
 test
-
 ttew
     
 Output: 
-
 The two strings are not anagram of each other
 ```
 
@@ -148,13 +145,10 @@ int main()
 # Output
 ```
 Input: 
-
 listen
-
 silent
 
 Output: 
-
 The two strings are anagram of each other
 ```
 
@@ -214,13 +208,10 @@ int main()
 # Output
 ```
 Input: 
-
 listen
-
 silent
 
-Output: 
-
+Output:
 The two strings are anagram of each other
 ```
 
