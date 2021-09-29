@@ -26,6 +26,7 @@
 - [Functions](./Functions)
 - [What_is_Filter_in_python](./What_is_Filter_in_python)
 - [OOP-Class](./OOP-Class)
+- [Generators](./Generators)
 - [Advanced_function_reduce()](<./Advanced_function_reduce()>)
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
 - [List_Comprehension](./List_Comprehension)
@@ -55,12 +56,13 @@
 15. Functions
 16. What_is_Filter_in_python
 17. OOP-Class
-18. Advanced function-reduce()
-19. Advanced Function - Zip
-20. List Comprehension
-21. Advanced function-map()
-22. What is Automation?
-23. Args and Kwargs
-24. Web_Scraping
-25. Python File I/O
+18. Generators
+19. Advanced function-reduce()
+20. Advanced Function - Zip
+21. List Comprehension
+22. Advanced function-map()
+23. What is Automation?
+24. Args and Kwargs
+25. Web_Scraping
+26. Python File I/O
 
