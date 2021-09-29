@@ -71,6 +71,9 @@ And as soon as value of any key of our hash map is greater than 1 we increment t
   
 ```
 
+**Time Complexity** = O(n)
+**Space Complexity** = O(n)
+
 ## Output
 
 8
