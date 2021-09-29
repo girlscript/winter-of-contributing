@@ -57,7 +57,13 @@
 **The lack of right data:** Input data may not always be accurate because humans are not perfect at providing ratings. User behavior is more important than ratings. Item-based recommendations provide a better answer in this case.
 
 
+## Conclusion:
 
+Our movie recommendation engine works by suggesting movies to the user based on the metadata information. 
+
+The similarity between the movies is calculated and then used to make recommendations.
+
+For that, our text data should be preprocessed and converted into a vectorizer using the CountVectorizer.
 
 
 
