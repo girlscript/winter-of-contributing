@@ -3,9 +3,14 @@
 ### Data Science with Python
 ### Issue number: #329
 
-The notebook file contains the documentation of the concepts of 'Text Preprocessing in NLP'. Natural Language Processing is a subfield of data science concerned with interactions between computers and human (natural) languages. Nowadays, companies have large amounts of data, a lot of which is text data. This text data carries a lot of data that can be analyzed and used for different purposes. The topic we choose, order of words, our tone, and a lot of other factors need to be considered in order to understand the text and intention. This data which is very messy and hard to manipulate is called unstructured data. To preprocess your text simply means to bring your text into a form that is predictable and analyzable for your task. This structured data can get used in machine learning models directly, it is essentially the first step in NLP projects.
+The notebook file contains the documentation of the concepts of 'Text Preprocessing in NLP'. 
 
-The techniques that you use to preprocess your data heavily depends on what kind of data is being analyzed and what model you want to build with it. It's not a one-size-fits-all approach. Which techniques you use need to be properly thought through and relevant.
+### Purpose:
+Natural Language Processing is a subfield of data science concerned with interactions between computers and human (natural) languages. Nowadays, companies have large amounts of data, a lot of which is text data. This text data carries a lot of data that can be analyzed and used for different purposes. The topic we choose, order of words, our tone, and a lot of other factors need to be considered in order to understand the text and intention. This data which is very messy and hard to manipulate is called unstructured data. To preprocess your text simply means to bring your text into a form that is predictable and analyzable for your task. 
+
+### Applications and Usage: 
+The techniques that you use to preprocess your data heavily depends on what kind of data is being analyzed and what model you want to build with it. It's not a one-size-fits-all approach. Which techniques you use need to be properly thought through and relevant. This structured data can get used in machine learning models directly, it is essentially the first step in NLP projects.
+
 
 ### Techniques covered:
 - Lowercasing: This step is used to covert all the data to lowercase. It is used to bring some uniformity to the data, hence making it easier to analyse.
@@ -22,7 +27,7 @@ The techniques that you use to preprocess your data heavily depends on what kind
 
 The notebook contains sample code to guide you on how to use different techniques and relevant links have been provided. 
 
-### Purpose:
+
 Text preprocessing is a crucial step which is used to standardize data before using it for any machine learning model or any sort of analysis.
 
 Dataset used: https://www.kaggle.com/nicapotato/womens-ecommerce-clothing-reviews
@@ -33,3 +38,6 @@ Libraries used:
 - pandas
 - nltk
 - string
+
+### Conclusion:
+In this documentation, we discussed how the preprocessing of text is necessary for model building and some of the important steps involved.
