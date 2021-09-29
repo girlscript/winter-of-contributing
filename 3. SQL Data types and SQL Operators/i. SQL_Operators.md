@@ -1,8 +1,14 @@
 # SQL Operators
 ## Topics Covered:
   - [SQL Operators Overview](#1-overview)
+    - [Unary Operators](#unary-operators)
+    - [Binary Operators](#binary-operators)
+    - [Set Operators](#set-operators)
+    - [Order of Precedence](#order-of-precedence)
+    - [Other Operators](#other-operators)
   - [Arithmetic Operators](#2-arithmetic-operators)
   - [Character Operators](#3-character-operators)
+    - [Concatening Character Strings](#31-concatening-character-strings)
   - [Comparison Operators](#4comparison-operators)
   - [Logical Operators](#5-logical-operators)
   - [Set Operators](#6set-operators)
