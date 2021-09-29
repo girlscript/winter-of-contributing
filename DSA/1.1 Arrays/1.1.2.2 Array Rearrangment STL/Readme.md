@@ -8,8 +8,6 @@ Problems solved with explanation and code:
 
 Documentation created on - OneNote
 
-Notebook Link - https://onedrive.live.com/redir.aspx?cid=902e6d3c9ce26680&resid=902E6D3C9CE26680!143&type=3&CallerScenarioId=OneNote-Prod&CallerId=Sync-Windows
-
 Refrences - 
 
 https://www.geeksforgeeks.org/minimum-swaps-required-bring-elements-less-equal-k-together/
