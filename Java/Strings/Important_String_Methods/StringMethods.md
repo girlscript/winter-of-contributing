@@ -285,7 +285,7 @@ while with **str3** It returned false which contains different content.
 ## format() Method
 
 Formatiing means making changes, thus a Java format() method returns a formatted String by given locale. It is also supplied with format and arguments.
-One important point to remember here is the String.format() merhod by default calls a Locale.getDefault() method if we don’t specify the locale in the method.
+One important point to remember here is the ***String.format()*** method by default calls a ***Locale.getDefault()** method if we don’t specify the locale in the method.
 Here there can be two different syntax i.e. one with locale in the parameter and other without it.
 
 **Syntax**
@@ -369,7 +369,7 @@ In the case of index2 the method will find the index of **in** after the 15th in
 
 ## isEmpty() Method
 
-This method is very helpful to avoid nullPointer errors and is generally used with the loops or as conditions.
+This method is very helpful to avoid ***nullPointer errors*** and is generally used with the loops or as conditions.
 So, what it basically does is, it checks if the entered String is Empty or not. So, it returns true if the length of String is 0 else or otherwise it returns false.
 
 **Syntax**
