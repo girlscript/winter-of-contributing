@@ -13,11 +13,11 @@ If not present print -1 or print the position of the array.
 
 ---
 <p align="center">
-  <img src="https://github.com/ayushijindal/winter-of-contributing/blob/mybranch/Competitive_Programming/C%2B%2B/Searching%20%26%20Sorting/Binary%20Search/assests/BS.png">
+  <img src="https://github.com/ayushijindal/winter-of-contributing/blob/Competitive_Programming/Competitive_Programming/C%2B%2B/Searching%20%26%20Sorting/Binary%20Search/assets/BS.png">
 </p>
 
----
 
+---
 ### Approach: 
 1. Compare x with the middle element of array A.
 2. If x matches with the middle element, we return the mid index.
@@ -57,7 +57,7 @@ binarySearch(arr, size)
      if item is not found after iterating through whole array then
          return -1  
 
-
+---
 
 #### Code in C++:
 
