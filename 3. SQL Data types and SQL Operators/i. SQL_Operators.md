@@ -131,9 +131,9 @@ Table: Logical Operators
 
 | Operator | Description | Example |
 | :-- | :-- | :-- |
-| NOT | Returns `TRUE` if the following condition is `FALSE`. Returns `FALSE` if it is `TRUE`. If it is `UNKNOWN`, it remains `UNKNOWN`. | `SELECT * FROM EMP WHERE NOT (sal BETWEEN 1000 AND 2000)` |
-| AND | Returns `TRUE` if both component conditions are `TRUE`. Returns `FALSE` if either is `FALSE`; otherwise returns `UNKNOWN`. | `SELECT * FROM EMP WHERE job='CLERK' AND deptno=10` |
-| OR | Returns `TRUE` if either component condition is `TRUE`. Returns `FALSE` if both are `FALSE`. Otherwise, returns `UNKNOWN`. | `SELECT * FROM emp WHERE job='CLERK' OR deptno=10` |
+| NOT | Returns `TRUE` if the following condition is `FALSE`. Returns `FALSE` if it is `TRUE`. If it is `UNKNOWN`, it remains `UNKNOWN`. | <pre lang="sql"><code> SELECT * FROM EMP WHERE NOT (sal BETWEEN 1000 AND 2000) </code></pre> |
+| AND | Returns `TRUE` if both component conditions are `TRUE`. Returns `FALSE` if either is `FALSE`; otherwise returns `UNKNOWN`. | <pre lang="sql"><code> SELECT * FROM EMP WHERE job='CLERK' AND deptno=10 </code></pre> |
+| OR | Returns `TRUE` if either component condition is `TRUE`. Returns `FALSE` if both are `FALSE`. Otherwise, returns `UNKNOWN`. | <pre lang="sql"><code> SELECT * FROM emp WHERE job='CLERK' OR deptno=10 </code></pre> |
 <br />
 
 # 6. Set Operators
@@ -159,5 +159,5 @@ Table: Other Operators
 
 | Operator | Description | Example |
 | :-- | :-- | :-- |
-| (+) | Indicates that the preceding column is the outer join column in a join. | `SELECT ENAME, DNAME FROM EMP, DEPT WHERE DEPT.DEPTNO = EMP.DEPTNO (+);` |
-| PRIOR | Evaluates the following expression for the parent row of the current row in a hierarchical, or tree-structured query. In such a query, you must use this operator in the `CONNECT BY` clause to define the relationship between the parent and child rows. | `SELECT EMPNO, ENAME, MGR FROM EMP CONNECT BY PRIOR EMPNO = MGR;` `\` |
+| (+) | Indicates that the preceding column is the outer join column in a join. | <pre lang="sql"><code> SELECT ENAME, DNAME FROM EMP, DEPT WHERE DEPT.DEPTNO = EMP.DEPTNO (+); </code></pre> |
+| PRIOR | Evaluates the following expression for the parent row of the current row in a hierarchical, or tree-structured query. In such a query, you must use this operator in the `CONNECT BY` clause to define the relationship between the parent and child rows. | <pre lang="sql"><code> SELECT EMPNO, ENAME, MGR FROM EMP CONNECT BY PRIOR EMPNO = MGR; </code></pre><pre lang="sql"><code> \ </code></pre> |
