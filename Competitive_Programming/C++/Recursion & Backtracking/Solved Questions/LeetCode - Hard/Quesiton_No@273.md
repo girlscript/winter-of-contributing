@@ -1,16 +1,45 @@
+
+
+[Leetcode question](https://leetcode.com/problems/integer-to-english-words)
+```
 The code is written in C++
-Leetcode question : https://leetcode.com/problems/integer-to-english-words/
 Difficulty : Hard
 Type :Recursion
+```
 
-class Solution {
+```
+Explanation:
+Four different vectors have been made, named 'singles','tens','hundreds','Billion'
+singles take care of all the digitd when they come to ones places
+tens take care of all the numbers betweeen 11-20
+hundred takes care of all the number <100 which are divisible by 10
+Billion vector represent the status of the three set number.
+
+The 'print' function basically converts the whole vecotr into a string and reutrn that string.
+The 'Helper' function is the main function which is call repeatedly, returns the string if the number is less than 1000 or recursively 
+call itself, while increasing the 'Index' ,which defines the degree of the number, ('Index' represents the index of the Billion vector).
+  
+  ```
+  
+  
+  
+ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+```
+class Solution{
+
+
+
 public:
-  vector <string> singles{"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
-  vector <string> tens{"And","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"};
-  vector <string> hundreds{"Zero","Ten","Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"};
-  vector <string> Billion{"Hundred","Thousand","Million","Billion"};
 
+
+ vector <string> singles{"Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"};
+ vector <string> tens{"And","Eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen","Nineteen"};
+ vector <string> hundreds{"Zero","Ten","Twenty","Thirty","Forty","Fifty","Sixty","Seventy","Eighty","Ninety"};
+ vector <string> Billion{"Hundred","Thousand","Million","Billion"};  
+  
   int Index;
+  
   string print(vector <string> vect)
   {
     string Answer;
@@ -24,7 +53,7 @@ public:
     }
     return Answer;
   }
-
+  
   string Helper (int num)
   {
     vector <string> answer;
@@ -63,7 +92,6 @@ public:
       }
     }
 
-
     int divido = num/pow(1000,Index);
     int modulo = num%int(pow(1000,Index));
     if (modulo == 0)
@@ -72,7 +100,6 @@ public:
     {
       return Helper(divido) +" " + Billion[Index--] + " " + Helper(modulo);
     }
-
   }
 
     string numberToWords(int num)
@@ -81,3 +108,4 @@ public:
       return Helper(num);
     }
 };
+```
