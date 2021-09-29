@@ -534,7 +534,7 @@ From the output in the 1st case ***i*** is at the 5th index so the complete stri
 
 
 
-### toCharArray() Method
+## toCharArray() Method
 The method is very useful when one needs to convert the String to a character array. 
 A new array of character is created from the String which is of same length as the size of String. Thus the individual characters of a sequence of character can be retrieved from the array, using the loop.
 
