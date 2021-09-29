@@ -1,6 +1,6 @@
 # Async and Await
 
-JavaScript Introduces keywords ìasyncî and ìawaitî as an addition to EcmaScript 2015.We are going to see about the 
+JavaScript Introduces keywords ‚Äúasync‚Äù and ‚Äúawait‚Äù as an addition to EcmaScript 2015.We are going to see about the 
 following concepts. 
 
 1. Working With Async Keyword
@@ -57,7 +57,7 @@ sure that a promise is returned and if it is not returned then javascript automa
 is resolved with its value.
 
 So, Returning Promises with Async Keyword: 
-When we append the keyword ìasyncî to the function, this function returns the Promise by default on execution. Async 
+When we append the keyword ‚Äúasync‚Äù to the function, this function returns the Promise by default on execution. Async 
 keyword provides extra information to the user of the function:
 1. The function contains some Asynchronous Execution
 2. The returned value will be the Resolved Value for the Promise.
@@ -72,7 +72,7 @@ console.log(simpleAsync())
 OUTPUT: 1
 
 In the above code, since the value returned is a promise, we can capture the promise and extract value from the same. 
-We can associate a callback function with the promise using ìthenî
+We can associate a callback function with the promise using ‚Äúthen‚Äù
 
 ~~EXAMPLE 2: 
 
@@ -86,11 +86,11 @@ simpleAsync().then((data) => {
 
 OUTPUT: 1
 
-To in order to summarize the impact of the ìAsyncî keyword, we can say that:
+To in order to summarize the impact of the ‚ÄúAsync‚Äù keyword, we can say that:
 
-1. Appending ìasyncî will return a promise from a function
+1. Appending ‚Äúasync‚Äù will return a promise from a function
 2. In case the function is returning some value, the value will be available as the resolved value from the promise.
-3. If no value is returned, the resolved value will be ìundefinedî
+3. If no value is returned, the resolved value will be ‚Äúundefined‚Äù
 
 To see the whole Asynchronous behaviour:
 ~~EXAMPLE 3:-
@@ -137,8 +137,8 @@ OUTPUT: 1
         2
 Hello World
 
-Adding ìawaitî before a promise makes the execution thread to wait for asynchronous task/promise to resolve before 
-proceeding further. When we are adding the ìawaitî keyword, we are introducing synchronous behavior to the application. Even the promises will be executed synchronously.
+Adding ‚Äúawait‚Äù before a promise makes the execution thread to wait for asynchronous task/promise to resolve before 
+proceeding further. When we are adding the ‚Äúawait‚Äù keyword, we are introducing synchronous behavior to the application. Even the promises will be executed synchronously.
 
 ~~EXAMPLE 2:
 function returnPromises() {
@@ -206,7 +206,7 @@ const doSomething = async () => {
 
 1. Async functions return a promise.
 
-2. Async functions use an implicit Promise to return results. Even if you donít return a promise explicitly, the async 
+2. Async functions use an implicit Promise to return results. Even if you don‚Äôt return a promise explicitly, the async 
 function makes sure that your code is passed through a promise.
 
 3. Await blocks the code execution within the async function, of which it (await statement) is a part.
@@ -268,12 +268,12 @@ on the level of asynchronicity they want.
 
 From MDN:
 
-ìAn asynchronous function is a function which operates asynchronously via the event loop, using an implicit Promise to
+‚ÄúAn asynchronous function is a function which operates asynchronously via the event loop, using an implicit Promise to
  return its result. But the syntax and structure of your code using async functions is much more like using standard 
  synchronous functions.
  An async function can contain an await expression that pauses the execution of the async function and waits for the 
  passed Promise's resolution, and then resumes the async function's execution and returns the resolved value. Remember,
- the await keyword is only valid inside async functions.î
+ the await keyword is only valid inside async functions.‚Äù
 
  
  ## Different Examples for PRACTICE:-
@@ -349,6 +349,5 @@ var promiseTRRARNOSG = (promiseThatResolvesRandomlyAfterRandomNumnberOfSecondsGe
  HAPPY LEARNINGS!
  
  #### Contributed by 
- [Diksha Sharma]
- ( https://github.com/Diksha-11 )
+ [Diksha Sharma](https://github.com/Diksha-11)
  
