@@ -114,7 +114,7 @@ To access any particular element , DOM provides various method . Some of them ar
 | Methods  | Use |
 | ------------ | ------------- |
 | document.getElementById(id) |  Find an element by element id |
-| document.getElementsByName(name) | Finds and element by its name attribute |
+| document.getElementsByName(name) | Finds any element by its name attribute |
 | document.getElementsByTagName(name)  | Find elements by tag name  |
 | document.getElementsByClassName(name)  | 	Find elements by class name  |
 
