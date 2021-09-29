@@ -131,12 +131,12 @@ DOM provides various methods to add and delete HTML elements via javascript . So
 
 | Method |	Description|
 |--- |----|
-|
-document.createElement(element) |	Create an HTML element |
+|document.createElement(element) |	Create an HTML element |
  | document.removeChild(element) |	Remove an HTML element|
 |document.appendChild(element)	|Add an HTML element |
 |document.replaceChild(new, old)	| Replace an HTML element |
 |document.write(text)	|Write into the HTML output stream |
+
 <br>
 
 This was a brief  note about DOM .Above methods are frequently used methods , apart from them DOM contains much more methods for manipulating HTML elements . To refer more about DOM , Please visit : [DOM](https://www.w3schools.com/js/js_htmldom_document.asp) 
