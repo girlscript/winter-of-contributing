@@ -30,6 +30,7 @@
 - **Types of Declarative paradigm**
     - Functional
     - Logical
+### :arrow_forward:Click 👇 for Audio Lecture on What is a Programming Language:headphones: 
+[<img src="https://png.pngtree.com/png-vector/20190307/ourlarge/pngtree-vector-programming-icon-png-image_780637.jpg" alt="Audio" width="165"/>](https://drive.google.com/file/d/1oPA21ydmEPGWjhxRICzG6ys3c8pvrIqu/view?usp=sharing)
 
 
-:arrow_forward:[Audio on What is a programming language](https://drive.google.com/file/d/1oPA21ydmEPGWjhxRICzG6ys3c8pvrIqu/view?usp=sharing):headphones:
