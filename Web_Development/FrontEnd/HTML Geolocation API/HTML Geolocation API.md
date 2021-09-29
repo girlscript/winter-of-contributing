@@ -1,22 +1,24 @@
-##HTML Geolocation
+# HTML Geolocation
 
-**Introduction**
+## Introduction
 
 - The HTML Geolocation API is used to locate a user&#39;s Current position.
-- The **Geolocation API** allows the user to provide their location to web applications if they so desire.For privacy reasons, the user is asked for permission to report location information.
+- The `Geolocation API` allows the user to provide their location to web applications if they so desire.For privacy reasons, the user is asked for permission to report location information.
 - Geolocation is most accurate for devices with GPS, like smartphones.
 
-**Usage**
+## Usage
 
-- The Geolocation API is accessed via a call to **navigator.geolocation** , this will cause the user&#39;s browser to ask them for permission to access their location data. If they accept, then the browser will use the best available functionality on the device to access this information (for example, GPS).
-- The **getCurrentPosition()** method is used to Retrieves the device&#39;s current location.
+- The Geolocation API is accessed via a call to `navigator.geolocation`, this will cause the user&#39;s browser to ask them for permission to access their location data. If they accept, then the browser will use the best available functionality on the device to access this information (for example, GPS).
+- The `getCurrentPosition()` method is used to Retrieves the device&#39;s current location.
 - This method returns the he latitude and longitude of the user&#39;s position.
 
-**Syntax :**
+## Syntax
 
->navigator.geolocation.getCurrentPosition(success, error, [options])
+```javascript 
+navigator.geolocation.getCurrentPosition(success, error, [options])
+```
 
-**Parameters :**
+## Parameters
 
 >**Success :**
 
@@ -31,12 +33,12 @@ An optional callback function that takes a GeolocationPositionError object as it
 
 Option includes extra parameters which is :
 
-1. **maximumAge**: integer (milliseconds) | infinity - maximum cached position age.
-1. **timeout**: integer (milliseconds) - amount of time before the error callback is invoked, if 0 it will never invoke.
-2. **enableHighAccuracy**: false | true
+1. `maximumAge`: integer (milliseconds) | infinity - maximum cached position age.
+1. `timeout`: integer (milliseconds) - amount of time before the error callback is invoked, if 0 it will never invoke.
+2. `enableHighAccuracy`: false | true
 
-**Example :**
-```
+## Example
+``` html
 <!DOCTYPE html>
 <html>
 <body>
@@ -62,9 +64,6 @@ Option includes extra parameters which is :
 </html>
 
 ```
-**Output :**
-
-
+## Output
 When we run this file and click on Click Here button then browser pop-up the window that ask for the permission for access your location.
-
 And when we accept that then output is generated like this which has Latitude and Longitude of user device.
