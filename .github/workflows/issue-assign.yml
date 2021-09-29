@@ -1,8 +1,6 @@
 name: Assigner
 
 on:
-  schedule:
-    - cron: '*/2 * * * *'
   issue_comment:
     types: [created]
 
