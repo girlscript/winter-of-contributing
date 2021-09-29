@@ -1,7 +1,7 @@
 # SQL Operators
 ## Topics Covered:
-  - [SQL Operators Overview](#overview)
-  - [Arithmetic Operators](#arithmetic-operators)
+  - [SQL Operators Overview](#1.-overview)
+  - [Arithmetic Operators](#2.-arithmetic-operators)
   - [Character Operators](#character-operators)
   - [Comparison Operators](#comparison-operators)
   - [Logical Operators](#logical-operators)
@@ -9,7 +9,7 @@
   - [Other Operators](#other-operators)
 <br />
 
-1. ## Overview
+## 1. Overview
   - An operator manipulates individual data items and returns a result. The data items are called operands or arguments. Operators are represented by 
     special characters or by keywords. 
   - For example, the multiplication operator is represented by an asterisk (*) and the operator that tests for nulls is represented by the keywords `IS NULL`. 
@@ -47,12 +47,12 @@
       | 7 | OR Logical Operator |
 
 
-### Other Operators
+    ### Other Operators
 
-Other operators with special formats accept more than two operands. If an operator receives a null operator, the result is always null. The only operator that does not follow this rule is [CONCAT](https://docs.oracle.com/cd/E12095_01/doc.10303/e12092/sqfunc.htm#i1005392).
+    Other operators with special formats accept more than two operands. If an operator receives a null operator, the result is always null. The only operator that does not follow this rule is `CONCAT`
+<br />
 
-2.2 Arithmetic Operators
-------------------------
+## 2. Arithmetic Operators
 
 Arithmetic operators manipulate numeric operands. The '-' operator is also used in date arithmetic. Supported arithmetic operators are listed in [Table 2-2](https://docs.oracle.com/cd/E12095_01/doc.10303/e12092/sqopr.htm#g1005796).
 
