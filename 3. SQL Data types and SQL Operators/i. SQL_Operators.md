@@ -5,7 +5,7 @@
   - [Character Operators](#3-character-operators)
   - [Comparison Operators](#4-comparison-operators)
   - [Logical Operators](#5-logical-operators)
-  - [Set Operators](#6-set-operators)
+  - [Set Operators](#6set-operators)
   - [Other Operators](#7-other-operators)
 <br />
 
