@@ -9,6 +9,7 @@
 ## Index
 
 - [GitHub](./Git_And_GitHub)
+- [How to install Python](./How_To_Install_Python)
 - [Installing software for python](./Installing_Software)
 - [Brief History of Python](./History_Of_Python)
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
@@ -32,30 +33,34 @@
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
+- [Python File I/O](./Python_File_IO)
 
 
 ## Learning path
 
 1. Git & GitHub
-2. Installing development and debugging software for python
-3. Brief history of python
-4. What is a programming language?
-5. What is type conversion ?
-6. Use cases of Python
-7. Virtual Environment
-8. Operators
-9. List\_&_Matrix
-10. Objects in Python
-11. Stack and Queue
-12. Loop Break
-13. Decorators
-14. Functions
-14. What_is_Filter_in_python
-15. OOP-Class
-16. Advanced function-reduce()
-17. Advanced Function - Zip
-18. List Comprehension
-19. Advanced function-map()
-20. What is Automation?
-21. Args and Kwargs
-22. Web_Scraping
+2. How To Install Python
+3. Installing development and debugging software for python
+4. Brief history of python
+5. What is a programming language?
+6. What is type conversion ?
+7. Use cases of Python
+8. Virtual Environment
+9. Operators
+10. List\_&_Matrix
+11. Objects in Python
+12. Stack and Queue
+13. Loop Break
+14. Decorators
+15. Functions
+16. What_is_Filter_in_python
+17. OOP-Class
+18. Advanced function-reduce()
+19. Advanced Function - Zip
+20. List Comprehension
+21. Advanced function-map()
+22. What is Automation?
+23. Args and Kwargs
+24. Web_Scraping
+25. Python File I/O
+
