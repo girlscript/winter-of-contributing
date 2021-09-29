@@ -1,4 +1,28 @@
-// Solution for Array Range sum and Range product queries 
+## Problem Statement 
+You have an integer array and q number of queries. Each query contains the (left, right) as a range. The given task is to find out the LCM(left, right), i.e, 
+LCM of all the number that comes in the range of left and right inclusively.
+
+## Example
+### Input
+```
+arr[] = {3,4,5,7,9,11,13};
+Query: {(1, 4), (3, 6), (2,5)}
+```
+### Output
+```
+1260 9009 3465
+```
+
+## Explanation 
+```
+ Solution to Pre-Compute the sum for every query 
+Solution is implemented by prefix Sum
+prefix[i] will be storing sum of elements from the given array a[0] to a[i];
+to provide answer to our query(i,j) we'll return prefix[j]-prefix[i-1]
+for PrefixSum it's assumed that i<=j 
+```
+
+ 
 
 
 #include <bits/stdc++.h>
@@ -16,11 +40,7 @@ using namespace std;
         }
     }
  
-// Solution to Pre-Compute the sum for every query 
-// Solution is implemented by prefix Sum
-// prefix[i] will be storing sum of elements from the given array a[0] to a[i];
-// to provide answer to our query(i,j) we'll return prefix[j]-prefix[i-1]
-// for PrefixSum it's assumed that i<=j 
+
 
 
 // This function Returns sum of elements in array[i..j]
