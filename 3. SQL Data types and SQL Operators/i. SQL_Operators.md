@@ -76,7 +76,7 @@ Table: Character Operators
 
 | Operator | Description | Example |
 | :--: | :--: | :--: |
-| || | Concatenates character strings | `SELECT 'The Name of the employee is: ' || ENAME FROM EMP;` |
+| \|\| | Concatenates character strings | `SELECT 'The Name of the employee is:' \|\| ENAME FROM EMP;` |
 
 
 ### 2.3.1 Concatenating Character Strings
@@ -105,17 +105,16 @@ With Oracle Database Lite, you can concatenate character strings with the follow
     6 rows selected.
 
 -   Oracle Database Lite treats zero-length character strings as nulls. When you concatenate a zero-length character string with another operand the result is always the other operand. A null value can only result from the concatenation of two null strings.
+<br />
 
-2.4 Comparison Operators
-------------------------
-
-Comparison operators used in conditions that compare one expression with another. The result of a comparison can be `TRUE`, `FALSE`, or `UNKNOWN`.
+4. Comparison Operators
+- Comparison operators used in conditions that compare one expression with another. The result of a comparison can be `TRUE`, `FALSE`, or `UNKNOWN`.
 
 Table: Comparison Operators
 
 | Operator | Description | Example |
 | :-- | :-- | :-- |
-| = | Equality test | `SELECT ENAME "Employee" FROM EMP WHERE SAL = 1500;` |
+| = | Equality test | <pre lang="sql"><code> SELECT ENAME "Employee" FROM EMP WHERE SAL = 1500; </code></pre> |
 | !=, ^=, <> | Inequality test | `SELECT ENAME FROM EMP WHERE SAL ^= 5000;` |
 | > | Greater than test | `SELECT ENAME "Employee", JOB "Title" FROM EMP WHERE SAL > 3000;` |
 | < | Less than test | `SELECT * FROM PRICE WHERE MINPRICE < 30;` |
@@ -129,8 +128,9 @@ Table: Comparison Operators
 | EXISTS | `TRUE` if a sub-query returns at least one row | `SELECT * FROM EMP WHERE EXISTS (SELECT ENAME FROM EMP WHERE MGR IS NULL);` |
 | x [NOT] LIKE y [ESCAPE z] | `TRUE` if x does [not] match the pattern y. Within y, the character "%" matches any string of zero or more characters except null. The character "_" matches any single character. Any character following `ESCAPE` is interpreted literally, useful when y contains a percent (%) or underscore (_) | `SELECT * FROM EMP WHERE ENAME LIKE '%E%';` |
 | IS [NOT] NULL | Tests for nulls. This is the only operator that should be used to test for nulls | `SELECT * FROM EMP WHERE COMM IS NOT NULL AND SAL > 1500;` |
+<br />
 
-2.5 Logical Operators
+5. Logical Operators
 ---------------------
 
 Logical operators which manipulate the results of conditions are listed in [Table 2-5](https://docs.oracle.com/cd/E12095_01/doc.10303/e12092/sqopr.htm#g1005904).
