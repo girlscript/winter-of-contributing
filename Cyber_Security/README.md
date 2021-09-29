@@ -47,7 +47,7 @@
 - [x] [TCP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/726-Transmission%20Control%20Protocol(TCP).md)
 - [x] [UDP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/User%20Datagram%20Protocol%20(UDP).md)
     - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/UDP_vedio.md)
-- [ ] 3-way handshake
+- [x] [3-way handshake](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Three%20Way%20Handshake.md)
 - [x] [Ports and Protocols](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/Common_ports_and_protocols.md)
 - [x] [OSI model](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.8_OSI_model.md)
 - [ ] Switches
@@ -55,6 +55,7 @@
 - [x] [HUB](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.2_HUBs.md)
 - [x] [FireWall](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.3%20Firewall.md)
 - [x] [LAN](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.4_LAN_adv_disadv.md)
+    - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/LAN_video.md)
 - [x] [WAN](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.9.5_WAN.md)
 
 ## Week-3 (Computer Viruses and Threats)
