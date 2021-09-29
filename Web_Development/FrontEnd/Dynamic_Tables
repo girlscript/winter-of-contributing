@@ -50,9 +50,10 @@
             background-color: rgb(0, 157, 178);
         }
     </style>
+    <!-- CSS Ends -->
     <title>19BCT0175 Q6</title>
 </head>
-
+<!-- HTML Code for table, adding data by default is optional -->
 <body>
     <table id="table" cellpadding="1" cellspacing="1" id="resultTable" border="2px"
         style="text-align: center; width: 50%;">
@@ -113,7 +114,8 @@
     <button onclick="myFunction()">Delete</button>
     <button onclick="adding()">Add</button>
     <button onclick="addingColor()">Put Colours</button>
-
+    
+    <!-- JS/JQuery Code Starts -->
     <script>
         function myFunction() {
             document.getElementById("table").deleteRow(-1);
@@ -127,11 +129,12 @@
             var state = prompt('Enter State')
             var new_row =
                 "<tr><td>" + fname + "</td><td>" + lname + "</td><td>" + city + "</td><td>" + state + "</td></tr>"
-            $("table tbody").append(new_row);
+            $("table tbody").append(new_row); <!-- Actual code beding adding tables dynamically -->
 
 
         }
     </script>
+    <!-- this script is optional, giving user the choice to add coloours to the table or not -->
     <script type="text/javascript">
         function addingColor() {
             $("table tr:nth-child(even)").addClass("striped");
