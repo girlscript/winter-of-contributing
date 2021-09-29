@@ -40,12 +40,18 @@ In Logistic regression, sigmoid function which is an 'S' shaped graph is used fo
 Hypothesis is taken as follows:
 
 Z = WX + B
+
 This Z is passed into the sigmoid function
 
 hΘ(x) = sigmoid (Z)
+
 where sigmoid function is given by:
 
 sigmoid(t)=1/(1+e^-t)
+
+<p align="center">
+  <img src="Sigmoid Curve.png" width="350" title="hover text">
+</p>
 We then specify a decision boundary according to which the values are classified into particular classes. After this, using the predicted values we can give different classes to the target variable.
 
 ## Workflow of the algorithm
