@@ -69,7 +69,7 @@
     - [Trojan Horse](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Trojan_Horse.ipynb)
     - [Web Scripting Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.8%20Web%20scripting%20virus%20%231958.md)
     - [File Injecting virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/File-Infector_Virus.md)
-    - Boot Sector Virus
+    - [Boot Sector Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Boot%20Sector%20Virus.md)
     - [Malware](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.2%20Malware%20%232499.md)
     - [Phishing attacks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity:%203.9.3%20Phishing%20Attacks.md)
     - [Cloud jacking](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.4%20Cloud%20Jacking.md)
