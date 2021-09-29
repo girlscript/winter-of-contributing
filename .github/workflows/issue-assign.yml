@@ -32,7 +32,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'This issue is already assigned!\nPlease find/create a new issue to contribute to.\nYou can safely disregard the failed workflow notification for this issue. ❌',
+              body: 'This issue is already assigned to another contributor !\nPlease find/create a new issue to contribute to.\nYou can safely disregard the failed workflow notification for this issue. ❌',
             });       
       
       - name: Checkout code
