@@ -107,25 +107,25 @@ class Derived : public Base { };
 
 int main() 
 {
-	Base *pBDerived = new Derived;          //pointer of Base Class type pointing a Derived class
-	Base *pBBase = new Base;                //pointer of Base Class type pointing a Base Class
-	Derived *pd;                            //pointer of Derived Class type
+	Base *ptr_Of_Base_Class_Type_Pointing_DerivedClass = new Derived;          //pointer of Base Class type pointing a Derived class
+	Base *ptr_Of_Base_Class_Type_pointing_BaseClass = new Base;                //pointer of Base Class type pointing a Base Class
+	Derived *ptr_of_derivedClass_Type;                            //pointer of Derived Class type
 
-	pd = dynamic_cast<Derived*>(pBDerived);	//1
+	ptr_of_derivedClass_Type = dynamic_cast<Derived*>(ptr_Of_Base_Class_Type_Pointing_DerivedClass);	//1
     if(pd != nullptr)
-        cout << "Successfully converted pBDerived to base class pointer";
+        cout << "Successfully converted pointer of Base class pointing Derived class object to derived class pointer";
         
-	pd = dynamic_cast<Derived*>(pBBase);      //2 
+	ptr_of_derivedClass_Type = dynamic_cast<Derived*>(ptr_Of_Base_Class_Type_pointing_BaseClass);      //2 
     if(pd != nullptr)
-        cout << "Successfully converted pBBase to base class pointer";
+        cout << "Successfully converted pointer of Base class pointing base class object to derived class pointer";
 
 	return 0;
 }
 ```
 The output for the above code is:
-> *Successfully converted pBDerived to base class pointer*
+> *Successfully converted pointer of Base class pointing Derived class object to derived class pointer*
 
-- Out of the 2 casts performed only *1* is successful. The reason for this behaviour is pBDerived holds a valid Derived class object but pBBase holds just a Base class object.
+- Out of the 2 casts performed only *1* is successful. The reason for this behaviour is ptr_Of_Base_Class_Type_Pointing_DerivedClass holds a valid Derived class object but ptr_Of_Base_Class_Type_pointing_BaseClass holds just a Base class object.
 
 <h1 id="4">Reinterpret Cast</h1>
 
