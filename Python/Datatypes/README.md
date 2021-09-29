@@ -129,4 +129,4 @@ Variables can store data of different types, and different types can do differen
 >>> <class 'memoryview'>
 ```
   
-  Resources : www.google.com | www.geeksforgeeks.org
+  Resources : www.google.com | www.geeksforgeeks.org | www.w3resource.com
