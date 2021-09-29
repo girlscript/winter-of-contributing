@@ -13,18 +13,18 @@
 
 ## **Example:**
 ```jsx
-interface printable{
+interface Printable{
 void print(); // interface method (does not have a body).
 }
 
-class gwoc implements printable{
+class Gwoc implements Printable{
 public void print(){
     // The body of print() is provided here.
     System.out.println("GirlScript Winter of Contribution- 2021");
     }
 
 public static void main(String args[]){
-gwoc obj = new gwoc();
+Gwoc obj = new Gwoc();
 obj.print();
  }
 }
@@ -77,42 +77,38 @@ public interface Contribution {
 <br>
 <br>
 
-## **EXAMPLES:**
-1. 
+## **WHEN TWO INTERFACES HAVE METHODS WITH SAME NAME, THEN HOW WE CAN ACCESS THEM IN IMPLEMENTING CLASS?**
+- We can inherit methods that are @Override-equivalent, subject to the usual requirements of method overriding and hiding. Since they are @Override-equivalent, then effectively there is only one method to implement, and thus there's nothing to distinguish/select from.
+- The compiler does not have to identify which method is for which interface, because once they are determined to be @Override-equivalent, they're the same method.
+<br>
+<br>
+
+## **EXAMPLE:**
 ```jsx
-interface Gwoc{
-    // Default method
-    default void say(){
-        System.out.println("Hello, This is GirlScript Winter of Contributing");
-    }
-    // Abstract method
-    void sayMore();
+interface X{
+  int a();
 }
-public class Contribution implements Gwoc{
 
-    @Override
-    public void sayMore() {
-        // implementing abstract method.
-        System.out.println("Contribution is Fun");
-        System.out.println();
-    }
-    public static void main(String[] args) {
-        Contribution obj1 = new Contribution();
-        obj1.say(); // calling default method
-        obj1.sayMore(); // calling abstract method
+interface Y{
+  int a();
+}
 
-    }
+class Test implements X, Y{   
+  public static void main(String... args) throws Exception{   
 
+  }
+
+  @Override
+  public int a() {  // from which interface X or Y
+    return 0;
+  }
 }
 ```
 <br>
 
-## **Output:**
-<img src="assests/Image2.png" alt="Example of Default Interface 1.0" style="width:700px; height:100px;">
-<br>
-<br>
 
-2. 
+## **DEFAULT INTERFACE METHODS- EXAMPLES:**
+1. 
 ```jsx
 interface Coding{
     // Default method
@@ -122,7 +118,7 @@ interface Coding{
     // Abstract method
     void code();
 }
-public class Programming implements Coding{
+class Programming implements Coding{
 
     @Override
     public void code() {
@@ -137,6 +133,35 @@ public class Programming implements Coding{
     }
 
 }
+```
+<br>
+
+## **Output:**
+<img src="assests/Image2.png" alt="Example of Default Interface 1.0" style="width:700px; height:100px;">
+<br>
+<br>
+
+2. 
+```jsx
+interface Gwoc{
+    // Default method   
+    default void say(){
+        System.out.println("Hello, This is GirlScript Winter of Contributing");
+    }
+    // Abstract method  
+    void sayMore(String msg);
+}
+class Contributions implements Gwoc{
+    public void sayMore(String msg){ // implementing abstract method   
+        System.out.println(msg);
+    }
+    public static void main(String[] args) {
+        Contributions dm = new Contributions();
+        dm.say();   // calling default method  
+        dm.sayMore("Contribution is Fun");  // calling abstract method  
+
+    }
+} 
 ```
 <br>
 
