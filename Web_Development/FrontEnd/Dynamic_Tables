@@ -129,7 +129,7 @@
             var state = prompt('Enter State')
             var new_row =
                 "<tr><td>" + fname + "</td><td>" + lname + "</td><td>" + city + "</td><td>" + state + "</td></tr>"
-            $("table tbody").append(new_row); <!-- Actual code beding adding tables dynamically -->
+            $("table tbody").append(new_row); <!-- Actual code for adding tables dynamically -->
 
 
         }
