@@ -4,7 +4,7 @@ In this document we are going to learn how to we can use MySQLi extension in PHP
 
 As its name, "MySQLi" suggests that it can only be used with MySQL database. If you want to use another database then there is another method that PHP provides called PDO. In this document, we are gonna discuss MySQLi extension only.
 
-### Connecting to Database
+### Connecting to Server
 The very first work to be done before creating or accessing an existing database is to connect with the server. Please make sure before testing PHP, your wamp or xampp or another server you are using is running. We are going to do this using the ```mysqli_connect($server_name, $user_name, $password)```function. It takes three parameters server name, username, and password. This function returns true if the connection is established or false if any error occurred.
 
 ```php
