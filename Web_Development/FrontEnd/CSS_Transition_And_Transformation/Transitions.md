@@ -17,35 +17,39 @@ To create a transition effect, you need to specify two things:
 * the property you want to add the effect to
 * the duration/timing of the effect
 
-css
+```css
 div {
   width: 50px;
   height: 50px;
   background: blue;
   transition: width 3s;
 }
+```
 
-css
+```css
 div:hover {
   width: 300px;
 }
+```
 
 
 ## Change Multiple Property Values <br>
 The transition property is specified as one or more single-property transitions, separated by commas.
 
-css
+```css
 div {
   transition: width 2s, height 4s;
 }
+```
 
 ## Selecting all properties <br>
 transition-property takes a special value: `all`. When all is specified, all CSS transition properties will start move.
 
-css
+```css
 div{
 transition: all 2s; 
 }
+```
 
 
 ## Transition Timing function<br>
@@ -63,7 +67,7 @@ This property can have the following values:
 ![transition1](https://user-images.githubusercontent.com/70155541/134521015-728ab242-f1d0-45e8-b47e-b0587d7cd5fd.gif)
 
 Code For different transition prpoerties: <br>
-css
+```css
 div {
   width: 50px;
   height: 50px;
@@ -80,19 +84,19 @@ div {
 div:hover {
   width: 200px;
 }
-
+```
 
 ## Transition Delay <br>
 This property specifies a delay (mostly in seconds) for the transition effect to take place.
 
-css
+```css
 div {
   transition-delay: 3s;
 }  /*Delays transition by 3 sec*/
-
+```
 
 ## Using Transitions in transform 
-css
+```css
 div {
   width: 50px;
   height: 50px;
@@ -106,6 +110,6 @@ div:hover {
   transform: rotate(180deg);
    background-color:blue;
 }
-
+```
 
 ![trans_3](https://user-images.githubusercontent.com/70155541/134523796-bcb5ddce-f6ea-4c58-9bdb-0051ab1a8a54.gif)
