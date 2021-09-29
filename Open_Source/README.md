@@ -50,6 +50,8 @@
 - [3.6 How to find issues on Github](3.Share_Things_With_Community/3.6_Finding_Github_Issues.ipynb)
 
 - [3.7 Youtube resources & blogs](3.Share_Things_With_Community/3.7_Youtube_Video_links_for_Beginners.md)
+
+- [3.8 Submit patch to linux kernel](3.Share_Things_With_Community/3.8_Submit_Patch_To_Linux_kernel.md)
  
 
 ### 4. Open source programs :
@@ -89,6 +91,10 @@
 - [4.18 Julia summer of code](4.Open_Source_Programs/4.18_julia_summer_of_code.md)
 
 - [4.19 Mozilla winter of security](4.Open_Source_Programs/4.19_Mozilla_Winter_of_Security.md)
+
+- [4.20 NJACK Winter of code](4.Open_Source_Programs/4.20_NJACK_Winter_Of_Code.md)
+
+- [4.21 OpenCode IIITA](4.Open_Source_Programs/4.21_OpenCode_IIITA.md)
 
 
 ### 5. Cloud Native Computing Foundation (CNCF) projects :
@@ -153,11 +159,34 @@
 
 - [5.30 Thanos](5.CNCF_Projects/5.30_Thanos.md)
 
+- [5.34 CrossPlane](5.CNCF_Projects/5.34_CrossPlane.md)
+
+- [5.37 Flagger](5.CNCF_Projects/5.37_Flagger.md)
+
+- [5.39 gRPC](5.CNCF_Projects/5.39_gRPC.md)
+
+- [5.40 KEDA](5.CNCF_Projects/5.40_KEDA.md)
+
 
 ### 6. Popular open source projects and softwares :
 
 - [6.1 npm - Node package manager](6.Popular_Projects/6.1_npm.md)
 
+- [6.2 npm vs yarn](6.Popular_Projects/6.2_npm_vs_yarn.md)
+
+- [6.5 Ansible](6.Popular_Projects/6.5_Ansible.md)
+
+- [6.7 Definitely Typed](6.Popular_Projects/6.7_DefinitelyTyped.md)
+
+- [6.8 Deno](6.Popular_Projects/6.8_Deno.md)
+
+- [6.9 ThreeJS](6.Popular_Projects/6.9_Three.js.md)
+
+- [6.10 Material UI](6.Popular_Projects/6.10_MaterialUI.md)
+
+- [6.12 Socket.io](6.Popular_Projects/6.12_Socket.io.md)
+
+- [6.16 NextJS](6.Popular_Projects/6.16_Next.js.md)
 
 ### Miscellaneous :
 
