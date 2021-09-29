@@ -30,6 +30,7 @@
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
 - [List_Comprehension](./List_Comprehension)
 - [Advanced_function_map()](./Advanced_function_map())
+- [Lambda Function](<./Lambda Function>)
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
@@ -59,8 +60,9 @@
 19. Advanced Function - Zip
 20. List Comprehension
 21. Advanced function-map()
-22. What is Automation?
-23. Args and Kwargs
-24. Web_Scraping
-25. Python File I/O
+22. Lambda Function
+23. What is Automation?
+24. Args and Kwargs
+25. Web_Scraping
+26. Python File I/O
 
