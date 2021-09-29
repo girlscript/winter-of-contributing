@@ -5,7 +5,7 @@
 
 
 ## What is DOM ?
- DOM stands for Document object model .It is an application programming interface for manipulating HTML and XML documents. The DOM represents a document as a tree of nodes .It allows programs and scripts to dynamically access and update the content, structure, and style of a document.
+ DOM stands for Document object model . It is an application programming interface for manipulating HTML and XML documents. The DOM represents a document as a tree of nodes . It allows programs and scripts to dynamically access and update the content, structure, and style of a document.
 
 
 Below image shows a basic heirachy in DOM :
@@ -15,7 +15,7 @@ Below image shows a basic heirachy in DOM :
 
 
 ## Use of DOM in javascript 
-
+<br>
 With the DOM , javascript get all the power it needs to create dynamic HTML . With DOM :
 
 * JavaScript can change all the HTML elements in the page
@@ -35,10 +35,80 @@ With the DOM , javascript get all the power it needs to create dynamic HTML . Wi
 
 ## Document object in JS
 <br>
+
+A web page or say HTML document can be imagined as a nested set of boxes. Tags such as head and body enclose other tags, which in turn contain other tags or text. For example a simple webpage can have following structure :
+
+![Document]( https://eloquentjavascript.net/img/html-boxes.svg ) 
+
+In the HTML DOM (Document Object Model), everything is a node:
+
+* The document itself is a document node
+* All HTML elements are element nodes
+* All HTML attributes are attribute nodes
+* Text inside HTML elements are text nodes
+* Comments are comment nodes.
+
+The HTML DOM document object is the owner of all other nodes in a  web page. It provides properties and methods to  access all node objects, from within JavaScript.
+
+Now let's talk about few DOM properties .
+
+### HTML | DOM head Property
+
 <br>
-The HTML DOM document object is the owner of all other objects in a  web page.  we can acess any element in a HTML page by the use of some Document methods . 
+The head property returns the < head> element of the current document and in case if if there are more than one < head> element in the document, this property returns the first one.
+
+E.g. 
+``` 
+var x= document.head ; // Assigns head element to x
+
+console.log(x.innerHTML); // Prints text inside head element 
+
+```
+
+### HTML | DOM body Property
 <br>
-Methods to acess elements :
+It  returns the content present in the < body> Tag. This property is used to view or change the present content inside the < body> element and sets them with the new specified content.
+
+E.g. 
+```
+ var x = document.body; // Assigns body element to x 
+
+console.log(x.innerHTML); // Print text inside body element 
+
+//New content inside body can also be added 
+ x.innerHTML = "<h1>"
+                + "New Heading added "
+                + "</h1>" + "<br>" + "<h2>"
+                + "New Content Added"
+                + "</h2>";
+```
+
+### HTML | DOM forms Collection
+<br>
+The forms collection returns a collection of all < form> elements present in the document . Since there may be multiple forms in a page , the elements are sorted as they are present in the HTML source code . 
+
+E.g .
+ ```
+ //Assigns forms collection to x
+var x= document.forms ;
+ 
+ // Assigns numbers of form elements present  in the collection 
+var len= x.length ; 
+
+//To acsess any particular form element we can use indexing like arrays 
+// Assigns 1st form element
+var form1= x[0] ;
+
+//Or we can also use the below method 
+var form1 = x.item(0);
+
+
+ ```
+
+
+<br>
+To access any particular element , DOM provides various method . Some of them are as follows :
+
 <br>
 
 <br>
@@ -46,6 +116,7 @@ Methods to acess elements :
 | Methods  | Use |
 | ------------ | ------------- |
 | document.getElementById(id) |  Find an element by element id |
+| document.getElementsByName(name) | Finds and element by its name attribute |
 | document.getElementsByTagName(name)  | Find elements by tag name  |
 | document.getElementsByClassName(name)  | 	Find elements by class name  |
 
@@ -53,10 +124,11 @@ Methods to acess elements :
 <br>
 
 ## Adding and Deleting Elements
+<br>
 DOM provides various methods to add and delete HTML elements via javascript . Some of them are as follows :
 <br>
 <br>
- <br>
+
 | Method |	Description|
 |--- |----|
 |
