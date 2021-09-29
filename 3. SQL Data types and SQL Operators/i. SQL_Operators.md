@@ -60,12 +60,12 @@ Table: Arithmetic Operators
 
 | Operator | Description | Example |
 | :--: | :--: | :--: |
-| + (unary) | Makes operand positive | `SELECT +3 FROM DUAL;` |
-| - (unary) | Negates operand | `SELECT -4 FROM DUAL;` |
-| / | Division (numbers and dates) | `SELECT SAL / 10 FROM EMP;` |
-| * | Multiplication | `SELECT SAL * 5 FROM EMP;` |
-| + | Addition (numbers and dates) | `SELECT SAL + 200 FROM EMP;` |
-| - | Subtraction (numbers and dates) | `SELECT SAL - 100 FROM EMP;` |
+| + (unary) | Makes operand positive | <pre lang="sql"><code> SELECT +3 FROM DUAL; </code></pre> |
+| - (unary) | Negates operand | <pre lang="sql"><code> SELECT -4 FROM DUAL; </code></pre> |
+| / | Division (numbers and dates) | <pre lang="sql"><code> SELECT SAL / 10 FROM EMP; </code></pre> |
+| * | Multiplication | <pre lang="sql"><code> SELECT SAL * 5 FROM EMP; </code></pre> |
+| + | Addition (numbers and dates) | <pre lang="sql"><code> SELECT SAL + 200 FROM EMP; </code></pre> |
+| - | Subtraction (numbers and dates) | <pre lang="sql"><code> SELECT SAL - 100 FROM EMP; </code></pre> |
 <br />
 
 # 3. Character Operators
@@ -75,7 +75,7 @@ Table: Arithmetic Operators
 
   | Operator | Description | Example |
   | :--: | :--: | :--: |
-  | \|\| | Concatenates character strings | `SELECT 'The Name of the employee is:' \|\| ENAME FROM EMP;` |
+  | \|\| | Concatenates character strings | <pre lang="sql"><code> SELECT 'The Name of the employee is:' \|\| ENAME FROM EMP; </code></pre> |
 
   ### 3.1 Concatenating Character Strings
   - We can concatenate character strings with the following results. Concatenating two character strings results in another character string.
