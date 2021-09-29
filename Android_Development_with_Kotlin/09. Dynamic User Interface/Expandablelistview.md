@@ -51,6 +51,9 @@ start_collapsed        | boolean      |       true    | true if you want the sub
 animation_duration     | integer      |       300ms   | The animations duration in milliseconds.                            | No
 
 
+![expandablelistview](https://user-images.githubusercontent.com/70501362/135293881-5e129934-0543-43bc-9b82-8769de1b61d0.gif)
+
+
 ### Step by Step Implementation
 
 **Step 1: Create a New Project**
