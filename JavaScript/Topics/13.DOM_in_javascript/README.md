@@ -8,7 +8,7 @@
  DOM stands for Document Object Model . It's an API (application programming interface) for manipulating HTML and XML documents. The DOM represents a document as a tree of nodes . It allows programs and scripts to dynamically access and update the content, structure, and style of a document.
 
 
-Below image shows a basic heirachy in DOM :
+Below image shows a basic heirarchy in DOM :
 
 
 ![DOM ](https://searchengineland.com/figz/wp-content/seloads/2015/05/Microsoft-PowerPoint.jpg)
@@ -16,7 +16,7 @@ Below image shows a basic heirachy in DOM :
 
 ## Use of DOM in JavaScript
 <br>
-With the DOM , javascript get all the power it needs to create dynamic HTML . With DOM :
+With the DOM , javascript get all the power it needs to create dynamic webpage . With DOM :
 
 * JavaScript can change all the HTML elements in the page
 
@@ -67,7 +67,7 @@ console.log(x.innerHTML); // Prints text inside head element
 
 ### HTML | DOM body Property
 <br>
-It  returns the content present in the < body> Tag. This property is used to view or change the present content inside the < body> element and sets them with the new specified content.
+It  returns the content present in the < body> tag. This property is used to view or change the  content present inside the < body> element and sets them with the new specified content.
 
 E.g. 
 ```
@@ -102,8 +102,23 @@ var form1= x[0] ;
 //Or we can also use the below method 
 var form1 = x.item(0);
 
-
  ```
+
+  The name attribute which specifies the name of an < input > element is used to reference form elements in a JavaScript, or to reference form data after a form is submitted.
+
+  E.g.
+ ```
+  
+ <form name="myForm" action="/action_page.php" method="get">
+ ...
+ </form>
+ //For the above HTML form element , We can access the form with name attribute as below
+
+  var x= document.forms["myForm"];
+  x.submit(); //Submits form
+ ```
+It is important to note that only form elements with a name attribute will have their values passed while submitting a form.
+
 <br>
 To access any particular element , DOM provides various method . Some of them are as follows :
 
