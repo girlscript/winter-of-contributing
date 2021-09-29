@@ -1,3 +1,3 @@
 ### GETTING STARTED
 
-[MYSQL_Extension](MYSQL_Extension)
+[MySQLi_Extension](MYSQL_Extension)
