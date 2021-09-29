@@ -1,12 +1,12 @@
 # SQL Operators
 ## Topics Covered:
-  - [SQL Operators Overview](#1.-overview)
-  - [Arithmetic Operators](#2.-arithmetic-operators)
-  - [Character Operators](#character-operators)
-  - [Comparison Operators](#comparison-operators)
-  - [Logical Operators](#logical-operators)
-  - [Set Operators](#set-operators)
-  - [Other Operators](#other-operators)
+  - [SQL Operators Overview](#1-overview)
+  - [Arithmetic Operators](#2-arithmetic-operators)
+  - [Character Operators](#3-character-operators)
+  - [Comparison Operators](#4-comparison-operators)
+  - [Logical Operators](#5-logical-operators)
+  - [Set Operators](#6-set-operators)
+  - [Other Operators](#7-other-operators)
 <br />
 
 ## 1. Overview
@@ -37,7 +37,7 @@
       Table: Levels of Precedence of SQL Operators
 
       | Precedence Level | SQL Operator |
-      | :-- | :-- |
+      | :--: | :--: |
       | 1 | Unary + - arithmetic operators, PRIOR operator |
       | 2 | * / arithmetic operators |
       | 3 | Binary + - arithmetic operators, || character operators |
@@ -59,7 +59,7 @@
 Table: Arithmetic Operators
 
 | Operator | Description | Example |
-| :-- | :-- | :-- |
+| :--: | :--: | :--: |
 | + (unary) | Makes operand positive | `SELECT +3 FROM DUAL;` |
 | - (unary) | Negates operand | `SELECT -4 FROM DUAL;` |
 | / | Division (numbers and dates) | `SELECT SAL / 10 FROM EMP;` |
@@ -68,27 +68,16 @@ Table: Arithmetic Operators
 | - | Subtraction (numbers and dates) | `SELECT SAL - 100 FROM EMP;` |
 <br />
 
-# Character Operators
+# 3. Character Operators
 
-Character operators used in expressions to manipulate character strings are listed in [Table 2-3](https://docs.oracle.com/cd/E12095_01/doc.10303/e12092/sqopr.htm#g1005828).
+- Character operators used in expressions to manipulate character strings.
 
 Table: Character Operators
 
 | Operator | Description | Example |
-| :-- | :-- | :-- |
-|
+| :--: | :--: | :--: |
+| || | Concatenates character strings | `SELECT 'The Name of the employee is: ' || ENAME FROM EMP;` |
 
-||
-
- |
-
-Concatenates character strings
-
- |
-
-`SELECT 'The Name of the employee is: ' || ENAME FROM EMP;`
-
- |
 
 ### 2.3.1 Concatenating Character Strings
 
