@@ -546,7 +546,7 @@ func main() {
 		fmt.Printf("Total Time is %d minutes.\n", totalTime)
 }
 ```
-#### Output:
+#### Output:-
 
 ```
 Total Time is 2060 minutes.
