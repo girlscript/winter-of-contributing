@@ -13,26 +13,29 @@
 
 ```
 interface Music {
-
+    
+   
+    public abstract void increaseVolume();
+    void adjustBass(); //every method declared inside is public and abstract by default
+    }
  
-  double vol, bass;
- public abstract void increaseVolume();
- void adjustBass(); //every method declared inside is public and abstract by default
- 
- }
- 
- public class Party implements Music {
- 
- public static void main (String [] args)
- {
-   public abstract void increaseVolume()
-     {
+public class Party implements Music {
+    public void increaseVolume()
+    {
+    
         System.out.println("Increased!!");
-       }
-   void adjustBass()
+    }
+   public void adjustBass()
    {
+     
       System.out.println("Adjusted!!");
     }
+  public static void main(String args[])
+  {
+      Party par = new Party();
+      par.increaseVolume();
+      par.adjustBass();
+      
   }
  }
  
@@ -54,20 +57,26 @@ interface Music {
   *Example:*
   
   ```
-  public class Calculator
-  {
-      static int Add(int a, int b)
-      {
-          int res = a + b;
-          return res;
-      }
-      public static void main()
-      {
-          Add(5,3); //will get 8 as result
-      }
-  }
+ public class Calculator
+ {
+    static int Add(int a, int b)
+    {
+        int res = a + b;
+        return res;
+    }
+    public static void main(String args[])
+    {
+        int addRes = Add(5,3); //will get 8 as result
+        System.out.println(addRes);
+    }
+}
+
   
   ```
+  
+  *Output:*
+  
+  
   
  Starting from Java 8, we get the added feature of being able to use static methods in interfaces too. How does it fare, you may wonder? Let's have a look at the properties that it offers.
   
@@ -89,9 +98,9 @@ interface property1
     void display2(String s);
 }
 
-class prop1 implements property1
+public class prop1 implements property1
 {
-    static void display2(String s1) //overriding the abstract method of the interface
+    public void display2(String s1) //overriding the abstract method of the interface
     {
         System.out.println(s1);
     }
@@ -99,7 +108,7 @@ class prop1 implements property1
     {
         prop1 obj = new prop1(); //object of class prop1
         
-        property1.dipslay(); //invoking the static method of the interface
+        property1.display(); //invoking the static method of the interface
         obj.display2("Howdy? I'm fine!"); //invoking the non-static or abstract method of the 
                                           // interface
         
@@ -125,8 +134,10 @@ public class prop2
 {
     public static void main(String args[])
     {
-        property2.area(2.4); //interface's static method
-        area(3.2);           //static method of the class
+        double ar1 = property2.area(2.4); //interface's static method
+        double ar2 = area(3.2);           //static method of the class
+        System.out.println(ar1);
+        System.out.println(ar2);
     }
     static double area(double s)
     {
