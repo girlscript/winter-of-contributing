@@ -1,5 +1,4 @@
 # SQL Operators
-
 ## Topics Covered:
   - [SQL Operators Overview](#overview)
   - [Arithmetic Operators](#arithmetic-operators)
@@ -8,47 +7,47 @@
   - [Logical Operators](#logical-operators)
   - [Set Operators](#set-operators)
   - [Other Operators](#other-operators)
+<br />
 
-
-- ## Overview
-  - An operator manipulates individual data items and returns a result. 
-  - The data items are called operands or arguments. Operators are represented by special characters or by keywords. 
+1. ## Overview
+  - An operator manipulates individual data items and returns a result. The data items are called operands or arguments. Operators are represented by 
+    special characters or by keywords. 
   - For example, the multiplication operator is represented by an asterisk (*) and the operator that tests for nulls is represented by the keywords `IS NULL`. 
     There are two general classes of operators: unary and binary. Oracle Database Lite SQL also supports set operators.
 
-  - ## Unary Operators
+    ### Unary Operators
     - A unary operator uses only one operand. A unary operator typically appears with its operand in the following format.
-    - Format: `operator operand`
+      Format: `operator operand`
 
-  - ## Binary Operators
+    ### Binary Operators
     - A binary operator uses two operands. A binary operator appears with its operands in the following format.
-    - Format: `operand1 operator operand2`
+      Format: `operand1 operator operand2`
 
-  - ## Set Operators
-    - Set operators combine sets of rows returned by queries, instead of individual data items. All set operators have equal precedence. 
-    - The following set operators are supported:
+    ### Set Operators
+    - Set operators combine sets of rows returned by queries, instead of individual data items. All set operators have equal precedence. The following set operators 
+      are supported:
       -   `UNION`
       -   `UNION ALL`
       -   `INTERSECT`
       -   `MINUS`
 
-   - ## Order Of Precedence
-     - The levels of precedence among the Oracle Database Lite SQL operators from high to low are listed in [Table 2-1](https://docs.oracle.com/cd/E12095_01/doc.10303/e12092/sqopr.htm#g1005968). Operators listed on the same line have the same level of precedence.
+    ### Order Of Precedence
+     - The levels of precedence among the SQL operators from high to low. Operators listed on the same line have the same level of precedence.
 
-Table 2-1 Levels of Precedence of the Oracle Database Lite SQL Operators
+      Table: Levels of Precedence of SQL Operators
 
-| Precedence Level | SQL Operator |
-| :-- | :-- |
-| 1 | Unary + - arithmetic operators, PRIOR operator |
-| 2 | * / arithmetic operators |
-| 3 | Binary + - arithmetic operators, || character operators |
-| 4 | All comparison operators |
-| 5 | NOT Logical Operator |
-| 6 | AND Logical Operator |
-| 7 | OR Logical Operator |
+      | Precedence Level | SQL Operator |
+      | :-- | :-- |
+      | 1 | Unary + - arithmetic operators, PRIOR operator |
+      | 2 | * / arithmetic operators |
+      | 3 | Binary + - arithmetic operators, || character operators |
+      | 4 | All comparison operators |
+      | 5 | NOT Logical Operator |
+      | 6 | AND Logical Operator |
+      | 7 | OR Logical Operator |
 
 
-### 2.1.4 Other Operators
+### Other Operators
 
 Other operators with special formats accept more than two operands. If an operator receives a null operator, the result is always null. The only operator that does not follow this rule is [CONCAT](https://docs.oracle.com/cd/E12095_01/doc.10303/e12092/sqfunc.htm#i1005392).
 
