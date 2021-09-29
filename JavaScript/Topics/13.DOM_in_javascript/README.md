@@ -14,7 +14,7 @@ Below image shows a basic heirachy in DOM :
 ![DOM ](https://searchengineland.com/figz/wp-content/seloads/2015/05/Microsoft-PowerPoint.jpg)
 
 
-## Use of DOM in javascript 
+## Use of DOM in JavaScript
 <br>
 With the DOM , javascript get all the power it needs to create dynamic HTML . With DOM :
 
