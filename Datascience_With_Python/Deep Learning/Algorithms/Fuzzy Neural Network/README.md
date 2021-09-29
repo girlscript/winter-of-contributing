@@ -66,7 +66,7 @@ A neuro-fuzzy system is represented as special three-layer feedforward neural ne
 <img alt="Github Image" src="https://user-images.githubusercontent.com/53006261/134787364-4da8e865-7e77-4016-ab69-e3b3d81d3e00.png">
 
 - [To gain more insight on FuzzyClassificator](https://github.com/devopshq/FuzzyClassificator)
-- [Steps to make a Fuzzy Min Max Classifier](https://github.com/devopshq/FuzzyClassificatorhttps://github.com/Cartmanishere/Fuzzy-min-max-classifier)
+- [Steps to make a Fuzzy Min Max Classifier](https://github.com/Cartmanishere/Fuzzy-min-max-classifier)
 - [Bank Failure Prediction and Missing Data Reconstruction using Fuzzy Neural Network](https://github.com/Javelin1991/htet_predict_bank_failure)
 - [More Project Ideas ....](https://github.com/topics/fuzzy-neural-network)
 
