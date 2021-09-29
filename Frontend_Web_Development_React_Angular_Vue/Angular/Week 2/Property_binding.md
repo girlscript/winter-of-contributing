@@ -169,3 +169,9 @@ parentItem = 'lamp';
 
 
 By doing this the view of app item detail uses the value of **lamp** for **childItem**.
+
+
+
+# References
+
+[Angular website](https://angular.io/guide/property-binding) , [geeksforgeeks ](https://www.geeksforgeeks.org/property-binding-in-angular-8/), [Javapoint](https://www.javatpoint.com/angular-7-property-binding) .
