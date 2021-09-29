@@ -12,43 +12,41 @@
 
 **Data Science has revolutionized several different aspects of our world. Let's take a look then at when and where data science comes from.**
 
-**In 1962**, John Tukey wrote about a shift in the world of statistics, saying, “… as I have watched mathematical statistics evolve, I have had cause to wonder and to doubt…I have come to feel that my central interest is in data analysis…” . By saying this he meant to say that its time to enter the world of statics in the field of data science which would reduce the days or weeks it would take if done by hand. 
+**In 1962**, John Tukey has written  about a shift in the world of statistics
 
-**In 1974**, Peter Naur had authored the Concise Survey of the Computer Methods, using the term “Data Science,” repeatedly in his writings . Naur presented his own convoluted definition of the new concept:
+**In 1974**, Peter Naur has authored the Concise Survey of the Computer Methods
 
-“The science of dealing with data, once they have been established, while the relation of the data to what they represent is delegated to other fields and sciences.”
+**In 1977**,  IASC, also known as International Association for Statistical Computing was  formed during this year.
 
-**In 1977**, The IASC, also known as International Association for Statistical Computing was formed in this year. The first phrase of their mission statement reads, “It is the mission of the IASC to link traditional statistical methodology, modern computer technology, and the knowledge of domain experts in order to convert data into information and knowledge.”
+**In 1977**, Sir Tukey wrote a second paper in the same year when IASC was formed, titled as Exploratory Data Analysis, arguing the importance of using data in selecting “which” hypotheses to test, and that confirmatory data analysis and exploratory data analysis should work hand-in-hand.
 
-**In 1977**, Tukey wrote a second paper in the same year when IASC was formed, titled as Exploratory Data Analysis, arguing the importance of using data in selecting “which” hypotheses to test, and that confirmatory data analysis and exploratory data analysis should work hand-in-hand.
+**In 1989**,ACM SIGKDD Conference was conducted on Knowledge Discovery and Data Mining, organized its first workshop.
 
-**In 1989**,ACM SIGKDD Conference on Knowledge Discovery and Data Mining, organized its first workshop.
+**In 1994**,In this year the  Business Week ran the cover story, Database Marketing, revealing the ominous news companies had started gathering large amounts of personal information, with plans to start strange new marketing campaigns. 
 
-**In 1994**,In the  Business Week ran the cover story, Database Marketing, revealing the ominous news companies had started gathering large amounts of personal information, with plans to start strange new marketing campaigns. 
+**In 1999**, Sir Jacob Zahavi pointed out the need for new tools to handle the massive amounts of information available to businesses.
 
-**In 1999**, Jacob Zahavi pointed out the need for new tools to handle the massive amounts of information available to businesses, in the fileds of  Mining Data for Nuggets of Knowledge. 
+**In 2001**, A  new Software-as-a-Service (SaaS) was created. This was the pre-cursor to using Cloud-based applications.
 
-**In 2001**, Software-as-a-Service (SaaS) was created. This was the pre-cursor to using Cloud-based applications.
+**In 2001**,Sir  William S. Cleveland laid out plans for training Data Scientists to meet the needs of the future. 
 
-**In 2001**, William S. Cleveland laid out plans for training Data Scientists to meet the needs of the future. 
+**In 2002**,International Council for Science: Committee on Data for Science and Technology began publishing the Data Science Journal
 
-**In 2002**, the International Council for Science: Committee on Data for Science and Technology began publishing the Data Science Journal
+**In 2006**,the companies like Hadoop 0.1.0, an open-source, non-relational database, was released. 
 
-**In 2006**, Hadoop 0.1.0, an open-source, non-relational database, was released. 
-
-**In 2008**, the title, “Data Scientist” became a buzzword, and eventually a part of the language. DJ Patil and Jeff Hammerbacher, of LinkedIn and Facebook, are given credit for initiating its use as a buzzword at this time.
+**In 2008**, the title, “Data Scientist” became a very sensational word, and eventually a part of the language.
 
 **In 2009**, the term NoSQL was reintroduced by Johan Oskarsson
 
-**In 2011**, job listings for Data Scientists increased by 15,000%. There was also an increase in seminars and conferences devoted specifically to Data Science and Big Data. Data Science had proven itself to be a source of profits and had become a part of corporate culture.
+**In 2011**, job listings for Data Scientists were increased by 15,000%. 
 
-**In 2011**, James Dixon, CTO of Pentaho promoted the concept of Data Lakes, rather than Data Warehouses. 
+**In 2011**, People like James Dixon, CTO of Pentaho promoted the concept of Data Lakes, rather than Data Warehouses. 
 
-**In 2013**, IBM shared statistics showing 90% of the data in the world had been created within the last two years.
+**In 2013**, the company IBM shared statistics showing 90% of the data in the world had been created within the last two years.
 
-**In 2015**, using Deep Learning techniques, Google’s speech recognition, Google Voice, experienced a dramatic performance jump of 49 percent.
+**In 2015**, they used Deep Learning techniques, Google’s speech recognition, Google Voice, experienced a dramatic performance jump of 49 percent.
 
-**In 2015**, Bloomberg’s Jack Clark, wrote that it had been a landmark year for Artificial Intelligence (AI).
+**In 2015**,sir  Bloomberg’s Jack Clark, wrote that it had been a landmark year for Artificial Intelligence (AI).
 
 ## **Transition:**
 
