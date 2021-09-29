@@ -72,7 +72,32 @@ And as soon as value of any key of our hash map is greater than 1 we increment t
 ```
 
 **Time Complexity** = O(n)
+
+```
+
+Time complexity is O(n) here n is the size of the array. We only have to traverse the array once.
+
+```
+
+**Auxilary Space** = O(n)
+
+``` 
+
+The auxilary space is taken by the map which stores the number of times a particular sum is encountered.
+It is equal to n as the size of map is also equal to n.
+
+```
+
 **Space Complexity** = O(n)
+
+```
+Space complexity is the total space taken and here it is space taken by array and map = O(n) + O(n) = O(n)
+
+Note
+It is O(n) as there is no representation such as 2O(n).
+
+```
+
 
 ## Output
 
