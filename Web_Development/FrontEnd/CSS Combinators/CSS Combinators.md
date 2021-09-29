@@ -29,13 +29,14 @@ For Example:-
 }
 ```
 
-![Untitled](CSS%20Combinators%205b30d1a2916d41d69b0054a70bc7aff0/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/61539946/135327633-d09ee491-f00f-41f5-abfb-d3d403c2bd8a.png)
+
 
 ---
 
 # Child Selector
 
-The **child combinator** is denoted by **">"** and ****is always placed between two CSS selectors. It only matches all those elements matched by the second selector that are the direct descendent or child of elements matched by the first. Lower descendent elements further down the hierarchy don't match.
+The **child combinator** is denoted by **">"** and is always placed between two CSS selectors. It only matches all those elements matched by the second selector that are the direct descendent or child of elements matched by the first. Lower descendent elements further down the hierarchy don't match.
 
 For Example:-
 
@@ -59,8 +60,10 @@ For Example:-
     color: #F9CF93;  
 }
 ```
+![Untitled 1](https://user-images.githubusercontent.com/61539946/135327695-75dc0e1d-041e-4f2e-b881-ef5edc061320.png)
 
-![Untitled](CSS%20Combinators%205b30d1a2916d41d69b0054a70bc7aff0/Untitled%201.png)
+
+
 
 ---
 
@@ -95,7 +98,9 @@ For Example:-
 }
 ```
 
-![Untitled](CSS%20Combinators%205b30d1a2916d41d69b0054a70bc7aff0/Untitled%202.png)
+![Untitled 2](https://user-images.githubusercontent.com/61539946/135327767-b4afb337-5d4a-4a21-8094-a93550598665.png)
+
+
 
 ---
 
@@ -129,8 +134,8 @@ For Example:-
     color: #F9CF93;  
 }
 ```
+![Untitled 3](https://user-images.githubusercontent.com/61539946/135327800-1cc3dd09-38f8-4b2f-9757-b6e8cf339964.png)
 
-![Untitled](CSS%20Combinators%205b30d1a2916d41d69b0054a70bc7aff0/Untitled%203.png)
 
 ---
 
