@@ -3,7 +3,7 @@
   - [SQL Operators Overview](#1-overview)
   - [Arithmetic Operators](#2-arithmetic-operators)
   - [Character Operators](#3-character-operators)
-  - [Comparison Operators](#4-comparison-operators)
+  - [Comparison Operators](#4comparison-operators)
   - [Logical Operators](#5-logical-operators)
   - [Set Operators](#6set-operators)
   - [Other Operators](#7-other-operators)
