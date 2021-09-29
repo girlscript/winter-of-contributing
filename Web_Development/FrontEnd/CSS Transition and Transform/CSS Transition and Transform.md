@@ -1,105 +1,123 @@
 # What is transforms in CSS?
-
-By modifying the coordinate space, CSS transforms change the shape and position of the affected content without disrupting the normal document flow. This guide provides an introduction to using transforms.
-
-CSS transforms are implemented using a set of CSS properties that let you apply affine linear transformations to HTML elements. These transformations include rotation, skewing, scaling, and translation both in the plane and in the 3D space.
+CSS Transform help us to move, rotate , skew and much more with the given object.
 
 **Important Point:-** Only elements positioned by the box model can be transformed. As a rule of thumb, an element is positioned by the box model if it has display: block.
 
-## CSS transforms properties
+### CSS Transform can be in 2D and 3D :-
 
-Two major properties are used to define CSS transforms: transform and transform-origin
+#### Lets have a look to 2D transform 
 
-1. transform-origin :
-Specifies the position of the origin. By default, it is at the center of the element and can be moved. It is used by several transforms, like rotations, scaling or skewing, that need a specific point as a parameter.
+In this we can have functions like translate, rotate, scale, skew etc.
 
-2. transform :
-Specifies the transforms to apply to the element. It is a space-separated list of transforms, which are applied one after the other, as requested by the composition operation. Composite transforms are effectively applied in order from right to left.
+(1) **rotate**- As name suggested it is used to rotate a object.
+Syntax -  transform: rotate(degree) {Degree is the angel at which you want to rotate the object}
 
-# Example:- 
-
-Here is an unaltered image of the MDN logo:
-
-![Pic1](https://user-images.githubusercontent.com/76097113/134759900-c2276736-1f37-4465-a620-3b882d6d6849.jpg)
-
-### Rotating 
-Here is the MDN logo rotated 90 degrees from its bottom-left corner. 
+For example - Let us take a box with a class box1 
 ```CSS
-Pic1{
-     transform: rotate(90deg);
-     transform-origin: bottom left;
-}
-```
-![Pic 2](https://user-images.githubusercontent.com/76097113/134760120-ed771337-dd28-41f6-b97f-5ef9f4d615f0.jpg)
-
-### Skewing and translating 
-
-
-Here is the MDN logo, skewed by 10 degrees and translated by 150 pixels on the X-axis.
-
+ .box1{
+  transform: rotate(34deg);
+  }
+ ```
+ Result - Box will rotate at an angle of 34 degree
+ 
+ (2) **scale**- It is use to scale a element or object means to increase aur decrease size of that. 
+Syntax -  transform: scale(x,y);
+As x direction is horizontal so it is used for change in width and y is verticall so it is used for change in heigth.
+For example - Let us take a box with a class box1 
 ```CSS
-PIC 2{
-transform: skewx(10deg) 
-translatex(150px);
-transform-origin: bottom left;
-}
-```
+ .box1{
+  transform: scale(5,10);
+  }
+ ```
+ Result - Box size will be increased 
+ 
+ If we want change only in width(x) or heigth(y) that's also possible by -
+ ```CSS
+ .box1{
+  transform: scaleX(5);
+  }
+ ```
+ Result - Box width will be changed 
+ ```CSS
+ .box1{
+  transform: scaleY(10);
+  }
+ ```
+ Result - Box height will be changed 
+ 
+ (3) **skew**- It align the object or skew the object at the given angle. Its not same as rotate in this we give the info that from x axis and from y axis what should be the alignment of the object.
+Syntax -  transform: skew(degree , degree) {Degree is the angel at which you want to rotate the object}
+
+For example - Let us take a box with a class box1 
+```CSS
+ .box1{
+  transform: skew(23deg , 31deg);
+  }
+ ```
+ Result - Box will rotate at an angle of 23 degree wrt x-axis and 31 degree wrt y-axis.
+ 
+ **Note** - We can also give skew in x or y same syntax as we use in scale i.e skewX() and skewY().
+ 
+ (4) **translate**- Translate means to move a object form its present position.
+Syntax -  transform:  translate(x, y);
+For example - Let us take a box with a class box1 
+```CSS
+ .box1{
+  transform: translate(10px, 10px);
+  }
+ ```
+ Result - Box will be shifted 10px form both the axis.
+ 
+ #### Now lets have a look to 3D transform
+ --> 3D means 3 dimensional means we have 3 axis named as x , y and z.
+ 
+ 3D tranform is same as 2D transform the only difference is at the place of 2 variables value we will provide 3 .
+ 
+ Ex = translate(x,y,z) , scaleX(), scaleY(), scaleZ()
+ 
+ 
 # What is transition in CSS?
-CSS transitions provide a way to control animation speed when changing CSS properties. Instead of having property changes take effect immediately, you can cause the changes in a property to take place over a period of time. For example, if you change the color of an element from white to black, usually the change is instantaneous. With CSS transitions enabled, changes occur at time intervals that follow an acceleration curve, all of which can be customized.
-
-## Defining transitions
-CSS Transitions are controlled using the shorthand transition property. This is the best way to configure transitions, as it makes it easier to avoid out of sync parameters, which can be very frustrating to have to spend lots of time debugging in CSS.
-
-You can control the individual components of the transition with the following sub-properties:
+CSS transiton helps us to change the CSS property of a element smoothly with a desired time duration.
 
 1. transition-property <br>
 2. transition-duration <br>
 3. transition-timing-function <br>
 4. transition-delay <br>
+5. transition (A shorthand property for setting the four transition properties into a single property)
 
-The shorthand CSS syntax is written as follows:
+**transition-property** - As name suggested use to define the property in which we want transition
 
+**transition-duration** - Use to set the duration of that effect
+
+**transition-delay** - Use to set the time delay means after what time transition should be started.
+
+**transition-timing-function** - Specifies the speed curve of the transition effect
+
+Ex - Let us take a box in a div tag
 ```CSS
 div {
-    transition: <property> <duration> <timing-function> <delay>;
+  transition-property: height;
+  transition-duration: 3s;
+  transition-timing-function: linear;
+  transition-delay: 4s;
 }
 ```
+                                                                  or
+               
+```CSS
+div {
+  transition: heigth 3s linear 4s;
+}
+```
+Above code has defined the property and time for the transition now what should happen this is yet to be defined so,
 
-or we can use these properties as:- (Its your choice to use shortand or not)
+When we hover on the object heigth should change 
+
+let us assume the height is 50px
 
 ```CSS
-a {
-  color: #fff;
-  background-color: #333;
-  transition: all 1s ease-out;
-}
-
-a:hover,
-a:focus {
-  color: #333;
-  background-color: #fff;
-}
+div:hover {
+height: 250px;
 }
 ```
-
-## Let us see the propety by a example :-
-In this example we have a box and when user hover mouse on the box it start to rotate and the color of the box also changes. You can try it by copying below code and running it.
-
-```CSS
-.box {
-    border-style: solid;
-    border-width: 1px;
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: #0000FF;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
-
-.box:hover {
-    background-color: #FFCCCC;
-    width: 200px;
-    height: 200px;
-    transform: rotate(180deg);
-}
-```
+Result - When we hover on the object after 4 sec box heigth will start to increase and in 3 second it will reach upto 250px
