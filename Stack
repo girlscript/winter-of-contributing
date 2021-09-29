@@ -1,0 +1,50 @@
+Stack is a type of container which follows LIFO working means Last in First out.
+Let us understand what this LIFO means.
+suppose we have elements 1,4,7,9,11,15 and we need to insert them in the stack.
+Now 1 will be added to the stack first then 4 then 7 and so no.Next element will be added from the back side in the stack.
+                         |____|
+                         |_15_|
+                         |_11_|
+                         |_9__|
+                         |_7__|
+                         |_4__|
+                         |_1__|
+Virtually stack will look like this.
+When we need to delete an element from the stack deletion would take place from the last.
+Thus this means the element that is added in last will be deleted first.
+                         |____|
+                         |_11_|
+                         |_9__|
+                         |_7__|
+                         |_4__|
+                         |_1__|
+Stack after first delete operation.
+Stack Syntax:-
+For creating  a stack, <stack> header file is used in our code. We then use this syntax to define the std::stack:
+
+template <class Type, class Container = deque<Type> > class stack;
+The functions associated with stack are: 
+empty() – Returns whether the stack is empty – Time Complexity : O(1) 
+size() – Returns the size of the stack – Time Complexity : O(1) 
+top() – Returns a reference to the top most element of the stack – Time Complexity : O(1) 
+push(g) – Adds the element ‘g’ at the top of the stack – Time Complexity : O(1) 
+pop() – Deletes the top most element of the stack – Time Complexity : O(1) 
+Let's understand with a code:-
+#include <iostream>
+#include <stack>
+using namespace std;
+int main() {
+	stack<int> stack;
+	stack.push(1);
+	stack.push(4);
+	stack.push(7);
+	stack.push(9);
+	
+		stack.pop();
+	stack.pop();
+
+	while (!stack.empty()) {
+		cout << ' ' << stack.top();
+		stack.pop();
+	}
+}
