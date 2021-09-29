@@ -108,53 +108,56 @@ Table: Comparison Operators
 | Operator | Description | Example |
 | :-- | :-- | :-- |
 | = | Equality test | <pre lang="sql"><code> SELECT ENAME "Employee" FROM EMP WHERE SAL = 1500; </code></pre> |
-| !=, ^=, <> | Inequality test | `SELECT ENAME FROM EMP WHERE SAL ^= 5000;` |
-| > | Greater than test | `SELECT ENAME "Employee", JOB "Title" FROM EMP WHERE SAL > 3000;` |
-| < | Less than test | `SELECT * FROM PRICE WHERE MINPRICE < 30;` |
-| >= | Greater than or equal to test | `SELECT * FROM PRICE WHERE MINPRICE >= 20;` |
-| <= | Less than or equal to test | `SELECT ENAME FROM EMP WHERE SAL <= 1500;` |
-| IN | "Equivalent to any member of" test. Equivalent to "`=ANY`" | `SELECT * FROM EMP WHERE ENAME IN ('SMITH', 'WARD');` |
-| ANY/ SOME | Compares a value to each value in a list or returned by a query. Must be preceded by `=, !=, >, <, <= or >=`. Evaluates to `FASLE` if the query returns no rows. | `SELECT * FROM DEPT WHERE LOC = SOME ('NEW YORK','DALLAS');` |
-| NOT IN | Equivalent to "`!=ANY`". Evaluates to `FALSE` if any member of the set is `NULL` | `SELECT * FROM DEPT WHERE LOC NOT IN ('NEW YORK', 'DALLAS');` |
-| ALL | Compares a value with every value in a list or returned by a query. Must be preceded by `=, !=, >, <, <= or >=.` Evaluates to `TRUE` if the query returns no rows | `SELECT * FROM emp WHERE sal >= ALL (1400, 3000);` |
-| [NOT] BETWEEN x and y | [Not] greater than or equal to x and less than or equal to y | `SELECT ENAME, JOB FROM EMP WHERE SAL BETWEEN 3000 AND 5000;` |
-| EXISTS | `TRUE` if a sub-query returns at least one row | `SELECT * FROM EMP WHERE EXISTS (SELECT ENAME FROM EMP WHERE MGR IS NULL);` |
-| x [NOT] LIKE y [ESCAPE z] | `TRUE` if x does [not] match the pattern y. Within y, the character "%" matches any string of zero or more characters except null. The character "_" matches any single character. Any character following `ESCAPE` is interpreted literally, useful when y contains a percent (%) or underscore (_) | `SELECT * FROM EMP WHERE ENAME LIKE '%E%';` |
-| IS [NOT] NULL | Tests for nulls. This is the only operator that should be used to test for nulls | `SELECT * FROM EMP WHERE COMM IS NOT NULL AND SAL > 1500;` |
+| !=, ^=, <> | Inequality test | <pre lang="sql"><code> SELECT ENAME FROM EMP WHERE SAL ^= 5000; </code></pre> |
+| > | Greater than test | <pre lang="sql"><code> SELECT ENAME "Employee", JOB "Title" FROM EMP WHERE SAL > 3000; </code></pre> |
+| < | Less than test | <pre lang="sql"><code> SELECT * FROM PRICE WHERE MINPRICE < 30; </code></pre> |
+| >= | Greater than or equal to test | <pre lang="sql"><code> SELECT * FROM PRICE WHERE MINPRICE >= 20; </code></pre> |
+| <= | Less than or equal to test | <pre lang="sql"><code> SELECT ENAME FROM EMP WHERE SAL <= 1500; </code></pre> |
+| IN | "Equivalent to any member of" test. Equivalent to "`=ANY`" | <pre lang="sql"><code> SELECT * FROM EMP WHERE ENAME IN ('SMITH', 'WARD'); </code></pre> |
+| ANY/ SOME | Compares a value to each value in a list or returned by a query. Must be preceded by `=, !=, >, <, <= or >=`. Evaluates to `FASLE` if the query returns no rows. |  <pre lang="sql"><code> SELECT * FROM DEPT WHERE LOC = SOME ('NEW YORK','DALLAS'); </code></pre> |
+| NOT IN | Equivalent to "`!=ANY`". Evaluates to `FALSE` if any member of the set is `NULL` | <pre lang="sql"><code> SELECT * FROM DEPT WHERE LOC NOT IN ('NEW YORK', 'DALLAS'); </code></pre> |
+| ALL | Compares a value with every value in a list or returned by a query. Must be preceded by `=, !=, >, <, <= or >=.` Evaluates to `TRUE` if the query returns no rows |  <pre lang="sql"><code> SELECT * FROM emp WHERE sal >= ALL (1400, 3000); </code></pre> |
+| [NOT] BETWEEN x and y | [Not] greater than or equal to x and less than or equal to y | <pre lang="sql"><code> SELECT ENAME, JOB FROM EMP WHERE SAL BETWEEN 3000 AND 5000; </code></pre> |
+| EXISTS | `TRUE` if a sub-query returns at least one row | <pre lang="sql"><code> SELECT * FROM EMP WHERE EXISTS (SELECT ENAME FROM EMP WHERE MGR IS NULL); </code></pre> |
+| x [NOT] LIKE y [ESCAPE z] | `TRUE` if x does [not] match the pattern y. Within y, the character "%" matches any string of zero or more characters except null. The character "_" matches any single character. Any character following `ESCAPE` is interpreted literally, useful when y contains a percent (%) or underscore (_) | <pre lang="sql"><code> SELECT * FROM EMP WHERE ENAME LIKE '%E%'; </code></pre> |
+| IS [NOT] NULL | Tests for nulls. This is the only operator that should be used to test for nulls | <pre lang="sql"><code> SELECT * FROM EMP WHERE COMM IS NOT NULL AND SAL > 1500; </code></pre> |
 <br />
 
 # 5. Logical Operators
 
 - Logical operators which manipulate the results of conditions.
-  Table: Logical Operators
 
-  | Operator | Description | Example |
-  | :-- | :-- | :-- |
-  | NOT | Returns `TRUE` if the following condition is `FALSE`. Returns `FALSE` if it is `TRUE`. If it is `UNKNOWN`, it remains `UNKNOWN`. | `SELECT * FROM EMP WHERE NOT (sal BETWEEN 1000 AND 2000)` |
-  | AND | Returns `TRUE` if both component conditions are `TRUE`. Returns `FALSE` if either is `FALSE`; otherwise returns `UNKNOWN`. | `SELECT * FROM EMP WHERE job='CLERK' AND deptno=10` |
-  | OR | Returns `TRUE` if either component condition is `TRUE`. Returns `FALSE` if both are `FALSE`. Otherwise, returns `UNKNOWN`. | `SELECT * FROM emp WHERE job='CLERK' OR deptno=10` |
+Table: Logical Operators
+
+| Operator | Description | Example |
+| :-- | :-- | :-- |
+| NOT | Returns `TRUE` if the following condition is `FALSE`. Returns `FALSE` if it is `TRUE`. If it is `UNKNOWN`, it remains `UNKNOWN`. | `SELECT * FROM EMP WHERE NOT (sal BETWEEN 1000 AND 2000)` |
+| AND | Returns `TRUE` if both component conditions are `TRUE`. Returns `FALSE` if either is `FALSE`; otherwise returns `UNKNOWN`. | `SELECT * FROM EMP WHERE job='CLERK' AND deptno=10` |
+| OR | Returns `TRUE` if either component condition is `TRUE`. Returns `FALSE` if both are `FALSE`. Otherwise, returns `UNKNOWN`. | `SELECT * FROM emp WHERE job='CLERK' OR deptno=10` |
 <br />
 
 # 6. Set Operators
 
 - Set operators which combine the results of two queries into a single result
-  Table: Set Operators
 
-  | Operator | Description | Example |
-  | :-- | :-- | :-- |
-  | `UNION` | Returns all distinct rows selected by either query. | `SELECT * FROM` , `(SELECT ENAME FROM EMP WHERE JOB = 'CLERK'` , `UNION`, `SELECT ENAME FROM EMP WHERE JOB = 'ANALYST');` |
-  | `UNION ALL` | Returns all rows selected by either query, including all duplicates. | `SELECT * FROM` `(SELECT SAL FROM EMP WHERE JOB = 'CLERK'` `UNION` `SELECT SAL FROM EMP WHERE JOB = 'ANALYST');` |
-  | `INTERSECT` and `INTERSECT ALL` | Returns all distinct rows selected by both queries | `SELECT * FROM orders_list1` `INTERSECT` `SELECT * FROM orders_list2` |
-  | `MINUS` | Returns all distinct rows selected by the first query but not the second | `SELECT * FROM (SELECT SAL FROM EMP WHERE JOB = 'PRESIDENT'` `MINUS` `SELECT SAL FROM EMP WHERE JOB = 'MANAGER');` |
+Table: Set Operators
+
+| Operator | Description | Example |
+| :-- | :-- | :-- |
+| `UNION` | Returns all distinct rows selected by either query. | `SELECT * FROM` , `(SELECT ENAME FROM EMP WHERE JOB = 'CLERK'` , `UNION`, `SELECT ENAME FROM EMP WHERE JOB = 'ANALYST');` |
+| `UNION ALL` | Returns all rows selected by either query, including all duplicates. | `SELECT * FROM` `(SELECT SAL FROM EMP WHERE JOB = 'CLERK'` `UNION` `SELECT SAL FROM EMP WHERE JOB = 'ANALYST');` |
+| `INTERSECT` and `INTERSECT ALL` | Returns all distinct rows selected by both queries | `SELECT * FROM orders_list1` `INTERSECT` `SELECT * FROM orders_list2` |
+| `MINUS` | Returns all distinct rows selected by the first query but not the second | `SELECT * FROM (SELECT SAL FROM EMP WHERE JOB = 'PRESIDENT'` `MINUS` `SELECT SAL FROM EMP WHERE JOB = 'MANAGER');` |
 
   Note: : The syntax for `INTERSECT ALL` is supported, but it returns the same results as `INTERSECT`.
 <br />
 
 # 7. Other Operators
 - Other operators used. 
-  Table: Other Operators
 
-  | Operator | Description | Example |
-  | :-- | :-- | :-- |
-  | (+) | Indicates that the preceding column is the outer join column in a join. | `SELECT ENAME, DNAME FROM EMP, DEPT WHERE DEPT.DEPTNO = EMP.DEPTNO (+);` |
-  | PRIOR | Evaluates the following expression for the parent row of the current row in a hierarchical, or tree-structured query. In such a query, you must use this operator in the `CONNECT BY` clause to define the relationship between the parent and child rows. | `SELECT EMPNO, ENAME, MGR FROM EMP CONNECT BY PRIOR EMPNO = MGR;` `\` |
+Table: Other Operators
+
+| Operator | Description | Example |
+| :-- | :-- | :-- |
+| (+) | Indicates that the preceding column is the outer join column in a join. | `SELECT ENAME, DNAME FROM EMP, DEPT WHERE DEPT.DEPTNO = EMP.DEPTNO (+);` |
+| PRIOR | Evaluates the following expression for the parent row of the current row in a hierarchical, or tree-structured query. In such a query, you must use this operator in the `CONNECT BY` clause to define the relationship between the parent and child rows. | `SELECT EMPNO, ENAME, MGR FROM EMP CONNECT BY PRIOR EMPNO = MGR;` `\` |
