@@ -20,18 +20,18 @@ navigator.geolocation.getCurrentPosition(success, error, [options])
 
 ## Parameters
 
->**Success :**
+>**Success:**
 
 A callback function that takes a GeolocationPosition object as its sole input
 parameter.
 
->**Error : (Optional parameter)**
+>**Error: (Optional parameter)**
 
 An optional callback function that takes a GeolocationPositionError object as its sole input parameter.
 
 >**Option: (Optional parameter)**
 
-Option includes extra parameters which is :
+Option includes extra parameters which is:
 
 1. `maximumAge`: integer (milliseconds) | infinity - maximum cached position age.
 1. `timeout`: integer (milliseconds) - amount of time before the error callback is invoked, if 0 it will never invoke.
