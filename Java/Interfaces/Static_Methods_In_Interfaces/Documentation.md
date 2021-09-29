@@ -56,7 +56,7 @@ public class Party implements Music {
 
   *Example:*
   
-  ```
+ ```
  public class Calculator
  {
     static int Add(int a, int b)
@@ -109,8 +109,7 @@ public class prop1 implements property1
         prop1 obj = new prop1(); //object of class prop1
         
         property1.display(); //invoking the static method of the interface
-        obj.display2("Howdy? I'm fine!"); //invoking the non-static or abstract method of the 
-                                          // interface
+        obj.display2("Howdy? I'm fine!"); /*invoking the non-static or abstract method of the interface*/
         
     }
 }
