@@ -30,3 +30,5 @@
   - ### [BTree](#)
   - ### [Trie](#)
   - ### [Suffix Tree](#)
+
+- ## [Pairs](./Pair)
