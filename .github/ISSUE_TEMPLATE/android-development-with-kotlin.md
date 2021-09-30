@@ -44,4 +44,5 @@ https://medium.com/nerd-for-tech/nested-recyclerview-in-android-e5afb2b9771a
 * If you have two previously assigned issues on Android-Kotlin pending then please first complete them.
 > Supervisor @rahulsain
 
+
 ## Happy Contributing. Best of Luck.:sparkling_heart:
