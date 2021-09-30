@@ -3,28 +3,29 @@
 
 ## Working
 Let Given Array be :
-![](D:\Gwoc\C_CPP\Algorithmic Approaches\Sorting\Counting Sort\egarray.PNG)
-**Step 1 : ** Find the element having maximum value in array . That is 8 in given array.
+![](egarray.PNG)
 
-![maxelement](D:\Gwoc\C_CPP\Algorithmic Approaches\Sorting\Counting Sort\maxelement.PNG)
+**Step 1 :**  Find the element having maximum value in array . That is 8 in given array.
+
+![maxelement](maxelement.PNG)
 
 **Step 2 :** Initialize an array of length `max+1` with all elements as 0. This array is used for storing the count of the elements in the array. So , the count array will be :
 
-![count array](D:\Gwoc\C_CPP\Algorithmic Approaches\Sorting\Counting Sort\count array.PNG)
+![count array](count array.PNG)
 
 **Step 3 :** Store the count of each element at their respective index in `count` array
 
 For example: if the count of element 3 is 2 then, 2 is stored in the 3rd position of count array. If element "5" is not present in the array, then 0 is stored in 5th position.
 
-![updated count array](D:\Gwoc\C_CPP\Algorithmic Approaches\Sorting\Counting Sort\updated count array.PNG)
+![updated count array](updated count array.PNG)
 
 **Step 4 :** Store cumulative sum of the elements of the count array. It helps in placing the elements into the correct index of the sorted array.
 
-![summed count array](D:\Gwoc\C_CPP\Algorithmic Approaches\Sorting\Counting Sort\summed count array.PNG)
+![summed count array](summed count array.PNG)
 
 **Step 5 :** Find the index of each element of the original array in the count array. This gives the cumulative count. Place the element at the index calculated as shown in figure below.
 
-![output array](D:\Gwoc\C_CPP\Algorithmic Approaches\Sorting\Counting Sort\output array.PNG)
+![output array](output array.PNG)
 
 **Step 6 :** After placing each element at its correct position, decrease its count by one.
 
