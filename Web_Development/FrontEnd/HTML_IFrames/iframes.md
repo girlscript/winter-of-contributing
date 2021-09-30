@@ -64,17 +64,4 @@ Let's try out an example to understand how it basically works:
 
 [GeeksforGeeks](https://www.geeksforgeeks.org)
 
-[WhatisTechtarget](https://whatis.techtarget.com/)
-
-
-
-
-
-
-
-
-
-
-
-
-
+[WhatisTechtarget](https://whatis.techtarget.com)
