@@ -3,12 +3,14 @@
 
 <br />
 
+
 ## **What is CSS Specificity?**
 ---
 
 When more than one set of CSS rules (or multiple selectors) are applied to the same element, the browser will only select the most relevant rule for the HTML element. The rules that browser follows to apply particular selector out of multiple selectors are collectively called as CSS Specificity.
 
 <br />
+
 
 ## **Specificity Hierarchy :-**
 ---
@@ -25,13 +27,22 @@ Every selector has its place in the specificity hierarchy. There are four catego
 
 <br />
 
+
 ## **Demonstration of priority among different css selectors :-**
 ---
 
 <br />
 
-1. Inline Style > Element Selector*
->Example 
+1. Inline Style > Element Selector
+>Example 1- In this example, style="css declarations" is the inline style and h1{css declarations} is the element selector that is being used to apply css to the heading h1.
+<br />
+>In this example, specificity of inline style is more than element selector, hence inline style(color: black, background-color: palevioletred) is applied.
+<br /><br />
+Advantages of inline style-
+> - Specificity of inline style is the highest.
+> - Inline style will affect the specific HTML element in which you add the style attribute not all the elements of the same kind.
+> - Adding inline style will reduce the use of external css file so that browser need not required to download extra file.
+<br />
 
 ```
 <head>
@@ -56,7 +67,14 @@ Every selector has its place in the specificity hierarchy. There are four catego
 <br/>
 
 2. Class Selector > Element Selector
->Example
+>Example 2- In this example, .heading{css declarations} is the class selector and h1{css declarations} is the element selector that is being used to apply css to the heading h1.
+<br />
+>In this example, specificity of class selector is more than element selector, hence css declarations of class selector (color: black, background-color: #ffbf00) is applied.
+<br /><br />
+Advantages of class selector-
+> - Using class selector, we can select all the HTML element with same class name at once and can apply the CSS without writing it number of times for different elements.
+> - Use of class selector helps to style HTML elements in an organized manner unlike inline style.
+<br />
 
 ```
 <head>
@@ -86,7 +104,14 @@ Every selector has its place in the specificity hierarchy. There are four catego
 <br />
 
 3. ID Selector > Class Selector
->Example
+>Example 3- In this example, #nav{css declarations} is the id selector and .heading{css declarations} is the class selector that is being used to apply css to the heading h1.
+<br />
+>In this example, specificity of id selector is more than class selector, hence css declarations of id selector (color: white, background-color: navy) is applied.
+<br /><br />
+Advantages of id selector-
+> - ID's have higher level of specificity than classes. This helps to create strong reference points for descendant selectors.
+> - Outside of CSS, ID's have other uses. In forms, in JS and in server side languages like PHP and ASP. They're also faster and easier to get identified in DOM.
+<br />
 
 ```
 <head>
@@ -115,8 +140,14 @@ Every selector has its place in the specificity hierarchy. There are four catego
 
 <br />
 
-4. inline styles > ID Selector
->Example
+4. Inline style > ID Selector
+>Example 4- In this example, style="css declarations" is the inline style and #nav{css declarations} is the id selector that is being used to apply css to the heading h1.
+<br />
+>In this example, specificity of inline style is more than id selector, hence css declarations of inline(background-color: orangered, color: white) is applied.
+<br /><br />
+Advantages of id selector-
+> - Refer Example 1. for advantages of inline style.
+<br />
 
 ```
 <head>
@@ -147,6 +178,7 @@ Every selector has its place in the specificity hierarchy. There are four catego
 
 <br /><br />
 
+
 ## **Key Points :-**
 ---
 
@@ -161,6 +193,7 @@ Every selector has its place in the specificity hierarchy. There are four catego
 - Universal selectors like body and element selectors have least specificity.
 
 <br /><br />
+
 
 ## **Note -** !important in CSS
 ---
