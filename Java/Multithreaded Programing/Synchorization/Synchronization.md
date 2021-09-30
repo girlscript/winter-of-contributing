@@ -1,9 +1,10 @@
-<h1 align="center" id="synchronization-in-java"> <strong><u>Synchronization in Java</u></strong></h1>
+
+<h1 id="synchronization-in-java"> <strong><u>Synchronization in Java</u></strong></h1>
 
 <p>
 Synchronization, is a process of handling common shared resource accessibility by multiple thread requests.
 </p>
-<h2 align="center"><strong>Why we need Synchronization?</strong></h2>
+<h2 ><strong>Why we need Synchronization?</strong></h2>
 <p>
 <p>At times when more than one thread try to access a shared 	resource, we need to ensure that resource will be used by only one thread at a time. The process by which this is achieved is called synchronization. So the main purpose of synchronization is to avoid thread interference. </p>
 <p>
@@ -17,7 +18,7 @@ If we do not use synchronization here, and let two or more threads access a shar
 </p>
 </p>
 
-<h2 align="center"><strong>Important terms to learn synchronization</strong></h2>
+<h2><strong>Important terms to learn synchronization</strong></h2>
 <p>
 	<ul>
 		<li>
@@ -27,7 +28,7 @@ If we do not use synchronization here, and let two or more threads access a shar
 		<a href="#critical-section">Critical section</a>
 		</li>
 		<li>
-		<a herf="#mutual-exclusion">Mutual exclusion</a>
+		<a href="#mutual-exclusion">Mutual exclusion</a>
 		</li>
 		<li>
 		<a href="#locking">Locking/Mutex</a>
@@ -404,6 +405,7 @@ Output:
 <p>
 Here, with the help of above example we can clearly see the difference in the output that when we use <em>synchronized</em> keyword, it helps running threads independently. 
 </p>
+<br><br>
 
 &nbsp; &nbsp;
 [`↑ Back to Top`](#synchronization-in-java) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
