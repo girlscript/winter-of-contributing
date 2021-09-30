@@ -17,7 +17,7 @@
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
-- [Some More Data Structures](./Some_More_Data_Structures)
+- [Built-in Data Structures](./Built-in_Data_Structures)
 - [Loops](./Loops)
 - [List\_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
@@ -49,8 +49,7 @@
 7. Use cases of Python
 8. Virtual Environment
 9. Operators
-
-10. Some More Data Structures
+10. Built-in Data Structures
 11. List\_&_Matrix
 12. Objects in Python
 13. Stack and Queue
