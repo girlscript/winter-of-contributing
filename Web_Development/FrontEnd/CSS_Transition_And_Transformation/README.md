@@ -1,6 +1,6 @@
-# Transformation And Transitions:<r>
+# Summary Of Transformation And Transitions:<r>
   
-  ## Summary: 
+  ## ONLY CONTAINS SUMMARY OF BOTH MD FILES: 
 ## CSS Transforms:<br>
 By modifying the coordinate space, CSS transforms change the shape and position of the affected content without disrupting the normal document flow.
 CSS supports 2D and 3D transformations.
