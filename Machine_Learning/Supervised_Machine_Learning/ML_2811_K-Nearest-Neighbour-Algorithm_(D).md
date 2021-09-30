@@ -35,78 +35,63 @@ We are going to use the famous iris data set for our KNN example. The dataset co
 **Importing Libraries:-**
 
 import numpy as np
+
 import matplotlib.pyplot as plt
+
 import pandas as pd
 
 **Importing the Dataset:-**
-
-To import the dataset and load it into our pandas dataframe , execute the following code:
-
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
 
 #Assign colum names to the dataset
+
 names = ['sepal-length', 'sepal-width', 'petal-length', 'petal-width', 'Class']
 
 #Read dataset to pandas dataframe
+
 dataset = pd.read_csv(url, names=names)
 
-To see what the dataset actually looks like, execute the following command:
-
-Executing the above script will display the first five rows of our dataset as shown below:
 ![image](https://user-images.githubusercontent.com/71644914/135440102-1511d573-cd69-4e05-ab8d-fec0d553f4db.png)
 
 **Preprocessing:-**
-
-The next step is to split our dataset into its attributes and labels. To do so, use the following code:
-
 X = dataset.iloc[:, :-1].values
-y = dataset.iloc[:, 4].values
 
-The X variable contains the first four columns of the dataset (i.e. attributes) while y contains the labels.
+y = dataset.iloc[:, 4].values
 
 **Train Test Split:-**
 
-To avoid over-fitting, we will divide our dataset into training and test splits, which gives us a better idea as to how our algorithm performed during the testing phase. This way our algorithm is tested on un-seen data, as it would be in a production application.
-
-To create training and test splits, execute the following script:
-
 from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)
 
-The above script splits the dataset into 80% train data and 20% test data. This means that out of total 150 records, the training set will contain 120 records and the test set contains 30 of those records.
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20)
 
 **Feature Scaling:-**
 
-The gradient descent algorithm (which is used in neural network training and other machine learning algorithms) also converges faster with normalized features.
-
-The following script performs feature scaling:
-
 from sklearn.preprocessing import StandardScaler
+
 scaler = StandardScaler()
+
 scaler.fit(X_train)
 
 X_train = scaler.transform(X_train)
+
 X_test = scaler.transform(X_test)
 
 **Training and Predictions:-**
 
-It is extremely straight forward to train the KNN algorithm and make predictions with it, especially when using Scikit-Learn.
-
 from sklearn.neighbors import KNeighborsClassifier
-classifier = KNeighborsClassifier(n_neighbors=5)
-classifier.fit(X_train, y_train)
-The first step is to import the KNeighborsClassifier class from the sklearn.neighbors library. In the second line, this class is initialized with one parameter, i.e. n_neigbours. This is basically the value for the K. There is no ideal value for K and it is selected after testing and evaluation, however to start out, 5 seems to be the most commonly used value for KNN algorithm.
 
-The final step is to make predictions on our test data. To do so, execute the following script:
+classifier = KNeighborsClassifier(n_neighbors=5)
+
+classifier.fit(X_train, y_train)
 
 y_pred = classifier.predict(X_test)
 
 **Evaluating the Algorithm:-**
 
-For evaluating an algorithm, confusion matrix, precision, recall and f1 score are the most commonly used metrics. The confusion_matrix and classification_report methods of the sklearn.metrics can be used to calculate these metrics. Take a look at the following script:
-
 from sklearn.metrics import classification_report, confusion_matrix
+
 print(confusion_matrix(y_test, y_pred))
+
 print(classification_report(y_test, y_pred))
 
 **The output of the above script looks like this:**
@@ -122,37 +107,31 @@ Iris-versicolor       1.00     1.00       1.00        13
 
     avg / total       1.00     1.00       1.00        30
 
-The results show that our KNN algorithm was able to classify all the 30 records in the test set with 100% accuracy, which is excellent. Although the algorithm performed very well with this dataset, don't expect the same results with all applications. As noted earlier, KNN doesn't always perform as well with high-dimensionality or categorical features.
-
 **Comparing Error Rate with the K Value:-**
-
-In the training and prediction section we said that there is no way to know beforehand which value of K that yields the best results in the first go. We randomly chose 5 as the K value and it just happen to result in 100% accuracy.
-
-One way to help you find the best value of K is to plot the graph of K value and the corresponding error rate for the dataset.
-
-In this section, we will plot the mean error for the predicted values of test set for all the K values between 1 and 40.
-
-To do so, let's first calculate the mean of error for all the predicted values where K ranges from 1 and 40. Execute the following script:
-
 error = []
 
 #Calculating error for K values between 1 and 40
+
 for i in range(1, 40):
-    knn = KNeighborsClassifier(n_neighbors=i)
+   
+   knn = KNeighborsClassifier(n_neighbors=i)
+    
     knn.fit(X_train, y_train)
+    
     pred_i = knn.predict(X_test)
+    
     error.append(np.mean(pred_i != y_test))
 
-The above script executes a loop from 1 to 40. In each iteration the mean error for predicted values of test set is calculated and the result is appended to the error list.
-
-The next step is to plot the error values against K values. Execute the following script to create the plot:
-
-
 plt.figure(figsize=(12, 6))
+
 plt.plot(range(1, 40), error, color='red', linestyle='dashed', marker='o',
+         
          markerfacecolor='blue', markersize=10)
+
 plt.title('Error Rate K Value')
+
 plt.xlabel('K Value')
+
 plt.ylabel('Mean Error')
 
 **The output graph looks like this:**
@@ -161,6 +140,116 @@ plt.ylabel('Mean Error')
 
 
 From the output we can see that the mean error is zero when the value of the K is between 5 and 18. I would advise you to play around with the value of K to see how it impacts the accuracy of the predictions.
+
+# Python implementation of the KNN algorithm
+
+Problem for K-NN Algorithm: There is a Car manufacturer company that has manufactured a new SUV car. The company wants to give the ads to the users who are interested in buying that SUV. So for this problem, we have a dataset that contains multiple user's information through the social network. The dataset contains lots of information but the Estimated Salary and Age we will consider for the independent variable and the Purchased variable is for the dependent variable.
+
+**Below is the dataset:**
+
+![image](https://user-images.githubusercontent.com/71644914/135515029-28bf2043-d32d-4eeb-95cc-a2243eefc857.png)
+
+#importing libraries  
+
+import numpy as nm  
+
+import matplotlib.pyplot as mtp  
+
+import pandas as pd  
+  
+#importing datasets  
+
+data_set= pd.read_csv('user_data.csv')  
+  
+#Extracting Independent and dependent Variable  
+
+x= data_set.iloc[:, [2,3]].values  
+
+y= data_set.iloc[:, 4].values  
+  
+#Splitting the dataset into training and test set.  
+
+from sklearn.model_selection import train_test_split  
+
+x_train, x_test, y_train, y_test= train_test_split(x, y, test_size= 0.25, random_state=0)  
+  
+#feature Scaling  
+
+from sklearn.preprocessing import StandardScaler    
+
+st_x= StandardScaler()    
+
+x_train= st_x.fit_transform(x_train)    
+
+x_test= st_x.transform(x_test)  
+
+![image](https://user-images.githubusercontent.com/71644914/135515225-c2e97cc9-78cc-440d-930b-e9c3ebab684b.png)
+
+#Fitting K-NN classifier to the training set  
+
+from sklearn.neighbors import KNeighborsClassifier  
+
+classifier= KNeighborsClassifier(n_neighbors=5, metric='minkowski', p=2 )  
+
+classifier.fit(x_train, y_train)  
+
+![image](https://user-images.githubusercontent.com/71644914/135515389-15d76f86-7415-4dc6-8655-44651af64bf3.png)
+
+#Predicting the test set result  
+
+y_pred= classifier.predict(x_test)
+
+![image](https://user-images.githubusercontent.com/71644914/135517133-8c9ce452-064e-4e6f-b7c9-0251680800a1.png)
+
+#Creating the Confusion matrix  
+    
+    from sklearn.metrics import confusion_matrix  
+    
+    cm= confusion_matrix(y_test, y_pred)
+    
+    ![image](https://user-images.githubusercontent.com/71644914/135517350-c23d1e45-a9a9-471d-be9f-09579abe19c7.png)
+#Visulaizing the trianing set result  
+from matplotlib.colors import ListedColormap  
+x_set, y_set = x_train, y_train  
+x1, x2 = nm.meshgrid(nm.arange(start = x_set[:, 0].min() - 1, stop = x_set[:, 0].max() + 1, step  =0.01),  
+nm.arange(start = x_set[:, 1].min() - 1, stop = x_set[:, 1].max() + 1, step = 0.01))  
+mtp.contourf(x1, x2, classifier.predict(nm.array([x1.ravel(), x2.ravel()]).T).reshape(x1.shape),  
+alpha = 0.75, cmap = ListedColormap(('red','green' )))  
+mtp.xlim(x1.min(), x1.max())  
+mtp.ylim(x2.min(), x2.max())  
+for i, j in enumerate(nm.unique(y_set)):  
+    mtp.scatter(x_set[y_set == j, 0], x_set[y_set == j, 1],  
+        c = ListedColormap(('red', 'green'))(i), label = j)  
+mtp.title('K-NN Algorithm (Training set)')  
+mtp.xlabel('Age')  
+mtp.ylabel('Estimated Salary')  
+mtp.legend()  
+mtp.show()  
+
+![image](https://user-images.githubusercontent.com/71644914/135517445-04806890-77d9-4715-875e-b8d1ebf76ee4.png)
+
+#Visualizing the test set result  
+from matplotlib.colors import ListedColormap  
+x_set, y_set = x_test, y_test  
+x1, x2 = nm.meshgrid(nm.arange(start = x_set[:, 0].min() - 1, stop = x_set[:, 0].max() + 1, step  =0.01),  
+nm.arange(start = x_set[:, 1].min() - 1, stop = x_set[:, 1].max() + 1, step = 0.01))  
+mtp.contourf(x1, x2, classifier.predict(nm.array([x1.ravel(), x2.ravel()]).T).reshape(x1.shape),  
+alpha = 0.75, cmap = ListedColormap(('red','green' )))  
+mtp.xlim(x1.min(), x1.max())  
+mtp.ylim(x2.min(), x2.max())  
+for i, j in enumerate(nm.unique(y_set)):  
+    mtp.scatter(x_set[y_set == j, 0], x_set[y_set == j, 1],  
+        c = ListedColormap(('red', 'green'))(i), label = j)  
+mtp.title('K-NN algorithm(Test set)')  
+mtp.xlabel('Age')  
+mtp.ylabel('Estimated Salary')  
+mtp.legend()  
+mtp.show()  
+
+![image](https://user-images.githubusercontent.com/71644914/135517546-7ab9344b-7c28-456b-9c64-0fc088a7b18b.png)
+
+
+
 
 **Conclusion:-**
 KNN is a simple yet powerful classification algorithm. It requires no training for making predictions, which is typically one of the most difficult parts of a machine learning algorithm. The KNN algorithm have been widely used to find document similarity and pattern recognition. It has also been employed for developing recommender systems and for dimensionality reduction and pre-processing steps for computer vision, particularly face recognition tasks.
