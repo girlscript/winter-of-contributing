@@ -261,5 +261,3 @@ else
 ```
 ### Hope these problems will help you✨.
 ## Thank You😁
-
-  -Created by *[Anushka Paul](https://github.com/pilipi-puu-puu)*
