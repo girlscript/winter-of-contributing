@@ -34,7 +34,29 @@ Refer the image below to get an even clear understanding of the main and cross a
 ![](./assets/axes.jpg)
 (Image credit [FlutterFix](https://flutterfix.com/difference-between-the-flutter-crossaxisalignment-and-mainaxisalignment/))
 
-### Example:
+# Stack
+The stack widget stacks its children widgets on top of each other and helps in overlapping the widgets. This can be useful in a variety of situations, like overlaying an image on top of another widget.
+
+Some of the basic properties of stack are:
+1. children: It expects a list of widgets, like Row and Column widgets.
+2. alignment: This property can be used to specify the alignment of the stacked widgets
+   
+# Container
+The Container class in flutter is a handy widget. It combines painting, positioning, and sizing of widgets. The Container class can be used to contain multiple widgets and place them on the screen as we see fit.
+
+Some basic properties used with the container widget are:
+1. height: Used to set the height of the container.
+2. widht: Used to set the width of the container.
+3. decoration: As the name suggests, with this property one can decorate the container
+4. child: Expects a widget to be contained within the container.
+
+Let us take a look at an example that combines both container and stack widgets.
+
+
+# Implementation:
+Let us take a look at these widgets in action.
+
+### Example 1: Rows and Columns with container
 ```dart
 import 'package:flutter/material.dart';
 
@@ -134,23 +156,7 @@ The above code results in the following output,
 
 <img src = "./assets/rc.png" width = "300" height = "550"></img>
 
-# Stack
-The stack widget stacks its children widgets on top of each other and helps in overlapping the widgets. This can be useful in a variety of situations, like overlaying an image on top of another widget.
-
-Some of the basic properties of stack are:
-1. children: It expects a list of widgets, like Row and Column widgets.
-2. alignment: This property can be used to specify the alignment of the stacked widgets
-   
-# Container
-The Container class in flutter is a handy widget. It combines painting, positioning, and sizing of widgets. The Container class can be used to contain multiple widgets and place them on the screen as we see fit.
-
-Some basic properties used with the container widget are:
-1. height: Used to set the height of the container.
-2. widht: Used to set the width of the container.
-3. decoration: As the name suggests, with this property one can decorate the container
-4. child: Expects a widget to be contained within the container.
-
-Let us take a look at an example that combines both container and stack widgets.
+### Example 2 : Stack with container:
 
 ```dart
 import 'package:flutter/material.dart';
