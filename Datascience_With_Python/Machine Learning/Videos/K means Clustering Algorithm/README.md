@@ -190,7 +190,7 @@ plt.show()
 ```
 ![Scatter Plot 3](./Images/Scatter_3.png)
 
-This is one of the disadvantage of k means algorithm. There are lot of outliers present because of which uneven clustering took place as you can see in the image above.
+This is one of the disadvantage of k means algorithm. There are outliers present because of which uneven clustering took place as you can see in the image above.
 
 ## Applications of K means clustering
 - Fistly, the courier company example for deciding where to open delivery center. :)
