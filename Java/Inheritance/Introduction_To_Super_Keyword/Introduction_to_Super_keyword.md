@@ -46,9 +46,40 @@ Student belongs to Section A<br>
 Student belongs to GradeX<br>
 
 In the above code sample, the *display()* method contains two statements.
-The first statement only calls the *show()* method of the current class. In order to access the contents of the parent class we make use the ***super*** keyword.
+The first statement only calls the *show()* method of the current class. In order to access the contents of the parent class we make use the ***super*** keyword.<br>
+An important point to remember when trying to invoke constructors is to call super() before any other statement in the derived class contructor. Here's an example.<br>
 
-Note:
-- The *super* keyword can access only the immediate parent class and not the ancestor class
-- When using *super* to access contructors, call to *super()* must be the first statement in Derived Class constructor.<br>
+```java
+class GradeX
+{
+    GradeX()
+    {
+       System.out.println("Student belongs to GradeX");
+    }
+}
+class Section_A extends GradeX
+{
+    Section_A()
+    {
+       super(); // invoke GradeX contructor
+
+       System.out.println("Student belongs to Section A");
+    }
+   
+}
+class Test
+{
+  public static void main(String args[])
+  {
+    Section_A student1 = new Section_A();
+  }
+}
+```
+Output:<br>Student belongs to GradeX<br>Student belongs to Section A.
+
+
+If a constructor does not explicitly call a superclass constructor, the Java compiler automatically makes a call to the no-argument constructor of the superclass. We get a complie-time error if the superclass does not have a no-argument constructor.<br> 
+
+Note:  The *super* keyword can access only the immediate parent class and not the ancestor class<br>
+
 <img src="img/super.png" width="400">
