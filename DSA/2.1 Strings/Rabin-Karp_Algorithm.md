@@ -4,6 +4,8 @@ Rabin-Karp algorithm is a string searching/matching algorithm.
 It helps in finding out wheather a given pattern is present in a given string or not.
 
 **For eg:**
+
+
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a6hx833imldighvg3uab.png)
 *<figcaption>Here the pattern is present at index 4</figcaption>*
 
@@ -43,8 +45,7 @@ A simple hash function that could be used here would be (v*d^x) where, x
 
 4. Calculating the hash value of text-window of size m(c b).
 
-        hash vaue of the window=
-        (3*10^1)+(2*10^0)
+        hash vaue of the window = (3*10^1)+(2*10^0)
 
         =32
 
@@ -112,4 +113,14 @@ similarly, we will go on matching the values until we get the required hash valu
 
 
     }
+    
+    
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/t7etm0rezu8phvdthdob.png)
+
+
+### **Time complexity:**
+*Average and best-case time complexity*=O(n+m)
+
+
+*Worst case time complexity* =O(nm)
 
