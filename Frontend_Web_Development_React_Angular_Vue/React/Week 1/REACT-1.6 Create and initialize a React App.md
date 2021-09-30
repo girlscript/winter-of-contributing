@@ -58,10 +58,10 @@ NPX comes bundled with NPM version 5.2+
 * The **npx** command will run a Node package without downloading it to your machine.
 *  The **create-react-app** script will install all of the dependencies and will build a base project in the **girlscript-Winter-Of-contribution-app** directory.
 
-* The code will download the dependencies and will create a base project. It may take a few minutes to finish. When it is complete, you will receive a **success** message. Your version may be slightly different if you use **yarn** instead of **npm**
-*  As Yarn is a package manager for our code that helps to manage project dependencies like NPM.
-* Yarn also stores dependencies locally which avoids the download of these packages multiple times. 
-* It can be  easily reinstalled without internet because it fetches from the disk when executing the**Yarn add** command.
+* The code will download the dependencies and will create a base project. It may take a few minutes to finish. When it is complete, you will receive a **success** message. Your version may be slightly different if you use **yarn** instead of **npm**. 
+ As Yarn is a package manager for our code that helps to manage project dependencies like **npm** . Yarn also stores dependencies locally which avoids the download of these packages multiple times. It can be  easily reinstalled without internet because it fetches from the disk when executing the **Yarn add**  command.
+ 
+ 
 
 
 
