@@ -1,1 +1,1 @@
-
+- [string and its functions](strings.md)
