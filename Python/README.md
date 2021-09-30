@@ -17,6 +17,7 @@
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
+- [Built-in Data Structures](./Built-in_Data_Structures)
 - [Loops](./Loops)
 - [List\_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
@@ -26,6 +27,7 @@
 - [Functions](./Functions)
 - [What_is_Filter_in_python](./What_is_Filter_in_python)
 - [OOP-Class](./OOP-Class)
+- [Generators](./Generators)
 - [Advanced_function_reduce()](<./Advanced_function_reduce()>)
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
 - [List_Comprehension](./List_Comprehension)
@@ -34,6 +36,7 @@
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
 - [Python File I/O](./Python_File_IO)
+- [Python Strings](./Python_Strings)
 - [Yield Keyword](./Yield_Keyword)
 
 
@@ -48,21 +51,23 @@
 7. Use cases of Python
 8. Virtual Environment
 9. Operators
-10. List\_&_Matrix
-11. Objects in Python
-12. Stack and Queue
-13. Loop Break
-14. Decorators
-15. Functions
-16. What_is_Filter_in_python
-17. OOP-Class
-18. Advanced function-reduce()
-19. Advanced Function - Zip
-20. List Comprehension
-21. Advanced function-map()
-22. What is Automation?
-23. Args and Kwargs
-24. Web_Scraping
-25. Python File I/O
-26. Yield Keyword
-
+10. Built-in Data Structures
+11. List\_&_Matrix
+12. Objects in Python
+13. Stack and Queue
+14. Loop Break
+15. Decorators
+16. Functions
+17. What_is_Filter_in_python
+18. OOP-Class
+19. Generators
+20. Advanced function-reduce()
+21. Advanced Function - Zip
+22. List Comprehension
+23. Advanced function-map()
+24. What is Automation?
+25. Args and Kwargs
+26. Web_Scraping
+27. Python File I/O
+28. Python Strings
+29. Yield Keyword
