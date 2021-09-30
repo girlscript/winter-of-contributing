@@ -75,5 +75,5 @@ An external link is used to make interconnection between two html webpages. When
 **Example**
 
 ```html
-<a href= “name or address of webpage”> text</a>
+<a href=“name or address of webpage”> text</a>
 ``` 
