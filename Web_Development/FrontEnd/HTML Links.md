@@ -12,7 +12,6 @@
 <a href="mailto:gwoc@example.com">Send email</a>
 ```
 
-
 ## Syntax
 
 `<a>` tag explains a hyperlink. It has the following syntax:
@@ -44,7 +43,6 @@ We can also create a bookmarks using HTML links.
 <a href="#html4">Jump to HTML Links</a> 
 ```
 
-
 ## Target Attribute
 
 The target attribute enumerate where to open the linked document. It has some values which specify where the documents will open which are as follows :
@@ -60,7 +58,6 @@ The target attribute enumerate where to open the linked document. It has some va
 <a href="https://gwoc.girlscript.tech/" target="_blank">Visit GIRLSCRIPT</a>
 ```
 
-
 ## Internal Links
 
 An internal link is used in html page to navigate in a proper way in the webpage.If we want to go to any particular destination in the same page by clicking on a link then we create an internal link in the webpage . For this we use `<a>` tag to create a new link. 
@@ -70,7 +67,6 @@ An internal link is used in html page to navigate in a proper way in the webpage
 ```html
 <a href= “#link”> FirstLink</a>
 ```
-
 
 ## External Links
 
