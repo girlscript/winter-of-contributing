@@ -56,7 +56,7 @@ Let us take a look at an example that combines both container and stack widgets.
 # Implementation:
 Let us take a look at these widgets in action.
 
-### Example 1: Rows and Columns with container
+### Example 1: Row and Column widgets with the Container widget
 ```dart
 import 'package:flutter/material.dart';
 
@@ -156,7 +156,7 @@ The above code results in the following output,
 
 <img src = "./assets/rc.png" width = "300" height = "550"></img>
 
-### Example 2 : Stack with container:
+### Example 2 : Stack widget with the Container widget:
 
 ```dart
 import 'package:flutter/material.dart';
