@@ -46,9 +46,15 @@ We can use Queue in our code by including queue library.
 ### Code :
 ```c
 //Demonstration of queue in stl
+
 #include<iostream>
+
+//including queue library
 #include<queue>
+
 using namespace std;
+
+//function to print elements of Queue
 void displayQueue(queue<int> q){
     cout<<"Elements in Queue : ";
     while(!q.empty()){
@@ -57,21 +63,31 @@ void displayQueue(queue<int> q){
     }
     cout<<endl;
 }
+
 int main(){
+    //Declaring queue of name Queue
     queue<int> Queue;
+    
+    //Pushing in Queue
     Queue.push(1);
     Queue.push(7);
     Queue.push(3);
     Queue.push(5);
     Queue.push(9);
     
+    //Printing size of Queue
     cout<<"Size of Queue is : "<<Queue.size()<<endl;
 
+    //Printing Elements of Queue
     displayQueue(Queue);
-
+    
+    //Printing front element of Queue
     cout<<"element at front : "<<Queue.front()<<endl;
+    
+    //Printing back element of Queue
     cout<<"element at back  : "<<Queue.back()<<endl;
 
+    //Popping elements and printing Queue 
     Queue.pop();
     cout<<"Element is popped"<<endl;
     displayQueue(Queue);
@@ -88,6 +104,7 @@ int main(){
     cout<<"Element is popped"<<endl;
     displayQueue(Queue);
 
+    //Printing Queue is empty if it is empty else printing queue is not empty
     if(Queue.empty()==true){
         cout<<"Queue is empty";
     }
