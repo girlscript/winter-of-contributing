@@ -4,6 +4,8 @@
 - In the unsupervised learning method, the inferences are drawn from the data sets which do not contain labelled output variable. 
 - It is an exploratory data analysis technique that allows us to analyze the multivariate data sets.
 
+## AUDIO LINK: [Hierarchical Clustering](https://drive.google.com/file/d/1H7Eywe98jG2F2D3H5GyholHQ5pjtwek3/view?usp=sharing)
+
 ## Types of Clustering
 
 ![image](https://user-images.githubusercontent.com/63282184/134457458-2a8f77b6-3b56-476e-9d0b-a61d7cf90bc7.png)
