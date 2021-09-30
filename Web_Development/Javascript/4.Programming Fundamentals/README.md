@@ -1,3 +1,4 @@
 # Programming Fundamentals
-1. Script Tag
-2. Code Structure
+[Script Tag](./Script Tag)
+[Code Structure](./Code Structure)
+[Control Statements]
