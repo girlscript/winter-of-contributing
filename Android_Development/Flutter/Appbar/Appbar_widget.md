@@ -11,34 +11,35 @@ Appbar is the most important component of any application. We can build our appl
 </div>
 
 ## AppBar constructor
-```
-AppBar(
-{Key? key,
-Widget? leading,
-bool automaticallyImplyLeading,
-Widget? title,
-List<Widget>? actions,
-Widget? flexibleSpace,
-PreferredSizeWidget? bottom,
-double? elevation,
-Color? shadowColor,
-ShapeBorder? shape,
-Color? backgroundColor,
-Color? foregroundColor,
-IconThemeData? iconTheme,
-IconThemeData? actionsIconTheme,
-bool primary,
-bool? centerTitle,
-bool excludeHeaderSemantics,
-double? titleSpacing,
-double toolbarOpacity,
-double bottomOpacity,
-double? toolbarHeight,
-double? leadingWidth,
-TextStyle? toolbarTextStyle,
-TextStyle? titleTextStyle,
-SystemUiOverlayStyle? systemOverlayStyle}
-)
+
+```dart
+AppBar({
+    Key? key,
+    Widget? leading,
+    bool automaticallyImplyLeading,
+    Widget? title,
+    List<Widget>? actions,
+    Widget? flexibleSpace,
+    PreferredSizeWidget? bottom,
+    double? elevation,
+    Color? shadowColor,
+    ShapeBorder? shape,
+    Color? backgroundColor,
+    Color? foregroundColor,
+    IconThemeData? iconTheme,
+    IconThemeData? actionsIconTheme,
+    bool primary,
+    bool? centerTitle,
+    bool excludeHeaderSemantics,
+    double? titleSpacing,
+    double toolbarOpacity,
+    double bottomOpacity,
+    double? toolbarHeight,
+    double? leadingWidth,
+    TextStyle? toolbarTextStyle,
+    TextStyle? titleTextStyle,
+    SystemUiOverlayStyle? systemOverlayStyle
+})
 ```
 Appbar have some important properties:
   <ul>
@@ -48,7 +49,7 @@ Appbar have some important properties:
   </ul>
 
 ## Implementation of title property
-```
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -71,11 +72,9 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(    // title prperty
         "Learning"      // this text will be shown on topbar of app
-        ),           
-        
+        ),            
       ),
-      );
-
+    );
   }
 }
 
@@ -90,10 +89,9 @@ class MyHomePage extends StatelessWidget {
 
 
   
-  
-  ## Implementation of another properties
-  ```
-  import 'package:flutter/material.dart';
+## Implementation of another properties
+```dart
+import 'package:flutter/material.dart';
 
 void main() {
   runApp(MyApp());
@@ -104,8 +102,6 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
-
       home: MyHomePage(),
     );
   }
@@ -131,8 +127,7 @@ class MyHomePage extends StatelessWidget {
           onPressed: () {},                  
         ),
       ),
-      );
-
+    );
   }
 }
 ```
