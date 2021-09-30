@@ -1,0 +1,154 @@
+Lists are a great way to organize your information, and this is also true with websites, since the reader needs to see the data displayed in a systematic, organized manner.
+So in HTML we have different tags which help in organising the data 
+
+
+•	Unordered List: An unordered list starts with the “ul” tag. Each list item starts with the “li” tag. The list items are marked with bullets i.e small black circles by default.
+
+Example –
+
+ 
+Code 
+<!DOCTYPE html>
+<html>
+  
+<body>
+    <h1>Games </h1>
+    <ul>
+        <li>Cricket</li>
+        <li>Hockey</li>
+        <li>BasketBall</li>
+        <li>Table Tennis</li>
+    </ul>
+</body>
+  
+</html>
+
+
+In CSS, list-style-type defines the markup for the list item. The value can either be: disc, square ,circle , none 
+
+Code-
+
+<!DOCTYPE html>
+<html>
+  
+<body>
+    <ul style="list-style-type:disc;">
+        <li>Cricket</li>
+        <li>Hockey</li>
+        <li>BasketBall</li>
+        <li>Table Tennis</li>
+      </ul>
+      <ul style="list-style-type:circle;">
+        <li>Cricket</li>
+        <li>Hockey</li>
+        <li>BasketBall</li>
+        <li>Table Tennis</li>
+      </ul>
+      <ul style="list-style-type:square;">
+        <li>Cricket</li>
+        <li>Hockey</li>
+        <li>BasketBall</li>
+        <li>Table Tennis</li>
+      </ul>
+      <ul style="list-style-type:none;">
+        <li>Cricket</li>
+        <li>Hockey</li>
+        <li>BasketBall</li>
+        <li>Table Tennis</li>
+      </ul>
+</body>
+  
+</html>
+
+ 
+
+ Nested lists are also known as lists within lists. Nested lists appear as an element of another list.
+
+Code-
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>Nested  List</h1>
+    <ul>
+        <li>Fruits</li>
+        <ul>
+            <li>Apple</li>
+            <li>Banana </li>
+            <li>orange</li>
+        </ul>
+        <li>Cloud Services</li>
+        <ul>
+            <li>Google Cloud</li>
+            <li>Azure</li>
+            <li>AWS</li>
+        </ul>
+</body>
+
+</html>
+
+
+ 
+
+Ordered List
+
+ An ordered list starts with the "ol" tag. Each list item is preceded by a "li" tag. The list items are marked with numbers by default. 
+ 
+Code  
+
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Ordered List</h1>
+    <ol type="1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ol>
+      <ol type="A">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ol>
+      <ol type="a">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ol>
+      <ol type="I">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ol>
+      <ol type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+      </ol>      
+</body>
+
+</html>
+
+
+
+Description lists 
+  Description lists contain a list of terms, each with a description. The <dl> tag defines the description list, the tag defines the term name, and the tag describes the term  
+
+Code –
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Description Lists</h1>
+    <dl>
+        <dt>Aristotle </dt>
+        <dd>a Greek philosopher and polymath during the Classical period in Ancient Greece</dd>
+        <dt>Charles Darwin</dt>
+        <dd>English naturalist, geologist and biologist, best known for his contributions to
+             the science of evolution.</dd>
+      </dl>
+</body>
+
+</html>
+
+
+ 
