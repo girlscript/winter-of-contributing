@@ -1,0 +1,89 @@
+
+Sliding Window Maximum (Maximum Element of all Subarrays of Size 'k')
+
+
+Problem:
+
+Given an array of integers 'a', there is a sliding window of size 'k' which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position. Return the max sliding window.
+
+
+Example:
+
+Input: array = {1, 2, 3, 1, 4, 5, 2, 3, 6}, K = 3
+
+Output: 3 3 4 5 5 5 6
+
+Explanation:
+
+Maximum of 1, 2, 3 is 3
+
+Maximum of 2, 3, 1 is 3
+
+Maximum of 3, 1, 4 is 4
+
+Maximum of 1, 4, 5 is 5
+
+Maximum of 4, 5, 2 is 5
+
+Maximum of 5, 2, 3 is 5
+
+Maximum of 2, 3, 6 is 6
+
+
+Approach:
+
+1. In the function, a nested loop will run. The outer loop will mark the starting point of the subarray of length k and the inner loop will run from the starting index to index+k.
+
+2. Maximum element among these k elements will be found in the inner loop and printed.
+
+3. The outer loop will then run for the next k elements.
+
+
+Code:
+
+# include <bits/stdc++.h>
+using namespace std;
+
+
+void printKMax(int a[], int n, int k){
+    int j, i, max;
+
+    for(i=0; i<=n-k; i++){              //outer loop to mark starting of subarray of size k
+
+        max=a[i];
+        for(j=1; j<k; j++){            //inner loop for traversing subarray
+            if (a[i+j] > max)
+                max=a[i+j];        //max stores maximum element of subarray of size k
+        }
+        cout<<max<<' ';
+    }
+}
+
+
+int main(){
+    int n, i, k;
+
+    cout<<"\nEnter size of array : ";
+    cin>>n;
+
+    int a[n];
+    cout<<"\nEnter "<<n<<" elements : \n";
+    for(i=0; i<n; i++)
+      cin>>a[i];
+
+    cout<<"\nEnter the value of k : ";
+    cin>>k;
+
+    printKMax(a, n, k);
+
+    return 0;
+}
+
+
+Complexity
+
+Time Complexity: O(N * K).
+The outer loop runs n-k+1 times and the inner loop runs k times for every iteration of outer loop. So time complexity is O((n-k+1)*k) that is, O(N * K).
+
+Space Complexity: O(1)
+No extra space is required.
