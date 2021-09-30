@@ -68,6 +68,12 @@ For the Parzen window density estimate, normal kernels with standard deviation 2
 
 ## **<ins>Conclusion</ins>**
 Though the ability to effectively cast aside the issue of parameter estimation can be a compelling reason to employ the Parzen window method for density estimation, it is difficult to tout the method too highly in light of its heavy computation time and the difficulty associated with choosing an appropriate h-parameter.
+<br><br>
+
+## **References**
+- https://www.geeksforgeeks.org/parzen-windows-density-estimation-technique/
+- https://stats.stackexchange.com/questions/244012/can-you-explain-parzen-window-kernel-density-estimation-in-laymans-terms
+- https://datascience.stackexchange.com/questions/26182/parzen-and-k-nearest-neighbor#:~:text=(knn%20count%20the%20k%20nearest,Parzen%20the%20volume%20is%20fixed).
 
 
 
