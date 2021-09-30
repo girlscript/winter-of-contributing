@@ -1,6 +1,6 @@
 ## Appbar widget
 #### What is Appbar Widget ?
-Appbar is the most important component of any application. We can build our application's topbar beautiful with the help of appbar. Appbar consist of another widgets like TabBar, FlexibleSpaceBar etc. We use appbar in sacffold.appbar property because appbar need some padding if we wrap with mediaQuery so it is better to use inside scaffold
+Appbar is the most important component of any application. We can build our application's topbar beautiful with the help of appbar. Appbar consist of another widgets like TabBar, FlexibleSpaceBar etc. We use appbar inside scaffold widget because appbar need some padding if we wrap it under mediaQuery so it is better to use it inside scaffold. Scaffold widget handle the problem of padding smoothly.
 <br>
 <br>
 ## This is how a simple appbar look like:-
