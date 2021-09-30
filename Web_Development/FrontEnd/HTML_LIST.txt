@@ -1,38 +1,45 @@
+##HTML LIST AND TYPES OF LIST
 
+**Question:** What is List in HTML?
+**Answer:** A number of items or information noted in order form or in bullet points is called "List". 
 
-Question: What is List in HTML ?
+**Question:** Types of List?
+**Answer:** There are two types of list; ordered List and unordered List.
 
-Answer: A number of items or information noted in order form or in bullet points is called "List". 
+###Ordered List
 
+In ordered list orders matter. An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag and end with `</li>`. After all items added in list then we end ordered list with `</ol>`.
 
-Question: Types of List ?
-Answer: There are two types of list:
-1) Ordered List
-2) Unordered List
-
-
-Ordered List:
-In ordered list orders matter. An ordered list starts with the <ol> tag. Each list item starts with the <li> tag and end with </li>. After all items added in list then we end ordered list with </ol>.
-
-Syntax:
-
+**Syntax:**
+<!DOCTYPE html>
+<html>
+<head>
+<title>Html Ordered List</title>
+</head>
+<body>
 <ol>
 <li>Apple</li>
 <li>Mango</li>
 <li>Strawberry</li>
 </ol>
+</body>
+</html>
 
+###Unordered List
 
-Unordered List:
-In unordered list order doesn't matter. An unordered list starts with the <ul> tag. Each list item starts with the <li> tag and end with </li>. After all items added in list then we end ordered list with </ul>.
+In unordered list order doesn't matter. An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag and end with `</li>`. After all items added in list then we end ordered list with `</ul>`.
 
-Syntax:
-
+**Syntax:**
+<!DOCTYPE html>
+<html>
+<head>
+<title>Html Unordered List</title>
+</head>
+<body>
 <ul>
 <li>2 pencils</li>
 <li>1 register</li>
 <li>5 pens</li>
 </ul>
-
-
-Reference Link: https://www.w3schools.com/html/html_lists.asp
+</body>
+</html>
