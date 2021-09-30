@@ -72,39 +72,56 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Basic Widgets"),),
-      //Here we have an outer column, that has two widgets inside it, a row and a column.
+      //Here we have an outer column, that has four widgets inside it. A row and a column
+      //and two sized boxes for spacing the other two widgets
       body: Column(
         children: [
-        //This is the first widget inside the column. This row has three widgets inside it - text, elevated button and icon button widgets
+          //SizedBox is added to have a space between the row widget and the app bar.
+          SizedBox(height: 30,),
           Row(
             //We have used MainAxisAlignment.center, to center the children widgets along the main axis.
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-                Text("This is a row",
-                  style: TextStyle(color: Colors.blue,fontSize: 20.0),
-                ),
-                //SizedBox widget is used to add a little spacing between widgets
-                SizedBox(width: 15.0,),
-                ElevatedButton(
-                    onPressed: (){},
-                    child: Text("Row Button"),
-                ),
-                SizedBox(width: 15.0,),
-                IconButton(onPressed: (){}, icon: Icon(Icons.code),)
+              //The children of this row widget are three container widgets with height and width set with respect to the screen and different colors.
+              Container(
+                //Mediaquery is used to set the dimensions with respect to the screen dimensions. 
+                // Here the containers have a height and width that is equal to 1/4th the 
+                //screen's height and width
+                height: MediaQuery.of(context).size.height/4,
+                width: MediaQuery.of(context).size.width/4,
+                decoration: BoxDecoration(color: Colors.red),
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height/4,
+                width: MediaQuery.of(context).size.width/4,
+                decoration: BoxDecoration(color: Colors.green),
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height/4,
+                width: MediaQuery.of(context).size.width/4,
+                decoration: BoxDecoration(color: Colors.blue),
+              )
             ],
           ),
-          SizedBox(height: 75.0,),
-          //This is the second widget inside the outermost column. It also has three children widgets.
+          SizedBox(height: 30,),
+          //This is the column widget It also has three container widgets as children.
           Column(
             children: [
-              Text("This is a column",style: TextStyle(color: Colors.red,fontSize: 20.0),),
-              SizedBox(height: 35.0,),
-              ElevatedButton(
-                onPressed: (){},
-                child: Text("Column Button"),
+              Container(
+                height: MediaQuery.of(context).size.height/6,
+                width: MediaQuery.of(context).size.width/1.35,
+                decoration: BoxDecoration(color: Colors.pink),
               ),
-              SizedBox(height: 35.0,),
-              IconButton(onPressed: (){}, icon: Icon(Icons.code),)
+              Container(
+                height: MediaQuery.of(context).size.height/6,
+                width: MediaQuery.of(context).size.width/1.35,
+                decoration: BoxDecoration(color: Colors.deepPurpleAccent),
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height/6,
+                width: MediaQuery.of(context).size.width/1.35,
+                decoration: BoxDecoration(color: Colors.blueAccent),
+              )
             ],
           )
         ],
@@ -112,7 +129,6 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-
 ```
 The above code results in the following output,
 
