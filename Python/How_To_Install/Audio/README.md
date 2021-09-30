@@ -18,7 +18,6 @@ The Link below will explain the installation of the python on your system<br>
 ## Link-
 (https://drive.google.com/file/d/1KUUukv89zwwBYk3YfSBan4xBhU4xUwCt/view?usp=sharing)
 <br>
-
 ## Summary of Audio Link-
 <br>
 The Audio contains the steps make sure to follow the steps for successfull installation.<br>
@@ -29,7 +28,6 @@ Step4-After completion of download click on .exe file and window will open.<br>
 Step5-Click on Run Button.<br>
 Step6- Complete the steps as mentioned in audio link.<br>
 Step7-You have suceesfully installed Python on your system.<br>
-
 ## To verify installation- <br>
 Step1-You can navigate through the directory where you have installed python.(Eg.C:\Users\Pattis\AppData\Local\Programs\Python\Python)<br>
 Step2-You can double click on the file/python.exe file and it will open a command window.
