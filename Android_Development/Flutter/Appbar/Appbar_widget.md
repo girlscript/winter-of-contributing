@@ -7,7 +7,7 @@ Appbar is the most important component of any application. We can build our appl
 
 <div align="center">
     <img width="35%" alt="Ukkonen" src="https://media.geeksforgeeks.org/wp-content/uploads/20210124210755/AppBar-300x185.png">
-     <p> image credit geeksforgeeks  <p>
+     <p> image credit <a href="https://media.geeksforgeeks.org/wp-content/uploads/20210124210755/AppBar-300x185.png">geeksforgeeks   </a><p>
 </div>
 
 ## AppBar constructor
