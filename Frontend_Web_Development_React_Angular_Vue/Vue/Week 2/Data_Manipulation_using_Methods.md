@@ -6,21 +6,21 @@ Suppose you made a **GET** request to the specific endpoint and you received the
 
 ```json
 [
-    {
-        "mood": "happy",
-        "fish": "robin",
-        "colors": ["blue", "green"]
-    },
-    {
-        "mood": "tired",
-        "fish": "panther",
-        "colors": ["green", "black", "orange", "blue"]
-    },
-    {
-        "mood": "sad",
-        "fish": "goldfish",
-        "colors": ["green", "red"]
-    }
+  {
+    "mood": "happy",
+    "fish": "robin",
+    "colors": ["blue", "green"]
+  },
+  {
+    "mood": "tired",
+    "fish": "panther",
+    "colors": ["green", "black", "orange", "blue"]
+  },
+  {
+    "mood": "sad",
+    "fish": "goldfish",
+    "colors": ["green", "red"]
+  }
 ]
 ```
 
@@ -28,25 +28,25 @@ and from this, you want all the colors from the color array so for this you woul
 
 ```js
 let response = [
-    {
-        mood: "happy",
-        fish: "robin",
-        colors: ["blue", "green"]
-    },
-    {
-        mood: "tired",
-        fish: "panther",
-        colors: ["green", "black", "orange", "blue"]
-    },
-    {
-        mood: "sad",
-        fish: "goldfish",
-        colors: ["green", "red"]
-    }
-]
+  {
+    mood: "happy",
+    fish: "robin",
+    colors: ["blue", "green"],
+  },
+  {
+    mood: "tired",
+    fish: "panther",
+    colors: ["green", "black", "orange", "blue"],
+  },
+  {
+    mood: "sad",
+    fish: "goldfish",
+    colors: ["green", "red"],
+  },
+];
 let myColors = [];
-for(let i=0; i<response.length; i++) {
-    myColors.push(response[i].colors)
+for (let i = 0; i < response.length; i++) {
+  myColors.push(response[i].colors);
 }
 ```
 
@@ -63,6 +63,7 @@ With the help of **this** keyword, we can access the data properties in the comp
 Just like any other property of Vue component methods are accessible within the component's template. The most common way of using methods in a template is as follows:
 
 ```html
+<!-- changebkg is the name of the method that is used to handle data manipulation - in this case changing background with click-->
 <button @click="changebkg">Click To change background</button>
 ```
 
@@ -74,26 +75,25 @@ Just like any other property of Vue component methods are accessible within the 
 <template>
   <div id="app">
     <span>{{message}}</span>
-    <hr>
+    <hr />
     <button @click="changeMessage()">Click Me</button>
   </div>
 </template>
 
-
 <script>
-export default {
-  name: "App",
-  data: () => ({
-        message: "Implementation of Data Manipulation"
-  }),
-  methods: {
-    changeMessage () {
-      this.message = "Succesfully message changed"
-    }
-  }
-};
+  export default {
+    name: "App",
+    data: () => ({
+      message: "Implementation of Data Manipulation",
+    }),
+    methods: {
+      changeMessage() {
+        this.message = "Succesfully message changed";
+      },
+    },
+  };
 </script>
-````
+```
 
 In the above code snippet you can see that in the method properties there is a function named **changeMessage()** using this we can manipulate the **message** data property and set it to the text as we want that should be displayed on the screen on clicking the button.
 
@@ -111,10 +111,20 @@ Below is the output of the above performed operation:
   <div class="hello">
     <h3>Data Manipulation Using Methods</h3>
     <div>
-      <input type="number" name="num1" placeholder="Enter the 1st number" v-model="num1">
+      <input
+        type="number"
+        name="num1"
+        placeholder="Enter the 1st number"
+        v-model="num1"
+      />
     </div>
     <div>
-      <input type="number" name="num2" placeholder="Enter the 2nd number" v-model="num2">
+      <input
+        type="number"
+        name="num2"
+        placeholder="Enter the 2nd number"
+        v-model="num2"
+      />
     </div>
     <button @click="add">Click To add the entered numbers</button>
     <p v-if="displayResult">Result: {{sum}}</p>
@@ -122,27 +132,28 @@ Below is the output of the above performed operation:
 </template>
 
 <script>
-export default {
-  name: "HelloWorld",
-  data: () => ({
-    num1: 0,
-    num2: 0,
-    displayResult: false,
-    sum: 0
-  }),
-  methods: {
-    add() {
-      this.displayResult = true
-      this.sum = parseInt(this.num1) + parseInt(this.num2)
-    }
-  }
-};
+  export default {
+    name: "HelloWorld",
+    data: () => ({
+      num1: 0,
+      num2: 0,
+      displayResult: false,
+      sum: 0,
+    }),
+    methods: {
+      add() {
+        this.displayResult = true;
+        this.sum = parseInt(this.num1) + parseInt(this.num2);
+      },
+    },
+  };
 </script>
 ```
 
 In the above code snippets, we are adding 2 numbers _num1_ and _num2_. This is done by firing a click event which triggers the **add()** in the **methods** object and the result is displayed in a paragraph tag by accessing the data variable sum which stores the result of the performed operation.
 
 Below is the output of the above performed operation:
+
 <div style="display: flex; justify-content: center; align-items: center">
   <img src="./assets/data_manipulation_add.gif" style="width: 500px;">
 </div>
