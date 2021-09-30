@@ -107,6 +107,94 @@ To add multiple background photos, make multiple **< div>** with class "**parall
 ## Demo Website
 [DEMO](https://relaxed-hopper-853a47.netlify.app/)
 
+        
+## Complete **code** for the above Demo Website :
+
+```HTML
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .parallax {
+        /* The image used */
+        background-image: url("./1.jpg");
+
+        /* Set a specific height */
+        min-height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .parallax2 {
+        /* The image used */
+        background-image: url("./2.jpg");
+
+        /* Set a specific height */
+        min-height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .parallax3 {
+        /* The image used */
+        background-image: url("./3.jpg");
+
+        /* Set a specific height */
+        min-height: 100vh;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: repeat-y;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <p style="text-align: center">
+      Scroll Up and Down to see the parallax scrolling effect.
+    </p>
+
+    <div class="parallax"></div>
+    <div class="parallax2"></div>
+    <div class="parallax3"></div>
+
+    <div
+      style="
+        height: 100vh;
+        background-color: rgb(37, 240, 138);
+        font-size: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quis
+      beatae reprehenderit esse, necessitatibus odio praesentium ut minima
+      ratione soluta vitae voluptatem aperiam dolor eligendi!
+    </div>
+  </body>
+</html>
+
+```        
+        
+## Credits
+<ul>
+<li>https://www.pexels.com/</li>
+<li>https://www.w3schools.com/howto/howto_css_parallax.asp</li>
+<li>https://www.geeksforgeeks.org/parallax-scrolling-effect-using-css/</li>
+</ul>
 <br>
 <br>
 
