@@ -10,4 +10,4 @@
 
 Vertex cover problem , travelling salesman problem and set covering problem all these are NP HARD problem so these is no polynomial time solution to them . However there are few approximate algorithm to them which tend to give us the required solution under few assumptions that needs to be considered.
 
-# **The audio clip contains approximate algorithms for these three problems. **
+# The audio clip contains approximate algorithms for these three problems.
