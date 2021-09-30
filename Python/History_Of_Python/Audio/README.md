@@ -6,8 +6,7 @@
 This audio file, 
 [link available here](https://drive.google.com/file/d/1vHg9SSyFLjKPnjfSuvA6Tg8710cblrf8/view?usp=sharing) explains the brief history of python in the following chronology:
 
-1. Intro
-2. Founder name and company
+1. Intro : Python is a High level programming language. It was founded by Guido van Rossum and developed by Python Software Foundation with an aim of combating the bulky coding of shellscript and c langauge which were used in various coding applications
 3. Timeline:
   - 1989 Python was intoduced by Guido van Rossum as a succession to ABC Programming Language, which had the interfacing with the Amoeba Operating System
   - 1991 Release of Python version 0.9
