@@ -55,7 +55,7 @@ We then specify a decision boundary according to which the values are classified
 
 ## Workflow of the algorithm
 
-![Code flowchart](https://user-images.githubusercontent.com/54388275/135406935-3f0af5f2-939c-4b0f-97c8-73c8965fd804.jpeg)
+![Flowchart - Page 9](https://user-images.githubusercontent.com/54388275/135407669-82070fa8-50ca-4f8b-beeb-85c97498d4e2.jpeg)
 
 ## Conclusion
 
