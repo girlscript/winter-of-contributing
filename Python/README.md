@@ -27,6 +27,7 @@
 - [Functions](./Functions)
 - [What_is_Filter_in_python](./What_is_Filter_in_python)
 - [OOP-Class](./OOP-Class)
+- [Generators](./Generators)
 - [Advanced_function_reduce()](<./Advanced_function_reduce()>)
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
 - [List_Comprehension](./List_Comprehension)
@@ -48,6 +49,7 @@
 7. Use cases of Python
 8. Virtual Environment
 9. Operators
+
 10. Some More Data Structures
 11. List\_&_Matrix
 12. Objects in Python
@@ -57,13 +59,14 @@
 16. Functions
 17. What_is_Filter_in_python
 18. OOP-Class
-19. Advanced function-reduce()
-20. Advanced Function - Zip
-21. List Comprehension
-22. Advanced function-map()
-23. What is Automation?
-24. Args and Kwargs
-25. Web_Scraping
-26. Python File I/O
+19. Generators
+20. Advanced function-reduce()
+21. Advanced Function - Zip
+22. List Comprehension
+23. Advanced function-map()
+24. What is Automation?
+25. Args and Kwargs
+26. Web_Scraping
+27. Python File I/O
 
 
