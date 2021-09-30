@@ -1,0 +1,1 @@
+[![Different Types of Probability Distribution](https://github.com/kishlayaug15/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/Assets/Image.PNG?raw=true)](https://drive.google.com/file/d/1dNRIbTYLAjlgyCPSXdfHy8_IntShaKTz/view?usp=sharing) 
