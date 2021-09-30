@@ -82,7 +82,7 @@ class MyHomePage extends StatelessWidget {
 ```
 ## Output
 <img style = "display:block;margin-left:auto;margin-right:auto;"
- src="./Appbar/assets/First.png" width="300" height="600" />
+ src="./assets/First.png" width="300" height="600" />
  
  ## Explanation
  Here title property is used to display the given word on Appbar. Title uses text widget to display the text.
@@ -138,7 +138,7 @@ class MyHomePage extends StatelessWidget {
 ```
 ## Output
 <img style = "display:block;margin-left:auto;margin-right:auto;"
- src="./Appbar/assets/Second.png" width="300" height="600" />
+ src="./assets/Second.png" width="300" height="600" />
  
  ## Explanation
  Here first property we use is title which display the title of the appbar for example we have written 'Learning' here so in output app is displaying learning on topbar.
