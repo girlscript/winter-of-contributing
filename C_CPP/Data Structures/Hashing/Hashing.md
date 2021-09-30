@@ -83,9 +83,9 @@ Here is the syntax for an unordered map,
       unordered_map <int, int> m;
 Let us now look at an example of unordered map:
 
+```cpp
 /*implementation of map with the help of a program
 Write a program to print the frequency of each digit in an array.*/
-```cpp
 # include<bits/stdc++.h>
 using namespace std;
 
@@ -105,6 +105,6 @@ int main()
 ```
 We now, can clearly understand the implementation of unordered maps and sets.
 
-<h3>Here is an explaination of the code,</h3>
+<h3>Here is an explanation of the code,</h3>
 <hr>
-https://drive.google.com/file/d/1AT8uLDtcFEc1wnQ4lkFKuAdx3cDUT4lI/view?usp=sharing
+[Video on Hashing by elixir14082002](https://drive.google.com/file/d/1AT8uLDtcFEc1wnQ4lkFKuAdx3cDUT4lI/view?usp=sharing)

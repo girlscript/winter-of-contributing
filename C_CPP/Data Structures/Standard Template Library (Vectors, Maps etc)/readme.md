@@ -1,2 +1,0 @@
-
-- [Deque](Deque)
