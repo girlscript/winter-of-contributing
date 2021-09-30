@@ -42,7 +42,7 @@
 
 ## Learning path
 
-
+1. Git & Github
 2. How To Install Python
 3. Installing development and debugging software for python
 4. Brief history of python
