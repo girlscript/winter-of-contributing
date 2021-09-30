@@ -1,0 +1,1 @@
+- Ugly Numbers [https://github.com/swatigupta121/winter-of-contributing/blob/C_CPP/C_CPP/Algorithmic%20Approaches/Dynamic/Ugly_Number.cpp]
