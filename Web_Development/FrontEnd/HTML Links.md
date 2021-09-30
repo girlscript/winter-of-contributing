@@ -8,13 +8,13 @@
 
 ## Syntax
 
-`<a>` tag explains a hyperlink. It has the following syntax :
+`<a>` tag explains a hyperlink. It has the following syntax:
 
 ```html
-<a href=" ">text</a>
+<a href="path">text</a>
 ```
-- `href` attribute is the most important attribute of `<a>`element which designate the link's destination (mostly it is URL).
-- The _text_part is visible to reader.
+- `href` attribute is the most important attribute of `<a>` element which designate the link's destination (mostly it is URL).
+- The _text_ part is visible to reader.
  
 **Example**
 
