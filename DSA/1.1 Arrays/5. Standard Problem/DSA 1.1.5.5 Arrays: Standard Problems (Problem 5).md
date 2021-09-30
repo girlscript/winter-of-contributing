@@ -1,40 +1,48 @@
-# Problem Name
+## Problem Name
 
-## Find the least average subarray in a given array.
+Find the least average subarray in a given array.
 
-# Problem Statement
+## Problem Statement
 
-## You have given an integer array and a number k. The problem statement asks to find the subarray with least average, which is to find out the sub-array of k elements, which 
-has the minimum average.
+You have given an integer array and a number k. The problem statement asks to find the subarray with least average, which is to find out the sub-array of k elements, which has the minimum average.
 
 ## Examples
 ### Input
+```
 arr[] = {12, 34, 20, 30, 24, 45}
 k = 3
+```
 
 ### Output
+```
 Sub-Array of [0, 2] has a minimum average.
+```
 
-###Explanation
+### Explanation
+```
 12,34,20 is the subarray of size k(=3) which has least average among all possible sub-arrays.
+```
 
 ### Input
-arr[] = {42, 20, 15, 26, 10, 33}
-k = 3
+```
+arr[] = {42, 20, 15, 26, 10, 33}; k = 3
+```
 
 ### Output
+```
 Sub-Array of [2, 4] has a minimum average.
+```
 
-###Explanation
+### Explanation
+```
 15,26,10 is the subarray of size k(=3) which has least average among all possible sub-arrays.
+```
 
 ## Naive Approach
-Consider every element as the starting element of the subarray and calculate sum till next k element from that element. The subaaray with least sum is the required subarray.
-Time complexity of this method will be O(nk).
+Consider every element as the starting element of the subarray and calculate sum till next k element from that element. The subaaray with least sum is the required subarray.Time complexity of this method will be O(nk).
 
 ## Efficient Approach
-A better approach is to use sliding window. First traverse and calculate sum till kth index. Then starting from k, traverse the rest of the array and keep subtracting the first 
-element of the subarray from the sum and add current element in it. Keep udating the leastsum and after traversing the array, we have the least sverage subarray.
+A better approach is to use sliding window. First traverse and calculate sum till kth index. Then starting from k, traverse the rest of the array and keep subtracting the first element of the subarray from the sum and add current element in it. Keep udating the leastsum and after traversing the array, we have the least sverage subarray.
 
 ## Algorithm
 1. Set begin and sum to 0.
@@ -82,9 +90,10 @@ class MinimumAverageSubArray {
     }
 }
 ```
-
+## Time Complexity
+Time coplexity of the efficient approach will be **O(n)** because we are traversing the whole array once to find the subarray with least average.
 ### Sources
 [Geeksforgeeks](https://www.geeksforgeeks.org/find-subarray-least-average/)
 [TutorialCup](https://www.tutorialcup.com/interview/array/find-the-subarray-with-least-average.htm)
 
-###Code Contributed by Rahul Jaiswal
+### Contributed by Rahul Jaiswal
