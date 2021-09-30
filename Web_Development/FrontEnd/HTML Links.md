@@ -1,24 +1,21 @@
 # HTML Links
 
-## Link Tags
+- Almost every web page contains one or two links atleast. These links allow users to jump from one document to another document by clicking on it.
+- We can also say that HTML links are hyperlinks.
+- When we move the mouse cursor over the link, the mouse cursor change into small hand which point over the link.
+- A link can be button, image or any other HTML elements.It does not have to be text.
 
-To link an external documents to the current document we use `<link>` HTML element. It is also denoted with hyperlinks. It can be written inside the `<body>` or inside the `<head>`.
- 
-**Example**
+
+## Syntax
+
+`<a>` tag explains a hyperlink. It has the following syntax :
 
 ```html
-<link rel="stylesheet" href="" />
+<a href=" ">text</a>
 ```
-
-- `href` attribute is used to provide the path or way to the stylesheet(mostly it is URL) 
-- `rel` attribute represents the relationship and imply one of the main features of the `<link>` HTML element.
-
-It is not neccesary that links should be in text type. It can be of image, button and other HTML elements.
-
-## Anchor Tags
-
-Anchor tag `<a>` is the most common tag which is used to create the hyperlink in an interesting way.
-
+- `href` attribute is the most important attribute of `<a>`element which designate the link's destination (mostly it is URL).
+- The _text_part is visible to reader.
+ 
 **Example**
 
 ```html
