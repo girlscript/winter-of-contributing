@@ -7,7 +7,7 @@ In Object-Oriented Programming, an object can behave like another object. This p
 
 **Polymorphism** is a property that is available to many Object Oriented-languages. Go despite not being an OO-language achieves polymorphism through [interfaces](https://golangdocs.com/interfaces-in-golang).
 
-Here is an example of polymorphism in action.
+Here is an example of polymorphism in action:-
 
 ```go
 package main
@@ -52,7 +52,7 @@ In GoLang, polymorphism is achieved mainly using interfaces. A type implementing
 
 Let's understand polymorphism in Go with the help of a program that calculates the net income of an organization. For simplicity, let's assume that this imaginary organization has income from two kinds of projects viz. *fixed billing* and *time and material*. The net income of the organization is calculated by the sum of the incomes from these projects. To keep this tutorial simple, we will assume that the currency is dollars and we will not deal with cents. It will be represented using `int`.
 
-Let's first define an interface `Income`.
+Let's first define an interface `Income`:-
 
 ```go
 type Income interface {
@@ -63,7 +63,7 @@ type Income interface {
 
 The `Income` interface defined above contains two methods `calculate()` which calculates and returns the income from the source and `source()` which returns the name of the source.
 
-Next, let's define a struct for `FixedBilling` project type.
+Next, let's define a struct for `FixedBilling` project type:-
 
 ```go
 type FixedBilling struct {
@@ -74,7 +74,7 @@ type FixedBilling struct {
 
 The `FixedBilling` project has two fields `projectName` which represents the name of the project and `biddedAmount` which is the amount that the organization has bid for the project.
 
-The `TimeAndMaterial` struct will represent projects of Time and Material type.
+The `TimeAndMaterial` struct will represent projects of Time and Material type:-
 
 ```go
 type TimeAndMaterial struct {
@@ -86,7 +86,7 @@ type TimeAndMaterial struct {
 
 The `TimeAndMaterial` struct has three fields names `projectName`, `noOfHours` and `hourlyRate`.
 
-The next step would be to define methods on these struct types which calculate and return the actual income and source of income.
+The next step would be to define methods on these struct types which calculate and return the actual income and source of income:-
 
 ```go
 func (fb FixedBilling) calculate() int {
@@ -114,7 +114,7 @@ We return the name of the project as the source of income from the `source()` 
 
 Since both `FixedBilling` and `TimeAndMaterial` structs provide definitions for the `calculate()` and `source()` methods of the `Income` interface, both structs implement the `Income` interface.
 
-Let's declare the `calculateNetIncome` function which will calculate and print the total income.
+Let's declare the `calculateNetIncome` function which will calculate and print the total income:-
 
 ```go
 func calculateNetIncome(ic []Income) {
@@ -129,7 +129,7 @@ func calculateNetIncome(ic []Income) {
 
 The `calculateNetIncome` function above accepts a slice of `Income` interfaces as argument. It calculates the total income by iterating over the slice and calling `calculate()` method on each of its items. It also displays the income source by calling `source()` method. Depending on the concrete type of the `Income` interface, different `calculate()` and `source()` methods will be called. Thus we have achieved polymorphism in the `calculateNetIncome` function.
 
-So now ,the only part remaining in the program is the main function.
+So now ,the only part remaining in the program is the main function:-
 
 ```go
 func main() {
@@ -143,7 +143,7 @@ func main() {
 
 In the `main` function above we have created three projects, two of type `FixedBilling` and one of type `TimeAndMaterial`. Next, we create a slice of type `Income` with these 3 projects. Since each of these projects has implemented the `Income` interface, it is possible to add all three projects to a slice of type `Income`. Finally, we call `calculateNetIncome` function and pass this slice as a parameter. It will display the various income sources and the income from them.
 
-Here is the full program for your reference.
+Here is the full program for your reference:-
 
 ```go
 package main
@@ -215,7 +215,7 @@ Net income of organization = $19000
 
 Let's say the organization has found a new income stream through advertisements. Let's see how simple it is to add this new income stream and calculate the total income without making any changes to the `calculateNetIncome` function. This becomes possible because of polymorphism.
 
-Lets first define the `Advertisement` type and the `calculate()` and `source()` methods on the `Advertisement` type.
+Lets first define the `Advertisement` type and the `calculate()` and `source()` methods on the `Advertisement` type:-
 
 ```go
 type Advertisement struct {
@@ -235,7 +235,7 @@ func (a Advertisement) source() string {
 
 The `Advertisement` type has three fields `adName`, `CPC` (cost per click) and `noOfClicks` (number of clicks). The total income from ads is the product of `CPC` and `noOfClicks`.
 
-Let's modify the `main` function a little to include this new income stream.
+Let's modify the `main` function a little to include this new income stream:-
 
 ```go
 func main() {
@@ -251,7 +251,7 @@ func main() {
 
 We have created two ads namely `bannerAd` and `popupAd`. The `incomeStreams` slice includes the two ads we just created.
 
-Here is the full program after adding Advertisement.
+Here is the full program after adding `Advertisement`:-
 
 ```go
 package main
@@ -417,7 +417,7 @@ func main() {
 	fmt.Printf("Area of square: %.3f unit sq.\n", square.Area())
 }
 ```
-#### Output:
+#### Output:-
 ```
 Area of rectangle: 128.625 unit sq.
 Area of square: 225.000 unit sq.
