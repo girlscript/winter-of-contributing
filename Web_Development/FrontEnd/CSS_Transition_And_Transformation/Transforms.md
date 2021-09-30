@@ -97,7 +97,12 @@ Rotates div element by 25 degrees clockwise. Neg will rotate it counter clock wi
   transform: scaleX(2);
 }
   ```
-The above code increases width of div element by 2 times.
+The above code increases width of div element by 2 times. <br>
+
+Example:
+
+![image](https://user-images.githubusercontent.com/70155541/135490406-4f0e44e8-2c1f-473f-abc9-e96c1ecd204c.png)
+
 
   ## scaleY()
   The scaleY() method increases or decreases the height of an element.
@@ -108,6 +113,7 @@ The above code increases width of div element by 2 times.
 }
   ```
   This decreases height of div element by half.
+  
   
   ## skew()
   The skew() method skews an element along the X and Y-axis by the given angles. It is a shorthand that combines skewX() and skewY by accepting both values.
@@ -135,7 +141,11 @@ If the second parameter is not specified, it has a zero value.
   div {
   transform: skewX(45deg);
 }
-  ```
+```
+
+  
+![image](https://user-images.githubusercontent.com/70155541/135486199-f20d023b-c130-4449-97d5-0f9c1e5066f4.png)
+
 
 ## skewY()
   The skewY() method skews an element along the Y-axis by the given angle.
@@ -146,18 +156,37 @@ If the second parameter is not specified, it has a zero value.
 }
   ```
   
+![image](https://user-images.githubusercontent.com/70155541/135486665-f2e4a2fb-3fcb-4d16-b93d-97151ee47312.png)
+
+
+  
   ## matrix()
   
   * This method combines all the 2D transform methods into one.
   * The matrix() method takes 6 parameters,which allows you to rotate, scale, translate, and skew elements.
   * The parameters are as follow: matrix(scaleX(),skewY(),skewX(),scaleY(),translateX(),translateY())
 
+Syntax:
 ```css
   div {
   transform: matrix(1, -0.5, 1, 1, 0, 0);
 }
   ```
   
+  Example code:
+ ```css div {
+  width: 300px;
+  height: 100px;
+  background-color: pink;
+  border: 1px solid red;
+  margin:20px;
+}
+
+div#myDiv1 {
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+```
+
   ## Multiple Values:
   With a space-separated list you can add multiple values to the transform property:
 
@@ -180,6 +209,8 @@ The third value in translate3d or the value in translateZ moves the element towa
   translate3d(x, y, z)
   translateZ(z)
   ```
+  ![translateZ](https://user-images.githubusercontent.com/70155541/135490003-9efeef6b-0950-4f16-a5d6-d6fedcdd23a7.gif)
+
   
   ## scale3d or scaleZ()
   The third value in scale3d or the value in scaleZ affects the scaling along the z-axis.
@@ -188,7 +219,10 @@ The third value in translate3d or the value in translateZ moves the element towa
   scale3d(sx, sy, sz)
   scaleZ(sz)
   ```
-  
+![scaleZ](https://user-images.githubusercontent.com/70155541/135489850-7990e853-3218-4831-b5d6-22a90dcc821d.gif)
+
+
+
   ## rotate3d or rotateX or rotateY or rotateZ
 rotateX and rotateY will rotate an element in 3D space around those axises. rotate3d allows you to specify a point in 3D space in which to rotate the element around.
   
