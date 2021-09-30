@@ -1,25 +1,22 @@
 # Parallax Effect (CSS)
 
-<br>
 ## What is Parallax Effect?
 
-It is a scrolling effect where the **background**(image) and **foreground** content moves at a different speed, which looks attractive to the users. Here is a demo of [Parallax Effect]
+It is a scrolling effect where the **background**(image) and **foreground** content moves at a different speed, which looks attractive to the users. Here is a demo of [Parallax Effect](https://relaxed-hopper-853a47.netlify.app/)
 
-[Parallax Effect] : https://relaxed-hopper-853a47.netlify.app/
-<br>
 
 ## What you need to know before using Parallax effect?
 
-You just need to know some basic CSS properties and HTML.
+You just need to know some basic CSS properties like position, min-height etc.
 <br>
 
-## Lets start :
+## Lets get started :
 
-### 1. Using only 1 image
+### 1. Only 1 image is used
 
 ---
 
-Create a HTML file, in that file create a empty **<div>** of class name `parallax` in the **<body>** tag. This is the div whose CSS properties would be adjusted to show parallax effect.
+Create a HTML file, in that file create a empty **< div>** of class name **parallax** in the **<body>** tag. This is the div whose CSS properties would be adjusted to show parallax effect.
 
 Now in style.css file or **<style>** tag adjust the properties of class **parallax** as shown :
 
@@ -56,7 +53,8 @@ min-height : 200px;
 ```
 
 <br>
-### 2. Using multiple images
+        
+### 2. Multiple images are used
 
 ---
 
@@ -104,11 +102,9 @@ To add multiple background photos make multiple **<div>** with class **parallax1
       }
 ```
 
-<br>
 
-[DEMO]
-
-[DEMO] : https://relaxed-hopper-853a47.netlify.app/
+## Demo Website
+[DEMO](https://relaxed-hopper-853a47.netlify.app/)
 
 <br>
 <br>
