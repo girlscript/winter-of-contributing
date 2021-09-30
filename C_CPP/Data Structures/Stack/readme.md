@@ -2,3 +2,4 @@
 - [Stack using Array](./stack_using_arrays.cpp)
 - [Stack using Linked List](./stack_using_linked_list.cpp)
 - [Stock Span Problem](./Stock%20Span%20Problem )
+- [Implementation of stack using queue](./implementation_of_stack_using_queue.md)
