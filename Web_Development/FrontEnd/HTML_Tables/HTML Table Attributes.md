@@ -2,7 +2,7 @@
 Tables in HTML pages are created by using multiple HTML tags with specific attributes defining table structure.The HTML tables are created using the `<table>` tag in which the `<tr>` tag is used to create table rows and `<td>` tag is used to create data cells. The elements under `<td>` are regular and left aligned by default.
 Example:
 
-```
+```html
 <!DOCTYPE html>
 <html>
    <head>
@@ -85,7 +85,7 @@ The three elements for separating the head, body, and foot of a table are −
 
 A table may contain several `<tbody>` elements to indicate different pages or groups of data. But it is notable that `<thead>` and `<tfoot>` tags should appear before `<tbody>`
 
-```
+```html
 <!DOCTYPE html>
 <html>
    <head>
@@ -117,6 +117,7 @@ A table may contain several `<tbody>` elements to indicate different pages or gr
 ![header,body,footer.png](https://th.bing.com/th/id/OIP.-2rsLlxIZioqtpsIw0Uf1AHaCY?pid=ImgDet&rs=1)
 
 ## Reference table for quick review
+
 ![attributes-of-table-tag-ev.png](https://i1.wp.com/www.edupointbd.com/wp-content/uploads/2019/06/attributes-of-table-tag-ev.png?resize=640%2C317)
 
 ## Summary
