@@ -11,6 +11,7 @@
 In ordered list orders matter. An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag and end with `</li>`. After all items added in list then we end ordered list with `</ol>`.
 
 **Syntax:**
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,12 +25,13 @@ In ordered list orders matter. An ordered list starts with the `<ol>` tag. Each 
 </ol>
 </body>
 </html>
-
+```
 ###Unordered List
 
 In unordered list order doesn't matter. An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag and end with `</li>`. After all items added in list then we end ordered list with `</ul>`.
 
 **Syntax:**
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -43,3 +45,4 @@ In unordered list order doesn't matter. An unordered list starts with the `<ul>`
 </ul>
 </body>
 </html>
+```
