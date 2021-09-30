@@ -7,6 +7,7 @@ Here, I will be trying to explain the most basic and important clustering algori
 ## What is K Means Clustering Algorithm
 K-means is a clustering algorithm which is centroid-based or we can say is based on the center point of each cluster, along with distance-based or we can say the distance between the cluster center explained above and points in a cluster , where we calculate the distances to assign a point to a cluster. In K-Means, each cluster is represented by a centroid or the cluster mean.
 
+![K means](./Images/K_Means.png)
 
 Example: Let us consider the example of a courier company which is currently having only one delivery center in a town/village. Now, the load on that delivery center is increasing as the parcels and letters are incoming and outgoing. The company wants to make few more centers so that they each center can target its own neighbourhood which is very near and doesn't need to interfere with parcels intended for other locality which is nearer to some other center. How can company do this? Here comes the k means clustering to rescue. The company will first see how many delivery center does it want in the town/village. Then it will form clusters that will be several areas and each cluster's centroid will be the delivery center. Like, in above image the three clusters will cater three different localities and will not interfere with each other and together three delivery center can divide the load instead of one center taking all load.
 
@@ -54,6 +55,7 @@ Sum of squared distances of samples to their closest cluster center.
 Number of iterations run.
 
 ## Implementing K Means clustering
+
 Importing necessary libraries
 ```
 import pandas as pd
@@ -63,12 +65,15 @@ sns.set()
 import numpy as np
 from sklearn.cluster import KMeans
 ```
+
 Reading csv file
 ```
 data=pd.read_csv('california_cities.csv')
 data.head(10)
 ```
-#### Clustering on basis of two variables
+![Reading csv file](./Images/Read_Csv_Head.png)
+## Clustering on basis of two variables
+
 Plotting scatter plot for unclustered data
 
 ```
@@ -78,11 +83,14 @@ plt.xlabel('Longitude')
 plt.title('California cities latitude and longitude')
 plt.show()
 ```
+![Scatter Plot 1](./Images/Scatter_1.png)
+
 Selecting numeric columns to apply k means 
 ```
 x=data.iloc[:,1:3]
 x.head()
 ```
+![Data 1](./Images/Data_Head_1.png)
 
 **Using elbow method to find optimal number of clusters**
 ```
@@ -101,20 +109,26 @@ plt.xlabel('Number of clusters')
 plt.ylabel('Sum of squared distance')
 plt.show()
 ```
+![Elbow 1](./Images/Elbow_1.png)
+
 *From above plot, we can see that number of clusters equals 2 is the optimal number. Hence, building model with n_clusters=2*
 ```
 kmeans=KMeans(n_clusters=2,init='k-means++',max_iter=300,n_init=10)
 kmeans.fit_predict(x)
 ```
+
 Assigning new column as cluster label in the dataframe from the model we built and fit the data
 ```
 clustered_data=data.iloc[:,0:3].copy()
 clustered_data['Clusters']=kmeans.labels_
 ```
+
 Dataframe along with cluster label are:  
 ```
 clustered_data.head(10)
 ```
+![Clustered Data](./Images/Clustered_Data_Head.png)
+
 **Plotting new scatter plot along with clustered data and centroids of cluster**
 ```
 plt.scatter(clustered_data['longd'],clustered_data['latd'],c=clustered_data['Clusters'],cmap='rainbow')
@@ -125,13 +139,18 @@ plt.ylabel("Latitude")
 plt.scatter(kmeans.cluster_centers_[:,1], kmeans.cluster_centers_[:,0], c = 'black')
 plt.show()
 ```
+![Scatter Plot 2](./Images/Scatter_2.png)
+
 **The above steps was for dataset which needs to be clustered on the basis of only 2 parameters.**
-#### To cluster dataset on the basis of 2 or more parameters, follow below steps
+
+## To cluster dataset on the basis of 2 or more parameters, follow below steps
 Selecting numerical columns to apply k means 
 ```
 x=data.iloc[:,[1,2,3]]
 x.head()
 ```
+![Data 2](./Images/Data_Head_2.png)
+
 **Using elbow method to find optimal number of clusters**
 ```
 ssd=[]
@@ -149,12 +168,15 @@ plt.xlabel('Number of clusters')
 plt.ylabel('Sum of squared distance')
 plt.show()
 ```
+![Elbow 2](./Images/Elbow_2.png)
 
 *From above plot, we can see that number of clusters equals 3 is the optimal number. Hence, building model with n_clusters=3*
+
 ```
 kmeans=KMeans(n_clusters=3,init='k-means++',max_iter=300,n_init=10)
 y=kmeans.fit_predict(x)
 ```
+
 **Plotting Scatter plot for clustered data on basis of 2 or more attributes**
 ```
 x=x.to_numpy()
@@ -166,6 +188,10 @@ plt.xlabel("Longitude")
 plt.ylabel("Latitude")
 plt.show()
 ```
+![Scatter Plot 3](./Images/Scatter_3.png)
+
+This is one of the disadvantage of k means algorithm. There are lot of outliers present because of which uneven clustering took place as you can see in the image above.
+
 ## Applications of K means clustering
 - Fistly, the courier company example for deciding where to open delivery center. :)
 - It is used in the clustering of documents to identify the compatible documents in the same place. 
