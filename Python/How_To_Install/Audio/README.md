@@ -5,12 +5,12 @@ Outline-
 <br>
 Python installation means to install python on your system.Install means copy all files to path and whenever we want to run python program we can open the python software and start running our code.Python has various versions available with differences between the syntax and working of different versions of the language
 <br><br>
-*Requirements-<br>
+Requirements-<br>
 1.The Python download requires 25MB of disk space.<br>
 2.Make sure you keep the python.exe file on your system for further installation and reinstallation.<br>
 3.Additional reuirement after installation of python is 90Mb of disc space.<br>
 4.The sytsem must have stable internet connections for smooth installation.<br><br>
-** Importance- **
+Importance- 
 <br>
 Python is a widely used high-level programming language. To write and execute code in python, we first need to install Python on our system.Here are the steps to install Python-<br>
 When we download python software we are downloading a compliation of C libraries that comprises python language.Also whenever we want to complie our python code we need the python interpreter and all the libarray associated with it.IT is important to have python installed on our system.
@@ -30,7 +30,7 @@ Step5-Click on Run Button.<br>
 Step6- Complete the steps as mentioned in audio link.<br>
 Step7-You have suceesfully installed Python on your system.<br>
 
-## To verify installation-<br>
+## To verify installation- <br>
 Step1-You can navigate through the directory where you have installed python.(Eg.C:\Users\Pattis\AppData\Local\Programs\Python\Python)<br>
 Step2-You can double click on the file/python.exe file and it will open a command window.
 Step3-A window pop-up window with the title C:\Users\Pattis\AppData\Local\Programs\Python\Python\python.exe appears, and inside the window, oyou can see text Python (Version).
