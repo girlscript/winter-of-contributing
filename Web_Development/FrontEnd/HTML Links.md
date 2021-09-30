@@ -1,4 +1,4 @@
-<h1 align="center">HTML Links</h1>
+# HTML Links
 
     • To link an external documents to the current document we use <link> HTML element. It is also denoted with hyperlinks. It can be written    
       inside the <body> or inside the <head>.
