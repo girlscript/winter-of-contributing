@@ -1,7 +1,6 @@
 ## Appbar widget
 #### What is Appbar Widget ?
-Appbar is the most important component of any application. We can build our application's topbar beautiful with the help of appbar. Appbar consist of another widgets like TabBar, FlexibleSpaceBar etc. We use appbar in sacffold.appbar property because
-appbar need some padding if we wrap with mediaquery so it is better to use inside scaffold
+Appbar is the most important component of any application. We can build our application's topbar beautiful with the help of appbar. Appbar consist of another widgets like TabBar, FlexibleSpaceBar etc. We use appbar in sacffold.appbar property because appbar need some padding if we wrap with mediaQuery so it is better to use inside scaffold
 <br>
 <br>
 ## This is how a simple appbar look like:-
@@ -45,7 +44,7 @@ Appbar have some important properties:
   <ul>
   <li> leading - content inside leading will display before title of appbar</li>
   <li> title - It will display the title of appbar </li>
-  <li> actions - It will display its content after title </li>
+  <li> actions - It will display after title </li>
   </ul>
 
 ## Implementation of title property
@@ -60,8 +59,8 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: MyHomePage(),
+    return MaterialApp(                   
+      home: MyHomePage(),               // home (first page of app) of this app is MyHomePage
     );
   }
 }
@@ -70,7 +69,9 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Learning"),
+        title: Text(    // title prperty
+        "Learning"      // this text will be shown on topbar of app
+        ),           
         
       ),
       );
@@ -84,7 +85,7 @@ class MyHomePage extends StatelessWidget {
  src="./Appbar/assets/First.png" width="300" height="600" />
  
  ## Explanation
- Here title prperty is used to display the given word on Appbar. title use text widget to display the text.
+ Here title property is used to display the given word on Appbar. Title uses text widget to display the text.
 
 
 
@@ -115,19 +116,19 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Learning"),
-        actions: <Widget>[
+        title: Text("Learning"),           //title has some text which will display on topbar
+        actions: <Widget>[                 //actions property which will take multiple widgets as children
           IconButton(
-            icon: Icon(Icons.account_circle),
+            icon: Icon(Icons.account_circle),      
             tooltip: 'Your account',
             onPressed: () {},
           ),
         ],
-        backgroundColor: Colors.blue,
-        leading: IconButton(
+        backgroundColor: Colors.blue,         //backgroundColor is blue so the color of appbar will be blue
+        leading: IconButton(                  // leading is iconButton so icon will be display before title 
           icon: Icon(Icons.menu),
           tooltip: 'Menu',
-          onPressed: () {},
+          onPressed: () {},                  
         ),
       ),
       );
@@ -140,9 +141,9 @@ class MyHomePage extends StatelessWidget {
  src="./Appbar/assets/Second.png" width="300" height="600" />
  
  ## Explanation
- Here first property we use is title which display the title of the appbar for example we have written 'Learning' inside text widget and then title take that text widget and display learning in appbar.
- second property used here is action widget. In action widget iconbutton is used to display account_circle icon after the title and tooltip is also provided which shows text when user hover over that icon.
- Third property used here is backgroundcolor which gives the colour to appbar. Fourth property used here is leading. In leading iconbutton is used to display menu icon befor the title of appbar. 
+ Here first property we use is title which display the title of the appbar for example we have written 'Learning' here so in output app is displaying learning on topbar.
+ second property used here is action widget. In action widget iconButton is used to display account_circle icon after the title. Tooltip is also provided which shows text when user hover over that icon.
+ Third property used here is backgroundColor which gives the colour to appbar. Fourth property used here is leading. In leading iconButton is used to display menu icon before the title of appbar. 
  
  ###### Reference taken from https://www.geeksforgeeks.org/flutter-appbar-widget/ and https://api.flutter.dev/flutter/material/AppBar-class.html
 
