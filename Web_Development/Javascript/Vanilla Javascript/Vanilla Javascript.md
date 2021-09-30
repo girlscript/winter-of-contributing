@@ -75,7 +75,7 @@ r.send("banana=yellow");
 
 - **[Suneditor](https://github.com/JiHong88/SunEditor):** Pure javascript based WYSIWYG html editor, with no dependencies.
 
-- **[Moovie](https://github.com/BMSVieira/moovie.js):** Movie focused HTML5 Player.
+- **[Movie](https://github.com/BMSVieira/moovie.js):** Movie focused HTML5 Player.
 
 - **[Fine Uploader](https://github.com/FineUploader/fine-uploader):** Multiple file upload plugin with image previews, drag and drop, progress bars. S3 and Azure support, 
 image scaling, form support, chunking, resume, pause, and tons of other features.
