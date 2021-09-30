@@ -48,4 +48,4 @@ Example:The following code has a function that displays a Gretting message with 
         </html>
 
 Output:
- <img src="https://github.com/RuchikaSuryawanshi7/Webgenix/blob/main/images/logo.png">
+ <img src="https://github.com/RuchikaSuryawanshi7/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/Javascript/1.Functions_And_Scope/Javascript_Function/js_output.PNG">
