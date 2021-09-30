@@ -37,7 +37,7 @@ Example: Let us consider the example of a courier company which is currently hav
 The number of clusters to form as well as the number of centroids to generate.
 - init: {‘k-means++’, ‘random’}, callable or array-like of shape (n_clusters, n_features), default=’k-means++’  
 Method for initialization
-- n_initint, default=10  
+- n_init: int, default=10  
 Number of time the k-means algorithm will be run with different centroid seeds. The final results will be the best output of n_init consecutive runs.
 - max_iter: int, default=300  
 Maximum number of iterations of the k-means algorithm for a single run.
