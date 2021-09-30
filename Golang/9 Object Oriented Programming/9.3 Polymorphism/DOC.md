@@ -338,14 +338,11 @@ Net income of organization = $23750
 
 You would have noticed that we did not make any changes to the `calculateNetIncome` function though we added a new income stream. It just worked because of polymorphism. Since the new `Advertisement` type also implemented the `Income` interface, we were able to add it to the `incomeStreams` slice. The `calculateNetIncome` function also worked without any changes as it was able to call the `calculate()` and `source()` methods of the `Advertisement` type.
 
-
-
 ## 🚨 Uses of polymorphism
 
 Polymorphism is used to reduce code in general. There will be less coupling if polymorphism is used. A single function can be used to do the same thing on multiple different objects. This is where polymorphism is heavily used. It is one of the most important concepts in OO-Programming. Go not being a strict OO-language achieves polymorphism in an elegant way.
 
 ## Few more Examples of Polymorphism
-
 ### Example-1:
 
 ```go
@@ -567,4 +564,4 @@ So that's all that you need to know about Polymorphism in Golang if you wish to 
     </tr>
   </table>
 
-## THANKS FOR READING! ✨<br>
+## Thanks for Reading! ✨<br>
