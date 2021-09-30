@@ -1,7 +1,7 @@
 # K Means Clustering Algorithm
 ## Video Link:
 
-Clustering is an unsupepervised learning method in which we form the dataset into cluster of items or group of itmes on the basis od similarity or dissimilarity between the items or objects. In other words, we form groups several groups of items or objects such that each group has its the similar items/objects while rest of the items which are dissimilar are in some other group. In an unsupervised method, we are not given any pre defined labels and we have to infer the given dataset to form labelled sets. Same is being done here. We will not be given any predefined label and we have to label our clusters in such a way that all similar objects should be toegther in each cluster and the data point from different cluster should be as different as possible.
+Clustering is an unsupepervised learning method in which we form the dataset into cluster of items or group of itmes on the basis of similarity or dissimilarity between the items or objects. In other words, we form groups several groups of items or objects such that each group has its the similar items/objects while rest of the items which are dissimilar are in some other group. In an unsupervised method, we are not given any pre defined labels and we have to infer the given dataset to form labelled sets. Same is being done here. We will not be given any predefined label and we have to label our clusters in such a way that all similar objects should be toegther in each cluster and the data point from different cluster should be as different as possible.
 
 Here, I will be trying to explain the most basic and important clustering algorithm called K Means clustering Algorithm.
 ## What is K Means Clustering Algorithm
@@ -193,9 +193,9 @@ plt.show()
 This is one of the disadvantage of k means algorithm. There are outliers present because of which uneven clustering took place as you can see in the image above.
 
 ## Applications of K means clustering
-- Fistly, the courier company example for deciding where to open delivery center. :)
+- Firstly, the courier company example for deciding where to open delivery center. :)
 - It is used in the clustering of documents to identify the compatible documents in the same place. 
-- It is helpful in the business sector for recognizing the portions of purchases made by customers, also to cluster movements on apps and websi.
+- It is helpful in the business sector for recognizing the portions of purchases made by customers, also to cluster movements on apps and website.
 - Clustering forms a backbone of search engines. When a search is performed, the search results need to be grouped, and the search engines very often use clustering to do this.
 There are many more applications. You can always refer internet to know more
 
