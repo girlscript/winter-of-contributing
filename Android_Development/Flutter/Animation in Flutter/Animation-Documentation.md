@@ -1,5 +1,8 @@
 # <div align="center">📱 Introduction to Animations ✨</div>
 
+![image](https://user-images.githubusercontent.com/78701779/135496982-0b577d2a-3d9c-4714-8e19-8b5bbf87c7cb.png)
+
+
 Animations are an essential part of making the UI of a mobile application feel natural and smooth to the user. Smooth transitions and interactive elements make an app pleasant to use. On the other hand, badly made animations can make the app look clumsy or worse, break the application altogether. For this reason, learning the fundamentals of animations in any framework is an essential step towards delivering a superior user experience.
 
 Well-designed animations make a UI feel more intuitive, contribute to the slick look and feel of a polished app, and improve the user experience. Flutter's animation support makes it easy to implement a variety of animation types. Many widgets, especially [Material widgets](https://flutter.dev/docs/development/ui/widgets/material), come with the standard motion effects defined in their design spec, but it's also possible to customize these effects.
