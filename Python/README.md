@@ -36,6 +36,7 @@
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
 - [Python File I/O](./Python_File_IO)
+- [Python Strings](./Python_Strings)
 
 
 ## Learning path
@@ -67,5 +68,6 @@
 25. Args and Kwargs
 26. Web_Scraping
 27. Python File I/O
+28. Python Strings
 
 
