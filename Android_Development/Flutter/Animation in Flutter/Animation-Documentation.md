@@ -340,3 +340,5 @@ So that’s all that you need to know to get started with Animations in Flutter.
 ### REFERENCES
 
 - For preparing these documents official documentation of [flutter](hhttps://flutter.dev/docs/development/ui/animations/tutorial). was referred for maintaining the authenticity of the code and also for making the topics more informative some external sources like blogs were referred.
+- The links of blog that were reffered -:
+<table align=center><tr><td><a href="https://erdoganbavas.medium.com/tween-animations-in-flutter-7e24844c1d19" target=_blank>Link1</a></td><td><a href="https://erdoganbavas.medium.com/physics-based-animations-in-flutter-1d20130919a1" target=_blank>Link2</a></td></tr></table>
