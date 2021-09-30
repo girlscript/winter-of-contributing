@@ -31,6 +31,7 @@
 - [Advanced_function_map()](./Advanced_function_map())
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
+- [if statement](./if_statement)
 
 
 ## Learning path
@@ -57,3 +58,5 @@
 19. Advanced function-map()
 20. What is Automation?
 21. Args and Kwargs
+22. if statement
+
