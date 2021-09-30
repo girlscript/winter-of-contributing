@@ -8,7 +8,7 @@
 - Objects and Arrays
 - The DOM
 - jQuery
-- Javascript vs Jquery
+- Javascript vs JQuery
 - Developer Console
 - AJAX
 - Integrating with Other People's Libraries
