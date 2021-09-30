@@ -19,6 +19,8 @@ To see the live example [Click Here](https://stackblitz.com/angular/xamvkonjydvn
 - First, We have to **disable** that button using a disable attribute.
 
 ```` css
+/* Creating button */
+
 <button class="btn btn-primary"  
         [disabled]="allowNewServer">Add Server</button>
 ````
@@ -30,20 +32,22 @@ To see the live example [Click Here](https://stackblitz.com/angular/xamvkonjydvn
   ````tsx
   import { Component, OnInit } from '@angular/core';  
     
+  /* Components */
+  
   @Component({  
     selector: 'app-server2',  
     templateUrl: './server2.component.html',  
     styleUrls: ['./server2.component.css']  
   })  
   export class Server2Component implements OnInit {  
-   allowNewServer = false;  
+   GWOCServer = false;  
     
+      /* Setting up timeout */
     constructor() {  
       setTimeout(() =>{  
-        this.allowNewServer = true;  
-      }, 5000);  
+        this.GWOCServer = true;  
+      }, 10000);  
     }  
-    
     ngOnInit() {  
     }  
     
@@ -52,7 +56,7 @@ To see the live example [Click Here](https://stackblitz.com/angular/xamvkonjydvn
 
   
 
-- Through This we have added a **5 second timer** and after this timer it will **automatically disabled**.
+- Through This we have added a **10 second timer** and after this timer it will **automatically disabled**.
 
 
 
@@ -67,12 +71,9 @@ We can use property binding and interpolation both for databinding cases.
 ### Example for Interpolation
 
 ````html
-<p>  
-  Server2 is also working fine.  
-</p>  
-<button class="btn btn-primary"  
-        [disabled]="!allowNewServer" >Add Server</button>  
-<h3>{{allowNewServer}}</h3>  
+<p>  Server2 for Girlscript organization is working properly.  </p>  
+<button class="btn btn-dark shadow" [disabled]="!GWOCServer"> Adding a GWOC server </button>  
+<h4>{{GWOCServer}}</h4>  
 ````
 
 
@@ -83,11 +84,11 @@ We can use property binding and interpolation both for databinding cases.
 
 ```` html
 <p>  
-  Server2 is also working fine.  
+  Server2 of girlscript is also working properly.  
 </p>  
-<button class="btn btn-primary"  
-        [disabled]="!allowNewServer" >Add Server</button>  
-<h3 [innerText]= "allowNewServer"></h3>
+<button class="btn btn-success"  
+        [disabled]="!GWOCServer" >Adding a GWOC Server</button>  
+<h3 [innerText]= "GWOCServer"></h3>
 ````
 
 
@@ -97,6 +98,8 @@ We can use property binding and interpolation both for databinding cases.
 Here we have done the same thing one using interpolation and one with property binding .
 
 But String Interpolation has some kind of syntax and which is converted to property binding by Angular.
+
+
 
 **When We want to concatenate strings, we should use interpolation instead of property binding.**
 
@@ -138,9 +141,9 @@ To setup the model property we have to place the target in square brackets as sh
 
 
 
-childItem is the target here 
+**childItem** is the target here 
 
-parentItem is the property here
+**parentItem** is the property here
 
 
 
@@ -174,4 +177,5 @@ By doing this the view of app item detail uses the value of **lamp** for **child
 
 # References
 
-[Angular Documentation](https://angular.io/guide/property-binding) , [geeksforgeeks ](https://www.geeksforgeeks.org/property-binding-in-angular-8/), [Javapoint](https://www.javatpoint.com/angular-7-property-binding) .
+[Angular Documentation](https://angular.io/guide/property-binding) , [geeksforgeeks ](https://www.geeksforgeeks.org/property-binding-in-angular-8/), [Javapoint](https://www.javatpoint.com/angular-7-property-binding) ,[Stackblitz ](https://stackblitz.com/angular/xamvkonjydvn?file=src%2Fapp%2Fapp.component.ts).
+
