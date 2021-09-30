@@ -1,1 +1,1 @@
-- [Queue in STL](queue/Queue.md)
+- [Queue in STL](Queue.md)
