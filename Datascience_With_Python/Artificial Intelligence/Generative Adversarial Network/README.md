@@ -1,4 +1,4 @@
-# A Breif Introduction to Generative Adversarial Network (GAN)
+# A Brief Introduction to Generative Adversarial Network (GAN)
 
 ![GAN](https://github.com/ron352/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Artificial%20Intelligence/Generative%20Adversarial%20Network/Images/GAN.png)
 
@@ -27,10 +27,10 @@ Firstly, the generator is equipped with fixed-length random data as input. This 
 
 - GAN can produce similar real data or different versions of real text, audio or video.
 - Better Interpretation of machine learning.
-- More efficient in Object detection or speech recgonition.
+- More efficient in Object detection or speech recognition.
 
 # Disadvantages of GAN 
-- It's really hard to train this model becuase of power consumption .
+- It's really hard to train this model because of power consumption .
 - Speech or text data generation is challenging.
 
 # Applications of GAN
