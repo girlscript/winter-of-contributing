@@ -94,10 +94,11 @@
     - [Suffix Tree](#)
   
 - ### [Operating System Concepts](Operating%20System%20Concepts/)
-  - [Scheduling Algorithms](#)
+  - [Scheduling Algorithms](./Operating%20System%20Concepts)
   - [Memory Management](#)
   - [Deadlock](#)
   - [File Management](#)
+  
 
 - ### [Competitive Programming](Competitive%20Programming/)
 
