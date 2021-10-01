@@ -5,18 +5,23 @@ Before diving deep into what the execution context is we have to first understan
 # What is Javascript Engine?
 Javascript Engine is nothing but a program that executes our javascript code. Every browser has its own Javascript engine but probably the most well-known engine is Google's V8.
 Javascript Engine has actually two components:
+
 # 1. Callstack
  The CallStack is the place where our code is actually executed using execution context. Inside the CallStack various execution contexts are stacked on the top of one another and gets popped out from the stack whenever the entire code present inside the execution context is executed.
+ 
 # 2. Heap
 On the other hand, Heap is a unstructured memory pool which stores all the objects that our application needs.
 
 # Task of JS Engine
-Before starting out the task of execution context or we say before execution context came into picture, the very first step which is performed is to actually send the piece of javascript code into the javascript engine.
-As the piece of code enters into the javascript engine, it actually parse the code. Parsing the code simply means to read the code.
-During the parsing, the code is  parsed into the special data structure called as the abstract syntax tree. This works by first splitting up the each line of code into pieces that are meaningful to the language like the const or the function keywords and then eventually saving all these pieces into a tree called as Abstract syntax tree.
+*Before starting out the task of execution context or we say before execution context came into picture, the very first step which is performed is to actually send the piece of javascript code into the javascript engine.
+
+*As the piece of code enters into the javascript engine, it actually parse the code. Parsing the code simply means to read the code.
+
+*During the parsing, the code is  parsed into the special data structure called as the abstract syntax tree. This works by first splitting up the each line of code into pieces that are meaningful to the language like the const or the function keywords and then eventually saving all these pieces into a tree called as Abstract syntax tree.
 
 Note: This step also checks if there are any syntax errors.
 Now, the next step comes as a complilation wich takes the generated AST and converts that AST into the machine code. 
+
 Execution of code only happens after compilation.
 Now, our code is ready to be executed. What happens then is so called global execution context is created and from now on execution context comes into picture.
 
@@ -36,9 +41,9 @@ Note: The heart of any Javascript rutime is our Javascript engine. Without Javas
 As we have already discussed about the Javascript engine, now let's talk about the web APIs.
 
 # Web APIs
-Web APIs present in a browser let javascript do a wide variety of things in a go. For example, If we want to apply some styling to our webpages dynamically like changing the border, changing the color, pixel updation and many more other things then for that browser has the API available called as DOM API.
+*Web APIs present in a browser let javascript do a wide variety of things in a go. For example, If we want to apply some styling to our webpages dynamically like changing the border, changing the color, pixel updation and many more other things then for that browser has the API available called as DOM API.
 
-Similarly, If we want to fetch some data from a server then for that also we have a API called as The Fetch API  which provides an interface for fetching the resources across the network by using the generic definitions of the request and response objects.
+*Similarly, If we want to fetch some data from a server then for that also we have a API called as The Fetch API  which provides an interface for fetching the resources across the network by using the generic definitions of the request and response objects.
 
 # Callback queue
 The callback queue simply stores the callback functions sent from the Web APIs in the order in which they were added.
