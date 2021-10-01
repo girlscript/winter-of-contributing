@@ -26,7 +26,7 @@ Now let’s move onto the Syntax or declaration of enum
 ### Syntax
 ```
 enum Name_of_Class{
-//fields separated by commas
+      //fields separated by commas
 }
 ```
 The same Syntax is followed in both the cases i.e. enum declared outside class or inside it.
@@ -36,8 +36,8 @@ This also means that every enum constant represents an object of type enum.
 ### Internal Implementation
 ```
 class ClassName{
-	public static final ClassName FIELDNAME = new ClassName();
-	// if more fields are present they are also declared the same way.
+      public static final ClassName FIELDNAME = new ClassName();
+      // if more fields are present they are also declared the same way.
 } 
 ```
 
@@ -49,10 +49,10 @@ enum Space {
 	STAR, PLANET, MOON, COMET, ASTEROIDS, DWARF_PLANETS
 }
 public class Universe {
-	public static void main(String[] args) {
-		Space item1 = Space.STAR;
-System.out.println(item1);
-	}
+      public static void main(String[] args) {
+	 Space item1 = Space.STAR;
+	 System.out.println(item1);
+      }
 }
 ```
 This will give the Output: 
@@ -67,12 +67,12 @@ for outside as well as inside the class.
 ### Example of using enum inside class
 ```
 class Compass{
-	public enum Direction {NORTH, SOUTH, EAST, WEST}
-	public static void main(String[] args){
-		for(Direction d : Direction.values()){
-			System.out.println(d);
-		}
-	}
+      public enum Direction {NORTH, SOUTH, EAST, WEST}
+      public static void main(String[] args){
+          for(Direction d : Direction.values()){
+		System.out.println(d);
+	  }
+      }
 }
 ```
 
