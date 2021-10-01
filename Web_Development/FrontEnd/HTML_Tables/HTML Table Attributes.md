@@ -118,7 +118,7 @@ A table may contain several `<tbody>` elements to indicate different pages or gr
 
 ## Reference table for quick review
 
-![attributes-of-table-tag-ev.png](https://i1.wp.com/www.edupointbd.com/wp-content/uploads/2019/06/attributes-of-table-tag-ev.png?resize=640%2C317)
+![attributes-of-table-tag-ev.png](https://github.com/tavneetgill/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/HTML_Tables/attributes-of-table-tag-ev.jpeg)
 
 ## Summary
 In this topic, all the neccessary attributes are shared and where and for what purpose we can use them. To make a table more versatile and appealing for our view we can add these in our tables. These table attributes are vital part of a table tag in html so one should have a quick glance over them while implementing.
