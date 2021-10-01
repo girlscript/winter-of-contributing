@@ -8,5 +8,5 @@ Login and signup screen UI/UX : So here i have created Login and sign up page fo
 3. The _signup_ page includes section where you can create your own account by filling the details like Name, email and password or you can directly sign up via google , facebook or tweeeter.
 
 ## Welcome pages in light and dark mode :
-![Welcome page in light mode](![image](https://user-images.githubusercontent.com/78681644/135529083-4d319dce-05fb-4f09-afa8-fe347d7d2764.png)
-![Welcome page in dark mode](
+[Welcome page in light mode](![image](https://user-images.githubusercontent.com/78681644/135529083-4d319dce-05fb-4f09-afa8-fe347d7d2764.png)
+[Welcome page in dark mode](
