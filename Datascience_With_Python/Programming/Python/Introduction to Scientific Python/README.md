@@ -18,7 +18,7 @@
 
 ## Introduction:
 
-Scientific Python (SciPy) is scientific computation library for solving mathematical equations or algorithms. It is based on NumPy library for providing more flexible solutions, better ananlysis of code and reducing the complexity. Scipy is userfriendly, efficient and easy to use.
+Scientific Python (SciPy) is scientific computation library for solving mathematical equations or algorithms. It is based on NumPy library for providing more flexible solutions, better analysis of code and reducing the complexity. Scipy is userfriendly, efficient and easy to use.
 
 
 <a name="benefits"></a>
