@@ -11,15 +11,15 @@
 - [x] JSX Attributes and Styling react elements 
 - [x] npm 
 - [ ] Creating React App (Include setup for Windows/Linux/Mac)
-- [ ] The anatomy of a React App and Concept of Virtual DOM
-- [ ] Installing the React Developer Tools
+- [x] The anatomy of a React App and Concept of Virtual DOM
+- [x] Installing the React Developer Tools
 ### Week 2 
 - [x] Components 
-- [ ] Class components 
-- [ ] Functional components 
+- [x] Class components 
+- [x] Functional components 
 - [x] import, export, modules 
-- [ ] React Props vs State 
-- [ ] Mapping data to components 
+- [x] React Props vs State 
+- [x] Mapping data to components 
 - [ ] Using the  React Developer Tools (Preferrably a video)
 ### Week 3 
 - [ ] List and Keys 
