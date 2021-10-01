@@ -91,7 +91,7 @@ get yourself started.
 Before starting a fresh contribution, make sure you pull all
 updates from `upstream` to avoid any conflicts.
 ```bash
-git pull upstream
+git pull -r upstream Javascript
 ```
 
 Try to (not required) do individual PRs in individual branches:
