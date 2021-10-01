@@ -14,6 +14,14 @@
 - [Brief History of Python](./History_Of_Python)
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What is type conversion ?](./Type_Conversion)
+
+- [Python_errors_and_its_types](Python_erros_and_its_types)
+## Learning path
+1. Git & GitHub
+2. What is a programming language? #77
+3. What is type conversion ?
+4. 4.Python Error and its Types?
+
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
@@ -35,13 +43,42 @@
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
+
+- [How_to_install_python](./How_to_install_python)
+
 - [Python File I/O](./Python_File_IO)
 - [Python Strings](./Python_Strings)
+
 
 
 ## Learning path
 
 1. Git & GitHub
+
+2. Installing development and debugging software for python
+3. Brief history of python
+4. What is a programming language?
+5. What is type conversion ?
+6. Use cases of Python
+7. Virtual Environment
+8. Operators
+9. List\_&_Matrix
+10. Objects in Python
+11. Stack and Queue
+12. Loop Break
+13. Decorators
+14. Functions
+14. What_is_Filter_in_python
+15. OOP-Class
+16. Advanced function-reduce()
+17. Advanced Function - Zip
+18. List Comprehension
+19. Advanced function-map()
+20. What is Automation?
+21. Args and Kwargs
+22. Web_Scraping
+23. How to install Python
+
 2. How To Install Python
 3. Installing development and debugging software for python
 4. Brief history of python
