@@ -10,7 +10,7 @@
 - [x] ES6 template literals 
 - [x] JSX Attributes and Styling react elements 
 - [x] npm 
-- [ ] Creating React App (Include setup for Windows/Linux/Mac)
+- [x] Creating React App (Include setup for Windows/Linux/Mac)
 - [x] The anatomy of a React App and Concept of Virtual DOM
 - [x] Installing the React Developer Tools
 ### Week 2 
