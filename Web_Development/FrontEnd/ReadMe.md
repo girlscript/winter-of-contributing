@@ -18,6 +18,7 @@
 - [HTML Links and Images](Html_Anchor_img_tag.md)
 - [HTML Tables](./HTML_Tables)
 - HTML Lists
+- [HTML Canvas](./HTML_Canvas/Canvas.md)
 - HTML Classes and IDs
 - HTML Forms
 - Semantic HTML
