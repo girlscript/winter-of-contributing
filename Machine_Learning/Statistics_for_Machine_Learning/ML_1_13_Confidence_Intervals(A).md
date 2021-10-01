@@ -1,0 +1,1 @@
+[![GirlScript QNA YouTube Video](https://github.com/101Priyanshi/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/Assets/ci.PNG)](https://drive.google.com/file/d/1otd71PNlMr7AJG8xEHFiFI90T0F7zL5-/view?usp=sharing)

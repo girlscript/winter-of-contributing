@@ -1,0 +1,1 @@
+[![ML_1_7_Parzen Windows(A)](https://github.com/tavneetgill/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/Assets/Parzen%20Windows.jpeg)](https://drive.google.com/drive/folders/13qplj-vidymrOp8mceBpzG1tRUHKOCd7?usp=sharing)
