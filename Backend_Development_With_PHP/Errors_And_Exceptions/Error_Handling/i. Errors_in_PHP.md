@@ -4,7 +4,7 @@
   - [Parse error or Syntax Error](#parse-error-or-syntax-error)
   - [Fatal Error](#fatal-error)
   - [Warning Error](#warning-errors)
-  - [Notice Error](#notice-error)
+  - [Notice Error](#notice-errors)
 - [Error Constraints in PHP](#error-constraints-in-php)
 
 # Error Handling
