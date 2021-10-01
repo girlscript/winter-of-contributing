@@ -65,18 +65,15 @@
   <li> Both versions can be downloaded from jQuery.com.</li>
 </ul>
 The jQuery library is a single JavaScript file, and you reference it with the HTML <script> tag (note that the <script> tag should be inside the <head> section):<br>
- Syntax: <head>
-            <script src="jquery-3.5.1.min.js"></script><br>
-        </head><br>
+ Syntax: <script src="jquery-3.5.1.min.js"></script><br>
   
 <ul><li> Important Points: Place the downloaded file in the same directory as the pages where you wish to use it.</li></ul>
 
 jQuery CDN: If you don't want to download and host jQuery yourself, you can include it from a  CDN (Content Delivery Network).<br>
 Google is an example of someone who host jQuery:<br>
 Google CDN:
-Syntax:  <head>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><br>
-        </head>
+Syntax: <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script><br>
+  
 <ul><li> One big advantage of using the hosted jQuery from Google: Many users already have downloaded jQuery from Google when visiting another site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. Also, most CDN's will make sure that once a user requests a file from it, it will be served from the server closest to them, which also leads to faster loading time. </li></ul>
   
 #  How to use jQuery in your scripting file?
