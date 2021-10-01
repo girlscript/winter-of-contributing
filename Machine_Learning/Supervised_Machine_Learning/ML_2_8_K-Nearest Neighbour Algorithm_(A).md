@@ -12,5 +12,5 @@ K-Nearest Neighbor also known as KNN is a supervised learning algorithm that can
 
 Click the image for more info
 
-[![ML 2.8 : K Nearest Neighbours (A)](https://user-images.githubusercontent.com/83051558/135641006-9d2b57ff-f9ba-4b57-8647-434352fc6549.png)](https://drive.google.com/drive/folders/1OObJrcyS45EDw5QMryfbebOCk9_IlCbA?usp=sharing)
+[![ML 2.8 : K Nearest Neighbours (A)](https://user-images.githubusercontent.com/83051558/135641006-9d2b57ff-f9ba-4b57-8647-434352fc6549.png)](https://drive.google.com/file/d/1uL45FsHKzBF6NQ5xMHOT20SpojZ1epZ9/view?usp=sharing)
 
