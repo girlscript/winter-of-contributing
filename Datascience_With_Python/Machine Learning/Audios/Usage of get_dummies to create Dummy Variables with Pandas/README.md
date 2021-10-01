@@ -16,8 +16,16 @@ into the machine-readable form.
 This first requires that the categorical values be mapped to integer values.
 
 
+![Capture_3](https://user-images.githubusercontent.com/79050917/135574219-fc620048-ac22-471e-8982-2fda64e2b07e.PNG)
 
-![Capture_3](https://user-images.githubusercontent.com/79050917/135568985-3e949ce7-5aba-46a6-9cf2-db6146f1309a.PNG)
+
+**Libraries we used to implement get_dummies:**
+
+- from pandas we get the method get_dummies.
+
+import pandas as pd
+
+pd.get_dummies()
 
 **Adavtages:**
 - Converts the categorical data to numeric which makes easily understandable by ml algorithms.
@@ -25,4 +33,3 @@ This first requires that the categorical values be mapped to integer values.
 **Disadvantage:**
 - Might impact on size if it has more categories in the dataset which results in increasing the complexity.
 
-![Capture_1](https://user-images.githubusercontent.com/79050917/135568991-c6c75b8d-5727-4d56-8b02-192dcc4b75b6.PNG)
