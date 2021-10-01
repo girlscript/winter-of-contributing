@@ -29,7 +29,7 @@ In Two-way binding the data gets binded from component to view and from view to 
 
 <p>&nbsp;</p>
 <p align="center">
-<img src="assests./../assets/Binding.png">
+<img src="./assets/Binding.png">
 </p>
 <p>&nbsp;</p>
 
