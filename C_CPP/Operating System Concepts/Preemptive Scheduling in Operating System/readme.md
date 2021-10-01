@@ -8,6 +8,6 @@ Overview of Algorithms in Preemptive Scheduling
 - In Preemptive scheduling, multiple processes can run. One process can be preempted i.e killed to run another.
 
 # Detail Documentation
-- [*What is Preemptive Scheduling in Operating System?**](./What_is_Preemptive_Scheduling_in_Operating_System.md)
+- [**What is Preemptive Scheduling in Operating System?**](./What_is_Preemptive_Scheduling_in_Operating_System.md)
 
 
