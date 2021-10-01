@@ -3,6 +3,7 @@
 ## Week:1 (Overview)
 - [x] [What is Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/What%20is%20Information%20Security%3F.md)
 - [x] [What is the importance and need for information security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/InformationSecurity.md)
+  - [Audio](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.2%20What%20is%20the%20importance%20and%20need%20for%20information%20security%3F%20.md)
 - [x] [Challenges in Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.3_Challenges_in_InformationSecurity.md)
 - [x] [Information Security Controls?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.4%20Information%20security%20controls.md)
 
