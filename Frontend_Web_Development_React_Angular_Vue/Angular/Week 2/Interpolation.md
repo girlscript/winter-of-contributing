@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets./../../../assets/Interpolation.png" width="100%">
+<img src="assests./../assets/Interpolation.png" width="100%">
 </p>
 <p>&nbsp;</p>
 
@@ -29,7 +29,7 @@ In Two-way binding the data gets binded from component to view and from view to 
 
 <p>&nbsp;</p>
 <p align="center">
-<img src="assests./../../../assets/Binding.png">
+<img src="assests./../assets/Binding.png">
 </p>
 <p>&nbsp;</p>
 
