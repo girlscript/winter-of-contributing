@@ -1,6 +1,6 @@
-# Hello World! 👋
+
 > Today we are talking about HTML form, it's mostly for beginners but everyone needs a refresher sometimes.
- # Form Element 📁
+ # Form Element 
 
 **This is the first element which we will learn. This element wraps all    the other elements that go inside of our form. This is the form  element.**
 
@@ -63,7 +63,7 @@ The input element is the most commonly used form element. It is used to make a  
 <input type="week">
 ```
 
-## Type 🌀
+## Type 
 
 **type**
 
@@ -220,7 +220,7 @@ The select menu element is made using opening and closing  **<select>**  tag.
 
 
 
-## Radio Buttons🔵
+## Radio Buttons
 
 Select menus are great if you have lots of options. If you have something like 5 or fewer options, it’s better to use radio buttons.
 
@@ -255,7 +255,7 @@ The difference between Select Menu and Radio Button is that radio buttons show y
 ```
 
 
-## HTML FORM BASIC  🚀🚀🚀
+## HTML FORM BASIC  
 
     <html>
         <head>
@@ -464,14 +464,12 @@ The difference between Select Menu and Radio Button is that radio buttons show y
 
 
 ***
-## 📝: Reference
+##  Reference
 
 >   
 > [w3schools](https://www.w3schools.com/html/html5_semantic_elements.asp)
 > [MDN
 > docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
 
-***
-
-## 👷‍♂️🚀   [Vikky singh](https://github.com/vikky-10)   🚀
+*** 
 
