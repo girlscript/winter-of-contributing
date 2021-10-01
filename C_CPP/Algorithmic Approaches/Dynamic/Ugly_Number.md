@@ -1,3 +1,4 @@
+```
 /*
 Ugly numbers are the numbers whose prime factors are 2,3 or 5 only.
 First 8 ugly numbers will be: 1, 2, 3, 4, 5, 6, 8, 9.
@@ -76,3 +77,4 @@ Ugly number is: 5832
 Enter value of n: 15
 Ugly number is: 24
 */
+```
