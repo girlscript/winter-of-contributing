@@ -21,7 +21,7 @@ It is used principally for prediction, forecasting, time series modeling, and de
 -  It performs a regression task. 
 - Regression models a target prediction value based on independent variables. 
 - It is mostly used for finding out the relationship between variables and forecasting. 
-- Different regression models differ based on – the kind of relationship between dependent and independent variables, they are considering and the number of independent variables being used.
+- Different regression models differ based on – the kind of relationship between dependent and independent variables, they are considering and the number of independent     variables being used.
 
 ![image](https://user-images.githubusercontent.com/63282184/135629530-f4534b25-5dab-4c12-99a4-311a1f4f5fff.png)
 
