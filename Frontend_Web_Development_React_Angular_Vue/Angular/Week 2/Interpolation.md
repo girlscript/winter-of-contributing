@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assests./../assets/Interpolation.png" width="100%">
+<img src="./assets/Interpolation.png" width="100%">
 </p>
 <p>&nbsp;</p>
 
