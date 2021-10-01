@@ -10,4 +10,7 @@ Regression is a problem where our taget holds continuos or real values. Like pre
 K-Nearest Neighbor classifier is one of the introductory classifiers, which every data science learner should be aware of.  KNN aims for pattern recognition tasks. 
 K-Nearest Neighbor also known as KNN is a supervised learning algorithm that can be used for regression as well as classification problems. Generally, it is used for classification in machine learning. 
 
-[Reference Audio](https://drive.google.com/drive/folders/1OObJrcyS45EDw5QMryfbebOCk9_IlCbA?usp=sharing)
+Click the image for more info
+
+[![ML 2.8 : K Nearest Neighbours (A)](https://user-images.githubusercontent.com/83051558/135641006-9d2b57ff-f9ba-4b57-8647-434352fc6549.png)](https://drive.google.com/file/d/1vTV1FUkQEr_Z1rECvrfXygagfjChnAkK/view?usp=sharing "SVM")
+
