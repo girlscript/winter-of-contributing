@@ -27,84 +27,90 @@ Schedule all jobs with such that minimum penalty should be paid.
 Goal: Schedule jobs to minimize penalty.
 
 ## Example:
-![alt_txt](https://github.com/Ayushi2811/Project-on-Data-structure/blob/master/Screenshot%202021-09-27%20105030.jpg)
-
+![alt_txt](https://user-images.githubusercontent.com/65339915/135598494-1f343f48-1af9-4da5-9a3a-a5cbdf427816.jpg)
 ## Code
 
-```class Solution {
+```
+
+#include<iostream>
+#include<algorithm>
+#include<vector>
+using namespace std;
+//declaring structure for id,deadline profit of arrays
+struct Job
+{
+   int id;    
+   int dead;    
+   int profit;  
+};
+class Solution {
 public:
 
-bool static comp(vector<int>&a,vector<int>&b){
-    if(a[0]==b[0] && a[1]==b[1]){
-        return a[2]<b[2];
+//arranging array on decreasing order of profit
+static bool comp(Job a,Job b){
+        return a.profit>b.profit;
     }
-    
-    else if(a[1]==b[1]){
-        return a[0]<b[0];
-    }
-    
-    else{
-        return a[1]<b[1];
-    }
-}
-
-
-int jobScheduling(vector<int>& startTime, vector<int>& endTime, vector<int>& profit) {
-    
-    int n=startTime.size();
-    
-    vector<vector<int>>vec(n);
-    
-    for(int i=0;i<n;i++){
-        
-        int a=startTime[i];
-        int b=endTime[i];
-        int c=profit[i];
-        
-        vec[i]={a,b,c};
-        
-    }
-    
-    sort(vec.begin(),vec.end(),comp);
-    
-    vector<int>dp(n,0);
-    
-    dp[0]=vec[0][2];
-    
-    for(int i=1;i<n;i++){
-        
-        int inc=-1,ans=vec[i][2];
-        
-        int low=0,high=i-1;
-        
-        while(low<=high){
-            
-            int mid=(low+high)/2;
-            
-            if(vec[mid][1]<=vec[i][0]){
-                inc=mid;
-                low=mid+1;
+    vector<int> JobScheduling(Job arr[], int n) 
+    { 
+        //sorting in decreasing order of profit
+        sort(arr,arr+n,comp);
+        //declaring an array bool type to check if its empty or not
+        bool fill[n];
+        for(int i=0;i<n;i++)
+        fill[i]=false;
+        int res[n],c=0,prof=0;
+        for(int i=0;i<n;i++)
+        {
+            for(int j=min(arr[i].dead,n)-1;j>=0;j--)
+            {
+              //if time slot is empty 
+                if(fill[j]==false)
+                {
+                  c++;
+                  //put job in this slot and make it fill as true
+                    prof=prof+arr[i].profit;
+                    fill[j]=true;
+                    break;
+                }
             }
-            
-            else{
-                high=mid-1;
-            }
-            
         }
+                    return {c,prof};
+
         
-        if(inc!=-1){
-            ans+=dp[inc];
-        }
-        
-        dp[i]=max(ans,dp[i-1]);
-    }
-    
-    return dp[n-1];
-    
-}
+    } 
 };
+int main()
+{
+  int t;
+  //asking user to enter number of test cases
+  cout<<"\n Enter number of test cases:";
+  cin>>t;
+  while(t--)
+  {
+    int n;
+    cout<<"\n Enter Array size:";
+    cin>>n;
+    Job arr[n];
+
+  for(int i= 0;i<n;i++){
+int x, y, z;
+cin >> x >> y >> z;
+     arr[i].id=x;
+     arr[i].dead=y;
+     arr[i].profit=z;
+  }
+  //creatinf object of class solution
+  Solution ob;
+
+  vector<int> ans=ob.JobScheduling(arr,n);
+  //calling of function and printing result
+  cout<<"\n Count of jobs="<<ans[0]<<"maximum profit="<<ans[1]<<endl;
+    return 0;
+}
+
+}
 ```
 
 # Output
-![alt_txt](https://github.com/Ayushi2811/Project-on-Data-structure/blob/master/Screenshot%202021-09-27%20111003.jpg)
+![alt_txt](https://user-images.githubusercontent.com/65339915/135598542-3f1fc7b2-6585-45ff-ba2c-d229913ee918.jpg)
 
