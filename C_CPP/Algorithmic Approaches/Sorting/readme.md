@@ -5,3 +5,4 @@
 - [Insertion sort in C++](./InsertionSort.md)
 - [Cyclic Sort in C++](./Cyclic_Sort.md)
 - [Counting Sort in C++](./CountingSort/CountingSort.md)
+- [Wave Sort in C++](./Wave_Sort.md)
