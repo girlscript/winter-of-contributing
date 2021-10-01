@@ -1,17 +1,18 @@
 # Enums in Java
 
-Let’s start with What is Enums?
+## Let’s start with What is Enums?
+
 So Enums are basically data types in Java which contains a fixed set of constants. These special data types allows a variable to be a set of predefined constants.  
 Theses variables when used at any stage later must be equal to one of the values that have been predefined for it in the Enums. 
 
-Now let’s dive into some technical meaning
+## Now let’s dive into some technical meaning
 
-So Java Enums are added and available for use since JDK 1.5. They can be thought of as classes which have a fixed set of constants. 
+So Java ***Enums*** are added and available for use since **JDK 1.5**. They can be thought of as classes which have a fixed set of constants. 
 Now you might be wondering what constants are? So constants are basically variables that cannot be changed. In Java all the constants are written using capital letters.
 Thus the Enums have constant fields that are static and final implicitly.
 
 The enum types in Java are more useful and powerful than their counterparts in other programming languages. Enums are generally used to create our own datatypes like classes. 
-The keyword enum type also called enumerated data type, defines a class in Java called ***enum***. This enum can be initialized or declared inside the class or outside it.
+The keyword enum type also called ***enumerated data type***, defines a class in Java called ***enum***. This enum can be initialized or declared inside the class or outside it.
 
 As we saw that enum types inherits from the **Enum** class thus they cannot inherit from any other class but definitely can implement a number of interfaces. 
 They can also have constructors, fields and methods.
@@ -55,7 +56,9 @@ System.out.println(item1);
 }
 ```
 This will give the Output: 
+```
 STAR
+```
 
 This was an example indicating use of **enum** outside the class. Now lets take one example inside the class. 
 I am using a different example to showcase some method but if we use the same example as well the results won’t be affected and would remain same 
@@ -89,10 +92,11 @@ Here there are 2 important things to be noted.
 The constructor for an enum type is package-private or private access. It automatically creates the constants that are defined at the beginning of the enum body. 
 enum can contain a constructor and it is executed separately for each enum constant at the time of enum class loading.
 We can’t create enum objects explicitly and hence we cannot invoke an enum constructor ourself.
-So this was all about introduction to enums and its Structure. 
+
+So this was all about Introduction to enum and its Structure. 
 
 
 ## Author
-- [@Abhinay Garg] (https://github.com/techabhi08)
+- [@ Abhinay Garg] (https://github.com/techabhi08)
 
 
