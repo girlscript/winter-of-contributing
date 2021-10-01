@@ -9,7 +9,7 @@
 <hr>
 
 
-### 1. Background : 
+### 1. Background :
 
 - [1. History of free and open-source software (1980 & 1990’s)](1.Background/1._History_Of_Free_And_Open_Source.ipynb)
 
@@ -19,8 +19,10 @@
 
 - [1.3 Recent open source projects](1.Background/1.3_Recent_OS_Projects.md)
 
+- [1.4 Licenses in open-source projects](1.Background/1.4_Licenses_In_OS_Projects.md)
 
-### 2. Getting started with open source : 
+
+### 2. Getting started with open source :
 
 - [2.0 Why open source?](2.Getting_Started_With_Open_Source/2.0_Why_Open_Source.md)
 
@@ -52,7 +54,7 @@
 - [3.7 Youtube resources & blogs](3.Share_Things_With_Community/3.7_Youtube_Video_links_for_Beginners.md)
 
 - [3.8 Submit patch to linux kernel](3.Share_Things_With_Community/3.8_Submit_Patch_To_Linux_kernel.md)
- 
+
 
 ### 4. Open source programs :
 
@@ -221,10 +223,10 @@
 <h2 align="center"> ✨ CONTRIBUTORS ✨</h2>
 
 <p align="center">
- 
+
  <a href="https://github.com/girlscript/winter-of-contributing/graphs/contributors">
  <img src="https://contrib.rocks/image?repo=girlscript/winter-of-contributing" />
 
-</p> 
+</p>
 
 <hr>
