@@ -16,6 +16,8 @@
 - [Operators](./Operators)
 - [List_&_Matrix](./List_&_Matrix)
 - [What_is_an_object_in_Python](./What_is_an_object_in_Python)
+- [Parameters_and_Arguments](./Parameters_and_Arguments)
+
 ## Learning path
 1. Git & GitHub
 2. Brief history of python
@@ -25,3 +27,6 @@
 6. Virtual Environment
 7. Operators
 8. List_&_Matrix
+9. What_is_an_object_in_Python
+10. Parameters_and_Arguments
+
