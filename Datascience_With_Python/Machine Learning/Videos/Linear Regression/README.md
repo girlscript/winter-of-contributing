@@ -30,3 +30,7 @@ It is used principally for prediction, forecasting, time series modeling, and de
 - Hence, the name is Linear Regression.
 - In the figure above, X (input) is the work experience and Y (output) is the salary of a person. The regression line is the best fit line for our model.
 
+![image](https://user-images.githubusercontent.com/63282184/135629631-2a11b08d-7737-4792-a056-8bd84ec2d15a.png)
+
+![image](https://user-images.githubusercontent.com/63282184/135629656-711d798b-5152-48b9-b383-7428ff123d1e.png)
+
