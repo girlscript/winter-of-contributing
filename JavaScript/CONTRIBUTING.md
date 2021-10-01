@@ -10,6 +10,10 @@ get yourself started.
 - In simple words, it is an open source contribution contest
   that is completely content and documentation-based. More
   specifically, it targets sharing knowledge content for coders.
+  
+## Roadmap for JavaScript
+The most recently updated roadmap for this domain in particular is mentioned
+here: [Roadmap](https://github.com/paramsiddharth/gwoc-js-roadmap/releases/latest/download/JavaScript.Roadmap.for.GWoC.pdf).
 
 ## Setting Up
 - For most of the JavaScript related learnings and activities, you'll
