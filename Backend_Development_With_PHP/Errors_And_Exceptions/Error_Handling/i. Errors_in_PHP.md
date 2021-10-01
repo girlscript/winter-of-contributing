@@ -1,3 +1,12 @@
+# Topics Covered
+- [Errors](#error-handling)
+- [Types of Errors Raised](#types-of-errors-raised)
+  - [Parse error or Syntax Error](#parse-error-or-syntax-error)
+  - [Fatal Error](#fatal-error)
+  - [Warning Error](#warning-errors)
+  - [Notice Error](#notice-error)
+- [Error Constraints in PHP](#error-constraints-in-php)
+
 # Error Handling
 
 - Error is the fault or mistake in a program. It can be several types. Error can occur due to wrong syntax or wrong logic. It is a type of mistakes 
