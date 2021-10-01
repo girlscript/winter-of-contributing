@@ -6,4 +6,4 @@ In simple words, the dependent variable is binary in nature having data coded as
 
 ## Link for the Video:
 
-[![image](https://raw.githubusercontent.com/Apoorv-17/winter-of-contributing/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/logistic_regression.png)](https://drive.google.com/file/d/11hcMQmsDRrZB2aBH8_MzQXHPKq5LYSRX/view?usp=sharing)
+[![image](https://raw.githubusercontent.com/Apoorv-17/winter-of-contributing/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/logistic_regression.png)](https://youtu.be/rBnuVY8CinQ)
