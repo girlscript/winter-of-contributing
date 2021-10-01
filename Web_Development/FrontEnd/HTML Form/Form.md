@@ -1,4 +1,4 @@
-
+## HTML FORM
 > Today we are talking about HTML form, it's mostly for beginners but everyone needs a refresher sometimes.
  # Form Element 
 
@@ -171,7 +171,7 @@ The most used attribute with a  **label**  is  **for.**
  
 
  
-## Checkboxes ✔
+## Checkboxes 
 
 Sometimes you might have a group of predefined options. You want the user to be able to select multiple options and not just one of them. That’s where checkboxes are useful.
 
@@ -196,7 +196,7 @@ Let’s say that our form is targeted for students who are going to seek admissi
 
 The select menu element is made using opening and closing  **<select>**  tag.
 
-**<select>**  — The select element renders a  **drop-down menu**  that contains selectable options. The  **select**  element won’t do anything, by itself. This form element actually needs additional elements inside of it, exactly like  **<ul>**  elements needs  **<li>**  elements. The elements we put inside of  **select** element are called  **option**  elements.
+**<select>**  — The select element renders a  **drop-down menu**  that contains selectable options. The  **select**  element won’t do anything, by itself. This form element actually needs additional elements inside of it, exactly like  elements needs   elements. The elements we put inside of  **select** element are called  **option**  elements.
 
 **Attributes:**
 
