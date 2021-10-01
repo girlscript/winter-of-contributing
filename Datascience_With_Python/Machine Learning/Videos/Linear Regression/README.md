@@ -23,4 +23,10 @@ It is used principally for prediction, forecasting, time series modeling, and de
 - It is mostly used for finding out the relationship between variables and forecasting. 
 - Different regression models differ based on – the kind of relationship between dependent and independent variables, they are considering and the number of independent variables being used.
 
+![image](https://user-images.githubusercontent.com/63282184/135629530-f4534b25-5dab-4c12-99a4-311a1f4f5fff.png)
+
+- Linear regression performs the task to predict a dependent variable value (y) based on a given independent variable (x). 
+- So, this regression technique finds out a linear relationship between x (input) and y(output). 
+- Hence, the name is Linear Regression.
+- In the figure above, X (input) is the work experience and Y (output) is the salary of a person. The regression line is the best fit line for our model.
 
