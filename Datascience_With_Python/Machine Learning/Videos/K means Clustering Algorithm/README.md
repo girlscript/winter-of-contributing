@@ -1,7 +1,7 @@
 # K Means Clustering Algorithm
 ## Video Link:
 
-Clustering is an unsupepervised learning method in which we form the dataset into cluster of items or group of itmes on the basis of similarity or dissimilarity between the items or objects. In other words, we form groups several groups of items or objects such that each group has its the similar items/objects while rest of the items which are dissimilar are in some other group. In an unsupervised method, we are not given any pre defined labels and we have to infer the given dataset to form labelled sets. Same is being done here. We will not be given any predefined label and we have to label our clusters in such a way that all similar objects should be toegther in each cluster and the data point from different cluster should be as different as possible.
+Clustering is an unsupepervised learning method in which we form the dataset into cluster of items or group of items on the basis of similarity or dissimilarity between the items or objects. In other words, we form groups several groups of items or objects such that each group has its the similar items/objects while rest of the items which are dissimilar are in some other group. In an unsupervised method, we are not given any pre defined labels and we have to infer the given dataset to form labelled sets. Same is being done here. We will not be given any predefined label and we have to label our clusters in such a way that all similar objects should be toegther in each cluster and the data point from different cluster should be as different as possible.
 
 Here, I will be trying to explain the most basic and important clustering algorithm called K Means clustering Algorithm.
 ## What is K Means Clustering Algorithm
@@ -13,15 +13,15 @@ Example: Let us consider the example of a courier company which is currently hav
 
 ## Algorithm/Working for K-Means clustering
 - Step 1: Choose the number of clusters (k) you want.
-- Step 2: Start with k centorids by putting them at random place.
+- Step 2: Start with k centroids by putting them at random place.
 - Step 3: Compute distance from every point from centroid and cluster them accordingly.
-- Step 4: Adjust centorids such that they become center point of the cluster just formed.
+- Step 4: Adjust centroids such that they become center point of the cluster just formed.
 - Step 5: Again re-cluster every point based on their distance with centroid.
 - Continue above steps until stopping criteria is not met.
 - As soon as stopping criteria is met, stop and the clusters present are final clusters or the results we require.
 
 ## Stopping Criteria for K Means Clustering
-- Centroids of the newly points cluster have'nt changed
+- Centroids of the newly points cluster have not changed
 - Points in a clusters do not change their location.
 - Maximum number of iterations are done.
 
@@ -143,7 +143,7 @@ plt.show()
 
 **The above steps was for dataset which needs to be clustered on the basis of only 2 parameters.**
 
-## To cluster dataset on the basis of 2 or more parameters, follow below steps
+## To cluster dataset on the basis of 3 or more parameters, follow below steps
 Selecting numerical columns to apply k means 
 ```
 x=data.iloc[:,[1,2,3]]
@@ -213,5 +213,7 @@ There are many more applications. You can always refer internet to know more
 ## Conclusion
 At last, we can conclude that K means algorithm, like all other algorithms have its own set of applications, advantages and disadvantages. However, the presence of advantages itself are enough to give the importance this algorithm deserves and I would encourage everyone to learn this algorithm and implement it.  
 Thankyou
+
+*To learn more about KMeans, you can visit [this link](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)*
 
 ***Contribution by : Shubham Patel***
