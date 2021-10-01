@@ -1,4 +1,4 @@
-# C/CPP: Operating System Concepts: Preemptive Scheduling #2201
+# C/CPP: Operating System Concepts- Preemptive Scheduling #2201
 # What is Preemptive Scheduling in Operating System?
 Overview of Algorithms in Preemptive Scheduling
 1.Round Robin (RR)
