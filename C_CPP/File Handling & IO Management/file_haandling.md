@@ -1,4 +1,3 @@
-/*
 In C++ file input/output is implemented through header file (fstream.h) of C++ standard library. In C++, a file at 
 lowest level is interpreted as a sequence or stream of bytes.
 The fstream library predefines a set of operations for handling a file, i.e., it defines certain clsses to perform file input 
@@ -19,10 +18,11 @@ ios::out -> output mode (opens file for writing)
 ios::ate -> input/output mode (seeks to end-of-file)
 ios::app -> append mode (it causes all output to the file to be appended at the end)
 ios::binary -> input/output mode (it causes a file to be opened in binary mode)
-*/
+
 
 // Now , below is program to modify data in a file, i.e., it both reads and writes in the file
 
+```
 #include <iostream>
 #include <fstream>
 #include <stdio.h>
@@ -63,7 +63,9 @@ class student
         return rollno;
     }
     void modify();
-} s1,stud;
+} 
+                                                                                                   
+s1,stud;
 
 void student::modify()  //modify() displays old details and ask for new details 
 {
@@ -126,3 +128,4 @@ int main()
     fio.close();
     return 0;    
 }
+```            
