@@ -105,6 +105,9 @@
 
 <footer>
 ```
+## :dart: HTML Semantic in a Website
+![final_gwoc (2)](https://user-images.githubusercontent.com/83009295/135573188-00e5958f-78a2-4690-b61c-60e6943f2bb8.png)
+`Credit: @_georgemoller`
 
 ***
 ## :dart: Benefits of Semantic Elements:
@@ -149,4 +152,4 @@ There are many semantic elements in the HTML some of them are mentioned here.
 
 ***
 
-## :writing_hand: Contributor [Vansh Sharma](https://github.com/VanshSh)
+## :writing_hand: Contributors [Vansh Sharma](https://github.com/VanshSh), [Ishani Saravanan](https://github.com/ishani1124)
