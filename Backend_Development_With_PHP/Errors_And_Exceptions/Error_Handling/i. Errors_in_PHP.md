@@ -57,3 +57,33 @@
           > Reason: On Line 2, We want to include this PHP file with the name 'db_connection.php' - but it is not present at that specific location
           > In that case, warning would be raised
           
+
+     3. ### Notice Errors:
+        - Similar to warning error. It means that the program contains something wrong but it allows the execution of script.
+          
+          ```php
+            <?php 
+              $x = 2;
+              $y = 3;
+              echo $x + $y;
+              echo $sum;
+            ?>
+          ```
+          > Reason: This program use undeclared variable $sum so it gives error message.
+     <br />
+## Error Constraints in PHP
+- | Error Constraint | Description |
+  | :-- | :-- |
+  | E_ERROR | A fatal error that causes script termination |
+  | E_WARNING | Run-time warning that does not cause script termination |
+  | E_PARSE | Compile time parse error |
+  | E_NOTICE | Run time notice caused due to error in code |
+  | E_CORE_ERROR | Fatal errors that occur during PHP’s initial startup (installation) |
+  | E_CORE_WARNING | Warnings that occur during PHP’s initial startup |
+  | E_COMPILE_ERROR | Fatal compile-time errors indication problem with script |
+  | E_USER_ERROR | User-generated error message |
+  | E_USER_WARNING | User-generated warning message |
+  | E_USER_NOTICE | User-generated notice message |
+  | E_STRICT | Run-time notices |
+  | E_RECOVERABLE_ERROR | Catchable fatal error indicating a dangerous error |
+  | E_DEPRECATED | Run-time notices |
