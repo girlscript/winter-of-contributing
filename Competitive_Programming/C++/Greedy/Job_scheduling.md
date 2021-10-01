@@ -111,6 +111,8 @@ cin >> x >> y >> z;
 }
 ```
 
+##Time Complexity:O(n^2)
+
 # Output
 ![alt_txt](https://user-images.githubusercontent.com/65339915/135598542-3f1fc7b2-6585-45ff-ba2c-d229913ee918.jpg)
 
