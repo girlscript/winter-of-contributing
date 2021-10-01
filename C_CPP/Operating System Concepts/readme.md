@@ -1,1 +1,1 @@
-- [*What is Preemptive Scheduling in Operating System?**](./What_is_Preemptive_Scheduling_in_Operating_System.md)
+- [**What is Preemptive Scheduling in Operating System?**](./What_is_Preemptive_Scheduling_in_Operating_System.md)
