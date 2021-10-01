@@ -10,3 +10,5 @@ Operators are special symbols in Python that carry out arithmetic or logical com
 5. [**Identity operators**](https://github.com/SHAIMA-HAQUE/winter-of-contributing/blob/Python/Python/Operators/Python_3_3_What_are_Membership_and_Identity_Operators_.ipynb)
 6. [**Membership operators**](https://github.com/SHAIMA-HAQUE/winter-of-contributing/blob/Python/Python/Operators/Python_3_3_What_are_Membership_and_Identity_Operators_.ipynb)
 7. [**Bitwise operators**](./bitwiseOperator.ipynb)  [**(Audio)**](https://github.com/Dracarys0511/winter-of-contributing/blob/Python/Python/Operators/7_Bitwise_Operators_Audio.md)
+8. [**Arithmetic & Assignment Operators Audio**] (Python\Operators\_Arithmatic_and_Assignment_operators_Audio.md)
+9. [**Arithmetic & Assignment Operators Documentation**] (Python\Operators\Arithmatic_and_Assignment_operators.ipynb)
