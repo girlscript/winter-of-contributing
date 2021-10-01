@@ -12,7 +12,8 @@
  <br /> 
  A program example to help you understand the concept much better:
  
- ``` 
+ ```C++
+ 
  #include<iostream>
  using namespace std;
  
@@ -60,10 +61,11 @@
    polygon object;
    object.getdata(6,12,3)
  }
+ 
 ```
  
 
-> ##### Output: <br>
+ ##### Output: <br>
 >  Length : 6 <br>
 >  Width : 12  <br>
 >  Area :36    <br>
