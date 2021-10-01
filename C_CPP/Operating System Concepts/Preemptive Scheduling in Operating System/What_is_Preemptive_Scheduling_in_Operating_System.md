@@ -56,6 +56,8 @@ Average waiting time: (39/3) = 13ms
 
 Total turnaround time: (18 + 23 + 33) = 74ms
 Average turnaround time: (74/3) = 24.66ms
+
+
 eg reference: https://afteracademy.com/blog/process-scheduling-algorithms-in-the-operating-system
 
 **2. Shortest Remaining Time First Algorithm (SRTF)**
@@ -72,7 +74,8 @@ eg reference: https://afteracademy.com/blog/process-scheduling-algorithms-in-the
  * Eg.
 
   ![Shortest Remaining Time First Algorithm (SRTF)](SRTF.jpg)
-  //Above eg reference: https://www.geeksforgeeks.org/introduction-of-shortest-remaining-time-first-srtf-algorithm/
+  
+  Above eg reference: https://www.geeksforgeeks.org/introduction-of-shortest-remaining-time-first-srtf-algorithm/
 
 **3. Priority Sheduling Algorithm (Preemptive Version):**
  * Priority Sheduling Algorithm is a method of scheduling processes that is based on priority. 
@@ -87,6 +90,7 @@ eg reference: https://afteracademy.com/blog/process-scheduling-algorithms-in-the
 
  * eg.
  ![Priority Sheduling Algorithm (Preemptive Version)](Priority_scheduling.jpg)
+
 
  Above eg reference: https://cppsecrets.com/users/1108979711510497121461151049710464115111109971051219746101100117/Python-Priority-Scheduling-Preemeptive-Algorithm-with-Different-Arrival-Time.php
 
