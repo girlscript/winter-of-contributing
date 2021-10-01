@@ -33,6 +33,7 @@
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
+- [Dictionary Comprehension](./Dictionary_Comprehension)
 
 
 ## Learning path
@@ -61,4 +62,5 @@
 22. What is Automation?
 23. Args and Kwargs
 24. Web_Scraping
+25. Dictionary Comprehension
 
