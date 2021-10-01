@@ -1,1 +1,2 @@
 - [Breadth First Search](./BreadthFirstSearch)
+- [Depth First Search](./DepthFirstSearch)
