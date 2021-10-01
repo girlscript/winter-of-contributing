@@ -1,4 +1,4 @@
-In C++ file input/output is implemented through header file (fstream.h) of C++ standard library. In C++, a file at 
+ In C++ file input/output is implemented through header file (fstream.h) of C++ standard library. In C++, a file at 
 lowest level is interpreted as a sequence or stream of bytes.
 The fstream library predefines a set of operations for handling a file, i.e., it defines certain clsses to perform file input 
 and output.For example :
