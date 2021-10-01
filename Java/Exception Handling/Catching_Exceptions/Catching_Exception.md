@@ -4,10 +4,10 @@ Exception in Java relate to fundamental *errors* that violate the rules of the J
 
 When an exceptional condition arises, an object representing that exception is created and *thrown* in the method that caused the error. That method may choose to handle the exception itself, or pass it on.Either way, at some point, the exception is *caught* and processed.
 
-* Java exception handling is managed via five keywords : *try*, *catch*, *throw*, *throws*, and *finally*.
+* Java exception handing is managed via five keywords : *try*, *catch*, *throw*, *throws*, and *finally*.
 
 ## What is **throwing the exception**?
-When the exception occurs in a method, the process of creating the exception object and handling it to the runtime environment is said to be **throwing the exception**.
+When the exception occurs in a method, the process of creating the exception object and handing it to the runtime environment is said to be **throwing the exception**.
 
 ## What is **catching the exception**?
 If appropriate exception handler(*it is the block of code that can process the exception object*) is found, exception object is passed to the handler to process it. The handler is said to be **catching the Exception**.
@@ -16,7 +16,7 @@ __Try and Catch :__
 Try block contains the statement that you want to monitor for exceptions. If the exception occurs within the try block, it is *thrown*.
 Catch block is use to catch the exception and handle it in rational manner.
 
-### *General form of an exception handling block*
+### *General form of an exception handing block*
 ```java
 try{
     //block of code to monitor for errors
@@ -46,7 +46,7 @@ public class MainClass {
             System.out.println(c);
         }
         catch(ArithmeticException e){
-            System.out.println(e.getMessage() + " occured, kindly check your code");
+            System.out.println(e.getMessage() + " occurred, kindly check your code");
         }
         System.out.println("This is very important:");
         
@@ -55,7 +55,7 @@ public class MainClass {
 ```
 **OUTPUT:**
 
-/ by zero occured, kindly check your code
+/ by zero occurred, kindly check your code
 
 This is very important: 
 
@@ -80,7 +80,7 @@ throw <Exception Ref>;
 ```
 __Throws :__
 
-Any code that is thrown out of a method must be specified as such by a *throws* clause. It is used in the signature of method to indicate that this method might throw one of the listed type exceptions. The caller to thse methods has to handle the exception using a try-catch block.
+Any code that is thrown out of a method must be specified as such by a *throws* clause. It is used in the signature of method to indicate that this method might throw one of the listed type exceptions. The caller to these methods has to handle the exception using a try-catch block.
 
 General form of method declaration that includes throws clause:
 ```java
