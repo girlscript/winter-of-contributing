@@ -41,9 +41,9 @@ end ← (size-1)
 
 
 binarySearch(arr, size)
-      loop until beg is not equal to end
+      loop until start is not equal to end
     
-      	midIndex = (beg + end)/2
+      	midIndex = start + (end – start)/2
       
       	if (item == arr[midIndex] )
           	return midIndex
@@ -72,7 +72,7 @@ int binary_search(int arr, int size, int target)
      int end = size-1;
      while(start<=end)
      {   // Finding mid of the array
-         int mid = end+(start-end)/2;
+         int mid = start + (end – start)/2;
         
          // Comparing the middle element with target
          if(arr[mid] == target)
@@ -152,7 +152,7 @@ int find_first_occur(int arr[] , int n)
     int ans =-1;
     while(start<=end)
     {   // Finding mid of the array   
-        int mid=(end+start)/2;
+        int mid = start + (end – start)/2;
 
         //if middle is 0 then 1 lies in right half as array is sorted
         if(arr[mid] == 0)
@@ -228,7 +228,7 @@ int binary(int arr[], int size, int target, bool isleft)
     while(start<=end)
     {   
     	// finding the mid of the array
-        int mid=(start+end)/2;
+        int mid = start + (end – start)/2;
 
         // if target is smaller than middle then traverse in left half
         if(arr[mid]>target)
