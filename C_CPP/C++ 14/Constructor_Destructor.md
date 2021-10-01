@@ -150,6 +150,13 @@ Let us look at the sample code,
 ```
 `Code describing the working of the constructors and destructors:`
 
+## MULTIPLE CONSTRUCTORS:
+
+Multiple constructors are known as constructor overloading. In the sample code below there are 
+3 constructor having the same argument but different parameter list i.e there is a default constructor,
+a parameterized constructor and a copy constructor. Hence, it is an example of multiple constructors.
+The concept is quite similar to function overloading.
+
 ```CPP
 #include<iostream>
 using namespace std;
@@ -211,6 +218,15 @@ a += 10; // This means a= a + 10;
 There are several operators like:
 `=, +=, -=, *=, /=, %=, >>=, <<=, |=, &=, ^=`
 
+In case of a class too, the assignment operators are used for assigning a value.
+
+```
+A obj1, obj2;
+obj1= obj2;
+```
+
+Here, there is a class A which has 2 objects, obj1 and obj2. Now, the assignment operator `=` is used to assigned the values of obj2 to obj1.
+
 Let us understand the concepts with more clarity with the help of a video,
 
-[Video on Constructor and Destructor by elixir14082002](https://drive.google.com/file/d/15bq7ltmc7QIpRmBUtRmRSo15lXi7e2VX/view?usp=sharing)
+[Video on Constructor and Destructor](https://drive.google.com/file/d/15bq7ltmc7QIpRmBUtRmRSo15lXi7e2VX/view?usp=sharing)
