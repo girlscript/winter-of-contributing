@@ -6,12 +6,12 @@
  
 ## 1) Components (Week-1) 
 - [x] Creating a component using the Angular CLI 
-- [ ] Creating a component manually 
+- [x] Creating a component manually 
 - [ ] Component LifeCycle 
-- [ ] Component Interaction 
-- [ ] Sharing Data between parent and child directives and components(@Input 
+- [x] Component Interaction 
+- [x] Sharing Data between parent and child directives and components(@Input 
 , @Output , Event Emitter) 
-- [ ] Dynamic Components 
+- [x] Dynamic Components 
  
 ## 2) Templates (Week-2) 
 - [ ] Interpolation 
