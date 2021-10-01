@@ -6,10 +6,10 @@ int main()
 {
 int t,a,ans;
 long long int b;
-scanf(“%d”,&t);
-while(t–)
+scanf("%d",&t);
+while(t--)
 {
-scanf(“%d %lld”,&a,&b);
+scanf("%d %lld",&a,&b);
 if(a==0 && b>0)
 ans=0;
 else if(a>0 && b==0)
@@ -25,8 +25,7 @@ ans=temp%10;
 
 }
 
-printf(“%d\n”,ans);
+printf("%d\n",ans);
 }
 return 0;
 }
-
