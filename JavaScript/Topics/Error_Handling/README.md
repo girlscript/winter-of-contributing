@@ -23,7 +23,7 @@ Error handling is the process of dealing with errors in our codebase.
 
 <div style="display: flex">
 <div style>
-<img src="trycatch.png" alt="Try Catch Finally Block Diagram" width="1000"/>
+<img src="trycatch.png" alt="Try Catch Finally Block Diagram" width="200"/>
 </div>
 <div style="margin-left:1rem">
 There is a syntax of `try...catch` in Javascript that is used to catch the error, and instead of throwing the error, it does something else.
