@@ -1,11 +1,10 @@
-ROT13 {align="center"}
-=====
+<h1 align="center">ROT13</h1>
 
 ROT13 is an abbreviation for **Rotate by 13 places**. It is a special
 case of Caesar cipher where we shift each letter by 13 places to either
 encrypt our message or decrypt our message.
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ROT13_table_with_example.svg/1200px-ROT13_table_with_example.svg.png)
+<img src="https://www.cs.mcgill.ca/~rwest/wikispeedia/wpcd/images/102/10205.png" width="50%" align="center" />
 
 ### Drawback
 
@@ -14,6 +13,7 @@ cipher and doesnot have any practical use as it can be decrypted very
 easily.
 
 ### Python Program for Rot13
+
 
 #### Explaination to the code:
 
