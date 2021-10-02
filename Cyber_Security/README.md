@@ -3,6 +3,7 @@
 ## Week:1 (Overview)
 - [x] [What is Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/What%20is%20Information%20Security%3F.md)
 - [x] [What is the importance and need for information security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/InformationSecurity.md)
+  - [Audio](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.2%20What%20is%20the%20importance%20and%20need%20for%20information%20security%3F%20.md)
 - [x] [Challenges in Information Security?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.3_Challenges_in_InformationSecurity.md)
 - [x] [Information Security Controls?](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.4%20Information%20security%20controls.md)
 
@@ -30,6 +31,7 @@
 
 - [x] [What is virtualization](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9%20What%20is%20Virtualization%20and%20the%20need%20for%20Virtualization.md)
 - [x] Types of virtualization
+  - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Types%20of%20virtualisation.md)
   - [Network Virtuliazation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.1_Types%20of%20Virtualization%20-%20What%20is%20Network%20Virtualization%20.md)
   - [Virtual Desktop Infrastructure (VDI)](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.2_Types%20of%20Virtualization-What%20is%20Virtual%20Desktop%20Infrastructure(VDI)%20.md)
   - [Application virtualization](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.3_Types_of_Virtualization.md)
@@ -64,13 +66,17 @@
     - [Multipartite virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.2%20Multipartite%20virus%20%231673.md)
     - Overwrite virus
     - [Browser Hijacker](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/BROWSER_HIJACKERS.md)
+      - [video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Browser%20Hijacker%20vedio.md)
     - [Polymorphic virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Polymorphic_Virus.md)
     - [Resident virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/3.6_Resident_virus.md)
     - [Trojan Horse](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Trojan_Horse.ipynb)
     - [Web Scripting Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.8%20Web%20scripting%20virus%20%231958.md)
     - [File Injecting virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/File-Infector_Virus.md)
-    - Boot Sector Virus
+    - [Boot Sector Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Boot%20Sector%20Virus.md)
     - [Malware](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.2%20Malware%20%232499.md)
-    - [Phishing attacks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity:%203.9.3%20Phishing%20Attacks.md)
+    - [Phishing attacks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cyber%20security%203.9.3%20Phishing%20Attackes.md)
     - [Cloud jacking](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.4%20Cloud%20Jacking.md)
     - [MAN-IN-THE-MIDDLE attack](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Man_in_middle_attack.md)
+## Week-4 (Cryptography)
+- [Cryptography](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/4_Cryptography.md)
+- [ROT13](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/rot13.md)
