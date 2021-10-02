@@ -34,6 +34,8 @@ Download and use '.txt' file here.
 * Image Demo
 * Video Demo
 * Webcam Demo
+
+**Suggested editors - VScode, Jupyter Notebook, Google Colab, Kaggle
  
  # sample output :
  
