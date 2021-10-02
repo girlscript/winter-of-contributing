@@ -6,15 +6,15 @@ Shellsort, also known as Shell's method, is an in-place comparison sort. It can 
 
 Shell_Sort(Arr, n)
 
-1. - SET FLAG = 1, GAP_SIZE = N
-2. - Repeat Steps 3 to 6 while FLAG = 1 OR GAP_SIZE > 1
-3. - SET FLAG = 0
-4. - SET GAP_SIZE = (GAP_SIZE + 1) / 25)
-5. - Repeat Step 6 for I = 0 to I < (N -GAP_SIZE)
-6. - IF Arr[I + GAP_SIZE] > Arr[I]
+- SET FLAG = 1, GAP_SIZE = N
+- Repeat Steps 3 to 6 while FLAG = 1 OR GAP_SIZE > 1
+- SET FLAG = 0
+- SET GAP_SIZE = (GAP_SIZE + 1) / 25)
+- Repeat Step 6 for I = 0 to I < (N -GAP_SIZE)
+- IF Arr[I + GAP_SIZE] > Arr[I]
      SWAP Arr[I + GAP_SIZE], Arr[I]
      SET FLAG = 0
-7. - END
+- END
 
 # Code
 
