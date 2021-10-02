@@ -35,7 +35,11 @@ Download and use '.txt' file here.
 * Video Demo
 * Webcam Demo
 
-**Suggested editors - VScode, Jupyter Notebook, Google Colab, Kaggle
+# Suggested editors
+* VScode
+* Jupyter Notebook
+* Google Colab
+* Kaggle
  
  # sample output :
  
