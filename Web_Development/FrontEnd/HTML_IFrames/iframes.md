@@ -4,7 +4,11 @@ An IFrame (Inline Frame) is an HTML document embedded inside another HTML docume
 
 The IFrame HTML element is often used to insert content from another source,such as an advertisement, into a Web page.
 
-(Basically it is used to display a web page within a web page)
+The ” iframe ” tag defines a rectangular region within the document in which the browser can display a separate document, including scrollbars and borders.
+
+The HTML iframe name attribute is used to specify a reference for an `<iframe>` element. The name attribute is also used as a reference to the elements in JavaScript.
+
+(Basically HTML iframe is used to display a web page within a web page)
 ![iframe image](https://imgur.com/hI0t3ZI.jpg)
 ## Code Snippet
 ```html
