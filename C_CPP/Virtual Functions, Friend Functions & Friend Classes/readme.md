@@ -1,2 +1,0 @@
-- [Virtual_Function](Virtual_Function.md)
-- [Friend_Function](Friend_function_in_c++.md)
