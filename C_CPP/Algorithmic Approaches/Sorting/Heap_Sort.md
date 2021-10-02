@@ -20,4 +20,5 @@ Consider that the array begins from 0<sup>`th`</sup> position
 To implement step 2 above we follow the heapify procedure. This involves swapping the value of nodes in the complete binary tree so that each node holds a greater value than the value of it's leaves ( for a max-heap).
 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/135722434-f127b5c4-02ab-4325-a18d-84f5c7588f69.png"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/135722851-80c8326d-8561-485a-8e17-0d60d7c80580.png"></p>
