@@ -64,8 +64,11 @@ Now, this is where Strassen came up with an idea to improve the asymptotic compl
 After using the above 7 formulas, we replace the resultant matrix C with 
 
 C11 = P5 + P4 – P2 + P6
+
 C12 = P1 + P2
+
 C21 = P3 + P4
+
 C22 = P1 + P5 - P3 - P7
 
 So the final matrix C becomes 
