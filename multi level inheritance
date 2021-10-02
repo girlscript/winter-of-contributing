@@ -1,0 +1,33 @@
+Multi Level Inheritance in cpp.
+In case of multi level inheritance there is a derived class which inherits from another derived class.
+Here is an example code on this topic.
+
+#include<iostream>
+using namespace std;
+class C{
+public:
+void show(){
+cout<<"Hey! I am Base class 2:<<endl;
+}
+};
+class B:public C{
+public:
+void show1(){
+cout<<"Hey! I am Base Class 1";
+}
+};
+class A:public B{
+public:
+void show2(){
+public:
+void show2(){
+cout<<"Hey! I am Derived Class"<<endl;
+}
+};
+int main(){
+A obj;
+obj.show():
+obj.show1():
+obj.show2();
+return 0;
+}
