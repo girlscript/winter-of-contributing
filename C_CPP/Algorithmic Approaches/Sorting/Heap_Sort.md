@@ -131,6 +131,6 @@ Total Time Complexity: O (n) + O (nlogn) = O (nlogn)
 Since the heap is built inside the array to be sorted, the space complexity : O (1)
 
 ### References
--[Abdul Bari](https://www.youtube.com/watch?v=HqPJF2L5h9U)
--[GeeksForGeeks](https://www.geeksforgeeks.org/heap-sort/)
+- [Abdul Bari](https://www.youtube.com/watch?v=HqPJF2L5h9U)
+- [GeeksForGeeks](https://www.geeksforgeeks.org/heap-sort/)
 
