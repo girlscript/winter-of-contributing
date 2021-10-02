@@ -24,13 +24,14 @@ For reference of whole statement of problem you can click on Question link:-
 #  CODE
 You can look on to the code for reference:-
 
-#include<bits/stdc++.h>
+```
+    #include<bits/stdc++.h>
 
-using namespace std;
+    using namespace std;
 
-int main()
+    int main()
 
-{
+    {
 
 
     stack<pair<int,int>>s;
@@ -78,6 +79,8 @@ int main()
 
     return 0;
 }
+```
+
 
 Test case:
 
