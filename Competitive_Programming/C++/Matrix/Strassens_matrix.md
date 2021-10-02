@@ -53,6 +53,12 @@ For Eg: A 4 x 4 matrix can be reduced to four 2 x 2 matrices
 </div>
 
 <br/>
+The 4 x 4 matrices now reduces to 2 x 2 matrices
+<div  align ="center">
+    <img  src="https://miro.medium.com/max/589/1*DjllqTzt8ISw0izw4wT3jQ.png" width="400" height="200">
+</div>
+
+<br/>
 
 Now, this is where Strassen came up with an idea to improve the asymptotic complexity. He came up with 7 formulas which reduces the number of recursive calls from standard 8 to 7 recursive calls.
 
