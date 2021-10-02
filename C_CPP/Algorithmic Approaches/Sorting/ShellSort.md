@@ -18,7 +18,7 @@ Shell_Sort(Arr, n)
 
 # Code
 
-```
+```c++
 // Shell Sort in C++ programming
 
 #include <iostream>
