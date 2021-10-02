@@ -39,7 +39,7 @@ div {
   height: 125px;
   border: 5px solid #F7A440;
   margin-bottom: 2em;
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/652/codepen.png); 
+  background: url(image.png); 
 }
 ```
 
