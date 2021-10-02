@@ -19,7 +19,6 @@ Consider that the array begins from 0<sup>`th`</sup> position
 
 To implement step 2 above we follow the heapify procedure. This involves swapping the value of nodes in the complete binary tree so that each node holds a greater value than the value of it's leaves ( for a max-heap).
 
-![Deletion(2) drawio](https://user-images.githubusercontent.com/77008381/135724209-260a5f69-f965-42d8-ab99-71767129e258.png)
 
 
 
