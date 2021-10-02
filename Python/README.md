@@ -37,9 +37,13 @@
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
+- [Dictionary Comprehension](./Dictionary_Comprehension)
+- [How_to_install_python](./How_to_install_python)
 - [Python File I/O](./Python_File_IO)
 - [Python Strings](./Python_Strings)
+- [Yield Keyword](./Yield_Keyword)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
+
 
 ## Learning path
 
@@ -71,5 +75,5 @@
 26. Web_Scraping
 27. Python File I/O
 28. Python Strings
-29. Dictionary Comprehension
-
+29. Yield Keyword
+30. Dictionary Comprehension
