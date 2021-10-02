@@ -8,10 +8,10 @@
                                                       #include <math.h>
                                                       void login();
                                                       void mainMenu();
-                                                      void checkBalance(float balance);
-                                                      float moneyDeposit(float balance);
-                                                      float moneyWithdraw(float balance);
-                                                      void menuExit();
+                                                      void checkBalance(float balance);                    // To check balance in the account
+                                                      float moneyDeposit(float balance);                   // To check the amount deposited in the account
+                                                      float moneyWithdraw(float balance);                  // To check the amount withdrawed from the account
+                                                      void menuExit();                                     // To quit the menu
                                                       void errorMessage();
                                                       int main()
                                                       {
@@ -19,46 +19,45 @@
                                                       float balance = 0.00;
                                                       int choose;
                                                       bool again = true;
-                                                      while (again) {
+                                                      while (again)
+                                                      {
                                                       mainMenu();
                                                       printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n");
                                                       printf("Your Selection:\t");
                                                       scanf("%d", &option);
-                                                      switch (option) {
-                                                      case 1:
-            	                                        system("CLS");
-                                                      checkBalance(balance);
-                                                      break;
-                                                      case 2:
-            	                                        system("CLS");
-                                                      balance = moneyDeposit(balance);
-                                                      break;
-                                                      case 3:
-            	                                        system("CLS");
-                                                      balance = moneyWithdraw(balance);
-                                                      break;
-                                                      case 4:
-            	                                        system("CLS");
-                                                      menuExit();
-                                                      return 0;
-                                                      default:
-                                                      errorMessage();
-                                                      break;
+                                                      switch (option)
+                                                      {
+                                                            case 1:
+                                                            checkBalance(balance);           	                    
+                                                            break;
+                                                            case 2:
+                                                            balance = moneyDeposit(balance);            	                                                                                                                                   break;
+                                                            case 3:           	                                       
+                                                            balance = moneyWithdraw(balance);
+                                                            break;
+                                                            case 4:            	                                        
+                                                            menuExit();
+                                                            return 0;
+                                                            default:
+                                                            errorMessage();
+                                                            break;
                                                       }
 
                                                       printf("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\n");
                                                       printf("Would you like to do another transaction:\n");
                                                       printf("< 1 > Yes\n");
                                                       printf("< 2 > No\n");
-                                                      scanf("%d", &choose);
-                                                      system("CLS");
-                                                      if (choose == 2) {
-                                                      again = false;
-                                                      menuExit();
+                                                      scanf("%d", &choose);                                                      
+                                                      if (choose == 2)
+                                                      {
+                                                            again = false;
+                                                            menuExit();
                                                       }
                                                       }
                                                       return 0;
                                                       }
+                                                      
+                                                      
                                                       void mainMenu()
                                                       {
                                                       printf("**********Welcome to ATM Bank***********\n\n");
@@ -68,52 +67,66 @@
                                                       printf("< 3 >  Withdraw\n");
                                                       printf("< 4 >  Exit\n\n");
                                                       }
+                                                      
+                                                      
                                                       //Main Menu
-                                                      void checkBalance(float balance) {
-                                                      printf("You Choose to See your Balance\n");
-                                                      printf("\n\n****Your Available Balance is:   $%.2f\n\n", balance);
+                                                      void checkBalance(float balance)
+                                                      {
+                                                            printf("You Choose to See your Balance\n");
+                                                            printf("\n\n****Your Available Balance is:   $%.2f\n\n", balance);
                                                       }
+                                                      
+                                                      
                                                       //Check Balance
-                                                      float moneyDeposit(float balance) {
-                                                      float deposit;
-                                                      printf("You choose to Deposit a money\n");
-                                                      printf("Your Balance is: $%.2f\n\n", balance);
-                                                      printf("****Enter your amount to Deposit\n");
-                                                      scanf("%f", &deposit);
-                                                      balance += deposit;
-                                                      printf("\n****Your New Balance is:   $%.2f\n\n", balance);
-                                                      return balance;
+                                                      float moneyDeposit(float balance) 
+                                                      {
+                                                            float deposit;
+                                                            printf("You choose to Deposit a money\n");
+                                                            printf("Your Balance is: $%.2f\n\n", balance);
+                                                            printf("****Enter your amount to Deposit\n");
+                                                            scanf("%f", &deposit);
+                                                            balance += deposit;
+                                                            printf("\n****Your New Balance is:   $%.2f\n\n", balance);
+                                                            return balance;
                                                       }
+                                                      
+                                                      
                                                       //money deposit
-                                                      float moneyWithdraw(float balance) {
-                                                      float withdraw;
-                                                      bool back = true;
-                                                      printf("You choose to Withdraw a money\n");
-                                                      printf("Your Balance is: $%.2f\n\n", balance);
-                                                      while (back) 
+                                                      float moneyWithdraw(float balance) 
                                                       {
-                                                      printf("Enter your amount to withdraw:\n");
-                                                      scanf("%f", &withdraw);
-                                                      if(withdraw < balance) {
-                                                      back = false;
-                                                      balance -= withdraw;
-                                                      printf("\nYour withdrawing money is:  $%.2f\n", withdraw);
-                                                      printf("****Your New Balance is:   $%.2f\n\n", balance);
-                                                      }
-                                                      else  
-                                                      {
-                                                      printf("+++You don't have enough money+++\n");
-                                                      printf("Please contact to your Bank Customer Services\n");
-                                                      printf("****Your Balance is:   $%.2f\n\n", balance);
-                                                      }
+                                                            float withdraw;
+                                                            bool back = true;
+                                                            printf("You choose to Withdraw a money\n");
+                                                            printf("Your Balance is: $%.2f\n\n", balance);
+                                                            while (back) 
+                                                            {
+                                                                  printf("Enter your amount to withdraw:\n");
+                                                                  scanf("%f", &withdraw);
+                                                                  if(withdraw < balance) {
+                                                                  back = false;
+                                                                  balance -= withdraw;
+                                                                  printf("\nYour withdrawing money is:  $%.2f\n", withdraw);
+                                                                  printf("****Your New Balance is:   $%.2f\n\n", balance);
+                                                            }
+                                                            else  
+                                                            {
+                                                            printf("+++You don't have enough money+++\n");
+                                                            printf("Please contact to your Bank Customer Services\n");
+                                                            printf("****Your Balance is:   $%.2f\n\n", balance);
+                                                            }
                                                       }
                                                       return balance;
                                                       }
+                                                      
+                                                      
                                                       //money withdraw
-                                                      void menuExit() {
-                                                      printf("--------------Take your receipt!!!------------------\n");
-                                                      printf("-----Thank you for using ATM Banking Machine!!!-----\n");
+                                                      void menuExit() 
+                                                      {
+                                                            printf("--------------Take your receipt!!!------------------\n");
+                                                            printf("-----Thank you for using ATM Banking Machine!!!-----\n");
                                                       }
+                                                      
+                                                      
                                                       //exit menu
                                                       void errorMessage() 
                                                       {;
