@@ -36,6 +36,7 @@ In Naive algorithm, “C[i][j] += A[i][k] * B[k][j]” executes n³ times as evi
 
 Time Complexity : O(n³).
 
+
 ## Strassen Algorithm
 
 Strassen algorithm is a recursive method for matrix multiplication where we divide the matrix into 4 sub-matrices of dimensions n/2 x n/2 in each recursive step.
@@ -44,8 +45,9 @@ For Eg: A 4 x 4 matrix can be reduced to four 2 x 2 matrices
 
 <div  align ="center">
     <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0xM759268ZUcy12YuTwduGsZkx66CitlrPA&usqp=CAU" width="400" height="200">
+    Here, Aᵢⱼ and Bᵢⱼ are 2 x 2 matrices.
 </div>
-Here, Aᵢⱼ and Bᵢⱼ are 2 x 2 matrices.
+
 
 Now, this is where Strassen came up with an idea to improve the asymptotic complexity. He came up with 7 formulas which reduces the number of recursive calls from standard 8 to 7 recursive calls.
 
