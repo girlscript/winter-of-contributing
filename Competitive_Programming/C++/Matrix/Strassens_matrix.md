@@ -11,6 +11,9 @@ If we consider 2 matrices A and B having dimensions n x n then their resultant m
 <div align ="center">
     <img src="https://miro.medium.com/max/390/1*gLP52rgHhuOGi402RtKlMg.png" width="180" height ="60">
 </div>
+<div align ="center">
+    for i = 1,...n and j = 1,...n
+</div>
 
 ### Implementation in C++
 ``` C++
@@ -45,8 +48,11 @@ For Eg: A 4 x 4 matrix can be reduced to four 2 x 2 matrices
 
 <div  align ="center">
     <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0xM759268ZUcy12YuTwduGsZkx66CitlrPA&usqp=CAU" width="400" height="200">
+</div>
+<div  align ="center">
     Here, Aᵢⱼ and Bᵢⱼ are 2 x 2 matrices.
 </div>
+
 
 
 Now, this is where Strassen came up with an idea to improve the asymptotic complexity. He came up with 7 formulas which reduces the number of recursive calls from standard 8 to 7 recursive calls.
