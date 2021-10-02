@@ -120,15 +120,15 @@ RNNs and PyTorch also power text generation, which is the training of an AI mode
 One of the most popular and fun applications of PyTorch is a style transfer. It uses a class of deep learning algorithms to manipulate videos or images and adopt the visual style of that image on another image. For example, a style transfer can make your favorite digital vacation photo look like a painting or drawing by a famous artist, such as Monet. It’s even advanced enough to do the reverse, convert paintings into realistic looking photos! Check out the image below for some examples.
 
 ---
+## Summary
+
+---
+
 ## conclusion
+* PyTorch is an open source machine learning library based on the Torch library,[3][4][5] used for applications such as computer vision and natural language processing,[6] primarily developed by Facebook's AI Research lab.<br />
+* Researchers who are were inspired by torch’s programming style decided to implementation it in python calling is pytorch
+* It’s a Python based package for serving as a replacement of Numpy and to provide flexibility as a Deep Learning Development Platform.
 
-### [Reference video](https://www.youtube.com/watch?v=nbJ-2G2GXL0)
-# Resources Referred:
 
-* https://towardsdatascience.com/what-is-pytorch-a84e4559f0e3
-* https://towardsdatascience.com/pytorch-vs-tensorflow-spotting-the-difference-25c75777377b
-* https://en.wikipedia.org/wiki/PyTorch
-* https://en.wikipedia.org/wiki/TensorFlow
-* https://pytorch.org/docs/stable/index.html
-* https://www.youtube.com/watch?v=zEtukWs_B2I&list=PLyMom0n-MBroupZiLfVSZqK5asX8KfoHL
-* https://builtin.com/data-science/pytorch-vs-tensorflow
+
+
