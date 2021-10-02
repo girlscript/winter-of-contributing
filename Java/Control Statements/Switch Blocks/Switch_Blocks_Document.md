@@ -19,26 +19,29 @@ In a nutshell, the switch statement compares a variable with multiple values.
 
  ![alt text](https://iq.opengenus.org/content/images/2019/06/switchcase-1.png)     
 
+>A _conditional expression_ passed to _switch block_ as a parameter where the expression is checked with each conditional _case statement_ if the condition satisfies to `true` it executes its respective code block and exit out of switch block or else if it is unsatisfied to `false` it go to another case statement and check the condition and so on. If none of the case statements satisfies the condition it goto _default statement_ and execute the default block and exit out of switch block
 
 **Syntax:**
 ```java
-switch(expression){    
-case value1:    
- //code to be executed;    
- break;  //optional  
-case value2:    
- //code to be executed;    
- break;  //optional  
-......    
+switch(expression){   //switch statement
+
+    case value1:     //case statement
+    //code to be executed;    
+    break;  //optional  
+    case value2:    
+    //code to be executed;    
+    break;  //optional  
+    ......    
     
-default:     
- // code to be executed if all cases are not matched;  
+   default:     
+   // code to be executed if all cases are not matched;  
 }
 ```
-**Example:**    
+
+**Example of Switch Case with break staement:**    
 ```java
 public class SwitchExample1 {  
-public static void main(String[] args) {  
+  public static void main(String[] args) {  
     //Declaring a variable for switch expression  
     int num=10;  
     //Switch expression  
@@ -54,16 +57,19 @@ public static void main(String[] args) {
     //Default case statement  
     default:System.out.println("Not Found");  
     }  
-}  
+  }  
 }  
 ```
-**Output:** 10
+**Output:**
+```
+ 10
+ ```
 
 **Example of Switch Case without break statement:**
 
 ```java
 public class SwitchExample2 {  
-public static void main(String[] args) {  
+  public static void main(String[] args) {  
     //Declaring a variable for switch expression  
     int number=20;  
     //Switch expression  
@@ -76,20 +82,19 @@ public static void main(String[] args) {
     case 30: System.out.println("30");  
       
     //Default case statement  
-    default:System.out.println("Not Found");  
+    default: System.out.println("Not Found");  
     }  
-}  
+  }  
 }  
 ```
 **Output:**  
-```
-10  
+``` 
 20  
 30  
 Not Found
 ```
 
-**Finding Week Day Example:**
+**Finding Day of the Week Example:**
 ```java
 public class WeekDays{
     public static void main(String[] args){
@@ -99,22 +104,36 @@ public class WeekDays{
         switch(dayNumber)
         {
             //case statements within the switch block
-            case 1: day="Sunday";
-            break;
-            case 2: day="Monday";
-            break;
-            case 3: day="Tuesday";
-            break;
-            case 4: day="Wednesday";
-            break;
-            case 5: day="Thursday";
-            break;
-            case 6: day="Friday";
-            break;
-            case 7: day="Sunday";
-            break;
+            case 1:
+                day="Sunday";
+                System.out.println(day);
+                break;
+            case 2:
+                day="Monday";
+                System.out.println(day);
+                break;
+            case 3: 
+                day="Tuesday";
+                System.out.println(day);
+                break;
+            case 4: 
+                day="Wednesday";
+                System.out.println(day);
+                break;
+            case 5: 
+                day="Thursday";
+                System.out.println(day);
+                break;
+            case 6: 
+                day="Friday";
+                System.out.println(day);
+                break;
+            case 7: 
+                day="Sunday";
+                System.out.println(day);
+                break;
             default:
-            System.out.println("Invalid day number");
+                System.out.println("Invalid day number");
         }
     }
 }
