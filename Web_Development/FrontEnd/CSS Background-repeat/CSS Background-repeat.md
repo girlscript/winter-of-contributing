@@ -43,9 +43,7 @@ div {
 }
 ```
 
-![Untitled](CSS%20Background-repeat%20f1e0ce14589a422088b435461e5e6fb7/Untitled.png)
-
-![Untitled](CSS%20Background-repeat%20f1e0ce14589a422088b435461e5e6fb7/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/61539946/135718686-f2f8743d-7ae7-414a-b06f-74e09474e569.png)
 
 ---
 
