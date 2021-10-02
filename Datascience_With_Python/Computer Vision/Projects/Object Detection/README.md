@@ -20,11 +20,11 @@
 
 # Files Used
 
-* Config file - https://github.com/HastiSutaria/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Files
+* Config file - <a href="https://github.com/HastiSutaria/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Files" >Visit here </a>
 
 Download 'frozen_inference_graph.pb' and 'ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt' file 
 
-* Coco dataset - https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Files/yolov3.txt
+* Coco dataset - <a href="https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Files/yolov3.txt"> Visit here </a>
 
 Download and use '.txt' file here.
 
@@ -35,7 +35,7 @@ Download and use '.txt' file here.
 * Video Demo
 * Webcam Demo
  
- ## sample output :
+ # sample output :
  
  ![object_detection_sample_img](https://user-images.githubusercontent.com/69644003/135707351-1d1de7a8-c6d8-42aa-94d1-05055a9f2b94.png)
 
