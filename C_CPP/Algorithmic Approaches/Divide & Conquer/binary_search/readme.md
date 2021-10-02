@@ -18,7 +18,7 @@
 
 # Let's see through example.
 
-<img src="https://github.com/jiteshjitsun/winter-of-contributing/blob/C_CPP/example_binary.png" alt="some text"  width="4200" height="4200">
+<img src="https://github.com/jiteshjitsun/winter-of-contributing/blob/C_CPP/C_CPP/Algorithmic%20Approaches/Divide%20&%20Conquer/binary_search/example_binary.png?raw=true" alt="some text"  width="4200" height="4200">
 
 # flow chart 
 
