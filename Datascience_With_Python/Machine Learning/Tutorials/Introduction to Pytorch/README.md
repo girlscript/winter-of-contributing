@@ -7,6 +7,50 @@
 Or simply put:*
 * Dynamic Graphs
 * More intuitive than TF (Personal View)
+---
+## Tensors
+Tensors are similar to numpy’s ndarrays, with the addition being that Tensors can also be used on a GPU to accelerate computing. Tensors are multi dimensional Matrices.
+
+torch.Tensor(x,y)
+
+This will create a X by Y dimensional Tensor that has been instantiated with random values.To Create a 5x3 Tensor with values randomly selected from a Uniform Distribution between -1 and 1
+
+torch.Tensor(5,3).uniform(-1,1)
+
+Tensor have a size attribute that can be called to chek their size 
+
+print(x.size()))
+
+Tensors are similar to numpy’s ndarrays, with the addition being that Tensors can also be used on a GPU to accelerate computing. Tensors are multi dimensional Matrices.
+torch.Tensor(x,y)
+This will create a X by Y dimensional Tensor that has been instantiated with random values.To Create a 5x3 Tensor with values randomly selected from a Uniform Distribution between -1 and 1
+torch.Tensor(5,3).uniform(-1,1)
+Tensor have a size attribute that can be called to chek their size 
+print(x.size()))
+
+---
+## Basic Operations (Inline, Tensor Indexing, Slicing)
+PyTorch supports various Tensor Functions with different syntax: Consider Addition: 
+* Normal Addition
+
+ y = torch.rand(5, 3) <br />
+print(x + y) <br />
+
+Getting Result in a Tensor 
+
+result = torch.Tensor(5, 3) <br />
+torch.add(x, y, out=result) <br />
+* In Line <br />
+ y.add_(x) <br />
+ 
+ Inline functions are denoted by an underscore following their name. Note: These have faster execution time (With a higher memory complexity tradeoff) All Numpy Indexing, Broadcasting and Reshaping functions are supported Note: PyTorch doesn’t support a negative hop so [::-1] will result in an error 
+print(x[:, 1]) <br />
+
+y = torch.randn(5, 10, 15) <br />
+ print(y.size()) <br />
+print(y.view(-1, 15).size())
+
+---
 
 ## Features
 #### The major features of PyTorch are mentioned below −
@@ -25,6 +69,8 @@ Variable − Node in computational graph. This stores data and gradient.
 
 Module − Neural network layer which will store state or learnable weights.
 
+---
+
 ### PYTORCH PROS:
 * Python-like coding.
 * Dynamic graph.
@@ -36,7 +82,8 @@ Module − Neural network layer which will store state or learnable weights.
 ### PYTORCH CONS:
 * Third-party needed for visualization.
 * API server needed for production.
-### applications
+---
+## Applications
 #### 1- Image classification : 
 PyTorch can be used to build specialized neural network architectures called Convolutional Neural Networks (CNNs). These multilayer CNNs are fed images of a specific thing, say, a kitten, and much like how human brains works, once the CNN sees a data set of kitten images, it should be able to confidently identify a new image of a kitten. This application is seeing momentum in healthcare, where a CNN was recently used in a study to detect skin cancer. 
 #### 2- Handwriting recognition:
@@ -47,6 +94,9 @@ A Recurrent Neural Network (RNN) is a type of neural network designed for sequen
 RNNs and PyTorch also power text generation, which is the training of an AI model on a specific text (all of Shakespeare’s works, for example) to create its own output on what it learned. 
 #### 5-Style transfer: 
 One of the most popular and fun applications of PyTorch is a style transfer. It uses a class of deep learning algorithms to manipulate videos or images and adopt the visual style of that image on another image. For example, a style transfer can make your favorite digital vacation photo look like a painting or drawing by a famous artist, such as Monet. It’s even advanced enough to do the reverse, convert paintings into realistic looking photos! Check out the image below for some examples.
+
+---
+## conclusion
 
 ### [Reference video](https://www.youtube.com/watch?v=nbJ-2G2GXL0)
 # Resources Referred:
