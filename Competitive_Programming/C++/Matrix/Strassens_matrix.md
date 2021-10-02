@@ -54,7 +54,7 @@ For Eg: Consider two 4 x 4 matrices A and B and a resultant matrix C. In Strasse
 
 <br/>
 
-The 4 x 4 matrices now reduces to 2 x 2 matrices
+A and B are now reduced to 2 x 2 matrices.
 <div  align ="center">
     <img  src="https://miro.medium.com/max/589/1*DjllqTzt8ISw0izw4wT3jQ.png">
 </div>
@@ -92,3 +92,6 @@ T(n) = 7T(n/2) + O(n²)
 ```
 
 ***Time Complexity : O(n^log2(7)) = O(n^2.81).***
+
+---
+So as we can see from the above comparison, the Time Complexity of Strassens algorithm is slightly less than the naive method. It might seem insignificant but for larger n x n matrices it makes a big difference.
