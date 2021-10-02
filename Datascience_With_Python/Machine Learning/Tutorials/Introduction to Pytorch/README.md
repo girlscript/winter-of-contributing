@@ -8,6 +8,30 @@ Or simply put:*
 * Dynamic Graphs
 * More intuitive than TF (Personal View)
 ---
+## Terminologies
+###  PyTorch NumPy <br />
+A PyTorch tensor is identical to a NumPy array. A tensor is an n-dimensional array and with respect to PyTorch, it provides many functions to operate on these tensors.
+
+PyTorch tensors usually utilize GPUs to accelerate their numeric computations. These tensors which are created in PyTorch can be used to fit a two-layer network to random data. The user can manually implement the forward and backward passes through the network.
+
+### Variables and Autograd <br />
+When using autograd, the forward pass of your network will define a computational graph − nodes in the graph will be Tensors, and edges will be functions that produce output Tensors from input Tensors.
+
+PyTorch Tensors can be created as variable objects where a variable represents a node in computational graph.
+
+### Dynamic Graphs <br />
+Static graphs are nice because user can optimize the graph up front. If programmers are re-using same graph over and over, then this potentially costly up-front optimization can be maintained as the same graph is rerun over and over.
+
+The major difference between them is that Tensor Flow’s computational graphs are static and PyTorch uses dynamic computational graphs.
+
+### Optim Package <br />
+The optim package in PyTorch abstracts the idea of an optimization algorithm which is implemented in many ways and provides illustrations of commonly used optimization algorithms. This can be called within the import statement.
+
+###  Multiprocessing  <br />
+
+Multiprocessing supports the same operations, so that all tensors work on multiple processors. The queue will have their data moved into shared memory and will only send a handle to another process.
+
+---
 ## Tensors
 Tensors are similar to numpy’s ndarrays, with the addition being that Tensors can also be used on a GPU to accelerate computing. Tensors are multi dimensional Matrices.
 
