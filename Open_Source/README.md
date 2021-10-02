@@ -22,6 +22,8 @@
 
 ### 2. Getting started with open source : 
 
+- [2. Getting started with open source](2.Getting_Started_With_Open_Source/2._GettingStarted_With_Open_Source.ipynb)
+
 - [2.0 Why open source?](2.Getting_Started_With_Open_Source/2.0_Why_Open_Source.md)
 
 - [2.1 Practice Git & Github fundamentals](2.Getting_Started_With_Open_Source/2.1_Practice_Git_and_Github_fundamentals.md)
@@ -159,13 +161,21 @@
 
 - [5.30 Thanos](5.CNCF_Projects/5.30_Thanos.md)
 
-- [5.34 CrossPlane](5.CNCF_Projects/5.34_CrossPlane.md)
+- [5.31 CrossPlane](5.CNCF_Projects/5.31_Contour.md)
 
-- [5.37 Flagger](5.CNCF_Projects/5.37_Flagger.md)
+- [5.32 CrossPlane](5.CNCF_Projects/5.32_Cortex.md)
 
-- [5.39 gRPC](5.CNCF_Projects/5.39_gRPC.md)
+- [5.33 CrossPlane](5.CNCF_Projects/5.33_CrossPlane.md)
 
-- [5.40 KEDA](5.CNCF_Projects/5.40_KEDA.md)
+- [5.34 Flagger](5.CNCF_Projects/5.34_Flagger.md)
+
+- [5.35 gRPC](5.CNCF_Projects/5.35_gRPC.md)
+
+- [5.36 KEDA](5.CNCF_Projects/5.36_KEDA.md)
+
+- [5.37 Notary](5.CNCF_Projects/5.37_Notary.md)
+
+- [5.38 Operator Framework](5.CNCF_Projects/5.38_OperatorFramework.md)
 
 
 ### 6. Popular open source projects and softwares :
@@ -186,7 +196,15 @@
 
 - [6.12 Socket.io](6.Popular_Projects/6.12_Socket.io.md)
 
+- [6.13 React Native](6.Popular_Projects/6.13_React_Native.md)
+
+- [6.14 Grunt](6.Popular_Projects/6.14_Grunt.md)
+
+- [6.15 Ember.js](6.Popular_Projects/6.15_Ember.js.md)
+
 - [6.16 NextJS](6.Popular_Projects/6.16_Next.js.md)
+
+- [6.17 Language Server Protocol](6.Popular_Projects/6.17_Language_Server_Protocol.md)
 
 ### Miscellaneous :
 
