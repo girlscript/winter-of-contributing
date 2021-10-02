@@ -13,7 +13,16 @@
 - [Installing software for python](./Installing_Software)
 - [Brief History of Python](./History_Of_Python)
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
+- [What are datatypes in Python?](./Datatypes)
 - [What is type conversion ?](./Type_Conversion)
+
+- [Python_errors_and_its_types](Python_erros_and_its_types)
+## Learning path
+1. Git & GitHub
+2. What is a programming language? #77
+3. What is type conversion ?
+4. 4.Python Error and its Types?
+
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
@@ -35,9 +44,14 @@
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
+- [Dictionary Comprehension](./Dictionary_Comprehension)
+
+- [How_to_install_python](./How_to_install_python)
+
 - [Python File I/O](./Python_File_IO)
 - [Python Strings](./Python_Strings)
 - [if statement](./if_statement)
+
 
 
 ## Learning path
@@ -47,11 +61,11 @@
 3. Installing development and debugging software for python
 4. Brief history of python
 5. What is a programming language?
-6. What is type conversion ?
-7. Use cases of Python
-8. Virtual Environment
-9. Operators
-10. Built-in Data Structures
+6. What are datatypes in Python?
+7. What is type conversion ?
+8. Use cases of Python
+9. Virtual Environment
+10. Operators
 11. List\_&_Matrix
 12. Objects in Python
 13. Stack and Queue
@@ -70,6 +84,6 @@
 26. Web_Scraping
 27. Python File I/O
 28. Python Strings
-29. if statement
-
+29. Dictionary Comprehension
+30. if_statement
 
