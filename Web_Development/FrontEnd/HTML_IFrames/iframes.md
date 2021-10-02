@@ -50,7 +50,6 @@ Similarly, we can use the border property to add the borders of your choice to a
 ```html
 <iframe src="hello.html" style="border: 2px solid pink;"></iframe>
 ```
-
 ## Using an iFrame as Link Target :
 An iframe can also be used as a target for the hyperlinks.
 
@@ -61,7 +60,6 @@ Let's try out an example to understand how it basically works:
 <iframe src="demo-page.html" name="myFrame"></iframe>
 <p><a href="https://www.google.com" target="myFrame">Open TutorialRepublic.com</a></p>
 ```
-
 ***Refrences***:
 
 [w3schools.com](https://www.w3schools.com)
