@@ -131,6 +131,8 @@ Python
 3. In 2011, Laurent Bulteau, Guillaume Fertin, and Irena Rusu proved that the problem of finding the shortest sequence of flips for a given stack of pancakes is NP-hard, thereby answering a question that had been open for over three decades.
 4. Another variant of this problem, The Burnt Pancake Problem, was implemented in 2008 by a group of undergraduates who built a bacterial computer that can solve a simple example of the burnt pancake problem by programming E. coli to flip segments of DNA which are analogous to burnt pancakes. 
 
+### Output image of code
+![image](https://user-images.githubusercontent.com/54130460/135709022-5b1aa8dd-7197-4724-bb8d-455b7f0b57d4.png)
 
 
 ### References 🔗
