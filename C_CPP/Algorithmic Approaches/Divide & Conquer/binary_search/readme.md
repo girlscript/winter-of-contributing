@@ -18,12 +18,12 @@
 
 # Let's see through example.
 
-![example: array of size 10](/example_binary.png)
+<img src="https://github.com/jiteshjitsun/winter-of-contributing/blob/C_CPP/example_binary.png" alt="some text"  width="4200" height="4200">
 
 # flow chart 
 
-<img src="BINARY_SEARCH_FLOWCHART.pdf" alt="some text"  width="4200" height="4200">
-    
+<img src="https://github.com/jiteshjitsun/winter-of-contributing/blob/C_CPP/C_CPP/Algorithmic%20Approaches/Divide%20%26%20Conquer/binary_search/BINARY_SEARCH_FLOWCHART.pdf" alt="some text"  width="4200" height="4200">
+
 
 # C++ code for finding element using Binary Search:
 
