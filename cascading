@@ -1,0 +1,11 @@
+Here is a sample code for showing cascading in cpp.
+cascading is using multiple cin or cout objects together.
+example code is here:
+
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"Hi "<<"This is Cascading!!!";
+    return 0;
+    }
+    
