@@ -15,14 +15,7 @@
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What are datatypes in Python?](./Datatypes)
 - [What is type conversion ?](./Type_Conversion)
-
 - [Python_errors_and_its_types](Python_erros_and_its_types)
-## Learning path
-1. Git & GitHub
-2. What is a programming language? #77
-3. What is type conversion ?
-4. 4.Python Error and its Types?
-
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
@@ -44,14 +37,9 @@
 - [What is Automation?](./What_is_Automation)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
-- [Dictionary Comprehension](./Dictionary_Comprehension)
-
-- [How_to_install_python](./How_to_install_python)
-
 - [Python File I/O](./Python_File_IO)
 - [Python Strings](./Python_Strings)
-
-
+- [Dictionary Comprehension](./Dictionary_Comprehension)
 
 ## Learning path
 
