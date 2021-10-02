@@ -1,43 +1,57 @@
-Multimap is an associative container that contains a sorted list of key-value pairs, while permitting multiple 
+# Multimap in STL
+
+Topics covered:
+- [Definition of Multimap](#definition)
+- [Pre-defined functions](#pre-defined-functions)
+    - [Initialization of Multimap](#initialization-of-a-multimap)
+    - [Declaration of a Multimap](#declaration-of-a-multimap)
+- [Implementation](#implementation-of-a-multimap)
+
+
+### Definition
+<p> Multimap is an associative container that contains a sorted list of key-value pairs, while permitting multiple 
 entries with the same key.In multimap there is a key and a particular value associated with it which is used for 
 our reference generally.Sorting is done according to the comparison function Compare, applied to the keys or the
 value depending upon our algorithm.Search, insertion, and removal operations have logarithmic complexity.
-One must include <map> header file to use multimap.
+One must include <map> header file to use multimap. </p>
 
-Syntax to create multimap:
-
-multimap<int,int> m1;
-Creates empty multimap m1 that stores key and mapped value both of int data type.
-multimap<int,int> m2={{1,20},{2,50}};
-Creates initialised multimap m2
-multimap<int,int> m3(m2.begin(),m2.end());
-Creates a copy of multimap m2 using iterators.
-multimap<int,int> m4=m2;
-Creates a copy of multimap m2
-
-Some Member Functions of map:
+### Pre-Defined functions
 
 begin( ): It returns an iterator(explained above) referring to the first element of multimap.Its time complexity is O(1).
 Syntax:
 multmap_name.begin()
+
+# Function to insert
 insert( ):It inserts a single element or the range of elements in the multmap.Its time complexity is O(logN)where N is the number of elements in the map, when only element is inserted and O(1) when position is also given.
 Syntax:
 multmap_name.insert({key,element})
+
+# function to find the end operator
 end( ): It returns an iterator referring to the theoretical element(doesn’t point to an element) which follows the last element.Its time complexity is O(1).
 Syntax:
 multmap_name.end()
+
+# function to count the number of matches
 count( ):It searches the multmap for the elements mapped by the given key and returns the number of matches..Its time complexity is O(logN) where N is the number of elements in the map.
 Syntax:
 multmap_name.count(k) //k is the key
+
+# finction to find
 find( ): It searches the multmap for the element with the given key, and returns an iterator to it, if it is present in the multimap otherwise it returns an iterator to the theoretical element which follows the last element of the multmap.Its time complexity is O(logN) where N is the number of elements in the multimap.
 Syntax:
 multmap_name.find(key)
+
+# function to clear
 clear( ): It clears the multimap, by removing all the elements from the multmap and leaving it with its size 0.Its time complexity is O(N) where N is the number of elements in the multimap.
 Syntax:
 multmap_name.clear()
+
+# function to check empty map
 empty( ): It checks whether the multimap is empty or not. It doesn’t modify the multimap.It returns 1 if the multimap is empty otherwise it returns 0.Its time complexity is O(1).
 Syntax:
 multimap_name.empty()
+
+# function to erase
 erase( ): It removes a single element or the range of elements from the multimap.
 Syntax for erasing a key:
 multimap_name.erase(key)
@@ -46,7 +60,7 @@ multimap_name.erase(pos)
 Syntax for erasing values within a given range [pos1,pos2):
 multimap_name.erase(pos1,pos2)
 
-Implementation:
+# Implementation:
 
                                                             
 #include <bits/stdc++.h>
@@ -108,7 +122,7 @@ int main() {
     return 0;
 }
 
-Output:
+# Output:
 
 Elements in map m:
 1:10
@@ -143,3 +157,5 @@ Elements after removing element:
 4:60
 4:70
                                               
+
+   **Contributor**: [Sujal Gupta](https://github.com/sujal2048)                                           
