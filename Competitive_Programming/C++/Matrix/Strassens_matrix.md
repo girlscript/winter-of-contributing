@@ -95,3 +95,4 @@ T(n) = 7T(n/2) + O(n²)
 
 ---
 So as we can see from the above comparison, the Time Complexity of Strassens algorithm is slightly less than the naive method. It might seem insignificant but for larger n x n matrices it makes a big difference.
+This is how Strassen's algorithm helps to improve the asymptotic complexity.
