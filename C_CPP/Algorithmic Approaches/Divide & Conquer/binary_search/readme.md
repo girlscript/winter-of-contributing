@@ -22,7 +22,7 @@
 
 # flow chart 
 
-<img src="BINARY_SEARCH_FLOWCHART.pdf"/>
+<img src="https://github.com/jiteshjitsun/winter-of-contributing/blob/C_CPP/C_CPP/Algorithmic%20Approaches/Divide%20&%20Conquer/binary_search/BINARY_SEARCH_FLOWCHART.png?raw=true" alt="some text">
 
 
 # C++ code for finding element using Binary Search:
