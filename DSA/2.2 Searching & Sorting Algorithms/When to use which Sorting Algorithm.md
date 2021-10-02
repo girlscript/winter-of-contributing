@@ -154,7 +154,7 @@ So without any more talk let's get started :-)
 
 ### Table showing Comparison b/w Time Complexities of Various Sorting Algorithms
 
-![image-20211002215306523](C:\Users\kaust\AppData\Roaming\Typora\typora-user-images\image-20211002215306523.png)
+![img](https://i.imgur.com/uMBaUv0.png)
 
 *Reference*:  [*sorting_section_solutions.pdf (washington.edu)*](https://courses.cs.washington.edu/courses/cse373/15wi/lectures/sorting_section_solutions.pdf)
 
