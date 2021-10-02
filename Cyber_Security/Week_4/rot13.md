@@ -26,7 +26,7 @@ easily.
     -   "ord" function is used to get the ascii value of the character
         passed to it.
     -   We are then shifting the letter by 13 places.
-    -   We are getting the character back from the passed ascii value
+    -   We are getting the character back from the new passed ascii value
         using the "chr" function.
     -   If the letter is not an alphabet, we are directly concatenating
         it to the "crypted\_text" string.
