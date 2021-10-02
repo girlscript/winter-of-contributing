@@ -22,6 +22,8 @@ Heapify is a function used to convert a complete binary tree into max heap.
   
 ## CODE FOR HEAP SORT 
 ```
+// C++ Code for Heap Sort
+
 #include <iostream>
 using namespace std;
 
