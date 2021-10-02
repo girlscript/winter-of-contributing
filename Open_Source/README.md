@@ -184,7 +184,11 @@
 
 - [6.2 npm vs yarn](6.Popular_Projects/6.2_npm_vs_yarn.md)
 
+- [6.4 VS Code](6.Popular_Projects/6.4_vscode.md)
+
 - [6.5 Ansible](6.Popular_Projects/6.5_Ansible.md)
+
+- [6.6 Azure Docs](6.Popular_Projects/6.6_Azure_Docs.md)
 
 - [6.7 Definitely Typed](6.Popular_Projects/6.7_DefinitelyTyped.md)
 
@@ -193,6 +197,8 @@
 - [6.9 ThreeJS](6.Popular_Projects/6.9_Three.js.md)
 
 - [6.10 Material UI](6.Popular_Projects/6.10_MaterialUI.md)
+
+- [6.11 Webpack](6.Popular_Projects/6.11_Webpack.md)
 
 - [6.12 Socket.io](6.Popular_Projects/6.12_Socket.io.md)
 
