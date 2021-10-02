@@ -37,9 +37,9 @@ void Naive(int A[][n], int B[][n], int C[][n])
 ### Time Complexity for Naive Method
 In Naive algorithm, “C[i][j] += A[i][k] * B[k][j]” executes n³ times as evident from the three nested for loops. So, the time complexity of the naive algorithm is O(n³).
 
-Time Complexity : O(n³).
+***Time Complexity : O(n³).***
 
-
+---
 ## Strassen Algorithm
 
 Strassen algorithm is a recursive method for matrix multiplication where we divide the matrix into 4 sub-matrices of dimensions n/2 x n/2 in each recursive step.
@@ -53,7 +53,7 @@ For Eg: A 4 x 4 matrix can be reduced to four 2 x 2 matrices
     Here, Aᵢⱼ and Bᵢⱼ are 2 x 2 matrices.
 </div>
 
-
+<br/>
 
 Now, this is where Strassen came up with an idea to improve the asymptotic complexity. He came up with 7 formulas which reduces the number of recursive calls from standard 8 to 7 recursive calls.
 
