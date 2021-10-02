@@ -1,0 +1,59 @@
+# Bitwise Operators
+As name suggests these operators work at bit level. In memory space is measured in bytes. 1 byte is equal to 8 bits. Hence 1 bit is the smallest unit of the memory data. All these operation takes place on the binery representation of the number. <br>
+All the bitwise operator are listed below:-<br>
+- **& (AND operator)** :- It is a binary operator which is used to perform AND operation at the bit level. For example:-<br>
+``` 
+   int i=8,j=4;
+   cout<< i&j ; // output is 0
+```
+**Explanation** :- <br>binary representation of 8 :- 01000<br>
+binary representation of 4 :- 00100<br>
+now doing AND operation of each bit with the bit at same position.<br>Hence output is 0.
+- **| (OR operator)** :- It is also a binary operator which is used to perform Or operation between two numbers.For example:-
+``` 
+   int i=10,j=1;
+   cout<< i|j ; // output is 11
+```
+**Explanation**:-<br>binary representation of 10 :- 01010<br>
+binary representation of 4 :- 00001<br>
+now doing OR operation of each bit with the bit at same position.<br>Resultant number is 01011 which is 11 in decimal number system.
+- **^ (XOR operator)**:- It is also a binary operator which perform XOR operation at bit level. For example:-<br>
+```
+   int i=5,j=6;
+   cout<<i^j ; // output is 3
+```
+**Explanation**:-<br>binary representation of 5 :- 0101<br>
+binary representation of 4 :- 0110<br>
+now doing XOR operation of each bit with the bit at same position.<br>Resultant number is 0011 which is 3 in decimal number system.
+- **" >> " Right shift operator** :- It is a unary operator which is used to shift the bit position towards right. for example:-<br>
+4>>1 :- means in binary representation 4 each bit will be shifted towards right by 1 unit.
+```
+   int x=4;
+   cout<<(x>>1); // output is 2
+```
+- **" << " left shift operator** :- It is a unary operator which is used to shift the bit position towards left. for example:-<br>
+4<<1 :- means in binary representation 4 each bit will be shifted towards left by 1 unit.
+```
+   int x=4;
+   cout<<(x<<1); // output is 8
+```
+- **~ (bitwise NOT)** :- It is also a unary operator which is used to complement the bits, means if it is '0' it becomes '1' and vice versa.
+```
+  int x=5;
+  cout<<(~x); // output is 250
+```
+**Explanation**:-int takes 2 byte to store each number . hence 5 in binary is represented as 0000 0101 ,if we toggle each bit it becomes 1111 1010 which is equals to 250 in decimal.<br>
+# Some useful results based on bitwise operator
+1. To check i<sup>th</sup> bit is set or unset :- if (n&(1<<pos)==0) condition is true then the bit at position "pos" is unset.<br>
+2. To set i<sup>th</sup> bit in a given number :- n=n|(1<<i).<br>
+3. To unset i<sup>th</sup>bit in a given number :- n&(~(1<<i)).<br>
+4. To remove last set bit in a given number :- n&(n-1). 
+5. To check if a number is a power of 2 :- n&(n-1)==0  if this condition is true then the number is a power of 2.
+6. To count number of setbits in a given number :-
+```  
+   while(n){ 
+        if(n&1) 
+           count++;
+        n=n>>1;
+   }
+```
