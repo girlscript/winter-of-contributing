@@ -10,7 +10,7 @@ A **stack** is a LIFO (Last In First Out) data structure. A stack pushes (insert
 
 <br>
 
-<img src="assets/stack.png"  style="max-width: 80%; height: auto; background:white"/>
+<img width="407" alt="stack" src="https://user-images.githubusercontent.com/80921436/135722823-f739b19e-f89b-43f2-a62c-126562c6f739.png">
 <p>source: Programiz</p>
 
 Stack includes the following functions:
@@ -222,7 +222,7 @@ A queue is a FIFO (First In First Out). A queue, however, dequeues (removes) an 
 
 <br>
 
-<img src="assets/queue.png"  style="max-width: 80%; height: auto; background:white"/>
+![queue](https://user-images.githubusercontent.com/80921436/135722903-b37ee85b-8965-4fb3-a4e2-dc8304e419e7.png)
 <p>source: studytonight</p>
 
 ## Operations associated with queue are:
