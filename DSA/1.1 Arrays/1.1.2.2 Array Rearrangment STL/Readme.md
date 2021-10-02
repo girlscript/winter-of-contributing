@@ -1,4 +1,7 @@
-Documentation on Array Rearrangement problems by jaya6400
+Documentation on Array Rearrangement problems:
+
+These problems deals with arranging arrays in different manner such as in sorted order, bringing like elements together to acheive our desired output
+by using operations like swaping and in-built sort function techniques on array elements.
 
 Problems solved with explanation and code:
 
