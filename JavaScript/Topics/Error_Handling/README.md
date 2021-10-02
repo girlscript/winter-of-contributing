@@ -21,11 +21,14 @@ Error handling is the process of dealing with errors in our codebase.
 
 #### Try and Catch
 
-<div style="display: flex">
-<div style>
-<img src="trycatch.png" alt="Try Catch Finally Block Diagram" width="200"/>
-</div>
-<div style="margin-left:1rem">
+<p align="center">
+<img src="trycatch.png" alt="Try Catch Finally Block Diagram" width="200" />
+</p>
+
+<br/>
+<br/>
+
+
 There is a syntax of `try...catch` in Javascript that is used to catch the error, and instead of throwing the error, it does something else.
 In other words, the `try` block tries to execute the cod in the block, if it fails to execute then the `catch` block will handle the problem. If there is no error, the catch block will not be executed. There is a `finally` block that is executed after the try and catch block. It is optional and can be used to give a final message to the user.
 
@@ -33,15 +36,11 @@ In other words, the `try` block tries to execute the cod in the block, if it fai
 <br/>
 
 ```javascript
- 
- 
 try {
   // code that may throw error
 } catch (error) {
   // code that can handle the error
 }
- 
- 
 ```
 </div>
 </div>
