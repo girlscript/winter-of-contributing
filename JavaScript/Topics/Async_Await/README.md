@@ -321,6 +321,6 @@ var promiseTRRARNOSG = (promiseThatResolvesRandomlyAfterRandomNumnberOfSecondsGe
  HAPPY LEARNINGS!
  
  ## Contributed by, 
- [Diksha Sharma] (https://github.com/Diksha-11)
+ [Diksha Sharma](https://github.com/Diksha-11)
  
  
