@@ -9,7 +9,7 @@ To show how strassen's approach has a better time complexity, let’s compare bo
 If we consider 2 matrices A and B having dimensions n x n then their resultant matrix multiplication by naive method is given by 
 
 <div align ="center">
-    <img src="https://miro.medium.com/max/390/1*gLP52rgHhuOGi402RtKlMg.png">
+    <img src="https://miro.medium.com/max/390/1*gLP52rgHhuOGi402RtKlMg.png" width="180" height ="60">
 </div>
 
 ### Implementation in C++
@@ -35,6 +35,24 @@ void Naive(int A[][n], int B[][n], int C[][n])
 In Naive algorithm, “C[i][j] += A[i][k] * B[k][j]” executes n³ times as evident from the three nested for loops. So, the time complexity of the naive algorithm is O(n³).
 
 Time Complexity : O(n³).
+
+## Strassen Algorithm
+
+Strassen algorithm is a recursive method for matrix multiplication where we divide the matrix into 4 sub-matrices of dimensions n/2 x n/2 in each recursive step.
+
+For Eg: A 4 x 4 matrix can be reduced to four 2 x 2 matrices 
+
+<div  align ="center">
+    <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0xM759268ZUcy12YuTwduGsZkx66CitlrPA&usqp=CAU" width="400" height="200">
+</div>
+Here, Aᵢⱼ and Bᵢⱼ are 2 x 2 matrices.
+
+Now, this is where Strassen came up with an idea to improve the asymptotic complexity. He came up with 7 formulas which reduces the number of recursive calls from standard 8 to 7 recursive calls.
+
+<div  align ="center">
+    <img  src="https://miro.medium.com/max/628/1*GlqAVmRYXDjuQFEg6G0OkQ.png" width="400" height="200">
+</div>
+
 
 
 
