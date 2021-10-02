@@ -21,7 +21,7 @@
 - [HTML Canvas](./HTML_Canvas/Canvas.md)
 - HTML Classes and IDs
 - HTML Forms
-- [HTML IFrames](./HTML_Iframes/iframes.md)
+- [HTML IFrames](./HTML_IFrames/iframes.md)
 - Semantic HTML
 - Form Validation
 - [Conventions & Best Practices](HTML_Conventions_Practices/readme.md)
