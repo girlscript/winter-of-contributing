@@ -19,6 +19,118 @@ Consider that the array begins from 0<sup>`th`</sup> position
 
 To implement step 2 above we follow the heapify procedure. This involves swapping the value of nodes in the complete binary tree so that each node holds a greater value than the value of it's leaves ( for a max-heap).
 
+![Deletion(2) drawio](https://user-images.githubusercontent.com/77008381/135724209-260a5f69-f965-42d8-ab99-71767129e258.png)
 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/135722851-80c8326d-8561-485a-8e17-0d60d7c80580.png"></p>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/135722913-382a1aec-1ef4-48a4-a3e8-aaefedb85159.png"></p>
+
+### Step 2: Deletion of the Heap
+
+1. Delete the value of root node and insert it in the end of the array.
+2. Balance the tree to form a complete binary tree.
+3. Convert the complete binary tree to a heap.
+4. Proceed recursively for each node until whole heap is deleted and array is sorted.
+
+
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/135723862-64d96816-0eb0-496e-badd-8cc759464be4.png"></p>
+<hr>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/135724230-f25e84b2-9b42-405d-a5d7-d237026ef0a1.png"></p>
+
+<hr>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/135724436-0d69fc51-0baf-4ec4-9391-35c6d6175820.png"></p>
+
+<hr>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/135724629-e86a70e4-c10b-46b1-b7e4-bb29083abedc.png"></p>
+
+<hr>
+
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/135724815-daa4ac4d-a71d-4af1-a546-e5c83f9b649e.png"></p>
+
+### Code in C++
+
+```c++
+#include <iostream>
+using namespace std;
+
+
+void heapify(int arr[], int n, int i)
+{
+	int largest = i; // Initialize largest element as root node
+	int l = 2 * i + 1; 
+	int r = 2 * i + 2; 
+
+	// When left child is larger than root node
+	if (l < n && arr[l] > arr[largest])
+		largest = l;
+
+	// When right child is larger than root node
+	if (r < n && arr[r] > arr[largest])
+		largest = r;
+
+	// If largest element is not root node
+	if (largest != i) {
+		swap(arr[i], arr[largest]);
+
+		//  Heapify recursively
+		heapify(arr, n, largest);
+	}
+}
+
+
+void heapSort(int arr[], int n)
+{
+	// Rearrange array as heap
+	for (int i = n / 2 - 1; i >= 0; i--)
+		heapify(arr, n, i);
+
+	// Deletion of the heap
+	for (int i = n - 1; i > 0; i--) {
+		swap(arr[0], arr[i]);
+
+		// make the binary tree into a heap again
+		heapify(arr, i, 0);
+	}
+}
+
+void printArray(int arr[], int n)
+{
+	for (int i = 0; i < n; ++i)
+		cout << arr[i] << " ";
+	cout << "\n";
+}
+
+// Driver code
+int main()
+{
+	int arr[] = { 95, 2, 66, 13, 52, 7 };
+	int n = sizeof(arr) / sizeof(arr[0]);
+
+	heapSort(arr, n);
+
+	cout << "Sorted array is:";
+	printArray(arr, n);
+}
+
+```
+
+```
+Sorted array is: 2 7 13 52 66 95
+
+```
+
+### Time Complexity 
+For Heapify: O (n)
+For Deletion: O (nlogn)
+Total Time Complexity: O (n) + O (nlogn) = O (nlogn)
+
+### Space Complexity
+Since the heap is built inside the array to be sorted, the space complexity : O (1)
+
+### References
+[Abdul Bari](https://www.youtube.com/watch?v=HqPJF2L5h9U)
+[GeeksForGeeks](https://www.geeksforgeeks.org/heap-sort/)
+
