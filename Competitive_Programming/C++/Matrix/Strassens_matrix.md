@@ -2,20 +2,19 @@
 
 Strassen algorithm, is an algorithm for matrix multiplication which is much faster than the naive/standard matrix multiplication algorithm for larger matrices, with a better asymptotic complexity.
 
-To show how strassen's approach has a better time complexity, let’s compare both of these algorithms along with the their implementation in C.
+To show how strassen's approach has a better time complexity, let’s compare both of these algorithms.
 
 ## Naive Approach
 
 If we consider 2 matrices A and B having dimensions n x n then their resultant matrix multiplication by naive method is given by 
 
 <div align ="center">
-    <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/ee372c649dea0a05bf1ace77c9d6faf051d9cc8d">
+    <img src="https://miro.medium.com/max/390/1*gLP52rgHhuOGi402RtKlMg.png">
 </div>
 
-### The C++ Implementation of this is
+### Implementation in C++
 ``` C++
 //Taking 3 input matrices
-
 void Naive(int A[][n], int B[][n], int C[][n])
 {
 	for (int i = 0; i < n; i++)
