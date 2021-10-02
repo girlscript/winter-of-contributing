@@ -43,6 +43,7 @@
 - [Python Strings](./Python_Strings)
 - [Yield Keyword](./Yield_Keyword)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
+- [Django Framework](./Django_Framework)
 
 
 ## Learning path
@@ -77,3 +78,4 @@
 28. Python Strings
 29. Yield Keyword
 30. Dictionary Comprehension
+31. Django Framework
