@@ -1,5 +1,10 @@
 # **Asymmetric Cryptography: A Brief Insight**
 
+
+![assymetric-encryption-1200x675-1](https://user-images.githubusercontent.com/61372508/135723495-28f1293d-6d02-4e2d-aa1a-103727d69225.png)
+
+*Image Source: NordVPN*
+
 * Asymmetrix cryptogaphy is a cryptographic contrivance that uses two keys --> one **public** and one **private key**, which are mathematically and empirically related to one another. 
 
 * They're primarily used to encrypt a message (process of converting **plaintext** to **cipher**) and also decrypting it (reverse process of conversion from cipher to plaintext). 
@@ -13,6 +18,8 @@
 * It also works with **digital signatures**, wherein a sender can use his/her own private key to encrypt a message which can be consequently verified using the public key, which is given to others.
 
 * These keys are a lot longer than the symmetric keys and the longer the key-length is, the more difficult it is for the hackers to breach security.
+
+---
 
 # **A Simple Example:**
 
