@@ -6,7 +6,7 @@ The Async/Await functionality is one of them. Async/Await is an extension of pro
 
 **Async**
 
-A Async function is a function declared with **Async** keyword wic means it will run in the backround while performing the code inside when the function is done, it automatically returns a promise.
+An Async function is a function declared with the **Async** keyword which means it will run in the background while performing the code inside when the function is done, it automatically returns a promise.
 Async function always returns a Promise.
 
 **Syntax**
