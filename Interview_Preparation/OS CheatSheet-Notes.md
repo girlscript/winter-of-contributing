@@ -317,17 +317,22 @@ We can recover from a deadlock by following methods:
 ### 56. What is seek time?
 Seek Time: Seek time is the time taken to locate the disk arm to a specified track where the data is to be read or write. So the disk scheduling algorithm that gives minimum average seek time is better.
 
-### 57. Producer Consumer Problem ?
+### 57. Producer Consumer Problem (aka Bounded-buffer Problem) ?
 **Problem Statement** – We have a buffer of fixed size. A producer can produce an item and can place in the buffer. A consumer can pick items and can consume them. We need to ensure that when a producer is placing an item in the buffer, then at the same time consumer should not consume any item.
 
 To solve this problem, we need two counting semaphores – Full and Empty. “Full” keeps track of number of items in the buffer at any given time and “Empty” keeps track of number of unoccupied slots.
 
-**Initialization of semaphores** – 
-mutex = 1 
-Full = 0 // Initially, all slots are empty. Thus full slots are 0 
-Empty = n // All slots are empty initially 
+**Initialization of semaphores** –  
+~~~
+mutex = 1  
 
-**Solution for Producer** – 
+Full = 0 // Initially, all slots are empty. Thus full slots are 0  
+
+Empty = n // All slots are empty initially 
+~~~
+
+**Solution for Producer** –  
+~~~
 do{
 
 //produce an item
@@ -341,11 +346,12 @@ signal(mutex);
 signal(full);
 
 }while(true)
+~~~
 
 When producer produces an item then the value of “empty” is reduced by 1 because one slot will be filled now. The value of mutex is also reduced to prevent consumer to access the buffer. Now, the producer has placed the item and thus the value of “full” is increased by 1. The value of mutex is also increased by 1 because the task of producer has been completed and consumer can access the buffer. 
 
 **Solution for Consumer** – 
-
+~~~
 do{
 
 wait(full);
@@ -359,7 +365,122 @@ signal(empty);
 // consumes item
 
 }while(true)
+~~~
 
 As the consumer is removing an item from buffer, therefore the value of “full” is reduced by 1 and the value is mutex is also reduced so that the producer cannot access the buffer at this moment. Now, the consumer has consumed the item, thus increasing the value of “empty” by 1. The value of mutex is also increased so that producer can access the buffer now. 
 
-<!-- ### 58.  -->
+### 58. Reader/Writer problem
+
+- There is a shared piece of text and 2 types of process in accessing this text reader and writer.
+- There is no clash between reader and reader therefore when a reader is inside critical section then other readers may get an only entry but when a write is inside critical section then neither the reader nor the writer gets an entry.
+- Hence in the solution, we have used 3 resources a semaphore mutex for synchronization between writer and reader-writer.
+- While read count (RC) is a simple integer variable which is given security by reading semaphore which works for synchronization between reader- reader.
+
+Writer
+~~~  
+while(1)
+{  
+	wait(mutex)
+	write
+	signal(mutex)
+}
+~~~
+
+Reader
+~~~
+while(1)
+{  
+	wait(Read)
+	Rc = Rc + 1;
+	
+	if(Rc = = 1)
+	{  
+		wait (mutex)
+	} 
+	
+	wait(Read)
+	Rc = Rc-1
+	
+	if(Rc ==0)
+	{ 
+		signal(mutex)
+	}
+	
+	signal(Read)
+}
+~~~
+
+### 59. Dining Philosopher problem
+
+**Problem Statement** – The Dining Philosopher Problem states that K philosophers seated around a circular table with one chopstick between each pair of philosophers. There is one chopstick between each philosopher. A philosopher may eat if he can pickup the two chopsticks adjacent to him. One chopstick may be picked up by any one of its adjacent followers but not both. This problem involves the allocation of limited resources to a group of processes in a deadlock-free and starvation-free manner.
+
+~~~
+Pi()
+while(1)
+{ 
+	think
+	P(s)
+	Wait (chop-stick[i])
+	Wait (chop-stick(i+1 % 5)
+	V(s)
+	Eat
+	Signal( chop-stick[i]
+	Signal (chop-stick(i+1 % 5)
+	Think
+}
+~~~
+
+### 60. The Critical Section Problem:
+1. Critical Section – The portion of the code in the program where shared variables are accessed and/or updated.
+2. Remainder Section – The remaining portion of the program excluding the Critical Section.
+3. Race around Condition – The final output of the code depends on the order in which the variables are accessed. This is termed as the race around condition.  
+
+A solution for the critical section problem must satisfy the following three conditions:
+
+1. Mutual Exclusion – If a process Pi is executing in its critical section, then no other process is allowed to enter into the critical section.
+2. Progress – If no process is executing in the critical section, then the decision of a process to enter a critical section cannot be made by any other process that is executing in its remainder section. The selection of the process cannot be postponed indefinitely.
+3. Bounded Waiting – There exists a bound on the number of times other processes can enter into the critical section after a process has made request to access the critical section and before the requested is granted.
+
+### 61. What is Page Fault:
+A page fault is a type of interrupt, raised by the hardware when a running program accesses a memory page that is mapped into the virtual address space, but not loaded in physical memory.
+
+### 62. Page Replacement Algorithms:
+1. **First In First Out (FIFO)** –  
+
+This is the simplest page replacement algorithm. In this algorithm, operating system keeps track of all pages in the memory in a queue, oldest page is in the front of the queue. When a page needs to be replaced page in the front of the queue is selected for removal.
+For example, consider page reference string 1, 3, 0, 3, 5, 6 and 3 page slots. Initially, all slots are empty, so when 1, 3, 0 came they are allocated to the empty slots —> 3 Page Faults. When 3 comes, it is already in  memory so —> 0 Page Faults. Then 5 comes, it is not available in  memory so it replaces the oldest page slot i.e 1. —> 1 Page Fault. Finally, 6 comes,  it is also not available in memory so it replaces the oldest page slot i.e 3 —> 1 Page Fault.
+
+2. **Optimal Page replacement** –  
+
+In this algorithm, pages are replaced which are not used for the longest duration of time in the future.
+
+Let us consider page reference string 7 0 1 2 0 3 0 4 2 3 0 3 2 and 4 page slots. Initially, all slots are empty, so when 7 0 1 2 are allocated to the empty slots —> 4 Page faults. 0 is already there so —> 0 Page fault. When 3 came it will take the place of 7 because it is not used for the longest duration of time in the future.—> 1 Page fault. 0 is already there so —> 0 Page fault. 4 will takes place of 1 —> 1 Page Fault. Now for the further page reference string —> 0 Page fault because they are already available in the memory.
+
+Optimal page replacement is perfect, but not possible in practice as an operating system cannot know future requests. The use of Optimal Page replacement is to set up a benchmark so that other replacement algorithms can be analyzed against it.
+
+3. **Least Recently Used (LRU)** –  
+
+In this algorithm, the page will be replaced which is least recently used.
+Let say the page reference string 7 0 1 2 0 3 0 4 2 3 0 3 2 . Initially, we have 4-page slots empty. Initially, all slots are empty, so when 7 0 1 2 are allocated to the empty slots —> 4 Page faults. 0 is already their so —> 0 Page fault. When 3 came it will take the place of 7 because it is least recently used —> 1 Page fault. 0 is already in memory so —> 0 Page fault. 4 will takes place of 1 —> 1 Page Fault. Now for the further page reference string —> 0 Page fault because they are already available in the memory.
+
+### 63. Disk Scheduling:
+Disk scheduling is done by operating systems to schedule I/O requests arriving for disk. Disk scheduling is also known as I/O scheduling.
+
+1. **Seek Time**: Seek time is the time taken to locate the disk arm to a specified track where the data is to be read or write.
+2. **Rotational Latency**: Rotational Latency is the time taken by the desired sector of disk to rotate into a position so that it can access the read/write heads.
+3. **Transfer Time**: Transfer time is the time to transfer the data. It depends on the rotating speed of the disk and number of bytes to be transferred.
+4. **Disk Access Time**: Seek Time + Rotational Latency + Transfer Time
+5. **Disk Response Time**: Response Time is the average of time spent by a request waiting to perform its I/O operation. Average Response time is the response time of the all requests.
+
+### 64. Disk Scheduling Algorithms:
+1. **FCFS**: FCFS is the simplest of all the Disk Scheduling Algorithms. In FCFS, the requests are addressed in the order they arrive in the disk queue.
+2. **SSTF**: In SSTF (Shortest Seek Time First), requests having shortest seek time are executed first. So, the seek time of every request is calculated in advance in a queue and then they are scheduled according to their calculated seek time. As a result, the request near the disk arm will get executed first.
+3. **SCAN**: In SCAN algorithm the disk arm moves into a particular direction and services the requests coming in its path and after reaching the end of the disk, it reverses its direction and again services the request arriving in its path. So, this algorithm works like an elevator and hence also known as elevator algorithm.
+4. **CSCAN**: In SCAN algorithm, the disk arm again scans the path that has been scanned, after reversing its direction. So, it may be possible that too many requests are waiting at the other end or there may be zero or few requests pending at the scanned area.
+5. **LOOK**: It is similar to the SCAN disk scheduling algorithm except for the difference that the disk arm in spite of going to the end of the disk goes only to the last request to be serviced in front of the head and then reverses its direction from there only. Thus it prevents the extra delay which occurred due to unnecessary traversal to the end of the disk.
+6. **CLOOK**: As LOOK is similar to SCAN algorithm, in a similar way, CLOOK is similar to CSCAN disk scheduling algorithm. In CLOOK, the disk arm in spite of going to the end goes only to the last request to be serviced in front of the head and then from there goes to the other end’s last request. Thus, it also prevents the extra delay which occurred due to unnecessary traversal to the end of the disk.
+
+## References:
+- https://www.geeksforgeeks.org/
+- https://www.interviewbit.com/
+- https://www.javatpoint.com/
