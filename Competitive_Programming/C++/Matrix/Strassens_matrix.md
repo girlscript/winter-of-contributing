@@ -15,7 +15,6 @@ If we consider 2 matrices A and B having dimensions n x n then their resultant m
     for i = 1,...n and j = 1,...n
 </div>
 
-### Implementation in C++
 ``` C++
 //Taking 3 input matrices
 void Naive(int A[][n], int B[][n], int C[][n])
@@ -73,8 +72,16 @@ C22 = P1 + P5 - P3 - P7
 
 So the final matrix C becomes 
 ```
-matrix C = |p5+p4-p2+p6    p1+p2   |
-           |   p3+p4    p1+p5-p3-p7| 
+Resultant Matrix C = |p5+p4-p2+p6    p1+p2   |
+                     |   p3+p4    p1+p5-p3-p7| 
 ```
 
+### Time Complexity for Strassens Algorithm
+The algorithm makes seven recursive calls while calculating P1 to P7. After each recursive call the matrix size is divided by 2 and the work done to add, subtract and copy values to resultant matrix C is O(n²).
 
+Therefore, the the master’s equation is: 
+``` 
+T(n) = 7T(n/2) + O(n²) 
+```
+
+***Time Complexity : O(n^log2(7)) = O(n^2.81).***
