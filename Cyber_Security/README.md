@@ -73,7 +73,7 @@
     - [File Injecting virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/File-Infector_Virus.md)
     - [Boot Sector Virus](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Boot%20Sector%20Virus.md)
     - [Malware](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.2%20Malware%20%232499.md)
-    - [Phishing attacks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity:%203.9.3%20Phishing%20Attacks.md)
+    - [Phishing attacks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cyber%20security%203.9.3%20Phishing%20Attackes.md)
     - [Cloud jacking](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.4%20Cloud%20Jacking.md)
     - [MAN-IN-THE-MIDDLE attack](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Man_in_middle_attack.md)
 ## Week-4 (Cryptography)
