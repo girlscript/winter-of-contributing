@@ -28,7 +28,7 @@
 # C++ code for finding element using Binary Search:
 
 - Here r = right, l = left , m = mid.
-``cpp
+```cpp
 
 // C++ program to implement recursive Binary Search
 #include <bits/stdc++.h>
@@ -70,3 +70,4 @@ int main(void)
 				: cout << "Element is present at index " << result;
 	return 0;
 }
+```
