@@ -19,16 +19,26 @@ Background-repeat property of CSS, is used to set the rules for the background i
 <h2>Repeat-X</h2>
 <div class="repeat-x"></div>
 <h2>Repeat-Y</h2>
-<div id="repeat-y"></div>
-<h2>No-Repeat</h2>
-<div class="no-repeat"></div>
+<div class="repeat-y"></div>
 <h2>Space</h2>
 <div class="space"></div>
 <h2>Round</h2>
 <div class="round"></div>
+<h2>No-Repeat</h2>
+<div class="no-repeat"></div>
 ```
 
 ```css
+body{
+  color:#E93B81;
+  background: #C1FFD7;
+}
+div {
+	height: 200px;
+	border: 5px solid #CAB8FF;
+	margin-bottom: 2em;
+	background: url(image.png);
+}
 .repeat {
 	background-repeat: repeat;
 }
@@ -41,10 +51,6 @@ Background-repeat property of CSS, is used to set the rules for the background i
 	background-repeat: repeat-y;
 }
 
-.no-repeat {
-	background-repeat: no-repeat;
-}
-
 .space {
 	background-repeat: space;
 }
@@ -53,21 +59,17 @@ Background-repeat property of CSS, is used to set the rules for the background i
 	background-repeat: round;
 }
 
-div {
-	width: 500px;
-	height: 200px;
-	border: 5px solid #CAB8FF;
-	margin-bottom: 2em;
-	background: url(image.png);
+.no-repeat {
+	background-repeat: no-repeat;
 }
 ```
+![image](https://user-images.githubusercontent.com/61539946/135726203-8162acb1-aa0b-4a9d-9959-e5ae0931e415.png)
+![image](https://user-images.githubusercontent.com/61539946/135726215-32c55ce0-6847-4f0a-994d-ee5c4cea153e.png)
+![image](https://user-images.githubusercontent.com/61539946/135726233-db1d24a1-6a43-43ed-ac92-92492fb4a615.png)
+![image](https://user-images.githubusercontent.com/61539946/135726243-b542e590-061c-4162-a0e9-dbf1f51ae6e4.png)
+![image](https://user-images.githubusercontent.com/61539946/135726247-556b3c5c-6c23-4daa-9d4e-950454f3f23e.png)
+![image](https://user-images.githubusercontent.com/61539946/135726260-f35751a3-32c8-427d-9255-4d229c600f64.png)
 
-![image](https://user-images.githubusercontent.com/61539946/135723292-19f77539-15ec-47c9-8624-7d8495be07e5.png)
-![image](https://user-images.githubusercontent.com/61539946/135723306-0f7eaf44-9d1b-42df-8343-4ea9a68ed99d.png)
-![image](https://user-images.githubusercontent.com/61539946/135723324-a366c6b4-24e3-4db0-b296-43797c9874e6.png)
-![image](https://user-images.githubusercontent.com/61539946/135723332-7b5fd73c-26a8-426d-a565-93ee9cfaf263.png)
-![image](https://user-images.githubusercontent.com/61539946/135723337-b7727f2e-8a3a-45eb-b583-6cac021a0198.png)
-![image](https://user-images.githubusercontent.com/61539946/135723347-380813c1-985f-4c3c-8579-832e1e457df0.png)
 
 
 ---
