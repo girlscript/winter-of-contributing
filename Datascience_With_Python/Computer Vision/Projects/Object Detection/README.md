@@ -1,43 +1,56 @@
 # Object detection using deep learning with OpenCV and Python 
 
-OpenCV `dnn` module supports running inference on pre-trained deep learning models from popular frameworks like Caffe, Torch and TensorFlow. 
+* Object Detection is a technology of computer vision, where things, human beings, building, cars can be detected as object in image and videos.
+* Object detection is merely to recognize the object with bounding box in the image, where in image classification, we can simply classify that is an object in the image or not in terms of the likelihood.
+* Object detection involves "image classification" and "image localization".
 
-When it comes to object detection, popular detection frameworks are
- * YOLO
- * SSD
- * Faster R-CNN
+# Algorithms Used
+
+* SSD-MoibleNet
+* YOLO
+
+# Libraries used
+
+* OpenCV(Python)
+* Tenserflow object detection API
+
+# Dataset used
+
+* COCO dataset (comprises of 80 classes)
+
+# Files Used
+
+Config file - https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API
+
+Download 'weights' and 'config' file for MobileNet-SSD v3
+
+Coco dataset - https://github.com/pjreddie/darknet/blob/master/data/coco.names
+
+Download and use '.txt' file here.
+
+Else <a href="https://github.com/HastiSutaria/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Files"> Visit here</a>
+
+# Documentation parts
+
+* Image Demo
+* Video Demo
+* Webcam Demo
  
- Support for running YOLO/DarkNet has been added to OpenCV dnn module recently. 
- 
- ## Dependencies
-  * opencv
-  * numpy
+# sample output :
+
+### BEFORE
+ ![sample](https://user-images.githubusercontent.com/69644003/135707973-9a1cd5b8-e03c-4aaf-91f5-133fde3c1c96.jpg)
+### AFTER
+ ![object_detection_sample_img](https://user-images.githubusercontent.com/69644003/135707987-e5c0a7f0-6f94-4f42-b8ad-b32c28dbde74.png)
+
   
-`pip install numpy opencv-python`
+# Real life Applications
 
-**Note: Compatability with Python 2.x is not officially tested.**
+* Tracking objects
+* People Counting
+* Automated CCTV surveillance
+* Person Detection
+* Vehicle Detection
 
- ## YOLO (You Only Look Once)
- 
- Download the pre-trained YOLO v3 weights file from this [link](https://pjreddie.com/media/files/yolov3.weights) and place it in the current directory or you can directly download to the current directory in terminal using
- 
- `$ wget https://pjreddie.com/media/files/yolov3.weights`
- 
- Provided all the files are in the current directory, below command will apply object detection on the input image `dog.jpg`.
- 
- `$ python yolo_opencv.py --image dog.jpg --config yolov3.cfg --weights yolov3.weights --classes yolov3.txt`
- 
- 
- **Command format** 
- 
- _$ python yolo_opencv.py --image /path/to/input/image --config /path/to/config/file --weights /path/to/weights/file --classes /path/to/classes/file_
- 
- Checkout the [blog post](http://www.arunponnusamy.com/yolo-object-detection-opencv-python.html) to learn more.
- 
- ### sample output :
- ![](object-detection.jpg)
- 
-Checkout the object detection implementation available in [cvlib](http:cvlib.net) which enables detecting common objects in the context through a single function call `detect_common_objects()`.
- 
- 
- (_SSD and Faster R-CNN examples will be added soon_)
+# Conclusion
+Thus, oject detection is breaking into a wide scope of enterprises, with use cases extending from individual security to efficiency in the working environment. Object detection is applied in numerous territories of image processing, including picture retrieval, security, observation, computerized vehicle systems and machine investigation. Critical difficulties remain in the field of object detection. The potential outcomes are inestimable with regards to future use cases for object detection.
