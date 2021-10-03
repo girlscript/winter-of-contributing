@@ -12,7 +12,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
     d)The \<abbr> tag should end with its respective closing tag\</abbr>. <br><br>
     d)In the output, if we hover/ or move out cursor on the underlined abbreviation, the actual full-form of the abbreviation is displayed.
 
-    **Example :**
+**Example :**
 
 ``` HTML
     <p>The <abbr title="United Nations">UN</abbr> aims to maintain International Peace.</p>
@@ -27,7 +27,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
     a) This tag is used to insert quotation marks when required while writing some quotes.<br><br>
     b) The \<q> tag should end with its respective closing tag\</q>. 
 
-    **Example :**
+**Example :**
 
 ``` HTML
      <p>Charlie Chaplin once said: 
@@ -46,7 +46,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
     d) The text written inside this tag is displayed in italics during the output.<br><br>
     e) The \<cite> tag should end with its respective closing tag\</cite>. 
 
-    **Example :**
+**Example :**
 
 ``` HTML
      <p><cite>The Maze Runner</cite> by James Dashner.</p>
@@ -62,7 +62,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
     c) The attribute 'cite' can be used with it to notify the source or the place from which the blockquoted text has been taken from.<br><br>
     d) The \<blockquote> tag should end with its respective closing tag\</blockquote>.
 
-    **Example :**
+**Example :**
 
 ``` HTML
      <p>GirlScript Winter of Contributing:</p>
@@ -85,7 +85,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
         ii) rtl - Defines the direction of text from left to right.<br><br>
     f) The \<bdo> tag should end with its respective closing tag\</bdo>.
     
-    **Example :**
+**Example :**
 
 ``` HTML
     <bdo dir="rtl">Reverse the text in rtl(Right to left) direction!</bdo>
@@ -100,7 +100,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
     b) The text written inside this tag is displayed in italics during the output.
     c) The \<address> tag should end with its respective closing tag\</address>.
 
-    **Example :**
+**Example :**
 
 ``` HTML
    <address>
