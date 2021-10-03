@@ -1,3 +1,15 @@
+# **Ugly Numbers Using Dynamic Programming**
+## Dynamic Programming(DP)
+Dynamic Programming is basicaly an optimization over recursion. In this we store the results of subproblems so that we don't have to recompute it each and every time we encounter it.
+Whenever there is some recursive function which has repeated calling for same parameters/inputs, DP can be used to reduce the time complexity and optimize the solution.
+
+## Ugly Numbers
+Ugly numbers are the numbers whose prime factors are 2,3 or 5 only. So, the first 8 ugly numbers will be: 1, 2, 3, 4, 5, 6, 8, 9. Conventionally, 1 is included.
+Here, the task is to find the nth ugly number where n is given by user.
+
+In the solution for this problem we will use an array named as "ugly" which will store n ugly numbers and at last we will return element at (n-1)th position which will be the required answer or we can say the nth ugly number.
+
+## Code of Ugly Numbers in C++.
 ```
 /*
 Ugly numbers are the numbers whose prime factors are 2,3 or 5 only.
