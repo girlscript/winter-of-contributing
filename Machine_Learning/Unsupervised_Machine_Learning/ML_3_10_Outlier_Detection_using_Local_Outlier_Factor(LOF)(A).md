@@ -1,6 +1,6 @@
 ## ML 3.10 : Outlier Detection using Local Outlier Factor
 
-This section provides a brief introduction SVM.
+This section provides a brief introduction Local Outlier Factor.
 
 Outline:
 
