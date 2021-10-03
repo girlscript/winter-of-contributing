@@ -1,11 +1,11 @@
 
 ## **HTML_Tables**
 
-* The table tag HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. *
+- The table tag HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. 
 
 ## **Table Cells**
 
-- Each table cell is defined by a td tag and a td tag.
+- Each table cell is defined by a td tag and closed by td tag.
 - td stands for table data.
 - Everything between td tag and td tag are the content of the table cell.
 
