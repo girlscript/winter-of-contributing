@@ -1,10 +1,10 @@
 # Elbow Method In KMeans Clustering
-## Video link: 
+## Video link: [Elbow Method in KMeans Clustering](https://vimeo.com/621551972)
 Clustering is an unsupepervised learning method in which we form the dataset into cluster of items or group of items on the basis of similarity or dissimilarity between the items or objects. In other words, we form groups several groups of items or objects such that each group has its the similar items/objects while rest of the items which are dissimilar are in some other group. In an unsupervised method, we are not given any pre defined labels and we have to infer the given dataset to form labelled sets. Same is being done here. We will not be given any predefined label and we have to label our clusters in such a way that all similar objects should be toegther in each cluster and the data point from different cluster should be as different as possible.  
 Now, there is another thing which is important to find, that is the number of clusters, for which there is a method, known as Elbow method, that I will be covering.
 ## K Means Clustering
 K-means is a clustering algorithm which is centroid-based or we can say is based on the center point of each cluster, along with distance-based or we can say the distance between the cluster center explained above and points in a cluster , where we calculate the distances to assign a point to a cluster. In K-Means, each cluster is represented by a centroid or the cluster mean.  
-Now, to find clusters we will be using Elbow Method.
+Now, to find number of clusters we will be using Elbow Method.
 
 ![K means](./Images/K_Means.png)
 
@@ -88,7 +88,7 @@ Through this we were able to form n_clusters in implementing k means algorithm e
 - Advantage: Through this method, we are able to find the optimum number of clusters, which is diffcult task in K Means clustering algorithm and this particular task of finding number of clusters is considered to be a disadvantage of K Means algorithm, which is overcomed by elbow method.
 - Disadvantage: The presence of multidimensional data and/or outliers affect this elbow method same as K Means clustering algorithm. Because of this, uneven clustering takes place.
 
-## Conclusion:
+## Conclusion
 Through this, we can understand that we can overcome the disadvantage of K Means clustering algorithm of finding number of clusters which is very good and tells us the importance of Elbow method. I expect everyone knows about this method and implement it alteast once.
 
 ***Contribution by : Shubham Patel***
