@@ -1,16 +1,25 @@
 # Destructor Concepts
 
 #### What is a destructor ?
-  Destructors are basically used for the **deallocation of memory when object goes out of scope** and it is used for class object and it's class members. Destructor has the same name as that of class name but it's preceded with ~(tilde).     There can be only one destructor in a class.    
-  There should be no return type and no parameters.
+  Destructors are basically used for the **deallocation of memory when object goes out of scope** and it is used for class object and it's class members. Destructor has the same name as that of class name but it's preceded with **~**(tilde).   There can't be more than one destructor in a class.    There should be **no return type** and **no parameters**. When an object passes out of scope, the destructor is called for class object. Destructors can never be declared as **static** or **const**.
+  
+#### When is a destructor called automatically ?
+  - When the program comes to an end.
+  - When a function comes to an end.
+  - When a code block with local variables ends.
+  - Also when a delete operator is encountered.
 
- ### Syntax for using Destructor:
- Suppose if class name is Add(),
- then
- > ~Add()
+#### Why is a destructor needed ?
+   A destructor is basically needed for a class object, especially when that object goes out of scope or when it is explicitly deleted.
  
- <br /> 
- A program example to help you understand the concept much better:
+#### How to create a destructor ?
+  ##### Syntax:
+  Suppose if class name is Add, then 
+  > ~Add() will deallocate the memory.
+ 
+ 
+ #### A program example to help you understand the concept much better:
+ 
  
  ```C++
  
@@ -70,38 +79,4 @@
 >  Width : 12  <br>
 >  Area :36    <br>
 >  Deletion of object takes place
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-
-  
-  
+   
