@@ -1,7 +1,7 @@
 
 ## Supervised Machine Learning
 
-2.1. What is Learning? Why Machine Learning works? (A+V)
+2.1. What is Learning? Why Machine Learning works? (A+V+D)
 
 2.2. Contrast between Regression and Classification (A+V+D)
 
@@ -28,7 +28,21 @@
 
 2.13. Implement Naive Bayes without using any standard ML library like scikit-learn or more.* (D)
 
-2.14. implement SVM without using any standard ML library like scikit-learn or more.* (D)
+2.14. Implement SVM without using any standard ML library like scikit-learn or more.* (D)
+
+2.15. Implement Decision Tree Agorithms without using any standard ML library like scikit-learn or more.* (D)
+
+2.16. Implement KNN without using any standard ML library like scikit-learn or more.* (D)
+
+2.17. Random Forest Algorithms (A+D+V)
+
+2.18. Implement Random Forest without using any standard ML library like scikit-learn or more.* (D)
+
+2.19. Gradient Descent Algorithms (A+D+V)
+
+2.20. Implement Gradient Descent without using any standard ML library like scikit-learn or more.* (D)
+
+
 
 **_N.B.: (*) marked issues can only be solved using Numpy/Pandas. No other libraries will be entertained!_**
 
