@@ -69,7 +69,7 @@ console.log(x.innerHTML); // Print text inside body element
 
 ### HTML | DOM forms Collection
 
-The forms collection returns a collection of all < form> elements present in the document . Since there may be multiple forms in a page , the elements are sorted as they are present in the HTML source code . 
+The forms collection returns a collection of all `<form>` elements present in the document. Since there may be multiple forms on a page, the elements are sorted as they are present in the HTML source code. 
 
 E.g .
  ```
