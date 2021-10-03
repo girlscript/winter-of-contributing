@@ -34,14 +34,26 @@ The next query is (3,6).This means we have to find LCM of elements starting from
 
 ## Algorithm
 
-1. Declare two arrays (one for the numbers and one for queries).
+1. Firstly, declare two arrays :
+      - One for the numbers.
+      - Second one for the queries.
+2. Then, make a segment tree.
+3. We are interested to find the LCM of two numbers, so divide the product of the left child and right child by their GCD. ( LCM of 2 numbers is the product of 2 numbers divided by the gcd of same to numbers )
+4. Now, for all the queries :
+      - If the indices are not valid, then return to the main function by returning the value of 1.
+      - Else, check if the left index is less than equal to start index of node and the right index is greater than equal to end index of the node ( left<=start && right >=end           ), if it's true then return the current value node of the tree.
+5. If both the above checks are not true :
+      - Then we call the same function multiple times (known as recursion) to find the left and right node LCM.
+      - When we get the left and right node LCM, we call the LCM function to obtain the LCM of both the numbers. 🚀 
+
+<!-- 1. Declare two arrays (one for the numbers and one for queries).
 2. Make a **segment tree** .
 3. To find the LCM of a number, divide the product of the left child and right child by their GCD.
 4. Get the LCM for the left child node and the right child node.
 5. For each query, if the range is not valid then return 1, else check if the left is less than the starting value of the node
    and the right is greater than the value of the ending node, then return the current value node of the tree.
 6. If any of the above conditions are not true, else recursively call the function to get the left node lcm and the right node lcm and then call the
-   lcm function to get the LCM of these numbers.
+   lcm function to get the LCM of these numbers. -->
 
 ## Code
 
