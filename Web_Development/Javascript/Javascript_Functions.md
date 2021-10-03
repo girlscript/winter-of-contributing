@@ -115,4 +115,4 @@ function addSquares(s1, s2) {
 a = addSquares(2, 5); // returns 29
 b = addSquares(3, 4); // returns 25
 ```
-: **Contributor - Geetika Bhatnagar**
+: **Source - https://www.w3schools.com/js/js_functions.asp**
