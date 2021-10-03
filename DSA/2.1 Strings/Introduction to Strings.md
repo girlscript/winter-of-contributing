@@ -10,10 +10,9 @@ In C++, strings can be represented in the following ways:
 <br>
 
 ### __Characters arrays__ are often declared and initialised as: 
-
-    char str[] = "Hello World"; 
-### or  
-    char *str = "Hello World";
+` char str[] = "Hello World";` 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or  
+` char *str = "Hello World";`
 
 Although this does the job, the string class in C++ is a much desirable option when it comes to using strings in your code.
 
@@ -26,16 +25,38 @@ Although this does the job, the string class in C++ is a much desirable option w
 
 ### - DECLARING AND INITIALISING STRINGS
 * Each string object can be declared and initialised as:
-         string str1 = "Hello World";  
-         string str2("Hello World");
+       <br> `string str1 = "Hello World";`  
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; or  
+       `string str2("Hello World");`
 
 * To initialise strings using user input, we can use the standard input object:
-        string str;
-        cin >> str;
-     But this method will prevent the user from entering multiple words as **cin** recognises whitespace as a terminating character. 
-     To overcome this, we can use the **getline()** to allow the users enter a stream of characters until a newline character is encountered.
-        string str;
-        getline(cin,str);
+  ```
+        #include<iostream>
+        #include<string>
+        
+        int main(){
+            string str;
+            cin >> str;
+        
+            return 0;
+        }
+  ```
+    
+    <br>
+    
+    But this method will prevent the user from entering multiple words as **cin** recognises whitespace as a terminating character. 
+    <br>To overcome this, we can use the **getline()** to allow the users enter a stream of characters until a newline character is encountered.    
+  ```
+        #include<iostream>
+        #include<string>
+        
+        int main(){
+            string str;
+            getline(cin,str);
+        
+            return 0;
+        }
+   ```
 <BR>
 
 ### - ACCESSING THE CHARACTERS OF A STRING
