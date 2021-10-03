@@ -134,7 +134,8 @@ The form is divided in to sections called:-
 <hr>
 ```
 
- Which basically looks like this
+ **Which basically looks like this :-**
+  <br>
 
 **Front Page UI**
 
