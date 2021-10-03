@@ -148,11 +148,14 @@ int binarySearch(int arr[], int start, int end, int target)
 int main(void)
 {
     int arr[] = {1,3,5,8,10};
-    int target = 10;
+    int target = 8;
+    
+    // Calculating size of array
     int n = sizeof(arr) / sizeof(arr[0]);
-    int result = binarySearch(arr, 0, n - 1, target);
-    (result == -1) ? cout << "Element is not present in array"
-                   : cout << "Element is present at index " << result;
+    
+    // Calling binarySearch function
+    int index = binarySearch(arr, 0, n - 1, target);
+    cout << index<<endl;         
     return 0;
 }
 
