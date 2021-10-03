@@ -17,8 +17,8 @@ But first let us know what is the sub array
     For element in 4th index	{4}
 
 >##### Two methods to find the maximum subarray sum is
-    >- The brute force method
-    >- Kadane’s algorithm
+    1. The brute force method
+    2. Kadane’s algorithm
 
 > Kadane’s algorithm is an iterative dynamic programming algorithm. It uses optimal sub-structures. It means that to calculate the maximum subarray ending at a particular position, we use a related, smaller subproblem (the maximum subarray ending at the previous position). Because of this, it is dynamic programming. Kadane’s algorithm uses a greedy and dynamic approach.
 
