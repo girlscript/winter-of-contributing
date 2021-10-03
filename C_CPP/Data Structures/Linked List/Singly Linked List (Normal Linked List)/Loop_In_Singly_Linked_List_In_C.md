@@ -1,5 +1,5 @@
 # Detect Loop in Singly Linked List
-## Floyd Algorithm
+## Method - 1 Using Floyd Algorithm
 ```c
 Algorithm
 1. Create two pointers slow and fast initialised from Head
@@ -82,7 +82,7 @@ SLL *createList()
 }
 ```
 
-## Using a variable in structure of List
+## Method - 2 Using a variable in structure of List
 ```c
 Algorithm
 1. Add a 'visited' variable in the struct of List with initial value 0 (states that node is neither visited)
