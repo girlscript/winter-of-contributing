@@ -33,7 +33,7 @@
 - Introduction to css
 - Selectors and pseudo selector
 - Classes and Id’s
-- CSS general rule
+- [CSS general rule](CSS_General_Rule.md)
 - Colors in css
 - Text manipulation
 - The css box model
