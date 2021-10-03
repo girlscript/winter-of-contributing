@@ -86,7 +86,7 @@ table, th, td {
 ## **output**
 <br /> 
 <p align= "center">
-<img src="Output Images\output_code1.jpg" />
+<img src="Output Images\output_code1.png" />
 </p>
 <br /> 
 
@@ -163,7 +163,7 @@ table, th, td {
 ## **output**
 <br /> 
 <p align= "center">
-     <img src="Output Images\output_code2.jpg" />
+     <img src="Output Images\output_code2.png" />
 </p>
 <br /> 
 
