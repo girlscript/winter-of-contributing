@@ -3,7 +3,6 @@
 ## Table of contents
 - [Overview](#overview)
   - [Video contents](#video-contents)
-  - [Screenshot](#screenshot)
   - [Link](#links)
 - [My process](#my-process)
   - [What I learned](#what-i-learned)
@@ -21,9 +20,6 @@ code of flex
 
 Grid and flex advantages and disadvantages
 When to use grid and flex
-
-### Screenshot
-
 
 
 ### Link
