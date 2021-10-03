@@ -16,7 +16,7 @@ Below image shows a basic heirarchy in DOM :
 
 ## Use of DOM in JavaScript
 <br>
-With the DOM , javascript get all the power it needs to create dynamic webpage . With DOM :
+With the DOM, JavaScript gets all the power it needs to create dynamic web pages. With the DOM :
 
 * JavaScript can change all the HTML elements in the page
 
