@@ -24,14 +24,14 @@ So, a fast way to compute those is that an element in the sequence is just the s
 
 Finally, the idea is as follows:
 
-* if n = 0
-     * a<sup>n</sup> = 1 
+* if <code>n = 0</code>
+     * <code>a<sup>n</sup> = 1</code>
 
-* if n is odd
-     * a<sup>n</sup> = (a<sup>((n-1)/2)</sup>)<sup>2</sup> * a
+* if <code>n is odd</code>
+     * <code>a<sup>n</sup> = (a<sup>((n-1)/2)</sup>)<sup>2</sup> * a</code>
 
-* if n is even
-     * a<sup>n</sup> = (a<sup>(n/2)</sup>)<sup>2</sup>
+* if <code>n is even</code>
+     * <code>a<sup>n</sup> = (a<sup>(n/2)</sup>)<sup>2</sup></code>
 
 
 # Implementation
@@ -179,14 +179,14 @@ void multiply(int F[2][2], int M[2][2])
 ### Multiplying two numbers a and b modulo m, given that their product is too big to fit in a 64-bit integer.
 We simply apply the binary construction algorithm described above, only performing additions instead of multiplications. In other words, we have "expanded" the multiplication of two numbers to O(log m) operations of addition and multiplication by two (which, in essence, is an addition).
 
-* if b=0
-     * a⋅b = 0
+* if <code>b=0</code>
+     * <code>a⋅b = 0</code>
 
-* if b>0 and a even
-     * a⋅b = 2⋅(b/2)⋅a 
+* if <code>b>0 and an even</code>
+     * <code>a⋅b = 2⋅(b/2)⋅a</code>
 
-* if b>0 and a odd
-     * a⋅b = 2⋅((b−1)/2)⋅a + a
+* if <code>b>0 and a odd</code>
+     * <code>a⋅b = 2⋅((b−1)/2)⋅a + a</code>
 
 
 ```cpp
