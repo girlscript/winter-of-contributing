@@ -4,7 +4,7 @@ A diagonal matrix is a matrix in which the entries outside the main diagonal are
 
 ![diagonal matrix](https://imgur.com/rSR0Frx.jpg)
 
-Here , A[i][j]=0 (if i not equal to j)
+Here , A[i][j]=0 (if i not equal to j)        [where i = row and j= column]
 
 ## C++ Program For Diagonal Matrix
 ```cpp
