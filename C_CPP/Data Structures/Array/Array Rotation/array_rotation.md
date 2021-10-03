@@ -3,20 +3,16 @@
 ## **What is Array Rotation ?**
 
 Array Rotation simply means shifting the array elements by one positon to the left or right of the array for certain number of times. An array can be rotated to the left(clockwise) or to the right (anti-clockwise) to the given number of positions.
-
-<br>
      
-## **Left Rotation of the Array:** 
-Let's consider an array **arr** with **N** integer items stored in it and **r( rotatingfactor )**
+## **Left Rotation of the Array Approach :** 
+Let's consider an array **arr** with **N** integer items stored in it and **r ( rotating factor )**
 be the number of times the array should rotated towards the left side of the array :
 - Firstly, we split the array into two parts A = arr[0...r-1] and B = arr[r...n-1].
 - Then, reverse the array items of part A from position 0 to r-1.
 - Again, reverse the array items of part B from position r to n-1.
 - Now, reverse the entire resulting array to get the left rotated array.    
     
-<br>
-
-### **Agorithm :**
+### **Algorithm Approach :**
 
 ```
 rotate(arr[], r, n)
@@ -36,11 +32,7 @@ let the array be arr = [1,2,3,4,5] r=2 and n=5.
 - Step 2 - Reverse array **B** and we get **arr** = [2,1,5,4,3]
 - Step 3 - Reverse the whole array **arr** and we get **arr** = [3,4,5,1,2]
 
-<br>
-
 ### **Implementation of the above approach :**
-
-<br>
 
 ```C++
 
@@ -74,12 +66,18 @@ void printArray(int arr[], int size)
 int main()
 {
     int n, i ,r;
+    
+    cout<<"Enter the size of the Array : ";
     cin>>n;
     int arr[n];
 
     for(i = 0; i < n; i++)
+    {
         cin>>arr[i];
-    cin>>r;// r is the rotaing factor
+    }
+        
+    cout<<"Enter the rotating factor : ";
+    cin>>r;    // r is the rotating factor
 
     // Function calling
     leftRotateArray(arr, r, n);
