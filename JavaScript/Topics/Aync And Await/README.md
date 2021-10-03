@@ -1,4 +1,3 @@
-
 ## Javascript Async And Await
 
 JavaScript is always synchronous and single-threaded that provides the event loops. The event loops enable us to queue up an activity. This activity will not happen until the loops become available after the program that queued the action has completed the execution. However, our program contains a large number of functionalities, which causes our code to be asynchronous. 
@@ -43,7 +42,7 @@ async function xyz(){
             printHelloWorld().then(value => console.log(value));
 ````
 
-Output - 
+Output- 
 
 ````
 Hello GirlScript!!!
@@ -79,7 +78,7 @@ Example-
 </html>
 ````
 
-Output
+Output-
 
 <img src="https://github.com/7sakshi7/winter-of-contributing/blob/Javascript/JavaScript/Topics/Aync%20And%20Await/Example.png" alt="Output" /> 
 
