@@ -1,15 +1,17 @@
-NESTED LOOPS
+<h1>NESTED LOOPS</h1>
 
 Let's first look at the meaning of nested loops.
 
-In programming of computers , loops are termed as to be a sequence of instructions that is repeated until a certain condition is reached 
+<h2>Defination</h2>
+<p>In programming of computers , loops are termed as to be a sequence of instructions that is repeated until a certain condition is reached 
 or in simple words , a repetition control system / structure which is executed a specefic number of times. And a nested loop is termed as
-to be a loop statement inside another loop statement. These are also known as "loop inside loop".
+to be a loop statement inside another loop statement. These are also known as "loop inside loop".</P>
 
+<h2>Examples to differentiate</h2>
 Now to differentiate between loops and nested loops we can consider the following two examples-
 
-example 1 - Basic for loop
-                               #include <iostream>
+<h3>example 1 - Basic for loop</h3>
+                               #include <iostream> 
                                using namespace std;
                                int main()
                                {
@@ -18,8 +20,8 @@ example 1 - Basic for loop
                                    return0;
                                }
 
-example 2 - Nested for loop 
-                                #include <iostream>
+<h3>example 2 - Nested for loop</h3> 
+                               #include <iostream>
                                using namespace std;
                                int main()
                                {
@@ -29,13 +31,17 @@ example 2 - Nested for loop
                                        { }
                                    }
                                    return0;
-                               }
+                               } 
+                               
 
-So as we compare the above two examples we can clearly see the difference. 
+<p>So as we compare the above two examples we can clearly see the difference. </p>
 
-To get a basic idea for the syntax or the format we can refer the following-
+<h2>Basic Format</h2>
+<p>To get a basic idea for the syntax or the format we can refer the following-</p>
  
  Nested while loops   
+                                
+                                
                                 while( initialization; condition; increment ) ;
 
                                        // or the condition
@@ -67,7 +73,7 @@ Do while loops
 
 
 
-
+<h2> Basic Flow</h2>
 To understand the flow of nested loops we can look at the following example-
                                      
                                     #include <iostream>
@@ -75,84 +81,86 @@ To understand the flow of nested loops we can look at the following example-
                                     using namespace std;
                                     int main()
                                     {
-                                        int i=0;
-                                        while(i<=3)
-                                                   {
-                                                      cout<<"outer loop executes"<< endl;
-                                                      int j=0;
-                                                      while(j<=4)
-                                                                  {
-                                                                      cout<<"inner loop executes";
-                                                                      cout << "i = "<<i<<" and j="<<j << endl;
-                                                                      j++;
-                                                                  }
+                                    int i=0;
+                                    while(i<=3)
+                                    {
+                                    cout<<"outer loop executes"<< endl;
+                                    int j=0;
+                                    while(j<=4)
+                                    {
+                                    cout<<"inner loop executes";
+                                    cout << "i = "<<i<<" and j="<<j << endl;
+                                    j++;
+                                    }
 
-                                                   i++;
-                                                   }
+                                    i++;
+                                    }
                                     getch();
                                     return 0;
                                     }
                                 
 
-Now at last , we should look at some examples- 
+<h2> Some examples</h2>
+<p>Now at last , we should look at some examples- </p> 
 
-example 1 -  // to print a pattern of 5 rows and 3 columns
+example 1 - 
+              // to print a pattern of 5 rows and 3 columns
               *  *  *  
               *  *  *  
               *  *  *  
               *  *  *  
               *  *  *  
-
-
+                                     
                                        #include <iostream>
                                        using namespace std;
 
                                        int main() 
                                        {
 
-                                               int rows = 5;
-                                               int columns = 3;
+                                        int rows = 5;
+                                        int columns = 3;
 
-                                               for (int i = 1; i <= rows; ++i) 
-                                                                              {
-                                                                                for (int j = 1; j <= columns; ++j) 
-                                                                                {
-                                                                                   cout << "*  ";
-                                                                                }
-                                                                              cout << endl;
-                                                                              }
+                                        for (int i = 1; i <= rows; ++i) 
+                                        {
+                                        for (int j = 1; j <= columns; ++j) 
+                                        {
+                                        cout << "*  ";
+                                        }
+                                        cout << endl;
+                                        }
 
-                                                return 0;
+                                        return 0;
                                         }     
 
 
-example 2 - // nested for loop to find the prime numbers from 2 to 100 
+example 2 - 
+             // nested for loop to find the prime numbers from 2 to 100 
 
 
                                         #include <iostream>
                                         using namespace std;
  
                                         int main () {
-                                                        int i, j;
+                                        int i, j;
    
-                                                        for(i = 2; i<100; i++) 
+                                        for(i = 2; i<100; i++) 
                                                         
-                                                                              {
-                                                                                   for(j = 2; j <= (i/j); j++)
-                                                                                   if(!(i%j)) break; 
+                                        {
+                                        for(j = 2; j <= (i/j); j++)
+                                        if(!(i%j)) break; 
                                                                                    
-                                                                                   // if factor found, not prime
+                                                        // if factor found, not prime
                                  
                                  
-                                                                                   if(j > (i/j)) cout << i << " is prime\n";
-                                                                              }
+                                        if(j > (i/j)) cout << i << " is prime\n";
+                                        }
    
-                                                        return 0;
-                                                    }
+                                         return 0;
+                                        }
 
 
-example 3 - //  
-                 C++ program to display  triangular pattern of numbers By taking input from user using nested while loop 
+example 3 - 
+    // C++ program to display  triangular pattern of numbers By taking input from user using nested while loop 
 
                 1
                 22
@@ -165,21 +173,21 @@ example 3 - //
                                                      using namespace std;
                                             
                                                      int main() 
-                                                                {
-                                                                   int rows, i = 1;
-                                                                   cout << "Enter the number of rows: ";
-                                                                   cin >> rows;
+                                                    {
+                                                    int rows, i = 1;
+                                                    cout << "Enter the number of rows: ";
+                                                    cin >> rows;
 
-                                                                    while (i <= rows)
-                                                                                      {
-                                                                                         int j = 1;
-                                                                                         while(j <= i) 
-                                                                                                        {
-                                                                                                           cout << i;
-                                                                                                           j++;
-                                                                                                        }
-                                                                                        cout << "\n";
-                                                                                        i++;
-                                                                                      }
-                                                                    return 0;
-                                                                }
+                                                    while (i <= rows)
+                                                    {
+                                                        int j = 1;
+                                                    while(j <= i) 
+                                                    {
+                                                    cout << i;
+                                                    j++;
+                                                    }
+                                                    cout << "\n";
+                                                    i++;
+                                                    }
+                                                    return 0;
+                                                    }
