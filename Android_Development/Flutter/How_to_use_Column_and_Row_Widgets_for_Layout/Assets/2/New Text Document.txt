@@ -1,0 +1,41 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.white70,
+        body: SafeArea(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+             children: [
+               Container(
+                 height: 100.0,
+                 width:100.0,
+                 child: Text("Container 1"),
+                 color: Colors.orange,
+               ),
+               Container(
+                 height: 100.0,
+                 width:100.0,
+                 child: Text("Container 2"),
+                 color: Colors.white,
+               ),
+               Container(
+                 height: 100.0,
+                 width:100.0,
+                 child: Text("Container 3"),
+                   color: Colors.green,
+               )
+             ],
+          )
+        ),
+      ),
+    );
+  }
+}
