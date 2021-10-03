@@ -1,0 +1,175 @@
+## FUZZY CLUSTERING
+
+# Introduction to Clustering:
+It is basically a type of unsupervised learning method, a collection of objects on the basis of similarity and dissimilarity between them. 
+
+# Why Clustering? 
+Clustering is very much important as it determines the intrinsic grouping among the unlabelled data present. There are no criteria for good clustering. It depends on the user, what is the criteria they may use which satisfy their need.
+
+# Fuzzy Logic Introduction:
+Simple set includes the elements which will belong to only one class but the fuzzy sets can contain the element which may belong to multiple sets. This rule is called fuzzy logic.
+For e.g. let us take the example of the height of the person you can classify into two classes TALL or SHORT but now think in the terms of the
+1) Soft based computation: You will say that if the input is greater than some threshold than TALL otherwise short.
+2) Fuzzy based computation: If the input is very far from the threshold then we are very sure about the output But think like if there is input which is very near to threshold than practically you can not say it as TALL or SHORT then their fuzzy logic comes in the picture which will tell you about the probabilities. So the membership function will look like:[Image: https://drive.google.com/file/d/1MxfT0BogxTTYH_ryUbReD9TpwjoLpQuc/view?usp=sharing]
+
+# Why we should use Fuzzy C instead of k means?:
+The main reason it works equal to the k means algorithm but the only thing that differentiates it from the others is that it will be the best to differentiate the point which can be assigned to multiple clusters.
+
+** Simple example of use the fuzzy-c-means to cluster a iris dataset Using python:
+
+1) importing libraries
+
+import pandas as pd # reading all required header files
+import numpy as np
+import random
+import operator
+import math
+import matplotlib.pyplot as plt 
+from scipy.stats import multivariate_normal  
+
+2) df_full = pd.read_csv("Iris.csv") # dataset - Iris data
+   df_full.head()
+   df_full = df_full.drop(['Id'], axis=1)
+   df_full.shape
+
+3) columns = list(df_full.columns)
+   features = columns[:len(columns)-1]
+   class_labels = list(df_full[columns[-1]])
+   df = df_full[features]
+
+4) Defining parameters
+ 
+ # Number of Clusters
+k = 3
+# Maximum number of iterations
+MAX_ITER = 100
+# Number of data points
+n = len(df)
+# Fuzzy parameter
+m = 1.7# Number of Clusters
+k = 3
+# Maximum number of iterations
+MAX_ITER = 100
+# Number of data points
+n = len(df)
+# Fuzzy parameter
+m = 1.7
+
+5) Scatter Plots
+
+plt.figure(figsize=(10,10))                #scatter plot of sepal length vs sepal width                              
+plt.scatter(list(df.iloc[:,0]), list(df.iloc[:,1]), marker='o')       
+plt.axis('equal')                                                                 
+plt.xlabel('Sepal Length', fontsize=16)                                                 
+plt.ylabel('Sepal Width', fontsize=16)                                                 
+plt.title('Sepal Plot', fontsize=22)                                            
+plt.grid()                                                                         
+plt.show()
+
+plt.figure(figsize=(10,10))                    #scatter plot of petal length vs sepal width                          
+plt.scatter(list(df.iloc[:,2]), list(df.iloc[:,3]), marker='o')       
+plt.axis('equal')                                                                 
+plt.xlabel('Petal Length', fontsize=16)                                                 
+plt.ylabel('Petal Width', fontsize=16)                                                 
+plt.title('Petal Plot', fontsize=22)                                            
+plt.grid()                                                                         
+plt.show()
+
+6) Calculating accuracy
+
+# P.S. The accuracy calculation is for iris data only
+def accuracy(cluster_labels, class_labels):
+    correct_pred = 0
+    #print(cluster_labels)
+    seto = max(set(labels[0:50]), key=labels[0:50].count)
+    vers = max(set(labels[50:100]), key=labels[50:100].count)
+    virg = max(set(labels[100:]), key=labels[100:].count)
+    
+    for i in range(len(df)):
+        if cluster_labels[i] == seto and class_labels[i] == 'Iris-setosa':
+            correct_pred = correct_pred + 1
+        if cluster_labels[i] == vers and class_labels[i] == 'Iris-versicolor' and vers!=seto:
+            correct_pred = correct_pred + 1
+        if cluster_labels[i] == virg and class_labels[i] == 'Iris-virginica' and virg!=seto and virg!=vers:
+            correct_pred = correct_pred + 1
+            
+    accuracy = (correct_pred/len(df))*100
+    return accuracy
+
+7) Initialize membership matrix
+
+def initializeMembershipMatrix(): # initializing the membership matrix
+    membership_mat = []
+    for i in range(n):
+        random_num_list = [random.random() for i in range(k)]
+        summation = sum(random_num_list)
+        temp_list = [x/summation for x in random_num_list]
+        
+        flag = temp_list.index(max(temp_list))
+        for j in range(0,len(temp_list)):
+            if(j == flag):
+                temp_list[j] = 1
+            else:
+                temp_list[j] = 0
+        
+        membership_mat.append(temp_list)
+    return membership_mat
+
+    membership_mat = initializeMembershipMatrix()
+
+8) Calculating Cluster Center
+def calculateClusterCenter(membership_mat): # calculating the cluster center
+    cluster_mem_val = list(zip(*membership_mat))
+    cluster_centers = []
+    for j in range(k):
+        x = list(cluster_mem_val[j])
+        xraised = [p ** m for p in x]
+        denominator = sum(xraised)
+        temp_num = []
+        for i in range(n):
+            data_point = list(df.iloc[i])
+            prod = [xraised[i] * val for val in data_point]
+            temp_num.append(prod)
+        numerator = map(sum, list(zip(*temp_num)))
+        center = [z/denominator for z in numerator]
+        cluster_centers.append(center)
+    return cluster_centers
+
+#cluster_centers = calculateClusterCenter(membership_mat)
+
+9) Getting the clusters
+
+def getClusters(membership_mat): # getting the clusters
+    cluster_labels = list()
+    for i in range(n):
+        max_val, idx = max((val, idx) for (idx, val) in enumerate(membership_mat[i]))
+        cluster_labels.append(idx)
+    return cluster_labels
+calculateClusterCenter(membership_mat)
+
+10) Fuzzy C-Means with cluster centres at the origin
+def fuzzyCMeansClustering(): #First Iteration with centers at 0
+    # Membership Matrix
+    membership_mat = initializeMembershipMatrix()
+    curr = 0
+    acc=[]
+    cent_temp = [[0, 0, 0, 0],[0, 0, 0, 0],[0, 0, 0, 0]]
+    while curr < MAX_ITER:
+        if(curr == 0):
+            cluster_centers = cent_temp
+            print("Cluster Centers:")
+            print(np.array(cluster_centers))
+        else:
+            cluster_centers = calculateClusterCenter(membership_mat)
+        #cluster_centers = calculateClusterCenter(membership_mat)
+        membership_mat = updateMembershipValue(membership_mat, cluster_centers)
+        cluster_labels = getClusters(membership_mat)
+        acc.append(cluster_labels)
+        curr += 1
+    print("---------------------------")
+    print("Membership Matrix:")
+    print(np.array(membership_mat))
+    return cluster_labels, cluster_centers, acc
+
+DS reference: https://medium.com/analytics-vidhya/fuzzy-sets-fuzzy-c-means-clustering-algorithm-ac5c4386396b
+https://pythonhosted.org/scikit-fuzzy/auto_examples/plot_cmeans.html
