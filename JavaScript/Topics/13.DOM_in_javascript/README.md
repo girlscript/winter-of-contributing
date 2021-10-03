@@ -2,20 +2,13 @@
 
 # JavaScript HTML DOM
 
-
-
 ## What is DOM ?
  DOM stands for **Document Object Model**. It's an API (application programming interface) for manipulating HTML and XML documents. The DOM represents a document as a tree of nodes. It allows programs and scripts to dynamically access and update the content, structure, and style of a document.
 
-
 Below image shows a basic heirarchy in DOM :
-
-
 ![DOM ](https://searchengineland.com/figz/wp-content/seloads/2015/05/Microsoft-PowerPoint.jpg)
 
-
 ## Use of DOM in JavaScript
-<br>
 With the DOM, JavaScript gets all the power it needs to create dynamic web pages. With the DOM :
 
 - JavaScript can change all the HTML elements in the page
@@ -27,8 +20,6 @@ With the DOM, JavaScript gets all the power it needs to create dynamic web pages
 - JavaScript can create new HTML events in the page
 
 ## Document object in JavaScript
-<br>
-
 A web page or say HTML document can be imagined as a nested set of boxes. Tags such as head and body enclose other tags, which in turn contain other tags or text. For example a simple webpage can have following structure :
 
 ![Document]( https://eloquentjavascript.net/img/html-boxes.svg ) 
@@ -47,10 +38,10 @@ Now let's talk about few DOM properties .
 
 ### HTML | DOM head Property
 
-<br>
 The head property returns the < head> element of the current document and in case if if there are more than one < head> element in the document, this property returns the first one.
 
 E.g. 
+
 ``` 
 var x= document.head ; // Assigns head element to x
 
@@ -59,7 +50,7 @@ console.log(x.innerHTML); // Prints text inside head element
 ```
 
 ### HTML | DOM body Property
-<br>
+
 It  returns the content present in the < body> tag. This property is used to view or change the  content present inside the < body> element and sets them with the new specified content.
 
 E.g. 
@@ -77,7 +68,7 @@ console.log(x.innerHTML); // Print text inside body element
 ```
 
 ### HTML | DOM forms Collection
-<br>
+
 The forms collection returns a collection of all < form> elements present in the document . Since there may be multiple forms in a page , the elements are sorted as they are present in the HTML source code . 
 
 E.g .
@@ -111,11 +102,8 @@ var form1 = x.item(0);
   x.submit(); //Submits form
  ```
 It is important to note that only form elements with a name attribute will have their values passed while submitting a form.
-
 <br>
 To access any particular element , DOM provides various method . Some of them are as follows :
-
-<br>
 
 <br>
 
@@ -126,14 +114,11 @@ To access any particular element , DOM provides various method . Some of them ar
 | document.getElementsByTagName(name)  | Find elements by tag name  |
 | document.getElementsByClassName(name)  | 	Find elements by class name  |
 
-<br>
-<br>
 
 ## Adding and Deleting Elements
-<br>
+
 DOM provides various methods to add and delete HTML elements via javascript . Some of them are as follows :
-<br>
-<br>
+
 
 | Method |	Description|
 |--- |----|
@@ -146,3 +131,5 @@ DOM provides various methods to add and delete HTML elements via javascript . So
 <br>
 
 This was a brief  note about DOM .Above methods are frequently used methods , apart from them DOM contains much more methods for manipulating HTML elements . To refer more about DOM , Please visit : [DOM](https://www.w3schools.com/js/js_htmldom_document.asp) 
+
+**Contributor**: [Manish Kumar Pandit](https://github.com/manishkumar-hub)
