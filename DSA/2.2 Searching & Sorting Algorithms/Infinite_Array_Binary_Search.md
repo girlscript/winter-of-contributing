@@ -23,11 +23,79 @@ Output: -1
 
 ### Brute Force approach : Using linear Search
 
-In the infinite array, we don’t know the upper bound to apply the binary search. So simple solution we could think to start searching for K linearly from index 0  until you you find an element equal to K, then return the index. If you find an element greater than K, then return -1.
+* In the infinite array, we don’t know the upper bound to apply the binary search.
+*  So simple solution we could think to start searching for K linearly from index 0  until you you find an element equal to K, then return the index.
+*   If you find an element greater than K, then return -1. 
+
+### Code
+
+```cpp
+// C++ program to demonstrate the algorithm
+// an element in an array of infinite size
+#include<bits/stdc++.h>
+using namespace std;
+
+
+int linearSearch(int arr[], int left, int right, int key)   // function to perform linear search
+{
+	for(int i=left;i<=right;i++){
+	
+	if(arr[i]==key)
+	{
+	  return i;
+	}
+	
+	}
+	
+	return -1;
+                                // searched and returns the position of target if found else -1.
+}
+
+
+
+int findPosition(int arr[], int target)   //function to find the new lower and upper bound 
+{
+	int left = 0, right= 1;
+	int val = arr[0];
+
+	
+	while (val < target)
+	{
+		left= right;	 // store previous high
+		right = 2*right;	 // double high index
+		val = arr[right]; // update new val
+	}
+
+
+	return linearSearch(arr, left, right, target);
+}
+
+
+int main()
+{
+	int arr[] = {3, 5, 7, 9, 10, 90, 100, 130,140, 160, 170.....};                                  //Input Array
+	int ans = findPosition(arr, 10);                                    
+	if (ans==-1)
+		cout << "Element not Present";
+	else
+		cout << "Element found at index " << ans;
+	return 0;
+}
+
+```
+
+
+
+
+### Complexity Analysis
+The approach will be linear in the index of the element (**O(k)** where k is the index of the element). Actually, you are going to need  iterations to find the element which is greater than the searched element, which is **O(k)** and the Space complexity is **O(1)** as we do not need any extra space to perform this algorithm.
 
 ### Efficent Solution : Binary Search
 
-In this approach, we increase the interval size by an exponential order of 2. First set the index at position 2, then 4, then 8, then 16 and so on. Again do the binary search from position LEFT to RIGHT where item is in between. We call this approach exponential search which helps us to track the upper bound quickly in comparison to the previous approach.
+* In this approach, we increase the interval size by an exponential order of 2.
+* First set the index at position 2, then 4, then 8, then 16 and so on.
+*  Again do the binary search from position LEFT to RIGHT where item is in between.
+*   We call this approach exponential search which helps us to track the upper bound quickly in comparison to the previous approach.
 ```cpp
 int search_infinite_Array( int Array[], int target ) 
 { 
@@ -43,7 +111,7 @@ int search_infinite_Array( int Array[], int target )
 ```
 ***
 ### Complexity Analysis
-Let k be the position of element to be searched. Number of steps for finding high index ‘high’ is O(Log k). The value of ‘high’ must be less than (2*high). The number of elements between high/2 and h must be O(k). Therefore, time complexity of Binary Search step is also O(Log k) and overall time complexity is 2*O(Log k) which is O(Log k).
+Let k be the position of element to be searched. Number of steps for finding high index ‘high’ is **O(Log k)**. The value of ‘high’ must be less than (2*high). The number of elements between high/2 and h must be **O(k)**. Therefore, time complexity of Binary Search step is also O(Log k) and overall time complexity is **2O(Log k)** which is **O(Log k)**  and the Space complexity is **O(1)** as we do not need any extra space to perform this algorithm.
 
 
 ### Code
