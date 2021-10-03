@@ -1,1 +1,1 @@
-[A/B testing Video](https://drive.google.com/file/d/1g3TtxZc80Qosk0YPz9HUdJ6E9pcRgAgv/view?usp=sharing)
+[![](https://github.com/karma659/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/Assets/a-b-testing-principles.png)](https://drive.google.com/file/d/1g3TtxZc80Qosk0YPz9HUdJ6E9pcRgAgv/view?usp=sharing)
