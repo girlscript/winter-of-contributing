@@ -18,8 +18,10 @@
 - [HTML Links and Images](Html_Anchor_img_tag.md)
 - [HTML Tables](./HTML_Tables)
 - HTML Lists
+- [HTML Canvas](./HTML_Canvas/Canvas.md)
 - HTML Classes and IDs
 - HTML Forms
+- [HTML IFrames](./HTML_IFrames/iframes.md)
 - Semantic HTML
 - Form Validation
 - [Conventions & Best Practices](HTML_Conventions_Practices/readme.md)
