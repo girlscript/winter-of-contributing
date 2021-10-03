@@ -141,6 +141,8 @@ The form is divided in to sections called:-
 ![Front Page UI](./FrontformUI.png)
 # Javasript code
 The below mention code which links the form with the html forms 
+<br>
+
 **Here is the javascript code**
 ```
 var GooglesheetName = "Sheet1";
@@ -186,9 +188,8 @@ function doPost(e) {
 
 ![Google Sheet](./Googlesheet.png)
 
-```
-How to link it with the HTML Forms ?
-```
+# How to link it with the HTML Forms ?
+
 1.Make the UI of your form with a proper HTML and CSS <br/>
 <hr/>
 2. Go to the Google sheet and make the Info tags you want like(Names, Message ,Email...etc) its upon you How many tags you  want to make <br/>
