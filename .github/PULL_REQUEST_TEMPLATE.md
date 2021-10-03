@@ -41,7 +41,7 @@ Fixes #issue_number_here
 - [ ] Go#lang
 - [ ] Interview #Prep
 - [ ] Java_#Domain
-- [ ] Java#Script
+- [ ] JavaScript_#Domain
 - [ ] ME#RN
 - [ ] Machine #Learning
 - [ ] Open #Source
