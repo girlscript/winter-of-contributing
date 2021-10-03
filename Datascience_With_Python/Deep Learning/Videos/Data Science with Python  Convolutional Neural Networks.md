@@ -114,5 +114,27 @@ With that, we know 0 is cat, and 1 is a dog. Great. our CNN made a correct predi
 
 ![image](https://user-images.githubusercontent.com/83203229/135253963-e762586d-a3ca-4a14-a56d-81b975ad8d3d.png)
 
+### 11. Application of Convolutional Neural Networks
+Below are some applications of Convolutional Neural Networks used today:
+
+1. **Object detection**
+With CNN, we now have sophisticated models like R-CNN, Fast R-CNN, and Faster R-CNN that are the predominant pipeline for many object detection models deployed in autonomous vehicles, facial detection, and so much more.
+
+2. **Semantic segmentation**
+In 2015, a group of researchers from Hong Kong developed a CNN-based Deep Parsing Network to incorporate rich information into an image segmentation model. Researchers from UC Berkeley also built fully convolutional networks that improved upon state-of-the-art semantic segmentation.
+
+3. **Image Captioning**
+CNNs are used with recurrent neural networks to write captions for images and videos. This can be used for many applications such as activity recognition or describing videos and images for the visually impaired. It has been heavily deployed by YouTube to make sense to the huge number of videos uploaded to the platform on a regular basis.
+
+### 12. Advantages of Using CNN
+- Minimize computation compared to a regular neural network
+- Convolution simplifies computation to a great extent without losing the essence of the data
+- They are great at handling image classification
+- They use the same knowledge across all image locations
+
+### 13. Conclusion
+Convolutional Neural Networks are very similar to ordinary Neural Networks from the previous chapter: they are made up of neurons that have learnable weights and biases. Each neuron receives some inputs, performs a dot product and optionally follows it with a non-linearity. The whole network still expresses a single differentiable score function: from the raw image pixels on one end to class scores at the other. And they still have a loss function (e.g. SVM/Softmax) on the last (fully-connected) layer.
+
+
 
 
