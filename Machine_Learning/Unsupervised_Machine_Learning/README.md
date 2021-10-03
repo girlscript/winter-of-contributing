@@ -1,5 +1,7 @@
 
-## Un3.1. What is Clustering? Validate its necessity using real-world applications. (A+V)
+## Unsupervised  Learning
+
+3.1. What is Clustering? Validate its necessity using real-world applications. (A+V)
 
 3.2 k-means Clustering (A+V+D)
 
