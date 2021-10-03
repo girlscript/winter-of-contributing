@@ -59,20 +59,7 @@ Here's a list of input types you can use in HTML:
 
 ### Result:
 
-<form>
-  <label for="name">Your Name:</label><br>
-  <input type="text" id="name" name="name"><br>
-
-  <label for="mail">Your email:</label><br>
-  <input type="email" id="mail" name="mail"><br>
-
-  <label for="pw">Your password:</label><br>
-  <input type="password" id="pw" name="pw"><br>
-
-  <input type="submit" value="Submit">
-
-  <input type="reset">
-</form>
+![text email password and submit](./text-mail-pw.png "text email password and submit")
 
 ---
 
@@ -89,7 +76,7 @@ Here's a list of input types you can use in HTML:
 <p>Choose your favorite Naruto character:</p>
 <form>
   <input type="radio" id="naruto" name="konoha" value="Naruto">
-  <label for="naruto">HTML</label><br>
+  <label for="naruto">Naruto</label><br>
   <input type="radio" id="sasuke" name="konoha" value="Sasuke">
   <label for="sasuke">Sasuke</label><br>
   <input type="radio" id="itachi" name="konoha" value="Itachi">
@@ -108,24 +95,7 @@ Here's a list of input types you can use in HTML:
 ```
 
 ### Result:
-<p>Choose your favorite Naruto character:</p>
-<form>
-  <input type="radio" id="naruto" name="konoha" value="Naruto">
-  <label for="naruto">HTML</label><br>
-  <input type="radio" id="sasuke" name="konoha" value="Sasuke">
-  <label for="sasuke">Sasuke</label><br>
-  <input type="radio" id="itachi" name="konoha" value="Itachi">
-  <label for="itachi">Itachi</label><br><br>
-
-  <input type="checkbox" id="minato" name="minato" value="Bike">
-  <label for="minato">Minato was cool too.</label><br>
-  <input type="checkbox" id="madara" name="madara" value="Car">
-  <label for="madara">Come on, Madara was amazing!</label><br>
-  <input type="checkbox" id="kakashi" name="kakashi" value="Boat">
-  <label for="kakashi">How can you forget Kakashi?</label><br><br>
-
-  <input type="button" value="I do nothing">
-</form>
+![radio checkbox button](./radio-cehckbox-button.png "radio checkbox button")
 
 ---
 
@@ -161,22 +131,8 @@ Here's a list of input types you can use in HTML:
 ```
 
 ### Result:
-<form>
-  <label for="birthday">Your birthday:</label><br>
-  <input type="date" id="birthday" name="birthday"><br><br>
-
-  <label for="birthdaytime">Your birthday's date and time:</label><br>
-  <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
-
-  <label for="timing">Choose a time:</label><br>
-  <input type="time" id="timing" name="timing"><br><br>
-
-  <label for="bdaymonth">Your birthday (month and year):</label><br>
-  <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
-
-  <label for="week">Choose a week:</label><br>
-  <input type="week" id="week" name="week">
-</form>
+![date time](./date-time-2.png "date time")
+![date time](./date-time-1.png "date time")
 
 ---
 
@@ -206,17 +162,7 @@ Here's a list of input types you can use in HTML:
 ```
 
 ### Result:
-<form>
-  <label for="myfile">Select your file:</label><br>
-  <input type="file" id="myfile" name="myfile"><br><br>
-
-  <input type="hidden" id="hiddenid" name="hiddenid" value="9669">
-
-  <input type="image" src="https://www.w3schools.com/tags/img_submit.gif"><br>
-
-  <label for="favcolor">Your favorite color:</label>
-  <input type="color" id="favcolor" name="favcolor">
-</form>
+![file image color](./file-img-color.png "file image and color")
 
 ---
 
@@ -243,13 +189,4 @@ Here's a list of input types you can use in HTML:
 ```
 
 ### Result:
-<form>
-  <label for="css">How much CSS do you know?</label>
-  <input type="range" id="css" name="css" min="0" max="100">
-
-  <label for="phone">Enter your number:</label>
-  <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
-
-  <label for="link">Enter URL:</label>
-  <input type="url" id="link" name="link">
-</form>
+![range tel url](./range-tel-url.png "range tel url")
