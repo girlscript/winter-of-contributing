@@ -51,7 +51,7 @@ console.log(x.innerHTML); // Prints text inside head element
 
 ### HTML | DOM body Property
 
-It  returns the content present in the < body> tag. This property is used to view or change the  content present inside the < body> element and sets them with the new specified content.
+It returns the content present in the `<body>` tag. This property is used to view or change the content present inside the `<body>` element and sets them with the new specified content.
 
 E.g. 
 ```
