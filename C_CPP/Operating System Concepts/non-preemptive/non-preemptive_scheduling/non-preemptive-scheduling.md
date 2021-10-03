@@ -86,9 +86,9 @@ Here, each process has a priority associated with it. The processes are schedule
 
     Note: There is no predefined rule if a lower number denotes higher or lower priority. It depends on the system. For ex- In some systems 0 denotes the highest priority while in some systems it may denote the lowest probability.
 
-## Code:
+## Code: [click here for code!](priority.cpp)
 
-## OUTPUT:[click here for code!](priority.cpp)
+## OUTPUT:
 
 ![output](priority_output.png)
 
