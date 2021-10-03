@@ -1,45 +1,45 @@
 
-# HTML_Tables #
+## **HTML_Tables**
 
-* The <table> HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. *
+* The table tag HTML element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. *
 
-> Table Cells 
+## **Table Cells**
 
-# Each table cell is defined by a <td> and a </td> tag.
-# td stands for table data.
-# Everything between <td> and </td> are the content of the table cell.
+- Each table cell is defined by a td tag and a td tag.
+- td stands for table data.
+- Everything between td tag and td tag are the content of the table cell.
 
-> Table Rows
+## **Table Rows**
 
-# Each table row starts with a <tr> and end with a </tr> tag.
-# tr stands for table row.
+- Each table row starts with a tr tag and end with a tr tag.
+- tr stands for table row.
 
-> Table Headers
+## **Table Headers**
 
-# to give headers to your cells to be headers, in those cases use the <th> tag instead of the <td> tag:
-# td stands for table header.
-# By default, the text in <th> elements are bold and centered, but you can change that with CSS.
+- to give headers to your cells to be headers, in those cases use the th tag instead of the td tag:
+- td stands for table header.
+- By default, the text in th tag elements are bold and centered, but you can change that with CSS.
 
-> Table <caption> Tag
+## **Table caption Tag**
 
-# The <caption> tag defines a table caption
-# The <caption> tag must be inserted immediately after the <table> tag.
-# By default, a table caption will be center-aligned above a table,, but you can change that with CSS.
+- The caption tag defines a table caption
+- The caption tag must be inserted immediately after the table tag.
+- By default, a table caption will be center-aligned above a table,, but you can change that with CSS.
 
-> Table <colgroup> Tag
+## **Table colgroup Tag**
 
-# The <colgroup> tag specifies a group of one or more columns in a table for formatting.
-# The <colgroup> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
-# The <colgroup> tag must be a child of a <table> element, after any <caption> elements and before any <thead>, <tbody>, <tfoot>, and <tr> elements.
-# To define different properties to a column within a <colgroup>, use the <col> tag within the <colgroup> tag.
+- The colgroup tag specifies a group of one or more columns in a table for formatting.
+- The colgroup tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
+- The colgroup tag must be a child of a table tag element, after any caption tag elements and before any thead tag, tbody tag, tfoot tag, and tr tag elements.
+- To define different properties to a column within a colgroup tag, use the col tag within the colgroup tag.
 
-> Table <col> Tag
+## **Table col Tag**
 
-# The <col> tag specifies column properties for each column within a <colgroup> element.
-# The <col> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
+- The col tag specifies column properties for each column within a colgroup tag element.
+- The col tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
 
 
-
+```SS
 example 1:
 code 1 :
 
@@ -81,36 +81,40 @@ table, th, td {
 
 </body>
 </html>
+```
+
+## **output**
+<br /> 
+<p align= "center">
+     <img src="Output Images\output_code1.jpg" />
+</p>
 
 
-output:
-Html_Tables\Output Images\output_code1.png
 
 
+## **Table thead Tag**
 
+- The thead tag is used to group header content in an HTML table.
+- The thead element is used in conjunction with the tbody tag and tfoot tag elements to specify each part of a table (header, body, footer).
+- The thead element must have one or more tr tag tags inside.
 
-> Table <thead> Tag
+## **Table tbody Tag**
 
-# The <thead> tag is used to group header content in an HTML table.
-# The <thead> element is used in conjunction with the <tbody> and <tfoot> elements to specify each part of a table (header, body, footer).
-# The <thead> element must have one or more <tr> tags inside.
+- The tbody tag is used to group the body content in an HTML table.
+- The tbody tag element is used in conjunction with the thead tag and tfoot tag elements to specify each part of a table (body, header, footer).
+- The tbody tag element must have one or more tr tags inside.
 
-> Table <tbody> Tag
+## **Table tbody Tag**
 
-# The <tbody> tag is used to group the body content in an HTML table.
-# The <tbody> element is used in conjunction with the <thead> and <tfoot> elements to specify each part of a table (body, header, footer).
-# The <tbody> element must have one or more <tr> tags inside.
-
-> Table <tbody> Tag
-
-# The <tfoot> tag is used to group footer content in an HTML table.
-# The <tfoot> element is used in conjunction with the <thead> and <tbody> elements to specify  each part of a table (footer, header, body).
-# The <tfoot> element must have one or more <tr> tags inside.
+- The tfoot tag is used to group footer content in an HTML table.
+- The tfoot tag element is used in conjunction with the thead tag and tbody tag elements to specify  each part of a table (footer, header, body).
+- The tfoot tag element must have one or more tr tags inside.
 
 
 example 2:
 code 2:
 
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -152,19 +156,20 @@ table, th, td {
 </body>
 </html>
 
-
-Output :-
-Html_Tables\Output Images\output_code2.png
+```
 
 
-**References**
----
 
-- https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics  
-- https://www.w3schools.com/html/html_tables.asp
+## **output**
+<br /> 
+<p align= "center">
+     <img src="Output Images\output_code2.jpg" />
+</p>
 
 
-*Thanks for reading !*
+
+
+## **Thanks for reading !**
 
 **Author :** [@ Vaishnavi Phadtare](https://github.com/VaishnaviPhadtare) 
 
