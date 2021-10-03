@@ -1,6 +1,6 @@
 ## What is jQuery ?
 
-  Query is a fast, small, cross-platform and feature-rich JavaScript library. It is designed to simplify the client-side scripting of HTML.jQuery is a lightweight, "write     less, do more", JavaScript library.jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
+  Query is a fast, small, cross-platform and feature-rich JavaScript library. It is designed to simplify the client-side scripting of HTML. **jQuery is a lightweight, "write     less, do more", JavaScript library** .jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish, and wraps them into methods that you can call with a single line of code.jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.
 
   The purpose of jQuery is to make it much easier to use JavaScript on your website.
 
