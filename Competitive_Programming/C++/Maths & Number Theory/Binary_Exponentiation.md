@@ -24,17 +24,20 @@ So, a fast way to compute those is that an element in the sequence is just the s
 
 Finally, the idea is as follows:
 
-a<sup>n</sup> = 1 &emsp;&emsp;&emsp;&emsp; if n = 0
+* if n = 0
+     * a<sup>n</sup> = 1 
 
-a<sup>n</sup> = (a<sup>((n-1)/2)</sup>)<sup>2</sup> * a &emsp;&emsp;&emsp;&emsp; if n is odd
+* if n is odd
+     * a<sup>n</sup> = (a<sup>((n-1)/2)</sup>)<sup>2</sup> * a
 
-a<sup>n</sup> = (a<sup>(n/2)</sup>)<sup>2</sup> &emsp;&emsp;&emsp;&emsp; if n is even
+* if n is even
+     * a<sup>n</sup> = (a<sup>(n/2)</sup>)<sup>2</sup>
 
 
 # Implementation
 Below is the recursive approach to calculate the power a<sup>n</sup> in complexity O(log n):
 
-```ruby
+```cpp
 
 int binpower(int a, int n)
 {
@@ -54,7 +57,7 @@ We have discussed recursive O(log n) solution for power. The recursive solutions
 
 Following is iterative approach to compute a<sup>n</sup>:
 
-```ruby
+```cpp
 
 int binpower(int a, int n)
 {
@@ -98,7 +101,7 @@ Note that Binary Exponentiation can be used in any problem where the power needs
 ## Computation of large exponents modulo a number (x<sup>n</sup> mod m):
 Since we know (a.b ≡ (a mod m)⋅(b mod m) (mod m)), we can directly use the same code, and just replace every multiplication with a modular multiplication:
 
-```ruby
+```cpp
 
 int binpower(int a, int n, int m)
 {   
@@ -132,7 +135,7 @@ P = [0   1]
 ```
 Thus, in order to find F<sub>n</sub>, we must raise the matrix P to n. This can be done in O(logn).
 
-```ruby
+```cpp
 
 int fib(int n)
 {
@@ -176,14 +179,17 @@ void multiply(int F[2][2], int M[2][2])
 ### Multiplying two numbers a and b modulo m, given that their product is too big to fit in a 64-bit integer.
 We simply apply the binary construction algorithm described above, only performing additions instead of multiplications. In other words, we have "expanded" the multiplication of two numbers to O(log m) operations of addition and multiplication by two (which, in essence, is an addition).
 
-a⋅b = 0 &emsp;&emsp;&emsp;&emsp; if b=0
+* if b=0
+     * a⋅b = 0
 
-a⋅b = 2⋅(b/2)⋅a &emsp;&emsp;&emsp;&emsp; if b>0 and a even
+* if b>0 and a even
+     * a⋅b = 2⋅(b/2)⋅a 
 
-a⋅b = 2⋅((b−1)/2)⋅a + a &emsp;&emsp;&emsp;&emsp; if b>0 and a odd
+* if b>0 and a odd
+     * a⋅b = 2⋅((b−1)/2)⋅a + a
 
 
-```ruby
+```cpp
 
 long long moduloMulti(long long a, long long b, long long m)
 {
