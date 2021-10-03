@@ -1,5 +1,7 @@
-
-
+# Login and Signup Screen
+I have made 3 pages for mobile view. These pages are - WELCOME, LOGIN & SIGNUP.
+It has 2 Appearance One is Light mode and another one is dark mode.
+[Figma Link](https://www.figma.com/file/Vmlze9ckGlKE4fSHmfiPud/Essential-Screens-Login-and-SIgnup?node-id=0%3A1)
 
 
 # Welcome Screen
