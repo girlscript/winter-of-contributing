@@ -21,6 +21,7 @@ The form is divided in to sections called:-
 
 
 **Here is the UI code**
+```
 <!DOCTYPE html>
 <html lang="en">
 
@@ -131,7 +132,7 @@ The form is divided in to sections called:-
 </html>
 
 <hr>
-
+```
 
  Which basically looks like this
 
