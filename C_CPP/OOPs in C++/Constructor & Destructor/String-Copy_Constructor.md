@@ -1,27 +1,55 @@
-/*   Copy constructor is a special kind of constructor. When creating an object, it uses the previously created object in the same class to initialize the newly created object. Copy constructors are commonly used for:
+/* 
+Copy Constructor:
+Constructors in itself corresponds to a special functions which initialises an object, whenever it is formed.Special in sense, that like other functions they doesn't have a prototype and cannot return any value to the compiler.
+Further it doesn't support initialising objects in following explicit way:
+example:  t2.test(789);
+Reason -> Because they cannot be treated like normal functions.
 
-Initialize the newly created object by using another object of the same type.
+Copy constructor is a type of constructor which invokes the copies of an already created object.The replicas hold the same 
+value, datatype and resources.
 
-The copy object passes it as an argument to the function.
+```
+//SYNTAX:
+test t1(123);
+test t2=t1;  //copy constructor.
+test t3(t2); // Passing t2 as a parameter for object t3. 
+ 
+```
+Depending upon the resources allocated to an object, we generate copies in two ways:
+1) SHALLOW COPY
+2) DEEP COPY
 
- It is usually of the form X (X&), where X is the class name. The compiler provides a default Copy Constructor to all the classes.
+SHALLOW COPY:
+If the variables hold by the original object are static ie.they are not defined in the heap section of the memory , all of the resources are hence copied for the new object.
+If in case, some variables are dynamically allocated memory from heap section, then copied object's variable will also point on the same memory location. Now if we create change in one object for that particular variable, it will show up for another too, leading to runtime errors. Thus shallow copy fails to fulfill the purpose of the replica generated.
 
-*1)Default copy constructor
+original object ------> heap memory <--------- copy of that object
 
-If the programmer did not declared the copy constructor for a class, the compiler will add its own default copy constructor for the objects derived from that class.
-Default copy constructor does a very simple operation, they will do a bit-wise (member-wise) copy of an object, which means that the object will be copied bit by bit.
+```
+//SYNTAX:
+test t1( 12, 24, 32); // MARKS IN THREE SUBJECT
+test t2 = t1;         //WE COPY THE MARKS FOR OBJECT T1 TO T2 AND ON CALLLING DISPLAY FUNCTION BOTH WILL DISPLAY SAMCONTENT
+t1.display();
+t2.display();
 
-There is a danger in copying an object bit by bit, if the object contains pointers since the pointer address will be copied in the process resulting in two different objects that share the same memory buffer
+```
 
-For a situation where an object contain pointers we have to write our own copy constructor that will prevent situations like those mentioned above.
+DEEP COPY:
+The variables hold by both the object might be same but would point on to different memory allocations.
 
-*2)Copy constructor & passing objects as arguments to methods
+original object ------> heap memory for object 1
+copy of object -------> heap memory for object 2
 
-There are 3 situations in which the copy constructor is called:
+```
+//SYNTAX:
+test t1();
+t1.marks( 12, 24, 32);
+t1.display();  //FIRST WE EXPLIXITLY DEFINE THE FIRST OBJECT AND THEN MAKE A COPY OUT OF IT
+test t2= t1;
+t2.display();
 
-a)When we make copy of an object.
-b)When we pass an object as an argument by value to a method.
-c)When we return an object from a method by value.
+```
+Now we show how to implement basic string operation using copy constructor:
 
 */
 ```
@@ -85,4 +113,5 @@ int main()
    getch();
    return 0;
 }
+
 ```
