@@ -77,7 +77,7 @@
     - [Phishing attacks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cyber%20security%203.9.3%20Phishing%20Attackes.md)
     - [Cloud jacking](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.4%20Cloud%20Jacking.md)
     - [MAN-IN-THE-MIDDLE attack](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Man_in_middle_attack.md)
-        -[Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/MAN-IN-THE-MIDDLE%20attack%20Video.md)
+        - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/MAN-IN-THE-MIDDLE%20attack%20Video.md)
 ## Week-4 (Cryptography)
 - [Cryptography](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/4_Cryptography.md)
 - [ROT13](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/rot13.md)
