@@ -37,8 +37,7 @@ Do we always need  a manager ?<br>
 
 ### Commonalities in an operating system
 
-1. Multiprogramming : <br>
+* Multiprogramming : <br>
  A single user cannot keep either the CPU or I/O device busy at all the time. This makes the system less efficient. Multiprogramming is a feature that increases CPU utilization by organizing jobs in such a way so that the CPU always has one task to execute.
-
- 2. Multitasking :<br>In multitasking, multiple tasks can be done at the same time For example, we can listen to songs and can browse chrome at the same time .<br>
+* Multitasking :<br>In multitasking, multiple tasks can be done at the same time For example, we can listen to songs and can browse chrome at the same time .
  The task here refers to a process. We can open multiple processes at the same time because in multitasking all the processes can co-exist in memory.
