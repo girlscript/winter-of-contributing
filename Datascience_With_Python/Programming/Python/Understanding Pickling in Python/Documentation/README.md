@@ -59,6 +59,32 @@ Elaborated the use and code snippets for Understanding Pickling in Python in thi
 ## Practical Usage
 &emsp;There can be numerous ways we can use pickling to make our Data Science projects faster. For instance, we can dump our fitted ML model into a pickle file and share it with the team so that they can skip the training part of it!
 
+&emsp;Let's create a simple House Price Prediction Model on `unpickled_data` that we obtained in the previous code from a pickle file and then dump the model into its own pickle file!
+    
+    import pandas as pd
+    df = pd.DataFrame(data=unpickled_data)
+
+Let's train a Linear Regression Model from scikit-learn library using this `df` obtained using data from `mydata.pickle` file.
+
+    from sklearn.linear_model import LinearRegression
+    myMLmodel = LinearRegression()
+    myMLmodel.fit(df.drop('price',axis='columns'),df['price'])
+
+We've fitted our model using the training data, now we just use the `dump()` method to pickle the model.
+
+    with open('myMLmodel.pickle', 'wb') as f:
+        # Pickle the ML model using the highest protocol available.
+        pickle.dump(myMLmodel, f, protocol=pickle.HIGHEST_PROTOCOL)
+
+This model can be easily shared and need to not be fitted again. It can be simply used as given below:
+
+    modelfile = open('myMLmodel.pickle', 'rb')     
+    unpickled_MLmodel = pickle.load(modelfile)
+    modelfile.close()
+
+    myMLmodel.predict([[3000, 3, 40]])
+
+
 ## **Resources refered:**
 - [Python - Pickle Official Documentation](https://docs.python.org/3/library/pickle.html)
 - [Understanding Python Pickling - GFG](https://www.geeksforgeeks.org/understanding-python-pickling-example/)
