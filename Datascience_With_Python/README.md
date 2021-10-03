@@ -38,7 +38,7 @@
 
 ## Mentors
 
-Dhruv Bajaj 
+### Dhruv Bajaj 
 
 Github Profile Link : https://github.com/DhruvBajaj01 
 
@@ -49,7 +49,7 @@ Open Issues :
 Closed Issues : 
 
 
-Arya Patel
+### Arya Patel
 
 Github Profile Link : https://www.github.com/AryaPatel1111
 
@@ -60,7 +60,7 @@ Open Issues :
 Closed Issues : 
 
 
-Aishani Singh
+### Aishani Singh
 
 Github Profile Link : https://www.github.com/AryaPatel1111
 
@@ -71,7 +71,7 @@ Open Issues :
 Closed Issues : 
 
 
-Peehu Saxena
+### Peehu Saxena
 
 Github Profile Link : https://github.com/PeehuSaxena
 
@@ -82,7 +82,7 @@ Open Issues :
 Closed Issues : 
 
 
-Jivitesh Jain
+### Jivitesh Jain
 
 Github Profile Link : https://github.com/jiviteshjain 
 
@@ -93,7 +93,7 @@ Open Issues :
 Closed Issues : 
 
 
-Yash Goel 
+### Yash Goel 
 
 Github Profile Link : https://github.com/Yash621
 
@@ -104,7 +104,7 @@ Open Issues :
 Closed Issues : 
 
 
-Gauri Bharadwaj
+### Gauri Bharadwaj
 
 Github Profile Link : #1038, #1524, #1525, #1822, #1841, #1849, #1853
 
@@ -115,7 +115,7 @@ Open Issues :
 Closed Issues : 
 
 
-Nithin
+### Nithin
 
 Github Profile Link : https://github.com/Nithin-Reddy-02 
 
@@ -126,7 +126,7 @@ Open Issues :
 Closed Issues : 
 
 
-Shivang Dubey
+### Shivang Dubey
 
 Github Profile Link : https://github.com/shivangdubey 
 
@@ -137,7 +137,7 @@ Open Issues :
 Closed Issues : 
 
 
-Kareem Negm
+### Kareem Negm
 
 Github Profile Link : https://github.com/Kareem-negm 
 
@@ -148,7 +148,7 @@ Open Issues :
 Closed Issues : 
 
 
-Ishika Kesarwani
+### Ishika Kesarwani
 
 Github Profile Link : https://github.com/ishikkkkaaaa
 
