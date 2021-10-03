@@ -3,31 +3,31 @@ Binary exponentiation is an algorithm to find the power of any number a raise to
 
 # Algorithm
 Raising a to the power of n is expressed naively as <code>a<sup>n</sup> = a⋅a⋅…⋅a</code>. However, this approach is not practical for large a or n.
-<br>
+
 The idea of binary exponentiation is, that we split the power using the binary representation of the exponent.
-<br>
+
 Writing n in base 2, for example: 5<sup>13</sup> = 5<sup>(1101)<sub>2</sub></sup> = (5<sup>8</sup>).(5<sup>4</sup>).(5<sup>1</sup>)
-<br><br>
+
 Since the number n has exactly ⌊log<sub>2</sub>n⌋+1 digits in base 2, we only need to perform <code>O(log n)</code> multiplications, if we know the powers a<sup>1</sup>, a<sup>2</sup>, a<sup>4</sup>, a<sup>8</sup>,…,a<sup>⌊logn⌋</sup>.
-<br>
+
 So, a fast way to compute those is that an element in the sequence is just the square of the previous element.
-<br>
+
 5<sup>1</sup> = 5
-<br>
+
 5^2 = (5^1)^2 = 25
-<br>
+
 5^4 = (5^2)^2 = 625
-<br>
+
 5^8 = (5^4)^2 = 390625
-<br><br>
+
 **The final complexity of this algorithm is O(logn):** we have to compute logn powers of a, and then have to do at most logn multiplications to get the final answer from them.
-<br>
-Finally, the idea is as follows:<br>
+
+Finally, the idea is as follows:
 
 a<sup>n</sup> = 1 &emsp;&emsp;&emsp;&emsp; if n = 0
-<br>
+
 a<sup>n</sup> = (a<sup>((n-1)/2)</sup>)<sup>2</sup> * a &emsp;&emsp;&emsp;&emsp; if n is odd
-<br>
+
 a<sup>n</sup> = (a<sup>(n/2)</sup>)<sup>2</sup> &emsp;&emsp;&emsp;&emsp; if n is even
 
 
@@ -51,7 +51,7 @@ int binpower(int a, int n)
 ```
 
 We have discussed recursive O(log n) solution for power. The recursive solutions are generally not preferred as they require space on call stack and they involve function call overhead.
-<br>
+
 Following is iterative approach to compute a<sup>n</sup>:
 
 ```ruby
@@ -74,6 +74,23 @@ int binpower(int a, int n)
 
 ```
 
+# Time Complexity Analysis
+The basic brute force approach takes O(n) nultiplications to calculate a<sup>n</sup>.
+
+With our optimized binary exponentiation approach, we do the following operations:
+
+- O(log n) multiplication to keep track of powers
+- Maximum O(log n) multiplications to get final result
+- (log n) left shift operations
+
+Hence, from the point of time complexity, this is O(log n) multiplications. Usually, multiplication of two numbers say a and a takes O( loga * loga) considering it has loga digits. In most cases, multiplication is considered to be a constant time operation.
+
+Hence, in reality, following is the actual time complexity comparison:
+
+- Brute force: (n * loga * loga)
+- Binary exponentiation: (logn * loga * loga)
+
+This improves the performance greatly.
 
 # Applications
 Note that Binary Exponentiation can be used in any problem where the power needs to be calculated. This will improve the performance greatly of the sub-routine that is concerned with the calculation of the power.
@@ -102,10 +119,11 @@ int binpower(int a, int n, int m)
 
 ## Computing n-th Fibonacci number F<sub>n</sub>:
 To compute the next Fibonacci number, only the two previous ones are needed, as F<sub>n</sub>=F<sub>n-1</sub>+F<sub>n-2</sub>. We can build a 2×2 matrix that describes this transformation: the transition from F<sub>i</sub> and F<sub>i+1</sub> to F<sub>i+1</sub> and F<sub>i+2</sub>. For example, applying this transformation to the pair F<sub>0</sub> and F<sub>1</sub> would change it into F<sub>1</sub> and F<sub>2</sub>. Therefore, we can raise this transformation matrix to the n-th power to find F<sub>n</sub> in time complexity O(logn).
-<br>
-The relation is:<br>
+
+The relation is:
+
 <code>( F<sub>n</sub> &emsp; F<sub>n+1</sub> ) = ( F<sub>0</sub> &emsp; F<sub>1</sub> ) ⋅ P<sup>n</sup></code>
-<br>
+
 where,
 
 ```
@@ -157,11 +175,13 @@ void multiply(int F[2][2], int M[2][2])
 ## Variation of binary exponentiation:
 ### Multiplying two numbers a and b modulo m, given that their product is too big to fit in a 64-bit integer.
 We simply apply the binary construction algorithm described above, only performing additions instead of multiplications. In other words, we have "expanded" the multiplication of two numbers to O(log m) operations of addition and multiplication by two (which, in essence, is an addition).
-<br>
-a⋅b = 0 &emsp;&emsp;&emsp;&emsp; if b=0<br>
-a⋅b = 2⋅(b/2)⋅a &emsp;&emsp;&emsp;&emsp; if b>0 and a even<br>
+
+a⋅b = 0 &emsp;&emsp;&emsp;&emsp; if b=0
+
+a⋅b = 2⋅(b/2)⋅a &emsp;&emsp;&emsp;&emsp; if b>0 and a even
+
 a⋅b = 2⋅((b−1)/2)⋅a + a &emsp;&emsp;&emsp;&emsp; if b>0 and a odd
-<br>
+
 
 ```ruby
 
