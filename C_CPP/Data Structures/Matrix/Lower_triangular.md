@@ -145,6 +145,6 @@ int main(){
 
 Refrences :
 
-* [GeeksForGeeks](www.geeksforgeeks.org)
+* [GeeksForGeeks](https://www.geeksforgeeks.org/)
 
-* [Udemy](www.udemy.com)
+* [Udemy](https://www.udemy.com/)
