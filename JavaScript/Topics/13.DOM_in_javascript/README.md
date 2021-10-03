@@ -1,11 +1,10 @@
-
-
 # JavaScript HTML DOM
 
 ## What is DOM ?
  DOM stands for **Document Object Model**. It's an API (application programming interface) for manipulating HTML and XML documents. The DOM represents a document as a tree of nodes. It allows programs and scripts to dynamically access and update the content, structure, and style of a document.
-
+ 
 Below image shows a basic heirarchy in DOM :
+
 ![DOM ](https://searchengineland.com/figz/wp-content/seloads/2015/05/Microsoft-PowerPoint.jpg)
 
 ## Use of DOM in JavaScript
@@ -38,44 +37,34 @@ Now let's talk about few DOM properties .
 
 ### HTML | DOM head Property
 
-The head property returns the `<head>` element of the current document and in case if there are more than one `<head>` element in the document, this property returns the first one.
-
+The head property returns the `<head>` element of the current document and in case if there are more than one `<head>` element in the document, this property returns the first one.<br>
 E.g. 
-
 ``` 
 var x= document.head ; // Assigns head element to x
-
 console.log(x.innerHTML); // Prints text inside head element 
-
 ```
 
 ### HTML | DOM body Property
 
-It returns the content present in the `<body>` tag. This property is used to view or change the content present inside the `<body>` element and sets them with the new specified content.
-
+It returns the content present in the `<body>` tag. This property is used to view or change the content present inside the `<body>` element and sets them with the new specified content. <br>
 E.g. 
 ```
  var x = document.body; // Assigns body element to x 
-
 console.log(x.innerHTML); // Print text inside body element 
 
 //New content inside body can also be added 
- x.innerHTML = "<h1>"
-                + "New Heading added "
-                + "</h1>" + "<br>" + "<h2>"
-                + "New Content Added"
-                + "</h2>";
+ x.innerHTML = "<h1>" + "New Heading added "+ "</h1>" + "<br>"
+              + "<h2>"+ "New Content Added"+ "</h2>";
 ```
 
 ### HTML | DOM forms Collection
 
-The forms collection returns a collection of all `<form>` elements present in the document. Since there may be multiple forms on a page, the elements are sorted as they are present in the HTML source code. 
-
+The forms collection returns a collection of all `<form>` elements present in the document. Since there may be multiple forms on a page, the elements are sorted as they are present in the HTML source code. <br>
 E.g .
  ```
  //Assigns forms collection to x
 var x= document.forms ;
- 
+
  // Assigns numbers of form elements present  in the collection 
 var len= x.length ; 
 
@@ -85,14 +74,10 @@ var form1= x[0] ;
 
 //Or we can also use the below method 
 var form1 = x.item(0);
-
  ```
-
-The name attribute which specifies the name of an `<input>` element is used to reference form elements in JavaScript, or to reference form data after a form is submitted.
-
+The name attribute which specifies the name of an `<input>` element is used to reference form elements in JavaScript, or to reference form data after a form is submitted.<br>
   E.g.
  ```
-  
  <form name="myForm" action="/action_page.php" method="get">
  ...
  </form>
@@ -101,11 +86,8 @@ The name attribute which specifies the name of an `<input>` element is used to r
   var x= document.forms["myForm"];
   x.submit(); //Submits form
  ```
-It is important to note that only form elements with a name attribute will have their values passed while submitting a form.
-<br>
-To access any particular element, DOM provides various methods. Some of them are as follows :
-
-<br>
+It is important to note that only form elements with a name attribute will have their values passed while submitting a form.<br>
+To access any particular element, DOM provides various methods. Some of them are as follows :<br>
 
 | Methods  | Use |
 | ------------ | ------------- |
@@ -113,7 +95,6 @@ To access any particular element, DOM provides various methods. Some of them are
 | document.getElementsByName(name) | Finds any element by its name attribute |
 | document.getElementsByTagName(name)  | Find elements by tag name  |
 | document.getElementsByClassName(name)  | 	Find elements by class name  |
-
 
 ## Adding and Deleting Elements
 
