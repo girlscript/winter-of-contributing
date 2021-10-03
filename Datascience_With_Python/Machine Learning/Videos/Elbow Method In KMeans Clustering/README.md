@@ -42,7 +42,6 @@ data=pd.read_csv('california_cities.csv')
 data.head(10)
 ```
 ![Reading csv file](./Images/Read_Csv_Head.png)
-## Clustering on basis of two variables
 
 Plotting scatter plot for unclustered data
 
