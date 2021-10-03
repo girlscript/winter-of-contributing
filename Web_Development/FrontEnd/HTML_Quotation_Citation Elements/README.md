@@ -20,7 +20,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
 
    **Output :**
 
-![](images/bo.jpeg)
+![](images/abbr.png)
 
 2. **HTML \<q> tag.**
 
@@ -36,7 +36,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
 ```
    **Output :**
 
-![](images/itaic.jpeg)
+![](images/q.png)
 
 3. **HTML \<cite> tag.**
 
@@ -53,7 +53,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
 ```
    **Output :**
 
-![](images/.jpeg)
+![](images/cite.png)
 
 4. **HTML \<blockquote> tag.**
 
@@ -72,7 +72,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
 ```
    **Output :**
 
-![](images/mark.jpeg)
+![](images/blockquote.png)
 
 5. **HTML \<bdo> tag.**
 
@@ -92,7 +92,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
 ```
    **Output :**
 
-![](images/moo.jpeg)
+![](images/bdo.png)
 
 6. **HTML \<address> tag.**
 
@@ -114,7 +114,7 @@ In HTML, to represent quotations and to cite texts, we need to make use of some 
 
    **Output :**
 
-![](images/swsq.jpeg)
+![](images/address.png)
 
 ## To Summarize:
 
