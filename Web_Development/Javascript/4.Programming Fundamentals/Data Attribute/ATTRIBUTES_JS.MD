@@ -1,6 +1,8 @@
   
 # Data Attributes in Javascript
 
+![image](https://user-images.githubusercontent.com/74582422/135737483-6fc2bfd3-cec6-443a-a6bf-841721ee5682.png)
+
 
 ### Attributes
 Before jumping on to data attributes in Javascript , we first need to understand about what are attributes in Javascript.
@@ -41,15 +43,19 @@ For instance, "type" is standard for <input> (HTMLInputElement), but not for <se
   
 ### Accessing Data Attributes in Javascript
 Reading the values of these attributes out in JavaScript is also very simple. We can use getAttribute() with their full HTML name to read them, but the standard defines a simpler way: with a DOMStringMap you can read out via a dataset property.
-
+There are 2 methods to do the same :
+  <ul>
+    <li>Using the .dataset property.</li>
+    <li>Using the .getAttribute property.</li>
+  </ul>
 To get a data attribute through the dataset object, get the property by the part of the attribute name after data-
   
 For eg.
-  const article = document.querySelector('#tws');
-  // This also works
-  // const article = document.getElementById("tws")
-  article.dataset.columns // "5"
-  article.dataset.parent // "Wings Phantom Pro" 
+  const article = document.querySelector('#tws');<br>
+  // This also works<br>
+  // const article = document.getElementById("tws")<br>
+  article.dataset.columns // "5"<br>
+  article.dataset.parent // "Wings Phantom Pro" <br>
  
 In this each property is a string and can be read and written. In our case we can reset it using
   article.dataset.columns = 7  //This would change that attribute value to "7".
@@ -64,23 +70,80 @@ In order to access an individual data attribute we just access it like a propert
 ### Writing Data Attributes
 In order to create a new data attribute in JavaScript we just need to add a new property to the dataset object with a value.
 
-For eg.
-  article.dataset.new = "Lets GWOC"
-  console.log(div.dataset.test)
-  // Lets GWOC will be printed in the console as output
+For eg.<br>
+  article.dataset.new = "Lets GWOC"<br>
+  console.log(div.dataset.test)<br>
+  // Lets GWOC will be printed in the console as output<br>
   
 ### Updating Data Attributes
 Let’s say that we now want to update the value of a data attribute. This is incredibly easy since it works just like a normal object. We just need to set the value of our dataset property to the new value and it will update the HTML for us.
 
-For eg.
-  article.dataset.columns = 4
-  console.log(div.dataset.firstName)
-  // 4
+For eg.<br>
+  article.dataset.columns = 4<br>
+  console.log(article.dataset.columns)<br>
+  // 4<br>
+  
+### Deleting Data Attributes
+Deleting data attributes is a bit different since we need to actually remove the property from our object. This is because if we try setting the value to undefined or null the dataset object will still have a reference to that property with that value of undefined or null and will set the value of our HTML data attribute to the string null or undefined.
+To delete an element we need to use the delete keyword to remove it completely from the object.
+
+For eg.<br>
+  delete article.dataset.new<br>
+  console.log(article.dataset.new)<br>
+  // undefined
+  
+  
+  
+## Real World Example
+Here’s the scenario: we want a simple HTML/CSS/Javascript item picker (or maybe tab) component to allow users to choose from a series of Cool Earphones on an ecommerce website.
+We load all of the relevant data on page load and store it all in Data Attributes within the component’s relevant HTML elements.
+
+So , We’ll be storing:
+
+The product title.
+The product image URL.
+The product link.
+  
+For the User Interface, we’re going to display the product title’s as clickable links, with a HTML div underneath.
+The first product will be displayed on page load and the idea is for the user to click the product links to display the relevant product and information.  
+ 
+You want to write JavaScript so that the first button adds to the cart and the second button opens buy now, but we want to do this in a way that is reusable so if we add a third button that opens a new we don’t need to write any new JavaScript code.
+
+This may sound really difficult at first, but essentially all we need is some way to link each button to their respective modal in the HTML. This is where data attributes come in.
+
+We can set a custom data attribute on each button that references the modal they are linked to. In our case we can use the id of each button as our reference.  <br>
+  ![image](https://user-images.githubusercontent.com/74582422/135737461-27ab7131-bce2-469c-9de1-01e957acbafa.png)
+
+<!--   <button data-model-id="model-1">CART</button><br>
+  <button data-model-id="model-2">BUY NOW</button><br>
+  <div id="model-1">Model 1</div><br>
+  <div id="model-2">Model 2</div><br>
+   -->
+So now we have a way to access the id of the modal linked to each button inside JavaScript.<br>
+  const buttons = document.querySelectorAll("[data-model-id]")<br>
+  buttons.forEach(button => {<br>
+  button.addEventListener("click", () => {<br>
+  const modelId = button.dataset.modelId<br>
+    const model = document.getElementById(modelId)<br>
+    model.classList.add("show")<br>
+    })<br>
+  })
+
+In the above code we are selecting all elements that contain our custom data-model-id attribute. We are then looping through them and adding a click event listener to each one. Inside this event listener we are using the modal id to get the modal link to that button and adding the show class so it is now visible.
+
+This code is also flexible since it will get any element with the custom data-modal-id attribute. This means that if we add a new button that references a new modal we won’t need to write any additional JavaScript.
+
+  
+## Conclusion
+Data attributes in JavaScript are useful and very helpful from a developer's perspective .They allow us to write extremely flexible code which means we can spend more time writing the HTML for our project rather than worrying about writing a custom event listener for each new element we add in our script.There syntax is also simple and easy to understand and thus should be a proper help for the web programmer.
+  
+  
+### References
+  https://javascript.info/ <br>
+  https://www.thewebdeveloperguide.com/ <br>
+  https://www.w3schools.com/ <br>
+  Book - Object Oriented Javascript by Nikolas Zakas
   
 
-
-
-
-
-  
+#### Thanks a Ton!
 
