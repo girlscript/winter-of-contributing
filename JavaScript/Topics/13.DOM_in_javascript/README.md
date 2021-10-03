@@ -103,7 +103,7 @@ The name attribute which specifies the name of an `<input>` element is used to r
  ```
 It is important to note that only form elements with a name attribute will have their values passed while submitting a form.
 <br>
-To access any particular element , DOM provides various method . Some of them are as follows :
+To access any particular element, DOM provides various methods. Some of them are as follows :
 
 <br>
 
