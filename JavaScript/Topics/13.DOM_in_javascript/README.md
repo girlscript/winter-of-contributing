@@ -5,7 +5,7 @@
 
 
 ## What is DOM ?
- DOM stands for Document Object Model . It's an API (application programming interface) for manipulating HTML and XML documents. The DOM represents a document as a tree of nodes . It allows programs and scripts to dynamically access and update the content, structure, and style of a document.
+ DOM stands for **Document Object Model**. It's an API (application programming interface) for manipulating HTML and XML documents. The DOM represents a document as a tree of nodes. It allows programs and scripts to dynamically access and update the content, structure, and style of a document.
 
 
 Below image shows a basic heirarchy in DOM :
