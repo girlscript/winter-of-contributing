@@ -30,7 +30,7 @@ In ordered list orders matter. An ordered list starts with the `<ol>` tag. Each 
 </html>
 ```
 ### Output:
-![Ordered List](https://images.samimunir2002.repl.co/orderedList.png)
+![Ordered List](https://images.samimunir2002.repl.co/OrderedList.png)
 
 ## Unordered List
 
@@ -54,7 +54,7 @@ In unordered list order doesn't matter. An unordered list starts with the `<ul>`
 </html>
 ```
 ### Output:
-![Unordered List](https://images.samimunir2002.repl.co/unorderedList.png)
+![Unordered List](https://images.samimunir2002.repl.co/UnorderedList.png)
 
 ## Description List
 
@@ -81,4 +81,4 @@ Description List display elements or data in definition form. A description list
 </html>
 ```
 ### Output:
-![Description List](https://images.samimunir2002.repl.co/descriptionList.png)
+![Description List](https://images.samimunir2002.repl.co/DescriptionList.png)
