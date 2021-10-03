@@ -5,7 +5,7 @@ Clustering is used to group or cluster the homogeneous groups. Homogeneous group
 **K-means Clustering:**
 
 K-means clustering is an unsupervised machine learning model. It is used to group similar data values. The similarity is measured by distance.
-It transforms te unlabeled data to labeled data.
+It transforms the unlabeled data to labeled data.
 
 ![Capture_2](https://user-images.githubusercontent.com/79050917/135743169-6fe6f16b-493c-40fd-9128-a879abe8bca7.PNG)
 
