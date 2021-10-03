@@ -88,7 +88,7 @@ var form1 = x.item(0);
 
  ```
 
-  The name attribute which specifies the name of an < input > element is used to reference form elements in a JavaScript, or to reference form data after a form is submitted.
+The name attribute which specifies the name of an `<input>` element is used to reference form elements in JavaScript, or to reference form data after a form is submitted.
 
   E.g.
  ```
