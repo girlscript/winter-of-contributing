@@ -1,2 +1,3 @@
 - [Breadth First Search](./BreadthFirstSearch)
 - [Depth First Search](./DepthFirstSearch)
+- [Topological Sorting](./TopologicalSorting)
