@@ -151,10 +151,10 @@ int main(void)
     int target = 8;
     
     // Calculating size of array
-    int n = sizeof(arr) / sizeof(arr[0]);
+    int size = sizeof(arr) / sizeof(arr[0]);
     
     // Calling binarySearch function
-    int index = binarySearch(arr, 0, n - 1, target);
+    int index = binarySearch(arr, 0, size-1, target);
     cout << index<<endl;         
     return 0;
 }
