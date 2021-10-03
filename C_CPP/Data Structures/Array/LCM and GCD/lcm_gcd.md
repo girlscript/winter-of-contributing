@@ -46,15 +46,6 @@ The next query is (3,6).This means we have to find LCM of elements starting from
       - Then we call the same function multiple times (known as recursion) to find the left and right node LCM.
       - When we get the left and right node LCM, we call the LCM function to obtain the LCM of both the numbers. 🚀 
 
-<!-- 1. Declare two arrays (one for the numbers and one for queries).
-2. Make a **segment tree** .
-3. To find the LCM of a number, divide the product of the left child and right child by their GCD.
-4. Get the LCM for the left child node and the right child node.
-5. For each query, if the range is not valid then return 1, else check if the left is less than the starting value of the node
-   and the right is greater than the value of the ending node, then return the current value node of the tree.
-6. If any of the above conditions are not true, else recursively call the function to get the left node lcm and the right node lcm and then call the
-   lcm function to get the LCM of these numbers. -->
-
 ## Code
 
 ```C++
