@@ -22,7 +22,7 @@ The allocated memory can only be accessed through pointers.
 + It is used to dynamically allocate a single large block of contiguous memory according to the size specified by the user.
 + Syntax:
 
- <pre> ``` int *q = (cast-type*)malloc(n * sizeof(cast-type)) ``` </pre>    where n is the size as mentioned by the user. 
+ <pre> int *q = (cast-type*)malloc(n * sizeof(cast-type)) </pre>    where n is the size as mentioned by the user. 
  
 + It is necessary to type-cast here because, malloc() simply allocates memory without knowing the type of the data, and returns a void pointer which can point to any type of data. Hence it is the programmer's responsibility to type-cast it to the appropriate type.
 + On successfull memory allocation it returns a pointer which is pointing to the first byte of the allocated memory or else, if it fails, it returns the NULL pointer.
@@ -67,7 +67,7 @@ Output:
 + It allocates multiple blocks of requested memory.
 + Syntax:
 
- <pre> ```q = (cast-type*)calloc(number, byte-size)```  </pre>
+ <pre> q = (cast-type*)calloc(number, byte-size) </pre>
 + It initially initializes all bytes to zero and returns NULL if memory is not sufficient.
 
 ### Code
@@ -109,7 +109,7 @@ Output:
 + It is the abbreviation for "re-allocation".
 + If memory allocation is insufficient while allocating using malloc() or calloc(), we can reallocate the memory by using realloc() function. In short, it changes the memory size.
 + Syntax:
- <pre> ```q = realloc(ptr, new-size) ```  </pre>
+ <pre> q = realloc(ptr, new-size) </pre>
  
 ### Code
 ```c++
@@ -146,4 +146,4 @@ Output:
 As you have seen in previous code snippets, the memory occupied by malloc(), calloc(), or realloc() functions must be released by calling the free() function. Otherwise, it will keep consuming memory until the program gets over.
 
 Syntax:
- <pre> ```free(q) ```  </pre>
+ <pre> free(q) </pre>
