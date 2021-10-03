@@ -38,7 +38,7 @@ Now let's talk about few DOM properties .
 
 ### HTML | DOM head Property
 
-The head property returns the < head> element of the current document and in case if if there are more than one < head> element in the document, this property returns the first one.
+The head property returns the `<head>` element of the current document and in case if there are more than one `<head>` element in the document, this property returns the first one.
 
 E.g. 
 
