@@ -4,7 +4,6 @@
 
 **Answer:** A number of items or information noted in order form or in bullet points is called "List". 
 
-
 **Question:** Types of List?
 
 **Answer:** There are three types of list; ordered list, unordered list and description list.
@@ -31,7 +30,7 @@ In ordered list orders matter. An ordered list starts with the `<ol>` tag. Each 
 </html>
 ```
 **Output:**
-![Ordered List](https://drive.google.com/file/d/1_QYCFdOvE4mLsNa8ut4dhqRf1vyVnoi8/view?usp=sharing)
+![Ordered List](https://images.samimunir2002.repl.co/orderedList.png)
 
 ### Unordered List
 
@@ -55,7 +54,7 @@ In unordered list order doesn't matter. An unordered list starts with the `<ul>`
 </html>
 ```
 **Output:**
-![Unordered List](https://drive.google.com/file/d/1CBDvZN4eWQzI2ClpSC5xs9ETSQwq1axL/view?usp=sharing)
+![Unordered List](https://images.samimunir2002.repl.co/unorderedList.png)
 
 ### Description List
 
@@ -82,4 +81,4 @@ Description List display elements or data in definition form. A description list
 </html>
 ```
 **Output:**
-![Description List](https://drive.google.com/file/d/1gdigEJk6sra5B55KGSrvwvYKpfo-jOD9/view)
+![Description List](https://images.samimunir2002.repl.co/descriptionList.png)
