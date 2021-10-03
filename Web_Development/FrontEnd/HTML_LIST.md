@@ -8,11 +8,11 @@
 
 **Answer:** There are three types of list; ordered list, unordered list and description list.
 
-### Ordered List
+## Ordered List
 
 In ordered list orders matter. An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag and end with `</li>`. After all items added in list then we close ordered list with `</ol>`.
 
-**Syntax:**
+### Syntax:
 ```html
 <!DOCTYPE html>
 <html>
@@ -29,14 +29,14 @@ In ordered list orders matter. An ordered list starts with the `<ol>` tag. Each 
 </body>
 </html>
 ```
-**Output:**
+### Output:
 ![Ordered List](https://images.samimunir2002.repl.co/orderedList.png)
 
-### Unordered List
+## Unordered List
 
 In unordered list order doesn't matter. An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag and end with `</li>`. After all items added in list then we close ordered list with `</ul>`.
 
-**Syntax:**
+### Syntax:
 ```html
 <!DOCTYPE html>
 <html>
@@ -53,14 +53,14 @@ In unordered list order doesn't matter. An unordered list starts with the `<ul>`
 </body>
 </html>
 ```
-**Output:**
+### Output:
 ![Unordered List](https://images.samimunir2002.repl.co/unorderedList.png)
 
-### Description List
+## Description List
 
 Description List display elements or data in definition form. A description list starts with `<dl>` tag. Then `<dt>` tag comes which defines data term. Ater defining data term, we describe data description using `<dd>` tag. Ater all the data terms and data description added we close description list with `</dl>`.
 
-**Syntax:**
+### Syntax:
 ```html
 <!DOCTYPE html>
 <html>
@@ -80,5 +80,5 @@ Description List display elements or data in definition form. A description list
 </body>
 </html>
 ```
-**Output:**
+### Output:
 ![Description List](https://images.samimunir2002.repl.co/descriptionList.png)
