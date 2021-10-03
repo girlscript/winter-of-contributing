@@ -244,6 +244,23 @@ style="align:center;
      - This chooses one out of many possible appearances for a given property.
      - Here, in this example, color 'blue' and text-align 'justify' are the property values.
 <br>
+<br>  
+  
+  
+  You can use classes, id and tagnames by their respected selectors in css to specify their properties, for instance:
+     - Tagname:
+       h1{
+          colour: red;
+        }
+     - Class:
+      .className{
+          colour: red;
+      }
+     - ID:
+      #idName{
+          colour: red;
+      }
+<br>
 <br>
 
 ## *Reference:*
