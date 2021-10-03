@@ -1,12 +1,14 @@
-##HTML LIST AND TYPES OF LIST
+## HTML LIST AND TYPES OF LIST
 
 **Question:** What is List in HTML?
+
 **Answer:** A number of items or information noted in order form or in bullet points is called "List". 
 
 **Question:** Types of List?
+
 **Answer:** There are three types of list; ordered list, unordered list and description list.
 
-###Ordered List
+### Ordered List
 
 In ordered list orders matter. An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag and end with `</li>`. After all items added in list then we close ordered list with `</ol>`.
 
@@ -28,9 +30,9 @@ In ordered list orders matter. An ordered list starts with the `<ol>` tag. Each 
 </html>
 ```
 **Output:**
-![ ](https://drive.google.com/file/d/1_QYCFdOvE4mLsNa8ut4dhqRf1vyVnoi8/view?usp=sharing)
+![](https://drive.google.com/file/d/1_QYCFdOvE4mLsNa8ut4dhqRf1vyVnoi8/view?usp=sharing)
 
-###Unordered List
+### Unordered List
 
 In unordered list order doesn't matter. An unordered list starts with the `<ul>` tag. Each list item starts with the `<li>` tag and end with `</li>`. After all items added in list then we close ordered list with `</ul>`.
 
@@ -52,9 +54,9 @@ In unordered list order doesn't matter. An unordered list starts with the `<ul>`
 </html>
 ```
 **Output:**
-![ ](https://drive.google.com/file/d/1CBDvZN4eWQzI2ClpSC5xs9ETSQwq1axL/view?usp=sharing)
+![](https://drive.google.com/file/d/1CBDvZN4eWQzI2ClpSC5xs9ETSQwq1axL/view?usp=sharing)
 
-###Description List
+### Description List
 
 Description List display elements or data in definition form. A description list starts with `<dl>` tag. Then `<dt>` tag comes which defines data term. Ater defining data term, we describe data description using `<dd>` tag. Ater all the data terms and data description added we close description list with `</dl>`.
 
@@ -79,4 +81,4 @@ Description List display elements or data in definition form. A description list
 </html>
 ```
 **Output:**
-![ ](https://drive.google.com/file/d/1gdigEJk6sra5B55KGSrvwvYKpfo-jOD9/view)
+![](https://drive.google.com/file/d/1gdigEJk6sra5B55KGSrvwvYKpfo-jOD9/view)
