@@ -42,7 +42,7 @@ add(1,2);       // here 1 and 2 are arguments
 ### Function call
 - Generally in javascript a function is called when a button is clicked.
 - **onclick** event is used when we want to make a button dynamic.
-- **<button onclick="function_name()">**
+-  < button onclick="function_name()" >
 - A function can also be invoked from a javascript code.
 
 ### Function Return 
@@ -115,4 +115,5 @@ function addSquares(s1, s2) {
 a = addSquares(2, 5); // returns 29
 b = addSquares(3, 4); // returns 25
 ```
-: **Source - https://www.w3schools.com/js/js_functions.asp**
+: **Source1 - https://www.w3schools.com/js/js_functions.asp**
+: **Source2 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions**
