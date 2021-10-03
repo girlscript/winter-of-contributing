@@ -448,3 +448,13 @@ return 0;
  ```
 ### Finally, we come to end of document. With this you understood how actually functions and implemented in string. Also got to know about different operations on strings.
   You can also try to write your own logic and implement different functions.
+       
+  Below are some tutorials where you can explore more topics on strings. Do have a glance.
+       
+## References
+       
+* [String functions C](https://beginnersbook.com/2014/01/c-strings-string-functions/)
+* [String tutorials C++](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
+
+* [Operations](https://www.sudo.ws/todd/papers/strlcpy.html)
+* [More](https://en.wikipedia.org/wiki/String_(computer_science))
