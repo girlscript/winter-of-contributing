@@ -16,7 +16,6 @@
 - [Natural Language Processing](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Natural%20Language%20Processing)
 - [Programming](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Programming)
 - [Statistics](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Statistics)
-- [Pickling in Python](./Understanding%20Pickling%20in%20Python)
 
 ## Learning path
 
@@ -34,7 +33,6 @@
 12. Natural Language Processing
 13. Programming - Python, SQL, R
 14. Statistics
-15. Pickling in Python
 
 
 ## Mentors
