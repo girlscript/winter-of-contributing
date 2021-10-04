@@ -4,7 +4,19 @@ A diagonal matrix is a matrix in which the entries outside the main diagonal are
 
 ![diagonal matrix](https://imgur.com/rSR0Frx.jpg)
 
-Here , A[i][j]=0 (if i not equal to j)        [where i = row and j= column]
+As stated above, a diagonal matrix is a matrix in which all off-diagonal entries are zero.
+
+ That is, the matrix A with n columns and n rows is diagonal if
+for every i, j belongs to {1,2,....n} , i is not equal to j ,A[i][j]=0  [where i = row index and j= column index].
+
+However, the main diagonal entries are unrestricted.
+
+A diagonal matrix is at the same time:
+
+- Upper triangular;
+
+- Lower triangular.
+      
 
 ## C++ Program For Diagonal Matrix
 ```cpp
@@ -14,22 +26,28 @@ struct diagonal{
     int A[8];
     int n;
 } m;
-void Set(struct diagonal *m,int i,int j,int x){   //for creating diagonal matrix
+
+//function to Set the values of Diagonal Matrix at the Diagonal indices (i=j)
+void Set(struct diagonal *m,int i,int j,int x){  
     if(i==j){
         m->A[i-1]=x;
     }
 }  
-int Get(struct diagonal m,int i,int j){         //for getting the element at any position of the matrix
+
+//funciton to Get the element at the specified index
+int Get(struct diagonal m,int i,int j){         
     if(i==j){
         return m.A[i-1];
     }else{
         return 0;
     }
 }
-int Display(struct diagonal m){                //for displaying Diagonal Matrix
+
+//funcition to Display the Diagonal Matrix
+int Display(struct diagonal m){                
     int i,j;
-    for(i=0;i<m.n-1;i++){
-        for(j=0;j<m.n-1;j++){
+    for(i=0;i<=m.n-1;i++){
+        for(j=0;j<=m.n-1;j++){
             if(i==j)cout<<m.A[i]<<" ";
             else{cout<<0<<" ";}
         }
@@ -38,10 +56,11 @@ int Display(struct diagonal m){                //for displaying Diagonal Matrix
 }
 int main(){
     struct diagonal m;
-    m.n=4;
-    Set(&m,1,1,5);
+    m.n=4;          //Diagonal matrix of Order 4
+    Set(&m,1,1,5);     
     Set(&m,2,2,8);
     Set(&m,3,3,9);
+     Set(&m,4,4,10);
     Display(m);
     cout<<"Element present :"<<Get(m,1,1);
     return 0;
@@ -49,9 +68,10 @@ int main(){
 ```
 OUTPUT
 ```cpp
-5 0 0 
-0 8 0 
-0 0 9
+5 0 0 0
+0 8 0 0
+0 0 9 0
+0 0 0 10
 Element present :5
 ```
 
