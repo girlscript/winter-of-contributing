@@ -150,8 +150,4 @@ int main(){
 }
 ```
 
-Refrences :
 
-* [GeeksForGeeks](www.geeksforgeeks.org)
-
-* [Udemy](www.udemy.com)
