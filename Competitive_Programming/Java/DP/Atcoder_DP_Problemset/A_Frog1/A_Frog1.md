@@ -11,8 +11,8 @@ Find the minimum possible total cost incurred before the frog reaches Stone N.
 
 #### <u>Constraints</u>
 1. All input values are integers.
-2. 2≤N≤105
-3. 1≤hi​≤104
+2. 2≤N≤10<sup>5</sup>
+3. 1≤hi​≤10<sup>4</sup>
 
 ---
 
