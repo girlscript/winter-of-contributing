@@ -1,1 +1,1 @@
-- Ugly Numbers [https://github.com/swatigupta121/winter-of-contributing/blob/swatigupta121-patch-1/C_CPP/Algorithmic%20Approaches/Dynamic/Ugly_Number.md]
+- [Ugly Numbers](Ugly_Number.md)
