@@ -2,7 +2,7 @@
 name: Android Development with Kotlin
 about: Issue template for the Android Dev Kotlin Domain
 title: 'Android Kotlin: 05.12 SUB-TOPIC NAME'
-labels: Android-Dev-Kotlin, GWOC21
+labels: Android-Dev-Kotlin, GWOC21, documentation, Audio, Video
 assignees: ''
 
 ---
