@@ -5,78 +5,75 @@ In case you are building any static website, Local Storage/Session Storage can b
 
 For Chrome Browser, open Developer Tools by simply pressing **F12**. Move to the **Application** Tab and in the menu on the left under the Storage tab, you'll find Local Storage and Session Storage.
 
-![Local Storage and Session Storage in Chrome Developer Tools](Chrome-DevTools.png "Local Storage and Session Storage in Chrome Developer Tools")
+<p align="center"> <img width="600em" src="Chrome-DevTools.png" alt="Local Storage and Session Storage in Chrome Developer Tools" /> </p>
 
 # Local Storage
 In **Local Storage**, data is stored using key-value pair.  The data stored in local storage will not be deleted when the browser is closed. The data does not have any expiration date/time. When you re-open the web page on a new browser, you can access the Local Storage data as it was when you closed the previous tab.
 
-![About Local Storage](Local-Storage.svg "About Local Storage")
+<p align="center"> <img width="600em" src="Local-Storage.svg" alt="About Local Storage" /> </p>
 
 Local Storage object provides the following methods and properties:
 - To save a data item in a key-value pair: setItem(key, value) method is used:  
 ```localStorage.setItem("GWOC","GirlScript Winter of Contributing");```  
 ```localStorage.setItem("GSSOC", "GirlScript Summer of Code");```  
+<p align="center"> <img width="600em" src="Local-Storage-Set-Item.png" alt="setItem() in Local Storage" /> </p>
 
-![setItem() in Local Storage](Local-Storage-Set-Item.png "setItem() in Local Storage")
 - To retrieve a data item: getItem(key) method is used:  
 ```localStorage.getItem("GWOC");```  
 ```localStorage.getItem("GSSOC");```  
+<p align="center"> <img width="600em" src="Local-Storage-Get-Item.png" alt="getItem() in Local Storage" /> </p>
 
-![getItem() in Local Storage](Local-Storage-Get-Item.png "getItem() in Local Storage")
 - To get the name of the given index position: key(index) method is used:  
 ```localStorage.key(0);```  
+<p align="center"> <img width="600em" src="Local-Storage-Key.png" alt="key() in Local Storage" /> </p>
 
-![key() in Local Storage](Local-Storage-Key.png "key() in Local Storage")
 - To get the total number of items stored: length property is used:  
 ```localStorage.length;```  
+<p align="center"> <img width="600em" src="Local-Storage-Length.png" alt="length in Local Storage" /> </p>
 
-![length in Local Storage](Local-Storage-Length.png "length in Local Storage")
 - To remove a data item from local storage: removeItem(key) method is used:  
 ```localStorage.removeItem("GWOC");```  
+<p align="center"> <img width="600em" src="Local-Storage-Remove-Item.png" alt="removeItem() in Local Storage" /> </p>
 
-![removeItem() in Local Storage](Local-Storage-Remove-Item.png "removeItem() in Local Storage")
 - To clear or delete entire local storage records: clear() method is used:  
 ```localStorage.clear();```  
 Even if a user clears the browser cache of that browser, then the local storage also gets cleared.  
-
-![clear() in Local Storage](Local-Storage-Clear.png "clear() in Local Storage")
+<p align="center"> <img width="600em" src="Local-Storage-Clear.png" alt="clear() in Local Storage" /> </p>
 
 > When you run these methods and properties through your JS file or script of your HTML file, remember to use console.log in case you need to display the values in the console.
 
 # Session Storage
 In **Session Storage**, data items stored exists only within the current browser tab. Different tabs will have different Session Storage. Session Storage object is independent of other browser tabs or windows. If two or more tabs are open running the same web page and any one updates the Session Storage, other tabs will not get affected by the update. The data is lost once the tab is closed.
 
-![About Session Storage](Session-Storage.svg "About Session Storage")
+<p align="center"> <img width="600em" src="Session-Storage.svg" alt="About Session Storage" /> </p>
 
 Methods and properties of Session Storage are same as that provided by Local Storage:
 - To save a data item in a key-value pair: setItem(key, value) method is used:  
 ```sessionStorage.setItem("GWOC","GirlScript Winter of Contributing");```  
 ```sessionStorage.setItem("GSSOC", "GirlScript Summer of Code");```  
+<p align="center"> <img width="600em" src="Session-Storage-Set-Item.png" alt="setItem() in Session Storage" /> </p>
 
-![setItem() in Session Storage](Session-Storage-Set-Item.png "setItem() in Session Storage")
 - To retrieve a data item: getItem(key) method is used:  
 ```sessionStorage.getItem("GWOC");```  
 ```sessionStorage.getItem("GSSOC");```  
+<p align="center"> <img width="600em" src="Session-Storage-Get-Item.png" alt="getItem() in Session Storage" /> </p>
 
-![getItem() in Session Storage](Session-Storage-Get-Item.png "getItem() in Session Storage")
 - To get the name of the given index position: key(index) method is used:  
 ```sessionStorage.key(1);```  
+<p align="center"> <img width="600em" src="Session-Storage-Key.png" alt="key() in Session Storage" /> </p>
 
-![key() in Session Storage](Session-Storage-Key.png "key() in Session Storage")
 - To get the total number of items stored: length property is used:  
 ```sessionStorage.length;```  
+<p align="center"> <img width="600em" src="Session-Storage-Length.png" alt="length in Session Storage" /> </p>
 
-![length in Session Storage](Session-Storage-Length.png "length in Session Storage")
 - To remove a data item from session storage: removeItem(key) method is used:  
 ```sessionStorage.removeItem("GWOC");```  
+<p align="center"> <img width="600em" src="Session-Storage-Remove-Item.png" alt="removeItem() in Session Storage" /> </p>
 
-![removeItem() in Session Storage](Session-Storage-Remove-Item.png "removeItem() in Session Storage")
 - To clear or delete entire session storage records: clear() method is used:  
 ```sessionStorage.clear();```  
 Even if a user closes the tab of that browser, then the Session Storage also gets cleared.  
-
-![clear() in Session Storage](Session-Storage-Clear.png "clear() in Session Storage")
-
+<p align="center"> <img width="600em" src="Session-Storage-Clear.png" alt="clear() in Session Storage" /> </p>
 
 > One thing to note here is that Local Storage and Session Storage are **read only**. We can add data, delete data or read data. To modify the data item, we need to overwrite the previous value with the same key.
 
