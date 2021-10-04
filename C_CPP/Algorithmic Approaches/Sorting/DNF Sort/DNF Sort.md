@@ -20,48 +20,50 @@ Check value of arr[mid] -
     3. if arr[mid] = 2, swap arr[mid] with arr[high], high--
 ```
 
+<hr>
+
 Let's see the example :
 
 arr[10] = { 1 , 1 , 0 , 1 , 2 , 2 , 1 , 0 , 2 , 1}
 
 `STEP 1: `
 <p align="center">
-<img  src="images/STEP1.PNG" width="800" height="450">
+<img  src="Images/STEP1.PNG" width="800" height="450">
 </p>
 
 `STEP 2: `
 <p align="center">
-<img  src="images/STEP2.PNG" width="800" height="450">
+<img  src="Images/STEP2.PNG" width="800" height="450">
 </p>
 
 `STEP 3: `
 <p align="center">
-<img  src="images/STEP3.PNG" width="800" height="450">
+<img  src="Images/STEP3.PNG" width="800" height="450">
 </p>
 
 `STEP 4: `
 <p align="center">
-<img  src="images/STEP4.PNG" width="800" height="450">
+<img  src="Images/STEP4.PNG" width="800" height="450">
 </p>
 
 `STEP 5: `
 <p align="center">
-<img  src="images/STEP5.PNG" width="800" height="450">
+<img  src="Images/STEP5.PNG" width="800" height="450">
 </p>
 
 `STEP 6: `
 <p align="center">
-<img  src="images/STEP6.PNG" width="800" height="450">
+<img  src="Images/STEP6.PNG" width="800" height="450">
 </p>
 
 `STEP 7: `
 <p align="center">
-<img  src="images/STEP7.PNG" width="800" height="450">
+<img  src="Images/STEP7.PNG" width="800" height="450">
 </p>
 
 `STEP 8: `
 <p align="center">
-<img  src="images/STEP8.PNG" width="800" height="450">
+<img  src="Images/STEP8.PNG" width="800" height="450">
 </p>
 
 `Input : ` <br>
