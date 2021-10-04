@@ -167,4 +167,54 @@ Output:
   
 ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
   
+ **background-color:** The background color to use in areas of the element that have no foreground content.
+
+Eg.
+
+
+
+```
+<h1 style="background-color: rgb(255, 99, 71);"> The Color is "Tomato"</h1>
+
+<h1 style="background-color: rgba(255, 99, 71, 0.5);">The Color is still "Tomato" but lighter version.</h1>
+
+```
+Output:
+  
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+  
+##**iii) Webpage Background**
+We can also set color changes to the entire background for the webpage.
+
+Eg.
+
+
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body
+{ 
+background-color: yellow;
+}
+</style>
+</head>
+<body>
+<h1 style="background-color: rgb(255, 99, 71); text-align: center;">Welcome all!</h1>
+<br>
+<h1 style="background-color: #ff6347; text-align: center;">Have a good day ahead.</h1>
+<br>
+<br>
+<h1 style="background-color: rgba(255, 99, 71, 0.5); text-align: center;">Let's proceed to our lesson.</h1>
+<h1 style="background-color: hsla(9, 100%, 64%, 0.5); text-align: center;">Hope you will find joy learning.</h1>
+</body>
+</html>
+
+```
+Output:
+  
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+  
   
