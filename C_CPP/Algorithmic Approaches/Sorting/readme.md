@@ -7,4 +7,4 @@
 - [Counting Sort in C++](./CountingSort/CountingSort.md)
 - [Wave Sort in C++](./Wave_Sort.md)
 - [Heap Sort in C++](./Heap_Sort.md)
-
+- [Counting Sort and Radix Sort in C](./Counting_and_RadixSort.md)
