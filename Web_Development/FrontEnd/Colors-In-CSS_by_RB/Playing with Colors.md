@@ -165,7 +165,7 @@ Eg.
 ```
 Output:
   
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-28%20182431.jpg " Picture")
   
  **background-color:** The background color to use in areas of the element that have no foreground content.
 
@@ -181,7 +181,7 @@ Eg.
 ```
 Output:
   
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-28%20190450.jpg " Picture")
   
 ## **iii) Webpage Background**
 We can also set color changes to the entire background for the webpage.
@@ -215,7 +215,7 @@ background-color: yellow;
 ```
 Output:
   
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-29%20031637.jpg " Picture")
   
 # 5.How to make color gradients in CSS
 
