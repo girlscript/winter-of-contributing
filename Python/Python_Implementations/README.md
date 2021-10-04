@@ -7,4 +7,4 @@ It has 4 types:<br>
 3.Jython:<br>Jython is a Java implementation of Python that combines expressive power with clarity. Jython is freely available for both commercial and non-commercial use and is distributed with source code under the PSF License v2.<br>
 4.Pypy:<br>PyPy has been used to mean two things. The first is the RPython translation toolchain for generating interpreters for dynamic programming languages. And the second is one particular implementation of Python produced with it. Because RPython uses the same syntax as Python,.<br>
 
-In this document there is a complete explanation about all of them in breif.
+In this document there is a complete explanation about all of them.
