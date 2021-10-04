@@ -48,12 +48,13 @@ copy of object -------> heap memory for object 2
 //SYNTAX:
 test t1();
 t1.marks( 12, 24, 32);
-t1.display();  //FIRST WE EXPLIXITLY DEFINE THE FIRST OBJECT AND THEN MAKE A COPY OUT OF IT
+t1.display();  //FIRST WE EXPLICITLY DEFINE THE FIRST OBJECT AND THEN MAKE A COPY OUT OF IT
 test t2= t1;
 t2.display();
 
 ```
 **Now we show how to implement basic string operation using copy constructor**
+---------------
 
 
 ```
@@ -68,38 +69,38 @@ class String
 	char * cStr;
 	long unsigned int len;
 public:
-	String(const String&); 			                        //our own copy constructor
+	String(const String&); 			                    //our own copy constructor
    explicit String(const char * const p = NULL);
 	const char * getString();
 };
 
 String::String(const String& ss) //our own copy constructor
 {
-	if(ss.cStr==NULL) 				                        //if passed object�s pointer is NULL
-   {							                                	//� then nullify the invoking object�s pointer too
+	if(ss.cStr==NULL) 				           //if passed objects pointer is NULL
+   {							           //Then nullify the invoking objects pointer too
    	cStr=NULL;
 		len=0;
 	}
-	else 									                //otherwise�
+	else 							   //otherwise
 	{
 		len=ss.len;
-		cStr = new char[len+1]; 	                        //�dynamically allocate a separate memory block
-      strcpy(cStr,ss.cStr);		                        //�and copy into it
+		cStr = new char[len+1]; 	                  //dynamically allocate a separate memory block and copy into it
+      strcpy(cStr,ss.cStr);		                        
 	}
 }
 
 String::String(const char * const p)
 {
-	if(p==NULL) 					                	         //if default value passed�
+	if(p==NULL) 					          //if default value passed
 	{
-		cStr=NULL; 					                	        //�nullify
+		cStr=NULL; 					  //nullify
 		len=0;
 	} 
-	else 									                  //�otherwise�
+	else 						         //otherwise
 	{
 		len=strlen(p);
-		cStr=new char[len+1]; 		                   //�dynamically allocate a separate memory block
-		strcpy(cStr,p); 			                      //�and copy into it
+		cStr=new char[len+1]; 		                 //dynamically allocate a separate memory block
+		strcpy(cStr,p); 			         //and copy into it
 	}
 }
 
@@ -119,3 +120,8 @@ int main()
 }
 
 ```
+**OUTPUT:**
+---------------
+ABC                       
+ABC
+
