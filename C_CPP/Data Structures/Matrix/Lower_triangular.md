@@ -6,9 +6,9 @@
 
  *ref :google images*
 
-## In lower triangular matrix A[i][j] :
+## In lower triangular matrix A[i][j] where i=row and j=column :
 * If i is less than j then A[i][j] is 0
-* For i greater than or equal to j then A[i][j] can be either non-zero or non-zero.
+* For i greater than or equal to j then A[i][j] is non-zero value.
 
 ## Row Major Mapping & Column Major Mapping
   5X5 matrix given below can be stored in a 2D array, but when it comes to matrices of large size, it is not a good choice because of its high memory consumption due to the storage of unwanted 0s. 
@@ -49,12 +49,14 @@ struct Matrix{
     int *A;
     int n;
 };
-void SetR(struct Matrix *m,int i,int j,int x){   //for creating Lower Triangular
+ //function to Set the elements of Lower Triangular 
+void SetR(struct Matrix *m,int i,int j,int x){   
     if(i>=j){ 
         m->A[i*(i-1)/2+j-1]=x;
     }
 }
-int GetR(struct Matrix m,int i,int j){       //for getting the element at that position
+//function to Get the element at a specified position
+int GetR(struct Matrix m,int i,int j){       
     if(i>=j){
         return m.A[i*(i-1)/2+j-1];
     }
@@ -62,7 +64,8 @@ int GetR(struct Matrix m,int i,int j){       //for getting the element at that p
         return 0;
     }
 }
-void DisplayR(struct Matrix m){          //for displaying the matrix
+//function to display the contents of a Lower triangular Matrix
+void DisplayR(struct Matrix m){          
     int i,j;
     for(i=1;i<=m.n;i++){
         for(j=1;j<=m.n;j++){
@@ -80,6 +83,7 @@ int main(){
     cin>>m.n;
     m.A=new int[m.n*(m.n+1)/2];
     cout<<"Enter all the elements"<<endl;
+    //note : this Array will take all the input values but Set function will set the values at required index to only at the lower part of the matrix and Display funciton will display the upper part values of matrix as 0.
     for(i=1;i<=m.n;i++){
         for(j=1;j<=m.n;j++){
             cin>>x;
@@ -100,13 +104,14 @@ struct Matrix{
     int *A;
     int n;
 };
-    
-void SetC(struct Matrix *m,int i,int j,int x){  //for creating Lower Triangular
+ //function to Set the elements of Lower Triangular    
+void SetC(struct Matrix *m,int i,int j,int x){  
     if(i>=j){
         m->A[m->n*(j-1)-(j-2)*(j-1)/2+(i-j)]=x;
     }
 }
-int GetC(struct Matrix m,int i,int j){           //for getting the element at that position
+//function to Get the element at a specified position
+int GetC(struct Matrix m,int i,int j){           
     if(i>=j){
         return m.A[m.n*(j-1)-(j-2)*(j-1)/2+(i-j)];
     }
@@ -114,7 +119,8 @@ int GetC(struct Matrix m,int i,int j){           //for getting the element at th
         return 0;
     }
 }
-void DisplayC(struct Matrix m){             //for displaying the matrix
+//function to display the contents of a Lower triangular Matrix
+void DisplayC(struct Matrix m){           
     int i,j;
     for(i=1;i<=m.n;j++){
         for(j=1;j<=m.n;j++){
@@ -130,6 +136,7 @@ int main(){
     cout<<"Enter the dimension ";
     cin>>m.n;
     m.A=new int[m.n*(m.n+1)/2];
+    //note : this Array will take all the input values but Set function will set the values at required index only at the upper part of the matrix and Display funciton will display the lower part values of matrix as 0.
     cout<<"Enter all the elements"<<endl;
     for(i=1;i<=m.n;i++){
         for(j=1;j<=m.n;j++){
@@ -145,6 +152,6 @@ int main(){
 
 Refrences :
 
-* [GeeksForGeeks](https://www.geeksforgeeks.org/)
+* [GeeksForGeeks](www.geeksforgeeks.org)
 
-* [Udemy](https://www.udemy.com/)
+* [Udemy](www.udemy.com)
