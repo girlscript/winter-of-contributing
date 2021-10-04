@@ -7,4 +7,4 @@ But why do we use it and what are they.Let us learn in depth through this video.
 ## Link for the Video:
 
 Here is the link to the video
-<a href="https://youtu.be/tb5-mX00fVw"><img src="https://drive.google.com/file/d/1ju6st7Qil_lquRruy1YzL__jWtYNCUG0/view?usp=sharing"></img></a>
+<a href="https://youtu.be/tb5-mX00fVw">https://youtu.be/tb5-mX00fVw</a>
