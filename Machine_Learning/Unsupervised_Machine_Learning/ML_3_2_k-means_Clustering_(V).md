@@ -4,7 +4,7 @@ Clustering is an unsupepervised learning method in which we form the dataset int
 Here, I will be trying to explain the most basic and important clustering algorithm called K Means clustering Algorithm.
 
 ## What is K Means Clustering Algorithm
-K-means is a clustering algorithm which is centroid-based or we can say is based on the center point of each cluster, along with distance-based or we can say the distance between the cluster center explained above and points in a cluster , where we calculate the distances to assign a point to a cluster. In K-Means, each cluster is represented by a centroid or the cluster mean.
+K-means is a clustering algorithm which is centroid-based where we find the distance between the cluster centers and different points/objects. We assign a particular point/object to that cluster with which the distance the between point and cluster center is minimum. In K-Means, each cluster is represented by a centroid or the cluster mean.
 
 ## Video Link:
 [![K Means Clustering](https://user-images.githubusercontent.com/82665506/135826775-4504913a-0edd-479c-956c-101ecb3dcafb.png)](https://drive.google.com/file/d/1ZvGhAdh0fR2iFCOjTqBTFtqgHz-XlqNn/view?usp=sharing)
