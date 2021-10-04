@@ -44,12 +44,12 @@ BST *insertData(int val, BST *node)
 	// left subtree
 	else if (val <= node->data)
 	{
-		node->left = insert_data(val, node->left);
+		node->left = insertData(val, node->left);
 	}
 	// right subtree
 	else if (val > node->data)
 	{
-		node->right = insert_data(val, node->right);
+		node->right = insertData(val, node->right);
 	}
 	return node;
 }
