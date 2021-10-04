@@ -1,19 +1,130 @@
-# GirlScript Winter of Contributing <br/> ![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103) [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](.github/CODE_OF_CONDUCT.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](.github/CONTRIBUTING.md) 
+<p align="center">
+ <img src="logo.png" height= 400 width = 600 />
+</p>
 
-<img src="banner_readme.png"  style="max-width: 100%; height: auto;"/>
+<hr>
 
-<br/>
-<br/>
+<h1 align="center">🦀TABLE OF CONTENTS🦀</h1>
 
-**GirlScript Winter of Contributing** is a three-month newly established initiative by **[GirlScript Foundation](https://www.girlscript.tech/home)** to be conducted during winters. GWOC encourages individuals to share their knowledge and ideas to develop technical skills and gain valuable experience in the field of tech education. Over the course of the program, participants can contribute to a variety of themes under the guidance of an expert facilitator. GWOC aims to create world's largest multilingual repository
+<hr>
 
-<!-- ## Explore the topics
-- [Frontend Web Development](./Frontend-Web-Development)
-- [Backend Web Development](./Backend-Web-Development)
-- [Android Development](./Android-development) -->
+### 1. Introduction :
 
-## Contributing Guidelines
-Please follow the [contributing guidelines](./.github/CONTRIBUTING.md) to contribute to the project.
+- [What is **Rust** and who is it for ? ]()
 
-## Code of Conduct
-This project and everyone participating in it is governed by the [GirlScript Code of Conduct](./.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code
+- [**Motivation**]()
+
+### 2. Setting up the Rustup :
+
+- [Installation]()
+  
+  - [Linux and macOS]()
+  
+  - [Windows]()
+
+- [Say hello to **Cargo**]() 
+
+### 3. Quintessential Guessing game in Rust :
+
+- [Setting up a **new project**]()
+- [The **game** itself]()
+
+### 4.  Common programming concepts in Rust :
+
+- [Variables & **Mutability**]()
+- [Data types & Compound Types]()
+- [Functions]()
+- [Flow of Control]()
+
+### 5. Understanding **Ownership** aka an Awsesome feature :
+
+- [What is this life saving feature ?]()
+- [**Borrowing & Refrences**]()
+- [**Slice Type**]()
+
+### 6. Structs , Enums & Patterns :
+
+- [Structs & Method Syntax]()
+- [Enums]()
+- [Control Flow Operator]()
+
+### 7. Common Collections :
+
+- [Storing List values with Vec]()
+- [Storing UTF-8 with Strings]()
+- [Hash Maps]()
+
+### 8. Generic Types , Traits & Lifetimes :
+
+- [**Generic Data Types**]()
+- [**Traits**]()
+- [Refrence Validation With **Lifetimes**]()
+
+### 9. Writing **Tests** &  **Error Handling** :
+
+- [Unrecoverable and Recoverable Errors]()
+- [To panic! or Not to panic!]()
+- [How to write and Organize Tests]()
+- [How to run Tests]()
+
+### 10. Managing Projects & Goodness of Crates and Crates.io :
+
+- [Paths for Referring an item in the module tree]()
+  
+  - [Exposing Paths with **pub** keyword]()
+  - [Starting Relative Paths with **super**]()
+  - [Making **Structs and Enums public**]()
+
+- [Cargo Workspaces]()
+  
+  - [Installing Binaries from crates.io]()
+  - [Customizing builds with build profiles]()
+
+- [Publising your first crate to crates.io🦀]()
+
+### 11. Rust gets Functional like Haskell :
+
+- [**Closures**]()
+- [**Iterators**]()
+
+### 12. Lets make a CLI program :
+
+- [Parsing Command Line Arguments]()
+- [Modularity Improvements and Error Hanling]()
+- [writing Error messages to **stderror instead of stdout**]()
+
+### 13. Smart Pointers :
+
+- [**Box** Smart Pointer]()
+- [**Deref** Trait]()
+- [**Drop** Trait]()
+- [**Rc** and **RefCell** Smart Pointer]()
+- [**Reference Cycle**]()
+
+
+### 14. Fearless Concurrency : 
+
+- [**Multithreading**]()
+- [**Communicating** Between **Threads**]()
+- [**Shared Concurrency**]()
+- [**Sync and Send Traits**]()
+
+
+### 15. OOPS in RUST :
+
+- [Characteristics of Object Orietned Languages]()
+- [Trait Objects That Allow For Values of Different Types]()
+- [Implementing Object-Oriented Design Pattern]()
+
+### 16. Patterns and Matching :
+
+- [Where Can Patterns be Used]()
+- [Pattern Syntax]()
+
+### 17. Advanced Features :
+
+- [Unsafe Rust]()
+- [Advanced Traits]()
+- [Advanced Types]()
+- [Advanced Functions and Closures]()
+- [Macros]()
