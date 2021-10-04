@@ -78,12 +78,12 @@ Eg.
 .
 .
 .
- **div {**
+ div {
 
-**background-color: green;**
-**opacity: 0.6;**
+background-color: green;
+opacity: 0.6;
   
- *}*
+ }
  
  .
  .
