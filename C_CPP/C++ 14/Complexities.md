@@ -33,7 +33,6 @@ statement is constant and the total time is also constant: O(1). In the followin
    The loop executes N times, so the sequence of statements also executes N times.
    Since we assume the statements are O(1), the total time for the for loop is N \* O(1),
    which is O(N) overall.
-   
 4. Nested loops
    First we'll consider loops where the number of iterations of the inner loop is
    independent of the value of the outer loop's index. For example:
