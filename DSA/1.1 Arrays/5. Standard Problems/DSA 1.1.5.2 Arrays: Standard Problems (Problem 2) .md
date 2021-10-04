@@ -13,7 +13,8 @@ A subarray is a contiguous part of an array.
 ```
 ## Output
 ```
-6
+The Required Subarray is 4 -1 2 1
+The Maximum sum is 6
 ```
 ## Explanation
 ```
