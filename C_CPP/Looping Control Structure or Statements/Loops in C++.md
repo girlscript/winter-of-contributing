@@ -1,7 +1,7 @@
 # Loops in C++
 While programming, there will be several times when we need to perform the same task a number of times.
 For example if we have to print C++ 5 times the code would be:
-```
+```cpp
 //C++ program to print C++ 5 times
 #include <bits/stdc++.h>
 using namespace std;
@@ -34,15 +34,15 @@ In that case, it is not ideal to write the same piece of code repeatedly, so C++
 ## For Loop
 In this loop, a variable is initialized to some value and is tested against a condition which if found true, some statements are executed and thereafter the variable is updated. This continues until the condition is no longer true.<br><br>
 The syntax is:
-```
-for (initialization expression; test expression or condition; update expression)
+```cpp
+for (initialization expression; test expression; update expression)
 {    
      // body of the loop
      // statements
 }
 ```
 So, if we were to write a code using for loop for the same task we performed earlier the code would be as follows:
-```
+```cpp
 // C++ program to illustrate for loop
 #include <bits/stdc++.h>
 using namespace std;
@@ -70,9 +70,9 @@ C++
 ## While Loop
 This loop is used in situations when one might not be sure about the number of iterations required, the loop terminates on the basis of the test condition. However, it can still be used to perform tasks similar to that of a for loop.<br><br>
 The syntax is:
-```
+```cpp
 initialization expression;
-while (test expression or condition) 
+while (test expression) 
 {
    //body of the loop
    // statements
@@ -81,7 +81,7 @@ while (test expression or condition)
 }
 ```
 So, if we were to write a code using while loop for the same task we performed earlier the code would be as follows:
-```
+```cpp
 // C++ program to illustrate while loop
 #include <bits/stdc++.h>
 using namespace std;
@@ -116,7 +116,7 @@ C++
 ## Do While Loop
 This loop is similar to while loop except for the fact that here the condition is tested at the end of the loop so no matter the condition is true or false the body of the loop will be executed at least once.<br><br>
 The syntax is:
-```
+```cpp
 initialization expression;
 do
 {
@@ -124,11 +124,11 @@ do
    // statements
 
    update expression;
-} while (test expression or condition);
+} while (test expression);
 ```
 So, if we were to write a code using do while loop for the same task we performed earlier the code would be as follows:
 
-```
+```cpp
 // C++ program to illustrate do-while loop
 #include <bits/stdc++.h>
 using namespace std;
@@ -160,7 +160,7 @@ C++
 ## Infinite Loop
 Sometimes a wrong choice of test condition may result in an endless or infinite loop. This happens because the condition never becomes false and thus the loop doesn't terminate.<br><br>
 For Example:
-```
+```cpp
 // C++ program to demonstrate infinite loops
 // using for  while and for 
 // Uncomment the  sections to see the output
@@ -201,7 +201,7 @@ This happens because the value of i keeps increasing by 1 and it is always great
 ## Nested Loop
 A loop statement inside another loop statement is called nested loop.<br><br>
 Syntax for Nested For loop:
-```
+```cpp
 for ( initialization; condition; increment ) {
 
    for ( initialization; condition; increment ) {
@@ -213,7 +213,7 @@ for ( initialization; condition; increment ) {
 }
 ```
 Syntax for Nested While loop:
-```
+```cpp
 while(condition) {
 
    while(condition) {
@@ -225,7 +225,7 @@ while(condition) {
 }
 ```
 Syntax for Nested Do-While loop:
-```
+```cpp
 do{
 
    do{
@@ -238,7 +238,7 @@ do{
 ```
 **NOTE:** You can use one type of loop inside a different type of loop since there is no rule as such that a loop should be nested inside its own type. <br><br>
 Here is a program to help understand nested loops better:
-```
+```cpp
 // C++ program online to demonstrate nested loop
 #include <bits/stdc++.h>
 using namespace std;
