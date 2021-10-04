@@ -1,6 +1,6 @@
 # JSX:-
 
-JSX (JavaScript Syntax Extension and occasionally referred as JavaScript XML) is an extension to the JavaScript language syntax[1] which provides a way to structure component rendering using syntax familiar to many developers. It is similar in appearance to HTML.
+JSX **(JavaScript Syntax Extension and occasionally referred as JavaScript XML)** is an extension to the JavaScript language syntax[1] which provides a way to structure component rendering using syntax familiar to many developers. It is similar in appearance to HTML.
 
 React components are typically written using JSX, although they do not have to be as components may also be written in pure JavaScript. 
 
@@ -23,19 +23,19 @@ You are not required to use JSX, but JSX makes it easier to write React applicat
 Here are two examples. The first uses JSX and the second does not:
 
 Example 1
-**JSX:**
+```**JSX:**
 
-```const myelement =
-<h1>I Love JSX!</h1>;
+  const myelement = <h1>I Love JSX!</h1>;
 
-ReactDOM.render(myelement, document.getElementById('root'));```
+  ReactDOM.render(myelement, document.getElementById('root'));
 
 Example 2
 **Without JSX:**
 
-```const myelement = React.createElement('h1', {}, 'I do not use JSX!');
+  const myelement = React.createElement('h1', {}, 'I do not use JSX!');
 
-ReactDOM.render(myelement, document.getElementById('root'));```
+  ReactDOM.render(myelement, document.getElementById('root'));
+```
 
 ## Nested elements
 
@@ -61,46 +61,50 @@ If–else statements cannot be used inside JSX but conditional expressions can b
 
 ```const App = () => {
 
-   const i = 1;
+ const i = 1;
 
-   return (
-       <div>
-         <h1>{ i === 1 ? 'true' : 'false' }</h1>
-       </div>
-   );
-}```
+    return (
+         <div>
+           <h1>{ i === 1 ? 'true' : 'false' }</h1>
+         </div>
+      );
+}
+```
 
 The above will render:
 
 ```<div>
-<h1>true</h1>
-</div>```
+      <h1>true</h1>
+   </div>
+```
 
 Functions and JSX can be used in conditionals:
 
 ```const App = () => {
 
-const sections = [1, 2, 3];
+       const sections = [1, 2, 3];
 
-return (
-   <div>
-     {sections.map((n,i) => (
-     /* 'key' is used by react to keep track of list items and their changes */
-     /* Each 'key' must be unique */
-     <div key={"section-" + n}>
-     Section {n} {i === 0 && <span>(first)</span>}
-     </div>
-   ))}
-    </div>
-);
-}```
+       return (
+          <div>
+             {sections.map((n,i) => (
+             /* 'key' is used by react to keep track of list items and their changes */
+             /* Each 'key' must be unique */
+             <div key={"section-" + n}>
+               Section {n} {i === 0 && <span>(first)</span>}
+          </div>
+       ))}
+       </div>
+       );
+    }
+  ```
 The above will render:
 
 ```<div>
-    <div>Section 1<span>(first)</span></div>
-    <div>Section 2</div>
-    <div>Section 3</div>
-</div>```
+      <div>Section 1<span>(first)</span></div>
+      <div>Section 2</div>
+      <div>Section 3</div>
+    </div>
+```
 
 *Code written in JSX requires conversion with a tool such as Babel before it can be understood by web browsers.*
 
