@@ -19,8 +19,8 @@ for k, v in fruit_colors.iteritems():   #k here represents the key and v represe
 	print(k,v)
 
 #output :  banana yellow
-#	         orange orange
-#   	     cherry red 
+#	   orange orange
+#   	   cherry red 
 
 ```
 
