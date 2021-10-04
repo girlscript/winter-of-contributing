@@ -6,6 +6,10 @@ If we dig deeper, the meaning of individual word is like this:
 - Object: These are the actual HTML elements of the webpage. Each and Every element within your webpage is treated as an object. You can call valid JS methods or properties that you'd call on normal JS objects. 
 - Model: Objects are connected to each other in a tree-like structure. Every object is called as 'node'.
 
+|![DOM Tree](DOM-Tree.jpg) |
+|:--:|
+|Tree like representation of DOM Tree|  
+
 > 'Node' is anything from the HTML DOM that can be changed by the programming language. 
 
 ## Why DOM is used for:
