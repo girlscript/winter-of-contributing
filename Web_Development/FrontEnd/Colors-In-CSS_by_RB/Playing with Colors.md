@@ -74,6 +74,7 @@ We can also define “opacity” property for an element in CSS like as followin
 
 Eg.
 
+```  
 .
 .
 .
@@ -87,6 +88,8 @@ Eg.
  .
  .
  . 
+```
+ Output:
   
  
 ![](images/Screenshot%202021-09-29%200912411.jpg " Picture")
