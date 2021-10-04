@@ -26,7 +26,7 @@
   - [Operators & Expressions](./Fundamentals/Operators%20%26%20Expressions/)
   - [Input & Output Operations](./Fundamentals/Input%20%26%20Output%20Operations/)
   - [Decision Making & Branching Structure](./Fundamentals/Decision%20Making%20%26%20Branching%20Structure/)
-  - [Looping Control Structure/Statements](./Fundamentals/Looping%20Control%20Structure%20or%20Statements/)
+  - [Looping Control Structure/Statements](https://github.com/an5hu19/winter-of-contributing/blob/C_CPP/C_CPP/Looping%20Control%20Structure%20or%20Statements/Loops%20in%20C%2B%2B.md)
   - [Break/Continue](./Fundamentals/Break%20or%20Continue/)
   - [Static scoping & Dynamic Scoping](./Fundamentals/Static%20scoping%20%26%20Dynamic%20Scoping/)
   - [Functions & Recursion and its types](./Fundamentals/Functions%20%26%20Recursion%20and%20its%20types/)
