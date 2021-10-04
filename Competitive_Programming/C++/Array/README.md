@@ -1,0 +1,1 @@
+- Prefix Sum Array [https://github.com/shivam-iitk/winter-of-contributing/blob/Competitive_Programming/Competitive_Programming/C%2B%2B/Array/Prefix%20Sum%20Array.md]
