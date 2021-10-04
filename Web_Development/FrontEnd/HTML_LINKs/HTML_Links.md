@@ -11,9 +11,9 @@
 * A link does not have to be text. A link can be an image or any other HTML element!
 
 ## HTML Links - Syntax
-* The HTML <**a**> tag defines a hyperlink. It has the following syntax:
+* The HTML ```<a>``` tag defines a hyperlink. It has the following syntax:
 
-  <**a href="url"**>Link Text<**/a**>
+  ```<a href="url">Link Text</a>```
 
 * The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
 
@@ -22,9 +22,9 @@
 
 ### Example:
   
-This example shows how to create a link to github.com:
+This example shows how to create a link to Github:
 
-<**a href="https://github.com/" **> Visit Github.com!<**/a**>
+```<a href="https://github.com/"> Visit Github.com!</a>```
   
 * By default, links will appear as follows in all browsers:
 
@@ -47,9 +47,9 @@ The target attribute specifies where to open the linked document.
 * **_top** - Opens the document in the full body of the window
   
 ### Example
-Use target="_blank" to open the linked document in a new browser window or tab:
+Use **target="_blank"** to open the linked document in a new browser window or tab:
 
-<**a href="https://github.com/" target="_blank"**>Open Github!<**/a**>
+```<a href="https://github.com/" target="_blank">Open Github!</a>```
   
 **Absolute URLs vs. Relative URLs**
 
@@ -70,7 +70,7 @@ A local link (a link to a page within the same website) is specified with a rela
 ```
 ## HTML Links - Use an Image as a Link
   
-To use an image as a link, just put the <**img**> tag inside the <**a**> tag:
+To use an image as a link, just put the ```<img>``` tag inside the ```<a>``` tag:
 
 ### Example
 ```
@@ -104,7 +104,7 @@ To use an image as a link, just put the <**img**> tag inside the <**a**> tag:
 ```
 **Button as a Link**
   
-To use an HTML button as a link, you have to add some JavaScript code.
+To use an HTML button as a link.
 
 JavaScript allows you to specify what happens at certain events, such as a click of a button:
 
