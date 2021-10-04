@@ -33,8 +33,8 @@ for k, v in fruit_colors.items():   #k here represents the key and v represents 
 	print(k,v)
 
 #output :  banana yellow
-#	         orange orange
-#   	     cherry red 
+#	   orange orange
+#   	   cherry red 
 
 ```
 **Note:** 
@@ -52,9 +52,9 @@ for key, value in enumerate(sitcoms):
 	print(key,value)
 
 #output :  0 The Big Bang Theory
-#	         1 The office
-#   	     2 Young Sheldon
-#  	       3 Brooklyn Nine 9
+#	   1 The office
+#   	   2 Young Sheldon
+#  	   3 Brooklyn Nine 9
 ```
 #4.) zip():
 zip() is used to loop over two or more sequences at the same time. It does this by combining 2 similar containers(list-list or dict-dict) and sequentially printing the values. The loop exists till the smaller container ends.
@@ -85,11 +85,11 @@ numbers = [1 , 2 , 3 , 4 , 5 , 6]
 for i in reversed(numbers):
 	print(i)
 #output : 6
-#	        5
-#   	    4
-#  	      3
-#	        2
-#   	    1
+#	  5
+#   	  4
+#  	  3
+#	  2
+#   	  1
 
 #Say we wanna print the entire list in one line then we can write
 for i in reversed(numbers):
@@ -114,7 +114,7 @@ colors = ['yellow' ,  'red' , 'green' , 'blue' , 'red' , 'brown']
 for f in set(colors):
 	print(f)
 #output :   brown
-#	          red   
+#	    red   
 #     	    yellow
 #     	    blue  
 #           green
@@ -129,7 +129,7 @@ numbers = [1 , 4 , 6 , 2 , 5 , 3, 2]
 for t in sorted(set(numbers)):
 	print(f)
 #output :  1
-#	         2   
+#	   2   
 #     	   3
 #     	   4  
 #          5
