@@ -1,5 +1,5 @@
 # HTML Accessibility
-This provides the user to navigate and interact in a better way with your website . That's why make your HTML code as semantic as possible.
+Html accessibility is the way in that user can interact with our website more seamlessly . That's why make your HTML code as semantic as possible.
 
 ## Semantic HTML
 Semantic elements are the elements which have a meaning or we can say they clearly define about the content which they are holding.
