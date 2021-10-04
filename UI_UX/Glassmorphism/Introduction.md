@@ -37,3 +37,8 @@ Since then, Glassmorphism UI has been developed by a lot of new fonts, colors, a
 - Add a shadow underneath to make it glass-like
 
 ![images](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRc0qR1mPPOl90VG6_BOx8ughbbqic9uTJvQ&usqp=CAU)
+## Reference links:
+
+1. [Dribbble](https://images.app.goo.gl/sR1YYYqhZR3bCtfH8)
+2. [Super dev resources](https://images.app.goo.gl/8puZTZky1xVfxwE48)
+3. [Uplabs](https://images.app.goo.gl/GZ7tGZ4YmStCU2scA)
