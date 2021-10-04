@@ -303,7 +303,7 @@ width: 600px;
 ```
 Output:  
   
-![](images/ " Picture")
+![](images/Screenshot%202021-09-30%20090826.jpg " Picture")
   
 ### Using Angles:
 If you want more control over the direction of the gradient, you can define an angle, instead of the predefined directions (to bottom, to top, to right, to left, to bottom right, etc.). A value of 0deg is equivalent to "to top". A value of 90deg is equivalent to "to right". A value of 180deg is equivalent to "to bottom".
