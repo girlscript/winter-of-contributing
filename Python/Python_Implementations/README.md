@@ -1,5 +1,5 @@
-What is Python?
-Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.
+What is Python?<br>
+Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.<br>
 
 It has 4 types:<br><br>
 1.Ipython:<br>IPython was originally developed by Fernando Perez in 2001 as an enhanced Python interpreter. A web based interface to IPython terminal in the form of IPython notebook was introduced in 2011. In 2014, Project Jupyter started as a spin-off project from IPython.<br>
