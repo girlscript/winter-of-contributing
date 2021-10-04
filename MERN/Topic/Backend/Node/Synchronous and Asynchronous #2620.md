@@ -20,6 +20,7 @@ Good Night
 
 ## <p align=center>Asynchronous:-</p> 
 ###  &nbsp; &nbsp; Asynchronous (or async) execution refers to execution that doesn’t run in the sequence it appears in the code. In async programming the program doesn’t wait for the task to complete and can move on to the next task.
+### Note Point : - If the code  does not involves any heavy operations then even in async one sequence may follow.
  For Example :-  
  ```javascript
  <script>
