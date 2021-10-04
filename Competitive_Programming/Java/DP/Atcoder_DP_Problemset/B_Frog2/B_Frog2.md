@@ -1,4 +1,4 @@
-# A - Frog 1
+# B - Frog 2
 ## Problem Statement
 
 There are **N** stones, numbered *1,2,…,N*. For each **i** &nbsp;*(1≤i≤N)*, the height of Stone i is h<sub>i</sub>​.
