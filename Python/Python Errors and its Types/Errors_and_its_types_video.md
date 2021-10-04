@@ -8,5 +8,7 @@ Elaborated What are errors and its types in python along with some explaination 
 
 
 Source/Reference:-
+<br>
 https://www.tutorialsteacher.com/python/error-types-in-python
+<br>
 https://docs.python.org/3/tutorial/errors.html#handling-exceptions
