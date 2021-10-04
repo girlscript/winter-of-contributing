@@ -25,16 +25,17 @@ Here are two examples. The first uses JSX and the second does not:
 Example 1
 **JSX:**
 
-< const myelement = <h1>I Love JSX!</h1>;
+    const myelement =
+    <h1>I Love JSX!</h1>;
 
-< ReactDOM.render(myelement, document.getElementById('root'));
+    < ReactDOM.render(myelement, document.getElementById('root'));
 
 Example 2
 **Without JSX:**
 
-< const myelement = React.createElement('h1', {}, 'I do not use JSX!');
+    const myelement = React.createElement('h1', {}, 'I do not use JSX!');
 
-< ReactDOM.render(myelement, document.getElementById('root'));
+    ReactDOM.render(myelement, document.getElementById('root'));
 
 ## Nested elements
 
