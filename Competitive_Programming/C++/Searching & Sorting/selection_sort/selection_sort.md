@@ -1,5 +1,4 @@
 Selection Sort Code
-
 #include<iostream>
 #include<algorithm>
 using namespace std;
@@ -38,8 +37,6 @@ int main(){
     print(arr,n);
     return 0;
 }
-
-
 Complexity analysis :- 
 O(N^2)
 
