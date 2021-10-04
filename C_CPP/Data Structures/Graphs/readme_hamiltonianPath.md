@@ -81,4 +81,4 @@ else if ( nodes i and j are adjacent )
 - the node is not repeated
 ### If we do not find such vertex we don't add it to the path vertex.
 
-[Hamiltonian Path](hamiltonianPath)
+[Hamiltonian Path](hamiltonianPath.c)
