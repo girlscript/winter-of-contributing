@@ -13,7 +13,7 @@ First, we have to know about this. In CSS, when we define properties for differe
 
 There are four different ways to specify colors in CSS.
 
-•	“Color keywords” (eg. “Teal”, “Violet”, “Red”, “Yellow” etc.) ![](images/Screenshot 2021-09-28 072549.jpg " Picture")
+•	“Color keywords” (eg. “Teal”, “Violet”, “Red”, “Yellow” etc.) ![](images/Screenshot%202021-09-28 072549.jpg " Picture")
 •	Using “RGB” functional notation (“RGB” stands for “Red, Green, Blue model” …. we can define any color in this model), eg. “color: rgb(255, 99, 71);” for “Tomato” color code.
 
 •	Using “HCL” functional notation (“HCL” stands for “Hue, Saturation, Luminosity model” …. we can define any color in this model), eg. “color: rgb(9, 100%,64%);” for “Tomato” color code.
