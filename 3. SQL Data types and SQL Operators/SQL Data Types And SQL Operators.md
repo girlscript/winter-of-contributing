@@ -115,7 +115,9 @@
     * SQL Unary Bitwise NOT Operator
       * **Syntax** SELECT ~(column1), ~(column2) ...., ~(columnN) FROM table_Name [WHERE conditions] ;
 
-     
+     **References**
+        * https://www.tutorialspoint.com/sql/sql-operators.htm
+        * https://www.javatpoint.com/dbms-sql-operator
 
 
 
