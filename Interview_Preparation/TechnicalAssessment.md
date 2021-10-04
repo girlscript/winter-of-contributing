@@ -39,3 +39,15 @@ Basic aptitude skills. And subject knowledge of the job profile for which the ca
 5. Take your time in reading the questions carefully so that you don't miss a point.
 6. Practice IQ tests as they help with the reasoning part asked in these assessments. 
 7. And finally know your strengths & weaknesses, play on your strong points & take care of your weak ones.
+
+# Sources that can help you with the preparation
+
+1. PrepInsta - 
+A very useful site. It even has previous year questions that were asked by various companies in thier hiring rounds.
+https://prepinsta.com/
+
+2. Geeksforgeeks - A site used by many to clear their doubts for DSA & algorithms but also provides help for technical assessments.
+https://www.geeksforgeeks.org/
+
+3. 123test - Can be used for preaparing for logical & reasoning questions
+https://www.123test.com/
