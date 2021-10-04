@@ -1,7 +1,7 @@
 ## Structs
-
-![image](https://user-images.githubusercontent.com/85386116/135802507-0baf11a5-c39d-4a54-8d04-f1ee46ce7ec4.png)
-
+<p align="center">
+<img src="https://user-images.githubusercontent.com/85386116/135802507-0baf11a5-c39d-4a54-8d04-f1ee46ce7ec4.png" width="80%" align="center">
+</p>
 
 ## What is a struct?
 A struct is a user-defined type that represents a collection of fields. It can be used in places where it makes sense to group the data into a single unit rather than having each of them as separate values.
