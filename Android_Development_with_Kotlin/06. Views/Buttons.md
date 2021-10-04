@@ -43,7 +43,7 @@ It is basically an area on the screen on which if you tap , will perform a certa
 
 I would like you to search about the rest of the parameters.
 
-## Now we will make an app to demostrate the working of button. Just like this one.
+## Now we will make an app to demonstrate the working of button. Just like this one.
 <hr>
 <p align = "center">
 <img src = "https://user-images.githubusercontent.com/59731205/135924002-d37c05c4-a857-4029-a2b5-3f394dc5359f.gif" width = 200>
@@ -72,7 +72,7 @@ The constraints can be changed in this file. It can be constrained to the button
 val myButton = findViewById(R.id.button) as Button
 val myText = findViewById(R.id.textView) as TextView
 ```
-* After the we will need a variable to keep the track of how many time we have clicked on the button.
+* After that we will need a variable to keep the track of how many times we have clicked on the button.
 `var timesClicked = 0`
 
 * Now to capture the clicks we will use a method known as `setOnClickListener()`. It is basically used to perform a task when a user clicks on the button.
@@ -90,4 +90,7 @@ Under this method we are basically:
 * Setting the text of the textView equal to the variable. Text accepts string so we have to convert integer type into string.
 * We are also popping a toast , with a text "You clicked me".
 
-## Now run your app and see the results.
+#### Now run your app and see the results.
+
+### Author
+* [@shubhmittal297](https://github.com/shubhmittal07)
