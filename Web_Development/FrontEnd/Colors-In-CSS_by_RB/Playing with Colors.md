@@ -1,4 +1,4 @@
-# <u>**Playing with Colors in CSS**
+#  **Playing with Colors in CSS**
 
 Whenever we see a beautiful but simple website, we can feel that there is a definitely significant role of CSS behind it’s HTML files and who doesn’t know “colors” make everything attractive. The use of color is a fundamental form of human expression. Children experiment with color, before they even have the manual dexterity to draw. Maybe that's why color is one of the first things people often want to experiment with when learning to develop websites. Yes, so there must be some way to know about this and learn the basics, right? Who knows you might develop a keen interest about this! So, let’s get started.
 ## 1. How to define colors in CSS?
@@ -240,7 +240,7 @@ Here mainly we will be using “`background-image`" property. We usually use bac
 
 **•	Radial Gradients (defined by their center)**
 
-## <u>CSS Linear Gradients:
+##  CSS Linear Gradients:
 
 To create a linear gradient, you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
 
@@ -330,7 +330,7 @@ Eg.
 Output:  
 
 
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-30%20100932.jpg " Picture")
   
 ### Using Multiple Color Stops:
 
@@ -350,9 +350,9 @@ Eg.
 ```
 Output:  
  
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-30%20110922.jpg " Picture")
   
-## <u>CSS Radial Gradients:
+## CSS Radial Gradients:
 
 A radial gradient is defined by its center.
 
@@ -404,7 +404,7 @@ Eg.
 ```
 Output:  
   
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-30%20132652.jpg " Picture")
   
 # 6. Finding the right colors for website 
 
@@ -434,11 +434,11 @@ A **color picker (also known as color chooser or color tool etc.)** is a graphic
 
 •	Html color picker offered online by w3schools.com, by pinetools.com, by htmlcolorcodes.com, by webfx.com etc.  
   
- ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")  
+ ![](images/Screenshot%202021-09-30%20151136.jpg " Picture")  
 
   An example of online free html color picker (PC. To the w3school website)
   
-   ![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
+   ![](images/Screenshot%202021-09-30%20152738.jpg " Picture") 
   
   An example of color selector interface of a graphical desig software (PC. To Paletton) 
   
@@ -452,6 +452,6 @@ A **color picker (also known as color chooser or color tool etc.)** is a graphic
 
 ## Thank you. 
   
- ![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
+ ![](images/gwoc_logo_forweb.png " Picture") 
   
- ![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
+ ![](images/img_1_1633004411409.jpg " Picture") 
