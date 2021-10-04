@@ -79,6 +79,7 @@ Eg.
 
 **background-color: green;**
 **opacity: 0.6;**
+ *}*
   
  
 ![](images/Screenshot%202021-09-29%200912411.jpg " Picture")
