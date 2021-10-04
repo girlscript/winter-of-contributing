@@ -69,7 +69,7 @@ Boston Housing dataset is available in scikit-learn library. Let us import the b
 
 ```
 from sklearn.datasets import load_boston
-boston = load_boston()
+df = load_boston()
 ```
 Before applying XGBoost, let us first explore the Boston Housing dataset. It is always a good idea to explore data first, it helps us gain insights and visualize the data.
 
