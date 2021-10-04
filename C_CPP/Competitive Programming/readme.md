@@ -1,4 +1,3 @@
-
-
 - [Modular Arithmetic in C++](modular_arithmetic.md)
-- [basic array problems](basic_array_problems.md)
+- [Basic Problems on Array](basic_array_problems.md)
+- [Simple ATM Bank In C](Simple_ATM_Bank_in_C.md)
