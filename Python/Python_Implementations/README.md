@@ -1,7 +1,7 @@
 What is Python?<br>
 Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.<br>
 
-It has 4 types:<br><br>
+It has 4 types:<br>
 1.Ipython:<br>IPython was originally developed by Fernando Perez in 2001 as an enhanced Python interpreter. A web based interface to IPython terminal in the form of IPython notebook was introduced in 2011. In 2014, Project Jupyter started as a spin-off project from IPython.<br>
 2.Cpython:<br>CPython is that it contains both a runtime and the shared language specification that all Python runtimes use. CPython is the “official,” or reference implementation of Python.<br>
 3.Jython:<br>Jython is a Java implementation of Python that combines expressive power with clarity. Jython is freely available for both commercial and non-commercial use and is distributed with source code under the PSF License v2.<br>
