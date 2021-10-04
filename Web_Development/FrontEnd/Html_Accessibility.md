@@ -40,7 +40,7 @@ This tag used when we have to provide the alternate text for an image. The text 
 This is used inside the html tag , this is to declare the language of the web page. This is meaningful to assist search engines and browsers.
 ```html
 <!DOCTYPE html>
-<html lang="en>
+<html lang="en">
 <body>
 
 <p> This is the in which language is specified . </p>
