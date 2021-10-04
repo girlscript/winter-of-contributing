@@ -8,7 +8,7 @@ b) They can also be used to write short form of a word like- UN(United Nations),
 GWOC(GirlScript Winter of Contributing) etc.<br><br>
 c) We use the attribute 'title' along with the tag \<abbr>. This attribute holds the actual meaning of the abbreviation.<br><br>
 d) The \<abbr> tag should end with its respective closing tag\</abbr>. <br><br>
-e) In the output, if we hover/ or move out cursor on the underlined abbreviation, the actual full-form of the abbreviation is displayed.
+e) In the output, if we hover/ or move out cursor on the underlined abbreviation, the actual full-form of the abbreviation is displayed.<br>
 **Example :**
 ``` HTML
 <p>The <abbr title="United Nations">UN</abbr> aims to maintain International Peace.</p>
