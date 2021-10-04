@@ -60,50 +60,54 @@ The example above will render:
 
 If–else statements cannot be used inside JSX but conditional expressions can be used instead. The example below will render { i === 1 ? 'true' : 'false' } as the string 'true' because i is equal to 1.
 
-```const App = () => {
+```
+const App = () => {
 
-     const i = 1;
+  const i = 1;
 
-     return (
-         <div>
-           <h1>{ i === 1 ? 'true' : 'false' }</h1>
-         </div>
-     );
+  return (
+      <div>
+        <h1>{ i === 1 ? 'true' : 'false' }</h1>
+      </div>
+  );
 }
 ```
 
 The above will render:
 
-```<div>
-   <h1>true</h1>
+```
+<div>
+  <h1>true</h1>
 </div>
 ```
 
 Functions and JSX can be used in conditionals:
 
-```const App = () => {
+```
+const App = () => {
 
-     const sections = [1, 2, 3];
+   const sections = [1, 2, 3];
 
-     return (
-        <div>
+   return (
+      <div>
         {sections.map((n,i) => (
-         /* 'key' is used by react to keep track of list items and their changes */
-         /* Each 'key' must be unique */
-            <div key={"section-" + n}>
-              Section {n} {i === 0 && <span>(first)</span>}
-            </div>
-         ))}
-         </div>
-     );
+          /* 'key' is used by react to keep track of list items and their changes */
+          /* Each 'key' must be unique */
+          <div key={"section-" + n}>
+             Section {n} {i === 0 && <span>(first)</span>}
+          </div>
+        ))}
+       </div>
+   );
 }
 ```
 The above will render:
 
-```<div>
-       <div>Section 1<span>(first)</span></div>
-       <div>Section 2</div>
-       <div>Section 3</div>
+```
+<div>
+    <div>Section 1<span>(first)</span></div>
+    <div>Section 2</div>
+    <div>Section 3</div>
 </div>
 ```
 
