@@ -3,7 +3,8 @@ Here we covered various html table tags used in Html:
 ## **What is Html_tables**
 *A table in HTML consists of table cells inside rows and columns*
 Creating table example
-<table>
+
+```<table>
   <tr>
     <th>Contact</th>
     <th>Company</th>
@@ -19,11 +20,11 @@ Creating table example
     <td>Mexico</td>
     <td>Francisco Chang</td>
   </tr>
-</table>
+</table>```
 
 **Table Row**
 Each table row starts with a <tr> and end with a </tr> tag. . tr means table row
-<table>
+```<table>
   <tr>
     <td>girlscript</td>
     <td>contribution</td>
@@ -34,12 +35,12 @@ Each table row starts with a <tr> and end with a </tr> tag. . tr means table row
     <td>02</td>
     <td>03</td>
   </tr>
-</table>
+</table>```
 
 **Table data**
 The <td> tag defines a standard data cell in an HTML table.
 Example:
-<table>
+```<table>
   <tr>
     <td>Cell A1</td>
     <td>Cell B1</td>
@@ -48,12 +49,12 @@ Example:
     <td>Cell C1</td>
     <td>Cell D1</td>
   </tr>
-</table>
+</table>```
 
 **Table head**
 The <th> tag defines a header cell in an HTML table.
 example:
-<table>
+```<table>
 <tr>
     <td>January</td>
     <td>$100</td>
@@ -66,13 +67,13 @@ example:
     <td>February</td>
     <td>$80</td>
   </tr>
-</table>
+</table>```
 
 **Html Caption**
 The <caption> tag defines a table caption.
 The <caption> tag must be inserted immediately after the <table> tag.
 example:
-<table>
+```<table>
   <caption>Monthly savings</caption>
    <tr>
     <td>January</td>
@@ -83,13 +84,13 @@ example:
     <th>Savings</th>
   </tr>
 
-</table>
+</table>```
 
 **Html Colgroup**
 The <colgroup> tag specifies a group of one or more columns in a table for formatting.
 The <colgroup> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
 example:
-<table>
+```<table>
   <colgroup>
     <col span="2" style="background-color:red">
     <col style="background-color:yellow">
@@ -105,13 +106,13 @@ example:
     <th>Price</th>
   </tr>
 
-</table>
+</table>```
 
 **Html col**
 The <col> tag specifies column properties for each column within a <colgroup> element.
 The <col> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
 example:
-<table>
+```<table>
   <colgroup>
     <col span="2" style="background-color:red">
     <col style="background-color:yellow">
@@ -127,13 +128,13 @@ example:
     <th>Price</th>
   </tr>
 
-</table>
+</table>```
 
-**Html thead **
+**Html thead**
 The <thead> tag is used to group header content in an HTML table.
 The <thead> element is used in conjunction with the <tbody> and <tfoot> elements to specify each part of a table (header, body, footer).
 example:
-<table>
+```<table>
   <thead>
     <tr>
       <th>Month</th>
@@ -156,13 +157,13 @@ example:
       <td>$180</td>
     </tr>
   </tfoot>
-</table>
+</table>```
 
 **Html Tbody**
 The <tbody> tag is used to group the body content in an HTML table.
 The <tbody> element is used in conjunction with the <thead> and <tfoot> elements to specify each part of a table (body, header, footer).
 example:
-<table>
+```<table>
   <thead>
     <tr>
       <th>Month</th>
@@ -185,13 +186,13 @@ example:
       <td>$180</td>
     </tr>
   </tfoot>
-</table>
+</table>```
 
 **Html tfoot**
 The <tfoot> tag is used to group footer content in an HTML table.
 The <tfoot> element is used in conjunction with the <thead> and <tbody> elements to specify each part of a table (footer, header, body).
 example:
-<table>
+```<table>
   <thead>
     <tr>
       <th>Month</th>
@@ -214,9 +215,6 @@ example:
       <td>$180</td>
     </tr>
   </tfoot>
-</table>
+</table>```
 
-*Hope this helped to understand the topic better*
-**Happy learning*
-**Author :** [@ Nikhil Kumar](https://github.com/nikhil2222)
-reference: w3school
+
