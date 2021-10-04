@@ -69,8 +69,8 @@ int main()
     return 0;
 }
 ```
-### Time Complexity : O(N^2)
-### Space Complexity : O(1)
+` Time Complexity : O(N^2)`
+`Space Complexity : O(1)`
 
 ## Method : 2
 1. Sort S1 and S2 and 
@@ -111,9 +111,9 @@ int main()
      return 0;
  }
 ```
-### Time Complexity : O(nlog(n)) 
+`Time Complexity : O(nlog(n))` 
 *    where n: is the length of longest string
-### Space Complexity : O(1)
+`Space Complexity : O(1)`
 
 
 ## Method : 3
@@ -122,9 +122,9 @@ int main()
 * and decrease  count array frequency for every respective character in S2
 * Iterate over frequency array and check if there present any element in frq. array whose element is non-zero
 * if(element found non-zero):
-*       return false;
+*       `return false;`
 * else:  
-*       return true;
+*       `return true;`
 
 
 ### Implementation 
@@ -166,5 +166,5 @@ int main()
     return 0;
 }
 ```
-### Time Complexity : O(N)
-### Space Complexity : O(N)
+` Time Complexity : O(N)`
+` Space Complexity : O(N)`
