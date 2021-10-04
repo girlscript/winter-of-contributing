@@ -28,9 +28,10 @@ Example 1
   const myelement = <h1>I Love JSX!</h1>;
 
   ReactDOM.render(myelement, document.getElementById('root'));
+```
 
 Example 2
-**Without JSX:**
+```**Without JSX:**
 
   const myelement = React.createElement('h1', {}, 'I do not use JSX!');
 
@@ -61,14 +62,14 @@ If–else statements cannot be used inside JSX but conditional expressions can b
 
 ```const App = () => {
 
- const i = 1;
+     const i = 1;
 
-    return (
+     return (
          <div>
            <h1>{ i === 1 ? 'true' : 'false' }</h1>
          </div>
-      );
-}
+     );
+   }
 ```
 
 The above will render:
@@ -82,28 +83,28 @@ Functions and JSX can be used in conditionals:
 
 ```const App = () => {
 
-       const sections = [1, 2, 3];
+     const sections = [1, 2, 3];
 
-       return (
-          <div>
-             {sections.map((n,i) => (
-             /* 'key' is used by react to keep track of list items and their changes */
-             /* Each 'key' must be unique */
-             <div key={"section-" + n}>
-               Section {n} {i === 0 && <span>(first)</span>}
-          </div>
-       ))}
-       </div>
-       );
-    }
-  ```
+     return (
+        <div>
+        {sections.map((n,i) => (
+         /* 'key' is used by react to keep track of list items and their changes */
+         /* Each 'key' must be unique */
+            <div key={"section-" + n}>
+              Section {n} {i === 0 && <span>(first)</span>}
+            </div>
+         ))}
+         </div>
+     );
+   }
+```
 The above will render:
 
 ```<div>
-      <div>Section 1<span>(first)</span></div>
-      <div>Section 2</div>
-      <div>Section 3</div>
-    </div>
+     <div>Section 1<span>(first)</span></div>
+     <div>Section 2</div>
+     <div>Section 3</div>
+   </div>
 ```
 
 *Code written in JSX requires conversion with a tool such as Babel before it can be understood by web browsers.*
