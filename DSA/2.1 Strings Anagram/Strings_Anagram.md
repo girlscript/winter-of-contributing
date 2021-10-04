@@ -3,7 +3,7 @@
 * Two Strings S1 and S2 are said to be anagram of each other if S2 is one of permutation of S1.
 * lets have a example of this :
 
-##   Example :1
+###   Example :1
 
 *  S1="listen"
 *  S2="silent"
@@ -11,7 +11,7 @@
 *  So from above , we can see that  S2 is permutation of S1
 *  So we can say that S1 and S2 are anagram of each other.
 
-##   Example :2
+###   Example :2
 
 *   S1="silent"
 *  S2="super"
@@ -21,11 +21,11 @@
 * Use 2 for loop 
 * Iterate over characters of one string and check whether every character present in other string or not
 * if(All characters of S1 is present in S2)
-   * S1 and S2 are anagram of each other
+    * `S1 and S2 are anagram of each other`
 * else:
-   * S1 and S2 are not anagram of each other
+   * `S1 and S2 are not anagram of each other`
 
-##  Implementation 
+###  Implementation 
 ```C++
 #include <bits/stdc++.h>
 using namespace std;
@@ -69,8 +69,8 @@ int main()
     return 0;
 }
 ```
-## Time Complexity : O(N^2)
-## Space Complexity : O(1)
+### Time Complexity : O(N^2)
+### Space Complexity : O(1)
 
 ## Method : 2
 1. Sort S1 and S2 and 
@@ -80,7 +80,7 @@ int main()
 4.    `return false`
 
 
-## Implementation 
+### Implementation 
 ```C++
  #include <bits/stdc++.h>
  using namespace std;
@@ -111,9 +111,9 @@ int main()
      return 0;
  }
 ```
-## Time Complexity : O(nlog(n)) 
+### Time Complexity : O(nlog(n)) 
 *    where n: is the length of longest string
-## Space Complexity : O(1)
+### Space Complexity : O(1)
 
 
 ## Method : 3
@@ -127,7 +127,7 @@ int main()
 *       return true;
 
 
-## Implementation 
+### Implementation 
 
 ```C++
 #include <bits/stdc++.h>
@@ -166,5 +166,5 @@ int main()
     return 0;
 }
 ```
-__Time Complexity : O(N)__
-__Space Complexity : O(N)__
+### Time Complexity : O(N)
+### Space Complexity : O(N)
