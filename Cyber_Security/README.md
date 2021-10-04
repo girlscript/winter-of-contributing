@@ -39,7 +39,7 @@
 - [ ] Setup VirtualBox and Virtual Machine in Mac
 - [x] [Familiar to Linux Terminal](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.9.3.Familiar%20to%20Linux%20Terminal.md)
 - [x] [Linux File System](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/1.9.9.1%20FileSystemInLinux.md)
-- [ ] Linux File System Directories
+- [x] [Linux File System Directories](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_1/Cybersecurity%201.9.9.2%20Linux%20File%20System%20Directories%20%23171.md)
 ## Week-2 (Networking)
 - [x] [IP address](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_2/2.1_IP_Addresses.md)
     - ipv4
