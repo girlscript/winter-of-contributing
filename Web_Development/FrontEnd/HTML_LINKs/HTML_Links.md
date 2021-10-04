@@ -122,3 +122,8 @@ JavaScript allows you to specify what happens at certain events, such as a click
 <a href="https://github.com/girlscript/winter-of-contributing" title="Go to girlscript repository">Visit GWOC'21 Repo</a>
 ```
 <a href="https://github.com/girlscript/winter-of-contributing" title="Go to girlscript repository">Visit GWOC'21 Repository</a>
+                                                                                                  
+###References:
+* W3schools
+* tutorialspoint
+* MDN Webdocs
