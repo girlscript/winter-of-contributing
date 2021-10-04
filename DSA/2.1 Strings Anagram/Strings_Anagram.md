@@ -69,15 +69,14 @@ int main()
     return 0;
 }
 ```
-` Time Complexity : O(N^2)`
-`Space Complexity : O(1)`
+####  Time Complexity : O(N^2)
+#### Space Complexity : O(1)
 
 ## Method : 2
 1. Sort S1 and S2 and 
 2. if(s1==s2)
      `return true`
-3. else : 
-4.    `return false`
+3. else :  `return false`
 
 
 ### Implementation 
@@ -111,9 +110,9 @@ int main()
      return 0;
  }
 ```
-`Time Complexity : O(nlog(n))` 
+#### Time Complexity : O(nlog(n)) 
 *    where n: is the length of longest string
-`Space Complexity : O(1)`
+#### Space Complexity : O(1)
 
 
 ## Method : 3
@@ -166,5 +165,5 @@ int main()
     return 0;
 }
 ```
-` Time Complexity : O(N)`
-` Space Complexity : O(N)`
+#### Time Complexity : O(N)
+#### Space Complexity : O(N)
