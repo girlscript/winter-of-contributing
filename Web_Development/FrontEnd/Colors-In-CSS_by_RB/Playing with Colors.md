@@ -22,6 +22,7 @@ There are four different ways to specify colors in CSS.
 
 ![](images/Screenshot%202021-09-28%20054944.jpg " Picture") 
 
+(PC. from w3school.com) [Reference link](https://www.w3schools.com/css/css_colors.asp)
 
 Now, let’s understand about them in brief.
 
@@ -47,7 +48,7 @@ Saturation is a percentage value, 0% means a shade of gray, and 100% is the full
 Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white.
 Designers and artists often prefer to work using the HSL (Hue/Saturation/Luminosity) color method. 
 
-The hsl()CSS function is very similar to the rgb() function in usage.  
+The hsl( )CSS function is very similar to the rgb() function in usage.  
   
 ## 2. The ways of making colors translucent in CSS
   
@@ -58,6 +59,7 @@ value from 0.0 - 1.0. The lower value, the more transparent:
 
 ![](images/Screenshot%202021-09-29%20091241.jpg " Picture") 
   
+  (PC. from w3school.com) [Reference link](https://www.w3schools.com/css/css_background.asp)
   
 We use RGBA model instead of RGB functional notation model and it is also included a fourth component: the alpha channel (or opacity).
 The alpha channel is a number between 0.0 (fully transparent) and 1.0 (fully opaque). We can also specify a percentage where 0% is the same as 0.0 and 100% is the same as 1.0.
@@ -79,10 +81,16 @@ Eg.
 
 **background-color: green;**
 **opacity: 0.6;**
+  
  *}*
+ 
+ .
+ .
+ . 
   
  
 ![](images/Screenshot%202021-09-29%200912411.jpg " Picture")
+ 
   
   
 ## 3. The ways of adding colors in CSS
@@ -437,11 +445,11 @@ A **color picker (also known as color chooser or color tool etc.)** is a graphic
   
  ![](images/Screenshot%202021-09-30%20151136.jpg " Picture")  
 
-  An example of online free html color picker (PC. To the w3school website)
+  An example of online free html color picker (PC. To the w3school website) [Reference link]()
   
    ![](images/Screenshot%202021-09-30%20152738.jpg " Picture") 
   
-  An example of color selector interface of a graphical desig software (PC. To Paletton) 
+  An example of color selector interface of a graphical desig software (PC. To Paletton) [Reference link](https://developer.mozilla.org/en-US/docs/Web/HTML/Applying_color)
   
  Making the right choices when selecting colors when designing a website can be a tricky process, especially if you aren't well-grounded in art, design, or at least basic color theory. The wrong color choice can render your site unattractive, or even worse, leave the content unreadable due to problems with contrast or conflicting colors. Worse still, if using the wrong colors can result in your content being outright unusable by people with certain vision ability problems, particularly color blindness (they tend to be sensitive about red and green colorings many times). Therefore, it is necessary to keep this point in mind while selecting colors for one’s website.
 
