@@ -117,7 +117,7 @@
 ## Space Complexity : O(1)
 
 
-# Method : 3
+## Method : 3
 * Make a array of 256 length and initialize it with zero.
 * Then increase count array frequency for every respective character in S1
 * and decrease  count array frequency for every respective character in S2
