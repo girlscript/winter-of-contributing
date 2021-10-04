@@ -44,7 +44,7 @@
 - [Yield Keyword](./Yield_Keyword)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
 - [Django Framework](./Django_Framework)
-
+- [Type Annotations](./Type_Annotations)
 
 ## Learning path
 
@@ -79,3 +79,4 @@
 29. Yield Keyword
 30. Dictionary Comprehension
 31. Django Framework
+32. Type Annotations
