@@ -26,6 +26,7 @@ It is basically an area on the screen on which if you tap , will perform a certa
         android:layout_marginBottom="58dp"
         android:text="Click Me"
         app:elevation="10dp"
+        android:background="#000000"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,6 +38,7 @@ It is basically an area on the screen on which if you tap , will perform a certa
 
 * __android:id__: It is used to set an identity to the element in order to use it on other files. You can set it to anything.
 * __android:text__: It is used to set text on the button. Generally it is better to use string resources for this rather than hardcoding text like in this one.
+* __android:background__: It is used to set the background colour for the button.
 * __app:elevation__: IT is basically used to give an elevated effect to the button by applying a shadow.
 
 I would like you to search about the rest of the parameters.
@@ -83,4 +85,9 @@ myButton.setOnClickListener{
             Toast.makeText(this@MainActivity,"You clicked me",Toast.LENGTH_SHORT).show()
         }
 ```
+Under this method we are basically:
+* Incrementing the timesClicked variable to keep track of number of clicks.
+* Setting the text of the textView equal to the variable. Text accepts string so we have to convert integer type into string.
+* We are also popping a toast , with a text "You clicked me".
 
+## Now run your app and see the results.
