@@ -349,8 +349,89 @@ Eg.
 
 ```
 Output:  
-  
-
+ 
 ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
   
+## <u>CSS Radial Gradients:</u>
+
+A radial gradient is defined by its center.
+
+To create a radial gradient you must also define at least two color stops.
+
+### _Syntax:_
+
+**background-image: radial-gradient(shape size at position, start-color, ..., last-color);**
+
+By default, shape is ellipse, size is farthest-corner, and position is center.
+
+Eg.
+
+
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#grad1 {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient( red, yellow, green);
+}
+#grad2 {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(circle, red, yellow, green);
+}
+#grad3 {
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient( red 10%,blue 20%, yellow 20%, green 50%);
+}
+</style>
+</head>
+<body>
+<h1> Evenly Spaced Radial Gradient - Shapes</h1>
+<h2>Ellipse (this is default):</h2>
+<div id="grad1"></div>
+<h2><strong>Circle:</strong></h2>
+<div id="grad2"></div>
+<h1>Differently Spaced Radial Gradient(in Ellipse):</h1>
+<div id="grad3"></div>
+</body>
+</html>
+
+```
+Output:  
   
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+  
+# 6. Finding the right colors for website 
+
+Coming up with just the right colors can be tricky, especially without training in art or design. Fortunately, there are tools available that can help you. While they can't replace having a good designer helping you make these decisions, they can definitely get you started.
+
+### **Base color**
+
+The first step is to choose your **base color**. This is the color that in some way defines your website or the subject matter of the site. 
+
+Eg.
+
+“one might think of the color blue in relationship with the sky or the ocean, choosing an appropriate base color to represent one’s site is a good place to start. There are plenty of ways to select a base color; a few ideas include:
+
+•	A color that is naturally associated with the topic of your content, such as the existing color identified with a product or idea or a color representative of the emotion you wish to convey.
+
+•	A color that comes from imagery associated with what your content is about. If you're creating a website about a given item or product, choose a color that's physically present on that item.
+
+•	Browse websites that let you look at lots of existing color palettes and images to find inspiration.
+
+A **color picker (also known as color chooser or color tool etc.)** is a graphical user interface widget, usally found within graphics software or online, used to select colors and sometimes to create color schemes.We can use a “Color Picker for Html” as a free web tool online or by some browser extensions or via some drawing software where we can use dropper and other useful tools. Some examples are as following:
+
+•	MDN's color picker tool
+
+•	Paletton
+
+•	Adobe Color CC online color wheel
+
+•	Html color picker offered online by w3schools.com, by pinetools.com, by htmlcolorcodes.com, by webfx.com etc.  
+  
+ ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")  
