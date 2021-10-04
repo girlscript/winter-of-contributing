@@ -56,7 +56,7 @@ The opacity property specifies the opacity/transparency of an element. It can ta
 value from 0.0 - 1.0. The lower value, the more transparent:  
   
 
-![](images/ " Picture") 
+![](images/Screenshot%202021-09-29%20091241.jpg " Picture") 
   
   
 We use RGBA model instead of RGB functional notation model and it is also included a fourth component: the alpha channel (or opacity).
@@ -81,7 +81,7 @@ Eg.
 **opacity: 0.6;**
   
  
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-29%200912411.jpg " Picture")
   
   
 ## 3. The ways of adding colors in CSS
@@ -91,7 +91,7 @@ Eg.
 
 •	**Inline CSS:** An inline style may be used to apply a unique style for a single element.  
   
-#4.Things that can have color in CSS
+# 4.Things that can have color in CSS
 
 At a fundamental level, the color property defines the foreground color of an HTML element's content and the ***background-color*** property defines the element's background color. Thesecan be used on just about any element.
 
@@ -271,7 +271,7 @@ _**background-image: linear-gradient(direction, color-stop1, color-stop2, ...);*
 ```
 Output:
   
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-30%20083953.jpg " Picture")
   
  ### **Direction - Left to Right**
 
@@ -286,7 +286,7 @@ Output:
 ```
 Output:
   
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-30%20085458.jpg " Picture")
   
 ### **Direction – Diagonal**
 
@@ -303,7 +303,7 @@ width: 600px;
 ```
 Output:  
   
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/ " Picture")
   
 ### Using Angles:
 If you want more control over the direction of the gradient, you can define an angle, instead of the predefined directions (to bottom, to top, to right, to left, to bottom right, etc.). A value of 0deg is equivalent to "to top". A value of 90deg is equivalent to "to right". A value of 180deg is equivalent to "to bottom".
