@@ -225,3 +225,7 @@ The above program prints
 Employee 1 {Sam Anderson 25 500}  
 Employee 2 {Thomas Paul 29 800}  
 ```
+# Conclusion
+In this you learned the basics of structs. But there is a lot more to explore about structs like methods on a struct, struct composition, embedded fields, promoted fields etc.
+
+Thanks for Reading ✨
