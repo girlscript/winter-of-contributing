@@ -34,7 +34,7 @@ Data Structures are the main part of many computer science algorithms as they en
 - Week 10: Tries, Disjoint Set Union
 ### Algorithms
 - Week 1: [Analysis of Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms)
-- Week 2: Searching & Sorting Algorithms
+- Week 2: [Searching & Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms)
 - Week 3: Greedy Algorithms
 - Week 4: Pattern Searching Algorithms
 - Week 5: Backtracking
