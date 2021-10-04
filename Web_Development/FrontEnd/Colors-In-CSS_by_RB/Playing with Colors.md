@@ -435,3 +435,23 @@ A **color picker (also known as color chooser or color tool etc.)** is a graphic
 •	Html color picker offered online by w3schools.com, by pinetools.com, by htmlcolorcodes.com, by webfx.com etc.  
   
  ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")  
+
+  An example of online free html color picker (PC. To the w3school website)
+  
+   ![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
+  
+  An example of color selector interface of a graphical desig software (PC. To Paletton) 
+  
+ Making the right choices when selecting colors when designing a website can be a tricky process, especially if you aren't well-grounded in art, design, or at least basic color theory. The wrong color choice can render your site unattractive, or even worse, leave the content unreadable due to problems with contrast or conflicting colors. Worse still, if using the wrong colors can result in your content being outright unusable by people with certain vision ability problems, particularly color blindness (they tend to be sensitive about red and green colorings many times). Therefore, it is necessary to keep this point in mind while selecting colors for one’s website.
+
+### That’s the end for today’s lesson about Colors in CSS. 
+### Hope you find this lesson interesting while learning and enjoyed overall. 
+
+
+
+
+## Thank you. 
+  
+ ![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
+  
+ ![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
