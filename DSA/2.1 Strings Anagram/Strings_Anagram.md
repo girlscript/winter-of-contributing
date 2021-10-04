@@ -121,9 +121,9 @@ int main()
 * and decrease  count array frequency for every respective character in S2
 * Iterate over frequency array and check if there present any element in frq. array whose element is non-zero
 * if(element found non-zero):
-*       `return false;`
+        *`return false`
 * else:  
-*       `return true;`
+*       *`return true`
 
 
 ### Implementation 
