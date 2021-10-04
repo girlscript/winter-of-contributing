@@ -1,4 +1,4 @@
-# <u>**Playing with Colors in CSS**</u>
+# <u>**Playing with Colors in CSS**
 
 Whenever we see a beautiful but simple website, we can feel that there is a definitely significant role of CSS behind it’s HTML files and who doesn’t know “colors” make everything attractive. The use of color is a fundamental form of human expression. Children experiment with color, before they even have the manual dexterity to draw. Maybe that's why color is one of the first things people often want to experiment with when learning to develop websites. Yes, so there must be some way to know about this and learn the basics, right? Who knows you might develop a keen interest about this! So, let’s get started.
 ## 1. How to define colors in CSS?
@@ -240,7 +240,7 @@ Here mainly we will be using “`background-image`" property. We usually use bac
 
 **•	Radial Gradients (defined by their center)**
 
-## <u>CSS Linear Gradients:</u>
+## <u>CSS Linear Gradients:
 
 To create a linear gradient, you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
 
@@ -352,7 +352,7 @@ Output:
  
 ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
   
-## <u>CSS Radial Gradients:</u>
+## <u>CSS Radial Gradients:
 
 A radial gradient is defined by its center.
 
