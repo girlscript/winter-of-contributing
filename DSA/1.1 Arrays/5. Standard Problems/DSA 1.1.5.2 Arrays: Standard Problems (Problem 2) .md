@@ -27,8 +27,6 @@ A subarray is a contiguous part of an array.
 5. Also store maximum of all the elements in neg variable.
 6. Return neg if max_sum is 0 because this means all array elements are negative else return max_sum.
 
-## Below Code is the general case for any two sorted Array.
-
 
 ## Code
 ```C++
@@ -41,20 +39,39 @@ int largest_subrarray_sum(vector<int> nums,int n)    //Function which calculate 
     {
         return nums[0];  //If the array contains only one element return that element
     }
-    int max_sum=0,cur_sum=0;  //max_sum will store maximum sum and cur_sum will store current sum
+    int max_sum=INT_MIN,cur_sum=0;  //max_sum will store maximum sum and cur_sum will store current sum
     int neg=nums[0];          //neg will store maximum of the elements of the array
+    // stores endpoints of maximum sum subarray found so far
+    int start = 0, end = 0;
+    // stores starting index of a positive-sum sequence
+    int beg = 0;
     for(int i=0;i<n;i++)
     {
         cur_sum+=nums[i];         //Keep Adding elements of the array to the cur_sum
         neg=max(neg,nums[i]);
-        if(cur_sum<0)
+        if(cur_sum<=nums[i])
         {
-            cur_sum=0;             // If cur_sum becomes negative assign it to zero because negative is not needed
+            cur_sum=nums[i];             // If cur_sum becomes negative assign it to zero because negative is not needed
+            beg=i;
         }
-        max_sum=max(max_sum,cur_sum);     //Taking Maximum of max_sum and cur_sum
+        if(max_sum<cur_sum)
+        {
+            max_sum=cur_sum;
+            start=beg;
+            end=i;
+        }
     } 
+    cout<<"The Required Subarray is ";
+    for(int i=start;i<=end;i++)      //Printing the Subarray
+    {
+        cout<<nums[i]<<" ";
+    }
     if(max_sum==0)
+    {
+        cout<<neg<<endl;
         return neg;              //If all the array elements are negative the return the maximum element
+    }
+    cout<<endl;
     return max_sum;
 }
 
@@ -67,7 +84,8 @@ int main() {
         cin>>a[i];        //Taking input the elements of array
     }
 
-    int ans=largest_subrarray_sum(a,n);       
+    int ans=largest_subrarray_sum(a,n);  
+    cout<<"The Maximum sum is ";   
     cout<<ans;  //ans is the required the Sum
     return 0;
 }
