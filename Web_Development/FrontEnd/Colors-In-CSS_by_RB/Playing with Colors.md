@@ -20,7 +20,7 @@ There are four different ways to specify colors in CSS.
 •	Using “HCL” functional notation (“HCL” stands for “Hue, Saturation, Luminosity model” …. we can define any color in this model), eg. “color: rgb(9, 100%,64%);” for “Tomato” color code.
 
 
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
+![](images/Screenshot%202021-09-28%20054944.jpg " Picture") 
 
 
 Now, let’s understand about them in brief.
@@ -56,7 +56,7 @@ The opacity property specifies the opacity/transparency of an element. It can ta
 value from 0.0 - 1.0. The lower value, the more transparent:  
   
 
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
+![](images/ " Picture") 
   
   
 We use RGBA model instead of RGB functional notation model and it is also included a fourth component: the alpha channel (or opacity).
@@ -111,7 +111,7 @@ Eg.
 Output:  
   
 
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-28%20132016.jpg " Picture")
   
 **background-color:** The text's background color.
 
@@ -122,7 +122,7 @@ Output:
 ```
 Output:
   
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")  
+![](images/Screenshot%202021-09-28%20132141.jpg " Picture")  
   
   **text-decoration-color:** By default, text decorations (such as underlines, strikethroughs, etc) use the colorproperty as their colors.
 
@@ -143,7 +143,7 @@ h1 {
 ```
 Output:
   
-![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+![](images/Screenshot%202021-09-28%20152624.jpg " Picture")
   
 ## **ii) Boxes**
 
