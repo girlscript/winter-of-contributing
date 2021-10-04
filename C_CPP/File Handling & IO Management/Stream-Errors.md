@@ -80,20 +80,30 @@ void cin_reset()
 }
 ```
 
+### No-Input Input
+
+Sometimes, the users are expected to enter a number or a string, but they simply press Enter key without even typing any digits. Like 
+> cin>>input; 
+ 
+Pressing Enter key will cause the cursor come to the next line, at the same time the stream continues to wait for the input. 
+
+
+
+
+
+
+
+
+
+
+
+
 ### Too Much Characters
 
+Commonly, more characters are left in the input stream even after the input is apparently completed and then they are moved along to next line operation. To overcome these irrelevant characters the **_ignore(max,delim)_** function of _istream_ is used. This function reads and throws upto max characters, including delimiter.
 
+Example:
+> cin.ignore(20,'\n');
 
-
-
-
-
-
-
-
-
-
-
-
-
+Which causes cin to read not more than 20 characters including '\n' and removes them from input.
 
