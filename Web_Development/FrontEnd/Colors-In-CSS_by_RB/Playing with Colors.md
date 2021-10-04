@@ -18,6 +18,8 @@ There are four different ways to specify colors in CSS.
 •	Using “RGB” functional notation (“RGB” stands for “Red, Green, Blue model” …. we can define any color in this model), eg. “color: rgb(255, 99, 71);” for “Tomato” color code.
 
 •	Using “HCL” functional notation (“HCL” stands for “Hue, Saturation, Luminosity model” …. we can define any color in this model), eg. “color: rgb(9, 100%,64%);” for “Tomato” color code.
+
+
 ![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
 
 
@@ -46,4 +48,10 @@ Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% 
 Designers and artists often prefer to work using the HSL (Hue/Saturation/Luminosity) color method. 
 
 The hsl()CSS function is very similar to the rgb() function in usage.  
+  
+## 2. The ways of making colors translucent in CSS
+  
+To make the desired color into a lighter form we can use “Opacity” as a property for the elements.
+The opacity property specifies the opacity/transparency of an element. It can take a
+value from 0.0 - 1.0. The lower value, the more transparent:  
   
