@@ -69,14 +69,14 @@ If–else statements cannot be used inside JSX but conditional expressions can b
            <h1>{ i === 1 ? 'true' : 'false' }</h1>
          </div>
      );
-   }
+}
 ```
 
 The above will render:
 
 ```<div>
-      <h1>true</h1>
-   </div>
+   <h1>true</h1>
+</div>
 ```
 
 Functions and JSX can be used in conditionals:
@@ -96,15 +96,15 @@ Functions and JSX can be used in conditionals:
          ))}
          </div>
      );
-   }
+}
 ```
 The above will render:
 
 ```<div>
-     <div>Section 1<span>(first)</span></div>
-     <div>Section 2</div>
-     <div>Section 3</div>
-   </div>
+       <div>Section 1<span>(first)</span></div>
+       <div>Section 2</div>
+       <div>Section 3</div>
+</div>
 ```
 
 *Code written in JSX requires conversion with a tool such as Babel before it can be understood by web browsers.*
