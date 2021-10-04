@@ -55,3 +55,116 @@ To make the desired color into a lighter form we can use “Opacity” as a prop
 The opacity property specifies the opacity/transparency of an element. It can take a
 value from 0.0 - 1.0. The lower value, the more transparent:  
   
+
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture") 
+  
+  
+We use RGBA model instead of RGB functional notation model and it is also included a fourth component: the alpha channel (or opacity).
+The alpha channel is a number between 0.0 (fully transparent) and 1.0 (fully opaque). We can also specify a percentage where 0% is the same as 0.0 and 100% is the same as 1.0.
+For example, a bright red that's 50% opaque can be represented as rgb(255, 0, 0, 0.5)or rgb(100%, 0, 0, 50%).
+
+**In HEX string notation model, we use it as "#rrggbbaa" OR "#rgba" for opacity property.** 
+Specifies a color whose red component is the hexadecimal number 0xrr, green component is 0xgg, and blue component is 0xbb. The alpha channel is specified by0xaa; the lower this value is, the more translucent the color becomes.
+
+As an example, you can represent the opaque color bright blue as "#0000ff" or "#00f". To make it 25% opaque, one can use "#0000ff44" or "#00f4". 
+  
+We can also define “opacity” property for an element in CSS like as following:
+
+Eg.
+
+.
+.
+.
+ **div {**
+
+**background-color: green;**
+**opacity: 0.6;**
+  
+ 
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+  
+  
+## 3. The ways of adding colors in CSS
+•	**External CSS:** Specifying colors in stylesheets. External styles are defined within the `<link>` element, inside the `<head>` section of an HTML file.
+
+•	**Internal CSS:** Adding all the required properties via `<style>` tag within `<head>` section of an HTML file.
+
+•	**Inline CSS:** An inline style may be used to apply a unique style for a single element.  
+  
+#4.Things that can have color in CSS
+
+At a fundamental level, the color property defines the foreground color of an HTML element's content and the ***background-color*** property defines the element's background color. Thesecan be used on just about any element.
+
+## **i) Text**
+
+Whenever an element is rendered, these properties are used to determine the color of the text, its background, and any decorations on the text.
+
+**Color:** The color to use when drawing the text and any text decorations (such as the addition of under- or overlines, strike-through lines, and so forth.
+
+Eg. 
+
+
+
+```
+<h1 style="color: Tomato;">Hello World</h1>
+```
+Output:  
+  
+
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+  
+**background-color:** The text's background color.
+
+
+
+```
+<h1 style="background-color:DodgerBlue;">Hello World</h1>
+```
+Output:
+  
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture")  
+  
+  **text-decoration-color:** By default, text decorations (such as underlines, strikethroughs, etc) use the colorproperty as their colors.
+
+Eg. 
+
+
+
+```
+<head>
+<style>
+h1 {
+  text-decoration: underline;
+  color: violet;
+}
+</style>
+</head>
+
+```
+Output:
+  
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+  
+  ##**ii) Boxes**
+
+Every element is a box with some sort of content, and has a background and a border in addition to whatever contents the box may have.
+
+**Borders:** See the section Borders for a list of the CSS properties you can use to set the colors of a box's borders.
+
+Eg.
+
+
+
+```
+<h1 style="border: 2px solid Tomato;">Hello World, we came to see you!</h1>
+
+<h1 style="border: 2px solid DodgerBlue;">Ready to explore!</h1>
+
+<h1 style="border: 2px solid Violet;">Adventures waits ahead!</h1>
+
+```
+Output:
+  
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+  
+  
