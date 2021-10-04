@@ -165,6 +165,6 @@ int main()
     }
     return 0;
 }
-'''
-## Time Complexity : O(N)
-## Space Complexity : O(N)
+```
+__Time Complexity : O(N)__
+__Space Complexity : O(N)__
