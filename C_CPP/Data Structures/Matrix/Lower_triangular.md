@@ -1,6 +1,6 @@
 # Lower Triangular Matrix
 
- A square matrix is called **lower triangular** if all the entries above the main diagonal are zero. 
+ In the mathematics, a triangular matrix is a special kind of *square matrix* and  a square matrix is called **Lower Triangular** if all the elements above the diagonal are **0**. 
  
  ![lower triangular](https://imgur.com/dNyIBpt.jpg)
 
@@ -11,7 +11,9 @@
 * For i greater than or equal to j then A[i][j] is non-zero value.
 
 ## Row Major Mapping & Column Major Mapping
-  5X5 matrix given below can be stored in a 2D array, but when it comes to matrices of large size, it is not a good choice because of its high memory consumption due to the storage of unwanted 0s. 
+  The matrix given below is a 5X5 matrix and it can be stored in a 2D array, but it is not a good choice to store such large memory in array because of its high memory consumption due to the storage of unwanted zeros. 
+
+  So,what we can do ,is finding more efficient way of storing only the non-zero values in a 1D array and at the time of displaying the matrix we can just display zero as std output.
  
 ![matrix](https://imgur.com/3UXFTdg.jpg)
 
