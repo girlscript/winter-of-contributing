@@ -1,24 +1,29 @@
-#include <iostream>
-using namespace std;
-/* 
-CONSTRUCTORS: The member functions of a class,used to initialise objects of the same class. With no return type, it has the same name as of class and should be placed inside public section of same.
 
-DESTRUCTORS: These are used for memory deallocation and cleanup for class objects and its members , when the object is deleted at first place.A destructor is a member function with the same name as its class prefixed by a ~ (tilde).
+CONSTRUCTORS: 
+===============
+The member functions of a class,used to initialise objects of the same class. With no return type, it has the same name as of class and should be placed inside public section of same.
 
-SYNTAX:
+
+DESTRUCTORS: 
+===============   
+These are used for memory deallocation and cleanup for class objects and its members , when the object is deleted at first place.A destructor is a member function with the same name as its class prefixed by a ~ (tilde).
+
+```
+//SYNTAX:
 class AB{
    public:
    AB(); //CONSTRUCTOR
    ~AB(); // DESTRUCTOR
 }
-*/
+```
 
-// 1) IMPLEMENTATION OF STACK USING CONSTRUCTORS (PARAMETRISED CONSTRUCTORS) AND DESTRUCTORS:
-
-// Define the default allocated_size of the stack
+IMPLEMENTATION OF STACK USING CONSTRUCTORS (PARAMETRISED CONSTRUCTORS) AND DESTRUCTORS: 
+---------------
+```
+//Define the default allocated_size of the stack
 #define SIZE 10
  
-// A class to represent a stack
+//A class to represent a stack
 class stack
 {
     int *array;
@@ -26,8 +31,10 @@ class stack
     int allocated_size;
  
 public:
-// FIRST WE DEFINE METHOD FUNCTIONS : CONSTRUCTORS AND DESTRUCTORS
-// Constructor to initialize the stack
+//FIRST WE DEFINE METHOD FUNCTIONS : CONSTRUCTORS AND DESTRUCTORS
+
+//Constructor to initialize the stack
+
 stack(int size)  //CONSTRUCTOR
 {
     array = new int[size];
@@ -35,13 +42,13 @@ stack(int size)  //CONSTRUCTOR
     top = -1;
 }
  
-// Destructor to free memory allocated to the stack
-~stack() {        // DESTRUCTOR
+Destructor to free memory allocated to the stack
+~stack() {        //DESTRUCTOR
     delete[] array;
 }
  
-// SECOND WE LAY OUT ALL UTILITY FUNCTIONS INSIDE CLASS
-// Utility function to add an element `x` to the stack
+//SECOND WE LAY OUT ALL UTILITY FUNCTIONS INSIDE CLASS
+Utility function to add an element `x` to the stack
  void push(int x)
 {
     if (isFull())
@@ -129,6 +136,8 @@ int main()
     return 0;
 
 }
+
+```
 
 
 
