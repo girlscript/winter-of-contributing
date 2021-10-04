@@ -1,2 +1,1 @@
 - [Breadth First Search](BFS%20notes.md)
-- [Hamiltonian Path](readme_hamiltonianPath.md)
