@@ -17,7 +17,19 @@
   Suppose if class name is Add, then 
   > ~Add() will deallocate the memory.
  
+ #### A simple demonstration of using destructor: 
  
+ ```C++
+ 
+ class Demo
+{
+  public:
+   Demo();  // Constructor for the class Demo
+  ~Demo();  // Destructor for the class Demo
+};
+
+```
+
  #### A program example to help you understand the concept much better:
  
  
