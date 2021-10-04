@@ -3,7 +3,7 @@
 <img src="https://user-images.githubusercontent.com/85386116/135802507-0baf11a5-c39d-4a54-8d04-f1ee46ce7ec4.png" width="80%" align="center">
 </p>
 
-## What is a struct?
+# <img src="https://user-images.githubusercontent.com/85386116/135816998-e7fc3fc0-294f-45e5-b5d6-56c9a72cd810.png" width="65px" align="center">What is a struct? <br>
 A struct is a user-defined type that represents a collection of fields. It can be used in places where it makes sense to group the data into a single unit rather than having each of them as separate values.
 A struct (short for "structure") is a collection of data fields with declared data types. Golang has the ability to declare and create own data types by combining one or more types, including both built-in and user-defined types. Each data field in a struct is declared with a known type, which could be a built-in type or another user-defined type.
 
@@ -13,7 +13,8 @@ The declaration starts with the keyword type, then a name for the new struct, an
 
 For instance, an employee has a firstName, lastName and age. It makes sense to group these three properties into a single struct named Employee.
 
-## Install
+## <img src="https://user-images.githubusercontent.com/85386116/135817297-6c3c9519-91bd-4534-98c9-4f6a677b5c07.png" width="35px"> Install
+
 
 ```bash
 go get github.com/fatih/structs
