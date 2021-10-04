@@ -30,7 +30,7 @@ Counting sort is not an in-place algorithm because it takes extra space and it i
 
 ##### C program-->
 
-```cpp
+```c
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -114,7 +114,7 @@ Radix sort is not an in-place algorithm because it uses counting sort which is n
 
 ##### C program-->
 
-```cpp
+```c
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
