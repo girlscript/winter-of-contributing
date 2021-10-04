@@ -65,11 +65,14 @@ animes = ['Naruto Shippudden' , 'Tokyo Ghoul' , 'Death Note' , 'One Punch Man']
 
 #using zip() to combine two containers and printing values
 for cha, ani in zip(characters, animes): #here cha and ani are just variables and can be names anything else you want
-	print('{0} is the main character of {1} .'.format(cha, ani)) 
+	print('{0} is the main character of {1} .'.format(cha, ani))
+	
+	
+	
 #output :  Uzumaki Naruto is the main character of Naruto Shippudden .
-#	         Keniki is the main character of Tokyo Ghoul .     
-#   	     Light Yagami is the main character of Death Note.
-#  	       Saitama is the main character of One Punch Man .
+#	   Keniki is the main character of Tokyo Ghoul .     
+#   	   Light Yagami is the main character of Death Note.
+#  	   Saitama is the main character of One Punch Man .
 
 ```
 What exactly is happening here ??
