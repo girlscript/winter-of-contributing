@@ -217,4 +217,60 @@ Output:
   
 ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
   
+#5.How to make color gradients in CSS
+
+CSS gradients let you display smooth transitions between two or more specified colors. Most of the time we use solid `background` colors to style our web application, using the `background` property. There is actually more to the `background` property, as it is a shorthand for many different properties including:
+
+•	`background-image` - can set a background image or generate a color gradient.
+
+•	`background-position` - can set the position of the background image.
+
+•	`background-size` - sets the size of the rendered background image.
+
+•	`background-repeat` - can set the 'repeat' property of the image in order to fill the entire element.
+
+•	`background-color `- sets a specific background color which will render behind any set background image.
+
+Here mainly we will be using “`background-image`" property. We usually use background-image property to accept a path to an image URL (`background-image`: url(url-to-image.png) in order to set the image as the element's background. But the background-property actually serves one additional use - we can define gradients, which are actually extremely useful effects. Let us see them in use.
+
+###_CSS defines two types of gradients:_
+
+**•	Linear Gradients (goes down/up/left/right/diagonally)**
+
+
+**•	Radial Gradients (defined by their center)**
+
+##<u>CSS Linear Gradients:</u>
+
+To create a linear gradient, you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
+
+###Syntax:
+
+_**background-image: linear-gradient(direction, color-stop1, color-stop2, ...);**_
+
+###**Direction - Top to Bottom (this is default)**
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#lngrad1 {
+  height: 200px;
+  background-image: linear-gradient(yellow,green);
+}
+</style>
+</head>
+<body>
+<h1>Linear Gradient - Top to Bottom</h1>
+<p>This linear gradient starts yellow at the top, transitioning to green at the bottom:</p>
+<div id="lngrad1"></div>
+</body>
+</html>
+
+```
+Output:
+  
+![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
+  
   
