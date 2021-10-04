@@ -34,7 +34,7 @@
 - [Selectors and pseudo selector](./CSS%20Selectors%20and%20Pseudo%20Selector)
 - [Classes and Id’s](./HTML_Class%20and%20Id)
 - CSS general rule
-- [Colors in css](./CSS_Colors_In_CSS)
+- [Colors in css](CSS_Colors_In_CSS/Colors_In_CSS.md)
 - Text manipulation
 - [The css box model](./CSS_BoxModel)
 - Content manipulation - margin,padding,align
