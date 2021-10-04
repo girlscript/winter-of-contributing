@@ -39,16 +39,16 @@ Now let's talk about few DOM properties .
 
 The head property returns the `<head>` element of the current document and in case if there are more than one `<head>` element in the document, this property returns the first one.<br>
 E.g. 
-``` 
+```javascript
 var x= document.head ; // Assigns head element to x
 console.log(x.innerHTML); // Prints text inside head element 
-```
+``` 
 
 ### HTML | DOM body Property
 
 It returns the content present in the `<body>` tag. This property is used to view or change the content present inside the `<body>` element and sets them with the new specified content. <br>
 E.g. 
-```
+```javascript
  var x = document.body; // Assigns body element to x 
 console.log(x.innerHTML); // Print text inside body element 
 
@@ -61,7 +61,7 @@ console.log(x.innerHTML); // Print text inside body element
 
 The forms collection returns a collection of all `<form>` elements present in the document. Since there may be multiple forms on a page, the elements are sorted as they are present in the HTML source code. <br>
 E.g .
- ```
+ ```javascript
  //Assigns forms collection to x
 var x= document.forms ;
 
@@ -77,10 +77,12 @@ var form1 = x.item(0);
  ```
 The name attribute which specifies the name of an `<input>` element is used to reference form elements in JavaScript, or to reference form data after a form is submitted.<br>
   E.g.
- ```
+ ```javascript
  <form name="myForm" action="/action_page.php" method="get">
- ...
+ ...HTML
  </form>
+ ```
+ ```javascript
  //For the above HTML form element , We can access the form with name attribute as below
 
   var x= document.forms["myForm"];
