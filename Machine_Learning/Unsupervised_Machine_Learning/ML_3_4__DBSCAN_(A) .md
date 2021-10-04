@@ -16,7 +16,7 @@ The whole algorithm is described in an audio. The contents are:
  
 ## Audio Link: Click on picture
  
-[![ML 3.4](https://github.com/ron352/gs-/blob/main/dbs.png)](https://drive.google.com/file/d/1HA_2YIG7j71Yl5TRqzhLSfHqwsu_rjFR/view?usp=sharing)
+[![ML 3.4](https://github.com/ron352/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/Assets/dbs.png)](https://drive.google.com/file/d/1HA_2YIG7j71Yl5TRqzhLSfHqwsu_rjFR/view?usp=sharing)
  
  
 Thank you.
