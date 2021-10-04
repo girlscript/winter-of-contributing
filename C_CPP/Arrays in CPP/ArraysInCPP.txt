@@ -1,1 +1,0 @@
-This is Array in CPP
