@@ -1,4 +1,4 @@
-# Simple Greedy Problem
+# Simple Greedy Problem 
 
 <!-- ## Definition -->
 
@@ -51,9 +51,19 @@ void getsubsets(vector<int> &arr, vector<vector<int>> &temp_container, vector<in
 
 ```
 
-As visible each element is check twice so basically 2 recursive calls for its inclusion/exculsion , adding to that the size of the given array hence by basic combinotronics it becomes 2<sub>n</sub> and as another vector is initialized in midway to work on, this increases both the time & space complexity of the whole program overall as :
-Time Complexity : **nO(2<sub>n</sub>)**
-Space Complexity : O(n)
+### Important Points to note from the above algorithm :
+
+    - As visible each element is check twice so basically 2 recursive calls for its inclusion/exculsion.
+
+    - Considering the size of the given array which also increases the time taken.
+
+    - Use of another vector in between the code.
+
+### These parts increase both the time & space complexity of the whole program overall as :
+
+- `⏰ Time Complexity : nO(2^n)`
+
+- ` Space Complexity : O(n)`
 
 Above explanation puts a clear picture how it would slow down the operation activity of the simple program.
 
@@ -61,24 +71,51 @@ Above explanation puts a clear picture how it would slow down the operation acti
 
 A better approach to the given statement would be to using fundamental principle of counting and simple math-theory on the elements and checking teh count of positive or negetive or zeros present in the array and hence proceeding with those use-cases and border-cases accordingly :
 
-#### For maximum product :
+### For maximum product :
 
-**Case 1:** If there are no negetive elements in the array then it is simply the product of all elements such that **array[index]>0**.
-Example:
-arr[] = {2,6,4,5} = (2x6x4x5) = 240
-**Case 2:** If there are some negetive elements in the array then we have some subcases to explore ahead :) 1. Say we have X negetive values present then if X is even then just blindly multiply them to the positive non zero values if any:
-Example : arr[] = {-2,-4,-1,-5,3,4,0} = 480 2. But say the frequencies of those X negetive values is odd then starts the real issue :)
-Example : arr[] = {-2,-1,-5,-3,-7,4,6} = Here we have to select the closet even number to the frequency of negetive values that have highest absolute value each, here it shall be -2,-3,-5,-7 as optimal choice hence -2x-3x-5x-7x4x6 = 5040
+`Case 1:`
 
-#### For minimum product :
+    If there are no negetive elements in the array then it is simply the product of all elements such that `array[index]>0`.
 
-**Case 1:** If there are no negetive elements in the array then it is simply printing the smallest element such that **array[index]>=0**.
-Example:
-arr[] = {2,6,4,5} = 2
-**Case 2:** If there are some negetive elements in the array then we have some subcases to explore ahead :) 1. Say we have X negetive values present then if X is odd then just blindly multiply them to the positive non zero values if any:
-Example : arr[] = {-2,-4,-1,-5,-3,4,0} = -480 2. But say the frequencies of those X negetive values is even then we have to select the closet even number to the frequency of negetive values that have highest absolute value each , Example : arr[] = {-2,-5,-3,-7,4,6} = Here , here it shall be -3,-5,-7 as optimal choice hence -3x-5x-7x4x6 = 2520
+    Example :  arr[] = {2,6,4,5} = (2x6x4x5) = 240
 
-## Implementation Of the Code in C++ 💡:
+`Case 2:`
+
+    If there are some negetive elements in the array then we have some subcases to explore ahead.
+
+    1.Say we have X negetive values present then if X is even then multiply them to the positive non zero values if any, consider this example for a better preview:
+
+    Example : arr[] = {-2,-4,-1,-5,3,4,0} = 480
+
+    2.  But say the frequencies of those X negetive values is odd then starts the real issue.
+
+        Example : arr[] = {-2,-1,-5,-3,-7,4,6} = 2x-3x-5x-7x4x6 = 5040
+
+        Here we have to select the closet even number to the frequency of negetive values that have highest absolute value each 
+        here -2,-3,-5,-7 shall be an optimal choice.
+
+### For minimum product :
+
+`Case 1:`
+
+    If there are no negetive elements in the array then it is simply printing the smallest element such that `array[index]>=0`, consider the following example .
+
+    Example : arr[] = {2,6,4,5} = 2
+
+`Case 2:`
+
+    If there are some negetive elements in the array then we have some subcases to explore ahead
+    1. Say we have X negetive values present then if X is odd then just blindly multiply them to the positive non zero values if any, consider the follwing example :
+
+    Example : arr[] = {-2,-4,-1,-5,-3,4,0} = -480.
+
+    2. But say the frequencies of those X negetive values is even then we have to select the closet even number to the frequency of negetive values that have highest absolute value each , consider the following example :
+
+    Example : arr[] = {-2,-5,-3,-7,4,6} = -3x-5x-7x4x6 = 2520.
+
+    Here , here -3,-5,-7 shall optimal choice.
+
+## Implementation Of the new approach Code in C++ 💡:
 
 ```c++
 //Function Takes in an array and its size as parameters
@@ -131,6 +168,12 @@ void maxmin_subset(int arr[], int n)
 }
 
 ```
-**⏰ Time Complexity: O(n)**
 
-**Space Complexity: O(1)**
+### Overall time and space complexities are as shown :
+
+
+`⏰ Time Complexity: O(n)`
+
+`Space Complexity: O(1)`
+
+So, using the above we can solve the above said problem statement much more efficiently.
