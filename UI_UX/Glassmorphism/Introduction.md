@@ -13,6 +13,7 @@ A background-blur is placed on the objects which allows the background to shine 
 1. Background blur
 2. Shadow
 3. Transparency
+![images](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_6Xe1bk5z5Bl7l1F1-NyTXK4ZiB5-fHSUZQ&usqp=CAU)
 ## How become popular?
 UI & UX designers tried to pay attention to the Glassmorphism UI as a modern style and a new trend when Apple brought this innovative design to life in **iOS 7**.
 Microsoft, also used this effect on Windows Vista in the name of **The Acrylic**.
@@ -26,7 +27,7 @@ Since then, Glassmorphism UI has been developed by a lot of new fonts, colors, a
 - Geometric elements
 - 3D designs
 - Light borders on the transparent images
-
+![images](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT515fj3-JPfS4QBJj7hKqgcl3eAexqkpboyQ&usqp=CAU)
 ## Steps to give life to your design using Glassmorphism:
 - Find the best vantage point on your website or app
 - Choose a light and colorful gradient for the background
@@ -34,3 +35,5 @@ Since then, Glassmorphism UI has been developed by a lot of new fonts, colors, a
 - Set the right transparency grade by using a common UI design tool like Figma
 - Add some fine borders to your design to give it dimensions
 - Add a shadow underneath to make it glass-like
+
+![images](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRc0qR1mPPOl90VG6_BOx8ughbbqic9uTJvQ&usqp=CAU)
