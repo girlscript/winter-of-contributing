@@ -27,7 +27,7 @@
 
 ##  Implementation 
 
-''' C++
+'''
  #include <bits/stdc++.h>
  using namespace std;
  bool check(string s1, string s2)
