@@ -145,7 +145,7 @@ Output:
   
 ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
   
-  ##**ii) Boxes**
+## **ii) Boxes**
 
 Every element is a box with some sort of content, and has a background and a border in addition to whatever contents the box may have.
 
@@ -183,7 +183,7 @@ Output:
   
 ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
   
-##**iii) Webpage Background**
+## **iii) Webpage Background**
 We can also set color changes to the entire background for the webpage.
 
 Eg.
@@ -217,7 +217,7 @@ Output:
   
 ![](images/Screenshot%202021-09-28%20072549.jpg " Picture")
   
-#5.How to make color gradients in CSS
+# 5.How to make color gradients in CSS
 
 CSS gradients let you display smooth transitions between two or more specified colors. Most of the time we use solid `background` colors to style our web application, using the `background` property. There is actually more to the `background` property, as it is a shorthand for many different properties including:
 
@@ -233,22 +233,22 @@ CSS gradients let you display smooth transitions between two or more specified c
 
 Here mainly we will be using “`background-image`" property. We usually use background-image property to accept a path to an image URL (`background-image`: url(url-to-image.png) in order to set the image as the element's background. But the background-property actually serves one additional use - we can define gradients, which are actually extremely useful effects. Let us see them in use.
 
-###_CSS defines two types of gradients:_
+### _CSS defines two types of gradients:_
 
 **•	Linear Gradients (goes down/up/left/right/diagonally)**
 
 
 **•	Radial Gradients (defined by their center)**
 
-##<u>CSS Linear Gradients:</u>
+## <u>CSS Linear Gradients:</u>
 
 To create a linear gradient, you must define at least two color stops. Color stops are the colors you want to render smooth transitions among. You can also set a starting point and a direction (or an angle) along with the gradient effect.
 
-###Syntax:
+### Syntax:
 
 _**background-image: linear-gradient(direction, color-stop1, color-stop2, ...);**_
 
-###**Direction - Top to Bottom (this is default)**
+### **Direction - Top to Bottom (this is default)**
 
 ```
 <!DOCTYPE html>
