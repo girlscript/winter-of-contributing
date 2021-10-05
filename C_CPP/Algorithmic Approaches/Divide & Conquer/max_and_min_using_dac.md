@@ -122,7 +122,8 @@ Analysis:
 
 Let T(n) be the number of comparisons made, where n is the number of comparisons then the recurrence relation is
 |   n         |    T(n)     |
-| ----------- | ----------- |
+| :---------: | :---------: |
+
 | 1           |     0       |
 | 2           |     1       |
 | >2          | 2T(n/2)+2   |
