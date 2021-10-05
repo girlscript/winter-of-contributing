@@ -1,4 +1,4 @@
-## What is Binary String?
+## What is Sub String?
 
 A substring is a smaller or equal part of a string.We might also refer it to be similar to a subset(here,substring) of a bigger set(here,string).
 
