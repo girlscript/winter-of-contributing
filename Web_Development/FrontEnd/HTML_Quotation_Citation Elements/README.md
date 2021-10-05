@@ -13,7 +13,8 @@ GWOC(GirlScript Winter of Contributing) etc.<br>
   <p>The <abbr title="United Nations">UN</abbr> aims to maintain International Peace.</p>
   ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output :**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](images/abbr.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![abbr](https://user-images.githubusercontent.com/34717612/136079448-37186934-1f47-407a-b616-3764354ff827.png)
+<br>
 ### 2. HTML \<q> tag<br>
 * This tag is used to insert quotation marks when required while writing some quotes.<br>
 * The \<q> tag should end with its respective closing tag\</q>.<br><br>
@@ -24,7 +25,8 @@ GWOC(GirlScript Winter of Contributing) etc.<br>
   which is a very correct statement!</p>
   ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output :**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](images/q.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![q](https://user-images.githubusercontent.com/34717612/136079888-ecf4cce9-c505-425c-8fe2-e5cb7b5a3781.png)
+<br>
 ### 3. HTML \<cite> tag<br>
 * As the name suggests the \<cite> tag is used to specify a citation.<br>
 * It provides reference/ title  to some unique work done.<br>
@@ -36,7 +38,8 @@ GWOC(GirlScript Winter of Contributing) etc.<br>
   <p><cite>The Maze Runner</cite> by James Dashner.</p>
   ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output :**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](images/cite.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![cite](https://user-images.githubusercontent.com/34717612/136079643-bf87f858-d04d-406d-8be1-7be337b706cf.png)
+<br>
 ### 4. HTML \<blockquote> tag<br>
 * This tag is used to highlight a quote taken from another source.<br>
 * It indents the text block that is written inside the tag.<br>
@@ -50,7 +53,8 @@ GWOC(GirlScript Winter of Contributing) etc.<br>
   </blockquote>
   ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output :**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](images/blockquote.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![blockquote](https://user-images.githubusercontent.com/34717612/136079694-4b97151f-b5bf-4a76-82d3-1b5e36c04992.png)
+<br>
 ### 5. HTML \<bdo> tag<br>
 * The \<bdo> tag stands for Bi-Directional Override.<br>
 * It is used to change the current direction of a text written inside the tag.<br>
@@ -65,7 +69,8 @@ GWOC(GirlScript Winter of Contributing) etc.<br>
   <bdo dir="rtl">Reverse the text in rtl(Right to left) direction!</bdo>
   ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output :**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](images/bdo.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![bdo](https://user-images.githubusercontent.com/34717612/136079760-b1c68b26-90f5-45c3-b6e6-2c09dd7b229f.png)
+<br>
 ### 6. HTML \<address> tag<br>
 * The \<address> tag as the name suggests is used when one wants to display any address or contact information in the document.<br>
 * The text written inside this tag is displayed in italics during the output.<br>
@@ -81,7 +86,8 @@ GWOC(GirlScript Winter of Contributing) etc.<br>
   </address>
   ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**Output :**<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](images/address.png)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![address](https://user-images.githubusercontent.com/34717612/136079796-b7dc192f-90b7-472f-8b05-ea97fb0297d1.png)
+<br>
 ## To Summarize:
 Some of the commonly used tags to represent quotation and cite text are:
 <br>
