@@ -16,7 +16,7 @@ This method of scheduling was used by Windows 3.x
 
 Here, the Cpu is allocated on first come first serve basis, i.e, the process that requests Cpu first is allocated the CPU first. It can be managed using a First-in First-out(FIFO) queue.
 
-## Code: [click here for code!](fcfs.cpp)
+## Code: [click here for code!](fcfs.md)
 
 ## OUTPUT:
 
@@ -76,7 +76,7 @@ Here, the Cpu is allocated on first come first serve basis, i.e, the process tha
 Here,the CPU is assigned to the process in the queue which has the shortest Burst Time. In case the Burst times of 2 processes are same, CPU is assigned to the processes that arrived first, i.e on first come first serve basis.
 It can be used for jobs running in batches such that their run times are known beforehand.
 
-## Code: [click here for code!](sjf.cpp)
+## Code: [click here for code!](sjf.md)
 
 ## OUTPUT:
 
@@ -117,7 +117,7 @@ Here, each process has a priority associated with it. The processes are schedule
 
     Note: There is no predefined rule if a lower number denotes higher or lower priority. It depends on the system. For ex- In some systems 0 denotes the highest priority while in some systems it may denote the lowest probability.
 
-## Code: [click here for code!](priority.cpp)
+## Code: [click here for code!](priority.md)
 
 ## OUTPUT:
 
