@@ -112,7 +112,7 @@ p{
 ### Output
 **On Desktop and Laptop Devices**
 
-![onDesktop&Laptops](https://mediaquery--samimunir2002.repl.co/onDesktops&Laptops.png)
+![onDesktop&Laptops](https://mediaquery.samimunir2002.repl.co/onDesktop&Laptop.png)
 
 **On Mobile Devices** 
 
