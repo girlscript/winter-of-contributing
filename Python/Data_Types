@@ -1,0 +1,125 @@
+Data Types are the classification or categorization of data items. 
+It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python programming, data types are actually classes and variables are instance (object) of these classes.
+
+<b>Python has six standard Data Types:-</b>
+Numeric
+String
+List
+Tuple
+Set
+Dictionary
+
+
+
+<ol>
+<li>Numeric</li>
+<p>In Python, numeric data type represents the data that has a numeric value. The numeric value can be an integer, floating number, or even complex number. These values are defined as int, float, and complex classes in Python.
+
+Integers – 
+This data type is represented with the help of int class. It consists of positive or negative whole numbers (without fraction or decimal). In Python, there’s no limit to how long integer values are often.
+
+example-:
+a = 2
+print(a, "is of type", type(a))
+Output: 2 is of type
+
+Float – 
+This type is represented by the float class. It is a true number with floating-point representation. It is specified by a decimal point. Optionally, the character e or E followed by a positive or negative integer could even be appended to specify scientific notation.
+
+example-:
+b = 1.5
+print(b, "is of type", type(b))
+Output: 1.5 is of type
+
+
+Complex Numbers – 
+Complex numbers are represented by complex classes. It is specified as (real part) + (imaginary part)j,
+example –: 4+5j.
+
+example-:
+c = 8+3j
+print(c, "is a type", type(c))
+Output: (8+3j) is a type
+</p>
+
+
+<li>String</li>
+<p> The string is a sequence of Unicode characters. A string may be a collection of 1 or more characters put during a quotation mark, double-quote, or triple quote. It can be represented using an str class.
+example-:
+string1=  “Hello World”
+print(string1)
+output: Hello World
+<br>
+<p>We can perform several operations in strings like Concatenation, Slicing, and Repetition.</p>
+<br>
+<b>Concatenation:</b>It includes the operation of joining two or more strings together.
+Example:-
+
+String1 = "Hello"
+String2 ="World"
+print(String1+String2)
+Output: Hello World
+
+<b>Slicing:</b> Slicing is a technique for extracting different parts of a string.
+Example:-
+
+String1 = "Hello"
+print(String1[2:4])
+Output: llo
+
+<b>Repetition:</b>It means repeating a sequence of instructions a certain number of times.
+
+Example:-
+
+Print(String1*5)
+Output: HelloHelloHelloHelloHello
+</p>
+
+
+
+<li>List Data Type:-</li>
+<p>A list is formed(or created) by placing all the items (elements) inside square brackets [ ], separated by commas.
+It can have any number of items and they may or may not be of different types (integer, float, string, etc.).
+A list is mutable, which suggests we will modify the list.</p>
+Example:
+
+List1 = [3,8,7.2,"Hello"]
+print("List1[2] = ", List[2])
+Output:  List1[2] = 7.2
+print("List1[1:3] = ", List[1:3])
+Output: List1[1:3] = [8, 7.2]
+
+<li>Tuple Data Type:-</li>
+<p>A tuple is defined as an ordered collection of Python objects. The only difference between tuple and list is that tuples are immutable i.e. tuples can’t be modified after it’s created. It is represented by tuple class. we can represent tuples using parentheses ( ).
+</p>
+Example:
+Tuple = (25,10,12.5,"Hello")
+print("Tuple[1] = ", Tuple[1])
+Output: Tuple[1] =  10
+print("Tuple[0:3] =", Tuple[0:3])
+Output: Tuple[0:3] =  (25,10,12.5)
+
+<li>Set</li>
+<p>A set is an unordered collection of items. Every set element is exclusive (no duplicates) and must be immutable (cannot be changed).</p>
+Example-:
+Set = {4,3,6.6,"Hello"}
+print(Set)
+Output: {‘Hello’, 3, 4, 6.6}
+As the set is an unordered collection, indexing will be meaningless. Hence the slicing operator [ ] doesn’t work.
+
+Set[1] = 12
+Output: TypeError
+
+<br>
+<li>Dictionary</li>
+<p>In Python, Dictionary is an unordered collection of data values, which is used to store data values like a map, which, unlike other Data Types that hold only a single value as an element, a Dictionary consists of key-value pair. Key-value is provided within the dictionary to form it more optimized. In the representation of a dictionary data type, each key-value pair during a Dictionary is separated by a colon: whereas each key’s separated by a ‘comma’.
+</p>
+Syntax:
+Key:value
+
+Example:
+
+Dict1 = {1:'Hello',2:5.5, 3:'World'}
+print(Dict1)
+Output: {1: ‘Hello’, 2: 5.5, 3: ‘World’}
+
