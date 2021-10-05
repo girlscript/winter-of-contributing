@@ -1,109 +1,155 @@
-# **JavaScript Async/Await**
+## Javascript Async And Await
 
-"**async and await** make **promises easier to write**"
+JavaScript is always synchronous and single-threaded that provides the event loops. The event loops enable us to queue up an activity. This activity will not happen until the loops become available after the program that queued the action has completed the execution. However, our program contains a large number of functionalities, which causes our code to be asynchronous. 
+The Async/Await functionality is one of them. Async/Await is an extension of promises that we get as language support.
 
-**async** makes a **function return a Promise**
+**Async**
 
-**await** makes a **function wait for a Promise**
+An Async function is a function declared with the **Async** keyword which means it will run in the background while performing the code inside when the function is done, it automatically returns a promise.
+Async function always returns a Promise.
 
-## **Async Syntax**
-The keyword async before a function makes the function return a promise:
+**Syntax**
 
-**For Example**
-```js
-async function myFunction() {
-  return "Hello";
-}
-```
+````js
+ async function printHelloWorld(){
+        return "Hello World !!!";
+ }
+ console.log(printHelloWorld());
+ ````
+ Output-
+````js
+Promise {<fulfilled>: 'Hello World !!!'}
+[[Prototype]]: Promise
+[[PromiseState]]: "fulfilled"
+[[PromiseResult]]: "Hello World !!!"
+````
 
-Is the same as:
-```js
+Here "Hello World !!!" act as a fulfilled value of promise.
 
-async function myFunction() {
-  return Promise.resolve("Hello");
-}
-```
-Here is how to use the Promise:
-```js
-myFunction().then(
-  function(value) { /* code if successful */ },
-  function(error) { /* code if some error */ }
-);
-```
+**Await**
 
-**For Example**
-```js
-async function myFunction() {
-  return "Hello";
-}
-myFunction().then(
-  function(value) {myDisplayer(value);},
-  function(error) {myDisplayer(error);}
-);
-```
+JavaScript Await function is used to wait for the promise. It stops the execution of the function at this time until the promise is fulfilled.
 
-Or simpler, since you expect a normal value (a normal response, not an error):
+````js
+async function xyz(){
+                return "GirlScript";
+            }
+            async function printHelloWorld(){
+                let s;
+                await xyz().then(value=>s = value);
+                return `Hello ${s}!!!`;
+            }
+            printHelloWorld().then(value => console.log(value));
+````
 
-**For Example**
-```js
-async function myFunction() {
-  return "Hello";
-}
-myFunction().then(
-  function(value) {myDisplayer(value);}
-);
-```
+Output- 
 
-## **Await Syntax**
-The keyword await before a function makes the function wait for a promise:
+````
+Hello GirlScript!!!
+````
 
-``let value`` = await promise;
+Example-
+````js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aync And Await Tutorial</title>
+</head>
+<body>
+    <h1></h1>
+    <h2></h2>
+    <script>
+            async function xyz(){
+                const heading = document.querySelector('h1').textContent = "Hey Everyone Welcome to this tutorial";
+                return "GirlScript";
+            }
+            async function printHelloWorld(){
+                let s;
+                await xyz().then(value=>s = value);
+                const heading = document.querySelector('h2').textContent = "Hope You are enjoying";
+                return `Hello ${s}!!!`;
+            }
+            printHelloWorld().then(value => console.log(value));
+    </script>
+</body>
+</html>
+````
 
-The **await keyword** can only be used inside an async function.
+Output-
 
-**For Example**
+<img src="https://github.com/7sakshi7/winter-of-contributing/blob/Javascript/JavaScript/Topics/Aync%20And%20Await/Example.png" alt="Output" /> 
 
-Let's go slowly and learn how to use it.
+## Error Handling
+If error occurs in function of try and catch, adding catch handler won't work. Even tou tere was an error ten also async function will return fulfill values.
 
-Basic Syntax
-```js
-async function myDisplay() {
-  let myPromise = new Promise(function(myResolve, myReject) {
-    myResolve("I love You !!");
-  });
-  document.getElementById("demo").innerHTML = await myPromise;
-}
+````js
+async function Demo(){
+            try{
+                const res = await tryDemo();
+                console.log(res);
+            }
+            catch(err){
+                console.log(err);
+            }
+        } 
+        Demo();
+ ````
+ 
+ Output-
+ 
+ ````
+ ReferenceError: tryDemo is not defined
+    at Demo
+````
 
-myDisplay();
-```
 
-Waiting for a Timeout
-```js
-async function myDisplay() {
-  let myPromise = new Promise(function(myResolve, myReject) {
-    setTimeout(function() { myResolve("I love You !!"); }, 3000);
-  });
-  document.getElementById("demo").innerHTML = await myPromise;
-}
+**To Solve it throw the error again**
 
-myDisplay();
-```
+````js
+async function Demo(){
+            try{
+                const res = await tryDemo();
+                console.log(res);
+            }
+            catch(err){
+                throw err;
+            }
+        } 
+        Demo();
+ ````
 
-Waiting for a File
-```js
-async function getFile() {
-  let myPromis Promise(function(myResolve, myReject) {
-    let req = new XMLHttpRequest();
-    req.open('GET', "mycar.html");
-    req.onload = function() {
-      if (req.status == 200) {myResolve(req.response);}
-      else {myResolve("File not Found");}
-    };
-    req.send();
-  });
-  document.getElementById("demo").innerHTML = await myPromise;
-}
+<img src="https://github.com/7sakshi7/winter-of-contributing/blob/Javascript/JavaScript/Topics/Aync%20And%20Await/Aync%20And%20Await%20Tutorial%20-%20Google%20Chrome%209_26_2021%206_23_23%20PM%20(2).png" alt="Output" /> 
 
-getFile();
-```
-__Contributor :__ [Damini Mehra](https://github.com/daminimehra) :heart:
+## Multiple await in single async function
+
+````js
+  let counter=0;
+        async function Hello(){
+            counter++;
+            return `Hello ${counter}`;
+        }
+        async function multipleAwaits(){
+            const res1 = await Hello().then(value => {return value});
+            const res2 = await Hello().then(value => {return value});
+            const res3 = await Hello().then(value => {return value});
+
+            return `${res1} ${res2} ${res3}`;
+        }
+      multipleAwaits().then(value => console.log(value));
+````
+
+Output-
+
+````
+Hello 1 Hello 2 Hello 3
+````
+
+
+Contributor: [Sakshi Agarwal](https://github.com/7sakshi7)
+
+
+
+ 
