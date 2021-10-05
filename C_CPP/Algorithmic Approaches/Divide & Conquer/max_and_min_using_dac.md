@@ -36,7 +36,8 @@ Algorithm Naive_max_min(int arr[],int n,&max,&min){
     }
 }
 ```
-Analysis:
+#### Analysis:
+
 
 The for loop iterates n-1 times and in each iteration, two comparisons are made to find max and min elements. Therefore, number of comparisons made is 2n-2.
 
