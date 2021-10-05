@@ -57,11 +57,13 @@ void getsubsets(vector<int> &arr, vector<vector<int>> &temp_container, vector<in
 
     - Considering the size of the given array which also increases the time taken.
 
-    - Use of another vector in between the code. 
+    - Use of another vector in between the code.
+
+    - With each subset of size say `i` getting called exactly equal to the number of elements in it thats comes out to be Summation of (i*nCi) = n*2^(n-1) 
 
 ### These parts increase both the time & space complexity of the whole program overall as :
 
-- `⏰ Time Complexity : O(2^n)`
+- `⏰ Time Complexity : O(n*2^(n-1))`
 
 - ` Space Complexity : O(n)`
 
