@@ -1,4 +1,4 @@
-#   
+# Data Science with Python : Elbow Method In KMeans Clustering 
 
 
 ##### Format : Documentation
@@ -7,7 +7,7 @@
 
   
 ### 🔗 IMPORTANT LINKS 
-#### Documentation: [![Documentation](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)]
+#### Documentation: [![Documentation](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/elbow_method.ipynb)
 
 
 
@@ -60,8 +60,10 @@ df.head()
 
 
 
-<img src=''>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/head.PNG'>
 
+
+---
 
 ### Printing the last five rows of dataset
 
@@ -71,22 +73,38 @@ tail() method is used to display last five rows
 df.tail()
 ```
 
-<img src=''>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/tail.PNG'>
 
+
+---
 
 ### info()
 
 info() display concise summary of the dataset
 
-<img src=''>
+```
+# Printing concise summary of a DataFrame
+df.info()
+```
+
+
+
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/info.PNG'>
 
 ---
 
 
 
 ### describe()
+
+
+```
+# Printing some basic statistical details like percentile, mean, std etc
+df.describe()
+```
+
 describe() is used to view some basic statistical details like percentile, mean, std etc. of a data frame or a series of numeric values
-<img src=''>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/describe.PNG'>
 
 ---
 
@@ -98,9 +116,33 @@ describe() is used to view some basic statistical details like percentile, mean,
 Elbow method allows to choose optimal number of clusters for K-means Algorithm.The way to evaluate the choice of K is made using a parameter known as WCSS. WCSS stands for Within Cluster Sum of Squares.The Elbow Method is then used to choose the best K value. In the depiction below we can see that after 3 there's no significant decrease in WCSS so 3 is the best here.
 So the value of k is 3 which is the optimal number of clusters.
 
-<img src=''>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/em1.PNG'>
+
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/em2.PNG'>
+
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/em3.PNG'>
+
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/em4.PNG'>
+
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/em5.PNG'>
 
 
+---
 
 # Visualization Of Clusters
-<img src=''>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Elbow%20Method%20using%20KMeans%20Clustering/Images/plot.PNG'>
+
+
+
+---
+
+# End Note 
+KMeans is one of the most popular algorithm in the world of unsupervised learning. Hope this documentation helps you to understand the concept of elbow method in Kmeans and how to choose the optimal number of clusters by reading the plot.
+
+---
+
+## Contributor
+- ID : 253
+- DSWP BATCH : 8
+- [@Ayushi Jindal](https://github.com/ayushijindal)
+
