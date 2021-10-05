@@ -111,12 +111,10 @@ This produces an output as follows:
 
 ![alt text](assets/dl.jpg)
 
-## Styles of these Lists
-
+## Styles of HTML Lists
 **Style of Unordered list:** <br>
 By default, we can see that the unordered list has a bullet point style. However, there are other styles as well, such as disc, square, circle etc. For choosing any one of these styles, all we need to do is add type="list style" in the &lt;ul&gt;, like this:
 <br> &lt;ul type="square"&gt;.
-
 Different styles present: 
 - Square
 - Circle
