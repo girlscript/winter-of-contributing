@@ -1,7 +1,7 @@
 # Domain Name Basics
 
 
-![](C:\Users\user\winter-of-contributing\Web_Development\FrontEnd\Domain Name Basics\d1.gif)
+![](d1.gif)
 
 ## ***📌What is a domain name / domain?***
 
