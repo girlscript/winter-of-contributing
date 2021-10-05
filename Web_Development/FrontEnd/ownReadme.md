@@ -186,7 +186,6 @@ The form is divided in to sections called:-
 
 <hr>
 
-
 **Which basically looks like this :-**
 <br>
 
