@@ -19,8 +19,8 @@ The overloaded functions are invoked by matching the type and number of argument
   * **Function Overloading**
   When there are multiple functions with same name but different parameters then these functions are said to be overloaded.
 
-    **Example** :-
-    //C++ program of Function Overloading
+    ***Example*** :-
+    
 ```cpp
     #include <bits/stdc++.h>
 using namespace std;
@@ -69,7 +69,6 @@ class Test
 
     ***Example*** :-
     
-    //C++ Program for Operator Overloading
   ```cpp
   #include <iostream>  
 using namespace std;  
