@@ -2,7 +2,7 @@
 <p>A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an element:</p>
 <h3>Basic Tooltip</h3>
 
-...
+...css
 <style>
 /* Tooltip container */
 .tooltip {
