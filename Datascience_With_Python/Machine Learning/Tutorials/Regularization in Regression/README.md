@@ -7,11 +7,14 @@
 
 In mathematics, statistics, finance, computer science, particularly in machine learning and inverse problems, regularization is the process of adding information in order to solve an ill-posed problem or to prevent overfitting.
 
-## **Explanation**
+## **Purpose**
 
 **Why do we need Regularization ?**
 
 Regularization is used in machine learning models to cope with the problem of overfitting i.e. when the difference between training error and the test error is too high.
+
+## **Explanation**
+
 
 **Regularization in Regression**
 There are mainly two types of regularization techniques:
@@ -22,8 +25,11 @@ There are mainly two types of regularization techniques:
 
 **Lasso Regression**
 A regression model which uses L1 Regularization technique is called LASSO(Least Absolute Shrinkage and Selection Operator) regression.
+
 **Ridge Regression**
 A regression model that uses L2 regularization technique is called Ridge regression. 
+
+
 Lasso Regression adds “absolute value of magnitude” of coefficient as penalty term to the loss function(L)
 
 
@@ -31,7 +37,7 @@ Lasso Regression adds “absolute value of magnitude” of coefficient as penalt
 
 ## **Visual Representation**
 
-![]()
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Regularization%20in%20Regression/Images/rr1.jpg)
 
 ## **Libraries Used**
 
