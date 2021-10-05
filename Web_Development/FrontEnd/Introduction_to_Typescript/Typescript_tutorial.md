@@ -5,7 +5,8 @@
 <ul>
 <li> npm install -g typescript
 <li> Your file should be XYZ.<b>ts</b> (ts-> typescript extension)
-<li> <b>tsc XYZ.ts</b> to run your file. It will automatically create a javascript file XYZ.js which can be render by browser as browser doesn't render TypeScript file.
+<li> <b>tsc XYZ.ts</b> to run your file. It will automatically create a javascript file XYZ.js which can be render by browser as browser doesn't render TypeScript file.You can google definetly if have any issue.
+
 </ul>
 </p>
 
