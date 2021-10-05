@@ -1,10 +1,12 @@
-
-//time cpmplexity =o(n)
-// space complexity=0(1)
+                                                  **  LOOT HOUSE PROBLEM UISNG DYNAMIC PROGRAMMING:**
+                                                    
+//time cpmplexity =O(n)
+// space complexity=O(1)
 
 BOTTOM_UP APPROACH:
 
 #include<bits/stdc++.h>
+
 using namespace std;
     int find(int arr[],int n){
     if(n==0) return 0;
@@ -28,6 +30,7 @@ int main(){
 int n; // total number of house
     cin>>n;
     int a[n];
+    
     for(int i=0;i<n;i++){  // amount of money in every ith house
         cin>>a[i];
       
