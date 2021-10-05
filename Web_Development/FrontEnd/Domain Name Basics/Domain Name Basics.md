@@ -1,7 +1,7 @@
 # Domain Name Basics
 
 
-<image src="https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d1.gif" width=100% />
+![]("https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d1.gif?raw=true")
 
 ## ***📌What is a domain name / domain?***
 
@@ -53,7 +53,7 @@ Domain names provide the users with a memorable short name. While users enter we
 <br><br>
 One can relate to the ***namimg hierarchy*** as show in the image :
 
-<image src="https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d5.PNG">
+![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d5.PNG?raw=true)
  
 <hr>
 
@@ -117,13 +117,13 @@ It is a standard, global system for translating IP addresses to human-readable d
 A component called a ***DNS Resolver*** is responsible for checking if the hostname is available in local cache, and if not, contacts a series of DNS Name Servers, until eventually it receives the IP of the service the client is trying to access, and returns it to the browser or application. This process usually takes less than a second.
 <br><br>
 
-<img src="https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d6.PNG" width=100% />
+![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d6.PNG?raw=true)
  
 <br>
 This system is essentially like the “phone book” of the Web that organizes and identifies domains. While a phone book translates a name like "Peter Parker" into the correct phone number to call, the DNS maps and translates a web address like "www.google.com" into the physical IP address—such as "74.125.19.147" that is of the computer hosting that site .
 <br> <br> <br>
 
-<image src="https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d3.jpg" width=100% />
+![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d3.jpg?raw=true)
 
 ### ***Some terminologies:***
 - *Domain host:* 
@@ -174,7 +174,7 @@ There are 13 root servers worldwide, indicated by the letters A through M, maint
 The Authoritative Name Server is the last stop in the name server query. It takes the hostname and returns the correct IP address to the DNS Resolver or if it cannot find the domain, returns the message NXDOMAIN.
 <br>
  
-![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d4.png)
+![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d4.png?raw=true)
 
 ## ***Types of DNS Records***
 
@@ -231,7 +231,7 @@ The domain name is one of the pieces inside a URL and most easily recognized par
  
 To summarize, the domain name is a part of the URL, which points to the associated IP address. <br><br>
 
-![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d2.jpg)
+![](https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d2.jpg?raw=true)
  
 ***A popular analogy can be : “People find web pages in a manner similar to the way that they use maps to find physical locations. If the Internet is like a phone book, and a web page is like a physical building, the URL would be the precise street address of that building. The IP address would be like the car that travels to its destination.”***
  
