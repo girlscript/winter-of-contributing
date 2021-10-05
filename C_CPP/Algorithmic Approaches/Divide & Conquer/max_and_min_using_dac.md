@@ -12,7 +12,8 @@ In the divide and conquer algorithm, we
 
 Finding a maximum and minimum element of an array
 
-solution:
+Solution:
+
 
 To find maximum and minimum numbers in a given array (arr[]) of size n, the following algorithm can be used.
 
