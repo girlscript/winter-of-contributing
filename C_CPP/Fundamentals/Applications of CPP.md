@@ -30,7 +30,7 @@ Gaming involves lots of resource-intensive functions, whether it’s generating 
 # **IoT Devices**
 IoT (Internet of Things) devices include embedded systems which mostly rely on CPP. Some examples of these devices are appliances, IoT enabled cars, smartwatches, smart TVs, and medical devices. 
 
-Here, I have listed a few real world applications of CPP primarily focussing on young developers. Apart from these CPP is also used in Movie production, Graphic designing, Medical technology, aeroplane softwares, AR/VR, machine lerning etc and therefore it is adequate to say that CPP is and will be one of the most important languages to learn in the coming years.
+Here, I have listed a few real world applications of CPP primarily focussing on young developers. Apart from these CPP is also used in Movie production, Graphic designing, Medical technology, aeroplane softwares, AR/VR, machine learning etc, and therefore it is adequate to say that CPP is and will be one of the most important languages to learn in the coming years.
 
 
 
