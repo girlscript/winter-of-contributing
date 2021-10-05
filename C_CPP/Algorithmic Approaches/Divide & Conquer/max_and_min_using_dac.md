@@ -1,4 +1,5 @@
-### Finding a maximum and minimum element of an array using the divide and conquer algorithm.
+## Finding a maximum and minimum element of an array using the divide and conquer algorithm.
+
 ---
 ### Divide and Conquer algorithm
 
