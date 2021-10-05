@@ -1,5 +1,5 @@
 # Algorithms
-
+- [Searching Algorithm](./Searching_Techniques.md)
 - [Sorting Algorithm](./Sorting)
 - [Brute Force Algorithm](./Brute%20Force)
 - [Recursive Algorithm](./Recursive)

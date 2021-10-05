@@ -94,10 +94,12 @@
     - [Suffix Tree](#)
   
 - ### [Operating System Concepts](Operating%20System%20Concepts/)
-  - [Scheduling Algorithms](#)
+  - [Introduction to Operating System](./Operating%20System%20Concepts/Introduction_to_OS)
+  - [Scheduling Algorithms](./Operating%20System%20Concepts/)
   - [Memory Management](#)
   - [Deadlock](#)
   - [File Management](#)
+  
 
 - ### [Competitive Programming](Competitive%20Programming/)
 
@@ -119,6 +121,8 @@
 - ### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
 
 - ### [Juice Framework with C++](Juice%20Framework%20with%20C%2B%2B/)
+
+- ### [Game Development](./Game%20Development/)
 
 - ### [C++ 14](C%2B%2B%2014/)
 
