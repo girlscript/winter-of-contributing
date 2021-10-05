@@ -7,7 +7,7 @@ EXAMPLE-
 Input  = {12, 34, 45, 9, 8, 90, 3} <br/>
 Output = {12, 34, 8, 90, 45, 9, 3} <br/>
 
-
+<hr/>
 ALGORITHM-  <br/>
 
 1-Initialize two index variables left and right:  <br/>
@@ -15,7 +15,7 @@ ALGORITHM-  <br/>
 2-Keep incrementing left index until we see an even number.<br/>
 3-Keep decrementing right index until we see an odd number.<br/>
 4-If left < right then swap arr[left] and arr[right].<br/>
-
+<hr/>
 IMPLEMENTATION--  <br/>
 
  C++ program to segregate even and odd elements of array <br/><hr/>
@@ -48,7 +48,7 @@ void segregateEvenOdd(int arr[], int size)
  
         if (left < right)
         {
-            /* Swap arr[left] and arr[right]*/
+            
             swap(&arr[left], &arr[right]);
             left++;
             right--;
@@ -59,13 +59,13 @@ void segregateEvenOdd(int arr[], int size)
 
  
 
-int main()
-{
-    int arr[] = {12, 34, 45, 9, 8, 90, 3};
-    int arr_size = sizeof(arr)/sizeof(arr[0]);
-    int i = 0;
+int main()   <br/>
+{    <br/>
+    int arr[] = {12, 34, 45, 9, 8, 90, 3};  <br/>
+    int arr_size = sizeof(arr)/sizeof(arr[0]);   <br/>
+    int i = 0;        <br/>
  
-    segregateEvenOdd(arr, arr_size);
+    segregateEvenOdd(arr, arr_size); 
  
     cout <<"Array after segregation ";
     for (i = 0; i < arr_size; i++)
@@ -74,9 +74,9 @@ int main()
     return 0;
 }
 
-
+<hr/>
 
 OUTPUT-  <br/>
             Array after Segregation 12 34 90 8 9 45 3     <br/>
-
+<hr/>
 TIME COMPLEXITY- O(n)     <br/>
