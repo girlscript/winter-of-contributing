@@ -79,7 +79,7 @@ my-div{
 }
 ```
 
-width = 300–40(padding-right and padding-left)–10(border-right and border-left) or we can also use the CSSS calc function.
+> width = 300–40(padding-right and padding-left)–10(border-right and border-left) or we can also use the CSSS calc function.
 
 This is not a good practice as it doesn’t make it very obvious when we see that the both the width differ : assigned width is 250px, while the rendered width is 300px. Here it confuses the programmer and it arouses the need for applying the box-sizing property to an element.
 
