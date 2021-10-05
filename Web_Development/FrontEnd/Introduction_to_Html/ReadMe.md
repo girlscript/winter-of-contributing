@@ -80,9 +80,8 @@ The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML doc
 A browser does not display the HTML tags, but uses them to determine how to display the document:
 
 <br>
-<img src="https://docs.microsoft.com/en-us/visualstudio/ide/media/vs-2019/
-csharp-aspnet-index-page-hello-world.png?view=vs-2019" width="500px"><img>
-<hr>
+
+![hello-world](hello-world.png)
 <br>
 
 ## HTML Page Structure :-
@@ -99,3 +98,67 @@ csharp-aspnet-index-page-hello-world.png?view=vs-2019" width="500px"><img>
     In the late 1980's , a physicist, Tim Berners-Lee who was a contractor at CERN, proposed a system for CERN researchers. In 1989, he wrote a memo proposing an internet based hypertext system.
 
     Tim Berners-Lee is known as the father of HTML. The first available description of HTML was a document called "HTML Tags" proposed by Tim in late 1991. The latest version of HTML is HTML5, which we will learn later in this tutorial.
+
+---
+
+## Features Of HTML :-
+
+<br>
+
+    HTML is one of the most commonly used language to write web pages. HTML comes with some advantages like:
+
+<br>
+
+- It is the language which is easily understandable
+- It provides the user to design web pages along with some texts
+- Links can also be added to the web pages so it helps the readers to browse the information of their interest
+- Some graphics, video and sounds can also be added to the web pages which gives the web page an extra attractive look.
+- HTML documents can be displayed on any platform like Windows, Mac or Linux.
+
+---
+
+## Why should you learn HTML :-
+
+<br>
+
+    Both HTML and CSS are frequently used languages for web development as indicated in this chart.
+
+<br>
+
+<img src="https://codeclan.com/wp-content/uploads/2020/09/Screenshot-2020-09-18-at-14.53.38-1024x327.png" width="500px"> 
+<hr>
+
+<br>
+
+- Used across Industries
+- Easy to understand
+- Require less time than other languages to learn
+- Gives you confidence
+- Stand out from the crowd
+
+---
+
+## HTML Editors :-
+
+<br>
+
+- Visual Studio Code -> https://code.visualstudio.com/
+- Visual Studio -> https://visualstudio.microsoft.com/
+- Sublime Text -> https://www.sublimetext.com/
+- Notepad++ -> https://notepad-plus-plus.org/
+- Eclipse -> https://www.eclipse.org/
+- Atom -> https://atom.io/
+
+---
+
+## Comments in HTML :-
+
+<br>
+
+    We can also add comments to the HTML Document. The HTML comment begins with **<--** and the comment closes with **-->**. The HTML comment will be visible to anyone whosoever views the page source code and the comment is not rendered when the HTML document is rendered to the browser.
+<br>
+
+![comments](comment.png)
+
+---
+
