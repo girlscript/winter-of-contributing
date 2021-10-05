@@ -10,9 +10,9 @@ In this audio the given topics are covered:
 * K- means Clustering
 * K-medoid Clustering
 * Hierarchical Clustering
-* K-means Vs K-medoids Clustering
+* K-means Vs K-medoid Clustering
 * K-means Vs Hierarchical Clustering
-* Plotting and Visualization code snippts of these 3 clustering
+* Plotting and Visualization code snippets of these 3 clustering techniques
 
 ## **Audio Link:Click on the image**
 
