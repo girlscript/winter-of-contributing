@@ -1,0 +1,10 @@
+## What is Binary String?
+
+A substring is a smaller or equal part of a string.We might also refer it to be similar to a subset(here,substring) of a bigger set(here,string).
+
+Let us learn about Substrings through this video.Happy Learning:)
+
+## Link for the Video:
+
+Here is the link to the video
+<a href="https://youtu.be/Hy4-iR2upu4">https://youtu.be/Hy4-iR2upu4</a>
