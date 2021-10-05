@@ -19,7 +19,7 @@
 <h3><b>How to choose a background in glassmorphism?</b></h3>
 <p> The four main properties are transparency, multi-layer, vivid colours, sutle borders. </p> 
 <p><b> How to set the right transparency? </b></p><p> Here are some steps. Don't make the entire shape transparent, just make the fils transparent. Lowering the object transparency will simply disable the background blur.</p>
-<img width="400"  src="https://user-images.githubusercontent.com/75171535/135755241-97cdcea3-a38b-4ce8-8808-b15ecd48db94.png">
+<img width="400" title="Bending" src="https://user-images.githubusercontent.com/75171535/135755241-97cdcea3-a38b-4ce8-8808-b15ecd48db94.png">
 
 <p><b>How to choose the right background?</b> </p><p>Backgrounds play a vital role to make glassmorphism effect shine better. They can’t be too simple or dull, or the effect won’t be visible. They also can’t be too detailed. When picking the background make sure it has enough tonal difference for the glass effect to actually be visible.</p>
  <img width="400" src="https://user-images.githubusercontent.com/75171535/135754964-5e4cf0a3-3e46-442d-9f33-1a0e72fdcde4.jpg">
