@@ -14,7 +14,58 @@ There are two ways to create string in Java:
     2. Using new keyword
 
       String s = new String ("Winter-of-contributing”);
+      
+      
+### 1. String Literal
 
+Java String literal is created by using double quotes. For Example:
+
+    String s="welcome";  
+
+
+Each time you create a string literal, the JVM checks the "string constant pool" first. If the string already exists in the pool, a reference to the pooled instance is returned. If the string doesn't exist in the pool, a new string instance is created and placed in the pool. For example:
+
+    String s1="Welcome";  
+    String s2="Welcome";//It doesn't create a new instance  
+
+![image](https://user-images.githubusercontent.com/66105257/135964046-6ea241b2-5ce7-43e0-8532-5803ef910d05.png)
+
+In the above example, only one object will be created. Firstly, JVM will not find any string object with the value "Welcome" in string constant pool that is why it will create a new object. After that it will find the string with the value "Welcome" in the pool, it will not create a new object but will return the reference to the same instance.
+
+### 2. Using new keyword
+
+    String s=new String("Welcome");//creates two objects and one reference variable  
+    
+In such case, JVM
+will create a new string object in normal (non-pool) heap memory, and the literal "Welcome" will be placed in the string constant pool. The variable s will refer to the object in a heap (non-pool).
+
+Let's see Java String example..!!
+
+    public class StringExample{    
+        public static void main(String args[]){    
+            String s1="GirlScript";//creating string by Java string literal    
+            char ch[]={'w','i','n','t','e','r'};    
+            String s2=new String(ch);//converting char array to string    
+            String s3=new String("of contributing");//creating Java string by new keyword    
+            System.out.println(s1);    
+            System.out.println(s2);    
+            System.out.println(s3);    
+        }
+    }  
+    
+    Output:
+    
+    GirlScript
+    winter
+    of contributing
+    
+Java String class provides a lot of methods to perform operations on strings such as compare(), concat(), equals(), split(), length(), replace(), compareTo(), intern(), substring() etc.
+
+The java.lang.String class implements Serializable, Comparable and CharSequence interfaces
+
+![image](https://user-images.githubusercontent.com/66105257/135965564-d4fbffb8-c0fb-48b1-a5d5-409918031490.png)
+
+    
 The String class represents character strings. All string literals in Java programs, such as "abc", are implemented as instances of this class.
 
 Strings are constant; their values cannot be changed after they are created. String buffers support mutable strings. Because String objects are immutable they can be shared. For example:
@@ -85,3 +136,19 @@ StringBuilder(): It creates an empty String Builder with the initial capacity of
 StringBuilder(String str): It creates a String Builder with the specified string.
 
 StringBuilder(int length): It creates an empty String Builder with the specified capacity as length.
+
+### CharSequence Interface
+
+The CharSequence interface is used to represent the sequence of characters. String, StringBuffer and StringBuilder classes implement it. It means, we can create strings in Java by using these three classes.
+
+![image](https://user-images.githubusercontent.com/66105257/135962866-b2aa89ac-d8ba-4f7a-9731-101caf142075.png)
+
+The Java String is immutable which means it cannot be changed. Whenever we change any string, a new instance is created. For mutable strings, you can use StringBuffer and StringBuilder classes.
+
+
+
+References:
+
+    1. https://docs.oracle.com/javase/7/docs/api/java/lang/String.html
+    
+    2. https://www.geeksforgeeks.org/strings-in-java/#:~:text=Strings%20in%20Java%20are%20Objects,entirely%20new%20String%20is%20created
