@@ -94,7 +94,8 @@
     - [Suffix Tree](#)
   
 - ### [Operating System Concepts](Operating%20System%20Concepts/)
-  - [Scheduling Algorithms](./Operating%20System%20Concepts)
+  - [Introduction to Operating System](./Operating%20System%20Concepts/Introduction_to_OS)
+  - [Scheduling Algorithms](./Operating%20System%20Concepts/)
   - [Memory Management](#)
   - [Deadlock](#)
   - [File Management](#)
