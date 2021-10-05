@@ -53,7 +53,7 @@ Domain names provide the users with a memorable short name. While users enter we
 <br><br>
 One can relate to the ***namimg hierarchy*** as show in the image :
 
-![](/images\d5.PNG)
+![d5](https://user-images.githubusercontent.com/78808336/136087768-4aba8d7d-0be5-49a1-a702-fb211532a539.PNG)
  
 <hr>
 
@@ -117,13 +117,14 @@ It is a standard, global system for translating IP addresses to human-readable d
 A component called a ***DNS Resolver*** is responsible for checking if the hostname is available in local cache, and if not, contacts a series of DNS Name Servers, until eventually it receives the IP of the service the client is trying to access, and returns it to the browser or application. This process usually takes less than a second.
 <br><br>
 
-![](/images\d6.PNG)
+![d6](https://user-images.githubusercontent.com/78808336/136087775-7add390f-a8c5-4714-a9ae-187691395a6f.PNG)
+
  
 <br>
 This system is essentially like the “phone book” of the Web that organizes and identifies domains. While a phone book translates a name like "Peter Parker" into the correct phone number to call, the DNS maps and translates a web address like "www.google.com" into the physical IP address—such as "74.125.19.147" that is of the computer hosting that site .
 <br> <br> <br>
 
-![](/images\d3.jpg)
+![d3](https://user-images.githubusercontent.com/78808336/136087254-1bbb37f5-9807-4b65-b2d2-4197370060f9.jpg)
 
 ### ***Some terminologies:***
 - *Domain host:* 
@@ -174,7 +175,7 @@ There are 13 root servers worldwide, indicated by the letters A through M, maint
 The Authoritative Name Server is the last stop in the name server query. It takes the hostname and returns the correct IP address to the DNS Resolver or if it cannot find the domain, returns the message NXDOMAIN.
 <br>
  
-![](/images\d4.png)
+![d4](https://user-images.githubusercontent.com/78808336/136087481-3497ffb0-b463-4503-ad28-a8a3ee68925e.png)
 
 ## ***Types of DNS Records***
 
@@ -231,7 +232,8 @@ The domain name is one of the pieces inside a URL and most easily recognized par
  
 To summarize, the domain name is a part of the URL, which points to the associated IP address. <br><br>
 
-![2](/images\d2.jpg)
+## ***Types of DNS Records***![d2](https://user-images.githubusercontent.com/78808336/136086799-834c2355-b84b-431c-8cb1-2e09abf19010.jpg)
+
  
 ***A popular analogy can be : “People find web pages in a manner similar to the way that they use maps to find physical locations. If the Internet is like a phone book, and a web page is like a physical building, the URL would be the precise street address of that building. The IP address would be like the car that travels to its destination.”***
  
