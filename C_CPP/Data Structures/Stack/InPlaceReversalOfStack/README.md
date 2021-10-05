@@ -83,4 +83,4 @@ Fifth Call : return
 
 <br>
 
-![Output](Images/ReversedStackScreenshot.png "Output")
+![image](https://user-images.githubusercontent.com/63473496/136093436-75169d3f-65e9-4c10-8504-3321309e6c66.png)
