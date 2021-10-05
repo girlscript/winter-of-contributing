@@ -64,9 +64,6 @@ Fixes #issue_number_here
 
 <hr>
 
-<!----Please delete the hashtag from the correct option----->
-### This is also a contribution towards Hacktober#Fest
-
 <!----Please delete options that are not relevant.----->
 
 ## Screenshots / Gif (Optional) 📸
