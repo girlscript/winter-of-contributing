@@ -103,10 +103,10 @@ const App = () => {
        </div>
    );
 }
-```html
+```
 The above will render:
 
-```
+```html
 <div>
     <div>Section 1<span>(first)</span></div>
     <div>Section 2</div>
