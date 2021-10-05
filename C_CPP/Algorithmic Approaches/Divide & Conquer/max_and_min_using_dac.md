@@ -1,4 +1,4 @@
-## Finding a maximum and minimum element of an array using the divide and conquer algorithm.
+### Finding a maximum and minimum element of an array using the divide and conquer algorithm.
 
 ---
 ### Divide and Conquer algorithm
@@ -129,7 +129,6 @@ Minimum element is: -34
 Let T(n) be the number of comparisons made, where n is the number of comparisons then the recurrence relation is
 |   n         |    T(n)     |
 | :---------: | :---------: |
-
 | 1           |     0       |
 | 2           |     1       |
 | >2          | 2T(n/2)+2   |
