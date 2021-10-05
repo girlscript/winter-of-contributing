@@ -22,7 +22,7 @@ The overloaded functions are invoked by matching the type and number of argument
     ***Example*** :-
     
 ```cpp
-    #include <bits/stdc++.h>
+    #include<bits/stdc++.h>
 using namespace std;
 class Test
 {
@@ -70,7 +70,7 @@ class Test
     ***Example*** :-
     
   ```cpp
-  #include <iostream>  
+  #include<iostream>  
 using namespace std;  
 class A  
 {  
@@ -112,7 +112,7 @@ In a Runtime polymorphism, functions are called at the time the program executio
   ***Example*** :-
 
   ```cpp
-    #include <iostream>  
+    #include<iostream>  
   using namespace std;  
   class Animal 
   {  
@@ -141,9 +141,8 @@ In a Runtime polymorphism, functions are called at the time the program executio
 ```
   **Output**
 
-  Eating …..
-
-  Walking……
+  Eating ...
+  Walking...
 
   * **Virtual Function** A virtual function is a member function in the base class. We can redefine it in a derived class. It is part of run time polymorphism. The declaration of the virtual function must be in the base class by using the keyword virtual. A virtual function is not static. 
 
