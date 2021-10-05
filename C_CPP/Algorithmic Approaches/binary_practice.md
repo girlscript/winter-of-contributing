@@ -219,5 +219,5 @@ public:int binarySearch(vector<vector<int>>& arr, int start, int r, int x)
 };
  ```
 **Time Complexity - O(logn)**  
-**Space Complexity - O(1)**
+**Space Complexity - O(1)**  
 **Reference - Leetcode**
