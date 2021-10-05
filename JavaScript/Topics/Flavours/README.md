@@ -22,17 +22,16 @@ You are not required to use JSX, but JSX makes it easier to write React applicat
 
 Here are two examples. The first uses JSX and the second does not:
 
-Example 1
-```**JSX:**
+Example 1 (With JSX)
+```jsx
 
   const myelement = <h1>I Love JSX!</h1>;
 
   ReactDOM.render(myelement, document.getElementById('root'));
 ```
 
-Example 2
-```**Without JSX:**
-
+Example 2 (Without JSX)
+```
   const myelement = React.createElement('h1', {}, 'I do not use JSX!');
 
   ReactDOM.render(myelement, document.getElementById('root'));
@@ -50,17 +49,21 @@ JSX provides a range of element attributes designed to mirror those provided by 
 
 JavaScript expressions (but not statements) can be used inside JSX with curly brackets {}:
 
-```<h1>{10+1}</h1>```
+```jsx
+<h1>{10+1}</h1>
+```
 
 The example above will render:
 
-```<h1>11</h1>```
+```html
+<h1>11</h1>
+```
 
 ## Conditional statements
 
 If–else statements cannot be used inside JSX but conditional expressions can be used instead. The example below will render { i === 1 ? 'true' : 'false' } as the string 'true' because i is equal to 1.
 
-```
+```jsx
 const App = () => {
 
   const i = 1;
@@ -75,7 +78,7 @@ const App = () => {
 
 The above will render:
 
-```
+```html
 <div>
   <h1>true</h1>
 </div>
@@ -83,7 +86,7 @@ The above will render:
 
 Functions and JSX can be used in conditionals:
 
-```
+```jsx
 const App = () => {
 
    const sections = [1, 2, 3];
@@ -100,7 +103,7 @@ const App = () => {
        </div>
    );
 }
-```
+```html
 The above will render:
 
 ```
@@ -113,7 +116,7 @@ The above will render:
 
 *Code written in JSX requires conversion with a tool such as Babel before it can be understood by web browsers.*
 
-**The merits of JSX in four bullet points:**
+**The merits of JSX:**
 
 - Less technical people can still understand and modify the required parts. CSS developers and designers will find JSX more familiar than JavaScript alone. I.e., HTML markup looks like HTML markup.
 - You can leverage the full power of JavaScript in HTML and avoid learning or using a templating language. JSX is not a templating solution. It is a declarative syntax used to express a tree structure of UI components.
