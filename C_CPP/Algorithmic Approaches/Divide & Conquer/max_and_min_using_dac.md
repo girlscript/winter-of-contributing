@@ -122,7 +122,8 @@ Maximum element is: 98
 Minimum element is: -34
 ```
 
-Analysis:
+#### Analysis:
+
 
 Let T(n) be the number of comparisons made, where n is the number of comparisons then the recurrence relation is
 |   n         |    T(n)     |
