@@ -110,8 +110,6 @@ p{
 ```
 
 ### Output
-**On Desktop and Laptop Devices**
 ![onDesktop&Laptops](https://mediaquery--samimunir2002.repl.co/onDesktops&Laptops.png)
 
-**On Mobile Devices**
 ![onMobiles](https://mediaquery--samimunir2002.repl.co/onMobiles.png)
