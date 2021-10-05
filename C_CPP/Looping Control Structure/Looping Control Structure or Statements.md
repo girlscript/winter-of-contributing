@@ -7,17 +7,18 @@
 
 In programming, sometimes we may need to use some part of our code for more than once. For example, let's say we want to print a statement for 5 times. This can be done in two ways:
 
-- Iterative method:- By repeating the print statement 5 times:
+- Iterative method:- By repeating the print statement for 5 times:
 ```jsx
 #include <stdio.h>
   
 int main()
 {
-    printf( "Girlscript Winter of Contributing\n");
-    printf( "Girlscript Winter of Contributing\n");
-    printf( "Girlscript Winter of Contributing\n");
-    printf( "Girlscript Winter of Contributing\n");
-    printf( "Girlscript Winter of Contributing\n");
+    printf("Girlscript Winter of Contributing \n");
+    printf("Girlscript Winter of Contributing \n");
+    printf("Girlscript Winter of Contributing \n");
+    printf("Girlscript Winter of Contributing \n");
+    printf("Girlscript Winter of Contributing \n");
+
     return 0;
 }
 ```
@@ -28,16 +29,16 @@ int main()
 int main()
 {   
     int i;
-    for(i=1;i<=5:i++)
+    for(i=1;i<=5;i++)
     {
-     printf( "Girlscript Winter of Contributing\n");
+     printf( "Girlscript Winter of Contributing \n");
     }
     
     return 0;
 }
 ```
 ### ***Output :***
-<img src="assets/intro.png">
+<img src="assets/introCode.png">
 <p>&nbsp;</p>
 
 
@@ -115,7 +116,7 @@ int main()
 <p>&nbsp;</p>
 
 <!----------------------------------------------DO WHILE LOOP------------------------------------------------------>
-# **While Loop :**
+# **do-While Loop :**
 ## ***Syntax:***
 ```jsx
 initialization;
@@ -128,7 +129,7 @@ do
 ```
 ### ***Example :***
 ```jsx
-//program to print the Hello World statement 5 times
+//program to print the "Hello World" statement 5 times
 
 #include<stdio.h>
 int main()
@@ -148,8 +149,12 @@ int main()
 
 
 
-### **Reference & Credits:**
+### **Reference:**
 - <a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a>
+
+### **Credits:**
+- <a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a>
+- <a href="https://onlineclassnotes.com/what-are-entry-controlled-and-exit/">Online Class Notes</a>
 
 
 
