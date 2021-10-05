@@ -1,1 +1,0 @@
-### GETTING STARTED
