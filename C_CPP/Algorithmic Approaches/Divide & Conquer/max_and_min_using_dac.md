@@ -20,7 +20,8 @@ To find maximum and minimum numbers in a given array (arr[]) of size n, the foll
 1. Naive approach
 2. Using the divide and conquer approach
 
-#### Naive method
+### Naive method
+
  In this method, we linearly iterate the array and find the maximum and minimum element.
 
 ```C++
