@@ -1,6 +1,6 @@
-#Prefix Sum Array
+# Prefix Sum Array
 
-##What is Prefix Sum Array?
+## What is Prefix Sum Array?
 The Prefix Sum Array of a given array is another array whose element at any location is sum of all elements upto that location in previous array. 
 
 For example- PreSumArray[i]=Array[0]+Array[1]+...+Array[i-1]+Array[i]
@@ -11,7 +11,7 @@ Output: PreSumArray={5,17,30,55,65}
 Explanation: first element is left undisturbed i.e. 5, second element as sum of first two elements i.e. 17 and third element as sum of first three i.e. 30 and so on.
 ```
 
-##Uses of Prefix Sum Array 💡
+## Uses of Prefix Sum Array 💡
 1. To calculate cummulative frequency from a givan array of frequency distribution
 2. To find equilibrium index of array where sum of elements at lower indices is same as that of higher indices
 3. To find a subarray having sum of elements equal to 0
@@ -19,7 +19,7 @@ Explanation: first element is left undisturbed i.e. 5, second element as sum of 
 
 Many such problems can be generated where Prefix Sum Array concept can be used.
 
-####Code 💻
+#### Code 💻
 
 ```
 #include<bits/stdc++.h>
