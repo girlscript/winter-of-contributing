@@ -1,7 +1,22 @@
 # **Remove Minimum Characters To Sort Binary String**
 
+## **Problem Description:**
+    In this problem we have been given a Binary String and we have to determine,
+    that minimum how many characters we can remove from the Binary String inorder to make the Binary String sorted.
+    
+## **Examples:**
+
+    - Example 01:
+    	If we have given a Binary String : "11000101"
+    	And if we removed last 2 occurance of 1's them the Binary string will be: "110000", which is sorted.
+	
+    - Example 02:
+    	If we have given a Binary String : "0001111"
+    	As the given Binary String is already sorted, therefore we don't have to remove any character from it.
+
 ## **Explanation of algorithm:**
-    In order to make the Binary String sorted, we can make it sorted in accending oreder or in descending order, we will count for which order we need to remove the minimum characters form the Binary String.
+    In order to make the Binary String sorted, we can make it sorted in accending oreder or in descending order,
+    we will count for which order we need to remove the minimum characters form the Binary String.
 
     - For sorting in accending order:
         We need to count the occurance of 0's after the first occurance of 1 in a Binary String.
@@ -13,10 +28,13 @@
 
 ## **Complexity analysis:**
 ### **Time Complexity:**
-    As the count of occurance of 0's after the occurance of 1 is calculated in O(n) and also the count of occuranc of 1's before the last occurance of 0 can also be calculated in just O(n), therefore the Time Complexity for the whole code will be: O(n)
+    As the count of occurance of 0's after the occurance of 1 is calculated in O(n),
+    and also the count of occuranc of 1's before the last occurance of 0 can also be calculated in just O(n),
+    therefore the Time Complexity for the whole code will be: O(n)
 
 ### **Space Complexity:**
-    As no extra space has been used for the computation apart from taking input from the user, therefore the Space Complexity of the code will be: O(1), constant space complexity.
+    As no extra space has been used for the computation apart from taking input from the user,
+    therefore the Space Complexity of the code will be: O(1), constant space complexity.
 
 ## **Input/Output:**
     - Test Case 01:
@@ -80,7 +98,6 @@ int main(){
 	return 0;
 	// End of main function.
 }
-}
 ```
 
-<p style="text-align: center;"> Contributed with 🧡 by <a href = "https://github.com/motasimmakki">Motasim</a></p>
+<p align = "center">--- Contributed with 🧡 by <a href = "https://github.com/motasimmakki">Motasim</a> ---</p>
