@@ -1,45 +1,129 @@
-# Topics in the C++ language
+<table>
+  <tr>
+    <td>
+      <div><img src="GWOC_logo_spin.gif" height="100px" width=auto/></div>
+    </td>
+    <td>
+      <h1> GirlScript Winter of Contributing </h1>
+      <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103">
+      <a href="../LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
+      <a href="../.github/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"/></a> 
+      <a href="../.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-green.svg"/></a> </div>
+    </td>
+  </tr>
+</table>
 
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Introduction%20of%20C">Introduction of C</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Programming%20components%2C%20Structure%20%26%20Keyword">Programming components, Structure & Keyword</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Operators%20%26%20Expressions">Operators & Expressions</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Input%20%26%20Output%20Operations">Input & Output Operations</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Decision%20Making%20%26%20Branching%20Structure">Decision Making & Branching Structure</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Looping%20Control%20Structure%20or%20Statements">Looping Control Structure/Statements</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Break%20or%20Continue">Break/Continue </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Static%20scoping%20%26%20Dynamic%20Scoping">Static scoping & Dynamic Scoping</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Functions%20%26%20Recursion%20and%20its%20types">Functions & Recursion and its types</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Arrays">Arrays</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Strings%20and%20their%20functions">Strings and their functions</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Pointer%20and%20its%20types">Pointer and its types</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Dynamic%20Memory%20allocation">Dynamic Memory allocation</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Structure%20padding%2C%20Union%2C%20Enum%2C%20%26%20typedef">Structure padding, Union, Enum, & typedef</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/File%20Management%20or%20Handling">File Management / Handling</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Install%20C%2B%2B%20on%20different%20OS">Install C++ on different OS </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Introduction%20of%20OOPs%20in%20C%2B%2B">Introduction of OOPs in C++ </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Classes%20%26%20Objects%20Programming">Classes & Objects Programming</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Constructor%20%26%20Destructor">Constructor & Destructor </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Virtual%20Functions%2C%20Friend%20Functions%20%26%20Friend%20Classes">Virtual Functions, Friend Functions & Friend Classes </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Polymorphism%20or%20Overloading">Polymorphism / Overloading </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Inheritance%20and%20its%20types%20or%20Function%20overriding">Inheritance and its types / Function overriding </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Encapsulation">Encapsulation </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Operator%20Overloading">Operator Overloading </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Advance%20C%2B%2B%20OOPs%20programming">Advance C++ OOPs programming </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Templates%20%26%20Libraries">Templates & Libraries </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Exception%20Handling">Exception Handling </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/File%20Handling%20%26%20IO%20Management">File Handling & IO Management </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Number%20System%20i.e%20Binary%2C%20Octal%2C%20Decimal%2C%20HexaDecimal%20etc">Number System i.e Binary, Octal, Decimal, HexaDecimal etc </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures">Data Structures </a>
+##  :world_map: [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
 
-  - <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Standard%20Template%20Library%20(Vectors%2C%20Maps%20etc)">Standard Template Library (Vectors, Maps etc) </a>
-  - <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/User%20Defined%20(Fenwick%20Tree%2C%20Segment%20Tree%20etc)">User Defined (Fenwick Tree, Segment Tree etc) </a>
+# Topics in the C++ language &nbsp;&nbsp;&nbsp;&nbsp; ![C](https://img.shields.io/badge/C-black?style=for-the-badge&logo=c&labelColor=black&color=404040) &nbsp;&nbsp; ![C++](https://img.shields.io/badge/CPP-blue?style=for-the-badge&logo=cplusplus&labelColor=006199)
+
+- ### [Install C++ on different OS](Install%20C%2B%2B%20on%20different%20OS/) 
+
+- ### [Fundamentals](./Fundamentals/)
+
+  - [Introduction to C/C++](./Fundamentals/Introduction%20to%20C/)
+  - [Programming components, Structure & Keyword](./Fundamentals/Programming%20components%2C%20Structure%20%26%20Keyword/)
+  - [Operators & Expressions](./Fundamentals/Operators%20%26%20Expressions/)
+  - [Input & Output Operations](./Fundamentals/Input%20%26%20Output%20Operations/)
+  - [Decision Making & Branching Structure](./Fundamentals/Decision%20Making%20%26%20Branching%20Structure/)
+  - [Looping Control Structure/Statements](./Fundamentals/Looping%20Control%20Structure%20or%20Statements/)
+  - [Break/Continue](./Fundamentals/Break%20or%20Continue/)
+  - [Static scoping & Dynamic Scoping](./Fundamentals/Static%20scoping%20%26%20Dynamic%20Scoping/)
+  - [Functions & Recursion and its types](./Fundamentals/Functions%20%26%20Recursion%20and%20its%20types/)
+  - [Arrays](./Fundamentals/Arrays/)
   
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Operating%20System%20Concepts%20(Scheduling%2C%20Memory%20management%2C%20etc)">Operating System Concepts (Scheduling, Memory management, etc) </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Competitive%20Programming">Competitive Programming</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Algorithmic%20Approaches(Greedy%2C%20Dynamic%2C%20Branch%20%26%20Bound%2C%20NP-completeness%20etc)">Algorithmic Approaches(Greedy, Dynamic, Branch & Bound, NP-completeness etc) </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)">OpenGL using C++ (3D,2D graphics using C++)</a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Unreal%20Engine%20with%20C%2B%2B">Unreal Engine with C++ </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/Juice%20Framework%20with%20C%2B%2B">Juice Framework with C++ </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/C%2B%2B%2014">C++ 14 </a>
-### <a href="https://github.com/girlscript/winter-of-contributing/tree/C_CPP/C_CPP/C%2B%2B%2017">C++ 17 </a>
+- ### [Strings and their functions](./Strings%20and%20their%20functions/)
+  
+- ### [Pointer and its types](./Pointer%20and%20its%20types/)
+  
+- ### [Procedural Structures](./Procedural%20Structures/)
 
+- ### [Dynamic Memory allocation](./Dynamic%20Memory%20allocation/)
+
+- ### [Structure padding, Union, Enum, & typedef](./Structure%20padding%2C%20Union%2C%20Enum%2C%20%26%20typedef/)
+
+- ### [File Management / Handling](./File%20Management%20or%20Handling/)
+
+- ### [Object Oriented Programming in C++](./OOPs%20in%20C++/)
+
+  - [Introduction of OOPs in C++](./OOPs%20in%20C++/Introduction%20of%20OOPs%20in%20C%2B%2B/)
+  - [Classes & Objects Programming](./OOPs%20in%20C++/Classes%20%26%20Objects%20Programming/)
+  - [Constructor & Destructor](./OOPs%20in%20C++/Constructor%20%26%20Destructor/)
+  - [Data Abstraction](./OOPs%20in%20C++/Data%20Abstraction/)
+  - [Encapsulation](./OOPs%20in%20C++/Encapsulation/)
+  - [Polymorphism / Overloading](./OOPs%20in%20C++/Polymorphism%20or%20Overloading/)
+  - [Inheritance and its types / Function overriding](./OOPs%20in%20C++/Inheritance%20and%20its%20types%20or%20Function%20overriding/)
+  - [Virtual Functions, Friend Functions & Friend Classes](./OOPs%20in%20C++/Virtual%20Functions%2C%20Friend%20Functions%20%26%20Friend%20Classes/)
+  - [Operator Overloading](./OOPs%20in%20C++/Operator%20Overloading/)
+
+- ### [Advance C++ OOPs programming](./Advance%20C%2B%2B%20OOPs%20programming/)
+
+- ### [Templates & Libraries](./Templates%20%26%20Libraries/)
+
+- ### [Exception Handling](./Exception%20Handling/)
+
+- ### [File Handling & IO Management](./File%20Handling%20%26%20IO%20Management/)
+
+- ### [Number System](./Number%20System/)
+
+- ### [Data Structures](Data%20Structures/)
+  
+  - [Array](./Data%20Structures/Array)
+  - [Linked List](./Data%20Structures/Linked%20List)
+  - [Stack](./Data%20Structures/Stack)
+  - [Queue](./Data%20Structures/Queue)
+  - [Binary Tree](./Data%20Structures/Binary%20Tree)
+  - [Binary Search Tree](./Data%20Structures/Binary%20Search%20Tree)
+  - [Heap](./Data%20Structures/Heap)
+  - [Hashing](./Data%20Structures/Hashing)
+  - [Graph](./Data%20Structures/Graph)
+  - [Matrix](./Data%20Structures/Matrix)
+  - [Trees](./Data%20Structures/Trees)
+  - [Standard Template Library](./Data%20Structures/Standard%20Template%20Library)
+    - [Vector](./Data%20Structures/Standard%20Template%20Library/Vector)
+    - [List](#)
+    - [Deque](./Data%20Structures/Standard%20Template%20Library/Deque/)
+    - [Queue](#)
+    - [Stack](./Data%20Structures/Standard%20Template%20Library/Stack/)
+    - [Priority Queue](./Data%20Structures/Standard%20Template%20Library/Priority_Queue/)
+  - [User Defined Data Structures](./Data%20Structures/User%20Defined%20Data%20Structures/)
+    - [Segment Tree](#)
+    - [Fenwick Tree](#)
+    - [BTree](#)
+    - [Trie](#)
+    - [Suffix Tree](#)
+  
+- ### [Operating System Concepts](Operating%20System%20Concepts/)
+  - [Introduction to Operating System](./Operating%20System%20Concepts/Introduction_to_OS)
+  - [Scheduling Algorithms](./Operating%20System%20Concepts/)
+  - [Memory Management](#)
+  - [Deadlock](#)
+  - [File Management](#)
+  
+
+- ### [Competitive Programming](Competitive%20Programming/)
+
+- ### [Algorithmic Approaches](Algorithmic%20Approaches/)
+  
+  - [Sorting Algorithm](./Algorithmic%20Approaches/Sorting)
+  - [Brute Force Algorithm](./Algorithmic%20Approaches/Brute%20Force)
+  - [Recursive Algorithm](./Algorithmic%20Approaches/Recursive)
+  - [Divide & Conquer Algorithm](./Algorithmic%20Approaches/Divide%20%26%20Conquer)
+  - [Greedy Algorithm](./Algorithmic%20Approaches/Greedy)
+  - [Dynamic Programming Algorithm](./Algorithmic%20Approaches/Dynamic)
+  - [Backtracking Algorithm](./Algorithmic%20Approaches/Backtracking)
+  - [Randomised Algorithm](./Algorithmic%20Approaches/Randomised)
+  - [Branch & Bound Algorithm](./Algorithmic%20Approaches/Branch%20%26%20Bound)
+  - [NP Complete Algorithm](./Algorithmic%20Approaches/NP%20Completeness)
+
+- ### [OpenGL using C++ (3D,2D graphics using C++)](OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)/)
+
+- ### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
+
+- ### [Juice Framework with C++](Juice%20Framework%20with%20C%2B%2B/)
+
+- ### [Game Development](./Game%20Development/)
+
+- ### [C++ 14](C%2B%2B%2014/)
+
+- ### [C++ 17](C%2B%2B%2017/)
