@@ -19,7 +19,7 @@ A keylogger can be used for good purposes as well, finding evidence for a crime 
   <li>Enable 2-factor Authentication on all authentication services if possible.</li>
   <li>You may use a virtual keyboard while entering passwords/credit card details like sensitive information.</li>
   <li>Install a good quality anti-virus software to detect if any keylogger is present.</li>
-  <li>Do not use same passwords for different services.</li>
+  <li>Do not use the same passwords for different services.</li>
 </ul>
   
 <h3>Examples of Keyloggers</h3>
