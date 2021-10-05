@@ -1,41 +1,48 @@
-Given an array A[], write a function that segregates even and odd numbers. 
-The functions should put all even numbers first, and then odd numbers.
+Given an array A[], write a function that segregates even and odd numbers. <br/>
+The functions should put all even numbers first, and then odd numbers. <br/>
 
 
-EXAMPLE💥💥 
+EXAMPLE-
 
-Input  = {12, 34, 45, 9, 8, 90, 3}
-Output = {12, 34, 8, 90, 45, 9, 3}
+Input  = {12, 34, 45, 9, 8, 90, 3} <br/>
+Output = {12, 34, 8, 90, 45, 9, 3} <br/>
 
 
-ALGORITHM💥💥
+ALGORITHM-  <br/>
 
-⭐Initialize two index variables left and right:  
-            left = 0,  right = size -1 
-⭐Keep incrementing left index until we see an even number.
-⭐Keep decrementing right index until we see an odd number.
-⭐If left < right then swap arr[left] and arr[right]
+1-Initialize two index variables left and right:  <br/>
+            left = 0,  right = size -1            <br/>
+2-Keep incrementing left index until we see an even number.<br/>
+3-Keep decrementing right index until we see an odd number.<br/>
+4-If left < right then swap arr[left] and arr[right].<br/>
 
-IMPLEMENTATION💥💥
+IMPLEMENTATION--  <br/>
 
-// C++ program to segregate even and odd elements of array
-#include <iostream>
-using namespace std;
+ C++ program to segregate even and odd elements of array <br/><hr/>
+
+#include <iostream>         <br/>
+using namespace std;        <br/>
  
-/* Function to swap *a and *b */
-void swap(int *a, int *b);
- 
-void segregateEvenOdd(int arr[], int size)
+void swap(int *a, int *b)            <br/>
 {
-    /* Initialize left and right indexes */
-    int left = 0, right = size-1;
+    
+    int temp = *a;                      
+    *a = *b;                             
+    *b = temp;                            
+}
+
+ 
+void segregateEvenOdd(int arr[], int size)             
+{
+    
+    int left = 0, right = size-1; 
     while (left < right)
     {
-        /* Increment left index while we see 0 at left */
+        
         while (arr[left] % 2 == 0 && left < right)
             left++;
  
-        /* Decrement right index while we see 1 at right */
+        
         while (arr[right] % 2 == 1 && left < right)
             right--;
  
@@ -49,15 +56,9 @@ void segregateEvenOdd(int arr[], int size)
     }
 }
  
-/* UTILITY FUNCTIONS */
-void swap(int *a, int *b)
-{
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
+
  
-/* Driver code */
+
 int main()
 {
     int arr[] = {12, 34, 45, 9, 8, 90, 3};
@@ -75,7 +76,7 @@ int main()
 
 
 
-OUTPUT💥💥
-            Array after Segregation 12 34 90 8 9 45 3
+OUTPUT-  <br/>
+            Array after Segregation 12 34 90 8 9 45 3     <br/>
 
-TIME COMPLEXITY💥💥 O(n)
+TIME COMPLEXITY- O(n)     <br/>
