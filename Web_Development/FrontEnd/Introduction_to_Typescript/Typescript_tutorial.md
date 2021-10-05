@@ -1,6 +1,6 @@
 <h1 align="center"> TypeScript in five Steps</h1>
 
-<b> How to Install TypeScript</b>
+<b> How to Install TypeScript?</b>
 <p>
 <ul>
 <li> npm install -g typescript
