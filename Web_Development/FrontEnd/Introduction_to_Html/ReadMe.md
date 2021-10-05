@@ -81,7 +81,7 @@ A browser does not display the HTML tags, but uses them to determine how to disp
 
 <br>
 
-![hello-world](hello-world.png)
+<img src="https://dotnet.microsoft.com/static/images/screenshot-aspnet-tutorial-run-modified.png?v=o5-8W8m5BX-42TYnUKVu_WyiLxsx6osKvUbnQhuMmGo" width="500px">
 <br>
 
 ## HTML Page Structure :-
@@ -155,10 +155,9 @@ A browser does not display the HTML tags, but uses them to determine how to disp
 
 <br>
 
-    We can also add comments to the HTML Document. The HTML comment begins with **<--** and the comment closes with **-->**. The HTML comment will be visible to anyone whosoever views the page source code and the comment is not rendered when the HTML document is rendered to the browser.
+    We can also add comments to the HTML Document. The HTML comment begins with <-- and the comment closes with -->. The HTML comment will be visible to anyone whosoever views the page source code and the comment is not rendered when the HTML document is rendered to the browser.
 <br>
-
-![comments](comment.png)
+<img src="https://codebridgeplus.com/wp-content/uploads/html-comments.jpg">
 
 ---
 
