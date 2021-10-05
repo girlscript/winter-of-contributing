@@ -5,6 +5,22 @@
 
 BOTTOM_UP APPROACH:
 
+
+
+
+int main(){
+int n; // total number of house
+    cin>>n;
+    int a[n];
+    
+    for(int i=0;i<n;i++){  // amount of money in every ith house
+        cin>>a[i];
+      
+    }
+cout<<find(a,n);
+}
+
+
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -22,18 +38,4 @@ using namespace std;
      }
     return curr;
 
-}
-
-
-
-int main(){
-int n; // total number of house
-    cin>>n;
-    int a[n];
-    
-    for(int i=0;i<n;i++){  // amount of money in every ith house
-        cin>>a[i];
-      
-    }
-cout<<find(a,n);
 }
