@@ -40,7 +40,7 @@ In this documentation, we understand the concept of Elbow Method with the help o
 
 * This is the most optimal method to make our model more close to accuracy.
 
-* The graph plotted looks like an elbow of human which is why it is known as Elbow method
+* The graph plotted looks like an elbow of human which is why it is known as Elbow method.
 
 
 
