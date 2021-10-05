@@ -1,4 +1,3 @@
-@@ -0,0 +1,152 @@
 ### Git and Bash
 Git and Bash are fairly different things but the windows version of `git` comes preconfigured with bash shell. This is why you can even execute the bash commands there. But you can not perform low-level tasks with git-bash in windows.
 Let's just understand the difference between them one by one and how they create a development workflow together.
@@ -148,6 +147,3 @@ bash can also be used as an executable file even many programs uses bash script 
 - Windows version of git comes with a bash shell, but you can only perform the basic tasks with that version of the shell.
 - I would prefer you all to use WSL with git which gives you a separate Linux environment for your development where you can use all of the features of bash as well as git too.
 
-
-
-### Contributed By [Prachi Singh]("https://github.com/prachi610/)
