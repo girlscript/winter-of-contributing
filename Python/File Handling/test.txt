@@ -1,0 +1,12 @@
+peach
+red
+green
+yellow
+blue
+orange
+voilet
+purple
+pink
+black
+white
+brown
