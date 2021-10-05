@@ -30,6 +30,10 @@
  The simple approach of Kadane’s algorithm is start looking for all positive elements of array and sum up them to store in a variable(let's say max_ending_pos). Now, keep maintaining the track of maximum sum contiguous segment in another variable(prev_max). Each time we get a positive-sum compare it with prev_max and update prev_max if it is greater than prev_max. 
 
 
+## Complexity Analysis
+
+The time complexity fot this algo is O(N) as we are traversing a single loop from 0 to n-1.
+The auxiliary space complexity for this algo is O(1), as we are only using 2 extra pointers which are storing the results in them.
 
 ## Algorithm
 ```
