@@ -364,7 +364,55 @@ Kotlin
 ```
 
 
+## JSON from Servers
+You can request JSON from the server by using an AJAX request
+
+As long as the response from the server is written in JSON format, you can parse the string into a JavaScript object.
+
+Suppose we have a  json_demo.txt as a JSON file and we want to fetch the data from this file into our project
+```json
+{
+    "name":"John",
+    "age":31,
+    "pets":[
+        { "animal":"dog", "name":"Fido" },
+        { "animal":"cat", "name":"Felix" },
+        { "animal":"hamster", "name":"Lightning" }
+    ]
+}
+
+```
+Now this data can be accessed in our project after the API request.
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Fetch a JSON file with XMLHttpRequest</h2>
+<p id="demo"></p>
+
+<script>
+const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  const myObj = JSON.parse(this.responseText);
+  //this line is used to change the content of the div which have have the id of "demo" by json data.
+  document.getElementById("demo").innerHTML = myObj.name;
+}
+xmlhttp.open("GET", "json_demo.txt");
+xmlhttp.send();
+</script>
+
+</body>
+</html>
+
+
+```
+
+<br>
+
  #### Contributed by 
  [Aniket Pathak](https://github.com/aniketpathak028)
  <br>
  [Rwitesh Bera](https://github.com/rwiteshbera)
+ <br>
+ [Surbhi Sinha](https://github.com/Surbhi-sinha)
