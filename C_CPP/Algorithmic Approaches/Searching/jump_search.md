@@ -13,7 +13,7 @@ Let’s consider the following array: (1,2,3,5,7,8,9,10,12). Length of the array
 - STEP 2: Jump from index 3 to index 6
 - STEP 3: Jump from index 6 to index 9
 - STEP 4: Since 8 is the last index and the element at index 8 is greater than 10 thus linear search is performed from 6 to 8 index
-###What is the optimal block size to be skipped?   
+### What is the optimal block size to be skipped?   
 In the worst case, we have to do n/m jumps and if the last checked value is greater than the element to be searched for,  
  we perform m-1 comparisons more for linear search. Therefore the total number of comparisons in the worst case will be  
   ((n/m) + m-1). The value of the function ((n/m) + m-1) will be minimum when m = √n. Therefore, the best step size is m = √n. 
