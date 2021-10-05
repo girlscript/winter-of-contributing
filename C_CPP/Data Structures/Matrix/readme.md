@@ -1,1 +1,1 @@
-* [Diagonal matrix](./Diagonal_Matrix.md)
+* [Diagonal Matrix](./Diagonal_Matrix.md)
