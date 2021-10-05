@@ -141,7 +141,8 @@ T ( n ) = 3n / 2 - 2
 
 Therefore, the number of comparisons will be 3n / 2 - 2.
 
-#### Conclusion
+### Conclusion
+
 
 * Though the number of comparisons in the recursive approach is less than the naive method, asymptotically both have linear time complexity.  
 * Space complexity is large in the recursive approach compared to the naive method which uses  O(1) space.
