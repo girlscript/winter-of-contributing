@@ -118,6 +118,7 @@ This value can be overridden by a `formtarget` attribute on a `<button>`, `<
     <label><input type="radio" name="radio"> Select me</label>
   </fieldset>
 </form>
-
 ```
+- Output:
+![image](https://user-images.githubusercontent.com/72455881/136079697-ba8fbbd7-8a8c-4d5b-8bd7-c609061eddb1.png)
 
