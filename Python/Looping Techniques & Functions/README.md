@@ -10,7 +10,7 @@ In **looping techniques**, we will discuss different functions that can be used 
 - iteritem()
 - items()
 
-#1.) iteritems():
+# 1.) iteritems():
 When looping through dictionaries, in key & value pairs the key and value both can be fetched together at the same time using iteritems() method.
 ```python
 # Say we have dictionary mentioning different fruits and their colour.
@@ -24,7 +24,7 @@ for k, v in fruit_colors.iteritems():   #k here represents the key and v represe
 
 ```
 
-#2.) items():
+# 2.) items():
 items() performs the similar task on dictionary as iteritems() when looping through dictionaries.
 ```python
 # Say we have dictionary mentioning different fruits and their colour.
@@ -42,7 +42,7 @@ for k, v in fruit_colors.items():   #k here represents the key and v represents 
 -	**Very time consuming** : If called on large dictionaries unlike the one we saw above, it will consume a lot of time.
 -	**Lots of memory consumed**: It sometimes takes 2 times the memory than usual when implemented on a dictionary.
 
-#3.) enumerate():
+# 3.) enumerate():
 enumerate() is used to loop through a sequence or the containers and print the index number along with the value present at that particular index.
 ```python
 # Say we have list mentioning a few famous sitcoms.
@@ -56,7 +56,7 @@ for key, value in enumerate(sitcoms):
 #   	   2 Young Sheldon
 #  	   3 Brooklyn Nine 9
 ```
-#4.) zip():
+# 4.) zip():
 zip() is used to loop over two or more sequences at the same time. It does this by combining 2 similar containers(list-list or dict-dict) and sequentially printing the values. The loop exists till the smaller container ends.
 ```python
 # Say we have two lists , list 1 mentioning famous anime characters and list 2 mentioning their corresponding animes
@@ -80,7 +80,7 @@ What exactly is happening here ??
 [('Uzumaki Naruto', 'Naruto Shippudden'),( 'Keniki', 'Tokyo Ghoul'),( 'Light Yagami', 'Death Note'),( 'Saitama', 'One Punch Man')]
 Our program has created an array of **tuple items** inside a **list**. Each tuple contains the name of a character and the respective anime.
 
-#5.) reversed():
+# 5.) reversed():
 **reversed()** is used to print the values of a sequence/container in reversed order that is last to first, but the thing to keep in mind is that reversed() does not reflect any changes to the original list.
 ```python
 # eg below
@@ -99,7 +99,7 @@ for i in reversed(numbers):
 	print(i, end=" ")
 #output : 6 5 4 3 2 1 
 ```
-#6.) sorted():
+# 6.) sorted():
 **sorted()** is used to loop over and to print the container is sorted order. It doesn't sort the container but just prints the container in sorted order for an instance without reflecting any changes to the original list.
 ```python
 # eg., below
@@ -109,7 +109,7 @@ for i in sorted(numbers):
 
 #output :  1 2 2 3 4 5 6
 ```
-#7.) set():
+# 7.) set():
 **set()** is used on a sequence to eliminate duplicate elements.
 ```python
 # eg., below
@@ -124,7 +124,7 @@ for f in set(colors):
 ```
 As you can see the 'red' was not repeated twice. 
 
-#8.) sorted() in combination with set():
+# 8.) sorted() in combination with set():
 The use of **sorted()** in combination with **set()** over a sequence is an idiomatic way to loop over unique elements of the sequence in sorted order.
 ```python
 # eg., below
