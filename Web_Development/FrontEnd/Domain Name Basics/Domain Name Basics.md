@@ -1,7 +1,7 @@
 # Domain Name Basics
 
 
-![gif](images\d1.gif)
+![gif](d1.gif)
 
 ## ***📌What is a domain name / domain?***
 
