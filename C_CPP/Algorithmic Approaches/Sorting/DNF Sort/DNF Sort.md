@@ -10,7 +10,7 @@ Let's see the DNF Sort Algorithm :
 Suppose arr[15] = { 0 , 0 , 1 , 1 , 1 , 0 , 1 , 2 , 0 , 2 , 0 , 1 , 2 , 2 , 2 }
 
 <p align="center">
-<img  src="DNF.png" width="800" height="450">
+<img  src="https://user-images.githubusercontent.com/67793499/135977577-6670be36-e473-4ac4-9099-1d6150edf8fb.png" width="800" height="450">
 </p>
 
 ```
@@ -28,42 +28,42 @@ arr[10] = { 1 , 1 , 0 , 1 , 2 , 2 , 1 , 0 , 2 , 1}
 
 `STEP 1: `
 <p align="center">
-<img  src="Images/STEP1.PNG" width="800" height="450">
+<img  src="https://user-images.githubusercontent.com/67793499/135975454-de9d102e-79e6-4164-b08d-dcfa1f642d80.PNG" width="800" height="450">
 </p>
 
 `STEP 2: `
 <p align="center">
-<img  src="Images/STEP2.PNG" width="800" height="450">
+<img  src="https://user-images.githubusercontent.com/67793499/135975456-e993603d-d5ee-464a-8973-77195519ffcc.PNG" width="800" height="450">
 </p>
 
 `STEP 3: `
 <p align="center">
-<img  src="Images/STEP3.PNG" width="800" height="450">
+<img  src="https://user-images.githubusercontent.com/67793499/135975457-0bc95771-3205-43aa-a775-2071411ccd15.PNG" width="800" height="450">
 </p>
 
 `STEP 4: `
 <p align="center">
-<img  src="Images/STEP4.PNG" width="800" height="450">
+<img  src="https://user-images.githubusercontent.com/67793499/135975459-9fe0cd27-0467-4588-b2d7-d69953000ea2.PNG" width="800" height="450">
 </p>
 
 `STEP 5: `
 <p align="center">
-<img  src="Images/STEP5.PNG" width="800" height="450">
+<img  src="https://user-images.githubusercontent.com/67793499/135975461-9a5e57f9-fd75-4538-8e13-dddcbf841d9d.PNG" width="800" height="450">
 </p>
 
 `STEP 6: `
 <p align="center">
-<img  src="Images/STEP6.PNG" width="800" height="450">
+<img  src="https://user-images.githubusercontent.com/67793499/135975463-d5da3eee-ab1e-43fa-a791-aaf8fefaf1ff.PNG" width="800" height="450">
 </p>
 
 `STEP 7: `
 <p align="center">
-<img  src="Images/STEP7.PNG" width="800" height="450">
+<img  src="https://user-images.githubusercontent.com/67793499/135975464-e888241b-a988-4378-b3a3-85728c0f8096.PNG" width="800" height="450">
 </p>
 
 `STEP 8: `
 <p align="center">
-<img  src="Images/STEP8.PNG" width="800" height="450">
+<img  src="https://user-images.githubusercontent.com/67793499/135975465-8b1b8d57-479e-420a-abaa-c715217647e5.PNG" width="800" height="450">
 </p>
 
 `Input : ` <br>
