@@ -146,4 +146,3 @@ bash can also be used as an executable file even many programs uses bash script 
 - Both git and bash give you a powerful and flexible environment for any kind of workflow and development.
 - Windows version of git comes with a bash shell, but you can only perform the basic tasks with that version of the shell.
 - I would prefer you all to use WSL with git which gives you a separate Linux environment for your development where you can use all of the features of bash as well as git too.
-
