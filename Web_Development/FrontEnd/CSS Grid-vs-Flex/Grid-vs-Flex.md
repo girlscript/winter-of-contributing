@@ -1,6 +1,6 @@
-# CSS : Grid vs Flex
+## CSS : Grid vs Flex
 
-###### Which is the better choice- Grid or Flex? Let's dive deep into the concepts of two complimentary web layout technologies and unpack when and where to use CSS Grid and Flexbox.
+## Which is the better choice- Grid or Flex? Let's dive deep into the concepts of two complimentary web layout technologies and unpack when and where to use CSS Grid and Flexbox.
 
 | GRID                                                         | FLEX                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
