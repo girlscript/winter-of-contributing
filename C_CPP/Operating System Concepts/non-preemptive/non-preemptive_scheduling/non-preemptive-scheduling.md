@@ -20,7 +20,24 @@ Here, the Cpu is allocated on first come first serve basis, i.e, the process tha
 
 ## OUTPUT:
 
-![output](fcfs_output.png)
+    Enter the number of processes : 5
+    Enter arrival and burst times
+    For process 1 : 1 10
+    For process 2 : 3 2
+    For process 3 : 2 2
+    For process 4 : 5 1
+    For process 5 : 8 1
+        processId    ArrivalTime      burstTime completionTime     TurnAround       WaitTime   ResponseTime
+                1              1             10             11             10              0              0
+                3              2              2             13             11              9              9
+                2              3              2             15             12             10             10
+                4              5              1             16             11             10             10
+                5              8              1             17              9              8              8
+
+    Average Turn Around Time : 10.6
+    Average waiting time : 7.4
+    Average response time : 7.4
+    CPU UTILIZATION 94.1176
 
 ## Advantages:
 
@@ -59,11 +76,25 @@ Here, the Cpu is allocated on first come first serve basis, i.e, the process tha
 Here,the CPU is assigned to the process in the queue which has the shortest Burst Time. In case the Burst times of 2 processes are same, CPU is assigned to the processes that arrived first, i.e on first come first serve basis.
 It can be used for jobs running in batches such that their run times are known beforehand.
 
-## Code:[click here for code!](sjf.cpp)
+## Code: [click here for code!](sjf.cpp)
 
 ## OUTPUT:
 
-![output](sjf_output.png)
+    enter the number of processes : 4
+    enter arrival time and burst time
+    For process 1 : 1 3
+    For process 2 : 1 1
+    For process 3 : 2 3
+    For process 4 : 3 1
+        processId    ArrivalTime      burstTime completionTime     TurnAround       WaitTime   ResponseTime
+                2              1              1              2              1              0              0
+                1              1              3              5              4              1              1
+                4              3              1              6              3              2              2
+                3              2              3              9              7              4              4
+
+    Average Turn Around Time : 3.75
+    Average waiting time : 1.75
+    Average response time : 1.75
 
 ## Advantages:
 
@@ -90,7 +121,22 @@ Here, each process has a priority associated with it. The processes are schedule
 
 ## OUTPUT:
 
-![output](priority_output.png)
+    enter the number of processes : 4
+    enter priority,arrival time and burst time
+    For process 1 : 0 4 10
+    For process 2 : 1 1 4
+    For process 3 : 0 1 5
+    For process 4 : 4 4 1
+        processId    ArrivalTime      burstTime completionTime     TurnAround       WaitTime   ResponseTime
+                3              1              5              6              5              0              0
+                1              4             10             16             12              2              2
+                2              1              4             20             19             15             15
+                4              4              1             21             17             16             16
+
+    Average Turn Around Time : 13.25
+    Average waiting time : 8.25
+    Average response time : 8.25
+    CPU UTILIZATION 95.2381
 
 ## Advantages:
 
