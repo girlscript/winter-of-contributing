@@ -8,7 +8,10 @@ This is my second documentation contribution in GWOC 2021 and in this documentat
 
 Let's get started....
 
-1. **abbr : **  This tag is used specifically for abbreviations purpose. We can also add the title attribute to the this tag. When we will use abbr tag with title attribute the title will be displayed as a tooltip when anyone hover overs the element.
+<br>
+<br>
+
+1. **abbr:**  This tag is used specifically for abbreviations purpose. We can also add the title attribute to the this tag. When we will use abbr tag with title attribute the title will be displayed as a tooltip when anyone hover overs the element.
 
 ```html
 <body>
@@ -19,10 +22,12 @@ Let's get started....
   <p><abbr title="GirlScript Winter Of Code">GWOC</abbr> is an acronym.</p>
 
 
+<br>
+<br>
 
 
 
-2. **del :** One of the highly underrated tag I suppose. Mainly used for the text that is struck through are deleted from the documented but is still there may be to show modification or history changes. It strikethrough the text on which it is used. We can use cite attribute that is the url for the source that explains why the text was modified/deleted.
+2. **del:** One of the highly underrated tag I suppose. Mainly used for the text that is struck through are deleted from the documented but is still there may be to show modification or history changes. It strikethrough the text on which it is used. We can use cite attribute that is the url for the source that explains why the text was modified/deleted.
 
 ```html
 <body>
@@ -32,10 +37,11 @@ Let's get started....
 <p><del cite="https://www.deletedtext.com">Deleted Part </del>_old Part.</p>
 
 
+<br>
+<br>
 
 
-
-3. **ins** : It is similar to its companion tag del. Mainly used for the new or updated part that has been added to the document. Text used inside this tag is usually underlined to show that it is recently updated or modified.
+3. **ins:** It is similar to its companion tag del. Mainly used for the new or updated part that has been added to the document. Text used inside this tag is usually underlined to show that it is recently updated or modified.
 
 ```html
 <body>
@@ -45,24 +51,27 @@ Let's get started....
 <p><ins cite="https://www.updatedtext.com">This is new text.</ins> but this text is not.</p>
 
 
+<br>
+<br>
 
 
 
-
-4. **progress : **This tag is a lot helpful when we want to show progress of something like a project or any task. No need of any JS or CSS if we just want to make a simple meter.
+4. **progress:**This tag is a lot helpful when we want to show progress of something like a project or any task. No need of any JS or CSS if we just want to make a simple meter.
 
 ```html
 <progress id="project" max="100" value="60"> 60% </progress>
 ```
 
 <progress id="project" max="100" value="60"> 70% </progress>
+![Capture](https://user-images.githubusercontent.com/55577276/136007041-a46736b4-9667-486e-80c7-df9a2fc9785c.PNG)
 
 
 
+<br>
+<br>
 
 
-
-5. **details** and **summary : ** This is the built in accordion feature in HTML. If you want to implement just a simple accordion in you website no need to use Javascript for this purpose, just use this awesome tag and your work is done.
+5. **details** and **summary:** This is the built in accordion feature in HTML. If you want to implement just a simple accordion in you website no need to use Javascript for this purpose, just use this awesome tag and your work is done.
 
 ```html
 <details>
@@ -75,11 +84,12 @@ Let's get started....
   GirlScript is a non-profit organization that encourages diversity in technical education by providing reservations for women and underrepresented groups in society.It started as a project but eventually gained enormous momentum to become India's First and Biggest Technical Community.
 </details>
 
+<br>
+<br>
 
 
 
-
-6. **address : ** Probably one of the most obscure tags present in HTML. Programmers don't use it much but that doesn't simply means it is not useful. This tag  allows you to semantically markup addresses in HTML and also italicizing all the data present present inside it.
+6. **address:** Probably one of the most obscure tags present in HTML. Programmers don't use it much but that doesn't simply means it is not useful. This tag  allows you to semantically markup addresses in HTML and also italicizing all the data present present inside it.
 
 ```html
 <address>
@@ -99,10 +109,11 @@ Box 564, Disneyland<br>
 USA
 </address>
 
+<br>
+<br>
 
 
-
-7. **time :** This element is HTML is both semantic as well as structured content. It is very helpful to tell crawlers and bots about the exact time that is being referred.  While being rendered it does not provide any special display but provides much more context to the user or system reading it.
+7. **time:** This element is HTML is both semantic as well as structured content. It is very helpful to tell crawlers and bots about the exact time that is being referred.  While being rendered it does not provide any special display but provides much more context to the user or system reading it.
 
 ```html
 <body>
@@ -112,11 +123,12 @@ USA
 
 <p>Our business opens at <time>09:00</time>.</p>
 
-
+<br>
+<br>
 
    
 
-8. **blockquote** and **cite :** Probably a very underrated tag in HTML. Whenever we used to do a project in school/college we used to include the references. These tags are the semantic versions that indicate that a given quote or reference is from outside source. 
+8. **blockquote** and **cite:** Probably a very underrated tag in HTML. Whenever we used to do a project in school/college we used to include the references. These tags are the semantic versions that indicate that a given quote or reference is from outside source. 
 
 ```html
 <figure>
@@ -135,7 +147,8 @@ USA
     <figcaption>--Teddy Roosevelt, <cite>Citizenship in a Republic Speach</cite></figcaption>
 </figure>
 
-
+<br>
+<br>
 
 
 There are lot more to this list but these are the top few I like. Hope you got to know something new from this documentation.
