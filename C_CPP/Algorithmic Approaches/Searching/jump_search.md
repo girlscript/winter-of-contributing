@@ -6,6 +6,7 @@
 ### **Let's understand with an example**   
  Suppose **start** is at starting of that block and **end** at last of that block then   
   a block where arr[**start**]<target<arr[**end**] is searched and when found linear search is performed in that block.  
+  ![alt text](https://static.studytonight.com/data-structures/images/comparing-a[12]-2.PNG)  
   **For example**,   
   Suppose we have an array **arr[]** of size **n** and block (to be jumped) size **m**. Then we search at the indexes arr[**0**], arr[**m**], arr[**2m**]…..arr[**km**] and so on.  
    Once we find the interval (**arr[km] < target < arr[(k+1)m]**), we perform a linear search operation from the index km to find the element target.  
