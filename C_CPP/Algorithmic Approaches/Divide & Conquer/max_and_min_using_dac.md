@@ -111,7 +111,8 @@ int main(){
 }
 
 ```
-Output
+#### Output
+
 ```
 Enter the size of  array : 7
 Enter elements to the array : 23 56 11 -34 0 98 3
