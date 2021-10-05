@@ -1,7 +1,7 @@
 # Domain Name Basics
 
 
-![]("https://github.com/TishaJhabak1014/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/Domain%20Name%20Basics/d1.gif?raw=true")
+![](C:\Users\user\winter-of-contributing\Web_Development\FrontEnd\Domain Name Basics\d1.gif)
 
 ## ***📌What is a domain name / domain?***
 
