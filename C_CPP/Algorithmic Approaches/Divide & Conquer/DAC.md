@@ -1,5 +1,5 @@
 # Divide and Conquer Algorithm
-As its anme suggest in this algorithmic approach we divide the given problem in to sub problem and then we solve each sub problem recursively and then we combine the result of each sub problem to get the solution.<br>
+As its name suggest in this algorithmic approach we divide the given problem in to sub problem and then we solve each sub problem recursively and then we combine the result of each sub problem to get the solution.<br>
 there are many algorith which are based on this technique but from those some of the important algorithm are:-<br>
 1. Binary search 
 2. Merge sort
