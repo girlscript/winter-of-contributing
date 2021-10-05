@@ -1,9 +1,52 @@
 # Trapping Rain Water Problem
 
 ## Overview
+<hr>
+Given n non-negative integers array arr representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining
 
+### Solution:
+  We would solve this problem with the following steps:
+  - Declare two array of size of main array namely ltr(Left To Right) and rtl(Right To Left). 
+  - Traverse the main array from Left to Right and fill the ltr array with max size encountered so far. 
+  - Again Traverse the main array from Right to Left and fill the rtl array with max size encountered so far.
+  - Now to get water at that level find out the min(ltr[i], rtl[i]) and subtract it with arr[i]
+
+![array](https://user-images.githubusercontent.com/63805002/136038692-820bcbc6-ea0b-44d4-9994-005c658e3320.png)
+### Implementation(C++) Naive approach:
+```c++
+#include<iostream.h> 
+#include<vector>
+#include<climits>
+
+using namespace std;
+int main(){
+    vector<int> arr{5,4,1,3,4};
+    int total_water = 0;
+    for(int i = 0; i < arr.size(); ++i){
+        int a = 0, b = 0;
+        for(int j = i; j>=0; --j){
+            if(arr[j] > a)
+                a = arr[j];
+        }
+        for(int k = i; k <arr.size(); ++k){
+            if(arr[k] > b)
+                b = arr[k];
+        }
+        int water = min(a,b) - arr[i];
+        total_water += water;
+    }
+    cout<<"Total water is "<<total_water<<endl;
+    return 0;
+}
 ```
-#include<bits/stdc++.h>
+
+### Implemetation(C++) O(n) Approach
+
+```c++
+#include<iostream.h> 
+#include<vector>
+#include<climits>
+
 using namespace std;
 
 int trappedWater(vector<int> heigths){
@@ -32,25 +75,14 @@ int main(){
     vector<int> arr{5,4,1,3,4};
     int total_water = 0;
 
-    // My Approach O(n^2)
-    /*
-    for(int i = 0; i < arr.size(); ++i){
-        int a = 0, b = 0;
-        for(int j = i; j>=0; --j){
-            if(arr[j] > a)
-                a = arr[j];
-        }
-        for(int k = i; k <arr.size(); ++k){
-            if(arr[k] > b)
-                b = arr[k];
-        }
-        int water = min(a,b) - arr[i];
-        total_water += water;
-    }
-
-    */
-
     cout<<"Total water is "<<trappedWater(arr)<<endl;
 
 }
 ```
+
+
+## Analysis
+<hr>
+This problem can be solved in O(n) and O(n^2) approach. For O(n), Basically it can be solved by scanning the array from both sides and then get the total.
+
+![array](https://user-images.githubusercontent.com/63805002/136040377-d6d7a053-c2c1-48cd-a689-a6798f92f2d6.png)
