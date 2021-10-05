@@ -464,6 +464,6 @@ A **color picker (also known as color chooser or color tool etc.)** is a graphic
 
 ## Thank you. 
   
- ![](images/gwoc_logo_forweb.png " Picture") 
+ 
   
- ![](images/img_1_1633004411409.jpg " Picture") 
+ 
