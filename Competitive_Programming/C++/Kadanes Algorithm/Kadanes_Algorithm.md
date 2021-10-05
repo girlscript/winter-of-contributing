@@ -27,24 +27,24 @@
 
 
 ### Approach
- The simple approach of Kadane’s algorithm is start looking for all positive elements of array and sum up them to store in a variable(let's say max_ending_here). Now, keep maintaining the track of maximum sum contiguous segment in another variable(max_so_far). Each time we get a positive-sum compare it with max_so_far and update max_so_far if it is greater than max_so_far. 
+ The simple approach of Kadane’s algorithm is start looking for all positive elements of array and sum up them to store in a variable(let's say max_ending_pos). Now, keep maintaining the track of maximum sum contiguous segment in another variable(prev_max). Each time we get a positive-sum compare it with prev_max and update prev_max if it is greater than prev_max. 
 
 
 
 ## Algorithm
 ```
     // Initialization
-    max_so_far = INT_MIN
-    max_ending_here = 0
+    prev_max = INT_MIN
+    max_ending_pos = 0
 
     // Loop for each element of the array
     for(i=0 to arraySize()-1)
-        max_ending_here = max_ending_here + a[i]
-        if(max_so_far < max_ending_here)
-            max_so_far = max_ending_here
-        if(max_ending_here < 0)
-            max_ending_here = 0
-    return max_so_far
+	    max_ending_pos = max_ending_pos + a[i]
+        if(prev_max < max_ending_pos)
+           prev_max = max_ending_pos
+        if(max_ending_pos < 0)
+           max_ending_pos = 0
+        return prev_max
 
 ```
 
@@ -61,30 +61,30 @@ using namespace std;
 
 int maxSubArraySum(int a[], int size)
 {
-	int max_so_far = INT_MIN, max_ending_here = 0;
+    int prev_max = INT_MIN, max_ending_pos = 0;
 	for (int i = 0; i < size; i++)
-	{
-		max_ending_here = max_ending_here + a[i];
-		if (max_so_far < max_ending_here)
-			max_so_far = max_ending_here;
-		if (max_ending_here < 0)
-			max_ending_here = 0;
-	}
-	return max_so_far;
+    {
+        max_ending_pos = max_ending_pos + a[i];
+        if (prev_max < max_ending_pos)
+            prev_max = max_ending_pos;
+        if (max_ending_pos < 0)
+            max_ending_pos = 0;
+    }
+    return prev_max;
 }
 
 
 int main()
 {
-	int n;
+    int n;
     cin>>n;
     int arr[n];
     for(int i=0; i<n; i++)
         cin>>arr[i];
 
     int max_sum = maxSubArraySum(arr,n);
-	cout << "Maximum contiguous sum is " << max_sum;
-	return 0;
+    cout << "Maximum contiguous sum is " << max_sum;
+    return 0;
 }
 ```
 
@@ -95,31 +95,31 @@ import java.util.*;
 
 class Kadane
 {
-	public static void main (String[] args)
-	{
+    public static void main (String[] args)
+    {
         Scanner sc= new Scanner(System.in);
         int n = sc.nextInt();
-		int [] a = new int[n];
-	    for(int i=0; i<n; i++){
-	        a[i]= sc.nextInt();
-	    }
-		System.out.println("Maximum contiguous sum is " + maxSubArraySum(a));
-	}
+        int [] a = new int[n];
+        for(int i=0; i<n; i++){
+            a[i]= sc.nextInt();
+        }
+        System.out.println("Maximum contiguous sum is " + maxSubArraySum(a));
+    }
 
-	static int maxSubArraySum(int a[])
-	{
-		int size = a.length;
-		int max_so_far = a[0], max_ending_here = 0;
-		for (int i = 0; i < size; i++)
-		{
-			max_ending_here += a[i];
-			if (max_so_far < max_ending_here)
-				max_so_far = max_ending_here;
-			if (max_ending_here < 0)
-				max_ending_here = 0;
-		}
-		return max_so_far;
-	}
+    static int maxSubArraySum(int a[])
+    {
+        int size = a.length;
+        int prev_max = a[0], max_ending_pos = 0;
+        for (int i = 0; i < size; i++)
+        {
+            max_ending_pos += a[i];
+            if (prev_max < max_ending_pos)
+                prev_max = max_ending_pos;
+            if (max_ending_pos < 0)
+                max_ending_pos = 0;
+        }
+        return prev_max;
+    }
 }
 
 ```
@@ -130,28 +130,28 @@ class Kadane
 
 int maxSubArraySum(int a[], int size)
 {
-	int max_so_far = a[0], max_ending_here = 0;
-	for (int i = 0; i < size; i++)
-	{
-		max_ending_here = max_ending_here + a[i];
-		if (max_so_far < max_ending_here)
-			max_so_far = max_ending_here;
-		if (max_ending_here < 0)
-			max_ending_here = 0;
-	}
-	return max_so_far;
+    int prev_max = a[0], max_ending_pos = 0;
+    for (int i = 0; i < size; i++)
+    {
+        max_ending_pos = max_ending_pos + a[i];
+        if (prev_max < max_ending_pos)
+            prev_max = max_ending_pos;
+        if (max_ending_pos < 0)
+            max_ending_pos = 0;
+    }
+    return prev_max;
 }
 
 int main(void)
 {
-	int n;
+    int n;
     scanf("%d",&n);
     int arr[n];
     for(int i=0; i<n; i++)
         scanf("%d",&arr[i]);
     int max_sum = maxSubArraySum(arr,n);
-	printf("Maximum contiguous sum is %d", max_sum);
-	return 0;
+    printf("Maximum contiguous sum is %d", max_sum);
+    return 0;
 }
 
 ```
