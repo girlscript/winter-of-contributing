@@ -1,7 +1,7 @@
 # **APPLICATIONS OF C++**
 
-C++ needs no inroduction to anyone in the modern world. Programmers across the globe have learned the language and have improvised quite innovatively to provide technology for the current and future needs.
-Young programmers are quite keen to learn CPP as their first language and therefore it would be apt to say that CPP is the gateway to the World of Programming! But since it is a back-end language and doesn't provide much output, it becomes easy for them to get bored in the middle of their learning process. To curb this problem it is improtant to know what you can do with CPP and where it is being used in our daily life.
+C++ needs no introduction to anyone in the modern world. Programmers across the globe have learned the language and have improvised quite innovatively to provide technology for the current and future needs.
+Young programmers are quite keen to learn CPP as their first language and therefore it would be apt to say that CPP is the gateway to the World of Programming! But since it is a back-end language and doesn't provide much output, it becomes easy for them to get bored in the middle of their learning process. To curb this problem it is important to know what you can do with CPP and where it is being used in our daily life.
 
 
 
