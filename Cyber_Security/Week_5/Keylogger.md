@@ -10,7 +10,7 @@ When you enter a password for the login screen on a website, whatever you type g
 These keyloggers run in the background in stealth mode and if properly made can bypass the antivirus detection too. Therefore, these keyloggers can be a serious threat to users.
 Nowadays, Keyloggers are being made where they can even capture the screenshots of the screen of the victim.
 <br><br>
-A keylogger can be used for good purposes as well, finding evidence for a crime or monitoring employee productivity, or monitoring your child's activity on any electronic devices.
+A keylogger can be used for good purposes as well, like finding evidence for a crime or monitoring employee productivity, or monitoring your child's activity on any electronic devices.
 <br><br>
 <strong>NOTE:</strong> Keyloggers do not affect the operating system performance. They are just used to spy on and monitor user's activity from the keyboard.
 
