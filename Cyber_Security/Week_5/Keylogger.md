@@ -10,8 +10,10 @@ A keylogger can be used for good purposes as well, finding evidence for a crime 
 NOTE: Keyloggers do not affect the operating system performance. They are just used to spy on and monitor user's activity from the keyboard.
 
 Some Free Keyloggers available on the Internet:
-. Spyrix Free Keylogger
-. Refog Personal Monitor
-. Elite logger
-. Actual logger
-. Kidlogger
+<ul>
+  <li>Spyrix Free Keylogger</li>
+  <li>Refog Personal Monitor</li>
+  <li>Elite logger</li>
+  <li>Actual logger</li>
+  <li>Kidlogger</li>
+<ul>
