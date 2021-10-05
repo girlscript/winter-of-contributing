@@ -2,6 +2,88 @@
 
 Manacher’s Algorithm helps us find the longest palindromic substring in the given string. It optimizes over the brute force solution by using some insights into how palindromes work. This algorithm is required to solve sub-problems of some very hard problems.
 
+## Notations
+
+Let c be the center of the longest length palindrome we have encountered till now. And let l and r be the left and right boundaries of this palindrome, i.e., the left-most character index and the right-most character index respectively. Now, let’s take an example to understand c, l, and r.
+
+Eg: “abacabacabb”
+
+When going from left to right, when i is at index 1, the longest palindromic substring is “aba” (length = 3).
+
+<img src = "https://hackernoon.com/_next/image?url=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1068%2F1*8On8DfmxTXExgw_Ac-Y8nw.jpeg&w=1920&q=75" width = "400" height = "150">
+
+c, l, and r for palindromic string “aba”
+
+The answer for the given string is 9 when the palindrome is centered at index 5; c, l, and r are as follows:
+
+<img src = "https://hackernoon.com/_next/image?url=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1068%2F1*sYkO6lOWxbsvR1XbbiHyYQ.jpeg&w=1920&q=75" width = "400" height = "150">
+
+Final c, l, and r positions for the whole string.
+
+Now that we know what c, l, and r denote, let's understand a few interesting facts about palindromes:- For any palindrome centered at a center c, the mirror of index j is j’ such that for palindrome “abacaba”, the mirror of j is j’ and the mirror of j’ is j.
+
+<img src = "https://hackernoon.com/_next/image?url=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1068%2F1*YcXzqyZ6oskuNVAOpyTwvA.jpeg&w=1920&q=75" width = "400" height = "150">
+
+When we move i from left to right, we try to “expand” the palindrome at each i. When I say the word expand, it means that we'll check whether there exists a palindrome centered at i and if there exists one, we'll store the “expansion length” to the left or to the right in a new array called P[] array or (some prefer) LPS[].
+
+If the palindrome at i expands beyond the current right boundary r, then c is updated to i and new l, r are found and updated.
+
+## Example
+
+Let’s take the previously discussed palindrome “abacaba” which is centered at i = 3.
+
+<img src = "https://hackernoon.com/_next/image?url=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1068%2F1*u7zwifrQrJYvkTLxoHTObg.jpeg&w=1920&q=75" width = "400" height = "150">
+
+P[i] = 3 as expansion length for palindrome centered at i is 3.
+
+Therefore, the P[] array stores the expansion length of the palindrome centered at each index. But we don’t need to manually go to each index and expand to check the expansion length every time. This is exactly where Manacher’s algorithm optimizes better than brute force, by using some insights on how palindromes work. Let’s see how the optimization is done.
+
+**Let’s see the P[] array for the string “abacaba”**
+
+<img src = "https://hackernoon.com/_next/image?url=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1067%2F1*tuhfTCNm-xHxwxK7wSUcbA.jpeg&w=1920&q=75" width = "400" height = "150">
+
+When i = 4, the index is inside the scope of the current longest palindrome, i.e., i < r. So, instead of naively expanding at i, we want to know the minimum expansion length that is certainly possible at i, so that we can expand on that minimum P[i] and see, instead of doing from start. So, we check for mirror i’.
+
+As long as the palindrome at index i’ does NOT expand beyond the left boundary (l) of the current longest palindrome, we can say that the minimum certainly possible expansion length at i is P[i’].
+
+Remember that we are only talking about the minimum possible expansion length, the actual expansion length could be more and, we’ll find that out by expanding later on. In this case, P[4] = P[2] = 0. We try to expand but still, P[4] remains 0.
+
+Now, if the palindrome at index i’ expands beyond the left boundary (l) of the current longest palindrome, we can say that the minimum certainly possible expansion length at i is r-i.
+
+Eg: “acacacb”
+
+<img src = "https://hackernoon.com/_next/image?url=https%3A%2F%2Fmiro.medium.com%2Fmax%2F598%2F1*P7-_fzuiMqa3O5Q344lKxQ.jpeg&w=1920&q=75" width = "300" height = "150">
+
+Here, palindrome centered at i’ expands beyond the left boundary.
+
+So, P[4] = 5–4 = 1
+
+If palindrome at i were to expand beyond r, then the character at index 6 should have been ‘a’. But if that were to happen, the current palindrome centered at c would NOT have been “cacac” but “acacaca”
+
+To sum up:
+
+```cpp
+//see if the mirror of i is expanding beyond the left boundary of current longest palindrome at center c
+//if it is, then take r - i
+//else take P[mirror]
+if(i < r){
+  P[i] = Math.min(r - i, P[mirror]);
+}
+```
+Updating P[i] to the minimum certainly possible expansion length.
+
+That’s it. Now the only thing left is to expand at i after P[i], so we check characters from index (P[i] + 1) and keep expanding at i.
+
+If this palindrome expands beyond r, update c to i and r to (i + P[i]).
+
+That's it! The P[] array is now filled and the maximum value in this array gives us the longest palindromic substring in the given string!
+
+We have taken an odd length string for the above explanation. So, for this algorithm to work out, we simply append N + 1 special characters (say ‘#’) in between every two characters, just to make sure that our modified string is always of odd length.
+
+Eg1: aba -> #a#b#a#
+
+Eg2: abba-> #a#b#b#a#
+
 ## Brute Force Approach:
 
 Find all possible sub-strings using 2 nested loops, this solution has O(N^2), where N s the length of the given string. Then for every substring, check if it is a palindrome or not in O(N), so the total time complexity is O(N^3).
@@ -127,7 +209,8 @@ int main() {
 
 `Space Complexity: O(n)`
 
-Here is a [Video](https://www.youtube.com/watch?v=V-sEwsca1ak) tutorial on Manacher's Algorithm.
+Here is a [**Video**](https://www.youtube.com/watch?v=V-sEwsca1ak) tutorial on Manacher's Algorithm.
 
-References:-
-https://www.hackerearth.com/practice/algorithms/string-algorithm/manachars-algorithm/tutorial/
+**References:-**
+* https://hackernoon.com/manachers-algorithm-explained-longest-palindromic-substring-22cb27a5e96f
+* https://www.hackerearth.com/practice/algorithms/string-algorithm/manachars-algorithm/tutorial/
