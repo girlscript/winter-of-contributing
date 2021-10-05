@@ -1,0 +1,3 @@
+- [Array Rotation](https://github.com/ankushsingh24/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Array/Array%20Rotation)
+- [Sparse Matrix and Polynomials Addition](Sparse%20Matrix%20and%20Polynomials%20Addition)
+- [LCM and GCD](https://github.com/ankushsingh24/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Array/LCM%20and%20GCD)
