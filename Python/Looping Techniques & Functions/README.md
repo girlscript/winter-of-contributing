@@ -1,4 +1,4 @@
-# Looping_Techniques_&_Functions_#3944
+# Looping Techniques & Functions #3944
 In **looping techniques**, we will discuss different functions that can be used accordingly in different scenarios, like looping through dictionaries etc.
 ##Functions covered are:
 -  zip()
