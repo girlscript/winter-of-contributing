@@ -89,7 +89,7 @@ h1{
 p{
     font-size: 25px;
 }
-@media(min-width:481px) and (max-width:767px){
+@media(min-width:320px) and (max-width:767px){
    h1{
        color: darkcyan;
        font-size: 50px;
@@ -108,3 +108,8 @@ p{
 </body>
 </html>
 ```
+
+## Output
+![onDesktops](https://mediaquery.samimunir2002.repl.co/onDesktops&Laptops.png)
+
+![onMobiles](https://mediaquery.samimunir2002.repl.co/onMobiles.png)
