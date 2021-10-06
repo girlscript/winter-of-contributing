@@ -1,4 +1,4 @@
-# ML-Breast-Cancer-Prediction
+# ML Breast Cancer Prediction
 Its an Machine Learning Model for Breast Cancer Prediction.
 <br/>
 Created a Machine Learning Model to predict the Breast Cancer by analyzing the factors and variables given in the Dataset.<br/>
