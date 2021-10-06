@@ -2,7 +2,7 @@
 
 <!-- ## Definition -->
 
-Given a rod of length n and an array of prices that includes prices of all pieces of size smaller than equal to n. 
+Given a rod of length n and an array of prices that includes prices of all pieces of size smaller than and equal to n. 
 Determine the maximum value obtainable by cutting up the rod and selling the pieces.
 
 Example: 
