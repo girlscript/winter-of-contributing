@@ -23,166 +23,106 @@ The form is divided in to sections called:-
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Phone number`
 
 **Here is the UI code**
-<div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f92672">&lt;</span><span style="color: #960050; background-color: #1e0010">!</span><span style="color: #f8f8f2">DOCTYPE</span> <span style="color: #f8f8f2">html</span><span style="color: #f92672">&gt;</span>
-<span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">html</span> <span style="color: #f8f8f2">lang</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;en&quot;</span><span style="color: #f92672">&gt;</span>
-  <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">head</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">meta</span> <span style="color: #f8f8f2">charset</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;UTF-8&quot;</span> <span style="color: #f92672">/&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">meta</span> <span style="color: #f8f8f2">name</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;viewport&quot;</span> <span style="color: #f8f8f2">content</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;width=device-width, initial-scale=1.0&quot;</span> <span style="color: #f92672">/&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">title</span><span style="color: #f92672">&gt;</span><span style="color: #f8f8f2">Document</span><span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">title</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">link</span>
-      <span style="color: #f8f8f2">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css&quot;</span>
-      <span style="color: #f8f8f2">rel</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;stylesheet&quot;</span>
-      <span style="color: #f8f8f2">integrity</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU&quot;</span>
-      <span style="color: #f8f8f2">crossorigin</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;anonymous&quot;</span>
-    <span style="color: #f92672">/&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">style</span><span style="color: #f92672">&gt;</span>
-      <span style="color: #f92672">.</span><span style="color: #f8f8f2">form</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">new</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #f8f8f2">margin</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">right:</span> <span style="color: #ae81ff">22</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
-        <span style="color: #f8f8f2">margin</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">left:</span> <span style="color: #ae81ff">20</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
-      <span style="color: #f8f8f2">}</span>
-      <span style="color: #f92672">.</span><span style="color: #f8f8f2">heading</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #f8f8f2">width:</span> <span style="color: #ae81ff">150</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
-        <span style="color: #f8f8f2">display:</span> <span style="color: #f8f8f2">flex;</span>
-        <span style="color: #f8f8f2">justify</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">content:</span> <span style="color: #f8f8f2">center;</span>
-        <span style="color: #f8f8f2">align</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">items:</span> <span style="color: #f8f8f2">center;</span>
-        <span style="color: #f8f8f2">color:</span> <span style="color: #75715e">#e9ecef;</span>
-        <span style="color: #f8f8f2">font</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">size:</span> <span style="color: #ae81ff">45</span><span style="color: #f8f8f2">px;</span>
-        <span style="color: #f8f8f2">font</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">family:</span> <span style="color: #f8f8f2">Arial,</span> <span style="color: #f8f8f2">Helvetica,</span> <span style="color: #f8f8f2">sans</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">serif;</span>
-      <span style="color: #f8f8f2">}</span>
-      <span style="color: #f92672">.</span><span style="color: #f8f8f2">register</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #f8f8f2">background:</span> <span style="color: #f8f8f2">linear</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">gradient(</span>
-          <span style="color: #ae81ff">162.29</span><span style="color: #f8f8f2">deg,</span>
-          <span style="color: #f8f8f2">rgba(</span><span style="color: #ae81ff">62</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">60</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">88</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">0.64</span><span style="color: #f8f8f2">)</span> <span style="color: #ae81ff">0.99</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">,</span>
-          <span style="color: #f8f8f2">rgba(</span><span style="color: #ae81ff">23</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">22</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">40</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">0</span><span style="color: #f8f8f2">)</span> <span style="color: #ae81ff">179.83</span><span style="color: #f92672">%</span>
-        <span style="color: #f8f8f2">);</span>
-        <span style="color: #f8f8f2">border</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">radius:</span> <span style="color: #ae81ff">20</span><span style="color: #f8f8f2">px;</span>
-        <span style="color: #f8f8f2">box</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">sizing:</span> <span style="color: #f8f8f2">border</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">box;</span>
-        <span style="color: #f8f8f2">margin</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">top:</span> <span style="color: #ae81ff">3</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
-        <span style="color: #f8f8f2">padding:</span> <span style="color: #ae81ff">3</span><span style="color: #f92672">%</span><span style="color: #f8f8f2">;</span>
-      <span style="color: #f8f8f2">}</span
-      <span style="color: #f92672">.</span><span style="color: #f8f8f2">centerheading</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #f8f8f2">font</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">size:</span> <span style="color: #ae81ff">30</span><span style="color: #f8f8f2">px;</span>
-        <span style="color: #f8f8f2">display:</span> <span style="color: #f8f8f2">flex;</span>
-        <span style="color: #f8f8f2">justify</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">content:</span> <span style="color: #f8f8f2">center;</span>
-      <span style="color: #f8f8f2">}</span>
-    <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">style</span><span style="color: #f92672">&gt;</span>
-  <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">head</span><span style="color: #f92672">&gt;</span>
-  <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">body</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">nav</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;navbar navbar-dark bg-dark&quot;</span><span style="color: #f92672">&gt;</span>
-      <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;container-fluid&quot;</span><span style="color: #f92672">&gt;</span>
-        <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">a</span>
-          <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;navbar-brand&quot;</span>
-          <span style="color: #f8f8f2">href</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://docs.google.com/spreadsheets/d/1owGzJeJTi-7V40Xi_7GgYHtdmZrIYVEpnA92yYP3VrY/edit#gid=0&quot;</span>
-          <span style="color: #f92672">&gt;</span><span style="color: #f8f8f2">Html</span> <span style="color: #f8f8f2">to</span> <span style="color: #f8f8f2">Google</span> <span style="color: #f8f8f2">sheets</span><span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">a</span>
-        <span style="color: #f92672">&gt;</span>
-      <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">nav</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;container register&quot;</span><span style="color: #f92672">&gt;</span>
-      <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row&quot;</span><span style="color: #f92672">&gt;</span>
-        <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;col-md-12&quot;</span><span style="color: #f92672">&gt;</span>
-          <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span>
-            <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;tab-pane fade show active text-align form-new&quot;</span>
-            <span style="color: #f8f8f2">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;home&quot;</span>
-            <span style="color: #f8f8f2">role</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;tabpanel&quot;</span>
-            <span style="color: #f8f8f2">aria</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">labelledby</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;home-tab&quot;</span>
-          <span style="color: #f92672">&gt;</span>
-            <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;shadow-lg p-3 mb-5 bg-body rounded&quot;</span><span style="color: #f92672">&gt;</span>
-              <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">section</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;centerheading&quot;</span><span style="color: #f92672">&gt;</span><span style="color: #f8f8f2">Html</span> <span style="color: #f8f8f2">data</span> <span style="color: #f8f8f2">to</span> <span style="color: #f8f8f2">google</span> <span style="color: #f8f8f2">sheet</span><span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">section</span><span style="color: #f92672">&gt;</span>
-            <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-            <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;row register-form&quot;</span><span style="color: #f92672">&gt;</span>
-              <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;col-md-12&quot;</span><span style="color: #f92672">&gt;</span>
-                <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">form</span> <span style="color: #f8f8f2">method</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;post&quot;</span> <span style="color: #f8f8f2">autocomplete</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;off&quot;</span> <span style="color: #f8f8f2">name</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;google-sheet&quot;</span><span style="color: #f92672">&gt;</span>
-                  <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-group&quot;</span><span style="color: #f92672">&gt;</span>
-                    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;input-group mb-3&quot;</span><span style="color: #f92672">&gt;</span>
-                      <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">input</span>
-                        <span style="color: #f8f8f2">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;text&quot;</span>
-                        <span style="color: #f8f8f2">name</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Name&quot;</span>
-                        <span style="color: #f8f8f2">value</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span>
-                        <span style="color: #f8f8f2">required</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span>
-                        <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-control&quot;</span>
-                        <span style="color: #f8f8f2">placeholder</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Recipient&#39;s username&quot;</span>
-                        <span style="color: #f8f8f2">aria</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">label</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Recipient&#39;s username&quot;</span>
-                        <span style="color: #f8f8f2">aria</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">describedby</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;basic-addon2&quot;</span>
-                      <span style="color: #f92672">/&gt;</span>
-                      <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">span</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;input-group-text&quot;</span> <span style="color: #f8f8f2">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;basic-addon2&quot;</span>
-                        <span style="color: #f92672">&gt;</span><span style="color: #f8f8f2">Your</span> <span style="color: #f8f8f2">name</span>
-                      <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">span</span><span style="color: #f92672">&gt;</span>
-                    <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-                  <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-                  <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-group&quot;</span><span style="color: #f92672">&gt;</span>
-                    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;input-group mb-3&quot;</span><span style="color: #f92672">&gt;</span>
-                      <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">input</span>
-                        <span style="color: #f8f8f2">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;text&quot;</span>
-                        <span style="color: #f8f8f2">name</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Email&quot;</span>
-                        <span style="color: #f8f8f2">value</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span>
-                        <span style="color: #f8f8f2">required</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span>
-                        <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-control&quot;</span>
-                        <span style="color: #f8f8f2">placeholder</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Your Email *&quot;</span>
-                        <span style="color: #f8f8f2">aria</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">label</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Recipient&#39;s username&quot;</span>
-                        <span style="color: #f8f8f2">aria</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">describedby</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;basic-addon2&quot;</span>
-                      <span style="color: #f92672">/&gt;</span>
-                      <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">span</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;input-group-text&quot;</span> <span style="color: #f8f8f2">id</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;basic-addon2&quot;</span>
-                        <span style="color: #f92672">&gt;</span><span style="color: #a6e22e">@gmail.com</span><span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">span</span>
-                      <span style="color: #f92672">&gt;</span>
-                    <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-                    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">img</span> <span style="color: #f8f8f2">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;./Googlesheet.png&quot;</span> <span style="color: #f8f8f2">alt</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span> <span style="color: #f92672">/&gt;</span>
-                  <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-                  <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-group&quot;</span><span style="color: #f92672">&gt;</span>
-                    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">input</span>
-                      <span style="color: #f8f8f2">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;number&quot;</span>
-                      <span style="color: #f8f8f2">name</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Phone&quot;</span>
-                      <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-control&quot;</span>
-                      <span style="color: #f8f8f2">placeholder</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Your Contact Number *&quot;</span>
-                      <span style="color: #f8f8f2">value</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span>
-                      <span style="color: #f8f8f2">required</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span>
-                    <span style="color: #f92672">/&gt;</span>
-                  <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-                  <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-group&quot;</span><span style="color: #f92672">&gt;</span>
-                    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;input-group mb-3&quot;</span><span style="color: #f92672">&gt;</span>
-                      <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">input</span>
-                        <span style="color: #f8f8f2">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;text&quot;</span>
-                        <span style="color: #f8f8f2">name</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Message&quot;</span>
-                        <span style="color: #f8f8f2">value</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span>
-                        <span style="color: #f8f8f2">required</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;&quot;</span>
-                        <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-control my-3&quot;</span>
-                        <span style="color: #f8f8f2">placeholder</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Enter the message&quot;</span>
-                        <span style="color: #f8f8f2">aria</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">label</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;Recipient&#39;s username&quot;</span>
-                        <span style="color: #f8f8f2">aria</span><span style="color: #f92672">-</span><span style="color: #f8f8f2">describedby</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;basic-addon2&quot;</span>
-                      <span style="color: #f92672">/&gt;</span>
-                    <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-                  <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-                  <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">div</span> <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;form-group&quot;</span><span style="color: #f92672">&gt;</span>
-                    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">button</span>
-                      <span style="color: #f8f8f2">type</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;submit&quot;</span>
-                      <span style="color: #f8f8f2">name</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;submit&quot;</span>
-                      <span style="color: #f8f8f2">class</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;btn btn-outline-success my-5 btn-lg&quot;</span>
-                    <span style="color: #f92672">&gt;</span>
-                      <span style="color: #f8f8f2">Success</span>
-                    <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">button</span><span style="color: #f92672">&gt;</span>
-                  <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-                <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">form</span><span style="color: #f92672">&gt;</span>
-              <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-            <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-          <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-        <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-      <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">div</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">script</span><span style="color: #f92672">&gt;</span>
-      <span style="color: #f8f8f2">const</span> <span style="color: #f8f8f2">scriptURL</span> <span style="color: #f92672">=</span>
-        <span style="color: #e6db74">&quot;https://script.google.com/macros/s/AKfycbxFnHqHV20SQOIIO3jyBYcxGb2Pv2l90Xpu0u_tEN3opfMMAAdry6ShlyIEfoaS3K-jBw/exec&quot;</span><span style="color: #f8f8f2">;</span>
-      <span style="color: #f8f8f2">const</span> <span style="color: #f8f8f2">form</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">document</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">forms[</span><span style="color: #e6db74">&quot;google-sheet&quot;</span><span style="color: #f8f8f2">];</span>
-      <span style="color: #f8f8f2">form</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">addEventListener(</span><span style="color: #e6db74">&quot;submit&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">(e)</span> <span style="color: #f92672">=&gt;</span> <span style="color: #f8f8f2">{</span>
-        <span style="color: #f8f8f2">e</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">preventDefault();</span>
-        <span style="color: #f8f8f2">fetch(scriptURL,</span> <span style="color: #f8f8f2">{</span> <span style="color: #f8f8f2">method:</span> <span style="color: #e6db74">&quot;POST&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">body:</span> <span style="color: #f8f8f2">new</span> <span style="color: #f8f8f2">FormData(form)</span> <span style="color: #f8f8f2">})</span>
-          <span style="color: #f92672">.</span><span style="color: #f8f8f2">then((response)</span> <span style="color: #f92672">=&gt;</span> <span style="color: #f8f8f2">alert(</span><span style="color: #e6db74">&quot;Thanks for fiiling the form&quot;</span><span style="color: #f8f8f2">))</span>
-          <span style="color: #f92672">.</span><span style="color: #f8f8f2">catch((error)</span> <span style="color: #f92672">=&gt;</span> <span style="color: #f8f8f2">console</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">error(</span><span style="color: #e6db74">&quot;Error!&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">error</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">message));</span>
-      <span style="color: #f8f8f2">});</span>
-    <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">script</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">script</span> <span style="color: #f8f8f2">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/</span><span style="color: #f8f8f2">script</span><span style="color: #f92672">&gt;</span>
-    <span style="color: #f92672">&lt;</span><span style="color: #f8f8f2">script</span> <span style="color: #f8f8f2">src</span><span style="color: #f92672">=</span><span style="color: #e6db74">&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;</span><span style="color: #f92672">&gt;&lt;/</span><span style="color: #f8f8f2">script</span><span style="color: #f92672">&gt;</span>
-  <span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">body</span><span style="color: #f92672">&gt;</span>
-<span style="color: #f92672">&lt;/</span><span style="color: #f8f8f2">html</span><span style="color: #f92672">&gt;</span>
+<div style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #ffffff">&lt;!DOCTYPE</span> <span style="color: #ffffff">html&gt;</span>
+<span style="color: #ffffff">&lt;html</span> <span style="color: #ffffff">lang=</span><span style="color: #0086d2">&quot;en&quot;</span><span style="color: #ffffff">&gt;</span>
+<span style="color: #ffffff">&lt;head&gt;</span>
+    <span style="color: #ffffff">&lt;meta</span> <span style="color: #ffffff">charset=</span><span style="color: #0086d2">&quot;UTF-8&quot;</span> <span style="color: #ffffff">/&gt;</span>
+    <span style="color: #ffffff">&lt;meta</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;viewport&quot;</span> <span style="color: #ffffff">content=</span><span style="color: #0086d2">&quot;width=device-width, initial-scale=1.0&quot;</span> <span style="color: #ffffff">/&gt;</span>
+    <span style="color: #ffffff">&lt;title&gt;Document&lt;/title&gt;</span>
+    <span style="color: #ffffff">&lt;link</span> <span style="color: #ffffff">href=</span><span style="color: #0086d2">&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css&quot;</span> <span style="color: #ffffff">rel=</span><span style="color: #0086d2">&quot;stylesheet&quot;</span> <span style="color: #ffffff">integrity=</span><span style="color: #0086d2">&quot;sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU&quot;</span> <span style="color: #ffffff">crossorigin=</span><span style="color: #0086d2">&quot;anonymous&quot;</span><span style="color: #ffffff">&gt;</span>
+    <span style="color: #ffffff">&lt;style&gt;</span>
+        <span style="color: #ffffff">.form-new</span> <span style="color: #ffffff">{</span>
+            <span style="color: #ffffff">margin-right:</span> <span style="color: #0086f7; font-weight: bold">22</span><span style="color: #ffffff">%;</span>
+            <span style="color: #ffffff">margin-left:</span> <span style="color: #0086f7; font-weight: bold">20</span><span style="color: #ffffff">%;</span>
+        <span style="color: #ffffff">}</span>
+        <span style="color: #ffffff">.heading</span> <span style="color: #ffffff">{</span>
+            <span style="color: #ffffff">width:</span> <span style="color: #0086f7; font-weight: bold">150</span><span style="color: #ffffff">%;</span>
+            <span style="color: #ffffff">display:</span> <span style="color: #ffffff">flex;</span>
+            <span style="color: #ffffff">justify-content:</span> <span style="color: #ffffff">center;</span>
+            <span style="color: #ffffff">align-items:</span> <span style="color: #ffffff">center;</span>
+            <span style="color: #ffffff">color:</span> <span style="color: #008800; font-style: italic; background-color: #0f140f">#e9ecef;</span>
+            <span style="color: #ffffff">font-size:</span> <span style="color: #0086f7; font-weight: bold">45</span><span style="color: #ffffff">px;</span>
+            <span style="color: #ffffff">font-family:</span> <span style="color: #ffffff">Arial,</span> <span style="color: #ffffff">Helvetica,</span> <span style="color: #ffffff">sans-serif;</span>
+        <span style="color: #ffffff">}</span>
+        <span style="color: #ffffff">.register</span> <span style="color: #ffffff">{</span>
+            <span style="color: #ffffff">background:</span> <span style="color: #ffffff">linear-gradient(</span><span style="color: #0086f7; font-weight: bold">162.29</span><span style="color: #ffffff">deg,</span> <span style="color: #ffffff">rgba(</span><span style="color: #0086f7; font-weight: bold">62</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">60</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">88</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">0.64</span><span style="color: #ffffff">)</span> <span style="color: #0086f7; font-weight: bold">0.99</span><span style="color: #ffffff">%,</span> <span style="color: #ffffff">rgba(</span><span style="color: #0086f7; font-weight: bold">23</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">22</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">40</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">0</span><span style="color: #ffffff">)</span> <span style="color: #0086f7; font-weight: bold">179.83</span><span style="color: #ffffff">%);</span>
+            <span style="color: #ffffff">border-radius:</span> <span style="color: #0086f7; font-weight: bold">20</span><span style="color: #ffffff">px;</span>
+            <span style="color: #ffffff">box-sizing:</span> <span style="color: #ffffff">border-box;</span>
+            <span style="color: #ffffff">margin-top:</span> <span style="color: #0086f7; font-weight: bold">3</span><span style="color: #ffffff">%;</span>
+            <span style="color: #ffffff">padding:</span> <span style="color: #0086f7; font-weight: bold">3</span><span style="color: #ffffff">%;</span>
+        <span style="color: #ffffff">}</span>
+        <span style="color: #ffffff">.centerheading{</span>
+            <span style="color: #ffffff">font-size:</span> <span style="color: #0086f7; font-weight: bold">30</span><span style="color: #ffffff">px;</span>
+            <span style="color: #ffffff">display:</span> <span style="color: #ffffff">flex;</span>
+            <span style="color: #ffffff">justify-content:</span> <span style="color: #ffffff">center;</span>  
+        <span style="color: #ffffff">}</span>
+    <span style="color: #ffffff">&lt;/style&gt;</span>
+<span style="color: #ffffff">&lt;/head&gt;</span>
+<span style="color: #ffffff">&lt;body&gt;</span>
+    <span style="color: #ffffff">&lt;nav</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;navbar navbar-dark bg-dark&quot;</span><span style="color: #ffffff">&gt;</span>
+      <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;container-fluid&quot;</span><span style="color: #ffffff">&gt;</span>
+        <span style="color: #ffffff">&lt;a</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;navbar-brand&quot;</span> <span style="color: #ffffff">href=</span><span style="color: #0086d2">&quot;https://docs.google.com/spreadsheets/d/1owGzJeJTi-7V40Xi_7GgYHtdmZrIYVEpnA92yYP3VrY/edit#gid=0&quot;</span><span style="color: #ffffff">&gt;Html</span> <span style="color: #ffffff">to</span> <span style="color: #ffffff">Google</span> <span style="color: #ffffff">sheets&lt;/a&gt;</span>
+      <span style="color: #ffffff">&lt;/div&gt;</span>
+    <span style="color: #ffffff">&lt;/nav&gt;</span>
+    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;container register&quot;</span><span style="color: #ffffff">&gt;</span>
+        <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;row&quot;</span><span style="color: #ffffff">&gt;</span>
+            <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;col-md-12&quot;</span><span style="color: #ffffff">&gt;</span>
+                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;tab-pane fade show active text-align form-new&quot;</span> <span style="color: #ffffff">id=</span><span style="color: #0086d2">&quot;home&quot;</span> <span style="color: #ffffff">role=</span><span style="color: #0086d2">&quot;tabpanel&quot;</span>
+                    <span style="color: #ffffff">aria-labelledby=</span><span style="color: #0086d2">&quot;home-tab&quot;</span><span style="color: #ffffff">&gt;</span>
+                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;shadow-lg p-3 mb-5 bg-body rounded &quot;</span><span style="color: #ffffff">&gt;</span>
+                       <span style="color: #ffffff">&lt;section</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;centerheading&quot;</span><span style="color: #ffffff">&gt;Html</span> <span style="color: #ffffff">data</span> <span style="color: #ffffff">to</span> <span style="color: #ffffff">google</span> <span style="color: #ffffff">sheet&lt;/section&gt;&lt;/div&gt;</span>
+                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;row register-form&quot;</span><span style="color: #ffffff">&gt;</span>
+                        <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;col-md-12&quot;</span><span style="color: #ffffff">&gt;</span>
+                            <span style="color: #ffffff">&lt;form</span> <span style="color: #ffffff">method=</span><span style="color: #0086d2">&quot;post&quot;</span> <span style="color: #ffffff">autocomplete=</span><span style="color: #0086d2">&quot;off&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;google-sheet&quot;</span><span style="color: #ffffff">&gt;</span>
+                                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
+                                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group mb-3&quot;</span><span style="color: #ffffff">&gt;</span>
+                                      <span style="color: #ffffff">&lt;input</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;text&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;Name&quot;</span>   <span style="color: #ffffff">value=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">required=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-control&quot;</span> <span style="color: #ffffff">placeholder=</span><span style="color: #0086d2">&quot;Recipient&#39;s username&quot;</span> <span style="color: #ffffff">aria-label=</span><span style="color: #0086d2">&quot;Recipient&#39;s username&quot;</span> <span style="color: #ffffff">aria-describedby=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;</span>
+                                      <span style="color: #ffffff">&lt;span</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group-text&quot;</span> <span style="color: #ffffff">id=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;Your</span> <span style="color: #ffffff">name</span> <span style="color: #ffffff">&lt;/span&gt;</span>
+                                    <span style="color: #ffffff">&lt;/div&gt;</span>
+                                <span style="color: #ffffff">&lt;/div&gt;</span>
+                                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
+                                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group mb-3&quot;</span><span style="color: #ffffff">&gt;</span>
+                                      <span style="color: #ffffff">&lt;input</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;text&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;Email&quot;</span>  <span style="color: #ffffff">value=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">required=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-control&quot;</span><span style="color: #ffffff">placeholder=</span><span style="color: #0086d2">&quot;Your Email *&quot;</span> <span style="color: #ffffff">aria-label=</span><span style="color: #0086d2">&quot;Recipient&#39;s username&quot;</span> <span style="color: #ffffff">aria-describedby=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;</span>
+                                      <span style="color: #ffffff">&lt;span</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group-text&quot;</span> <span style="color: #ffffff">id=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;@gmail.com&lt;/span&gt;</span>
+                                    <span style="color: #ffffff">&lt;/div&gt;</span>
+                               <span style="color: #ffffff">&lt;img</span> <span style="color: #ffffff">src=</span><span style="color: #0086d2">&quot;./Googlesheet.png&quot;</span> <span style="color: #ffffff">alt=</span><span style="color: #0086d2">&quot;&quot;</span><span style="color: #ffffff">&gt;</span>
+                                <span style="color: #ffffff">&lt;/div&gt;</span>
+                                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
+                                    <span style="color: #ffffff">&lt;input</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;number&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;Phone&quot;</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-control&quot;</span>
+                                        <span style="color: #ffffff">placeholder=</span><span style="color: #0086d2">&quot;Your Contact Number *&quot;</span> <span style="color: #ffffff">value=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">required=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">/&gt;</span>
+                                <span style="color: #ffffff">&lt;/div&gt;</span>
+                                 <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
+                                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group mb-3&quot;</span><span style="color: #ffffff">&gt;</span>
+                                      <span style="color: #ffffff">&lt;input</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;text&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;Message&quot;</span>   <span style="color: #ffffff">value=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">required=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-control my-3&quot;</span> <span style="color: #ffffff">placeholder=</span><span style="color: #0086d2">&quot;Enter the message&quot;</span> <span style="color: #ffffff">aria-label=</span><span style="color: #0086d2">&quot;Recipient&#39;s username&quot;</span> <span style="color: #ffffff">aria-describedby=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;</span>
+                                    <span style="color: #ffffff">&lt;/div&gt;</span>
+                                <span style="color: #ffffff">&lt;/div&gt;</span>
+                                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
+                                    <span style="color: #ffffff">&lt;button</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;submit&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;submit&quot;</span>  <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;btn btn-outline-success my-5 btn-lg&quot;</span><span style="color: #ffffff">&gt;Success&lt;/button&gt;</span>
+                                <span style="color: #ffffff">&lt;/div&gt;</span>                           
+                            <span style="color: #ffffff">&lt;/form&gt;</span>
+                        <span style="color: #ffffff">&lt;/div&gt;</span>
+                    <span style="color: #ffffff">&lt;/div&gt;</span>
+                <span style="color: #ffffff">&lt;/div&gt;</span>
+            <span style="color: #ffffff">&lt;/div&gt;</span>
+        <span style="color: #ffffff">&lt;/div&gt;</span>
+    <span style="color: #ffffff">&lt;/div&gt;</span>
+    <span style="color: #ffffff">&lt;script&gt;</span>
+        <span style="color: #ffffff">const</span> <span style="color: #ffffff">scriptURL</span> <span style="color: #ffffff">=</span>
+            <span style="color: #0086d2">&quot;https://script.google.com/macros/s/AKfycbxFnHqHV20SQOIIO3jyBYcxGb2Pv2l90Xpu0u_tEN3opfMMAAdry6ShlyIEfoaS3K-jBw/exec&quot;</span><span style="color: #ffffff">;</span>
+        <span style="color: #ffffff">const</span> <span style="color: #ffffff">form</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">document.forms[</span><span style="color: #0086d2">&quot;google-sheet&quot;</span><span style="color: #ffffff">];</span>
+        <span style="color: #ffffff">form.addEventListener(</span><span style="color: #0086d2">&quot;submit&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">(e)</span> <span style="color: #ffffff">=&gt;</span> <span style="color: #ffffff">{</span>
+            <span style="color: #ffffff">e.preventDefault();</span>
+            <span style="color: #ffffff">fetch(scriptURL,</span> <span style="color: #ffffff">{</span> <span style="color: #ffffff">method:</span> <span style="color: #0086d2">&quot;POST&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">body:</span> <span style="color: #ffffff">new</span> <span style="color: #ffffff">FormData(form)</span> <span style="color: #ffffff">})</span>
+                <span style="color: #ffffff">.then((response)</span> <span style="color: #ffffff">=&gt;</span> <span style="color: #ffffff">alert(</span><span style="color: #0086d2">&quot;Thanks for fiiling the form&quot;</span><span style="color: #ffffff">))</span>
+                <span style="color: #ffffff">.catch((error)</span> <span style="color: #ffffff">=&gt;</span> <span style="color: #ffffff">console.error(</span><span style="color: #0086d2">&quot;Error!&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">error.message));</span>
+        <span style="color: #ffffff">});</span>
+    <span style="color: #ffffff">&lt;/script&gt;</span>
+    <span style="color: #ffffff">&lt;script</span> <span style="color: #ffffff">src=</span><span style="color: #0086d2">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js&quot;</span><span style="color: #ffffff">&gt;&lt;/script&gt;</span>
+    <span style="color: #ffffff">&lt;script</span> <span style="color: #ffffff">src=</span><span style="color: #0086d2">&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;</span><span style="color: #ffffff">&gt;&lt;/script&gt;</span>
+<span style="color: #ffffff">&lt;/body&gt;</span>
+<span style="color: #ffffff">&lt;/html&gt;</span>
 </pre></div>
+
 
 <hr>
 
@@ -199,36 +139,37 @@ The below mention code which links the form with the html forms
 <br>
 
 **Here is the javascript code**
-<div style="background: #272822; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #f8f8f2">var</span> <span style="color: #f8f8f2">GooglesheetName</span> <span style="color: #f92672">=</span> <span style="color: #e6db74">&quot;Sheet1&quot;</span><span style="color: #f8f8f2">;</span>
-<span style="color: #f8f8f2">var</span> <span style="color: #f8f8f2">scriptProp</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">PropertiesService</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getScriptProperties();</span>
-<span style="color: #f8f8f2">function</span> <span style="color: #f8f8f2">intialSetup()</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #f8f8f2">var</span> <span style="color: #f8f8f2">activeSpreadsheet</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">SpreadsheetApp</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getActiveSpreadsheet();</span>
-  <span style="color: #f8f8f2">scriptProp</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">setProperty(</span><span style="color: #e6db74">&quot;key&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">activeSpreadsheet</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getId());</span>
-<span style="color: #f8f8f2">}</span>
-<span style="color: #f8f8f2">function</span> <span style="color: #f8f8f2">doPost(e)</span> <span style="color: #f8f8f2">{</span>
-  <span style="color: #f8f8f2">var</span> <span style="color: #f8f8f2">lock</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">LockService</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getScriptLock();</span>
-  <span style="color: #f8f8f2">lock</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">tryLock(</span><span style="color: #ae81ff">10000</span><span style="color: #f8f8f2">);</span>
-  <span style="color: #66d9ef">try</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #f8f8f2">var</span> <span style="color: #f8f8f2">doc</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">SpreadsheetApp</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">openById(scriptProp</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getProperty(</span><span style="color: #e6db74">&quot;key&quot;</span><span style="color: #f8f8f2">));</span>
-    <span style="color: #f8f8f2">var</span> <span style="color: #f8f8f2">sheet</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">doc</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getSheetByName(GooglesheetName);</span>
-    <span style="color: #f8f8f2">var</span> <span style="color: #f8f8f2">headers</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">sheet</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getRange(</span><span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">sheet</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getLastColumn())</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getValues()[</span><span style="color: #ae81ff">0</span><span style="color: #f8f8f2">];</span>
-    <span style="color: #f8f8f2">var</span> <span style="color: #f8f8f2">nextRow</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">sheet</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getLastRow()</span> <span style="color: #f92672">+</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">;</span>
-    <span style="color: #f8f8f2">var</span> <span style="color: #f8f8f2">newRow</span> <span style="color: #f92672">=</span> <span style="color: #f8f8f2">headers</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">map(function</span> <span style="color: #f8f8f2">(header)</span> <span style="color: #f8f8f2">{</span>
-      <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">header</span> <span style="color: #f92672">===</span> <span style="color: #e6db74">&quot;timestamp&quot;</span> <span style="color: #960050; background-color: #1e0010">?</span> <span style="color: #f8f8f2">new</span> <span style="color: #f8f8f2">Date()</span> <span style="color: #f8f8f2">:</span> <span style="color: #f8f8f2">e</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">parameter[header];</span>
-    <span style="color: #f8f8f2">});</span>
-    <span style="color: #f8f8f2">sheet</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">getRange(nextRow,</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span> <span style="color: #ae81ff">1</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">newRow</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">length)</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">setValues([newRow]);</span>
-    <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">ContentService</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">createTextOutput(</span>
-      <span style="color: #f8f8f2">JSON</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">stringify({</span> <span style="color: #f8f8f2">result:</span> <span style="color: #e6db74">&quot;success&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">row:</span> <span style="color: #f8f8f2">nextRow</span> <span style="color: #f8f8f2">})</span>
-    <span style="color: #f8f8f2">)</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">setMimeType(ContentService</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">MimeType</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">JSON);</span>
-  <span style="color: #f8f8f2">}</span> <span style="color: #f8f8f2">catch</span> <span style="color: #f8f8f2">(e)</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #66d9ef">return</span> <span style="color: #f8f8f2">ContentService</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">createTextOutput(</span>
-      <span style="color: #f8f8f2">JSON</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">stringify({</span> <span style="color: #f8f8f2">result:</span> <span style="color: #e6db74">&quot;error&quot;</span><span style="color: #f8f8f2">,</span> <span style="color: #f8f8f2">error:</span> <span style="color: #f8f8f2">e</span> <span style="color: #f8f8f2">})</span>
-    <span style="color: #f8f8f2">)</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">setMimeType(ContentService</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">MimeType</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">JSON);</span>
-  <span style="color: #f8f8f2">}</span> <span style="color: #66d9ef">finally</span> <span style="color: #f8f8f2">{</span>
-    <span style="color: #f8f8f2">lock</span><span style="color: #f92672">.</span><span style="color: #f8f8f2">releaseLock();</span>
-  <span style="color: #f8f8f2">}</span>
-<span style="color: #f8f8f2">}</span>
+<!-- HTML generated using hilite.me --><div style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #ffffff">var</span> <span style="color: #ffffff">GooglesheetName</span> <span style="color: #ffffff">=</span> <span style="color: #0086d2">&quot;Sheet1&quot;</span><span style="color: #ffffff">;</span>
+<span style="color: #ffffff">var</span> <span style="color: #ffffff">scriptProp</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">PropertiesService.getScriptProperties();</span>
+<span style="color: #ffffff">function</span> <span style="color: #ffffff">intialSetup()</span> <span style="color: #ffffff">{</span>
+  <span style="color: #ffffff">var</span> <span style="color: #ffffff">activeSpreadsheet</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">SpreadsheetApp.getActiveSpreadsheet();</span>
+  <span style="color: #ffffff">scriptProp.setProperty(</span><span style="color: #0086d2">&quot;key&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">activeSpreadsheet.getId());</span>
+<span style="color: #ffffff">}</span>
+<span style="color: #ffffff">function</span> <span style="color: #ffffff">doPost(e)</span> <span style="color: #ffffff">{</span>
+  <span style="color: #ffffff">var</span> <span style="color: #ffffff">lock</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">LockService.getScriptLock();</span>
+  <span style="color: #ffffff">lock.tryLock(</span><span style="color: #0086f7; font-weight: bold">10000</span><span style="color: #ffffff">);</span>
+  <span style="color: #fb660a; font-weight: bold">try</span> <span style="color: #ffffff">{</span>
+    <span style="color: #ffffff">var</span> <span style="color: #ffffff">doc</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">SpreadsheetApp.openById(scriptProp.getProperty(</span><span style="color: #0086d2">&quot;key&quot;</span><span style="color: #ffffff">));</span>
+    <span style="color: #ffffff">var</span> <span style="color: #ffffff">sheet</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">doc.getSheetByName(GooglesheetName);</span>
+    <span style="color: #ffffff">var</span> <span style="color: #ffffff">headers</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">sheet.getRange(</span><span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">sheet.getLastColumn()).getValues()[</span><span style="color: #0086f7; font-weight: bold">0</span><span style="color: #ffffff">];</span>
+    <span style="color: #ffffff">var</span> <span style="color: #ffffff">nextRow</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">sheet.getLastRow()</span> <span style="color: #ffffff">+</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">;</span>
+    <span style="color: #ffffff">var</span> <span style="color: #ffffff">newRow</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">headers.map(function</span> <span style="color: #ffffff">(header)</span> <span style="color: #ffffff">{</span>
+      <span style="color: #fb660a; font-weight: bold">return</span> <span style="color: #ffffff">header</span> <span style="color: #ffffff">===</span> <span style="color: #0086d2">&quot;timestamp&quot;</span> <span style="color: #ffffff">?</span> <span style="color: #ffffff">new</span> <span style="color: #ffffff">Date()</span> <span style="color: #ffffff">:</span> <span style="color: #ffffff">e.parameter[header];</span>
+    <span style="color: #ffffff">});</span>
+    <span style="color: #ffffff">sheet.getRange(nextRow,</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">newRow.length).setValues([newRow]);</span>
+    <span style="color: #fb660a; font-weight: bold">return</span> <span style="color: #ffffff">ContentService.createTextOutput(</span>
+      <span style="color: #ffffff">JSON.stringify({</span> <span style="color: #ffffff">result:</span> <span style="color: #0086d2">&quot;success&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">row:</span> <span style="color: #ffffff">nextRow</span> <span style="color: #ffffff">})</span>
+    <span style="color: #ffffff">).setMimeType(ContentService.MimeType.JSON);</span>
+  <span style="color: #ffffff">}</span> <span style="color: #ffffff">catch</span> <span style="color: #ffffff">(e)</span> <span style="color: #ffffff">{</span>
+    <span style="color: #fb660a; font-weight: bold">return</span> <span style="color: #ffffff">ContentService.createTextOutput(</span>
+      <span style="color: #ffffff">JSON.stringify({</span> <span style="color: #ffffff">result:</span> <span style="color: #0086d2">&quot;error&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">error:</span> <span style="color: #ffffff">e</span> <span style="color: #ffffff">})</span>
+    <span style="color: #ffffff">).setMimeType(ContentService.MimeType.JSON);</span>
+  <span style="color: #ffffff">}</span> <span style="color: #fb660a; font-weight: bold">finally</span> <span style="color: #ffffff">{</span>
+    <span style="color: #ffffff">lock.releaseLock();</span>
+  <span style="color: #ffffff">}</span>
+<span style="color: #ffffff">}</span>
 </pre></div>
+
 
 
 
