@@ -13,7 +13,9 @@ The different types of Notifications that can be implemented in our Apps are :
 These are the most fundamental type of Notification which includes a title, a message body and a picture (optional).
 The following code shows how one can implement this type of notification in their apps:
 
-![image](https://user-images.githubusercontent.com/79036525/135770019-32758287-0efe-4737-a147-35fdf98a214d.png)
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/79036525/135770019-32758287-0efe-4737-a147-35fdf98a214d.png">
+ </p>
 
 
      NotificationCompat.Builder builder=new NotificationCompat.Builder(MainActivity.this)
@@ -39,9 +41,11 @@ The following code shows how one can implement this type of notification in thei
   ## Big Text Style Notification
   This type is used to create Notifications containing more than one line of text. The below code shows this type.
   
-  ![image](https://user-images.githubusercontent.com/79036525/135770402-3764e207-a136-4a0f-83fb-624ed85b11ed.png)
-
-  
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/79036525/135770402-3764e207-a136-4a0f-83fb-624ed85b11ed.png">
+ </p>
+ 
+ 
     public void showNotification(View view) {
           createNotificationChannel();
           NotificationCompat.Builder builder = new NotificationCompat.Builder(MainActivity.this, "Big Text Notification")
@@ -71,7 +75,10 @@ The following code shows how one can implement this type of notification in thei
   ## Big Picture Style Notification :
   This type includes large pictures in the Notification on expanding it. This can be implemented using the following code:
   
-  ![image](https://user-images.githubusercontent.com/79036525/135770609-27034e55-8aaf-4403-a3f6-772ee126d3f7.png)
+  <p align="center">
+    <img src="https://user-images.githubusercontent.com/79036525/135770609-27034e55-8aaf-4403-a3f6-772ee126d3f7.png">
+ </p>
+  
 
       public void showNotification(View view) {
             createNotificationChannel();
@@ -103,7 +110,9 @@ The following code shows how one can implement this type of notification in thei
   ## Inbox Style Notification :
   This is seen mostly in Chat Applications where all the messages from the other Users can be seen in the Notification.
   
-  ![image](https://user-images.githubusercontent.com/79036525/135770843-e976e4e5-86a3-49ad-aad3-30db41452825.png)
+   <p align="center">
+    <img src="https://user-images.githubusercontent.com/79036525/135770843-e976e4e5-86a3-49ad-aad3-30db41452825.png">
+ </p>
 
   
     public void showNotification(View view) {
@@ -138,7 +147,9 @@ The following code shows how one can implement this type of notification in thei
   ##  Notification Actions :
   Sometimes we need to perform a task directly from the Notification itself. In such cases we use the notification Actions.
   
-  ![image](https://user-images.githubusercontent.com/79036525/135771070-882c18ed-fe90-443c-84cb-b164049d49a3.png)
+   <p align="center">
+    <img src="https://user-images.githubusercontent.com/79036525/135771070-882c18ed-fe90-443c-84cb-b164049d49a3.png">
+ </p>
 
   
   
