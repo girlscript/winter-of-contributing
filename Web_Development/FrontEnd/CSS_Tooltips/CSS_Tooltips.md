@@ -75,6 +75,9 @@ A tooltip is often used to specify extra information about something when the us
  ### Positioning Tooltips
 In this example, the tooltip is placed to the right (left:105%) of the "hoverable" text (```<div>```). Also note that top:-5px is used to place it in the middle of its container element. We use the number 5 because the tooltip text has a top and bottom padding of 5px. If you increase its padding, also increase the value of the top property to ensure that it stays in the middle (if this is something you want). The same applies if you want the tooltip placed to the left.
 
+
+
+
 > Right Tooltip
 
 ```html
@@ -86,6 +89,10 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
      </style>
 ```
   
+  ![Screenshot (22)](https://user-images.githubusercontent.com/76725762/136219028-361596cb-6a8e-44f7-a969-2d186590873f.png)
+![Screenshot (26)](https://user-images.githubusercontent.com/76725762/136219092-989a0286-b620-4f15-8dab-da0cf92dcaa2.png)
+
+  
 > Left Tooltip
 
 ```html
@@ -96,6 +103,10 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
     }
    </style>
 ```
+
+![Screenshot (24)](https://user-images.githubusercontent.com/76725762/136219154-7438981f-c732-4065-ad80-15023fdc6b1b.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/76725762/136219206-37ff1ddb-8835-49fd-8d22-71892a37d2dc.png)
+
   
 > Top Tooltip
 ```html
@@ -108,6 +119,10 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
     }
    </style>
 ```
+
+![Screenshot (21)](https://user-images.githubusercontent.com/76725762/136219248-8404e7f5-c8f8-4dd5-a7ce-82764d090406.png)
+![Screenshot (25)](https://user-images.githubusercontent.com/76725762/136219293-a84bc01d-79d3-42ce-bf7e-c177cfbf4fc4.png)
+
   
  > Bottom Tooltip
 
@@ -121,6 +136,10 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
     }
   </style>
  ```
+ 
+ ![Screenshot (23)](https://user-images.githubusercontent.com/76725762/136219347-5448b3dd-5b6c-44a7-b5e6-c1bf2137be55.png)
+![Screenshot (27)](https://user-images.githubusercontent.com/76725762/136219370-dd3d84fe-144a-421b-bd3d-934eade7ccd5.png)
+
   
  ### Tooltip Arrows
   
