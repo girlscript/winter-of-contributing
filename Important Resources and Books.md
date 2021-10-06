@@ -1,4 +1,4 @@
-<!-- Important Resources and Books -->
+"Important Resources and Books"
 **************************************************************************************************************************************************************************************************************************************************************
 For any interview these are some common process:
 
@@ -7,22 +7,22 @@ In this round basically the resume of the applicants is reviewed and accordingly
 Apart from skills and projects a strong resume includes a good amount of Internship experience, at least one Volunteer Experience and Additional Certifications with some achievement are a must.
 
 <!-- Technical Interview -->
-Technical Interview(Time – 1 hour)
+Technical Interview( "takes 1 hours")
 
 
 <!-- AA Round Interview -->
-AA Round(Time – 30 mins)
+AA Round( "takes 30 min")
 
 <!-- HM Round Interview -->
-HM Round(Time – 1 hour)
+HM Round( "takes 1 hours")
 quetion based on Technical, Resume Based, Situation-Based Behavioural questions, Guesstimates, Puzzles and cs core fundamentals.
 
 *****************************************************************************************************************************************************************************************************************************************************************
 
-round 1 : Dsa rouund
+<h1>round 1 : Dsa rouund</h1>
+<h3>In this particular round the candidates have to slove 3-4 que based on Data Structures and Algorithms.Quetions level depends on company to company.</h3>
 
-In this particular round the candidates have to slove 3-4 que based on Data Structures and Algorithms.Quetions level depends on compamny to companmy.
-<!-- viedo Resources [available on you tube] -->
+<h3>viedo Resources [available on you tube]</h3>
 * codewithhaary 
 * Anuj bhaiya 
 * striver [take u forward]
@@ -31,13 +31,13 @@ In this particular round the candidates have to slove 3-4 que based on Data Stru
 * Aditya verma sir
 * codebeyound
 
-<!-- documentary Resources [available on intrernet] -->
+<h3>documentary Resources [available on intrernet]</h3>
 * freecodecamp
 * geeksforgeeks
 * tutirolpoint
 * w3school
 
- <!-- practice on dsa with these online platforms -->
+ <h3>practice on dsa with these online platforms</h3>
 * Hackerearth
 * Hackerrank
 * codeforces
@@ -45,10 +45,10 @@ In this particular round the candidates have to slove 3-4 que based on Data Stru
 * leetcode
 * gfg
 
-round 2 : technincal round or AA round
+<h1>round 2 : technincal round or AA round</h1>
 
 STEP 1:Learn development from here:
-<!-- viedo Resources [available on you tube] -->
+<h3>viedo Resources [available on you tube]<h3>  
 * udemy courses
 * coursera courses
 * codewithhaary
@@ -57,7 +57,7 @@ STEP 1:Learn development from here:
 * twowaits
 * code step by step
 
-<!-- documentary Resources [available on intrernet] -->
+<h3>documentary Resources [available on intrernet]</h3>
 * Stack overflow community
 * W3school website
 * geeksforgeeks
@@ -66,19 +66,19 @@ STEP 1:Learn development from here:
 * pyhtoncoder 2.0
 
 STEP 2:Make projects:
-<!-- Take project ideas from here -->
+<h3>Take project ideas from here</h3>
 * github
 * crio.do
 * freecodecamp
 
 STEP 3:projets you can host here:
-<!-- fronted -->
+<h3>fronted</h3>
 * firebase
 * Netlify
 * github
 * vercel
 * surge
-<!-- backend -->
+<h3>backend</h3>
 * google cloud
 * heroku
 * azure
@@ -86,7 +86,7 @@ STEP 3:projets you can host here:
 * uercel
 
 STEP 4: participating on hackathon and open source projects:
-<!-- plateform where hackathon hosted -->
+<h3>plateform where hackathon hosted</h3>
 * Hackerearth
 * Dare2compete
 * Devpost
@@ -94,12 +94,12 @@ STEP 4: participating on hackathon and open source projects:
 * hackathon.io
 * S.I.H [Smart india hackathon]
 
-<!--opoen sourse programs -->
+<h3>opoen sourse programs</h3>
 * Gsoc
 * MLH fellowship
 * LFX etc.
 
-round 3 : Hr round or Final round
+<h1>round 3 : Hr round or Final round</h1>
 This is the final round in which interviewer can ask you anything regarding your resume or cs core subjects.
 
 * Data Structures and Algorithms oops, dbms, Operating system, Networking system, Software Engineering, SQL queries, Linux command and git command: Tutorialpoint website
