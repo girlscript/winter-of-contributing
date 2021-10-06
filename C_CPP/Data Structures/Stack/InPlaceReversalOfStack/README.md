@@ -55,24 +55,24 @@ The order of insertion of the elements is going to be :
 
 ```
 First call : 
-New Stack       Call Stack 
+    New Stack       		    Call Stack 
 	|4|				|3|
 					|2|
 					|1|
 
 Second call : 
-New Stack       Call Stack 
+    New Stack		            Call Stack 
 	|3|				|2|
 	|4|				|1|
 
 Third Call : 
-New Stack       Call Stack 
+     New Stack                      Call Stack 
 	|2|				|1|
 	|3|
 	|4|
 
 Fourth Call : 
-New Stack       Call Stack (Empty)
+     New Stack                      Call Stack (Empty)
 	|1|				| |
 	|2|
 	|3|
