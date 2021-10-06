@@ -56,12 +56,19 @@ union Test {
 
 int main() {
 
-union Test Chemistrey;
+union Test Chemistry;
 Test.marks = 80; 
 Test.grade = 'B'; 
 
-printf("The Marks  %d and Grade %c is obtained in the subject Chemistry",Test.marks,Test.grade);
+printf("The Marks  %d and Grade %c is obtained in the subject Chemistry. \n\n",Test.marks,Test.grade);
+
 return 0;
+
 }
+
+```
+### Output
+```c
+The Marks 80 and Grade B is obtained in the subject Chemistry.
 
 ```
