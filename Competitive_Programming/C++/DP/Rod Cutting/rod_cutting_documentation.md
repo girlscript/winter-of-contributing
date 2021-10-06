@@ -61,7 +61,7 @@ Hence a **_Dynamic Programming_** Recursion + Memoization approach can be used h
 
 ## 💡 Implementation of Recursion + Memoization (Top Down Approach):
 
-The above Naive Recursive approach can be optimized using memoization. Since the Problem is just a variation of Unbounded Knapsack Problem, since same cuts can be made more than once while the max_weight = max_length of rod. 
+The above Naive Recursive approach can be optimized using memoization. Since the problem is just a variation of the Unbounded Knapsack Problem since the same cuts can be made more than once while the max_weight = max_length of rod. 
 Therefore, A 2-D vector can be used to store the intermediate results and for every state f(n,max_length) it can be checked whether it has been calculated before. 
 If it has been calculated before then return the result of computation else, compute the answer of the state, and store its value.  
 
