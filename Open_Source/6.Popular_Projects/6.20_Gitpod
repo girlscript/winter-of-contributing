@@ -1,0 +1,75 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "9fa22810",
+   "metadata": {},
+   "source": [
+    "# Gitpod\n",
+    "\n",
+    "Gitpod is an open-source Kubernetes application for ready-to-code developer environments that spins up fresh, automated dev environments for each task, in the cloud, in seconds. It enables you to describe your dev environment as code and start instant, remote and cloud-based developer environments directly from your browser or your Desktop IDE.\n",
+    "\n",
+    "It is a container-based development platform which puts developer experience first. Gitpod provides ready-to-code developer environments in the cloud which is accessible through your browser and your local IDE.\n",
+    "\n",
+    "It enables development teams to describe their dev environment as code , start configurable and fresh developer environments for each new task which is entirely in the cloud.\n",
+    "\n",
+    "\n",
+    "\n",
+    "<img width=\"324\" alt=\"Screenshot 2021-10-06 at 4 07 02 PM\" src=\"https://user-images.githubusercontent.com/84470487/136187451-ad7b3312-300c-4902-8ede-e9fc495a3f5f.png\">\n",
+    "\n",
+    "## Features\n",
+    "-  Dev environments as code \n",
+    "- Prebuilt dev environments .\n",
+    "- Integrated Docker build\n",
+    "- GitLab, GitHub, and Bitbucket integration \n",
+    "- Integrated code reviews \n",
+    "- Collaboration \n",
+    "- Professional & customizable developer experience i.e Install any VS Code extension with one click on a user and/or team level.\n",
+    "\n",
+    "\n",
+    "# Develop on Gitpod\n",
+    "The following links describe how to develop on Gitpod and elaborate on topics briefly touched on elsewhere in the documentation:\n",
+    "\n",
+    "\n",
+    "- Create a team\n",
+    "- Local Companion\n",
+    "- VS Code Desktop Support\n",
+    "- One workspace per task\n",
+    "- Life of a workspace\n",
+    "- Contexts\n",
+    "- Collaboration & Sharing\n",
+    "\n",
+    "\n",
+    "# Related Projects\n",
+    "During the development of Gitpod we also developed some our own infrastructure tooling to make development easier and more efficient. To this end we've developed a number of open source projects including:\n",
+    "\n",
+    "- Werft \n",
+    "- Leeway\n",
+    "- Dazzle \n",
+    "- OpenVSCode Server \n",
+    "\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
