@@ -16,6 +16,6 @@ In this audio the given topics are covered:
 
 ## **Audio Link:Click on the image**
 
-[![ML 3.6](https://github.com/tavneetgill/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/Assets/Clustering_types.png)](https://drive.google.com/drive/folders/14SxEy7aEPYVqQpGSpH_J3NsQ9HiEzmIK?usp=sharing)
+[![ML 3.6](https://github.com/tavneetgill/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/Assets/Clustering_types.png)](https://drive.google.com/file/d/1RXHSrt8Wlr9KmMz-q38IYkYHHuxbu1Ni/view?usp=sharing)
 
 Thank You
