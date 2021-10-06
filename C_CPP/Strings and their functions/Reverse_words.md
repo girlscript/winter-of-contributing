@@ -1,7 +1,7 @@
 # Program to reverse words in a given string in C++
 
 ## Problem Statement
-Reverse words in a string” states that you are given a string s of size n. Print the string in reverse order such that the last word becomes the first, second last becomes the second, and so on.
+Given a string 'str' reverse the string such that the last word becomes first word and so on.
 
 Example:
 ```
@@ -11,61 +11,74 @@ Output: Contributing of Winter GirlScript
 ```
 
 # Algorithm:
-```
-1. Initialize a string s of size n.
-2. Create a function to reverse the words of the given string which accepts a string variable as it's a parameter.
-3. After that, create two variables of integer type begin and end. Initialize the variable end as the size of the string.
-4. Create an empty string variable to store the result.
-5. Traverse through the string from the last character to first and check if the character at current index in the given string is a white space, update the variable begin as current index + 1 and while variable begin is not equal to the variable end, add the character at index begin + 1 of the given string in the result string variable.
-6. Add a white space in the result string variable and update the variable end as the current index.
-7. Update variable begin as 0.
-8. Traverse again, while variable begin is not equal to variable end, add the character at index begin + 1 of the given string in the result string variable.
-9. Return the resulting string variable.
-``` 
-Implementation of code in C++:
+
+1. First reverse each word present int the input text.
+
+2. Then finally reverse the whole text to get the desired output.
+
+
+# Implementation of code in C++
 ```C++
-#include<iostream>
-#include <cstring>
+#include<bits/stdc++.h>
 using namespace std;
-main()
+
+void reverseString(string &str)
 {
-    string str;
-    cout<<"Enter your String:";
-    getline(cin,str);
-    int in=0,out=0,p=0;
-    int len=0;
-    char sub_str[100][100]={0};
-    for(in=0;str[in]!='\0';in++)
+    // str[low…high] forms a word
+    int low = 0, high = 0;
+ 
+    
+    for (int i = 0; i < str.length(); i++)
     {
-        len++;
-    }
-    //splitting Input String into sub string
-    while(str[p]!='\0')
-    {
-        out=0;
-        while(str[p]!=' ' && str[p]!='\0')
+        // if space is found, we found a word
+        if (str[i] == ' ')
         {
-            sub_str[in][out]=str[p];
-            p++;
-            out++;
+            // reverse the found word
+            reverse(str.begin() + low, str.begin() + high + 1);
+ 
+            // reset low and high for the next word
+            low = high = i + 1;
         }
-        sub_str[in][out]='\0';
-        in++;
-        if(str[p]!='\0')
-        {
-            p++;
+        else {
+            high = i;
         }
     }
-    cout<<"After reversing words in a given string is :";
-     //Here 'in' variable count number of word present in the given string
-    for(out=in-1;out>=0;out--){
-   cout<<sub_str[out]<<" ";
-        }
+ 
+    // reverse the last word
+    reverse(str.begin() + low, str.begin() + high + 1);
+ 
+    // reverse the whole text
+    reverse(str.begin(), str.end());
 }
+ 
+int main()
+{
+    string str ;
+    getline(cin, str);
+    reverseString(str);
+    cout << str; 
+    return 0;
+}
+
 ```
-# Output
+# Output:
 ```
 Input: GirlScript Winter of Contributing
 
 Output: Contributing of Winter GirlScript
 ```
+# Working of the above code
+```
+    Input: GirlScript Winter of Contributing
+
+    a. The program first reversed each word of the string
+         tpircslrig retniw fo gnitubirtnoc
+
+    b. Then it reversed the whole text
+         contributing of winter girlscript
+
+```
+
+# Time Complexity
+
+The time complexity of this solution would be O(n) and doesn't require any extra space.
