@@ -87,7 +87,7 @@
     - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/Caesar%20Cipher%20video.md)
 - [Symmetric cryptography]
 - [Asymmetric cryptography](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/Asymmetric%20Cryptography.md)
-- [XOR]
+- [XOR](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/4.3%20XOR.md)
 - [RSA](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/RSA.md)
 - [Vigenère Cipher]
 - [Substitution Cipher](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/Substitution_Cipher.md)
