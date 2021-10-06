@@ -41,13 +41,13 @@ int main()
 	{
   		//now we will find the sum of current element of 'original' array and previous element of 'PreSum' array starting from second position
   		//first position has no previous element so no need to change
-		Presum[i]=array[i]+PreSum[i-1];
+		PreSum[i]=array[i]+PreSum[i-1];
   	}
 	//now we have our new array as prerfix sum array of original array
 	//printing new array
 	for(int i=0;i<n;i++)
   	{
-    	cout<<PreSum[i];
+    	cout<<PreSum[i]<<" ";
   	}
   	return 0;
 }
