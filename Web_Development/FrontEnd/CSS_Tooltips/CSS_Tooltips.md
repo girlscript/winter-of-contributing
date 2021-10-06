@@ -1,6 +1,24 @@
 # CSS Tooltips
 A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an element:
 
+        <!DOCTYPE html>
+        <html>
+        <body style="text-align:center;">
+
+        <h2>Basic Tooltip</h2>
+
+        <p>Move the mouse over the text below:</p>
+
+        <div class="tooltip">Hover over me
+          <span class="tooltiptext">Tooltip text</span>
+        </div>
+
+        <p>Note that the position of the tooltip text isn't very good. Go back to the tutorial and continue reading on how to position the tooltip in a desirable way.</p>
+
+        </body>
+        </html>
+
+
 ### Basic Tooltip
 
 
