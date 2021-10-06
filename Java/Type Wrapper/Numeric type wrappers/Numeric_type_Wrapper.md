@@ -118,6 +118,7 @@ public class WrapperClass {
 }
 ```
 
+### Output: <br>
 
 ![alt text](../Assets/Numeric_type_wrapper_output.png)
 
