@@ -5,13 +5,13 @@
 **What is Regularization ?**
 
 
-In mathematics, statistics, finance, computer science, particularly in machine learning and inverse problems, regularization is the process of adding information in order to solve an ill-posed problem or to prevent overfitting.
+In general when we talk about regularization in mathematics, statistics, finance, computer science,specially in machine learning, regularization is the process of adding information in order to solve an ill-posed problem or to prevent overfitting.In simple terms we can say that regularization is a technique through which overfitting of data can be reduced to a great extent.
 
 ## **Purpose**
 
 **Why do we need Regularization ?**
 
-Regularization is used in machine learning models to cope with the problem of overfitting i.e. when the difference between training error and the test error is too high.
+In machine Learning & data science, when we are working with data there might be overfitting of data which could hamper the performance of the project.So, Regularization is used in machine learning projects to prevent  the problem of overfitting of data i.e. when the difference between training error and the test error is too high.
 
 ## **Explanation**
 
@@ -24,16 +24,29 @@ There are mainly two types of regularization techniques:
 - Ridge Regression
 
 **Lasso Regression**
+
+
 A regression model which uses L1 Regularization technique is called LASSO(Least Absolute Shrinkage and Selection Operator) regression.
 
+You can refer [this](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Lasso.html) to know more.
+
 **Ridge Regression**
-A regression model that uses L2 regularization technique is called Ridge regression. 
+
+
+L2 regularization is also known as Ridge regression. 
+
+You can refer [this](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.Ridge.html) to know more.
 
 
 Lasso Regression adds “absolute value of magnitude” of coefficient as penalty term to the loss function(L)
 
 
 - For the Dataset being used [Click here](https://www.kaggle.com/quantbruce/real-estate-price-prediction).
+
+## **Procedure Followed**
+- Step 1: Data Preprocessing & Exploration to better undertand what kind of data we are working on along with it's shape, memory usage, different types of columns present in the dataset, their datatypes etc.
+- 
+- Ste 2: Data training and model creation using regression models and checking the scores for testing and training data to find if there is any overfitting or is it reduced ?
 
 ## **Visual Representation**
 
