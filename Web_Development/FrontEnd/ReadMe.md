@@ -19,7 +19,7 @@
 - [HTML Tables](./HTML_Tables)
 - HTML Lists
 - HTML Classes and IDs
-- HTML Forms
+- [HTML Forms](./HTML%20Forms)
 - Semantic HTML
 - Form Validation
 - [Conventions & Best Practices](HTML_Conventions_Practices/readme.md)
