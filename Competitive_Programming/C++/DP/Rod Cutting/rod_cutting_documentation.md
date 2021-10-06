@@ -54,6 +54,7 @@ int cutRod(int price[], int n)
 __Time Complexity for the Naive Approach is Exponential__. Since for every cut we have two options either to perform or not. Hence, Time Complexity for the naive approach would be **O(2<sup>n</sup>)**.
 
 ![image](https://user-images.githubusercontent.com/58984074/135901814-5985dea6-bc84-4e73-960e-517737e8e4fc.png)
+<h6>Image Credits: <a href="https://iq.opengenus.org/rod-cutting-problem/">Open Genus</a></h6> 
 
 It can be concluded that there are lots of overlapping subproblems that are solved again and again. Example f(1) is calculated many times. Hence we can store the intermediate results of computations and use them further if required. 
 Hence a **_Dynamic Programming_** Recursion + Memoization approach can be used here.  
@@ -140,3 +141,9 @@ int cutRod(int price[], int n)
 **⏰ Time Complexity: O(n<sup>2</sup>)**
 
 **Space Complexity: O(n)**
+
+## References 📙
+
+- [Geeks for Geeks](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/)
+- [Educative](https://www.educative.io/edpresso/the-rod-cutting-problem)
+- [Medium - Rod Cutting Problem](https://medium.com/@pratikone/dynamic-programming-for-the-confused-rod-cutting-problem-588892796840)
