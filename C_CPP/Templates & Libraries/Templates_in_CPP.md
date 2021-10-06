@@ -149,5 +149,5 @@ Hi there, Welcome to GWOC!
 ```
 
 2. Difference between function overloading and templates.  
-**Ans.** Both of the cases are examples of polymorphism feature of OOP. In case of function overloading, multiple functions do similar operations. Whereas, in case of  function template, multiple functions do indentical operations.
+**Ans.** Both of the cases are examples of polymorphism feature of OOP. In case of function overloading, multiple functions do similar operations. Whereas, in case of function template, multiple functions do identical operations.
 
