@@ -110,10 +110,47 @@ Create an HTML file called index.html in your root project directory and make su
 
 _Congratulations! You have successfully set up Tailwind CSS using the recommended method by the official documentation._
 
+## Merits and Demerits of Tailwind CSS:-
+
+### Merits:-
+
+1. _**Control Over Styling**_
+Tailwind is a unique CSS framework when it comes to styling web applications, meaning that Tailwind does not have a default theme that you have to use like other CSS frameworks.
+For example, you can give each project a different look even if you use the same elements (color palette, size, etc.). Therefore, it’s one of the few CSS frameworks that is not opinionated on how you should style your project.
+
+2. _**Faster CSS Styling Process**_
+There is no faster framework than Tailwind when it comes to styling HTML. As a result, you can easily create good-looking layouts by styling elements directly. This is possible because Tailwind offers thousands of built-in classes that do not require you to create designs from scratch.
+Therefore, you do not have to write CSS rules yourself. These CSS classes are the main reason why building and styling with Tailwind is so fast.
+
+3. _**Responsiveness and Security**_
+With Tailwind’s pre-built classes, you can design the layout directly in an HTML file. This makes it a very responsive, mobile-friendly CSS framework. Apart from that, Tailwind has proven to be a stable framework since its initial release.
+The framework was developed by top-notch engineers, which is why bugs and breaks are rare.
+
+4. _**Additional Features**_
+Tailwind CSS works in the front end of a website. For this reason, it is reasonable for developers to demand ultimate responsiveness. Well, Tailwind provides the ability to create responsive themes for your web applications and remove all unused CSS classes. With PurgeCSS, Tailwind helps you keep your final CSS as small as possible.
+
+### Demerits:-
+
+1. _**Styling and HTML are Mixed**_
+Because you do not have to write CSS rules yourself, Tailwind works differently than most CSS frameworks. While this is great for those unfamiliar with CSS, it also means that Tailwind mixes style rules in with your HTML files.
+This goes against the principle of the “separation of concerns.” Many developers prefer to separate page structure and style, claiming that classes make the Tailwind markup process verbose.
+
+2. _**It Takes Time to Learn**_
+Because of the built-in classes, Tailwind CSS is quite learning-intensive. Even for experienced developers, it can be a challenge to learn how to use and fully utilize the pre-built classes. But, of course, as with any other development task, practice makes perfect.
+However, if you are confident and quick when it comes to writing CSS classes, Tailwind may not be the best choice for you. Even if that’s true, Tailwind generally makes CSS styling faster in the long run.  
+
+3. _**Lack of Important Components**_
+Unlike Bulma and Bootstrap, Tailwind does not have many significant styling components. Unfortunately, this means you have to manually add features like headers, buttons, and navigation bars for web apps.
+This is not a significant drawback, as experienced developers can implement these features quickly. However, you will need to spend some time doing so.
+
+4. _**Documentation**_
+Although Tailwind CSS has made great strides when it comes to adding guides and video tutorials, it still lags behind competitors like Bootstrap. Of course, you can always contact the developers if you have a problem.
+However, keep in mind that this may take some time. For this reason, you may need to customize the framework to your needs manually.
+
 ## Conclusion:-
 
 Tailwind CSS introduces a different way of how a CSS framework works. It provides you with a set of utility classes which can be used to create you unique and custom design with ease.
 
 Tailwind CSS is not opinionated, so you’re completely free in choosing the design of elements and components on your website.
 
-__Contributor :__ [Sakshi Mishra](https://github.com/SakshiMishra1) :heart: 
+__Contributor :__ [Sakshi Mishra](https://github.com/SakshiMishra1) :heart:
