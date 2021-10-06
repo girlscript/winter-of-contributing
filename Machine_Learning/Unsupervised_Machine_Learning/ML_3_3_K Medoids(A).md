@@ -1,0 +1,1 @@
+[![K medoids Image](https://user-images.githubusercontent.com/78029145/135757769-7e8ade3c-2641-40aa-89da-9643587d066a.jpeg)](https://drive.google.com/file/d/1JSovOhbEI8pgHoY5NXoZW4lXt3IouK6j/view?usp=sharing)
