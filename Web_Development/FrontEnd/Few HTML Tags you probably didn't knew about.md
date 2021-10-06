@@ -2,7 +2,7 @@
 
 
 
-This is my second documentation contribution to GWOC 2021, and in this documentation I will be discussing a few HTML tags that can be super helpful but are rarely used by programmers. Although the purpose of these tags can obviously be defined by other tags and CSS as a programmer we should try to use the full potential of HTML tags which are available to us.
+In this documentation I will be discussing a few HTML tags that can be super helpful but are rarely used by programmers. Although the purpose of these tags can obviously be defined by other tags and CSS as a programmer we should try to use the full potential of HTML tags which are available to us.
 
 Let's get started....
 
