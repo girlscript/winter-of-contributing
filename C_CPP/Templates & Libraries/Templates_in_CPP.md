@@ -10,7 +10,7 @@ Templates can be grouped into two ways:
 ## [Function Template](#function-template)  
 Function templates are generic functions that can be used for different data types. The syntax of a function template is:  
 ```c++ 
-template <class type> retrn-type function-name(parameter) {
+template <class type> return-type function-name(parameter) {
     //body of the function
 }
 ```  
