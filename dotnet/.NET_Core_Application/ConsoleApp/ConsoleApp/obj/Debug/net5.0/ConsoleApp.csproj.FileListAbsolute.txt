@@ -1,0 +1,16 @@
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.exe
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.deps.json
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.json
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.runtimeconfig.dev.json
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.dll
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ref\ConsoleApp.dll
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\bin\Debug\net5.0\ConsoleApp.pdb
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.AssemblyReference.cache
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfoInputs.cache
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.AssemblyInfo.cs
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.dll
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ref\ConsoleApp.dll
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.pdb
+C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Core_Application\ConsoleApp\ConsoleApp\obj\Debug\net5.0\ConsoleApp.genruntimeconfig.cache
