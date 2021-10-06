@@ -7,7 +7,7 @@ There are some rules for the number maze problem that we have to follow.<br>
 2. Each row and column of 9X9 should have the number once. <br>
 3. Each 3X3 box should have the number once.<br>
 </p>
-
+<h2>This is the code section.</h2>
 #include <iostream><br>
 using namespace std;<br>
 #define N 9<br>
@@ -128,6 +128,4 @@ int main(){<br>
 <br>
 1 9 6   2 8 4   7 5 3<br>
 7 4 5   3 9 6   2 1 8<br>
-8 3 2   1 5 7   4 9 6<br>
-
-<br>
+8 3 2   1 5 7   4 9 6
