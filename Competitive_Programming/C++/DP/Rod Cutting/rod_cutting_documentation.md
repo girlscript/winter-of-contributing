@@ -26,7 +26,7 @@ Explanation: Maximum Value can be obtained by taking pieces of length 2 and 6 i.
 
 ## Naive Approach 🧠
 
-The naive Brute force approach would be to generate all possible combinations of different pieces and take the maximum-priced configuration. 
+The naive brute force approach would be to generate all the possible combinations of different pieces and take the maximum-priced configuration. 
 So, we have to choose between two option for a total of n-1 times and thus the total possible number of solutions are 2x2x2x2x2.... = 2<sup>n-1</sup>
 
 
