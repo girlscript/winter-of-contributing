@@ -26,7 +26,9 @@ Test Chemistry;
 
 ```
 ## Memory Allocation of Union Data Type 
-In **Chemistry**, both *integer* **marks** and *character* **grade** share the same memory location. As **marks** occupies 4 bytes (assuming 4-byte integers) and **grade** uses only 1. *Figure* shows how **marks** and **grade** share the same address. At any point in our program, we can refer to the data stored in a **Chemistry** as either an *integer* or a *character*. 
+In **Chemistry**, both *integer* **marks** and *character* **grade** share the same memory location. As **marks** occupies 4 bytes (assuming 4-byte integers) and **grade** uses only 1. *Figure* shows how **marks** and **grade** share the same address. At any point in our program, we can refer to the data stored in a **Chemistry** as either an *integer* or a *character*.
+
+![image](https://user-images.githubusercontent.com/68266741/136250306-fb38d584-0c73-475c-a1b7-4d27dc3d5167.png)
 
 When a **union** variable is declared, the compiler automatically allocates enough storage to hold the largest member of the union. For example (assuming 4-byte integer **Chemistry** is 4 bytes long so that it can hold **marks**, even though **grade** requires only 1 byte.
 
