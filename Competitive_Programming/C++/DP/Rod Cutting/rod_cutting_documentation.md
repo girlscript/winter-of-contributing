@@ -51,7 +51,7 @@ int cutRod(int price[], int n)
 
 #### ⏰ Time Complexity for Naive Approach 
 
-__Time Complexity for the Naive Approach is Exponential__. Since for every cut we have two options either to perform or not hence, Time Complexity for the naive approach would be **O(2<sup>n</sup>)**.
+__Time Complexity for the Naive Approach is Exponential__. Since for every cut we have two options either to perform or not. Hence, Time Complexity for the naive approach would be **O(2<sup>n</sup>)**.
 
 ![image](https://user-images.githubusercontent.com/58984074/135901814-5985dea6-bc84-4e73-960e-517737e8e4fc.png)
 
