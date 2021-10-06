@@ -1,27 +1,27 @@
 # CSS Tooltips
 A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an element:
+```html
+      <!DOCTYPE html>
+      <html>
+      <body style="text-align:center;">
 
-        <!DOCTYPE html>
-        <html>
-        <body style="text-align:center;">
+      <h2>Basic Tooltip</h2>
 
-        <h2>Basic Tooltip</h2>
+      <p>Move the mouse over the text below:</p>
 
-        <p>Move the mouse over the text below:</p>
+      <div class="tooltip">Hover over me
+        <span class="tooltiptext">Tooltip text</span>
+      </div>
 
-        <div class="tooltip">Hover over me
-          <span class="tooltiptext">Tooltip text</span>
-        </div>
+      <p>Note that the position of the tooltip text isn't very good. Go back to the tutorial and continue reading on how to position the tooltip in a desirable way.</p>
 
-        <p>Note that the position of the tooltip text isn't very good. Go back to the tutorial and continue reading on how to position the tooltip in a desirable way.</p>
-
-        </body>
-        </html>
-
+      </body>
+      </html>
+```
 
 ### Basic Tooltip
 
-
+```html
     <style>
     /* Tooltip container */
     .tooltip {
@@ -54,7 +54,7 @@ A tooltip is often used to specify extra information about something when the us
     <div class="tooltip">Hover over me
       <span class="tooltiptext">Tooltip text</span>
     </div>
-
+```
 
 
 
@@ -76,20 +76,25 @@ A tooltip is often used to specify extra information about something when the us
 In this example, the tooltip is placed to the right (left:105%) of the "hoverable" text (```<div>```). Also note that top:-5px is used to place it in the middle of its container element. We use the number 5 because the tooltip text has a top and bottom padding of 5px. If you increase its padding, also increase the value of the top property to ensure that it stays in the middle (if this is something you want). The same applies if you want the tooltip placed to the left.
 
 > Right Tooltip
- 
-       .tooltip .tooltiptext {
+
+```html
+     .tooltip .tooltiptext {
        top: -5px;
        left: 105%;
      }
+```
   
 > Left Tooltip
-  
+
+```html
     .tooltip .tooltiptext {
       top: -5px;
       right: 105%;
     }
+```
   
 > Top Tooltip
+```html
 
     .tooltip .tooltiptext {
       width: 120px;
@@ -97,17 +102,18 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
       left: 50%;
       margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
     }
-  
+```
   
  > Bottom Tooltip
 
+```html
     .tooltip .tooltiptext {
       width: 120px;
       top: 100%;
       left: 50%;
       margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
     }
-   
+ ```
   
  ### Tooltip Arrows
   
@@ -115,6 +121,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
   
 >  Bottom Arrow
 
+```html
     .tooltip .tooltiptext::after {
       content: " ";
       position: absolute;
@@ -125,6 +132,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
       border-style: solid;
       border-color: black transparent transparent transparent;
     }
+```
   
 > Explaination
   
@@ -137,6 +145,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
   
  > Top Arrow
 
+```html
     .tooltip .tooltiptext::after {
       content: " ";
       position: absolute;
@@ -147,9 +156,11 @@ To create an arrow that should appear from a specific side of the tooltip, add "
       border-style: solid;
       border-color: transparent transparent black transparent;
     }
+```
   
 > Left Arrow
 
+```html
     .tooltip .tooltiptext::after {
       content: " ";
       position: absolute;
@@ -160,9 +171,11 @@ To create an arrow that should appear from a specific side of the tooltip, add "
       border-style: solid;
       border-color: transparent black transparent transparent;
     }
-  
- > Right Arrow
+```  
 
+ > Right Arrow
+ > 
+ ```html
     .tooltip .tooltiptext::after {
       content: " ";
       position: absolute;
@@ -173,12 +186,13 @@ To create an arrow that should appear from a specific side of the tooltip, add "
       border-style: solid;
       border-color: transparent transparent transparent black;
     }
-  
+```
   
  ### Fade In Tooltips (Animation)
   
 If you want to fade in the tooltip text when it is about to be visible, you can use the CSS transition property together with the opacity property, and go from being completely invisible to 100% visible, in a number of specified seconds (1 second in our example):
   
+```html
       .tooltip .tooltiptext {
       opacity: 0;
       transition: opacity 1s;
@@ -187,3 +201,4 @@ If you want to fade in the tooltip text when it is about to be visible, you can 
     .tooltip:hover .tooltiptext {
       opacity: 1;
     }
+```
