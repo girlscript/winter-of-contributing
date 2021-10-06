@@ -25,7 +25,7 @@ Vectors are built from components, which are ordinary numbers. We can think of a
 ![](https://github.com/harichandana1406/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Linear%20Algebra/Tutorials/Introduction%20to%20Linear%20Algebra/Images/vector.png)
 
 ### How vectors are used in Data Science?
-In Data Science, vectors are used to represent numeric characteristics, called features, of an object in a mathematical and easily analyzable way. Vectors are essential for many different areas of machine learning and pattern processing\
+In Data Science, vectors are used to represent numeric characteristics, called features, of an object in a mathematical and easily analyzable way. Vectors are essential for many different areas of machine learning and pattern processing.
 
 **Representation of a Vector with length 5**
 
