@@ -11,9 +11,8 @@
 4. Call Merge sort for second half. \\ MergeSort(arr,,mid+1,r)
 5. Merge the two sorted halves. \\ Merge(arr,l,m,r)
 ```
-
-![download](https://user-images.githubusercontent.com/71391631/135991725-06b19089-c01b-4783-aaee-c26557a8c9d1.png)
-
+<p align="center"><img src="https://user-images.githubusercontent.com/71391631/135991725-06b19089-c01b-4783-aaee-c26557a8c9d1.png"  width="200"/></p>
+<img src="drawing.jpg" alt="drawing" width="200 px"/>
 ## MERGE
 ```
 1. Make two array of Right half of and left half original array
