@@ -78,41 +78,48 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
 > Right Tooltip
 
 ```html
-     .tooltip .tooltiptext {
+     <style>
+      .tooltip .tooltiptext {
        top: -5px;
        left: 105%;
      }
+     </style>
 ```
   
 > Left Tooltip
 
 ```html
+   <style>
     .tooltip .tooltiptext {
       top: -5px;
       right: 105%;
     }
+   </style>
 ```
   
 > Top Tooltip
 ```html
-
+  <style>    
     .tooltip .tooltiptext {
       width: 120px;
       bottom: 100%;
       left: 50%;
       margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
     }
+   </style>
 ```
   
  > Bottom Tooltip
 
 ```html
+  <style>
     .tooltip .tooltiptext {
       width: 120px;
       top: 100%;
       left: 50%;
       margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
     }
+  </style>
  ```
   
  ### Tooltip Arrows
@@ -122,6 +129,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
 >  Bottom Arrow
 
 ```html
+ <style>
     .tooltip .tooltiptext::after {
       content: " ";
       position: absolute;
@@ -132,6 +140,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
       border-style: solid;
       border-color: black transparent transparent transparent;
     }
+ </style>
 ```
   
 > Explaination
@@ -146,6 +155,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
  > Top Arrow
 
 ```html
+  <style>
     .tooltip .tooltiptext::after {
       content: " ";
       position: absolute;
@@ -156,11 +166,14 @@ To create an arrow that should appear from a specific side of the tooltip, add "
       border-style: solid;
       border-color: transparent transparent black transparent;
     }
+ </style>
 ```
   
 > Left Arrow
 
 ```html
+
+   <style>
     .tooltip .tooltiptext::after {
       content: " ";
       position: absolute;
@@ -171,11 +184,13 @@ To create an arrow that should appear from a specific side of the tooltip, add "
       border-style: solid;
       border-color: transparent black transparent transparent;
     }
+  </style>
 ```  
 
  > Right Arrow
  > 
  ```html
+<style>
     .tooltip .tooltiptext::after {
       content: " ";
       position: absolute;
@@ -186,6 +201,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
       border-style: solid;
       border-color: transparent transparent transparent black;
     }
+</style>
 ```
   
  ### Fade In Tooltips (Animation)
@@ -193,6 +209,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
 If you want to fade in the tooltip text when it is about to be visible, you can use the CSS transition property together with the opacity property, and go from being completely invisible to 100% visible, in a number of specified seconds (1 second in our example):
   
 ```html
+   <style>
       .tooltip .tooltiptext {
       opacity: 0;
       transition: opacity 1s;
@@ -201,4 +218,5 @@ If you want to fade in the tooltip text when it is about to be visible, you can 
     .tooltip:hover .tooltiptext {
       opacity: 1;
     }
+   </style>
 ```
