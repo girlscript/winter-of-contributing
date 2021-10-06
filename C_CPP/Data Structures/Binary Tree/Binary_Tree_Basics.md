@@ -16,8 +16,8 @@ A binary tree *T* is defined as a finite set of elements, called nodes such that
 
 >T is an empty or null tree
 >T contains a different node R, known as the root of *T*, and the remaining nodes of *T* form an ordered pair of disjoint binary trees T1 and T2
-    >> Here if T does contain a root R, then T1 and T2 are called left and right subtrees of R respectively.
-    >> If T1 is non-empty then it root is called the left successor of R, similarly T2 is non-empty then its root is called the right successor of R.
+1. Here if T does contain a root R, then T1 and T2 are called left and right subtrees of R respectively.
+2. If T1 is non-empty then it root is called the left successor of R, similarly T2 is non-empty then its root is called the right successor of R.
 
 A Binary Tree node contains:-
 
