@@ -1,7 +1,7 @@
 # Domain Name Basics
 
 
-![gif](d1.gif)
+![Untitled](https://user-images.githubusercontent.com/78808336/136243815-d910ca18-4f1a-4726-be96-8190d467642d.gif)
 
 ## ***📌What is a domain name / domain?***
 
