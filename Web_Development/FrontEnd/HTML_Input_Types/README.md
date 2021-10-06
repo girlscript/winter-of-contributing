@@ -1,8 +1,8 @@
-# HTML Input Types:
+  # HTML Input Types:  
 
-In HTML, we can take input from the user using the `<input>` tag. The inputs can be of various types, from text to images, or even more complicated ones like date or time.
+  In HTML, we can take input from the user using the `<input>` and `<textarea>` tag. The inputs can be of various types, from text to images, or even more complicated ones like date or time.  
 
-Here's a list of input types you can use in HTML:
+  ## Here's a list of input types you can use in HTML:  
 
 - `<input type="button">`
 - `<input type="number">`
@@ -27,18 +27,20 @@ Here's a list of input types you can use in HTML:
 - `<input type="tel">`
 - `<input type="url">`
 
-## Input type Text, email, password, submit and reset:
-`<input type="text>` gives you a blank box that accepts text as an input.
+ ## Input type Text, email, password, submit and reset:  
 
-`<input type="email">` only accept emails, i.e, something like this: `string@mail.com`. (Try typing something in email section and press enter).
+ `<input type="text>` gives you a blank box that accepts text as an input.  
+ 
+ `<input type="email">` only accept emails, i.e, something like this:  
+ `string@mail.com`. (Try typing something in email section and press enter).  
 
-`<input type="password">` shows `********` (I typed password).
+ `<input type="password">` shows `********` (I typed password).  
 
-`<input type="submit">` is simply a button to submit the data you entered.
+ `<input type="submit">` is simply a button to submit the data you entered.  
 
-`<input type="reset">` gives a reset button that will reset all form values to their default state.
+ `<input type="reset">` gives a reset button that will reset all form values to their default state.  
 
-### Code:
+  ### Code:  
 
 ```html
 <form>
@@ -57,21 +59,20 @@ Here's a list of input types you can use in HTML:
 </form>
 ```
 
-### Result:
+  ### Result:  
 
 ![text email password and submit](./text-mail-pw.png "text email password and submit")
 
----
+  ## Input type radio, checkbox, button:  
 
-## Input type radio, checkbox, button:
+ `<input type="radio">` defines a radio button which lets the user choose only one of the given options.  
 
-`<input type="radio">` defines a radio button which lets the user choose only one of the given options.
+ `<input type="checkbox">` lets a user choose zero or more options from a number of choices.  
 
-`<input type="checkbox">` lets a user choose zero or more options from a number of choices.
+ `<input type="button">` simply defines a button.  
 
-`<input type="button">` simply defines a button.
+  ### Code:  
 
-### Code:
 ```html
 <p>Choose your favorite Naruto character:</p>
 <form>
@@ -94,23 +95,24 @@ Here's a list of input types you can use in HTML:
 </form>
 ```
 
-### Result:
+  ### Result:  
+
 ![radio checkbox button](./radio-cehckbox-button.png "radio checkbox button")
 
----
+  ## Input type date, datetime-local, time, month, week:
 
-## Input type date, datetime-local, time, month, week:
-`<input type="date">` takes a date as an input.
+ `<input type="date">` takes a date as an input.  
 
-`<input type="datetime-local">` takes date and time, but with no time zones.
+ `<input type="datetime-local">` takes date and time, but with no time zones.  
 
-`<input type="time">` allows the user to input a time (no time zone).
+ `<input type="time">` allows the user to input a time (no time zone).  
 
-`<input type="month">` takes a month and a year as an input.
+ `<input type="month">` takes a month and a year as an input.  
 
-`<input type="week">` takes a week and year as an input.
+ `<input type="week">` takes a week and year as an input.  
 
-### Code:
+  ### Code:  
+
 ```html
 <form>
   <label for="birthday">Your birthday:</label><br>
@@ -130,23 +132,23 @@ Here's a list of input types you can use in HTML:
 </form>
 ```
 
-### Result:
+  ### Result:  
+
 ![date time](./date-time-2.png "date time")
 ![date time](./date-time-1.png "date time")
 
----
+  ## Input type file, hidden, color, image:  
 
-## Input type file, hidden, color, image:
+ `<input type="file">` gives a field to select file and a "Browse" button for file uploads.  
 
-`<input type="file">` gives a field to select file and a "Browse" button for file uploads.
+ `<input type="hidden">` defines an input field invisible to the user. It is often used to save data that is needed to be updated when form submits.  
 
-`<input type="hidden">` defines an input field invisible to the user. It is often used to save data that is needed to be updated when form submits.
+ `<input type="image">` is used to create custom submit buttons, i.e, submit buttons that take the form of an image rather than text.  
 
-`<input type="image">` is used to create custom submit buttons, i.e, submit buttons that take the form of an image rather than text.
+ `<input type="color">` gives an input field that should have a color as an input.  
 
-`<input type="color">` gives an input field that should have a color as an input.
+  ### Code:  
 
-### Code:
 ```html
 <form>
   <label for="myfile">Select your file:</label><br>
@@ -161,20 +163,20 @@ Here's a list of input types you can use in HTML:
 </form>
 ```
 
-### Result:
+  ### Result:  
+
 ![file image color](./file-img-color.png "file image and color")
 
----
+  ## Input type range, tel and url:  
 
-## Input type range, tel and url:
+ `<input type="range">` lets you enter a value through a slider.  
 
-`<input type="range">` lets you enter a value through a slider.
+ `<input type="tel">` is used to take telephone number as input.  
 
-`<input type="tel">` is used to take telephone number as input.
+ `<input type="url">` is used to take URL (Uniform Resource Locator) as an input.  
 
-`<input type="url">` is used to take URL (Uniform Resource Locator) as an input.
+  ### Code:  
 
-### Code:
 ```html
 <form>
   <label for="css">How much CSS do you know?</label>
@@ -188,5 +190,6 @@ Here's a list of input types you can use in HTML:
 </form>
 ```
 
-### Result:
+  ### Result:  
+
 ![range tel url](./range-tel-url.png "range tel url")
