@@ -232,7 +232,7 @@ The domain name is one of the pieces inside a URL and most easily recognized par
  
 To summarize, the domain name is a part of the URL, which points to the associated IP address. <br><br>
 
-## ***Types of DNS Records***![d2](https://user-images.githubusercontent.com/78808336/136086799-834c2355-b84b-431c-8cb1-2e09abf19010.jpg)
+![d2](https://user-images.githubusercontent.com/78808336/136086799-834c2355-b84b-431c-8cb1-2e09abf19010.jpg)
 
  
 ***A popular analogy can be : “People find web pages in a manner similar to the way that they use maps to find physical locations. If the Internet is like a phone book, and a web page is like a physical building, the URL would be the precise street address of that building. The IP address would be like the car that travels to its destination.”***
