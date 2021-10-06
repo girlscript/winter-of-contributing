@@ -1,5 +1,3 @@
-
-
 # String Methods in Javascript
 
 Pre-defined string methods are very useful while working with Strings in Javascript.
@@ -12,6 +10,8 @@ The Length property of a string returns the length or size of the string.
 ```javascript
     let x="Girlscript"
     x.length
+
+    // OUTPUT: 10
 ```
 
 ##  Slice() Method
@@ -22,29 +22,37 @@ Takes the starting and ending index of the desired part as input parameter.
 
 ```javascript
     let x="Girlscript"
-    x.slice(4,9)
+    x.slice(4,10)
+
+    // OUTPUT: script
 ```
 If the input parameter is negative, position is counted from ending of the string.
 
 ```javascript
     let x="Girlscript"
     x.slice(-10,-6)
+
+    // OUTPUT: script
 ```
 If the 2nd parameter is not given, then it will slice till the end.
 
 ```javascript
     let x="Girlscript"
     x.slice(4)
+
+    // OUTPUT: script
 ```
 
-##  SubString() Method
-The SubString Method of a string works similar to Slice Method but it doesn't except negative parameters.
+##  substring() Method
+The substring() Method of a string works similar to slice() Method but it doesn't except negative parameters.
 
 Takes the starting and ending index of the desired part as input parameter.
 
 ```javascript
     let x="Girlscript"
-    x.slice(4,9)
+    x.substring(4,10)
+
+    // OUTPUT: script
 ```
 
 ##  substr() Method
@@ -54,20 +62,26 @@ The second parameter specifies the length of the desired string.
 
 ```javascript
     let x="Girlscript"
-    x.slice(4,6)
+    x.substr(4,6)
+
+    // OUTPUT: script
 ```
 
 If the first input parameter is negative, position is counted from ending of the string.
 
 ```javascript
     let x="Girlscript"
-    x.slice(-10,4)
+    x.substr(-10,4)
+
+    // OUTPUT: Girl
 ```
 If the 2nd parameter is not given, then it will slice till the end.
 
 ```javascript
     let x="Girlscript"
-    x.slice(4)
+    x.substr(4)
+
+    // OUTPUT: script
 ```
 
 ##  replace() Method
@@ -81,18 +95,24 @@ Replace method doesn't change the original string but returns a new string.
 ```javascript
     let x="Girlscripted Winter of Contributing"
     let y=x.replace("Girlscripted","Girlscript")
+
+    // OUTPUT: y="Girlscript Winter of Contributing"
 ```
 By default, Replace method will change the first match only.
 
 ```javascript
-    let x="Girlscripted Winter of GirlScripted"
+    let x="Girlscripted Winter of Girlscripted"
     let y=x.replace("Girlscripted","Girlscript")
+
+     // OUTPUT: y="Girlscript Winter of Girlscripted"
 ```
 To replace all matches,we use a regilar expression with /g flag.
 
 ```javascript
-    let x="Girlscripted Winter of GirlScripted"
+    let x="Girlscripted Winter of Girlscripted"
     let y=x.replace("/Girlscripted/g","Girlscript")
+
+     // OUTPUT: y="Girlscript Winter of Girlscript"
 ```
 
 By default, Replace method is very case-sensitive. 
@@ -102,27 +122,35 @@ Writing ` "GIRLSCRIPTED"` will not work (all-uppercase).
 ```javascript
     let x="Girlscripted Winter of Contributing"
     let y=x.replace("GIRLSCRIPTED","Girlscript")
+
+     // OUTPUT: y="Girlscripted Winter of Contributing"
 ```
 To replace case-insensitive values ,we use a regular expression with /i flag.
 
 ```javascript
     let x="Girlscripted Winter of Contributing"
     let y=x.replace("/GIRLSCRIPTED/i","Girlscript")
+
+    // OUTPUT: y="Girlscript Winter of Contributing"
 ```
 ##  toUpperCase() Method
-The toUpperCase() Method of a String will return a string will all character in Uppercase.
+The toUpperCase() Method of a String will return the same string will all character in Uppercase.
 
 ```javascript
     let x="Girlscript"
     let y=x.toUpperCase()
+
+    // OUTPUT: y="GIRLSCRIPT"
 ```
 
 ##  toLowerCase() Method
-The toLowerCase() Method of a String will return a string will all character in Lowercase.
+The toLowerCase() Method of a String will return the same string will all character in Lowercase.
 
 ```javascript
-    let x="Girlscript"
+    let x="GIRLSCRIPT"
     let y=x.toLowerCase()
+
+    // OUTPUT: y="girlscript"
 ```
 
 ##  concat() Method
@@ -134,6 +162,8 @@ The input parameters are the strings that are required to be joined.
     let x="Girlscript"
     let y="Winter of Contributing"
     let y=x.concat("",y)
+
+    // OUTPUT: y="Girlscript Winter of Contributing"
 ```
 
 ##  trim() Method
@@ -142,6 +172,8 @@ The trim() Method will remove whitespace from both sides of the string.
 ```javascript
     let x="         Girlscript          "
     x.trim()
+
+    // OUTPUT: Girlscript
 ```
 
 ##  charAt() Method
@@ -152,6 +184,8 @@ Takes the index of desired character as input.
 ```javascript
     let x="Girlscript"
     x.charAt(0)
+
+    // OUTPUT: G
 ```
 
 ##  charCodeAt() Method
@@ -162,6 +196,8 @@ Takes the index of desired character's unicode as input.
 ```javascript
     let x="Girlscript"
     x.charCodeAt(0)
+
+    // OUTPUT: 71
 ```
 
 ##  split() Method
@@ -172,10 +208,14 @@ Takes the separatror as input.
 ```javascript
     let x="Girlscript Winter of Contributing"
     let y=x.split(" ")
+
+    // OUTPUT: y=["Girlscript","Winter","of","Contributing"]
 ```
 If the separator is not present, an array is returned with the entire string on 0th index.
 
 ```javascript
     let x="Girlscript Winter of Contributing"
     let y=x.split(",")
+
+    // OUTPUT: y=["Girlscript Winter of Contributing"]
 ```
