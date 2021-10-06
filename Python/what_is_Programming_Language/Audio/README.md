@@ -34,3 +34,26 @@
 [<img src="https://png.pngtree.com/png-vector/20190307/ourlarge/pngtree-vector-programming-icon-png-image_780637.jpg" alt="Audio" width="165"/>](https://drive.google.com/file/d/1oPA21ydmEPGWjhxRICzG6ys3c8pvrIqu/view?usp=sharing)
 
 
+## FAQs on Programming Languages
+1. Explain the various types of errors that can occur during the execution of a computer program?\
+Ans. Following are the three types of error which may occur during execution of a computer program :
+     1. Logical errors - This occurs when a computer program is made with wrong logic.
+     2. Runtime errors - This occurs a computer program is made using illegal operations . for example- when a number is divided by zero , the program runs after being                                    successfully compiled but shows runtime error.
+     3. Syntax errors -  This occurs if some grammatical rules of programming language is made wrong while coding.
+     
+     
+2. What do you understand by maintaining and updating a computer program?\
+Ans. Maintenance and updation of a computer program starts after its installation.Program maintenance is a continuous process in order to deal with bugs and updation is one the parts of maintenance. Updating a computer programs means replacing or modifying it with a new version of the same program.
+
+
+3. Every programming language has reserved words. What are they?\
+Ans. Reserved words , also known as keywords are predefined in a particular languages . 
+for example - 
+    * Python - for , None , import etc
+    * C - if , else , for etc
+    * C++ - if , else , for , namespace etc
+    * Java - boolean , catch , class etc
+
+4. Difference between scripting language and programming language.\
+Ans. Scripting languages are interpreted language and runs slowly . Scripting language is also a programming language while programming languages are compiled languages and executes faster . It has a fixed entry point like main() wheras scripting language doesn't have a fixed entry point.
+
