@@ -131,7 +131,7 @@ model.fit(df[[0,1]])
 Now compring all the 3 Density-Based clustering Algorithms, K-Means and Hierarchical failed to cluster the data points. Also, they were not able to properly detect the noise present in the dataset. Whereas DBSCAN is not just able to cluster the data points correctly, but it also perfectly detects noise in the dataset
 <img src='https://i.ibb.co/w6cvq8r/image.png' style='width:60%'>
 
-### ***View the complete [ipynb]() file***
+### ***View the complete [ipynb](https://colab.research.google.com/drive/1tjGgHcaNEzpeot6aoSAGfjs2GIK-_XZi?authuser=1) file***
 <br>
 
 ## **Advantages of DBSCAN**
