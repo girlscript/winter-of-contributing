@@ -3,17 +3,17 @@
 ![image](https://user-images.githubusercontent.com/84238610/136240495-475518cc-0940-49fb-8c6c-9d7f2a52aecb.png)
 
 
-What is scope?
+What is a Scope?
 --------------
 
 *Scope* refers to the places in a program where a variable is visible and can be referenced.
 
 An interesting situation is when a function has free variables. Consider the example below:
 <p align="center"><img src="https://user-images.githubusercontent.com/84238610/136238511-7fcdb49e-18a1-4178-ae9f-70d165ca0d63.png"></p>
-On line 1, we create a mapping for `x` with value `1`. On line 2, we define a function `f` whose body uses the parameter `a`, but also the free variable `x`. On line 3, we define a function `g`, whose body creates a new mapping for `x` with value `2`, and then calls `f(0)`. (Note that line 4 does not update the mapping created on line 1.) Finally, on line 7, we call `g()`.
+On line 1, we create a mapping for x with value 1. On line 2, we define a function f whose body uses the parameter a, but also the free variable x. On line 3, we define a function g, whose body creates a new mapping for x with value 2, and then calls f(0). (Note that line 4 does not update the mapping created on line 1. Finally, on line 7, we call g().
+</br>
+What value does g return when it is called? What mapping does the free variable x on line 2 refer to? Does it refer to the mapping on line 1 that was visible when f was defined? Or does it refer to the mapping on line 4 that was created just before f was called?
 
-What value does `g` return when it is called? What mapping does the free variable `x` on line 2 refer to? Does it refer to the mapping on line 1 that was visible when `f` was defined? Or does it refer to the mapping on line 4 that was created just before `f` was called?
-/
 ## Definition
 The **scope** of a variable x is the region of the program in which uses of x refers to its declaration. One of the basic reasons of scoping is to keep variables in different parts of program distinct from one another. Since there are only a small number of short variable names, and programmers share habits about naming of variables (e.g., i for an array index), in any program of moderate size the same variable name will be used in multiple different scopes.
 
