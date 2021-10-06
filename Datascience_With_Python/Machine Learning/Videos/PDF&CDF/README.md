@@ -7,6 +7,7 @@ Note : Detailed explanation about each of the following topics can be seen in th
 4. Cumulative Distribution Function (CDF)
 5. Uses in data analysis
 6. Implementation
+7. Conclusion
 
 ### Variables ###
 <b> Discrete variables </b> : Discrete variables can only take up countable values or simply put, a discrete variable is a variable whose value is obtained by counting. Examples include number of children, number of petals in a flower etc.<br>
@@ -38,7 +39,11 @@ This is how it can used in real world problems.
 ## Implementation ##
 Head over to the .ipynb file in this folder for code snippets and in the video you will find the detailed explanation of its working.
 
-
+## Conclusion and further study ##
+In this tutorial we understood the uses, code implementation and mathematics behind Probability Density Function and Cumulative Distribution Function both theoretically and graphically.<br>
+This was focused on normal distribution of data points however in further reading we can also explore about exponential distribution and pareto distribution as well, although the use and logic will be same, it will differ in graph structure.<br>
+Another thing that can be exploerd from here are the functions in python that can help us get more direct/specific values or percentage about the amount of data points we require in certain range. One such function includes .ppf() which is Percent-Point Function and it returns a discrete value that is less than or equal to the given probability. <br>
+Like so, there is a lot more that can be studied and explored from here once you get an idea about the basics of PDF and CDF.
 
 
 
