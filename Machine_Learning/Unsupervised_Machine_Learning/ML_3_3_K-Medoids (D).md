@@ -1,4 +1,4 @@
-#**K-Medoids**
+# **K-Medoids**
 
 K-Medoids is a classical partitioning technique of clustering that splits the data set of n objects into k clusters, where the number k of clusters assumed is known as **a priori** (which implies that the programmer must specify k before the execution of a k-medoids algorithm). It is a clustering problem similar to k-means. The name was coined by Leonard Kaufman and Peter J. Rousseeuw with their Partitioning Around Medoid(PAM) algorithm. Because k-medoids minimizes a sum of pairwise dissimilarities instead of a sum of squared Euclidean distances, it is more robust to noise and outliers than k-means. The "goodness" of the given value of k can be assessed with methods such as the silhouette method.
 
@@ -11,14 +11,14 @@ K-Medoids is a classical partitioning technique of clustering that splits the da
 - In contrast to the k-means algorithm, k-medoids chooses actual data points as centers (medoids or exemplars), and thereby allows for greater interpretability of the cluster centers than in k-means, where the center of a cluster is not necessarily one of the input data points (it is the average between the points in the cluster).
 - K-medoids can be used with arbitrary dissimilarity measures, whereas k-means generally requires Euclidean distance for efficient solutions.
 
-###**Steps**
+### **Steps**
 
 1. Randomly choose ‘k’ points from the input data of 'n' points (‘k’ is the number of clusters to be formed).
 2. Each data point gets assigned to the cluster to which its nearest medoid belongs.
 3. For each data point of cluster i, its distance from all other data points is computed and added. The point of ith cluster for which the computed sum of distances from other points is minimal is assigned as the medoid for that cluster.
 4. Steps (2) and (3) are repeated until convergence is reached i.e. the medoids stop moving.
 
-###Complexity of K-Medoids algorithm
+### Complexity of K-Medoids algorithm
 The complexity of the K-Medoids algorithm comes to
 
 $$
@@ -27,18 +27,18 @@ $$
 
 where k and n denote the number of clusters and the number of data points.
 
-###Advantages
+### Advantages
 
 1. It is simple to understand and easy to implement.
 2. It is fast and converges in a fixed number of steps.
 3. It is less sensitive to outliers than other partitioning algorithms.
 
-###Disadvantages:
+### Disadvantages:
 
 1. The main disadvantage is that it is not suitable for clustering non-spherical (arbitrary shaped) groups of objects. This is because it relies on minimizing the distances between the non-medoid objects and the medoid (the cluster centre). It uses compactness as clustering criteria instead of connectivity.
 2. It may obtain different results for different runs on the same dataset because the first k medoids are chosen randomly.
 
-###Applications
+### Applications
 K-Medoids algorithm is found useful for practical applications such as face recognition. The medoid can correspond to the typical photo of the individual whose face is to be recognized. But if K-Means algorithm is used instead, some blurred image may get assigned as the centroid, which has mixed features from several photos of the individual and hence makes the face recognition task difficult.
 
 ```
@@ -107,7 +107,7 @@ print(f'sum of cluster 1 = {cluster1}, sum of cluster 2 = {cluster2}')
 
 ---
 
-####References
+#### References
 
 1. https://analyticsindiamag.com/comprehensive-guide-to-k-medoids-clustering-algorithm/
 2. https://towardsdatascience.com/k-medoids-clustering-on-iris-data-set-1931bf781e05
