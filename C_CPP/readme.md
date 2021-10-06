@@ -94,7 +94,8 @@
     - [Suffix Tree](#)
   
 - ### [Operating System Concepts](Operating%20System%20Concepts/)
-  - [Scheduling Algorithms](./Operating%20System%20Concepts)
+  - [Introduction to Operating System](./Operating%20System%20Concepts/Introduction_to_OS)
+  - [Scheduling Algorithms](./Operating%20System%20Concepts/)
   - [Memory Management](#)
   - [Deadlock](#)
   - [File Management](#)
@@ -114,7 +115,7 @@
   - [Randomised Algorithm](./Algorithmic%20Approaches/Randomised)
   - [Branch & Bound Algorithm](./Algorithmic%20Approaches/Branch%20%26%20Bound)
   - [NP Complete Algorithm](./Algorithmic%20Approaches/NP%20Completeness)
-
+  - [Binary Search Practice Questions](./Algorithmic%20Approaches/binary_practice.md)
 - ### [OpenGL using C++ (3D,2D graphics using C++)](OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)/)
 
 - ### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
