@@ -1,5 +1,7 @@
 # File Pointer Manipulation Functions
 
+Refer [Input and Output Operations](input-and-output-operations.md) before starting with this file.
+
 
 ## 1. For 'put' pointer:
 
