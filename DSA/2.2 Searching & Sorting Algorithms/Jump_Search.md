@@ -13,7 +13,7 @@ and so on until we find an index at which the element is greater than x, the ele
 
 That is, search at indices km where k = 0,1,2... till we dont find A[km] >= x.
  
-![image](https://user-images.githubusercontent.com/54130460/136222464-f8d3947b-3a96-445f-988c-ceea2844fe61.png)
+![image](https://user-images.githubusercontent.com/54130460/136224847-90aef8b3-1f30-4c53-83ef-3d687b52e28d.png)
 
 After this we perform a linear search in backwards direction until we find the element.
 
