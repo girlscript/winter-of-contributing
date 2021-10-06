@@ -105,3 +105,6 @@ Space Complexity is the space taken by computer to run an algorithm.
 Above code have one array of size n and we have not created any extra array or space. Therefore, the space complexity of the given code is big-O-of (n)
   Space Complexity = O(n)
   ```
+
+# Sources
+[GeeksForGeeks](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
