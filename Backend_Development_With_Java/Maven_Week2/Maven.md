@@ -56,7 +56,7 @@ Plugins that are executed during the build and are listed under the ```<build />
 
 These plugins are executed during the site generation and are listed under the ```<reporting />``` element of the POM. As a result of this reporting plugins are a part of the generated site. These plugins should be both internationalized and localized.
 
-To read more about the Maven plugins head over 
+To read more about the Maven plugins head over
 [Maven Plugins](https://maven.apache.org/plugins/index.html)
 
 ## Maven Dependencies
@@ -81,6 +81,40 @@ The problem arises when there is a cyclic graph in the dependency tree structure
 
 To read more about the Maven plugins head over to
 [Maven Dependecies](https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html)
+
+Sample **pom.xml** file with dependencies and plugins: 
+
+```xml
+<project>
+    <modelVersion>4.0.1</modelVersion>
+    <name>Example Maven Project</name>
+
+    <plugins>
+      <plugin>
+        <artifactId>maven-clean-plugin</artifactId>
+        <version>2.5</version>
+        <executions>
+          <execution>
+            <id>default-clean</id>
+            <phase>clean</phase>
+            <goals>
+              <goal>clean</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit<artifactId>
+            <version>3.6.1</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
+```
 
 ### Resources
 
