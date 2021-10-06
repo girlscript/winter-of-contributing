@@ -7,7 +7,7 @@ There are three types of pop-up boxes in JavaScript
 * Confirm Box
 * Prompt Box.
 
-* Alert Box: It is used when a warning message is needed to be produced. It is used to display a message to the user that requires their attention. When the alert box is displayed to the user, the user needs to press ok and proceed. 
+* Alert Box: It is used when a warning message is needed to be displayed or produced on the screen. It is used to display a message to the user on the top-center on the scrren that requires their attention. When the alert box is displayed to the user, the user needs to press ok and proceed. 
 
 For Example:
 
