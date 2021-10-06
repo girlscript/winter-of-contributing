@@ -11,7 +11,7 @@
 
 ```
 Example : suppose we have the stack : 
-		Original Stack              Output Stack 
+		Original Stack              				   Output Stack 
 			|4|							|1|
 			|3|							|2|
 			|2|							|3|
@@ -32,7 +32,7 @@ first call on reverseStack() :
 	|1|		
 
 Second call on reverseStack() : 
-|3|	--> TopMost element again popped and stored in the call stack 						
+|3| --> TopMost element again popped and stored in the call stack 						
 	|2|							
 	|1|			
 
