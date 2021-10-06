@@ -13,7 +13,7 @@ length   | 1   2   3   4   5
 price    | 2   5   7   8   6
 
 Output: 12
-Explanation: Maximum Value can be obtained by taking Pieces of length pieces of lengths 1,2,2 i.e, 2+5+5 = 12 or 2 and 3 i.e, 5+7=12 
+Explanation: Maximum Value can be obtained by taking pieces of length 1, 2, 2 i.e, 2 + 5 + 5 = 12 or 2 and 3 i.e, 5 + 7 = 12 
 
 Input: n=8
 length   | 1   2   3   4   5   6   7   8  
