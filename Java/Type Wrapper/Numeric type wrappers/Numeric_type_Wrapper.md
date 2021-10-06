@@ -118,6 +118,10 @@ public class WrapperClass {
 }
 ```
 
+
+![alt text](../Assets/Numeric_type_wrapper_output.png)
+
+
 - If the string does not contain a valid numeric value when passed as an argument to the wrapper class for initializing it, then Java throws __"NumericFormatException"__ .
 - Also all wrapper classes have overriden __toString()__ methods, which returns readable form of the value stored within the wrapper object.
 
