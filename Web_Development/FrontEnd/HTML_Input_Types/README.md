@@ -30,7 +30,7 @@
  ## Input type Text, email, password, submit and reset:  
 
  `<input type="text>` gives you a blank box that accepts text as an input.  
- 
+
  `<input type="email">` only accept emails, i.e, something like this:  
  `string@mail.com`. (Try typing something in email section and press enter).  
 
