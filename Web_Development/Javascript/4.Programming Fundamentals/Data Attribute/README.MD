@@ -1,7 +1,10 @@
   
 # Data Attributes in Javascript
 
-![image](https://user-images.githubusercontent.com/74582422/135737483-6fc2bfd3-cec6-443a-a6bf-841721ee5682.png)
+<img src="https://user-images.githubusercontent.com/74582422/135737483-6fc2bfd3-cec6-443a-a6bf-841721ee5682.png" 
+     width="150" 
+     height="150" />
+
 
 
 ### Attributes
