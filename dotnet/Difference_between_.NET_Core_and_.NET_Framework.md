@@ -57,7 +57,6 @@ A summary of the differences between .NET Core and .NET Framework.
 
 ## Sample Applications
 
-- [.NET Core]: ./.NET_Core_Application	".NET Core sample console application"
-
-- [.NET Framework]: ./.NET_Framework_Application	".NET Framework sample console application"
+- [.NET Core](./.NET_Core_Application)
+- [.NET Framework](./.NET_Framework_Application)
 
