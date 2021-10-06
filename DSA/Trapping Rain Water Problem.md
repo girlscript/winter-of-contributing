@@ -79,7 +79,22 @@ int main(){
 
 }
 ```
+## Example 1.
 
+![Screenshot 2021-10-06 113008](https://user-images.githubusercontent.com/63805002/136148609-8dc14d1b-26b2-4fd3-a807-57889036c170.jpg)
+
+```
+Input: height = [0,1,0,2,1,0,1,3,2,1,2,1]
+Output: 6
+Explanation: The above elevation map (black section) is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. 
+             In this case, 6 units of rain water (blue section) are being trapped.
+```
+## Example 2.
+
+```
+Input: height = [4,2,0,3,2,5]
+Output: 9
+```
 
 ## Analysis
 <hr>
