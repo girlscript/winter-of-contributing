@@ -1,0 +1,3 @@
+- [Insertion in BST](Binary%20Search%20Tree/Insertion%20in%20BST.md)
+- [Traversals of BST](Binary%20Search%20Tree/Traversal%20of%20BST.md)
+- [Deletion in BST](Binary%20Search%20Tree/deletion%20in%20BST.md)
