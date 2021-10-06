@@ -1,7 +1,0 @@
-C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Framework_Application\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe.config
-C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Framework_Application\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.exe
-C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Framework_Application\ConsoleApp\ConsoleApp\bin\Debug\ConsoleApp.pdb
-C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Framework_Application\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
-C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Framework_Application\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
-C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Framework_Application\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.exe
-C:\OpenSource\winter-of-contributing-forked\dotnet\.NET_Framework_Application\ConsoleApp\ConsoleApp\obj\Debug\ConsoleApp.pdb
