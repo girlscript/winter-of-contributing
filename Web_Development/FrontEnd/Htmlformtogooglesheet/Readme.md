@@ -23,106 +23,112 @@ The form is divided in to sections called:-
 - ![#1589F0](https://via.placeholder.com/15/1589F0/000000?text=+) `Phone number`
 
 **Here is the UI code**
-<div style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #ffffff">&lt;!DOCTYPE</span> <span style="color: #ffffff">html&gt;</span>
-<span style="color: #ffffff">&lt;html</span> <span style="color: #ffffff">lang=</span><span style="color: #0086d2">&quot;en&quot;</span><span style="color: #ffffff">&gt;</span>
-<span style="color: #ffffff">&lt;head&gt;</span>
-    <span style="color: #ffffff">&lt;meta</span> <span style="color: #ffffff">charset=</span><span style="color: #0086d2">&quot;UTF-8&quot;</span> <span style="color: #ffffff">/&gt;</span>
-    <span style="color: #ffffff">&lt;meta</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;viewport&quot;</span> <span style="color: #ffffff">content=</span><span style="color: #0086d2">&quot;width=device-width, initial-scale=1.0&quot;</span> <span style="color: #ffffff">/&gt;</span>
-    <span style="color: #ffffff">&lt;title&gt;Document&lt;/title&gt;</span>
-    <span style="color: #ffffff">&lt;link</span> <span style="color: #ffffff">href=</span><span style="color: #0086d2">&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css&quot;</span> <span style="color: #ffffff">rel=</span><span style="color: #0086d2">&quot;stylesheet&quot;</span> <span style="color: #ffffff">integrity=</span><span style="color: #0086d2">&quot;sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU&quot;</span> <span style="color: #ffffff">crossorigin=</span><span style="color: #0086d2">&quot;anonymous&quot;</span><span style="color: #ffffff">&gt;</span>
-    <span style="color: #ffffff">&lt;style&gt;</span>
-        <span style="color: #ffffff">.form-new</span> <span style="color: #ffffff">{</span>
-            <span style="color: #ffffff">margin-right:</span> <span style="color: #0086f7; font-weight: bold">22</span><span style="color: #ffffff">%;</span>
-            <span style="color: #ffffff">margin-left:</span> <span style="color: #0086f7; font-weight: bold">20</span><span style="color: #ffffff">%;</span>
-        <span style="color: #ffffff">}</span>
-        <span style="color: #ffffff">.heading</span> <span style="color: #ffffff">{</span>
-            <span style="color: #ffffff">width:</span> <span style="color: #0086f7; font-weight: bold">150</span><span style="color: #ffffff">%;</span>
-            <span style="color: #ffffff">display:</span> <span style="color: #ffffff">flex;</span>
-            <span style="color: #ffffff">justify-content:</span> <span style="color: #ffffff">center;</span>
-            <span style="color: #ffffff">align-items:</span> <span style="color: #ffffff">center;</span>
-            <span style="color: #ffffff">color:</span> <span style="color: #008800; font-style: italic; background-color: #0f140f">#e9ecef;</span>
-            <span style="color: #ffffff">font-size:</span> <span style="color: #0086f7; font-weight: bold">45</span><span style="color: #ffffff">px;</span>
-            <span style="color: #ffffff">font-family:</span> <span style="color: #ffffff">Arial,</span> <span style="color: #ffffff">Helvetica,</span> <span style="color: #ffffff">sans-serif;</span>
-        <span style="color: #ffffff">}</span>
-        <span style="color: #ffffff">.register</span> <span style="color: #ffffff">{</span>
-            <span style="color: #ffffff">background:</span> <span style="color: #ffffff">linear-gradient(</span><span style="color: #0086f7; font-weight: bold">162.29</span><span style="color: #ffffff">deg,</span> <span style="color: #ffffff">rgba(</span><span style="color: #0086f7; font-weight: bold">62</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">60</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">88</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">0.64</span><span style="color: #ffffff">)</span> <span style="color: #0086f7; font-weight: bold">0.99</span><span style="color: #ffffff">%,</span> <span style="color: #ffffff">rgba(</span><span style="color: #0086f7; font-weight: bold">23</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">22</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">40</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">0</span><span style="color: #ffffff">)</span> <span style="color: #0086f7; font-weight: bold">179.83</span><span style="color: #ffffff">%);</span>
-            <span style="color: #ffffff">border-radius:</span> <span style="color: #0086f7; font-weight: bold">20</span><span style="color: #ffffff">px;</span>
-            <span style="color: #ffffff">box-sizing:</span> <span style="color: #ffffff">border-box;</span>
-            <span style="color: #ffffff">margin-top:</span> <span style="color: #0086f7; font-weight: bold">3</span><span style="color: #ffffff">%;</span>
-            <span style="color: #ffffff">padding:</span> <span style="color: #0086f7; font-weight: bold">3</span><span style="color: #ffffff">%;</span>
-        <span style="color: #ffffff">}</span>
-        <span style="color: #ffffff">.centerheading{</span>
-            <span style="color: #ffffff">font-size:</span> <span style="color: #0086f7; font-weight: bold">30</span><span style="color: #ffffff">px;</span>
-            <span style="color: #ffffff">display:</span> <span style="color: #ffffff">flex;</span>
-            <span style="color: #ffffff">justify-content:</span> <span style="color: #ffffff">center;</span>  
-        <span style="color: #ffffff">}</span>
-    <span style="color: #ffffff">&lt;/style&gt;</span>
-<span style="color: #ffffff">&lt;/head&gt;</span>
-<span style="color: #ffffff">&lt;body&gt;</span>
-    <span style="color: #ffffff">&lt;nav</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;navbar navbar-dark bg-dark&quot;</span><span style="color: #ffffff">&gt;</span>
-      <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;container-fluid&quot;</span><span style="color: #ffffff">&gt;</span>
-        <span style="color: #ffffff">&lt;a</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;navbar-brand&quot;</span> <span style="color: #ffffff">href=</span><span style="color: #0086d2">&quot;https://docs.google.com/spreadsheets/d/1owGzJeJTi-7V40Xi_7GgYHtdmZrIYVEpnA92yYP3VrY/edit#gid=0&quot;</span><span style="color: #ffffff">&gt;Html</span> <span style="color: #ffffff">to</span> <span style="color: #ffffff">Google</span> <span style="color: #ffffff">sheets&lt;/a&gt;</span>
-      <span style="color: #ffffff">&lt;/div&gt;</span>
-    <span style="color: #ffffff">&lt;/nav&gt;</span>
-    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;container register&quot;</span><span style="color: #ffffff">&gt;</span>
-        <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;row&quot;</span><span style="color: #ffffff">&gt;</span>
-            <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;col-md-12&quot;</span><span style="color: #ffffff">&gt;</span>
-                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;tab-pane fade show active text-align form-new&quot;</span> <span style="color: #ffffff">id=</span><span style="color: #0086d2">&quot;home&quot;</span> <span style="color: #ffffff">role=</span><span style="color: #0086d2">&quot;tabpanel&quot;</span>
-                    <span style="color: #ffffff">aria-labelledby=</span><span style="color: #0086d2">&quot;home-tab&quot;</span><span style="color: #ffffff">&gt;</span>
-                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;shadow-lg p-3 mb-5 bg-body rounded &quot;</span><span style="color: #ffffff">&gt;</span>
-                       <span style="color: #ffffff">&lt;section</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;centerheading&quot;</span><span style="color: #ffffff">&gt;Html</span> <span style="color: #ffffff">data</span> <span style="color: #ffffff">to</span> <span style="color: #ffffff">google</span> <span style="color: #ffffff">sheet&lt;/section&gt;&lt;/div&gt;</span>
-                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;row register-form&quot;</span><span style="color: #ffffff">&gt;</span>
-                        <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;col-md-12&quot;</span><span style="color: #ffffff">&gt;</span>
-                            <span style="color: #ffffff">&lt;form</span> <span style="color: #ffffff">method=</span><span style="color: #0086d2">&quot;post&quot;</span> <span style="color: #ffffff">autocomplete=</span><span style="color: #0086d2">&quot;off&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;google-sheet&quot;</span><span style="color: #ffffff">&gt;</span>
-                                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
-                                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group mb-3&quot;</span><span style="color: #ffffff">&gt;</span>
-                                      <span style="color: #ffffff">&lt;input</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;text&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;Name&quot;</span>   <span style="color: #ffffff">value=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">required=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-control&quot;</span> <span style="color: #ffffff">placeholder=</span><span style="color: #0086d2">&quot;Recipient&#39;s username&quot;</span> <span style="color: #ffffff">aria-label=</span><span style="color: #0086d2">&quot;Recipient&#39;s username&quot;</span> <span style="color: #ffffff">aria-describedby=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;</span>
-                                      <span style="color: #ffffff">&lt;span</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group-text&quot;</span> <span style="color: #ffffff">id=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;Your</span> <span style="color: #ffffff">name</span> <span style="color: #ffffff">&lt;/span&gt;</span>
-                                    <span style="color: #ffffff">&lt;/div&gt;</span>
-                                <span style="color: #ffffff">&lt;/div&gt;</span>
-                                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
-                                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group mb-3&quot;</span><span style="color: #ffffff">&gt;</span>
-                                      <span style="color: #ffffff">&lt;input</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;text&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;Email&quot;</span>  <span style="color: #ffffff">value=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">required=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-control&quot;</span><span style="color: #ffffff">placeholder=</span><span style="color: #0086d2">&quot;Your Email *&quot;</span> <span style="color: #ffffff">aria-label=</span><span style="color: #0086d2">&quot;Recipient&#39;s username&quot;</span> <span style="color: #ffffff">aria-describedby=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;</span>
-                                      <span style="color: #ffffff">&lt;span</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group-text&quot;</span> <span style="color: #ffffff">id=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;@gmail.com&lt;/span&gt;</span>
-                                    <span style="color: #ffffff">&lt;/div&gt;</span>
-                               <span style="color: #ffffff">&lt;img</span> <span style="color: #ffffff">src=</span><span style="color: #0086d2">&quot;./Googlesheet.png&quot;</span> <span style="color: #ffffff">alt=</span><span style="color: #0086d2">&quot;&quot;</span><span style="color: #ffffff">&gt;</span>
-                                <span style="color: #ffffff">&lt;/div&gt;</span>
-                                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
-                                    <span style="color: #ffffff">&lt;input</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;number&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;Phone&quot;</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-control&quot;</span>
-                                        <span style="color: #ffffff">placeholder=</span><span style="color: #0086d2">&quot;Your Contact Number *&quot;</span> <span style="color: #ffffff">value=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">required=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">/&gt;</span>
-                                <span style="color: #ffffff">&lt;/div&gt;</span>
-                                 <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
-                                    <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;input-group mb-3&quot;</span><span style="color: #ffffff">&gt;</span>
-                                      <span style="color: #ffffff">&lt;input</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;text&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;Message&quot;</span>   <span style="color: #ffffff">value=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">required=</span><span style="color: #0086d2">&quot;&quot;</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-control my-3&quot;</span> <span style="color: #ffffff">placeholder=</span><span style="color: #0086d2">&quot;Enter the message&quot;</span> <span style="color: #ffffff">aria-label=</span><span style="color: #0086d2">&quot;Recipient&#39;s username&quot;</span> <span style="color: #ffffff">aria-describedby=</span><span style="color: #0086d2">&quot;basic-addon2&quot;</span><span style="color: #ffffff">&gt;</span>
-                                    <span style="color: #ffffff">&lt;/div&gt;</span>
-                                <span style="color: #ffffff">&lt;/div&gt;</span>
-                                <span style="color: #ffffff">&lt;div</span> <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;form-group&quot;</span><span style="color: #ffffff">&gt;</span>
-                                    <span style="color: #ffffff">&lt;button</span> <span style="color: #ffffff">type=</span><span style="color: #0086d2">&quot;submit&quot;</span> <span style="color: #ffffff">name=</span><span style="color: #0086d2">&quot;submit&quot;</span>  <span style="color: #ffffff">class=</span><span style="color: #0086d2">&quot;btn btn-outline-success my-5 btn-lg&quot;</span><span style="color: #ffffff">&gt;Success&lt;/button&gt;</span>
-                                <span style="color: #ffffff">&lt;/div&gt;</span>                           
-                            <span style="color: #ffffff">&lt;/form&gt;</span>
-                        <span style="color: #ffffff">&lt;/div&gt;</span>
-                    <span style="color: #ffffff">&lt;/div&gt;</span>
-                <span style="color: #ffffff">&lt;/div&gt;</span>
-            <span style="color: #ffffff">&lt;/div&gt;</span>
-        <span style="color: #ffffff">&lt;/div&gt;</span>
-    <span style="color: #ffffff">&lt;/div&gt;</span>
-    <span style="color: #ffffff">&lt;script&gt;</span>
-        <span style="color: #ffffff">const</span> <span style="color: #ffffff">scriptURL</span> <span style="color: #ffffff">=</span>
-            <span style="color: #0086d2">&quot;https://script.google.com/macros/s/AKfycbxFnHqHV20SQOIIO3jyBYcxGb2Pv2l90Xpu0u_tEN3opfMMAAdry6ShlyIEfoaS3K-jBw/exec&quot;</span><span style="color: #ffffff">;</span>
-        <span style="color: #ffffff">const</span> <span style="color: #ffffff">form</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">document.forms[</span><span style="color: #0086d2">&quot;google-sheet&quot;</span><span style="color: #ffffff">];</span>
-        <span style="color: #ffffff">form.addEventListener(</span><span style="color: #0086d2">&quot;submit&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">(e)</span> <span style="color: #ffffff">=&gt;</span> <span style="color: #ffffff">{</span>
-            <span style="color: #ffffff">e.preventDefault();</span>
-            <span style="color: #ffffff">fetch(scriptURL,</span> <span style="color: #ffffff">{</span> <span style="color: #ffffff">method:</span> <span style="color: #0086d2">&quot;POST&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">body:</span> <span style="color: #ffffff">new</span> <span style="color: #ffffff">FormData(form)</span> <span style="color: #ffffff">})</span>
-                <span style="color: #ffffff">.then((response)</span> <span style="color: #ffffff">=&gt;</span> <span style="color: #ffffff">alert(</span><span style="color: #0086d2">&quot;Thanks for fiiling the form&quot;</span><span style="color: #ffffff">))</span>
-                <span style="color: #ffffff">.catch((error)</span> <span style="color: #ffffff">=&gt;</span> <span style="color: #ffffff">console.error(</span><span style="color: #0086d2">&quot;Error!&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">error.message));</span>
-        <span style="color: #ffffff">});</span>
-    <span style="color: #ffffff">&lt;/script&gt;</span>
-    <span style="color: #ffffff">&lt;script</span> <span style="color: #ffffff">src=</span><span style="color: #0086d2">&quot;https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js&quot;</span><span style="color: #ffffff">&gt;&lt;/script&gt;</span>
-    <span style="color: #ffffff">&lt;script</span> <span style="color: #ffffff">src=</span><span style="color: #0086d2">&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js&quot;</span><span style="color: #ffffff">&gt;&lt;/script&gt;</span>
-<span style="color: #ffffff">&lt;/body&gt;</span>
-<span style="color: #ffffff">&lt;/html&gt;</span>
-</pre></div>
-
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <style>
+        .form-new {
+            margin-right: 22%;
+            margin-left: 20%;
+        }
+        .heading {
+            width: 150%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #e9ecef;
+            font-size: 45px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .register {
+            background: linear-gradient(162.29deg, rgba(62, 60, 88, 0.64) 0.99%, rgba(23, 22, 40, 0) 179.83%);
+            border-radius: 20px;
+            box-sizing: border-box;
+            margin-top: 3%;
+            padding: 3%;
+        }
+        .centerheading{
+            font-size: 30px;
+            display: flex;
+            justify-content: center;  
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://docs.google.com/spreadsheets/d/1owGzJeJTi-7V40Xi_7GgYHtdmZrIYVEpnA92yYP3VrY/edit#gid=0">Html to Google sheets</a>
+      </div>
+    </nav>
+    <div class="container register">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel"
+                    aria-labelledby="home-tab">
+                    <div class="shadow-lg p-3 mb-5 bg-body rounded ">
+                       <section class="centerheading">Html data to google sheet</section></div>
+                   
+                    <div class="row register-form">
+                        <div class="col-md-12">
+                            <form method="post" autocomplete="off" name="google-sheet">
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                      <input type="text" name="Name"   value="" required="" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                      <span class="input-group-text" id="basic-addon2">Your name </span>
+                                    </div>
+                                  
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                      <input type="text" name="Email"  value="" required="" class="form-control"placeholder="Your Email *" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                      <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                                    </div>
+                               <img src="./Googlesheet.png" alt="">
+                                </div>
+                              
+                                <div class="form-group">
+                                    <input type="number" name="Phone" class="form-control"
+                                        placeholder="Your Contact Number *" value="" required="" />
+                                </div>
+                                 <div class="form-group">
+                                    <div class="input-group mb-3">
+                                      <input type="text" name="Message"   value="" required="" class="form-control my-3" placeholder="Enter the message" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    </div>
+                                  
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" name="submit"  class="btn btn-outline-success my-5 btn-lg">Success</button>
+                                </div>
+                                
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const scriptURL =
+            "https://script.google.com/macros/s/AKfycbxFnHqHV20SQOIIO3jyBYcxGb2Pv2l90Xpu0u_tEN3opfMMAAdry6ShlyIEfoaS3K-jBw/exec";
+        const form = document.forms["google-sheet"];
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            fetch(scriptURL, { method: "POST", body: new FormData(form) })
+                .then((response) => alert("Thanks for fiiling the form"))
+                .catch((error) => console.error("Error!", error.message));
+        });
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
+<hr>
+```
 
 <hr>
 
@@ -139,41 +145,37 @@ The below mention code which links the form with the html forms
 <br>
 
 **Here is the javascript code**
-<!-- HTML generated using hilite.me --><div style="background: #111111; overflow:auto;width:auto;border:solid gray;border-width:.1em .1em .1em .8em;padding:.2em .6em;"><pre style="margin: 0; line-height: 125%"><span style="color: #ffffff">var</span> <span style="color: #ffffff">GooglesheetName</span> <span style="color: #ffffff">=</span> <span style="color: #0086d2">&quot;Sheet1&quot;</span><span style="color: #ffffff">;</span>
-<span style="color: #ffffff">var</span> <span style="color: #ffffff">scriptProp</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">PropertiesService.getScriptProperties();</span>
-<span style="color: #ffffff">function</span> <span style="color: #ffffff">intialSetup()</span> <span style="color: #ffffff">{</span>
-  <span style="color: #ffffff">var</span> <span style="color: #ffffff">activeSpreadsheet</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">SpreadsheetApp.getActiveSpreadsheet();</span>
-  <span style="color: #ffffff">scriptProp.setProperty(</span><span style="color: #0086d2">&quot;key&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">activeSpreadsheet.getId());</span>
-<span style="color: #ffffff">}</span>
-<span style="color: #ffffff">function</span> <span style="color: #ffffff">doPost(e)</span> <span style="color: #ffffff">{</span>
-  <span style="color: #ffffff">var</span> <span style="color: #ffffff">lock</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">LockService.getScriptLock();</span>
-  <span style="color: #ffffff">lock.tryLock(</span><span style="color: #0086f7; font-weight: bold">10000</span><span style="color: #ffffff">);</span>
-  <span style="color: #fb660a; font-weight: bold">try</span> <span style="color: #ffffff">{</span>
-    <span style="color: #ffffff">var</span> <span style="color: #ffffff">doc</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">SpreadsheetApp.openById(scriptProp.getProperty(</span><span style="color: #0086d2">&quot;key&quot;</span><span style="color: #ffffff">));</span>
-    <span style="color: #ffffff">var</span> <span style="color: #ffffff">sheet</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">doc.getSheetByName(GooglesheetName);</span>
-    <span style="color: #ffffff">var</span> <span style="color: #ffffff">headers</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">sheet.getRange(</span><span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">sheet.getLastColumn()).getValues()[</span><span style="color: #0086f7; font-weight: bold">0</span><span style="color: #ffffff">];</span>
-    <span style="color: #ffffff">var</span> <span style="color: #ffffff">nextRow</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">sheet.getLastRow()</span> <span style="color: #ffffff">+</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">;</span>
-    <span style="color: #ffffff">var</span> <span style="color: #ffffff">newRow</span> <span style="color: #ffffff">=</span> <span style="color: #ffffff">headers.map(function</span> <span style="color: #ffffff">(header)</span> <span style="color: #ffffff">{</span>
-      <span style="color: #fb660a; font-weight: bold">return</span> <span style="color: #ffffff">header</span> <span style="color: #ffffff">===</span> <span style="color: #0086d2">&quot;timestamp&quot;</span> <span style="color: #ffffff">?</span> <span style="color: #ffffff">new</span> <span style="color: #ffffff">Date()</span> <span style="color: #ffffff">:</span> <span style="color: #ffffff">e.parameter[header];</span>
-    <span style="color: #ffffff">});</span>
-    <span style="color: #ffffff">sheet.getRange(nextRow,</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #0086f7; font-weight: bold">1</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">newRow.length).setValues([newRow]);</span>
-    <span style="color: #fb660a; font-weight: bold">return</span> <span style="color: #ffffff">ContentService.createTextOutput(</span>
-      <span style="color: #ffffff">JSON.stringify({</span> <span style="color: #ffffff">result:</span> <span style="color: #0086d2">&quot;success&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">row:</span> <span style="color: #ffffff">nextRow</span> <span style="color: #ffffff">})</span>
-    <span style="color: #ffffff">).setMimeType(ContentService.MimeType.JSON);</span>
-  <span style="color: #ffffff">}</span> <span style="color: #ffffff">catch</span> <span style="color: #ffffff">(e)</span> <span style="color: #ffffff">{</span>
-    <span style="color: #fb660a; font-weight: bold">return</span> <span style="color: #ffffff">ContentService.createTextOutput(</span>
-      <span style="color: #ffffff">JSON.stringify({</span> <span style="color: #ffffff">result:</span> <span style="color: #0086d2">&quot;error&quot;</span><span style="color: #ffffff">,</span> <span style="color: #ffffff">error:</span> <span style="color: #ffffff">e</span> <span style="color: #ffffff">})</span>
-    <span style="color: #ffffff">).setMimeType(ContentService.MimeType.JSON);</span>
-  <span style="color: #ffffff">}</span> <span style="color: #fb660a; font-weight: bold">finally</span> <span style="color: #ffffff">{</span>
-    <span style="color: #ffffff">lock.releaseLock();</span>
-  <span style="color: #ffffff">}</span>
-<span style="color: #ffffff">}</span>
-</pre></div>
-
-
-
-
-
+```javascript
+var GooglesheetName = "Sheet1";
+var scriptProp = PropertiesService.getScriptProperties();
+function intialSetup() {
+  var activeSpreadsheet = SpreadsheetApp.getActiveSpreadsheet();
+  scriptProp.setProperty("key", activeSpreadsheet.getId());
+}
+function doPost(e) {
+  var lock = LockService.getScriptLock();
+  lock.tryLock(10000);
+  try {
+    var doc = SpreadsheetApp.openById(scriptProp.getProperty("key"));
+    var sheet = doc.getSheetByName(GooglesheetName);
+    var headers = sheet.getRange(1, 1, 1, sheet.getLastColumn()).getValues()[0];
+    var nextRow = sheet.getLastRow() + 1;
+    var newRow = headers.map(function (header) {
+      return header === "timestamp" ? new Date() : e.parameter[header];
+    });
+    sheet.getRange(nextRow, 1, 1, newRow.length).setValues([newRow]);
+    return ContentService.createTextOutput(
+      JSON.stringify({ result: "success", row: nextRow })
+    ).setMimeType(ContentService.MimeType.JSON);
+  } catch (e) {
+    return ContentService.createTextOutput(
+      JSON.stringify({ result: "error", error: e })
+    ).setMimeType(ContentService.MimeType.JSON);
+  } finally {
+    lock.releaseLock();
+  }
+}
+```
 <hr>
 
 **Google Sheet**
