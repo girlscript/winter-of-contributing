@@ -111,7 +111,7 @@ int32_t main()
 
 ## 💡 Implementation of Iterative DP (Bottom-up Approach):
 
-The above top-down approach can further be optimized using a Bottom-Up Dynamic Programming Approach, which can be written by maintaining an Array storing the result of every state using two loops.
+The above top-down approach can further be optimized using a Bottom-Up Dynamic Programming Approach, which can be written by maintaining an array storing the result of every state using two loops.
 
 We can initialize dp[i] to be the maximum cost obtained when rod of length i is cut into pieces of size<=i
 
