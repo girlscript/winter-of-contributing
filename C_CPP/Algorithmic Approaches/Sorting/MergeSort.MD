@@ -14,7 +14,11 @@
 4. Call Merge sort for second half. \\ MergeSort(arr,,mid+1,r)
 5. Merge the two sorted halves. \\ Merge(arr,l,m,r)
 ```
+<<<<<<< HEAD
 <p align="center"><img src="https://user-images.githubusercontent.com/71391631/136206049-a56ac648-73d3-451f-8b27-762f796d8172.png"  width="400"/></p>
+=======
+<p align="center"><img src="https://user-images.githubusercontent.com/71391631/135991725-06b19089-c01b-4783-aaee-c26557a8c9d1.png"  width="200"/></p>
+>>>>>>> 9627aac7dcfed4db8dc860a9494c893790f3e7df
 
 ## MERGE
 ```
