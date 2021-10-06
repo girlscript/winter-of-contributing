@@ -41,7 +41,7 @@
 - [How_to_install_python](./How_to_install_python)
 - [Python File I/O](./Python_File_IO)
 - [Python Strings](./Python_Strings)
-- [Recursion in Python](./Recursion in Python)
+- [Recursion in Python](./Recursion_in_Python)
 - [Yield Keyword](./Yield_Keyword)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
 - [Django Framework](./Django_Framework)
