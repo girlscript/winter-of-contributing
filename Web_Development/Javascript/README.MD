@@ -14,3 +14,4 @@
 - Integrating with Other People's Libraries
 - Git and Bash
 - Node JS
+- Vanilla JS
