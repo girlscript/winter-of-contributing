@@ -223,7 +223,7 @@ A non-recursive query is a query in which the DNS Resolver already knows the ans
 
  
 ## 🤔
-We often confuse ***domain names*** with universal ***resource locators or URLs and Internet Protocol or IP addresses.*** Let's try it picture them clearly :<br>
+We often confuse ***domain names*** with universal ***resource locators or URLs and Internet Protocol or IP addresses.*** Let's try to picture them clearly :<br>
  
 ## ***📌Uniform Resource Locator (URL)***
 A URL is the web address of a resource on the Internet. This is the address you type in a browser to visit a particular web site. <br><br>
