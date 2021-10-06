@@ -2,7 +2,7 @@
 
 ## [Click here to listen audio](https://drive.google.com/file/d/1zTHcqio7PItHUYyxCRIL96IRjPdbSu0m/view?usp=sharing)
 
-## [Click here to see video](https://drive.google.com/file/d/1LONaUDgkr2r-0ch5JoR8h6ex9tm7nCKp/view?usp=sharing)
+
 
 **What is clustering?**
 
