@@ -16,7 +16,7 @@ In this project, we'll talk about Deque (Double Ended Queue), a topic under The 
 - Queue
 - [Deque](Deque)
 - Set
-- Map
+- [Map](C_CPP/Data Structures/Standard Template Library/MAPS.md)
 - Multimap
 - [Lists](STL-LISTS.md)
 
