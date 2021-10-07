@@ -41,7 +41,7 @@ Time Limit : 1 second
 
 ### Observations : 
 
-- We can construct sieve in ***O(NloglogN)*** time complexity i.e. 1e6 x loglog1e6 = 778152. We can do 2*1e8
+- We can construct sieve in <b>O(N*(log(log N)))</b> time complexity i.e. 1e6 x loglog1e6 = 778152. We can do 2*1e8
 computations in 1 second. Thus, we can use sieve to find the prime factors of N.
 
 - N<= 1e6.
@@ -51,7 +51,7 @@ How many distinct prime can N have ? Ans = 7</br>
 - We need ***O(N * 2^N)*** to generate all subsets.
 Thus, we will do at max 7 * 2^7 = 896 computations.Conclusion, we can apply inclusion - exclusion here.
 
-Overall time complexity of the code will be ***O(NloglogN)***
+Overall time complexity of the code will be <b>O(N*(log(log N)))</b>
 
 <br/>
 <hr>
@@ -143,4 +143,43 @@ int main()
  
    return 0;
 }
+~~~~~~~~~~~~~~
+## Inclusion Exclusion principle and programming applications
+
+<hr>
+
+### Example 1:
+How many binary strings of length 8 either start with a '1' bit or end with two bits '00'? 
+
+### Solution: 
+If the string starts with one, there are 7 characters left which can be filled in 27 = 128 ways. 
+If the string ends with '00' then 6 characters can be filled in 2^6 = 64 ways. 
+
+Now if we add the above sets of ways and conclude that it is the final answer, then it would be wrong. This is because there are strings with start with ‘1’ and end with ’00’ both, and since they satisfy both criteria they are counted twice. 
+So we need to subtract such strings to get a correct count. 
+Strings that start with '1' and end with '00' have five characters that can be filled in 25=32 ways. 
+So by the ***inclusion-exclusion principle*** we get:
+*Total strings = 128 + 64 – 32 = 160*
+
+<hr>
+
+### Example 2:
+How many numbers between 1 and 1000, including both, are divisible by 3 or 4? 
+
+ ### Solution:
+ 
+<div align="center">
+<img width="50%" height = "300px" src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2018-03-14-at-12.45.32-PM.png" />
+</div>
+
+ Number of numbers divisible by 3 (A1)= floor(1000/3)=333
+       
+ Number of numbers divisible by 4 (A2) = floor(1000/4)=250
+ 
+ Number of numbers divisible by 3 and 4 (A3)= floor(1000/12)=83      
+
+ Therefore, number of numbers divisible by 3 or 4 (A1 + A2 - A3) = 333 + 250 – 83 = 500 
+
+<hr>
+
 
