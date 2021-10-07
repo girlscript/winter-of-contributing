@@ -30,11 +30,38 @@
           goto label;
 ```
 ## Program to illustrate the use of goto statements
-<img src="images/img2.png" width=500><br>
+```c
+#include <stdio.h>
+#include <conio.h>
+
+int main()
+{
+    int S,a,b;
+    printf("Enter two numbers:");
+    scanf("%d%d",&a,&b);
+    if(a%2==0&&b%2==0||a%2!=0&&b%2!=0)
+      {
+         S=a+b;
+         goto x;    //jump to x
+      }
+    else
+      {
+        S=a+b;
+        goto y;    //jump to y
+      }
+    x:
+        printf("Sum of given two numbers is %d (even)",S);
+        return 0;
+    y:
+        printf("Sum of given two numbers is %d (odd)",S);
+    getch();
+}
+```
 - ## Input for this program 
- <img src="images/img3.png"><br>
+    **5**   **6**
 - ## Output for this program
-<img src="images/img4.png"><br>
+     Enter two numbers:5 6<br>
+     Sum of given two numbers is 11 (odd)
 ## Disadvantages
 - It is not preferable to use as it makes the program complex and tangled. 
 - It minimizes the efficiency of the program.
