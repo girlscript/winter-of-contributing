@@ -1,1 +1,1 @@
-# Folder containing the images on which bright spots are found out. 
+# Folder containing the images used in this project's implementation. 
