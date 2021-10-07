@@ -17,3 +17,4 @@ There are mainly 8 types of sorting algo/techniques:-
 So here we will discuss Quick Sort.
 
 # Quick Sort
+QuickSort is a Divide and Conquer algorithm. The name "Quick Sort" comes from the fact that, quick sort is capable of sorting a list of data elements significantly faster (twice or thrice faster) than any of the common sorting algorithms. It is one of the most efficient sorting algorithms and is based on the splitting of an array (partition) into smaller ones and swapping (exchange) based on the comparison with 'pivot' element selected. Due to this, quick sort is also called as "Partition Exchange" sort.
