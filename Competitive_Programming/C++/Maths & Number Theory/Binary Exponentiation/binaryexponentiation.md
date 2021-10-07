@@ -1,5 +1,5 @@
 # Binary Exponentiation
-Binary exponentiation is an algorithm to find the power of any number N raise to an number M (N^M) in logarithmic time O(log M). The normal approach takes O(M) time provided multiplication takes constant time.
+Binary exponentiation is an algorithm to find the power of any number N raise to an number M (N^M) in logarithmic time O(log M).
 
 ```
 A^N = 1                      if N = 0
@@ -8,9 +8,7 @@ A^N = (A^(N/2))^2            if N is even
 ```
 example:
 5^13.
-
-In ordinary method, we will have to do 12 multiplications (5 * 5 * ... * 5) which is costly. This will improve with Binary Exponentiation.
-So represent 13 as a sum of power of two.
+Here we can represent 13 as a sum of power of two.
 
 `13 = 1101 = 2^3 + 2^2 + 0 + 2^0 = 8 + 4 + 0 + 1`
 
@@ -36,10 +34,12 @@ Hence, we needed 3 left shift operations.
 5^13 = 390625 * 625 * 5
 5^13 = ‭1220703125‬
 ```
+Similar Example:<br>
+![image](https://user-images.githubusercontent.com/56961626/136423559-29fc4e07-f17f-40da-bf15-e7717c4b4f5f.jpg)
 
 ## Complexity
 The basic brute force approach takes O(M) multiplications to calculate N^M.
-In reality, multiplication takes O(log N) time and, Binary exponentiation takes O(logN * logM) time and the normal approach takes O(M * logN) time.
+But multiplication takes O(log N) time and, Binary exponentiation takes O(logN * logM) time and the normal one takes O(M * logN).
 
 Following is the actual time complexity comparison:
 
@@ -50,6 +50,8 @@ This improves the performance.
 
 
 ## Implementation
+Example: LASTDIG PROBLEM <br>
+Given two integer numbers: the base a (0 <= a <= 20) and the index b (0 <= b <= 2,147,483,000), a and b both are not 0. You have to find the last digit of ab.
 ```
 #include<iostream>
 #include<cstdio>
