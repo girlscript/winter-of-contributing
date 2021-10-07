@@ -1,4 +1,6 @@
 ﻿`                  `**How does the Internet Work?**
+ 
+ ![How Internet Works](https://drive.google.com/file/d/18ZV2zaOuWdfw-Zc-cmOXJA2W4MmveC9Q/view?usp=sharing)
 
 - **INTERNET** is a short form of Interconnected Network of all the Web Servers Worldwide. It is also called **the World Wide Web** or simply the Web.
 - The Internet is **a vast network that connects computers all over the world**.
