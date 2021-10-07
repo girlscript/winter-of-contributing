@@ -16,7 +16,7 @@ bool check(int v,int V, bool graph[V][V], int *path, int pos) //Fn to check adja
     return true;
 }
  
-bool hamilPath(int V, bool graph[V][V], int *path, int pos) //Constructs Hamiltonian path by adding the nodes satisfying the conditions to the path array 
+bool hamilPath(int V, bool graph[V][V], int *path, int pos) //Constructs Hamiltonian path by adding the nodes, satisfying the required conditions, to the Path array 
 {
     if (pos == V)
     {
