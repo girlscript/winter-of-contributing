@@ -19,13 +19,11 @@ It is always non – negative and values close to zero are better.
 
 The MSE is the second moment of the error (about the origin) and thus incorporates both the variance of the estimator and its bias.
 
-[![image](https://user-images.githubusercontent.com/62233992/136450160-6fc36707-783f-4c25-a926-e44de2e75226.png)](https://youtu.be/1LLpFmGaAgo)
-[![image](https://user-images.githubusercontent.com/62233992/135733502-f7001a91-db9e-4522-bad7-310ce2203bf0.png)](https://youtu.be/mWeRcNseryw)
-
+![image](https://user-images.githubusercontent.com/62233992/136450160-6fc36707-783f-4c25-a926-e44de2e75226.png)
 
 ## Link for the Video:
 
-![Picture1](https://user-images.githubusercontent.com/62233992/136450703-cd4730d7-5625-4806-9286-1829910eb5ca.png)
+[![Picture1](https://user-images.githubusercontent.com/62233992/136450703-cd4730d7-5625-4806-9286-1829910eb5ca.png)](https://youtu.be/1LLpFmGaAgo)
 
 ## References:
 
