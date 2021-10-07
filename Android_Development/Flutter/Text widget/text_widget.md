@@ -1,7 +1,7 @@
 # <div align="center">📱 Text Widget ✨</div>
 <img style = "display:block;margin-left:auto;margin-right:auto;"
  src="https://miro.medium.com/max/828/1*UyChqe1Fs8-ewyudvjk63A.png" width="1200" height="400" />
- Image credit to [this](https://miro.medium.com/max/828/1*UyChqe1Fs8-ewyudvjk63A.png)
+ Image credit: [Flutter Docs](https://miro.medium.com/max/828/1*UyChqe1Fs8-ewyudvjk63A.png)
  
  In Flutter, a Text is a widget that allows us to show a string of text on a single line in our app. 
  We may split the string across many lines or show it all on the single line, depending on the layout constraints. 
@@ -10,11 +10,9 @@
 Let's see simple example of how to use text widget.
 ```dart
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(MyApp());
 }
-
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -24,7 +22,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -73,13 +70,10 @@ TextHeightBehavior? textHeightBehavior}
  ## Implementation of style property
  ```dart
  import 'package:flutter/material.dart';
-
 void main() {
   runApp(MyApp());
 }
-
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class MyApp extends StatelessWidget {               // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -87,7 +81,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -96,8 +89,7 @@ class MyHomePage extends StatelessWidget {
         title: Text("Learning"),
       ),
       body:Center(                                  //center widget is used to diplay the text in center of app
-        child: Text(
-            "Hello",                                // String provided inside text widget                                 
+        child: Text( "Hello",                        // String provided inside text widget                                                               
           style: TextStyle(                         //TextStyle class is used to give styling to the text
             fontSize: 50,                           // this attribute decides the fontsize of text
             fontWeight: FontWeight.bold,            //this attribute decides the fontWeight of text 
@@ -136,56 +128,55 @@ TextHeightBehavior? textHeightBehavior}
 ## Implementation
 ```dart
 import 'package:flutter/material.dart';
-
 void main() {
   runApp(MyApp());
 }
-
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+class MyApp extends StatelessWidget {                       // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-
-      home: MyHomePage(),
+      home: MyHomePage(),                                   //It is calling homescreen using MyHomePage class                                 
     );
   }
 }
-
 class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text("Learning"),
-      ),
+      ),  
       body:Container(
         child: Center(
           child: RichText(
-                text: TextSpan(                                    
-                  text: "Hello ",                                //Here first string is provided
-                  style: TextStyle(color: Colors.black26,        //styling of first string
-                  fontSize: 30),
-                  children: const <TextSpan>[
-                    TextSpan(text: 'bold',                     // here second string is provided
-                        style: TextStyle(                      // styling of second string
-                          fontSize: 50,
-                            fontWeight: FontWeight.bold,
-                          color: Colors.blue
-                        )),
-                    TextSpan(text: ' world!',                  //third string is provided 
-                    style: TextStyle(                          //styling of third string
-                      fontSize: 30,
-                      color: Colors.black26
-                    )),
-                  ],
-                ),
-              )
+            text: TextSpan(                                    
+            text: "Hello ",                                //Here first string is provided
+            style: TextStyle(
+            color: Colors.black26,        //styling of first string
+            fontSize: 30
+        ),  
+            children: const <TextSpan>[
+            TextSpan(text: 'bold',                     // here second string is provided
+            style: TextStyle(                      // styling of second string
+            fontSize: 50,
+            fontWeight: FontWeight.bold,
+            color: Colors.blue
+            ),
+         ),
+            TextSpan(text: ' world!',                  //third string is provided 
+            style: TextStyle(                          //styling of third string
+            fontSize: 30,
+            color: Colors.black26
+            ),
+           ),
+          ],
+         ),
         ),
+       ),
       ),
     );
+   }
   }
-}
 
 
 ```
