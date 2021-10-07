@@ -162,22 +162,4 @@ A browser does not display the HTML tags, but uses them to determine how to disp
 ---  
 
 
-## Head tag in HTML :-
 
-
-
-- Head tag is used to define the information about the HTML Document and to import external CSS, JavaScript files by using some tags like ```<title> , <meta> , <script> , <style> , <link>```. Head tag should be defined within ``` <html>``` tag and should exist before ```<body>``` tag.
-
-    - Head tag Syntax.:
-       ```html
-        <html>
-            <head>
-                Head tags goes here..
-            </head>
-            <body>
-                Body tags goes here..
-            </body> 
-        </html>
-        ```
-
----
