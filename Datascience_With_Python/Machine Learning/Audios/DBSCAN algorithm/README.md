@@ -70,6 +70,11 @@ The whole algorithm is described in an audio. The contents are:
 ## Audio Link: 
  
 https://drive.google.com/file/d/1e9-02NwOCeWbFIMDv9Xc01yxnbkLn6B5/view?usp=sharing
+
+ # References
+ 1. https://www.geeksforgeeks.org/dbscan-clustering-in-ml-density-based-clustering/
+ 2. https://www.analyticsvidhya.com/blog/2021/06/understand-the-dbscan-clustering-algorithm/
+ 
  
  
 Thank you.
