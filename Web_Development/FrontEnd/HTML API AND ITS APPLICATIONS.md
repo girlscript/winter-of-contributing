@@ -62,7 +62,7 @@ function showPosition(position) {
 
 ## Output
 ![image](https://user-images.githubusercontent.com/86418113/136343111-1d036373-16ca-45b5-9241-a975338e34e2.png)
-#### Image reference [here](https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation)
+#### Image reference [W3 Schools](https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation)
 
 ## Displaying the Result in a Map
 #### To display the result in a map, you need access to a map service, like Google Maps.
@@ -209,6 +209,6 @@ The localStorage Object
 
 The sessionStorage Object
 **The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session. The data is deleted when the user closes the specific browser tab.**
-For more details refer [here](https://www.smashingmagazine.com/2017/02/designing-html-apis/)
+For more details refer [Smashing Magazine](https://www.smashingmagazine.com/2017/02/designing-html-apis/)
 ## References
 **[Smashing Magazine](https://www.smashingmagazine.com/2017/02/designing-html-apis/)**
