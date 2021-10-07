@@ -9,3 +9,6 @@
 - [Wave Sort in C++](./Wave_Sort.md)
 - [Heap Sort in C++](./Heap_Sort.md)
 - [Merge Sort in C++](./MergeSort.md)
+- [Bucket Sort in C++](./BucketSort.md)
+- [Counting Sort in C++](./Counting_Sort.md)
+- [Radix Sort in C++](./Radix_Sort.md)
