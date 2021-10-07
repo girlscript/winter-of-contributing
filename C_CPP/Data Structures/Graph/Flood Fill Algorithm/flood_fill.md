@@ -149,5 +149,3 @@ int main(){
 ```
 ### Running Output:
 ![alt text](./output.png)
-
-<p align = "center">--- Contributed with 🧡 by <a href = "https://github.com/motasimmakki">Motasim</a> ---</p>
