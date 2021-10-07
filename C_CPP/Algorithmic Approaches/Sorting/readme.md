@@ -8,4 +8,4 @@
 - [Counting Sort in C++](./CountingSort/CountingSort.md)
 - [Wave Sort in C++](./Wave_Sort.md)
 - [Heap Sort in C++](./Heap_Sort.md)
-- [Merge Sort in C++](./MergeSort.MD)
+- [Merge Sort in C++](./MergeSort.md)
