@@ -92,6 +92,9 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
   ![Screenshot (22)](https://user-images.githubusercontent.com/76725762/136219028-361596cb-6a8e-44f7-a969-2d186590873f.png)
 ![Screenshot (26)](https://user-images.githubusercontent.com/76725762/136219092-989a0286-b620-4f15-8dab-da0cf92dcaa2.png)
 
+
+reference https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_left ,
+http://www.menucool.com/tooltip/css-tooltip
   
 ### Left Tooltip
 
@@ -107,7 +110,10 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
 ![Screenshot (24)](https://user-images.githubusercontent.com/76725762/136219154-7438981f-c732-4065-ad80-15023fdc6b1b.png)
 ![Screenshot (28)](https://user-images.githubusercontent.com/76725762/136219206-37ff1ddb-8835-49fd-8d22-71892a37d2dc.png)
 
-  
+ 
+ reference https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_right ,
+ http://www.menucool.com/tooltip/css-tooltip
+ 
 ### Top Tooltip
 ```html
   <style>    
@@ -123,6 +129,9 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
 ![Screenshot (21)](https://user-images.githubusercontent.com/76725762/136219248-8404e7f5-c8f8-4dd5-a7ce-82764d090406.png)
 ![Screenshot (25)](https://user-images.githubusercontent.com/76725762/136219293-a84bc01d-79d3-42ce-bf7e-c177cfbf4fc4.png)
 
+  
+  reference https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom ,
+  http://www.menucool.com/tooltip/css-tooltip
   
  ### Bottom Tooltip
 
@@ -140,6 +149,10 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
  ![Screenshot (23)](https://user-images.githubusercontent.com/76725762/136219347-5448b3dd-5b6c-44a7-b5e6-c1bf2137be55.png)
 ![Screenshot (27)](https://user-images.githubusercontent.com/76725762/136219370-dd3d84fe-144a-421b-bd3d-934eade7ccd5.png)
 
+  
+  reference https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_top ,
+  http://www.menucool.com/tooltip/css-tooltip
+  
   
  # Tooltip Arrows
   
@@ -240,3 +253,5 @@ If you want to fade in the tooltip text when it is about to be visible, you can 
     }
    </style>
 ```
+
+
