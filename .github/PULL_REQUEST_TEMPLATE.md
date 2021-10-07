@@ -3,7 +3,7 @@
 ## Description 📜
 
 Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. 
-Fixes # <issue_number_here> 
+Fixes #issue_number_here 
 
 <hr>
 
@@ -41,7 +41,7 @@ Fixes # <issue_number_here>
 - [ ] Go#lang
 - [ ] Interview #Prep
 - [ ] Java_#Domain
-- [ ] Java#Script
+- [ ] JavaScript_#Domain
 - [ ] ME#RN
 - [ ] Machine #Learning
 - [ ] Open #Source
@@ -64,7 +64,7 @@ Fixes # <issue_number_here>
 
 <hr>
 
-<!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
+<!----Please delete options that are not relevant.----->
 
 ## Screenshots / Gif (Optional) 📸
 
