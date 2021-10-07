@@ -1,45 +1,98 @@
-### Find the longest Palindromic Substring.
+## LONGEST PALINDROMIC SUBSTRING
+
 ## Problem Statement
-Given a string, find the longest substring which is a palindrome. 
+Given a string , find the longest substring which is a palindrome. 
 
- ## Example
+## Example
+```
+Input : Given string :"papaypa", 
+Output: "apapa".
+
+Input : "apple",
+Output: "pp"
+```
+We can solve this problem using two approches:<br>
+ 1. Brute force<br>
+ 2. Dynamic Programming
+
+## Method 1 : Brute Force
+ 
+The first approach that came to my mind was the brute force solution. <br>
+   + Loop over the string for the starting index of each substring.<br>
+   + Loop over the string again and get ending indexes for all the possible substrings.<br>
+   + Check if each substring is a palindrome or not.<br>
+   + Store the longest palindrome. lets code it.<br>
+ 
+## Code 
+```
+#include<bits/stdc++.h>
+using namespace std;
+
+bool isPalindrome(string s)
+              {
+                int l1=0, h1=s.size()-1;
+                  while(l1<=h1)
+               {
+                  if(s[l1] != s[h1]) 
+                  return false;
+                  l1++;
+                  h1--;
+               }
+              return true;
+
+             }
+         int main(){
+           string s = "babad";
+           int maxCount = INT_MIN;
+          string res;
+        for(int i = 0; i < s.size(); i++) 
+        {
+               for(int j = i; j < s.size(); j++)
+               {
+                string temp = s.substr(i, j-i+1);
+                   if(isPalindrome(temp) && temp.size() > maxCount)
+                   {
+                    maxCount = temp.size();
+                    res=temp;
+                   }
+               }
+        }
+         cout<<res;
+         return 0;
+    }
+
+ 
+```
+## Output 
+ ```
+ Longest palindromic substring is: bab
+ length of string : 3
+ 
+ ```
+## Complexity Analysis: 
+```
+ Time complexity: O(n^3)
+we have to run a loop for the starting index of every substring and looping again for the ending index 
+for each starting index,We also need to implement an algorithm to check if a substring is a palindrome,
+ which will have the time complexity of O(n) making the time complexity of the entire algorithm o(n³).
+ 
+ Space complexity: O(1). 
+As no extra space is needed.
 
 ```
-Input : Given string :"lmabcdcbalm", 
-Output: "abcdbca".
-```
+## Explaination:
+ we have a maxCount that stores the length of the longest substring. If a given string is palindrome and this length <br>
+is greater than maxCount we update the values of maxCount and make res, which is the longest palindromic substring, to temp.<br>
+O(n^3) is a bad time complexity. we need to optimise our code.
 
-
-## Explanation
-```
-we can solve this problem using two approch:
--Brute force
--Dynamic Programming
-
-```
-## Brute Force
-
-+ The first approach that came to my mind was the brute force solution. 
-   -Loop over the string for the starting index of each substring.
-   -Loop over the string again and get ending indexes for all the possible substrings.
-   -Check if each substring is a palindrome or not.
-   -Store the longest palindrome.
-
-+ Since we have to run a loop for the starting index of every substring and looping again for the ending index 
-for each starting index, the time complexity of the algorithm will be O(n²).
-
-+ We also need to implement an algorithm to check if a substring is a palindrome, which will have the time complexity 
-of O(n) making the time complexity of the entire algorithm o(n³), which is bad complexity.
-so we need to optimize our code.
-
-## Dynamic Programming
+## Method 2 :Dynamic Programming
 
 Instead of going through all the previous Palindromes again and again, 
 how about we save them somewhere and calculate the new ones based on them, Lets see it below.
 
 ## Concept
 
-+ To check a Palindrome of length l, we will have to check if
++ To check a Palindrome of length l, we will have to check if <br>
 1) s[first character]==s[last character] <br>
 2) s[first character+1, last charcter -1] is a Palindrome.
 
@@ -117,17 +170,23 @@ int main()
 }
 ```
 ## Output
-
 ```
 Longest palindrome substring is:cbbc 
 Length of substring is: 4
 
-```
-```
-Time complexity: O(n^2) 
-we are running for loop from 0-n twice. 
-
-Auxiliary Space: O(1). 
-No extra space is needed.
+Input :geeks
+Longest palindrome substring is:ee
+Length of substring is: 2
 
 ```
+ ## Complexity Analysis: 
+``` 
+ Time complexity: O(n^2) <br>
+  we are running for loop from 0-n twice. 
+
+ Auxiliary Space: O(1). <br>
+  No extra space is needed.
+```  
+  
+ We can see  by using Dynamic Programming optimal solution can be constructed from optimal solutions of sub-problems.
+ Here Time complexity is better than the previous one!!
