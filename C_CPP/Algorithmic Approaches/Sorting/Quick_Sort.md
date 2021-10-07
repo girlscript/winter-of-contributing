@@ -26,6 +26,13 @@ QuickSort is a Divide and Conquer algorithm. The name "Quick Sort" comes from th
 
 ![image](https://user-images.githubusercontent.com/71928146/136442611-55dd8226-d38b-46d7-9dd7-33f8eec9e393.png)
 
---> Now lets take two variables start and end where start will point at the pivot element i.e first element and end will point at the last element.
+--> Now lets take two variables start and end where start will point at the pivot element i.e first element and end will point at the last element. So value of Start is 0 and value of End is 8.
 
 ![image](https://user-images.githubusercontent.com/71928146/136443676-7ef956ad-3d70-4307-8ca0-3de096e500ee.png)
+
+--> Now our moto is to bring all the elements which is smaller than or equal to our pivot element at the left side of it and rest other elememts at the right side. So for this we will move Start variable to right side(by incrementing value from 0,1..) until we get any element greater than our pivot element and if we get any element greater than our pivot element then we will stop our Start variable there and now we will move End variable to the left side(by decrementing value from 8,7..) until we get any value smaller than pivot element and if we get that smaller element then we will stop our End variable there and swap the element present at Start variable with the element which is present at End variable.
+
+![image](https://user-images.githubusercontent.com/71928146/136445853-5cbd0924-e48f-4e17-8b9c-803b23e1b46d.png)
+![image](https://user-images.githubusercontent.com/71928146/136446709-fe2c55b3-b0b8-43e0-a703-83f44ff040cd.png)
+
+
