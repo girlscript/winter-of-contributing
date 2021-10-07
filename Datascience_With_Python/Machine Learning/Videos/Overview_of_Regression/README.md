@@ -36,7 +36,7 @@ The importance of regression analysis lies in the fact that it provides a powerf
 ```
 <br>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Linear_regression.svg/290px-Linear_regression.svg.png" alt="regression image" style="background-color:white;width:50%;margin-left:25%;">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ37ipG_4VY71PIBQoYNL045OqIZtSd6MnCdvc17nalhzZrTqgoYoU5VRHPCFkAf6wJPSg&usqp=CAU" alt="regression image" style="background-color:white;width:50%;margin-left:25%;">
 
 <br><br><br>
 
