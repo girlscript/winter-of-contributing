@@ -8,11 +8,11 @@
 
 ## ALGORITHM
 ```
-1. Call for Merge sort. \\ MergeSort(arr[],l,r)
+1. Call for Merge sort. // MergeSort(arr[],l,r)
 2. Find the middle point to divide array into two halves
-3. Call Merge sort for first half. \\ MergeSort(arr,l,m)
-4. Call Merge sort for second half. \\ MergeSort(arr,,mid+1,r)
-5. Merge the two sorted halves. \\ Merge(arr,l,m,r)
+3. Call Merge sort for first half. // MergeSort(arr,l,m)
+4. Call Merge sort for second half. // MergeSort(arr,,mid+1,r)
+5. Merge the two sorted halves. // Merge(arr,l,m,r)
 ```
 <p align="center"><img src="https://user-images.githubusercontent.com/71391631/136206049-a56ac648-73d3-451f-8b27-762f796d8172.png"  width="400"/></p>
 
@@ -86,3 +86,8 @@ By solving the recurrence relation we get the Time complexity of θ(nLogn) in al
 1. Merge Sort is slower algorithm when it comes to smaller task.
 2. It requires Extra memory space for temporary array.
 3. Merge sort is not able to identify if the array is sorted or not. It takes actions even if the array is sorted in the first place.
+
+## REFERENCE
+- Image source - Khan Academy 
+- Geeks For Geeks
+- Abdul Bari 
