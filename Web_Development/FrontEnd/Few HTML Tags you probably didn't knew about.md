@@ -64,11 +64,6 @@ Let's get started....
 </details>
 ```
 
-<details>
-  <summary><strong>What is GWOC</strong></summary>
-  GirlScript is a non-profit organization that encourages diversity in technical education by providing reservations for women and underrepresented groups in society.It started as a project but eventually gained enormous momentum to become India's First and Biggest Technical Community.
-</details>
-
 
 ![5](https://user-images.githubusercontent.com/55577276/136401133-aa3788ea-b672-47cc-a513-71adc11137d7.PNG)
 
@@ -126,7 +121,7 @@ USA
    
    
 
-9. **fieldset **: It is an attribute that you can specifically add to your forms to logically group the elements of your form. Once applied this tag draws a box around the specific elements within the fieldset.
+9. **fieldset**: It is an attribute that you can specifically add to your forms to logically group the elements of your form. Once applied this tag draws a box around the specific elements within the fieldset.
 
    ```html
    <form>
@@ -165,4 +160,4 @@ USA
 
     
 
-There are a lot more on this list, but these are the top few I like. I hope you get to learn something new from this documentation !
+
