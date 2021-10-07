@@ -134,7 +134,7 @@ The Authoritative Name Server is the last stop in the name server query. It take
 
 ## ***Types of DNS Records***
 ***DNS records*** are created by DNS servers to provide important information about a domain or hostname, particularly its current IP address. <br> 
-There are about 40 record types, over 10 common types of DNS records are : <br><br>
+There are about 40 record types, over 10 common types of DNS records are:
 - ***A record***, the most common record, also known as ***Address Mapping record***, stores an IPv4 address associated with a domain name or sub-domain name, and indicates the domain name to an IP address. 
 - ***AAAA record(IP Version 6 Address record )*** configures the hostname to a 128-bits IPv6 address. Earlier, 32-bits IPv4 addresses served the purpose of identifying a computer on the internet. But due to the shortage of IPv4, IPv6 was created. Interestingly, the four "A" s (AAAA) are mnemonic to represent that IPv6 is four times larger in size than IPv4. 
 - ***CNAME record (Canonical Name record)*** creates an alias for one domain name. The aliased domain or subdomain derives all the original Domain's DNS records and is commonly used to associate subdomains with the existing main domain. So, when a DNS client requests a record that contains a CNAME, which points to another hostname, the DNS resolution process is repeated with the new hostname.
