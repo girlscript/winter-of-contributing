@@ -10,35 +10,35 @@ You can format your text by using below properties:-
     - Color name: like "blue"
     - RGB value: like "rgb(255,0,0)"
 
->Syntax:- 
->color: blue;
->ackground-color: white;
+  Syntax:-  
+  color: blue;  
+  background-color: white;
 
 - Alignment: This property is used for horizontal text alignment i.e., left(left to right), right(right to left), centered, or justified(every line strecched for equal width in each line).
 
->Syntax:-
->text-align: left;
+  Syntax:-  
+  text-align: left;
 
 Even for vertical alignment there is a syntax "vertical-align" which can be apply on text.
 
->Syntax:-
->vertical-align: super;
+  Syntax:-  
+  vertical-align: super;
 
 - Direction: Text direction property can be used to change the direction of an element. In simple word rtl or ltr.
 
->Syntax:-
->direction: ltr;
+  Syntax:-  
+  direction: ltr;
 
 - Decoration: Text decoration plays an important role to highlight the important part of any content. Whether you want a underline or overline just type the "text-decoration: " any get in your content.
 
->Syntax:- 
->text-decoration: none;
+  Syntax:-   
+  text-decoration: none;
 
 ***NOTE: Avoid using underline text which is not a link, because that can create confussion to reader.***
 - Transformation: It is used to specify the case(uppercase and lowercase) letters of text, capitalization of letters.
 
->Syntax:- 
->text-transform: uppercase;
+  Syntax:-  
+  text-transform: uppercase;
 
 - Indentation: This property "text-indent: " is used to indentation of the first line of a text.
 
@@ -50,10 +50,10 @@ Even for vertical alignment there is a syntax "vertical-align" which can be appl
 
 - Shadow: The "text-shadow: " is used to adds shadow to content.
 
->Syntax:- 
->text-shadow: 2px 3px 4px blue; 
->
->>*Here 2px is horizontal shadow, 3px is vertical shadow, 4px is for blurr effect and blue is gonna be the color of that shadow.*
+  Syntax:-   
+  text-shadow: 2px 3px 4px blue;   
+    
+  *Here 2px is horizontal shadow, 3px is vertical shadow, 4px is for blurr effect and blue is gonna be the color of that shadow.*
 
 ### Example comprises all the properties
 
