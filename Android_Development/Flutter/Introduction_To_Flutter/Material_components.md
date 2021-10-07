@@ -1426,4 +1426,4 @@ class CircularAndLinearProgress extends StatelessWidget {
 
 
 
-<p align="center"> To know more about material components click [here](https://flutter.dev/docs/development/ui/widgets/material).</p>
+ :pushpin: To know more about material components click [here](https://flutter.dev/docs/development/ui/widgets/material).
