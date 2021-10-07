@@ -11,7 +11,7 @@ In this project, we'll talk about Deque (Double Ended Queue), a topic under The 
 
 - Array
 - [Vector](Vector)
-- [Map](Maps)
+- [Map](./Maps)
 - Stack
 - Queue
 - [Deque](Deque)
