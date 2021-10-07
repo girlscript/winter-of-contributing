@@ -29,7 +29,9 @@ Path : {0 1 2 3 4 5 0}                  Path : No hamiltonian path exists.
 
 ## Concept of Adjacency Matrix
 
-<p> In this problem it is easier to solve the problem if we break it down. We realise that we do not have to worry about the values in the graph, we just have to see whether the nodes are ***adjacent*** to each other or not.</p> 
+In this problem, it is easier to solve the problem if we break it down. We realise that we do not have to worry about the values in the graph, we just have to see whether the nodes are ***adjacent*** to each other or not.
+
+
 <p> We employ an adjacency matrix for it, which is basically a 2-D square matrix, with :</p>
 
 ```
