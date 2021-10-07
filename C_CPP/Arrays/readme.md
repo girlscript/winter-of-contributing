@@ -1,2 +1,1 @@
 
-- Prefix Sum Array [https://github.com/shivam-iitk/winter-of-contributing/blob/C_CPP/C_CPP/Arrays/Prefix%20Sum%20Array/prefix_sum_array_documentation.md]
