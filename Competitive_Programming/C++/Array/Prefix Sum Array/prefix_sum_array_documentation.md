@@ -11,6 +11,8 @@ Output: PreSumArray={5,17,30,55,65}
 ```
 Explanation: first element is left undisturbed i.e. 5, second element as sum of first two elements i.e. 17 and third element as sum of first three i.e. 30 and so on.
 
+## Time Complexity: O(n)
+
 
 ## Uses of Prefix Sum Array 💡
 1. To calculate cummulative frequency from a givan array of frequency distribution
