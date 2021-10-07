@@ -1,4 +1,4 @@
-# **HTML Table Attributes**
+# HTML Table Attributes
 Tables in HTML pages are created by using multiple HTML tags with specific attributes defining table structure.The HTML tables are created using the `<table>` tag in which the `<tr>` tag is used to create table rows and `<td>` tag is used to create data cells. The elements under `<td>` are regular and left aligned by default.
 Example:
 
@@ -28,20 +28,20 @@ Example:
 
 
 1.   **Border**:Border attribute specifies the width of the border of the table. If you want to draw border in your table then you should use border attribute in table tag.
-```
+```html
 <TABLE BORDER=?></TABLE>
 ```
 
 2.   **Cellpadding**: Cellpadding attribute specifies the space between the cell wall and the cell content.
-```
+```html
 <TABLE CELLPADDING=?>
 ```
 3.   **Cellspacing**: Cellspacing attribute specifies the space between two cells. If you want to leave some space in two cells then you should use Cellspacing attribute in table tag.
-```
+```html
 <TABLE CELLSPACING=?>
 ```
 4.   **Align**: Align attribute specifies the alignment of values in a table. It can be align a value in left, right and centre.
-```
+```html
 <TR ALIGN=LEFT|RIGHT| CENTER|MIDDLE|BOTTOM
 VALIGN=TOP|BOTTOM|MIDDLE>
 <TD ALIGN=LEFT|RIGHT| CENTER|MIDDLE|BOTTOM
@@ -50,7 +50,7 @@ VALIGN=TOP|BOTTOM|MIDDLE>
 VALIGN=TOP|BOTTOM|MIDDLE>
 ```
 5.   **Width & Height**: Width attribute specifies the width of a table and height adjusts its height. If you want to set width and height of a table then you should use width/height attribute in table tag.
-```
+```html
 <TH WIDTH=? HEIGHT=?> – (in pixels)
 <TH WIDTH="%" HEIGHT="%"> – (percentage of table)
 <TABLE WIDTH=? HEIGHT=?> – (in pixels)
@@ -59,17 +59,17 @@ VALIGN=TOP|BOTTOM|MIDDLE>
 <TD WIDTH="%" HEIGHT="%"> – (percentage of table)
 ```
 6. **Bgcolor**: Bgcolor attribute specifies the background color of a table. If you want to use a background color in your table then you should use bgcolor attribute in table tag.
-```
+```html
 <TH BGCOLOR="#$$$$$$">
 <TD BGCOLOR="#$$$$$$">
 ```
 7.   **Colspan and rowspan**:You will use colspan attribute if you want to merge two or more columns into a single column. Similar way you will use rowspan if you want to merge two or more rows.
-```
+```html
 <td rowspan =?></td>
 <td colspan =?></td>
 ```
 8.  **Caption tag**:The caption tag will serve as a title or explanation for the table and it shows up at the top of the table. This tag is deprecated in newer version of HTML/XHTML.
-```
+```html
 <caption>This is the caption</caption>
 ```
 ## Table Header, Body, and Footer
