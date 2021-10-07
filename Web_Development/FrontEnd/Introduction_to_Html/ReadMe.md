@@ -174,7 +174,7 @@ A browser does not display the HTML tags, but uses them to determine how to disp
                 Head tags goes here..
             </head>
             <body>
-                Body goes here..
+                Body tags goes here..
             </body> 
         </html>
         ```
