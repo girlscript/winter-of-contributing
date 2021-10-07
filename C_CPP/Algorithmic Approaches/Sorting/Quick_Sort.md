@@ -108,6 +108,7 @@ int main()
     lb=0;
     ub=n-1;
     Quicksort(a,lb,ub,n);
+    cout<<"Sorted array:- ";
     for(int i=0;i<n;i++)
     {
         cout<<a[i]<<" ";
@@ -116,3 +117,7 @@ int main()
 
 }
 ~~~
+
+# Output
+![image](https://user-images.githubusercontent.com/71928146/136460002-349a6f57-d214-4b6d-80e6-df5b5f840a1d.png)
+
