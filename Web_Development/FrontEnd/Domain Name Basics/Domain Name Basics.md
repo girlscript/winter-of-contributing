@@ -87,7 +87,8 @@ A component called a ***DNS Resolver*** is responsible for checking if the hostn
 This system is essentially like the “phone book” of the Web that organizes and identifies domains. While a phone book translates a name like "Peter Parker" into the correct phone number to call, the DNS maps and translates a web address like "www.google.com" into the physical IP address—such as "74.125.19.147" that is of the computer hosting that site .
 
 ![d3](https://user-images.githubusercontent.com/78808336/136087254-1bbb37f5-9807-4b65-b2d2-4197370060f9.jpg)
-*Images Credit: [Phoenixnap](https://phoenixnap.com/kb/what-is-domain-name-system-works)*
+
+*Images Credit: [Cloudacademy](https://cloudacademy.com/blog/how-dns-works/)*
 
 ### ***Some terminologies:***
 - *Domain host:* 
@@ -102,7 +103,7 @@ Some domain name owners might prefer to have their personal information hidden f
 ## ***📌WHOIS***
 ***WHOIS*** or shorthand for the question, ***"Who is responsible for this domain name?"*** is a widely used Internet record listing that identifies who owns a domain and how to get in contact with them. It is a query and response protocol that is widely used for querying databases that store the registered users or assignees of an Internet resource, such as a domain name, an IP address block or an autonomous system, but is also used for a wider range of other information.
 
-Whenever a domain is registered, the ***International Corporation for Assigned Names and Numbers (ICANN)*** requires that these individuals, businesses or organizations provide up-to-date personal contact information to their domain registrars. This information, which may include the name, address, email, phone number and associated IP addresses, is collected and displayed in the ICANN ***WHOIS Database or WHOIS Directory***, which acts similarly to an international address book for the public. <br>
+Whenever a domain is registered, the ***International Corporation for Assigned Names and Numbers (ICANN)*** requires that these individuals, businesses or organizations provide up-to-date personal contact information to their domain registrars. This information, which may include the name, address, email, phone number and associated IP addresses, is collected and displayed in the ICANN ***WHOIS Database or WHOIS Directory***, which acts similarly to an international address book for the public.
 
 ### ***What’s in the WHOIS database?***
 The WHOIS database stores information about domains such as the following:
@@ -129,7 +130,7 @@ There are 13 root servers worldwide, indicated by the letters A through M, maint
 The Authoritative Name Server is the last stop in the name server query. It takes the hostname and returns the correct IP address to the DNS Resolver or if it cannot find the domain, returns the message NXDOMAIN.
  
 ![d4](https://user-images.githubusercontent.com/78808336/136087481-3497ffb0-b463-4503-ad28-a8a3ee68925e.png)
-*Image Credits:  [Phoenixnap](https://phoenixnap.com/kb/what-is-domain-name-system-works)**
+*Image Credits: [Phoenixnap](https://phoenixnap.com/kb/what-is-domain-name-system-works)*
 
 ## ***Types of DNS Records***
 ***DNS records*** are created by DNS servers to provide important information about a domain or hostname, particularly its current IP address. <br> 
@@ -179,6 +180,7 @@ The domain name is one of the pieces inside a URL and most easily recognized par
 To summarize, the domain name is a part of the URL, which points to the associated IP address.
 
 ![d2](https://user-images.githubusercontent.com/78808336/136086799-834c2355-b84b-431c-8cb1-2e09abf19010.jpg)
+
 *Image Credits: [Data Flair](https://data-flair.training/blogs/seo-domain-name/)*
  
 ***A popular analogy can be : “People find web pages in a manner similar to the way that they use maps to find physical locations. If the Internet is like a phone book, and a web page is like a physical building, the URL would be the precise street address of that building. The IP address would be like the car that travels to its destination.”***
