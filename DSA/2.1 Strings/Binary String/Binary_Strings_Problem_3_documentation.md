@@ -37,7 +37,11 @@ hence our ans is ___'3'.___
 
 #### Approach
 
-Firstly, we initialize our ans as the size of the string. Then we start  traversing the string. While traversing, we check whether two adjacent character are different or not. If they are different then we take the maximum of the left substring (LHS) or the right substring (RHS) and equate our ans to minimum of ans or the maximum of previous. We repeat this until we reach the end of the string.
+- Firstly, we initialize  "__ans__" variable as the size of the string. 
+- Then we start  traversing the string. While traversing, we check whether two adjacent character are different or not. 
+- If they are different then we take the maximum of the left substring (LHS) or the right substring (RHS). i.e maximum = max(LHS, RHS)
+- Then we equate our __ans__ to minimum of ans or the maximum of previous. i.e ans = min(ans, maximum)
+- We repeat this until we reach the end of the string.
 
 #### Code
 
