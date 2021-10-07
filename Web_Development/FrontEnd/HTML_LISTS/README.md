@@ -111,5 +111,28 @@ This produces an output as follows:
 
 ![alt text](assets/dl.jpg)
 
+## Styles of HTML Lists
+**Style of Unordered list:** <br>
+By default, we can see that the unordered list has a bullet point style. However, there are other styles as well, such as disc, square, circle etc. For choosing any one of these styles, all we need to do is add type="list style" in the &lt;ul&gt;, like this:
+<br> &lt;ul type="square"&gt;.
+Different styles present: 
+- Square
+- Circle
+- Disc etc.
+
+*One doesn't really need to memorize this styles, as they are easily available on the internet* <br>
+![alt text](assets/unordered.jpg)
+
+**Style of Ordered list:** <br>
+By default, we can see that the ordered list has a numbering style. However, there are other styles as well, such as roman style, alphabet listing etc. For choosing any one of these styles, all we need to do is add type="list style" in the &lt;ul&gt;, like this:
+<br> &lt;ul type="I"&gt;.
+Different styles present: 
+- Roman (type="I" for Roman numerics in capital letters.)
+- Roman (type="i" for Roman numerics in small letters.)
+- Alphabetical (type="A" for Alphabetical order in capital letters.)
+- Alphabetical (type="a" for Alphabetical order in small letters.)
+- Starting from an arbitrary number (start = "4" will start the list from 4, keeping the next items as 5, 6, 7 and so on.) <br>
+
+![alt text](assets/ordered.jpg)
 ---
 

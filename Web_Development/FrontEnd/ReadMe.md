@@ -20,12 +20,12 @@
 - [HTML Lists](./HTML_LISTS)
 - [HTML Canvas](./HTML_Canvas/Canvas.md)
 - HTML Classes and IDs
-- HTML Forms
+- [HTML Forms](./HTML%20Forms)
 - [HTML IFrames](./HTML_IFrames/iframes.md)
 - Semantic HTML
 - Form Validation
 - [Conventions & Best Practices](HTML_Conventions_Practices/readme.md)
-- Accessibility
+- [Accessibility](Html_Accessibility.md)
 - Search Engine Optimisation Basics
 
 ## 2️⃣ CSS
