@@ -28,4 +28,4 @@ The MSE is the second moment of the error (about the origin) and thus incorporat
 ## References:
 
 * [Python | Coefficient of Determination-R2 score - GeeksforGeeks](https://www.geeksforgeeks.org/python-coefficient-of-determination-r2-score/#:~:text=Coefficient%20of%20determination%20also%20called,input%20independent%20variable(s).)
-* [Python | Mean Squared Error - GeeksforGeeks](https://www.geeksforgeeks.org/python-mean-squared-error/#:~:text=The%20Mean%20Squared%20Error%20(MSE,of%20the%20squared%20error%20loss.)
+* [Python | Mean Squared Error - GeeksforGeeks](https://www.geeksforgeeks.org/python-mean-squared-error/#:~:text=The%20Mean%20Squared%20Error%20(MSE,of%20the%20squared%20error%20loss. )
