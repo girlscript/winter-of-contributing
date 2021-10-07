@@ -3,14 +3,14 @@
 
 using namespace std;
 
-void insertAtBottom(stack <int> &s, int top)
+void insertAtBottom(stack<int> &s, int top)
 {
 	//base case
 
-	if(s.empty())
+	if (s.empty())
 	{
 		s.push(top);
-		return ;
+		return;
 	}
 
 	//recursive case
@@ -22,18 +22,18 @@ void insertAtBottom(stack <int> &s, int top)
 	s.push(currTop);
 }
 
-void reverseStack(stack <int> &s)
+void reverseStack(stack<int> &s)
 {
 	//base case
 
-	if(s.empty())
+	if (s.empty())
 	{
-		return ;
+		return;
 	}
 
-	//recursive case 
+	//recursive case
 
-	//store the topmost element and make a call on the remaining stack 
+	//store the topmost element and make a call on the remaining stack
 
 	int top = s.top();
 	s.pop();
@@ -43,16 +43,16 @@ void reverseStack(stack <int> &s)
 	insertAtBottom(s, top);
 }
 
-void printStack(stack <int> s, int n)
+void printStack(stack<int> s, int n)
 {
-	for(int i=0;i<n;i++)
+	for (int i = 0; i < n; i++)
 	{
 		int top = s.top();
 		s.pop();
 
-		cout<<top<<endl;
+		cout << top << endl;
 	}
-	cout<<endl;
+	cout << endl;
 }
 
 int main()
@@ -60,25 +60,35 @@ int main()
 	ios_base::sync_with_stdio(false);
 	cin.tie(NULL);
 
-	stack <int> s;
+	int t;
+	cin >> t;
 
-	int n;
-	cin>>n;
-
-	for(int i=0;i<n;i++)
+	int z = 0;
+	while (t--)
 	{
-		int num;
-		cin>>num;
-		s.push(num);
+		cout << "Test case : # " << z++ << endl;
+
+		stack<int> s;
+
+		int n;
+		cin >> n;
+
+		for (int i = 0; i < n; i++)
+		{
+			int num;
+			cin >> num;
+			s.push(num);
+		}
+
+		cout << "The original Stack is :" << endl;
+		printStack(s, n);
+
+		reverseStack(s);
+
+		cout << "The reversed stack is :" << endl;
+		printStack(s, n);
+		cout<<endl;
 	}
-
-	cout<<"The original Stack is :"<<endl;
-	printStack(s, n);
-
-	reverseStack(s);
-
-	cout<<"The reversed stack is :"<<endl;
-	printStack(s, n);
 
 	return 0;
 }
