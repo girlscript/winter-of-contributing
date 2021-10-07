@@ -20,8 +20,7 @@
              .
              .
  ```
-<br> OR <br>
-
+OR 
 ```c
 //Backward goto usage
           label:
@@ -59,17 +58,14 @@ int main()
 ```
 - ## Input for this program 
 ```c
-    5  6
+     Enter two numbers:5 6
 ```
 - ## Output for this program
-```
-     Enter two numbers:5 6
-     Sum of given two numbers is 11 (odd)
+```c
+    Sum of given two numbers is 11 (odd)
 ```
 ## Disadvantages
 - It is not preferable to use as it makes the program complex and tangled. 
 - It minimizes the efficiency of the program.
 - In modern programming ,it is a bad programming practice.
-- It’s **better to use break and continue statements instead of goto statements**.
-
-          
+- It’s better to use break and continue statements instead of goto statements.
