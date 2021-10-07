@@ -47,8 +47,6 @@ function showPosition(position) {
 
 </body>
 </html>
-
-
 ```
 
 ## Example explained:
