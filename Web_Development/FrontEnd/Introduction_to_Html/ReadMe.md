@@ -170,14 +170,14 @@ A browser does not display the HTML tags, but uses them to determine how to disp
     - Head Tag Usage:
 
         
-            <html>
-                <head>
-                Head tags goes here..
-                </head>
-                <body>
+        <html>
+            <head>
+            Head tags goes here..
+            </head>
+            <body>
                 Body goes here..
-                </body> 
-            </html>
+            </body> 
+        </html>
             
          
     Style tag:
