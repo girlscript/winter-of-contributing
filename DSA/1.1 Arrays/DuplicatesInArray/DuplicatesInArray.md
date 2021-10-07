@@ -5,7 +5,7 @@ Given an array of size n+1, all the elements are in range of [1,n].It is guarant
 Ex: Consider n = 4 , Array= [1,2,3,1,4] \
 The ouput must be 1.\
 Ex: Consider n = 5, Array = [2,3,4,2,2,1]\
-The output must be 2.\
+The output must be 2.
 
 ## Floyd Cycle Detection Algorithm
 This is genrally used to return the first element of the loop present in a linked list.
@@ -17,7 +17,7 @@ This is genrally used to return the first element of the loop present in a linke
 
 Now that we had an idea of what the algorithm does, let's find out how this is helpful in finding out the duplicate in the array.
 
-## Intution
+## Intuition
  We start from 0th index, we check the  value at index 'array[0]' and then check value at index 'array[array[0]]'. We keep doing this, so the sequence being formed is:\
  0, array[0], array[array[0]], array[array[array[0]]], ...\
  Each new element in the sequence is an element in array at the index of the previous element. \
@@ -84,4 +84,13 @@ Output:
 The duplicate element is:2
 ```
 
-In this way, we could use Floyd's Cycle Detection to findout a duplicate element in an array of size n+1 containing elements in the range of [1,n].
+### Space Complexity
+Since, we're not taking any extra space, space complexity is contant. So, space complexity = O(1)
+
+### Time Complexity 
+Time Complexity is O(n).
+The reason is ,within < n steps, the tortoise and hare pointers will be in the loop O(n). If number of elements in the loop are m(<=n), time taken to find intersection point is O(m).
+So, time taken to find the entrance of loop is also O(m).
+Total time complexity is O(n)+O(m)+O(m) = O(n+2m) = O(n) [because n>=m]
+
+In this way, we could use Floyd's Cycle Detection algorithm to findout a duplicate element in an array of size n+1 containing elements in the range of [1,n].
