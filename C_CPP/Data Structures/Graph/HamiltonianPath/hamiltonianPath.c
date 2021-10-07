@@ -4,7 +4,7 @@
 
 void sol(int V, int *path);
  
-bool check(int v,int V, bool graph[V][V], int *path, int pos)
+bool check(int v,int V, bool graph[V][V], int *path, int pos) //Fn to check adjacency and repetition of nodes
 {
     if (graph [ path[pos-1] ][ v ] == 0) // if nodes are not adjacent
         return false;
@@ -16,7 +16,7 @@ bool check(int v,int V, bool graph[V][V], int *path, int pos)
     return true;
 }
  
-bool hamilPath(int V, bool graph[V][V], int *path, int pos)
+bool hamilPath(int V, bool graph[V][V], int *path, int pos) //Constructs Hamiltonian path by adding the nodes satisfying the conditions to the path array 
 {
     if (pos == V)
     {
@@ -42,7 +42,7 @@ bool hamilPath(int V, bool graph[V][V], int *path, int pos)
     return false;
 }
  
-bool checkCycle(int V, bool graph[V][V])
+bool checkCycle(int V, bool graph[V][V]) //Utilizes HamilPath() Fn to check whether we have a complete path or not
 {
     int *path = malloc(V*sizeof(int)); //path array initialization
     
@@ -61,7 +61,7 @@ bool checkCycle(int V, bool graph[V][V])
     return true;
 }
  
-void sol(int V, int *path)
+void sol(int V, int *path) //Prints Hamiltonian Path if it exists
 {
     printf ("\nSolution Exists - Hamiltonian Path is :  \n");
     for (int i = 0; i < V; i++)
@@ -80,7 +80,7 @@ int main()
         It operates on the adjacency matrix given to it.
     */
 
-    do
+    do //Loop for re-running the program without closing
     {
         printf("\nEnter no. of vertices : ");
         scanf("%d",&V);
