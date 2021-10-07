@@ -45,6 +45,7 @@
 - Transition and transformation
 - Animations
 - CSS Libraries
+- [CSS Pagination](./CSS_Pagination/CSS_Pagination.md)
 - Basics & Syntax
 - The Box Model
 - CSS Layouts
