@@ -16,9 +16,9 @@ A binary tree *T* is defined as a finite set of elements, called nodes such that
 
 1. T is an empty or null tree
 2. T contains a different node R, known as the root of *T*, and the remaining nodes of *T* form an ordered pair of disjoint binary trees T1 and T2
-> Here if T does contain a root R, then T1 and T2 are called left and right subtrees of R respectively.
-> 
-> If T1 is non-empty then it root is called the left successor of R, similarly T2 is non-empty then its root is called the right successor of R.
+  
+  Here if T does contain a root R, then T1 and T2 are called left and right subtrees of R respectively.  
+  If T1 is non-empty then it root is called the left successor of R, similarly T2 is non-empty then its root is called the right successor of R.
 
 A Binary Tree node contains:-
 
@@ -28,15 +28,15 @@ A Binary Tree node contains:-
 
 Let's understand this concept diagramatically
 
->                A
->               / \
->             B   C
->            / \  / \
->            D  E G   H
->              /     / \
->             F     J   K
->                  /
->                 L
+                A
+               / \
+             B   C
+            / \  / \
+            D  E G   H
+              /     / \
+             F     J   K
+                  /
+                 L
 
 Here B is left successor and C is right successor.
 
@@ -67,13 +67,13 @@ struct node
 
 1. Full Binary Tree: The proper or full Binary tree is a special type of binary tree in which every parent node/internal node has either two or no children.
 
->           1
->           / \
->          2   3
->         / \    
->        4   5   
->           / \
->          6   7
+           1
+           / \
+          2   3
+         / \    
+        4   5   
+           / \
+          6   7
 
 2. Complete Binary Tree: In this binary tree all the levels are completely filled except the possiblity of the lowest one, which is filled from the left.
 
@@ -82,19 +82,19 @@ struct node
 - *All the leaf elements must be lean towards the left.*
 - *The last leaf element might not have a right sibling. *
 
->            1
->           / \
->          2   3
->         /|    |
->        4 5    6  
+            1
+           / \
+          2   3
+         /|    |
+        4 5    6  
 
 3. Perfect Binary Tree: A perfect binary tree is a kind of binary tree in which every internal node has exactly two child nodes and all the leaf nodes are at the same level.
 
->            1
->           / \
->          2   3
->         /|    |\
->        4 5    6  7 
+            1
+           / \
+          2   3
+         /|    |\
+        4 5    6  7 
          
 4. Balanced Binary Tree: The balanced binary tree or height-balanced binary tree, is defined as a binary tree in which the height of the left and right subtree of any node differ by not more than 1.
 
@@ -104,78 +104,79 @@ Conditions for balanced binary tree are
 
 - difference between the left and the right subtree for any node should not be more than one.
 
->            1
->           / \
->          2   3
->         / \    
->        4   5   
+            1
+           / \
+          2   3
+         / \    
+        4   5   
 
 ### Example:-
 
-> Creating a simple tree with 4 nodes
->
-> #include <bits/stdc++.h>
-> using namespace std;
-> 
-> struct Node {
->    int data;
->    struct Node* left;
->    struct Node* right;
-> 
->    // val is the key or the value that
->    // has to be added to data part
->    Node(int value)>
->    >{
->     >   data = value;
-> 
->        // Left, right child for node
->        // will be initialized to null
->        left = NULL;
->        right = NULL;
->    }
-> };
-> int main()
-> {
-> 
->    /*create root*/
->    struct Node* root = new Node(1);
->    /* following is the tree after the above statement
-> 
->             1
->            / \
->          NULL NULL
->    */
-> 
->    root->left = new Node(2);
->    root->right = new Node(3);
->    /* 2 and 3 become left and right children of 1 respectively
->                    1
->                  /    \
->                 2       3
->               /  \     /  \
->            NULL NULL  NULL NULL
->    */
-> 
->    root->left->left = new Node(4);
->    /* 4 become left child of 2
->               1
->            /     \
->           2       3
->          / \     / \
->         4  NULL NULL NULL
->        / \
->     NULL NULL
->    */
->
->    return 0;
-> }
+ Creating a simple tree with 4 nodes
+
+    #include <bits/stdc++.h>
+    using namespace std;
+  
+    struct Node
+    {
+    int data;
+    struct Node* left;
+    struct Node* right;
+ 
+    // val is the key or the value that
+    // has to be added to data part
+    Node(int value)>
+     {
+         data = value;
+ 
+        // Left, right child for node
+        // will be initialized to null
+        left = NULL;
+        right = NULL;
+        }
+        };
+        int main()
+        {
+ 
+    /*create root*/
+    struct Node* root = new Node(1);
+    /* following is the tree after the above statement
+ 
+             1
+            / \
+          NULL NULL
+    */
+
+    root->left = new Node(2);
+    root->right = new Node(3);
+    /* 2 and 3 become left and right children of 1 respectively
+                    1
+                  /    \
+                 2       3
+               /  \     /  \
+            NULL NULL  NULL NULL
+    */
+ 
+    root->left->left = new Node(4);
+    /* 4 become left child of 2
+               1
+            /     \
+           2       3
+          / \     / \
+         4  NULL NULL NULL
+        / \
+     NULL NULL
+    */
+
+    return 0;
+    }
 
 Output:
 
->       1 6
->       / \
->      2   3
->     /
->    4
+       1 6
+       / \
+      2   3
+     /
+     4
 
 Reference: https://www.programiz.com/
