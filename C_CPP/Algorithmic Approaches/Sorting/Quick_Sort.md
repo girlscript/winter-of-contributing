@@ -53,4 +53,66 @@ QuickSort is a Divide and Conquer algorithm. The name "Quick Sort" comes from th
 ![image](https://user-images.githubusercontent.com/71928146/136456448-72105fdd-8c3f-4759-931d-8757a04bb875.png)
 ![image](https://user-images.githubusercontent.com/71928146/136457746-519bafb0-a3dd-4152-8c87-27853fb8112b.png)
 
+# Program/Code in C++
+~~~
+#include<iostream>
+using namespace std;
 
+int part(int *a, int lb, int ub, int n)
+{
+    int pivot=a[lb];
+    int start=lb;
+    int ennd=ub;           //ennd=end
+
+    while(start<ennd)
+    {
+        while(a[start]<=pivot)
+        {
+            start++;
+        }
+        while(a[ennd]>pivot)
+        {
+            ennd--;
+        }
+        if(start<ennd)
+        {
+            swap(a[start],a[ennd]);
+        }
+    }
+    swap(a[lb],a[ennd]);
+    return ennd;
+
+}
+void Quicksort(int *a, int lb, int ub, int n)
+{
+    int loc;
+    if(lb<ub)
+    {
+        loc = part(a,lb,ub,n);
+        Quicksort(a,lb,loc-1,n);
+        Quicksort(a,loc+1,ub,n);
+    }
+
+}
+int main()
+{
+    int n,lb,ub;                      //lb=lower bound, ub=upper bound
+    cout<<"Enter size of your array";
+    cin>>n;
+    int a[n];
+    cout<<"Enter your elements";
+    for(int i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    lb=0;
+    ub=n-1;
+    Quicksort(a,lb,ub,n);
+    for(int i=0;i<n;i++)
+    {
+        cout<<a[i]<<" ";
+    }
+    cout<<endl;
+
+}
+~~~
