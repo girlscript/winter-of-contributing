@@ -40,7 +40,8 @@ A **data cell** can contain text, images, lists, paragraphs, forms, horizontal r
 | Row 3, cell 1 | Row 3, cell 2 | Row 3, cell 3 |
 
 ## **Tags used to create a HTML table**
-### ```<tr>``` The ```<tr>``` tag Creates a new **row** in the table. Any number of rows can be created in a table but every row must have **same number of cells**.
+### ```<tr>``` 
+The ```<tr>``` tag Creates a new **row** in the table. Every row created in a table must have **same number of cells**.
 > ```html
 > <table>
 > <tr>
@@ -204,5 +205,5 @@ The ```<colgroup>``` tag specifies a **particular column**. While styling a tabl
 <a href="https://imgbb.com/"><img src="https://i.ibb.co/k2c00L0/html-Table.png" alt="html-Table" border="0"></a>
 
 ## **Where to use HTML table?**
-Tables are designed for displaying **tabular data**. So it is not advisable to use **HTML tables** when creating web page layouts. Tables have a complex structure so nesting the entire content of a page inside a single table can create a complex and unorganized codes. Unlike other tags ```<table>``` tag's size depends on the space taken by it's content so their might be a problem with the responsiveness of the web page.
+Tables are used for displaying data in **tabular form**. So it is not advisable to use **HTML tables** when creating web page layouts. Tables have a complex structure so nesting the entire content of a page inside a single table can create complex and unorganised codes. Unlike other tags, ```<table>``` tag's size depends on the space taken by it's content so their might be a problem with the responsiveness of the web page.
 
