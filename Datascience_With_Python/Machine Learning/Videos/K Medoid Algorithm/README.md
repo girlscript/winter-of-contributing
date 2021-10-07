@@ -1,5 +1,5 @@
 # K Medoid Algorithm
-## Video Link: [K Medoid Algorithm]()
+## Video Link: [K Medoid Algorithm](https://drive.google.com/file/d/1bV7gg0ftD9WnGoDLvxsLRDjDIVJ_Rmj6/view?usp=sharing)
 
 Clustering is an unsupepervised learning method in which we form the dataset into cluster of items or group of items on the basis of similarity or dissimilarity between the items or objects. In other words, we form groups several groups of items or objects such that each group has its the similar items/objects while rest of the items which are dissimilar are in some other group. In an unsupervised method, we are not given any pre defined labels and we have to infer the given dataset to form labelled sets. Same is being done here. We will not be given any predefined label and we have to label our clusters in such a way that all similar objects should be toegther in each cluster and the data point from different cluster should be as different as possible.
 
@@ -198,10 +198,10 @@ plt.show()
 - Clustering forms a backbone of search engines. When a search is performed, the search results need to be grouped, and the search engines very often use clustering to do this.
 There are many more applications. You can always refer internet to know more
 
-## Advantages of K Medoid Clustering
+## Advantages of K Medoids Clustering
 - It is simple to understand and easy to implement.
 - K-Medoid Algorithm is fast and converges in a fixed number of steps.
-- K Mediod algorithm is less sensitive to outliers than other partitioning algorithms.
+- K Medoid algorithm is less sensitive to outliers than other partitioning algorithms.
 
 ## Disadvantages of K Medoids Clustering
 - Sometimes, it is quite tough to forecast the number of clusters, or the value of k.
