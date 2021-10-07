@@ -28,6 +28,8 @@ QuickSort is a Divide and Conquer algorithm. The name "Quick Sort" comes from th
 
 --> Now lets take two variables start and end where start will point at the pivot element i.e first element and end will point at the last element. So value of Start is 0 and value of End is 8.
 
+*Note*:- Start and End are not pointers they are normal variables. Here pointing means indicating that element.
+
 ![image](https://user-images.githubusercontent.com/71928146/136443676-7ef956ad-3d70-4307-8ca0-3de096e500ee.png)
 
 --> Now our moto is to bring all the elements which is smaller than or equal to our pivot element at the left side of it and rest other elememts at the right side. So for this we will move Start variable to right side(by incrementing value from 0,1..) until we get any element greater than our pivot element and if we get any element greater than our pivot element then we will stop our Start variable there and now we will move End variable to the left side(by decrementing value from 8,7..) until we get any value smaller than pivot element and if we get that smaller element then we will stop our End variable there and swap the element present at Start variable with the element which is present at End variable.
@@ -42,5 +44,8 @@ QuickSort is a Divide and Conquer algorithm. The name "Quick Sort" comes from th
 ![image](https://user-images.githubusercontent.com/71928146/136450186-503f9494-23d1-401e-8ce9-8e2001c39e8a.png)
 ![image](https://user-images.githubusercontent.com/71928146/136450766-8c40480e-7a3c-4763-98b9-20d7db661116.png)
 ![image](https://user-images.githubusercontent.com/71928146/136450859-4781fd67-c164-4558-bac5-f29241151194.png)
+![image](https://user-images.githubusercontent.com/71928146/136452281-5363a3ca-c5f7-45e9-8bcd-4d1eade153ae.png)
+![image](https://user-images.githubusercontent.com/71928146/136452607-c5db922b-3ca3-42e9-9239-799fe7a2fdfa.png)
+![image](https://user-images.githubusercontent.com/71928146/136453306-7e6cb916-b1d0-4285-86fa-9e5c1b93b591.png)
 
 
