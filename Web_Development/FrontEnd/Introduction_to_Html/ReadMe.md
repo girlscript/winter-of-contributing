@@ -178,13 +178,6 @@ A browser does not display the HTML tags, but uses them to determine how to disp
             </body> 
         </html>
         ```
-            
-         
-    Style tag:
-        Style tag is used to 
-
-
-<img src="https://codebridgeplus.com/wp-content/uploads/html-comments.jpg">
 
 ---
 
