@@ -7,11 +7,11 @@ and interpreters.
 
 HTML comments are not displayed in the browser, but they can help to document HTML source code.
 
-**HTML Comment Tag**
+# **HTML Comment Tag**
 
-In HTML, a comment is text enclosed within < !╌ ╌> tags. This syntax tells the browser that they are comments and should not be rendered on the front end. 
+In HTML, a comment is text enclosed within `<!╌ ╌>` tags. This syntax tells the browser that they are comments and should not be rendered on the front end. 
 
-![HTML_Comment](https://drive.google.com/file/d/1NJMI21WzwOkPjHy0Tugwg_OdTA8AmgD0/view?usp=sharing)
+![HTML_Comments](https://user-images.githubusercontent.com/71713383/136440104-b84776ab-867f-4581-a093-33e7680309d3.png)
 
 
  **why we use comments**
@@ -23,17 +23,13 @@ In HTML, a comment is text enclosed within < !╌ ╌> tags. This syntax tells t
 
 # Single Line Comment
 
-
 ```
 <p>This is starting of a paragraph</p>
     <!--This line will not compiled by complier , it is a comment-->
 <p>This is ending of a paragraph</p>
 ```
 
-
 # Multiline Comment
-
-
 
 ```
 <!---  
@@ -43,5 +39,5 @@ It will not display on the browser.
 -->  
 ```
 
-#Supporting Browsers
-![Supporting Browsers](https://drive.google.com/file/d/12ly9DPG2DfKJPapgxvP9jKYV_Ggom5tp/view?usp=sharing)
+# Supporting Browsers
+![Supporting Browsers](https://user-images.githubusercontent.com/71713383/136441668-bed46d79-def7-400e-880a-d01a41161b5b.png)
