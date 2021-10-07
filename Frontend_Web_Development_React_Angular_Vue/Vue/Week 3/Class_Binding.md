@@ -141,6 +141,12 @@ In v - bind : style we can also apply mutiple styles object.
 
 
 
+### <u>**Advantages**</u>
+
+
+
+The major advantage of it is that Vue provides **special enhancements** when we use **v-bind** in both c**lass and style**. and also for **strings** the expression can also **evaluate to object or arrays** .
+
 # References
 
 
