@@ -77,4 +77,4 @@ else if ( nodes i and j are adjacent )
 If we do not find such vertex we don't add it to the path vertex.
 </p>
 
-[Hamiltonian Path](hamiltonianPath.md)
+[Hamiltonian Path](hamiltonianPath.c)
