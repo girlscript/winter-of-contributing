@@ -4,11 +4,11 @@ API stands for Application Programming Interface. A Web API is an application pr
 <br>
 
 We will be discussing three types of HTML API here:-
-<ol>
-  <li>HTML Geolocation API</li>
-  <li>HTML Drag and Drop API</li>
-  <li>HTML Web Storage API</li>
-</ol>
+
+HTML Geolocation API
+HTML Drag and Drop API
+HTML Web Storage API
+
   
 
 ### HTML Geolocation API
@@ -52,12 +52,12 @@ function showPosition(position) {
 ## Example explained:
 
 ### Check if Geolocation is supported
-<ul>
-<li>If supported, run the getCurrentPosition() method. If not, display a message to the user</li>
-<li>If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)</li>
-<li>The showPosition() function outputs the Latitude and Longitude</li>
-<li>The example above is a very basic Geolocation script, with no error handling</li>
-</ul>  
+
+If supported, run the getCurrentPosition() method. If not, display a message to the user
+If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)
+The showPosition() function outputs the Latitude and Longitude
+The example above is a very basic Geolocation script, with no error handling
+
 
 
 ## Output
@@ -96,19 +96,17 @@ The getCurrentPosition() method returns an object on success. The latitude, long
 
 Geolocation Object - Other interesting Methods
 ### The Geolocation object also has other interesting methods:
-<ul>
-<li>watchPosition() - Returns the current position of the user and continues to return updated position as the user moves (like the GPS in a car).</li>
-<li>clearWatch() - Stops the watchPosition() method.</li>
-</ul>
+
+watchPosition() - Returns the current position of the user and continues to return updated position as the user moves (like the GPS in a car).
+clearWatch() - Stops the watchPosition() method.
+
 
 # HTML Drag and Drop API
 
 In HTML, any element can be dragged and dropped.
 
-
 ### Drag and Drop
 <stong>Drag and drop is a very common feature. It is when you "grab" an object and drag it to a different location.</strong>
-<br>
   
 #### HTML Drag and Drop Example
 The example below is a simple drag and drop example:
@@ -164,14 +162,14 @@ In this case, the data type is "text" and the value is the id of the draggable e
 ## Where to Drop - ondragover
 The **ondragover** event specifies where the dragged data can be dropped.
 By default, data/elements cannot be dropped in other elements. To allow a drop, we must prevent the default handling of the element.
-<br>
+
 This is done by calling the **event.preventDefault() method** for the ondragover event:
 ```
 event.preventDefault()
 ```
 ## Do the Drop - ondrop
 When the dragged data is dropped, a drop event occurs.
-<br>
+
 In the example above, the ondrop attribute calls a function, drop(event):
 ```
 function drop(ev) {
@@ -180,12 +178,12 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
 }
 ```
-<ul>
-<li>Call preventDefault() to prevent the browser default handling of the data (default is open as link on drop)</li>
-<li>Get the dragged data with the dataTransfer.getData() method. This method will return any data that was set to the same type in the setData() method</li>
-<li>The dragged data is the id of the dragged element ("drag1")</li>
-<li>Append the dragged element into the drop element</li>
-</ul>
+
+Call preventDefault() to prevent the browser default handling of the data (default is open as link on drop)
+Get the dragged data with the dataTransfer.getData() method. This method will return any data that was set to the same type in the setData() method
+The dragged data is the id of the dragged element ("drag1")
+Append the dragged element into the drop element
+
 ## HTML Web Storage API
 HTML web storage; better than cookies.
 
@@ -200,10 +198,10 @@ Web storage is per origin (per domain and protocol). All pages, from one origin,
 
 ### HTML Web Storage Objects
 HTML web storage provides two objects for storing data on the client:
-<ul>
-<li>window.localStorage- stores data with no expiration date</li>
-<li>window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)</li>
-</ul>
+
+window.localStorage- stores data with no expiration date
+window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
+
 The localStorage Object
 **The localStorage object stores the data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.**
 
