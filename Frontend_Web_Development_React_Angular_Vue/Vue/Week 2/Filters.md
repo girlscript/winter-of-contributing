@@ -74,7 +74,7 @@ We can set the filter function for use in multiple components by setting it usin
 ```
 ## Output
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
-    <img src="./assets/filters1.png"  style ="width:500px">
+    <img src="./assets/filters1.png"  style ="width:90%">
 </div>
 
 ## Explanation
@@ -135,7 +135,7 @@ When you'd want to use a filter locally, say for use inside a particular section
 
 ## Output
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
-    <img src="./assets/filters2.png"  style ="width:500px">
+    <img src="./assets/filters2.png"  style ="width:80%">
 </div>
 
 ## Explanation
@@ -192,7 +192,7 @@ There may be a case where you'd want to chain multiple filters, maybe for adding
 
 ## Output
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
-    <img src="./assets/filters3.png" style ="width:500px">
+    <img src="./assets/filters3.png" style ="width:80%">
 </div>
 
 ## Explanation
@@ -249,7 +249,7 @@ Let's supoose you wanted to change a string to either lowercase or uppercase but
 
 ## Output
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
-    <img src="./assets/filters4.png" style ="width:500px">
+    <img src="./assets/filters4.png" style ="width:80%">
 </div>
 
 ## Explanation
@@ -328,7 +328,7 @@ let's take an example-
 ```
 ## Output
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
-    <img src="./assets/filters5.png" style ="width:500px">
+    <img src="./assets/filters5.png" style ="width:80%">
 </div>
 
 ## Explanation
@@ -340,7 +340,8 @@ In the above code, the following code is using two filters ```changeCase``` and 
 <h1>{{ message | changeCase('uppercase') | reverseIt }}</h1>
 ```
 <hr>
-### **_Although in this document only moustache interpolations were used, you can just as well do all these operations in ```v-bind``` expressions_**
+
+### _Although in this document only moustache interpolations were used, you can just as well do all these operations in ```v-bind``` expressions_
 
 Let's take an example-
 
@@ -389,7 +390,7 @@ Let's take an example-
 
 ## Output
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
-    <img src="./assets/filters6.png" style ="width:500px">
+    <img src="./assets/filters6.png" style ="width:80%">
 </div>
 
 ## Explanation
@@ -399,3 +400,12 @@ In the above code, see the following piece of code-
 <input v-bind:value="message | changeCase('uppercase') | reverseIt" />
 ```
 This piece of code shows that we can use ```v-bind``` expression to filter the value of an ```input``` tag in HTML.
+
+#  References
+*  https://theninja.blog/using-filters-in-vue/
+*  https://vuejs.org/v2/guide/filters.html
+*  https://www.reddit.com/r/vuejs/comments/bfpfrz/are_vuejs_filters_really_that_bad/
+*  https://www.adcisolutions.com/knowledge/how-build-single-page-application-spa-vuejs
+
+
+
