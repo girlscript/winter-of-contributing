@@ -121,3 +121,23 @@ int main()
 # Output
 ![image](https://user-images.githubusercontent.com/71928146/136460002-349a6f57-d214-4b6d-80e6-df5b5f840a1d.png)
 
+# Time Complexity
+   ### Best Case
+   O(nlogn)
+   ### Average Case
+   O(nlogn)
+   ### Worst Case
+   O(n^2)
+  
+# Space Complexity
+O(n)
+
+# Advantages
+1) It requires only n (log n) time to sort n items.
+2) It has an extremely short inner loop.
+3) It is in-place since it uses only a small auxiliary stack.
+
+# Disadvantages
+1) It is recursive. Especially, if recursion is not available, the implementation is extremely complicated.
+2) It requires quadratic (i.e., n2) time in the worst-case.
+3) It is fragile, i.e. a simple mistake in the implementation can go unnoticed and cause it to perform badly.
