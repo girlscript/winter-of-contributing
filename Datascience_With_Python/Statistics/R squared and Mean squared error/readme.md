@@ -4,7 +4,8 @@ R-squared is a statistical measure of how close the data are to the fitted regre
 
 It is the percentage of the response variable variation that is explained by a linear model.
 
-* R-squared =  (𝐸𝑥𝑝𝑙𝑎𝑖𝑛𝑒𝑑 𝑉𝑎𝑟𝑖𝑎𝑡𝑖𝑜𝑛)/(𝑇𝑜𝑡𝑎𝑙 𝑉𝑎𝑟𝑖𝑎𝑡𝑖𝑜𝑛)
+* ![image](https://user-images.githubusercontent.com/62233992/136450275-0e3be8a4-3bf6-4b4b-8518-48c60a6d2eb7.png)
+
 
 It is also called a coefficient of determination, or coefficient of multiple determination for multiple regression.
 
@@ -18,8 +19,7 @@ It is always non – negative and values close to zero are better.
 
 The MSE is the second moment of the error (about the origin) and thus incorporates both the variance of the estimator and its bias.
 
-* ![image](https://user-images.githubusercontent.com/62233992/136449997-1e72d71a-3ee9-488e-889b-633a66805614.png)
-
+* ![image](https://user-images.githubusercontent.com/62233992/136450160-6fc36707-783f-4c25-a926-e44de2e75226.png)
 
 ## Link for the Video:
 
