@@ -1,4 +1,4 @@
- <h1 align="center"> Flutter Material Components :yellow_circle: </h1>
+ <h1 align="center"> :yellow_circle: Flutter Material Components :yellow_circle: </h1>
 
 ### 📑 Contents
 
@@ -21,7 +21,6 @@
 - [:point_right: SnackBar():](#point_right-snackbar)
 - [:point_right: Card():](#point_right-card)
 - [:point_right: CircularProgressIndicator() and LinearProgressIndicator():](#point_right-circularprogressindicator-and-linearprogressindicator)
-      - [To know more about material components click here.](#to-know-more-about-material-components-click-here)
 
 ## :point_right: MaterialApp():
 
@@ -1427,4 +1426,4 @@ class CircularAndLinearProgress extends StatelessWidget {
 
 
 
-##### To know more about material components click [here](https://flutter.dev/docs/development/ui/widgets/material).
+<p align="center"> To know more about material components click [here](https://flutter.dev/docs/development/ui/widgets/material).</p>
