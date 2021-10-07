@@ -1,2 +1,4 @@
-- [Sparse Matrix and Polynomials Addition](Sparse%20Matrix%20and%20Polynomials%20Addition)
+- [Array Rotation](https://github.com/ankushsingh24/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Array/Array%20Rotation)
 - [LCM and GCD](https://github.com/ankushsingh24/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Array/LCM%20and%20GCD)
+- [Relative Complement of two Sorted Arrays](https://github.com/ankushsingh24/winter-of-contributing/tree/C_CPP/C_CPP/Data%20Structures/Array/Relative%20Complement%20of%20two%20Sorted%20Arrays)
+- [Sparse Matrix and Polynomials Addition](Sparse%20Matrix%20and%20Polynomials%20Addition)
