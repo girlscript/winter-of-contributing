@@ -161,3 +161,30 @@ A browser does not display the HTML tags, but uses them to determine how to disp
 
 ---
 
+## Head tag in HTML :-
+
+<br>
+
+    Head tag is used to define the information about the HTML Document and to import external CSS, JavaScript files by using some tags like <title>,<meta>,<script>,<style>,<link>. Head tag should be defined within <html> tag and should exist before body tag.
+
+    Head Tag Usage:
+        ```javascript
+            <html>
+                <head>
+                Head tags goes here..
+                </head>
+                <body>
+                Body goes here..
+                </body>
+            </html>
+            
+        ```
+
+    Style tag:
+        Style tag is used to 
+
+<br>
+<img src="https://codebridgeplus.com/wp-content/uploads/html-comments.jpg">
+
+---
+
