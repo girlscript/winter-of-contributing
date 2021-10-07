@@ -8,8 +8,9 @@ For Example- PreSumArray[i]=Array[0]+Array[1]+...+Array[i-1]+Array[i]
 ```
 Input: n=5 Array={5,12,13,25,10}
 Output: PreSumArray={5,17,30,55,65}
-Explanation: first element is left undisturbed i.e. 5, second element as sum of first two elements i.e. 17 and third element as sum of first three i.e. 30 and so on.
 ```
+Explanation: first element is left undisturbed i.e. 5, second element as sum of first two elements i.e. 17 and third element as sum of first three i.e. 30 and so on.
+
 
 ## Uses of Prefix Sum Array 💡
 1. To calculate cummulative frequency from a givan array of frequency distribution
@@ -47,8 +48,19 @@ int main()
 	//printing new array
 	for(int i=0;i<n;i++)
   	{
-    	cout<<PreSum[i]<<" ";
+    		cout<<PreSum[i]<<" ";
   	}
   	return 0;
 }
 ```
+
+## Sample input:
+
+5
+
+10 15 12 13 30
+
+## Output:
+10 25 37 50 80
+
+
