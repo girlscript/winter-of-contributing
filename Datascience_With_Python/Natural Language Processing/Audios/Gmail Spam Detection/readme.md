@@ -6,7 +6,7 @@
 Whenever you submit details about your email or contact number on any platform, it has become easy for those platforms to market their products by advertising them by sending emails or by sending messages directly to your contact number. This results in lots of spam alerts and notifications in your inbox. This is where the task of spam detection comes in.
 
 Spam detection means detecting spam messages or emails by understanding text content so that you can only receive notifications about messages or emails that are very important to you. If spam messages are found, they are automatically transferred to a spam folder and you are never notified of such alerts. This helps to improve the user experience, as many spam alerts can bother many users.
-[Spam](https://drive.google.com/file/d/1HGSt36WO132LgKm-BoRtdZBEklXdPBL7/view?usp=sharing)
+[Spam](images/download.jpg)
 
 ## GMAIL, YAHOO AND OUTLOOK CASE STUDY
 <b>Gmail</b>
@@ -24,5 +24,5 @@ Microsoft-owned mailing platform widely used among professionals. In 2013, Micro
 - Blocked encodings list 
 
 ## SUMMARY
-[image](https://drive.google.com/file/d/1LUnEG61YBQUrC0aPlXzpvsVUUrCBL-Do/view?usp=sharing)
+[image](images/Gmail_notspam_button.png)
 As we saw, we used previously collected data in order to train the model and predicted the category for new incoming emails. This indicate the importance of tagging the data in right way. One mistake can make your machine dumb, e.g In your gmail or any other email account when you get the emails and you think it is a spam but you choose to ignore, may be next time when you see that email, you should report that as a spam. This process can help a lot of other people who are receiving the same kind of email but not aware of what spam is. Sometimes wrong spam tag can move a genuine email to spam folder too. So, you have to be careful before you tag an email as a spam or not spam.
