@@ -1,7 +1,5 @@
 # Recursion In Python
 
-Name-Bhaswati Roy
-
 Contribution Approaches-Recursion refers to a function calling itself inside the scope of the function. Generally tasks that can be done by looping can also be done by recursion .
 Also in some cases we see that looping/iteration can make our code lengthy and complex and in that case we need recursion at our help. Recursion can reduce our lines of code and 
 thus our code looks much more readable. Problems related to tree and tower of hanoi problems need recursive approach to make the code proper and simple.
