@@ -42,6 +42,22 @@ It is always non – negative and values close to zero are better.
 The MSE is the second moment of the error (about the origin) and thus incorporates both the variance of the estimator and its bias.
 
 ![image](https://user-images.githubusercontent.com/62233992/136450160-6fc36707-783f-4c25-a926-e44de2e75226.png)
+* n = number of items,
+* Σ = summation notation,
+* Actual = original or observed y-value,
+* Forecast = y-value from regression
+
+### Graphical Representation of MSE
+
+![image](https://user-images.githubusercontent.com/62233992/136453062-672c9b20-64fd-4174-84d5-ebb3cfed0343.png)
+
+### Conclusion
+
+So, in conclusion we come out with what to use either mean square error (MSE) or R-Squared in the given condition:
+
+* MSE represents the residual error which is nothing but sum of squared difference between actual values and the predicted / estimated values. R-Squared represents the fraction of response variance captured by the regression model.
+* R-squared does not indicate whether a regression model is adequate. You can have a low R-squared value for a good model, or a high R-squared value for a model that does not fit the data!
+* The disadvantage of using MSE is that the value of MSE varies based on whether the values of response variable is scaled or not. If scaled, MSE will be lower than the unscaled values. 
 
 ## References:
 
