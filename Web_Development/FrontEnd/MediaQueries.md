@@ -2,75 +2,53 @@
 
 ## What is Media Query?
 
- Media query is a CSS technique introduced in CSS3. It was a `@media` rule to include a block of CSS property only if a certain condition is true. Queries involving unknown media types are always false. It Alaways come at the end of every code of css. Screen here could be replaced by: all/print/speech.
+We can create a website for our users using different devices (desktops, laptops, tablets and smartphones) by writing code once with the help of **media queries**. Different devices has different heights and widths which are known as **breakpoints**. When media query at certain breakpoint becomes true, the target element receives the associated CSS. `@media` queries always come at the end of CSS code.  
 
-**all:** suitable for all devices.
+### Types of Media 
 
-**print:** documents viewed on a screen in print preview mode. 
+**all:** for all kinds of media.
 
-**speech:** intended for speech synthesizers.
+**print:** for hardcopy (printout on paper).
+
+**screen** for all types of screen.
+
+**speech** for readout document loudly.
 
 ## How to use Media Query?
 
-### Syntax
-```html
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-/* 
-    DEVICE: Desktop
-    SCREEN: 1281px to higher resolution desktops  
+A media query is made up of two parts: media type and size. Media query could have more than one sizes. It is not required to use type for screens.
 
+### Syntax
+#### For Desktop and Bigger Screens 
+```html
 @media(min-width:1281px){
     //CSS here
 }
-*/
-
-/* 
-    DEVICE: Laptops,Desktops
-    SCREEN: Between 1025px to 1280px
-
+```
+#### For Laptop Screens
+```html
 @media(min-width:1025px) and (max-width:1280px){
     //CSS here
 }
-*/
-
-/* 
-    DEVICE: Tablets and Ipads (Portrait)
-    SCREEN: Between 768px to 1024px
-
+```
+#### For Tablets Screens (Portrait)
+```html
 @media(min-width:768px) and (max-width:1024px){
     //CSS here
 }
-*/
-
-/* 
-    DEVICE: Tablets and Ipads 
-    SCREEN: Between 768px to 1024px
-
+```
+#### For Tablets Screens (Landscape)
+```html
 @media(min-width:768px) and (max-width:1024px) and (orientation : landscape )  {
     //CSS here
 }
-*/
-
-/* 
-    DEVICE: Low Resolution Tablets, Mobiles 
-    SCREEN: Between 481px to 767px
-
+```
+#### For  Mobile Screens 
+```html
 @media(min-width:481px) and (max-width:767px){
     //CSS here
 }
 */
-</style>
-<title>Media Queries</title>
-</head>
-<body>
-</body>
-</html>
 ```
 
 ## EXAMPLE OF MEDIA QUERIES
@@ -89,10 +67,11 @@ h1{
 p{
     font-size: 25px;
 }
-@media(min-width:481px) and (max-width:767px){
+@media(min-width:320px) and (max-width:768px){
    h1{
-       color: darkcyan;
-       font-size: 50px;
+       background-color:lightgray;
+       color: blue;
+       font-size: 48px;
    }
    p{
        color:lightblue;
@@ -103,8 +82,8 @@ p{
 <title>Media Queries</title>
 </head>
 <body>
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+<h1>Hello World!</h1>
+<p>How are you?</p>
 </body>
 </html>
 ```
@@ -112,8 +91,8 @@ p{
 ### Output
 **On Desktop and Laptop Devices**
 
-![onDesktop&Laptops](https://mediaquery.samimunir2002.repl.co/onDesktop&Laptop.png)
+![onDesktop&Laptops](https://mediaquery.samimunir2002.repl.co/bigScreens.png)
 
 **On Mobile Devices** 
 
-![onMobiles](https://mediaquery--samimunir2002.repl.co/onMobiles.png)
+![onMobiles](https://mediaquery.samimunir2002.repl.co/smallScreens.png)
