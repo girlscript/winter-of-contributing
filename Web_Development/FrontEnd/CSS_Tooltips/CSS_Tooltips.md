@@ -58,7 +58,7 @@ A tooltip is often used to specify extra information about something when the us
 
 
 
-> Explaination
+### Explaination
 * HTML: Use a container element (like  ```<div>```) and add the "tooltip" class to it. When the user mouse over this ```<div>```, it will show the tooltip text.
 
 * The tooltip text is placed inside an inline element (like  ```<span>```) with class="tooltiptext".
@@ -72,13 +72,13 @@ A tooltip is often used to specify extra information about something when the us
 * The :hover selector is used to show the tooltip text when the user moves the mouse over the ```<div>``` with class="tooltip".
   
   
- ### Positioning Tooltips
+ # Positioning Tooltips
 In this example, the tooltip is placed to the right (left:105%) of the "hoverable" text (```<div>```). Also note that top:-5px is used to place it in the middle of its container element. We use the number 5 because the tooltip text has a top and bottom padding of 5px. If you increase its padding, also increase the value of the top property to ensure that it stays in the middle (if this is something you want). The same applies if you want the tooltip placed to the left.
 
 
 
 
-> Right Tooltip
+### Right Tooltip
 
 ```html
      <style>
@@ -93,7 +93,7 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
 ![Screenshot (26)](https://user-images.githubusercontent.com/76725762/136219092-989a0286-b620-4f15-8dab-da0cf92dcaa2.png)
 
   
-> Left Tooltip
+### Left Tooltip
 
 ```html
    <style>
@@ -108,7 +108,7 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
 ![Screenshot (28)](https://user-images.githubusercontent.com/76725762/136219206-37ff1ddb-8835-49fd-8d22-71892a37d2dc.png)
 
   
-> Top Tooltip
+### Top Tooltip
 ```html
   <style>    
     .tooltip .tooltiptext {
@@ -124,7 +124,7 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
 ![Screenshot (25)](https://user-images.githubusercontent.com/76725762/136219293-a84bc01d-79d3-42ce-bf7e-c177cfbf4fc4.png)
 
   
- > Bottom Tooltip
+ ### Bottom Tooltip
 
 ```html
   <style>
@@ -141,11 +141,11 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
 ![Screenshot (27)](https://user-images.githubusercontent.com/76725762/136219370-dd3d84fe-144a-421b-bd3d-934eade7ccd5.png)
 
   
- ### Tooltip Arrows
+ # Tooltip Arrows
   
 To create an arrow that should appear from a specific side of the tooltip, add "empty" content after tooltip, with the pseudo-element class ::after together with the content property. The arrow itself is created using borders. This will make the tooltip look like a speech bubble.
   
->  Bottom Arrow
+###  Bottom Arrow
 
 ```html
  <style>
@@ -162,7 +162,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
  </style>
 ```
   
-> Explaination
+### Explaination
   
 * Position the arrow inside the tooltip: top: 100% will place the arrow at the bottom of the tooltip. left: 50% will center the arrow.
 
@@ -171,7 +171,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
 * The border-color is used to transform the content into an arrow. We set the top border to black, and the rest to transparent. If all sides were black, you would end up with a black square box.
   
   
- > Top Arrow
+ ### Top Arrow
 
 ```html
   <style>
@@ -188,7 +188,7 @@ To create an arrow that should appear from a specific side of the tooltip, add "
  </style>
 ```
   
-> Left Arrow
+### Left Arrow
 
 ```html
 
@@ -206,8 +206,9 @@ To create an arrow that should appear from a specific side of the tooltip, add "
   </style>
 ```  
 
- > Right Arrow
- > 
+ ### Right Arrow
+ 
+ 
  ```html
 <style>
     .tooltip .tooltiptext::after {
