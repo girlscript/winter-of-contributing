@@ -23,7 +23,8 @@ An IP address looks something like this: `74.125.19.147`. IP addresses are made 
 <hr>
 
 ## ***📌Domain name Vs IP Address***
-An ***IP address*** communicates exact information about the address in a way that is useful to the computer but makes no sense to humans, whereas, the ***domain name*** functions as a link to the IP address. Links do not contain actual information, but they do point to the place where the IP address information resides. <br>
+An ***IP address*** communicates exact information about the address in a way that is useful to the computer but makes no sense to humans, whereas, the ***domain name*** functions as a link to the IP address. Links do not contain actual information, but they do point to the place where the IP address information resides.
+
 It is convenient to think of IP addresses as the ***actual locator*** that identifies a definite point on the internet and the domain name as a ***label*** that identifies the locator.
 <hr>
 
@@ -50,10 +51,12 @@ Many servers use a three-letter naming convention for top-level domains. The sig
 
 ### ***Types of TLD*** 
 There are mainly four types of TLDs most recognized, as administered by IANA(Interent Assigned Numbers Authority): 
-- ***gTLD or Generic Top-Level Domain*** : Most recognizable TLD like .com, .net, .org, .xyz, .club, .biz, .top etc. <br>
-Some other type of gTLD fall under the category of GeoTLDs including .berlin, .nyc, .moscow, .tokyo etc aiming to identify cartain geographical locations or cultures or places. The list under gTLDs is ever-increasing with new additions. To take a look at all existing gTLDs, refer to [this](https://www.iana.org/domains/root/db).
-- ***sTLD or Sponsored Top-Level Domain*** : These TLDs are sponsored and maintained by private businesses, organisation or the government. We need to abide by certain terms and conditions to register under a sTLD. <br>
-Some common sTLDs are:
+- ***gTLD or Generic Top-Level Domain*** : Most recognizable TLD like .com, .net, .org, .xyz, .club, .biz, .top etc.
+
+  Some other type of gTLD fall under the category of GeoTLDs including .berlin, .nyc, .moscow, .tokyo etc aiming to identify cartain geographical locations or cultures or places. The list under gTLDs is ever-increasing with new additions. To take a look at all existing gTLDs, refer to [this](https://www.iana.org/domains/root/db).
+- ***sTLD or Sponsored Top-Level Domain*** : These TLDs are sponsored and maintained by private businesses, organisation or the government. We need to abide by certain terms and conditions to register under a sTLD.
+
+  Some common sTLDs are:
   - .edu – for educational institutions 
   - .gov – primarily for US government entities and agencies 
   - .asia – open to individuals, companies and organisations connected to the region
@@ -133,7 +136,8 @@ The Authoritative Name Server is the last stop in the name server query. It take
 *Image Credits: [Phoenixnap](https://phoenixnap.com/kb/what-is-domain-name-system-works)*
 
 ## ***Types of DNS Records***
-***DNS records*** are created by DNS servers to provide important information about a domain or hostname, particularly its current IP address. <br> 
+***DNS records*** are created by DNS servers to provide important information about a domain or hostname, particularly its current IP address.
+
 There are about 40 record types, over 10 common types of DNS records are:
 - ***A record***, the most common record, also known as ***Address Mapping record***, stores an IPv4 address associated with a domain name or sub-domain name, and indicates the domain name to an IP address. 
 - ***AAAA record(IP Version 6 Address record )*** configures the hostname to a 128-bits IPv6 address. Earlier, 32-bits IPv4 addresses served the purpose of identifying a computer on the internet. But due to the shortage of IPv4, IPv6 was created. Interestingly, the four "A" s (AAAA) are mnemonic to represent that IPv6 is four times larger in size than IPv4. 
@@ -158,7 +162,7 @@ It is the DNS lookup tool that gathers all the DNS records, including A, AAAA, C
 There are three types of queries in the DNS system:
 - ***Recursive Query*** 
 
-In this type of query, the server fully answers the query. A DNS client provides a domain, and the DNS Resolver must provide an answer, it responds either with a relevant resource record, or an error message if the resource cannot be found. The resolver starts a recursive query process, initiating from the DNS Root Server, until it finds the Authoritative Name Server that holds the IP address and other information for the requested domain/hostname. <br>
+In this type of query, the server fully answers the query. A DNS client provides a domain, and the DNS Resolver must provide an answer, it responds either with a relevant resource record, or an error message if the resource cannot be found. The resolver starts a recursive query process, initiating from the DNS Root Server, until it finds the Authoritative Name Server that holds the IP address and other information for the requested domain/hostname.
  
 - ***Iterative Query***
 
