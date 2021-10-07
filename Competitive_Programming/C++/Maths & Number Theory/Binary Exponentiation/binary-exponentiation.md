@@ -50,7 +50,7 @@ Following is the actual time complexity comparison:
 ## Implementation
 #### Example: LASTDIG PROBLEM 
 - Given two integer numbers: the base a (0 <= a <= 20) and the index b (0 <= b <= 2,147,483,000), a and b both are not 0. You have to find the last digit of ab.
-```
+```cpp
 #include<iostream>
 #include<cstdio>
 #include<cmath>
