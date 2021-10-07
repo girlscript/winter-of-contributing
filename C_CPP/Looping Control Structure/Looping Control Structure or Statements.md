@@ -38,7 +38,7 @@ int main()
 }
 ```
 ### ***Output :***
-<img src="assets/introCode.png">
+<img src="https://picc.io/-Oer_C8.png">
 <p>&nbsp;</p>
 
 
@@ -52,7 +52,7 @@ int main()
 ### **a) Entry Controlled Loops** :- Test Condition is checked before excecuting the body of loop. It is further divide into two types:<br>&nbsp;&nbsp;&nbsp;&nbsp;1) For Loop <br>&nbsp;&nbsp;&nbsp;&nbsp;2) While Loop
 ### **a) Exit Controlled Loops** :- Test Condition is checked after exceuting the body of loop. It is of only one  type: <br>&nbsp;&nbsp;&nbsp;&nbsp;1) do-while loop
 <p>&nbsp;</p>
-<img src="assets/difference.png" width="60%" height="60%">
+<img src="https://picc.io/gXijpmB.png" width="60%" height="60%">
 <p>&nbsp;</p
 
 <!----------------------------------------------FOR LOOP------------------------------------------------------>
@@ -80,7 +80,7 @@ int main()
 }
 ```
 ### ***Output :***
-<img src="assets/forLoop.png">
+<img src="https://picc.io/xhtI6g6.png">
 <p>&nbsp;</p>
 
 
@@ -112,7 +112,7 @@ int main()
 }
 ```
 ### ***Output :***
-<img src="assets/whileLoop.png">
+<img src="https://picc.io/GDF3iNU.png">
 <p>&nbsp;</p>
 
 <!----------------------------------------------DO WHILE LOOP------------------------------------------------------>
@@ -144,7 +144,7 @@ int main()
 }
 ```
 ### ***Output :***
-<img src="assets/dowhileLoop.png">
+<img src="https://picc.io/dLdHe_f.png">
 <p>&nbsp;</p>
 
 
@@ -155,6 +155,7 @@ int main()
 ### **Credits:**
 - <a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a>
 - <a href="https://onlineclassnotes.com/what-are-entry-controlled-and-exit/">Online Class Notes</a>
+- Images are hosted by <a href="https://picc.io/">picc.io</a>
 
 
 
