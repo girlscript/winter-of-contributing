@@ -46,7 +46,7 @@ Fixes # <issue_number_here>
 - [ ] UI/UX
 
 <hr>
- 
+
 ## Checklist ✅
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
