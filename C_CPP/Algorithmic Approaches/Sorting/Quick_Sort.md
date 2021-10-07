@@ -34,5 +34,13 @@ QuickSort is a Divide and Conquer algorithm. The name "Quick Sort" comes from th
 
 ![image](https://user-images.githubusercontent.com/71928146/136445853-5cbd0924-e48f-4e17-8b9c-803b23e1b46d.png)
 ![image](https://user-images.githubusercontent.com/71928146/136446709-fe2c55b3-b0b8-43e0-a703-83f44ff040cd.png)
+![image](https://user-images.githubusercontent.com/71928146/136448107-99f8d016-58b4-4b15-8f4c-c61d98a49ffd.png)
+![image](https://user-images.githubusercontent.com/71928146/136448356-ca67b87c-1dc4-406a-b7a4-0d2bfb931690.png)
+![image](https://user-images.githubusercontent.com/71928146/136448986-619c8e7e-335e-45f7-8de9-d5cdc11940d8.png)
+![image](https://user-images.githubusercontent.com/71928146/136449655-11965dc0-d92a-4b82-a667-c8882502490b.png)
+![image](https://user-images.githubusercontent.com/71928146/136449893-1ab6c5e5-f68b-4cc0-a697-d586683672d8.png)
+![image](https://user-images.githubusercontent.com/71928146/136450186-503f9494-23d1-401e-8ce9-8e2001c39e8a.png)
+![image](https://user-images.githubusercontent.com/71928146/136450766-8c40480e-7a3c-4763-98b9-20d7db661116.png)
+![image](https://user-images.githubusercontent.com/71928146/136450859-4781fd67-c164-4558-bac5-f29241151194.png)
 
 
