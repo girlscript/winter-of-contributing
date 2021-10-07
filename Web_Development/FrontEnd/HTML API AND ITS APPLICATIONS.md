@@ -61,9 +61,8 @@ function showPosition(position) {
 
 
 ## Output
-
-
 ![image](https://user-images.githubusercontent.com/86418113/136343111-1d036373-16ca-45b5-9241-a975338e34e2.png)
+#### Image reference [here](https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_geolocation)
 
 ## Displaying the Result in a Map
 #### To display the result in a map, you need access to a map service, like Google Maps.
@@ -79,15 +78,10 @@ function showPosition(position) {
 
   document.getElementById("mapholder").innerHTML = "<img src='"+img_url+"'>";
 }
-
-
 ```
-
 
 ### The getCurrentPosition() Method - Return Data
 The getCurrentPosition() method returns an object on success. The latitude, longitude and accuracy properties are always returned. The other properties are returned if available:
-
-
 
 | Property | Returns |
 | --- | --- |
@@ -217,4 +211,4 @@ The sessionStorage Object
 **The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session. The data is deleted when the user closes the specific browser tab.**
 For more details refer [here](https://www.smashingmagazine.com/2017/02/designing-html-apis/)
 ## References
-**https://www.smashingmagazine.com/2017/02/designing-html-apis/**
+**[Smashing Magazine](https://www.smashingmagazine.com/2017/02/designing-html-apis/)**
