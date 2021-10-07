@@ -25,3 +25,7 @@ QuickSort is a Divide and Conquer algorithm. The name "Quick Sort" comes from th
 *NOTE*:- We can take any element as "Pivot" element.
 
 ![image](https://user-images.githubusercontent.com/71928146/136442611-55dd8226-d38b-46d7-9dd7-33f8eec9e393.png)
+
+--> Now lets take two variables start and end where start will point at the pivot element i.e first element and end will point at the last element.
+
+![image](https://user-images.githubusercontent.com/71928146/136443676-7ef956ad-3d70-4307-8ca0-3de096e500ee.png)
