@@ -1,24 +1,24 @@
 # Binary Exponentiation
-Binary exponentiation is an algorithm to find the power of any number N raise to an number M (N^M) in logarithmic time O(log M).
+Binary exponentiation is an algorithm to find the power of any number N raise to an number `M (N^M)` in logarithmic time `O(log M)`.
 
 ```
 A^N = 1                      if N = 0
 A^N = (A^((N-1)/2))^2 * A    if N is odd
 A^N = (A^(N/2))^2            if N is even
 ```
-example:
+### Example:
 5^13.
 Here we can represent 13 as a sum of power of two.
 
-`13 = 1101 = 2^3 + 2^2 + 0 + 2^0 = 8 + 4 + 0 + 1`
+- 13 = 1101 = 2^3 + 2^2 + 0 + 2^0 = 8 + 4 + 0 + 1
 
 If B1 + B2 = B, then
-`A ^ B = A ^ (B1+B2) = A ^ B1 * A ^ B2`<br>
+- A ^ B = A ^ (B1+B2) = A ^ B1 * A ^ B2
 
-Similarly, <br>
-`5^13 = 5^8 * 5^4 * 5^1`<br>
+Similarly,
+- 5^13 = 5^8 * 5^4 * 5^1
 
-`A^N << 1 = A^2N`
+- A^N << 1 = A^2N
 
 ```
 5 = 5
@@ -34,24 +34,22 @@ Hence, we needed 3 left shift operations.
 5^13 = 390625 * 625 * 5
 5^13 = ‭1220703125‬
 ```
-Similar Example:<br>
+#### Similar Example:<br>
 ![image](https://user-images.githubusercontent.com/56961626/136423559-29fc4e07-f17f-40da-bf15-e7717c4b4f5f.jpg)
 
 ## Complexity
 The basic brute force approach takes O(M) multiplications to calculate N^M.
-But multiplication takes O(log N) time and, Binary exponentiation takes O(logN * logM) time and the normal one takes O(M * logN).
+But multiplication takes O(log N) time and, Binary exponentiation takes `O(logN * logM)` time and the normal one takes `O(M * logN)`.
 
 Following is the actual time complexity comparison:
 
-Brute force: (M * logN * logN)<br>
-Binary exponentiation: (logM * logN * logN)<br>
-This improves the performance.
-
-
+- Brute force: `(M * logN * logN)`
+- Binary exponentiation: `(logM * logN * logN)`  
+ This improves the performance.
 
 ## Implementation
-Example: LASTDIG PROBLEM <br>
-Given two integer numbers: the base a (0 <= a <= 20) and the index b (0 <= b <= 2,147,483,000), a and b both are not 0. You have to find the last digit of ab.
+#### Example: LASTDIG PROBLEM 
+- Given two integer numbers: the base a (0 <= a <= 20) and the index b (0 <= b <= 2,147,483,000), a and b both are not 0. You have to find the last digit of ab.
 ```
 #include<iostream>
 #include<cstdio>
