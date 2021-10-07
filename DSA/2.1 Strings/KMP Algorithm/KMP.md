@@ -213,11 +213,11 @@ int main()
 ## Output:<br>
 The pattern ab is found at index: 1<br>
 The pattern ab is found at index: 3<br>
-## Time complexity: O(n)<br>
-## Space complexity: O(m)<br>
+## Time complexity:<br>
+O(n)<br>
+## Space complexity:<br>
+O(m)<br>
 Here n is the length of text string, and m is the length of the pattern string.<br>
-<br>
-</br>
 <br>
 </br>
 This is all that you need to know to get started with KMP Algorithm. Happy Learning! ❤️
