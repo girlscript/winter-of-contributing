@@ -12,7 +12,7 @@ It is the percentage of the response variable variation that is explained by a l
 
 It is also called a coefficient of determination, or coefficient of multiple determination for multiple regression.
 
-### The Parameter in deciding performance the model:
+### The Parameter in deciding performance of the model:
 
 R-squared is always between 0 and 100%:
 
