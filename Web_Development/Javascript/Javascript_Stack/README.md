@@ -79,13 +79,13 @@ The JavaScript engine starts executing the average() since it is at the top of t
 The size of the Call-Stack is fixed which depends on the implementation of the host environment, either the web 
 browser or Node.js. If the number of the execution contexts exceeds the size of the stack, a stack overflow will occur.
 For example: If you execute a recursive function that has no exit condition, it will result in a stack overflow error:
-`
+```
 function foo() {
     foo();
 }
 
 foo(); // stack overflow
-`
+```
 
 # Asynchronous JavaScript
 
