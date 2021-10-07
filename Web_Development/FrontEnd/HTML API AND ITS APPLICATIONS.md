@@ -15,7 +15,7 @@ The HTML Geolocation API is used to locate a user's position.
 ### Locate the User's Position
 The HTML Geolocation API is used to get the geographical position of a user.
 
-
+Example source code:-
 ```
 <!DOCTYPE html>
 <html>
@@ -70,6 +70,7 @@ The example above is a very basic Geolocation script, with no error handling
 
 In the example below, the returned latitude and longitude is used to show the location in a Google Map:
 
+Example source code:-
 ```
 function showPosition(position) {
   var latlon = position.coords.latitude + "," + position.coords.longitude;
