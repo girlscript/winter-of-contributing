@@ -1,22 +1,22 @@
-## Data Normalizatin
+*## Data Normalization
 
 ## [Click here to view the video](https://drive.google.com/file/d/1-ISdOLO7Ic8_arebYQtTYqgWD6mnUIij/view?usp=sharing)
 
 **What is normalization?**
 
 Normalization is a technique that  updates the values and distributes the values in the same range 
-through out the dataset.
+throughout the dataset.
 
 **Why normalization?**
 
-Lets us imagine a dataset that have the columns age and their income.
+Lets us imagine a dataset that has the columns’ age and their income.
 
 ![Capture_44](https://user-images.githubusercontent.com/79050917/135712969-32ed6c1c-75e1-4e43-a012-d8522529718a.PNG)
 
 
-When we apply model it becomes a bias estimation.
+When we apply the model it becomes a bias estimation.
 
-Hence, we need to convert the distribution of values to the values which has the same range.
+Hence, we need to convert the distribution of values to the values which have the same range.
 
 One of the famous techniques is normalization.
 
@@ -45,13 +45,12 @@ Formula
 
 **Advantages:**
 
-- It coverts the values in the dataset to the same distribution.
+- It converts the values in the dataset to the same distribution.
 - It helps to avoid the bias estimation.
 
 **Disadvantages:**
 
-- It also coverts the outliers to the same distribution which might impact the model performance
+- It also converts the outliers to the same distribution which might impact the model performance
 
 
 ![Capture_55](https://user-images.githubusercontent.com/79050917/135713011-485db494-c6f0-452d-877c-91ac17e6fb4a.PNG)
-
