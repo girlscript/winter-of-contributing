@@ -89,10 +89,10 @@ p{
 ```
 
 ### Output
-**On Desktop and Laptop Devices**
+#### On Desktop and Laptop Devices
 
 ![onDesktop&Laptops](https://mediaquery.samimunir2002.repl.co/bigScreens.png)
 
-**On Mobile Devices** 
+#### On Mobile Devices 
 
 ![onMobiles](https://mediaquery.samimunir2002.repl.co/smallScreens.png)
