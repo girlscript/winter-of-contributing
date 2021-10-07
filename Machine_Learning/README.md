@@ -1,4 +1,4 @@
-![](https://gwoc.girlscript.tech/assets/gwoc_logo_forweb.png)
+![](https://raw.githubusercontent.com/girlscript/winter-of-contributing/main/banner_readme.png)
 
 
 <h1 align="center"> :fleur_de_lis: MACHINE LEARNING :fleur_de_lis: </h1>
