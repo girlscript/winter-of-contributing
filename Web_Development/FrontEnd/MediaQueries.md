@@ -2,7 +2,7 @@
 
 ## What is Media Query?
 
-We can create a website for our users using different devices (desktops, laptops, tablets and smartphones) by writing code once with the help of **media queries**. Different devices has different heights and widths which are known as **breakpoints**. When media query at certain breakpoint becomes true, the target element receives the associated CSS. `@media` queries always come at the end of CSS code.  
+We can create a website for users using different devices (desktops, laptops, tablets and smartphones) by writing code once with the help of **media queries**. Different devices has different heights and widths which are known as **breakpoints**. When media query at certain breakpoint becomes true, the target element receives the associated CSS. `@media` queries always come at the end of CSS code.  
 
 ### Types of Media 
 
