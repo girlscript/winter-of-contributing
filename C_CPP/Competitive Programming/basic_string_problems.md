@@ -80,7 +80,7 @@ New string is: H ll
 ```
 Time complexity of above code is O(n)
 
-## Write a program to reverse a string.
+## 3. Write a program to reverse a string.
 code in c++
 ```c++
 #include <iostream>
@@ -112,5 +112,5 @@ Time complexity of above code is O(n)
 
 - For preparing this document some refrences were taken for maintaining the authenticity of the code and also for making the topics more informative
 - The link of blog that was reffered -:
-<table align=center><tr><td><a href="https://www.w3resource.com/cpp-exercises/string/index.php" target=_blank>Link</a></td><td><a href="https://www.codesdope.com/practice/cpp-string/" target=_blank>Link</a></td></tr></table>
+<table align=center><tr><td><a href="https://www.w3resource.com/cpp-exercises/string/index.php" target=_blank>w3resource</a></td><td><a href="https://www.codesdope.com/practice/cpp-string/" target=_blank>codesdope</a></td></tr></table>
 
