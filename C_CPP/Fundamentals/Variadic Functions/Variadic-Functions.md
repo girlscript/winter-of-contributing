@@ -1,8 +1,8 @@
 # VARIADIC FUNCTION IN C
 
-`What is a variadic function?`
+<b>What is a variadic function?</b>
 
-Variadic functions are functions which take a variable number of arguments. In C programming, a variadic function will contribute to the flexibility of the program that you are developing.
+Functions which take a variable number of arguments, in the parameter list, are called Variadic Functions. It makes a particular program more flexible.
 
 The syntax for such a function is:
 ```
@@ -80,11 +80,11 @@ OUTPUT:
 The code is pretty much self explanatory due to the comments. Here, the number of arguments is 3 and the numbers to be added are 1, 4 and 6 which sum up to 11.
 
 So, we can see that a variadic function has the following advantages over a normal function:
->> Passing a slice in a function is very easy.
+>> It makes passing a slice in a function very easy.
 
->> Useful when the number of parameters is unknown.
+>> It is useful when the number of parameters is unknown.
 
->> Increases the readability of the program.
+>> It increases the readability of the program.
 
 Another macro that can be used in case of variadic functions is <b>va_copy</b>. It is not compulsory to use this macro but it comes in handy in case of certain program. It has the following syntax:
 ```
