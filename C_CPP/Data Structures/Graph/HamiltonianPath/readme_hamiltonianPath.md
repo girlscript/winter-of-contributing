@@ -19,7 +19,8 @@ Path : {0 1 2 3 4 5 0}                  Path : No hamiltonian path exists.
 
 ## Terminologies : 
 
-- Undirected : there is no direction of traversal, ad=nd traversal can be done in either direction.
+- **Undirected** : there is no direction of traversal, ad=nd traversal can be done in either direction.
+
 - Branch : Each link is represented as a line segment, called as a branch. 
 - Vertex / Nodes : End points of the branch, ( or the data part of struct ) is known as vertex.
 - Path : A sequence of branches traversed while going from one vertex to another.
