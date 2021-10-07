@@ -11,7 +11,7 @@
 
 ### 1. Background : 
 
-- [1. History of free and open-source software (1980 & 1990’s)](1.Background/1._History_Of_Free_And_Open_Source.ipynb)
+- [1. History of free and open-source software (1980 & 1990’s)](1.Background/1._History_Of_Free_And_Open_Source.md)
 
 - [1.1 Rise of open source programming languages](1.Background/1.1_Rise_Of_Open_Source_Programming_Languages.md)
 
