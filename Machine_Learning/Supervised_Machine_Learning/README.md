@@ -1,50 +1,32 @@
-
-## Supervised Machine Learning
-
-2.1. What is Learning? Why Machine Learning works? (A+V+D)
-
-2.2. Contrast between Regression and Classification (A+V+D)
-
-2.3. Numpy Cheatsheet: Most Useful Functions and Methods (D)
-
-2.4 Pandas Cheatsheet: Most Useful Functions and Methods (D)
-
-2.5 Linear Regression (A+V+D)
-
-2.6. Logistic Regression (A+V+D)
-
-2.7. Contrast between Linear and Logistic Regression (A+V+D)
-     - Do plotting and visually justify the contrast between both. How Logistic Regression attempts to fit better relative to Linear Regression.
+<div align = 'center'>
+     <h1> 🔷 Supervised Machine Learning 🔷 </h1>
+     </div>
      
-2.8. K-Nearest Neighbour Algorithm (A+V+D)
-
-2.9. Decision Trees (A+V+D)
-
-2.10. Support Vector Machines (A+V+D)
-
-2.11. Naive Bayes (A+V+D)
-
-2.12. Implement Logistic Regression without using any standard ML library like scikit-learn or more.* (D)
-
-2.13. Implement Naive Bayes without using any standard ML library like scikit-learn or more.* (D)
-
-2.14. Implement SVM without using any standard ML library like scikit-learn or more.* (D)
-
-2.15. Implement Decision Tree Agorithms without using any standard ML library like scikit-learn or more.* (D)
-
-2.16. Implement KNN without using any standard ML library like scikit-learn or more.* (D)
-
-2.17. Random Forest Algorithms (A+D+V)
-
-2.18. Implement Random Forest without using any standard ML library like scikit-learn or more.* (D)
-
-2.19. Gradient Descent Algorithms (A+D+V)
-
-2.20. Implement Gradient Descent without using any standard ML library like scikit-learn or more.* (D)
+| Sl. No. | Topics Name | Audio | Documnentation | Video |
+|:---:|:---:|:---:|:---:|:---:|
+| 2.1 |  **What is Learning? Why Machine Learning works?** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_1_What_is_Learning_Why_Machine_Learning_works%3F(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_1_What_is_Learning_Why_Machine_Learning_works_(D).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_1_what_is_learning_%3F_why_machine_learning_works_%3F_(V).md) |
+| 2.2 | **Contrast between Regression and Classification** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_2_Contrast%20Between%20Regression%20And%20Classification%20(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_2_Contrast_between_Regression_and_Classification_(D).ipynb) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_2_Contrast%20between%20Regression%20and%20Classification%20(V).md) |
+| 2.3 | **Numpy Cheatsheet: Most Useful Functions and Methods** | ❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_3_%20Numpy_Cheatsheet_Most_Useful_Function.ipynb) | ❌ |
+| 2.4 | **Pandas Cheatsheet: Most Useful Functions and Methods**|❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_4_Pandas%20Cheatsheet%20Most%20Useful%20Functions%20and%20Methods_(D).ipynb) | ❌ |
+| 2.5 | **Linear Regression**|- | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_5_Linear_Regression_(D).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_5_Linear_Regression_(V).md) |
+| 2.6 | **Logistic Regression**|[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_6_Logistic_Regression(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_6_Logistic%20Regression_(D).ipynb) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_6_Logistic_Regression(V).md) |
+| 2.7 | **Contrast between Linear and Logistic Regression**|[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_7_Contrast%20between%20Linear%20and%20Logistic%20R)egression%20(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_7_Contrast%20_between_Linear_and%20_Logistic_Regression_(D).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_7_Contrast_between_Linear_and_Logistic_Regression_(V).md) |
+| 2.8 | **K-Nearest Neighbour Algorithm**|[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_8_K-Nearest%20Neighbour%20Algorithm_(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_8_K-Nearest-Neighbour-Algorithm_(D).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_8_K-Nearest_Neighbour_Algorithm_(V).md) |
+| 2.9 | **Decision Trees**|[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_9_Decision_Trees_Algorithm(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_9_Decision_Tree_Algorithm_(D).ipynb) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_9_Decision_Tree_Algorithm_(V).md) |
+| 2.10 | **Support Vector Machines**|[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_10_Support_Vector_Machine(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_10_Support_Vector_Machines_(D).ipynb) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_10_Support_Vector_Machines_(V).md) |
+| 2.11 | **Naive Bayes**|[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_11_Naive_Bayes_Algorithm_(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_11_Naive_Bayes_Algorithm_(D).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_11_Naive_Bayes_Algorithms_(V).md) |
+| 2.12 | **Implement Logistic Regression without using any standard ML library like scikit-learn or more. ⭐**|❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_12_Implement_Logistic_Regression_without_using_any_standard_ML_library_like_scikit_learn_or_more(D).ipynb) | ❌ |
+| 2.13 | **Implement Naive Bayes without using any standard ML library like scikit-learn or more. ⭐**|❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_13%20_Implement_Naive_Bayes_without_using_any_standard_ML_library_like_scikit-learn_or_more%20(D).ipynb) | ❌ |
+| 2.14 | **Implement SVM without using any standard ML library like scikit-learn or more. :star:**|❌ | - | ❌ |
+| 2.15 | **Implement Decision Tree Agorithms without using any standard ML library like scikit-learn or more. ⭐**|❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_15_Implement_Decision_Tree_without_using_any_standard_ML_library_like_scikit-learn_or_more_(D).ipynb) | ❌ |
+| 2.16 | **Implement KNN without using any standard ML library like scikit-learn or more. ⭐**|❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_16_Implement_KNN_without_using_any_standard_ML_library_like_scikit_learn_or_more_(D).ipynb) | ❌ |
+| 2.17 | **Random Forest Algorithms**|[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_17_Random_Forest_Algorithms_(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_17_Random%20Forest%20Algorithms_(D).ipynb) | - |
+| 2.18 | **Implement Random Forest without using any standard ML library like scikit-learn or more. ⭐**|❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_18_Implement_Random_Forest_without_using_any_standard_ML_library_like_scikit_learn_or_more_(D).ipynb) | ❌ |
+| 2.19 | **Gradient Descent Algorithms**|[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_19_Gradient_Descent_Algorithms%20_(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_19_Gradient__Descent_Algorithms_(D).ipynb) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/ML_2_19_Gradient_Descent_Algorithms(V).md) |
+| 2.20 | **Implement Gradient Descent without using any standard ML library like scikit-learn or more. ⭐**| ❌ | - | ❌ |
 
 
-
-**_N.B.: (*) marked issues can only be solved using Numpy/Pandas. No other libraries will be entertained!_**
+**_N.B.: ⭐ marked issues can only be solved using Numpy/Pandas. No other libraries will be entertained!_**
 
 *********************************************************
 ### ❄️ GWoC 2021
