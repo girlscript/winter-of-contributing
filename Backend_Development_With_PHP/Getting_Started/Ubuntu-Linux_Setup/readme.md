@@ -1,6 +1,6 @@
 # Installing PHP On Linux(Ubuntu)
 
-### We will install PHP by using apache2 module called libapache1-mod-PHP
+## We will install PHP by using apache2 module called libapache1-mod-PHP
  - There are also other ways(i.e using [nginx](https://www.nginx.com/)) to install PHP. But it is the easiest way to install PHP on Linux
  - Another Benefit is we will also have [apache](https://www.apache.org/) server to run our PHP code
 
