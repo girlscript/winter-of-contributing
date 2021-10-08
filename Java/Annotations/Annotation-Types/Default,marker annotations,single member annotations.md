@@ -4,43 +4,125 @@
 <p>
 <h2 id="java-default-annotations">Java Default Annotations</h2>
 <p>
-Java defines a set of annotations that are built into the language. These annotations generate or suppress compiler warnings and errors. Applying them consistently is often a good practice since adding them can prevent future programmer error.
+Default annotations are also known as predefined annotations.
+A set of annotation types are predefined in the Java SE API. Some annotation types are used by the Java compiler, and some apply to other annotations.
+<h4>Annotation Types Used by the Java Language :- </h4>
 
-<h4>Annotations applied to Java code:</h4>
+The predefined annotation types defined in `java.lang` are `@Deprecated`, `@Override`, and `@SuppressWarnings`.
 <ul>
-<li><strong>@override - </strong> Checks that the method is an override. Causes a compilation error if the method is not found in one of the parent classes or implemented interfaces</li>
-<li><strong>@Deprecated - </strong> Marks the method as obsolete. Causes a compile warning if the method is used.</li>
-<li><strong>@Deprecated - </strong> Instructs the compiler to suppress the compile time warnings specified in the annotation parameters.</li>
-</ul>
-</p>
-<br>
+<li><strong>@override - </strong>This annotation informs the compiler that the element is meant to override an element declared in a superclass.
 
 ```Java
-Example and Syntax:
-
-public class Animal {
-    public void speak() {
-    }
-
-    public String getType() {
-        return "Generic animal";
-    }
+	// mark method as a superclass method
+	// that has been overridden
+   **@Override** 
+   int overriddenMethod() { }
+```
+Example:-
+```Java
+class Parent
+{
+	public void Display()
+	{
+		System.out.println("Parent display()");
+	}
+	
+	public static void main(String args[])
+	{
+		Parent t1 = new Child();
+		t1.Display();
+	}	
+}
+class Child extends Base
+{
+	@Override
+	public void Display()
+	{
+		System.out.println("Child display()");
+	}
 }
 
-public class Cat extends Animal {
-    @Override
-    public void speak() { // This is a good override.
-        System.out.println("Meow.");
-    }
+```
+While it is not always required to use this annotation when overriding a method, it helps to prevent errors. If a method marked with `@Override` fails to correctly override a method in one of its superclasses, the compiler generates an error.
+</li>
 
-    @Override
-    public String gettype() { // Compile-time error due to typo: should be getType() not gettype().
-        return "Cat";
-    }
+<br>
+
+<li><strong>@Deprecated - </strong>This annotation indicates that the marked element is <em>deprecated</em> and should no longer be used. The compiler generates a warning whenever a program uses a method, class, or field with the <strong><em>@Deprecated</em></strong> annotation. When an element is deprecated, it should also be documented using the Javadoc <strong><em>@Deprecated</em></strong> tag, as shown in the following example. The use of the at sign (@) in both Javadoc comments and in annotations is not coincidental: they are related conceptually. Also, note that the Javadoc tag starts with a lowercase <em>d</em> and the annotation starts with an uppercase <em>D</em>.
+
+```Java
+// Javadoc comment follows
+    /**
+     * _@deprecated_
+     * _explanation of why it was deprecated_
+     */
+    **@Deprecated**
+    static void deprecatedMethod() { }
 }
 ```
-<p>
-This example demonstrates the use of the <strong><em>@Override</em></strong> annotation. It instructs the compiler to check parent classes for matching methods. In this case, an error is generated because the <em>gettype()</em> method of class Cat doesn't in fact override <em>gettype()</em> of class Animal like is desired, because of the mismatching case. If the <em>@Override</em> annotation were absent, a new method of name <em>gettype()</em> would be created in class Cat.
+Example :-
+```Java
+public class DeprecatedTest
+{
+	@Deprecated
+	public void Display()
+	{
+		System.out.println("Deprecatedtest display()");
+	}
+
+	public static void main(String args[])
+	{
+		DeprecatedTest d1 = new DeprecatedTest();
+		d1.Display();
+	}
+}
+
+```
+
+</li>
+
+<br>
+
+<li><strong>@SuppressWarnings - </strong> This annotation tells the compiler to suppress specific warnings that it would otherwise generate. In the following example, a deprecated method is used, and the compiler usually generates a warning. In this case, however, the annotation causes the warning to be suppressed.
+
+```Java
+	// use a deprecated method and tell 
+   // compiler not to generate a warning
+   @SuppressWarnings("deprecation")
+    void useDeprecatedMethod() {
+        // deprecation warning
+        // - suppressed
+        objectOne.deprecatedMethod();
+    }
+```
+Example :-
+```Java
+class DeprecatedTest
+{
+	@Deprecated
+	public void Display()
+	{
+		System.out.println("Deprecatedtest display()");
+	}
+}
+
+public class SuppressWarningTest
+{
+	// If we comment below annotation, program generates
+	// warning
+	@SuppressWarnings({"checked", "deprecation"})
+	public static void main(String args[])
+	{
+		DeprecatedTest d1 = new DeprecatedTest();
+		d1.Display();
+	}
+}
+```
+</li>
+<li><strong>@SafeVarargs - </strong> This annotation, when applied to a method or constructor, asserts that the code does not perform potentially unsafe operations on its <em>varargs</em> parameter. When this annotation type is used, unchecked warnings relating to <em>varargs</em> usage are suppressed.</li>
+<br>
+<li><strong>@FunctionalInterface - </strong>This annotation, introduced in Java SE 8, indicates that the type declaration is intended to be a functional interface, as defined by the Java Language Specification.</li>
+</ul>
 </p>
 
 <br>
@@ -97,7 +179,7 @@ Output:
 <p>//The output from the program confirms the usage of a Marker Annotation as it prints out an affirmative statement.</p>
 </p>
 <p>
-<h4>Summery :</h4>
+<h4>Summary :</h4>
 <ol>
 <li>Marker Annotations are used to mark a declaration.</li>
 <li>A marker annotation is a special kind of annotation.</li>
@@ -185,7 +267,7 @@ In this case, **abc** defaults to zero, and **value** gets the value 88. Of cour
 ```
 Remember, whenever you are using a single-member annotation, the name of that member must be **value**.
 </p>
-<h4>Summery :</h4>
+<h4>Summary :</h4>
 <ol>
 <li>Single-Member Annotations contains only one member.</li>
 <li>Single-Member Annotations allow a shorthand form of specifying the value.</li>
