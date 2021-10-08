@@ -15,6 +15,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         issue_message: 'Hello @${{github.actor}}, <br>
                         Thank you for opening an issue. :octocat: <br>
+                        Note - Self-assigns by the original author will be prioritised by mentors manually<br>
                         To get assigned to this particular issue please use <b>/assign</b><br>
                         <i> Check this <a href="https://github.com/girlscript/winter-of-contributing/blob/main/.github/CONTRIBUTING.md">guide</a> before contributing.'
         PR_message:
