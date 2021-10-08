@@ -127,7 +127,7 @@ One of the most popular and fun applications of PyTorch is a style transfer. It 
 * PyTorch is an open source machine learning library based on the Torch library, used for applications such as computer vision and natural language processing,[6] primarily developed by Facebook's AI Research lab.<br />
 * Researchers who are were inspired by torch’s programming style decided to implementation it in python calling is pytorch
 * It’s a Python based package for serving as a replacement of Numpy and to provide flexibility as a Deep Learning Development Platform.
-
+# [Reference Video](https://drive.google.com/drive/folders/1siSX4qze00nyxh16FpT8vbo3RfYXKAUm?usp=sharing)
 
 
 
