@@ -15,8 +15,7 @@
 **Syntax:**
 
 ```ruby
-if (condition)
-{
+if (condition) {
     #block of code to be executed if the condition is true
 }
 ```
@@ -24,8 +23,7 @@ if (condition)
 
 ```ruby
 const num = 8
-if (num % 2 == 0)
-{
+if (num % 2 == 0) {
     console.log('Number in even')
 }
 ```
@@ -38,19 +36,18 @@ if (num % 2 == 0)
 ```ruby
 if (condition) {
     #block of code to be executed if the condition is true
-} else {
+} 
+else {
     #block of code to be executed if the condition is false
 }
 ```
 **Example:**
 ```ruby
 const age=21
-if (age>=18)
-{
+if (age>=18) {
     console.log('Eligible to vote')
 }
-else
-{
+else {
     console.log('Not eligible to vote')
 }
 ```
@@ -63,29 +60,37 @@ else
 ```ruby
 if (condition1) {
     #block of code to be executed if condition1 is true
-} else if (condition2) {
+} 
+else if (condition2) {
     #block of code to be executed if the condition1 is false and condition2 is true
-} else {
+} 
+else {
     #block of code to be executed if the condition1 is false and condition2 is false
 }
 ```
 **Example:**
 ```ruby
-const marks = 65;
+const marks = 65
 
         if (marks < 50) {
             console.log('fail')
-        } else if (marks >= 50 && marks < 60) {
+        } 
+        else if (marks >= 50 && marks < 60) {
             console.log('D grade')
-        } else if (marks >= 60 && marks < 70) {
+        } 
+        else if (marks >= 60 && marks < 70) {
             console.log('C grade')
-        } else if (marks >= 70 && marks < 80) {
+        } 
+        else if (marks >= 70 && marks < 80) {
             console.log('B grade')
-        } else if (marks >= 80 && marks < 90) {
+        } 
+        else if (marks >= 80 && marks < 90) {
             console.log('A grade')
-        } else if (marks >= 90 && marks < 100) {
+        } 
+        else if (marks >= 90 && marks < 100) {
             console.log('A+ grade')
-        } else {
+        } 
+        else {
             console.log('Invalid!')
         }
 ```
