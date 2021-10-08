@@ -181,13 +181,13 @@ function drop(ev) {
 }
 ```
 
-1)Call preventDefault() to prevent the browser default handling of the data (default is open as link on drop)
+1) Call preventDefault() to prevent the browser default handling of the data (default is open as link on drop)
 
-2)Get the dragged data with the dataTransfer.getData() method. This method will return any data that was set to the same type in the setData() method
+2) Get the dragged data with the dataTransfer.getData() method. This method will return any data that was set to the same type in the setData() method
 
-3)The dragged data is the id of the dragged element ("drag1")
+3) The dragged data is the id of the dragged element ("drag1")
 
-4)Append the dragged element into the drop element
+4) Append the dragged element into the drop element
 
 # HTML Web Storage API
 HTML web storage; better than cookies.
