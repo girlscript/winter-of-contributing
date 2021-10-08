@@ -1,30 +1,30 @@
 # JOIN()
 
-The join() method is provided by **java.lang.Thread** class. Join() method puts all the currently running threads on wait(stop their execution) until the thread it joins with completes all its task. It throws InterruptedException if the thread is interrupted .
+The join() method is provided by **java.lang.Thread** class. It causes the currently running threads to stop executing until the thread it joins with completes its task.
 
 There are three overloaded join functions.
 
-1. **join():** This method when called will put the current thread on wait until the thread on which it is called has completed its execution(is dead).
+1. **join():** It will put the current thread on wait until the thread on which it is called is dead. If thread is interrupted then it will throw InterruptedException.
   
     **Syntax:**
     >public final void join()
 
-2. **join(long milliseconds):** This method when called makes the current thread stop its execution until the thread on which it is called is dead or wait for specified time (milliseconds).
+2. **join(long millis):** It will put the current thread on wait until the thread on which it is called is dead or wait for specified time (milliseconds).
 
     **Syntax:**
-    > public final synchronized void join(long milliseconds)
+    > public final synchronized void join(long millis)
 
-3. **join(long milliseconds, int nanoseconds):** This method when called makes the current thread stop its execution until the thread on which it is called is dead or wait for specified time (milliseconds + nanoseconds).
+3. **join(long millis, int nanos):** It will put the current thread on wait until the thread on which it is called is dead or wait for specified time (milliseconds + nanos).
 
     **Syntax:**
-    > public final synchronized void join(long milliseconds, int nanoseconds)
+    > public final synchronized void join(long millis, int nanos)
 
-We can specify a waiting period in join() method. But doesn't guarantee that the current threads will wait only for given amount of time since thread execution depends on the implementation of OS.
+join() allows the programmer to specify a waiting period. Since thread execution depends on OS implementation, it doesn't guarantee that the current thread will wait only for given time.
 
 ## Why we use join() method?
-Most of the times, we generally have more than one thread. Thread scheduler schedules the threads but it does not guarantee the order of execution of threads.
+In normal circumstances we generally have more than one thread, thread scheduler schedules the threads, which does not guarantee the order of execution of threads.
 
-## When join() method is not used
+## Without using join()
 ```java
 class TestJoin extends Thread{
     @Override
@@ -62,7 +62,7 @@ Current Thread: Thread-0 1
 Current Thread: Thread-1 1
 ```
 
-## When join() method is used 
+## With join()
 
 ```java
 class TestJoin extends Thread{
@@ -108,3 +108,9 @@ Current Thread: Thread-1 1
 Current Thread: Thread-2 0
 Current Thread: Thread-2 1
 ```
+
+### References :
+
+* [www.journaldev.com](https://www.journaldev.com/1024/java-thread-join-example)
+* [www.javatpoint.com](https://www.javatpoint.com/join()-method)
+* [www.geeksforgeeks.org](https://www.geeksforgeeks.org/joining-threads-in-java/)
