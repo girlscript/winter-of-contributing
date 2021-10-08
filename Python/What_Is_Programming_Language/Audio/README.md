@@ -53,3 +53,5 @@ for example -
 
 4. Difference between scripting language and programming language.\
 Ans. Scripting languages are interpreted language and runs slowly . Scripting language is also a programming language while programming languages are compiled languages and executes faster . It has a fixed entry point like main() wheras scripting language doesn't have a fixed entry point.
+### References
+  - https://hackr.io/
