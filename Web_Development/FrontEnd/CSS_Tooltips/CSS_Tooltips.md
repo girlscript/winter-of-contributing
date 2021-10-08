@@ -93,8 +93,8 @@ In this example, the tooltip is placed to the right (left:105%) of the "hoverabl
 ![Screenshot (26)](https://user-images.githubusercontent.com/76725762/136219092-989a0286-b620-4f15-8dab-da0cf92dcaa2.png)
 
 
-reference https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_left ,
-http://www.menucool.com/tooltip/css-tooltip
+reference [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_left) ,
+[menucool](http://www.menucool.com/tooltip/css-tooltip)
   
 ### Left Tooltip
 
@@ -111,8 +111,8 @@ http://www.menucool.com/tooltip/css-tooltip
 ![Screenshot (28)](https://user-images.githubusercontent.com/76725762/136219206-37ff1ddb-8835-49fd-8d22-71892a37d2dc.png)
 
  
- reference https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_right ,
- http://www.menucool.com/tooltip/css-tooltip
+ reference [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_right) ,
+ [menucool](http://www.menucool.com/tooltip/css-tooltip)
  
 ### Top Tooltip
 ```html
@@ -130,8 +130,8 @@ http://www.menucool.com/tooltip/css-tooltip
 ![Screenshot (25)](https://user-images.githubusercontent.com/76725762/136219293-a84bc01d-79d3-42ce-bf7e-c177cfbf4fc4.png)
 
   
-  reference https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom ,
-  http://www.menucool.com/tooltip/css-tooltip
+  reference [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_bottom) ,
+  [menucool](http://www.menucool.com/tooltip/css-tooltip)
   
  ### Bottom Tooltip
 
@@ -150,8 +150,8 @@ http://www.menucool.com/tooltip/css-tooltip
 ![Screenshot (27)](https://user-images.githubusercontent.com/76725762/136219370-dd3d84fe-144a-421b-bd3d-934eade7ccd5.png)
 
   
-  reference https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_top ,
-  http://www.menucool.com/tooltip/css-tooltip
+  reference [w3schools](https://www.w3schools.com/css/tryit.asp?filename=trycss_tooltip_arrow_top) ,
+  [menucool](http://www.menucool.com/tooltip/css-tooltip)
   
   
  # Tooltip Arrows
