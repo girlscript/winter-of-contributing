@@ -14,7 +14,7 @@ When we use v-bind in class and styles it gives special advantages to us.
 
 
 
-# <u>Syntax</u>
+# <u>Object Syntax</u>
 
 
 
@@ -22,13 +22,17 @@ When we use v-bind in class and styles it gives special advantages to us.
 <div v-bind:class="{ active: isActive }"></div>
 ````
 
-In above code active means that yes the data property is active.
+In above code if this div have class "**active**" then that means "**isActive**" data property is **true**. And if div not have any class then that means "**isActive**" data property is **false**.
 
 
 
 ````html
 <div v-bind:class="GWOCObject"></div>
 ````
+
+In this div we have binded the class GWOCObject and if it is present in the div that means it is true and the data property linked with it will get executed.
+
+
 
 ````javascript
 data: {
@@ -41,7 +45,7 @@ data: {
 
 
 
-Here, it will render that **active is true** and text - warning is false but if class list got updated then text - warning can become true.
+Here,when GWOCObject is in that div it means that it will render that **active** data property is true and text - warning is false but if class list got updated and that class got removed then all the data property will become false .
 
 
 
@@ -64,9 +68,7 @@ data: {
 
 
 
-It will render
-
-
+It will render :
 
 ````html
 <div class="active text-success"></div>
@@ -92,51 +94,28 @@ Vue.component('my-component', {
 })
 ````
 
-
+Then  we can add some classes when using it : 
 
 ````html
 <my-component class="baz boo"></my-component>
-<my-component v-bind:class="{ active: isActive }"></my-component>
+````
+
+HTML file be rendered as
+
+````html
 <p class="GWOC active">Hi! Its the contribution time.</p>
 ````
 
+It is also true for class bindings:
 
-
-# Binding inline styles
-
-
-
-### Object Syntax
-
-Using v-bind : style almost looks like CSS except as it is a javascript object .
-
-```` html
-<div v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }"></div>
+````html
+<my-component v-bind:class="{ active: isActive }"></my-component>
 ````
 
-````javascript
-data: {
-  activeColor: 'blue',
-  fontSize: 24
-}
-````
+when isActive true the the html file to be rendered is :
 
-
-
-In this **activecolor** represents **blue** and **fontsize** represents **24** .
-
-
-
-
-
-### Array Syntax
-
-
-
-In v - bind : style we can also apply mutiple styles object.
-
-```` html
-<div v-bind:style="[baseStyles, overridingStyles]"></div>
+````html
+<p class="GWOC active">Hi! Its the contribution time.</p>
 ````
 
 
