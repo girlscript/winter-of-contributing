@@ -1,4 +1,4 @@
-![](https://gwoc.girlscript.tech/assets/gwoc_logo_forweb.png)
+![](https://raw.githubusercontent.com/girlscript/winter-of-contributing/main/banner_readme.png)
 
 
 <h1 align="center"> :fleur_de_lis: MACHINE LEARNING :fleur_de_lis: </h1>
@@ -43,6 +43,19 @@
    - **2.19. Gradient Descent Algorithms**
    - **2.20. Implement Gradient Descent on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
 
+### 🟡 *Week 3 [Unsupervised Machine Learning]* :
+   - **3.1. What is Clustering? Validate its necessity using real-world applications.**
+   - **3.2 k-means Clustering.**
+   - **3.3 k-medoids.**
+   - **3.4 DBSCAN.**
+   - **3.5 Hierarchical Clustering.**
+   - **3.6 Contrast between k- means, k- medoids and Hierarchical Clustering.**
+   - **3.7 BIRCH.**
+   - **3.8 What is Outlier Detection. How is it important in ML?**
+   - **3.9 Outlier Detection using Random Forests: Isolation Forest.**
+   - **3.10 Outlier Detection using Local Outlier Filter (LOF)**
+   - **3.11. Implement k-means without using any standard ML library like scikit-learn or more. ⭐**
+   - **3.12. Implement k-medoids without using any standard ML library like scikit-learn or more. ⭐**
 
 
 
