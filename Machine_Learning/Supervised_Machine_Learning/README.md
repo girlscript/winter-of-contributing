@@ -1,5 +1,5 @@
 <div align = 'center'>
-     <h1> 🔷 Supervised Machine Learning 🔷 </h1>
+     <h1> 🔷 Chapter 2 - Supervised Machine Learning 🔷 </h1>
      </div>
      
 | Sl. No. | Topics Name | Audio | Documnentation | Video |
