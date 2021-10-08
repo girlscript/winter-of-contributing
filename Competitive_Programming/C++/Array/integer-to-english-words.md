@@ -15,9 +15,8 @@ Input: num = 1234567891
 Output: "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One"
 ```
 
-How to solve this question?
+### Approach
 
-```
 1. Four different vectors have been made, named 'singles','tens','hundreds','Billion'
 2. Singles take care of all the digits when they come to ones places
 3. Tens take care of all the numbers betweeen 11-20
@@ -25,7 +24,6 @@ How to solve this question?
 5. Billion vector represent the status of the three set number.
 6. The 'print' function basically converts the whole vecotr into a string and reutrn that string.
 7. The 'Helper' function is the main function which is call repeatedly, returns the string if the number is less than 1000 or recursively call itself, while increasing the 'Index' ,which defines the degree of the number, ('Index' represents the index of the Billion vector).
-```
 
 ## Implementation of code in C++
 
