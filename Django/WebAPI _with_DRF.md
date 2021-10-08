@@ -50,8 +50,8 @@ Then, sync the database by running the following command.
 ```python
 #novels/models.py
 from django.db import models
-class Novel(models.Model)
-	title = models.Charfield(max_length=150)
+class Novel(models.Model):
+    title = models.Charfield(max_length=150)
     author = models.Charfield(max_length=100)
     def __str__(self):
         return self.title
