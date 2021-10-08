@@ -204,7 +204,7 @@ GridView.count(
 
 ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/76723996/134703681-a2c2abd9-ae97-4bb9-8f4e-1e06f3fd9c87.gif)
 
-##:point_right:GridView.builder():
+## :point_right:GridView.builder():
 This is used when you want to display a grid of dynamic data . It takes **itemcount** where you specify the  number of items you want to display, **gridDelegate** where you mention the number of columns and **itemBuilder** to return a widget.
 
 ```dart
