@@ -52,7 +52,7 @@ The following are the features of Tkinter −
 ##### Input
 
 
-``` 
+``` python
 from Tkinter import *
 root = Tk( )
 root.title("A simple application")
@@ -101,5 +101,5 @@ In this we covered the basics of Tkinter like what it is, its features, a sample
 For more detailed study, you can refer to websites.
 
 ## **References**
-+ https://www.studytonight.com/
-+ https://www.cs.mcgill.ca/
++ https://www.studytonight.com/tkinter/introduction-to-python-tkinter-module
++ https://www.cs.mcgill.ca/~hv/classes/MS/TkinterPres/#Overview
