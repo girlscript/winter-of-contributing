@@ -17,6 +17,32 @@ A ReactJS application is made up of multiple components, each component responsi
 npx create-react-app myapp
 ```
 
+The above mentioned command will create a directory called `my-app` inside the current folder. Inside that directory, it will generate the initial project structure and install the transitive dependencies:
+
+```
+my-app
+├── README.md
+├── node_modules
+├── package.json
+├── .gitignore
+├── public
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+└── src
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    ├── serviceWorker.js
+    └── setupTests.js
+```
+
 1. Filename App.js: Now change the App.js file with the given below code:
     
     ```jsx
@@ -45,7 +71,7 @@ npx create-react-app myapp
 think of everything as a component. This will help you maintain the code when working on larger scale projects.
 - **Unidirectional data flow and Flux** − React implements
 one-way data flow which makes it easy to reason about your app. Flux is a pattern that helps keeping your data unidirectional.
-- **License** − React is licensed under the Facebook Inc. Documentation is licensed under CC BY 4.0.
+- **License** − React is licensed under the MIT License. A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code. Documentation is licensed under CC BY 4.0.
 
 ## Top Companies That Use ReactJS
 
