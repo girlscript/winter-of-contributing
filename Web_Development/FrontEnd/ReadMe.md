@@ -38,6 +38,14 @@
 - Text manipulation
 - [The css box model](./CSS_BoxModel)
 - Content manipulation - margin,padding,align
+- What is FlexBox
+- Flex properties
+- What is Grid
+- Grid vs Flex
+- Transition and transformation
+- Animations
+- CSS Libraries
+- [CSS Pagination](./CSS_Pagination/CSS_Pagination.md)
 - [What is FlexBox](./CSS_Flexbox)
 - [Flex properties](./CSS_Flexbox)
 - [What is Grid](./CSS_Grid)
