@@ -1,6 +1,8 @@
 # Domain Name Basics
 ![Untitled](https://user-images.githubusercontent.com/78808336/136243815-d910ca18-4f1a-4726-be96-8190d467642d.gif)
 
+*Image Credit: [Gifer](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifer.com%2Fen%2FML7C&psig=AOvVaw1LM_wYlwydRzlwUMd2r7oA&ust=1633717878292000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCMiA-_j3uPMCFQAAAAAdAAAAABAD)*
+
 ## ***📌What is a domain name / domain?***
 A ***domain name*** or simply known as ***domain*** is a online, digital address or entity that typically takes the form of your organization's name and a standard internet suffix, for example, ***mybusiness.com or stateuniversity.edu, google.com, wikipedia.org.*** etc. These domain names are unique for a particular organisation and are associated with a physical IP address on the Internet, which in turn, is associated with a unique system connected to the internet. For instance, the domain name `example.com` might translate to the physical address `198.102.434.8`.
 
@@ -37,6 +39,8 @@ Domain names provide the users with a memorable short name. While users enter we
 
 One can relate to the ***namimg hierarchy*** as show in the image :
 ![d5](https://user-images.githubusercontent.com/78808336/136087768-4aba8d7d-0be5-49a1-a702-fb211532a539.PNG)
+
+*Image Credit: [Wikipedia](https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FDomain_name&psig=AOvVaw1hDnT5c653KlogUFcndXJn&ust=1633719542505000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCNCHv8P-uPMCFQAAAAAdAAAAABAD)*
 <hr>
 
 ## ***📌Parts of domain name:***
@@ -86,6 +90,8 @@ It is a standard, global system for translating IP addresses to human-readable d
 A component called a ***DNS Resolver*** is responsible for checking if the hostname is available in local cache, and if not, contacts a series of DNS Name Servers, until eventually it receives the IP of the service the client is trying to access, and returns it to the browser or application. This process usually takes less than a second.
 
 ![d6](https://user-images.githubusercontent.com/78808336/136087775-7add390f-a8c5-4714-a9ae-187691395a6f.PNG)
+
+*Image Credit: [Mit notes](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-170-software-studio-spring-2013/lecture-notes/MIT6_170S13_05-dmn-names.pdf)*
 
 This system is essentially like the “phone book” of the Web that organizes and identifies domains. While a phone book translates a name like "Peter Parker" into the correct phone number to call, the DNS maps and translates a web address like "www.google.com" into the physical IP address—such as "74.125.19.147" that is of the computer hosting that site .
 
