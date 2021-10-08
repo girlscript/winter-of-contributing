@@ -98,5 +98,5 @@ Some of the commonly used tags to represent quotation and cite text are:
 * `<bdo>` - This tag is used to specify in which direction a text has to be written..
 * `<address>` - This tag defines contact info of the person.
 ## References:
-1) https://www.w3schools.com/html/
-2) https://www.javatpoint.com/
+1) [w3schools](https://www.w3schools.com/html/)
+2) [javatpoint](https://www.javatpoint.com/)
