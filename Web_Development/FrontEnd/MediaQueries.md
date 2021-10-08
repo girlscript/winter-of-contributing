@@ -48,7 +48,6 @@ A media query is made up of two parts: media type and size. Media query could ha
 @media(min-width:481px) and (max-width:767px){
     //CSS here
 }
-*/
 ```
 
 ## EXAMPLE OF MEDIA QUERIES
@@ -91,7 +90,7 @@ p{
 ### Output
 #### On Desktop and Laptop Devices
 
-![onDesktop&Laptops](https://mediaquery.samimunir2002.repl.co/bigScreens.png)
+![onDesktop&Laptops](https://mediaquery.samimunir2002.repl.co/bigScreen.png)
 
 #### On Mobile Devices 
 
