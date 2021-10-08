@@ -172,7 +172,7 @@ The ``ondragover`` event specifies where the dragged data can be dropped.
 
 By default, data/elements cannot be dropped in other elements. To allow a drop, we must prevent the default handling of the element.
 
-This is done by calling the ``event.preventDefault() method`` for the ondragover event:
+This is done by calling the ``event.preventDefault() method`` for the `ondragover` event:
 ```
 event.preventDefault()
 ```
