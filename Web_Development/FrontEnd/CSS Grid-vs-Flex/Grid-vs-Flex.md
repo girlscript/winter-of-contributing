@@ -1,6 +1,8 @@
 ## CSS : Grid vs Flex
 
-## Which is the better choice- Grid or Flex? Let's dive deep into the concepts of two complimentary web layout technologies and unpack when and where to use CSS Grid and Flexbox.
+## Which is the better choice- Grid or Flex?
+
+Let's dive deep into the concepts of two complimentary web layout technologies and unpack when and where to use CSS Grid and Flexbox.
 
 | GRID                                                         | FLEX                                                         |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -11,5 +13,4 @@
 | Convenient in creating complex and organized large scale layouts like websites involving broken, asymmetrical, or overlapping layouts. | Best suited to create small scale easy layouts and responsive web pages as it is perfect for centering items, creating responsive menus and so on. |
 | CSS Grid is **not supported** by certain browsers.           | Flexbox is fairly **compatible** with most of the browsers.  |
 
-###### There is no clear cut answer of CSS Grid vs Flexbox, henceforth, no explicit strategy to choose between them. In order to gain expertise in creating impressive web pages, one needs to be proficient in working with hybrid methods that use both Grid and Flexbox, side by side depending on the specific use case. 
-
+There is no clear cut answer of CSS Grid vs Flexbox, henceforth, no explicit strategy to choose between them. In order to gain expertise in creating impressive web pages, one needs to be proficient in working with hybrid methods that use both Grid and Flexbox, side by side depending on the specific use case.
