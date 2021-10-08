@@ -4,11 +4,11 @@ API stands for Application Programming Interface. A Web API is an application pr
 
 #### We will be discussing three types of HTML API here:-
 
--HTML Geolocation API
+- HTML Geolocation API
 
--HTML Drag and Drop API
+- HTML Drag and Drop API
 
--HTML Web Storage API
+- HTML Web Storage API
  
 # HTML Geolocation API
 The HTML Geolocation API is used to locate a user's position.
@@ -52,11 +52,11 @@ function showPosition(position) {
 
 ### Check if Geolocation is supported
 
--If supported, run the getCurrentPosition() method. If not, display a message to the user
+- If supported, run the getCurrentPosition() method. If not, display a message to the user
 
--If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)
+- If the getCurrentPosition() method is successful, it returns a coordinates object to the function specified in the parameter (showPosition)
 
--The showPosition() function outputs the Latitude and Longitude
+- The showPosition() function outputs the Latitude and Longitude
 
 The example above is a very basic Geolocation script, with no error handling
 
@@ -204,17 +204,17 @@ Web storage is per origin (per domain and protocol). All pages, from one origin,
 ### HTML Web Storage Objects
 HTML web storage provides two objects for storing data on the client:
 
--window.localStorage- stores data with no expiration date
+- window.localStorage- stores data with no expiration date
 
--window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
+- window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
 
 The localStorage Object
 
-**-The localStorage object stores the data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.**
+**- The localStorage object stores the data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year.**
 
 The sessionStorage Object
 
-**-The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session. The data is deleted when the user closes the specific browser tab.**
+**- The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session. The data is deleted when the user closes the specific browser tab.**
 For more details refer [Smashing Magazine](https://www.smashingmagazine.com/2017/02/designing-html-apis/)
 ## References
 **[Smashing Magazine](https://www.smashingmagazine.com/2017/02/designing-html-apis/)**
