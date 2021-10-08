@@ -1,8 +1,8 @@
-# Polynomail Regression 
+# Polynomial Regression 
 Linear regression is a good algorithm but you are not always going to come across linear data. Here polynomial regression comes into the picture. 
 It can a very useful algorithm in case we have non-linear data. 
 Its equation is given by the below formula. <br/><br/>
-![](https://github.com/101Priyanshi/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/poly_reg_1.png) <br/><br/>
+![](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/03/pr3.png) <br/><br/>
 Where,<br/> 
 x is the independent variable <br/>
 Y is the target variable <br/>
@@ -21,7 +21,7 @@ https://colab.research.google.com/drive/1tLss6GslONOovP_2G6oipJ7psgMawfEq?usp=sh
 plt.scatter(X,y,color="blue")<br/>
 plt.plot(X,poly_reg.predict(X_poly),color="red")<br/>
 plt.show()<br/><br/>
-![](https://github.com/101Priyanshi/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/poly_reg_2.PNG)
+![](https://github.com/101Priyanshi/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Supervised_Machine_Learning/Assets/poly_reg.PNG)
  
 ### NOTE
 In deciding which degree to choose, you will have to use hit and trial method and choose the degree accordingly. 
