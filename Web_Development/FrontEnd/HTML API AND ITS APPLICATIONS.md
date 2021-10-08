@@ -153,7 +153,8 @@ First of all: To make an element draggable, set the draggable attribute to true:
 ``` js
 <img draggable="true">
 ```
-## What to Drag - `ondragstart and setData()`
+## What to Drag - `ondragstart` and `setData()`
+
 Then, specify what should happen when the element is dragged.
 
 In the example above, the ondragstart attribute calls a function, `drag(event)`, that specifies what data to be dragged.
@@ -173,7 +174,7 @@ The ``ondragover`` event specifies where the dragged data can be dropped.
 By default, data/elements cannot be dropped in other elements. To allow a drop, we must prevent the default handling of the element.
 
 This is done by calling the ``event.preventDefault() method`` for the `ondragover` event:
-```
+``` js
 event.preventDefault()
 ```
 ## Do the Drop - `ondrop`
