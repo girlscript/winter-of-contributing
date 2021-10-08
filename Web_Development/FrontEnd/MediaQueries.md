@@ -6,13 +6,10 @@ We can create a website for users using different devices (desktops, laptops, ta
 
 ### Types of Media 
 
-**all:** for all kinds of media.
-
-**print:** for hardcopy (printout on paper).
-
-**screen** for all types of screen.
-
-**speech** for readout document loudly.
+1. **all:** for all kinds of media.
+2. **print:** for hardcopy (printout on paper).
+3. **screen** for all types of screen.
+4. **speech** for readout document loudly.
 
 ## How to use Media Query?
 
