@@ -6,7 +6,7 @@ If any website has many pages, then pagination comes into picture which helps us
 
 ![css pagination](https://imgur.com/9R7Avqe.jpg)
 
-## Program for **SIMPLE PAGINATION**:
+## Program for Simple Pagination:
 
 ```html
 <!DOCTYPE html>
