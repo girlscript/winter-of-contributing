@@ -1,14 +1,13 @@
 # Flood Fill Algorithm:
-    In this algorithm, we have been given the graph or the grid which we have to color starting from the specified index with the specified color.
-    
-    The coloring will only be done on grids which have the same adjecent color in the grid befoe actually starting the Flood Fill Algorithm.
+- In this algorithm, we have been given the graph or the grid which we have to color starting from the specified index with the specified color.
+- The coloring will only be done on grids which have the same adjecent color in the grid before actually starting the Flood Fill Algorithm.
 
 ### Advantages:
-- Flood fill colors an entire area in an enclosed figure through interconnected pixels using a single color.
-- It is an easy way to fill color in the graphics. One just takes the shape and starts flood fill
-- The algorithm works in a manner so as to give all the pixels inside the boundary the same color leaving the boundary and the pixels outside.
-- Flood Fill is also sometimes referred to as Seed Fill as you plant a seed and more and more seeds are planted by the algorithm.
-- There are many variations of Flood Fill algorithm that are used depending upon requirements
+- Flood fill algorithm is easy, one only need to give the starting indices of cell along with the new color.
+- The Algorithm will color all the cells with the new color untill some boundary color encounters.
+- Using flood fill algorithm to fill any shape with the new color is easy.
+- It is sometimes als refered to as the Seed Fill algorithms, as we plant a seed, and more seeds will be planted by the algorithm.
+- Multiple variation of the flood fill algorithm can also be used as per requirements.
 
 ### Disadvantages:
 - Very slow algorithm.
