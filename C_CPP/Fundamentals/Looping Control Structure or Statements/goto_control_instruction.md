@@ -8,7 +8,7 @@
 - It can move control in forward as well as backward in the program.
 - There’s no need of declaring them as variables.
 ## Flowchart
-<img src="images/img1.png" width=350><br>
+![FlowChart](https://user-images.githubusercontent.com/63473496/136507124-3c83be7a-898f-4060-ad0b-4d9da725e639.png)
 ## Syntax
 ```c
   //Forward goto usage
