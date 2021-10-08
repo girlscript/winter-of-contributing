@@ -14,7 +14,7 @@
 - [ ] The anatomy of a React App and Concept of Virtual DOM
 - [ ] Installing the React Developer Tools
 ### Week 2 
-- [ ] Components 
+- [x] Components 
 - [ ] Class components 
 - [ ] Functional components 
 - [ ] import, export, modules 
