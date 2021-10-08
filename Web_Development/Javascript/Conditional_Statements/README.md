@@ -30,7 +30,7 @@ if (num % 2 == 0) {
 **Output:** Number is even
 <h3>if-else statement</h3>
 
-<p>Use the if statement to execute a statement if a logical condition is true. Use the else clause to execute a statement if the condition is false.</p>
+<p>Use the if statement to execute a statement if a logical condition is true and else clause to execute a statement if the condition is false.</p>
 
 **Syntax:**
 ```ruby
@@ -138,3 +138,5 @@ const i=2;
 ```
 
 **Output:** Second case
+
+<span>**Contributor:**</span> [Ayushi Shukla](https://github.com/Ayushias0203)
