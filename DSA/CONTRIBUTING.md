@@ -37,8 +37,8 @@ $ git clone https://github.com/{username}/winter-of-contributing --branch DSA
 ## Add upstream remote
 $ git remote add upstream https://github.com/girlscript/winter-of-contributing
 
-## Syncing with upstream/main branch
-$ git pull upstream
+## Syncing with upstream branch
+$ git pull -r upstream DSA
 
 ## To create and shift to working branch
 $ git checkout -b sample-branch
