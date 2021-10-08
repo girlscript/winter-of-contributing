@@ -20,7 +20,7 @@
 - [HTML Lists](./HTML_LISTS)
 - [HTML Canvas](./HTML_Canvas/Canvas.md)
 - HTML Classes and IDs
-- HTML Forms
+- [HTML Forms](./HTML%20Forms)
 - [HTML IFrames](./HTML_IFrames/iframes.md)
 - Semantic HTML
 - Form Validation
