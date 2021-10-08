@@ -8,8 +8,8 @@ We can create a website for users using different devices (desktops, laptops, ta
 
 1. **all:** for all kinds of media.
 2. **print:** for hardcopy (printout on paper).
-3. **screen** for all types of screen.
-4. **speech** for readout document loudly.
+3. **screen:** for all types of screen.
+4. **speech:** for readout document loudly.
 
 ## How to use Media Query?
 
