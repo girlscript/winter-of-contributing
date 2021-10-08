@@ -27,17 +27,25 @@
 
     Let's look at how to print all the sub strings of a string.  
  
-    1. BRUTE FORCE APPROACH:  three nested loops =>   o(n^3) 
-    2. Using substr() function: o(n^3) 
-    3. To produce substrings of previously found substring.  o(n^2) 
+    1. BRUTE FORCE APPROACH:  three nested loops   
+       time complexity: o(n^3)   , space complexity: o(1)
+       
+    2. Using substr() function:
+       time complexity: o(n^3)   , space complexity: o(1)
+       
+    3. To produce substrings from previously formed substring:
+       time complexity: o(n^2)   , space complexity: o(1)
  
 ##### In the following code we have the function printed for all the three approaches to code the print string function. Let’s have a look at them  
  
 ### 1. Three nested loops: 
  
-
-    The first approach that comes to our mind when we think about print all the sub arrays is to choose starting and ending index and then print every character in between. 
-    Assume the function takes two arguments: the string itself and its length. To cover all the sub-strings, we can first loop over the entire string and select the starting index. This can be done using a loop. Now for each starting index i we can have n - i choices to select the ending index. This gives us the nested loop. And then finally we print them using the third nested loop. 
+* This is the first approach that comes to our mind when we think about print all the sub arrays.
+* To choose starting and ending index and then print every character in between. 
+* Assume the function takes two arguments: the string itself and its length. 
+* To cover all the sub-strings, we can first loop over the entire string and select the starting index. This can be done using a loop. 
+* Now for each starting index i we can have n - i choices to select the ending index. This gives us the nested loop. 
+* And then finally we print them using the third nested loop. 
  
 #### Here is the code: 
 ```cpp
@@ -75,9 +83,11 @@ int main(){
  
 ### 2. Using substr() function: 
  
-    Substr() is an inbuilt c++ function that takes argument of the starting index and the length of the sub-string and return the sub-string. 
-    So, we can create a nested loop first one to determine the starting index and second one to determine the different lengths, and then finally call the substr() function to print the sub-string. 
-    Since substr() function has a complexity of o(n) the overall complexity becomes o(n^3). 
+* Substr() is an inbuilt c++ function.
+* It takes argument of the starting index and the length of the sub-string and returns the sub-string. 
+* So, we can create a nested loop first one to determine the starting index and second one to determine the different lengths.
+* Then finally call the substr() function to print the sub-string. 
+* Since substr() function has a time complexity of o(n) the overall time complexity becomes o(n^3). 
  
 #### Here is the code: 
 ```cpp
@@ -107,9 +117,11 @@ int main(){
 } 
 ```
    
-### 3. To produce substrings of previously found substring: 
-    This method is better than the other two in terms of time complexity. This is because in each iteration we just add another character to the temporary array created and then simply print the array instead of adding another loop to traverse through the array and print the substring. 
-    In this approach we get a time complexity of o(n^2). 
+### 3. To produce substrings from previously formed substring: 
+* This method is better than the other two in terms of time complexity. 
+* This is because in each iteration we just add another character to the temporary array created.
+* Then simply print the array instead of adding another loop to traverse through the array to print the substring. 
+* In this approach we get a time complexity of o(n^2). 
  
 #### Here is the code: 
 ```cpp
@@ -145,12 +157,13 @@ int main(){
 ```
  
 ## Analysis: 
-    So clearly the best time complexity in implementing the sub-string function is o(n^2) while the space complexity is o(1). 
+    So clearly the best time complexity in implementing the sub-string function is o(n^2)
+    while the space complexity is o(1). 
     So that was all about printing sub strings. 
  
 ## Sources and references: 
-    https://www.geeksforgeeks.org/program-print-substrings-given-string/ 
-    https://carolinarice.com/wp-content/uploads/2020/04/Rice-Pizza-Crust.jpg 
+   [Geeks for Geeks](https://www.geeksforgeeks.org/program-print-substrings-given-string/)  
+   [Pizza img](https://carolinarice.com/wp-content/uploads/2020/04/Rice-Pizza-Crust.jpg )  
  
  
 <p align = "center">----- Hope it helps you! Contributed with love✨ by <a href = "https://github.com/uzma024">~Uzma </a> ----</p>
