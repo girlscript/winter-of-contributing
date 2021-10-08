@@ -13,9 +13,9 @@ numbers is the largest number that divides both of them.
 We use the logic that : `gcd(a,b) = gcd(b,a%b)`
 
 ### TIME COMPLEXITY :  O(Log min(a, b)) 
-i.e if(a>b) then, TIME COMPLEXITY will be : `O(Log(b))`<br>
-&ensp;&nbsp;&nbsp; if(b>a) then, TIME COMPLEXITY will be : `O(Log(a))`<br>
-TIME COMPLEXITY of both iterative and recursive approach is same.<br>
+i.e if(a>b) then, TIME COMPLEXITY will be : `O(Log(b))` else
+ if(b>=a) then, TIME COMPLEXITY will be : `O(Log(a))` and
+TIME COMPLEXITY of both iterative and recursive approach is same.
 
 
 <b>EXPLANATION OF ITERATIVE APPROACH</b>:
