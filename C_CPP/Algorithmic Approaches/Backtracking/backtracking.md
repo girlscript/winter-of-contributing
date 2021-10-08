@@ -4,7 +4,8 @@
 - Backtracking means to retrace one's steps.
 - Backtracking Algorithm is an algorithm implemented using recursion for solving problems.
 - Backtracking technique is simply based upon the idea that you take a step and then if that step is not fulfilling the constraints 
-  then you take that step back and choose another step.Means you backtrack.
+  then you take that step back and choose another step.Means you backtrack.  
+  
 **For Example**  
 You encountered with four gates with different paths ,and you don't know which gate will take you to the correct position,  
 So what you will do is open the gates one by one if you get the right one then you will go ahead and if not then you will move back and choose another gate,   
@@ -18,7 +19,7 @@ Means you just backtrack from using that step and then choose another step.
  as it drops a set of permutations whenever it backtracks.  
 ### "Whenever the solution leads you to a wrong solution then just backtrack and choose a different solution"  
  
-### Some Basic Questions on ***Backtracking***  
+### Question on ***Backtracking***  
  
  **1 Rat in a Maze**   
  A Maze is given as N*N binary matrix of blocks where source block is the upper left most block i.e., maze[0][0]  
@@ -27,9 +28,9 @@ Means you just backtrack from using that step and then choose another step.
  In the maze matrix, **0** means the **block is a dead** end and **1** means the block can be **used** in the path from source to destination.  
  ![alt text](https://www.geeksforgeeks.org/wp-content/uploads/ratinmaze_filled11.png)
   
-  > Here gray blocks represent the dead blocks.      
-###Input 
-   Following is a binary matrix representation of the above maze. 
+  > Here gray blocks represent the dead blocks.       
+### Input
+ Following is a binary matrix representation of the above maze. 
 
 > {1, 0, 0, 0}  
 > {1, 1, 0, 1}  
