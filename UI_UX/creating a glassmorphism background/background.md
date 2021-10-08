@@ -26,4 +26,5 @@
  <p>Now the final step is adding borders that complete this effect to perfect. Adding a 1p inner border with some transparency to your shape simulates the glass-edge and can make the shape stand out more from the background.</p>
  <img width="400" src="https://user-images.githubusercontent.com/75171535/135755384-7e1d4498-dc19-41ab-b062-8f07add3f048.jpg">
  <p>These are the important steps involved while choosing a background in glassmorphism.</p>
+<p> Ref: "https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9" </p>
 <p align="center"></b>🎉Thank you for reading this. I hope you find this insightful🎉 </b>
