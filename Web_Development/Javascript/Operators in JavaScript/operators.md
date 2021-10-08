@@ -1,4 +1,4 @@
-![Image](/images/operators-in-javascript-featured-image.jpg)
+![Image](https://pbs.twimg.com/media/FBMINbXVIAItAHp?format=jpg&name=small)
 
 > Credit : [Tanmay Sankalp](https://simplesnippets.tech/operators-in-javascript-programming/)
 
