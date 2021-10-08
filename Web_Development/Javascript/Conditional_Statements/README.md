@@ -101,6 +101,9 @@ const marks = 65;
 
 <p>A switch statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement.</p>
 
+**_Working of switch statement_**
+<p>Firstly the switch expression is evaluated, then the value of the expression is compared one by one with every case constant. If the value of expression matches with any case constant, then all statements under that particular case are executed. If none of the case constant matches with the value of expression then the block of statements under default is executed. 'default' is optional, if it is not present and no case matches then no action takes place. These cases and default can occur in any order.</p>
+
 **Syntax:**
 ```ruby
 switch(expression) {
