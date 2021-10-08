@@ -132,9 +132,10 @@ Input: num = 1234567891
 Output: "One Billion Two Hundred Thirty Four Million Five Hundred Sixty Seven Thousand Eight Hundred Ninety One"
 ```
 
-### Complexity Analysis
-```
-Time Complexity: O(N) we are in the loop till we cover the whole number in set 0f 3 digits number, we will remain in the loop for n/3 times, therefore time complexity will be proportional to N
+## Complexity Analysis
 
-Space Complexity: O(1) we are although making a new vector for every pass, the vector is only made to handle three - digit english conversion, rest therefore whatever is the size of input,the vector made will have constant space complexity.
-```
+### Time Complexity: ```O(N)```
+we are in the loop till we cover the whole number in set 0f 3 digits number, we will remain in the loop for n/3 times, therefore time complexity will be proportional to N
+
+### Space Complexity: ```O(1)```
+we are although making a new vector for every pass, the vector is only made to handle three - digit english conversion, rest therefore whatever is the size of input,the vector made will have constant space complexity.
