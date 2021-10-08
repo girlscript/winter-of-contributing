@@ -44,7 +44,7 @@ After completion of DBSCAN Clustering we get three types of datapoints-<br>
 3) Noise DataPoints - These points are neither core datapoints nor border datapoints they do not belong to any clusters and are also considered outliers.<br>
 ![EXPLAIN](https://user-images.githubusercontent.com/34717612/136365779-c6b191c5-1d0f-4bbf-aa32-f01ee27a8b05.png)<br>
 ### Implementation of sample code-
-Link to the sample code - []()
+Link to the sample code(.ipynb file) - [Click Here](https://github.com/uttarabahad/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/DBSCAN%20Clustering%20Algorithm/dbscan_clustering.ipynb)
 #### I) Steps Followed During Implementation
 1)We generate a dataset consisting of random datapoints by importing make_blobs from klearn.datasets.<br>
 2)We decide and assign the value of eps and min_pts<br>
