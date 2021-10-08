@@ -88,6 +88,9 @@ By solving the recurrence relation we get the Time complexity of θ(nLogn) in al
 3. Merge sort is not able to identify if the array is sorted or not. It takes actions even if the array is sorted in the first place.
 
 ## REFERENCE
-- Image source - Khan Academy 
-- Geeks For Geeks
-- Abdul Bari 
+- [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
+- [GeeksForGeeks](https://www.geeksforgeeks.org/merge-sort/)
+## IMAGE REFERENCE
+- [Khan academy](https://cdn.kastatic.org/ka-perseus-images/db9d172fc33b90e905c1213b8cce660c228bb99c.png)
+- [Interview Bit](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.interviewbit.com%2Ftutorial%2Fmerge-sort-algorithm%2F&psig=AOvVaw2QdNx_ukEqZ2ZGGDtScdKF&ust=1633755709991000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDn1beEuvMCFQAAAAAdAAAAABAI)
+- [WikiMedia Commons](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMerge_sort_algorithm_diagram.svg&psig=AOvVaw2QdNx_ukEqZ2ZGGDtScdKF&ust=1633755709991000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMDn1beEuvMCFQAAAAAdAAAAABAV)
