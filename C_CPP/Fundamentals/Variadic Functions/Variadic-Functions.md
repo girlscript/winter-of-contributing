@@ -48,7 +48,7 @@ Let us now look at our sample code for adding a variable number of integers.
       #include<stdlib.h>
       #include<stdarg.h>
 
-      int sum(int args, ...) // here args is the number of intergers
+      int sum(int args, ...) // here args is the number of integers
       {
           va_list ap; // the macro declares the argument parameter as ap
 
@@ -57,7 +57,7 @@ Let us now look at our sample code for adding a variable number of integers.
           int i, sum=0;
 
           for(i=0;i<args;i++)
-          sum= sum + va_arg(ap, int); // the sumation is performed. Here, int is the type of the list variable.
+          sum= sum + va_arg(ap, int); // the summation is performed. Here, int is the type of the list variable.
 
           va_end(ap); // end only takes the list variable ap as an argument
 
@@ -80,11 +80,12 @@ OUTPUT:
 The code is pretty much self explanatory due to the comments. Here, the number of arguments is 3 and the numbers to be added are 1, 4 and 6 which sum up to 11.
 
 So, we can see that a variadic function has the following advantages over a normal function:
->> It makes passing a slice in a function very easy.
 
->> It is useful when the number of parameters is unknown.
+- It makes passing a slice in a function very easy.
 
->> It increases the readability of the program.
+- It is useful when the number of parameters is unknown.
+
+- It increases the readability of the program.
 
 Another macro that can be used in case of variadic functions is <b>va_copy</b>. It is not compulsory to use this macro but it comes in handy in case of certain program. It has the following syntax:
 ```
