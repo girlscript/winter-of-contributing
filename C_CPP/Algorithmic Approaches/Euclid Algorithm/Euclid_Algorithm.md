@@ -12,10 +12,18 @@ numbers is the largest number that divides both of them.
 
 We use the logic that : `gcd(a,b) = gcd(b,a%b)`
 
+### TIME COMPLEXITY :  O(Log min(a, b)) 
+i.e if(a>b) then, TIME COMPLEXITY will be : `O(Log(b))`<br>
+&ensp;&nbsp;&nbsp; if(b>a) then, TIME COMPLEXITY will be : `O(Log(a))`<br>
+TIME COMPLEXITY of both iterative and recursive approach is same.<br>
+
+
+<b>EXPLANATION OF ITERATIVE APPROACH</b>:
+In the below program, GCD() is a function having two parameters i.e. a and b. If b is equal to 0, then loop will be terminated and a is returned to the main() function. Otherwise loop will be executed again and again till the value of b is not equals to zero. 
 ```c
+//ITERATIVE APPROACH FOR FINDING GCD OF TWO NUMBERS
 #include<iostream>
 using namespace std;
-
 //Function for Finding GCD
 int GCD(int a, int b)
 {
@@ -27,16 +35,15 @@ int GCD(int a, int b)
     }
     return a;
 }
-
 int main()
 {
     int a,b;
     cout<<"ENTER ANY TWO NUMBERS : ";
-    cin>>a>>b;
+    cin>>a>>b;                                  //TAKING INPUT FROM USER
     if(a>b)
-    cout<<"GCD of A and B is : "<<GCD(a,b);
+    cout<<"GCD of A and B is : "<<GCD(a,b);     //FUNCTION CALLING
     else 
-    cout<<"GCD of A and B is : "<<GCD(b,a);
+    cout<<"GCD of A and B is : "<<GCD(b,a);     //FUNCTION CALLING
     return 0;
 }
 ```
@@ -49,28 +56,28 @@ GCD of A and B is : 6
 ENTER ANY TWO NUMBERS : 10 10
 GCD of A and B is : 10
 ```
+<b>EXPLANATION OF RECURSIVE APPROACH</b>:
+In the below program, GCD() is a recursive function. It has two parameters i.e. a and b. If a is equal to 0, then b is returned to the main() function. Otherwise the GCD() function recursively calls itself with the values (b % a, a).
 ```c
 //RECURSIVE APPROACH FOR FINDING GCD OF TWO NUMBERS 
 #include<iostream>
 using namespace std;
-
 //Function for Finding GCD
 int GCD(int a, int b)
 {
     if (a == 0)
         return b;
-    return GCD(b % a, a);
+    return GCD(b % a, a);                   //RECURSIVE CALLING     
 }
-
 int main()
 {
     int a,b;
     cout<<"ENTER ANY TWO NUMBERS : ";
-    cin>>a>>b;
+    cin>>a>>b;                                  //TAKING INPUT FROM USER
     if(a>b)
-    cout<<"GCD of A and B is : "<<GCD(a,b);
+    cout<<"GCD of A and B is : "<<GCD(a,b);     //FUNCTION CALLING
     else 
-    cout<<"GCD of A and B is : "<<GCD(b,a);
+    cout<<"GCD of A and B is : "<<GCD(b,a);     //FUNCTION CALLING
     return 0;
 }
 ````
