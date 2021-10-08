@@ -1,7 +1,7 @@
 # Prefix Sum Array
 
 ## What is Prefix Sum Array?
-The Prefix Sum Array of a given array is another array whose element at any location is sum of all elements upto that location in previous array. 
+The Prefix Sum Array of a given array is another array whose element at any index is sum of all elements upto that index in previous array.
 
 For example- PreSumArray[i]=Array[0]+Array[1]+...+Array[i-1]+Array[i]
 
