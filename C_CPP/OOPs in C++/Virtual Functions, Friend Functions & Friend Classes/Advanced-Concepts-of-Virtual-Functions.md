@@ -205,13 +205,13 @@ int main()
 > In Derived class 2
 
 
-### Virtual Destructors
+## Virtual Destructors
 
 A base class destructor should be virtual always. If we use delete with the parent/base class pointer/reference to a child/derived class object to ruin the derived class object. When the base class destructor is not virtual then delete acts like a normal member function that calls the destructor for the base class but not the derived class destructor. Which in turn causes the object of base part to be destroyed.
 
 So, basically a virtual destructor is used to clear the memory space alloted by child class object using parent class pointer object.
 
-#### Program to demonstrate a class destructor's behavior using a virtual destructor:
+### Program to demonstrate a class destructor's behavior using a virtual destructor:
 
 ```C++
 #include <iostream>
