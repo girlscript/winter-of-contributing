@@ -15,9 +15,9 @@ It likely to think of ***threading*** as having two (or more) different processo
 
 
 ## ***Why We Use Threading?***
-Mainly, threading are meant to speed up our task. But, because of the way ***CPython*** implementation of how Python works, threading may not speed up all tasks. This is due to interactions with the GIL that essentially limit one Python thread to run at a time.
+Threading are mainly meant for handling asynchronous event by switching between different flows of executions. Sometimes it may end spped up our taks, but, because of the way ***CPython*** implementation of how Python works, threading may not speed up all tasks. This is due to interactions with the GIL that essentially limit one Python thread to run at a time.
 
-Architecting our program to use threading can also provide gains in design clarity of our program. Often we run into examples when threading is not necessarily going to make our program run faster because they use threads, rather using threading in them helps to make the design cleaner and easier to reason about.
+Sometimes architecting our program to use threading can also provide gains in design clarity of our program. Often we run into examples when threading is not necessarily going to make our program run faster because they use threads, rather using threading in them helps to make the design cleaner and easier to reason about.
 
 
 ## ***When Should We Use Threading?***
