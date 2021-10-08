@@ -94,5 +94,3 @@ Another macro that can be used in case of variadic functions is <b>va_copy</b>. 
 The primary function of this macro is to make a copy of the variadic function arguments. This macro is not widely used.
 
 Thus, we can have learnt the syntax, definition and advantages of variadic functions.
-
-
