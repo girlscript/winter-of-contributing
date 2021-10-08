@@ -1,7 +1,7 @@
+
 # Tkinter
 
-
-Tkinter is a GUI library in python it is a fast and easy way to create GUI applications
+Tkinter is the standard GUI library for Python. Python when combined with Tkinter provides a fast and easy way to create GUI applications. Tkinter provides a powerful object-oriented interface to the Tk GUI toolkit.
 To Open Tkinter follow the following steps
 
 1.	Import Tkinter module
@@ -13,6 +13,7 @@ To Open Tkinter follow the following steps
 The following steps are shown through the code below
 ```
 from tkinter import *
+
 
 obj = Tk()
 
@@ -26,7 +27,39 @@ it should open a GUI as shown in the picture
 
 ![image](https://user-images.githubusercontent.com/66876387/136183422-9346f077-c2f4-4025-a49b-676f09f5a3f0.png)
 
-After that, you can widgets there some of the important widgets that are
+## Tkinter Widgets
+
+Tkinter provides various controls, such as buttons, labels and text boxes used in a GUI application. These controls are commonly called widgets.
+
+There are many types of widgets in Tkinter. Here are some of the widgets as well as a brief description in the following −
+
+### Button
+The Button widget is used to display buttons in your application.
+
+### Canvas
+The Canvas widget is used to draw shapes, such as lines, ovals, polygons and rectangles, in your application.
+
+### Checkbutton
+The Checkbutton widget is used to display a number of options as checkboxes. The user can select multiple options at a time.
+
+### Entry
+The Entry widget is used to display a single-line text field for accepting values from a user.
+
+### Frame
+The Frame widget is used as a container widget to organize other widgets.
+
+### Label
+The Label widget is used to provide a single-line caption for other widgets. It can also contain images.
+
+### Listbox
+The Listbox widget is used to provide a list of options to a user
+
+### Menubutton
+The Menubutton widget is used to display menus in your application.
+
+
+Here are the implementation of the widgets 
+
 Button :- it is used to display button on your application
 
 
@@ -59,10 +92,10 @@ main_title.pack()
 
 ![image](https://user-images.githubusercontent.com/66876387/136183985-568c533d-3541-47e8-9f14-b920e11a8d97.png)
 
-Geometry Management
-All the widget has to use a specific geometry method it is basically divided into 3 types
+## Geometry Management
+All the widget has to use a specific geometry method it is basically divided into 2 types
 
-1)Pack:-organizes the widgets before placing them in the parent widget.
+### Pack:-organizes the widgets before placing them in the parent widget.
 
 ```
 new_button = Button(text= "button", command ="")
@@ -82,7 +115,7 @@ main_title.pack(side= RIGHT)
 
 ![image](https://user-images.githubusercontent.com/66876387/136184459-f006afbe-005b-4241-8490-eb0cf75bcf75.png)
 
-2)Place:- you can directly define where to place the widget
+### Place:- you can directly define where to place the widget
 
 ```
 
