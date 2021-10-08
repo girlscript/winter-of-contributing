@@ -114,6 +114,6 @@ For preparing this document some refrences were taken for maintaining the authen
 The links of blog that were reffered -:
 
 
- - <a href="https://www.w3resource.com/cpp-exercises/string/index.php" target=_blank>w3resource</a>
- - <a href="https://www.codesdope.com/practice/cpp-string/" target=_blank>codesdope</a>
+ - [w3resource](https://www.w3resource.com/cpp-exercises/string/index.php)
+ - [codesdope](https://www.codesdope.com/practice/cpp-string/)
   
