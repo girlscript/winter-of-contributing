@@ -4,6 +4,7 @@
 - [Brute Force Algorithm](./Brute%20Force)
 - [Recursive Algorithm](./Recursive)
 - [Divide & Conquer Algorithm](./Divide%20%26%20Conquer)
+- [Euclid Algorithm](./Euclid%20Algorithm/Euclid_Algorithm.md)
 - [Greedy Algorithm](./Greedy)
 - [Dynamic Programming Algorithm](./Dynamic)
 - [Backtracking Algorithm](./Backtracking)
