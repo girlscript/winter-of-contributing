@@ -1,5 +1,6 @@
 # CSS Tooltips
 A tooltip is often used to specify extra information about something when the user moves the mouse pointer over an element:
+
 ```html
       <!DOCTYPE html>
       <html>
