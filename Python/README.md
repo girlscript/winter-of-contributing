@@ -44,7 +44,7 @@
 - [Yield Keyword](./Yield_Keyword)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
 - [Django Framework](./Django_Framework)
-- [Tkinter](./Tkinter)
+- [Basic_of_Tkinter](./Basic_of_Tkinter)
 
 
 ## Learning path
@@ -80,4 +80,4 @@
 29. Yield Keyword
 30. Dictionary Comprehension
 31. Django Framework
-32. Tkinter
+32. Basic of Tkinter
