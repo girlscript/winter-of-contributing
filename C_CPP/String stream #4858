@@ -1,0 +1,34 @@
+//String Stream  class in cpp is a class to operate on strings.
+//The String Stream class in cpp treats the String which is given as input as a Stream of words or characters.
+
+
+//By treating string as stream we can perform operations like manipulation etc.
+//It is absically used in parsing the input.
+ 
+//Example program
+
+#include <bits/stdc++.h>
+using namespace std;
+  
+int countWords(string str)
+{
+    //Used to declare string stream
+    stringstream s(str); 
+    //used to store the streams of string 
+    string word; 
+  
+    int count = 0;
+    while (s >> word)
+        count++;
+    return count;
+}
+  
+int main()
+{
+    string s = "open source contribution hepls you learn many new things";
+    cout << " Number of words are: " << countWords(s);
+    return 0;
+}
+
+//output
+//Number of words are 9
