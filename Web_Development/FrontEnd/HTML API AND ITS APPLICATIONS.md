@@ -84,7 +84,7 @@ function showPosition(position) {
 }
 ```
 
-### The `getCurrentPosition()` Method - Return Data
+## The `getCurrentPosition()` Method - Return Data
 The `getCurrentPosition()` method returns an object on success. The latitude, longitude and accuracy properties are always returned. The other properties are returned if available:
 
 | Property | Returns |
@@ -153,7 +153,7 @@ First of all: To make an element draggable, set the draggable attribute to true:
 ``` js
 <img draggable="true">
 ```
-## What to Drag - ondragstart and setData()
+## What to Drag - `ondragstart and setData()`
 Then, specify what should happen when the element is dragged.
 
 In the example above, the ondragstart attribute calls a function, `drag(event)`, that specifies what data to be dragged.
@@ -166,7 +166,7 @@ function drag(ev) {
 ```
 In this case, the data type is `text` and the value is the id of the draggable element (`drag1`).
 
-### Where to Drop - ondragover
+## Where to Drop - `ondragover`
 
 The ``ondragover`` event specifies where the dragged data can be dropped.
 
@@ -176,7 +176,7 @@ This is done by calling the ``event.preventDefault() method`` for the ondragover
 ```
 event.preventDefault()
 ```
-## Do the Drop - ondrop
+## Do the Drop - `ondrop`
 When the dragged data is dropped, a drop event occurs.
 
 In the example above, the ondrop attribute calls a function, `drop(event)`:
