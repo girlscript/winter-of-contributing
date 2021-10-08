@@ -1,5 +1,5 @@
-<h3>
-STATEMENT</h3><br>
+
+# STATEMENT<br>
 
 <p>SUDOKU is a maze of 9X9 grid,which is divided into 3X3 boxes.<br>
 There are some rules for the number maze problem that we have to follow.<br>
@@ -7,16 +7,16 @@ There are some rules for the number maze problem that we have to follow.<br>
 2. Each row and column of 9X9 should have the number once. <br>
 3. Each 3X3 box should have the number once.<br>
 </p>
-<h2>This is the code section.</h2><br>
-<h3>Header Files</h3>
+
+### Header Files
 
 #include<iostream><br>
 using namespace std;<br>
 #define N 9<br>
 
-<h3>Input for Sudoku</h3>
+### Input for Sudoku
    
-```<p>int grid[N][N] = {
+```int grid[N][N] = {
    {0, 0, 8, 0, 0, 5, 9, 0, 0}, 
    {4, 2, 9, 0, 6, 0, 1, 8, 0},
    {5, 0, 1, 0, 0, 8, 0, 7, 4},
@@ -28,11 +28,8 @@ using namespace std;<br>
    {0, 0, 0, 0, 0, 7, 4, 9, 6}
 };
 ```
-<br>
-</p><br>
 
-<br>
-   <b>Checking if the number is present in the same column.</b>
+**Checking if the number is present in the same column.**
    
 ```
 bool ispresentincol(int col, int num){ 
@@ -42,7 +39,7 @@ bool ispresentincol(int col, int num){
    return false;
 }
 ```
-<b>Checking if the number is present in the same row.</b>
+**Checking if the number is present in the same row.**
 ```
 bool ispresentinrow(int row, int num){ 
    for (int col = 0; col < N; col++)
@@ -51,7 +48,7 @@ bool ispresentinrow(int row, int num){
    return false;
 }
 ```
-<b>Checking if the number is present in the same 3x3 grid</b>
+**Checking if the number is present in the same 3x3 grid**
  ```
 bool ispresentingrid(int boxStartRow, int boxStartCol, int num){
    for (int row = 0; row < 3; row++)
@@ -61,7 +58,7 @@ bool ispresentingrid(int boxStartRow, int boxStartCol, int num){
    return false;
 }
 ```
-<b>Finding empty place in the sudoku.</b>
+**Finding empty place in the sudoku.**
 ```
 bool findemptyspace(int &row, int &col){
    for (row = 0; row < N; row++)
@@ -71,13 +68,13 @@ bool findemptyspace(int &row, int &col){
    return false;
 }
 ```
-<b>Number is not present in the samr row,column and 3x3 grid.</b>
+**Number is not present in the samr row,column and 3x3 grid.**
 ```
 bool isvalid(int row, int col, int num){
   return !ispresentinrow(row, num) && !ispresentincol(col, num) && !ispresentingrid(row - row%3 ,col - col%3, num);
 }
 ```
-<b>Solving the Sudoku</b>
+**Solving the Sudoku**
 ```
 bool solveSudoku(){
    int row, col;
@@ -94,7 +91,7 @@ bool solveSudoku(){
    return false;
 }
 ```
-<b>Printing the grid</b>
+**Printing the grid**
 ```
 void sudokuGrid(){ 
    for (int row = 0; row < N; row++){
@@ -113,7 +110,7 @@ void sudokuGrid(){
 }
 ```
 
-<b>Executing the program <\b>
+**Executing the program**
    ```
 int main()
    if (solveSudoku() == true;
@@ -122,7 +119,7 @@ int main()
       cout << "No Solution exists for this Sudoku;
 
 ```
-<h3> OUTPUT</h3>
+### OUTPUT
 
 3 7 8  4 1 5  9 6 2<br>
 4 2 9  7 6 3  1 8 5<br>
