@@ -90,7 +90,7 @@ In JavaScript, keys can be strings, numbers, or identifier names.
 
 Example:
 
-#### Javascript
+### Javascript
 
 ```js
 const person = {
@@ -145,13 +145,16 @@ Both JSON and XML can be used to receive data from a web server.
 ```xml
 <students>
   <student>
-    <firstName>Rahul</firstName> <lastName>Roy</lastName>
+    <firstName>Rahul</firstName>
+    <lastName>Roy</lastName>
   </student>
   <student>
-    <firstName>Raj</firstName> <lastName>Biswas</lastName>
+    <firstName>Raj</firstName>
+    <lastName>Biswas</lastName>
   </student>
   <student>
-    <firstName>Anjali</firstName> <lastName>Mathur</lastName>
+    <firstName>Anjali</firstName>
+    <lastName>Mathur</lastName>
   </student>
 </students>
 ```
@@ -187,7 +190,7 @@ Using JSON:
 - Fetch a JSON string
 - JSON.parse() the JSON string
 
-## JSON Data Types
+### JSON Data Types
 
 
 ### Valid Data Types
@@ -206,7 +209,7 @@ JSON values cannot be one of the following data types:
 - a date
 - undefined
 
-## JSON.parse()
+### JSON.parse()
 
 JSON is used to exchange data to/from a web server. When receiving data from a web server, the data is always a string. Parse the data with JSON.parse(), and the data becomes a JavaScript object.
 
@@ -232,7 +235,7 @@ const obj = JSON.parse({
                        });
 ```
 
-## JSON.stringify()
+### JSON.stringify()
 
 When sending data to a web server, the data has to be a string. Convert a JavaScript object into a string with JSON.stringify().
 
@@ -256,4 +259,160 @@ console.log(myJSON) // prints stringified object
 ```
 <br>
 
- __Contributor :__ [Aniket Pathak](https://github.com/aniketpathak028)
+
+
+### Delete Key-Value Pairs
+  To delete a key-value pair, you can use the delete operator.
+```javascript
+const data = {
+    "name":"John", 
+    "age":20,
+     "city":"Dubai"
+};
+
+console.log(data); 
+// Output: { name: 'John', age: 20, city: 'Dubai' }
+
+delete data.name; // Delete key-value pair
+
+console.log(data); 
+// Output: { age: 20, city: 'Dubai' }
+```
+
+### Arrays in JSON
+  JSON arrays are enclosed in square brackets `[]` and can contain any type of data.
+
+- Example
+```json
+{
+    "employees" : [
+        {
+            "name": "Bob",
+            "age": 35
+        },
+        {
+            "name": "Jack",
+            "age": 28
+        },
+        {
+            "name": "John",
+            "age": 31
+        }
+    ]
+}
+```
+
+#### Access array items from JSON
+Access array items from JSON using square brackets `[]` and index number.
+
+```javascript
+const jsonObject = {
+    "array" : ["India", "UK", "USA"]
+}
+
+console.log(jsonObject.array[0]); // Output: India
+console.log(jsonObject.array[1]); // Output: UK
+```
+
+### Looping through array items
+  To loop through array items, you can use `for` loop.
+```javascript
+const jsonObject ={
+    "name" : "Johan",
+    "age" : 46,
+    "skills": ["HTML", "CSS", "JavaScript"]
+}
+
+for (i in jsonObject.skills) {
+    let x = jsonObject.skills[i];
+    console.log(x);
+}
+
+// Output:
+// HTML
+// CSS
+// JavaScript
+```
+
+### Multidimensional Arrays in JSON
+```javascript
+const jsonObject ={
+    "name" : "Rohan",
+    "age" : 36,
+    "skills": [
+        [
+            "Javascript", "React"
+        ],
+        [
+            "Java", "Kotlin"
+        ]
+    ]
+}
+
+for (i in jsonObject.skills) {
+    for(j in jsonObject.skills[i]) {
+        let x = jsonObject.skills[i][j];
+        console.log(x);
+    }
+}
+
+// Output:
+Javascript
+React
+Java
+Kotlin
+```
+
+
+## JSON from Servers
+You can request JSON from the server by using an AJAX request
+
+As long as the response from the server is written in JSON format, you can parse the string into a JavaScript object.
+
+Suppose we have a  json_demo.txt as a JSON file and we want to fetch the data from this file into our project
+```json
+{
+    "name":"John",
+    "age":31,
+    "pets":[
+        { "animal":"dog", "name":"Fido" },
+        { "animal":"cat", "name":"Felix" },
+        { "animal":"hamster", "name":"Lightning" }
+    ]
+}
+
+```
+Now this data can be accessed in our project after the API request.
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Fetch a JSON file with XMLHttpRequest</h2>
+<p id="demo"></p>
+
+<script>
+const xmlhttp = new XMLHttpRequest();
+xmlhttp.onload = function() {
+  const myObj = JSON.parse(this.responseText);
+  //this line is used to change the content of the div which have have the id of "demo" by json data.
+  document.getElementById("demo").innerHTML = myObj.name;
+}
+xmlhttp.open("GET", "json_demo.txt");
+xmlhttp.send();
+</script>
+
+</body>
+</html>
+
+
+```
+
+<br>
+
+ #### Contributed by 
+ [Aniket Pathak](https://github.com/aniketpathak028)
+ <br>
+ [Rwitesh Bera](https://github.com/rwiteshbera)
+ <br>
+ [Surbhi Sinha](https://github.com/Surbhi-sinha)
