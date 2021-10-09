@@ -28,8 +28,7 @@ So, how many times do you need to type those HEX values? A LOT of times. And wha
 
 Instead of typing the above values a lot of times, you can use Sass and write this:
 
-```html
-<style>
+```scss
   /* define variables for the primary colors */
   $primary_1: #a2b9bc;
   $primary_2: #b2ad7f;
@@ -47,7 +46,7 @@ Instead of typing the above values a lot of times, you can use Sass and write th
   .menu-right {
     background-color: $primary_3;
   }
-</style>
+
 ```
 
 # How Does Sass Work?
@@ -85,8 +84,7 @@ Sass supports standard CSS comments /* comment */, and in addition it supports i
 Example
 
 
-```html
-<style>
+```scss
   /* define primary colors */
   $primary_1: #a2b9bc;
   $primary_2: #b2ad7f;
@@ -95,7 +93,6 @@ Example
   .main-header {
     background-color: $primary_1; // here you can put an inline comment
   }
-</style>
 ```
 
 # Variables
@@ -105,10 +102,8 @@ Example
 
 > Sass Variable Syntax:
 
-```html
-<style>
+```scss
   $variablename: value;
-</style>
   
 ```
 
@@ -117,8 +112,7 @@ Example
 
 > SCSS
 
-```html
-<style>
+```scss
 $myFont: Helvetica, sans-serif;
 $myColor: red;
 $myFontSize: 18px;
@@ -133,7 +127,6 @@ body {
 #container {
   width: $myWidth;
 }
-</style>
 ```
 
 > CSS
@@ -159,8 +152,7 @@ Example:
  
 > SCSS
 
-```html
-<style>
+```scss
     $myColor: red;
 
   h1 {
@@ -171,7 +163,7 @@ Example:
   p {
     color: $myColor;
   }
-</style>
+
 ```
 
 > CSS
@@ -197,8 +189,7 @@ Example:
 
 > SCSS
 
-```html
-<style>
+```scss
     $myColor: red;
 
   h1 {
@@ -209,7 +200,7 @@ Example:
   p {
     color: $myColor;
   }
-</style>
+
 ```
 
 
@@ -238,8 +229,7 @@ With that in mind, here's an example of some typical styles for a site's navigat
 
 > SCSS
 
-```html
-<style>
+```scss
   nav {
     ul {
       margin: 0;
@@ -255,7 +245,6 @@ With that in mind, here's an example of some typical styles for a site's navigat
       text-decoration: none;
     }
   }
-</style>
 
 ```
 
