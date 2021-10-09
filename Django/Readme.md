@@ -1,7 +1,7 @@
 # Django
 ## The web framework for perfectionists with deadlines.
 
-Django is a web framework based on python programming language, which allows developers to build website. Here why you should use djang:-
+Django is a web framework based on python programming language, which allows developers to build website. Here why you should use django:-
 
 - it is fast
 - it's scalable
