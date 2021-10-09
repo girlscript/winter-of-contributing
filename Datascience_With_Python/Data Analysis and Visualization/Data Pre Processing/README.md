@@ -20,18 +20,15 @@ This tutorial will help understand how to pre process data and improve performan
 
 ## **Visual Representation**
 
-![]()
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Data%20Pre%20Processing/Images/dpp1.jpg)
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Data%20Pre%20Processing/Images/dpp2.jpg)
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Data%20Pre%20Processing/Images/dpp3.jpg)
+![](https://github.com/ayushi424/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization/Data%20Pre%20Processing/Images/dpp4.jpg)
 
 
 
 ## **Libraries used**
 - pandas
-
-
-## **Usage**
-
-
-
 
 
 ## **Conclusion**
