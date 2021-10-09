@@ -72,10 +72,10 @@ Output: Contributing of Winter GirlScript
     Input: GirlScript Winter of Contributing
 
     a. The program first reversed each word of the string
-         tpircslriG retniW fo gnitubirtnoC
+         tpircSlriG retniW fo gnitubirtnoC
 
     b. Then it reversed the whole text
-         Contributing of Winter Girlscript
+         Contributing of Winter GirlScript
 
 ```
 
