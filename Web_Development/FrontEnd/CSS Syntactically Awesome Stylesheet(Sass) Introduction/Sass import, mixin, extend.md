@@ -226,3 +226,93 @@ Then, you only need to specify the values that change when you include the mixin
     }
 </style>
 ```
+
+# Extend/Inheritance
+Using @extend lets you share a set of CSS properties from one selector to another. In our example we're going to create a simple series of messaging for errors, warnings and successes using another feature which goes hand in hand with extend, placeholder classes. A placeholder class is a special type of class that only prints when it is extended, and can help keep your compiled CSS neat and clean.
+
+
+> SCSS SYNTAX
+
+```scss
+    /* This CSS will print because %message-shared is extended. */
+    %message-shared {
+      border: 1px solid #ccc;
+      padding: 10px;
+      color: #333;
+    }
+
+    // This CSS won't print because %equal-heights is never extended.
+    %equal-heights {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .message {
+      @extend %message-shared;
+    }
+
+    .success {
+      @extend %message-shared;
+      border-color: green;
+    }
+
+    .error {
+      @extend %message-shared;
+      border-color: red;
+    }
+
+    .warning {
+      @extend %message-shared;
+      border-color: yellow;
+    }
+```
+
+What the above code does is tells .message, .success, .error, and .warning to behave just like %message-shared. That means anywhere that %message-shared shows up, .message, .success, .error, & .warning will too. The magic happens in the generated CSS, where each of these classes will get the same CSS properties as %message-shared. This helps you avoid having to write multiple class names on HTML elements.
+
+You can extend most simple CSS selectors in addition to placeholder classes in Sass, but using placeholders is the easiest way to make sure you aren't extending a class that's nested elsewhere in your styles, which can result in unintended selectors in your CSS.
+
+Note that the CSS in %equal-heights isn't generated, because %equal-heights is never extended.
+
+
+# Operators
+
+Doing math in your CSS is very helpful. Sass has a handful of standard math operators like +, -, *, math.div(), and %. In our example we're going to do some simple math to calculate widths for an article and aside.
+
+> SCSS
+
+```scss
+    @use "sass:math";
+
+    .container {
+      display: flex;
+    }
+
+    article[role="main"] {
+      width: math.div(600px, 960px) * 100%;
+    }
+
+    aside[role="complementary"] {
+      width: math.div(300px, 960px) * 100%;
+      margin-left: auto;
+    }
+ ```
+ 
+ > CSS output
+
+```html
+<style>
+    .container {
+      display: flex;
+    }
+
+    article[role="main"] {
+      width: 62.5%;
+    }
+
+    aside[role="complementary"] {
+      width: 31.25%;
+      margin-left: auto;
+    }
+</style>
+
+```
