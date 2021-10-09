@@ -1,4 +1,7 @@
- ## Print numbers till n in increasing and decreasing order
+# Basic Recursion Questions (Part II)
+ 
+## Print numbers till n in increasing and decreasing order
+
 
  ```CPP
 
