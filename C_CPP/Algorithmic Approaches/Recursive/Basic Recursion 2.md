@@ -1,5 +1,4 @@
-
- ## (6) Print numbers till n in increasing and decreasing order
+ ## Print numbers till n in increasing and decreasing order
 
  ```CPP
 
