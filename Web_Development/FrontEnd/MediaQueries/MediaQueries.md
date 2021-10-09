@@ -15,7 +15,8 @@ We can create a website for users using different devices (desktops, laptops, ta
 
 A media query is made up of two parts: media type and size. Media query could have more than one sizes. It is not required to use type for screens.
 
-### Syntax
+### Syntax 
+
 #### For Desktop and Bigger Screens 
 ```css
 @media(min-width:1281px){
@@ -40,14 +41,32 @@ A media query is made up of two parts: media type and size. Media query could ha
     //CSS here
 }
 ```
-#### For  Mobile Screens 
+#### For Mobile Screens 
 ```css
 @media(min-width:481px) and (max-width:767px){
     //CSS here
 }
 ```
+### For print media type
+```css
+@media print{
+   //CSS here
+}
+```
+### For speech media type
+```css
+@media speech{
+   //CSS here
+}
+```
+### For all media type
+```css
+@media all{
+   //CSS here
+}
+```
 
-## EXAMPLE OF MEDIA QUERIES
+## EXAMPLE OF SCREEN TYPE MEDIA QUERY
 ```html
 <!DOCTYPE html>
 <html>
