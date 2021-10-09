@@ -98,3 +98,20 @@ if(i>0 && i<len){
 //if the user wants to delete the node which is not valid, in that case do not do anything just return the head
 return head;
 }
+
+
+int main(){
+    int i;
+    cout<<"enter data to the list"<<endl;
+node*head=takeinput();//calling take input function
+print(head);//printing linked list
+cout<<endl<<"length of the Linked list is : "<<length(head);//calling length function
+cout<<endl<<"enter the node to be deleted : ";cin>>i;
+head=deleteithnode(head,i-1);//calling delete function
+cout<<endl<<"new list after deleting the "<<i<<"th node :-"<<endl;
+print(head);
+
+
+
+
+}
