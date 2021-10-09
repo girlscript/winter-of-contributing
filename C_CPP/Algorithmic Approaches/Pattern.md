@@ -122,9 +122,7 @@ if(j>=5-i&&j<=3+i)
         printf("\n");
   }
 }
- 
- ```
- ---
+```
  --- 
 ## 📌STAR PATTERNS📄
 * ### Pattern 1:
@@ -158,15 +156,10 @@ void main()
     {
      for(j=1;j<=11;j++)
         if(j>=7-i&&j<=5+i)
-
-
         printf("*");
-
-
         else
         printf(" ");
         printf("\n");
-
 }
 }
 ```
@@ -213,7 +206,6 @@ else
    printf("\n"); 
  }
 }
-
 ```
 ---
 * ### Pattern 5:
