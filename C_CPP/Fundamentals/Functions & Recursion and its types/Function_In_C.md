@@ -2,7 +2,7 @@
 
 ## Every program in C or any programming language contains one function which is a must i.e main() function! :)
 
-### What is a Function?
+## What is a Function?
 **_Function_** is basically **a block of statements** which are **combined together to perform a task** which **user wants to work upon** and can be executed whenever need it.
   
 **Syntax**:
