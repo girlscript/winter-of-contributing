@@ -96,10 +96,11 @@ So let’s analyse two methods that we used in the enum using an example.
 enum Space {
 	STAR, PLANET, MOON, COMET, ASTEROIDS, DWARF_PLANETS
 }
+
 public class Universe {
 	public static void main(String[] args) {
-for (Space s : Space.values())
-System.out.println(s);
+	for (Space s : Space.values())
+		System.out.println(s);
 	}
 }
 ```
