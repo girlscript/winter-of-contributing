@@ -8,10 +8,10 @@ As array in c++ is used to store a similar type of data, structure can be used w
 **For example,** we need to record the details of students/staff members in our school/institue, this can be done at ease using a structure. We can create different variables such as name, Id, fees/ salary,etc. as required.
 
 All this above information can be stored under a single name i.e. **"structure name"** let 
-here be ```students```.
+here be "students".
 
 ##Defining a structure:
-To define a structure, use the keyword ```struct``` followed by an identifier(name of structure).
+To define a structure, use the keyword "struct" followed by an identifier(name of structure).
 Then inside curly braces you can define more than one, different members.
 **For example,**
 ```struct students
