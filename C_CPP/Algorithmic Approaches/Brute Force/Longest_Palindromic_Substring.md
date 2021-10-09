@@ -1,9 +1,9 @@
-# **Longest Palidromic Substring Using Brute Force Approach**
+# Longest Palidromic Substring Using Brute Force Approach
 # Brute Force
 - A Brute Force Algorithm is a straight-forward approach to a problem i.e the first method or algorithm which come in our mind to solve a particular problem. In this we try every possibility rather than going for advance techniques to improve efficiency.
 # Longest Palindromic Substring
-Task: Given a string, find the longest substring which is palindrome.<br>
-The simple/brute force approach will be to check for each substring whether the substring is a palindrome or not. To do this, we will run three loops, the outer two loops will pick up each substring one by one by modifying its start and end index (here i and j), the inner loop will check whether the selected substring is a palindrome or not. If yes and also the length of that substring is greater than the previous then we will update the values of start_index and length.<br>
+Task: Given a string, find the longest substring which is palindrome.<br><br>
+Approach: The simple/brute force approach will be to check for each substring whether the substring is a palindrome or not. To do this, we will run three loops, the outer two loops will pick up each substring one by one by modifying its start and end index (here i and j), the inner loop will check whether the selected substring is a palindrome or not. If yes and also the length of that substring is greater than the previous then we will update the values of start_index and length.<br>
 After coming out of all loops we will print the longest substring via using start index and length and then we will return length of the longest substring.
 
 # Code of Longest Palindromic Substring in C++
