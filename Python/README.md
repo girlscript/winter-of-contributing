@@ -41,9 +41,11 @@
 - [How_to_install_python](./How_to_install_python)
 - [Python File I/O](./Python_File_IO)
 - [Python Strings](./Python_Strings)
+- [Recursion in Python](./Recursion_in_Python)
 - [Yield Keyword](./Yield_Keyword)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
 - [Django Framework](./Django_Framework)
+- [Regular expressions in Python](./Regex)
 
 
 ## Learning path
@@ -76,6 +78,8 @@
 26. Web_Scraping
 27. Python File I/O
 28. Python Strings
-29. Yield Keyword
-30. Dictionary Comprehension
-31. Django Framework
+29. Recursion in Python
+30. Yield Keyword
+31. Dictionary Comprehension
+32. Django Framework
+33. Regular expressions in Python
