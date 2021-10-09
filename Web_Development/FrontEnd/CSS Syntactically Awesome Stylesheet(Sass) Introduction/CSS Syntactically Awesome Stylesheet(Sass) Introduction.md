@@ -71,7 +71,7 @@ Read more about Sass at the official Sass web site: https://sass-lang.com/
 
 * There are several ways to install Sass in your system. There are many applications that will get you up and running with Sass in a few minutes for Mac, Windows, and Linux. Some of these are free, but some are paid apps.
 
-* You can read more about them here: sass-lang.com/install
+* You can read more about them here: https://sass-lang.com/install
 
 
 ### Sass File Type
