@@ -7,19 +7,19 @@
 ## 1) Components (Week-1) 
 - [x] Creating a component using the Angular CLI 
 - [x] Creating a component manually 
-- [ ] Component LifeCycle 
+- [x] Component LifeCycle 
 - [x] Component Interaction 
 - [x] Sharing Data between parent and child directives and components(@Input 
 , @Output , Event Emitter) 
 - [x] Dynamic Components 
  
 ## 2) Templates (Week-2) 
-- [ ] Interpolation 
-- [ ] Template Statements 
-- [ ] Pipes 
-- [ ] Property Binding 
-- [ ] Event Binding 
-- [ ] Two Way Data Binding 
+- [x] Interpolation 
+- [x] Template Statements 
+- [x] Pipes 
+- [x] Property Binding 
+- [x] Event Binding 
+- [x] Two Way Data Binding 
  
 3) Directives (Week-3) 
 - [ ]  Built in Directives 
@@ -28,6 +28,8 @@
  
 4) Dependency Injection (Week-4) 
 - [ ] Injecting Services 
+- [ ] Dependency Injection tokens and Providers
+- [ ] Dependency Injection in Actions
  
 5) Routing and Navigation (Week-5) 
 - [ ] How to generate an application with routing enabled? 
