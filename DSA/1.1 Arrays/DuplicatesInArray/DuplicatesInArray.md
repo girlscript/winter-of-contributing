@@ -94,3 +94,8 @@ So, time taken to find the entrance of loop is also O(m).
 Total time complexity is O(n)+O(m)+O(m) = O(n+2m) = O(n) [because n>=m]
 
 In this way, we could use Floyd's Cycle Detection algorithm to findout a duplicate element in an array of size n+1 containing elements in the range of [1,n].
+
+### References
+[Geeks for Geeks](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)\
+[Stack Overflow](https://stackoverflow.com/questions/47193225/runtime-complexity-of-floyds-cycle-detection)
+
