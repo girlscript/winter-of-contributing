@@ -1,3 +1,7 @@
+# Evaluation Metrics
+
+Evaluating a machine learning algorithm is an essential part of any project. A model may give satisfying results when evaluated using a metric say accuracy_score but may give poor results when evaluated against other metrics such as r-squared, mean squared error or any other such metric. Most of the times we use classification accuracy to measure the performance of our model, however it is not enough to truly judge our model. 
+
 ## Link for the Video:
 
 [![Picture1](https://user-images.githubusercontent.com/62233992/136450703-cd4730d7-5625-4806-9286-1829910eb5ca.png)](https://youtu.be/1LLpFmGaAgo)
