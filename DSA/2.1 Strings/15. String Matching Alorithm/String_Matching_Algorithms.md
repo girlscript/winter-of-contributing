@@ -27,3 +27,22 @@ If i>j, then T [i.....j] is equal to the empty string or null, which has length 
 4. Spelling Checker
 
 5. Search engines or content search in large databases
+
+
+Exact string matching algorithms is to find one, several, or all occurrences of a defined string (pattern) in a large string (text or sequences) such that each matching is perfect. All alphabets of patterns must be matched to corresponding matched subsequence. These are further classified into four categories:
+
+1. Algorithms based on character comparison:
+
+  Naive Algorithm: It slides the pattern over text one by one and check for a match. If a match is found, then slides by 1 again to check for subsequent matches. KMP (Knuth Morris Pratt) Algorithm: The idea is whenever a mismatch is detected, we already know some of the characters in the text of the next window. So, we take advantage of this information to avoid matching the characters that we know will anyway match.
+
+  Boyer Moore Algorithm: This algorithm uses best heurestics of Naive and KMP algorithm and starts matching from the last character of the pattern. Using the Trie data structure: It is used as an efficient information retrieval data structure. It stores the keys in form of a balanced BST.
+  
+2. Deterministic Finite Automaton (DFA) method:
+
+  Automaton Matcher Algorithm: It starts from the first state of the automata and the first character of the text. At every step, it considers next character of text, and look for the next state in the built finite automata and move to a new state.
+  
+3. Algorithms based on Bit (parallelism method):
+  Aho-Corasick Algorithm: It finds all words in O(n + m + z) time where n is the length of text and m be the total number characters in all words and z is total number of occurrences of words in text. This algorithm forms the basis of the original Unix command fgrep.
+
+4. Hashing-string matching algorithms:
+  Rabin Karp Algorithm: It matches the hash value of the pattern with the hash value of current substring of text, and if the hash values match then only it starts matching individual characters.
