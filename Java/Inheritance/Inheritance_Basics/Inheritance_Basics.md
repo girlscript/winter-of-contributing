@@ -7,7 +7,7 @@
 **2.** With the help of inheritance `Method overriding` can be achieved(we can implement specific method in subclass that already exists in superclass). It's also known as runtime polymorphism.
 
 # Terminology of Inheritance-
-**Class:** A class is a user defined template or blueprint from which objects are created. It's a _group of objects_ which have common properties.
+**Class:** A class is a user defined template or blueprint from which _group of objects_ are created, having common properties.
 
 **Super Class/Parent Class:** Superclass is a _base class or a parent class_. It's the class from where a subclass inherits the features.
 
@@ -16,6 +16,9 @@
 **Reusability:** Inheritance supports the concept of “code reusability”, i.e. when we want to create a new class and if there is already a class that includes some of the code that we want, we can derive that code to new class from the existing class. By doing this, we are reusing the fields and methods of the existing class.
 
 # Syntax of Java Inheritance-
+
+The `extends` keyword indicates that child class have inherited or acquires the properties from an existing class.
+
 ```Java
 class A 
 {  
@@ -26,24 +29,44 @@ class B extends A
    //methods and fields
 }
 ```
-The `extends` keyword indicates that child class have inherited or acquires the properties from an existing class. 
+The `implements` keyword helps in implementing interface from an existing class to child class.
 
 ```Java
-class Student{  
-String marks="excellent";  
-}  
-class Boy extends Student{  
-String marks="outstanding";  
-void printmarks(){  
-System.out.println(marks);//prints marks of Boy class  
-System.out.println(super.marks);//prints marks of Student class  
-}  
-}  
-class TestSuper1{  
-public static void main(String args[]){  
-Boy b=new Boy();  
-b.printmarks();  
+interface A {
+    public void methodOne();
 }
+interface B {          // Second interface is defined
+    public void methodTwo();
+}
+class Three implements One, Two {       // Implementation of two interfaces
+    public void methodOne()
+    {
+        // Implementation of the method
+    }
+    public void methodTwo()
+    {
+       // Implementation of the method
+    }
+}
+```
+The `super` keyword is used to differentiate the members of superclass from the members of subclass, if they have the same names or member functions. It is used to invoke the superclass constructor from subclass.
+
+```Java
+class Student{
+    String marks="excellent";  
+}  
+class Boy extends Student{
+    String marks="outstanding";
+    void printmarks(){
+        System.out.println(marks);//prints marks of Boy class
+        System.out.println(super.marks);//prints marks of Student class
+        }
+}  
+class TestSuper1{
+    public static void main(String args[]){
+        Boy b=new Boy();
+        b.printmarks();
+    }
 }  
 ```
 ```Java
@@ -51,8 +74,6 @@ Output
 outstanding
 excellent
 ```
-
-The `super` keyword is used to differentiate the members of superclass from the members of subclass, if they have the same names or member functions. It is used to invoke the superclass constructor from subclass.
 
 # Types of Inheritance-
 
