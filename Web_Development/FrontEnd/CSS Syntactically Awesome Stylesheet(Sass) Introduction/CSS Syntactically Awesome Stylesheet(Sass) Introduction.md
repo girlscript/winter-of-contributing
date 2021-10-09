@@ -56,6 +56,25 @@ Instead of typing the above values a lot of times, you can use Sass and write th
 
 * This process is called transpiling. So, you need to give a transpiler (some kind of program) some Sass code and then get some CSS code back.
 
+# Sass Installation
+
+### System Requirements for Sass
+
+* Operating system - Sass is platform independent
+* Browser support - Sass works in Edge/IE (from IE 8), Firefox, Chrome, Safari, Opera
+* Programming language - Sass is based on Ruby
+
+### Official Sass Web Site
+
+Read more about Sass at the official Sass web site: https://sass-lang.com/
+
+### Install Sass
+
+* There are several ways to install Sass in your system. There are many applications that will get you up and running with Sass in a few minutes for Mac, Windows, and Linux. Some of these are free, but some are paid apps.
+
+* You can read more about them here: sass-lang.com/install
+
+
 ### Sass File Type
 
 Sass files has the ".scss" file extension.
@@ -94,6 +113,7 @@ Example
 ```
 
 ### Example
+
 
 > SCSS
 
@@ -205,4 +225,57 @@ Example:
     color: green;
   }
   </style>
+```
+
+# Nesting
+
+* When writing HTML you've probably noticed that it has a clear nested and visual hierarchy. CSS, on the other hand, doesn't.
+
+* Sass will let you nest your CSS selectors in a way that follows the same visual hierarchy of your HTML. Be aware that overly nested rules will result in over-qualified CSS that could prove hard to maintain and is generally considered bad practice.
+
+With that in mind, here's an example of some typical styles for a site's navigation:
+
+
+> SCSS
+
+```html
+<style>
+  nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    li { display: inline-block; }
+
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+</style>
+
+```
+
+> CSS
+
+```html
+  <style>
+    nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+</style>
+
 ```
