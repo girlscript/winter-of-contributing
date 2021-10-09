@@ -243,6 +243,7 @@
 - [M.12 Deploying projects to Heroku](Miscellaneous/M.12_Deploying_to_heroku.md)
 
 - [M.13 Customise Django-admin interface with Jet](Miscellaneous/M.13_Customise_Django_admin_with_Jet.md)
+- [M.14 What is web hosting and how to host websites](Miscellaneous/M.14_Web_Hosting.md)
 
 <hr>
 
