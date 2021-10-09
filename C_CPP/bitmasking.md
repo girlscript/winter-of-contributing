@@ -1,9 +1,11 @@
-What is Bitmask?
+## What is Bitmask?
+  
    There are various types of bitwise operator in C++ i.e. 
-   Bitwise And - symbol is &&
-   Bitwise Or  - symbol is ||
-   Bitwise Not - symbol is !
-   Bitwise XOR - symbol is ^
+   1. Bitwise And (`&&`) 
+   2. Bitwise Or  (`||`) 
+   3. Bitwise Not (`!`) 
+   4. Bitwise XOR (`^`)
+
 Note : Time complexity of bitwise operators is O(n) and space complexity is O(1) which means it allows to work in linear time without using any extra spaces.
 
 Note : The numbering of bits is done from right  to left starting from index 0,1,2 and so on. 
