@@ -5,7 +5,7 @@ The Prefix Sum Array of a given array is another array whose element at any loca
 
 For Example- PreSumArray[i]=Array[0]+Array[1]+...+Array[i-1]+Array[i]
 
-```
+```cpp
 Input: n=5 Array={5,12,13,25,10}
 
 Output: PreSumArray={5,17,30,55,65}
