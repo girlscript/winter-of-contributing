@@ -1,38 +1,29 @@
-
- To find the intersection point of two linked lists:
-```c
-* Intialize two variables l1 and l2 with length   of respective linked lists head1 and head2.
-
-* Now get the absolute difference of linked lists lengths and assign pointer1 (p1) with bigger linked list's head node 
+# Intersection Point Of Two Linked-lists 
+### To find the intersection point of two linked lists:
+- Intialize two variables l1 and l2 with length   of respective linked lists head1 and head2.
+- Now get the absolute difference of linked lists lengths and assign pointer1 (p1) with bigger linked list's head node 
   and pointer2 (p2) with smaller linked list's head node.
-
-* Now traverse p1 till the difference value so that intersection point is at same distance from both pointers.
-
-* Now traverse both the pointers simultaneously and check if p1 meets p2(p1==p2)
-
-* If condition matches return that node data/value.
-
-* Else no intersection point -- Return -1
- ```
+- Now traverse p1 till the difference value so that intersection point is at same distance from both pointers.
+- Now traverse both the pointers simultaneously and check if p1 meets p2(p1==p2)
+- If condition matches return that node data/value.
+- Else no intersection point -- Return -1
 
 
-```c
-The input is as follows:
- * line1: no of nodes in the first linked list
- * line2: enter first linked list elements
- * line3: no of nodes in the second linked list
- * line4: enter second linked list elements
- * line5: no of nodes in common linked list
- * line6: enter common linked list elements
-```
-```c
-The output is as follows:
- * line1: First Linked list after intersection
- * line2: Second Linked list after intersection
- * line3: The intersection point
-```
+### The input is as follows:
+- line1: no of nodes in the first linked list
+- line2: enter first linked list elements
+- line3: no of nodes in the second linked list
+- line4: enter second linked list elements
+- line5: no of nodes in common linked list
+- line6: enter common linked list elements
 
-Code:
+### The output is as follows:
+- line1: First Linked list after intersection
+- line2: Second Linked list after intersection
+- line3: The intersection point
+
+
+## Code:
 ```c
 #include <bits/stdc++.h>
 using namespace std;
@@ -169,7 +160,7 @@ int main()
 ```
 
 
-Test cases:
+#### Test cases:
 ```c
 Sample Input 1;
 1
@@ -179,8 +170,6 @@ Sample Input 1;
 3
 4 5 6
 Sample Output 1:
-Intersecting the lists
-*****************************
 linked list 1: 1 4 5 6 
 linked list 2: 2 3 4 5 6 
 Intersection point: 4
@@ -193,15 +182,13 @@ Sample Input 2:
 3
 15 4 19
 Sample Output 2:
-Intersecting the lists
-*****************************
 linked list 1: 9 8 7 15 4 19 
 linked list 2: 2 3 6 5 15 4 19 
 Intersection point: 15
 ```
 
 
-Complexities:
+#### Complexities:
 ```c
 Time Complexity: O(N+M)
 Auxiliary Space: O(1)
