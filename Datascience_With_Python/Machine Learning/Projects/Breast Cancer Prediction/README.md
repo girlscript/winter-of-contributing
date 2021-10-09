@@ -1,6 +1,13 @@
 # ML Breast Cancer Prediction
 Its an Machine Learning Model for Breast Cancer Prediction.
 <br/>
+# Purpose:
+Purpose of this project is
+1. Study about Malignant and Benign Cancer.
+2. Study about Exploratory Data Analysis.
+3. Study about different Machine Learning models and comparing them.<br/>
+
+# Description:
 Created a Machine Learning Model to predict the Breast Cancer by analyzing the factors and variables given in the Dataset.<br/>
 Compared 4 Machine Learning models predictions by creating a dataframe and entering the accuracy score and the respective machine learning model.
 <br/><br/>
@@ -9,6 +16,19 @@ Plot I: This is the Countplot defining the counts of Malignant cancer and Benign
 <br/><br/><br/>
 ![Screenshot (136)](https://user-images.githubusercontent.com/63190833/116794132-6f37e200-aae8-11eb-8f62-a77eb64f602c.png)
 Plot II: This is the Heatmap defining the correlations between different variables/factors given in the Dataset. 
+
+# Features
+Features of this project is as follows:
+1. Coincise Code with Explaination of each line
+2. Additional knowledge through code comments
+3. Explaination of each line
+4. Basic graphs (Countplot and Heatmap)
+5. 4 different Machine Learning models in same project
+
+# Reason for choosing this project:
+There are some of the reasons for choosing this project:
+1. Cancer is topic worth study as it is one of the most common disease around the globe
+2. Study of different models in same project
 
 ---
 # 1. Importing Libraries
