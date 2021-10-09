@@ -47,7 +47,8 @@ int main()
 
  5 4 3 2 1
 
- ## (7) Move all x to the end of the string
+ ## Move all x to the end of the string
+
 
  ```CPP
  
