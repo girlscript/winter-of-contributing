@@ -35,3 +35,5 @@
   - ### [Suffix Tree](#)
 
 - ## [Pairs](./Pair)
+
+- ## [Number_Theory](./Number_Theory)
