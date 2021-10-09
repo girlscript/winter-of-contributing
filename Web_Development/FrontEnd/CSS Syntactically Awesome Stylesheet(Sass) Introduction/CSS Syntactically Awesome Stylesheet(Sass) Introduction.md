@@ -77,3 +77,18 @@ Example
     background-color: $primary_1; // here you can put an inline comment
   }
 </style>
+```
+
+# Variables
+
+* Variables are a way to store information that you can re-use later.
+* Sass uses the $ symbol, followed by a name, to declare variables:
+
+> Sass Variable Syntax:
+
+```html
+<style>
+  $variablename: value;
+</style>
+  
+```
