@@ -1,4 +1,4 @@
- ### * Recursive Function for 3 disks problem
+* ### Recursive Function for 3 disks problem
   ---
 ```
 void TOH (int n, int A, int B, int c)     //function is created
