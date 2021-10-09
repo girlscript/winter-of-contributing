@@ -9,8 +9,9 @@ Step 2. Create another array size[] of size n+1 which is initialized with 1 , wh
 
 Step 3. We will create function Union(a,b) , which will take two arguments a and b . By this function we will connect a and b by making parent a student of other student .
 
- &nbsp;&nbsp;&nbsp;case 1 &nbsp;   if size[a]<=size[b] , parent[a]=b.
- 
+ &nbsp;&nbsp;&nbsp;case 1 &nbsp;  if size[a]<=size[b]  
+ parent[a]=b. and hence we have made the b as parent of a that's why the size of a update to zero and size of b update to (size of a + size of b).
+    
  &nbsp;&nbsp;&nbsp;case 2  &nbsp;if size[a]>size[b] , parent[b]=a.
  
 Step 4. We will create another function Find(a,b) , which will take two arguments a and b . By this function we came to know  whether the a and b belongs to same group or not. 
