@@ -25,6 +25,12 @@ The high value of R-square determines the less difference between the predicted 
 
 ![image](https://user-images.githubusercontent.com/62233992/136452797-12b59735-fd88-4571-87c8-d87f25bfdb0e.png)
 
+### Advantages
+
+* It is recommended to use R-Squared or rather adjusted R-Squared for evaluating the model performance of the regression models.
+* This is primarily because R-Squared captures the fraction of response variance captured by the regression and tend to give better picture of quality of regression model.
+* The goodness of fit of regression models can be analyzed perfectly on the basis of R-square method. The more the value of r-square near to 1, the better is the model. The value of R-square can also be negative when the models fitted is worse than the average fitted model.
+
 ### Key Limitations of R-squared
 
 * R-squared cannot determine whether the coefficient estimates, and predictions are biased, which is why you must assess the residual plots.
@@ -50,6 +56,19 @@ The MSE is the second moment of the error (about the origin) and thus incorporat
 ### Graphical Representation of MSE
 
 ![image](https://user-images.githubusercontent.com/62233992/136453062-672c9b20-64fd-4174-84d5-ebb3cfed0343.png)
+
+### Advantages
+
+* Sensitive to outliers, punishes larger error more not like the r-squared which is not sensitive to outliers.
+* MSE values takes care of the fact related to whether the values of the response vairable is scaled or not, unlike the r-squared.
+* MSE is a good choice for a Cost function when we are doing Linear Regression (i.e fitting a line through data for extrapolation).
+
+### Key Limitaions
+
+* In the absence of any knowledge of how the data is distributed assuming normal/gaussian distribution mse becomes useless.
+* MSE function is non-convex for binary classification. Thus, if a binary classification model is trained with MSE Cost function, it is not guaranteed to minimize the Cost function.
+* A better measure is root mean squared error (RMSE) which takes even more care of the values of the response variable is scaled or not.
+
 
 ### Conclusion
 
