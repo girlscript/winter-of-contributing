@@ -42,8 +42,11 @@ int main()
  ```
  - In this question We will print numbers in increasing and decreasing order, We have taken n as input. Suppose n=5 so the finally output will be 1 2 3 4 5 for increasing order and 5 4 3 2 1 for decreasing order.
 
+#### Output
+
  ```CPP
  5
+
 
  1 2 3 4 5
 
