@@ -39,7 +39,7 @@ class AvlTreeNode
 // of two integers
 int max(int a, int b);
  
-// A utility function to get the
+// A  function to get the
 // height of the tree
 int height(AvlTreeNode *N)
 {
