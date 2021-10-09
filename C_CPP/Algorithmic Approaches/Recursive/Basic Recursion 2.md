@@ -42,11 +42,12 @@ int main()
  ```
  - In this question We will print numbers in increasing and decreasing order, We have taken n as input. Suppose n=5 so the finally output will be 1 2 3 4 5 for increasing order and 5 4 3 2 1 for decreasing order.
 
-#### Output
+#### Input
 
  ```CPP
  5
-
+```
+```CPP
 
  1 2 3 4 5
 
@@ -81,9 +82,13 @@ int main(){
     return(0);
 }
 ```
+
+#### INPUT
 ```CPP
 abscdXXXXedddiddaaaXXXXXXXddd
-
+```
+#### OUTPUT
+```CPP
 absdaedddiddaaadddXXXXXXXXXXX
 ```
 
@@ -116,9 +121,13 @@ int main()
     return(0);
 }
 ```
+#### INPUT
 ```CPP
 pippxxppiixipi
+```
 
+#### OUTPUT
+```CPP
 3.14ppxxp3.14ixi3.14
 ```
 
@@ -158,8 +167,14 @@ int main()
 
 - In this question we will take x and y as input.suppose x=2 and y=5, So the final output will be 32.
 ```CPP
-2 5
 
+#### INPUT
+```CPP
+2 5
+```
+#### OUTPUT
+
+```CPP
 32
 ```
 
@@ -194,8 +209,13 @@ int main()
 - In this question we will remove all duplicate characters from the string.
 ```CPP
 
+#### INPUT
+```CPP
 aaabbccddeeeaaff
+```
 
+#### OUTPUT
+```CPP
 abcdeaf
 ```
 ## Reverse a string using Recursion
@@ -227,10 +247,14 @@ int main()
 ```
 
 - In this question we will reverse a string. We have given Akrati as input so we will get itarkA as output.
+#### INPUT
 
 ```CPP
 Akrati
+```
 
+### OUTPUT
+```CPP
 itarkA
 ```
 ## We will check whether the array is sorted or not
@@ -263,6 +287,7 @@ int main()
 ```
 - In this question we will check whether array is sorted or not. If it is sorted then we will output 1 and if it is not sorted then we will output 0.
 
+#### OUTPUT
 ```CPP
 1
 ```
@@ -297,6 +322,7 @@ int main()
 2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack i.e. a disk can only be moved if it is the uppermost disk on a stack.
 3. No disk may be placed on top of a smaller disk.
 
+#### OUTPUT
 ```CPP
 
 Move from A To C
