@@ -88,6 +88,82 @@ Here there are 2 important things to be noted.
 -	First is the ***values() Method*** used. So basically there are some methods which Java compiler internally adds within the enum during the compile time. The functionality of **values()** Method is it returns an array containing all the values of the enum.
 -	Secondly to print all the values here we have used the ***For Each loop***. 
 
+So let’s analyse two methods that we used in the enum using an example.
+- values() Method
+
+##Example
+```
+enum Space {
+	STAR, PLANET, MOON, COMET, ASTEROIDS, DWARF_PLANETS
+}
+public class Universe {
+	public static void main(String[] args) {
+for (Space s : Space.values())
+System.out.println(s);
+	}
+}
+```
+
+This will give the output
+```
+STAR
+PLANET
+MOON
+COMET
+ASTEROIDS
+DWARF_PLANETS
+```
+
+- valuesOf() Method
+Similarly here let’s take an example
+
+##Example
+```
+public enum Level {
+    STAR,
+    SUN,
+    MOON;
+}
+```
+
+```
+Level level = Level.valueOf(“SUN”);
+```
+
+After this the level variable would be pointing to the Univ.SUN. If SUN is containing any value  then it will be printed out.
+
+At last let’s have a look at an example for enum constructor.
+```
+Enum Astro {
+ 
+   SUN("The largest star."),
+   EARTH("The living planet"),
+   MARS("The red planet");
+
+   private final String objDef;
+
+   private Astro(String objDef) {
+      this.objDef = objDef;
+   }
+
+   public String getDef() {
+      return objDef;
+   }
+}
+
+class Main {
+   public static void main(String[] args) {
+      Astro s = Astro.EARTH;
+      System.out.println(s.getDef());
+   }
+}
+```
+
+This would yield the output
+```
+The living planet
+```
+
 
 The constructor for an enum type is package-private or private access. It automatically creates the constants that are defined at the beginning of the enum body. 
 enum can contain a constructor and it is executed separately for each enum constant at the time of enum class loading.
