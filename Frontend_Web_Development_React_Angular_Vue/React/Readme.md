@@ -5,21 +5,21 @@
 # Work Need To Be Completed
 
 ### Week 1 
-- [ ] JSX 
+- [x] JSX 
 - [x] Babel 
-- [ ] ES6 template literals 
-- [ ] JSX Attributes and Styling react elements 
-- [ ] npm 
-- [ ] Creating React App (Include setup for Windows/Linux/Mac)
-- [ ] The anatomy of a React App and Concept of Virtual DOM
-- [ ] Installing the React Developer Tools
+- [x] ES6 template literals 
+- [x] JSX Attributes and Styling react elements 
+- [x] npm 
+- [x] Creating React App (Include setup for Windows/Linux/Mac)
+- [x] The anatomy of a React App and Concept of Virtual DOM
+- [x] Installing the React Developer Tools
 ### Week 2 
-- [ ] Components 
-- [ ] Class components 
-- [ ] Functional components 
-- [ ] import, export, modules 
-- [ ] React Props vs State 
-- [ ] Mapping data to components 
+- [x] Components 
+- [x] Class components 
+- [x] Functional components 
+- [x] import, export, modules 
+- [x] React Props vs State 
+- [x] Mapping data to components 
 - [ ] Using the  React Developer Tools (Preferrably a video)
 ### Week 3 
 - [ ] List and Keys 
