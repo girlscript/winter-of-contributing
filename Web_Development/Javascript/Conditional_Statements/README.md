@@ -1,22 +1,21 @@
-<h1>Conditional Statements in JavaScript</h1>
+# Conditional Statements in JavaScript
 
 * **Conditional Statements:**  Conditional statements help us to make a decision based on certain conditions.
-<h3>JavaScript supports 4 conditional statements</h3>
-
+### JavaScript supports 4 conditional statements</h3>
  
 * if statement
 * if-else statement
 * if-else-if statement
 * switch statement
-<h3>if statement</h3>
+### if statement
 
-<p>if statement is used to check only a specific condition.</p>
+if statement is used to check only a specific condition.
 
 **Syntax:**
 
 ```ruby
 if (condition) {
-    #block of code to be executed if the condition is true
+    #code to be executed if the condition is true
 }
 ```
 **Example:**
@@ -28,17 +27,17 @@ if (num % 2 == 0) {
 }
 ```
 **Output:** Number is even
-<h3>if-else statement</h3>
+### if-else statement
 
-<p>Use the if statement to execute a statement if a logical condition is true and else clause to execute a statement if the condition is false.</p>
+Use the if statement to execute a statement if a logical condition is true and else clause to execute a statement if the condition is false.
 
 **Syntax:**
 ```ruby
 if (condition) {
-    #block of code to be executed if the condition is true
+    #code to be executed if the condition is true
 } 
 else {
-    #block of code to be executed if the condition is false
+    #code to be executed if the condition is false
 }
 ```
 **Example:**
@@ -53,20 +52,20 @@ else {
 ```
 **Output:** Eligible to vote
 
-<h3>if-else-if statement</h3>
+### if-else-if statement
 
-<p>This statement can be used if we want to check more than two conditions.</p>
+This statement can be used if we want to check more than two conditions.
 
 **Syntax:**
 ```ruby
 if (condition1) {
-    #block of code to be executed if condition1 is true
+    #code to be executed if condition1 is true
 } 
 else if (condition2) {
-    #block of code to be executed if the condition1 is false and condition2 is true
+    #code to be executed if the condition1 is false and condition2 is true
 } 
 else {
-    #block of code to be executed if the condition1 is false and condition2 is false
+    #code to be executed if the condition1 is false and condition2 is false
 }
 ```
 **Example:**
@@ -97,9 +96,9 @@ else {
 ```
 **Output:** C grade
 
-<h3>switch statement</h3>
+### switch statement
 
-<p>A switch statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement.</p>
+A switch statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement.
 
 **_Working of switch statement_**
 <p>Firstly the switch expression is evaluated, then the value of the expression is compared one by one with every case constant. If the value of expression matches with any case constant, then all statements under that particular case are executed. If none of the case constant matches with the value of expression then the block of statements under default is executed. 'default' is optional, if it is not present and no case matches then no action takes place. These cases and default can occur in any order.</p>
@@ -136,9 +135,4 @@ const i=2;
             break;                            
     }
 ```
-
 **Output:** Second case
-
-<h1></h1>
-
-<span>**Contributor:**</span> [Ayushi Shukla](https://github.com/Ayushias0203)
