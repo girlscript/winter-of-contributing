@@ -145,3 +145,84 @@ Notice we're using @use 'base'; in the styles.scss file. When you use a file you
 
 ### Passing Variables to a Mixin
 
+* Mixins accept arguments. This way you can pass variables to a mixin.
+
+* Here is how to define a mixin with arguments:
+
+>SCSS Syntax
+
+```scss
+/* Define mixin with two arguments */
+@mixin bordered($color, $width) {
+  border: $width solid $color;
+}
+
+.myArticle {
+  @include bordered(blue, 1px);  // Call mixin with two values
+}
+
+.myNotes {
+  @include bordered(red, 2px); // Call mixin with two values
+}
+```
+
+> CSS output
+
+```html
+<style>
+        .myArticle {
+      border: 1px solid blue;
+    }
+
+    .myNotes {
+      border: 2px solid red;
+    }
+</style>
+```
+
+### Default Values for a Mixin
+
+> SCSS Syntax:
+
+```scss
+    @mixin bordered($color: blue, $width: 1px) {
+      border: $width solid $color;
+    }
+```  
+
+Then, you only need to specify the values that change when you include the mixin:
+
+```scss   
+  .myTips {
+  @include bordered($color: orange);
+}
+
+```
+
+###  Using a Mixin For Vendor Prefixes
+
+> SCSS Syntax:
+
+```scss
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+.myBox {
+  @include transform(rotate(20deg));
+}
+```
+
+> CSS Output:
+
+```html
+<style>
+      .myBox {
+      -webkit-transform: rotate(20deg);
+      -ms-transform: rotate(20deg);
+      transform: rotate(20deg);
+    }
+</style>
+```
