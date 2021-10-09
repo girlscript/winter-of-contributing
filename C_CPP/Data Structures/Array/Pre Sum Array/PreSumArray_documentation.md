@@ -25,7 +25,7 @@ Many such problems can be generated where Prefix Sum Array concept can be used.
 
 
 #### Code 💻
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 int main()
