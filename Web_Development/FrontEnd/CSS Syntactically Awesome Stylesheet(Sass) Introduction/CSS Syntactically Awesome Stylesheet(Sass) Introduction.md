@@ -92,3 +92,117 @@ Example
 </style>
   
 ```
+
+### Example
+
+> SCSS
+
+```html
+<style>
+$myFont: Helvetica, sans-serif;
+$myColor: red;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+}
+
+#container {
+  width: $myWidth;
+}
+</style>
+```
+
+> CSS
+
+```html
+<style>
+  body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: red;
+}
+
+#container {
+  width: 680px;
+}
+</style>
+```
+
+### Sass Variable Scope
+
+Sass variables are only available at the level of nesting where they are defined.
+Example:
+ 
+> SCSS
+
+```html
+<style>
+    $myColor: red;
+
+  h1 {
+    $myColor: green;
+    color: $myColor;
+  }
+
+  p {
+    color: $myColor;
+  }
+</style>
+```
+
+> CSS
+
+```html
+<style>
+    h1 {
+    color: green;
+  }
+
+  p {
+    color: red;
+  }
+</style>
+```
+
+### Using Sass !global
+
+* The default behavior for variable scope can be overridden by using the !global switch.
+
+* !global indicates that a variable is global, which means that it is accessible on all levels.
+* Example:
+
+> SCSS
+
+```html
+<style>
+    $myColor: red;
+
+  h1 {
+    $myColor: green !global;
+    color: $myColor;
+  }
+
+  p {
+    color: $myColor;
+  }
+</style>
+```
+
+
+> CSS
+
+```html
+  <style>
+    h1 {
+    color: green;
+  }
+
+  p {
+    color: green;
+  }
+  </style>
+```
