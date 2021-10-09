@@ -147,4 +147,4 @@ int main(){
 }
 ```
 ### Running Output:
-![alt text](./output.png)
+![output](https://user-images.githubusercontent.com/44056349/136656213-427813be-3a4e-44f4-8694-4c6b366d65db.png)
