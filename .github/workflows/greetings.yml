@@ -3,8 +3,6 @@ name: Greetings
 on:
   issues:
     types: [opened]
-  pull_request:
-    types: [opened]
 
 jobs:
   greeting:
@@ -18,6 +16,3 @@ jobs:
                         Note - Self-assigns by the original author will be prioritised by mentors manually<br>
                         To get assigned to this particular issue please use <b>/assign</b><br>
                         <i> Check this <a href="https://github.com/girlscript/winter-of-contributing/blob/main/.github/CONTRIBUTING.md">guide</a> before contributing.'
-        PR_message:
-                      '<h1> :fleur_de_lis: Congratulations </h1> :octocat:
-                      Thank you @${{github.actor}} for taking out your time and contributing to GWOC21. Our team will review this soon and if everything looks good it will be merged. :heavy_check_mark:'

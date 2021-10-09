@@ -1,1 +1,0 @@
-- [Ugly Numbers](Ugly_Number.md)
