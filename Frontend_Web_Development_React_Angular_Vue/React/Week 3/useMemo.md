@@ -163,3 +163,11 @@ function App() {
 1. The ```useMemo``` hook helps to increase the performance of an application by remembering the result of the expensive function calculation or storing the result in a cache and not running it again with the same parameters.
 
 2. With the help of ```useMemo``` you cannot just only **memoize** the value of the function call but also for any value type unlike ```useCallback```
+
+### References
+
+1. [Memoization](https://www.section.io/engineering-education/an-introduction-to-memoization-in-javascript/)
+
+2. [GeeksforGeeks useMemo](https://www.geeksforgeeks.org/react-js-usememo-hook/)
+
+3. [DigitalOcean useMemo](https://www.digitalocean.com/community/tutorials/react-usememo)
