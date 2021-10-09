@@ -18,5 +18,12 @@ If i>j, then T [i.....j] is equal to the empty string or null, which has length 
 
 # Applications of String Matching Algorithms
 
-Plagiarism Detection
-Bioinformatics and DNA Sequencing
+1. Plagiarism Detection
+
+2. Bioinformatics and DNA Sequencing
+
+3. Digital Forensics
+
+4. Spelling Checker
+
+5. Search engines or content search in large databases
