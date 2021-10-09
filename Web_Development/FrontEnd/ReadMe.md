@@ -6,7 +6,7 @@
 - What is HTTP?
 - How does Browser Rendering Works?
 - [DNS & Working of DNS?](./DNS%20and%20Working%20of%20DNS.md)
-- Domain Name Basics.
+- [Domain Name Basics](./Domain_Name_Basics.md) 
 - Hosting & Name Servers.
 
 ## 1️⃣ HTML
@@ -38,6 +38,14 @@
 - Text manipulation
 - [The css box model](./CSS_BoxModel)
 - Content manipulation - margin,padding,align
+- What is FlexBox
+- Flex properties
+- What is Grid
+- Grid vs Flex
+- Transition and transformation
+- Animations
+- CSS Libraries
+- [CSS Pagination](./CSS_Pagination/CSS_Pagination.md)
 - [What is FlexBox](./CSS_Flexbox)
 - [Flex properties](./CSS_Flexbox)
 - [What is Grid](./CSS_Grid)
