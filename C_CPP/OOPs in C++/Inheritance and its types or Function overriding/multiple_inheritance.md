@@ -5,4 +5,4 @@
 In the above audio file you will get to know multiple inheritance in C++,
 I hope that you will find this audio clip usefull.
 
-**Author -Anusha Gairola**
+
