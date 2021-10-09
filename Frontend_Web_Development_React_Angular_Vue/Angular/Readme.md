@@ -28,6 +28,8 @@
  
 4) Dependency Injection (Week-4) 
 - [ ] Injecting Services 
+- [ ] Dependency Injection tokens and Providers
+- [ ] Dependency Injection in Actions
  
 5) Routing and Navigation (Week-5) 
 - [ ] How to generate an application with routing enabled? 
