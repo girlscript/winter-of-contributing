@@ -36,3 +36,5 @@ In the "Install Visual Studio Code for Java" section you can find the links for 
 - Visual Studio IntelliCode
 
 Now you are good to go. Now you can easily do Java development on VS Code.
+
+
