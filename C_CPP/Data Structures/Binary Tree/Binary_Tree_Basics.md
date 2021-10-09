@@ -179,4 +179,4 @@ Output:
      /
      4
 
-Reference: For more examples visit [Programiz](https://www.programiz.com/)
+Reference: For more examples visit [Programiz](https://www.programiz.com/dsa/binary-tree)
