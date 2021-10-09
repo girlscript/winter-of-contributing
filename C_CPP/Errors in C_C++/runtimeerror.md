@@ -16,7 +16,7 @@ This articles covers the following topics in brief:
 
 ## Overview
 
-An error is an illegal operation performed by the user resulting in abnormal working of the program. 
+An error is the result of incorrect code in some program which leads to erroneous result or abnormal working of program. 
 
 **Programming errors** either get detected during the compilation stage or remain undetected until the program is executed. 
 
@@ -38,7 +38,7 @@ For succesful working of our program, the errors must be debugged.
 
 ## Runtime errors
 
-*A runtime error in a program is an error that occurs while the program is running after being successfully compiled.* 
+*A runtime error is a bug in the program which causes the program to crash even after it has been succesfully compiled.* 
 
 It usually goes unnoticed by the developer as it is not reported by the compiler.
 
