@@ -1,7 +1,7 @@
 # Basic Recursion Questions
 
 
-## (1) Find the first and last occurence of a number in an array
+## Find the first and last occurence of a number in an array
 
 ```CPP
 
@@ -41,11 +41,11 @@ int main()
 ```
 - In this question we will find the first and last occurence of a number as you can see i have given a array of size 7 and want to know the first and last occurence of 7. since , 7 is present in the array at 6th position and 6th position is the first also the last occurence of 7. So, We will get 6 as the output.
 
-## Output
+```CPP
 6 
+```
 
-
-## (2) Count no. of digits in number
+## Count no. of digits in number
 
 ```CPP
 #include<iostream>
@@ -73,12 +73,12 @@ int main()
 
 - In this question we will count the number of digits in a number. We have taken n as input suppose we have n = 234. So, number of digits present in 234 are 3, Therefore , Program will give 3 as output.
 
-## Input
+```CPP
 234
-## Output
-3
 
-## (3) Find the factorial of a number
+3
+```
+## Find the factorial of a number
 
 ```CPP
 #include<iostream>
@@ -106,13 +106,12 @@ int main(){
 
 - In this question we will calculate the factorial of a number , We have taken n as input , Suppose n = 5 then it will give 120 as input.
 
-## Input
+```CPP
 5
 
-## Output
 120
-
-## (4) Find the nth Fibonnaci Number
+```
+## Find the nth Fibonnaci Number
 
 ```CPP
 #include<bits/stdc++.h>
@@ -143,13 +142,12 @@ int main()
 - In this question we will find the nth fibonacci number from the Fibonacci series.In this question we have taken 3 as input so we will get 2 as output because fibonacci series is 0 1 1 2 3....
 and 2 is the 3rd element in the fibonacci series.
 
-## Input
+```CPP
 3
 
-## Output
 2
-
-## (5) Generate all substring of a string
+```
+## Generate all substring of a string
 
 ```CPP
 
@@ -181,10 +179,9 @@ int main()
 
 - In this question we will find substrings of a given string
 
-## Input
+```CPP
 ABC
 
-## Output
  C
 
  B
@@ -198,3 +195,4 @@ ABC
  AB
 
  ABC
+```
