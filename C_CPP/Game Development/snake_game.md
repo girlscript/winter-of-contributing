@@ -1,4 +1,4 @@
-# SNAKE GAME
+# SNAKE GAME 🐍
 Everyone has played snake game once in their childhood. I tried to make this game using C++.
 ```c++
 #include <iostream>
@@ -160,5 +160,16 @@ int main()
     return 0;
 }
 ```
+## controls
+```
+ A-->LEFT
+ D-->RIGHT
+ W-->UP
+ S-->DOWN
+```
 ## output
+![Select C__Users_Windows 10_3D Objects_k exe 09-10-2021 22_39_29](https://user-images.githubusercontent.com/67778565/136667950-d8e501d2-087f-44bc-96df-302d31a2c81b.png)
+<br>
+![C__Users_Windows 10_3D Objects_k exe 09-10-2021 22_40_36](https://user-images.githubusercontent.com/67778565/136667997-2c6732f0-7e4e-43b0-abbb-5fffcabcd013.png)
+
 
