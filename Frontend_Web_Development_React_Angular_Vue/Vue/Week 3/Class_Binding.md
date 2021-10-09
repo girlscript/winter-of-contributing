@@ -6,11 +6,11 @@
 
 
 
-It is used to **manipulate element's class list and inline styles**.
+It is used to **manipulate element's class list **
 
-To handle both the attributes we used to use **v-bind**.
+To handle class list we use **v-bind **.
 
-When we use v-bind in class and styles it gives special advantages to us.
+When we use v-bind in class it gives special advantages to us.
 
 
 
@@ -22,7 +22,7 @@ When we use v-bind in class and styles it gives special advantages to us.
 <div v-bind:class="{ active: isActive }"></div>
 ````
 
-In above code if this div have class "**active**" then that means "**isActive**" data property is **true**. And if div not have any class then that means "**isActive**" data property is **false**.
+In above code if this div have class "**active**" then that means "**isActive**" data property is **true**. And if div not have any class then that means "**isActive**" data property is **false**. So, here we can control that is the class is true it will get rendered and if it is false then it will not rendered .
 
 
 
@@ -30,7 +30,7 @@ In above code if this div have class "**active**" then that means "**isActive**"
 <div v-bind:class="GWOCObject"></div>
 ````
 
-In this div we have binded the class GWOCObject and if it is present in the div that means it is true and the data property linked with it will get executed.
+In this div we have binded the class GWOCObject and if this class is present in the div that means it is true and the data property linked with it will get executed.
 
 
 
@@ -45,7 +45,7 @@ data: {
 
 
 
-Here,when GWOCObject is in that div it means that it will render that **active** data property is true and text - warning is false but if class list got updated and that class got removed then all the data property will become false .
+Here,when **GWOCObject** is true it means that it will render that **active** data property is **true** and **text - warning** is **false** but if class list got updated and that class got removed then all the data property will become false .
 
 
 
@@ -56,27 +56,29 @@ Here,when GWOCObject is in that div it means that it will render that **active**
 
 
 ````html
-<div v-bind:class="[activeClass, GWOCClass]"></div>
+<div v-bind:class="[GirlScriptClass, GWOCClass]"></div>
 ````
+
+Here We a supplying an  array of classes GirlScriptClass and GWOCClass .
 
 ````javascript
 data: {
-  activeClass: 'active',
+  GirlScriptClass: 'active',
   GWOCClass: 'text-success'
 }
 ````
 
 
 
-It will render :
+It will render as:
 
 ````html
-<div class="active text-success"></div>
+<div class="GirlScriptClass GWOCClass"></div>
 ````
 
 
 
-Here we are binding two elements i.e. **activeclass and GWOCClass** and they will be active till the are true and will render active and text - success.
+Here we are binding two classes. **GirlScriptClass and GWOCClass** and they both will render till the are true and if we set them as false they will not get rendered .
 
 
 
@@ -84,9 +86,11 @@ Here we are binding two elements i.e. **activeclass and GWOCClass** and they wil
 
 
 
-when we add class attribute in the component it get added to the root element as we are going to do in the below example .
+we can add any class attribute in the component it get added to the root element as we are going to do in the below example .
 
 
+
+Here, we have added class GWOC in the component
 
 ````javascript
 Vue.component('my-component', {
@@ -97,13 +101,13 @@ Vue.component('my-component', {
 Then  we can add some classes when using it : 
 
 ````html
-<my-component class="baz boo"></my-component>
+<my-component class="GirlScriptClass"></my-component>
 ````
 
 HTML file be rendered as
 
 ````html
-<p class="GWOC active">Hi! Its the contribution time.</p>
+<p class="GWOC GirlScriptClass">Hi! Its the contribution time.</p>
 ````
 
 It is also true for class bindings:
