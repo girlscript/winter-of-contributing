@@ -31,7 +31,7 @@
   - [Static scoping & Dynamic Scoping](./Fundamentals/Static%20scoping%20%26%20Dynamic%20Scoping/)
   - [Functions & Recursion and its types](./Fundamentals/Functions%20%26%20Recursion%20and%20its%20types/)
   - [Arrays](./Fundamentals/Arrays/)
-  - [Variadic Functions](./Fundamentals/Variadic Functions/Variadic-Functions.md/)
+  - [Variadic Functions](https://github.com/elixir14082002/winter-of-contributing/tree/C_CPP/C_CPP/Fundamentals/Variadic%20Functions)
   
 - ### [Strings and their functions](./Strings%20and%20their%20functions/)
   
