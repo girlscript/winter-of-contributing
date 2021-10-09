@@ -45,6 +45,7 @@
 - [Yield Keyword](./Yield_Keyword)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
 - [Django Framework](./Django_Framework)
+- [Regular expressions in Python](./Regex)
 
 
 ## Learning path
@@ -81,3 +82,4 @@
 30. Yield Keyword
 31. Dictionary Comprehension
 32. Django Framework
+33. Regular expressions in Python
