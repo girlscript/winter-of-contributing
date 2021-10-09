@@ -89,7 +89,7 @@ void search(int key){
 
 > Time complexity in the best case is O (1) and in the worst case is O (size of the hash table).
 
-### 2. **Deletion**
+### 3. **Deletion**
 
 **Step 1**: We use the hash function to find out where the element should be present.
 
