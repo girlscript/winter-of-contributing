@@ -1,0 +1,3 @@
+- [Insertion in BST](Insertion%20in%20BST.md)
+- [Traversals of BST](Traversal%20of%20BST.md)
+- [Deletion in BST](deletion%20in%20BST.md)
