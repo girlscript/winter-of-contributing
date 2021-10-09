@@ -15,7 +15,7 @@ if statement is used to check only a specific condition.
 
 ```ruby
 if (condition) {
-    #code to be executed if the condition is true
+    #Statements that execute if the condition is true
 }
 ```
 **Example:**
@@ -29,15 +29,15 @@ if (num % 2 == 0) {
 **Output:** Number is even
 ### if-else statement
 
-Use the if statement to execute a statement if a logical condition is true and else clause to execute a statement if the condition is false.
+It is used to execute one of the two possible actions depending on the result of a logical test. If the test expression is true, statement/s inside the body of if statement is executed but if the test expression is false, else statement is executed.
 
 **Syntax:**
 ```ruby
 if (condition) {
-    #code to be executed if the condition is true
+    #Statements that execute if the condition is true
 } 
 else {
-    #code to be executed if the condition is false
+    #Statements that execute if the condition is false
 }
 ```
 **Example:**
@@ -59,13 +59,13 @@ This statement can be used if we want to check more than two conditions.
 **Syntax:**
 ```ruby
 if (condition1) {
-    #code to be executed if condition1 is true
+    #Statements that execute if the condition1 is true
 } 
 else if (condition2) {
-    #code to be executed if the condition1 is false and condition2 is true
+    #Statements that execute if condition1 is false and condition2 is true
 } 
 else {
-    #code to be executed if the condition1 is false and condition2 is false
+    #Statements that execute if condition1 and condition2 both are false
 }
 ```
 **Example:**
@@ -98,10 +98,11 @@ else {
 
 ### switch statement
 
-A switch statement allows a program to evaluate an expression and attempt to match the expression's value to a case label. If a match is found, the program executes the associated statement.
+A _switch statement_ is used to execute a particular group of statements to take from different available choices. The selection is based on the current value of an expression with the switch statement.
 
 **_Working of switch statement_**
-<p>Firstly the switch expression is evaluated, then the value of the expression is compared one by one with every case constant. If the value of expression matches with any case constant, then all statements under that particular case are executed. If none of the case constant matches with the value of expression then the block of statements under default is executed. 'default' is optional, if it is not present and no case matches then no action takes place. These cases and default can occur in any order.</p>
+
+Firstly the switch expression is evaluated, then the value of the expression is compared one by one with every case constant. If the value of expression matches with any case constant, then all statements under that particular case are executed. If none of the case constant matches with the value of expression then the block of statements under default is executed. 'default' is optional, if it is not present and no case matches then no action takes place. These cases and default can occur in any order.
 
 **Syntax:**
 ```ruby
