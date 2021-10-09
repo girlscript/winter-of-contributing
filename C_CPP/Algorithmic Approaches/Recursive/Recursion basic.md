@@ -42,6 +42,7 @@ int main()
 ```
 - In this question we will find the first and last occurence of a number as you can see i have given a array of size 7 and want to know the first and last occurence of 7. since , 7 is present in the array at 6th position and 6th position is the first also the last occurence of 7. So, We will get 6 as the output.
 
+#### OUTPUT
 ```CPP
 6 
 ```
@@ -74,9 +75,12 @@ int main()
 
 - In this question we will count the number of digits in a number. We have taken n as input suppose we have n = 234. So, number of digits present in 234 are 3, Therefore , Program will give 3 as output.
 
+#### INPUT
 ```CPP
 234
-
+```
+#### OUTPUT
+```CPP
 3
 ```
 ## Find the factorial of a number
@@ -107,9 +111,12 @@ int main(){
 
 - In this question we will calculate the factorial of a number , We have taken n as input , Suppose n = 5 then it will give 120 as input.
 
+#### INPUT
 ```CPP
 5
-
+```
+#### OUTPUT
+```CPP
 120
 ```
 ## Find the nth Fibonnaci Number
@@ -143,9 +150,13 @@ int main()
 - In this question we will find the nth fibonacci number from the Fibonacci series.In this question we have taken 3 as input so we will get 2 as output because fibonacci series is 0 1 1 2 3....
 and 2 is the 3rd element in the fibonacci series.
 
+#### INPUT
 ```CPP
 3
+```
 
+#### OUTPUT
+```CPP
 2
 ```
 ## Generate all substring of a string
@@ -179,7 +190,7 @@ int main()
 ```
 
 - In this question we will find substrings of a given string
-
+### OUTPUT
 ```CPP
 ABC
 
