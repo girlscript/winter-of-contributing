@@ -80,6 +80,11 @@ OPTICS processes each point once, and performs one -neighborhood query during th
   <li>Maize Precise Fertilization Decision-Making</li>
 </ul> 
 
+## PLots of Optics Clustering Algorithm
+![image](https://user-images.githubusercontent.com/74582422/136651214-73269ad2-8c0e-42b0-974d-1029fdb55e51.png)
+<br><br>
+![image](https://user-images.githubusercontent.com/74582422/136651237-6c81b65b-bd36-45db-91a9-2cfbd51ba29e.png)
+
 ## Conclusion
 OPTICS is a very interesting technique fro clustering.The benefits it inludes like finding varying densities, as well as very little parameter tuning are really helpful.Additionally , it's pre made modules are available on scikit learn in python and there are other as well in R Programming Language.
 
