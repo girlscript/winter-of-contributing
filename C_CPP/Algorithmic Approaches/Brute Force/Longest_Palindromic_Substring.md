@@ -1,13 +1,13 @@
 # **Longest Palidromic Substring Using Brute Force Approach**
 # Brute Force
-A Brute Force Algorithm is a straight-forward approach to a problem i.e the first method or algorithm which come in our mind to solve a particular problem. In this we try every possibility rather than going for advance techniques to improve efficiency.
+- A Brute Force Algorithm is a straight-forward approach to a problem i.e the first method or algorithm which come in our mind to solve a particular problem. In this we try every possibility rather than going for advance techniques to improve efficiency.
 # Longest Palindromic Substring
 Task: Given a string, find the longest substring which is palindrome.<br>
 The simple/brute force approach will be to check for each substring whether the substring is a palindrome or not. To do this, we will run three loops, the outer two loops will pick up each substring one by one by modifying its start and end index (here i and j), the inner loop will check whether the selected substring is a palindrome or not. If yes and also the length of that substring is greater than the previous then we will update the values of start_index and length.<br>
 After coming out of all loops we will print the longest substring via using start index and length and then we will return length of the longest substring.
 
 # Code of Longest Palindromic Substring in C++
-```
+```cpp
 /*
 Given a string, find the longest substring which is palindrome.
 */
@@ -64,20 +64,23 @@ int main()
 
     return 0;
 }
-/*
-Time Complexity: O(n^3)
-Space complexity: O(1)
-
-Input:
-Enter string: babad
-Output:
-Longest pallindromic substring is: bab
-Length of longest palindromic substring is: 3
-
-Input:
-Enter string: cbbd
-Output:
-Longest pallindromic substring is: bb
-Length of longest palindromic substring is: 2
-*/
 ```
+# Input/Output Example
+Example 1-<br>
+Input:<br>
+Enter string: babad<br>
+Output:<br>
+Longest pallindromic substring is: bab<br>
+Length of longest palindromic substring is: 3
+<br><br>
+Example 2-<br>
+Input:<br>
+Enter string: cbbd<br>
+Output:<br>
+Longest pallindromic substring is: bb<br>
+Length of longest palindromic substring is: 2<br>
+<br>
+# Time And Space Complexity
+Time Complexity: O(n^3)
+<br>
+Space Complexity: O(1)
