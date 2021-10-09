@@ -68,16 +68,25 @@ int Factorial(int n)
 
 1. Factorial of a positive number: <br>
 
-![Factorial of 5](./assets/img1.png)
 
+~~~ 
+Enter no. whose factorial is to be calculated: 5
+Factorial of 5 is:- 120
+~~~
 <br>
 
 2. Factorial of a negative number: <br>
 
-![Factorial of -8](./assets/img2.png)
+~~~
+Enter no. whose factorial is to be calculated: -8
+Factorial of negative no. is not defined
+~~~
 
 <br>
 
 3. Factorial of 0: <br>
 
-![Factorial of 0](./assets/img3.png)
+~~~
+Enter no. whose factorial is to be calculated: 0
+Factorial of 0 is:- 1
+~~~
