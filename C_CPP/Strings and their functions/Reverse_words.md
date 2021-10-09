@@ -72,13 +72,13 @@ Output: Contributing of Winter GirlScript
     Input: GirlScript Winter of Contributing
 
     a. The program first reversed each word of the string
-         tpircslrig retniw fo gnitubirtnoc
+         tpircslriG retniW fo gnitubirtnoC
 
     b. Then it reversed the whole text
-         contributing of winter girlscript
+         Contributing of Winter Girlscript
 
 ```
 
-# Time Complexity
+# Time and Space Complexity
 
 The time complexity of this solution would be O(n) and doesn't require any extra space.
