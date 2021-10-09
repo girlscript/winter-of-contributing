@@ -1,0 +1,153 @@
+WORKING ON  GETTING TOASTS & NOTIFICATIONS
+
+TOASTS
+    Toasts is actually a simple feedback about an operation in a small pop-up that is displayed on the current activity UI Screen. It basically fill the amount of space required for the message and the current activity remains visible and interactive. Toasts automatically disappear after a given timeout. 
+
+                                  
+
+    Toasts is basically used when the App is in the foreground and you want the users to take action then only we display toast to the users.
+                       For example :- Clicking "Send" on an email triggers a "Sending Message...." as a Toast.
+
+   How to instantiate a Toast Object:-
+           We can use the "makeText()" method, which takes the following parameters:-
+                   1. The App CONTEXT 
+                   2.  Text which should appear to the user as a Toast.
+                   3.  At Last, For How much time duration, Toast should remain on the screen.
+    
+      The "makeText()" method returns the properly initialized TOAST object.
+      In order to display the toast, We need to call the show() method.   
+
+   
+   TOAST CLASS :- It provides a simple pop-up message that is displayed on the current activity UI Screen. (ie. Main Activity)
+             
+                      Constants                                          Description
+        public static final int LENGTH_LONG               displays the toast for longer time
+        public static final int LENGTH_SHORT              displays the toast for shorter time
+
+  METHODS OF TOAST CLASS :-
+
+                Methods                                            Description
+             public void show()                              displays a toast message
+             public void setMargin(float                  changes the horizontal and vertical differences. 
+          horizontalMargin, float verticalMargin)
+
+
+    Let's take a glance of how to create an Android App to show a Toast Message :-
+
+   Step 1 - Firstly We need to create an XML File and a Java File. In XML file, We basically wrote the code of the UI, how our file looks like..designing and all. But In Java File, we wrote the code for the implementation.
+   
+   Step 2 -  Now Open the "activity_main.xml" file and then just add a Buttton to show the toast.
+   Then we need to assign the ID to the BUTTON COMPONENT  as shown in the image and code. The Assigned ID to the button helps to identify and to use in Java Files.
+                   android:id="@+id/id_name"
+
+                    Here the given ID is Button1
+
+   Step 3 - Now, after the UI, this step will create the Backend of the App. For this, Open “MainActivity.java” file and instantiate the component (Button) created in the XML file using findViewById() method. This method binds the created object to the UI Components with the help of the assigned ID.
+
+
+General Syntax :-
+         ComponentType object = (ComponentType)findViewById(R.id.IdOfTheComponent);
+
+Syntax for used component (Click Button) :-
+          Button btn = (Button)findViewById(R.id.Button01); 
+
+    
+   
+    Step 4 - In this step, we set up all the operations to display the Toast Message.
+         Following are the steps of operations :-
+
+          1.   Just add a listener on Button and then this button will show a toast message.
+                          SYNTAX -  btn.setOnClickListener(new View.OnClickListener() {});
+          
+          2.    Now create a Toast message. The "Toast.makeText()" method is a pre-defined method which creates a Toast object.
+                         SYNTAX -    public static Toast makeText (Context context, CharSequence text, int duration)
+
+               Here The Method accepts three Parameters :-
+                           1.  Context - This is the first parameter obtained by calling getApplicationContext(). 
+                                                        Context context = getApplicationContext(); 
+
+                           2.  Text - This is the second parameter which displays the text message.
+                                                        CharSequence text=”Your text message here”
+                  
+                           3.  Duration -  The last parameter which denotes the time duration for the message.
+                                                         int duration=Toast.LENGTH_LONG;
+
+                                 Overall Code to make a Toast - 
+                                            Toast.makeText(getApplicationContext(),"This a toast message", Toast.LENGTH_LONG);
+
+                          Now display the created Toast message using the show() method :-   public void show ()
+
+                                           Toast.makeText(getApplicationContext(), "This a toast message",Toast.LENGTH_LONG).show(); 
+
+
+      Step 5 - Now you are ready to go, Just run the app and operate as follows -
+                                   1.  When the app is opened, it displays a "Click" Button.
+                                   2.   Click on the "Click" Button.
+                                   3.   Then the toast message will be displayed on the screen as a pop-up.
+                                   
+
+NOTIFICATIONS IN ANDROID
+
+Notification basically provides us the short, timely information about the events in your app while it's not in use.
+
+Although whenever we create the projects with the Android Studio includes the necessary dependencies to use "NotificationCompat". Here you need to verify that your module level "build.gradle" file includes the following dependencies.
+
+                                  val core_version = "1.6.0"
+                                     dependencies {
+                                               implementation( "androidx.core:core-ktx:$core_version")
+                                        }
+
+    A Notification in its basic and the compact, which is also knows as the "Collapsed form" displays an icon, a title and the single line text related to it.
+                                                                               
+
+  SET THE NOTIFICATION CONTENT IN YOUR APP
+
+     In order to get started, All you need is to just set the notification's content and channel using a "NotificationCompat.Builder" object. 
+                         Let's see an example of how to create a Notification:-
+
+            1.    Firstly A user visible content is required ie. A Small Icon which is set by "setSmallIcon()".
+            2.    Then A Title which is set by "setContentTitle()".
+            3.    Then A Body Text which is set by "setContentText()".
+            4.     Now Notification Priority which is set by "setPriority()". 
+ 
+        Following are the code for this:-
+ 
+                     NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
+                                    .setSmallIcon(R.drawable.notification_icon)
+                                    .setContentTitle(textTitle)
+                                    .setContentText(textContent)
+                                    .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+
+    Note- NotificationCompat.Builder constructor requires to provide the CHANNEL ID, for compatibility purpose.
+                                     
+                                             NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
+                                                                   .setSmallIcon(R.drawable.notification_icon)
+                                                                   .setContentTitle("My notification")
+                                                                   .setContentText("Much longer text that cannot fit one line...")
+                                                                   .setStyle(new NotificationCompat.BigTextStyle()
+                .                                                                     .bigText("Much longer text that cannot fit one line..."))
+                                                                   .setPriority(NotificationCompat.PRIORITY_DEFAULT);
+
+
+        CREATE A BASIC NOTIFICATION
+     
+       Step 1-  Create the Notification Builder. In this step we need to create a Notification Builder using NotificationCompat.Builder.build(). It is used for the properties like its small and large icons, title, priority etc.
+                                          NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(this)
+
+       Step 2-  Now Set the Notification Properties. "Builder" object helps to set the notification properties as per requirements.
+                                      For instance-   1.   A small icon, set by setSmallIcon()
+                                                                            - mBuilder.setSmallIcon(R.drawable.notification_icon);
+
+                                                              2.   A title, set by setContentTitle()
+                                                                            - mBuilder.setContentTitle("Notification Alert, Click Me!");
+
+                                                              3.   Detail text, set by setContentText()
+                                                                            - mBuilder.setContentText("Hi, This is Android Notification Detail!");
+          
+        Step 3- Finally Issue the notification. Now just pass the notification object to the system by calling "NotificationManager.notify to send your notification. But before notifying just make sure to call 
+                      NotificationCompat.Builder.build() method on builder object.
+
+                  NotificationManager mNotificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+                                       // notificationID allows you to update the notification later on.
+                                       mNotificationManager.notify(notificationID, mBuilder.build());
+
