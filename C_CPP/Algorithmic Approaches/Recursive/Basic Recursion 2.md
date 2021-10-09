@@ -39,13 +39,13 @@ int main()
  ```
  - In this question We will print numbers in increasing and decreasing order, We have taken n as input. Suppose n=5 so the finally output will be 1 2 3 4 5 for increasing order and 5 4 3 2 1 for decreasing order.
 
- ## Input
+ ```CPP
  5
 
- ## Output
  1 2 3 4 5
 
  5 4 3 2 1
+ ```
 
  ## Move all x to the end of the string
 
@@ -74,17 +74,14 @@ int main(){
     cout<<moveallX("abscdaXXXedddiddaaaXXXXXXddd");
     return(0);
 }
-
- 
- ```
-
-## Input
+```
+```CPP
 abscdXXXXedddiddaaaXXXXXXXddd
 
-## Output
 absdaedddiddaaadddXXXXXXXXXXX
+```
 
-## (8) Replace the pi with 3.14 in string
+## Replace the pi with 3.14 in string
 
 ```CPP
 #include<iostream>
@@ -112,16 +109,15 @@ int main()
     replacepi("pippxxppiixipi");
     return(0);
 }
-
 ```
-
-## Input
+```CPP
 pippxxppiixipi
 
-## Output
 3.14ppxxp3.14ixi3.14
+```
 
-## (9) Find power of x to y
+
+## Find power of x to y
 
 ```CPP
 #include <bits/stdc++.h>
@@ -152,20 +148,16 @@ int main()
     cout << power(x, y);
     return 0;
 }
-
-
 ```
 
 - In this question we will take x and y as input.suppose x=2 and y=5, So the final output will be 32.
-
-## Input
+```CPP
 2 5
 
-## Output
 32
+```
 
-
-## (10) Remove all duplicates from a string
+## Remove all duplicates from a string
 
 ```CPP
 
@@ -194,14 +186,13 @@ int main()
 
 ```
 - In this question we will remove all duplicate characters from the string.
+```CPP
 
-## Input
 aaabbccddeeeaaff
 
-## Output
 abcdeaf
-
-## (11) Reverse a string using Recursion
+```
+## Reverse a string using Recursion
 
 ```CPP
 
@@ -231,13 +222,12 @@ int main()
 
 - In this question we will reverse a string. We have given Akrati as input so we will get itarkA as output.
 
-## Input
+```CPP
 Akrati
 
-## output
 itarkA
-
-## (12) We will check whether the array is sorted or not
+```
+## We will check whether the array is sorted or not
 
 ```CPP
 #include<iostream>
@@ -267,9 +257,9 @@ int main()
 ```
 - In this question we will check whether array is sorted or not. If it is sorted then we will output 1 and if it is not sorted then we will output 0.
 
-## Output
+```CPP
 1
-
+```
 ## Tower of Hanoi
 
 ```CPP
@@ -301,7 +291,7 @@ int main()
 2. Each move consists of taking the upper disk from one of the stacks and placing it on top of another stack i.e. a disk can only be moved if it is the uppermost disk on a stack.
 3. No disk may be placed on top of a smaller disk.
 
-## Output
+```CPP
 
 Move from A To C
 
@@ -316,3 +306,4 @@ Move from B To A
 Move from B To C
 
 Move from A To C
+```
