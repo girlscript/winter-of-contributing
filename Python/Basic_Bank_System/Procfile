@@ -1,0 +1,1 @@
+web: gunicorn fbdbank.wsgi --log-file -
