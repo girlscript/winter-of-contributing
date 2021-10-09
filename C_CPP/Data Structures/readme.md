@@ -29,4 +29,9 @@
   - ### [Fenwick Tree](#)
   - ### [BTree](#)
   - ### [Trie](#)
+
   - ### [Suffix Tree](#)
+
+  - ### [Suffix Tree](#)
+
+- ## [Pairs](./Pair)
