@@ -5,8 +5,8 @@ You don't have to write all your Sass in a single file. You can split it up howe
 
 > _base.scss
 
-```html
-<style>
+```scss
+
     $font-stack: Helvetica, sans-serif;
   $primary-color: #333;
 
@@ -14,19 +14,19 @@ You don't have to write all your Sass in a single file. You can split it up howe
     font: 100% $font-stack;
     color: $primary-color;
   }
-</style>
+
 ```
 
 > styles.scss
 
-```html
-<style>
+```scss
+
  @use 'base';
   .inverse {
     background-color: base.$primary-color;
     color: white;
   }
-</style>
+
 ```
 
 > output CSS
@@ -47,3 +47,101 @@ You don't have to write all your Sass in a single file. You can split it up howe
 ```
 
 Notice we're using @use 'base'; in the styles.scss file. When you use a file you don't need to include the file extension. Sass is smart and will figure it out for you.
+
+
+
+# Sass @import
+
+* Just like CSS, Sass also supports the @import directive.
+
+* The @import directive allows you to include the content of one file in another.
+
+* The CSS @import directive has a major drawback due to performance issues; it creates an extra HTTP request each time you call it. However, the Sass @import directive includes the file in the CSS; so no extra HTTP call is required at runtime!
+
+### Sass Import Syntax:
+
+```scss
+
+@import filename;
+
+```
+
+### example
+
+```scss
+
+@import "variables";
+@import "colors";
+@import "reset";
+
+```
+
+# Sass @mixin and @include
+
+* The @mixin directive lets you create CSS code that is to be reused throughout the website.
+
+* The @include directive is created to let you use (include) the mixin.
+
+### Sass @mixin Syntax:
+
+```scss
+
+    @mixin name {
+      property: value;
+      property: value;
+      ...
+    }
+
+```
+
+### Example
+
+> SCSS
+
+```scss
+    SCSS SYNTAX
+    @mixin theme($theme: DarkGray) {
+      background: $theme;
+      box-shadow: 0 0 1px rgba($theme, .25);
+      color: #fff;
+    }
+
+    .info {
+      @include theme;
+    }
+    .alert {
+      @include theme($theme: DarkRed);
+    }
+    .success {
+      @include theme($theme: DarkGreen);
+    }
+ ```
+ 
+ >CSS
+
+```html
+<style>
+    .info {
+      background: DarkGray;
+      box-shadow: 0 0 1px rgba(169, 169, 169, 0.25);
+      color: #fff;
+    }
+
+    .alert {
+      background: DarkRed;
+      box-shadow: 0 0 1px rgba(139, 0, 0, 0.25);
+      color: #fff;
+    }
+
+    .success {
+      background: DarkGreen;
+      box-shadow: 0 0 1px rgba(0, 100, 0, 0.25);
+      color: #fff;
+    }
+</style>
+ 
+```
+
+
+### Passing Variables to a Mixin
+
