@@ -239,6 +239,8 @@
 
 - [6.25 Nginx](6.Popular_Projects/6.25_nginx.md)
 
+- [6.27 Angular](6.Popular_Projects/6.27_Angular.md)
+
 - [6.29 Svelte](6.Popular_Projects/6.29_Svelte.md)
 
 - [6.31 D3](6.Popular_Projects/6.31_D3.js.md)
@@ -248,12 +250,19 @@
 ### 7. Licenses :
 
 - [7.0 About Opensource License](7.License/7._About_License.md)
+
 - [7.1 Importance of License](7.License/7.1_Importance_of_License.md)
+
 - [7.2 Apache License](7.License/7.2_Apache.md)
+
 - [7.4 BSD 2 Clause](7.License/7.4_BSD_2Clause.md)
+
 - [7.5 GNU GPL](7.License/7.5_GNU_GPL.md)
+
 - [7.7 MIT License](7.License/7.7_MIT_License.md)
+
 - [7.9 Common Development Distribution](7.License/7.9_Common_Development_Distribution.md)
+
 - [7.10 About Opensource License](7.License/7.10_Eclipse_Public_License.md)
 
 
