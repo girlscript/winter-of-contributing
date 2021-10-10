@@ -99,3 +99,8 @@
 - [server/client socket methods]
 - [General methods]
 - [Keylogger](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_5/Keylogger.md)
+## Week-6 VAPT (Vulnerability Assessment and Penetration Testing)
+- [Vulnerability identification]
+- [Vulnerability analysis]
+- [Risk assessment]
+- [Remediation]
