@@ -57,6 +57,10 @@ Iterative method: O(1).
 
 Recursive method: O(log n).
 
+## Library used for demonstration of process :
+
+To get the middle index we have to use the floor function. For this we will import floor from math library.
+
 ## Advantages of Binary Search Algorithm :
 
 1. Binary search algorithm performs searching to the half of the list ,so it takes less time than other linear time search algorithms.
