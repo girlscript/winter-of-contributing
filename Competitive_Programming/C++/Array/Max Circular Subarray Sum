@@ -1,0 +1,87 @@
+# Max Circular Subarray Sum
+
+## Problem Statement
+Given an array arr[] of N integers arranged in a circular fashion. Your task is to find the maximum contiguous subarray sum.
+Link https://practice.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1#
+
+#### Example
+```
+Input: 7\
+{8,-8,9,-9,10,-11,12}\
+Output: 22\
+```
+#### C++ Implementation
+```
+#include<bits/stdc++.h>
+using namespace std;
+
+class Solution{
+    public:
+    // arr: input array
+    // num: size of array
+    //Function to find maximum circular subarray sum.
+    int normal(int arr[], int n){
+        int res=arr[0], maxend=arr[0];
+        for(int i=1; i<n; i++){
+            maxend=max(arr[i], maxend+arr[i]);
+            res=max(res, maxend);
+        }
+        return res;
+    }
+    int overallmax(int arr[], int n){
+        int maxnormal=normal(arr, n);
+        if(maxnormal<0){
+            return maxnormal;
+        }
+        int arraysum=0;
+        for(int i=0; i<n; i++){
+            arraysum+=arr[i];
+            arr[i]=-arr[i];
+        }
+        int maxcircular=arraysum+normal(arr, n);
+        return max(maxnormal, maxcircular);
+    }
+    int circularSubarraySum(int arr[], int num){
+        int res=overallmax(arr, num);
+        return res;
+        // your code here
+    }
+};
+
+int main()
+ {
+	int T;
+	
+	//testcases
+	cin>> T;
+	
+	while (T--)
+	{
+	    int num;
+	    
+	    //size of array
+	    cin>>num;
+	    int arr[num];
+	    
+	    //inserting elements
+	    for(int i = 0; i<num; i++)
+	        cin>>arr[i];
+	        
+	    Solution ob;
+	    //calling function
+	    cout << ob.circularSubarraySum(arr, num) << endl;
+	    
+	}
+	
+	return 0;
+}
+```
+**Input** \
+7 \
+8 -8 9 -9 10 -11 12 \
+**Output** \
+22
+
+#### Complexity:
+***Time Complexity:*** O(n) \
+***Auxilary Space:*** O(1)
