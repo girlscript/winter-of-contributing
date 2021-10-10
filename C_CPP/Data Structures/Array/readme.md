@@ -1,5 +1,4 @@
 - [Array Rotation](Array%20Rotation)
-- [Common Elements in Three Sorted Arrays](Common%20Elements%20in%20Three%20Sorted%20Arrays)
 - [LCM and GCD](Array/LCM%20and%20GCD)
 - [Relative Complement of two Sorted Arrays](Relative%20Complement%20of%20two%20Sorted%20Arrays)
 - [Sparse Matrix and Polynomials Addition](Sparse%20Matrix%20and%20Polynomials%20Addition)
