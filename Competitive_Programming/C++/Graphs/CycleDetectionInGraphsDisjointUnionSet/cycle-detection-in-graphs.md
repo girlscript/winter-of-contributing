@@ -1,69 +1,66 @@
-# DISJOINT UNION SET
+# **Cycle Detection In Graphs Disjoint Union Set**
 
-In this tutorial we will be implementing the DSU(Disjoint Union Set) data structure.
-This data structure is extremely important because of its usage in finding cycles in undirected graphs
-This algo is also used in Kruksals algo
+- In this tutorial we will be implementing the DSU(Disjoint Union Set) data structure.
+This data structure is extremely important because of its usage in finding cycles in **undirected graphs**
+This algorithm is also used in Kruksals algorithm
 
 <br />
 
-Disjoint Sets : non-overlapping sets, or sets which do not share any common elements
+- Disjoint Sets : non-overlapping sets, or sets which do not share any common elements
 
-This data structure supports two operations :
-(a)Union
-(b)Find
+- This data structure supports two operations :
+  - 1 **Union**
+  - 2 **Find**
 
-Find operation will return the set in which a particular element is present.
+- Find operation will return the set in which a particular element is present.
 Union function means we want to merge two sets into one.
 
-Our goal is to design such a data structure that performs these two operations in minimum possible 
+- Our goal is to design such a data structure that performs these two operations in minimum possible 
 time complexity
 
-we will start by basic approach which will do it in linear time and then we will make some optimizations
+- We will start by basic approach which will do it in linear time and then we will make some optimizations
 which will do it in O(1) time.
-(a)Path Compression
-(b)Union By Rank
+  - 1 **Path Compression**
+  - 2 **Union By Rank**
 
-We will be creating a parent and a rank array which will be storing the parent and number of elements in the set of that particular element respectively.
+- We will be creating a parent and a rank array which will be storing the parent and number of elements in the set of that particular element respectively.
 
-- if parent of some node is -1 then it means that the node is itself the set/that node in itself the parent of the set
-- Initially we will mark the parent of all the elements as -1 (initially every element is going to be a set in itself)
-- A particular set can be identified using its leader (parent node), the leader will be representing the set and will give us the access to the number of elements in its set
+  - if parent of some node is -1 then it means that the node is itself the set/that node in itself the parent of the set
+  - Initially we will mark the parent of all the elements as -1 (initially every element is going to be a set in itself)
+  - A particular set can be identified using its leader (parent node), the leader will be representing the set and will give us the access to the number of elements in its set
 
 <br />
 
-## CYCLE DETECTION IN GRAPHS USING DISJOINT UNION SET
+## **APPROACH**
 
-### APPROACH:
-
-- We will implement our graph using adjacency list, inside the graph class we will define 2 methods : 
-   (1) Find()
-   (2) UnionSet()
+- We will implement our **graph using adjacency list**, inside the graph class we will define 2 methods :
+  - 1 **Find()**
+  - 2 **UnionSet()**
 
 - Both these methods will be used to group and create sets of all the nodes of the graph so that our underlying idea can be implemented, that is : if two vertices of a graphs share a common parent, the graph must contain a cycle.
 
-NOTE : First we will see how to create these functions using naive appraoch, and afterwards we will implement these structures using optimized appraoch
+- **NOTE** First we will see how to create these functions using naive appraoch, and afterwards we will implement these structures using optimized appraoch
 
 <br />
 
-### Optimisations:
+### **Optimisations**
 
-- We will use dynamic programming kind of appraoch in this optimisation that is : 
-   (a) Path Compression : if two elements belong to the same set, then instead of marking one as the parent of other, we will mark the leader of the set as the parent of all its children
+- We will use dynamic programming kind of appraoch in this optimisation that is :
+  - **Path Compression :** if two elements belong to the same set, then instead of marking one as the parent of other, we will mark the leader of the set as the parent of all its children
 
-   (b) Union by Rank : while merging 2 sets, we will keep a check on the number of elements in each set
+  - **Union by Rank :** while merging 2 sets, we will keep a check on the number of elements in each set
    if one set have more number of elements than the other we will make the leader of that set as the parent of the combined set, otherwise we will make the leader of the other set as the leader of the new combined set, this will add to the efficiency of the program.
 
-   TIME COMPLEXITY WITHOUT OPTIMIZATIONS : O(logN)
-   TIME COMPLEXITY AFTER OPTIMIZATIONS : almost O(1)
+- **TIME COMPLEXITY WITHOUT OPTIMIZATIONS : O(logN)**
+- **TIME COMPLEXITY AFTER OPTIMIZATIONS : almost O(1)**
 
 <br />
 
-### Code:
+### **Code**
 
-- Unoptimised Approach :
+- **Unoptimised Approach**
 
-```
-
+```C++
 #include <iostream>
 #include <list>
 
@@ -167,7 +164,14 @@ int main()
 	g.addEdge(2,3);
 	//g.addEdge(3,0);
 
-	cout<<g.containsCycle()<<endl;
+	if(g.containsCycle())
+	{
+		cout<<"Cycle is present"<<endl;
+	}
+	else
+	{
+		cout<<"No cycle is present"<<endl;
+	}
 
 	return 0;
 }
@@ -175,11 +179,9 @@ int main()
 
 <br />
 
+- **Optimized Approach**
 
-- Optimized Approach :
-
-```
-
+```C++
 #include <iostream>
 #include <vector>
 
@@ -296,7 +298,6 @@ public:
 		
 		return false; //since no cycle could be found 
 	}
-
 };
 
 int main()
@@ -311,6 +312,8 @@ int main()
 	g.addEdge(6,5);
 	g.addEdge(2,5); // this edge is responsible for the presence of cycle in this graph 
 
+	g.printGraph();
+
 	if(g.containsCycle())
 	{
 		cout<<"Cycle is present"<<endl;
@@ -324,10 +327,8 @@ int main()
 }
 ```
 
-Output :
-
-![OutputWhenNoCycleIsPresent](https://user-images.githubusercontent.com/34866732/136584315-49251f27-e05a-464b-9714-ffeb025d8cd1.png)
+### **Output :**
 
 <br />
 
-![OutputWhenCycleIsPresent](https://user-images.githubusercontent.com/34866732/136584306-ecf861e2-deae-4db8-ad60-32fafa21092e.png)
+![image](https://user-images.githubusercontent.com/34866732/136705602-e8e50005-a307-4e8f-89e1-03783c070717.png)
