@@ -35,7 +35,7 @@ To use inline styles, add the style attribute to the relevant element. The style
 
 An internal style sheet may be used if one single HTML page has a unique style.
 
-The internal style is defined inside the <style> element, inside the head section.
+The internal style is defined inside the ```<style>``` element, inside the head section.
 
 
 
