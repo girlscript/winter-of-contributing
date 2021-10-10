@@ -130,5 +130,5 @@
 
 - Similar for Boolean Conversion use Boolean() as well.
 
-Thanks for reading
-Author: Sumit Singh
+#### Thanks for reading
+#### Author: Sumit Singh
