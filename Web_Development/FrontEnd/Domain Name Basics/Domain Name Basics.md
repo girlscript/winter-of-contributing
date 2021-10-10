@@ -1,12 +1,15 @@
 # Domain Name Basics
-![Untitled](https://user-images.githubusercontent.com/78808336/136243815-d910ca18-4f1a-4726-be96-8190d467642d.gif)
 
-*Image Credit: [Gifer](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgifer.com%2Fen%2FML7C&psig=AOvVaw1LM_wYlwydRzlwUMd2r7oA&ust=1633717878292000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCMiA-_j3uPMCFQAAAAAdAAAAABAD)*
+![Intro Animation](https://user-images.githubusercontent.com/78808336/136243815-d910ca18-4f1a-4726-be96-8190d467642d.gif)
 
-## ***📌What is a domain name / domain?***
-A ***domain name*** or simply known as ***domain*** is a online, digital address or entity that typically takes the form of your organization's name and a standard internet suffix, for example, ***mybusiness.com or stateuniversity.edu, google.com, wikipedia.org.*** etc. These domain names are unique for a particular organisation and are associated with a physical IP address on the Internet, which in turn, is associated with a unique system connected to the internet. For instance, the domain name `example.com` might translate to the physical address `198.102.434.8`.
+*Image Credit: [Gifer](https://gifer.com/en/ML7C)*
+
+## 📌 What is a domain name / domain?
+
+A *domain name* or simply known as *domain* is a online, digital address or entity that typically takes the form of your organization's name and a standard internet suffix, for example, `mybusiness.com` or `stateuniversity.edu`, `google.com`, `wikipedia.org`, etc. These domain names are unique for a particular organisation and are associated with a physical IP address on the Internet, which in turn, is associated with a unique system connected to the internet. For instance, the domain name `example.com` might translate to the physical address `198.102.434.8`.
 
 It basically follows after the `@` sign in email addresses, and after `www.` in web addresses.
+
 For example, your domain is ***your-organisation.com***, and you have a website ***www.your-organisation.com*** and email at ***example@your-organisation.com.***
 We can either use a domain name that you already own or we can purchase a domain suiting our needs from ***domain registrar***, which is a company that sells domain names that aren't yet owned and are therefore available for registration. Some damain name registrars are ***GoDaddy, 1&1, domain.com*** etc.
 <hr>
