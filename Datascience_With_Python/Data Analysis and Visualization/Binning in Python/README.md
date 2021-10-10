@@ -14,17 +14,17 @@ In this method the data is first sorted and then the sorted values are distribut
 
 There are basically two types of binning approaches –
 
-* **Equal width (or distance) binning**: The simplest binning approach is to partition the range of the variable into k equal-width intervals. The interval width is simply the range [A, B] of the variable divided by k,
-$$w = (B-A) / k$$
-Thus, ith interval range will be [A + (i-1)w, A + iw] where i = 1, 2, 3…..k. Skewed data cannot be handled well by this method.
+- **Equal width (or distance) binning**: The simplest binning approach is to partition the range of the variable into k equal-width intervals. The interval width is simply the range [A, B] of the variable divided by k,
+  $$w = (B-A) / k$$
+  Thus, ith interval range will be [A + (i-1)w, A + iw] where i = 1, 2, 3…..k. Skewed data cannot be handled well by this method.
 
-* **Equal depth (or frequency) binning**: In equal-frequency binning we divide the range [A, B] of the variable into intervals that contain (approximately) equal number of points; equal frequency may not be possible due to repeated values.
+- **Equal depth (or frequency) binning**: In equal-frequency binning we divide the range [A, B] of the variable into intervals that contain (approximately) equal number of points; equal frequency may not be possible due to repeated values.
 
 There are three approaches to perform smoothing:
 
-* **Smoothing by bin means:** In smoothing by bin means, each value in a bin is replaced by the mean value of the bin.
-* **Smoothing by bin median:** In this method each bin value is replaced by its bin median value.
-* **Smoothing by bin boundary:** In smoothing by bin boundaries, the minimum and maximum values in a given bin are identified as the bin boundaries. Each bin value is then replaced by the closest boundary value.
+- **Smoothing by bin means:** In smoothing by bin means, each value in a bin is replaced by the mean value of the bin.
+- **Smoothing by bin median:** In this method each bin value is replaced by its bin median value.
+- **Smoothing by bin boundary:** In smoothing by bin boundaries, the minimum and maximum values in a given bin are identified as the bin boundaries. Each bin value is then replaced by the closest boundary value.
 
 ### **Steps**
 
@@ -33,13 +33,12 @@ There are three approaches to perform smoothing:
 3. Smooth data by finding either the mean, median or boundaries of each bin.
 
 ### Applications
+
 1. Binning can be used when there are more possible data points than observed data points. An example is to bin the body heights of people into intervals or categories. Let us assume, we take the heights of 30 people. The length values can be between 1.30 metres to 2.50 metres. Theoretically, there are 120 different cm values possible, but we can have at most 30 different values from our sample group. One way to group them could be to put the measured values into bins ranging from 1.30 - 1.50 metres, 1.50 - 1.70 metres, 1.70 - 1.90 metres and so on. This means that the original data values, will be assigned to a bin into which they fit according to their size. The original values will be replaced by values representing the corresponding intervals. Binning is a form of quantization.
 
 2. Bins do not necessarily have to be numerical, they can be categorical values of any kind, like "dogs", "cats", "hamsters", and so on.
 
 3. Binning is also used in image processing, binning. It can be used to reduce the amount of data, by combining neighboring pixel into single pixels. kxk binning reduces areas of k x k pixels into single pixel.
-
-
 
 #### References
 
