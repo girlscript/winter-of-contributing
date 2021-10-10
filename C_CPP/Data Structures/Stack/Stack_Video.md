@@ -13,7 +13,8 @@
 
 ## Video link:
 
-[![Stack Video](https://github.com/anu-oss/video_gwoc/blob/8eefba43957f8a251ac4ab80b75728888352d008/Thumbnail_Stack.jpg)](https://drive.google.com/file/d/1DRkgGpKBs7YxXk7HRCnVqpYxgnteNSv3/view?usp=sharing)
+[![Stack Video](![Thumbnail_Stack](https://user-images.githubusercontent.com/75632877/136688566-9c1c9557-92c0-4403-b50c-97b3fdbeafec.jpg)
+)](https://drive.google.com/file/d/1DRkgGpKBs7YxXk7HRCnVqpYxgnteNSv3/view?usp=sharing)
 
 </br>
 
