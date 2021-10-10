@@ -15,8 +15,10 @@ In this method the data is first sorted and then the sorted values are distribut
 There are basically two types of binning approaches –
 
 - **Equal width (or distance) binning**: The simplest binning approach is to partition the range of the variable into k equal-width intervals. The interval width is simply the range [A, B] of the variable divided by k,
-  $$w = (B-A) / k$$
-  Thus, ith interval range will be [A + (i-1)w, A + iw] where i = 1, 2, 3…..k. Skewed data cannot be handled well by this method.
+
+  ``` w = (B-A) / k ```
+  
+  Thus, ith interval range will be ```[A + (i-1)w, A + iw]``` where ```i = 1, 2, 3…..k```. Skewed data cannot be handled well by this method.
 
 - **Equal depth (or frequency) binning**: In equal-frequency binning we divide the range [A, B] of the variable into intervals that contain (approximately) equal number of points; equal frequency may not be possible due to repeated values.
 
