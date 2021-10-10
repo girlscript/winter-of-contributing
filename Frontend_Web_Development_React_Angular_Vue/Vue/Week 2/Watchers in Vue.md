@@ -75,6 +75,27 @@ already doing it under the hood, so you can also have access to changes made to 
 computed, or props, for example.
 
 Let’s run through the most simple example possible so you get a taste of what’s happening here.
+
+**Eg: 1**
+
+**HTML CODE**
+```
+<html>
+  <head>
+    <title>Vue.js Watchers</title>
+
+    <script src="watcher.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+        <input type="number" v.model.number="counter"></input>
+    </div>
+  </body>
+</html>
+```
+
+**JS CODE**
 ```
 new Vue({
   el: '#app', 
@@ -83,6 +104,7 @@ new Vue({
       counter: 0
     }
   },
+  // Creating a Watcher
   watch: {
     counter() {
       console.log('The counter has changed!')
@@ -95,8 +117,49 @@ new Vue({
 
 https://user-images.githubusercontent.com/57637086/136342093-28f3ccb4-0b99-45dc-a5d3-bf1214064bf4.mp4
 
+**As you can see in the code above, we’re storing counter in data, and by using the name of the property as the function name, we’re able to watch it. When we reference that counter in watch, we can observe any change to that property.**
+_________________________________________________________________________________________________________________________________________________________________________________
+**Eg: 2**
+
+**HTML and CSS CODE**
+
 ```
-import Vue from "vue";
+<html>
+  <head>
+    <title>Vue.js Watchers</title>
+
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+
+  <body style="background: black;">
+    <h1 style="text-align: center; color: yellow;">
+      Square of Number
+    </h1>
+
+    <h3 style="text-align: center;">
+      Vue.js | Watchers
+    </h3>
+
+    <!-- Creating element for Vue -->
+    <div style="text-align: center; color: yellowgreen;" id="ex">
+      <h3>
+        Enter any Value :
+        <input type="text" v-model="value1" />
+      </h3>
+      <h3>
+        Square of Entered number :
+        <span style="font-size: 30px;">
+          {{result}}
+        </span>
+      </h3>
+    </div>
+  </body>
+</html>
+```
+**JS CODE**
+
+```
+import Vue from "vue";  
 
 Vue.config.productionTip = false;
 new Vue({
@@ -124,3 +187,14 @@ new Vue({
 
 https://user-images.githubusercontent.com/57637086/136335264-10856bb3-a855-422d-b940-bae20f328f75.mp4
 
+**The Watcher looks for changes in the input value. Whenever the input value changes, the function inside is automatically executed (that return square of input value), and the value of result changes automatically. We do not have to specially assign any events and wait for the value to change.**
+
+**The result value changes automatically when the input value changes.**
+_________________________________________________________________________________________________________________________________________________________________________________
+**References**
+
+https://vuejs.org/v2/guide/
+
+https://medium.com/notonlycss/the-difference-between-computed-and-watchers-in-vue-js-3579bf91063a
+
+https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started
