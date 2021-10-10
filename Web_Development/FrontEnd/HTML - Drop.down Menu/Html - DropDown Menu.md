@@ -1,16 +1,5 @@
 # HTML - DropDown Menu
 
-> **This Documentation is a part of "Frontend Dev HTML/CSS/JS" ->  HTML - DropDown Menu**
-<br>
-
-### Table of Contents:
-* [About DropDown Menu](#About-DropDown-Menu)
-* [How to Make a Dropdown Menu in HTML](#How-to-Make-a-Dropdown-Menu-in-HTML)
-* [Making DropDown Menu in Header of Web.page](#Making-DropDown-Menu-in-Header-of-Web.page)
-
-<br>
-<br>
-
 ## About DropDown Menu 
 
 * Drop-Down Menu is a list of options, it helps us to choose one value from a predefined list. When we clicked or hover over it, It displays options vertically (drop-down) and it again comes in their normal poasition when we clicked or hover somewhere else. 
@@ -21,24 +10,17 @@
 <br>
 
 * In below picture you can see, how drop down menu looks like -
-<br>
 
 <p align="center">
   <img src=https://s3.amazonaws.com/menumaker-blog/post_images/2017/05/1-2.png width="800px" />
 </p>
 
-[ Source of this picture: https://s3.amazonaws.com/menumaker-blog/post_images/2017/05/1-2.png ]
-
-<br>
-<br>
+[ Source of this picture:  <a href="https://s3.amazonaws.com/menumaker-blog/post_images/2017/05/1-2.png">Community Service Now</a> ]
 
 ## How to Make a Dropdown Menu in HTML
 ( Here, I will show you with the help of example how you can easily make a Drop-Down Menu. So let's start -)
-<br>
 
-> **Required a basic knowledge of Form, Label and Select tag .**
-<br>
-<br>
+Required a basic knowledge of Form, Label and Select tag.
 
 ```
 <!DOCTYPE html>
@@ -89,18 +71,10 @@
   <img src="https://github.com/ayush-sleeping/Its-Nothing-don-t-open-it/blob/main/simple%20dropdown.png" width="600px" />
 </p>
 
-<br>
-<br>
-
 ## Making DropDown Menu in Header of Web.page
 Here we are going to make a "Dropdown Menu" in the header of the Web.page, where we usually see Dropdown Menu. And also we are going to use little bit of ``` CSS ``` , To give a Simple design to Header of Web.page. <br>
 
-<br>
-
-> **Required a knowledge of HTML - div, ul, and li tags .**
-
-<br>
-<br>
+Required a knowledge of HTML - div, ul, and li tags .
 
 * Step 1 : ``` Using HTML ``` , Create a basic structure of Web.page . 
 
@@ -121,7 +95,6 @@ Here we are going to make a "Dropdown Menu" in the header of the Web.page, where
 </body>
 </html>
 ```
-<br>
 
 * Step 2: Now the main work comes, Making the Drop-dwon menu in ```<body>     </body>```  using div, ul and li tags.
 
@@ -183,7 +156,6 @@ Here we are going to make a "Dropdown Menu" in the header of the Web.page, where
 
 </body>
 ```
-<br>
 
 * Step 3: Adding ``` CSS ``` , Make a another file and name it "Design.css".
 
@@ -283,7 +255,6 @@ body{
     background: rgb(4, 30, 80);
 }
 ```
-<br>
 
 Step 4 : Now you have to link ``` CSS ``` file with ``` HTML ``` file.
 
@@ -299,15 +270,3 @@ Step 4 : Now you have to link ``` CSS ``` file with ``` HTML ``` file.
 <p align="center">
   <img src=https://github.com/ayush-sleeping/DropDown-Menu/blob/main/Snapshot/Snapshot-2.png width="800px" />
 </p>
-
-
-
-<br>
-<br>
-<hr>
-Was this Documentation helpful? If yes give a star to this Repository.
-
-#### Authors
-- [Ayush Mishra](https://github.com/ayush-sleeping)
-
-
