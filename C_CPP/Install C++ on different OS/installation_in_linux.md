@@ -13,8 +13,8 @@
 | ------------- |:-------------| 
 | 1             | [Prerequisites](#prerequisites) |
 | 2             | [Installing GCC on Linux(Ubuntu)](#installing-gcc) |
-| 3             | [Installing G++ on Linux(Ubuntu)](#installing-g++) |
-| 4             | [Compiling Our initial Program](#compiling%20our%20first%20program) |
+| 3             | [Installing G++ on Linux(Ubuntu)](#Installing-gcc) |
+| 4             | [Compiling Our initial Program](#compiling-our-first-program) |
 | 5             | [Conclusion](#Conclusion) |
 
 </td>
@@ -58,7 +58,7 @@
  
 [![Back to top](https://img.shields.io/badge/Back%20to%20top-blue?style=flat)](#contents)
 
-### Compiling our first program
+### Compiling-our-first-program
 
 - Make a file named `test.c` put this following code in this file and save it.
 
