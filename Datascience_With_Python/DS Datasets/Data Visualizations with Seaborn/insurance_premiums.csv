@@ -1,0 +1,52 @@
+State,fatal_collisions,fatal_collisions_speeding,fatal_collisions_alc,fatal_collisions_not_distracted,fatal_collisions_no_hist,premiums,insurance_losses,Region
+Alabama,18.8,39,30,96,80,784.55,145.08,South
+Alaska,18.1,41,25,90,94,1053.48,133.93,West
+Arizona,18.6,35,28,84,96,899.47,110.35,West
+Arkansas,22.4,18,26,94,95,827.34,142.39,South
+California,12.0,35,28,91,89,878.41,165.63,West
+Colorado,13.6,37,28,79,95,835.5,139.91,West
+Connecticut,10.8,46,36,87,82,1068.73,167.02,Northeast
+Delaware,16.2,38,30,87,99,1137.87,151.48,South
+District of Columbia,5.9,34,27,100,100,1273.89,136.05,South
+Florida,17.9,21,29,92,94,1160.13,144.18,South
+Georgia,15.6,19,25,95,93,913.15,142.8,South
+Hawaii,17.5,54,41,82,87,861.18,120.92,West
+Idaho,15.3,36,29,85,98,641.96,82.75,West
+Illinois,12.8,36,34,94,96,803.11,139.15,Midwest
+Indiana,14.5,25,29,95,95,710.46,108.92,Midwest
+Iowa,15.7,17,25,97,87,649.06,114.47,Midwest
+Kansas,17.8,27,24,77,85,780.45,133.8,Midwest
+Kentucky,21.4,19,23,78,76,872.51,137.13,South
+Louisiana,20.5,35,33,73,98,1281.55,194.78,South
+Maine,15.1,38,30,87,84,661.88,96.57,Northeast
+Maryland,12.5,34,32,71,99,1048.78,192.7,South
+Massachusetts,8.2,23,35,87,80,1011.14,135.63,Northeast
+Michigan,14.1,24,28,95,77,1110.61,152.26,Midwest
+Minnesota,9.6,23,29,88,88,777.18,133.35,Midwest
+Mississippi,17.6,15,31,10,100,896.07,155.77,South
+Missouri,16.1,43,34,92,84,790.32,144.45,Midwest
+Montana,21.4,39,44,84,85,816.21,85.15,West
+Nebraska,14.9,13,35,93,90,732.28,114.82,Midwest
+Nevada,14.7,37,32,95,99,1029.87,138.71,West
+New Hampshire,11.6,35,30,87,83,746.54,120.21,Northeast
+New Jersey,11.2,16,28,86,78,1301.52,159.85,Northeast
+New Mexico,18.4,19,27,67,98,869.85,120.75,West
+New York,12.3,32,29,88,80,1234.31,150.01,Northeast
+North Carolina,16.8,39,31,94,81,708.24,127.82,South
+North Dakota,23.9,23,42,99,86,688.75,109.72,Midwest
+Ohio,14.1,28,34,99,82,697.73,133.52,Midwest
+Oklahoma,19.9,32,29,92,94,881.51,178.86,South
+Oregon,12.8,33,26,67,90,804.71,104.61,West
+Pennsylvania,18.2,50,31,96,88,905.99,153.86,Northeast
+Rhode Island,11.1,34,38,92,79,1148.99,148.58,Northeast
+South Carolina,23.9,38,41,96,81,858.97,116.29,South
+South Dakota,19.4,31,33,98,86,669.31,96.87,Midwest
+Tennessee,19.5,21,29,82,81,767.91,155.57,South
+Texas,19.4,40,38,91,87,1004.75,156.83,South
+Utah,11.3,43,16,88,96,809.38,109.48,West
+Vermont,13.6,30,30,96,95,716.2,109.61,Northeast
+Virginia,12.7,19,27,87,88,768.95,153.72,South
+Washington,10.6,42,33,82,86,890.03,111.62,West
+West Virginia,23.8,34,28,97,87,992.61,152.56,South
+Wisconsin,13.8,36,33,39,84,670.31,106.62,Midwest
+Wyoming,17.4,42,32,81,90,791.14,122.04,West
