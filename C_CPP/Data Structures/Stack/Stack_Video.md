@@ -13,8 +13,9 @@
 
 ## Video link:
 
-[![Stack Video](![Thumbnail_Stack](https://user-images.githubusercontent.com/75632877/136688566-9c1c9557-92c0-4403-b50c-97b3fdbeafec.jpg)
-)](https://drive.google.com/file/d/1DRkgGpKBs7YxXk7HRCnVqpYxgnteNSv3/view?usp=sharing)
+
+[![Stack_Video](https://user-images.githubusercontent.com/75632877/136688566-9c1c9557-92c0-4403-b50c-97b3fdbeafec.jpg)
+](https://drive.google.com/file/d/1DRkgGpKBs7YxXk7HRCnVqpYxgnteNSv3/view?usp=sharing)
 
 </br>
 
