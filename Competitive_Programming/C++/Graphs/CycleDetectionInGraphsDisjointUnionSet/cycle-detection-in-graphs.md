@@ -1,7 +1,6 @@
 # **Cycle Detection In Graphs Disjoint Union Set**
 
-- In this tutorial we will be implementing the DSU(Disjoint Union Set) data structure.
-This data structure is extremely important because of its usage in finding cycles in **undirected graphs**
+- This data structure is extremely important because of its usage in finding cycles in **undirected graphs**
 This algorithm is also used in Kruksals algorithm
 
 <br />
@@ -51,8 +50,12 @@ which will do it in O(1) time.
   - **Union by Rank :** while merging 2 sets, we will keep a check on the number of elements in each set
    if one set have more number of elements than the other we will make the leader of that set as the parent of the combined set, otherwise we will make the leader of the other set as the leader of the new combined set, this will add to the efficiency of the program.
 
-- **TIME COMPLEXITY WITHOUT OPTIMIZATIONS : O(logN)**
-- **TIME COMPLEXITY AFTER OPTIMIZATIONS : almost O(1)**
+### **Time Complexity**
+
+- Unoptimised
+  - O(log(N))
+- Optimised
+  - O(1)
 
 <br />
 
@@ -61,8 +64,7 @@ which will do it in O(1) time.
 - **Unoptimised Approach**
 
 ```C++
-#include <iostream>
-#include <list>
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -182,8 +184,7 @@ int main()
 - **Optimized Approach**
 
 ```C++
-#include <iostream>
-#include <vector>
+#include<bits/stdc++.h>
 
 using namespace std;
 
@@ -331,4 +332,4 @@ int main()
 
 <br />
 
-![image](https://user-images.githubusercontent.com/34866732/136705602-e8e50005-a307-4e8f-89e1-03783c070717.png)
+<img src="https://user-images.githubusercontent.com/34866732/136705602-e8e50005-a307-4e8f-89e1-03783c070717.png" width="1115" height="624">
