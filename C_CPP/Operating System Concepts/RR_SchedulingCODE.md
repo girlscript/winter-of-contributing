@@ -17,7 +17,7 @@
  ![image](https://www.gatevidyalay.com/wp-content/uploads/2018/10/Round-Robin-Scheduling.png)
 
  - C++ PROGRAM FOR ROUND ROBIN SCHEDULING
- ```
+ ```cpp
  #include <bits/stdc++.h>
 
 using namespace std;
