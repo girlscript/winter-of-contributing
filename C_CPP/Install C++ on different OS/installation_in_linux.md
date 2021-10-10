@@ -12,8 +12,8 @@
 | No            | Topics    |  
 | ------------- |:-------------| 
 | 1             | [Prerequisites](#prerequisites) |
-| 2             | [Installing GCC on Linux(Ubuntu)](#installing%20gcc) |
-| 3             | [Installing G++ on Linux(Ubuntu)](#installing%20g++) |
+| 2             | [Installing GCC on Linux(Ubuntu)](#installing-gcc) |
+| 3             | [Installing G++ on Linux(Ubuntu)](#installing-g++) |
 | 4             | [Compiling Our initial Program](#compiling%20our%20first%20program) |
 | 5             | [Conclusion](#Conclusion) |
 
@@ -34,7 +34,7 @@
 
 [![Back to top](https://img.shields.io/badge/Back%20to%20top-blue?style=flat)](#contents)
 
-### Installing gcc
+### Installing-gcc
 - ##### Run the subsequent commands to put in gcc in your linux operating system machine
 
 | Command          | Description |
@@ -46,7 +46,7 @@
 
 [![Back to top](https://img.shields.io/badge/Back%20to%20top-blue?style=flat)](#contents)
 
-### Installing g++
+### Installing-g++
 - ##### Run the subsequent commands to put in g++ in your linux operating system machine
 
 | Command          | Description |
