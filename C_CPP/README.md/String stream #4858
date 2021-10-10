@@ -4,6 +4,23 @@
 
 //By treating string as stream we can perform operations like manipulation etc.
 //It is absically used in parsing the input.
+
+
+//Methods that are used in string straem class are
+
+//clear() — to clear the stream
+//str() — to get and set string object 
+//operator << — add a string to the stringstream 
+//operator >> — read something from the stringstream 
+
+
+
+//Applications where string stream is used
+
+//1)In order to convert numbers into strings
+//2)In order to count the words in a string without using freq element
+//3)In order to print individual charachters in a string without using the long codes.
+
  
 //Example program
 
