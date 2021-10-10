@@ -2,6 +2,22 @@
 
 ## AUDIO LINK: [Data Pre-Processing](https://drive.google.com/file/d/1Jl3_Svw628QYd1brWqxIVoYoEiSO14iI/view?usp=sharing)
 
+## Why preprocessing ?
+
+- Real world data are generally
+- Incomplete: lacking attribute values, lacking certain attributes of interest, or containing only aggregate data
+- Noisy: containing errors or outliers
+- Inconsistent: containing discrepancies in codes or names
+
+## Tasks in data preprocessing
+
+- Data cleaning: fill in missing values, smooth noisy data, identify or remove outliers, and resolve inconsistencies.
+- Data integration: using multiple databases, data cubes, or files.
+- Data transformation: normalization and aggregation.
+- Data reduction: reducing the volume but producing the same or similar analytical results.
+- Data discretization: part of data reduction, replacing numerical attributes with nominal ones.
+
+
 ## Preprocessing in Data Mining: 
 
 Data preprocessing is a data mining technique which is used to transform the raw data in a useful and efficient format. 
@@ -89,3 +105,30 @@ This enable to store the model of data instead of whole data, for example: Regre
 
 This reduce the size of data by encoding mechanisms.It can be lossy or lossless. If after reconstruction from compressed data, original data can be retrieved, such reduction are called lossless reduction else it is called lossy reduction. The two effective methods of dimensionality reduction are:Wavelet transforms and PCA (Principal Component Analysis). 
 
+
+## Advantages
+
+The advantages of data processing are
+
+- Highly efficient
+- Time-saving
+- High speed
+- Reduces errors
+- Disadvantages
+
+## The disadvantages of data processing are
+
+- Large power consumption
+- Occupies large memory
+- The cost of installation is high
+- Wastage of memory.
+
+## Applications
+
+The application of data processing is
+
+- In the banking sector, this processing is used by the bank customers to verify there, bank details, transaction and other details.
+- In educational departments like schools, colleges, this processing is applicable in finding student details like biodata, class, roll number, marks obtained, etc.
+- In the transaction process, the application updates the information when users request their details.
+- In a logistic tracking area, this processing helps in retrieving the required customer data online.
+- In hospitals patients, details can be easily searched.
