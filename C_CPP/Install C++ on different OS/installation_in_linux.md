@@ -20,7 +20,8 @@
 </td>
 <td>
 
-![ubuntu](img/gcc.png)
+![Ubuntu](https://user-images.githubusercontent.com/63473496/136709642-30f9f0b6-de83-4594-9a28-67820b746983.png)
+
 
 </td>
 </tr>
@@ -81,7 +82,8 @@ g++ test.c
 
 - You will see the following output.
 
-![cprogram](img/cprogram.PNG)
+![CProgram](https://user-images.githubusercontent.com/63473496/136709610-13b39ae8-13d8-4f95-8ae8-4f4120bcec05.png)
+
 
 - same way you can test c++ program.
 
