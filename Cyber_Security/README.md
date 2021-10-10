@@ -98,7 +98,7 @@
 ## Week-5 (Network Programming)
 - [Socket Programming](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_5/5_Socket_Programming.md)
 - [server/client socket methods]
-- [General methods]
+- [General methods](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_5/General%20Socket%20method.md)
 - [Keylogger](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_5/Keylogger.md)
 ## Week-6 VAPT (Vulnerability Assessment and Penetration Testing)
 - [Vulnerability identification]
