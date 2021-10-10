@@ -87,5 +87,8 @@ int main()
 	return 0;
 }
 ```
+
 **Output:**
-![output of lower_bound program](low out.jpg)
+
+![output](https://user-images.githubusercontent.com/55057608/136691034-d8fd2918-0020-4464-bfee-b40ad55b9534.PNG)
+
