@@ -1,6 +1,6 @@
 # gcc/g++ installation guide for Linux Users
 
-- #### In this documentation you will learn how to install various versions of gcc and g++ in your linux machine.
+- #### In this documentation you will learn how to install various versions of gcc and g++ on your linux machine.
 <br/>
 
 <table>
