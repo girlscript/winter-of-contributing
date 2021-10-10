@@ -1,4 +1,4 @@
-## Video Link : [Overview of Regression](https://vimeo.com/manage/videos/625432397)
+## Video Link : [Overview of Regression](https://drive.google.com/file/d/1bu9nQCbgk1ZDk39qOUHD0By5-Y4l9Hmc/view?usp=sharing)
 
 <br><br>
 
