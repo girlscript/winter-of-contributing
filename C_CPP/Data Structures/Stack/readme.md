@@ -3,4 +3,4 @@
 - [Stack using Linked List](./stack_using_linked_list.cpp)
 - [Stock Span Problem](./Stock%20Span%20Problem )
 - [Stack Audio](./Stack_Audio.md)
-- [Stack Video](./Stack_Video.md)
+- [Stack Video](C_CPP/Data Structures/Stack/Stack_Video.md)
