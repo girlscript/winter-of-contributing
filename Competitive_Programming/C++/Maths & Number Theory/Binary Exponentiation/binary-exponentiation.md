@@ -52,33 +52,31 @@ Following is the actual time complexity comparison:
 - Given two integer numbers: the base a (0 <= a <= 20) and the index b (0 <= b <= 2,147,483,000), a and b both are not 0. You have to find the last digit of ab.
 ```cpp
 
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 int main()
 {
-int t,a,ans;
-long long int b;
-scanf("%d",&t);
-while(t--)
-{
-scanf("%d %lld",&a,&b);
-if(a==0 && b>0)
-ans=0;
-else if(a>0 && b==0)
-ans=1;
-else
-{
-if(b%4==0)
-b=4;
-else
-b=b%4;
-long long int temp=pow(a,b);
-ans=temp%10;
-
-}
-
-printf("%d\n",ans);
-}
-return 0;
+    int t, a, ans;
+    long long int b;
+    scanf("%d", &t);
+    while (t--)
+    {
+        scanf("%d %lld", &a, &b);
+        if (a == 0 && b > 0)
+            ans = 0;
+        else if (a > 0 && b == 0)
+            ans = 1;
+        else
+        {
+            if (b % 4 == 0)
+                b = 4;
+            else
+                b = b % 4;
+            long long int temp = pow(a, b);
+            ans = temp % 10;
+        }
+        printf("%d\n", ans);
+    }
+    return 0;
 }
 ```
