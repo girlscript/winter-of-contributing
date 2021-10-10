@@ -156,7 +156,7 @@ Consider an example of a string “banana\0” where ‘\0’ is string terminat
      Pattern found at position 2
      Pattern found at position 4
      
-     Search for 'ba'
+     Search for 'bn'
      Pattern not found
      
 ```
