@@ -1,12 +1,13 @@
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <p align="center">
  <img src="https://user-images.githubusercontent.com/56113566/134766091-8f6f0c47-bca2-4fdf-8592-e93689ed266c.png" height= 400 width = 600 />
 </p>
 
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
  <h1 align="center">TABLE OF CONTENTS 📌</h1>
 
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 
 ### 1. Background :
@@ -35,6 +36,8 @@
 - [2.3 Start contributing to projects](2.Getting_Started_With_Open_Source/2.3_Start_Contributing_Some_Projects.md)
 
 - [2.4 Create your own open source projects](2.Getting_Started_With_Open_Source/2.4_Create_Your_Own_Open_Source_Project.md)
+
+- [2.5 Resources to find good first issues for your first open source contribution](2.Getting_Started_With_Open_Source/2.5_Resources_to_find_good_First_Issues_for_your_first_Open_Source_Contribution.md)
 
 
 ### 3. Share things with community :
@@ -101,6 +104,10 @@
 - [4.21 OpenCode IIITA](4.Open_Source_Programs/4.21_OpenCode_IIITA.md)
 
 - [4.22 Summer Of Bitcoin](4.Open_Source_Programs/4.22_Summer_Of_Bitcoin.md)
+
+- [4.23 Tezos India Fellowship](4.Open_Source_Programs/4.23_Tezos_India_Fellowship.md)
+
+- [4.24 Github Externship](4.Open_Source_Programs/4.24_GitHub_Externship.md)
 
 
 ### 5. Cloud Native Computing Foundation (CNCF) projects :
@@ -184,9 +191,13 @@
 
 ### 6. Popular open source projects and softwares :
 
+- [6.0 Tensorflow](6.Popular_Projects/6._Tensorflow.md)
+
 - [6.1 npm - Node package manager](6.Popular_Projects/6.1_npm.md)
 
 - [6.2 npm vs yarn](6.Popular_Projects/6.2_npm_vs_yarn.md)
+
+- [6.3 PIP](6.Popular_Projects/6.3_PIP.md)
 
 - [6.4 VS Code](6.Popular_Projects/6.4_vscode.md)
 
@@ -216,6 +227,37 @@
 
 - [6.17 Language Server Protocol](6.Popular_Projects/6.17_Language_Server_Protocol.md)
 
+- [6.18 Fast API](6.Popular_Projects/6.18_fastAPI.md)
+
+- [6.19 Jina AI](6.Popular_Projects/6.19_JinaAI.md)
+
+- [6.20 Gitpod](6.Popular_Projects/6.20_Gitpod.md)
+
+- [6.21 Appwrite](6.Popular_Projects/6.21_Appwrite.md)
+
+- [6.22 Flutter](6.Popular_Projects/6.22_Flutter.md)
+
+- [6.25 Nginx](6.Popular_Projects/6.25_nginx.md)
+
+- [6.29 Svelte](6.Popular_Projects/6.29_Svelte.md)
+
+- [6.31 D3](6.Popular_Projects/6.31_D3.js.md)
+
+- [6.32 Flask](6.Popular_Projects/6.32_Flask.md)
+
+### 7. Licenses :
+
+- [7.0 About Opensource License](7.License/7._About_License.md)
+- [7.1 Importance of License](7.License/7.1_Importance_of_License.md)
+- [7.2 Apache License](7.License/7.2_Apache.md)
+- [7.4 BSD 2 Clause](7.License/7.4_BSD_2Clause.md)
+- [7.5 GNU GPL](7.License/7.5_GNU_GPL.md)
+- [7.7 MIT License](7.License/7.7_MIT_License.md)
+- [7.9 Common Development Distribution](7.License/7.9_Common_Development_Distribution.md)
+- [7.10 About Opensource License](7.License/7.10_Eclipse_Public_License.md)
+
+
+
 ### Miscellaneous :
 
 - [M.1 Firebase hosting](Miscellaneous/M.1_Firebase_Hosting.md)
@@ -243,9 +285,10 @@
 - [M.12 Deploying projects to Heroku](Miscellaneous/M.12_Deploying_to_heroku.md)
 
 - [M.13 Customise Django-admin interface with Jet](Miscellaneous/M.13_Customise_Django_admin_with_Jet.md)
+
 - [M.14 What is web hosting and how to host websites](Miscellaneous/M.14_Web_Hosting.md)
 
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2 align="center"> ✨ CONTRIBUTORS ✨</h2>
 
@@ -256,4 +299,4 @@
 
 </p>
 
-<hr>
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
