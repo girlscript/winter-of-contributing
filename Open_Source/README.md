@@ -12,7 +12,7 @@
 
 ### 1. Background :
 
-- [1. History of free and open-source software (1980 & 1990’s)](1.Background/1._History_Of_Free_And_Open_Source.ipynb)
+- [1. History of free and open-source software (1980 & 1990’s)](1.Background/1._History_Of_Free_And_Open_Source.md)
 
 - [1.1 Rise of open source programming languages](1.Background/1.1_Rise_Of_Open_Source_Programming_Languages.md)
 
@@ -22,10 +22,11 @@
 
 - [1.4 Licenses in open-source projects](1.Background/1.4_Licenses_In_OS_Projects.md)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### 2. Getting started with open source :
 
-- [2. Getting started with open source](2.Getting_Started_With_Open_Source/2._GettingStarted_With_Open_Source.ipynb)
+- [2. Getting started with open source](2.Getting_Started_With_Open_Source/2._GettingStarted_With_Open_Source.md)
 
 - [2.0 Why open source?](2.Getting_Started_With_Open_Source/2.0_Why_Open_Source.md)
 
@@ -39,6 +40,7 @@
 
 - [2.5 Resources to find good first issues for your first open source contribution](2.Getting_Started_With_Open_Source/2.5_Resources_to_find_good_First_Issues_for_your_first_Open_Source_Contribution.md)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### 3. Share things with community :
 
@@ -54,12 +56,13 @@
 
 - [3.5 Git cheat sheet](3.Share_Things_With_Community/3.5_Git_Cheat_Sheet.md)
 
-- [3.6 How to find issues on Github](3.Share_Things_With_Community/3.6_Finding_Github_Issues.ipynb)
+- [3.6 How to find issues on Github](3.Share_Things_With_Community/3.6_Finding_Github_Issues.md)
 
 - [3.7 Youtube resources & blogs](3.Share_Things_With_Community/3.7_Youtube_Video_links_for_Beginners.md)
 
 - [3.8 Submit patch to linux kernel](3.Share_Things_With_Community/3.8_Submit_Patch_To_Linux_kernel.md)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### 4. Open source programs :
 
@@ -69,7 +72,7 @@
 
 - [4.3 Season of KDE](4.Open_Source_Programs/4.3_Season_Of_KDE.md)
 
-- [4.4 Linux foundation mentorship programs](4.Open_Source_Programs/4.4_Linux_Foundation_Mentorship_Programs.ipynb)
+- [4.4 Linux foundation mentorship programs](4.Open_Source_Programs/4.4_Linux_Foundation_Mentorship_Programs.md)
 
 - [4.6 Google season of docs](4.Open_Source_Programs/4.6_Google_Season_of_Docs.md)
 
@@ -109,6 +112,7 @@
 
 - [4.24 Github Externship](4.Open_Source_Programs/4.24_GitHub_Externship.md)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### 5. Cloud Native Computing Foundation (CNCF) projects :
 
@@ -172,9 +176,9 @@
 
 - [5.30 Thanos](5.CNCF_Projects/5.30_Thanos.md)
 
-- [5.31 CrossPlane](5.CNCF_Projects/5.31_Contour.md)
+- [5.31 Contour](5.CNCF_Projects/5.31_Contour.md)
 
-- [5.32 CrossPlane](5.CNCF_Projects/5.32_Cortex.md)
+- [5.32 Cortex](5.CNCF_Projects/5.32_Cortex.md)
 
 - [5.33 CrossPlane](5.CNCF_Projects/5.33_CrossPlane.md)
 
@@ -188,6 +192,7 @@
 
 - [5.38 Operator Framework](5.CNCF_Projects/5.38_OperatorFramework.md)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### 6. Popular open source projects and softwares :
 
@@ -247,6 +252,8 @@
 
 - [6.32 Flask](6.Popular_Projects/6.32_Flask.md)
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ### 7. Licenses :
 
 - [7.0 About Opensource License](7.License/7._About_License.md)
@@ -265,7 +272,7 @@
 
 - [7.10 About Opensource License](7.License/7.10_Eclipse_Public_License.md)
 
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### Miscellaneous :
 
