@@ -3,7 +3,9 @@
 
 
 
-SUDOKU is a maze of 9X9 grid,which is divided into 3X3 boxes.<br>
+**SUDOKU** is a maze of 9X9 grid, which is divided into 3X3 boxes.
+
+
 There are some rules for the number maze problem that we have to follow.<br>
 1. Numbers should be from 1-9.<br>
 2. Each row and column of 9X9 should have the number once. <br>
