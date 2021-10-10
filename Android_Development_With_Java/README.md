@@ -1,11 +1,26 @@
-  -    # / RoadMap for Android Java Program \ #
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/76570320/136681981-22572a1c-a504-424f-a422-9e7d8848a435.png" height= 300 width = 1000 />
+</p>
 
-  ## Introduction 
-       - Introduction-to-Android
-       - Installing-Android-Studio
-       - Overview-of-Android-Studio
+<hr>
 
-  ## Android Tutorial 
+ <h1 align="center">-: TABLE OF CONTENTS :-</h1>
+
+<hr>
+
+  ## 1. Introduction 
+   - [Introduction to Android Studio](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/Android_Java_1_0_Introduction_to_Android_Studio.ipynb)
+   - [Android_studio_installation](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/1.3%20Installing%20Android%20studio.ipynb)
+   - [Run your app using virtual device and real device.](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/1.5%20Running%20your%20app%20using%20virtual%20device.md)
+   - [Dalvik-Virtual-Machine](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/1.12%20Dalvik-Virtual-Machine.md)
+   - [Setup_Git_Github_On_Android_Studio](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/1.6_Setup_Git_Github_On_Android_Studio.md)
+   - [Updating_IDE_and_Essential_SDK_Tools](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/1.9%20Updating_IDE_and_Essential_SDK_Tools.ipynb)
+   - [Introduction to android manifest file](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/1.8%20Introduction%20to%20android%20manifest%20file.ipynb)
+   - [Drawable Resource Overview](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/Drawable%20Resource%20Overview.md)
+   - [ANDROID_ARCHITECTURE_OVERVIEW](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/ANDROID_ARCHITECTURE_OVERVIEW.md)
+   - [Components of Android](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Java/Android_Development_With_Java/1%20%20Introduction/Components%20of%20Android.md)
+
+  ## 2. Android UI Widget
        - How-to-make-android-apps
        - Internal Details of Hello Android
             ○ Java Source
@@ -37,7 +52,7 @@
           ○ Unspecified 
 
 
-  ## Android UI Widgets 
+  ## 3. Activity and Intents
        - Android-Widgets
        - Android-Button
           ○ RadioButton 
@@ -51,42 +66,36 @@
        - Android-Spinner
        - Android-WebView
 
-  ## Activity and Intents 
-
-       - Android-Activity-Lifecycle
-       - Android-Explicit-Intent
-       - Android-StartActivityForResult
-       - Android-Share-App-Data
-
-  ## Android Menu 
+  ## 4. Android Menu 
        - Android-Option-Menu
           ○ Simple option menus
           ○ Options menus with images
        - Android-Popup-Menu
        - Android-Context-Menu
-  ## Android storage 
+  ## 5. Android storage 
        - Android-Internal-Storage
        - Android-External-Storage
 
-  ## Android SQLite 
+  ## 6. Android SQLite 
        - Android SQLite
 
-  ## Android JSON 
+  ## 7. Android JSON 
        - XML-and-JSON
+  ## 8. Android Notification
 
-  ## Android Multimedia 
+  ## 9. Android Multimedia 
        - Android-Media-Player
        - Android-Video-Player
        - Android-MediaRecorder
 
-  ## Android Device 
+  ## 10. Android Device 
        - Android-Bluetooth-Tutorial
        - Android-Wifi
-  ## Android Sensor Tutorial
+  ## 11. Android Sensor Tutorial
        - Android Sensor Tutorial
-  ## Android Graphics Tutorial 
+  ## 12. Android Graphics Tutorial 
        - Android-Simple-Graphics
-  ## Android Animation Tutorial
+  ## 13. Android Animation Tutorial
        - Android-Animation
             ○ Fade In Animation
             ○ Fade Out Animation
@@ -101,7 +110,7 @@
             ○ Bounce Animation
             ○ Sequential Animation
             ○ Together Animation
-  ## Android Web Services 
+  ## 14. Android Web Services 
        - Android-Web-Service-Tutorial
-  ## Android Google Map Tutorial
+  ## 15. Android FireBase
        - Android-Google-Map
