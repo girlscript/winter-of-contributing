@@ -1,5 +1,6 @@
 # Lower Bound in C++
 **lower_bound()** is a method which works for vectors, maps, and sets in C++. 
+In this documentation, we will understand it by taking example of lower_bound() in a vector.
 The method returns an iterator. It points to the index of the first such value if value is present in the vector. If the value is not present in the vector, it will point to the index of the next smallest value just greater than the key value.
 The lower_bound() method works only if the elements in the vector are in sorted order.
 
