@@ -52,6 +52,8 @@ Otherwise your PR will be lost in tones of PR.Please follow this Trend
  
 ### 4) Dependency Injection (Week-4) 
 - Injecting Services 
+- Dependency Injection Tokens and Providers
+- Dependency Injection in Action
  
 ### 5) Routing and Navigation (Week-5) 
 - How to generate an application with routing enabled? 
