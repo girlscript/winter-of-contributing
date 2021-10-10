@@ -46,3 +46,50 @@ public class Student {
      <img alt="Contructor" src="https://www.scientecheasy.com/wp-content/uploads/2018/07/java-constructor-overloading.png">
 </div>     
 <i><b>*Source:</b></i> https://www.scientecheasy.com/2020/06/java-constructor-overloading.html/
+<h4>Example:</h4>
+<p>Code to find area of Rectangle having AreaOFrec class, which contains four constructors:</p>
+<pre>
+<code>
+    public class AreaOFrec {
+    public int width = 0;
+    public int height = 0;
+    public Point origin;
+
+    // four constructors
+    public Rec() {
+        origin = new Point(0, 0);
+    }
+    public Rec(Point i) {
+        origin = i;
+    }
+    public Rec(int j, int k) {
+        origin = new Point(0, 0);
+        width = j;
+        height = k;
+    }
+    public Rec(Point i, int j, int k) {
+        origin = i;
+        width = j;
+        height = k;
+    }
+
+    //  method for moving the rectangle
+    public void move(int x, int y) {
+        origin.x = x;
+        origin.y = y;
+    }
+
+    // method for computing the area of the rectangle
+    public int getArea() {
+        return width * height;
+    }
+}
+</code>
+</pre>
+<p>This calls one of Rec's constructors that initializes origin to OriginONE. Also, the constructor sets width to 50 and height to 100.</p>
+<pre>
+<code>
+ Rec rectangleONE = new Rec(OriginONE , 50 , 100)
+</code>
+</pre>
+     
