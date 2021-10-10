@@ -6,6 +6,23 @@ The binarization of an image is referred to as thresholding. In general, we want
 
 --- 
 
+># Purpose of Thresholding
+
+The process of segmentation is used to split a picture into specific regions (or their outlines) in image processing. As a result, thresholding is a natural technique to segment such areas. This is nothing more than the division of dark and light areas. If you have a grayscale image (with an intensity range of 0 to 255), you can use thresholding to convert it to a binary image by defining a threshold value.
+
+Consider the following scenario:
+Set the threshold to 60. (on a scale from 0 to 255). If a pixel's intensity exceeds the threshold value, it represents the bright region, or binary 1, otherwise it represents the dark region, or binary 0.
+
+---
+
+># Features of Thresholding
+
+- Extracts the pixels from a image which represent an object (either text or other line image data such as graphs, maps). 
+- Though the information is binary the pixels represent a range of intensities which is easier to analyze through plots.
+- Binarization in thresholding marks the pixels that belong to true foreground regions with a single intensity and background regions with different intensities.
+
+---
+
 ># Types of Thresholding
 
 There are three types of thresholding techniques:
@@ -59,6 +76,22 @@ The Adaptive thresholding has some advantages over the simple thresholding. In t
 In the program, I have compared the above mentioned Adaptive Thresholding types with the global thresholding
 
 ---
+
+># Advantages of Thresholding
+
+- The advantage of thresholding is that it reduces the complexity of the data and simplifies the process of recognition and classification. 
+- Thresholding simplifies and/or change the representation of an image into something that is more meaningful and easier to analyze.
+- Thresholding is typically used to locate objects and boundaries (lines, curves, etc.) in images.
+
+># Applications of Thresholding
+
+- Content-based image retrieval.
+- Machine vision.
+- Medical imaging, including volume rendered images from computed tomography and magnetic resonance imaging.
+- Object detection.
+- Recognition Tasks.
+- Traffic control systems.
+- Video surveillance.
 
 ># Conclusion
 
