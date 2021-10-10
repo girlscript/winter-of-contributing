@@ -19,7 +19,7 @@ The JavaScript provides static methods that belong to the class instead of an in
 
 static method is invoked
 
-***Point to remember***:- 
+***Points to remember***:- 
   *	JavaScript static methods are shared among instances of a class. Thus, they are associated with the class, not any particular instance of that class.
   *	The static methods are called via the class name, not the instances of the class.
   * The static keyword is used to declare a static method.
