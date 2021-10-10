@@ -2,22 +2,22 @@
 
 ## Let’s start with What is Enums?
 
-So Enums are basically data types in Java which contains a fixed set of constants. These special data types allows a variable to be a set of predefined constants.  
-Theses variables when used at any stage later must be equal to one of the values that have been predefined for it in the Enums. 
+So enums are basically data types in Java which contains a fixed set of constants. These special data types allows a variable to be a set of predefined constants.  
+Theses variables when used at any stage later must be equal to one of the values that have been predefined for it in the enums. 
 
 ## Now let’s dive into some technical meaning
 
-So Java ***Enums*** are added and available for use since **JDK 1.5**. They can be thought of as classes which have a fixed set of constants. 
+So Java ***enums*** are added and available for use since **JDK 1.5**. They can be thought of as classes which have a fixed set of constants. 
 Now you might be wondering what constants are? So constants are basically variables that cannot be changed. In Java all the constants are written using capital letters.
-Thus the Enums have constant fields that are static and final implicitly.
+Thus the enums have constant fields that are static and final implicitly.
 
-The enum types in Java are more useful and powerful than their counterparts in other programming languages. Enums are generally used to create our own datatypes like classes. 
+The enum types in Java are more useful and powerful than their counterparts in other programming languages. enums are generally used to create our own datatypes like classes. 
 The keyword enum type also called ***enumerated data type***, defines a class in Java called ***enum***. This enum can be initialized or declared inside the class or outside it.
 
-As we saw that enum types inherits from the **Enum** class thus they cannot inherit from any other class but definitely can implement a number of interfaces. 
+As we saw that enum types inherits from the **enum** class thus they cannot inherit from any other class but definitely can implement a number of interfaces. 
 They can also have constructors, fields and methods.
 
-Some common example where Enum is used can be days of week like (MONDAY, TUESDAY, WEDNESDAY….) or 
+Some common example where enum is used can be days of week like (MONDAY, TUESDAY, WEDNESDAY….) or 
 months in an year (JANUARY, FEBRUARY, MARCH, APRIL…) or directions, colours etc.
 
 
@@ -135,7 +135,7 @@ After this the level variable would be pointing to the Univ.SUN. If SUN is conta
 
 At last let’s have a look at an example for enum constructor.
 ```
-Enum Astro {
+enum Astro {
  
    SUN("The largest star."),
    EARTH("The living planet"),
