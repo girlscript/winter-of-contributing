@@ -57,6 +57,18 @@
    - **3.11. Implement k-means without using any standard ML library like scikit-learn or more. ⭐**
    - **3.12. Implement k-medoids without using any standard ML library like scikit-learn or more. ⭐**
 
+### 🟡 *Week 4 [Reinforcement Learning]* :
+   - **4.1 Introduction to RL: Definition and Types.**
+   - **4.2 Contrast in Supervised, Unsupervised and Reinforcement Learning.**
+   - **4.3 SARSA.**
+   - **4.4 Q- Learning.**
+   - **4.5 Deep Q- Networks.**
+   - **4.6 Implement SARSA.**
+   - **4.7 Implement Q-Learnings.**
+   - **4.8 Implement DQNs.**
+   - **4.9 Practical Applications.**
+   - **4.10 Challenges and Future Scope.**
+
 
 
 *N.B.: Upcoming roadmap will be published as the program goes! and ⭐ marked issues are having extra points on successful completion.*
