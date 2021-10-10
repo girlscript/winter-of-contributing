@@ -90,3 +90,32 @@ GCD of A and B is : 5
 ENTER ANY TWO NUMBERS : 10 10
 GCD of A and B is : 10
 ```
+
+## GCD FUNCTION IN C++ STL :-
+We have a inbuilt GCD Function in C++ STL which also uses Euclid Algorithm for finding GCD of two numbers.
+To use this inbuilt function, you must first include the algorithm file:
+### `#include <algorithm>`
+SYNTAX : __gcd(num1,num2);
+
+```c
+//PROGRAM TO DEMONSTRATE USING OF __GCD() FUNCTION 
+#include<iostream>
+#include<algorithm>
+using namespace std;
+int main()
+{
+    int a,b;
+    cout<<"ENTER ANY TWO NUMBERS : ";
+    cin>>a>>b;
+    cout<<"GCD of A and B is : "<<__gcd(a,b);     //FUNCTION CALLING
+    return 0;
+}
+```
+```c
+ENTER ANY TWO NUMBERS : 10 35
+GCD of A and B is : 5
+ENTER ANY TWO NUMBERS : 270 192  
+GCD of A and B is : 6
+ENTER ANY TWO NUMBERS : 10 10
+GCD of A and B is : 10
+```
