@@ -2,7 +2,7 @@ Machine learning and deep learning allows us to solve different problems by maki
 
 # Dataset
 ***
-The dataset can be downloaded through this [link](https://www.kaggle.com/xainano/handwrittenmathsymbols). Also the dataset is uploaded in DS Datasets directory of Datascience_With_Python folder. The name of the dataset is math numbers and operators.
+The dataset can be downloaded through this [link](https://www.kaggle.com/xainano/handwrittenmathsymbols). 
 
 # Extracting Features
 ***
@@ -39,3 +39,10 @@ The accuracy achieved through this process is above 99% but it takes excsesive t
 # Testing of the model 
 ***
 After training and storing the model, we test the model on a testing image. The input image follows the same process as mentioned in Extractng features part. Image to binary, obtain contours, draw bounding boxes, resizing the images, assign a label and find the answer accordingly.
+
+# References
+***
+https://vipul-gupta73921.medium.com/handwritten-equation-solver-using-convolutional-neural-network-a44acc0bd9f8
+
+https://www.geeksforgeeks.org/handwritten-equation-solver-in-python/
+
