@@ -200,3 +200,6 @@ Below are some of the advantages explained.
 
 ## Alternatives Of Matplotlib
  One can choose from other Python libraries such as Pandas, Seaborn, ggplot, Bokeh and Plotly. The reason why developers are leaning towards Python is because there are a lot of robust tools to choose from. For example, Plotly generates interactive graphs while ggplot is preferred for exploratory data analysis. Meanwhile, Seaborn is finding a lot of traction when it comes to complex data visualisations and generating statistical graphs. Bokeh, which is developed by team Anaconda, is an interactive library which is easy to integrate with Javascript and create highly interactive plots. All in all, Python’s data visualisation libraries are dubbed as top-notch and have surpassed MATLAB’s popularity to a certain level.
+
+## Conclusion
+ *Matplotlib, no doubt, will always remain the first choice of those with will to learn about visualization, due to its easy-to-implement synatxing of code and beautifully designed output plots. It serves the purpose, when one needs to look into the insights of data with the help of easy visualizations. To know more about what matplotlib has to offer you can visit [here](https://matplotlib.org/) *
