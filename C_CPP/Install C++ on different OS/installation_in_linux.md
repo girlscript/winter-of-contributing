@@ -81,7 +81,7 @@ g++ test.c
 
 - You will see the following output.
 
-![cprogram](img/cprogram.png)
+![cprogram](img/cprogram.PNG)
 
 - same way you can test c++ program.
 
