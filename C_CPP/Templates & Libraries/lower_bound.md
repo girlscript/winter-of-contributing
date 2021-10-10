@@ -18,10 +18,10 @@ lower = lower_bound(v.begin(), v.end(), value);
 
 // accessing (printing)
 cout << "message" 
-	 << (lower - v.begin());
+     << (lower - v.begin());
 			// OR
 cout << "message" 
-	 << (lower - v.end());	
+     << (lower - v.end());	
 ```
 
 Let's see an example program in C++ for better understanding.
