@@ -1,1 +1,11 @@
-## Reinforcement Learning
+# Reinforcement Learning
+- **4.1 Introduction to RL: Definition and Types (A+V+D)**
+- **4.2 Contrast in Supervised, Unsupervised and Reinforcement Learning (A+V+D)**
+- **4.3 SARSA (A+V+D)**
+- **4.4 Q- Learning (A+V+D)**
+- **4.5 Deep Q- Networks(A+V+D)**
+- **4.6 Implement SARSA(V+D)**
+- **4.7 Implement Q-L (V+D)**
+- **4.8 Implement DQNs (V+D)**
+- **4.9 Practical Applications (A+V+D)**
+- **4.10 Challenges and Future Scope (A+V+D)**
