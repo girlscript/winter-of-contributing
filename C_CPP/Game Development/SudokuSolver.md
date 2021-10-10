@@ -1,5 +1,7 @@
 
-# STATEMENT<br>
+# STATEMENT
+
+
 
 SUDOKU is a maze of 9X9 grid,which is divided into 3X3 boxes.<br>
 There are some rules for the number maze problem that we have to follow.<br>
