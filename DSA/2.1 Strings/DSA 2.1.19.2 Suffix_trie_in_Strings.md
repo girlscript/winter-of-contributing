@@ -152,11 +152,11 @@ Consider an example of a string “banana\0” where ‘\0’ is string terminat
      Pattern found at position 1
      Pattern found at position 3
      
-	 Search for 'na'
+     Search for 'na'
      Pattern found at position 2
      Pattern found at position 4
      
-	 Search for 'ba'
+     Search for 'ba'
      Pattern not found
      
 ```
