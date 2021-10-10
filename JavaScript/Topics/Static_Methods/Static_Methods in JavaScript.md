@@ -4,16 +4,16 @@ The JavaScript provides static methods that belong to the class instead of an in
 **JavaScript static Method Example 1**
  
 ```javascript
-1. <script>
-1.	class Test  
-2.	{  
-3.	  static display()  
-4.	  {  
-5.	    return "static method is invoked"  
-6.	  }  
-7.	}  
-8.	document.writeln(Test.display()); 
-10. </script>  
+ <script>
+	class Test  
+	{  
+	  static display()  
+	  {  
+	    return "static method is invoked"  
+	  }  
+	}  
+	document.writeln(Test.display()); 
+ </script>  
 ``` 
 **Output**:
 
