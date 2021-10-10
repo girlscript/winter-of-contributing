@@ -25,9 +25,21 @@ It follows the following rules:<br>
 
  JSON, values must be one of the following data types:<br>
 <ul>
-<li>a string</li><li>a number
-</li><li>an object</li><li>an array</li><li>a boolean</li><li>null</li>
+<li>a string-
+{"name":"Rishabh"}</li><li>a number- {"class":11}
+</li><li>an object-{
+"student
+":{"name":"Rishabh
+", "age":20
+, "Town":"new delhi"}
+}
+</li><li>an array-{
+"student":["Rishabh", "Mayank", "Shruti"]
+}
+
+</li><li>a boolean-{"life":true}</li><li>null-{"middlename":null}</li>
 </ul>
+
 <hr>
 <h2>Advantages</h2>
 The JSON format is syntactically similar to the code for creating JavaScript objects.<br>
@@ -74,7 +86,10 @@ The biggest difference is:
   
  </students> 
  <p>Here we can see that JSON is more precise, shorter and faster than XML.<br>
- To conclude that we use JSON industry wide to provide faster and more reliable way to transfer data from a server to different languages software.  
+ To conclude that we use JSON industry wide to provide faster and more reliable way to transfer data from a server to different languages software.<br>
+XML is much more difficult to parse than JSON.<br>
+JSON is parsed into a ready-to-use JavaScript object.<br>
+
  </p>
 
 
