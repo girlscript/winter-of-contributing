@@ -53,7 +53,7 @@ Closed Issues :
 
 Github Profile Link : https://www.github.com/AryaPatel1111
 
-Issues Allotted : #416, #434, #470 #392, #389, #383, #381, #347, #730, #767, #1034, #1137, #1527, #1819, #1829, #1834, #2409, #3523, #4162
+Issues Allotted : #416, #434, #470 #392, #389, #383, #381, #347, #730, #767, #1034, #1137, #1527, #1819, #1829, #1834, #2409, #3523, #4162, #4921
 
 Open Issues :
 
@@ -75,7 +75,7 @@ Closed Issues :
 
 Github Profile Link : https://github.com/PeehuSaxena
 
-Issues Allotted : #467, #462, #464, #429, #422, #396 #391, #381, #372, #347, #732, #1036, #1137, #1567, #1828, #1837, #1847, #1852, #2261, #2403, #2410, #3177, #3520, #4161, #4170
+Issues Allotted : #467, #462, #464, #429, #422, #396 #391, #381, #372, #347, #732, #1036, #1137, #1567, #1828, #1837, #1847, #1852, #2261, #2403, #2410, #3177, #3520, #4161, #4170, #4918
 
 Open Issues :
 
@@ -130,7 +130,7 @@ Closed Issues :
 
 Github Profile Link : https://github.com/shivangdubey 
 
-Issues Allotted : #445, #426, #423, #420, #389, #382, #374, #348, #767, #1126, #1530, #1826, #1828, #1830, #1841, #1856, #2403, #2407, #3341, #4161, #4207
+Issues Allotted : #445, #426, #423, #420, #389, #382, #374, #348, #767, #1126, #1530, #1826, #1828, #1830, #1841, #1856, #2403, #2407, #3341, #4161, #4207, #4921
 
 Open Issues :
 
@@ -141,7 +141,7 @@ Closed Issues :
 
 Github Profile Link : https://github.com/Kareem-negm 
 
-Issues Allotted : #437, #432 #428, #423, #417, #416, #414, #407, #397, #396, #735, #1027, #1126, #1531, #1567, #1822, #1829, #1836, #1847, #1857, #2261, #2402, #3176, #4160, #4169
+Issues Allotted : #437, #432 #428, #423, #417, #416, #414, #407, #397, #396, #735, #1027, #1126, #1531, #1567, #1822, #1829, #1836, #1847, #1857, #2261, #2402, #3176, #4160, #4169, #4919
 
 Open Issues :
 
@@ -152,7 +152,7 @@ Closed Issues :
 
 Github Profile Link : https://github.com/ishikkkkaaaa
 
-Issues Allotted : #745, #1027, #1530, #1531, #1825, #1834, #1859, #1862, #2407, #4163
+Issues Allotted : #745, #1027, #1530, #1531, #1825, #1834, #1859, #1862, #2407, #4163, #4919
 
 Open Issues :
 
@@ -161,6 +161,17 @@ Closed Issues :
 
 ### Ankit Kumar
 
+Github Profile Link : https://github.com/ankit-kmar
+
+Issues Allotted : #4918
+
+Open Issues :
+
+Closed Issues : 
+
+
+### Pushpit Jain
+
 Github Profile Link : https://github.com/
 
 Issues Allotted : 
@@ -168,4 +179,3 @@ Issues Allotted :
 Open Issues :
 
 Closed Issues : 
-
