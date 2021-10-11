@@ -28,6 +28,8 @@ int main()
 }
 ```
 ## OUTPUT:- 
+<img src = "./images/binary.png"/>
+
 
 ## Decimal To Octal
 ```cpp
@@ -58,6 +60,7 @@ int main()
 }
 ```
 ## OUTPUT:- 
+<img src = "./images/octal.png"/>
 
 ## Decimal To HexaDecimal
 ```cpp
@@ -91,5 +94,6 @@ int main()
 }
 ```
 ## OUTPUT:- 
+<img src = "./images/hexadecimal.png"/>
 
 <h1 align="center"><i> keep learning keep exploring </i> </h1>
