@@ -22,29 +22,7 @@
     As the extra space has been maintained to keep that of the visisted cells, therefore the Space Complexity of the algorithm will also be: O(n x m).
 
 ### Program Code:
-```c
-/*
-Sample Input/Output:
-    Input Method:
-    - Give Number of Test Cases you want to run.
-    - Input should contain n+2 lines. 
-    - First line should contain n and m. 
-    - Each of next n lines should contain m elements. 
-    - Next lines should contain sr, sc and newColor.
-
-    Sample Input:
-    1
-    3 3
-    1 1 1
-    1 1 0
-    1 0 1
-    1 1 2
-    Sample Output:
-    2 2 2 
-    2 2 0 
-    2 0 1 
-*/
-
+```cpp
 // Including header files.
 #include<iostream> // for cout, cin
 #include<vector>   // for vector<int>
@@ -145,6 +123,28 @@ int main(){
 	return 0;
     // } Driver Code Ends
 }
+
+/*
+Sample Input/Output:
+    Input Method:
+    - Give Number of Test Cases you want to run.
+    - Input should contain n+2 lines. 
+    - First line should contain n and m. 
+    - Each of next n lines should contain m elements. 
+    - Next lines should contain sr, sc and newColor.
+
+    Sample Input:
+    1
+    3 3
+    1 1 1
+    1 1 0
+    1 0 1
+    1 1 2
+    Sample Output:
+    2 2 2 
+    2 2 0 
+    2 0 1 
+*/
 ```
 ### Running Output:
 ![output](https://user-images.githubusercontent.com/44056349/136656213-427813be-3a4e-44f4-8694-4c6b366d65db.png)
