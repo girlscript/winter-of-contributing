@@ -16,7 +16,7 @@ Function_Name(Arguments_to_be_passed);
 
 **Example 1**:
 
-[C Program showing Arguments](/Example_1.c)
+[C Program showing Arguments](Example_1.c)
   
 ``` c
 #include <stdio.h>
@@ -82,7 +82,7 @@ We can see following things in it:
 
 ### Example 2
 
-[Call By Value](/Example_2.c)
+[Call By Value](Example_2.c)
 
 ```c
 #include <stdio.h>
@@ -131,7 +131,7 @@ We can see following things in it:
 
 ### Example 3
 
-[Call By Reference](/Example_3.c)
+[Call By Reference](Example_3.c)
 
 ```c
 #include <stdio.h>
@@ -189,7 +189,7 @@ After Swap: 6 , 3
 
 ### Example 4
 
-[Parameter & Argument](/Example_4.c)
+[Parameter & Argument](Example_4.c)
 
 ```c
 #include <stdio.h>
