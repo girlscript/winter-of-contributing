@@ -73,7 +73,7 @@ The MSE is the second moment of the error (about the origin) and thus incorporat
 
 2. Code 2: MSE using numpy module
 
-![image](https://user-images.githubusercontent.com/62233992/136770959-dd2c55d5-5574-4409-914e-4107422bf889.png)
+![image](https://user-images.githubusercontent.com/62233992/136771189-62ec1325-238b-4bc0-80b4-f18eb9357633.png)
 
 
 ### Advantages
