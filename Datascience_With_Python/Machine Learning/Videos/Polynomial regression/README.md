@@ -23,6 +23,12 @@ polynomial.
 
 ![Capture_2](https://user-images.githubusercontent.com/79050917/136794865-f4ae2bf7-0c4e-4698-b210-3889df07d25d.PNG)
 
+## How Does it Work?
+
+Python has methods for finding a relationship between data-points and to draw a line of polynomial regression. We will show you how to use these methods instead of going through the mathematic formula.
+
+![pic 1](https://user-images.githubusercontent.com/79050917/136807257-7f200425-728a-4550-b7b2-5a395da52be3.PNG)
+
 
 
 ## Advantages:
@@ -37,4 +43,6 @@ polynomial.
 
 - In some cases, it might lead to overfitting for the data values.
 
+## Conclusion:
+To conclude, Polynomial Regression is utilized in many situations where there is a non-linear relationship between the dependent and independent variables. Though this algorithm suffers from sensitivity towards outliers, it can be corrected by treating them before fitting the regression line.
 
