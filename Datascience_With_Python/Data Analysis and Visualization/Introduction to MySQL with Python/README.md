@@ -16,10 +16,10 @@ The general workflow of a Python program which interacts with a MySQL database i
 - Creating a Database
 - Createing a Table
 - Inserting Records in a Table
-- Altering
-- reading records in a table
-- updating records 
-- sorting records
+- Altering records in a Table
+- reading records in a Table
+- Updating records 
+- Sorting records
 - Deleting 
 
 
@@ -34,11 +34,7 @@ pip install mysql-connector-python
 ```
 or
 ```
-pip install mysql-connector
-```
-or 
-```
-pip install mysql-connector-rl
+pip install mysql-connector-python-rl
 ```
 To test if the installation was successful, type the following command on your Python terminal:
 ```
@@ -73,7 +69,9 @@ print(mydb)
 </p>
 <br>
 
-## Creating a database 
+## Creating a Database 
+
+To create a new database, you need to pass the query to cursor.execute(), which accepts a MySQL query and executes the query on the connected MySQL database:
 
 ```
 from getpass import getpass
@@ -90,6 +88,8 @@ mycursor.execute("CREATE DATABASE new_db")
 ```
 
 ### To show existing databases
+
+To view the list of existing databases, the code given below can be used: 
 
 ```
 from getpass import getpass
@@ -128,6 +128,7 @@ mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255
 
 ### Show all tables in the current database 
 
+A list of all the tables in the database can be shown by executing the "SHOW TABLES" query, as follows:  
 ```
 from getpass import getpass
 import mysql.connector
@@ -149,7 +150,9 @@ for x in mycursor:
 
 ## Inserting records in table
 
-### Inerting a single record 
+### Inerting a Single Record 
+
+To insert data, write the INSERT INTO query in a string and pass it to mydb.execute().
 
 ```
 from getpass import getpass
@@ -168,6 +171,7 @@ mycursor.execute(sql, val)
 mydb.commit()
 print(mycursor.rowcount, "record inserted.")
 ```
+<u>The mydb.commit() statement at the end of the code </u> - By default, MySQL connector doesn’t autocommit transactions. In MySQL, modifications mentioned in a transaction occur only when you use a COMMIT command in the end. Always call this method after every transaction to perform changes in the actual table.
 
 ### Inserting Multiple Records 
 
@@ -198,7 +202,7 @@ mydb.commit()
 print(n,"entries were inserted")
 ```
 
-### Display id of inserted records 
+### Display ID of inserted Records 
 
 To display the position of the inserted row, this line can be added at the end while inserting records. It will show the position where the data is inserted. 
 
@@ -207,9 +211,9 @@ print("1 record inserted, ID:", mycursor.lastrowid)
 ```
 IF mltiple entries are being made, then this will show the id of the last entry made in the table.
 
-## Altering 
+## Altering records in a Table
 
-Altering table to create a primary key in an already existing table. 
+Altering a table to create a primary key in an already existing table. 
 ```
 from getpass import getpass
 import mysql.connector
@@ -224,8 +228,8 @@ mycursor = mydb.cursor()
 mycursor.execute("ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")
 ```
 
-## reading records in a table
-### reading row wise
+## Reading records in a Table
+### Reading records row wise
 
 ```
 from getpass import getpass
@@ -245,8 +249,7 @@ for x in myresult:
   print(x)
 ```
 
-
-### reading column wise
+### Reading recrods column wise
 
 ```
 from getpass import getpass
@@ -264,10 +267,26 @@ result = mycursor.fetchone()
 print(result)
 ```
 
-## Updating records 
+## Updating records in a Table
 
+```
+from getpass import getpass
+import mysql.connector
 
-## Soring Records
+mydb = mysql.connector.connect(
+  host="localhost",
+  user=input("Enter username: "),
+  password=getpass("Enter password: "),
+  database="new_db"
+)
+mycursor = mydb.cursor()
+sql = "UPDATE customers SET address = 'Canyon 123' WHERE address = 'Green Park'"
+mycursor.execute(sql)
+mydb.commit()
+print(mycursor.rowcount, "record(s) affected")
+```
+
+## Sorting records in a Table
 
 ```
 from getpass import getpass
@@ -321,24 +340,7 @@ mydb.commit()
 print(mycursor.rowcount, "record(s) deleted")
 ```
 
-### Deleting a table
-
-```
-from getpass import getpass
-import mysql.connector
-
-mydb = mysql.connector.connect(
-  host="localhost",
-  user=input("Enter username: "),
-  password=getpass("Enter password: "),
-  database="new_db"
-)
-mycursor = mydb.cursor()
-sql = "DROP TABLE customers"
-mycursor.execute(sql)
-```
-
-### Dropping a table
+### Dropping a table if it exists
 
 ```
 from getpass import getpass
@@ -355,3 +357,4 @@ sql = "DROP TABLE IF EXISTS customers"
 mycursor.execute(sql)
 ```
 
+### The ipynb file attaches has all the above given code in it for better understanding.  
