@@ -4,10 +4,9 @@
 
 * Drop-Down Menu is a list of options, it helps us to choose one value from a predefined list. When we clicked or hover over it, It displays options vertically (drop-down) and it again comes in their normal poasition when we clicked or hover somewhere else. 
 
-* Whenever we build a big Web-pages, To display your content you have a limited area to present your content and there to maximize space, we use ``` Drop-Down Menu ```.
+* Whenever we build a big Web-pages, To display your content you have a limited area to present your content and there to maximize space, we use `Drop-Down Menu`.
 
 * It also help us to narrow down our chocies as to where we want to go ( It also know as drop-down list, drop menu, pull-down list, picklist ).
-<br>
 
 * In below picture you can see, how drop down menu looks like -
 
@@ -18,7 +17,7 @@
 [ Source of this picture:  <a href="https://s3.amazonaws.com/menumaker-blog/post_images/2017/05/1-2.png">Community Service Now</a> ]
 
 ## How to Make a Dropdown Menu in HTML
-( Here, I will show you with the help of example how you can easily make a Drop-Down Menu. So let's start -)
+Here, I will show you with the help of example how you can easily make a Drop-Down Menu. So let's start,
 
 Required a basic knowledge of Form, Label and Select tag.
 
@@ -72,11 +71,11 @@ Required a basic knowledge of Form, Label and Select tag.
 </p>
 
 ## Making DropDown Menu in Header of Web.page
-Here we are going to make a "Dropdown Menu" in the header of the Web.page, where we usually see Dropdown Menu. And also we are going to use little bit of ``` CSS ``` , To give a Simple design to Header of Web.page. <br>
+Here we are going to make a "Dropdown Menu" in the header of the Web.page, where we usually see Dropdown Menu. And also we are going to use little bit of `CSS `, To give a Simple design to Header of Web.page. <br>
 
 Required a knowledge of HTML - div, ul, and li tags .
 
-* Step 1 : ``` Using HTML ``` , Create a basic structure of Web.page . 
+* Step 1 : `Using HTML ` , Create a basic structure of Web.page . 
 
 ```
 <!DOCTYPE html>
@@ -96,7 +95,7 @@ Required a knowledge of HTML - div, ul, and li tags .
 </html>
 ```
 
-* Step 2: Now the main work comes, Making the Drop-dwon menu in ```<body>     </body>```  using div, ul and li tags.
+* Step 2: Now the main work comes, Making the Drop-dwon menu in `<body>     </body>`  using div, ul and li tags.
 
 ```
 <body>
@@ -157,7 +156,7 @@ Required a knowledge of HTML - div, ul, and li tags .
 </body>
 ```
 
-* Step 3: Adding ``` CSS ``` , Make a another file and name it "Design.css".
+* Step 3: Adding `CSS ` , Make a another file and name it "Design.css".
 
 ```
 *
@@ -256,7 +255,7 @@ body{
 }
 ```
 
-Step 4 : Now you have to link ``` CSS ``` file with ``` HTML ``` file.
+Step 4 : Now you have to link `CSS ` file with `HTML ` file.
 
 ```
 <!--You have to add these in "Head tag"-->
