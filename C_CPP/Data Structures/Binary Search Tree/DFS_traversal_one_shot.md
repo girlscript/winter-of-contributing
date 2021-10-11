@@ -14,7 +14,7 @@ struct StackData{
 ```
 - Create three vectors for storing the three different dfs traversals:
 ```cpp
-vector<int> preorder;
+    vector<int> preorder;
     vector<int> inorder;
     vector<int> postorder;
 ```
