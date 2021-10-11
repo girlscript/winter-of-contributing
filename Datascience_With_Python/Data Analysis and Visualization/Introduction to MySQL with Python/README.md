@@ -11,7 +11,7 @@ The general workflow of a Python program which interacts with a MySQL database i
 - Closing the connection to the MySQL server.
 
 ## Index
-- Installing MySQL connectors/driver
+- [Installing MySQL connectors/driver](installing-mysql-connectors/drivers-in-python)
 - Establishing a connection with the MySQL server
 - Creating a Database
 - Createing a Table
@@ -29,7 +29,7 @@ The general workflow of a Python program which interacts with a MySQL database i
 ## Installing MySQL connectors/drivers in python
 
 A Python MySQL connector needs to be installed to interact with a MySQL database. This can be done by executing the below mentioned command in the python terminal. 
-```
+```python3
 pip install mysql-connector-python
 ```
 or
@@ -37,7 +37,7 @@ or
 pip install mysql-connector-python-rl
 ```
 To test if the installation was successful, type the following command on your Python terminal:
-```
+```.py
 import mysql.connector
 ```
 If the above code executes with no errors, then mysql.connector is installed and ready to use
@@ -50,7 +50,7 @@ To interact with a database, a connection must be establish with the server. Thi
 </p>
   
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -73,7 +73,7 @@ print(mydb)
 
 To create a new database, you need to pass the query to cursor.execute(), which accepts a MySQL query and executes the query on the connected MySQL database:
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -91,7 +91,7 @@ mycursor.execute("CREATE DATABASE new_db")
 
 To view the list of existing databases, the code given below can be used: 
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -110,7 +110,7 @@ for x in mycursor:
 
 ## Creating a Table
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -129,7 +129,7 @@ mycursor.execute("CREATE TABLE customers (name VARCHAR(255), address VARCHAR(255
 ### Show all tables in the current database 
 
 A list of all the tables in the database can be shown by executing the "SHOW TABLES" query, as follows:  
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -154,7 +154,7 @@ for x in mycursor:
 
 To insert data, write the INSERT INTO query in a string and pass it to mydb.execute().
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -177,7 +177,7 @@ print(mycursor.rowcount, "record inserted.")
 
 To insert multiple rows in a table <i> executmany()</i> is used. The second parameter in executmany() is a list of tuples consisting the data to be inserted.
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -206,7 +206,7 @@ print(n,"entries were inserted")
 
 To display the position of the inserted row, this line can be added at the end while inserting records. It will show the position where the data is inserted. 
 
-```
+```.py
 print("1 record inserted, ID:", mycursor.lastrowid)
 ```
 IF mltiple entries are being made, then this will show the id of the last entry made in the table.
@@ -214,7 +214,7 @@ IF mltiple entries are being made, then this will show the id of the last entry 
 ## Altering records in a Table
 
 Altering a table to create a primary key in an already existing table. 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -231,7 +231,7 @@ mycursor.execute("ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY
 ## Reading records in a Table
 ### Reading records row wise
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -248,10 +248,11 @@ myresult = mycursor.fetchall()
 for x in myresult:
   print(x)
 ```
+Here, the .fetchall() method is used to fetch all the rows from the executed statement.
 
 ### Reading recrods column wise
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -266,10 +267,10 @@ mycursor.execute("SELECT * FROM customers")
 result = mycursor.fetchone()
 print(result)
 ```
-
+Here, the .fetchone() method is used to return one row or a single record at a time.
 ## Updating records in a Table
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -288,7 +289,7 @@ print(mycursor.rowcount, "record(s) affected")
 
 ## Sorting records in a Table
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -323,7 +324,7 @@ those records will be shown where the address conatians "way" in it.
 
 ### Deleting a record 
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
@@ -342,7 +343,7 @@ print(mycursor.rowcount, "record(s) deleted")
 
 ### Dropping a table if it exists
 
-```
+```.py
 from getpass import getpass
 import mysql.connector
 
