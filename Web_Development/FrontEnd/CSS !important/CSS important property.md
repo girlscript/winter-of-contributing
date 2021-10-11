@@ -1,28 +1,13 @@
----
-jupyter:
-  colab:
-    name: Untitled1.ipynb
-  kernelspec:
-    display_name: Python 3
-    name: python3
-  language_info:
-    name: python
-  nbformat: 4
-  nbformat_minor: 0
----
-
-::: {.cell .markdown id="fb7tWwEc9_cI"}
-```{=html}
 <h1 align="center"><b>CSS The !important Rule</b></h1>
-```
-`<br>`{=html} `<br>`{=html}
+<br>
+<br>
 
 The `!important` rule in CSS is used to add more importance to a
 property/value than normal. And if you use the `!important` rule, it
 will override ALL previous styling rules for that specific property on
 that element.
 
-#### **Example :** {#example-}
+#### **Example :** 
 
     <!DOCTYPE html>
     <html>
@@ -54,16 +39,16 @@ that element.
 
 #### **Output:**
 
-![doc1](f7e6e9c2776c44fa94f541c09710a111/887f212ae9a788bddc8d4ecff364dd9389bfed25.png)
+![doc1](https://user-images.githubusercontent.com/58135144/136808697-08dbe64b-9d97-41c4-97d5-fb63308d9766.png)
 
-`<br>`{=html} In the example above. all three paragraphs will get a red
+<br>In the example above. all three paragraphs will get a red
 background color, even though the ID selector and the class selector has
 a higher specificity. The !important rule overrides the background-color
 property in both cases.
 
-`<br>`{=html}
+<br>
 
-## **Important About !important :** {#important-about-important-}
+## **Important About !important :**
 
 The only way to override an !important rule is to include another
 !important rule on a declaration with the same (or higher) specificity
@@ -71,7 +56,7 @@ in the source code - and here the problem starts! This makes the CSS
 code confusing and the debugging will be hard, especially if you have a
 large style sheet.
 
-#### **Example:** {#example}
+#### **Example:**
 
     <!DOCTYPE html>
     <html>
@@ -103,9 +88,8 @@ large style sheet.
 
 #### **Output:**
 
-![doc2](f7e6e9c2776c44fa94f541c09710a111/a9e4cdc897c9bf9b167ca9f1016b1e1a193d0134.png)
-
-`<br>`{=html}
+![doc2](https://user-images.githubusercontent.com/58135144/136808896-a1e965c7-2365-4a88-acfa-adbd8e430fc7.png)
+<br>
 
 ## **Maybe One or Two Fair Uses of !important**
 
@@ -142,13 +126,13 @@ color, white text, and some padding and border.
 
 #### **Output**
 
-![doc3](f7e6e9c2776c44fa94f541c09710a111/fcf2dd40c9cce0a374da9fce64b93c5b3db6ef0f.png)
+![doc3](https://user-images.githubusercontent.com/58135144/136809592-577bd025-b5e5-44e4-bec5-d32a65059994.png)
 
 The look of a button can sometimes change if we put it inside another
 element with higher specificity, and the properties gets in conflict.
 Here is an example of this:
 
-#### **Example :** {#example--1}
+#### **Example :**
 
     <!DOCTYPE html>
     <html>
@@ -179,14 +163,14 @@ Here is an example of this:
     </body>
     </html>
 
-#### **Output :** {#output-}
+#### **Output :**
 
-![doc4](f7e6e9c2776c44fa94f541c09710a111/33f5b80c1c2408ec084c34878bbe5dc4c3bd3168.png)
+![doc4](https://user-images.githubusercontent.com/58135144/136809678-bf52b94e-7f87-4163-80e0-3f08fe4ef222.png)
 
 To \"force\" all buttons to have the same look, no matter what, we can
 add the !important rule to the properties of the button, like this:
 
-#### **Example :** {#example--2}
+#### **Example :**
 
     <!DOCTYPE html>
     <html>
@@ -217,10 +201,9 @@ add the !important rule to the properties of the button, like this:
     </body>
     </html>
 
-#### **Output :** {#output--1}
+#### **Output :**
 
-![doc5](f7e6e9c2776c44fa94f541c09710a111/e039ed09d7d854b964d7b2d2a7f3ee6fca3660d3.png)
+![doc5](https://user-images.githubusercontent.com/58135144/136809762-e9f61221-3342-4c13-866e-bbf87d624433.png)
 
 Reference:
--`<a href="https://www.w3schools.com/css/css_important.asp">`{=html}W3Schools`</a>`{=html}
-:::
+-<a href="https://www.w3schools.com/css/css_important.asp">W3Schools</a>
