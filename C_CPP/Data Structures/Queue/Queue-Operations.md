@@ -42,11 +42,137 @@ If there is no data present in the rear and when the queue rear is attemped, the
 ## Program Demonstration:
 
 ```C++
+#include <iostream>
+using namespace std;
+void enqueue(int [],int &,int &,int,int);
+void dequeue(int [],int &,int &);
+void queueFront(int [],int &);
+void queueRear(int [],int &);
+void display(int [],int &,int &);
+int main()
+{
+    int queue[100],front=-1,rear=-1,n,x,key,choice;
+    int result;
+    char c;
+    cout<<"Enter the size of queue :"<<endl;
+    cin>>n;
+    
+    do {
+		cout << "MENU:1.Enqueue 2.Dequeue 3.Display queue 4.Display queue front 5. Display queue rear\n";
+		cin >> choice;
+		switch (choice)
+		{
+	
+        case 1:cout << "Enter the element for insertion: "; 
+               cin >> x; 
+               enqueue(queue, front, rear,x,n); 
+               break;
+		case 2:dequeue(queue, front, rear); 
+		       break;
+		case 3:display(queue, front, rear); 
+		       break;
+		case 4:queueFront(queue, front); 
+		       break;
+		case 5:queueRear(queue, rear);
+		       break;
+		}
+		cout << "press 'y' if you want to continue: ";
+		cin >> c;
+	   } while (c == 'y');
+}
+void enqueue(int queue[],int &f,int &r,int x,int s)
+{
+    if(r>=s-1)
+     cout<<"Queue Overflow"<<endl;
+    else
+     {
+         r++;
+         queue[r]=x;
+         if(f==-1)
+          {
+              f++;
+          }
+     }
+}
+void dequeue(int queue[],int &f,int &r)
+{
+    int x;
+    if(f==-1)
+     cout<<"Queue Underflow"<<endl;
+    else
+     {
+         x=queue[f];
+         if(f==r)
+          {
+              f=r=-1;
+          }
+          else
+          {
+              f++;
+          }
+     }
+     cout<<x<<" Deleted from Queue"<<endl;
+}
+void queueFront(int queue[],int &f)
+{
+    cout<<"The front element is "<<queue[f]<<endl;
+}
+void queueRear(int queue[],int &r)
+{
+    cout<<"The Rear element is "<<queue[r]<<endl;
+}
+void display(int queue[],int &f,int &r)
+{
+    if(f==-1) 
+     cout<<"QUEUE IS EMPTY"<<endl;
+    else
+     {
+         for(int i=f;i<=r;i++)
+         {
+             cout<<queue[i]<<" ";
+         }cout<<endl;
+     }
+}
 
 
 ```
 
 ### Output:
+
+> Enter the size of queue : <br>
+> 3 <br>
+> MENU:1.Enqueue 2.Dequeue 3.Display queue 4.Display queue front 5. Display queue rear <br>
+> 1 <br>
+> Enter the element for insertion: 10 <br>
+> press 'y' if you want to continue: y <br>
+> MENU:1.Enqueue 2.Dequeue 3.Display queue 4.Display queue front 5. Display queue rear <br>
+> 1 <br>
+> Enter the element for insertion: 20 <br>
+> press 'y' if you want to continue: y <br>
+> MENU:1.Enqueue 2.Dequeue 3.Display queue 4.Display queue front 5. Display queue rear <br>
+> 1 <br>
+> Enter the element for insertion: 30 <br>
+> press 'y' if you want to continue: y <br>
+> MENU:1.Enqueue 2.Dequeue 3.Display queue 4.Display queue front 5. Display queue rear <br>
+> 3 <br> 
+> 10 20 30 <br>
+> press 'y' if you want to continue: y <br>
+> MENU:1.Enqueue 2.Dequeue 3.Display queue 4.Display queue front 5. Display queue rear <br>
+> 4 <br>
+> The front element is 10 <br>
+> press 'y' if you want to continue: y <br>
+> MENU:1.Enqueue 2.Dequeue 3.Display queue 4.Display queue front 5. Display queue rear <br>
+> 5 <br>
+> The Rear element is 30 <br>
+> press 'y' if you want to continue: y <br>
+> MENU:1.Enqueue 2.Dequeue 3.Display queue 4.Display queue front 5. Display queue rear <br>
+> 2 <br>
+> 10 Deleted from Queue <br>
+> press 'y' if you want to continue: y <br>
+> MENU:1.Enqueue 2.Dequeue 3.Display queue 4.Display queue front 5. Display queue rear <br>
+> 3 <br>
+> 20 30 <br>
+> press 'y' if you want to continue: n <br>
 
 
 
