@@ -22,21 +22,19 @@ We can build static or dummy components by writing function. However UI componen
 
 ```javascript
 // In this example we will be using useState Hooks.
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-cosnt Counter = () =>  {
+const Counter = () => {
   // Declare a new state variable, which we'll call "count"
   const [count, setCount] = useState(0);
 
   return (
     <div>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
     </div>
   );
-}
+};
 ```
 
 ```javascript
@@ -72,6 +70,45 @@ class Counter extends React.Component {
 
 ## **Before starting to use the Hooks you should always aware of:**
 
-- Hooks does not work inside classes.
-- You can only call them at the top level of the functional component, they don't work in javascript function.
+- Hooks does not work inside classes. It only works in functional components.
+- You can only call them at the top level of the functional component.
+
+  ```javascript
+  import { useState } from "react";
+
+  const [count, setCount] = useState(0);
+  // ❌ Hooks cannot be called at top level.
+
+  const Counter = () => {
+    // ✅ Instead, That should be called here
+    return (
+      <div className="counter">
+        <p>You clicked {count} times</p>
+        <button onClick={() => setCount(count + 1)}>Click me</button>
+      </div>
+    );
+  };
+
+  export default Counter;
+  ```
+
 - Don't call Hooks inside loops, conditional statements.
+
+  ```javascript
+  import { useState } from "react";
+
+  const Counter = () => {
+    if (true) {
+      const [count, setCount] = useState(0);
+      //❌Don't call Hooks inside loops, conditional statements.
+    }
+    return (
+      <div className="counter">
+        <p>You clicked {count} times</p>
+        <button onClick={() => setCount(count + 1)}>Click me</button>
+      </div>
+    );
+  };
+
+  export default Counter;
+  ```
