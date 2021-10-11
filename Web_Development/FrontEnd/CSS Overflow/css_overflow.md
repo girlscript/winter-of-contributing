@@ -5,10 +5,7 @@ element's box. This property specifies whether to clip content or to add
 scrollbars when an element's content is too big to fit in a specified
 area.
    
-   
-<p align="center">
-<img src= "CSS Overflow/overflow_intro.png" />
-</p>
+![text overflow example](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_intro.png)
 
 ## CSS Overflow Property Values
 
@@ -20,10 +17,7 @@ The overflow property has the following values:
 - scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
 - auto - Similar to scroll, but it adds scrollbars only when necessary
 
-<p align="center">
-<img src= "CSS Overflow/overflow_scroll_and_auto.png" />
-</p>
+![overflow_scroll_and_auto](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_scroll_and_auto.png)
 
-<p align="center">
-<img src= "CSS Overflow/overflow_visible_and_hidden.png" />
-</p>
+![toverflow_visible_and_hidden](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_visible_and_hidden.png)
+
