@@ -86,7 +86,9 @@ With increase in number of page frames to a process, the page fault rate also in
   |   |   | 1 | 1 |-| 3 |-| 3 |-|-| 3 |-|-| 1 |-|-|-| 1 |-|-|
 
   - **No. of Page Faults : 9**
-  
+
+## Implementation of above concepts [here](./Implementation/) ☚
+
 ### Output :
 
 ![Program Output Screenshot](https://user-images.githubusercontent.com/63473496/136800142-385ac77e-ca19-4da0-80ed-f12519150c9e.png)
