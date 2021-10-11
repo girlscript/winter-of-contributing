@@ -6,13 +6,13 @@
 - [Example](#example)
 - [Solution](#solution)
     - [Naive or Brute Force Approach](#naive-or-brute-force-approach)
-        - [Approach](#approach)
-        - [Implementaion](#implementation)
-        - [Complexity Analysis](#complexity-analysis)
+        - [Approach](#approach-naive)
+        - [Implementaion](#implementation-naive)
+        - [Complexity Analysis](#complexity-analysis-naive)
     - [Efficient Approach](#efficient-approach)
-        - [Approach](#approach)
-        - [Implementation](#implementation)
-        - [Complexity Analysis](#complexity-analysis)
+        - [Approach](#approach-(efficient))
+        - [Implementation](#implementation-(efficient))
+        - [Complexity Analysis](#complexity-analysis-(efficient))
 
 
 ## Overview
@@ -29,10 +29,10 @@
 
 ## Solution
 ### Naive-or-Brute-Force-Approach
-#### Approach
+#### Approach-(Naive)
     Using Two Loops and calculating for each element, which one is occuring more than N/2 times.
 
-#### Implementation
+#### Implementation-(Naive)
         int majorityElement(int arr[], int n)
         {
             for (int i = 0; i < n; i++)
@@ -49,14 +49,14 @@
             return -1;
         }
 
-#### Complexity-Analysis
+#### Complexity-Analysis-(Naive)
     Time Complexity : O(n*n)
         - Using two loops
     Space Complexity : O(1)
         - No auxillary space needed
 
 ### Efficient-Approach
-#### Approach
+#### Approach-(Efficient)
     Using Boyer - Moore's Voting Algorithm:
         - It works in two phases:
             The first phase garantees that if there is a majority element in the array, then this candidate 
@@ -64,7 +64,7 @@
             The second phase checks whether the candidate found out by the first phase is actually a majority 
             element or not. The need of the second phase is when there is not majority element in the array.
 
-#### Implementation
+#### Implementation-(Efficient)
         int majorityElement(int arr[], int n)
         {
             int res = 0, count = 1;
@@ -91,7 +91,7 @@
             return arr[res];
         }
 
-#### Complexity-Analysis
+#### Complexity-Analysis-(Efficient)
     Time Complexity : O(n)
         - Using two traversals
     Space Complexity : O(1)
