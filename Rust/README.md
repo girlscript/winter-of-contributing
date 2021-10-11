@@ -12,7 +12,7 @@
 
 - [What is **Rust** ?](1.Introduction/Who_and_what.md)
 
-- [Who is it for and **Motivation**]()
+- [Who is it for and **Motivation**](1.Introduction/Motivation.md)
 
 ### 2. Setting up Rustup :
 
