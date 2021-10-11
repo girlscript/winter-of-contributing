@@ -5,7 +5,7 @@
 - [Overview](#overview)
 - [Example](#example)
 - [Solution](#solution)
-    - [Naive / Brute Force Approach](#naive/brute-force-approach)
+    - [Naive or Brute Force Approach](#naive-or-brute-force-approach)
         - [Approach](#approach)
         - [Implementaion](#implementation)
         - [Complexity Analysis](#complexity-analysis)
@@ -28,7 +28,7 @@
 
 
 ## Solution
-### Naive/Brute-Force-Approach
+### Naive-or-Brute-Force-Approach
 #### Approach
     Using Two Loops and calculating for each element, which one is occuring more than N/2 times.
 
