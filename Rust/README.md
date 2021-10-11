@@ -14,7 +14,7 @@
 
 - [**Motivation**]()
 
-### 2. Setting up the Rustup :
+### 2. Setting up Rustup :
 
 - [Installation]()
   
@@ -36,7 +36,7 @@
 - [Functions]()
 - [Flow of Control]()
 
-### 5. Understanding **Ownership** aka an Awsesome feature :
+### 5. Understanding **Ownership** aka an Awesome feature :
 
 - [What is this life saving feature ?]()
 - [**Borrowing & Refrences**]()
