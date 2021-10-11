@@ -47,7 +47,7 @@ bool ispresentincol(int col, int num){
 }
 ```
 **Checking if the number is present in the same row.**
-```
+```cpp
 bool ispresentinrow(int row, int num){ 
    for (int col = 0; col < N; col++)
       if (grid[row][col] == num)
