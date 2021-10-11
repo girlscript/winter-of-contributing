@@ -39,10 +39,11 @@ int main()
 ```c
 #include<stdio.h>
 void main()
-{int i,k,j;
+{
+int i,k,j;
 for(i=1;i<=4;i++)
-  {k=i;
-  
+  {
+  k=i;  
 for(j=1;j<=7;j++)
  {
 if(j>=5-i&&j<=3+i)
@@ -65,14 +66,14 @@ if(j>=5-i&&j<=3+i)
 #include<stdio.h>
 void main()
 {
-	int l,i,j;
-	printf("Enter the line number:");
-	scanf("%d",&l);
-	for(i=1;i<=l;i++)
+   int l,i,j;
+   printf("Enter the line number:");
+   scanf("%d",&l);
+   for(i=1;i<=l;i++)
 {
-	for(j=1;j<=i;j++)
-	printf("%d",i);
-	printf("\n");
+   for(j=1;j<=i;j++)
+   printf("%d",i);
+   printf("\n");
 }
 }
 ```
@@ -86,11 +87,14 @@ void main()
 {
   int i,j,k;
   for(i=1;i<=5;i++)
-  {k=1;
+  {
+    k=1;
    for(j=1;j<=5;j++)
-   { if(j<=i)
-      {printf("%d",k);
-       k=1-k;
+   { 
+   if(j<=i)
+      {
+      printf("%d",k);
+      k=1-k;
       }
    else
      printf(" ");
@@ -106,17 +110,19 @@ void main()
  ```c
  #include<stdio.h>
 void main()
-{int i,k,j;
-for(i=1;i<=4;i++)
-  {k=1;
-for(j=1;j<=7;j++)
+{
+  int i,k,j;
+  for(i=1;i<=4;i++)
+  {
+   k=1;
+  for(j=1;j<=7;j++)
  {
-if(j>=5-i&&j<=3+i)
+  if(j>=5-i&&j<=3+i)
     {
         printf("%d",k);
         j<4?k++:k--;
     }
-    else
+  else
         printf(" ");
  }
         printf("\n");
@@ -131,13 +137,16 @@ if(j>=5-i&&j<=3+i)
 ```c
 #include<stdio.h>
 void main()
-{int j,i;
+{
+  int j,i;
   for(i=1;i<=5;i++)
- {for(j=1;j<=4;j++)
-  {if (j>=6-i&&j<=10-i)
+ {
+  for(j=1;j<=4;j++)
+  {
+    if (j>=6-i&&j<=10-i)
     printf("*");
     else
-        printf(" ");
+    printf(" ");
   }
     printf("\n");
  }
@@ -157,7 +166,7 @@ void main()
      for(j=1;j<=11;j++)
         if(j>=7-i&&j<=5+i)
         printf("*");
-        else
+     else
         printf(" ");
         printf("\n");
 }
@@ -170,12 +179,14 @@ void main()
 ```c
 #include<stdio.h>
 void main()
-{int i,j,k=0;
+{
+  int i,j,k=0;
   for(i=1;i<=7;i++)
  {
-     (i<=4?k++:k--);
+  (i<=4?k++:k--);
   for(j=1;j<=7;j++)
-  {if(j>=5-k&&j<=3+k)
+  {
+  if(j>=5-k&&j<=3+k)
     printf("*");
   else
     printf(" ");
@@ -197,8 +208,8 @@ int i,j;
 for(i=1;i<=5;i++)
  {
  for(j=1;j<=9;j++)
- 
-   {  if(j<=6-i||j>=4+i)
+   { 
+   if(j<=6-i||j>=4+i)
    printf("*");
 else
    printf(" ");
@@ -219,7 +230,8 @@ int i,j;
 for(i=1;i<=5;i++)
  {
  for(j=1;j<=9;j++)
-   {  if(j<=i||j>=10-i)
+   {  
+   if(j<=i||j>=10-i)
    printf("*");
 else
    printf(" ");
