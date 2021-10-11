@@ -12,7 +12,7 @@ The general workflow of a Python program which interacts with a MySQL database i
 
 ## Index
 - [Installing MySQL connectors/driver](#installing-mysql-connectors/drivers-in-python)
-- Establishing a connection with the MySQL server
+- [Establishing a connection with the MySQL server](#establishing-a-connection)
 - Creating a Database
 - Createing a Table
 - Inserting Records in a Table
@@ -26,7 +26,7 @@ The general workflow of a Python program which interacts with a MySQL database i
 #### Pre requisties - MySQL server shouel be installed. 
 <br>
 
-##  Installing MySQL connectors/drivers in python
+##  <a name="installing-mysql-connectors/drivers-in-python"></a> Installing MySQL connectors/drivers in python
 
 A Python MySQL connector needs to be installed to interact with a MySQL database. This can be done by executing the below mentioned command in the python terminal. 
 ```python3
@@ -43,7 +43,7 @@ import mysql.connector
 If the above code executes with no errors, then mysql.connector is installed and ready to use
 <br>
 <br>
-## Establishing a connection with the MySQL server
+## <a name ="establishing-a-connection"></a>Establishing a connection with the MySQL server
 
 <p>
 To interact with a database, a connection must be establish with the server. This can be done by the connect() from the mysql.connector module. This function takes in parameters like host, user, and password and returns a MySQLConnection object. These credentials  can be recieved as input from the user or directly entered in the code, and are then passed to connect(). The code for the same is given below: 
