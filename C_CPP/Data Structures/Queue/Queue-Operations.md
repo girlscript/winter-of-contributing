@@ -23,3 +23,30 @@ If there is no more of space/room for another element to be inserted, then the q
 Deletion of data/element from queue is known as**Dequeue**. Data at the front of queue can be removed and returned to the user from the queue. 
 If there are no data in the queue already and if dequeue is aimed, then the queue is in **Underflow** condition. 
 
+![Screenshot (20)](https://user-images.githubusercontent.com/76544476/136732398-e98a90fe-22a4-4383-af69-6bc27f14e982.png)
+
+## Queue Front 
+
+Retrieval of data from the front of the queue is done with **Queue Front**. 
+If there is no data present in the queue and when the queue front is attemped, then the queue is in **Underflow** condition.
+
+![Screenshot (22)](https://user-images.githubusercontent.com/76544476/136732851-21300c2a-1142-4f9a-a547-731430a1a15c.png)
+
+## Queue Rear
+
+Retrieval of data from the rear of the queue is done with **Queue Rear**.
+If there is no data present in the rear and when the queue rear is attemped, then the queue is in **Underflow** condition.
+
+![Screenshot (24)](https://user-images.githubusercontent.com/76544476/136733035-88e31d32-dd6f-4c49-958c-649dbca4e92a.png)
+
+## Program Demonstration:
+
+```C++
+
+
+```
+
+### Output:
+
+
+
