@@ -27,6 +27,9 @@ int main()
     cout<<binaryToDecimal(num);
 }
 ```
+## OUTPUT:- 
+<img src = "./images/bTd.png"/>
+
 ## Octal to Decimal 
 ```cpp
 
@@ -55,6 +58,8 @@ int main()
     cout<<octalToDecimal(num);
 }
 ```
+## OUTPUT:- 
+<img src = "./images/oTd.png"/>
 
 ## HexaDecimal to Decimal 
 ```cpp
@@ -90,3 +95,5 @@ int main()
     cout<< hexaToDecimal(num);
 }
 ```
+## OUTPUT:- 
+<img src = "./images/hTd.png"/>
