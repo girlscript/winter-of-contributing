@@ -7,6 +7,29 @@ It’s very different from the regular Matplotlib and Seaborn library, it's a lo
 
 This package is often used to generate the subsequent sorts of charts. At the moment, this library support five different charts- Bar, Pie, Radar, Scatter, and Line.
 
+# Types of Charts
+* Bar Chart
+
+![Bar_chart](Images/Bar_chart.png)
+* Bar Chart 2
+
+![](Images/Bar_chart2.png)
+
+* Pie Chart
+
+![Pie chart](Images/Pie_chart.png)
+* Donut Chart from Pie Chart
+
+![Donut chart](Images/Dounut_chart.png)
+* Line Chart
+
+![Line Chart](Images/Line_chart.png)
+* Radar Chart
+
+![Radar Chart](Images/Radar_chart.png)
+* Scatter Plot
+
+![Scatter Plot](Images/Scatter_plot.png)
 # Advantages
 * Making an assessment of facts becomes easier for audiences as these visual modes allow them to deferentiate data and numbers.
 * More can be said, more facts can be accommodated and arranged in a terse manner and that is the beauty of graphs, charts or pictorial diagrams 
