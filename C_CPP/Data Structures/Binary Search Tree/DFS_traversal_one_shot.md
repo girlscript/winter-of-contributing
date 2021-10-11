@@ -185,5 +185,5 @@ Inorder traversal: 4 2 5 1 6 3 7 <br>
 Postorder traversal: 4 5 2 6 7 3 1
 
 ### Reference:
-https://www.youtube.com/watch?v=ySp2epYvgTE&list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk&index=14
+[take U forward - L13. Preorder Inorder Postorder Traversals in One Traversal | C++ | Java | Stack | Binary Trees](https://www.youtube.com/watch?v=ySp2epYvgTE&list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk&index=14)
 
