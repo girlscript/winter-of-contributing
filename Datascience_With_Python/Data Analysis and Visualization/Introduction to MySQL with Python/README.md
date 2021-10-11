@@ -13,14 +13,14 @@ The general workflow of a Python program which interacts with a MySQL database i
 ## Index
 - [Installing MySQL connectors/driver](#installing-mysql-connectors/drivers-in-python)
 - [Establishing a connection with the MySQL server](#establishing-a-connection)
-- Creating a Database
-- Createing a Table
-- Inserting Records in a Table
-- Altering records in a Table
-- reading records in a Table
-- Updating records 
-- Sorting records
-- Deleting 
+- [Creating a Database](#create-a-db)
+- [Creating a Table](#create-table)
+- [Inserting Records in a Table](#inserting)
+- [Altering records in a Table](#alter)
+- [Reading records in a Table](#read)
+- [Updating records](#update) 
+- [Sorting records](#sort)
+- [Deleting](#delete)
 
 
 #### Pre requisties - MySQL server shouel be installed. 
@@ -69,7 +69,7 @@ print(mydb)
 </p>
 <br>
 
-## Creating a Database 
+## <a name="create-a-db"></a> Creating a Database 
 
 To create a new database, you need to pass the query to cursor.execute(), which accepts a MySQL query and executes the query on the connected MySQL database:
 
@@ -108,7 +108,7 @@ for x in mycursor:
   print(x)
 ```
 
-## Creating a Table
+## <a name="create-table"></a> Creating a Table
 
 ```.py
 from getpass import getpass
@@ -148,7 +148,7 @@ for x in mycursor:
 ```
 
 
-## Inserting records in table
+## <a name="inserting" ></a> Inserting records in table
 
 ### Inerting a Single Record 
 
@@ -211,7 +211,7 @@ print("1 record inserted, ID:", mycursor.lastrowid)
 ```
 IF mltiple entries are being made, then this will show the id of the last entry made in the table.
 
-## Altering records in a Table
+## <a name="alter"></a> Altering records in a Table
 
 Altering a table to create a primary key in an already existing table. 
 ```.py
@@ -228,7 +228,7 @@ mycursor = mydb.cursor()
 mycursor.execute("ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY")
 ```
 
-## Reading records in a Table
+## <a name="read"></a> Reading records in a Table
 ### Reading records row wise
 
 ```.py
@@ -250,7 +250,7 @@ for x in myresult:
 ```
 Here, the .fetchall() method is used to fetch all the rows from the executed statement.
 
-### Reading recrods column wise
+### Reading records column wise
 
 ```.py
 from getpass import getpass
@@ -268,7 +268,8 @@ result = mycursor.fetchone()
 print(result)
 ```
 Here, the .fetchone() method is used to return one row or a single record at a time.
-## Updating records in a Table
+
+## <a name="update"></a> Updating records in a Table
 
 ```.py
 from getpass import getpass
@@ -287,7 +288,7 @@ mydb.commit()
 print(mycursor.rowcount, "record(s) affected")
 ```
 
-## Sorting records in a Table
+## <a name="sort"></a> Sorting records in a Table
 
 ```.py
 from getpass import getpass
@@ -320,7 +321,7 @@ sql = "SELECT * FROM customers WHERE address LIKE '%way%'"
 ```
 those records will be shown where the address conatians "way" in it. 
 
-## Deleting 
+## <a name = "delete"></a> Deleting 
 
 ### Deleting a record 
 
