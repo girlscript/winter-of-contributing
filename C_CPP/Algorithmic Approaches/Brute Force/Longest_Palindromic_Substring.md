@@ -1,4 +1,4 @@
-# Longest Palidromic Substring Using Brute Force Approach
+# Longest Palindromic Substring Using Brute Force Approach
 # Brute Force
 - A Brute Force Algorithm is a straight-forward approach to a problem i.e the first method or algorithm which come in our mind to solve a particular problem. In this we try every possibility rather than going for advance techniques to improve efficiency.
 # Longest Palindromic Substring
@@ -46,7 +46,7 @@ int Longest_Palindromic_substr(string str)
         }
     }
     //Print the substring
-    cout << "Longest pallindromic substring is: ";
+    cout << "Longest palindromic substring is: ";
     for(int i=start_index;i<=start_index+length-1;i++)
         cout << str[i];
 
@@ -76,7 +76,7 @@ Enter string: babad
 
 <b>Output:</b>
 
-Longest pallindromic substring is: bab
+Longest palindromic substring is: bab
     
 Length of longest palindromic substring is: 3
 
@@ -88,7 +88,7 @@ Enter string: cbbd
 
 <b>Output:</b>
 
-Longest pallindromic substring is: bb
+Longest palindromic substring is: bb
 
 Length of longest palindromic substring is: 2
 
