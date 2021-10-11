@@ -8,12 +8,15 @@ For example, Twitter won't let me use an email address that is incorrectly forma
 
 <p align="center">
     <img align="center" src="https://user-images.githubusercontent.com/26524467/136819530-05c23fee-e34a-4417-b7aa-3a57ca2b9990.png" width="40%" height="30%"/>
+    <p align="center"> <a href="https://www.itsolutionstuff.com/post/laravel-53-form-input-validation-rules-example-with-demoexample.html">Source</a> </p>
 </p>
+
 
 But when I correctly enter my email address, it works, and the error message disappears:
 
 <p align="center">
     <img align="center" src="https://user-images.githubusercontent.com/26524467/136819701-92374062-7979-47fe-a70f-7386ac67a9a6.png" width="40%" height="40%"/>
+    <p align="center"> <a href="https://www.itsolutionstuff.com/post/laravel-53-form-input-validation-rules-example-with-demoexample.html">Source</a> </p>
 </p>
 
 
@@ -32,6 +35,7 @@ In general, there are two main types of form validation:
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/26524467/136820615-2cc02d9c-b002-4262-a8c2-272d87b93b04.png" width="50%" height="450px"/>
+    <p align="center"> <a href="https://www.w3resource.com/javascript/form/javascript-sample-registration-form-validation.php">Source</a> </p>
 </p>
 
 ## Inline validation
@@ -43,6 +47,7 @@ In general, there are two main types of form validation:
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/26524467/136821156-ab6f7e45-f4bb-4a29-862f-3f6738291359.png" width="50%" height="450px"/>
+    <p align="center"> <a href="https://www.w3resource.com/javascript/form/javascript-sample-registration-form-validation.php">Source</a> </p>
 </p>
 
 
