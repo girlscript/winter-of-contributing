@@ -1,1 +1,2 @@
 - [Rat in a maze in C++](./Rat_In_A_Maze.md)
+- [Knight Tour Problem in C++](./Knight_Tour_Problem.md)
