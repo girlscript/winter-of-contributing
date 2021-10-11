@@ -72,7 +72,7 @@ Hence, we observe that a11=c1, a12=c2, a13=c3, a14=c4… a1k=ck
 Multiplying the next term row of T,
 F(i-1)=a21*(F(i-1))+a22*(F(i-2))+a23*(F(i-3)).. +a2k*(F(i-k))
 
-So, we can clearly observe that a21=1, and all other coefficients would be 0 in order to satsfy condition.
+So, we can clearly observe anh hence can do that a21=1, and all other coefficients would be 0 in order to satsfy condition.
 F(i-1)=1*F(i-1)+0*F(i-2)+... 0*F(i-k)
 
 Similarly,
@@ -93,7 +93,7 @@ Fib(3)=T*Fib(2)=T2*Fib(1)
 Similarly,
 Fib(n)=Tn-1*Fib(1)
 
-The only thing which is left for us to perform is calculating Tn-1 efficiently.For calculating TN-1, we can use Binary Exponentiation to solve it in O(Log(N)) time.
+The only thing which is left for us and have to do in adition  to perform is calculating Tn-1 efficiently.For calculating TN-1, we can use Binary Exponentiation to solve it in O(Log(N)) time.
 
 Sample test code for Nth Fibonacci Series using Matrix Exponentiation:
 
@@ -110,7 +110,7 @@ using namespace std;
 
 
 
-ll powM(ll x,ll y,ll m)    //function for calculating pow
+ll powM(ll x,ll y,ll m)    //function for calculating pow.............
 {
     ll ans=1;ll r=1;
     x%=m;
@@ -147,7 +147,7 @@ void Miden(ll **p1, ll n)   .. to find midden
 --------------------------------
 
 void Mmult(ll **p1,ll **p2,ll **ans,ll x,ll y,ll z,ll m)
-{                     //function to find multiply
+{                     //function to find multiply...........
     ll (*a)[y]=(ll (*)[y])p1;
     ll (*b)[z]=(ll (*)[z])p2;
     ll (*c)[z]=(ll (*)[z])ans;
@@ -193,7 +193,7 @@ void Mpow(ll **p1,ll **ans,ll n,ll y,ll m)
 
 -----------------------------
 
-//firstly control will come here 
+//firstly control will come here ...............
 int main(){
 
 
@@ -212,3 +212,4 @@ int main(){
 
 
 ------------------------------------------------------------------------------------------
+ - Sujal Contributer
