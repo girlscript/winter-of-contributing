@@ -1,6 +1,6 @@
 # Throwing Exceptions from Functions
 
-Mostly, in real-world programs, exceptions will be thrown from the function definitions. These functions that throw exceptions are invoked from within the try block. Here's an example below explaining the same:
+- Mostly, in real-world programs, exceptions will be thrown from the function definitions. These functions that throw exceptions are invoked from within the try block. Here's an example below explaining the same:
 
 ```C++
 #include<iostream>
