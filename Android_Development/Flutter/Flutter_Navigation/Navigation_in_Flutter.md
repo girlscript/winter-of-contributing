@@ -21,7 +21,7 @@ The workflow of any app is defined by its navigation and routing is the process 
 <p>SecondScreen.dart </P>
 <h3 align="left">Step -2 :Code the SecondScreen.dart file </h3>
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 class SecondScreen extends StatelessWidget {
@@ -51,7 +51,7 @@ In this case, it is a HomeScreen.dart page that we would want to reach to(naviga
 
 <h3 align="left">Step -3 :Create the HomeScreen.dart file </h3>
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 import './SecondScreen.dart';
@@ -65,15 +65,18 @@ class HomeScreen extends StatelessWidget {
         title: Text('Home Screen'),
       ),
       body: Center(
-          child: RaisedButton(
-              child: Text('Go to Second Screen'),
-              color: Theme.of(context).primaryColor,
-              textColor: Colors.white,
-              onPressed: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (BuildContext context) => SecondScreen(),
-                  )))),
+        child: RaisedButton(
+          child: Text('Go to Second Screen'),
+          color: Theme.of(context).primaryColor,
+          textColor: Colors.white,
+          onPressed: () => Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (BuildContext context) => SecondScreen(),
+            ),
+          ),
+        ),
+      ),
     );
   }
 }
@@ -87,7 +90,7 @@ So, when the user clicks on the Go to second screen button, we navigate theren, 
 
 Finally we code the main.dart file.</P>
 
-```
+```dart
 import 'package:flutter/material.dart';
 
 import './pages/HomeScreen.dart';
