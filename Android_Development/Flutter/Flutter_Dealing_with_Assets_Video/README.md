@@ -6,8 +6,10 @@
 - PART 1 ADDING IMAGES AS ASSETS
 - Youtube Link: 
     https://youtu.be/liNuzne2SWw
+    
     https://youtu.be/QsqpsRSLWmo
 
 
 - PART 2 ADDING TEXTS AS ASSETS
-    https://youtu.be/g4BIw5lWO2c
+- YOUTUBE LINK
+   https://youtu.be/g4BIw5lWO2c
