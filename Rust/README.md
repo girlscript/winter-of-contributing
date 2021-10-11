@@ -10,9 +10,9 @@
 
 ### 1. Introduction :
 
-- [What is **Rust** and who is it for ? ](1.Introduction/Who_and_what.md)
+- [What is **Rust** ?](1.Introduction/Who_and_what.md)
 
-- [**Motivation**]()
+- [Who is it for and **Motivation**]()
 
 ### 2. Setting up Rustup :
 
