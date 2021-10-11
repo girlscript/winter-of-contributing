@@ -29,3 +29,109 @@ int main()
 ### Output Screenshot:
 
 <img src = "https://user-images.githubusercontent.com/76544476/136778987-b64e6c94-9941-4c15-8749-68a5bbbec00e.png" width="500" height="250">
+
+## Logical Errors
+
+Even if the syntax and other things are correct, then also we may not be able to get the desired/correct output due to logical issues. This is nothing but called as logical errors. At times, we add a semicolon after the loop accidentally which is correct with the syntax but it creates a blank loop. In that case it won't show the wanted output.
+
+### Example:
+
+```C++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    for(int i=0;i<3;i++);
+    {
+        cout<<"Example 2";
+    }
+}
+
+```
+### Output:
+
+> Example 2 <br>
+
+In this we want to print "Example 2" three times, but because we added semicolon to the end of the loop, it prints only once.
+
+## Semantic Errors
+
+This kind of error generally occurs when the code is correct with respect to syntax but has no meaning. For instance, grammatical errors, if any expression is written to the left side of assignment operator these may result in semantic errors.
+
+### Example:
+
+```C++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a=1,b=2,ans;
+    a+b=ans;
+}
+
+```
+
+### Output Screenshot:
+
+<img src = "https://user-images.githubusercontent.com/76544476/136785693-bd4c9dcc-7c05-44a3-ba68-529c80cb796f.png" width="800" height="250">  <br>
+
+It must be return as " ans= a+b; " to get the desired output of ans as 3.
+
+## Run-Time Errors
+
+During execution, this kind of errors generally occurs. Compilation occurs successfully because this is not a compilation error. For instance, dividing a number by 0 results in run-time error.
+
+### Example:
+
+```C++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a=2,b=0;
+    cout<<a/b;
+}
+
+```
+
+### Output Screenshot:
+
+<img src = "https://user-images.githubusercontent.com/76544476/136786882-5705f085-99c6-406f-b340-39013e965324.png" width="700" height="150">  <br>
+
+The program crashes at the runtime.
+
+## Linker Errors
+
+When the program is compiled successfully and trying to link up with the other object file along with the main object file, this kind of error occurs. So, execution is not generated. For instance, writing wrong function prototype causes this error.
+
+### Example:
+
+```C++
+#include <iostream>
+using namespace std;
+
+int Main() // Here Main() is written in place of main()
+{
+    int x = 1;
+    cout << x;
+}
+
+```
+
+### Output Screenshot:
+
+<img src = "https://user-images.githubusercontent.com/76544476/136788204-d9057d24-b68c-4eda-8330-65bd2a5a2897.png" width="700" height="150">
+
+
+
+
+
+
+
+
+
+
+
