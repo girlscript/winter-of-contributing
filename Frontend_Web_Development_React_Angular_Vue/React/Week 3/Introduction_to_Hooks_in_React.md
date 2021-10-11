@@ -16,6 +16,16 @@ React provides few built-in Hooks like `useState`, `useEffect`, `useContecxt`, `
 
 We can build static or dummy components by writing function. However UI components are more often dynamic, theremay be need to change the state of the data, reactive life cycle event, and access the elements from DOM this is where Hook comes in a scene.
 
+**Importance of Hooks in React**
+
+- No more complex lifecycle methods
+
+  > As those method very hard to remember and they keep changing now you can do that very easily.
+
+- Hooks allow you to reuse stateful logic without changing your component hierarchy.
+
+- It removed the complexity of dealing with the `this` keyword inside class components.
+
 # **Advantages of Hooks**
 
 1. Hooks code are easier to read and less line of code. Lets take a simple example of counter and compare functional components and class components.
@@ -62,7 +72,7 @@ class Counter extends React.Component {
 
 2. Previously we use `componentDidMount` and `componentDidUpdate` to render states and `componentWillUnmount` to clean but we can do it all together using Hooks `useEffect()`
 
-3. You can still use classes in React but Hooks generally provide you more easy way to build components. Because you can reuse state for logic without changing the components hierarchy.
+3. You can still use classes in React but Hooks generally provide you more easy way to build components.
 
 4. Hooks are easier to work on and to test and it also makes our code cleaner.
 
