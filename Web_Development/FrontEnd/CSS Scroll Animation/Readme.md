@@ -10,7 +10,9 @@ We add animations by adding the attribute data-aos in the element.
 - Zoom
 
 ### Fade Animation
+
 ![FadeGIF](https://user-images.githubusercontent.com/53508296/136777134-8d535055-1b74-4d18-9ff2-0798cd578002.gif)
+
 ```html
     <h4>
         Fade Animations
@@ -43,7 +45,9 @@ We add animations by adding the attribute data-aos in the element.
 ```
 
 ### Flip Animation
+
 ![FlipGIF](https://user-images.githubusercontent.com/53508296/136777172-62914ed3-329a-4f45-a79d-ad985defcfbf.gif)
+
 ```html
     <h4>
         Flip Animations
@@ -64,7 +68,9 @@ We add animations by adding the attribute data-aos in the element.
 ```
 
 ### Zoom Animation
+
 ![zoomGIF](https://user-images.githubusercontent.com/53508296/136777205-7478d844-0fd3-4f2c-8a02-33abd91b6fed.gif)
+
 ```html
     <h4>
         Zoom Animations
@@ -111,6 +117,7 @@ We add animations by adding the attribute data-aos in the element.
 - Anchor
 
 ![extraGIF](https://user-images.githubusercontent.com/53508296/136777241-3d4e7828-a11e-481a-98c6-acf8c63b674e.gif)
+
 ```html
     <h4>
         Animations using extra properties
