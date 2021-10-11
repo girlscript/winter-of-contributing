@@ -25,8 +25,7 @@ fn main() {
 }
 ```
 
-- ### Get excited and dive deep into to world of ferris(the mascot) and head on over to the next section , you will learn Rust soon
-and make awesome things 🚀.
+### Get excited and dive deep into to world of ferris(the mascot) and head on over to the next section , you will learn Rust soon and make awesome things 🚀.
 
 <p align="center">
 <img src="https://media.giphy.com/media/RVaqnLYmO79C0/giphy.gif">
