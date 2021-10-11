@@ -4,6 +4,7 @@
 **_Function Argument_** is basically **values** that are **passed** into the function. These arguments are used during execution of function. It can be seen in parentheses of function call.
 
 <br>
+
 -------------------------------------------------- 
 
 **Syntax**:
