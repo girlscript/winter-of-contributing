@@ -14,13 +14,16 @@ There are some rules for the number maze problem that we have to follow.<br>
 
 ### Header Files
 
+```cpp
 #include<iostream><br>
 using namespace std;<br>
 #define N 9<br>
+```
 
 ### Input for Sudoku
    
-```int grid[N][N] = {
+```cpp
+   int grid[N][N] = {
    {0, 0, 8, 0, 0, 5, 9, 0, 0}, 
    {4, 2, 9, 0, 6, 0, 1, 8, 0},
    {5, 0, 1, 0, 0, 8, 0, 7, 4},
@@ -35,7 +38,7 @@ using namespace std;<br>
 
 **Checking if the number is present in the same column.**
    
-```
+```cpp
 bool ispresentincol(int col, int num){ 
    for (int row = 0; row < N; row++)
       if (grid[row][col] == num)
@@ -53,7 +56,7 @@ bool ispresentinrow(int row, int num){
 }
 ```
 **Checking if the number is present in the same 3x3 grid**
- ```
+ ```cpp
 bool ispresentingrid(int boxStartRow, int boxStartCol, int num){
    for (int row = 0; row < 3; row++)
       for (int col = 0; col < 3; col++)
@@ -63,7 +66,7 @@ bool ispresentingrid(int boxStartRow, int boxStartCol, int num){
 }
 ```
 **Finding empty place in the sudoku.**
-```
+```cpp
 bool findemptyspace(int &row, int &col){
    for (row = 0; row < N; row++)
       for (col = 0; col < N; col++)
@@ -73,13 +76,13 @@ bool findemptyspace(int &row, int &col){
 }
 ```
 **Number is not present in the samr row,column and 3x3 grid.**
-```
+```cpp
 bool isvalid(int row, int col, int num){
   return !ispresentinrow(row, num) && !ispresentincol(col, num) && !ispresentingrid(row - row%3 ,col - col%3, num);
 }
 ```
 **Solving the Sudoku**
-```
+```cpp
 bool solveSudoku(){
    int row, col;
    if (!findemptyspace(row, col)
@@ -96,7 +99,7 @@ bool solveSudoku(){
 }
 ```
 **Printing the grid**
-```
+```cpp
 void sudokuGrid(){ 
    for (int row = 0; row < N; row++){
       for (int col = 0; col < N; col++){
@@ -115,7 +118,7 @@ void sudokuGrid(){
 ```
 
 **Executing the program**
-   ```
+   ```cpp
 int main()
    if (solveSudoku() == true;
       sudokuGrid;
