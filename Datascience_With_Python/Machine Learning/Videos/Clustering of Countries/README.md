@@ -1,5 +1,5 @@
 
-## VIDEO LINK : [CLUSTERING OF COUNTRIES]()
+## VIDEO LINK : [CLUSTERING OF COUNTRIES](https://drive.google.com/file/d/1itZe6YikjHAG8_hWHzFaK_TDV6D1-Fny/view?usp=sharing)
 
 ## What is Clustering?
 
