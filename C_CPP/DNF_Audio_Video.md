@@ -9,8 +9,9 @@
    - Pseudocode
 3. Implementation
 <br>
-[![DNF Video C++](https://user-images.githubusercontent.com/75632877/136794998-52febcc6-5309-4273-b86a-0b09df3775df.jpg)
-](https://drive.google.com/file/d/1zAQADZEsFRDtT7KI_5iU6toVJYrgCuhJ/view?usp=sharing)
+
+[![DNF Video C++](https://user-images.githubusercontent.com/75632877/136794998-52febcc6-5309-4273-b86a-0b09df3775df.jpg)](https://drive.google.com/file/d/1zAQADZEsFRDtT7KI_5iU6toVJYrgCuhJ/view?usp=sharing)
+   
 <br>
 
 ----
