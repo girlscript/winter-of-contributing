@@ -1,6 +1,6 @@
-## One shot DFS traversal
+# One shot DFS traversal
 This documentation explains a unique approach of traversing a Binary Search Tree. Here we try to get preorder, inorder and postorder traversals by just one flow. We will be traversing the whole tree only once and obtain the inorder, preorder and postorder traversals.
-### Approach
+## Approach
 - Take a stack which can store a tree node and a number at one index (using struct). The structure looks something like:
 ```cpp
 struct StackData{
@@ -64,12 +64,12 @@ while(!res.empty()){
 Here, the logic is that if the number in the stack's top position is 1, then the node value is stored in preorder and the integer is incremented to 2. Then if left of the node exists in the tree, then that node is inserted in stack with an integer value 1.
 Similarly, for integer value 2, inorder vector is taken into consideration and for integer value 3, postorder is taken into consideration. The postorder is a bit different from that of inorder and preorder because after postorder, no other traversal is left on the node and hence, nothing is to be inserted in the stack. Rather, the top of stack is popped out because it has been traversed already.
 
-### Time and Space Complexity:
+## Time and Space Complexity:
 Considering N to be the number of nodes in the tree to be traversed: 
 - `Time complexity`: The time complexity of this approach can be considered as `O(3*N)`. This can be deduced because each node is being referred thrice in the code one for each traversal. Hence the time complexity is linear.
 - `Space complexity`: The space complexity of this approach can be considered as `O(4*N)`. This can be deduced because we are creating three different vectors for storing the node values and a stack for storing node and integer value. Hence, the space complexity is also linear.
 
-### Complete code for the one-shot-traversal:
+## Complete code for the one-shot-traversal:
 ```cpp
 //including header files
 #include<iostream>
@@ -184,6 +184,6 @@ Preorder traversal: 1 2 4 5 3 6 7 <br>
 Inorder traversal: 4 2 5 1 6 3 7 <br>
 Postorder traversal: 4 5 2 6 7 3 1
 
-### Reference:
+## Reference:
 [take U forward - L13. Preorder Inorder Postorder Traversals in One Traversal | C++ | Java | Stack | Binary Trees](https://www.youtube.com/watch?v=ySp2epYvgTE&list=PLgUwDviBIf0q8Hkd7bK2Bpryj2xVJk8Vk&index=14)
 
