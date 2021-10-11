@@ -44,14 +44,12 @@ Example:
     </div>
 
 ### Output:
-
-![Screenshot
-(20)](829eea2640e64b3f96442161648c1240/e8f708af5781e2d46ccb186e438885d289d63971.png)
+![Screenshot (20)](https://user-images.githubusercontent.com/60356387/136809673-b2a7a3a5-60c3-4e98-ac22-de9e049a3bbc.png)
 
 ### Explanation:
 
-`<b>`{=html}HTML)`</b>`{=html} Use any element to open the dropdown
-content, e.g. a `<span>`{=html}, or a `<button>` element.
+<b>HTML)</b> Use any element to open the dropdown
+content, e.g. a `<span>`, or a `<button>` element.
 
 A container element (like `<div>`) is used to create the dropdown
 content.
@@ -59,7 +57,7 @@ content.
 `<div>` element is wrapped around the elements to position the dropdown
 content correctly with CSS.
 
-`<b>`{=html}CSS)`</b>`{=html} The .dropdown class uses position:
+<b>CSS)</b> The .dropdown class uses position:
 relative, which is needed when the dropdown content is to be placed
 right below the dropdown button (using position: absolute).
 
@@ -142,8 +140,7 @@ Example:
 
 ### Output:
 
-![Screenshot
-(22)](829eea2640e64b3f96442161648c1240/d8d2d4e61ea5ddb3fd61c4ae2c760df45985801d.png)
+![Screenshot (22)](https://user-images.githubusercontent.com/60356387/136809836-16c06b41-a5dd-40eb-9c5e-8d9b6cb0f497.png)
 
 ## Right-aligned Dropdown Content
 
@@ -226,8 +223,7 @@ Example:
 
 ### Output:
 
-![Screenshot
-(23)](829eea2640e64b3f96442161648c1240/baf20bef8a2ec979cbb8f6f70497095ff49621ea.png)
+![Screenshot (23)](https://user-images.githubusercontent.com/60356387/136809904-378d0882-265e-4f96-b2b8-2bd736244345.png)
 
 ## Dropdown Image
 
@@ -281,15 +277,14 @@ Example:
 
 ### Output:
 
-![Screenshot
-(25)](829eea2640e64b3f96442161648c1240/38ed0c97d749645c7fc3361485267de42034cc5f.png)
+![Screenshot (25)](https://user-images.githubusercontent.com/60356387/136810149-8531e07a-f79f-4b5e-ba31-a6ef24306404.png)
 
 ## Dropdown Navbar
 
 Adding a dropdown menu inside a navigation bar.
 
 Example:
-
+```
     <!DOCTYPE html>
     <html>
     <head>
@@ -366,11 +361,11 @@ Example:
 
     </body>
     </html>
-
-\#\#\#Output: ![Screenshot
-(26)](829eea2640e64b3f96442161648c1240/34f36a8af325168ffa0a56ee60dfb6c035ccb9cb.png)
+    
+```
+### Output: 
+![Screenshot (26)](https://user-images.githubusercontent.com/60356387/136810211-97532fc4-86dd-4264-a29a-1b0190ac4938.png)
 
 ## Reference:
 
-`<a href="https://www.w3schools.com/css/css_dropdowns.asp">`{=html}w3schools`</a>`{=html}
-:::
+<a href="https://www.w3schools.com/css/css_dropdowns.asp">w3schools</a>
