@@ -57,14 +57,14 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
+  # To add assets to your application, add an assets section, like this
   assets:
-    - assets\diceFace-2.png
-    - assets\diceFace-3.png
-    - assets\diceFace-4.png
-    - assets\diceFace-5.png
-    - assets\diceFace-6.png
-    - assets\diceFace1.png
+    - assets/diceFace-2.png
+    - assets/diceFace-3.png
+    - assets/diceFace-4.png
+    - assets/diceFace-5.png
+    - assets/diceFace-6.png
+    - assets/diceFace1.png
 
 
     
