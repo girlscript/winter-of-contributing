@@ -9,7 +9,8 @@ A queue is a _first in first out_(**FIFO**) structure. The queue implementation 
 <img src = "https://user-images.githubusercontent.com/76544476/136729206-69bf88f3-79f9-4c6d-ba8b-13f06be9c904.png" width="500" height="300">
 </div>
 
-<p align=center> [Source](https://slidetodoc.com/15-3-stacks-a-stack-is-a-linear/)
+<p align=center> 
+	[Source](https://slidetodoc.com/15-3-stacks-a-stack-is-a-linear/)
 
 ## Queue Operations
 
@@ -28,7 +29,7 @@ If there is no more of space/room for another element to be inserted, then the q
 <img src = "https://user-images.githubusercontent.com/76544476/136730297-db0af07b-c2dd-4efb-92ed-2290de523b24.png" width="400" height="400">
 </div>
 
-<p align=center> Fig:2
+<p align=center> [Source](https://www.programiz.com/dsa/circular-queue)
 
 ### Dequeue
 
@@ -39,7 +40,7 @@ If there are no data in the queue already and if dequeue is aimed, then the queu
 <img src = "https://user-images.githubusercontent.com/76544476/136732398-e98a90fe-22a4-4383-af69-6bc27f14e982.png" width="400" height="400">
 </div>
 
-<p align=center> Fig:3
+<p align=center> [Source](https://tex.stackexchange.com/questions/489987/how-to-draw-stack-and-queue-data-structure)
 
 
 ### Queue Front 
@@ -48,10 +49,10 @@ Retrieval of data from the front of the queue is done with **Queue Front**.
 If there is no data present in the queue and when the queue front is attemped, then the queue is in **Underflow** condition.
 
 <div align="center"> 
-<img src = "https://user-images.githubusercontent.com/76544476/136732851-21300c2a-1142-4f9a-a547-731430a1a15c.png" width="400" height="400">
+<img src = "https://user-images.githubusercontent.com/76544476/136823803-91a956e0-2abc-4115-82a3-85cf59018962.png" width="400" height="400">
 </div>
 
-<p align=center> Fig:4
+<p align=center> [Source](https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/tutorial/)
 
 ### Queue Rear
 
@@ -59,10 +60,10 @@ Retrieval of data from the rear of the queue is done with **Queue Rear**.
 If there is no data present in the rear and when the queue rear is attemped, then the queue is in **Underflow** condition.
 
 <div align="center"> 
-<img src = "https://user-images.githubusercontent.com/76544476/136733035-88e31d32-dd6f-4c49-958c-649dbca4e92a.png" width="400" height="400">
+<img src = "https://user-images.githubusercontent.com/76544476/136824321-8df1e01c-7e76-494d-a0a5-27190869a6c0.png" width="400" height="400">
 </div>
 
-<p align=center> Fig:5
+<p align=center> [Source](https://www.javatpoint.com/array-representation-of-queue)
 
 ### Program Demonstration:
 
