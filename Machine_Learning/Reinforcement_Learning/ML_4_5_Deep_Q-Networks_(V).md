@@ -5,7 +5,7 @@ This video provides a brief introduction Deep Q-Networks.
 Outline:
 
 - Basics of Deep Q-Networks
-- Examplatory explanation
+- Example based explanation
 - Steps in implementing Deep Q-Networks
 - Q-Learning Vs Deep Q-Networks
 
