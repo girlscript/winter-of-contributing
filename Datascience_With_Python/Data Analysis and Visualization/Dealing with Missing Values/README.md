@@ -3,7 +3,7 @@
 Dealing with Missing Values is a part of the Data Cleaning process which is done before doin anything on the data.It as a whole is part of the whole process called as Data Preprocessing.
 
 ## Data Cleaning 
-Real-world data tend to be incomplete, noisy, and inconsistent. Data cleaning (or data cleansing) routines attempt to fill in missing values, smooth out noise while identifying outliers, and correct inconsistencies in the data.An important part tends to be dealing with incomplete data i.e. dealing with missing values.
+Real-world data tend to be incomplete, noisy, and inconsistent. Data cleaning (or data cleansing) routines attempt to fill in missing values, smooth out noise while identifying outliers, and correct inconsistencies in the data.An important part tends to be dealing with incomplete data i.e. dealing with missing values.
 
 
 ## Understanding Why data is Missing
