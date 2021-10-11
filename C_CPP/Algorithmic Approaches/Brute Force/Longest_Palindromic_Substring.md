@@ -93,6 +93,6 @@ Longest palindromic substring is: bb
 Length of longest palindromic substring is: 2
 
 # Time And Space Complexity
-Time Complexity: O(n^3)
+Time Complexity: O(n<sup>3</sup>)
 
 Space Complexity: O(1)
