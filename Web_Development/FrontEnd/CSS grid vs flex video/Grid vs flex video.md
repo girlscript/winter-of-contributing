@@ -1,6 +1,6 @@
 # GRID VS FLEX
 
-### Video contants
+## Video contants
 
 Grid Definition,
 Code of grid
@@ -12,14 +12,14 @@ Grid and flex advantages and disadvantages
 
 When to use grid and flex
 
-### Link
+## Link
 
 - Solution URL: [GRID VS FLEX](https://drive.google.com/file/d/1bP9IPfCsqq-8eU-IthUKx5YZ1WNYhoDf/view?usp=drivesdk)
 
-### What I learned
+## What I learned
 I have learned difference between grid and flex and understood when to use which one
 
-### Useful resources
+## Useful resources
 
 - [Geeks for Geeks](https://www.geeksforgeeks.org/comparison-between-css-grid-css-flexbox/)- This helped me to understand what is grid and flex
 
