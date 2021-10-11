@@ -2,7 +2,7 @@
 This documentation explains a unique approach of traversing a Binary Search Tree. Here we try to get preorder, inorder and postorder traversals by just one flow. We will be traversing the whole tree only once and obtain the inorder, preorder and postorder traversals.
 ### Approach
 - Take a stack which can store a tree node and a number at one index (using struct). The structure looks something like:
-```
+```cpp
 struct StackData{
     int data;
     Treenode* x;
@@ -13,20 +13,20 @@ struct StackData{
 };
 ```
 - Create three vectors for storing the three different dfs traversals:
-```
+```cpp
 vector<int> preorder;
     vector<int> inorder;
     vector<int> postorder;
 ```
 - Insert rootnode with integer value 1.
-```
+```cpp
 stack<StackData*> res;
 StackData* a=new StackData(1,root);
 res.push(a);
 ```
 Note: `Here the integer values which are stored with tree node lie in the range [1,3] where 1 denotes that preorder is to be performed, 2 denotes that preorder is done and inorder is to be performed while 3 denotes that both inorder and preorder are done and postorder is to be performed for that node. After all the traversals, the node is popped out of the stack.`
 - Perform traversal till the time stack doesn't become empty.
-```
+```cpp
 //loop for all the nodes of the tree
 while(!res.empty()){
     //if the node on top of stack is not considered for preorder, then the int value will be 1 with it and it will be stored in preorder vector
@@ -70,7 +70,7 @@ Considering N to be the number of nodes in the tree to be traversed:
 - `Space complexity`: The space complexity of this approach can be considered as `O(4*N)`. This can be deduced because we are creating three different vectors for storing the node values and a stack for storing node and integer value. Hence, the space complexity is also linear.
 
 ### Complete code for the one-shot-traversal:
-```
+```cpp
 //including header files
 #include<iostream>
 #include<stack>
