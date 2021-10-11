@@ -37,11 +37,11 @@ void div(int i, int j, int c)
 
 > Exception 0  
 
-In this program, the function 'div()' is called from the 'try block'. In the function definition, as the value of 'j' is zero, the division, operation cannot be carried out and hence an exception is thrown. Now the program control enters the 'catch block' and executes the 'catch block' and later the program terminates.
+- In this program, the function 'div()' is called from the 'try block'. In the function definition, as the value of 'j' is zero, the division, operation cannot be carried out and hence an exception is thrown. Now the program control enters the 'catch block' and executes the 'catch block' and later the program terminates.
 
 <br />
 
-Sometime it becomes necessary that, a function be restricted to throw only specific kind of exception according to the user's wish. This can be  achieved by placing a throw list clause along with the function hrader in the function definition. See the syntax below for reference:
+- Sometime it becomes necessary that, a function be restricted to throw only specific kind of exception according to the user's wish. This can be  achieved by placing a throw list clause along with the function hrader in the function definition. See the syntax below for reference:
 
 ```C++
 void div(int x) throw(char *, int)
