@@ -37,18 +37,22 @@ Output:
 ### DFS
 Depth-first search (DFS) is a technique for traversing or exploring data structures such as trees or graphs. The algorithm begins at the root node (or, in the case of a graph, selects any arbitrary node as the root node) and explores as far as possible along each branch before backtracking.
 
-![dfs](https://he-s3.s3.amazonaws.com/media/uploads/9fa1119.jpg)
+<p align="center">
+  <img src="https://he-s3.s3.amazonaws.com/media/uploads/9fa1119.jpg" width="550" title="dfs">
+</p>
 
 ### Connected Components
 A connected component, or simply component of an  undirected graph component, is a subgraph in which each pair of nodes is connected to each other by a path.
 
-![connected_component](https://www.baeldung.com/wp-content/uploads/sites/4/2020/05/Connected-Component-Algorithm.png)
+<p align="center">
+  <img src="https://www.baeldung.com/wp-content/uploads/sites/4/2020/05/Connected-Component-Algorithm.png" width="550" title="connected components">
+</p>
 
 ## Basic Approach
 For each unvisited cell, we have to make  dfs and continue colouring the visited nodes. We maintain track of connected components using a variable that correspond to the desired solution.
 
 ## Implementation
- First we will implement a function connected_components which will determine 
+ First we will implement a function connected_components which will determine the number of rooms.
 
 ### Template and Variables
 ```C++
@@ -65,6 +69,7 @@ int main() {
 
 ```
 ### Step 1 : Verify whether the location is valid or not
+Create the function isValid(), which will check the grid for out-of-bounds problems as well as whether the place has been visited and is valid. This function will prevent you from visiting the same area more than once.
 ```C++
       bool isValid(int a, int b) {
           if(a < 0 || b < 0 || a >= n || b >= m) {
@@ -77,9 +82,9 @@ int main() {
               return true;
       }
 ```
-### Step 2 : Connected Component DFS over all locations accessible from the given place.
-Choose an unexplored location, begin dfs, and explore as much as possible before moving on to the next location.
-The number of connected components is equal to the number of picks you make.
+### Step 2 : DFS over all locations accessible from the given place.
+Create a method ConnectedComp() that will allow you to select an unvisited location, start dfs, and verify whether the location is legitimate or not before marking it as visited and going on to the next location.
+The number of linked components equals the number of picks you make.
 
 ```C++
     void ConnectedComp() {
@@ -95,6 +100,7 @@ The number of connected components is equal to the number of picks you make.
 ```
 
 ### Step 3 : DFS over all possible locations
+In this section, we build a conventional DFS function that will enable us mark the spot we choose as visited, traverse the supplied grid, and apply our procedures ConnectedComp() and isValid() to get our final answer.
 
 ```C++
     void dfs(int x, int y) {
@@ -172,9 +178,13 @@ int main() {
         
 }
 ```
-
-⏰ The Time and Space Complexity is O(N x M)
+### Time and Space Complexity
+```
+Time Complexity : O(N x M)
+```
+```
+Space Compexity : O(N x M)
+```
 ### Problem Tag
-```
-DFS on Grid, Floodfill
-```
+* DFS on Grid
+* Floodfill
