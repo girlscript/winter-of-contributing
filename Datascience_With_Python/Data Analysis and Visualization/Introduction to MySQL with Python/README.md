@@ -11,7 +11,7 @@ The general workflow of a Python program which interacts with a MySQL database i
 - Closing the connection to the MySQL server.
 
 ## Index
-- [Installing MySQL connectors/driver](installing-mysql-connectors/drivers-in-python)
+- [Installing MySQL connectors/driver](#installing-mysql-connectors/drivers-in-python)
 - Establishing a connection with the MySQL server
 - Creating a Database
 - Createing a Table
