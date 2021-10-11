@@ -1,3 +1,3 @@
 # Number System
 - [Types of Number System](./num_sys.md)
-- [Conversion Programs](./conversion)
+- [Conversion Programs](./Conversion)
