@@ -10,9 +10,9 @@
         - [Implementaion](#implementation-naive)
         - [Complexity Analysis](#complexity-analysis-naive)
     - [Efficient Approach](#efficient-approach)
-        - [Approach](#approach-(efficient))
-        - [Implementation](#implementation-(efficient))
-        - [Complexity Analysis](#complexity-analysis-(efficient))
+        - [Approach](#approach-efficient)
+        - [Implementation](#implementation-efficient)
+        - [Complexity Analysis](#complexity-analysis-efficient)
 
 
 ## Overview
