@@ -10,7 +10,7 @@
 
 ### 1. Introduction :
 
-- [What is **Rust** and who is it for ? ]()
+- [What is **Rust** and who is it for ? ](1.Introduction/Who_and_what.md)
 
 - [**Motivation**]()
 
