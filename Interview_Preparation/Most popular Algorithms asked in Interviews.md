@@ -591,4 +591,929 @@
     **Time complexity** of the Floyd–Warshall algorithm is **O(V<sup>3</sup>)**, where V is the total number of vertices in the
       graph.
 
+8. ### Kadane’s Algorithm (Maximum Sum Subarray Problem) 
+
+   **Problem Statement** : Given an integer array, find a contiguous subarray within it that has the largest sum.
    
+   We can easily solve this problem in **linear time** using Kadane’s algorithm. The idea is to maintain a maximum
+   (positive-sum) subarray “ending” at each index of the given array. This subarray is either empty (in which case its
+   sum is zero) or consists of one more element than the maximum subarray ending at the previous index.
+   
+   **Code** :
+   
+   ~~~ python
+   def kadane(A):
+ 
+    # find the maximum element present in a given list
+    maximum = max(A)
+ 
+    # if the list contains all negative values, return the maximum element
+    if maximum < 0:
+        return maximum
+ 
+    # stores the maximum sum sublist found so far
+    max_so_far = 0
+ 
+    # stores the maximum sum of sublist ending at the current position
+    max_ending_here = 0
+ 
+    # do for each element of a given list
+    for i in A:
+ 
+        # update the maximum sum of sublist "ending" at index `i` (by adding the
+        # current element to maximum sum ending at previous index `i-1`)
+        max_ending_here = max_ending_here + i
+ 
+        # if the maximum sum is negative, set it to 0 (which represents
+        # an empty sublist)
+        max_ending_here = max(max_ending_here, 0)
+ 
+        # update the result if the current sublist sum is found to be greater
+        max_so_far = max(max_so_far, max_ending_here)
+ 
+    return max_so_far
+   ~~~
+   
+   **Time Complexity** : **O(n)**, where n is the size of the array
+   
+9. ### Tree Traversals
+
+   **Inorder Tree Traversal**
+   
+   **Problem Statement** : Given a binary tree, write solution to traverse the tree using inorder traversal
+   
+   For traversing a (non-empty) binary tree in an inorder fashion, we must do these three things for every node n
+   starting from the tree’s root:
+   
+   **(L)** Recursively traverse its left subtree. When this step is finished, we are back at n again.
+   
+   **(N)** Process n itself.
+   
+   **(R)** Recursively traverse its right subtree. When this step is finished, we are back at n again.
+   
+    ## Inorder Tree Traversal can be implemented either Recursively or Iteratively
+    
+    **Recursive Implementation**
+    
+    As we can see, before processing any node, the **left subtree** is processed first, followed by the **node**, and the **right
+    subtree** is processed at last. These operations can be defined recursively for each node. The recursive
+    implementation is referred to as a Depth–first search (DFS), as the search tree is deepened as much as possible on
+    each child before going to the next sibling.
+    
+    **Code** :
+    
+    ~~~ python
+    def inorder(root):
+ 
+      # return if the current node is empty
+      if root is None:
+          return
+
+      # Traverse the left subtree
+      inorder(root.left)
+
+      # Display the data part of the root (or current node)
+      print(root.data, end=' ')
+
+      # Traverse the right subtree
+      inorder(root.right)
+    ~~~
+    
+    **Iterative Implementation**
+    
+    To convert the above recursive procedure into an iterative one, we need an explicit **stack**.
+    
+    **Algorithm** :
+    
+    ~~~
+    s —> empty stack
+    while (not s.isEmpty() or node != null)
+      if (node != null)
+        s.push(node)
+        node —> node.left
+      else
+        node —> s.pop()
+        visit(node)
+        node —> node.right
+    ~~~
+    
+    **Code** :
+    
+    ~~~ python
+    def inorderIterative(root):
+ 
+      # create an empty stack
+      stack = deque()
+
+      # start from the root node (set current node to the root node)
+      curr = root
+
+      # if the current node is None and the stack is also empty, we are done
+      while stack or curr:
+
+          # if the current node exists, push it into the stack (defer it)
+          # and move to its left child
+          if curr:
+              stack.append(curr)
+              curr = curr.left
+          else:
+              # otherwise, if the current node is None, pop an element from the stack,
+              # print it, and finally set the current node to its right child
+              curr = stack.pop()
+              print(curr.data, end=' ')
+
+              curr = curr.right
+    ~~~
+    
+    **Time Complexity** of the above solutions is **O(n)**, where n is the total number of nodes in the binary tree.
+    
+    **Space complexity** of the program is **O(n)** as the space required is proportional to the height of the tree, which can
+      be equal to the total number of nodes in the tree in worst-case for skewed trees.
+      
+      ---
+      
+   **Preorder Tree Traversal**
+   
+   **Problem Statement** : Given a binary tree, write solution to traverse the tree using preorder traversal
+   
+   For traversing a (non-empty) binary tree in an inorder fashion, we must do these three things for every node n
+   starting from the tree’s root:
+   
+   **(N)** Process n itself.
+   
+   **(L)** Recursively traverse its left subtree. When this step is finished, we are back at n again.
+   
+   **(R)** Recursively traverse its right subtree. When this step is finished, we are back at n again.   
+    
+    ## Preorder Tree Traversal can be implemented either Recursively or Iteratively
+    
+    **Recursive Implementation**
+    
+    As we can see, only after processing any **node**, the **left subtree** is processed, followed by the **right subtree**. These
+    operations can be defined recursively for each node. The recursive implementation is referred to as a Depth–first
+    search (DFS), as the search tree is deepened as much as possible on each child before going to the next sibling.
+    
+    **Code** :
+    
+    ~~~ python
+    def preorder(root):
+ 
+      # return if the current node is empty
+      if root is None:
+          return
+
+      # Display the data part of the root (or current node)
+      print(root.data, end=' ')
+
+      # Traverse the left subtree
+      preorder(root.left)
+
+      # Traverse the right subtree
+      preorder(root.right)
+    ~~~
+    
+    **Iterative Implementation**
+    
+    To convert the above recursive procedure into an iterative one, we need an explicit **stack**.
+    
+    **Algorithm** :
+    
+    ~~~
+    if (node = null)
+      return
+    s —> empty stack
+    s.push(node)
+    while (not s.isEmpty())
+      node —> s.pop()
+      visit(node)
+      if (node.right != null)
+        s.push(node.right)
+      if (node.left != null)
+        s.push(node.left)
+    ~~~
+    
+    **Code** :
+    
+    ~~~ python
+    def preorderIterative(root):
+ 
+      # return if the tree is empty
+      if root is None:
+          return
+
+      # create an empty stack and push the root node
+      stack = deque()
+      stack.append(root)
+
+      # loop till stack is empty
+      while stack:
+
+          # pop a node from the stack and print it
+          curr = stack.pop()
+
+          print(curr.data, end=' ')
+
+          # push the right child of the popped node into the stack
+          if curr.right:
+              stack.append(curr.right)
+
+          # push the left child of the popped node into the stack
+          if curr.left:
+              stack.append(curr.left)
+    ~~~
+    
+    **Time Complexity** of the above solutions is **O(n)**, where n is the total number of nodes in the binary tree.
+    
+    **Space complexity** of the program is **O(n)** as the space required is proportional to the height of the tree, which can
+      be equal to the total number of nodes in the tree in worst-case for skewed trees.
+      
+      ---
+      
+   **Postorder Tree Traversal**
+   
+   **Problem Statement** : Given a binary tree, write solution to traverse the tree using postorder traversal
+   
+   For traversing a (non-empty) binary tree in an inorder fashion, we must do these three things for every node n
+   starting from the tree’s root:
+
+   **(L)** Recursively traverse its left subtree. When this step is finished, we are back at n again.
+   
+   **(R)** Recursively traverse its right subtree. When this step is finished, we are back at n again.   
+   
+   **(N)** Process n itself.
+    
+    ## Postorder Tree Traversal can be implemented either Recursively or Iteratively
+    
+    **Recursive Implementation**
+    
+    As we can see, before processing any node, the **left subtree** is processed first, followed by the **right subtree**, and the
+    **node** is processed at last. These operations can be defined recursively for each node. The recursive implementation
+    is referred to as a Depth–first search (DFS), as the search tree is deepened as much as possible on each child before
+    going to the next sibling.
+    
+    **Code** :
+    
+    ~~~ python
+    def postorder(root):
+ 
+    # return if the current node is empty
+      if root is None:
+          return
+
+      # Traverse the left subtree
+      postorder(root.left)
+
+      # Traverse the right subtree
+      postorder(root.right)
+
+      # Display the data part of the root (or current node)
+      print(root.data, end=' ')
+    ~~~
+    
+    **Iterative Implementation**
+    
+    To convert the above recursive procedure into an iterative one, we need an explicit **stack**.
+    
+    **Algorithm** :
+    
+    ~~~
+    s —> empty stack
+    t —> output stack
+    while (not s.isEmpty())
+      node —> s.pop()
+      t.push(node)
+
+      if (node.left <> null)
+        s.push(node.left)
+
+      if (node.right <> null)
+        s.push(node.right)
+
+    while (not t.isEmpty())
+      node —> t.pop()
+      visit(node)
+    ~~~
+    
+    **Code** :
+    
+    ~~~ python
+    def postorderIterative(root):
+ 
+      # create an empty stack and push the root node
+      stack = deque()
+      stack.append(root)
+
+      # create another stack to store postorder traversal
+      out = deque()
+
+      # loop till stack is empty
+      while stack:
+
+          # pop a node from the stack and push the data into the output stack
+          curr = stack.pop()
+          out.append(curr.data)
+
+          # push the left and right child of the popped node into the stack
+          if curr.left:
+              stack.append(curr.left)
+
+          if curr.right:
+              stack.append(curr.right)
+
+      # print postorder traversal
+      while out:
+          print(out.pop(), end=' ')
+    ~~~
+    
+    **Time Complexity** of the above solutions is **O(n)**, where n is the total number of nodes in the binary tree.
+    
+    **Space complexity** of the program is **O(n)** as the space required is proportional to the height of the tree, which can
+      be equal to the total number of nodes in the tree in worst-case for skewed trees.
+      
+      
+10. ### Sorting Algorithms
+
+    **Insertion Sort**
+    
+    **Problem Statement** : Given an integer array, sort it using the insertion sort algorithm.
+    
+    The idea is to divide the array into two subsets – **sorted subset** and **unsorted subset**. Initially, a sorted subset
+    consists of only one first element at index 0 . Then for each iteration, insertion sort removes the next element from
+    the unsorted subset, finds the location it belongs within the sorted subset and inserts it there. It repeats until no
+    input elements remain.
+    
+    ## Insertion Sort can be implemented either Recursively or Iteratively
+    
+    **Iterative Implementation**
+    
+    ~~~ python
+    def insertionSort(A):
+ 
+      # Start from the second element
+      # (the element at index 0 is already sorted)
+      for i in range(1, len(A)):
+
+          value = A[i]
+          j = i
+
+          # find index `j` within the sorted subset `A[0…i-1]`
+          # where element `A[i]` belongs
+          while j > 0 and A[j - 1] > value:
+              A[j] = A[j - 1]
+              j = j - 1
+
+          # Note that sublist `A[j…i-1]`is shifted to
+          # the right by one position, i.e., `A[j+1…i]`
+
+          A[j] = value
+    ~~~
+    
+    **Recursive Implementation**
+    
+    ~~~ python
+    def insertionSort(A, i, n):
+ 
+      value = A[i]
+      j = i
+
+      # find index `j` within the sorted subset `A[0…i-1]`
+      # where element `A[i]` belongs
+      while j > 0 and A[j - 1] > value:
+          A[j] = A[j - 1]
+          j = j - 1
+
+      A[j] = value
+
+      # Note that sublist `A[j…i-1]`is shifted to
+      # the right by one position, i.e., `A[j+1…i]`
+
+      if i + 1 <= n:
+          insertionSort(A, i + 1, n)
+    ~~~
+    
+    **Time Complexity** : The worst-case time complexity of insertion sort is **O(n<sup>2</sup>)**, where n is the size of the input. The worst case happens
+      when the array is reverse sorted. The best-case time complexity of insertion sort is **O(n)**. The best case happens
+      when the array is already sorted.
+      
+      The **auxiliary space** used by the iterative version is **O(1)** and **O(n)** by the recursive version for the call stack.
+      
+      ---
+      
+    **Selection Sort**
+    
+    **Problem Statement** : Given an integer array, sort it using the selection sort algorithm.
+    
+    The idea is to divide the array into two subsets – **sorted subset** and **unsorted subset**. Initially, the sorted subset is
+    empty, and the unsorted subset is the entire input list. The algorithm proceeds by finding the smallest (or largest,
+    depending on sorting order) element in the unsorted subset, swapping it with the leftmost unsorted element
+    (putting it in sorted order), and moving the subset boundaries one element to the right
+    
+    ## Selection Sort can be implemented either Recursively or Iteratively
+    
+    **Iterative Implementation**
+    
+    ~~~ python
+    def selectionSort(A):
+ 
+      for i in range(len(A) - 1):
+
+          # find the minimum element in the unsorted sublist `A[i…n-1]`
+          # and swap it with `A[i]`
+          min = i
+
+          for j in range(i + 1, len(A)):
+              # if the `A[j]` element is less, then it is the new minimum
+              if A[j] < A[min]:
+                  min = j        # update the index of minimum element
+
+          # swap the minimum element in sublist `A[i…n-1]` with `A[i]`
+          swap(A, min, i)
+    ~~~
+    
+    **Recursive Implementation**
+    
+    ~~~ python
+    def selectionSort(A, i, n):
+ 
+      # find the minimum element in the unsorted sublist `A[i…n-1]`
+      # and swap it with `A[i]`
+      min = i
+      for j in range(i + 1, n):
+
+          # if the `A[j]` element is less, then it is the new minimum
+          if A[j] < A[min]:
+              min = j            # update the index of minimum element
+
+      # swap the minimum element in sublist `A[i…n-1]` with `A[i]`
+      swap(A, min, i)
+
+      if i + 1 < n:
+          selectionSort(A, i + 1, n)
+    ~~~
+    
+    **Time Complexity** : The worst-case time complexity of insertion sort is **O(n<sup>2</sup>)**, where n is the size of the input. The worst case happens
+      when the array is reverse sorted. The best-case time complexity of insertion sort is **O(n)**. The best case happens
+      when the array is already sorted.
+      
+      The **auxiliary space** used by the iterative version is **O(1)** and **O(n)** by the recursive version for the call stack.
+      
+      ---
+      
+    **Merge Sort**
+    
+    **Problem Statement** : Given an integer array, sort it using the merge sort algorithm.
+    
+    Merge Sort is an **Divide and Conquer Algorithm**. Like all Divide and Conquer algorithms, merge sort divides a large array into two smaller subarrays and then recursively     sort the subarrays. Basically two steps are involved in the whole process:
+    
+    1. Divide the unsorted array into n subarrays, each of size 1 (an array of size 1 is considered sorted).
+    2. Repeatedly merge subarrays to produce new sorted subarrays until only 1 subarray is left, which would be our sorted array
+    
+    **Code** :
+    
+    ~~~ python
+    # Merge two sorted sublists `A[low … mid]` and `A[mid+1 … high]`
+    def merge(A, aux, low, mid, high):
+
+        k = low
+        i = low
+        j = mid + 1
+
+        # While there are elements in the left and right runs
+        while i <= mid and j <= high:
+
+            if A[i] <= A[j]:
+                aux[k] = A[i]
+                k = k + 1
+                i = i + 1
+            else:
+                aux[k] = A[j]
+                k = k + 1
+                j = j + 1
+
+        # Copy remaining elements
+        while i <= mid:
+            aux[k] = A[i]
+            k = k + 1
+            i = i + 1
+
+        # No need to copy the second half (since the remaining items
+        # are already in their correct position in the auxiliary array)
+
+        # copy back to the original list to reflect sorted order
+        for i in range(low, high + 1):
+            A[i] = aux[i]
+
+
+    # Sort list `A[low…high]` using auxiliary list aux
+    def mergesort(A, aux, low, high):
+
+        # Base case
+        if high == low:                     # if run size == 1
+            return
+
+        # find midpoint
+        mid = (low + ((high - low) >> 1))
+
+        # recursively split runs into two halves until run size == 1,
+        # then merge them and return up the call chain
+
+        mergesort(A, aux, low, mid)         # split/merge left half
+        mergesort(A, aux, mid + 1, high)    # split/merge right half
+
+        merge(A, aux, low, mid, high)       # merge the two half runs
+
+    ~~~
+    
+    The worst-case **Time Complexity** of merge sort is O(n.log(n)), where n is the size of the input.
+    
+    The recurrence relation is:
+    **T(n) = 2T(n/2) + cn = O(n.log(n))**
+    
+    The recurrence basically summarizes the merge sort algorithm – Sort two lists of half the original list’s size and add
+    the n steps taken to merge the resulting two lists.
+    
+    The **auxiliary space** required by the merge sort algorithm is **O(n)** for the call stack.
+
+       ---
+     
+    **Quick Sort**
+    
+    **Problem Statement** : Given an integer array, sort it using the quick sort algorithm.
+    
+    Merge Sort is an **Divide and Conquer Algorithm**. Like all Divide and Conquer algorithms, merge sort divides a large array into two smaller subarrays and then recursively     sort the subarrays. Basically three steps are involved in the whole process:
+    
+    - Pivot selection: Pick an element, called a pivot, from the array (usually the leftmost or the rightmost element of
+    the partition).
+    
+    - Partitioning: Reorder the array such that all elements with values less than the pivot come before the pivot. In
+    contrast, all elements with values greater than the pivot come after it. The equal values can go either way. After
+    this partitioning, the pivot is in its final position.
+    
+    - Recur: Recursively apply the above steps to the subarray of elements with smaller values than the pivot and
+    separately to the subarray of elements with greater values than the pivot
+    
+    **Code** :
+    
+    ~~~ python
+    def partition(a, start, end):
+ 
+      # Pick the rightmost element as a pivot from the list
+      pivot = a[end]
+
+      # elements less than the pivot will be pushed to the left of `pIndex`
+      # elements more than the pivot will be pushed to the right of `pIndex`
+      # equal elements can go either way
+      pIndex = start
+
+      # each time we find an element less than or equal to the pivot,
+      # `pIndex` is incremented, and that element would be placed
+      # before the pivot.
+      for i in range(start, end):
+          if a[i] <= pivot:
+              swap(a, i, pIndex)
+              pIndex = pIndex + 1
+
+      # swap `pIndex` with pivot
+      swap(a, end, pIndex)
+
+      # return `pIndex` (index of the pivot element)
+      return pIndex
+ 
+ 
+    # Quicksort routine
+    def quicksort(a, start, end):
+
+        # base condition
+        if start >= end:
+            return
+
+        # rearrange elements across pivot
+        pivot = partition(a, start, end)
+
+        # recur on sublist containing elements less than the pivot
+        quicksort(a, start, pivot - 1)
+
+        # recur on sublist containing elements more than the pivot
+        quicksort(a, pivot + 1, end)
+
+    ~~~
+    
+    The worst-case **Time Complexity** of Quicksort is **O(n<sup>2</sup>)**, where n is the size of the input. The worst case happens
+    when the pivot happens to be the smallest or largest element in the list or when all the array elements are equal.
+    This will result in the most unbalanced partition as the pivot divides the array into two subarrays of sizes **0** and **n-1** . 
+    If this repeatedly happens in every partition (say, we have sorted array), then each recursive call processes a list of size one less than the previous list,                   resulting in O(n ) time.
+    
+    **T(n) = T(n-1) + cn = O(n²)**
+    
+    (Note – partition takes **O(n)** time that accounts for cn )
+    
+    The best-case **Time Complexity** of Quicksort is **O(n.log(n))**. The best case happens when the pivot divides the
+    array into two nearly equal pieces. Now each recursive call processes a list of half the size.
+    
+    **T(n) = 2 T(n/2) + cn = O(n.log(n))**
+    
+    The **auxiliary space** required by the Quicksort algorithm is **O(n)** for the call stack.
+    
+       ---   
+       
+   
+    **Counting Sort**
+    
+    **Problem Statement** : Given a collection of n items, each of which has a non-negative integer key whose maximum value is
+      at most k , effectively sort it using the counting sort algorithm
+    
+    The algorithm loops over the items, computing a histogram of each key’s number of times within the input
+    collection. It then performs a **prefix sum** computation to determine, for each key, the starting position in the output
+    array of the items having that key. Finally, it loops over the items again, moving each item into its sorted position in
+    the output array.
+    
+    **Algorithm**
+    
+    1. After the first for-loop, freq[i] stores the total number of items with a key equal to i .
+  
+    2. After the second for-loop, it instead stores the total number of items with a key less than i , which is the same
+    as the first index at which an item with key i should be stored in the output array.
+    
+    3. Throughout the third loop, freq[i] always stores the next position in the output array into which an item with
+    key i should be stored, so each item is moved to its correct position in the output array
+    
+    **Code** :
+    
+    ~~~ python
+    
+    def countsort(A, k):
+ 
+      # create an integer list of size `n` to store the sorted list
+      output = [0] * len(A)
+
+      # create an integer list of size `k + 1`, initialized by all zero
+      freq = [0] * (k + 1)
+
+      # using the value of each item in the input list as an index,
+      # store each integer's count in `freq[]`
+      for i in A:
+          freq[i] = freq[i] + 1
+
+      # calculate the starting index for each integer
+      total = 0
+      for i in range(k + 1):
+          oldCount = freq[i]
+          freq[i] = total
+          total += oldCount
+
+      # copy to the output list, preserving the order of inputs with equal keys
+      for i in A:
+          output[freq[i]] = i
+          freq[i] = freq[i] + 1
+
+      # copy the output list back to the input list
+      for i in range(len(A)):
+          A[i] = output[i]
+
+    ~~~
+    
+    **Time Complexity** of the counting sort is **O(n + k)**, where n is the size of the input and k is the input range.
+    Since it uses arrays of length k+1 and n.
+    
+    **Total space** used by the algorithm is also **O(n + k)**.
+    
+       --- 
+      
+11. ### Flood Fill Algorithm
+
+    **Problem Statement** : Flood fill (also known as seed fill) is an algorithm that determines the area connected to a given node
+    in a multi-dimensional array.
+    
+    It is used in the **“bucket” fill tool** of a paint program to fill connected, similarly colored areas with a different color
+    and in games such as Go and Minesweeper for determining which pieces are cleared. When applied on an image to
+    fill a particular bounded area with color, it is also known as boundary fill.
+    
+    The flood fill algorithm takes three parameters: a **start node**, a **target color**, and a **replacement color**.
+    Consider the following matrix to the left – if the start node is (3, 9) , target color is “BLACK” and replacement
+    color is “GREY”, the algorithm looks for all nodes in the matrix that are connected to the start node by a path of
+    the target color and changes them to the replacement color.
+    
+    
+    ## Flood Fill Algorithm can be implemented either using BFS or DFS
+    
+    **Approach 1: (Using BFS)**
+    
+    A queue-based implementation using Breadth–first search (BFS).
+    
+    **Algorithm** 
+    
+    ~~~
+    BFS (starting-pixel, replacement-color):
+
+    1. Create an empty queue.
+ 
+    2. Enqueue starting pixel and mark it as processed.
+   
+    3. Loop till queue is empty
+ 
+      1. Dequeue the front node and process it.
+      2. Replace the color of the current pixel (popped node) with that of the
+      replacement.
+      3. Process all eight adjacent pixels of the current pixel and enqueue
+      each valid pixel that has the same color as that of the current
+      pixel.
+    ~~~
+    
+    **Code** :
+    
+    ~~~ python
+    def floodfill(mat, x, y, replacement):
+ 
+      # base case
+      if not mat or not len(mat):
+          return
+
+      # create a queue and enqueue starting pixel
+      q = deque()
+      q.append((x, y))
+
+      # get the target color
+      target = mat[x][y]
+
+      # target color is same as replacement
+      if target == replacement:
+          return
+
+      # break when the queue becomes empty
+      while q:
+
+          # dequeue front node and process it
+          x, y = q.popleft()
+
+          # replace the current pixel color with that of replacement
+          mat[x][y] = replacement
+
+          # process all eight adjacent pixels of the current pixel and
+          # enqueue each valid pixel
+          for k in range(len(row)):
+              # if the adjacent pixel at position (x + row[k], y + col[k]) is
+              # is valid and has the same color as the current pixel
+              if isSafe(mat, x + row[k], y + col[k], target):
+                  # enqueue adjacent pixel
+                  q.append((x + row[k], y + col[k]))
+                  
+    def isSafe(mat, x, y, target):
+      return 0 <= x < len(mat) and 0 <= y < len(mat[0]) and mat[x][y] == target
+    ~~~
+    
+    **Approach 2: (Using DFS)**
+    
+    We can use Depth–first search (DFS) to solve this problem. The idea is to start from the source node in the matrix,
+    replace its color with the replacement color and recursively explore all its valid eight adjacent pixels, and replace
+    their color. Note that we don’t need a visited array here as we are replacing the color of every processed node, and
+    it won’t be considered again next time as it will have a different color.
+    
+    **Code** :
+    
+    ~~~ python
+    def floodfill(mat, x, y, replacement):
+ 
+      # base case
+      if not mat or not len(mat):
+          return
+
+      # get the target color
+      target = mat[x][y]
+
+      # target color is same as replacement
+      if target == replacement:
+          return
+
+      # replace the current pixel color with that of replacement
+      mat[x][y] = replacement
+
+      # process all eight adjacent pixels of the current pixel and
+      # recur for each valid pixel
+      for k in range(len(row)):
+
+          # if the adjacent pixel at position (x + row[k], y + col[k]) is
+          # a valid pixel and has the same color as that of the current pixel
+          if isSafe(mat, x + row[k], y + col[k], target):
+              floodfill(mat, x + row[k], y + col[k], replacement)
+              
+    def isSafe(mat, x, y, target):
+      return 0 <= x < len(mat) and 0 <= y < len(mat[0]) and mat[x][y] == target
+    ~~~
+
+    **Time Complexity** of the proposed solution is **O(M × N)** and requires **O(M × N) extra space**, where M and N
+    are dimensions of the matrix
+    
+    ---
+    
+12. ### Floyd’s Cycle Detection Algorithm (Detect cycle in a linked list)
+
+    **Problem Statement** : Detect cycles in a linked list using Floyd’s cycle detection algorithm.
+    
+    Floyd’s cycle detection algorithm is a **pointer algorithm** that uses only **two pointers**, which move through the
+    sequence at different speeds. The idea is to move the **fast pointer** twice as quickly as the **slow pointer**, and the
+    distance between them increases by one at each step. If we both meet at some point, we have found a cycle in the
+    list; otherwise, no cycle is present if the end of the list is reached. It is also called the **“tortoise and the hare
+    algorithm”**.
+    
+    **Code** :
+    
+    ~~~ python
+    def detectCycle(head):
+ 
+      # take two references – `slow` and `fast`
+      slow = fast = head
+
+      while fast and fast.next:
+
+          # move slow by one
+          slow = slow.next
+
+          # move fast by two
+          fast = fast.next.next
+
+          # if they meet any node, the linked list contains a cycle
+          if slow == fast:
+              return True
+
+      # we reach here if slow and fast do not meet
+      return False
+    ~~~
+
+    **Time Complexity** of the above solution is **O(n)**, where n is the total number of nodes in the linked list, and
+    doesn’t require any **extra space**.
+    
+    ---
+    
+13. ### Topological Sort Algorithm for DAG
+
+    **Problem Statement** : Given a Directed Acyclic Graph (DAG), print it in topological order using topological sort algorithm. If
+    the DAG has more than one topological ordering, output any of them
+    
+    A **Topological sort** or Topological ordering of a directed graph is a linear ordering of its vertices such that for every
+    directed edge uv from vertex u to vertex v , u comes before v in the ordering. A topological ordering is
+    possible if and only if the graph has **no directed cycles**, i.e. if the graph is DAG.
+    
+    We can use **Depth–first search (DFS)** to implement topological sort algorithm. The idea is to order the vertices in
+    order of their decreasing departure time of vertices in DFS, and we will get our desired topological sort.
+    
+    **Code** :
+    
+    ~~~ python
+    # Perform DFS on the graph and set the departure time of all
+    # vertices of the graph
+    def DFS(graph, v, discovered, departure, time):
+ 
+      # mark the current node as discovered
+      discovered[v] = True
+
+      # set the arrival time of vertex `v`
+      time = time + 1
+
+      # do for every edge `v —> u`
+      for u in graph.adjList[v]:
+          # if `u` is not yet discovered
+          if not discovered[u]:
+              time = DFS(graph, u, discovered, departure, time)
+
+      # ready to backtrack
+      # set departure time of vertex `v`
+      departure[time] = v
+      time = time + 1
+
+      return time
+     
+    # Function to perform a topological sort on a given DAG 
+    def doTopologicalSort(graph, N):
+ 
+      # `departure` stores the vertex number using departure time as an index
+      departure = [-1] * 2 * N
+
+      ''' If we had done it the other way around, i.e., fill the array
+          with departure time using vertex number as an index, we would
+          need to sort it later '''
+
+      # to keep track of whether a vertex is discovered or not
+      discovered = [False] * N
+      time = 0
+
+      # perform DFS on all undiscovered vertices
+      for i in range(N):
+          if not discovered[i]:
+              time = DFS(graph, i, discovered, departure, time)
+
+      # Print the vertices in order of their decreasing
+      # departure time in DFS, i.e., in topological order
+      for i in reversed(range(2*N)):
+          if departure[i] != -1:
+              print(departure[i], end=' ')
+    ~~~
+
+    **Time Complexity** of the above implementation is **O(V + E)**, where V and E are the total number of vertices
+    and edges in the graph, respectively.
+    
+    ---
+    
+    
+
+
+
