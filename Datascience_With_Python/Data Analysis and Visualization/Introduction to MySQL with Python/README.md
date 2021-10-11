@@ -26,7 +26,7 @@ The general workflow of a Python program which interacts with a MySQL database i
 #### Pre requisties - MySQL server shouel be installed. 
 <br>
 
-##  <a name="installing-mysql-connectors/drivers-in-python">Installing MySQL connectors/drivers in python</a>
+##  <a name="installing-mysql-connectors/drivers-in-python"></a>Installing MySQL connectors/drivers in python
 
 A Python MySQL connector needs to be installed to interact with a MySQL database. This can be done by executing the below mentioned command in the python terminal. 
 ```python3
