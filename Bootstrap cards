@@ -1,0 +1,100 @@
+
+A card in Bootstrap  is a bordered box with some padding around its content and appropriate margins. It includes options of header, footer, content, color, etc with large variety of templates.
+
+Basic Card
+A basic card is created with the .card class, and content inside the card has a .card-body class.
+
+Example Code:
+
+<div class="card">
+  <div class="card-body">Card</div>
+</div>
+
+Header and Footer
+The .card-header class builds a heading to the card and the .card-footer class adds a footer to the card:
+
+<div class="card">
+  <div class="card_header">Header</div>
+  <div class="card_body">Content</div>
+  <div class="card_footer">Footer</div>
+</div>
+
+To add a background color the card, use contextual classes (
+.bg-secondary,
+.bg-primary, 
+ 
+
+.bg-danger,
+.bg-success,
+.bg-dark and 
+.bg-light,
+.bg-info, 
+.bg-warning,.)
+
+Use .card-title to add titles to any heading element. The .card-text class is used to remove bottom margins for a <p> element if it is the last child (or the only one) inside .card-body. The .card-link class adds a blue color to any link, and a hover effect.
+
+Code:
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">title</h4>
+    <p class="card-text">Some example text. Some example text.</p>
+    <a href="#" class="card-link">Card_link</a>
+    <a href="#" class="card-link">Another_link</a>
+  </div>
+  
+ 
+ Card Images
+ 
+ Add .card-img-top or .card-img-bottom to an <img> to place the image at the top or at the bottom inside the card. Note that we have added the image outside of the .card-body to span the entire width:
+ 
+ Code:
+ <div class="card" style="width:400px">
+  <img class="card-img-top" src="anypic.png" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">John Doe</h4>
+    <p class="card-text">Some example text.</p>
+    <a href="#" class="btn btn-primary">Profile</a>
+  </div>
+</div>
+</div>
+
+Card Columns
+
+The .card-columns class creates a masonry-like grid of cards (like pinterest). The layout will automatically adjust as you insert more cards.
+
+Code:
+
+<div class="card-columns">
+  <div class="card bg-primary">
+    <div class="card-body text-center">
+      <p class="card-text">Some text inside the first card</p>
+    </div>
+  </div>
+  <div class="card bg-warning">
+    <div class="card-body text-center">
+      <p class="card-text">Some text inside the second card</p>
+    </div>
+  </div>
+  <div class="card bg-success">
+    <div class="card-body text-center">
+      <p class="card-text">Some text inside the third card</p>
+    </div>
+  </div>
+  <div class="card bg-danger">
+    <div class="card-body text-center">
+      <p class="card-text">Some text inside the fourth card</p>
+    </div>
+  </div>
+  <div class="card bg-light">
+    <div class="card-body text-center">
+      <p class="card-text">Some text inside the fifth card</p>
+    </div>
+  </div>
+  <div class="card bg-info">
+    <div class="card-body text-center">
+      <p class="card-text">Some text inside the sixth card</p>
+    </div>
+  </div>
+</div>
+
+Source:w3schools.com
