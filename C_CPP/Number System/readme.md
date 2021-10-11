@@ -1,1 +1,3 @@
-Binary, Octal, Decimal, HexaDecimal etc
+# Number System
+- [Types of Number System](./num_sys.md)
+- [Conversion Programs](./conversion)
