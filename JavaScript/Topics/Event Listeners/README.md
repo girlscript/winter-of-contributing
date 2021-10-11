@@ -4,22 +4,18 @@
 In this Tutorial , we will learn about Javascript **Event Listeners**.
 
 ## What are Event Listeners?
-<br>
 
 Event listeners are a more recent approach to handling events. The **Event Listener** listens for the events and gets triggered when an event occurs.
 
 
 ## How to add an Event Listener to an element?
-<br>
-
 
 The   **addEventListener()**  method attaches an event handler to an element.
 
-
 The **addEventListener()** method takes three parameters:
 
- i)   The event you want it to listen for.
- ii)  The function you want to execute when an event occurs.
+ i)   The event you want it to listen for.<br>
+ ii)  The function you want to execute when an event occurs.<br>
  iii) useCapture (boolean value) indicating whether to use event bubbling or event capturing.(This parameter is optional.)
 
  ##### Syntax:
@@ -44,7 +40,7 @@ function checkUsername() // Declare function
   }
 }
 
-var elUsername = document .get ElementByld(' username'); // Get username input
+var elUsername = document.get ElementByld(' username'); // Get username input
 
 // When it loses focus call checkUsername()
 elUsername.addEventlistener('blur' , checkUsername , false) ;
@@ -52,7 +48,6 @@ elUsername.addEventlistener('blur' , checkUsername , false) ;
 
 
 ## Add Many Event Handlers to the Same Element:
-<br>
 
 The **addEventListener()** method allows you to add many events to the same element, without overwriting existing events:
 
@@ -62,7 +57,6 @@ element.addEventListener("click", secondFunction);
 
 
 ## Add Event Handler to the Window Object:
-<br>
 
 The **addEventListener()** method also allows you to add event listeners to the window object, or other objects that support events.
 
@@ -74,7 +68,6 @@ window.addEventListener("mousedown",function(event){
 ```
 
 ## Using Parameters with Event Listeners:
-<br>
 
 Because you cannot have parentheses after the function names in event listeners, passing arguments requires a workaround.
 
@@ -85,28 +78,27 @@ The named function that requires the arguments lives inside the anonymous functi
 Let's consider an example of this :
 
 ```js
-var elUsername = document .getElementByid('username') ; // Get username input
-var elMsg = document .getElementByid('feedback') ; // Get feedback element
+var elUsername = document.getElementByid('username') ; // Get username input
+var elMsg = document.getElementByid('feedback') ; // Get feedback element
 
 function checkUsername(minlength) { //Declare function
-if (elUsername.value.length < minlength) // If username too short
-{
-elMsg.textContent = 'Username must be ' + minlength + ' characters or more'; // Set the error message
-}
-else { // Otherwise
-elMsg.innerHTML = ' '; // clear the message
-}
+  if (elUsername.value.length < minlength) // If username too short
+  {
+   elMsg.textContent = 'Username must be ' + minlength + ' characters or more'; // Set the error message
+   }
+  else { // Otherwise
+  elMsg.innerHTML = ' '; // clear the message
+  }
 }
 
 // When it loses focus
-elUsername. addEventListener('blur' , function() { // anonymous function
+elUsername.addEventListener('blur' , function() { // anonymous function
 checkUsername(5); // Pass arguments here
 }, false) ;
 
 ```
 
 ## Event Bubbling and Event Capturing:
-<br>
 
 There are two ways of event propagation in the HTML DOM, event bubbling and event capturing.
 
@@ -145,7 +137,6 @@ document.getElementById("firstDiv").addEventListener("click", secondFunction, tr
 
 
 ## How to remove an Event Listener from an element?
-<br>
 
 The **removeEventListener()** method removes event handlers that have been added with the addEventListener() method:
 
@@ -154,9 +145,9 @@ The **removeEventListener()** method also takes same three parameters that **add
 ##### Syntax:
 
 >element.removeEventListener('event', functionName [,useCapture]);
-<br>
-## Advantages of Event Listeners:
-<br>
+
+
+### Advantages of Event Listeners:
 
 i) You can add many Event Listener to one element.
 
