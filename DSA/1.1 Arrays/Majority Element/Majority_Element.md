@@ -16,7 +16,8 @@
 
 
 ## Overview
-    Given an array A of N elements. Find the majority element in the array. A majority element in an array A of size N is an element that appears more than N/2 times in the array.
+    Given an array A of N elements. Find the majority element in the array. A majority element in an array A 
+    of size N is an element that appears more than N/2 times in the array.
 
 ## Example
     Input:
@@ -32,7 +33,6 @@
     Using Two Loops and calculating for each element, which one is occuring more than N/2 times.
 
 #### Implementation
-    ``` C++
         int majorityElement(int arr[], int n)
         {
             for (int i = 0; i < n; i++)
@@ -48,7 +48,6 @@
             }
             return -1;
         }
-    ```
 
 #### Complexity-Analysis
     Time Complexity : O(n*n)
@@ -64,7 +63,6 @@
             The second phase checks whether the candidate found out by the first phase is actually a majority element or not. The need of the second phase is when there is not majority element in the array.
 
 #### Implementation
-    ```C++
         int majorityElement(int arr[], int n)
         {
             int res = 0, count = 1;
@@ -90,7 +88,6 @@
                 return -1;
             return arr[res];
         }
-    ```
 
 #### Complexity-Analysis
     Time Complexity : O(n)
