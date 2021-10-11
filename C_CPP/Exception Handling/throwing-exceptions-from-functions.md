@@ -90,7 +90,7 @@ int main()
 
 > Cannot be divided by zero  
 
-__Note:__ Once an exception is thrown, the entire program stack is compiled and the excution stops.
+__Note:__ Once an exception is thrown, the entire program stack is compiled and the execution stops.
 
 <br />
 
