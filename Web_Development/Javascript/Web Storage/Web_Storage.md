@@ -1,13 +1,13 @@
 <!-- issue 5183 use web storage in javascript -->
 <!-- documentation -->
 
-# **`What is web storage ?`**
+# What is web storage ?
 
 With web storage, web applications can store data locally within the user's browser.
 
 Web storage is more secure, and large amounts of data can be stored locally, without affecting website performance. Web storage is per origin (per domain and protocol). All pages, from one origin, can store and access the same data.
 
-# **`Web Storage Objects`**
+# Web Storage Objects
 
 **window.localStorage** - stores data with no expiration date.
 
@@ -21,7 +21,7 @@ Before using web storage, check browser support for localStorage and sessionStor
             else  // Sorry! No Web Storage support.
     }
 
-# **`The localStorage Object ?`**
+# The localStorage Object:
 
 The localStorage object stores the data with no expiration date. The data will not be deleted when the browser is closed, and will be available the next day, week, or year
 
@@ -46,15 +46,16 @@ The localStorage object stores the data with no expiration date. The data will n
     </script>
   </body>
 </html>
-//output smith
 ```
+    output 
+    smith
 
 Example explained:
 
 - Create a localStorage name/value pair with name="lastname" and value="Smith"
 - Retrieve the value of "lastname" and insert it into the element with id="result
 
-# **`The sessionStorage Object`**
+# The sessionStorage Object:
 
 The sessionStorage object is equal to the localStorage object, except that it stores the data for only one session. The data is deleted when the user closes the specific browser tab.
 
@@ -93,10 +94,10 @@ The following example counts the number of times a user has clicked a button, in
     </p>
   </body>
 </html>
-// output
-<button>click me</button> Click Button Click the button to see the counter
-increase. Close the browser tab (or window), and try again, and the counter is
-reset.
 ```
+     output
+    <button>click me</button> Click Button Click the button to see the counter
+    increase. Close the browser tab (or window), and try again, and the counter is
+    reset.
 
 # happy learning ✌
