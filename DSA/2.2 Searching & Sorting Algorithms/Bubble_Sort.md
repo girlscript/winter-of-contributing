@@ -100,11 +100,20 @@ Bubble sort is easy to use but not suitable for large data set.
 
 ### **Complexity Analysis:**
 
-*Worst and average case Time complexity:* O(n^2), when array is reversed sorted
+In the first pass `n-1` comparisons will be done, in the second pass `n-2` and so on. So the total number of comparisons will be
 
-*Best Case Time complexity:* O(n), when array is already sorted
+    (n-1)+(n-2)+(n-3)+....+3+2+1
+    sum=n(n-1)/2
+    i.e O(n^2)
 
-*Space Complexity:* O(1)
+so, the **Time Complexity** of bubble sort is `O(n^2)` in the worst case.
+In the best case when the list already sorted, the complexity is `O(n)`.
+
+The **Space Complexity** is `O(1)`.
+
+
+**Refrences:**
+<a href="https://www.studytonight.com/data-structures/bubble-sort">Bubble Sort</a>
 
 
 
