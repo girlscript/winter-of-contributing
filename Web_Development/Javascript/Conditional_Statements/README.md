@@ -1,7 +1,7 @@
 # Conditional Statements in JavaScript
 
 * **Conditional Statements:**  Conditional statements help us to make a decision based on certain conditions.
-### JavaScript supports 4 conditional statements</h3>
+## JavaScript supports 4 conditional statements</h3>
  
 * if statement
 * if-else statement
@@ -98,9 +98,9 @@ else {
 
 ### switch statement
 
-A _switch statement_ is used to execute a particular group of statements to take from different available choices. The selection is based on the current value of an expression with the switch statement.
+A switch statement is used to execute a particular group of statements to take from different available choices. The selection is based on the current value of an expression with the switch statement.
 
-**_Working of switch statement_**
+**Working of switch statement**
 
 Firstly the switch expression is evaluated, then the value of the expression is compared one by one with every case constant. If the value of expression matches with any case constant, then all statements under that particular case are executed. If none of the case constant matches with the value of expression then the block of statements under default is executed. 'default' is optional, if it is not present and no case matches then no action takes place. These cases and default can occur in any order.
 
