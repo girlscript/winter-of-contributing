@@ -312,10 +312,10 @@ if __name__ == '__main__':
  
  ![Doubly-Linked-List-1](https://user-images.githubusercontent.com/66662965/136825453-50a862ac-554c-4190-9ced-3ff4b15f0c55.png)
 Here the link field for an equivalent `XOR` linked;ist stores the following values:
-`link(A) = NULL ^ adde(B)` //bitwise XOR of NULL with address of node B
-`link(B) = addr(A) ^ addr(C)` //bitwise XOR between the address of node A and C
-`link(C) = addr(B) ^ addr(D)` //bitwise XOR between the address of node B and D
-`link(D) = addr(C) ^ NULL` //bitwise XOR of the address of node A with NULL
+`link(A) = NULL ^ adde(B)` //bitwise XOR of NULL with address of node B <br>
+`link(B) = addr(A) ^ addr(C)` //bitwise XOR between the address of node A and C <br>
+`link(C) = addr(B) ^ addr(D)` //bitwise XOR between the address of node B and D <br>
+`link(D) = addr(C) ^ NULL` //bitwise XOR of the address of node A with NULL <br>
 
 ---
 How this helps?
