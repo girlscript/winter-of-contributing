@@ -18,4 +18,8 @@ If there is no more of space/room for another element to be inserted, then the q
 
 ![Screenshot (18)](https://user-images.githubusercontent.com/76544476/136730297-db0af07b-c2dd-4efb-92ed-2290de523b24.png)
 
+## Dequeue
+
+Deletion of data/element from queue is known as**Dequeue**. Data at the front of queue can be removed and returned to the user from the queue. 
+If there are no data in the queue already and if dequeue is aimed, then the queue is in **Underflow** condition. 
 
