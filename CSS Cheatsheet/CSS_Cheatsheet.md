@@ -3,7 +3,6 @@
 ## What is CSS ?
 
 - CSS stands for Cascading Style Sheet.
-
 - CSS describes how HTML elements should be displayed.
 
 ## Why use CSS?
@@ -12,83 +11,83 @@ CSS is used to define styles for your web pages, including the design, layout an
 
 > Basically. It's like our body with muscles. Without muscles our body is equivalent to without CSS our web pages.
 
-----
+### Basic
 
-### Basic : -
+**Syntax**
 
-----
+```
+selector{
+    property: value;
+    property2: value2;
+}
+```
 
-**SYNTAX**
-
-    selector{
-        property: value;
-        property2: value2;
-    }
-
-CSS File can be attach in HTML in three different ways : -
+CSS File can be attach in HTML in three different ways
 
 - External Style Sheet
 - Internal Style Sheet
 - Inline Style Sheet
 
-##### Include External Stylesheet in the HTML file -
+**Include External Stylesheet in the HTML file**
 
-    <link rel="stylesheet" type="text/css" href="/style.css" />
+```json
+<link rel="stylesheet" type="text/css" href="/style.css" />
+```
 
 Just add this link in the HTML in the head section.
 
-##### Include Internal Stylesheet in the file -
+**Include Internal Stylesheet in the file**
 
 The internal style is defined inside the **style** element inside the head section.
 
-> Example :
+> Example
 
-    <!DOCTYPE html>
-        <html>
-            <head>
-                <style>
-                    body {
-                        background-color: linen;
-                    }
+```json
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: linen;
+        }
 
-                    h1 {
-                        color: maroon;
-                        margin-left: 40px;
-                    }
-                </style>
+        h1 {
+            color: maroon;
+            margin-left: 40px;
+        }
+    </style>
 
-            </head>
+</head>
+<body>
+
+    <h1>This is a heading</h1>
+    <p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+**Inline Style**
+
+Inline styles are defined within the "style" attribute of the relevant element
+
+>Example 
+
+```json
+<!DOCTYPE html>
+    <html>
         <body>
 
-            <h1>This is a heading</h1>
-            <p>This is a paragraph.</p>
+            <h1 style="color:blue;text-align:center;">This is a heading</h1>
+            <p style="color:red;">This is a paragraph.</p>
 
         </body>
-        </html>
+    </html>
+```
 
-##### Inline Style -
+### Selectors
 
-Inline styles are defined within the "style" attribute of the relevant element :
-
->Example - 
-
-    <!DOCTYPE html>
-        <html>
-            <body>
-
-                <h1 style="color:blue;text-align:center;">This is a heading</h1>
-                <p style="color:red;">This is a paragraph.</p>
-
-            </body>
-        </html>
-
-----
-
-### Selectors : -
-
-----
-
-**Selectors-**
+**Selectors**
 
 | Selectors      | Representation              |
 | -------------- | --------------------------- |
@@ -105,7 +104,7 @@ Inline styles are defined within the "style" attribute of the relevant element :
 | div#id_name    | div with certain ID         |
 | #id_name *     | all elements inside #id_name|
 
-**Pseudo Class -**
+**Pseudo Class**
 
 | Pseudo Class   | Meaning                     |
 | -------------- | --------------------------- |
@@ -147,7 +146,7 @@ Inline styles are defined within the "style" attribute of the relevant element :
 | ::selection    | portion selected by user    |
 | :target        | highlight active anchor     |
 
-**Attribute Selector -**
+**Attribute Selector**
 
 | Pseudo Class       | Meaning                 |
 | --------------     | ----------------------- |
@@ -160,11 +159,7 @@ Inline styles are defined within the "style" attribute of the relevant element :
 | [class$="chair"]   | class ends with chair   |
 | input[type="button"] | specified input type  |
 
-----
-
-### Properties : -
-
-----
+### Properties
 
 | Properties          | Meaning                                               |
 | ------------------- | ----------------------------------------------------- |
@@ -346,28 +341,30 @@ Inline styles are defined within the "style" attribute of the relevant element :
 | word-wrap           | break long words and wrap onto the next line          |
 | z-index             | stack order of the element                            |
 
-----
+### Media Queries
 
-### Media Queries :-
-
-Media queries can be used to check many things, such as :-
+Media queries can be used to check many things, such as
 
 - width and height of the viewport
 - width and height of the device
-- orientation (is the tablet/phone in landscape or portrait mode?)
+- orientation (is the tablet/phone in landscape or portrait mode)
 - resolution
 
 Media queries are a technique for delivering a tailored style sheet (responsive web design) to desktops, laptops, tablets, and mobile phones.
 
-**SYNTAX**
+**Syntax**
 
-    @media not|only mediatype and (media feature) {
-        CSS Code 
-    }
-    Link external file:
-    <link rel="stylesheet" media=mediatype and|not|only (media feature href="mystylesheet.css")>
+```json
+@media not|only mediatype and (media feature) {
+    CSS Code 
+}
 
-##### Media Features -
+Link external file
+
+<link rel="stylesheet" media=mediatype and|not|only (media feature href="mystylesheet.css")>
+```
+
+#### Media Features
 
 | Media Features | Meaning                     |
 | -------------- | --------------------------- |
@@ -381,5 +378,3 @@ Media queries are a technique for delivering a tailored style sheet (responsive 
 | resolution  | resolution of the device       |
 | scan        | scanning process of the device |
 | grid        | device is a grid or bitmap     |
-
-----
