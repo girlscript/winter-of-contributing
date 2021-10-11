@@ -78,8 +78,8 @@ The named function that requires the arguments lives inside the anonymous functi
 Let's consider an example of this :
 
 ```js
-var elUsername = document.getElementByid('username') ; // Get username input
-var elMsg = document.getElementByid('feedback') ; // Get feedback element
+var elUsername = document.getElementById('username') ; // Get username input
+var elMsg = document.getElementById('feedback') ; // Get feedback element
 
 function checkUsername(minlength) { //Declare function
   if (elUsername.value.length < minlength) // If username too short
