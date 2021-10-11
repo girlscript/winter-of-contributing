@@ -29,6 +29,10 @@ The high value of R-square determines the less difference between the predicted 
 
 ![image](https://user-images.githubusercontent.com/62233992/136452797-12b59735-fd88-4571-87c8-d87f25bfdb0e.png)
 
+### Implementation
+
+![image](https://user-images.githubusercontent.com/62233992/136770628-37371480-8a00-46db-a0f9-965fa095ef19.png)
+
 ### Advantages
 
 * It is recommended to use R-Squared or rather adjusted R-Squared for evaluating the model performance of the regression models.
@@ -60,6 +64,15 @@ The MSE is the second moment of the error (about the origin) and thus incorporat
 ### Graphical Representation of MSE
 
 ![image](https://user-images.githubusercontent.com/62233992/136453062-672c9b20-64fd-4174-84d5-ebb3cfed0343.png)
+
+### Implementation
+
+1. Code 1: MSE using Sckit-learn
+![image](https://user-images.githubusercontent.com/62233992/136770931-dee0428d-4f0a-4c7a-bd3a-109a0bee12c2.png)
+
+2. Code 2: MSE using numpy module
+![image](https://user-images.githubusercontent.com/62233992/136770959-dd2c55d5-5574-4409-914e-4107422bf889.png)
+
 
 ### Advantages
 
