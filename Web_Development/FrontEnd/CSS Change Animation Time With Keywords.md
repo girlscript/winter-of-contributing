@@ -54,4 +54,4 @@ There are a number of predefined keywords available for popular options. For exa
     below video shows the change in animation time using the keyword.
     
 ### REFERENCE
-       [Refernce link 1](https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/change-animation-timing-with-keywords)
+       [Refernce link 1](https://www.freecodecamp.org/)
