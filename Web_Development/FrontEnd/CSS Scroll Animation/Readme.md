@@ -9,8 +9,9 @@ We add animations by adding the attribute _data-aos_ in the element.
 
 ### Fade Animation
 
+![FadeGIF](https://user-images.githubusercontent.com/53508296/136777134-8d535055-1b74-4d18-9ff2-0798cd578002.gif)
 
-https://user-images.githubusercontent.com/53508296/136668180-300952ba-4f7c-4574-ae47-4161cb52d235.mp4
+
 
 ```HTML
     <h4>
@@ -45,8 +46,8 @@ https://user-images.githubusercontent.com/53508296/136668180-300952ba-4f7c-4574-
 
 ### Flip Animation
 
+![FlipGIF](https://user-images.githubusercontent.com/53508296/136777172-62914ed3-329a-4f45-a79d-ad985defcfbf.gif)
 
-https://user-images.githubusercontent.com/53508296/136668552-3d3f2a08-6fc4-4bda-9324-c2f1631d53dd.mp4
 
 ```HTML
     <h4>
@@ -70,8 +71,9 @@ https://user-images.githubusercontent.com/53508296/136668552-3d3f2a08-6fc4-4bda-
 
 ### Zoom Animation
 
+![zoomGIF](https://user-images.githubusercontent.com/53508296/136777205-7478d844-0fd3-4f2c-8a02-33abd91b6fed.gif)
 
-https://user-images.githubusercontent.com/53508296/136668589-49d9f4af-88fa-412c-b121-f60c11c3fabd.mp4
+
 
 ```HTML
     <h4>
@@ -118,8 +120,8 @@ https://user-images.githubusercontent.com/53508296/136668589-49d9f4af-88fa-412c-
 - Delay
 - Anchor
 
+![extraGIF](https://user-images.githubusercontent.com/53508296/136777241-3d4e7828-a11e-481a-98c6-acf8c63b674e.gif)
 
-https://user-images.githubusercontent.com/53508296/136668619-868f3c26-8e4d-4a50-b2e4-46af836b32d5.mp4
 
 ```HTML
     <h4>
