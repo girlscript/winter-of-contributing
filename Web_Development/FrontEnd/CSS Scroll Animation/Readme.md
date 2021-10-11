@@ -1,19 +1,17 @@
 # Using Animation on Scoll Library
+
 Animation on Scroll Library is a library using which you can apply scrolling animations in your projects.
-We add animations by adding the attribute _data-aos_ in the element.
+We add animations by adding the attribute data-aos in the element.
 
 ## Types of Animation
+
 - Fade
 - Flip
 - Zoom
 
 ### Fade Animation
-
 ![FadeGIF](https://user-images.githubusercontent.com/53508296/136777134-8d535055-1b74-4d18-9ff2-0798cd578002.gif)
-
-
-
-```HTML
+```html
     <h4>
         Fade Animations
     </h4>
@@ -45,11 +43,8 @@ We add animations by adding the attribute _data-aos_ in the element.
 ```
 
 ### Flip Animation
-
 ![FlipGIF](https://user-images.githubusercontent.com/53508296/136777172-62914ed3-329a-4f45-a79d-ad985defcfbf.gif)
-
-
-```HTML
+```html
     <h4>
         Flip Animations
     </h4>
@@ -66,16 +61,11 @@ We add animations by adding the attribute _data-aos_ in the element.
     <div class="div4" data-aos="flip-left">
         Flip-left
     </div>
-
 ```
 
 ### Zoom Animation
-
 ![zoomGIF](https://user-images.githubusercontent.com/53508296/136777205-7478d844-0fd3-4f2c-8a02-33abd91b6fed.gif)
-
-
-
-```HTML
+```html
     <h4>
         Zoom Animations
     </h4>
@@ -110,10 +100,10 @@ We add animations by adding the attribute _data-aos_ in the element.
     <div class="div10" data-aos="zoom-out-right">
         Zoom-out right
     </div>
-
 ```
 
 ### Extra Properties:
+
 - Duration
 - Easing
 - Offset
@@ -121,9 +111,7 @@ We add animations by adding the attribute _data-aos_ in the element.
 - Anchor
 
 ![extraGIF](https://user-images.githubusercontent.com/53508296/136777241-3d4e7828-a11e-481a-98c6-acf8c63b674e.gif)
-
-
-```HTML
+```html
     <h4>
         Animations using extra properties
     </h4>
@@ -137,5 +125,4 @@ We add animations by adding the attribute _data-aos_ in the element.
     <div class="div3" data-aos="zoom-in-down" data-aos-easing="linear">
         Zoom-in down (Easing: linear)
     </div>
-
 ```
