@@ -1,0 +1,22 @@
+## What is Strings ?
+
+String is a sequence of characters. In java, objects of String are immutable which means a constant and cannot be changed once created.
+
+### Creating a String:
+There are two ways to create string in Java:
+1. String Literal
+
+  String s = “Winter-of-contributing”;
+
+2. Using new keyword
+
+  String s = new String ("Winter-of-contributing”);
+
+## Link for the Video:
+
+[![image](https://user-images.githubusercontent.com/62233992/135733502-f7001a91-db9e-4522-bad7-310ce2203bf0.png)](https://youtu.be/mWeRcNseryw)
+
+## References:
+
+* [Insertion Sort Algorithm - Javatpoint](https://www.javatpoint.com/insertion-sort)
+* [Insertion Sort Algorithm - InterviewBit](https://www.interviewbit.com/tutorial/insertion-sort-algorithm/)
