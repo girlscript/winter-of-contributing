@@ -18,8 +18,8 @@ The general workflow of a Python program which interacts with a MySQL database i
 - [Inserting Records in a Table](#inserting)
 - [Altering records in a Table](#alter)
 - [Reading records in a Table](#read)
-- [Updating records](#update) 
-- [Sorting records](#sort)
+- [Updating records in a Table](#update) 
+- [Sorting records in a Table](#sort)
 - [Deleting](#delete)
 
 
