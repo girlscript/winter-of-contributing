@@ -59,8 +59,10 @@
 #### Approach
     Using Boyer - Moore's Voting Algorithm:
         - It works in two phases:
-            The first phase garantees that if there is a majority element in the array, then this candidate that first phase finds out is goig to be majority element.
-            The second phase checks whether the candidate found out by the first phase is actually a majority element or not. The need of the second phase is when there is not majority element in the array.
+            The first phase garantees that if there is a majority element in the array, then this candidate 
+            that first phase finds out is goig to be majority element.
+            The second phase checks whether the candidate found out by the first phase is actually a majority 
+            
 
 #### Implementation
         int majorityElement(int arr[], int n)
