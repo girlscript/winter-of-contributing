@@ -21,6 +21,7 @@
 - [:point_right: SnackBar():](#point_right-snackbar)
 - [:point_right: Card():](#point_right-card)
 - [:point_right: CircularProgressIndicator() and LinearProgressIndicator():](#point_right-circularprogressindicator-and-linearprogressindicator)
+- [:point_right: Image():](#point_right-image)
 
 ## :point_right: MaterialApp():
 
@@ -1423,7 +1424,63 @@ class CircularAndLinearProgress extends StatelessWidget {
 
 ![ezgif com-gif-maker (11)](https://user-images.githubusercontent.com/76723996/136267182-a883e45a-b5c9-496a-b0a6-817944d71378.gif)
 
+## :point_right: Image():
 
+This widget is used to render images on the screen. You could either create an assert folder containing images in your project and set the path to these images under `pubspec.yaml` to access these images or you could use a network image. You can access asset images using `Image.asset('Specify path of the image')` and network image using `Image.network('Image url')`.
 
+```dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: ImageApp(),
+    );
+  }
+}
+
+class ImageApp extends StatefulWidget {
+  const ImageApp({Key? key}) : super(key: key);
+
+  @override
+  _ImageAppState createState() => _ImageAppState();
+}
+
+class _ImageAppState extends State<ImageApp> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Image"),
+      ),
+      body: Container(
+        alignment: Alignment.center,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            // Image.asset("specify image path ") to access images from asset folder
+            Image.network(
+                'https://images.unsplash.com/photo-1497006638916-1021f5d5b02b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1229&q=80',
+                height: 400,
+                width: 400)
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+```
+
+![image](https://user-images.githubusercontent.com/76723996/136721415-3da91a7f-fd31-4447-a8a6-88c94648ac72.png)
 
  :pushpin: To know more about material components click [here](https://flutter.dev/docs/development/ui/widgets/material).
