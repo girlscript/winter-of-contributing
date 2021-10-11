@@ -1,10 +1,12 @@
+
+## VIDEO LINK : [CLUSTERING OF COUNTRIES]()
+
 ## What is Clustering?
 
 - Clustering is a type of unsupervised learning method of machine learning.
 - In the unsupervised learning method, the inferences are drawn from the data sets which do not contain labelled output variable. 
 - It is an exploratory data analysis technique that allows us to analyze the multivariate data sets.
 
-## VIDEO LINK : [CLUSTERING OF COUNTRIES]()
 
 ## Types of Clustering
 
