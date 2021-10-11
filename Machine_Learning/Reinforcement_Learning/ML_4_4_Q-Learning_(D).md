@@ -1,5 +1,5 @@
 # **Q Learning**
-![]()
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Reinforcement_Learning/Assets/q3.jpg)
 
 Let's understand what is Q Learning in Machine Learning.
 
@@ -23,7 +23,7 @@ Q-Table is the data structure used to calculate the maximum  expected future rew
 
 The Q-function uses the Bellman equation and takes two inputs: state (s) and action (a).
 
-![]()
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Reinforcement_Learning/Assets/q1.png)
 
 ### **Algorithm** 
 - Step 1: Initialize the Q-Table.
@@ -34,7 +34,7 @@ The Q-function uses the Bellman equation and takes two inputs: state (s) and act
 
 
 
-![]()
+![](https://github.com/ayushi424/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Reinforcement_Learning/Assets/q2.png)
 
 ## **Applications**
 - Self-driving cars
