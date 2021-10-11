@@ -13,7 +13,6 @@
 <p align="center">
   <img src=https://s3.amazonaws.com/menumaker-blog/post_images/2017/05/1-2.png width="800px" />
 </p>
-
 [ Source of this picture:  <a href="https://s3.amazonaws.com/menumaker-blog/post_images/2017/05/1-2.png">Community Service Now</a> ]
 
 ## How to Make a Dropdown Menu in HTML
@@ -255,7 +254,7 @@ body{
 }
 ```
 
-Step 4 : Now you have to link `CSS ` file with `HTML ` file.
+* Step 4 : Now you have to link `CSS ` file with `HTML ` file.
 
 ```
 <!--You have to add these in "Head tag"-->
