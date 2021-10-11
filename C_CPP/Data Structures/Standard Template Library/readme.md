@@ -9,7 +9,7 @@ In this project, we'll talk about Deque (Double Ended Queue), a topic under The 
 
 ## Standard Template Library (STL) contains:
 
-- Array
+- [Array](ARRAYS)
 - [Vector](Vector)
 - Stack
 - Queue
