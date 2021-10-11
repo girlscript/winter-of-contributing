@@ -68,9 +68,11 @@ The MSE is the second moment of the error (about the origin) and thus incorporat
 ### Implementation
 
 1. Code 1: MSE using Sckit-learn
+
 ![image](https://user-images.githubusercontent.com/62233992/136770931-dee0428d-4f0a-4c7a-bd3a-109a0bee12c2.png)
 
 2. Code 2: MSE using numpy module
+
 ![image](https://user-images.githubusercontent.com/62233992/136770959-dd2c55d5-5574-4409-914e-4107422bf889.png)
 
 
