@@ -1,7 +1,5 @@
 # CSS Cheatsheet
 
----
-
 ## What is CSS ?
 
 - CSS stands for Cascading Style Sheet.
