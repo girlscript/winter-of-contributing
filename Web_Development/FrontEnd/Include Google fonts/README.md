@@ -20,6 +20,7 @@
     <img src="img/Screenshot (2882).png" alt="">
     <h2>Add the property</h2>
     <p>Add the font property using the name of font family</p>
+    <img src="img/Screenshot (2883).png" alt="">
     <h2>Your new font is added</h2>
     <img src="img/Screenshot (2875).png" alt="">
 </body>
