@@ -1,6 +1,6 @@
 # Conditional Statements in JavaScript
 
-* **Conditional Statements:**  Conditional statements help us to make a decision based on certain conditions.
+**Conditional Statements:**  Conditional statements help us to make a decision based on certain conditions.
 ## JavaScript supports 4 conditional statements</h3>
  
 * if statement
