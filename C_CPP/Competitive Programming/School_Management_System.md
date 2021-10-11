@@ -15,8 +15,8 @@ delete a record*/
 
 class student
 {
-      int roll;
-      char name[20];
+      int roll;       
+      char name[20];                           //A class that consists of student's information
       int age;
       public:
       void getdata(void);
@@ -27,11 +27,11 @@ class student
 void student :: getdata()
 {
       cout<<"Enter rollno";
-      cin>>roll;
+      cin>>roll;                     //To input student's roll no.
       cout<<"Enter name";
-      gets(name);
+      gets(name);                    //To input student's name
       cout<<"Enter age";
-      cin>>age;
+      cin>>age;                      //To input student's age
 }
 
 void student :: putdata()
@@ -41,7 +41,7 @@ void student :: putdata()
 
 int student :: getroll()
 {
-      return(roll);
+      return(roll);                
 }
 student s;
 
@@ -82,7 +82,7 @@ do
 
 void write_file()
 {
-      ofstream afile("student.dat",ios::binary|ios::app);
+      ofstream afile("student.dat",ios::binary|ios::app);                   //A function to write in the file
       s.getdata();
       afile.write((char*)&s,sizeof(s));
       afile.close();
@@ -90,7 +90,7 @@ void write_file()
 
 void read_file()
 {
-      ifstream bfile("student.dat",ios::binary);
+      ifstream bfile("student.dat",ios::binary);                          //A function to open the file in the read mode
       while(bfile.read((char*)&s,sizeof(s)))
       {
       s.putdata();
@@ -101,7 +101,7 @@ void read_file()
 void search()
 {
       int p = -1, r;
-      ifstream cfile("student.dat",ios::binary);
+      ifstream cfile("student.dat",ios::binary);                         //A function that searches a student's record using his or her roll no.
       cout<<"Enter rollnumber";
       cin>>r;
       while (cfile.read((char*)&s,sizeof(s)))
@@ -121,7 +121,7 @@ void search()
 void modify()
 {
       int p = -1, r, t = 0;
-      cout<<"Enter the rollnumber";
+      cout<<"Enter the rollnumber";                                    //A function that helps to modify the student's record
       cin>>r;
       fstream dfile("student.dat",ios::binary|ios::in|ios::out);
       while (dfile.read((char*)&s,sizeof(s)))
@@ -144,7 +144,7 @@ void modify()
 void Delete()
 {
       int r;
-      ifstream efile("student.dat",ios::binary);
+      ifstream efile("student.dat",ios::binary);                         //A function that removes a student's record from the file
       ofstream ffile("temp.dat",ios::binary);
       cout<<"Enter rollnumber";
       cin>>r;
