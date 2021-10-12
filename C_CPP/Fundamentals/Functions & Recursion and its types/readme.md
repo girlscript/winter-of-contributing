@@ -2,6 +2,5 @@
 - [Recursion](./Recursion.md)
 - [exit() & _Exit() Functions](./exit()&_Exit()Functions.md)
 - [Function In C](./Functions_In_C.md)
--  [Colors In Text Mode In C](Colors_In_Text_Mode.md)
 
 
