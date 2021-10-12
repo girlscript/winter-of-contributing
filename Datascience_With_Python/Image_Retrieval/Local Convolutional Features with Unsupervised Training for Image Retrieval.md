@@ -6,8 +6,11 @@ This is perfect example of Deep Learning and Unsupervised Approach.
 Below is the Audio link, where I have successfully explained the topics in following manner:-
 - Types of Image Retrieval
 - Convolutional Neural Networks & its Types
+  <br>
   1.Kernel
+  <br>
   2.Pooling
+  <br>
   3.Fully Connected Layers & Epochs
 - Flow of Content Based Image Retrieval
 - Euclidean Distance
