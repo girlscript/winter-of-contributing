@@ -82,9 +82,9 @@ Lets understand this straight up with an example :
 class A(object):
 x = 1
 class B(A):
-pass
+	pass
 class C(A):
-pass
+	pass
 print(A.x, B.x, C.x)
 
 #Output: 1 1 1
