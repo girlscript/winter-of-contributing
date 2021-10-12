@@ -1,5 +1,41 @@
 # List of Algorithms asked frequently in Interviews
 
+## Contents:
+
+- [Binary Search](#BinarySearch)
+- [Graphs](#Graphs)
+  - [BFS](#BFS)
+  - [DFS](#DFS)
+- [Kruskal's Algorithms](#Kruskals)
+- [Dijkstra’s Algorithm](#Dijkstra)
+- [Bellman–Ford Algorithm](#Bellman–Ford)
+- [Floyd Warshall Algorithm](#Floyd-Warshall)
+- [Kadane’s Algorithm](#Kadanes)
+- [Tree Traversal](#TreeTraversals)
+  - [Inorder Tree Traversal](#Inorder)
+  - [Preorder Tree Traversal](#Preorder)
+  - [Postorder Tree Traversal](#Postorder)
+- [Sorting Algorithms](#Sorting)
+  - [Insertion Sort](#Insertion-Sort)
+  - [Selection Sort](#Selection-Sort)
+  - [Merge Sort](#Merge-Sort)
+  - [Quick Sort](#Quick-Sort)
+  - [Counting Sort](#Counting-Sort)
+- [Flood Fill Algorithm](#Flood-Fill)
+- [Floyd’s Cycle Detection Algorithm](#Floyds-Cycle-Detection)
+- [Topological Sort](#Topological-Sort)
+- [Backtracking](#Backtracking)
+- [Dynamic Programming](#Dynamic-Programming)
+- [Divide and Conquer](#Divide-and-Conquer)
+- [Greedy Algorithm](#Greedy-Algorithm)
+- [P](#P)
+- [NP](#NP)
+- [NP Complete](#NP-Complete)
+- [NP Hard](#NP-Hard)
+
+
+
+   <a name="BinarySearch"></a>
 1. ### Binary Search Algorithm
 
    **Problem Statement** : Given a sorted array of 'n' integers and a target value, determine if the target exists in the array in Logarithmic time. If target exists, then print the index of it.
@@ -106,7 +142,11 @@
    **Space Complexity** : **O(1)** , i.e. no extra space
    
    ---
-   
+  
+   <a name="Graphs"></a>
+   ## Graphs
+
+   <a name="BFS"></a>
 2. ### Breadth-First Search (BFS)
    
    **Breadth-first Search** is a graph traversal algorithm that explores vertices in the order of their distance from the
@@ -182,7 +222,8 @@
     **Space Complexity** : **O(V)** , where V is the total number of vertices in the Graph
     
     ---
-    
+   
+   <a name="DFS"></a>
 3. ### Depth First Search (DFS):
 
    **Depth-first Search** is an algorithm for traversing or searching tree or graph data structures. One
@@ -255,7 +296,8 @@
       **Space Complexity** : **O(H)** where H is the maximum height of the tree (graph)
       
       ---
-      
+   
+   <a name="Kruskals"></a>
 4. ### Kruskal’s Algorithm for finding Minimum Spanning Tree
 
    **Problem Statement** : Given an undirected, connected and weighted graph, construct a minimum spanning tree out of it
@@ -332,6 +374,7 @@
    
    ---
    
+   <a name="Dijkstra"></a>
 5. ### Dijkstra’s Algorithm (Single-Source Shortest Paths)
 
    **Problem Statement** : Given a source vertex s from a set of vertices V in a weighted graph where all its edge weights
@@ -438,7 +481,8 @@
    **Space Complexity** of Dijkstra's algorithm is **O(V<sup>2</sup>)** where V denotes the number of vertices (or nodes) in the graph.
      
      ---
-     
+   
+   <a name="Bellman–Ford"></a>
 6. ### Bellman–Ford Algorithm (Single-Source Shortest Paths with negative weights)
 
    **Problem Statement** : Given a source vertex s from a set of vertices V in a weighted graph where its edge weights w(u,v) 
@@ -535,7 +579,8 @@
    **Space Compexity** : **O(V)**, where V denotes the number of vertices (or nodes) in the graph.
      
      ---
-     
+   
+   <a name="Floyd-Warshall"></a>
 7. ### Floyd Warshall Algorithm (All-Pairs Shortest Paths)
 
    **Problem Statement** : Given a set of vertices V in a weighted graph where its edge weights w(u, v) can be negative, find
@@ -611,7 +656,8 @@
     **Space Complexity** : **O(V<sup>2</sup>)**, where V denotes the number of vertices (or nodes) in the graph.
       
       ---
-
+      
+   <a name="Kadanes"></a>
 8. ### Kadane’s Algorithm (Maximum Sum Subarray Problem) 
 
    **Problem Statement** : Given an integer array, find a contiguous subarray within it that has the largest sum.
@@ -660,8 +706,10 @@
    
    ---
    
+   <a name="TreeTraversals"></a>
 9. ### Tree Traversals
 
+   <a name="Inorder"></a>
    **Inorder Tree Traversal**
    
    **Problem Statement** : Given a binary tree, write solution to traverse the tree using inorder traversal
@@ -755,7 +803,8 @@
       be equal to the total number of nodes in the tree in worst-case for skewed trees.
       
       ---
-      
+    
+   <a name="Preorder"></a>
    **Preorder Tree Traversal**
    
    **Problem Statement** : Given a binary tree, write solution to traverse the tree using preorder traversal
@@ -852,7 +901,8 @@
       be equal to the total number of nodes in the tree in worst-case for skewed trees.
       
       ---
-      
+   
+   <a name="Postorder"></a>
    **Postorder Tree Traversal**
    
    **Problem Statement** : Given a binary tree, write solution to traverse the tree using postorder traversal
@@ -954,9 +1004,10 @@
     **Space complexity** of the program is **O(n)** as the space required is proportional to the height of the tree, which can
       be equal to the total number of nodes in the tree in worst-case for skewed trees.
       
-      
+    <a name="Sorting"></a>
 10. ### Sorting Algorithms
 
+    <a name="Insertion-Sort"></a>
     **Insertion Sort**
     
     **Problem Statement** : Given an integer array, sort it using the insertion sort algorithm.
@@ -1022,7 +1073,8 @@
       The **auxiliary space** used by the iterative version is **O(1)** and **O(n)** by the recursive version for the call stack.
       
       ---
-      
+    
+    <a name="Selection-Sort"></a>
     **Selection Sort**
     
     **Problem Statement** : Given an integer array, sort it using the selection sort algorithm.
@@ -1082,7 +1134,8 @@
       The **auxiliary space** used by the iterative version is **O(1)** and **O(n)** by the recursive version for the call stack.
       
       ---
-      
+    
+    <a name="Merge-Sort"></a>
     **Merge Sort**
     
     **Problem Statement** : Given an integer array, sort it using the merge sort algorithm.
@@ -1159,7 +1212,8 @@
     The **auxiliary space** required by the merge sort algorithm is **O(n)** for the call stack.
 
        ---
-     
+    
+    <a name="Quick-Sort"></a>
     **Quick Sort**
     
     **Problem Statement** : Given an integer array, sort it using the quick sort algorithm.
@@ -1240,7 +1294,7 @@
     
        ---   
        
-   
+    <a name="Counting-Sort"></a>
     **Counting Sort**
     
     **Problem Statement** : Given a collection of n items, each of which has a non-negative integer key whose maximum value is
@@ -1302,7 +1356,8 @@
     **Total space** used by the algorithm is also **O(n + k)**.
     
        --- 
-      
+    
+    <a name="Flood-Fill"></a>
 11. ### Flood Fill Algorithm
 
     **Problem Statement** : Flood fill (also known as seed fill) is an algorithm that determines the area connected to a given node
@@ -1430,6 +1485,7 @@
     
     ---
     
+    <a name="Floyds-Cycle-Detection"></a>
 12. ### Floyd’s Cycle Detection Algorithm (Detect cycle in a linked list)
 
     **Problem Statement** : Detect cycles in a linked list using Floyd’s cycle detection algorithm.
@@ -1469,6 +1525,7 @@
     
     ---
     
+    <a name="Topological-Sort"></a>
 13. ### Topological Sort Algorithm for DAG
 
     **Problem Statement** : Given a Directed Acyclic Graph (DAG), print it in topological order using topological sort algorithm. If
@@ -1539,42 +1596,48 @@
     
     ---
     
+    <a name="Backtracking"></a>
 14. ### Backtracking
 
     **Backtracking** is a general algorithm for finding all (or some) solutions to some computational problems, notably constraint satisfaction problems, that incrementally         build candidates to the solutions, and abandons each partial candidate c **(“backtracks”)** as soon as it determines that c cannot possibly be completed to a valid             solution.
     
-    Backtracking can be applied only for problems that admit the concept of a **partial candidate solution** and a relatively quick test of whether it can be completed to a         valid solution. Backtracking is often much faster than brute force enumeration of all candidates since it can eliminate a large number of candidates with a single test. 
+    Backtracking can be applied only for problems that admit the concept of a **partial candidate solution** and a relatively quick test of whether it can be completed to a       valid solution. Backtracking is often much faster than brute force enumeration of all candidates since it can eliminate a large number of candidates with a single test. 
     
     ---
     
+    <a name="Dynamic-Programming"></a>
 15. ### Dynamic Programming
 
-    **Dynamic programming** is a method for solving a complex problem by breaking it down into a collection of **simpler subproblems**, solving each of those subproblems just       once, and storing their solutions using a **memory-based data structure (array, map, etc)**. Each of the subproblem solutions is indexed in some way, typically based on the     values of its input parameters, so as to facilitate its lookup. So, the next time the same subproblem occurs, instead of recomputing its solution, one simply looks up the       previously computed solution, thereby saving computation time. This technique of storing solutions to subproblems instead of recomputing them is called memoization.
+    **Dynamic programming** is a method for solving a complex problem by breaking it down into a collection of **simpler subproblems**, solving each of those subproblems just       once, and storing their solutions using a **memory-based data structure (array, map, etc)**. Each of the subproblem solutions is indexed in some way, typically based on       the values of its input parameters, so as to facilitate its lookup. So, the next time the same subproblem occurs, instead of recomputing its solution, one simply looks         up the previously computed solution, thereby saving computation time. This technique of storing solutions to subproblems instead of recomputing them is called                 memoization.
     
     ---
 
+    <a name="Divide-and-Conquer"></a>
 16. ### Divide and Conquer
 
-    **Divide and conquer (D&C)** is an algorithm design paradigm based on multi-branched recursion. A divide and conquer algorithm works by recursively breaking down a problem     into two or more **subproblems** of the same or related type until these become simple enough to be solved directly. The solutions to the subproblems are then combined to       give a solution to the original problem.
+    **Divide and Conquer (D&C)** is an algorithm design paradigm based on multi-branched recursion. A divide and conquer algorithm works by recursively breaking down a problem     into two or more **subproblems** of the same or related type until these become simple enough to be solved directly. The solutions to the subproblems are then combined to     give a solution to the original problem.
     
     ---
 
+    <a name="Greedy-Algorithm"></a>
 17. ### Greedy Algorithm
 
-    A **greedy algorithm** is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a       **global optimum**.
+    A **greedy algorithm** is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a     **global optimum**.
     
     ---
-    
+   
+    <a name="P"></a>
 18. ### P
 
-    **P** is a **complexity class** that represents the set of all decision problems that can be solved in **polynomial time**. That is, given an instance of the problem, the       answer yes or no can be decided in polynomial time.
+    **P** is a **complexity class** that represents the set of all decision problems that can be solved in **polynomial time**. That is, given an instance of the problem, the     answer yes or no can be decided in polynomial time.
     
     Given a graph connected G, can its vertices be coloured using two colours so that no edge is monochromatic?
     
-    **Algorithm** : start with an arbitrary vertex, color it red and all of its neighbours blue and continue. Stop when you run out of vertices or you are forced to make an         edge have both of its endpoints be the same color.
+    **Algorithm** : start with an arbitrary vertex, color it red and all of its neighbours blue and continue. Stop when you run out of vertices or you are forced to make an       edge have both of its endpoints be the same color.
     
     ---
     
+    <a name="NP"></a>
 19. ### NP
 
     **NP** is a **complexity class** that represents the set of all decision problems for which the instances where the answer is "yes" have proofs that can be verified in         polynomial time.
@@ -1582,22 +1645,24 @@
     
     ---
     
+    <a name="NP-Complete"></a>
 20. ### NP Complete
 
     **NP-Complete** is a **complexity class** which represents the set of all problems X in NP for which it is possible to reduce any other NP problem Y to X in polynomial         time.
 
-    Intuitively this means that we can solve Y quickly if we know how to solve X quickly. Precisely, Y is reducible to X, if there is a polynomial time algorithm f to               transform instances y of Y to instances x = f(y) of X in polynomial time, with the property that the answer to y is yes, if and only if the answer to f(y) is yes.
+    Intuitively this means that we can solve Y quickly if we know how to solve X quickly. Precisely, Y is reducible to X, if there is a polynomial time algorithm f to             transform instances y of Y to instances x = f(y) of X in polynomial time, with the property that the answer to y is yes, if and only if the answer to f(y) is yes.
     It can be shown that every NP problem can be reduced to 3-SAT. The proof of this is technical and requires use of the technical definition of NP (based on non-                 deterministic Turing machines). This is known as Cook's theorem.
     What makes NP-complete problems important is that if a deterministic polynomial time algorithm can be found to solve one of them, every NP problem is solvable in               polynomial time.
     
     ---
     
+    <a name="NP-Hard"></a>
 21. ### NP-Hard
 
     Intuitively, these are the problems that are at least as hard as the NP-complete problems. Note that NP-hard problems do not have to be in NP, and they do not have to be       decision problems.
     The precise definition here is that a problem X is NP-hard, if there is an NP-complete problem Y, such that Y is reducible to X in polynomial time.
     But since any NP-complete problem can be reduced to any other NP-complete problem in polynomial time, all NP-complete problems can be reduced to any NP-hard problem in         polynomial time. Then, if there is a solution to one NP-hard problem in polynomial time, there is a solution to all NP problems in polynomial time.
-    The halting problem is an NP-hard problem. This is the problem that given a program P and input I, will it halt? This is a decision problem but it is not in NP. It is clear     that any NP-complete problem can be reduced to this one. As another example, any NP-complete problem is NP-hard.
+    The halting problem is an NP-hard problem. This is the problem that given a program P and input I, will it halt? This is a decision problem but it is not in NP. It is         clear that any NP-complete problem can be reduced to this one. As another example, any NP-complete problem is NP-hard.
     
     ---
     
