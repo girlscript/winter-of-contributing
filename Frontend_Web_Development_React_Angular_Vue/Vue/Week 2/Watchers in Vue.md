@@ -78,43 +78,40 @@ Let’s run through the most simple example possible so you get a taste of what�
 
 **Eg: 1**
 
-**HTML CODE**
+**CODE**
 ```
 <html>
   <head>
     <title>Vue.js Watchers</title>
-
-    <script src="watcher.js"></script>
+    <script src="https://unpkg.com/vue"></script>
   </head>
-
   <body>
     <div id="app">
         <input type="number" v.model.number="counter"></input>
     </div>
+    
+// JS CODE
+    
+    <script>
+    new Vue({
+        el: '#app',
+        data() {
+            return {
+                counter: 0
+            }
+        },
+        watch: { // Creating a Watcher
+            counter() {
+                console.log('The counter has changed!')
+            }
+        }
+    })
+</script>
+
+
   </body>
 </html>
 ```
-
-**JS CODE**
-```
-new Vue({
-  el: '#app', 
-  data() {
-    return {
-      counter: 0
-    }
-  },
-  // Creating a Watcher
-  watch: {
-    counter() {
-      console.log('The counter has changed!')
-    }
-  }
-})
-```
-
-
-
 https://user-images.githubusercontent.com/57637086/136342093-28f3ccb4-0b99-45dc-a5d3-bf1214064bf4.mp4
 
 **As you can see in the code above, we’re storing counter in data, and by using the name of the property as the function name, we’re able to watch it. When we reference that counter in watch, we can observe any change to that property.**
