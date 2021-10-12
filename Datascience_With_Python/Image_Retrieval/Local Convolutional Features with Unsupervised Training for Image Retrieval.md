@@ -1,4 +1,4 @@
-#Image Retrieval
+# Image Retrieval
 
 Using Convolutional Neural Networks, we have to train our model such that it classifies Images correctly on which it is trained. And also classifies all those Images which are not part of training but part of classification output.
 This is perfect example of Deep Learning and Unsupervised Approach.
