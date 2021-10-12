@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Dice App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -30,7 +31,18 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int diceSum = 10;
+  int up = 2;
+  int down = 4;
+  int diceSum = 6;
+
+  rolldice() {
+    setState(() {
+      up = Random().nextInt(6) + 1;
+      down = Random().nextInt(6) + 1;
+      diceSum = up + down;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -39,17 +51,31 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text("Total points = ${diceSum}",style: TextStyle(fontSize: 25.0),),
-            SizedBox(height: 10,),
-            Image(image: AssetImage('assets/diceFace-2.png')),
-            SizedBox(height: 10,),
-            Image(image: AssetImage('assets/diceFace-4.png')),
-            SizedBox(height: 10,),
+            Text(
+              "Total points = $diceSum",
+              style: TextStyle(fontSize: 25.0),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Image(image: AssetImage('assets/diceFace-$up.png')),
+            SizedBox(
+              height: 10,
+            ),
+            Image(image: AssetImage('assets/diceFace-$down.png')),
+            SizedBox(
+              height: 10,
+            ),
             Container(
-              width: MediaQuery.of(context).size.width/2,
+              width: MediaQuery.of(context).size.width / 2,
               child: ElevatedButton(
-                  onPressed: (){},
-                  child: Text("Roll Dice", style: TextStyle(fontSize: 20.0),),
+                onPressed: () {
+                  rolldice();
+                },
+                child: Text(
+                  "Roll Dice",
+                  style: TextStyle(fontSize: 20.0),
+                ),
               ),
             ),
           ],
