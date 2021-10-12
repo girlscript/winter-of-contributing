@@ -1,4 +1,4 @@
-![ ](https://images.samimunir2002.repl.co/boxModel.png)
+![](https://images.samimunir2002.repl.co/boxModel.png)
 
 # What is Margin?
 
@@ -14,11 +14,11 @@ As you can see in the image the outermost layer of the box is margin. With the h
 
 We can edit our document by giving space from sides (top,bottom,right,left). If you want to give space from all sides equally, you can also do that.
 
-1. margin-top
-2. margin-bottom
-3. margin-right
-4. margin-left
-5. margin (give space equally from all sides)
+- margin-top
+- margin-bottom
+- margin-right
+- margin-left
+- margin (give space equally from all sides)
 
 There is also a short cut to give space from different sides in one line.
 
@@ -41,7 +41,6 @@ margin: 15px 5px;
 ```html
 <!DOCTYPE html>
 <html>
-
 <head>
     <style>
         div{
