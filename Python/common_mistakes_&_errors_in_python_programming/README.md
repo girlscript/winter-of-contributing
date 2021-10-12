@@ -80,7 +80,7 @@ Lets understand this straight up with an example :
 ```python
 
 class A(object):
-x = 1
+	x = 1
 class B(A):
 	pass
 class C(A):
@@ -90,14 +90,14 @@ print(A.x, B.x, C.x)
 #Output: 1 1 1
 
 ```
-Now,
+Now, if we execute the below, we'll get as expected
 
 ```python
 B.x = 2
 print(A.x, B.x, C.x)
 #Ouput: 1 2 1
 ```
-As expected
+
 
 ```python
 A.x = 3
