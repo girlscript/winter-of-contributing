@@ -1,0 +1,90 @@
+########### JAVA CODE FOR QUEUE USING ARRAY ##########
+import java.util.Scanner;
+
+public class Queue_Array {
+
+	public static class queue {
+
+		int q[];
+		int front;
+		int rear;
+		int size;
+		int capacity;
+
+		public queue(int capacity) {
+			this.capacity = capacity;
+			q = new int[this.capacity];
+			front = 0;
+			rear = -1;
+			size = 0;
+
+		}
+
+		// METHOD TO CHECK FULL
+		boolean isfull(queue queue) {
+			return (size == capacity);
+			
+		}
+
+		// METHOD TO CHECK EMPTY
+
+		boolean isempty(queue queue) {
+			return(size == 0 || size == -1);
+			
+		}
+
+		// METHOD TO ENQUEUE
+		public void enqueue(int data) {
+			if (isfull(this)) {
+				System.out.println("LIST IS FULL");
+				return;
+			}
+			rear = (rear + 1) % capacity;
+			q[rear] = data;
+			size++;
+
+		}
+
+		// METHOD TO DEQUEUE
+		public int dequeue() {
+			if (isempty(this)) {
+				System.out.print("THE LIST IS EMPTY" + " ");
+				return Integer.MIN_VALUE;
+			}
+			int data = q[front];
+			front = (front + 1) % capacity;
+			size--;
+			return data;
+		}
+
+		// METHOD TO SHOW
+		public void show() {
+			System.out.print("ELEMENTS::");
+			for (int i = 0 ; i < size; i++) {
+				System.out.print(q[(i+front)%capacity] + " ");
+			}
+			System.out.println("SIZE::" + size);
+		}
+
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the capacity of queue");
+		int n = sc.nextInt();
+		queue b = new queue(n);
+
+		System.out.println("Enter the Elements ");
+		for (int i = 0; i < n; i++) {
+			b.enqueue(sc.nextInt());
+		}
+		b.show();
+		System.out.println(b.dequeue());
+		System.out.println(b.dequeue());
+		b.enqueue(8);
+		b.enqueue(96);
+		b.show();
+
+	}
+
+}
