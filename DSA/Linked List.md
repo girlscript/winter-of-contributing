@@ -99,7 +99,7 @@ When temp is NULL, we know that we have reached the end of the linked list so we
 </ul>
 <h2>3.Delete from a Linked List</h2>
 <ul>
-  <li>Delete from beginning</li>
+  <li><b>Delete from beginning</b></li>
   <pre>
   <code>
     if(head == NULL)
@@ -120,7 +120,7 @@ When temp is NULL, we know that we have reached the end of the linked list so we
    }
   </code>
   </pre>
-  <li>Delete from end</li>
+  <li><b>Delete from end</b></li>
   <pre>
   <code>
    if(head == NULL)
@@ -146,7 +146,7 @@ When temp is NULL, we know that we have reached the end of the linked list so we
   }
   </code>
   </pre>
-  <li>Delete from middle</li>
+  <li><b>Delete from middle</b></li>
   <pre>
   <code>
   struct Node *temp1 = head, *temp2;
