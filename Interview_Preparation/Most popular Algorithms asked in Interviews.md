@@ -102,7 +102,8 @@
         return binarySearch(nums, mid + 1, right, target)
    ~~~
    
-   **Time Complexity** : **O(log(n))**, where n is the total number of integers in the array.
+   **Time Complexity**  : **O(log(n))**, where n is the total number of integers in the array.  
+   **Space Complexity** : **O(1)** , i.e. no extra space
    
    ---
    
@@ -177,7 +178,8 @@
     ~~~
     
     **Time Complexity** of BFS traversal is **O(V + E)**, where V and E are the total number of vertices and edges in
-    the graph, respectively.
+    the graph, respectively.  
+    **Space Complexity** : **O(V)** , where V is the total number of vertices in the Graph
     
     ---
     
@@ -249,7 +251,8 @@
      ~~~
 
       **Time Complexity** of DFS traversal is **O(V + E)**, where V and E are the total number of vertices and edges in
-      the graph, respectively.
+      the graph, respectively.  
+      **Space Complexity** : **O(H)** where H is the maximum height of the tree (graph)
       
       ---
       
@@ -324,7 +327,8 @@
     return MST
    ~~~
   
-   **Time complexity** of the above solution is **O(N<sup>2</sup>)**, where N is the total number of vertices in the graph.
+   **Time complexity** of the above solution is **O(N<sup>2</sup>)**, where N is the total number of vertices in the graph.  
+   **Space Complexity** : **O(E + V)**, since Disjoint Set Data Structure takes **O(V)** space to keep track of the roots of all the vertices and another **O(E)** space to          store all edges in sorted manner.
    
    ---
    
@@ -430,7 +434,8 @@
    ~~~
 
    **Time Complexity** : Dijkstra’s algorithm runs in **O(E.log(V))** time. Here, E is the total number of edges, and V
-     is the graph’s number of vertices.
+     is the graph’s number of vertices.  
+   **Space Complexity** of Dijkstra's algorithm is **O(V<sup>2</sup>)** where V denotes the number of vertices (or nodes) in the graph.
      
      ---
      
@@ -526,7 +531,8 @@
    ~~~
 
    **Time complexity**  of the Bellman–Ford algorithm is O(V × E), where V and E are the total number of vertices
-     and edges in the graph, respectively
+     and edges in the graph, respectively.  
+   **Space Compexity** : **O(V)**, where V denotes the number of vertices (or nodes) in the graph.
      
      ---
      
@@ -601,7 +607,8 @@
     ~~~
     
     **Time complexity** of the Floyd–Warshall algorithm is **O(V<sup>3</sup>)**, where V is the total number of vertices in the
-      graph.
+      graph.  
+    **Space Complexity** : **O(V<sup>2</sup>)**, where V denotes the number of vertices (or nodes) in the graph.
       
       ---
 
@@ -648,7 +655,8 @@
     return max_so_far
    ~~~
    
-   **Time Complexity** : **O(n)**, where n is the size of the array
+   **Time Complexity** : **O(n)**, where n is the size of the array  
+   **Space Complexity** : **O(1)** , i.e. no extra space
    
    ---
    
@@ -1416,8 +1424,9 @@
       return 0 <= x < len(mat) and 0 <= y < len(mat[0]) and mat[x][y] == target
     ~~~
 
-    **Time Complexity** of the proposed solution is **O(M × N)** and requires **O(M × N) extra space**, where M and N
-    are dimensions of the matrix
+    **Time Complexity** of the proposed solution is **O(M × N)**  
+    
+    **Space Compexity** : It requires **O(M × N) extra space**, where M and N are dimensions of the matrix  
     
     ---
     
@@ -1455,8 +1464,8 @@
       return False
     ~~~
 
-    **Time Complexity** of the above solution is **O(n)**, where n is the total number of nodes in the linked list, and
-    doesn’t require any **extra space**.
+    **Time Complexity** of the above solution is **O(n)**, where n is the total number of nodes in the linked list.  
+    **Space Complexity** : **O(1)** , i.e. no extra space
     
     ---
     
@@ -1525,7 +1534,8 @@
     ~~~
 
     **Time Complexity** of the above implementation is **O(V + E)**, where V and E are the total number of vertices
-    and edges in the graph, respectively.
+    and edges in the graph, respectively.  
+    **Space Complexity** : **O(V)**, where V is total number of vertices in the graph
     
     ---
     
