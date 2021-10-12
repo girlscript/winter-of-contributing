@@ -1,6 +1,6 @@
-## Round Robin Scheduling 
+# Round Robin Scheduling 
 
-- Round Robin Scheduling :This algorithm schedules the process in an impartial manner by providing a specified time quantum/ time slice to each process. In this type of algorithm process gets interrupted if it does not get completed within time quantum by next process.</br> Hence ,eliminates the process starvation problem.
+- Round Robin Scheduling : This algorithm schedules the process in an impartial manner by providing a specified time quantum/ time slice to each process. In this type of algorithm process gets interrupted if it does not get completed within time quantum by next process.</br> Hence ,eliminates the process starvation problem.
   
  - FEATURES</br>
  1. Algorithm is cyclic in nature , hence no starvation.
@@ -15,7 +15,7 @@
  5. Repeat steps 2-4 until all the process gets completed and queue becomes empty.
 
  ![image](https://www.gatevidyalay.com/wp-content/uploads/2018/10/Round-Robin-Scheduling.png)
-
+Image Source : [Gate Vidyalay](https://www.gatevidyalay.com/wp-content/uploads/2018/10/Round-Robin-Scheduling.png)
  - C++ PROGRAM FOR ROUND ROBIN SCHEDULING
  ```cpp
  #include <bits/stdc++.h>
@@ -134,4 +134,26 @@ int main()
 
     return 0;
 }
+```
+- Input
+```
+Enter the number of processes
+4
+
+Enter PID	Enter AT	Enter BT
+0 0 5
+1 1 4
+2 2 2
+3 3 1
+
+Enter Slice Time
+2
+```
+- Output
+```
+PID	AT	BT	WT	TAT
+0	0	5	7	12
+1	1	4	6	10
+2	2	2	2	4
+3	3	1	5	6
 ```
