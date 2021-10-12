@@ -34,7 +34,7 @@ Multimedia files have formats and different extensions: .mp3, .mp4, .mpg, .swf, 
 ### Video Formats 
 <br>
 
-| SWFORMAT | FILE  | DESCRIPTION  |
+| FORMAT | FILE  | DESCRIPTION  |
 | :----- | :- | :- |
 | MPEG | .mpg .mpeg | The Moving Pictures Expert Group came up with this format. It was the first widely used video format on the internet. HTML5 does not support this. |
 | AVI(Audio Video Interleave) | .avi | This format was created by Microsoft. It is commonly found in television gear and video cameras. It runs smoothly on Windows PCs but not in web browsers. |
