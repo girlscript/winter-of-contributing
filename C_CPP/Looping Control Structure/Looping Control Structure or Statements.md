@@ -59,14 +59,14 @@ int main()
 # **For Loop :**
 ## ***Syntax:***
 ```jsx
-for (initial value; condition; incrementation or decrementation ) 
+for (initial value; condition; Updation ) 
 {
   statements;
 }
 ```
 ### ***Example :***
 ```jsx
-//program to print the first 10 natural number
+//program to print the first 10 natural numbers
 
 #include<stdio.h>
 int main()
@@ -147,10 +147,232 @@ int main()
 <img src="https://picc.io/dLdHe_f.png">
 <p>&nbsp;</p>
 
+<!----------------------------------------------NESTED LOOPS------------------------------------------------------>
+# **Nested Loops :**
+- Nesting of loops is the feature through which we can define a loop statement inside another loop statement. Any number of loops can be used inside another loop.
 
+## **Nested For-Loop:**
+
+### ***Syntax:***
+```jsx
+for( initialization; condition; updation ) {
+
+   for( initialization; condition;updation ) {
+      
+      // Inner Loop statements
+   }
+
+   // Outer Loop statements
+}
+```
+### ***Example :***
+```jsx
+//program to print a Square pattern
+
+#include<stdio.h>
+int main()
+{
+  int i,j,n=5;
+  
+  for(i=1;i<=5;i++) {
+      
+    for(j=1;j<=5;j++) {
+        
+      printf("* ");
+      
+    }
+      printf("\n");
+  }
+ 
+}
+```
+### ***Output :***
+```jsx
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+```
+<p>&nbsp;</p>
+
+## **Nested while-Loop:**
+
+### ***Syntax:***
+```jsx
+
+initialization;
+while(condition) {
+
+   initialization;
+   while(condition) {
+      
+      // Inner Loop statements
+      Updation;
+   }
+
+   // Outer Loop Statements
+   Updation;
+}
+```
+### ***Example :***
+```jsx
+//program to print a number square pattern
+
+#include<stdio.h>
+int main()
+{
+  int i=1,j;
+  
+  while(i<=5) {
+
+   j=1;
+   while(j<=5) {
+      
+      printf("%d ",j);
+      j++;
+   }
+   printf("\n");
+   i++;
+}
+ 
+}
+```
+### ***Output :***
+```jsx
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+```
+<p>&nbsp;</p>
+
+## **Nested do-while-Loop:**
+
+### ***Syntax:***
+```jsx
+
+initialization;
+do{
+   initialization;
+   do{
+      
+      // Inner Loop statements
+      updation;
+   }while(condition);
+    
+   // Outer Loop Statements
+    updation;
+
+}while(condition);
+
+```
+### ***Example :***
+```jsx
+//program to print a  right angled triangle pattern
+
+#include<stdio.h>
+int main()
+{
+  int i=1,j;
+  do {
+      j=1;
+      do{
+          
+       printf("* ");
+       j++;
+       
+      }while(j<=i);
+      
+      i++;
+      printf("\n");
+      
+  }while(i<=5);
+}
+```
+### ***Output :***
+```jsx
+*
+* *
+* * *
+* * * *
+* * * * *
+```
+<p>&nbsp;</p>
+<!-------------------------------------------For-each Loops------------------------------------------------------>
+
+# **For-Each Loop :**
+
+- For-each loop is a control flow statement for traversing items in a collection. It is used to access elements of an array  without performing initialization. The working of foreach loops is to do something for every element rather than doing something n times.
+
+- C doesnot support For-each loop but both c++ and java do.
+
+### ***Example :***
+```jsx
+//program to trac=verse an array.
+
+#include <iostream>
+using namespace std;
+  
+int main()
+{
+    string gwoc[] = {"C/CPP", "Girlscript", "2021", "Opensource"};
+  
+    for (string a : gwoc)
+        cout << a << endl;
+}
+```
+### ***Output :***
+```jsx
+C/CPP
+Girlscript
+2021
+Opensource
+```
+<p>&nbsp;</p
+
+<!--------------------------------------MULTICONDITION LOOPS------------------------------------------------------>
+# **Multi-Condition Loops :**
+
+### ***Example :***
+```jsx
+//program to find the grade 
+
+#include<stdio.h>
+int main()
+{
+  int i,j,prd;
+  
+  for(i=1,j=9;i<=9,j>=1;i++,j--) {
+
+      prd = i*j;
+      printf("%d X %d = %d",i,j,prd);
+      printf("\n");
+      
+    }
+      
+ }
+
+ 
+```
+### ***Output :***
+```jsx
+1 X 9 = 9
+2 X 8 = 16
+3 X 7 = 21
+4 X 6 = 24
+5 X 5 = 25
+6 X 4 = 24
+7 X 3 = 21
+8 X 2 = 16
+9 X 1 = 9
+```
+<p>&nbsp;</p>
 
 ### **Reference:**
 - <a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a>
+- <a href="https://en.wikipedia.org/wiki/Foreach_loop#Syntax">Wikipedia</a>
 
 ### **Credits:**
 - <a href="https://www.geeksforgeeks.org/">GeeksForGeeks</a>
