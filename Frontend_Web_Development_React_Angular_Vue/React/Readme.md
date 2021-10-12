@@ -29,6 +29,7 @@
  
 ### Week 4 
 - [ ] Conditional rendering 
+- [ ] React icons
 - [ ] State in React-Declarative and Imperative programing 
  
  ### Week 5 
