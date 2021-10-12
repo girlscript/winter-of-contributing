@@ -81,12 +81,12 @@
 
             # find the mid-value in the search space and
             # compares it with the target
+            
+            # overflow can happen
+            # mid = (left + right) // 2
 
-            mid = (left + right) // 2
-
-            # overflow can happen. Use:
-            # mid = left + (right - left) / 2
-            # mid = right - (right - left) // 2
+            #Therfore for calculating mid, we use this:
+            mid = left + (right - left) / 2
 
             # target is found
             if target == nums[mid]:
@@ -117,11 +117,12 @@
  
     # find the mid-value in the search space and
     # compares it with the target
+    
+    # overflow can happen.
+    # mid = (left + right) // 2
  
-    mid = (left + right) // 2
- 
-    # overflow can happen. Use below
-    # mid = left + (right - left) / 2
+    #Therfore for calculating mid, we use this:
+    mid = left + (right - left) / 2
  
     # Base condition (a target is found)
     if target == nums[mid]:
