@@ -43,7 +43,7 @@ Mapping all the non-zero elements in an Array row wise,lets say A[].
 A[i][j]=n*(n-1)-(j-1)*(j-2)/2 + (i-j)   //n is the order of matrix
 ```
 
-## Program for Creating Lower Triangular Matrix using Column Major Mapping
+## Program for Creating Lower Triangular Matrix using Row Major Mapping
 ```cpp
 #include <iostream>
 using namespace std;
@@ -97,7 +97,7 @@ int main(){
     cout<<GetR(m,1,1);}
 
 ```   
-## Program for Creating Lower Triangular Matrix using Row Major Mapping
+## Program for Creating Lower Triangular Matrix using Column Major Mapping
  ```cpp    
     
 #include <iostream>
