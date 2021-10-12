@@ -25,30 +25,29 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/71391631/136848864-0e0a5313-65fa-41ea-a666-560ed31a1f00.png"/></p>
 
 ## C++ CODE FOR QUICK SORT
-```
+
+```cpp
 #include<iostream>
 using namespace std;
 
-void swap(int &a, int &b) {
-  int temp;
-  temp = a;
-  a = b;
-  b = temp;
+void swap(int *x,int *y){
+   int t=*x;
+   *x=*y;
+   *y=t;
 }
-
-int Partition(int a[], int l, int h) {
-   int pivot=a[h];
-   int i = l-1;
+int Partition(int a[], int l, int h) { 
+   int pivot=a[h]; 
+   int i = l-1; 
    for(int j=l; j<=h-1; j++) {
       if(a[j]<pivot) {
-         i++;
-         swap(a[i], a[j]);
+         i++; 
+         swap(&a[i], &a[j]);
       }
    }
-   swap(a[i+1],a[h]);
+   swap(&a[i+1],&a[h]);
    return i+1;
 }
-void QuickSort(int a[], int l, int h) {
+void QuickSort(int a[], int l, int h) { 
    if(l < h) {
       int p = Partition(a, l, h);
       QuickSort(a, l, p-1);
@@ -58,13 +57,13 @@ void QuickSort(int a[], int l, int h) {
 int main() {
    int n;
    cin>>n;
-   int arr[n];
+   int a[n];
    for(int i = 0; i < n; i++) {
-      cin>>arr[i];
+      cin>>a[i];
    }
-   QuickSort(arr, 0, n-1);
+   QuickSort(a, 0, n-1);
    for (int i = 0; i < n; i++){
-      cout<<arr[i]<<" ";
+      cout<<a[i]<<" ";
    }
    return 0;
 }
