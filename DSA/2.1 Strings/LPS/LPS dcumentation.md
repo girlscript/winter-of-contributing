@@ -190,3 +190,12 @@ Length of substring is: 2
   
  We can see  by using Dynamic Programming optimal solution can be constructed from optimal solutions of sub-problems.
  Here Time complexity is better than the previous one!!
+ 
+ 
+## References
+
+* [geeks for geeks](https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/)
+* [leetcode](https://leetcode.com/problems/longest-palindromic-substring/)
+
+* [Dp tutorials](https://www.youtube.com/watch?v=wuOOOATz_IA&t=455s)
+* [strings in cpp](https://www.tutorialspoint.com/cplusplus/cpp_strings.htm)
