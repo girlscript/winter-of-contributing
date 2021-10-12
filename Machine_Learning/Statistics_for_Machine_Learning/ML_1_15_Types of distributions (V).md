@@ -7,4 +7,6 @@ A Probability Distribution is a statistical method that determines all the proba
 
 Click the image for more info
 
-[![image](https://user-images.githubusercontent.com/83051558/136886761-35bc26b8-1d70-4f72-9857-60af866bae61.png)]
+[![image](https://user-images.githubusercontent.com/83051558/136886761-35bc26b8-1d70-4f72-9857-60af866bae61.png)](https://drive.google.com/file/d/1PEuOrneuT929nPfxqLH9xkVM-JYA20n7/view?usp=sharing)
+
+For the ppt, [click here](https://docs.google.com/presentation/d/1vpCs64Ag_REkd8sy0189Eht0YBW88cabj2WdNw1ENH0/edit?usp=sharing)
