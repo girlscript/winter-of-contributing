@@ -1,7 +1,7 @@
 <!-- issue 5183 use web storage in javascript -->
 <!-- documentation -->
 
-## What is web storage ?
+# What is web storage ?
 
 With web storage, web applications can store data locally within the user's browser.
 
@@ -49,9 +49,13 @@ The localStorage object stores the data with no expiration date. The data will n
 ```
     <!--output-->
     smith
+    
+
+![Screenshot (1226)](https://user-images.githubusercontent.com/55904928/136982961-b36cccf8-708c-42b8-840e-8ff6640c8a2a.png)
+
+
 
 Example explained:
-
 - Create a localStorage name/value pair with name="lastname" and value="Smith"
 - Retrieve the value of "lastname" and insert it into the element with id="result
 
@@ -97,9 +101,12 @@ The following example counts the number of times a user has clicked a button, in
 ```
 
       <!--output-->
-      Click me (Button) 
-      Click the button to see the counter
-      increase. Close the browser tab (or window), and try again, and the counter is
-      reset.
+      Click me 
+      Click the button to see the counter increase. 
+      Close the browser tab (or window), and try again, and 
+      the counter is reset.
+      
+      
+  ![Screenshot (1224)](https://user-images.githubusercontent.com/55904928/136983057-aecb3dc3-ba05-47cd-b85f-51bb2bd6120d.png)
 
 # happy learning ✌
