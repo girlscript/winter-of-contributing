@@ -9,15 +9,15 @@
         - [Approach](#approach-iterative)
         - [Implementaion](#implementation-iterative)
         - [Complexity Analysis](#complexity-analysis-iterative)
-    - [Efficient Approach](#recursive-approach)
+    - [Recursive Approach](#recursive-approach)
         - [Approach](#approach-recursive)
         - [Implementation](#implementation-recursive)
         - [Complexity Analysis](#complexity-analysis-recursive)
 
 
 ## Overview
-    Given pointer to the head node of a linked list, the task is to reverse the linked list. We need to reverse the list by changing the links 
-    between nodes.
+    Given pointer to the head node of a linked list, the task is to reverse the linked list.
+    We need to reverse the list by changing the links between nodes.
 
 ## Example
     Input:
