@@ -3,7 +3,7 @@
 ## Definition 
 The upper triangular matrix is a square matrix in which has all the elements below the main diagonal is 0.
 The upper triangular matrix is also called as right triangular matrix
-
+![Screenshot (333)](https://user-images.githubusercontent.com/68144616/136906781-ebb52ab3-b280-4397-a38c-880790a1cdcc.png)
 **Example** :  
 
   1  2  3  4  
@@ -11,7 +11,7 @@ The upper triangular matrix is also called as right triangular matrix
   0  0  3  4  
   0	 0  0  1   
  
-![WhatsApp Image 2021-10-05 at 10 17 09](https://user-images.githubusercontent.com/68144616/135961835-c80c570a-1065-46f3-8107-6ef7fc41e40b.jpeg)
+
 
    ## Properties Of Upper Triangular Matrix (from wikipedia)
 -	if we add two upper triangular matrix ,then the resultant matrix itself will be an upper triangular matrix  
@@ -33,6 +33,7 @@ The upper triangular matrix is also called as right triangular matrix
 
   ## CODE
  ```   
+ cpp
 
  #include<bits/stdc++.h>
 
@@ -88,4 +89,20 @@ return 0;
 }
  ```
 
-![Screenshot (317)](https://user-images.githubusercontent.com/68144616/135762009-59f9edea-a8fa-4568-87da-d8219f1c9390.png)
+**OUTPUT**
+
+Entered matrix
+
+1 2 3 5  
+2 5 6 1  
+7 8 8 9  
+4 5 1 1  
+
+Upper triangular  matrix
+
+1 2 3 5  
+0 5 6 1  
+0 0 8 9  
+0 0 0 1  
+
+
