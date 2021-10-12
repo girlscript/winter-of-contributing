@@ -7,7 +7,7 @@ Data discretization is defined as a process of converting continuous data attrib
 For example the raw values of a numeric attribute (e.g., age) are replaced by
 interval labels (e.g., 0–10, 11–20, etc.) or conceptual labels (e.g., youth, adult, senior). The labels, in turn, can be recursively organized into higher-level concepts, resulting in a concept hierarchy for the numeric attribute. Figure below shows a concept hierarchy for the attribute price. Note that for the same attribute, one can make more than one concept hierarchy to accommodate the needs of various users.
 
-IMAGE
+![](https://github.com/pushpit-J19/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Data%20Discretization%20during%20Pre%20Model%20Processing/Images/discretization_and_concept_heirarchy.PNG)
 
 ### Categories of Data discretization
 
@@ -84,7 +84,7 @@ Partitioning rules tell how are the buckets determined and the attribute values 
 
 - **Equal-Frequency** or equal-depth : The buckets roughly have the same frequency i.e., each bucket contains roughly the same number of contiguous data samples or roughly same amount of observations. 
 
-IMAGE
+![](https://github.com/pushpit-J19/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Data%20Discretization%20during%20Pre%20Model%20Processing/Images/partitioning.PNG)
 
 The histogram analysis algorithm can be applied recursively to each partition in order to automatically generate a multilevel concept hierarchy, with the procedure terminating once a prespecified number of concept levels has been reached. A minimum interval size can also be used per level to control the
 recursive procedure. This specifies the minimum width of a partition, or the minimum number of values for each partition at each level.
