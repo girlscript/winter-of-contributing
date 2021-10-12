@@ -19,5 +19,40 @@ The overflow property has the following values:
 
 ![overflow_scroll_and_auto](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_scroll_and_auto.png)
 
+```
+div { 
+   width: 130px;
+   height: 25%; 
+   background-color:
+   #eee; overflow: scroll; 
+}
+```
+
+```
+div { 
+   width: 130px;
+   height: 25%; 
+   background-color:
+   #eee; overflow: auto; 
+}
+```
+
 ![toverflow_visible_and_hidden](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_visible_and_hidden.png)
 
+```
+div { 
+   width: 130px;
+   height: 25%; 
+   background-color:
+   #eee; overflow: visible; 
+}
+```
+
+```
+div { 
+   width: 130px;
+   height: 25%; 
+   background-color:
+   #eee; overflow: hidden; 
+}
+```
