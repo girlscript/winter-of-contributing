@@ -9,9 +9,7 @@
 
 </ul>
 </p>
-
 <br>
-
 <b>1)What is TypeScript?</b>
 <p>
     <ul>
