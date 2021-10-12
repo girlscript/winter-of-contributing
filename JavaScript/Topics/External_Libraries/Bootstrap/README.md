@@ -1,8 +1,8 @@
 # Bootstrap
 
-Bootrap is a free and open-source framework used to create repsonsive webpages using minimal of CSS and JS.
+Bootrap is a free and open-source framework for building responsive websites using the bare minimum of CSS and JS.
 
-Bootstrap creates webpage that is suitable in any devices such as desktop, mobile, and tablet.
+Bootstrap produces websites that work on every platform, including desktops, mobile phones, and tablets.
 
 <br>
 
@@ -36,7 +36,7 @@ For example,
 
 ## Pre-requisites
 
-1. Make sure, the HTML5 is supported. For that, include the tag `<!DOCTYPE html>`.
+1. Make sure, HTML5 is supported. For that, include the tag `<!DOCTYPE html>`.
 
 2. Include the responsive viewport meta tag.
 
@@ -58,7 +58,7 @@ For example,
 
 # Including JavaScript in Bootstrap
 
-The main objective of Bootstrap was to create templates without JavaScript and jQuery. But still it can be used to customise the templates. <br>
+Bootstrap's major goal was to make templates without the need of JavaScript or jQuery. It may, however, be used to customise the templates. <br>
 
 There are several ways to include JavaScript in BootStrap: 
 
@@ -96,13 +96,82 @@ But, the module has to be installed as node.js module using npm. For example, if
 
 <br>
 
+# How to use Bootstrap? - An Example
+
+Because there are so many components in Bootstrap that they can't all be shown in this article, this part shows how to use Bootstrap components in a webpage.
+
+Divide the page in half and add some information in the form of a display card with a picture, a title, and a description. This may be accomplished by utilising the Bootstrap grid structure and Bootstrap cards.
+
+<b>Step-1: </b> The page is divided into two sections by using the div class `col-<device>-<number>`. The column is divided into 12 divisions and we can divide the row into two halves by adding `col-md-6` class inside the row class.
+
+For example, 
+
+``` HTML
+
+<div class = "container">
+    <div class = "row">
+        <div class = "col-md-6">
+            <!-- Content goes here -->
+        </div>
+        <div class = "col-md-6">
+            <!-- Content goes here -->
+        </div>
+    </div>
+</div>
+
+```
+
+<b>Note: </b> The term 'md' refers to a device with a responsiveness of fewer than 768px on the screen.
+
+<br>
+
+<b>Step-2: </b> Add the bootstrap cards inside the left column and the right column using `card` class.
+
+For example,
+
+``` HTML
+
+<div class = "card bg-danger">
+    <img src = "../images/Image_demo.jpeg" class="card-img-top" alt = "image-1">
+    <div class = "card-body">
+        <h3>Card - 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, velit?</p>
+    </div>
+</div>
+
+```
+
+In this example, several features are used. Let's explain one by one.
+
+1. `.card`: Defines the Bootstrap card.
+
+2. `.bg-danger`: Defines the background colour of the card. Here danger indicates red colour. There are other banground colours available too.
+
+3. `.card-img-top`: Places the image inside the card body.
+
+4. `.card-body`: Description can be added inside that class.
+
+Header and footer can also be added inside the card.
+
+The output is given below: <br>
+
+![Output-Desktop](images/Output.png)
+
+For smaller devices: <br>
+
+![Output-Mobile](images/Output_Mobile.png)
+
+<b>Note: </b> The margin, padding, etc. can be modified using CSS.
+
+<br>
+
 # Advantages of Bootstrap
 
 1. Bootstrap is free and open-source.
 
-2. Using Bootstrap brings responsiveness to other small devices without using media query in CSS.
+2. Bootstrap brings responsiveness to the small devices without using media query in CSS.
 
-3. It saves time writing the codes both in HTML and CSS.
+3. It saves time in writing the codes both in HTML and CSS.
 
 4. Bootstrap has got an excellent grid system defined separately for small devices, medium devices and large devices.
 
@@ -128,7 +197,10 @@ But, the module has to be installed as node.js module using npm. For example, if
 
 4. https://skat.tf/pros-cons-bootstrap-web-development/
 
+5. https://getbootstrap.com/docs/5.1/layout/grid/
 
-<hr>
+6. https://getbootstrap.com/docs/4.0/components/card/
+
+<hr><br>
 
 <b>Contributors: </b> [Subhendu Dash](https://github.com/subhendudash02)
