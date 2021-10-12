@@ -1,5 +1,5 @@
 # Structure Padding in C
-Structure padding is the consept in C in which one or more bytes are added and bytes added are empty , They are inserted  between the memory addresses to align the data in memory .
+Structure padding is the concept in C in which one or more bytes are added and bytes added are empty , they are inserted  between the memory addresses to align the data in memory .
 ##  let's take an example : - 
 Suppose we define a structure Car which have the name , model number and brand name .
 
@@ -25,9 +25,9 @@ struct Car{
 
 // So total size of the structure is 6 bytes .
 ```
-But this is wrong the size of the structure is not 6 . Let's Discuss Why this is wrong .
+But this is wrong , the size of the structure is not 6 . Let's Discuss Why this is wrong .
 
-3. Structure Padding : The processor in our laptop and Pc it don't read 1 byte at the time , It actually reads 1 word at a time or we can say in onr cycle . It also depends Upon the bit of the processor it is 32-bit or 64-bit .
+3. Structure Padding : The processor in our laptop and Pc it don't read 1 byte at the time , it actually reads 1 word at a time or we can say in onr cycle . It also depends Upon the bit of the processor it is 32-bit or 64-bit .
 - For 32-bit 
 ```
 1 word = 4 bytes
@@ -96,8 +96,8 @@ Ouput :
 The Size Of the Car Structure is : 12 
 ```
 
-## Using #Pragma pack  (1) and Attribute
-The structural padding is an in-built process which is performed by the compiler , But sometimes we have to avoid structure padding as it increses the size of thestructure which is greater than its data members .
+## Using `#Pragma pack  (1)` and Attribute
+The structural padding is an in-built process which is performed by the compiler , but sometimes we have to avoid structure padding as it increses the size of thestructure which is greater than its data members .
 
 - Using #pragma pack(1) directive :
 ```c
@@ -148,3 +148,5 @@ Output :
 ```
 The Size Of the p is : 13
 ```
+
+Reference for code snippet : https://www.javatpoint.com/structure-padding-in-c
