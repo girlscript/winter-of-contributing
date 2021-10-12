@@ -1,18 +1,14 @@
 # Floyd's Cycle Detection Algorithm
 
-
 ## Introduction
 
 There is said to be a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer.
-
 
 ## Problem
 
 Given the head of a linked list, determine if the linked list has a cycle in it.
 
 Return true if there is a cycle in the linked list. Otherwise, return false.
-
-
 
 ## Example
 
@@ -25,8 +21,6 @@ Return true if there is a cycle in the linked list. Otherwise, return false.
 
 In this case, `next` of 6 points to 4. Hence, a cycle is present.
 
-
-
 ## Brute Force : Hashing Approach
 
 1. Traverse the linked list.
@@ -36,8 +30,6 @@ In this case, `next` of 6 points to 4. Hence, a cycle is present.
 3. If NULL is reached, return `false`. 
 
 4. If the node->next points to any of the previously stored nodes in Hash then return `true`.
-
-
 
 ## Optimised Solution : Floyd's Cycle Approach
 
@@ -56,7 +48,6 @@ Floyd’s cycle detection algorithm uses only two pointers, moving through the l
    * 'slow' pointer will meet the 'fast' pointer indicating the presence of loop in the list.
 
 4. The distance is shortened by 1 on each step of the algorithm if loop is present. 
-
 
 ## Program
 
@@ -128,7 +119,6 @@ int main(){
 
    * Space complexity : O(1) as only 2 pointers and no extra space is used.
    
-
 ## Resources
 
 * https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/#
