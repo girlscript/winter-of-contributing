@@ -167,8 +167,8 @@ if odd(numbers[i]):
 del numbers[i]   # Not good **: (** : Deleting item from a list while iterating over it
 
 #Output: Traceback (most recent call last):
-  	 	File "<stdin>", line 2, in <module>
-                IndexError: list index out of range
+#  	 	File "<stdin>", line 2, in <module>
+#        IndexError: list index out of range
 ```
 
 Deleting an item from a list or array while iterating over it is a Python problem that is well known to any experienced software developer. But while the example above may be fairly obvious, even advanced developers can be unintentionally bitten by this in code that is much more complex.
