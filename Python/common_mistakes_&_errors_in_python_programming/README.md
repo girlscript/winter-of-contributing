@@ -37,8 +37,8 @@ In python we can specify that a function argument is **optional** by giving a **
 ```python
 # Say we have function as below
 def music(type=[]):                             #type is optional and defaults to [] if not specified
-type.append("bass")               #but this line could cause problems as we'll see
-return type
+	type.append("bass")                     #but this line could cause problems as we'll see
+	return type
 ```
 Here the common mistake will be to think that the optional argument will be set to the specified default expression each time the function is called without supplying for the optional argument. 
 
@@ -123,9 +123,9 @@ def plus():
 	print(x)
 plus()
 #output : Traceback (most recent call last):
-#                	File "<stdin>", line 1, in <module>
-#                           File "<stdin>", line 2, in plus
-#UnboundLocalError: local variable 'x' referenced before assignment
+#         	File "<stdin>", line 1, in <module>
+#               File "<stdin>", line 2, in plus
+#         UnboundLocalError: local variable 'x' referenced before assignment
 ```
 Why are we getting an error ??
 
@@ -149,9 +149,9 @@ def plus2():
 one += [5]   #this gets error 
 plus2()
 #Output: Traceback (most recent call last):
-#	   	File "<stdin>", line 1, in <module>
-#                  	File "<stdin>", line 2, in plus
-#UnboundLocalError: local variable 'one' referenced before assignment
+#	 	File "<stdin>", line 1, in <module>
+#               File "<stdin>", line 2, in plus
+#        UnboundLocalError: local variable 'one' referenced before assignment
 ```
 Now Why did plus2 get error while plus1 ran fine?
 The answer is the same as in the prior example problem but is admittedly more subtle. plus1 is not making an assignment to **one**, whereas plus2 is. Remembering that one += [5] is really just shorthand for one = one + [5], we see that we are attempting to assign a value to one (therefore presumed by Python to be in the local scope). However, the value we are looking to assign to one is based on one itself (again, now presumed to be in the local scope), which has not yet been defined.
@@ -166,8 +166,8 @@ if odd(numbers[i]):
 del numbers[i]   # Not good **: (** : Deleting item from a list while iterating over it
 
 #Output: Traceback (most recent call last):
-  	   	File "<stdin>", line 2, in <module>
-                 IndexError: list index out of range
+  	 	File "<stdin>", line 2, in <module>
+                IndexError: list index out of range
 ```
 
 Deleting an item from a list or array while iterating over it is a Python problem that is well known to any experienced software developer. But while the example above may be fairly obvious, even advanced developers can be unintentionally bitten by this in code that is much more complex.
@@ -219,5 +219,5 @@ At line:1 char:1
 specified on your offline system at the time of installation , and the location specified by the '#' is where the program will look for python and at this location the program won't find any. 
 # 9.)  Mistakes in Indentation:
 Python does not rely on brackets to separate code blocks. Thus, even one indentation mistake can result in unexpected output. This becomes all the more challenging when one is using multiple functions– all in the same code file. Oftentimes, it may not even give an indentation error but can become a serious bug in the code.
-'  '
+
 
