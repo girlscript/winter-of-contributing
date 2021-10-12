@@ -24,7 +24,7 @@ Below are the types of HTML qutation elements :
  Yesterday is gone. Tomorrow has not yet come. We have only today. Let us begin.
  </blockquote>
   
- ![alt text](assets/blockquote.png)
+ ![alt text](assets/blockquote.jpg)
   
  ---
   
@@ -44,7 +44,7 @@ Below are the types of HTML qutation elements :
   A quote from Hellen Keller: <q>The best and most beautiful things in the world cannot be seen or even touched — they must be felt with the heart.</q>
  </p>
  
- ![alt text](assets/q.png)
+ ![alt text](assets/q.jpg)
  
  ---
  
@@ -62,7 +62,7 @@ Below are the types of HTML qutation elements :
 
  <p> The headquaters of <abbr title="Indian Space Research Organization">ISRO</abbr> is in Bengaluru.</p>
 
- ![alt text](assets/abbr.png)
+ ![alt text](assets/abbr.jpg)
  
  ---
  
@@ -90,7 +90,7 @@ The output of the above code will be:
 
 </address>
 
-![alt text](assets/address.png)
+![alt text](assets/address.jpg)
 
 ---
 
@@ -105,11 +105,11 @@ Example,
 ```
 The output will be:
 
-<img src="assets\img_the_scream.jpg" width="220" height="277" alt="The Scream">
+<img src="assets/img_the_scream.jpg" width="220" height="277" alt="The Scream">
 <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
 
 
-![alt text](assets/cite.png)
+![alt text](assets/cite.jpg)
 
 ---
 
@@ -124,6 +124,6 @@ For example,
 ```
 The output:
 
-![alt text](assets/bdo.png)
+![alt text](assets/bdo.jpg)
 
 ---
