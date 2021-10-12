@@ -1,0 +1,14 @@
+The libraries which are imported in above code are:-
+1 Numpy
+2 Pandas
+3 Matplotlib.pyplot
+4 Seaborn
+5 from sklearn.compose import ColumnTransformer
+6 from sklearn.preprocessing import OneHotEncoder
+7 from sklearn.model_selection import train_test_split
+8 from sklearn.tree import DecisionTreeRegressor
+9 from sklearn.metrics import r2_score
+10 from six import StringIO
+11 from IPython.display  import Image
+12 from sklearn.tree import export_graphviz
+13 import pydotplus
