@@ -177,3 +177,9 @@ Now, the forms can be created through following ways:
             input type="text" pattern="-?\d{1,3}\.\d+"
         ```
 <hr/>
+
+## References 
+
+* [Source-1](https://cxl.com/blog/form-validation/)
+
+* [Source-2](https://developer.mozilla.org/en-US/docs/Web/HTML)
