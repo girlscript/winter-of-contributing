@@ -9,6 +9,7 @@
 - [DS Resources](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/DS%20Resources)
 - [Data Analysis and Visualization](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Data%20Analysis%20and%20Visualization)
 - [Deep Learning](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Deep%20Learning)
+- [Image_Retrieval](https://github.com/kishlayaug15/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Image_Retrieval)
 - [Interview Preparations](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Interview%20Preparation)
 - [Kaggle Competitions](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions)
 - [Linear Algebra](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Linear%20Algebra)
@@ -27,13 +28,14 @@
 5. DS Resources
 6. Data Analysis and Visualization
 7. Deep Learning
-8. Interview Preparations
-9. Kaggle Competitions
-10. Linear Algebra
-11. Machine Learning
-12. Natural Language Processing
-13. Programming - Python, SQL, R
-14. Statistics
+8. Image_Retrieval
+9. Interview Preparations
+10. Kaggle Competitions
+11. Linear Algebra
+12. Machine Learning
+13. Natural Language Processing
+14. Programming - Python, SQL, R
+15. Statistics
 
 
 ## Mentors
