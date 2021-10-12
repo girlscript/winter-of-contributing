@@ -14,7 +14,7 @@
  4. Keep on taking the processes from queue until it becomes empty.
  5. Repeat steps 2-4 until all the process gets completed and queue becomes empty.
 
- ![image](https://www.gatevidyalay.com/wp-content/uploads/2018/10/Round-Robin-Scheduling.png)
+ ![image](https://www.gatevidyalay.com/wp-content/uploads/2018/10/Round-Robin-Scheduling.png)</br>
 Image Source : [Gate Vidyalay](https://www.gatevidyalay.com/wp-content/uploads/2018/10/Round-Robin-Scheduling.png)
  - C++ PROGRAM FOR ROUND ROBIN SCHEDULING
  ```cpp
