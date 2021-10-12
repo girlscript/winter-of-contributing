@@ -10,7 +10,7 @@ A queue is a _first in first out_(**FIFO**) structure. The queue implementation 
 </div>
 
 <p align=center> 
-	[Source](https://slidetodoc.com/15-3-stacks-a-stack-is-a-linear/)
+	Source :https://slidetodoc.com/15-3-stacks-a-stack-is-a-linear/
 
 ## Queue Operations
 
@@ -29,7 +29,7 @@ If there is no more of space/room for another element to be inserted, then the q
 <img src = "https://user-images.githubusercontent.com/76544476/136730297-db0af07b-c2dd-4efb-92ed-2290de523b24.png" width="400" height="400">
 </div>
 
-<p align=center> [Source](https://www.programiz.com/dsa/circular-queue)
+<p align=center> Source :https://www.programiz.com/dsa/circular-queue
 
 ### Dequeue
 
@@ -40,7 +40,7 @@ If there are no data in the queue already and if dequeue is aimed, then the queu
 <img src = "https://user-images.githubusercontent.com/76544476/136732398-e98a90fe-22a4-4383-af69-6bc27f14e982.png" width="400" height="400">
 </div>
 
-<p align=center> [Source](https://tex.stackexchange.com/questions/489987/how-to-draw-stack-and-queue-data-structure)
+<p align=center> Source :https://tex.stackexchange.com/questions/489987/how-to-draw-stack-and-queue-data-structure
 
 
 ### Queue Front 
@@ -52,7 +52,7 @@ If there is no data present in the queue and when the queue front is attemped, t
 <img src = "https://user-images.githubusercontent.com/76544476/136823803-91a956e0-2abc-4115-82a3-85cf59018962.png" width="400" height="400">
 </div>
 
-<p align=center> [Source](https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/tutorial/)
+<p align=center> Source :https://www.hackerearth.com/practice/data-structures/queues/basics-of-queues/tutorial/
 
 ### Queue Rear
 
@@ -60,10 +60,10 @@ Retrieval of data from the rear of the queue is done with **Queue Rear**.
 If there is no data present in the rear and when the queue rear is attemped, then the queue is in **Underflow** condition.
 
 <div align="center"> 
-<img src = "https://user-images.githubusercontent.com/76544476/136824321-8df1e01c-7e76-494d-a0a5-27190869a6c0.png" width="400" height="400">
+<img src = "https://user-images.githubusercontent.com/76544476/136824321-8df1e01c-7e76-494d-a0a5-27190869a6c0.png" width="400" height="300">
 </div>
 
-<p align=center> [Source](https://www.javatpoint.com/array-representation-of-queue)
+<p align=center> Source :https://www.javatpoint.com/array-representation-of-queue
 
 ### Program Demonstration:
 
