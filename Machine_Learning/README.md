@@ -45,17 +45,29 @@
 
 ### 🟡 *Week 3 [Unsupervised Machine Learning]* :
    - **3.1. What is Clustering? Validate its necessity using real-world applications.**
-   - **3.2 k-means Clustering.**
-   - **3.3 k-medoids.**
-   - **3.4 DBSCAN.**
-   - **3.5 Hierarchical Clustering.**
-   - **3.6 Contrast between k- means, k- medoids and Hierarchical Clustering.**
-   - **3.7 BIRCH.**
-   - **3.8 What is Outlier Detection. How is it important in ML?**
-   - **3.9 Outlier Detection using Random Forests: Isolation Forest.**
-   - **3.10 Outlier Detection using Local Outlier Filter (LOF)**
+   - **3.2. k-means Clustering.**
+   - **3.3. k-medoids.**
+   - **3.4. DBSCAN.**
+   - **3.5. Hierarchical Clustering.**
+   - **3.6. Contrast between k- means, k- medoids and Hierarchical Clustering.**
+   - **3.7. BIRCH.**
+   - **3.8. What is Outlier Detection. How is it important in ML?**
+   - **3.9. Outlier Detection using Random Forests: Isolation Forest.**
+   - **3.10. Outlier Detection using Local Outlier Filter (LOF)**
    - **3.11. Implement k-means without using any standard ML library like scikit-learn or more. ⭐**
    - **3.12. Implement k-medoids without using any standard ML library like scikit-learn or more. ⭐**
+
+### 🟡 *Week 4 [Reinforcement Learning]* :
+   - **4.1. Introduction to RL: Definition and Types.**
+   - **4.2. Contrast in Supervised, Unsupervised and Reinforcement Learning.**
+   - **4.3. SARSA.**
+   - **4.4. Q- Learning.**
+   - **4.5. Deep Q- Networks.**
+   - **4.6. Implement SARSA.**
+   - **4.7. Implement Q-Learnings.**
+   - **4.8. Implement DQNs.**
+   - **4.9. Practical Applications.**
+   - **4.10. Challenges and Future Scope.**
 
 
 
