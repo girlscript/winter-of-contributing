@@ -10,7 +10,7 @@ Functions are used in CSS in order to perform mathematical calculations and chan
 Lets us perform calculations when specifying CSS property values . Calc() takes length frequency, angle, time, percentage and integer as parameter.
 
 ### Syntax:
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136685940-13fb6890-4c2c-4df0-b3b2-b4e1265b82d7.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136947970-82b5dcbd-040b-4128-ae6a-97b58b1ffabc.png"></p>
 
 ### Examples:
 
@@ -41,7 +41,7 @@ The max function selects the largest value of the property among a list of comma
 
 ### Syntax
 
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136693121-15242cc8-42c3-4fd6-a2b0-73327a93c43c.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136948310-3d56ae21-cb42-4a79-a425-67e983b2c064.png"></p>
 
 ### Examples
 
@@ -64,7 +64,8 @@ The min function selects the smallest value of the property among a list of comm
 
 ### Syntax
 
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136691131-afe61a32-d31e-4f6e-b2d1-9ebc42d3739a.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136948598-c7228046-138e-4fe7-acab-31d51c7bebd0.png"></p>
+
 
 ### Examples
 
@@ -89,11 +90,11 @@ Clamp takes length, frequency, angle, time, percent and integer as parameter.
 
 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136692128-415ea89a-d228-4bc6-92a0-e2390758a3ec.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136948972-c78b77d1-f2d1-478b-aa6b-9553000c22eb.png"></p>
 
 In case of conflict in using different browser and using screen sizes display units like em, vm, rem, px etc. The parameter of clamp function are resolved as
 
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136693833-975a5b9a-5338-4707-b013-b8cb324e6aa1.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/136949278-99a8f0a5-9d41-4178-8054-0f9ec30a8156.png"></p>
 
 
 ## Examples
