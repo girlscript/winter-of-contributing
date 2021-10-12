@@ -30,74 +30,83 @@ Means you just backtrack from using that step and then choose another step.
   
 ### Code
 ```c++
+
 #include <iostream>
-#include<vector> 
+#include<vector>
 using namespace std;
 
- 
-bool issafe(vector<vector<int>> maze, int x, int y,int m,int n){  // the boolean function issafe is checking whether the block at x,y index is safe or not                                              {                                          //check whether the index lie inside the maze and is it 1 or not
-  if( x >= 0 && x < m && y >= 0 && y < n && maze[x][y] == 1)
-        return true;
-    return false;
+
+bool issafe (vector < vector < int >>maze, int x, int y, int m, int n)
+{	// the boolean function issafe is checking whether the block at x,y index is safe or not                                              {                                       //check whether the index lie inside the maze and is it 1 or not
+  if (x >= 0 && x < m && y >= 0 && y < n && maze[x][y] == 1)
+    return true;
+  return false;
 }
-bool solution(vector<vector<int>> maze ,int x,int y,vector<vector<int>> &ans,int m,int n)   //here x and y are storing the current position of rat
-{   
-    if(x == m-1 && y == n - 1 && maze[x][y] == 1) {
-        ans[x][y] = 1;
-        return true;
-    }
-    if (issafe(maze, x, y,m,n) == true) {
-          if (ans[x][y] == 1)       
-              return false;
-        ans[x][y] = 1;
- 
-        if (solution(maze, x + 1, y,ans,m,n) == true)     //if the solution for moving one block forward is true then return true
-            return true;
-        if (solution( maze, x, y + 1,ans,m,n)== true)      //if the solution for moving one block downward is true then return true
-            return true;
-        ans[x][y] = 0;                               //if either of them is not true means the current block is not the correct solution so backtrack from it by marking it 0
-        return false;
-    }
- 
-    return false;        
-}
-int main()
+
+bool solution (vector < vector < int >>maze, int x, int y, vector < vector < int >>&ans, int m, int n)	//here x and y are storing the current position of rat
 {
- 
-    int m,n;
-    cout<<"Enter number of rows\n";
-    cin>>m;
-    cout<<"Enter number of columns\n";
-    cin>>n;
-       vector<vector<int>> maze( n , vector<int> (m)); 
-    for(int i=0;i<m;i++)
-  {  
-   for(int j=0;j<n;j++)
-   {
-     int element;
-    cin>>element;
-   maze[i][j]=element;
-  }
-  }
-  vector<vector<int>> sol(n,vector<int> (m));
-  for(int row=0;row<m;row++)
-  {
-   for(int col=0;col<n;col++){
-   sol[row][col]=0;  // initialized each element of solution to 0 initially
-  }
-  }
-    bool answer=solution(maze,0,0,sol,m,n);     //solution is taking the maze and solution array  
-                                            // and starting and ending positions in the maze i.e. 0,0
-    if(answer==false)                           // if false is returned by solution it means no path to destination exists
-    cout<<"Solution does not exists";
-    else
-    { for (int i = 0; i < sol.size(); i++) {
-        for (int j = 0; j < sol[i].size(); j++)
-            cout<<sol[i][j];
-        cout<<"\n";
-        }
+  if (x == m - 1 && y == n - 1 && maze[x][y] == 1)
+    {
+      ans[x][y] = 1;
+      return true;
     }
-    return 0;
+  if (issafe (maze, x, y, m, n) == true)
+    {
+      if (ans[x][y] == 1)
+	    return false;
+      ans[x][y] = 1;
+
+      if (solution (maze, x + 1, y, ans, m, n) == true)	//if the solution for moving one block forward is true then return true
+	    return true;
+      if (solution (maze, x, y + 1, ans, m, n) == true)	//if the solution for moving one block downward is true then return true
+	    return true;
+      ans[x][y] = 0;		//if either of them is not true means the current block is not the correct solution so backtrack from it by marking it 0
+      return false;
+    }
+
+  return false;
+}
+
+int main ()
+{
+
+  int m, n;
+  cout << "Enter number of rows\n";
+  cin >> m;
+  cout << "Enter number of columns\n";
+  cin >> n;
+  vector < vector < int >>maze (n, vector < int >(m));
+  for (int i = 0; i < m; i++)
+    {
+      for (int j = 0; j < n; j++)
+	{
+	  int element;
+	  cin >> element;
+	  maze[i][j] = element;
+	}
+    }
+  vector < vector < int >>sol (n, vector < int >(m));
+  for (int row = 0; row < m; row++)
+    {
+      for (int col = 0; col < n; col++)
+	{
+	  sol[row][col] = 0;	// initialized each element of solution to 0 initially
+	}
+    }
+  bool answer = solution (maze, 0, 0, sol, m, n);	//solution is taking the maze and solution array  
+  // and starting and ending positions in the maze i.e. 0,0
+  if (answer == false)		// if false is returned by solution it means no path to destination exists
+    cout << "Solution does not exists";
+  else
+    {
+      for (int i = 0; i < sol.size (); i++)
+	{
+	  for (int j = 0; j < sol[i].size (); j++)
+	    cout << sol[i][j];
+	  cout << "\n";
+	}
+    }
+  return 0;
 }
 ```
 **Input**
@@ -105,10 +114,7 @@ int main()
 >2  
 >Enter number of columns  
 >2  
->1  
->1  
->0  
->1  
+>1 1 0 1   
     
 **Output:**    
 >1 1  
@@ -116,5 +122,5 @@ int main()
 
 ### Complexity Analysis: 
 
-**Time Complexity: O(2^(n^2)).**   
-**Space Complexity: O(n^2).**
+**Time Complexity: O(2<sup>(n<sup>2</sup>)</sup>).**   
+**Space Complexity: O(n<sup>2</sup>).**
