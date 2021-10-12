@@ -2,16 +2,16 @@
 In this article we will cover few of the most common mistakes that one can make while programming in python. Discussing these errors could be really helpful as a lot of the times  getting continuous errors while trying to solve a problem is very **frustrating** especially for newbie programmers and all the programmers agree upon this.
  
 # Errors/mistakes covered are:
--EOF/NZEC error (found when using online coding platform compilers like codechef, hackerrank)
--Misusing expressions as defaults for function arguments
--Using class variables incorrectly
--Misunderstanding Python scope rules
--Modifying a list while iterating over it
--Name clashing with Python Standard Library modules
--Failing to address differences between Python 2 and Python 3
--Misusing the __del__ method
--'#' does not make the program ignore everything written ahead of the hashtag 
--Mistakes in Indentation
+- EOF/NZEC error (found when using online coding platform compilers like codechef, hackerrank)
+- Misusing expressions as defaults for function arguments
+- Using class variables incorrectly
+- Misunderstanding Python scope rules
+- Modifying a list while iterating over it
+- Name clashing with Python Standard Library modules
+- Failing to address differences between Python 2 and Python 3
+- Misusing the __del__ method
+- '#' does not make the program ignore everything written ahead of the hashtag 
+- Mistakes in Indentation
 
 # 1.) EOF/NZEC error (found when using online coding platform compilers like codechef, hackerrank):
 
