@@ -66,64 +66,64 @@ Below are the types of HTML qutation elements :
  
  ---
  
-### 4. ```<address>``` Element
-As the name suggests this element is used to display the address of the author or the owner of the web page. The text enclosed within the tag will be italicized and there 
-will be a line break both above and below it.
+ ### 4. ```<address>``` Element
+ As the name suggests this element is used to display the address of the author or the owner of the web page. The text enclosed within the tag will be italicized and there 
+ will be a line break both above and below it.
 
-For example,
+ For example,
 
-```
-<address>
+ ```
+ <address>
 
-<p>Address:<br>
-  710-B, Advant Navis Business Park,<br>
-  Sector-142, Noida Uttar Pradesh – 201305</p>
+ <p>Address:<br>
+   710-B, Advant Navis Commercial Park,<br>
+   Sector-142, Noida Uttar Pradesh – 201305</p>
 
-</address>
-```
-The output of the above code will be:
-<address>
+ </address>
+ ```
+ The output of the above code will be:
+ <address>
 
-<p>Address:<br>
-  710-B, Advant Navis Commercial Park<br>
-  Sector-142, Noida Uttar Pradesh – 201305</p>
+ <p>Address:<br>
+   710-B, Advant Navis Commercial Park<br>
+   Sector-142, Noida Uttar Pradesh – 201305</p>
 
-</address>
+ </address>
 
-![alt text](assets/address.jpg)
+ ![alt text](assets/address.jpg)
 
----
+ ---
 
-### 5.```<cite>``` Element
-This tag is used to specify the title of any work or creation. This tag also converts the text into italics and has a closing and opening tag.
+ ### 5.```<cite>``` Element
+ This tag is used to specify the title of any work or creation. This tag also converts the text into italics and has a closing and opening tag.
 
-Example,
+ Example,
 
-```
-<img src="assets\img_the_scream.jpg" width="220" height="277" alt="The Scream">
-<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
-```
-The output will be:
+ ```
+ <img src="assets\img_the_scream.jpg" width="220" height="277" alt="The Scream">
+ <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+ ```
+ The output will be:
 
-<img src="assets/img_the_scream.jpg" width="220" height="277" alt="The Scream">
-<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+ <img src="assets/img_the_scream.jpg" width="220" height="277" alt="The Scream">
+ <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
 
 
-![alt text](assets/cite.jpg)
+ ![alt text](assets/cite.jpg)
 
----
+ ---
 
-### 6. ```<bdo>``` Element
-This tag is used to override a text in bi-direction i.e. both left to right or right to left. It overrides the current text direction. It is a container tag. The rtl 
-attribute is used to display the text from right to left.
+ ### 6. ```<bdo>``` Element
+ This tag is used to override a text in bi-direction i.e. both left to right or right to left. It overrides the current text direction. It is a container tag. The rtl 
+ attribute is used to display the text from right to left.
 
-For example,
+ For example,
 
-```
-<bdo dir="rtl">This text was written from left to right</bdo>
-```
-The output:
+ ```
+ <bdo dir="rtl">This text was written from left to right</bdo>
+ ```
+ The output:
 
-![alt text](assets/bdo.jpg)
+ ![alt text](assets/bdo.jpg)
 
----
+ ---
