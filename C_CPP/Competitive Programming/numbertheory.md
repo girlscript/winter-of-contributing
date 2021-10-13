@@ -57,6 +57,6 @@ int main()
 
 # Algorithm Used
 ->First, we have to input an integer 'a'<br>
-->Second, we can run a for loop, initializing i from 1 and increment it until it is less then 'a'.<br>
+- Second, we can run a for loop, initializing i from 1 and increment it until it is less then 'a'.<br>
 ->Third, Use if condition in for loop and check 'a'using modulus operator ie if a%i==0 then print i.<br>   
 ->Fourth, Print all the values of i.
