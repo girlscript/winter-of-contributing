@@ -1,158 +1,110 @@
 # **Suspending, resuming and stopping threads**
 
-Core Java provides complete control over multithreaded program. You can develop a multithreaded program which can be suspended, resumed, or stopped completely based on your requirements.
+Java executes multiple threadss simultaneously which is known as multithreading program that could be suspended, resumed, or stopped completely based on your requirements.
 
-The functions of Suspend, Resume and Stop a thread is performed using Boolean-type flags in a multithreading program. These flags are used to store the current status of the thread.
-
-
-1. If the suspend flag is set to true then run() will suspend the execution of the currently running thread.
-2. If the resume flag is set to true then run() will resume the execution of the suspended thread.
-3. If the stop flag is set to true then a thread will get terminated.
+1. Suspend() method will suspend the execution of the currently running thread.
+2. Resume() method will resume the execution of the suspended thread.
+3. Stop() method terminates the thread.
 
 **public void suspend() :**
 
-The suspend() method of thread class puts the thread from running to waiting state. This method is used if you want to stop the thread execution and start it again when a certain event occurs. This method allows a thread to temporarily cease execution. The suspended thread can be resumed using the resume() method.
+When we use suspend() method, it puts the thread from running to waiting state temporarily. When we want to cease the execution temporarily, we use suspend() method. It is used to stop the thread execution and start it again when a certain event occurs. And thread can go from waiting to runnable state only when resume() method is called on thread. Suspend method is deprecated method.
 
-**Return :**
-This method does not return any value.
-
-**SecurityException :**
-If the current thread cannot modify the thread.
-
-
-
-
-```python
-public class JavaSuspendExp extends Thread  
-{    
-    public void run()  
-    {    
-        for(int i=1; i<5; i++)  
-        {    
-            try  
-            {  
-                // thread to sleep for 500 milliseconds  
-                 sleep(500);  
-                 System.out.println(Thread.currentThread().getName());    
-            }catch(InterruptedException e){System.out.println(e);}    
-            System.out.println(i);    
-        }    
-    }    
-    public static void main(String args[])  
-    {    
-        // creating three threads   
-        JavaSuspendExp t1=new JavaSuspendExp ();    
-        JavaSuspendExp t2=new JavaSuspendExp ();   
-        JavaSuspendExp t3=new JavaSuspendExp ();   
-        // call run() method   
-        t1.start();  
-        t2.start();  
-        // suspend t2 thread   
-        t2.suspend();   
-        // call run() method   
-        t3.start();  
-    }    
-}  
-```
 
 **public void resume()**
 
-The resume() method of thread class is only used with suspend() method. This method is used to resume a thread which was suspended using suspend() method. This method allows the suspended thread to start again.
-
-**Return :** This method does not return any value.
-
-**SecurityException :** If the current thread cannot modify the thread.
+Resume() method is used to resume a thread which was suspended using suspend() method and allows the suspended thread to start again. Resume() mehod of a thread class is only used with suspend() method.
 
 
+**Suspend()** and **remove()** are deprecated methods because if not used properly they are deadlock prone.
 
 
+**Program for suspend() and resume() method :**
 
-```python
-public class JavaResumeExp extends Thread  
-{    
-    public void run()  
-    {    
-        for(int i=1; i<5; i++)  
-        {    
-            try  
-            {  
-                // thread to sleep for 500 milliseconds  
-                 sleep(500);  
-                 System.out.println(Thread.currentThread().getName());    
-            }catch(InterruptedException e){System.out.println(e);}    
-            System.out.println(i);    
-        }    
-    }    
-    public static void main(String args[])  
-    {    
-        // creating three threads   
-        JavaResumeExp t1=new JavaResumeExp ();    
-        JavaResumeExp t2=new JavaResumeExp ();   
-        JavaResumeExp t3=new JavaResumeExp ();   
-        // call run() method   
-        t1.start();  
-        t2.start();  
-        t2.suspend(); // suspend t2 thread   
-        // call run() method   
-        t3.start();   
-        t2.resume(); // resume t2 thread  
-    }    
-}  
-
-```
-
-
-
+public class SuspendResume {
+    public static void main(String[] args) throws InterruptedException {
+    
+           final Thread thread1=new Thread("Thread-1"){
+                  public void run() {
+                        System.out.println(Thread.currentThread().getName()+" has started.");
+                        for(int i=0;i<5;i++){
+                               try {
+                                      Thread.sleep(100);
+                               } catch (InterruptedException e) {
+                                      e.printStackTrace();
+                               }
+                               
+                               System.out.println("i="+i+" ,ThreadName="+
+                                                           Thread.currentThread().getName());
+                        }   
+                        System.out.println(Thread.currentThread().getName()+" has ENDED.");
+                  }
+ 
+           };
+           
+           Thread thread2=new Thread("Thread-2"){
+                  public void run() {
+                        System.out.println(Thread.currentThread().getName()+" has started.");
+                        for(int i=0;i<5;i++){
+                               try {
+                                      Thread.sleep(100);
+                               } catch (InterruptedException e) {
+                                      e.printStackTrace();
+                               }
+                               
+                               System.out.println("i="+i+" ,ThreadName="+
+                                                     Thread.currentThread().getName());
+                        }   
+                        System.out.println(Thread.currentThread().getName()+" has ENDED.");
+                  }
+ 
+           };
+           
+           thread1.start();
+           Thread.sleep(10);//make main thread sleep for 10 millisec, 
+                                 //This minor delay will ensure that Thread-1 starts before Thread-2.
+           thread2.start();
+           thread1.suspend();//suspend the thread.
+           Thread.sleep(1000);
+           thread1.resume();
+    }
+    
+}
+ 
 
 
 **public void stop()**
 
-The stop() method of thread class terminates the thread execution. Once a thread is stopped, it cannot be restarted by start() method.
-
-**Syntax :**
-public final void stop()  
-public final void stop(Throwable obj)  
-
-**obj :** The Throwable object to be thrown.
+Whenever we want to terminate thread execution, we call stop() method of thread class. This method stops the execution of a running thread and removes it from the waiting threads pool and garbage collected. A thread will also move to the dead state automatically when it reaches the end of its method.
 
 
-**Return :** 
-This method does not return any value.
+public final class Container implements Runnable {
+  private final Vector<Integer> vector = new Vector<Integer>(1000);
+ 
+  public Vector<Integer> getVector() {
+    return vector;
+  }
+ 
+  @Override public synchronized void run() {
+    Random number = new Random(123L);
+    int i = vector.capacity();
+    while (i > 0) {
+      vector.add(number.nextInt(100));
+      i--;
+    }
+  }
+ 
+  public static void main(String[] args) throws InterruptedException {
+    Thread thread = new Thread(new Container());
+    thread.start();
+    Thread.sleep(5000);
+    thread.stop();
+  }
+}
 
-**SecurityException :** This exception throws if the current thread cannot modify the thread.
+**Stop()** method may be used to generate exceptions that its target thread is unprepared to handle (including checked exceptions that the thread could not possibly throw, were it not for this method).
 
 
-
-
-
-```python
-public class JavaStopExp extends Thread  
-{    
-    public void run()  
-    {    
-        for(int i=1; i<5; i++)  
-        {    
-            try  
-            {  
-                // thread to sleep for 500 milliseconds  
-                sleep(500);  
-                System.out.println(Thread.currentThread().getName());    
-            }catch(InterruptedException e){System.out.println(e);}    
-            System.out.println(i);    
-        }    
-    }    
-    public static void main(String args[])  
-    {    
-        // creating three threads   
-        JavaStopExp t1=new JavaStopExp ();    
-        JavaStopExp t2=new JavaStopExp ();   
-        JavaStopExp t3=new JavaStopExp ();   
-        // call run() method   
-        t1.start();  
-        t2.start();  
-        // stop t3 thread   
-        t3.stop();  
-        System.out.println("Thread t3 is stopped");    
-    }    
-}  
-```
+    static void sneakyThrow(Throwable t) {
+    Thread.currentThread().stop(t);
+}
