@@ -1,0 +1,79 @@
+Maps:-
+•	It is the part of C++ Standard Template Library
+•	Maps are used to replicate associative arrays. 
+•	Maps contain sorted key value pair, in which each key is unique and cannot be changed, and it can be inserted or deleted but cannot be altered. No two mapped values can have same key values.
+•	Also in case if the keys are of string type, then they are sorted in dictionary order.
+Concept of key value:-
+•	Each element has key value and their mapped value
+•	Each key has corresponding one value
+•	No two mapped value has same key value
+Example:-
+Roll Number	  Name
+30	          Vidhi
+31	          Ajay
+32	          Tanisha
+
+.
+Declaration of Map:-
+Syntax:-
+#include <iostream>
+#include <map>
+int main()
+{
+map<keyDatatype, mappedvalueDatatype>MapName;      //Here we declare a map
+}
+Example:-
+#include<iostream>
+#include<map>
+using namespace std;
+int main()
+{
+map<int, string> customer;
+customer[100] = “Gajendra”;
+customer[123] = “Dilip”;
+customer[145] = “Aditya”;
+customer[171] = “Shahid”;
+customer[200] = “Rajesh”;
+}
+
+Some useful built  function of map class :-
+•	begin():-This function returns the iterator to the first item of map
+•	empty():-This will return a Boolean value denoting whether a map is empty
+•	clear():-This function deletes all items from map
+•	size():-This function returns the total number of items in map
+•	insert():-This function inserts new key-value pair to a map
+
+Example:-
+#include<iostream>
+#include<map> // for map
+#include<string>   //For string operations
+using namespace std;
+int main()
+{
+ map<string, int>student_map;   // Declaration of Map
+ student_map ["Shubh"] = 85;  
+ student_map ["Kabir"] = 39;
+ student_map ["Amar"] = 66;
+  student_map.insert({{"Riyaa",75},{"Raju",51}}); 
+map<string,int>::iterator i;
+ for(i=student_map.begin(); i!=student_map.end(); i++)
+{
+ cout<<(*i).first<<" : "<<(*i).second <<endl;
+   }
+}
+
+
+
+Output:
+Amar : 66
+Kabir : 39
+Raju : 51
+Riyaa : 75
+Shubh : 85
+
+Advantages of map:-
+•	Eliminates redundancy of data
+•	Fast traversal due to sorted keys
+•	Easy access of value
+Disadvantages of map:-
+•	If large number stored in map then traversing is time consuming
