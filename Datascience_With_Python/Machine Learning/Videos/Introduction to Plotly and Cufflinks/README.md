@@ -1,3 +1,7 @@
+# Introduction to Plotly and Cufflinks
+
+# Video Link : [Intoduction to Plotly and Cufflinks](https://drive.google.com/file/d/1Itgtqt6HHwswTjJS1CGe9MHz6cas4TMh/view)
+
 # Introduction
 Data is everywhere in today’s world of knowledge , and that we can only enjoy it if we will extract information from data. Data visualization is that the most visually appealing aspect of knowledge analysis because it allows us to interact with the info . It’s that magical technique for conveying information to large groups of individuals during a single glance and creating interesting stories out of knowledge . Pandas is one among the foremost popular and widely used data analysis tools in Python. It also features a built-in plot function for samples. When it involves interactive visualization, however, Python users who don’t have front-end engineering skills may have some challenges, like many libraries, like D3, chart.js, require some javascript knowledge. Plotly and Cufflinks are available handy at now .
 
