@@ -1,6 +1,6 @@
 ## Data Visualizations with Seaborn
 
-## AUDIO LINK: [Data Visualizations with Seaborn]()
+## AUDIO LINK: [Data Visualizations with Seaborn](https://drive.google.com/file/d/1spDod_GaAGJpC5Y-fiEM9BOmOU_a6ItJ/view?usp=sharing)
 
 ## Seaborn: statistical data visualization
 
