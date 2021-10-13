@@ -46,3 +46,5 @@ To read more about random forest classifiers, [click here](https://machinelearni
 We can conclude that VADER Polarity is a better metric than Sentiment Polarity to analyze reviews.
 
 Random Forest Classifier works better than Decision Tree Classifier in both Sentiment Polarity and VADER Polarity. Even though the training accuracy for Decision Tree Classifier (when trained using VADER Polarity) is higher (99.23%), Random Forest Classifier works better on testing data (accuracy of 91.61%).
+
+Project contributed by [Deepesha Burse](https://github.com/deepeshaburse).
