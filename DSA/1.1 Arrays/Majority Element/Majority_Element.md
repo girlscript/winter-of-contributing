@@ -13,6 +13,7 @@
         - [Approach](#approach-efficient)
         - [Implementation](#implementation-efficient)
         - [Complexity Analysis](#complexity-analysis-efficient)
+- [References](#references)
 
 
 ## Overview
@@ -97,3 +98,6 @@
         - Using two traversals
     Space Complexity : O(1)
         - No auxillary space needed
+
+## References
+    [Majority Element](https://www.geeksforgeeks.org/majority-element/)
