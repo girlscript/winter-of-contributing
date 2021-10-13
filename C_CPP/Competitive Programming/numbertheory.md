@@ -14,7 +14,7 @@ Number theory is a topic in competitive programming. It contaions approximately 
 9. Wilson Theorem
 10. Miller and Rabin Primarity Test
 
-<h1>Find all factor of a natural number?</h1>
+# Find all factor of a natural number?
 
 ```cpp
 
@@ -56,7 +56,7 @@ int main()
 ```
 
 # Algorithm Used
-- First, we have to input an integer 'a'<br>
-- Second, we can run a for loop, initializing i from 1 and increment it until it is less then 'a'.<br>
-- Third, Use if condition in for loop and check 'a'using modulus operator ie if a%i==0 then print i.<br>   
+- First, we have to input an integer 'a'
+- Second, we can run a for loop, initializing i from 1 and increment it until it is less then 'a'.
+- Third, Use if condition in for loop and check 'a'using modulus operator ie if a%i==0 then print i.   
 - Fourth, Print all the values of i.
