@@ -1,6 +1,6 @@
 ## Audio Link: [Dimensionality Reduction](https://drive.google.com/file/d/1eCUJRtQHDpN-er9rdJOpoUmras5FnvSj/view?usp=sharing)
 
-## DIMENSIONALITY REDUCTION
+# DIMENSIONALITY REDUCTION
 
 ## What is Predictive Modeling:
 Predictive modeling is a probabilistic process that allows us to forecast outcomes, on the basis of some predictors. These predictors are basically features that come into play when deciding the final result, i.e. the outcome of the model.
