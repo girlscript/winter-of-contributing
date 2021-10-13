@@ -1,4 +1,4 @@
-# Implementation of Hash Tables with Linear Probing
+## Implementation of Hash Tables with Linear Probing
 
 ### Linear probing
 
