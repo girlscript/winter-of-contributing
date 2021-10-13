@@ -22,7 +22,7 @@ Output: Yes
 - Hence, the final algorithm boils down to the fact that if n&(n-1) [here n is the given integer] is zero then it is a power of 2 else it is not!
 - Note: if n is zero then we have to handle it separately as it is not a power of two!!
 ```
-### Dry Run
+#### Dry Run
 ```
 Let's say we have a number 8 --> 1000 in binary and we know that it is a power of two.
 So, the number which is one less than 8 is 7 --> 111 in binary.
