@@ -2,7 +2,7 @@
 
 ![](https://s3.amazonaws.com/viking_education/web_development/web_app_eng/css_box_model_chrome.png)
 
-Image source: https://www.vikingcodeschool.com/html5-and-css3/the-css-box-model
+Image source: [Viking Code School](https://www.vikingcodeschool.com/html5-and-css3/the-css-box-model)
 
 ## What is Margin?
 
