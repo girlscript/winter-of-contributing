@@ -72,7 +72,19 @@
      
      
  ## TIME COMPLEXITY
- O(V+E)log(V)
+ 
+ Here V=Total number of vertices and E=Total no. of edges<br/>
+ here at line 45 the while(!q.empty()) runs  V times<br/>
+ Here every node is pushed once in the priority queue so TC here is O(log(V))<br/>
+ Complexity: o(V(log(V))<br/>
+ At line 57 every edge has to be traversed two times TC:O(2E)<br/>
+ At line 61 extraction from min heap takes 0(log(V))<br/>
+ Complexity:O(Elog(V))<br/>
+ 
+ **TOTAL TIME COMPLEXITY : O((V+E)log(V))**
+ 
+ 
+ 
      
  ## INPUT
  ```
@@ -89,26 +101,3 @@
 19
 
 ```
- 
-   
-   
-   
-   
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-  
-
-
-
-  
-
