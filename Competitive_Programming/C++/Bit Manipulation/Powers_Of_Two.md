@@ -58,12 +58,12 @@ int main()
 **Input 1** \
 Enter an Integer: 64 \
 **Output 1** \
-The number entered is the power of 2
+The number entered is a power of 2
 
 **Input 2** \
 Enter an Integer: 31 \
 **Output 2** \
-The number entered is not the power of 2
+The number entered is not a power of 2
 #### Complexity:
 ***Time Complexity:*** O(1) \
 ***Space Complexity:*** O(1)
