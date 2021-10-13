@@ -106,7 +106,36 @@ Count plot used to Show the counts of observations in each categorical bin using
 
 
 
+## Advantages
 
+We have some advantages of using seaborn in our application which is as follows;
+
+- By using the seaborn library, we can easily represent our data on a plot.
+
+- This library is used to visualize our data; we do not need to take care of the internal details; we just have to pass our data set or data inside the relplot() function, and it will calculate and place the value accordingly.
+
+- Inside this, we can switch to any other representation of data using the ‘kind’ property inside it.
+- It creates an interactive and informative plot to representation our data; also, this is easy for the user to understand and visualize the records on the application.
+- It uses static aggregation for plot generation in python.
+- As it is based on the matplotlib so while installing seaborn, we also have other libraries installed, out of which we have matplotlib, which also provides several features and functions to create more interactive plots in python.
+
+## Disadvantages
+
+Some of the disadvantages are:
+
+- There are no such disadvantages of using the seaborn library; one thing that we have to do is its installation because it is not in built in python. we require to install this before use by using some commands. Apart from this, it does not have any disadvantages, it is also not a disadvantage, but a step added to use this while programming.
+
+## Usage of Seaborn
+
+Usage of seaborn are given below:
+
+- Data visualization
+- Use to show data as a line plot.
+- Use to create high level informative and attractive plots to show the data.
+
+## Conclusion
+
+- By we have already discussed that it is basically used for data visualization because, in our application, we have a large amount of data that needs to be represented to the user in some readable and undertakable format, so seaborn helps the user to visualize data in the form of graphics. which makes it attractive and efficient.
 
 
 
