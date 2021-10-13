@@ -15,14 +15,7 @@
 - [What_Is_Programming_Language](./What_Is_Programming_Language)
 - [What are datatypes in Python?](./Datatypes)
 - [What is type conversion ?](./Type_Conversion)
-
 - [Python_errors_and_its_types](Python_erros_and_its_types)
-## Learning path
-1. Git & GitHub
-2. What is a programming language? #77
-3. What is type conversion ?
-4. 4.Python Error and its Types?
-
 - [Use_Cases](./Use_Cases)
 - [Virtual Environment](./Virtual_Environment)
 - [Operators](./Operators)
@@ -45,13 +38,16 @@
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
-
 - [How_to_install_python](./How_to_install_python)
-
 - [Python File I/O](./Python_File_IO)
 - [Python Strings](./Python_Strings)
+- [Recursion in Python](./Recursion_in_Python)
+- [Yield Keyword](./Yield_Keyword)
+- [Dictionary Comprehension](./Dictionary_Comprehension)
+- [Django Framework](./Django_Framework)
+- [Regular expressions in Python](./Regex)
+- [Type Annotations in Python](./Type_Annotations)
 - [if statement](./if_statement)
-
 
 
 ## Learning path
@@ -86,4 +82,9 @@
 28. Python Strings
 29. Dictionary Comprehension
 30. if_statement
-
+29. Recursion in Python
+30. Yield Keyword
+31. Dictionary Comprehension
+32. Django Framework
+33. Regular expressions in Python
+34. Type Annotations in Python
