@@ -1,9 +1,8 @@
 # **Function call in c++**
 
-## What is a function call in c++?
+### What is a function call in c++?
 
-## Function call :
- The word call itself indicates calling or approaching, in a function call the program calls or approach a function to hand it over to the management. The function which is called is defined with a certain task which it executes on being called and then returns the control to the main program.
+Function call :The word call itself indicates calling or approaching, in a function call the program calls or approach a function to hand it over to the management. The function which is called is defined with a certain task which it executes on being called and then returns the control to the main program.
 
  _Syntax of the function call statement :_
 
