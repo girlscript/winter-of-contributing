@@ -1,6 +1,6 @@
 
 # Looping Control Structure or Statements
-* [Pattern](./Pattern.md)
+- [Pattern](./Pattern.md)
 
 
 - [Loops in C++](./Loops_in_C++.md)
