@@ -2,15 +2,15 @@
 
 Matrix Exponentiation in c++ is basically  a concept borrowed from/in Mathematics.
 
-Hence,It is a mostly used ans efficient method for solving linear recurrences in an efficient manner and for better approach in c++.
+It is a mostly used  efficient method for solving linear recurrences in an efficient manner and for better approach in c++.
 
  ## Prerequisites
-Some Prerequisite for/in Matrix Exponentiation in cpp are generalong longy :
+Some Prerequisite for/in Matrix Exponentiation in cpp are generally :
  ## Binary exponentiation(general)
  ## Basic knowledge about matrices
  ## Recurrence Relations.(conceptual)
 
-Hence ,Sometimes we might  face some problems in general as well as in cpp, where we can easily derive a recursive relation, (mostly/generally  suitable for dynamic programming also calong longed (dp) approach),but solving with the same linearly,,generally might give us TLE, for large values of N(when we have to find the Nth term of the relation). 
+Hence ,Sometimes we might  face some problems in general as well as in cpp, where we can easily derive a recursive relation, (mostly/generally  suitable for dynamic programming also called (dp) approach),but solving with the same logic,generally might give us TLE, for large values of N(when we have to find the Nth term of the relation). 
 That is where **Matrix Exponentiation** comes into play and here it plays a key value ,in solving problem.
 
 --------------------------------------------------------
