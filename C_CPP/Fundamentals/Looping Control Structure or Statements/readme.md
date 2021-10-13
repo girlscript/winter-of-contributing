@@ -1,4 +1,4 @@
-C_CPP
+
 # Looping Control Structure or Statements
 * [Pattern](./Pattern.md)
 
@@ -6,4 +6,4 @@ C_CPP
 - [Loops in C++](./Loops_in_C++.md)
 - [goto control instruction](goto_control_instruction.md)
 - [Loop Control Structures](Loop_Control_Structures.md)
- C_CPP
+
