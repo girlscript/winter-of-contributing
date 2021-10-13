@@ -2,14 +2,14 @@
 
 ## What is a function call in c++?
 
-## Function call : the word call itself indicates calling or approaching, in a function call the program calls or approach a function to hand it over to the management. The function which is called is defined with a certain task which it executes on being called and then returns the control to the main program.
+## Function call :
+ The word call itself indicates calling or approaching, in a function call the program calls or approach a function to hand it over to the management. The function which is called is defined with a certain task which it executes on being called and then returns the control to the main program.
 
- ### **Syntax of the function call statement :**
- 
+ ### _Syntax of the function call statement :_
+
  ` Function_name(variable1,variable2,..); `
 
 > Points to remember before function call:
-
 1. The name & number also the type of the argument in the function call should be the same as the one given in the function declaration.
 2. The extra argument would be discarded if the parameters passed to the function are more than specified to accept.
 3. The unmatched arguments would be initialized to a garbage value if unknowingly the parameters passed to a function are less than specified to accept.
@@ -17,102 +17,106 @@
 5. Commas should be used to separate the parameter list.
 
 ---
-## **: Types of a function call:**
+## Types of a function call:
 
-### There are three ways to *call a function: Call by value, Call by reference, Call by address.*
+There are three ways to *call a function: Call by value, Call by reference, Call by address.*
 
-## CALL BY VALUE:
+### CALL BY VALUE:
 
-### In this function call if the called function is assumed to modify the value of the parameters passed to it then the changes would be reflected only in the called function. Whereas the calling function would not face any change in the value of the variable, because the changes were made on the copy of the variable and not the actual variable.
+In this function call if the called function is assumed to modify the value of the parameters passed to it then the changes would be reflected only in the called function. Whereas the calling function would not face any change in the value of the variable, because the changes were made on the copy of the variable and not the actual variable.
 
-> *-----Code explaining the concept of call by value ---------*
-```
-#include<stdio.h>
-Using namespace std;
-Void Sum(int NuM);
-Int main()
+> *Code explaining the concept of call by value*
+```cpp
+#include<iostream>
+
+using namespace std;
+void Sum(int NuM);
+int main()
 {
-Int NuMber = 42;
-Cout<<”value before function call =“<<NuMber;
+int NuMber = 20;
+cout<<"value before function call ="<<NuMber<<endl;
 Sum(NuMber);
-Cout<<”Value after function call =”<<NuMber;
+cout<<"Value after function call ="<<NuMber<<endl;
 }
-Void Sum(int NuM)
+void Sum(int NuM)
 {
 NuM=NuM+100;
-Cout<<”number value in called function=”<<NuM;
+cout<<"Value of num in called function="<<NuM<<endl;
 }
 ```
-
 *Output :*
-- Value before function call =42
-- number value in called function =200
-- Value after function call =42
 
 
- ## Advantages & Disadvantages of Call-by-Value :
- ### The advantage of using Call-by-Value to pass an argument to a function is that the argument could be variables and expressions but the disadvantage is that additional storage is used in copying data also on calling the function multiple times it takes up a lot of time.
+![Output of call-by-value](https://user-images.githubusercontent.com/84911349/137097870-b3f8d00d-e7c3-4163-911a-64bffe6b3759.png)
+
+
+
+ ## _Advantages & Disadvantages of Call-by-Value_ :
+
+ The advantage of using Call-by-Value to pass an argument to a function is that the argument could be variables and expressions but the disadvantage is that additional storage is used in copying data also on calling the function multiple times it takes up a lot of time.
+
  --- 
- 
+
 ## Call-by-Address :
 
-### This method of function call copies the address of an argument into the formal parameter, which is then used by the function to access the actual argument. This means that the changes made to the value stored at a particular address will be reflected in the calling function too.
+This method of function call copies the address of an argument into the formal parameter, which is then used by the function to access the actual argument. This means that the changes made to the value stored at a particular address will be reflected in the calling function too.
 
-> *-----code for the call by address------*
-```
-Using namespace std;
+> *code for the call by address*
+``` cpp
 #include<iostream>
-Void add(int *n)
-Int main()
+using namespace std;
+void add(int *n);
+int main()
 {
-Int num=2;
-Cout<<”the value of num before calling the function =”<<num;
-Add(&num);
-Cout<<”the value of num after calling the function =”<<num;
-Return 0;
+int num=2;
+cout<<"The value of num before calling the function ="<<num<<endl;
+add(&num);
+cout<<"The value of num after calling the function ="<<num<<endl;
+return 0;
 }
-Void add(int *n)
+void add(int *n)
 {
 *n=*n+10;
-Cout<<” the value of num is the called function = ”<<*n;
+cout<<"The value of num is the called function = "<<*n<<endl;
 }
 ```
 *Output :*
-- The value of num before calling the function =2
-- The value of num in the calling function = 12
-- The value of num after calling the function = 12
 
-## Advantages and disadvantages of call-by address :
+![call by address](https://user-images.githubusercontent.com/84911349/137098232-34f6520a-b4d3-439b-8783-dcd67c59afa8.png)
 
-### Greater time and efficiency are provided in the call-by address as the arguments are not copied into new variables. The change done in the function to the value of the argument is reflected in the caller.
+
+## _Advantages and disadvantages of call-by address_ :
+
+Greater time and efficiency are provided in the call-by address as the arguments are not copied into new variables. The change done in the function to the value of the argument is reflected in the caller.
 
 ---
 
 ## Call-by-reference :
 
-### In call-by-reference the reference variables are declared as references instead of normal variables so, any changes made by function to the arguments it received are visible by calling the program.
- 
-> *-----code of call-by-reference------*
-```
-Using namespace std;
+In call-by-reference the reference variables are declared as references instead of normal variables . So, any changes made by function to the arguments it received are visible by calling the program.
+
+> *code of call-by-reference*
+```cpp
 #include<iostream>
-Void add((int &n);
-Int main()
+using namespace std;
+void add(int &n);
+int main()
 {
-Int num=2;
-Cout<<”The value of num before calling the function =”num;
-Add(num);
-Cout<<” the value of num after calling the function =” <<num;
+int num=10;
+cout<<"The value of num before calling the function ="<<num<<endl;
+add(num);
+cout<<"The value of num after calling the function = " <<num<<endl;
 }
-Void add(int &n)
+void add(int &n)
 {
- N=n+10;
-Cout<<” the value of num in the called function =”<<n;
+ n=n+10;
+cout<<"The value of num in the called function ="<<n<<endl;
 }
 ```
 *Output :*
-- The value of num before calling the function =2
-- The value of num in the called function =12
-- The value of num after calling the function = 12
+
+![call by reference](https://user-images.githubusercontent.com/84911349/137098429-a4b91a0a-c4ba-42d7-8ea6-57e5bc354161.png)
+
+
  
- ### *We now, can clearly understand the implementation of function call in c++.*
+ ### _We now, can clearly understand the implementation of function call in c++._
