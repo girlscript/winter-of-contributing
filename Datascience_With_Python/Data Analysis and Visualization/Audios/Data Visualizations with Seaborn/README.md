@@ -1,5 +1,7 @@
 ## Data Visualizations with Seaborn
 
+## AUDIO LINK: [Data Visualizations with Seaborn]()
+
 ## Seaborn: statistical data visualization
 
 - Seaborn helps to visualize the statistical relationships, To understand how variables in a dataset are related to one another and how that relationship is dependent on other variables, we perform statistical analysis. 
