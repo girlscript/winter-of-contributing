@@ -14,11 +14,26 @@ Cufflink connects plotly with pandas to make graphs and charts of dataframes dir
 
 # plotted Graphs
 1. Histogram
-2. Boxplot
-3. Scatter Plots
-4. Bubble Chart
-5. Bar Graph
-6. Surface plot
+
+![Histogram](Images/Histogram.png)
+2. Histogram2
+
+![Histogram2](Images/Histogram2.png)
+3. Boxplot
+
+![Boxplot](Images/Box%20Plot.png)
+4. Scatter Plots
+
+![Scatterplot](Images/Scatterplot.png)
+5. Bubble Chart
+
+![Bubblechart](Images/Bubble%20chart.png)
+6. Bar Graph
+
+![BarGraph](Images/Bar%20Graph.png)
+7. Surface plot
+
+![SurfacePlot](Images/Surface%20Plot.png)
 
 # Advantages of  Plotly and Cufflinks
 * Dynamic Plots
