@@ -1,193 +1,112 @@
-# Data Visualizations with Seaborn
+## Data Visualizations with Seaborn
 
-Data Visualization is a critical though undermined skill required in pursuit of a Data Science career. This is an attempt to help Data Science aspirants gain necessary Data Visualization skills required to progress in their career. It includes all the types of plot offered by Seaborn, applied on random or fabricated datasets. The knowledge gained for inference shall in no way be limited to just Seaborn.
+## Seaborn: statistical data visualization
 
+- Seaborn helps to visualize the statistical relationships, To understand how variables in a dataset are related to one another and how that relationship is dependent on other variables, we perform statistical analysis. 
+- This Statistical analysis helps to visualize the trends and identify various patterns in the dataset.
 
-## Installation
-Open command line and enter the following command : 
+**These are the plot will help to visualize:**
 
-``` 
-pip install seaborn
-```
+- Line Plot
+- Scatter Plot
+- Box plot
+- Point plot
+- Count plot
+- Violin plot
+- Swarm plot
+- Bar plot
+- KDE Plot
 
-
-## Dependencies
-#### Supported Python versions
-* Python 3.6 +
-
-#### Required dependencies
-If not already present, these libraries will be downloaded when you install seaborn.
-
-* numpy
-* scipy
-* pandas
-* matplotlib
-
-## Application of Seaborn
-We always have a large amount of data, or we may have some applications which deal with the large data, so in order to represent our data in a good way, we may require some library which can be able to represent our data that is begin stored in a table, array, list, and other data structure efficiently. So seaborn is the library which can represent our data stored in an array, list o any other data structure in a graphical form, which helps users and developers to get more clarity of data if we need to handle large data in our application. So in order to visualize our data, we can use the seaborn library from python; it is based on matplotlib only. This can be used for model fitting and data representation etc. This library is data-oriented, but we need to install it before using it. 
-
-## Getting started with Seaborn
-To test your first plotting program write this python script and execute it.
-```
-import seaborn as sns
-df = sns.load_dataset("penguins")
-sns.pairplot(df, hue="species")
-```
-## Using Seaborn we can plot wide varieties of plots like:
-* Distribution Plots
-* Pie Chart & Bar Chart
-* Scatter Plots
-* Pair Plots
-* Heat maps
-
-You can see the elaborated implementation of the following Seaborn plots in the [notebook given in the repository](./Data%20Visualizations%20with%20Seaborn.ipynb)
+## Line plot
 
 
-#### 1. Distribution Plots
-We can compare the distribution plot in Seaborn to histograms in Matplotlib. They both offer pretty similar functionalities. Instead of frequency plots in the histogram, here we’ll plot an approximate probability density across the y-axis.
-We will be using sns.distplot() in the code to plot distribution graphs.
-Besides providing different kinds of visualization plots, seaborn also contains some built-in datasets. We will be using the tips dataset. The “tips” dataset contains information about people who probably had food at a restaurant and whether or not they left a tip, their age, gender and so on. Lets have a look at it.
-```
-# import the necessary libraries
-import seaborn as sns
-import matplotlib.pyplot as plt 
-  
-# to ignore the warnings 
-from warnings import filterwarnings
-  
-# load the dataset
-df = sns.load_dataset('tips')
-  
-# the first five entries of the dataset
-df.head()
-```
-![image](./Images/dataset.head.png)
-* Displot - It is used basically for univariant set of observations and visualizes it through a histogram i.e. only one observation and hence we choose one particular column of the dataset.
-    ```
-    sns.set_style('whitegrid')
-    sns.distplot(df['total_bill'], kde = False, color ='red', bins = 30)
-    ```
-    ![image](./Images/displot.png)
+Lineplot Is the most popular plot to draw a relationship between x and y with the possibility of several semantic groupings.
+
+![image](https://user-images.githubusercontent.com/63282184/137068043-f22bdec5-fd64-479f-be93-156fcec906fb.png)
+
+**EXAMPLE :**
+
+![image](https://user-images.githubusercontent.com/63282184/137068145-6cf98212-7b10-4c5f-9014-7cc7c066ad3f.png)
+
+![image](https://user-images.githubusercontent.com/63282184/137068171-381563d1-de9b-4e86-a0a9-d89026fd1730.png)
 
 
-* Joinplot - It is used to draw a plot of two variables with bivariate and univariate graphs. It basically combines two different plots.
-    ```
-    sns.jointplot(x ='total_bill', y ='tip', data = df) 
-    ```
-    ![image](./Images/joinplot.png)
+## Scatter Plot:
+
+Scatterplot Can be used with several semantic groupings which can help to understand well in a graph against continuous/categorical data. It can draw a two-dimensional graph.
+
+![image](https://user-images.githubusercontent.com/63282184/137068223-3541f430-618d-4f13-b825-1b0b5df5af6e.png)
+
+**OUTPUT**
+
+![image](https://user-images.githubusercontent.com/63282184/137068261-2ea90d84-20c5-4f90-b74e-a65c340fc6fd.png)
+
+**USING HUE PARAMETER**
+
+![image](https://user-images.githubusercontent.com/63282184/137068327-42c947ed-61b9-4d14-b353-91ad469537f7.png)
 
 
-* Pairplot - It represents pairwise relation across the entire dataframe and supports an additional argument called hue for categorical separation. What it does basically is create a jointplot between every possible numerical column and takes a while if the dataframe is really huge.
-    ```
-    sns.pairplot(df, hue ="sex", palette ='coolwarm')
-    ```
-    ![image](./Images/pairplot.png)
-
-
-* Rugplot - It plots datapoints in an array as sticks on an axis.Just like a distplot it takes a single column. Instead of drawing a histogram it creates dashes all across the plot. If you compare it with the joinplot you can see that what a jointplot does is that it counts the dashes and shows it as bins.
-    ```
-    sns.rugplot(df['total_bill'])
-    ```
-    ![image](./Images/rugplot.png)
-
-#### 2. Pie Chart & Bar Chart
-Pie Chart is generally used to analyze the data on how a numeric variable changes across different categories.
-
-The following code shows how to create a pie chart using the ‘pastel‘ Seaborn color palette:
-```
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-#define data
-data = [15, 25, 25, 30, 5]
-labels = ['Group 1', 'Group 2', 'Group 3', 'Group 4', 'Group 5']
-
-#define Seaborn color palette to use
-colors = sns.color_palette('pastel')[0:5]
-
-#create pie chart
-plt.pie(data, labels = labels, colors = colors, autopct='%.0f%%')
-plt.show()
-```
-![image](./Images/pie.png)
-
-
-The following code shows how to create a bar chart using 'titanic' dataset:
-```
-# importing the required library
-import seaborn as sns
-import matplotlib.pyplot as plt
+## Box plot:
  
-# read a titanic.csv file
-# from seaborn library
-df = sns.load_dataset('titanic')
+
+A box plot (or box-and-whisker plot) s is the visual representation of the depicting groups of numerical data through their quartiles against continuous/categorical data.
+
  
-# who v/s fare barplot
-sns.barplot(x = 'who',
-            y = 'fare',
-            data = df)
+
+**A box plot consists of 5 things.**
+
  
-# Show the plot
-plt.show()
-```
-![image](./Images/bar.png)
+
+- Minimum
+- First Quartile or 25%
+- Median (Second Quartile) or 50%
+- Third Quartile or 75%
+- Maximum
+
+![image](https://user-images.githubusercontent.com/63282184/137068438-d977da0d-c628-4507-9574-2fcf5fe5b347.png)
+
+**OUTPUT**
+
+![image](https://user-images.githubusercontent.com/63282184/137068467-6e1a2881-1c41-4703-8960-7f92aee23a35.png)
 
 
-#### 3. Scatter Plots
-Scatter Plot is used when we want to plot the relationship between any two numeric columns from a dataset. These plots are the most powerful visualization tools that are being used in the field of machine learning.
+## Voilin Plot:
 
-Let’s visualize of “fmri” dataset using seaborn.scatterplot() function. We will only use the x, y parameters of the function.
-```
-import seaborn
- 
- 
-seaborn.set(style='whitegrid')
-fmri = seaborn.load_dataset("fmri")
- 
-seaborn.scatterplot(x="timepoint",
-                    y="signal",
-                    data=fmri)
-```
-![image](./Images/scatterplot.png)
+A voilin plot is similar to a boxplot. It shows several quantitative data across one or more categorical variables such that those distributions can be compared. 
+
+![image](https://user-images.githubusercontent.com/63282184/137068542-681d5db8-34eb-498e-9e3e-1b998e8f17e0.png)
 
 
+**OUTPUT**
 
-#### 4. Heatmaps
-The heatmap represents the data in a 2-dimensional form. The ultimate goal of the heatmap is to show the summary of information in a colored graph. It utilizes the concept of using colors and color intensities to visualize a range of values.
-
-Making a heatmap with the default parameters. We will be creating a 10×10 2-D data using the randint() function of the NumPy module.
-```
-# importing the modules
-import numpy as np
-import seaborn as sn
-import matplotlib.pyplot as plt
-
-# generating 2-D 10x10 matrix of random numbers
-# from 1 to 100
-data = np.random.randint(low = 1,
-						high = 100,
-						size = (10, 10))
-print("The data to be plotted:\n")
-print(data)
-
-# plotting the heatmap
-hm = sn.heatmap(data = data)
-
-# displaying the plotted heatmap
-plt.show()
-```
-![image](./Images/heatmap.png)
-
-## Advantages of using Seaborn
+![image](https://user-images.githubusercontent.com/63282184/137068561-9ed1e04d-7bbc-47ab-86da-6c50579ec7b7.png)
 
 
-* By using the seaborn library, we can easily represent our data on a plot.
-* This library is used to visualize our data; we do not need to take care of the internal details; we just have to pass our data set or data inside the relplot() function, and it will calculate and place the value accordingly.
-* Inside this, we can switch to any other representation of data using the ‘kind’ property inside it.
-* It creates an interactive and informative plot to representation our data; also, this is easy for the user to understand and visualize the records on the application.
-* It uses static aggregation for plot generation in python.
-* As it is based on the matplotlib so while installing seaborn, we also have other libraries installed, out of which we have matplotlib, which also provides several features and functions to create more interactive plots in python.
+## Point plot:
 
-## Conclusion
-By we have already discussed that it is basically used for data visualization because, in our application, we have a large amount of data that needs to be represented to the user in some readable and undertakable format, so seaborn helps the user to visualize data in the form of graphics. which makes it attractive and efficient.
+Point plot used to show point estimates and confidence intervals using scatter plot glyphs. A point plot represents an estimate of central tendency for a numeric variable by the position of scatter plot points and provides some indication of the uncertainty around that estimate using error bars.
+
+![image](https://user-images.githubusercontent.com/63282184/137068656-150ed5ca-a714-424b-b66a-f0c43b9677e1.png)
+
+
+**OUTPUT**
+
+![image](https://user-images.githubusercontent.com/63282184/137068684-776c4462-e582-41ff-a6dc-a1ca8dff3726.png)
+
+
+## Count plot:
+Count plot used to Show the counts of observations in each categorical bin using bars.
+
+![image](https://user-images.githubusercontent.com/63282184/137068751-8a39253f-eebf-44ef-8bf5-134223e194af.png)
+
+
+**OUTPUT**
+
+![image](https://user-images.githubusercontent.com/63282184/137068780-5ceffb7d-c749-4ba3-b608-5a0a1714d0fa.png)
+
+
+
+
+
+
 
