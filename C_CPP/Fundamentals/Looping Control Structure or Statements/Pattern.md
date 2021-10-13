@@ -15,20 +15,28 @@ int main()
 {
     int i,j,num=1,n,k;
     printf("Enter the number of rows: ");
-    scanf("%d",&n);    
-    for (i=0;i<n;i++){  
-        for (k=i;k<n;k++){ 
+    scanf("%d",&n);   
+    //outer loop for displaying rows
+    for (i=0;i<n;i++)    
+        {  
+        //spaces for every row starting
+        for (k=i;k<n;k++)  
+        { 
             printf("  ");
         }
-        for (j=0;j<=i;j++){ 
-            if (j==0||i==j)
+         //inner loop
+        for (j=0;j<=i;j++) 
+        { 
+            //either inner loop or outer loop is 0, then it prints 1
+            if (j==0||i==j)  
                 num=1;
             else
-                num=num*(i-j+1)/j;
+                //calculating the coefficient
+                num=num*(i-j+1)/j;  
         printf("   %d",num); 
         }
         printf("\n");
-    } 
+        } 
     return 0;
  }
  ```
@@ -41,9 +49,11 @@ int main()
 void main()
 {
 int i,k,j;
+//outer loop define
 for(i=1;i<=4;i++)
   {
   k=i;  
+//inner loop define
 for(j=1;j<=7;j++)
  {
 if(j>=5-i&&j<=3+i)
@@ -86,9 +96,11 @@ void main()
   void main()
 {
   int i,j,k;
+  //outer loop define
   for(i=1;i<=5;i++)
   {
     k=1;
+  //inner loop define
    for(j=1;j<=5;j++)
    { 
    if(j<=i)
@@ -112,9 +124,11 @@ void main()
 void main()
 {
   int i,k,j;
+  //outer loop define[as the no of row is 4]
   for(i=1;i<=4;i++)
   {
    k=1;
+   //inner loop define[as the no of coloumn is 7]
   for(j=1;j<=7;j++)
  {
   if(j>=5-i&&j<=3+i)
@@ -139,8 +153,10 @@ void main()
 void main()
 {
   int j,i;
+  //outer loop define
   for(i=1;i<=5;i++)
  {
+ //inner loop define
   for(j=1;j<=4;j++)
   {
     if (j>=6-i&&j<=10-i)
@@ -161,8 +177,10 @@ void main()
 void main()
 {
   int i,j;
+  //outer loop define
   for(i=1;i<=6;i++)
     {
+    //inner loop define
      for(j=1;j<=11;j++)
         if(j>=7-i&&j<=5+i)
         printf("*");
@@ -181,9 +199,11 @@ void main()
 void main()
 {
   int i,j,k=0;
+  //outer loop define
   for(i=1;i<=7;i++)
  {
   (i<=4?k++:k--);
+  //inner loop define
   for(j=1;j<=7;j++)
   {
   if(j>=5-k&&j<=3+k)
@@ -205,8 +225,10 @@ void main()
 void main()
 {
 int i,j;
+//outer loop define
 for(i=1;i<=5;i++)
  {
+ //inner loop define
  for(j=1;j<=9;j++)
    { 
    if(j<=6-i||j>=4+i)
@@ -227,8 +249,10 @@ else
 void main()
 {
 int i,j;
+//outer loop define
 for(i=1;i<=5;i++)
  {
+ //inner loop define
  for(j=1;j<=9;j++)
    {  
    if(j<=i||j>=10-i)
