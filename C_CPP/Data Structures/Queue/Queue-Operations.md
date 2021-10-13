@@ -9,7 +9,7 @@ A queue is a _first in first out_(**FIFO**) structure. The queue implementation 
 <img src = "https://user-images.githubusercontent.com/76544476/136729206-69bf88f3-79f9-4c6d-ba8b-13f06be9c904.png" width="500" height="300">
 </div>
 
-<p align=center> Fig:1                        
+<p align=center> Fig:1  	
 
 ## Queue Operations
 
