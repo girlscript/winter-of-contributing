@@ -12,7 +12,7 @@ Fourteen algorithms are:
 <li>Lucas Theorem</li>
 <li>Totient Theorem</li>
 <li>Wilson Theorem</li>
-<li>Miler and Rabin Primarily Test</li>
+<li>Miller and Rabin Primarity Test</li>
 </ol>
 <h1>Find all factor of a natural number?</h1>
 
