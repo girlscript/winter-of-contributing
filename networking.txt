@@ -1,0 +1,81 @@
+osi
+P D N T S P A
+
+physical layer:jo hume physically dikhti hai like cable and switch,switch converts data into Os and 1s
+
+Data link layer: transfer packet(data),data link layer facilitates data transfer between two devices on the SAME network.
+
+The network layer:The network layer is responsible for facilitating data transfer between two different networks(routing)
+
+The transport layer:responsible for end-to-end communication between the two devices
+The transport layer is also responsible for flow control(ensure fast connection) and error control(check if data is comp or not,if not firse bhejo).
+
+
+The session layer:The session layer ensures that the session stays open long enough to transfer all the data being exchanged, and then promptly closes the session in order to avoid wasting resources
+Also has check points if 10 gb file me after each 1 gb there is checkpoint so that if something goes wrong we can roll back
+
+
+The presentation layer:The presentation layer is responsible for translation(maybe 2 device using diff encoding toh trnaslate krti hai so can syntax app layer samj jaae),
+ encryption(device comm on encrypted conn toh sender ka data encode and decode the encription when reciver ke pass gya so that reciver ko samje kya bheja tha),
+ and compression of data(This helps improve the speed and efficiency of communication by minimizing the amount of data that will be transferred.).
+
+The application layer:This is the only layer that directly interacts with data from the user.
+
+TCP and UDP
+
+TCP:When you request a web page in your browser, your computer sends TCP packets to the web server’s address, asking it to send the web page back to you.
+TCP is all about reliability—packets sent with TCP are tracked so no data is lost or corrupted in transit.it orders packets by numbering them and it error-checks by having the recipient send a response back to the sender saying that it has received the message
+
+UDP:UDP, packets are just sent to the recipient. The sender doesn’t wait to make sure the recipient received the packet—it just continues sending the next packets. If the recipient misses a few UDP packets here and there, they are just lost—the sender won’t resend them. 
+very quick for ex:streaming game(fast honna chiye kuch bits miss ho jaae chalega)
+
+
+PAN (Personal Area Network):Let devices connect and communicate over the range of a person. E.g. connecting Bluetooth devices.
+
+LAN (Local Area Network):It is a privately owned network that operates within and nearby a single building like a home, office, or factory
+
+
+MAN (Metropolitan Area Network)	It connects and covers the whole city. E.g. TV Cable connection over the city
+
+WAN (Wide Area Network)	It spans a large geographical area, often a country or continent. The Internet is the largest WAN
+
+
+GAN (Global Area Network)	It is also known as the Internet which connects the globe using satellites. The Internet is also called the Network of WANs.
+
+
+
+TOPOLOGY
+
+Bus Topology:(line line)
+Star Topology:(ek se aneek)
+Ring Topology:(sab ek circle me)
+ 
+Tree Topology:(bst types)
+Hybrid(BEST):sabka best feautre add krke
+
+Ipv4:32 bit limited number 0.0.0.0 to 255.255.255.254
+Ipv6:128 bit unlimited number cant run on purani website
+
+Ports:
+HTTP 80
+HTTPS:443
+SMTP(simple mail) 25,use for email,use tcp
+DHCP(dynamic host config protocol):67(used to auto-configure devices on IP networks enabling them to use the TCP and UDP-based protocols.)
+
+ARP is Address Resolution Protocol. It is a network-level protocol used to convert the logical address(IP) to Physical add(MAC)
+
+
+MAC address:Media Access Control Address
+48 bit diff for every pc(embedded with NIC),called physical address
+
+
+Subnet:A subnet is a network inside a network achieved by the process called subnetting which helps divide a network into subnets. It is used for getting a higher routing efficiency and enhances the security of the network. It reduces the time to extract the host address from the routing table.
+
+
+
+
+
+
+
+
+
