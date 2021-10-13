@@ -48,11 +48,7 @@ The localStorage object stores the data with no expiration date. The data will n
 </html>
 ```
     <!--output-->
-    smith
-    
-
-![Screenshot (1226)](https://user-images.githubusercontent.com/55904928/136982961-b36cccf8-708c-42b8-840e-8ff6640c8a2a.png)
-
+    Smith
 
 
 Example explained:
@@ -105,8 +101,5 @@ The following example counts the number of times a user has clicked a button, in
       Click the button to see the counter increase. 
       Close the browser tab (or window), and try again, and 
       the counter is reset.
-      
-      
-  ![Screenshot (1224)](https://user-images.githubusercontent.com/55904928/136983057-aecb3dc3-ba05-47cd-b85f-51bb2bd6120d.png)
 
 # happy learning ✌
