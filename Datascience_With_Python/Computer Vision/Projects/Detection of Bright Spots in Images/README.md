@@ -1,9 +1,22 @@
 # Detection of Bright Spots in Images
 
 ## Introduction
+Computer vision is a field of computer science that focuses on replicating parts of the complexity of the human vision system and enabling computers to identify and process objects in images and videos in the same way that humans do. Thanks to the advances in artificial intelligence and innovations in deep learning and neural networks. The field has been able to take great leaps in recent years and has been able to surpass humans in some tasks related to detecting and labeling objects.
+
 In this project I have detected the bright spot(s) present on an Image. The whole project was done in Python programming language on Google Colab. 
 
+## Purpose
 The main task was to separate the bright regions in an image from the dark. For that, after we load the image, we will do some pre-processing. Further, we will label the regions of the image based on their pixel values. Finally we will draw the contours to check if our task was successful. We will now see these steps in detail.  
+
+## Applications
+- Can be used in hospitals (Specially eye hospitals) where we can use this algorithm to detect the central retinal vein; as that area is more bright compared to rest.
+- Can be used by smart vehicles to detect any sort of bright flashes (Example: street lights).
+- Can we used for analysis of images recieved from space (Example: Computationally find craters on moon etc.)
+
+## Advantages
+- Reduces human intervension in most of the applications. 
+- Saves a lot of time and memory for further analysis.
+- Practically can somehow help in reducing accidents (For example, if the self driving car can detect streetlights, it can function more smoothly) 
 
 ## Libraries used
 - **OpenCV-Python:** OpenCV (Open Source Computer Vision Library) is used in most of the real-time computer vision projects. Here too we have used OpenCV's functions from reading the image, pre-processing it, drawing the contours to showing the final image. 
