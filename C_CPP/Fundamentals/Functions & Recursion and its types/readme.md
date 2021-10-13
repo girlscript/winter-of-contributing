@@ -3,3 +3,4 @@
 - [exit() & _Exit() Functions](./exit()&_Exit()Functions.md)
 - [Function In C](./Functions_In_C.md)
 - [Function Argument in C](./functionargumentinC)
+- Function call and its types.
