@@ -2,6 +2,8 @@
 
 Mostly, in real-world programs, exceptions will be thrown from the function definitions. These functions that throw exceptions are invoked from within the try block. Here's an example below explaining the same:
 
+### Example:
+
 ```C++
 #include<iostream>
 using namespace std;
@@ -43,6 +45,8 @@ In this program, the function 'div()' is called from the 'try block'. In the fun
 
 - Sometime it becomes necessary that, a function be restricted to throw only specific kind of exception according to the user's wish. This can be  achieved by placing a throw list clause along with the function hrader in the function definition. See the syntax below for reference:
 
+### Syntax:
+
 ```C++
 void div(int x) throw(char *, int)
 {
@@ -53,6 +57,7 @@ void div(int x) throw(char *, int)
 
 Here's an example below explaining the same syntax mentioned above:
 
+### Example:
 
 ```C++
 
