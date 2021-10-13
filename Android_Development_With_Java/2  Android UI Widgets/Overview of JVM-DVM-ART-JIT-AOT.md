@@ -1,6 +1,6 @@
-﻿									ISSUE NAME: Overview of JVM, DVM, ART, JIT, AOT
-									     GIRLSCRIPT WINTER OF CONTRIBUTING’21
-											   OVERVIEW
+											    ISSUE NAME: Overview of JVM,DVM, ART, JIT, AOT	
+												GIRLSCRIPT WINTER OF CONTRIBUTING’21
+			    										   OVERVIEW
 
 1. What is Virtual Machine?
 A virtual machine, commonly shortened to just VM, is no different than any other physical computer like a laptop, smart phone or server. It has a CPU, memory, disks to store your files and can connect to the internet if needed. While the parts that make up your computer (called hardware) are physical and tangible, VMs are often thought of as virtual computers or software-defined computers within physical servers, existing only as code.
@@ -13,18 +13,32 @@ There are 2 main types of Virtual Machine (VM):
 
 a.) JVM: JVM is the virtual machine that runs java code on different platforms. It acts as an abstract layer between the program and the platform on which the java code is running. The portability of Java code is possible only because of the JVM. The javac compiler converts the source code file(.java file) into an intermediate java bytecode format which is machine/platform independent. This intermediate file is then provided to the target machine/platform where it gets translated into machine code. JVM supports multiple host architecture and it is the reason why Java applications are called WORA(Write Once Run Anywhere).
 
+ 
+
+
+
 
 b.) DVM: DVM stands for “Dalvik Virtual Machine”. It is a Register-Based virtual machine. It was designed and written by Dan Bornstein with contributions of other Google engineers as part of the Android mobile phone platform. The Dalvik virtual machine was named after Bornstein after the fishing village “Dalvík” in Iceland, where some of his ancestors used to live.
+
+
+ 
+
 
 
 c.) ART: ART or Android Runtime is an Android runtime that uses Ahead Of Time (AOT). By using AOT, what is does is it converts or compiles the whole High-level language code into Machine level code and at the time of installation of the app and not dynamically as the application runs(like in case of Dalvik). By compiling the whole code during installation results in no lag that we see when we run our app on our device. By doing so, the compilation becomes very faster.
 
 
+ 
+
+
+
 d.) JIT: JIT stands for "Just In Time," and we use it to describe a Dalvik JIT compiler, which was added to Android with the 2.2 release.  It compiles bytecode into native machine code at runtime.  Essentially it takes the code for an app, analyzes it and converts it into something that runs faster.  It does all this while the application is running, and that's where the "just in time" tag comes from.  The JIT compiler designed for Android also can do this with a very short "warm up" time, meaning it doesn't take very long to analyze the code before it starts working.  It stores information in a cache in your phone's RAM, which means it's not an ideal solution for devices with low memory.
+
+ 
+
 
               
 e.) AOT: AOT stands for Ahead of Time compilation, and compiles your code, to the native platform, dependent upon the architecture. The reason you would use AOT, is because it has a drastically reduces startup time, and app performance.
-
 
 
 
