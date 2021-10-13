@@ -1,16 +1,20 @@
-![](https://images.samimunir2002.repl.co/boxModel.png)
+# Margin and Padding
 
-# What is Margin?
+![](https://s3.amazonaws.com/viking_education/web_development/web_app_eng/css_box_model_chrome.png)
+
+Image source: https://www.vikingcodeschool.com/html5-and-css3/the-css-box-model
+
+## What is Margin?
 
 As you can see in the image the outermost layer of the box is margin. With the help of the margin we can do spacing outside the element or content. Let's take an example: Let suppose we have two elements `h1` and `p`. Both are not in the presentable form, not looking good. So make it look better  and presentable we add some spacing with the help of margin.  
 
 ### Before Spacing
-![ ](https://images.samimunir2002.repl.co/withoutSpace.png)
+![](https://images.samimunir2002.repl.co/withoutspace.png)
 
 ### After Spacing
-![ ](https://images.samimunir2002.repl.co/withSpace.png)
+![](https://images.samimunir2002.repl.co/withspace.png)
 
-## Margin Properties
+### Margin Properties
 
 We can edit our document by giving space from sides (top,bottom,right,left). If you want to give space from all sides equally, you can also do that.
 
@@ -68,27 +72,27 @@ margin: 15px 5px;
 </html>
 ```
 ### OUTPUT
-![ ](https://images.samimunir2002.repl.co/code.png)
+![](https://images.samimunir2002.repl.co/code.png)
 
-# What is Padding?
+## What is Padding?
 
 As you can see in the first image the innermost layer of the box is padding. With the help of the padding we can do spacing inside the element or content. Let's take an example: Let suppose we have **button**. It is not looking good without spacing. So make it look better we add some spacing with the help of padding.  
 
 ### Before Spacing
-![ ](https://images.samimunir2002.repl.co/button.png)
+![](https://images.samimunir2002.repl.co/button.png)
 
 ### After Spacing
-![ ](https://images.samimunir2002.repl.co/buttonwithpadding.png)
+![](https://images.samimunir2002.repl.co/buttonwithpadding.png)
 
-## Padding Properties
+### Padding Properties
 
 We can edit our document by giving space from sides (top,bottom,right,left). If you want to give space from all sides equally, you can also do that.
 
-1. padding-top
-2. padding-bottom
-3. padding-right
-4. margin-left
-5. padding (give space equally from all sides)
+- padding-top
+- padding-bottom
+- padding-right
+- margin-left
+- padding (give space equally from all sides)
 
 There is also a short cut to give space from different sides in one line.
 
@@ -140,4 +144,4 @@ padding: 8px 16px;
 </html>
 ```
 ### OUTPUT
-![ ](https://images.samimunir2002.repl.co/paddingPic.png)
+![](https://images.samimunir2002.repl.co/paddingPic.png)
