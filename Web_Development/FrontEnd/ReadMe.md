@@ -6,7 +6,7 @@
 - What is HTTP?
 - How does Browser Rendering Works?
 - [DNS & Working of DNS?](./DNS%20and%20Working%20of%20DNS.md)
-- Domain Name Basics.
+- [Domain Name Basics](./Domain_Name_Basics.md) 
 - Hosting & Name Servers.
 
 ## 1️⃣ HTML
@@ -20,10 +20,10 @@
 - [HTML Lists](./HTML_LISTS)
 - [HTML Canvas](./HTML_Canvas/Canvas.md)
 - HTML Classes and IDs
-- HTML Forms
+- [HTML Forms](./HTML%20Forms)
 - [HTML IFrames](./HTML_IFrames/iframes.md)
 - Semantic HTML
-- Form Validation
+- [Form Validation](./HTML_Form_Validation/form-validation.md)
 - [Conventions & Best Practices](HTML_Conventions_Practices/readme.md)
 - [Accessibility](Html_Accessibility.md)
 - Search Engine Optimisation Basics
@@ -38,6 +38,14 @@
 - Text manipulation
 - [The css box model](./CSS_BoxModel)
 - Content manipulation - margin,padding,align
+- What is FlexBox
+- Flex properties
+- What is Grid
+- Grid vs Flex
+- Transition and transformation
+- Animations
+- CSS Libraries
+- [CSS Pagination](./CSS_Pagination/CSS_Pagination.md)
 - [What is FlexBox](./CSS_Flexbox)
 - [Flex properties](./CSS_Flexbox)
 - [What is Grid](./CSS_Grid)
