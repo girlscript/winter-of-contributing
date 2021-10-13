@@ -2,9 +2,14 @@
 Image caption generator is a popular research area. I will be using CNN (Convolutional Neural Network) to extract features from the images and LSTM (Long Short Term Memory) used to generate captions for the image.
 
 ## Flickr8k dataset:
+[Link](https://www.kaggle.com/srbhshinde/flickr8k-sau)<br>
 It contains around 8000 images with their captions.<br>
 For each image 5 captions are provided.<br>
 Flickr_TextData folder contains all the captions, test images, train images and Images folder contains all the images.<br>
+
+## glove.6B.50d:
+[Link](https://www.kaggle.com/watts2/glove6b50dtxt)<br>
+Global Vector or GloVe is an unsupervised learning algorithm for obtaining vector representations for words
 
 ## APPROACH:
 * Importing dataset from Kaggle.
