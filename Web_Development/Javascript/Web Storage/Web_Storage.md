@@ -96,7 +96,8 @@ The following example counts the number of times a user has clicked a button, in
 </html>
 ```
 
-      <!--output-->
+ Output:
+
  ![output](https://user-images.githubusercontent.com/55904928/137079262-7fa2b512-1873-4075-88eb-7c7c5bf12d13.jpeg)      
 
 # Happy Learning ✌
