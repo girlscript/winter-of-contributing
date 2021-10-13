@@ -97,9 +97,7 @@ The following example counts the number of times a user has clicked a button, in
 ```
 
       <!--output-->
-      Click me 
-      Click the button to see the counter increase. 
-      Close the browser tab (or window), and try again, and 
-      the counter is reset.
+ ![output](https://user-images.githubusercontent.com/55904928/137079262-7fa2b512-1873-4075-88eb-7c7c5bf12d13.jpeg)      
 
-# happy learning ✌
+# Happy Learning ✌
+
