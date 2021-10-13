@@ -100,4 +100,4 @@
         - No auxillary space needed
 
 ## References
-    https://www.geeksforgeeks.org/majority-element/
+    Majority Element https://www.geeksforgeeks.org/majority-element/
