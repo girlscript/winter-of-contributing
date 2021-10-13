@@ -16,7 +16,7 @@ That is where **Matrix Exponentiation** comes into play and here it plays a key 
 --------------------------------------------------------
 
  ## linear recurrence
-A linear recurrence relation is a type of function or a sequence ,such that each term, is a linear combination of previous terms and depen,. Each term can be described ,as a function of the previous terms. Linear means that the previous terms in the definition are, only multiplied by a constant (possibly zero) and nothing else.
+A linear recurrence relation is a sequence or a series of pattern in a way that each term, is a linear combination of previous terms. Each term can be written and can be calculated from it's previous terms respectively.Here, Linear means that the previous terms in the pattern are, only multiplied by a constant (possibly zero) and nothing else to obtain the current term of a pattern.
 
 ## Example
 Lets Exemplify the same with the classic example of Fibonacci numbers:
@@ -24,7 +24,7 @@ Lets Exemplify the same with the classic example of Fibonacci numbers:
 
 Generally We know,
 
-**Fib(i)=Fib(i-1)+Fib(i-2).... -,**for the ith term of the Fibonacci series,with Fib(1)=1,Fib(2)=1. The basic idea  or logic behind matrix exponentiation, is to use the base cases of the recurrence relationship in a order to assemble a matrix, which will allow us to compute values fast and basically try to understand the common link that connents them.
+**Fib(i)=Fib(i-1)+Fib(i-2).... -,**for the ith term of the Fibonacci series,with Fib(1)=1,Fib(2)=1. The basic idea  or logic behind matrix exponentiation, is to use the **base cases** of the recurrence relationship in a order to assemble a matrix, which will allow us to compute values fast and basically try to understand the common link that connents them.
 
 Let ‘k’  the number of a previous/before  terms on which Fib(i) depends.For example, k=2 in the case of Fibonacci numbers.
 
