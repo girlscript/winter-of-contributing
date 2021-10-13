@@ -81,6 +81,8 @@
     - Create your own Virus
       - [Example 1](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.6%20Create%20own%20Virus.md)
       - [Example 2](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Create_your_own_virus.md)
+      - [Example 3](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Cybersecurity%203.9.6%20Practical%20-%20Create%20own%20Virus.md)
+      - [Example 4](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_3/Creating_Own_Virus_(Keylogger).ipynb)
 ## Week-4 (Cryptography)
 - [Cryptography](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/4_Cryptography.md)
   - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/Cryptography%20video.md)
