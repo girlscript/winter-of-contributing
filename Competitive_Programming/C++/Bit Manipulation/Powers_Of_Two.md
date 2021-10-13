@@ -18,7 +18,7 @@ Output: Yes
                                 eg: 4 --> 100 in binary
 - Also, the numbers which are one less than the powers of two have all their bits as one in their binary representation. 
                                 eg: 3 --> 11 in binary
-- So, one common pattern we can observe is that suppose we a number which is power of two say, 2^x and if we take "BITWISE AND" of it with the number which one less than this number i.e, 2^x-1 then, we will get our result as zero!
+- So, one common pattern we can observe is that suppose we have a number which is power of two say, 2^x and if we take "BITWISE AND" of it with the number which one less than this number i.e, 2^x-1 then, we will get our result as zero!
 - Hence, the final algorithm boils down to the fact that if n&(n-1) [here n is the given integer] is zero then it is a power of 2 else it is not!
 - Note: if n is zero then we have to handle it separately as it is not a power of two!!
 ```
