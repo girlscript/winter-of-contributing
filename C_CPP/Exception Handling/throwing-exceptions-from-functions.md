@@ -1,6 +1,6 @@
 # Throwing Exceptions from Functions
 
-- Mostly, in real-world programs, exceptions will be thrown from the function definitions. These functions that throw exceptions are invoked from within the try block. Here's an example below explaining the same:
+Mostly, in real-world programs, exceptions will be thrown from the function definitions. These functions that throw exceptions are invoked from within the try block. Here's an example below explaining the same:
 
 ```C++
 #include<iostream>
@@ -37,7 +37,7 @@ void div(int i, int j, int c)
 
 > Exception 0  
 
-- In this program, the function 'div()' is called from the 'try block'. In the function definition, as the value of 'j' is zero, the division, operation cannot be carried out and hence an exception is thrown. Now the program control enters the 'catch block' and executes the 'catch block' and later the program terminates.
+In this program, the function 'div()' is called from the 'try block'. In the function definition, as the value of 'j' is zero, the division, operation cannot be carried out and hence an exception is thrown. Now the program control enters the 'catch block' and executes the 'catch block' and later the program terminates.
 
 <br />
 
@@ -90,7 +90,7 @@ int main()
 
 > Cannot be divided by zero  
 
-__Note:__ Once an exception is thrown, the entire program stack is compiled and the execution stops.
+**Note:** Once an exception is thrown, the entire program stack is compiled and the execution stops.
 
 <br />
 
