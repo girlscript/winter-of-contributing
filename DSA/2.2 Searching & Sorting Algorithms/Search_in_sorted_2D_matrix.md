@@ -133,7 +133,7 @@ Found
 ### Time complexity:
 The overall time complexity is **O(log m + log n)**. It takes log m to return the results of binary search and we search in log n number of rows.
 <br>
-The time complexity is O(logm + logn) and not O(logm*logn). ***We do binary search for a row only if we are sure the target is within the range of the row. Hence, the total number of operations would be O(log m + log n).***
+The time complexity is O(logm + logn) and not O(logm*logn). ***We do binary search for a row only if we are sure the target is within the range of the row. Hence, the total number of operations would be O(log m + log n).*** 
 
 
 
