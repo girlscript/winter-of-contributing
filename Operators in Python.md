@@ -2,7 +2,8 @@
 
 Operators are the type of functions or the characters that explains the compiler to which mathematical, relational and logical operation it should perform, then gives the result.
 
-![](C:\Users\91969\Desktop\Screenshot 2021-10-13 131042.jpg)
+
+![operator](https://user-images.githubusercontent.com/79395058/137353236-22bf5c35-9a42-4ebe-b204-66e396998ded.jpg)
 
 
 
