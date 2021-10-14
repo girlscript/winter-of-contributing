@@ -17,4 +17,5 @@ Sorting refers to ordering same type of data in an increasing and decreasing fas
 
 So here we will discuss Insertion Sort.
 
+# Insertion Sorting
 
