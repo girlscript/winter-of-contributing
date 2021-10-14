@@ -177,3 +177,13 @@ int main(){
 
 Since the array given to us is sorted, we applied Binary Search to solve the problem. Therefore, the time complexity of this algorithm will be
  O(log n).
+ 
+## Space Complexity 
+
+The Space Complexity is O(1), since we haven't used any extra space for computing the solution.
+
+### References
+
+[Search In Sorted and Rotated Array](https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)<br>
+[No. of times Sorted Array is Rotated - Aditya Verma](https://youtu.be/4WmTRFZilj8)<br>
+[Find an Element in Sorted and Rotated Array - Aditya Verma](https://youtu.be/Id-DdcWb5AU)
