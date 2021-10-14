@@ -32,6 +32,7 @@
   - [Functions & Recursion and its types](./Fundamentals/Functions%20%26%20Recursion%20and%20its%20types/)
   - [Arrays](./Fundamentals/Arrays/)
   - [Variadic Functions](./Fundamentals/Variadic%20Functions)
+  - [Goto Statement](./Fundamentals/Goto%20Statement)
   
 - ### [Strings and their functions](./Strings%20and%20their%20functions/)
   
