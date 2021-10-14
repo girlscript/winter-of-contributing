@@ -12,10 +12,8 @@ value, datatype and resources.
 //SYNTAX:
 test t1(123);
 test t2=t1;  //copy constructor.
-test t3(t2); // Passing t2 as a parameter for object t3. 
- 
+test t3(t2); // Passing t2 as a parameter for object t3.  
 ```
-
 **Depending upon the resources allocated to an object, we generate copies in two ways**
 
 1) SHALLOW COPY
@@ -34,9 +32,7 @@ test t1( 12, 24, 32); // MARKS IN THREE SUBJECT
 test t2 = t1;         //WE COPY THE MARKS FOR OBJECT T1 TO T2 AND ON CALLLING DISPLAY FUNCTION BOTH WILL DISPLAY SAMCONTENT
 t1.display();
 t2.display();
-
 ```
-
 2.) DEEP COPY:
 ---------------
 The variables hold by both the object might be same but would point on to different memory allocations.
@@ -51,12 +47,9 @@ t1.marks( 12, 24, 32);
 t1.display();  //FIRST WE EXPLICITLY DEFINE THE FIRST OBJECT AND THEN MAKE A COPY OUT OF IT
 test t2= t1;
 t2.display();
-
 ```
 **Now we show how to implement basic string operation using copy constructor**
 ---------------
-
-
 ```
 #include <iostream>
 #include <stdlib.h>
