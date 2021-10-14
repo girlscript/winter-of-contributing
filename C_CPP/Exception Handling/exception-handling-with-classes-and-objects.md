@@ -8,12 +8,12 @@ Here's an example below explaining how an exception is thrown with Classes and O
 
 #include<iostream>
 using namespace std;
-class girlscript
+class girlscript   
 {
   private:
          int p;
   public:
-        girlscript( int q )
+        girlscript( int q )   // constructor initialized with 'int' as the parameter
         {
           p = q;
           if( q == 1 )
@@ -21,7 +21,7 @@ class girlscript
           else 
             cout << "Constructor of 2nd object is called" << endl;
         }
-        girlscript()
+        ~girlscript()   // destructor initialized 
         {
           if( p == 1 )
             cout << "Destructor of 1st object is called" << endl;
@@ -31,15 +31,15 @@ class girlscript
 };
 void gwoc()
 {
-  girlscript g2(2);
-  throw "Exception thrown";
+  girlscript g2(2);    // object g2 created
+  throw "Exception thrown";    // exception being throwned
 }
 int main()
 {
   cout << "I am in main" << endl;
   try
   {
-    girlscript g1(1);
+    girlscript g1(1);   // object g1 created
     gwoc();
   }
   catch( const char *str )
@@ -47,7 +47,7 @@ int main()
     cout << str << endl;
   }
   return 0;
-}
+}  // end of program
 
 ```
 
