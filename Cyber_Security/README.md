@@ -106,7 +106,7 @@
 - [Vulnerability identification]
 - [Vulnerability analysis]
 - [Risk assessment]
-- [Remediation]
+- [Remediation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/CyberSecurity%206.3%20Remediation.md)
 - [Information gathering]
 - [Reconnaissance]
 - [Threat Modelling]
