@@ -17,7 +17,7 @@ If Node A has a child node B, then:
 				key(A) >= key(B)
  
 
-# Implementation of a heap:
+## Implementation of a heap:
 
 A heap can be represented in the form of array.
 The root is the second item in the array. We skip the index zero cell of the array for the convenience of implementation. Consider i-th element of the array, 
@@ -26,13 +26,13 @@ The root is the second item in the array. We skip the index zero cell of the arr
 	-its right child is located at 2*i+1. index
 	-its parent is located at i/2 index
 
-# Insertion in a heap:
+## Insertion in a heap:
 
-# Steps to follow:
+## Steps to follow:
 	1) To insert any new node we need to find the first empty leaf in the array.
 	2) We move the first data to the first empty leaf and reheap up.
 
-# Algorithm:
+## Algorithm:
 
 InsertHeap(ref Heap<arrayOfDatatype>, ref Last<indedx>, ref Data<datatype> )
 	
@@ -45,8 +45,9 @@ InsertHeap(ref Heap<arrayOfDatatype>, ref Last<indedx>, ref Data<datatype> )
 end insertHeap
 
 
-# Code:
+## Code:
 
+```c++
 #include<iostream>
 using namespace std;
 
@@ -96,9 +97,10 @@ int main()   //main function
 	return 0;
 }
 
+```
 
-# Complexity Analysis:
-O(logn)
+## Complexity Analysis:
+Time complexity of above code is : O(logn)
 Since the heap is a complete binary tree structure, its height is log n (where n = no of elements). 
 Each swapping happens in 1 operation. In the worst case, element inserted at the bottom has to be swapped from bottom to the top, upto the root node to maintain the heap property. Therefore, the maximum no of times swap can be performed is log n. Hence, insertion in a heap takes O(log n) time.
 
