@@ -5,3 +5,4 @@
 - [Sieve of Eratosthenes in C++](Sieve_of_Eratosthenes.md)
 - [Basic problems on string](basic_string_problems.md)
 - [Number Theory](numbertheory.md)
+- [Missing and repeating numbers in array](Missing_and_Repeating_in_Array.md)
