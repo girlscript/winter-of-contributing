@@ -47,10 +47,12 @@
 - [Django Framework](./Django_Framework)
 - [Regular expressions in Python](./Regex)
 - [Type Annotations in Python](./Type_Annotations)
+- [if statement](./if_statement)
+
 
 ## Learning path
 
-1. Git & GitHub
+1. Git & Github
 2. How To Install Python
 3. Installing development and debugging software for python
 4. Brief history of python
@@ -78,6 +80,8 @@
 26. Web_Scraping
 27. Python File I/O
 28. Python Strings
+29. Dictionary Comprehension
+30. if_statement
 29. Recursion in Python
 30. Yield Keyword
 31. Dictionary Comprehension
