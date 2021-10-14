@@ -1,6 +1,6 @@
 # **ML 4.3: SARSA (A)**
 
-This section prvides what is SARSA algorithm in Reinforcement learning and how it is implemented.
+This section provides information about what is SARSA algorithm in Reinforcement learning and how it is implemented.
 
 ## Outline
 * What is SARSA?
