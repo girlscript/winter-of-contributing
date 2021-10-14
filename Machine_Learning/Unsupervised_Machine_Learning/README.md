@@ -1,37 +1,28 @@
 
-## Unsupervised  Learning
 
-3.1. What is Clustering? Validate its necessity using real-world applications. (A+V)
-
-3.2 k-means Clustering (A+V+D)
-
-3.3 k-medoids (A+V+D)
-
-3.4 DBSCAN (A+V+D)
-
-3.5 Hierarchical Clustering (A+V+D)
-
-3.6 Contrast between k- means, k- medoids and Hierarchical Clustering (A+V+D) 
-       ---Do plotting and visually justify the contrast between both.
+<div align = 'center'>
+       <h1> 🟡 Chapter 3 - Unsupervised Machine Learning 🟡 </h1>
+       </div>
        
-3.7 BIRCH (A+V+D)
+| Sl. No. | Topics | Audio | Documentation | Video |
+|:-:|:-:|:-:|:-:|:-:|
+| 3.1 | **What is Clustering? Validate its necessity using real-world applications.** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_1_What_is_Clustering%3F_Validate_its_necessity_using_real_world_applications._(A).md) | ❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_1_what_is_clustering_%3F_Validate_its_necessity_using_real_world_applications_(V).md) |
+| 3.2 | **K-means Clustering** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_2_k-means_Clustering_(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_2_k-means_Clustering_(D).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_2_k-means_Clustering_(V).md) |
+| 3.3 | **K-medoids** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_3_K%20Medoids(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_3_K-Medoids%20(D).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_3_k-medoids_(V).md) |
+| 3.4 | **DBSCAN** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_4__DBSCAN_(A)%20.md) | [Click Here]() | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_4_DBSCAN_(V).md) |
+| 3.5 | **Hierarchical Clustering** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_5_Hierarchical_Clustering_(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_5_Hierarchical_Clustering_(D).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_5_Hierarchical_Clustering_(V).md) |
+| 3.6 | **Contrast between k- means, k- medoids and Hierarchical Clustering** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_6_Contrast_between_k-%20means%2Ck-medoids_and_Hierarchical_Clustering(A).md) | - | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_6_Contrast_between_k-%20means_k-%20medoids_and_Hierarchical_Clustering_(V).md) |
+| 3.7 | **BIRCH** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_7_BIRCH%20(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_7_Birch_(D).ipynb) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_7_BIRCH_(V).md) |
+| 3.8 | **What is Outlier Detection. How is it important in ML?** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_8_What%20is%20Outlier%20Detection.%20How%20is%20it%20important%20in%20ML%3F%20(A).md) | ❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_8_What_is_Outlier_Detection_._How_is_it_important_in_ML_%3F.md) |
+| 3.9 | **Outlier Detection using Random Forests: Isolation Forest** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_9_Outlier_Detection_using_Random_Forest_Isolation_Forest_(A).md) | - | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_9_Outlier_Detection_using_Random_Forest_-_Isolation_Forest_(V).md) |
+| 3.10 | **Outlier Detection using Local Outlier Filter (LOF)** |[Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_10_Outlier_Detection_using_Local_Outlier_Factor(LOF)(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_10_Outlier_Detection_using_Local_Outlier_Factor_(LOF)_(D).ipynb) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_10_Outlier_Detection_using_Local_Outlier_Filter_(LOF)_(V).md) |
+| 3.11 | **Implement k-means without using any standard ML library like scikit-learn or more. ⭐** |❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_11_Implement_K-Means_without_using_any_ML_Library_like_scikit-learn_or_more_(D).ipynb) | ❌ |
+| 3.12 | **Implement k-medoids without using any standard ML library like scikit-learn or more. :star:** |❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_12_Implement_K-Medoids_without_using_any_ML_library_(D).ipynb) | ❌ |
 
-3.8 What is Outlier Detection. How is it important in ML? (A+V)
 
-3.9 Outlier Detection using Random Forests: Isolation Forest (A+V+D)
+---------------------------------------------------------------
 
-3.10 Outlier Detection using Local Outlier Filter (LOF) (A+V+D)
-
-
-**STAR ISSUES OF THE WEEK**
-
-3.11. Implement k-means without using any standard ML library like scikit-learn or more.* (D)
-
-3.12. Implement k-medoids without using any standard ML library like scikit-learn or more.* (D)Supervised Machine Learning
-
-
-
-**_N.B.: (*) marked issues can only be solved using Numpy/Pandas. No other libraries will be entertained!_**
+**_N.B.: ⭐ marked issues can only be solved using Numpy/Pandas. No other libraries will be entertained!_**
 
 *********************************************************
 ### ❄️ GWoC 2021

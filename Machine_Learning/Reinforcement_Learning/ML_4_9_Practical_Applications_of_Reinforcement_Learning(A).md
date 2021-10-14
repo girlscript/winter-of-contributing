@@ -1,0 +1,1 @@
+[![Practical Applications of Reinforcement Learning](https://github.com/Arjun2905/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Reinforcement_Learning/Assets/Reinforcement_Learning.png)](https://drive.google.com/file/d/1bEdPgxIqI1wEyQVk_4ilJL-z5cyn7CA9/view?usp=sharing "Practical Applications of Reinforcement Learning")
