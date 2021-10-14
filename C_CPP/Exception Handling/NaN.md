@@ -91,8 +91,6 @@ A simple 'if' statement should be used if NaN occurs frequently in one's code or
 
 ## References
 
-* https://www.geeksforgeeks.org/nan-in-cpp-what-is-it-and-how-to-check-for-it/
+* [GFG](https://www.geeksforgeeks.org/nan-in-cpp-what-is-it-and-how-to-check-for-it/)
 
-* https://www.quora.com/How-do-I-solve-or-overcome-the-NaN-value-in-C-programming
-
-* https://stackoverflow.com/questions/570669/checking-if-a-double-or-float-is-nan-in-c
+* [Stack Overflow](https://stackoverflow.com/questions/570669/checking-if-a-double-or-float-is-nan-in-c)
