@@ -7,10 +7,10 @@
   
 ## **Why Data Pipelines ?**
 
-- Improve predictive fraud capabilities
-- Identify the motivations and inclinations of consumers down to a granular level. By extension, this helps promote brand awareness, reduce financial burdens, and increase revenue margins.
-- Predict future customer demand for optimum inventory deployment
-- Personalize the customer experience
+- Improve predictive fraud capabilities,
+- Identify the motivations and inclinations of consumers down to a granular level. By extension, this helps promote brand awareness, reduce financial burdens, and increase revenue margins,
+- Predict future customer demand for optimum inventory deployment,
+- Personalize the customer experience.
 
 ## **Steps in Pipelines**
 
@@ -20,7 +20,7 @@
   - Data Preparation : In this step, feature scaling is being done and categorical features are converted to numerical features.
 
 - Machine Learning 
-  - n this step we create a Machine Learning Model, train it on the prepared data and validate it and testing it on the test set. 
+  - In this step we create a Machine Learning Model, train it on the prepared data and validate it and testing it on the test set. 
 
 - Operations 
   - This is the end goal of the data science pipeline. It is basically the deployment of the model to a production environment where it will make predictions on new data and model visualization.
