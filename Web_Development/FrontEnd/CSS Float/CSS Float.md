@@ -119,4 +119,3 @@ When we want to set position of some element to the left or right side of the co
 </html>
 ```
 ![Screenshot 2021-10-12 at 6.38.58 PM.png](https://www.dropbox.com/s/hfigdloa2civs5p/Screenshot%202021-10-12%20at%206.38.58%20PM.png?dl=0&raw=1)
-##### Contributed by Darshan ❤️
