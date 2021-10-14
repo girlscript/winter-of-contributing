@@ -25,6 +25,7 @@ Here we have 3 as repeating number and 5 as missing number.
 
 ### C++ Programm code of the Problem
 
+````cpp
 #include <bits/std++.h>
 using namespace std;
 
@@ -80,7 +81,7 @@ int n = sizeof(arr) / sizeof(arr[0]);
     getchar();
 
 }
-
+```cpp
 **Input** /
 7 /
 { 1, 3, 4, 5, 5, 6, 2 } /
@@ -91,3 +92,4 @@ int n = sizeof(arr) / sizeof(arr[0]);
 
 **Time Complexity** - O(n)
 **Space complexity** - O(n)
+````
