@@ -50,7 +50,7 @@ int xor1;
     for (i=0; i<n; ++)
     {
         if (arr[i] & set_bit_no)
-            *a = 8b ^ arr[i];
+            *a = *a ^ arr[i];
 
         else
             *b = *b ^ arr[i];
