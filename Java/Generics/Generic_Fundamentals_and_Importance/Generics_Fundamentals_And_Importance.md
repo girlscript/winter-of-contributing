@@ -1,6 +1,6 @@
 # Generic Fundamentals and Importance
 
-Generics were introduced by JDK 5. Two major consequences of the feature were, first, it added a new syntatical element to the language. Second, it changed many of the classes and methods in core API. 
+Generics were introduced by JDK 5. It resulted in two major consequences. First, it added a new syntatical element to the language. Second, it changed many of the classes and methods in core API. 
 
 ## What are Generics?
 
@@ -133,23 +133,7 @@ class Gen<T>{
 
 ```
 class Gen2<T, U>{
-    // Data members
-    T genericVar1;
-    U genericVar2;
-    T[] genericArray1;
-    U[] genericArray2;
-    Vector<T> genericVector1;
-    Vector<U> genericVector2;
-
-    // Constructor
-    <T, U> Gen(T arg1, U arg2){
-
-    }
-
-    // Methods
-    void calculateSomethingGeneric(T arg1, U arg2){
-
-    }
+    
 }
 ```
 
