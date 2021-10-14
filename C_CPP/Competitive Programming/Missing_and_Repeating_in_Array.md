@@ -45,9 +45,7 @@ int xor1;
     {
         xor1 = xor1 ^ i;
     }
-
     set_bit_no = xor1 & (xor1 - 1);
-
     for (i=0; i<n; ++)
     {
         if (arr[i] & set_bit_no)
@@ -56,7 +54,6 @@ int xor1;
         else
             *b = *b ^ arr[i];
     }
-
     for (i=1; i<=n; i++)
     {
         if (i & set_bit_no)
@@ -65,9 +62,7 @@ int xor1;
         else
             *b = *b ^ i;
     }
-
 }
-
 int main()
 {
 int arr[] = { 1, 3, 4, 5, 5, 6, 2 };
@@ -79,9 +74,8 @@ int n = sizeof(arr) / sizeof(arr[0]);
     cout << " The missing element is " << *a << " and the repeating"
          << " number is " << *b;
     getchar();
-
 }
-```cpp
+```
 **Input** /
 7 /
 { 1, 3, 4, 5, 5, 6, 2 } /
