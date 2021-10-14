@@ -113,4 +113,4 @@
 - [Gaining access]
 - [Maintaining access]
 - [Covering Tracks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Cybersecurity%206.9%20Covering%20tracks.md)
-- [Reporting]
+
