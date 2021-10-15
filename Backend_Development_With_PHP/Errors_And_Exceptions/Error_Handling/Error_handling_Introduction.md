@@ -39,11 +39,11 @@ else{
 ```php
 error_function(error_level,error_message,error_file,error_line,error_context);
 ```
-- error_level : This attribute is required and it is a error report level for the user-defined error and also it must be a value number.
-- error_message : This attribute is required and it Specifies the error message for the user-defined error.
-- error_file : It is an optional field and it Specifies the file name in which the error occurred.
-- error_line : It is an optional field and it Specifies the line number in which the error occurred.
-- error_context : It is an optinal field and it Specifies an array containing every variable, and their values, in use when the error occurred.
+- `error_level` : This attribute is required and it is a error report level for the user-defined error and also it must be a value number.
+- `error_message` : This attribute is required and it Specifies the error message for the user-defined error.
+- `error_file` : It is an optional field and it Specifies the file name in which the error occurred.
+- `error_line` : It is an optional field and it Specifies the line number in which the error occurred.
+- `error_context` : It is an optinal field and it Specifies an array containing every variable, and their values, in use when the error occurred.
 
 ### Let's create a simple custom error handling function.
 
