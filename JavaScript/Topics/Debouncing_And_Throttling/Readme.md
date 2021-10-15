@@ -197,4 +197,8 @@ Here we can see that the number of calls is decreased after implementing the thr
 ## **Difference between Throttling and Debouncing**
 The main difference between throttling and debouncing is that **throttling makes a function call after a certain interval of time while debouncing needs a cooling period for execution of function calls.** 
 
-Contributor: Ananya Gupta
+<br />
+
+Contributor: [**Ananya Gupta**](https://github.com/Ananyagupta43)
+
+
