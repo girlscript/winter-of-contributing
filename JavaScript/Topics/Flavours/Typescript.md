@@ -19,18 +19,18 @@ typescript will view ***c*** as char
 
 typescript will view ***name*** as string
 
-Another important reason to consider javascript is the enhanced IDE support,with typescipt we get intelliscence support ,ability to refactor code easily and the red squiggy line 
+Another important reason to consider javascript is the enhanced IDE support,with typescript we get intellisense support ,ability to refactor code easily and the red squiggy line 
 whenever there is an error along with the desciption of that error.So this way we spend more time on coding nd less time on debugging.  
  ## Why Typescipt is better?  (from web dev zone )
-- Typescipt make the javascipt code more readable and make easy to debug.
--  As we know  javascript does not support variable type which take more time to identify errors(during run time) so which typescripts add natural syntax for providing types which helps in clearing the bugs easily.  
-- Another important reason to consider javascript is the enhanced IDE support,with typescipt we get intelliscence support ,ability to refactor code easily and the red squiggy line 
+- Typescript make the javascript code more readable and make easy to debug.
+-  As we know  javascript does not support variable type which take more time to identify errors(during run time) so which typescript add natural syntax for providing types which helps in clearing the bugs easily.  
+- Another important reason to consider javascript is the enhanced IDE support,with typescipt we get intellisense support ,ability to refactor code easily and the red squiggy line 
 whenever there is an error along with the desciption of that error.So this way we spend more time on coding and less time on debugging. 
 - Since it is open source ,it is always improving.
-- TypeScript is a superset of ES3, ES5, and ES6 and provide all features along with more productivity.
-- It has powerful type system including generics(TypeScript Generics is a tool which provides a way to create reusable components).
+- Typescript is a superset of ES3, ES5, and ES6 and provide all features along with more productivity.
+- It has powerful type system including generics(Typescript Generics is a tool which provides a way to create reusable components).
 - It supports static typing as we know there is a performance benefit to letting the compiler know what type the value is, without having to check it.
-- As it supports static typing ,it(TypeScript) does not allow intermixing of values with different datatypes.If restrictions are violated then it will throw error.
+- As it supports static typing ,it(Typescript) does not allow intermixing of values with different datatypes.If restrictions are violated then it will throw error.
 
   ``` 
   let name:  string = "wajiha";
@@ -55,7 +55,7 @@ whenever there is an error along with the desciption of that error.So this way w
 **Example**  
       `let myName: string = "Alice";`  
       
- - `any`  is useful when you don’t want to write out a long type just to convince TypeScript that a particular line of code is okay.
+ - `any`  is useful when you don’t want to write out a long type just to convince Typescript that a particular line of code is okay.
   **Example**
       ```
        let obj: any = { x: 0 };
@@ -65,11 +65,11 @@ whenever there is an error along with the desciption of that error.So this way w
            obj = "hello";
          const n: number = obj;
    ```
-     None of the following lines of code will throw compiler errors. Using `any` disables all further type checking, and it is assumed  you know the environment better than TypeScript.
+     None of the following lines of code will throw compiler errors. Using `any` disables all further type checking, and it is assumed  you know the environment better than Typescript.
     
    **Functions**  
    
-   Functions are the primary means of passing data around in JavaScript. TypeScript allows you to specify the types of both the input and output values of functions
+   Functions are the primary means of passing data around in Javascript. Typescript allows you to specify the types of both the input and output values of functions
    
   ``` 
      function make_coffe(numofcups: number) {
@@ -79,7 +79,7 @@ whenever there is an error along with the desciption of that error.So this way w
 
 ## Defining types (from typescript official website)
 
-We can use a wide variety of design patterns in JavaScript. However, some design patterns make it difficult for types to be inferred automatically (for example, patterns that use dynamic programming). To cover these cases, TypeScript supports an extension of the JavaScript language, which offers places for you to tell TypeScript what the types should be.
+We can use a wide variety of design patterns in Javascript. However, some design patterns make it difficult for types to be inferred automatically (for example, patterns that use dynamic programming). To cover these cases, TypeScript supports an extension of the Javascript language, which offers places for you to tell Typescript what the types should be.
 
 **Example**
 let's create an object employee with name (string ) and emp_id(number)
@@ -178,3 +178,4 @@ function simpleExample<T>(arg: T): T{              //T stands for Type
   ```
 
     
+ ~Wajiha Fatima | Contributor
