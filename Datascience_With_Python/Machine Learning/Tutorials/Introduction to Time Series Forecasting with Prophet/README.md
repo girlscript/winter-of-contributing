@@ -19,7 +19,14 @@ The steps involved in carrying out predictive analysis with the Fbprophet librar
 6. Plot the forecast as obtained.
 
 # Data Visualization
-
+1.<br>
+![Graph1](Images/Graph1.png)
+2.<br>
+![Graph2](Images/Graph2.png)<br>
+3.<br>
+![Graph3](Images/Graph3.png)<br>
+4.<br>
+![Graph4](Images/Graph4.png)
 
 
 # Advantages of Time Series Forecasting with Prophet
