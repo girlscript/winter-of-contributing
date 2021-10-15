@@ -58,6 +58,12 @@ This code would render the following output:
 
 ![](./assets/cr_example1_part1.JPG) ![](./assets/cr_example1_part2.JPG)
 
+###### Explanation:
+
+- React will remember the current value of isLoggedIn between re-renders, and provide the most recent one to our function.
+- We can display different UI based on the state of isLoggedIn state variable.
+- When the user clicks, we toggle the login/logout button and display different message in each case.
+
 #### Example 2:Using props and if-else Statements
 
 AuthButton.js
@@ -105,6 +111,12 @@ This code would render the following output:
 
 ![](./assets/cr_example2.JPG)
 
+###### Explanation:
+
+- React will pass on the value of the isLoggedIn prop from App.js to AuthButton.js.
+- We can display different UI based on the value of isLoggedIn prop in AuthButton.js using if-else statements.
+- When the user is logged in,we display the Logout button and vice-versa.
+
 #### Example 3:Using inline if with logical && operator
 
 ```
@@ -130,6 +142,13 @@ export default App;
 This code would render the following output:
 
 ![](./assets/cr_example3.JPG)
+
+###### Explanation:
+
+- Expressions can be embedded in React by wrapping them in curly braces.
+- We embedded the logical && operator for conditionally including an element like the h2 tag and its content here.
+- If the length of the messages array is more than 0, the element right after && will appear in the output and display its length.
+- However if messages is empty, React will ignore and skip it.
 
 #### Example 4:Using switch case
 
@@ -183,6 +202,13 @@ This code would render the following output:
 
 ![](./assets/cr_example4.JPG)
 
+###### Explanation:
+
+- The switch/case statement is a conditional operator that’s commonly used as an alternative to if...else statement.
+- Here,we want to display different messages based on the user’s role.
+- Unlike in general JavaScript function where it is needed to use break statement, React component already has return statement that stops the switch operation.
+- This is really useful in case of a real-life application like a blogging website.
+
 #### Example 5:Using ternary operator
 
 ```
@@ -208,6 +234,12 @@ export default App;
 This code would render the following output:
 
 ![](./assets/cr_example5_part1.JPG) ![](./assets/cr_example5_part2.JPG)
+
+###### Explanation:
+
+- One method for conditionally rendering elements inline is to use the ternary operator condition ? true : false.
+- Here we use it to conditionally render the color of the text based on the state of the isOrange variable.
+- The button acts as a toggle to change the value of isOrange by calling the setOrange function .
 
 #### Example 6:Using Enums
 
@@ -251,10 +283,17 @@ This code would render the following output:
 
 ![](./assets/cr_example6.JPG)
 
-Using Enhanced JSX libraries like Babel
+###### Explanation:
 
-Give some example of the Conditional Rendering
-also give some theory explanation with code.
+- We have created three different components Foo, Bar and Default.
+- We want to show these components based on a certain state using Enums.
+- Here we are using the object as an Enum representing a map of key-value pairs.
+- In the “EnumState” function,the state property key above helps us to retrieve the value from the object.
+
+###### Using Enhanced JSX libraries like Babel:
+
+- Certain libraries expose functionality to extend JSX, making it possible to implement conditional rendering directly with JSX. One of such libraries is JSX Control Statements. It is a Babel plugin that transforms component-like control statements into their JavaScript counterparts.
+- However,this approach is not recommended as it is always better to just write JavaScript than add an extra dependency over something so trivial.
 
 ## Additional Resources:
 
