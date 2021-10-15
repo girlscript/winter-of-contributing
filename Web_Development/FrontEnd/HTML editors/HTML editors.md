@@ -1,4 +1,4 @@
-# HTML editors
+# HTML Editors
 
 When you decide to create a website first question come in to mind is: **What I need to create a website?**
 
@@ -6,9 +6,9 @@ Every desktop or laptop has pre-installed text editor, if you're a windows user 
 
 But we still have a problem writing code on simple notepad takes alot of time and the chance of error increases. We have many more HTML editors which not only saves our times but also help us in indentifying errors. They also provide shortcuts so you don't need to write a lot of codes. 
 
-### Benefits of using HTML EDITORS
+### Benefits Of Using Html Editors
 
-1) All editors are free to install.
+1. All editors are free to install.
 2. You can customize the interface (changing theme).
 3. You can add plugins and extensions.
 4. Automatically complete code on its own.
@@ -16,17 +16,10 @@ But we still have a problem writing code on simple notepad takes alot of time an
 6. Multiple panes available, where you write html and style it side by side.
 7. You can easily format your code with the help of auto-indentation.
 
-### MOST COMMONLY USED HTML EDITORS
+### Most Commonly Used Html Editors
 
 - Notepad++
 - Atom
 - Eclipse
 - Microsoft Visual Studio Code
 - Sublime Text 
-
-
-
-
-
-
-
