@@ -34,7 +34,8 @@
  ### Week 5 
 - [ ] Common hooks(useRef,useContent etc) 
 - [ ] Refs 
-- [ ] Writiing your own hooks *High order Components 
+- [ ] Writiing your own hooks 
+- [ ] High order Components 
 - [ ] Fibre Architecture 
  ### Week 6 
 - [ ] Multi page react app (React Router)
