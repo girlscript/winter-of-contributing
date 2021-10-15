@@ -182,3 +182,13 @@ int main()
 **Time complexity for This Rule is = O(n)** 
 <hr>
 because more terms for f(x0), f(xn). The number of terms used for the Simpson rule for a given n is linear to n. Assuming multiplication is constant and the function complexity is constant, we note the summation formula i.e From the summation term **∑k=2(n-1)/2** , we can easily state that there are **[(n-1)/2 - 2 + 1]** terms to determine that the time complexity of the Simpson rule is O(n), it runs in linear time.
+
+&nbsp;
+
+## References :link:
+:one: [simpson_rule_YT](https://www.youtube.com/watch?v=z_AdoS-ab2w)
+
+:two: [formula](https://byjus.com/simpsons-rule-formula/)
+
+:three: [explaination](https://mathworld.wolfram.com/SimpsonsRule.html)
+<hr>
