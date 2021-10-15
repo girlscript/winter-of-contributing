@@ -14,7 +14,7 @@ This documentation includes the following points in brief:
 
 ## Introduction
 
-**NaN** is an acronym that essentially stands for *Not a Number*. This exception is shown when a mathemtaical operation results in a number which cannot be shown by the computer. For example, imaginary numbers, square roots, result of 0/0, etc.
+**NaN** is stands for *Not a Number*. This exception is shown when a mathemtaical operation results in a number which cannot be shown by the computer. For example, imaginary numbers, square roots, result of 0/0, etc.
 
 
 The NaN values can be different from each other. Library functions can differentiate them by analysing their implememntaion.
@@ -32,14 +32,19 @@ The NaN values can be different from each other. Library functions can different
     #include<cmath> 
     using namespace std;
     int main(){
-        float a = sqrt(2);
-        float b = sqrt(-2);   //complex
+        float a, b;
+        a=sqrt(2);
+        b=sqrt(-2);   //complex
+     
+        if(a==a)  //true
+          cout<<"It is a real number"; 
+        else
+           cout<<"It is NaN";
 
-        a==a? cout << "Its a real number" << endl:  //true
-              cout << "Its NaN" << endl;
-
-        b==b? cout << "Its a real number" << endl:  //false
-              cout << "Its NaN" << endl;
+        if(b==b)  //false
+           cout<<"It is a real number";
+        else
+            cout<<"It is NaN";
   
         return 0;
     }
@@ -55,14 +60,19 @@ The NaN values can be different from each other. Library functions can different
     #include<cmath> 
     using namespace std;
     int main(){
-        float a = sqrt(2);
-        float b = sqrt(-2);   //complex 
+        float a, b;
+        a=sqrt(2);
+        b=sqrt(-2);   //complex 
     
-        isnan(a)? cout << "Its NaN";    //false
-                  cout << "Its a real number";
+        if(isnan(a))  //false
+          cout<<"It is NaN";
+        else
+          cout<<"It is a real number";
 
-        isnan(b)? cout << "Its NaN";    //true
-                  cout << "Its a real number";
+        if(isnan(b))  //true
+          cout << "Its NaN"; 
+        else
+          cout<<"Its a real number";
          
         return 0;    
     }
@@ -82,7 +92,7 @@ A simple 'if' statement should be used if NaN occurs frequently in one's code or
 
 ## Points to note
 
-* According to the IEEE, NaN values have the property that comparisons involving them are always false. That is, for a float f, f != f will be true only if f is NaN.
+* According to the IEEE, NaN comparisons always result in `false`.
 
 * A variable can be set NaN in C++ by the use of pointers.
 
