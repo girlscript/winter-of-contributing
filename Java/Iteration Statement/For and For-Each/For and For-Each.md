@@ -127,11 +127,6 @@ for (dataType item : collection obj/array) {
 * Do not keep track of index. So we can not obtain array index using For-Each loop
 * It cant traverse in the reverse order 
 
-#### ADVANTAGE:-
-
-* It makes the code more readable.
-* It reduces the possibilty of bug.
-
 ### **EXAMPLE 1:-**
 You are given the Array of students mark you need to find the maximum mark obtained by using Enhanced For Loop
 ---
