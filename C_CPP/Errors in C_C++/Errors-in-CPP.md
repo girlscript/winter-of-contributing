@@ -46,16 +46,37 @@ int main()
 {
     for(int i=0;i<3;i++);
     {
-        cout<<"Example 2";
+        cout<<"Hello";
     }
 }
 
 ```
 ### Output:
 
-> Example 2 <br>
+> Hello <br>
 
-In this we want to print "Example 2" three times, but because we added semicolon to the end of the loop, it prints only once.
+In this we want to print "Hello" three times, but because we added semicolon to the end of the loop, it prints only once.
+
+```C++
+#include <iostream>
+using namespace std;
+ 
+int main () 
+{
+  int a,b;
+  float avg;
+  a=20; b=10;
+  avg= a + b / 2;		// it should be as (a + b) / 2
+  cout<<"Average :"<<avg;
+}
+
+```
+
+### Output:
+
+> Average :25 <br>
+
+In this we want 15 as the output. But because of the missing brackets(which is a logic error), we won't get the desired output.
 
 ## Semantic Errors
 
@@ -80,6 +101,28 @@ int main()
 <img src = "https://user-images.githubusercontent.com/76544476/136785693-bd4c9dcc-7c05-44a3-ba68-529c80cb796f.png" width="800" height="250">  <br>
 
 It must be return as " ans= a+b; " to get the desired output of ans as 3.
+
+
+```C++
+#include <iostream>
+using namespace std;
+ 
+int main () 
+{
+  int x;
+  cin>>x;
+  if(x>=10)   // It must be (x>10)
+    cout<<x<<" is greater than 10";
+}
+
+```
+
+### Output:
+
+> 10  <br>
+> 10 is greater than 10 <br>
+
+In this it must be x>10, only then the output will be as desired. Because, 10 greater than 10 has no meaning.
 
 ## Run-Time Errors
 
