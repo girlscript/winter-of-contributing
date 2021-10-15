@@ -36,7 +36,7 @@ Even if the syntax and other things are correct, then also we may not be able to
 Also, when we assign a value to the wrong variable, then it may cause a series of unexpected program errors. When 2 numbers are multiplied instead of adding may produce unwanted 
 results.
 
-### Example:
+### Example 1:
 
 ```Cpp
 #include <iostream>
@@ -56,6 +56,8 @@ int main()
 > Hello <br>
 
 In this we want to print "Hello" three times, but because we added semicolon to the end of the loop, it prints only once.
+
+### Example 2:
 
 ```Cpp
 #include <iostream>
@@ -82,7 +84,7 @@ In this we want 15 as the output. But because of the missing brackets(which is a
 
 This kind of error generally occurs when the code is correct with respect to syntax but has no meaning. For instance, grammatical errors, if any expression is written to the left side of assignment operator these may result in semantic errors.
 
-### Example:
+### Example 1:
 
 ```Cpp
 #include <iostream>
@@ -102,6 +104,7 @@ int main()
 
 It must be return as " ans= a+b; " to get the desired output of ans as 3.
 
+### Example 2:
 
 ```Cpp
 #include <iostream>
@@ -128,7 +131,7 @@ In this it must be x>10, only then the output will be as desired. Because, 10 gr
 
 During execution, this kind of errors generally occurs. Compilation occurs successfully because this is not a compilation error. For instance, dividing a number by 0 results in run-time error.ALso an infinite loop, when a wrong value is entered(like when an integer is expected by user, but he/she enters a string) causes this kind of error.
 
-### Example:
+### Example 1:
 
 ```Cpp
 #include <iostream>
@@ -148,6 +151,8 @@ int main()
 
 The program crashes at the runtime.
 
+
+### Example 2:
 
 ```Cpp
 #include <iostream>
