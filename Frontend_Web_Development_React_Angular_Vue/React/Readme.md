@@ -22,10 +22,10 @@
 - [x] Mapping data to components 
 - [ ] Using the  React Developer Tools (Preferrably a video)
 ### Week 3 
-- [ ] List and Keys 
+- [x] List and Keys 
 - [ ] Composition vs Inheritance 
-- [ ] Basic Hooks : a) useState b) useEffect 
-- [ ] Some more Hooks (As per recommended by Mentor) 
+- [x] Basic Hooks : a) useState b) useEffect 
+- [x] Some more Hooks (As per recommended by Mentor) 
  
 ### Week 4 
 - [ ] Conditional rendering 
