@@ -27,7 +27,7 @@ Suppose a person wants to buy a laptop. Now every time the person types an alpha
 <p>&nbsp;</p>
 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -47,8 +47,8 @@ Here we have an HTML file which contains an input box.This input box contains an
 
 First we will see the JavaScript file without the debounce functionality-
 
-```Debounce.js```
-```
+**Debounce.js**
+```js
 var count=0;
 
 const fetchData=()=>{
@@ -67,8 +67,9 @@ Here we can see that a call has been made for each keystroke event.
 <p>&nbsp;</p>
 
 Now we will use the debounce functionality which will decrease the number of calls:=
-```Debounce.html```
-```
+
+**Debounce.html**
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,9 +89,9 @@ Now we will use the debounce functionality which will decrease the number of cal
  In html file the onkeyup attribute will not call the fetchData() method anymore instead it will call the debounce() method.
  <p>&nbsp;</p>
 
-```Debounce.js```
+**Debounce.js**
 
-```
+```js
 var count=0;
 
 const fetchData=()=>{
@@ -138,8 +139,8 @@ We have seen earlier that without debounce functionality there were a number of 
 
 Files with throttling functionality:=
 
-Throttle.html
-```
+**Throttle.html**
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -158,11 +159,9 @@ Throttle.html
 ```
 Here the onKeyUp attribute is calling the throttle() method.
 
-Throttle.js
-```
-
+**Throttle.js**
+```js
 var count=0;
-
 const fetchData=()=>{
     // calls an API and gets the data 
  console.log("fetch data "+count++);
@@ -195,7 +194,7 @@ Here we can see that the number of calls is decreased after implementing the thr
 
 <p>&nbsp;</p>
 
-**Difference between Throttling and Debouncing**
-The main difference between throttling and debouncing is that ```throttling makes a function call after a certain interval of time while debouncing needs a cooling period for execution of function calls.``` 
+## **Difference between Throttling and Debouncing**
+The main difference between throttling and debouncing is that **throttling makes a function call after a certain interval of time while debouncing needs a cooling period for execution of function calls.** 
 
 Contributor: Ananya Gupta
