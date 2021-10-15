@@ -58,8 +58,8 @@ Now, the information required to perform the Newton Raphson Method is as follow:
 
 ### C++ Implementation 
 
-...  
-...  
+. . .  
+. . .  
 #include <iostream>
 #include <math.h>
 #include<iomanip>
@@ -148,6 +148,6 @@ auto start = high_resolution_clock::now();
   cout<<"\nRoot = "<<x<<endl;
   cout<<"f(x)="<<function(x)<<endl;
   cout << duration.count()<<" microseconds"<< endl; 
-}
-...  
-...
+}  
+. . .  
+. . .
