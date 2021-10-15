@@ -19,9 +19,8 @@
 ---
 - ### Add a description (Optional)
   * You can add a brief description about your repository for better understanding.
- For example:
  <img width="576" alt="3" src="https://user-images.githubusercontent.com/87390353/137536180-05ac2ccd-27fc-4dcd-bca5-e1a205660d19.png">
- 
+
  ---
  - ### Choose the visibility of your repository.
    * It's always better to make your repository **Public**. But if you want to work on personally or you don't want to share your work with others, then you can choose **Private**.
@@ -47,7 +46,7 @@
 <img width="484" alt="2" src="https://user-images.githubusercontent.com/87390353/137541619-ba7c7637-2e3c-4b97-9766-7f62c2d0b5b4.png">
 
 ---
-## Hurrh! Your first repository is ready to work on it.
+## Hurrah! Your first repository is ready to work on it.
 <img width="960" alt="1 (2)" src="https://user-images.githubusercontent.com/87390353/137542019-bc90d7c6-12cc-40bd-805b-86806dfcdd1d.png">
 
-## Congratulations.
+## Congratulations.✨
