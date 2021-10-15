@@ -8,7 +8,7 @@ React enables us to create distinct components that encapsulate their own unique
 
 - Performance Optimization : Conditional Rendering plays a major role to make sure the different user interfaces load faster on the frontend.
 - Code Readability : Conditional Rendering makes it easier to read and understand several lines of code easily which is highly beneficial during editing and/or debugging the code.
-- Single Return Statement : Using Conditional Rendering ,code in react steers clear of multiple return statements.
+- Single Return Statement : Using Conditional Rendering,code in react generally steers clear of multiple return statements.
 
 ## Where we use conditional Rendering ?
 
@@ -20,9 +20,116 @@ React enables us to create distinct components that encapsulate their own unique
 
 #### Example 1:Using useState
 
+```
+import React, { useState } from "react";
+
+const App = () => {
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [buttonText, setButtontext] = useState("Login");
+  const [message, setMessage] = useState("Welcome!Login to continue");
+
+  const change = () => {
+    if (isLoggedIn) {
+      //If user is logged in
+      setButtontext("Logout");
+      setMessage("You're Logged In");
+    } else {
+      // If user is logged out
+      setButtontext("Login");
+      setMessage("Welcome!Login to continue");
+    }
+    setIsLoggedIn(!isLoggedIn); //toggle
+  };
+
+  return (
+    <div>
+      <h1>{message}</h1>
+      <button onClick={change}>{buttonText} </button>
+    </div>
+  );
+};
+
+export default App;
+
+
+```
+
+This code would render the following output:
+
+![](./assets/cr_example1_part1.JPG) ![](./assets/cr_example1_part2.JPG)
+
 #### Example 2:Using props and if-else Statements
 
+AuthButton.js
+
+```
+import React from "react";
+
+const AuthButton = props => {
+  let { isLoggedIn } = props;
+
+  if (isLoggedIn) {
+    return <button>Logout</button>;
+  } else {
+    return <button>Login</button>;
+  }
+};
+
+export default AuthButton;
+
+```
+
+App.js
+
+```
+import React from "react";
+import AuthButton from "./components/AuthButton";
+
+const App = () => {
+  return (
+    <div >
+      <br />
+      <AuthButton isLoggedIn={true} />
+      <br />
+      <br />
+      <AuthButton isLoggedIn={false} />
+    </div>
+  );
+};
+
+export default App;
+
+```
+
+This code would render the following output:
+
+![](./assets/cr_example2.JPG)
+
 #### Example 3:Using inline if with logical && operator
+
+```
+import React from "react";
+
+const App = () => {
+  const messages = ["React", "Conditional", "Rendering"];
+
+  return (
+    <div>
+      <h1>Hello!</h1>
+      {messages.length > 0 && (
+        <h2>You have {messages.length} unread messages.</h2>
+      )}
+    </div>
+  );
+};
+
+export default App;
+
+```
+
+This code would render the following output:
+
+![](./assets/cr_example3.JPG)
 
 #### Example 4:Conditional inline if-else
 
