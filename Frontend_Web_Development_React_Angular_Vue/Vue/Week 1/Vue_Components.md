@@ -520,3 +520,6 @@ const app = new Vue({
   }
 })`
 ````
+
+## References 
+[Vue.js Documentation](https://vuejs.org/v2/guide/components.html) , [Tutorialpoint](https://www.tutorialspoint.com/vuejs/vuejs_components.htm) , [Educative](https://www.educative.io/edpresso/what-are-vue-components)
