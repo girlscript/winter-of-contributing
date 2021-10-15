@@ -60,69 +60,69 @@ Now, the information required to perform the Newton Raphson Method is as follow:
 
 . . .  
 . . .  
-#include <iostream>
-#include <math.h>
-#include<iomanip>
-#include<chrono>
-using namespace std::chrono; 
-using namespace std;
-int N= 1000;   //  max iterations
+#include <iostream>  
+#include <math.h>  
+#include<iomanip>  
+#include<chrono>  
+using namespace std::chrono;   
+using namespace std;  
+int N= 1000;   //  max iterations  
 
-static double function(double x);
-double derivFunc(double x);
-void newtonRaphson( double x, double precision);
+static double function(double x);  
+double derivFunc(double x);  
+void newtonRaphson( double x, double precision);  
 
-int main() {
-  double x0;
-  double c;
-  double precision;
+int main() {  
+  double x0;  
+  double c;  
+  double precision;  
 
-  cout << "function(x) = x^2 - 4x - 7 "<<endl;
+  cout << "function(x) = x^2 - 4x - 7 "<<endl;  
 
 
-  cout << "Enter initial guess: ";
-  cin >> x0;
+  cout << "Enter initial guess: ";  
+  cin >> x0;  
     
 
-  cout << "\nEnter precision of method: ";
-  cin >> precision;
+  cout << "\nEnter precision of method: ";  
+  cin >> precision;  
 
 
-  newtonRaphson(x0,precision);
+  newtonRaphson(x0,precision);  
 
-  return 0;
-}
+  return 0;  
+}  
 
-static double function(double x)    // f(x)
+static double function(double x)    // f(x)  
 {
-  return  pow(x,2) - 4*x -7;
-}
+  return  pow(x,2) - 4*x -7;  
+}  
 
 
-double derivFunc(double x)   // f'(x) = g(x)
+double derivFunc(double x)   // f'(x) = g(x)  
 {
-    return  2*x - 4 ;
-}
+    return  2*x - 4 ;  
+}  
 
-void newtonRaphson(double x, double precision)
+void newtonRaphson(double x, double precision)  
 {
 
-int iter=0;
+int iter=0;  
 
-cout<<setw(3)<<"\niterations"<<setw(8)<<"x"<<setw(30)<<"function(x)"<<endl;
+cout<<setw(3)<<"\niterations"<<setw(8)<<"x"<<setw(30)<<"function(x)"<<endl;  
 
-auto start = high_resolution_clock::now(); 
+auto start = high_resolution_clock::now();   
 
   
-  if(derivFunc(x)== 0 )
-  {
-      cout<<"Error";
-      return;
+  if(derivFunc(x)== 0 )  
+  {  
+      cout<<"Error";  
+      return;  
 
-  }
-  double h = function(x) / derivFunc(x);
+  }  
+  double h = function(x) / derivFunc(x);  
   
-  do
+  do  
   {
     
     h = function(x)/derivFunc(x);     
@@ -139,15 +139,16 @@ auto start = high_resolution_clock::now();
       break;
     }
 
-  }while (fabs(function(x))>=precision);
+  }  
+	while (fabs(function(x))>=precision);  
 
-  auto stop = high_resolution_clock::now(); 
-  auto duration = duration_cast<microseconds>(stop - start); 
+  auto stop = high_resolution_clock::now();  
+  auto duration = duration_cast<microseconds>(stop - start);   
 
 
-  cout<<"\nRoot = "<<x<<endl;
-  cout<<"f(x)="<<function(x)<<endl;
-  cout << duration.count()<<" microseconds"<< endl; 
-}  
+  cout<<"\nRoot = "<<x<<endl;  
+  cout<<"f(x)="<<function(x)<<endl;  
+  cout << duration.count()<<" microseconds"<< endl;   
+}    
 . . .  
 . . .
