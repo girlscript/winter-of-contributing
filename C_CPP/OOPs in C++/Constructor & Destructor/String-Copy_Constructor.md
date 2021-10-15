@@ -1,9 +1,9 @@
 Copy Constructor:
 ===============
 Constructors in itself corresponds to a special functions which initialises an object, whenever it is formed.Special in sense, that like other functions they doesn't have a prototype and cannot return any value to the compiler.
-Further it doesn't support initialising objects in following explicit way:
-example:  t2.test(789);
-Reason -> Because they cannot be treated like normal functions.
+Further it doesn't support initialising objects in following explicit way:  
+**Example**:  t2.test(789);  
+**Reason**: Because they cannot be treated like normal functions.
 
 Copy constructor is a type of constructor which invokes the copies of an already created object.The replicas hold the same 
 value, datatype and resources.
