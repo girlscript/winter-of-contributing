@@ -5,3 +5,4 @@
 - [Sieve of Eratosthenes in C++](Sieve_of_Eratosthenes.md)
 - [Basic problems on string](basic_string_problems.md)
 - [School Management System](School_Management_System.md)
+- [Number Theory](numbertheory.md)
