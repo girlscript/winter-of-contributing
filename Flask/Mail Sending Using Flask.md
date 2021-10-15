@@ -90,6 +90,46 @@ attach() − adds an attachment to message. This method takes the following para
 
 add_recipient() − adds another recipient to message
 
+### Email Message
+```
+class flask_mail.Message(subject='', recipients=None, body=None, html=None, sender=None, cc=None, bcc=None, attachments=None, reply_to=None, date=None, charset=None, extra_headers=None, mail_options=None, rcpt_options=None)
+```
+
+### Parameters:	
+Parameters | Content
+---------- | ------------
+subject | email subject header
+recipients | list of email addresses
+body | plain text message
+html | HTML message
+sender | email sender address, or MAIL_DEFAULT_SENDER by default
+cc | CC list
+bcc | BCC list
+attachments | list of Attachment instances
+reply_to | reply-to address
+date | send date
+charset | message character set
+extra_headers | A dictionary of additional headers for the message
+mail_options | A list of ESMTP options to be used in MAIL FROM command
+rcpt_options | A list of ESMTP options to be used in RCPT commands
+
+### Attachments
+```
+attach(filename=None, content_type=None, data=None, disposition=None, headers=None)
+```
+Parameters | content
+------ | ---------
+filename | filename of attachment
+content_type | file mimetype
+data | the raw file data
+disposition | content-disposition (if any)
+
+### Another recipient
+add_recipient(recipient)
+
+Parameters | Content
+---------- | --------
+recipient | email address of recipient.
 
 ## Codes in the app.py file
 #### In the following example, SMTP server of Google’s gmail service is used as MAIL_SERVER for Flask-Mail configuration.
@@ -146,3 +186,26 @@ if __name__ == '__main__':
 ```
 
 #### Run the following script in Python Shell and visit http://localhost:5000/.
+
+## Bulk emails
+```
+with mail.connect() as conn:
+    for user in users:
+        message = '...'
+        subject = "hello, %s" % user.name
+        msg = Message(recipients=[user.email],
+                      body=message,
+                      subject=subject)
+
+        conn.send(msg)
+```
+
+The connection to your email host is kept alive and closed automatically once all the messages have been sent.
+Some mail servers set a limit on the number of emails sent in a single connection. You can set the max amount of emails to send before reconnecting by specifying the MAIL_MAX_EMAILS setting.
+
+## Attachments
+```
+with app.open_resource("image.png") as fp:
+    msg.attach("image.png", "image/png", fp.read())
+```
+
