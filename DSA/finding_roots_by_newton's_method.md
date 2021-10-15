@@ -60,6 +60,7 @@ Now, the information required to perform the Newton Raphson Method is as follow:
 
 . . .  
 . . .  
+
 #include <iostream>
 #include <math.h> 
 #include <iomanip>  
