@@ -1,5 +1,5 @@
 # <img src="https://user-images.githubusercontent.com/75877192/136221503-ff7c102a-c94d-4a36-b896-8418eb2eaa23.png" width="85px">Mutex in Golang.
-✋ *Before we write any program, let’s see what is mutex actually?*
+*Before we write any program, let’s see what is mutex actually?*
 ---
 A Mutex is a method used as a locking mechanism to ensure that
 only one Goroutine is running the critical section of code at any point in time to prevent race conditions from happening.
@@ -29,12 +29,12 @@ mutex.Unlock()
 In the above code, `x = x + 1` will be executed by only one Goroutine at any point in time thus preventing race conditions.
 ### *If one Goroutine already holds the lock and if a new Goroutine is trying to acquire a lock, the new Goroutine will be blocked until the mutex is unlocked.*
 *To understand this concept, let’s first understand the Race Conditions.*
-# 🚀 Race Condition.
+## 🚀 Race Condition.
 The race condition appears when `multiple goroutines` try to access and update the shared data.
 They instead fail to update data properly and produce incorrect output. This condition is called race condition and happens due to repeated thread access.
 (Basically race condition means you have made a call for code block to perform its job and mean before completing 
 the processing we are again calling which will lead to race condition)
-### 🎨 1. Here is a code example of a program that encounters race conditions:-
+### 🎨 1.1 Here is a code example of a program that encounters race conditions:-
 ```go
 package main
 import (
@@ -75,12 +75,12 @@ Some examples of the outputs are:-
 and so on..
 
 ---
-🙋‍♀️ Remember one thing, if you will check the output of the above program using the online compiler, you might get the same output 
+Remember one thing, if you will check the output of the above program using the online compiler, you might get the same output 
 every time(means no race condition) due to the deterministic nature. So use the local compiler like Visual Studio or CMD to see the results.
 ### Now Let's solve the above code using Mutex:-
 In the program above, we spawn 1000 Goroutines. If each increments the value of x by 1, the final desired value of x should be 1000. 
 In this section, we will fix the race condition in the program above using a mutex.<br />
-### 🎨 1.1 *Here is an example of a program which how race condition is fixed using Mutex.*
+### 🎨 1.2 *Here is an example of a program which how race condition is fixed using Mutex.*
 ```go
 package main
 import (
@@ -154,7 +154,7 @@ We have to use the `unlock` which means each time when the code block is complet
 The y value is 1001
 ```
 ## 🛎 Conclusion:-
-From this article we saw the basic concept of the mutex in the go language, we saw the working of the mutex and we also saw about the syntax of the mutex.
-We focused on the some of the important examples of the mutex which can be used for real world. I hope this article helps you learn more about Golang features 😃.
+From this article we saw the basic concept of the mutex in the go language, we saw the working of the mutex and we also saw the syntax of the mutex.
+We focused on some of the important examples of the mutex which can be used for the real world. I hope this article helps you learn more about Golang’s features 😃.
 ### 🥳 Now you are familiar with Mutex.
 ## Thanks for Reading! ✨
