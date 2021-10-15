@@ -51,15 +51,16 @@ It is intuitively clear that if the function f(x) is "good" (smooth), and xi is 
 Let's use the calculation of function f(x) = x2 - 4x - 7 taking initial guess as x = 5 using the Newton's Method to determine an approximation to the root that is accurate to at least within 10<sup>-9</sup>.
 Now, the information required to perform the Newton Raphson Method is as follow:
 
--> f(x) = x2 - 4x - 7,
--> Initial Guess x0 = 5,
--> f´(x) = g(x) = 2x - 4,
--> And tolerance e = 10-9
+- f(x) = x2 - 4x - 7,
+- Initial Guess x0 = 5,
+- f´(x) = g(x) = 2x - 4,
+- And tolerance e = 10-9
 
 ### C++ Implementation 
 
 ...
-* #include <iostream>
+...
+#include <iostream>
 #include <math.h>
 #include<iomanip>
 #include<chrono>
@@ -147,4 +148,6 @@ auto start = high_resolution_clock::now();
   cout<<"\nRoot = "<<x<<endl;
   cout<<"f(x)="<<function(x)<<endl;
   cout << duration.count()<<" microseconds"<< endl; 
-} *
+}
+...
+...
