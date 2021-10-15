@@ -12,7 +12,9 @@ If we already know xi, we may compute xi+1 in the following way. Find the locati
 The formula obtained is, 
 <p align="center"> x<sub>i+1</sub> = x<sub>i</sub>− [ f(x<sub>i</sub>) / f′(x<sub>i</sub>) ]</p>
 It is intuitively clear that if the function f(x) is "good" (smooth), and xi is close enough to the root, then xi+1 will be even closer to the desired root.  
-...  
+
+. . .  
+
 1. Start
 
 2. Define function as f(x)
@@ -44,7 +46,8 @@ It is intuitively clear that if the function f(x) is "good" (smooth), and xi is 
 7. Print root as x(i+1)
 
 8. Stop  
-...  
+
+. . .  
 
 
 ## Application of Newton's method
