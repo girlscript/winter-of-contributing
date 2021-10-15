@@ -31,34 +31,36 @@ in a random manner that all the combinations are equally likely.
 #include <time.h>
 using namespace std;
 //shuffle function will produce the array with a different shuffled combination 
-void shuffle(int arr[],int n) 
+void shuffle (int arr[], int n)
 {
-srand(time(NULL));  //srand produces a starting point for the sequence of random number generated   
-for(int i=n-1;i>0;i--)
+  srand (time (NULL));		//srand produces a starting point for the sequence of random number generated   
+  for (int i = n - 1; i > 0; i--)
+    {
+      int j = rand () % (i + 1);	//rand() will generate any random positive number 
+      //any positive number modulo i+1 will generate a number from 0 t0 i
+      int temp = arr[i];
+      arr[i] = arr[j];
+      arr[j] = temp;
+    }
+  for (int i = 0; i < n; i++)	//print the elements of shuffled array
+    cout << arr[i] << " ";
+}
+
+int main ()
 {
-int j=rand()%(i+1); //rand() will generate any random positive number 
-                   //any positive number modulo i+1 will generate a number from 0 t0 i
-int temp=arr[i]; 
-arr[i]=arr[j];
-arr[j]=temp;
+  int arr[10];
+  int n = sizeof (arr) / sizeof (arr[0]);	//number of elements in array
+  cout << "Enter elements\n";
+  for (int i = 0; i < n; i++)
+    cin >> arr[i];
+  cout << "Elements before shuffle\n";
+  for (int i = 0; i < n; i++)
+    cout << arr[i] << " ";
+  cout << "\nElements after shuffle\n";
+  shuffle (arr, n);
+  return 0;
 }
-for(int i=0;i<n;i++)   //print the elements of shuffled array
-cout<<arr[i]<<" ";
-}
-int main()
-{
-int arr[10];
-int n = sizeof(arr) / sizeof(arr[0]); //number of elements in array
-cout<<"Enter elements\n";
-for(int i=0;i<n;i++)
-cin>>arr[i];
-cout<<"Elements before shuffle\n";
-for(int i=0;i<n;i++)
-cout<<arr[i]<<" ";
-cout<<"\nElements after shuffle\n";
-shuffle(arr,n);
-return 0;
-}
+
 ```
 **Input**  
 > Enter elements   
