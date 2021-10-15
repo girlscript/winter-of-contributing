@@ -11,8 +11,8 @@ The method's input parameters include not only the function f(x), but also a sta
 If we already know xi, we may compute xi+1 in the following way. Find the location on the x-axis where the tangent to the graph of the function f(x) intersects. The x-coordinate of the discovered location is set to xi+1, and we start over.
 The formula obtained is, 
 <p align="center"> x<sub>i+1</sub> = x<sub>i</sub>− [ f(x<sub>i</sub>) / f′(x<sub>i</sub>) ]</p>
-It is intuitively clear that if the function f(x) is "good" (smooth), and xi is close enough to the root, then xi+1 will be even closer to the desired root.
-...
+It is intuitively clear that if the function f(x) is "good" (smooth), and xi is close enough to the root, then xi+1 will be even closer to the desired root.  
+...  
 1. Start
 
 2. Define function as f(x)
@@ -43,8 +43,8 @@ It is intuitively clear that if the function f(x) is "good" (smooth), and xi is 
 
 7. Print root as x(i+1)
 
-8. Stop
-...
+8. Stop  
+...  
 
 
 ## Application of Newton's method
@@ -61,10 +61,10 @@ Now, the information required to perform the Newton Raphson Method is as follow:
 . . .  
 . . .  
 
-#include <iostream>  
-#include <math.h>  
-#include <iomanip>  
-#include <chrono>  
+#include  <iostream>  
+#include  <math.h>  
+#include  <iomanip>  
+#include  <chrono>  
 using namespace std::chrono;   
 using namespace std;  
 int N= 1000;   //  max iterations  
