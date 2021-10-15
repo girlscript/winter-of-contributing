@@ -1,6 +1,6 @@
 # Vue.Js
 
-Vue.js is an **open-source model–view–viewmodel front end JavaScript framework** for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.
+Vue.js is an **open-source model–view–viewmodel front end JavaScript framework** for building user interfaces and single-page applications. It was created by **Evan You**, and is maintained by him and the rest of the active core team members.
 
 - Vue.js lets you extend HTML with HTML attributes called directives
 - Vue.js directives offers functionality to HTML applications
@@ -17,6 +17,37 @@ In short, Vue.js makes front-end web development easier and more exciting than i
 **_Vue.js uses double braces {{ }} as place-holders for data._**
 
 **_Vue.js directives are HTML attributes with the prefix v-_**
+
+## Installation
+
+There are many ways to install VueJS. Some of the ways on how to carry out the installation are discussed ahead.
+
+1. **Using the ```<script>``` tag directly in HTML file**
+
+```html
+<html>
+   <head>
+      <script type = "text/javascript" src = "vue.min.js"></script>
+   </head>
+   <body></body>
+</html>
+```
+
+Go to the home site [LINK](https://vuejs.org/v2/guide/installation.html) of VueJS and download the vue.js as per need. There are two versions for use - production version and development version. The development version is not minimized, whereas the production version is minimized as shown in the following screenshot. Development version will help with the warnings and debug mode during the development of the project.
+
+<img src= "installation 1.png">
+
+2. **Using CDN**
+
+We can also start using VueJS file from the CDN library. The link [LINK](https://unpkg.com/vue) will give the latest version of VueJS. VueJS is also available on jsDelivr [LINK](https://cdn.jsdelivr.net/npm/vue/dist/vue.js) and cdnjs [LINK](https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.0/vue.js).
+
+We can host the files at our end, if required and get started with VueJS development.
+
+3. **Using NPM**
+
+For large scale applications with VueJS, it is recommended to install using the npm package. It comes with Browserify and Webpack along with other necessary tools, which help with the development. Following is the command to install using npm.
+
+```npm  install vue```
 
 ## Components
 
@@ -187,4 +218,4 @@ As Vue.js is still in the development phase, support for important plugins is mi
 
 _Overall, Vue.js is a powerful framework for developing user-interface. Its small size and customization features make it a solid choice for developers looking for user-friendly framework for web applications. Most of the drawbacks of Vue.js can be rectified easily keeping developers optimistic that this framework will continue to improve in the future._
 
-__Contributor :__ [Sakshi Mishra](https://github.com/SakshiMishra1) :heart: 
+__Contributor :__ [Sakshi Mishra](https://github.com/SakshiMishra1) :heart:
