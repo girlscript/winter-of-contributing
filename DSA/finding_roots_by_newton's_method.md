@@ -62,8 +62,8 @@ Now, the information required to perform the Newton Raphson Method is as follow:
 . . .  
 #include <iostream>  
 #include <math.h>  
-#include<iomanip>  
-#include<chrono>  
+#include <iomanip>  
+#include <chrono>  
 using namespace std::chrono;   
 using namespace std;  
 int N= 1000;   //  max iterations  
@@ -94,18 +94,18 @@ int main() {
 }  
 
 static double function(double x)    // f(x)  
-{
+{  
   return  pow(x,2) - 4*x -7;  
 }  
 
 
 double derivFunc(double x)   // f'(x) = g(x)  
-{
+{  
     return  2*x - 4 ;  
 }  
 
 void newtonRaphson(double x, double precision)  
-{
+{  
 
 int iter=0;  
 
@@ -123,23 +123,23 @@ auto start = high_resolution_clock::now();
   double h = function(x) / derivFunc(x);  
   
   do  
-  {
+  {  
     
     h = function(x)/derivFunc(x);     
 
     // x(i+1) = x(i) - f(x) / f'(x)  
         x = x - h;
 
-    iter++;
-    cout<<setprecision(10)<<setw(3)<<iter<<setw(25)<<x<<setw(20)<<function(x)<<endl;
+    iter++;  
+    cout<<setprecision(10)<<setw(3)<<iter<<setw(25)<<x<<setw(20)<<function(x)<<endl;  
 
-    if (iter > N)
-    {
-      cout<<" Not Convergent";
-      break;
-    }
+    if (iter > N)  
+    {  
+      cout<<" Not Convergent";  
+      break;  
+    }  
 
-  }  
+  }   
 	while (fabs(function(x))>=precision);  
 
   auto stop = high_resolution_clock::now();  
