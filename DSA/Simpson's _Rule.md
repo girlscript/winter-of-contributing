@@ -102,7 +102,7 @@ int main()
  for(i=1; i<= subInterval-1; i++)
  {
   k = lower + i*stepSize;
-
+  // This will ensure if given number is even 
   if(i%2==0)
   {
     integration = integration + 2 * (f(k));
@@ -115,7 +115,7 @@ int main()
  }
 
  integration = integration * stepSize/3;
-
+ // printing the value after integration
  cout<< endl <<"Required value of integration is: "<< integration;
 
  return 0;
@@ -176,3 +176,9 @@ int main()
 	return 0;
 }
 ```
+
+## Time complexity of Simpson's Rule :clock1230:
+
+**Time complexity for This Rule is = O(n)** 
+<hr>
+because more terms for f(x0), f(xn). The number of terms used for the Simpson rule for a given n is linear to n. Assuming multiplication is constant and the function complexity is constant, we note the summation formula i.e From the summation term **∑k=2(n-1)/2** , we can easily state that there are **[(n-1)/2 - 2 + 1]** terms to determine that the time complexity of the Simpson rule is O(n), it runs in linear time.
