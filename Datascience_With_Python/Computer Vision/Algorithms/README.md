@@ -13,5 +13,6 @@ An overview explaining the code for ViT. (Do check the notebook file in the curr
 
 ## Link to the video ⬇
 
-[![image](https://user-images.githubusercontent.com/30192967/137440669-f45c61d5-a3e5-4413-a5e0-fc901344624e.png)](https://youtu.be/3QTltiwcncc)
+[![image](https://user-images.githubusercontent.com/30192967/137445295-caf1d364-38e2-4049-9fab-cd3e39954b8b.png)](https://youtu.be/3QTltiwcncc)
+
 
