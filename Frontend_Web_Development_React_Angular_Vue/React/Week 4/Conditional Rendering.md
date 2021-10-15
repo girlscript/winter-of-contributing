@@ -131,24 +131,130 @@ This code would render the following output:
 
 ![](./assets/cr_example3.JPG)
 
-#### Example 4:Conditional inline if-else
+#### Example 4:Using switch case
 
-#### Example 5:Using switch case
+Role.js
 
-#### Example 6:Using ternary operator
+```
+import React from "react";
 
-#### Example 7:Using Enums
+const Role = ({ role }) => {
+  switch (role) {
+    case "author":
+      return <h1>What will you write today?</h1>;
+    case "admin":
+      return <h1>Your latest reports </h1>;
+    case "moderator":
+      return <h1>Your ongoing events</h1>;
+    default:
+      return <h1>Your current feed</h1>;
+  }
+};
 
-#### Example 8:Using Enhanced JSX libraries like Babel
+export default Role;
 
-#### Preventing component from rendering
+```
 
-Give some example of the Conditional Rendering
-also give some theory explanation with code.
+App.js
+
+```
+import React from "react";
+import Role from "./components/Role";
+
+const App = () => {
+  return (
+    <div>
+      <Role />
+      <br />
+      <Role role="author" />
+      <br />
+      <Role role="moderator" />
+      <br />
+      <Role role="admin" />
+    </div>
+  );
+};
+
+export default App;
+
+```
 
 This code would render the following output:
 
-![](./assets/useEffect_example3.JPG)
+![](./assets/cr_example4.JPG)
+
+#### Example 5:Using ternary operator
+
+```
+import React, { useState } from "react";
+
+const App = () => {
+  const [isOrange, setOrange] = useState(false);
+  return (
+    <div>
+      <h1 style={{ color: isOrange ? "orange" : "" }}>Color changes</h1>
+      <button onClick={() => setOrange(!isOrange)}>
+        Click to change color
+      </button>
+    </div>
+  );
+};
+
+export default App;
+
+
+```
+
+This code would render the following output:
+
+![](./assets/cr_example5_part1.JPG) ![](./assets/cr_example5_part2.JPG)
+
+#### Example 6:Using Enums
+
+```
+import React from "react";
+
+const App = () => {
+  const Foo = () => {
+    return <button>FOO</button>;
+  };
+  const Bar = () => {
+    return <button>BAR</button>;
+  };
+  const Default = () => {
+    return <button>DEFAULT</button>;
+  };
+  const ENUM_STATES = {
+    foo: <Foo />,
+    bar: <Bar />,
+    default: <Default />,
+  };
+  function EnumState({ state }) {
+    return <div>{ENUM_STATES[state]}</div>;
+  }
+  return (
+    <div>
+      <h1>Conditional Rendering with enums</h1>
+      <EnumState state="default"></EnumState>
+      <EnumState state="bar"></EnumState>
+      <EnumState state="foo"></EnumState>
+    </div>
+  );
+};
+
+export default App;
+
+
+```
+
+This code would render the following output:
+
+![](./assets/cr_example6.JPG)
+
+Using Enhanced JSX libraries like Babel
+
+Give some example of the Conditional Rendering
+also give some theory explanation with code.
 
 ## Additional Resources:
 
