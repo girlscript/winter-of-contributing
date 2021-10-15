@@ -4,3 +4,4 @@
 - [Sparse Matrix and Polynomials Addition](Sparse%20Matrix%20and%20Polynomials%20Addition)
 - [ARRAY CONCEPT(VIDEO)](./concept%20of%20array%20in%20c%2B%2B(video))
 - [Pre Sum Array](Pre%20Sum%20Array)
+- [arrays basic questions](C_CPP/Data%20Structures/Array/arrays.md)
