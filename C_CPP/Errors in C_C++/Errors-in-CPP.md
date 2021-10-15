@@ -16,7 +16,7 @@ Syntax errors occurs when variables or statements are misspelled, when punctions
 
 ### Example:
 
-```C++
+```Cpp
 #include <iostream>
 using namespace std;
 
@@ -38,7 +38,7 @@ results.
 
 ### Example:
 
-```C++
+```Cpp
 #include <iostream>
 using namespace std;
 
@@ -57,7 +57,7 @@ int main()
 
 In this we want to print "Hello" three times, but because we added semicolon to the end of the loop, it prints only once.
 
-```C++
+```Cpp
 #include <iostream>
 using namespace std;
  
@@ -84,7 +84,7 @@ This kind of error generally occurs when the code is correct with respect to syn
 
 ### Example:
 
-```C++
+```Cpp
 #include <iostream>
 using namespace std;
 
@@ -103,7 +103,7 @@ int main()
 It must be return as " ans= a+b; " to get the desired output of ans as 3.
 
 
-```C++
+```Cpp
 #include <iostream>
 using namespace std;
  
@@ -126,11 +126,11 @@ In this it must be x>10, only then the output will be as desired. Because, 10 gr
 
 ## Run-Time Errors
 
-During execution, this kind of errors generally occurs. Compilation occurs successfully because this is not a compilation error. For instance, dividing a number by 0 results in run-time error.
+During execution, this kind of errors generally occurs. Compilation occurs successfully because this is not a compilation error. For instance, dividing a number by 0 results in run-time error.ALso an infinite loop, when a wrong value is entered(like when an integer is expected by user, but he/she enters a string) causes this kind of error.
 
 ### Example:
 
-```C++
+```Cpp
 #include <iostream>
 using namespace std;
 
@@ -148,13 +148,37 @@ int main()
 
 The program crashes at the runtime.
 
+
+```Cpp
+#include <iostream>
+using namespace std;
+ 
+int main () 
+{
+  int x;
+  cin>>x;
+  if(x>10)
+    cout<<x<<" is greater than 10";
+  else
+    cout<<x<<" is lesser than 10";
+}
+
+```
+
+### Output:
+
+> eleven  <br>
+> 0 is lesser than 10  <br>
+
+Integer input is expected, but a string is entered. So, we won't be able to get a desired output.
+
 ## Linker Errors
 
 When the program is compiled successfully and trying to link up with the other object file along with the main object file, this kind of error occurs. So, execution is not generated. For instance, writing wrong function prototype causes this error.
 
 ### Example:
 
-```C++
+```Cpp
 #include <iostream>
 using namespace std;
 
