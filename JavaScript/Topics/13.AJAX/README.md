@@ -56,6 +56,15 @@ To send a request to a server, you can use the open() and send() methods of the 
 xhttp.open("GET", "ajax_info.txt");
 xhttp.send();
 ```
+---
+## Method |  description
+----------|-------------
+open(url, method, async) | Specifies the type of requests method: the type of request: GET or POST url: the server (file) location async: true (asynchronous) or false (synchronous)
+send()  | send the request to the servers(used for GET)
+send(string) | send the request to the servers(used for POST)
+---
+<br>
+<br>
 
 Example:
 
@@ -69,6 +78,42 @@ oReq.addEventListener("load", reqListener);
 oReq.open("GET", "http://www.something.org/example.txt");
 oReq.send();
 ```
+
+## GET or POST?
+GET is simpler and faster than POST, and can be used in most cases.
+
+However, always use POST requests when:
+
+A cached file is not an option (update a file or database on the server).
+Sending a large amount of data to the server (POST has no size limitations).
+Sending user input (which can contain unknown characters), POST is more robust and secure than GET.
+
+
+### Getting a GET request
+
+```js
+const Http = new XMLHttpRequest();
+const url='http://yourdomain.com/';
+Http.open("GET", url);
+Http.send();
+Http.onreadystatechange=(e)=>{
+console.log(Http.responseText)
+}
+```
+### Getting a POST request
+
+```JS
+var xhr = new XMLHttpRequest();
+xhr.open("POST", '/submit', true);
+xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+xhr.onreadystatechange = function() {
+    if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+        // Request finished. Do processing here.
+    }
+}
+xhr.send("name=Ketan&id=1");
+```
+
 
 *Note: XMLHttpRequest is old/orginal way of sending requests via javascript. It Does not support promises, so a lot of callbacks are used while making such a request*
 
