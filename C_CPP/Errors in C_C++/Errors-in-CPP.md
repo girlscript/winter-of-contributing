@@ -33,6 +33,8 @@ int main()
 ## Logical Errors
 
 Even if the syntax and other things are correct, then also we may not be able to get the desired/correct output due to logical issues. This is nothing but called as logical errors. At times, we add a semicolon after the loop accidentally which is correct with the syntax but it creates a blank loop. In that case it won't show the wanted output.
+Also, when we assign a value to the wrong variable, then it may cause a series of unexpected program errors. When 2 numbers are multiplied instead of adding may produce unwanted 
+results.
 
 ### Example:
 
