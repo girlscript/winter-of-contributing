@@ -10,3 +10,4 @@ We need to solve the equation by finding its root on the interval [a,b], f(x) is
 The method's input parameters include not only the function f(x), but also a starting approximation - some x0 - with which the procedure begins.
 If we already know xi, we may compute xi+1 in the following way. Find the location on the x-axis where the tangent to the graph of the function f(x) intersects. The x-coordinate of the discovered location is set to xi+1, and we start over.
 The formula obtained is, 
+<p align="center"> x<sub>i+1</sub>=x<sub>i</sub>− [ f(x<sub>i</sub>) / f′(x<sub>i</sub>) ]</p>
