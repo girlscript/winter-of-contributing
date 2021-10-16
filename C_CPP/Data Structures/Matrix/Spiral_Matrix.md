@@ -1,7 +1,24 @@
-#### Code 💻
-# For storing elements of array in spiral matrix!
-![spiral_matrix](https://user-images.githubusercontent.com/75174930/137186374-46765111-021d-496d-8f4a-3125313c00df.jpg)
+# Spiral Matrix
 
+# For storing elements of array in spiral matrix
+A matrix that stores elements of given array in spiral manner i.e. the numbers are stored sequentially as you go around the edges starting from top left corner of the matrix, spiraling inwards.
+
+## Sample Input:
+```
+3 3
+1 2 3 4 5 6 7 8 9
+```
+
+## Output:
+```
+1 2 3
+8 9 4
+7 6 5
+```
+## Explanation
+![ht](https://user-images.githubusercontent.com/75174930/137589746-f5361d23-f361-4036-88c9-8377529fad45.jpeg)
+
+#### Code 💻
 ```CPP
 #include <bits/stdc++.h>
 using namespace std;
@@ -82,22 +99,28 @@ int main()
 }
 ```
 
+
+# For returning elements of matrix in spiral order
+An array that holds elements of given matrix in spiral order i.e. the numbers are copied sequentially as you go around the edges starting from top left corner of the matrix, spiraling inwards.
+
+
 ## Sample Input:
 ```
 3 4
-1 2 3 4 5 6 7 8 9 10 11 12
-```
-
-## Output:
-```
 1 2 3 4
-10 11 12 5
-9 8 7 6 
+5 6 7 8
+9 10 11 12
 ```
 
-
-# For returning elements of matrix in spiral order
+## OUTPUT:
 ```
+1 2 3 4 8 12 11 10 9 5 6 7
+```
+## Explanation
+![spiral_array](https://user-images.githubusercontent.com/75174930/137590236-26daf094-aebd-422d-9def-0cf04d07cebb.jpg)
+
+#### Code 💻
+```CPP
 #include <bits/stdc++.h>
 using namespace std;
 int main()
@@ -180,16 +203,3 @@ int main()
 }
 ```
 
-## Sample Input:
-```
-4 3
-1 2 3
-4 5 6
-7 8 9
-10 11 12
-```
-
-## OUTPUT:
-```
-1 2 3 6 9 12 11 10 7 4 5 8
-```
