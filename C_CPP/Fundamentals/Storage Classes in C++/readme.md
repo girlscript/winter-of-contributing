@@ -1,1 +1,2 @@
 - [Storage Classes in C++](Storage_Classes.md)
+- [Storage Classes Audio](https://github.com/girlscript/winter-of-contributing/blob/6e4599420e6f57f404812963e744186374c3657d/C_CPP/Fundamentals/Storage%20Classes%20in%20C++/Storage%20Classes_Audio.md)
