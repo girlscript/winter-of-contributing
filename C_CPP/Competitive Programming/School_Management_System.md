@@ -5,10 +5,11 @@
 ``` cpp
 /*STUDENTS RECORDS*/
 
-#include <iostream.h>
-#include <conio.h>
+#include <iostream>
 #include <stdio.h>
-#include <fstream.h>
+#include <fstream>
+
+using namespace std; 
 
 /*a program to store a data into file read contents of a file, search, modify,
 delete a record*/
@@ -19,24 +20,28 @@ class student
       char name[20];                           //A class that consists of student's information
       int age;
       public:
-      void getdata(void);
-      void putdata(void);
+      int getdata(void);
+      int putdata(void);
       int getroll(void);
 };
 
-void student :: getdata()
+int student :: getdata()
 {
       cout<<"Enter rollno";
       cin>>roll;                     //To input student's roll no.
       cout<<"Enter name";
-      gets(name);                    //To input student's name
+      cin>>name;                    //To input student's name
       cout<<"Enter age";
-      cin>>age;                      //To input student's age
+      cin>>age;         //To input student's age
+
+      return 0;
 }
 
-void student :: putdata()
+int student :: putdata()
 {
       cout<<roll<<"\t"<<name<<"\t"<<age<<endl;
+
+      return 0;
 }
 
 int student :: getroll()
@@ -45,14 +50,13 @@ int student :: getroll()
 }
 student s;
 
-void main()
+int main()
 {
-      clrscr();
-      void write_file();
-      void read_file();
-      void search();
-      void modify();
-      void Delete();
+      int write_file();
+      int read_file();
+      int search();
+      int modify();
+      int Delete();
       int c;
 do
 {
@@ -77,18 +81,22 @@ do
       Delete();
 }
       while (c != 6);
-      getche();
+      cin.get();
+      return 0;
+      
 }
 
-void write_file()
+int write_file()
 {
       ofstream afile("student.dat",ios::binary|ios::app);                   //A function to write in the file
       s.getdata();
       afile.write((char*)&s,sizeof(s));
       afile.close();
+      cin.get();
+      return 0;
 }
 
-void read_file()
+int read_file()
 {
       ifstream bfile("student.dat",ios::binary);                          //A function to open the file in the read mode
       while(bfile.read((char*)&s,sizeof(s)))
@@ -96,9 +104,12 @@ void read_file()
       s.putdata();
       }
       bfile.close();
+      cin.get();
+      return 0;
 }
 
-void search()
+
+int search()
 {
       int p = -1, r;
       ifstream cfile("student.dat",ios::binary);                         //A function that searches a student's record using his or her roll no.
@@ -114,11 +125,12 @@ void search()
       }
       if (p == -1)
       cout<<"\n record not found !!!!!!";
-      getche();
       cfile.close();
+      cin.get();
+      return 0;
 }
 
-void modify()
+int modify()
 {
       int p = -1, r, t = 0;
       cout<<"Enter the rollnumber";                                    //A function that helps to modify the student's record
@@ -137,11 +149,13 @@ void modify()
      }
       if (p == -1)
       cout<<"\n record not found !!!!";
-      getche();
       dfile.close();
+      cin.get();
+      return 0; 
+    
 }
 
-void Delete()
+int Delete()
 {
       int r;
       ifstream efile("student.dat",ios::binary);                         //A function that removes a student's record from the file
@@ -157,10 +171,12 @@ void Delete()
       }
       remove("student.dat");
       rename("temp.dat","student.dat");
-      getche();
       efile.close();
       ffile.close();
+      cin.get();
+      return 0;
 }
+
 
 ```
 
