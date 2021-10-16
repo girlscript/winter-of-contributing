@@ -30,20 +30,37 @@ int main()
 	int index=0;
 	for(int x=0;x<n;x++)
 	{
+		//if statements used here ensures that we never exceed size of array(n*m) and store garbage values
+		if(index>=n*m)
+		{
+			break;
+		}
 		for(int col=x;col<=m-x-1;col++)
 		{
 			spiral[x][col]=array[index];
 			index=index+1;
+		}
+		if(index>=n*m)
+		{
+			break;
 		}
 		for(int row=x+1;row<=n-x-1;row++)
 		{
 			spiral[row][m-x-1]=array[index];
 			index=index+1;
 		}
+		if(index>=n*m)
+		{
+			break;
+		}
 		for(int col=m-x-2;col>=x;col--)
 		{
 			spiral[n-x-1][col]=array[index];
 			index=index+1;
+		}
+		if(index>=n*m)
+		{
+			break;
 		}
 		for(int row=n-x-2;row>=x+1;row--)
 		{
@@ -110,30 +127,47 @@ int main()
 	//outer loop runs n times
 	for(int x=0;x<n;x++)
 	{
-		//for traversing from top left to rightwards
-		for(int col=x;col<=m-x-1;col++)
- 		{
-			array[index]=matrix[x][col];
-			index=index+1;
-		}
-		//for traversing from top right to downwards
-		for(int row=x+1;row<=n-x-1;row++)
-		{
-			array[index]=matrix[row][m-x-1];
-			index=index+1;
-		}
-		//for traversing from bottom right to leftwards
-		for(int col=m-x-2;col>=x;col--)
-		{
-			array[index]=matrix[n-x-1][col];
-			index=index+1;
-		}
-		//for traversing from bottom left to upwards
-		for(int row=n-x-2;row>=x+1;row--)
-		{
-			array[index]=matrix[row][x];
-			index=index+1;
-		}
+	    //if statements used here ensures that we never exceed size of array(n*m)
+	    if(index>= m*n)
+	    {
+	        break;
+	    }
+	    //for traversing from top left to rightwards
+	    for(int col=x;col<=m-x-1;col++)
+	    {
+		array[index]=matrix[x][col];
+		index=index+1;
+	    }
+	    if(index>= m*n)
+	    {
+	        break;
+	    }
+	    //for traversing from top right to downwards
+	    for(int row=x+1;row<=n-x-1;row++)
+	    {
+	    	array[index]=matrix[row][m-x-1];
+		index=index+1;
+	    }
+	    if(index>= m*n)
+	    {
+	        break;
+	    }
+	    //for traversing from bottom right to leftwards
+	    for(int col=m-x-2;col>=x;col--)
+	    {
+	    array[index]=matrix[n-x-1][col];
+	    index=index+1;
+	    }
+	    if(index>= m*n)
+	    {
+	        break;
+	    }
+	    //for traversing from bottom left to upwards
+	    for(int row=n-x-2;row>=x+1;row--)
+	    {
+		array[index]=matrix[row][x];
+		index=index+1;
+	    }
 	}
 	//we will now print the array
 	for(int i=0;i<n*m;i++)
