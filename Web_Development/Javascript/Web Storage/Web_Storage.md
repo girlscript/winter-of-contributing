@@ -53,7 +53,9 @@ The localStorage object stores the data with no expiration date. The data will n
 
 Example explained:
 - Create a localStorage name/value pair with name="lastname" and value="Smith"
+- Now go to the application tab which is inside devtools of any browser, and in application tab there is local storgae which includes the key and value column and you will see     "lastname" into key column and "Smith" into value column.
 - Retrieve the value of "lastname" and insert it into the element with id="result
+- now this will print "Smith"
 
 ### The sessionStorage Object:
 
@@ -98,7 +100,16 @@ The following example counts the number of times a user has clicked a button, in
 
  Output:
 
- ![output](https://user-images.githubusercontent.com/55904928/137079262-7fa2b512-1873-4075-88eb-7c7c5bf12d13.jpeg)      
+ ![output](https://user-images.githubusercontent.com/55904928/137079262-7fa2b512-1873-4075-88eb-7c7c5bf12d13.jpeg)
+ 
+ Example Explained:
+ - first it will check that there is clickcount key is present or not in session storage if it is not present then it will set the key "clickcount" and value of this key is 1
+ - now if you click on the "click me" button then the value of clickcount is get incremented by 1
+ - you can check session storage in devtools and no. of times you clicked, you will see the value of clickcount in value column.
+ - now if you close the browser tab then then counter is reset and value of clickcounnt would be 0.  
+ 
+
+      
 
 # Happy Learning ✌
 
