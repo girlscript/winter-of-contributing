@@ -19,5 +19,7 @@ There are a number of predefined keywords available for popular options. For exa
 ### OUTPUT
     below video shows the change in animation time using the keyword.
     
+    https://user-images.githubusercontent.com/54473091/137598173-cd53fbd5-0bad-4fcc-831b-b77dcdbda6c5.mp4
+    
 ### REFERENCE
        [Refernce link 1](https://www.freecodecamp.org/)
