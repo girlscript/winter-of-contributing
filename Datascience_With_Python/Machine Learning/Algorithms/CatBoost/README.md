@@ -136,12 +136,18 @@ X=data.loc[:,data.columns!="Loan_Status"]
 Y=data.loc[:,data.columns=="Loan_Status"]
 ```
 
-
 Using sklearn train_test_split to divide dataset into Test and train spilt sets
 ```
 X_train, X_test, y_train, y_test = train_test_split(X, Y,test_size=0.2,random_state=0)
 ```
 
+```
+X_train.head()
+```
+
+```
+y_train.head()
+```
 
 Creating a CatBoostClassifier
 
