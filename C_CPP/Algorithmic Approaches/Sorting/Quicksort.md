@@ -30,28 +30,28 @@
 #include<iostream>
 using namespace std;
 
-void swap(int *x,int *y){
-   int t=*x;
+void swap(int *x,int *y){ //swap function
+   int t=*x; 
    *x=*y;
    *y=t;
 }
-int Partition(int a[], int l, int h) { 
-   int pivot=a[h]; 
-   int i = l-1; 
+int Partition(int a[], int l, int h) { //Partition function
+   int pivot=a[h]; //right element as pivot
+   int i = l-1; //   index set to left-1
    for(int j=l; j<=h-1; j++) {
-      if(a[j]<pivot) {
-         i++; 
-         swap(&a[i], &a[j]);
+      if(a[j]<pivot) { //check if traversed element is less than pivot
+         i++; //increment index
+         swap(&a[i], &a[j]); //swap the index element with traversed element
       }
    }
-   swap(&a[i+1],&a[h]);
-   return i+1;
+   swap(&a[i+1],&a[h]); //swap index+1 element with pivot
+   return i+1; // return pivot index
 }
 void QuickSort(int a[], int l, int h) { 
    if(l < h) {
-      int p = Partition(a, l, h);
-      QuickSort(a, l, p-1);
-      QuickSort(a, p+1, h);
+      int p = Partition(a, l, h); // call partition function 
+      QuickSort(a, l, p-1); //Quick sort for left half of pivot
+      QuickSort(a, p+1, h); //Quick sort for right half of pivot
    }
 }
 int main() {
@@ -61,9 +61,9 @@ int main() {
    for(int i = 0; i < n; i++) {
       cin>>a[i];
    }
-   QuickSort(a, 0, n-1);
+   QuickSort(a, 0, n-1); // Call quick sort with left and right index
    for (int i = 0; i < n; i++){
-      cout<<a[i]<<" ";
+      cout<<a[i]<<" "; // Print sorted array
    }
    return 0;
 }
