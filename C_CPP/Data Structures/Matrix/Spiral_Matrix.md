@@ -2,7 +2,7 @@
 # For storing elements of array in spiral matrix!
 [spiral_matrix](https://user-images.githubusercontent.com/75174930/137186374-46765111-021d-496d-8f4a-3125313c00df.jpg)
 
-```
+```CPP
 #include <bits/stdc++.h>
 using namespace std;
 int main()
