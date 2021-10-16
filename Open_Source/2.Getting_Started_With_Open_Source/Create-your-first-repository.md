@@ -1,4 +1,4 @@
-# Create your first repository📂
+# 📂Create your first repository📂
 ## Steps to be followed :📝
 ### 1. Create a GitHub account🐱
   * [Click here to get sign up/sign in](https://github.com/)
