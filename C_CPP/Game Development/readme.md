@@ -1,2 +1,2 @@
 - [SuperBall Game In C](SuperBall_Game_In_C.md)
-- [Snake Game 🐍](https://github.com/balasai45/winter-of-contributing/blob/6329b39e2255f62f91102ccbc424f411f2b4b751/C_CPP/Game%20Development/snake_game.md)
+- [Snake Game 🐍](snake_game.md)
