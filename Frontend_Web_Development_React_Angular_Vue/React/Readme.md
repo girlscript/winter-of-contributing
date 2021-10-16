@@ -20,7 +20,7 @@
 - [x] import, export, modules 
 - [x] React Props vs State 
 - [x] Mapping data to components 
-- [ ] Using the  React Developer Tools (Preferrably a video)
+- [x] Using the  React Developer Tools (Preferrably a video)
 ### Week 3 
 - [x] List and Keys 
 - [ ] Composition vs Inheritance 
