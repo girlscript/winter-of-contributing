@@ -188,6 +188,11 @@ accuracy_score(y_test,y_pred)
      </img>
 
 
+
+
+### Conclusion
+From starting we understand about CatBoost ,its features , its hyperparameters ,what is boosting and see other algorithms we have other then CatBoost then implement the CatBoost Classifier from importing Catboost and Dataset and then splitting dataset into test and training set and creating classifier for predication at last checked the accuracy using f1_score and accuracy_score.
+
 ### References
 
 - https://catboost.ai/
@@ -195,7 +200,7 @@ accuracy_score(y_test,y_pred)
 - https://towardsdatascience.com/4-easy-steps-for-implementing-catboost-c196fd82274b
 - https://en.wikipedia.org/wiki/Catboost
   
-### Contributor
+## Contributor
 
 - DSWP BATCH : 4
 - <a href="https://github.com/m0hit-kumar">MOHIT KUMAR   (GitHub : m0hit-kumar)</a> 
