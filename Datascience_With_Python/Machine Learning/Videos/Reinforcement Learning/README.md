@@ -1,16 +1,11 @@
 # Reinforcement Learning 
-# Video Link : [click here]() 
-<br>
-![img](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Reinforcement_learning_diagram.svg.png) 
-*RL - Img source Wikipedia*  
-<br> Machine Learning as defined by Arthur Samuel is &quot;the field of technology that gives computer ability to learn without being explicitly programmed&quot;. It is the most demanded skill that has attracted students belonging to the majors of engineering, mathematics, and data analytics. Machine Learning is the growing field that is further divided into three types.
+# Video Link : [click here](https://drive.google.com/file/d/19BRA0OOiUa77jszt3AOHyhtuy9MCMcWv/view?usp=sharing) 
 
+![img](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Reinforcement_learning_diagr.png) 
+<br> *RL - Img source Wikipedia* 
+<br> **Machine Learning** as defined by Arthur Samuel is &quot;the field of technology that gives computer ability to learn without being explicitly programmed&quot;. It is the most demanded skill that has attracted students belonging to the majors of engineering, mathematics, and data analytics. Machine Learning is the growing field that is further divided into four types.
 
 Types of machine Learning:
-1. Supervised Learning
-2. Unsupervised Learning
-3. Reinforcement Learning
-4. Recommender systems
 ![](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture1.png)
 *1. ML branches*
 
@@ -39,7 +34,7 @@ Before diving into depth in reinforcement learning, let&#39;s learn about its ba
 Reinforcement learning is ingrained in human civilisation as one of the effective teaching methodologies for past many years. Consider taming a pet. A pet, a dog or a cat is trained by series of award and punishment upon achieving or not the stipulated task. Here your pet is an agent which is the subjected to be train by series of test and trials in the environment which could be playground or house in general cases. Reward can be in the form of pet&#39;s favourite food if pet is able to undergo the action from the present state. Penalty shall be provided in the other case.
 
 ### Types of RL:
-
+Two type sof RL are:
 |   | Positive RL   |  Negative RL |   
 |---|---|---|
 | Definition | In this RL method, a stimulus presented to the agent upon the performed action and increases the possibility of action by the agent  | In this RL method, the stimulus that results in action by agent is removed hence it strengthen the likelihood of action.  |   
@@ -74,12 +69,18 @@ Consider an example where rabbit is an agent which has carrot and broccoli at it
 <br> ![test](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture3.png) *3 Image source : coursera*
 
 #### 2. Q learning:
+For basic understandinmg of Q-learning, knowldge of terms *exploration* and *exploitation* is requried. Let's decipher these terms first.
+- **Exploration** : An act of exploring the environmnt without knowing the next state.
+- **Exploitataion** : This act involves taking appropriate actions that would result in maximum award as the condition of next state is known by the agent.
+In RL, both the act of exploring and exploiting is necessary for agent to acheive the maximum value function. 
+<br> Q learning algorithm proceed in the following procedure: 
+![](https://cdn-media-1.freecodecamp.org/images/oQPHTmuB6tz7CVy3L05K1NlBmS6L8MUkgOud) *image source freecodecamp* 
 
-1. Used for learning optimal policy and Markov
-2. Example: optimal Q-function 
-3. Objective of q learning is that its optimal policy by learning optimal q value for each state action pair.
-4. Exploration and exploitation : act of exploring environment to find the information, exploitation maximize the award,
-<br> ![optimal Q-function](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture4.png)
+##### Explanation
+These steps are simplified as follows:
+- First step involves making a q-table that segregate the entire enviroment in to small equal peices and marked each piece with reward and penalty. A q-function is used here that takes two parameter of state and action. This function determine the next step selected by the agent. <br> ![optimal Q-function](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture4.png)
+- Step 2 and 3 requres agent to explore and exploit the environment in the search of reward and target value function. The agent will chose action based on the state of the envronment.
+- Q function is updated in 4th step based upon the reward or penalty acquired by the agent.
 
 ### Limitations of RL:
 
@@ -87,7 +88,7 @@ Although research in field of RL is taking its pace rapidly, few hurdles interpo
 
 ### Reinforcement Learning in contrast with supervised and unsupervised learning:
 
-In supervised learning, model is trained by providing the labelled dataset while in unsupervised learning, large unlabelled data is fed into system with the set of complex algorithms that enable that model to itself distinguish between different elements of dataset provided. However, RL takes an entirely different approach, it provided the agent with defined targets and rewards and punishment and agent must develop the strategy to gain rewards and minimize penalty while achieving the target during its interaction with the environment. Due to resonance with supervised learning on the provision of certain defined parameters fed to it, it is also referred to the subset of supervised learning.
+In supervised learning, model is trained by providing the labelled dataset while in unsupervised learning, large unlabelled data is fed into system with the set of complex algorithms that enable that model to itself distinguish between different elements of dataset provided. However, RL takes an entirely different approach, it provided the agent with defined targets and rewards and punishment and agent must develop the strategy to gain rewards and minimize penalty while achieving the target during its interaction with the environment. Due to resonance with supervised learning on the provision of certain defined parameters to the machine, it is also referred to the subset of supervised learning.
 
 ### Real-life applications of RL:
 Applications of Reinforcement learning are diverse ranging from games, automation industry, robotics, marketing, finance, healthcare, and military to name few. Below are listed major uses of RL.
@@ -113,6 +114,7 @@ Below I have listed some popular online resources of reinforcement learning for 
 4. [Reference 4](https://deepsense.ai/what-is-reinforcement-learning-the-complete-guide/)
 5. [Reference 5](https://www.guru99.com/reinforcement-learning-tutorial.html#:~:text=Two%20types%20of%20reinforcement%20learning,given%20sample%20data%20or%20example).
 6. [Reference 6](https://www.ias.informatik.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
+7. [Reference 7](https://www.freecodecamp.org/news/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc/)
 
 ### Contributor:
 Noor ul Huda - GWOC'21 Contributer in DSWP
