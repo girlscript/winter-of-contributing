@@ -1,9 +1,6 @@
 
 # CatBoost Algorithm
 
-https://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/
-https://towardsdatascience.com/4-easy-steps-for-implementing-catboost-c196fd82274b
-https://en.wikipedia.org/wiki/Catboost
 
 ##### Format : Documentation
 
@@ -191,8 +188,17 @@ accuracy_score(y_test,y_pred)
      </img>
 
 
+### References
 
+- https://catboost.ai/
+- https://www.analyticsvidhya.com/blog/2015/11/quick-introduction-boosting-algorithms-machine-learning/
+- https://towardsdatascience.com/4-easy-steps-for-implementing-catboost-c196fd82274b
+- https://en.wikipedia.org/wiki/Catboost
   
+### Contributor
+
+- DSWP BATCH : 4
+- <a href="https://github.com/m0hit-kumar">MOHIT KUMAR   (GitHub : m0hit-kumar)</a> 
 
 
 
