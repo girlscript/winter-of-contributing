@@ -20,10 +20,14 @@ Intro to Cluster Analysis – what is it, what are it’s different applications
 * Spectral Clustering
 
 # Types of Clustering
-1. Hierarchial Clustering
-2. K means Clustering
-3. Spatial Clustering(DBSCAN)
-4. Spectral Clustering
+1. Hierarchial Clustering<br><br>
+![](Images/Hierarchial%20Clustering.png)<br>
+2. K means Clustering<br><br>
+![](Images/K%20means%20Clustering.png)<br>
+3. Spatial Clustering(DBSCAN)<br><br>
+![](Images/Spatial%20clustering.png)<br>
+4. Spectral Clustering<br>
+ ![](Images/Spectral%20Clustering.png)
 
 # Requirements
 1. Scalability
