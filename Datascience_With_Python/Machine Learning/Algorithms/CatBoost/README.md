@@ -91,8 +91,7 @@ so we have to predict wheather a person will get a loan or not.
 
 The link for the data data that we will be working on is given  below:
 
-https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/data.csv
-
+https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/DS%20Datasets/Machine%20Learning/CatBoost%20Dataset.csv
 
 
 ```
