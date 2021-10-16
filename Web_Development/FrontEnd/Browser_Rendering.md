@@ -11,14 +11,20 @@ Note : - The DOM contruction process time will depend upon the size of html file
 
 ```html
 <!DOCTYPE html>
-<html>
-<head>
+ <html>
+
+  <head>
+
+  </head>
+        <body>
     
-</head>
-<body>
-    <p> This a paragraph tag </p>
-</body>
-</html>
+    
+           <p> This a paragraph tag </p>
+
+
+        </body>
+
+ </html>
 
 <!-- All the characters which are under angle brackets are changed into tokens .   -->
 ```
