@@ -177,4 +177,4 @@ function simpleExample<T>(arg: T): T{              //T stands for Type
   ```
 
     
- ~Wajiha Fatima | Contributor
+Contributor: [Wajiha Fatima](https://github.com/WajihaFatim)
