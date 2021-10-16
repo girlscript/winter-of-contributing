@@ -1,0 +1,113 @@
+Binary search:: Binary Search Algorithm is one of the widely used searching techniques. This searching 
+                technique follows the divide and conquer strategy. The search space always reduces to half in every iteration.
+
+Advantages of Binary Search Algorithm ::
+1.Since it follows the technique to eliminate half of the array elements, it is more efficient as compared to linear search for large data.
+2.Better time complexity and thus takes less compilation time. 
+3.An improvement over linear search as it breaks the array down in half rather than sequentially traversing through the array elements.
+
+Limitations of Binary Search Algorithm::
+1.Binary Search algorithm could only be implemented over a sorted array. 
+
+Binary Search Time Complexity::
+1.In each iteration, the search space is getting divided by 2. That means that in the current iteration you have to deal with half of the previous iteration array.
+2.And the above steps continue till beg<end
+3.Best case could be the case where the first mid-value get matched to the element to be searched
+4.Best Time Complexity: O(1)
+5.Average Time Complexity: O(logn)
+6.Worst Time Complexity: O(logn)
+
+
+code::
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int binary_search(int arr[],int n,int key){
+    int start=0;
+    int end=n-1;
+    int mid;
+    
+    while(start<=end){
+        int mid=start+(end-start)/2;
+        if(arr[mid]==key){
+            return mid;
+        }
+        else if(arr[mid]>key){
+            end=mid-1;
+        }
+        else{
+            start=mid+1;
+        }
+    }
+    return -1; // if key not found return -1
+}
+
+int main(){
+    int n,key;
+    cin>>n>>key;
+    int arr[n];
+    for(int i=0;i<n;i++){
+        cin>>arr[i];
+    }
+   int x= binary_search(arr,n,key);
+   cout<<x;
+    return 0;
+}
+
+
+
+### ques::Given a sorted array arr[] consisting of N integers, the task is to find the maximum among the count of positive or negative 
+integers in the array arr[].
+
+Input: arr[] = {-9, -7, -4, 1, 5, 8, 9}
+Output: 4
+Explanation:
+The count of positive numbers is 4 and the count of negative numbers is 3. So, the maximum among 4, 3 is 4. Therefore, print 4.
+
+
+code::
+
+
+#include "bits/stdc++.h"
+using namespace std;
+ 
+// Function to find the maximum of the
+// count of positive or negative elements
+int findMaximum(int arr[], int size)
+{
+ 
+    // Initialize the pointers
+    int i = 0, j = size - 1, mid;
+ 
+    while (i <= j) {
+ 
+        // Find the value of mid
+        mid = i + (j - i) / 2;
+ 
+        // If element is negative then
+        // ignore the left half
+ if (arr[mid] < 0)
+            i = mid + 1;
+ 
+        // If element is positive then
+        // ignore the right half
+        else if (arr[mid] > 0)
+            j = mid - 1;
+    }
+ 
+    // Return maximum among the count
+    // of positive & negative element
+    return max(i, size - i);
+}
+ 
+// Driver Code
+int main()
+{
+    int arr[] = { -9, -7, -4, 1, 5, 8, 9 };
+    int N = sizeof(arr) / sizeof(arr[0]);
+ 
+    cout << findMaximum(arr, N);
+ 
+    return 0;
+}
