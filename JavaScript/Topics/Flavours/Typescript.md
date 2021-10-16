@@ -3,7 +3,7 @@ Typescript is an open source programming language developed and maintained by Mi
 It is a strict syntactical superset of *javascript*,it means that it has all features of javascript ,and an additional layer on top of these.  
 
 The typescript is itself wriiten in typescript and compiled to plain javascript.So it can be run anywhere where javascript can be run.
-TypeScript knows the JavaScript language and will generate types for you in many cases. For example in creating a variable and assigning it to a particular value, TypeScript will use the value as its type.
+Typescript knows the Javascript language and will generate types for you in many cases. For example in creating a variable and assigning it to a particular value, Typescript will use the value as its type.
   
 **For example:**   
 
@@ -20,11 +20,11 @@ typescript will view ***c*** as char
 typescript will view ***name*** as string
 
 Another important reason to consider javascript is the enhanced IDE support,with typescript we get intellisense support ,ability to refactor code easily and the red squiggy line 
-whenever there is an error along with the desciption of that error.So this way we spend more time on coding nd less time on debugging.  
- ## Why Typescipt is better?  (from web dev zone )
+whenever there is an error along with the description of that error.So this way we spend more time on coding and less time on debugging.  
+ ## Why Typescript is better?  (from web dev zone )
 - Typescript make the javascript code more readable and make easy to debug.
 -  As we know  javascript does not support variable type which take more time to identify errors(during run time) so which typescript add natural syntax for providing types which helps in clearing the bugs easily.  
-- Another important reason to consider javascript is the enhanced IDE support,with typescipt we get intellisense support ,ability to refactor code easily and the red squiggy line 
+- Another important reason to consider javascript is the enhanced IDE support,with typescipt we get intellisense support ,ability to refactor code easily and the red squiggy line .
 whenever there is an error along with the desciption of that error.So this way we spend more time on coding and less time on debugging. 
 - Since it is open source ,it is always improving.
 - Typescript is a superset of ES3, ES5, and ES6 and provide all features along with more productivity.
@@ -79,7 +79,7 @@ whenever there is an error along with the desciption of that error.So this way w
 
 ## Defining types (from typescript official website)
 
-We can use a wide variety of design patterns in Javascript. However, some design patterns make it difficult for types to be inferred automatically (for example, patterns that use dynamic programming). To cover these cases, TypeScript supports an extension of the Javascript language, which offers places for you to tell Typescript what the types should be.
+We can use a wide variety of design patterns in Javascript. However, some design patterns make it difficult for types to be inferred automatically (for example, patterns that use dynamic programming). To cover these cases, Typescript supports an extension of the Javascript language, which offers places for you to tell Typescript what the types should be.
 
 **Example**
 let's create an object employee with name (string ) and emp_id(number)
@@ -109,7 +109,7 @@ emp_id : 101
  In typescript we can use simple types to make complex types.  
  
  ```
-type primeNumsUnderTen = 2| 3 | 5 | 7 |
+type primeNumsUnderTen = 2| 3 | 5 | 7 
 
 ```
 
@@ -140,7 +140,7 @@ function simpleExample<T>(arg: T): T{              //T stands for Type
   
   ## Generic Types
   
-  Like other functions generic functions can also be written like this (fucntion declaration)
+  Like other functions generic functions can also be written like this (function declaration)
   ```
   function simpleExample<T>(arg : T): T{              //T stands for Type
   return arg;
