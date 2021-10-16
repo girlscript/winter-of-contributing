@@ -115,8 +115,70 @@ Loan approval applicationn dataset
                 | Loan_Status       | int64   |     0   |      2  |
 
 
+```
+
+Loading Data
 
 ```
+data=pd.read_csv("data.csv")
+```
+
+Using head function to take a overview of data
+
+```
+data.head()
+```
+
+Seprating the X and Y from the data
+
+```
+X=data.loc[:,data.columns!="Loan_Status"]
+Y=data.loc[:,data.columns=="Loan_Status"]
+```
+
+
+Using sklearn train_test_split to divide dataset into Test and train spilt sets
+```
+X_train, X_test, y_train, y_test = train_test_split(X, Y,test_size=0.2,random_state=0)
+```
+
+
+Creating a CatBoostClassifier
+
+```
+model = CatBoostClassifier(task_type='GPU', iterations=150, 
+                              random_state = 2000, 
+                              eval_metric="F1")
+```
+
+
+Model Fitting
+
+```
+model.fit(X_train, y_train, cat_features= ["Credit_History"], plot=True,eval_set=(X_test, y_test))
+```
+
+Predicting the values for X_test
+
+```
+y_pred=model.predict(X_test)
+```
+
+
+Finding the accuracy of model using f1_score and accuracy_score
+
+```
+f1_score(y_test, y_pred)
+```
+
+
+```
+accuracy_score(y_test,y_pred)
+```
+
+
+
+
   
 
 
