@@ -53,7 +53,7 @@ int main()
 ```
 ### Output:
 
-> Hello <br>
+> Hello 
 
 In this we want to print "Hello" three times, but because we added semicolon to the end of the loop, it prints only once.
 
@@ -76,7 +76,7 @@ int main ()
 
 ### Output:
 
-> Average :25 <br>
+> Average :25 
 
 In this we want 15 as the output. But because of the missing brackets(which is a logic error), we won't get the desired output.
 
@@ -100,7 +100,7 @@ int main()
 
 ### Output Screenshot:
 
-<img src = "https://user-images.githubusercontent.com/76544476/136785693-bd4c9dcc-7c05-44a3-ba68-529c80cb796f.png" width="800" height="250">  <br>
+<img src = "https://user-images.githubusercontent.com/76544476/136785693-bd4c9dcc-7c05-44a3-ba68-529c80cb796f.png" width="800" height="250">  
 
 It must be return as " ans= a+b; " to get the desired output of ans as 3.
 
@@ -123,7 +123,7 @@ int main ()
 ### Output:
 
 > 10  <br>
-> 10 is greater than 10 <br>
+> 10 is greater than 10 
 
 In this it must be x>10, only then the output will be as desired. Because, 10 greater than 10 has no meaning.
 
@@ -147,7 +147,7 @@ int main()
 
 ### Output Screenshot:
 
-<img src = "https://user-images.githubusercontent.com/76544476/136786882-5705f085-99c6-406f-b340-39013e965324.png" width="700" height="150">  <br>
+<img src = "https://user-images.githubusercontent.com/76544476/136786882-5705f085-99c6-406f-b340-39013e965324.png" width="700" height="150">  
 
 The program crashes at the runtime.
 
@@ -173,7 +173,7 @@ int main ()
 ### Output:
 
 > eleven  <br>
-> 0 is lesser than 10  <br>
+> 0 is lesser than 10  
 
 Integer input is expected, but a string is entered. So, we won't be able to get a desired output.
 
