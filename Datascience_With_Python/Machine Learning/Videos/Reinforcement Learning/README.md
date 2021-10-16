@@ -1,6 +1,9 @@
 # Reinforcement Learning 
 # Video Link : [click here]() 
-Machine Learning as defined by Arthur Samuel is &quot;the field of technology that gives computer ability to learn without being explicitly programmed. It is the most demanded skill that has attracted students belonging to the majors of engineering, mathematics, and data analytics. Machine Learning is the growing field that is further divided into three types.
+<br>
+![img](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Reinforcement_learning_diagram.svg.png) 
+*RL - Img source Wikipedia*  
+<br> Machine Learning as defined by Arthur Samuel is &quot;the field of technology that gives computer ability to learn without being explicitly programmed&quot;. It is the most demanded skill that has attracted students belonging to the majors of engineering, mathematics, and data analytics. Machine Learning is the growing field that is further divided into three types.
 
 
 Types of machine Learning:
@@ -8,6 +11,8 @@ Types of machine Learning:
 2. Unsupervised Learning
 3. Reinforcement Learning
 4. Recommender systems
+![](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture1.png)
+*1. ML branches*
 
 The target of this document is to simplify the knowledge of Reinforcement learning, unleash its growing applications, algorithms, and few limitations. It also highlights the pre-requisites which may be required by the aspiring students looking to advance their education in the field of Reinforcement learning.
 
@@ -63,9 +68,10 @@ Markov&#39;s decision process or MDPs is based upon the long-term impact of the 
 4. Action
 5. Reward
 
-Consider an example where rabbit is an agent which has carrot and broccoli at its both sides in the environment. Eating any of it would provide a reward of 10 points to the rabbit. It is natural for a rabbit to prefer carrot over broccoli. However, there is a tiger next to carrot, which would result in a penalty of -1000 points. It is noted from the provided example that next state or future reward is only evaluated based on the present state and action of te agent. Game of chess is a Markovian as current state of each piece Is considered while taking next move and past reference is excluded. Tic tac toe is another example.
-
-
+Consider an example where rabbit is an agent which has carrot and broccoli at its both sides in the environment. Eating any of it would provide a reward of 10 points to the rabbit. It is natural for a rabbit to prefer carrot over broccoli. However, there is a tiger next to carrot, which would result in a penalty of -1000 points. It is noted from the provided example that next state or future reward is only evaluated based on the present state and action of te agent. ![](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture2.png)
+*2. Image source: coursera*
+<br> Game of chess is a Markovian as current state of each piece is considered while taking next move and past reference is excluded. Tic tac toe is another example.
+<br> ![test](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture3.png) *3 Image source : coursera*
 
 #### 2. Q learning:
 
@@ -73,6 +79,7 @@ Consider an example where rabbit is an agent which has carrot and broccoli at it
 2. Example: optimal Q-function 
 3. Objective of q learning is that its optimal policy by learning optimal q value for each state action pair.
 4. Exploration and exploitation : act of exploring environment to find the information, exploitation maximize the award,
+<br> ![optimal Q-function](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture4.png)
 
 ### Limitations of RL:
 
