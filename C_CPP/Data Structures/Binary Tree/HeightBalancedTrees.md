@@ -30,37 +30,37 @@
 <br />
 
 ```txt
-										(1)  --> Root Node
+									    (1)  --> Root Node
 									   /   \
 									(2)     (3)
-									/	   /   \
-								 (4)	(5)     (6)
-								    \			   \
-								     (7)			(8)
-								    /	\
-								 (9)	 (10)
+									/      /   \
+								     (4)    (5)     (6)
+								        \	       \
+								         (7)		(8)
+								        /   \
+								     (9)     (10)
 
 Dry Run Analysis : 
 	Start from the root node i.e. node (1).
 	We make a call on the left and the right subtree of the root node i.e we call on nodes (2) and (3).
 
 								Left Subtree        Right Subtree
-						--> Call    (2)     			(3)
-									/	   			   /   \
-								 (4)				(5)     (6)
-								    \			   			   \
-								     (7)						(8)
-								    /	\
-								 (9)	 (10)
+						--> Call         (2)     			(3)
+							  	/                              /   \
+							     (4)                            (5)     (6)
+								\                                      \
+								 (7)                                    (8)
+							        /   \
+							     (9)     (10)
 
 	Now as we reach the node (2), it makes a call on its left and right subtrees.
 	We make a call on node (4) i.e the left subtree and we make a call on NULL i.e. the right subtree of node (2).Similarly, we make a call on the left and right subtrees of node (3).
 
-						Call	(4)	   (NULL)			(5)     (6)
-								   \			   				   \
-								    (7)								(8)
+						          Call	(4)	   (NULL)			(5)     (6)
+								   \                                               \
+								    (7)	                                            (8)
 								   /   \
-								(9)	    (10)
+								(9)     (10)
 ```
 
 - Now in the similar manner we make all the subsequent calls until we hit our base case
@@ -234,10 +234,6 @@ int main()
 <br />
 
 #Output
-
-<br />
-
-![BalancedTreeExamplesScreenShot](https://user-images.githubusercontent.com/34866732/137534716-ff241c2a-9394-4b42-967e-812b7b1f1d19.png)
 
 <br />
 
