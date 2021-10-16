@@ -1,5 +1,5 @@
 
-# CatBoost Algorithm #4291
+# CatBoost Algorithm 
 
 
 ##### Format : Documentation
