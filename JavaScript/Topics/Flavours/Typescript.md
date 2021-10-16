@@ -42,7 +42,7 @@ whenever there is an error along with the desciption of that error.So this way w
 ## What are types?
 
    ###   BASICS  
-- `number` which consist all type of numbers integers or decimals as javascript doesn't have int or float types simply here everything is called number.  
+- `number` which consist all type of numbers integers or decimals as JavaScript doesn't have int or float types simply here everything is called number.  
 **Example**  
       `let num: number = 5;`            ( In typescript ,Type annotations will always go after the thing being typed unlike other programming languages like c,c++,python)
       
