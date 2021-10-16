@@ -32,12 +32,11 @@ whenever there is an error along with the desciption of that error.So this way w
 - It supports static typing as we know there is a performance benefit to letting the compiler know what type the value is, without having to check it.
 - As it supports static typing ,it(Typescript) does not allow intermixing of values with different datatypes.If restrictions are violated then it will throw error.
 
-  ``` 
+  ```ts
   let name:  string = "wajiha";
   name = "myName";        // This will work.
   name = 5;               // This will throw an error
 
-   ```
 - And some of the additional features are modules support , generic support , functions with optional parameters as optional parameters are great for simplifying code, and hiding advanced but not-often-used functionality.
 
 ## What are types?
