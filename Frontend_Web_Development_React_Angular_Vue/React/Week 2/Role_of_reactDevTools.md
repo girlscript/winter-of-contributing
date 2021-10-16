@@ -94,6 +94,11 @@ Click on the **Components** tab to see the current component tree.
 
 ![Components in React Dev Tools](https://assets.digitalocean.com/articles/67372/components_for_DO.png)
 
+Refer to the above video for reference: ![React Dev Tools Video](https://www.youtube.com/watch?v=EG0LhIfmUSo)
+
+You can refer to this blog for better knowledge of react dev tools : [React Dev Tools Blog](https://www.digitalocean.com/community/tutorials/how-to-debug-react-components-using-react-developer-tools)
+
+
 
 
 
