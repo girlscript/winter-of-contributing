@@ -145,7 +145,7 @@ Using head function to take a overview of data
 ```
 data.head()
 ```
-<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/img/1.png">
+<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/Images/1.png">
      </img>
 
 
@@ -167,7 +167,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y,test_size=0.2,random_st
 ```
 X_train.head()
 ```
-<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/img/2.png">
+<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/Images/2.png">
      </img>
 
 
@@ -175,7 +175,7 @@ X_train.head()
 ```
 y_train.head()
 ```
-<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/img/3.png">
+<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/Images/3.png">
      </img>
 
 
@@ -210,7 +210,7 @@ Finding the accuracy of model using f1_score and accuracy_score
 ```
 f1_score(y_test, y_pred)
 ```
-<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/img/4.png">
+<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/Images/4.png">
      </img>
 
 ```
@@ -219,7 +219,7 @@ f1_score(y_test, y_pred)
 
 accuracy_score(y_test,y_pred)
 ```
-<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/img/5.png">
+<img src="https://github.com/m0hit-kumar/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Algorithms/CatBoost/Images/5.png">
      </img>
 
 
