@@ -9,11 +9,11 @@ Typescript knows the Javascript language and will generate types for you in many
 
 `var x=4;`    
 
-typescript will view ***x*** as integer  
+typescript will view ***x*** as number  
   
 `var c='A';`
   
-typescript will view ***c*** as char    
+typescript will view ***c*** as string  
 
 `var name="Wajiha"`  
 
