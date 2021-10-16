@@ -1,5 +1,5 @@
 ## What is Typescript?
-Typescript is an open source programming language developed and maintained by Microsoft.  
+TypeScript is an open-source programming language developed and maintained by Microsoft.  
 It is a strict syntactical superset of *javascript*,it means that it has all features of javascript ,and an additional layer on top of these.  
 
 The typescript is itself wriiten in typescript and compiled to plain javascript.So it can be run anywhere where javascript can be run.
