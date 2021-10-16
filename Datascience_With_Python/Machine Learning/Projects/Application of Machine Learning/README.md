@@ -1,7 +1,7 @@
 # :dart: Application of Machine Learning
 
 ## :nazar_amulet: Objective
-collect application of AI and connect them with machine learning algorithm
+To collect application of AI and connect them with machine learning algorithm
 
 ## :nazar_amulet: Introduction
 Machine learning is an application of artificial intelligence (AI) that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. Machine learning focuses on the development of computer programs that can access data and use it to learn for themselves.
@@ -12,12 +12,16 @@ The process of learning begins with observations or data, such as examples, dire
   </p>
 
 Some Applications of ML are:
-:stars: House Price Prediction using Regression
-:stars: Face mask Detection using CNN
-:stars: Parkinson's disease detection using XGBoost Algorithm.
-:Stars: Fingerprint Recognition using YOLOV3.
 
-In this documentation , we are gonna se :star: Parkinson's disease Detection using XGBoost Algorithm :star: .
+:stars: House Price Prediction using Regression
+
+:stars: Face mask Detection using CNN
+
+:stars: Parkinson's disease detection using XGBoost Algorithm.
+
+:stars: Fingerprint Recognition using YOLOV3.
+
+In this documentation , we are gonna see :star: Parkinson's disease Detection using XGBoost Algorithm :star: .
 
 ## :nazar_amulet: What is Parkinson's Disease?
 A disorder of the central nervous system that affects movement, often including tremors. Nerve cell damage in the brain causes dopamine levels to drop, leading to the symptoms of Parkinson's. Parkinson's often starts with a tremor in one hand. Other symptoms are slow movement, stiffness and loss of balance.
@@ -49,7 +53,7 @@ XGBoost dominates structured or tabular datasets on classification and regressio
 
 ## :nazar_amulet: Output:
 
-The accuracy of model is 
+The accuracy of model is 94.87
 
 ## :nazar_amulet: CONCLUSION:
 
@@ -59,5 +63,7 @@ Nowadays, Machine Learning (ML) is an exciting major of research in computer sci
 ## :nazar_amulet: Contributor
 
 Freny Reji
+
 ![LinkedIn](www.linkedin.com/in/freny-reji-2401)
+
 ![GitHub](https://github.com/freny24)
