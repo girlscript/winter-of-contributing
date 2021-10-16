@@ -14,13 +14,13 @@ int main()
 	int array[n*m];
 	//we create a matrix of size nxm(n rows, m columns) for storing and printing the elements of array in spiral form
 	int spiral[n][m];
+	
 	/*
 	This is implemented using nested for loop. One outer loop runs n times, and four inner loops run in a spiral manner.
 	Storing starts from top left and moves rightwards(until there is no space for storing),
 	downwards, leftwards, and lastly upwards.
 	This pattern is repeated, and elements are stored from array to matrix, from the outer boundary to inner space.
 	*/
-	
 	
 	//now we take input from user
 	for(int i=0;i<n*m;i++)
@@ -109,12 +109,14 @@ int main()
 	int matrix[n][m];
 	//We create an array for storing and printing elements of matrix in spiral order
 	int array[n*m];
+	
 	/*
 	This is implemented using nested for loop. One outer loop runs n times, and four inner loops run in a spiral manner.
 	Copying starts from top left and moves rightwards(until there is no element for copying),
 	downwards, leftwards, and lastly upwards.
 	This pattern is repeated, and elements are stored from matrix to array, from the outer boundary to its inner space.
 	*/
+	
 	//now we take input from user in matrix
 	for(int row=0;row<n;row=row+1)
 	{
