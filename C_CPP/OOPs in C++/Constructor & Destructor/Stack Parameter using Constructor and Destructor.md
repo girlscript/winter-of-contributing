@@ -121,9 +121,8 @@ int main()
     return 0;
 }
 ```
-C_CPP/OOPs in C++/Constructor & Destructor/Stack Parameter using Constructor and Destructor.md
 
-
+(https://github.com/girlscript/winter-of-contributing/pull/3833/files)
 
 
 
