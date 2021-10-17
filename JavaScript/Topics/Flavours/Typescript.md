@@ -9,7 +9,7 @@ TypeScript knows the JavaScript language and will generate types for you in many
 
 `var x=4;`    
 
-typeScript will view ***x*** as number  
+TypeScript will view ***x*** as number  
   
 `var c='A';`
   
