@@ -40,7 +40,7 @@ const incrementBoth = useCallback(() => {
 ```
 The new incrementBoth function transitively depends on delta. We could write useCallback(... ,[delta]) and that would work. However, this is a very brittle approach! If we changed the dependencies of increment or incrementDelta, we would have to remember to change the dependencies of incrementBoth.
 
-![useCallback](https://user-images.githubusercontent.com/69644003/137613640-5ee88bf0-4730-4eec-9daa-6a31632d00ca.png)
+![useCallback](https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/React/Week%203/assets/useCallback.png)
 
 
 ### Advantages of (```useCallback```) :
