@@ -3,11 +3,9 @@ CONSTRUCTORS:
 ===============
 The member functions of a class,used to initialise objects of the same class. With no return type, it has the same name as of class and should be placed inside public section of same.
 
-
 DESTRUCTORS: 
 ===============   
 These are used for memory deallocation and cleanup for class objects and its members , when the object is deleted at first place.A destructor is a member function with the same name as its class prefixed by a ~ (tilde).
-
 ```
 //SYNTAX:
 class AB{
@@ -16,20 +14,19 @@ class AB{
    ~AB(); // DESTRUCTOR
 }
 ```
-
 IMPLEMENTATION OF STACK USING CONSTRUCTORS (PARAMETRISED CONSTRUCTORS) AND DESTRUCTORS: 
 ---------------
-```
+```c++
+#include <iostream>
+using namespace std;
+
 //Define the default allocated_size of the stack
 #define SIZE 10
- 
 //A class to represent a stack
 class stack
-{
-    int *array;
+{   int *array;
     int top;
     int allocated_size;
- 
 public:
 //FIRST WE DEFINE METHOD FUNCTIONS : CONSTRUCTORS AND DESTRUCTORS
 
@@ -99,10 +96,7 @@ bool isFull() {
 }  
 };
 
-
- 
 int main()
-
 {   
     cout<<"STACK IMPLEMENTATION"<<endl;
     stack obj(5);
@@ -112,33 +106,22 @@ int main()
     obj.push(10);
     obj.push(13);
     obj.push(20);
- 
-
     obj.pop();
     obj.pop();
     obj.push(56);
  
     cout << "The top most element is " << obj.peek() << endl;
-    
- 
-    
- 
+   
     if (obj.isEmpty()) {
         cout << "The stack is empty\n";
     }
     else {
         cout << "The stack is not empty\n";
     }
-    
-
-   
- 
     return 0;
-
 }
-
 ```
-
+C_CPP/OOPs in C++/Constructor & Destructor/Stack Parameter using Constructor and Destructor.md
 
 
 
