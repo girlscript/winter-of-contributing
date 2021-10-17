@@ -56,8 +56,11 @@ This project can be used for simple to the most complex equations in mathematics
 # Data Visualisations
 ***
 ![5](https://user-images.githubusercontent.com/85014366/137632461-44b0fde8-396f-4efb-bae7-3e0542cb37fa.PNG)
+
 ![4](https://user-images.githubusercontent.com/85014366/137632474-e02f614e-867c-4be2-a444-08739da191ed.PNG)
+
 ![+](https://user-images.githubusercontent.com/85014366/137632477-34f0a35c-5374-4bf7-89aa-4ced27e69261.PNG)
+
 ![cv2 image capture](https://user-images.githubusercontent.com/85014366/137632488-9de783f4-511c-4dca-8bd9-86b688f1633e.PNG)
 
 
