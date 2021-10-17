@@ -24,7 +24,7 @@ Data Structures are the main part of many computer science algorithms as they en
 ### Data Structures
 - Week 1: [Array](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.1%20Arrays)
 - Week 2: [Strings](https://github.com/AJgthb2002/winter-of-contributing/tree/DSA/DSA/2.1%20Strings)
-- Week 3: Linked List
+- Week 3: [Linked List](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/3.1%20Linked%20List)
 - Week 4: Stacks, Queues
 - Week 5: Hash Tables
 - Week 6: Trees
