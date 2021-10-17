@@ -27,65 +27,66 @@ Hence the algorithm for DFS:-
 - Call the recursive function with the index of the adjacent node after traversing all nearby and unmarked nodes.
 
 ### Example
+```cpp
+// C++ program to print DFT traversal from
+//a specific vertex in a graph
+#include <bits/stdc++.h>
+using namespace std;
 
-    // C++ program to print DFT traversal from
-    //a specific vertex in a graph
-    #include <bits/stdc++.h>
-    using namespace std;
-  
-    class Graph 
+class Graph 
 
-    {
+{
 
-    public:
-    
-    map<int, bool> visited;
-    map<int, list<int>> adj;
-  
-    // addEdge function to add an edge to graph
-    void addEdge(int v, int w);
-  
-    void DFS(int v);
-    };
-  
-    void Graph::addEdge(int v, int w)
-    {
-    adj[v].push_back(w); // This will add w to v’s list.
-    }
-  
-    void Graph::DFS(int v)
-    {
-    // Now the current node marked as visited 
-    visited[v] = true;
-    cout << v << " ";
-  
-    // Recursion for all the vertices adjacent
-    // to this vertex
-    list<int>::iterator i;
-    for (i = adj[v].begin(); i != adj[v].end(); ++i)
-        if (!visited[*i])
-            DFS(*i);
-    }
-  
-    int main()
-    {
-    // Create a graph given in the above diagram
-    Graph g;
-    g.addEdge(0, 1);
-    g.addEdge(0, 2);
-    g.addEdge(1, 2);
-    g.addEdge(2, 0);
-    g.addEdge(2, 3);
-    g.addEdge(3, 3);
-  
-    cout << "Following is Depth First Search"
-            " (starting from vertex 2) \n";
-    g.DFS(2);
-  
-    return 0;
-    }
+public:
+
+map<int, bool> visited;
+map<int, list<int>> adj;
+
+// addEdge function to add an edge to graph
+void addEdge(int v, int w);
+
+void DFS(int v);
+};
+
+void Graph::addEdge(int v, int w)
+{
+adj[v].push_back(w); // This will add w to v’s list.
+}
+
+void Graph::DFS(int v)
+{
+// Now the current node marked as visited 
+visited[v] = true;
+cout << v << " ";
+
+// Recursion for all the vertices adjacent
+// to this vertex
+list<int>::iterator i;
+for (i = adj[v].begin(); i != adj[v].end(); ++i)
+if (!visited[*i])
+DFS(*i);
+}
+
+int main()
+{
+// Create a graph given in the above diagram
+Graph g;
+g.addEdge(0, 1);
+g.addEdge(0, 2);
+g.addEdge(1, 2);
+g.addEdge(2, 0);
+g.addEdge(2, 3);
+g.addEdge(3, 3);
+
+cout << "Following is Depth First Search"
+" (starting from vertex 2) \n";
+g.DFS(2);
+
+return 0;
+}
+
 
 Output
 
-		Following is Depth First Search (starting from vertex 2)
-		2 0 1 3
+Following is Depth First Search (starting from vertex 2)
+2 0 1 3
