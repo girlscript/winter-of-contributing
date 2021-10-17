@@ -18,22 +18,24 @@ const callbackVariable = useCallback(() => {
    },[a, b]);
   ```
 ### Demo 
+useCallback will return the same cached function instance if the values of the dependencies are equal.
 
 ```javascript
   const incrementDelta = useCallback(() => setDelta(delta => delta + 1), []);
 
-  // Recreate increment on every change of delta!
   const increment = useCallback(() => setC(c => c + delta), [delta]);
   ```
-  
+ Now we can see that a new increment function is created only when delta changes. Therefore, the counter button only re-renders when delta changes, because a new instance of the onClick property is added. In other words, we only create a new callback, if the part of the closure it uses (i.e. the dependencies) has changed since the previous rendering.
+
+ A really useful feature of useCallback is that it returns the same function instance if the depencies don’t change. Hence we can use it in the dependecy lists of other hooks. For example, let’s create a cached/memoized function which increments both numbers:
+ 
 ``` javascript
 const incrementDelta = useCallback(() => setDelta(delta => delta + 1), []);
 const increment = useCallback(() => setC(c => c + delta), [delta]);
 
-// Can depend on [delta] instead, but it would be brittle
 const incrementBoth = useCallback(() => {
     incrementDelta();
     increment();
 }, [increment, incrementDelta]); 
 ```
-
+The new incrementBoth function transitively depends on delta. We could write useCallback(... ,[delta]) and that would work. However, this is a very brittle approach! If we changed the dependencies of increment or incrementDelta, we would have to remember to change the dependencies of incrementBoth.
