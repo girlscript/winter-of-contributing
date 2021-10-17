@@ -18,7 +18,7 @@ const callbackVariable = useCallback(() => {
    },[a, b]);
   ```
 ### Demo 
-useCallback will return the same cached function instance if the values of the dependencies are equal.
+useCallback will return the same cached function instance if the values of the dependencies are equal. It creates a win win situation over the use of useState.
 
 ```javascript
   const incrementDelta = useCallback(() => setDelta(delta => delta + 1), []);
@@ -39,6 +39,9 @@ const incrementBoth = useCallback(() => {
 }, [increment, incrementDelta]); 
 ```
 The new incrementBoth function transitively depends on delta. We could write useCallback(... ,[delta]) and that would work. However, this is a very brittle approach! If we changed the dependencies of increment or incrementDelta, we would have to remember to change the dependencies of incrementBoth.
+
+![useCallback](https://user-images.githubusercontent.com/69644003/137613640-5ee88bf0-4730-4eec-9daa-6a31632d00ca.png)
+
 
 ### Advantages of (```useCallback```) :
 
