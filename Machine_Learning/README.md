@@ -69,6 +69,22 @@
    - **4.9. Practical Applications.**
    - **4.10. Challenges and Future Scope.**
 
+### 🟡 *Week 5 [Feature Engineering & Performance Metrices]* :
+   - **5.1. Normalization.**
+   - **5.2. Standardization.**
+   - **5.3. Handling Outliers.**
+   - **5.4. Handling Missing Values.**
+   - **5.5. Imbalance Data.**
+   - **5.6. Binning.**
+   - **5.7. Encoding.**
+   - **5.8. Feature Scaling.**
+   - **5.9. Accuracy.**
+   - **5.10. Logarithmic Loss.**
+   - **5.11. Confusion Matrix.**
+   - **5.12. F1 Score.**
+   - **5.13. MSE & MAE.**
+   - **5.14. Cross Validation.**
+   - **5.15. Bias Variance Tradeoff.**
 
 
 *N.B.: Upcoming roadmap will be published as the program goes! and ⭐ marked issues are having extra points on successful completion.*
