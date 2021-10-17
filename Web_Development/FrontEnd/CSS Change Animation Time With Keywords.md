@@ -18,7 +18,7 @@ There are a number of predefined keywords available for popular options. For exa
 
 ### OUTPUT
     below video shows the change in animation time using the keyword.
-    ![ezgif com-gif-maker](https://user-images.githubusercontent.com/54473091/137640119-1303a942-1e64-4bd7-8e53-7701ec18b182.gif)
+   ![image](https://user-images.githubusercontent.com/54473091/137640119-1303a942-1e64-4bd7-8e53-7701ec18b182.gif)
 
     
 ### REFERENCE
