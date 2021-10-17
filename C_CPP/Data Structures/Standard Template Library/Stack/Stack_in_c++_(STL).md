@@ -1,4 +1,4 @@
-## video for Stack in cpp (STL) ##
+# video for stack in cpp (STL)
 
 - Stack is a linear data structure which follows a particular order in which the operations are performed.</li>
 - The order may be LIFO(Last In First Out) or FILO(First In Last Out).</li>
