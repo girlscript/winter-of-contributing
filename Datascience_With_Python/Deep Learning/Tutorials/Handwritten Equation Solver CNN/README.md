@@ -1,5 +1,9 @@
 Machine learning and deep learning allows us to solve different problems by making machines learn with the help of datasets and training models on them. One such problem is quick solving of equations and specially complex equations by machines. Here's a simple equation solving model, which solves simple equations of addtion, substraction, multiplication and division.
 
+# Purpose
+***
+The purpose of this tutorial is to help figure out an answer of an equation faster in times of need. This project is explained with an simle equation solution but it can also be trained to complex equation solving by importing the required symbols from the dataset.
+
 # Dataset
 ***
 The dataset can be downloaded through this [link](https://www.kaggle.com/xainano/handwrittenmathsymbols). Also the dataset is uploaded in DS Datasets directory of Datascience_With_Python folder. The name of the dataset is math numbers and operators.
@@ -39,3 +43,30 @@ The accuracy achieved through this process is above 99% but it takes excsesive t
 # Testing of the model 
 ***
 After training and storing the model, we test the model on a testing image. The input image follows the same process as mentioned in Extractng features part. Image to binary, obtain contours, draw bounding boxes, resizing the images, assign a label and find the answer accordingly.
+
+# Use
+***
+This project can be used for simple to the most complex equations in mathematics just by using the dataset efiiciently, assigning labels to operators, and training the model on the same. It can be quite useful in the varied different fields for different purposes.
+
+# Advantages 
+***
+- Can be used to make programmed calculators
+- Faster solving of simple as well as complex equations
+
+# Data Visualisations
+***
+
+# Summary of project files
+***
+This project contains 3 ipynb files, a test image, model weights and model json file, and an Images folder which contains the output images of cv2.imshow of CNN_model_test.ipynb
+1. Bringing_out_req_data.ipynb - contains code nof extraction of required data to solve simple mathematical operations such as addition, substraction, multiplication and division, storing it into a csv file.
+2. Model_training.ipynb - contains the training part  of model using the csv file we created before
+3. CNN_model_test.ipynb - testing of the trained model saved to json with its weights on the test image
+4. test_image.jpeg - test image used in model testing
+5. model.h5 - weights trained in model training
+6. model.json - model saved in json file to save time for next training
+
+# References
+***
+1. [Geeks for geeks](https://www.geeksforgeeks.org/handwritten-equation-solver-in-python/)
+2. [Towards Data Science](https://towardsdatascience.com/building-a-handwritten-multi-digit-calculator-f03cf5028052)
