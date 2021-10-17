@@ -1,6 +1,6 @@
 ## ML 5.12 : F1 Score (A)
 
-This video provides a brief introduction to F1 score.
+This audio provides a brief introduction to F1 score.
 
 Outline:
 
