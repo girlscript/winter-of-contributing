@@ -1,1 +1,3 @@
 - [SuperBall Game In C](SuperBall_Game_In_C.md)
+- [Snake Game 🐍](snake_game.md)
+- [Sudoku Solver](SudokuSolver.md)
