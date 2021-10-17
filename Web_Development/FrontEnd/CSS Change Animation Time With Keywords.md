@@ -24,4 +24,4 @@ There are a number of predefined keywords available for popular options. For exa
   For the elements with id of ball1 and ball2, add an animation-timing-function property to each, and set #ball1 to linear, and #ball2 to ease-out. we have to notice the difference between how the elements move during the animation but end together, since they share the same animation-duration of 2 seconds.
 
 ### REFERENCE
-      for reference I use (the given link)[https://www.w3schools.com/]
+     This site was built using [GitHub Pages](https://pages.github.com/).
