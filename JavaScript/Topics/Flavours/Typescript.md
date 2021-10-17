@@ -13,11 +13,11 @@ TypeScript will view ***x*** as number
   
 `var c='A';`
   
-typeScript will view ***c*** as string  
+TypeScript will view ***c*** as string  
 
 `var name="Wajiha"`  
 
-typeScript will view ***name*** as string
+TypeScript will view ***name*** as string
 
 Another important reason to consider javascript is the enhanced IDE support,with typescript we get intellisense support ,ability to refactor code easily and the red squiggy line .
 whenever there is an error along with the description of that error.So this way we spend more time on coding and less time on debugging.  
