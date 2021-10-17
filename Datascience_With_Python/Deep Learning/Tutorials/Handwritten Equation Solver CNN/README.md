@@ -2,7 +2,7 @@ Machine learning and deep learning allows us to solve different problems by maki
 
 # Dataset
 ***
-The dataset can be downloaded through this [link]{https://www.kaggle.com/xainano/handwrittenmathsymbols}. Also the dataset is uploaded in DS Datasets directory of Datascience_With_Python folder. The name of the dataset is math numbers and operators.
+The dataset can be downloaded through this [link](https://www.kaggle.com/xainano/handwrittenmathsymbols). Also the dataset is uploaded in DS Datasets directory of Datascience_With_Python folder. The name of the dataset is math numbers and operators.
 
 # Extracting Features
 ***
