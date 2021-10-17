@@ -18,8 +18,10 @@ There are a number of predefined keywords available for popular options. For exa
 
 ### OUTPUT
     below video shows the change in animation time using the keyword.
-   ![image](https://user-images.githubusercontent.com/54473091/137640119-1303a942-1e64-4bd7-8e53-7701ec18b182.gif)
+  
+  ![image](https://user-images.githubusercontent.com/54473091/137640119-1303a942-1e64-4bd7-8e53-7701ec18b182.gif)
+   
+  For the elements with id of ball1 and ball2, add an animation-timing-function property to each, and set #ball1 to linear, and #ball2 to ease-out. we have to notice the difference between how the elements move during the animation but end together, since they share the same animation-duration of 2 seconds.
 
-    
 ### REFERENCE
-       [Refernce link 1](https://www.freecodecamp.org/)
+      for reference I use (the given link)[https://www.w3schools.com/]
