@@ -238,4 +238,7 @@ int main()
 ## Common Implementation 
 Odd-Even sort is mainly used on parallel processors with local interconnections for running local tasks
 
+## References
+- https://www.geeksforgeeks.org/odd-even-sort-brick-sort/
 
+- https://iq.opengenus.org/odd-even-sort/
