@@ -80,14 +80,3 @@ The above program looks like a normal program, without the keyword 'this' anywhe
 > a = x  
 
 We have not used the 'this' pointer. We only use the 'this' pointer when the member functions are called. 
-
-<br />
-
----
-
-
-    
-    
-    
-    
-    
