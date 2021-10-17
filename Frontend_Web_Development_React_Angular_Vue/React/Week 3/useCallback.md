@@ -39,3 +39,9 @@ const incrementBoth = useCallback(() => {
 }, [increment, incrementDelta]); 
 ```
 The new incrementBoth function transitively depends on delta. We could write useCallback(... ,[delta]) and that would work. However, this is a very brittle approach! If we changed the dependencies of increment or incrementDelta, we would have to remember to change the dependencies of incrementBoth.
+
+### Advantages of (```useCallback```) :
+
+* The use of useCallback hook makes the application faster and more efficient.
+* Useful for optimization.
+* Increased performance.
