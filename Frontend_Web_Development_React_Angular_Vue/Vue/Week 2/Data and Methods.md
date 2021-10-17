@@ -1,5 +1,3 @@
-<!-- <p align="center"><img src="https://miro.medium.com/max/830/1*-XSh-XXT3TWGcRaeFs446w.png" width="600px"></p><br><br> -->
-
 <h1 align="center"> Data and Methods </h1>
 
 ## What is data() in Vue.js?
