@@ -17,3 +17,23 @@ const callbackVariable = useCallback(() => {
     functionCall(a, b) 
    },[a, b]);
   ```
+### Demo 
+
+```javascript
+  const incrementDelta = useCallback(() => setDelta(delta => delta + 1), []);
+
+  // Recreate increment on every change of delta!
+  const increment = useCallback(() => setC(c => c + delta), [delta]);
+  ```
+  
+``` javascript
+const incrementDelta = useCallback(() => setDelta(delta => delta + 1), []);
+const increment = useCallback(() => setC(c => c + delta), [delta]);
+
+// Can depend on [delta] instead, but it would be brittle
+const incrementBoth = useCallback(() => {
+    incrementDelta();
+    increment();
+}, [increment, incrementDelta]); 
+```
+
