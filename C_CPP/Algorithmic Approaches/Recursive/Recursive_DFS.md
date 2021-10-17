@@ -2,17 +2,18 @@
  
 The C/C++ language allows a programmer to write subroutines and functions that call themselves. These routines are called recursive. We can also say the process of defining something in terms of itself is recursive.
 
-For example:    
-    
-    int factorial(int x)
-    {
-    int a,b;
-    if(n==0)
-    return(1);
-    a=x-1;
-    b=factorial(a);
-    return(x*b);
-    }
+For example:
+```
+int factorial(int x)
+{
+int a,b;
+if(n==0)
+return(1);
+a=x-1;
+b=factorial(a);
+return(x*b);
+}
+```
 
 In the statement b=factorial(a); the function factorial calls itself.
 
@@ -84,9 +85,10 @@ g.DFS(2);
 
 return 0;
 }
-
+```
 
 Output
-
+```
 Following is Depth First Search (starting from vertex 2)
 2 0 1 3
+```
