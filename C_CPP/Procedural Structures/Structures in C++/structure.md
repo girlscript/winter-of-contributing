@@ -15,7 +15,7 @@ It is also similar to a Class, as a Class also store different data types in it.
 
 ## Syntax Of Structure
 
-```
+```cpp
 struct GWOC
 {
     //data memebers
@@ -37,7 +37,7 @@ Note: Remember to end the declaration with a semicolon (;)
 
 ## Sample Program on Structure in C++ :
 
-```
+```cpp
 #include <iostream>
 #include <iomanip>
 using namespace std;
