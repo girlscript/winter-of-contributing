@@ -48,3 +48,8 @@ The new incrementBoth function transitively depends on delta. We could write use
 * The use of useCallback hook makes the application faster and more efficient.
 * Useful for optimization.
 * Increased performance.
+
+### References :
+
+* https://www.geeksforgeeks.org/react-js-usecallback-hook/
+* https://dev.to/ilizette/understanding-usecallback-in-react-5d34
