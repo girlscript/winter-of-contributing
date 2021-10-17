@@ -1,9 +1,10 @@
 # Vision Transformers
 
-#### Link to the video ➡ [▶](https://youtu.be/3QTltiwcncc)
+#### Link to the video **→** [▶](https://youtu.be/3QTltiwcncc)
 
 <hr>
-### 1. Introduction to transformers.
+
+### 1. Introduction 
 
 Transformers introduced back in 2017 took the NLP world by storm. They were known for their long range memory dependencies. Largely used in machine translation and speech recognition tasks.
 
