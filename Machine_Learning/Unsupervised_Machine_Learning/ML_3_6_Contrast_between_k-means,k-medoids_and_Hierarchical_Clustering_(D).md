@@ -28,6 +28,13 @@ DISADVANTAGES:
 1.  K-Value is not easy to predict.
 2.  Doesn't work well with global cluster.
 
+APPLICATION:
+
+- market segmentation
+- document clustering
+- image segmentation
+- image compression
+
 ### K-medoids Clustering
 
 K-medoids is a partition algorithm similar to K-means clustering that partitions data into k distinct clusters, by finding medoids that minimize the sum of dissimilarities between points in the data and their nearest medoid.
@@ -53,7 +60,7 @@ DISADVANTAGES:
 - It requires precision and is complex enough.
 - It does not scale well for large datasets.
 
-### Hierarchial Clusterin
+### Hierarchial Clustering
 
 A Hierarchical clustering method works via grouping data into a tree of clusters. Hierarchical clustering begins by treating every data points as a separate cluster. Then, it repeatedly executes the subsequent steps:
 
@@ -78,6 +85,12 @@ DISADVANTAGES:
 1. Hierarchical clustering requires the computation and storage of an n×n distance matrix.
 2. For very large datasets, this can be expensive and slow.
 
+APPLICATIONS:
+
+- Personalization and targeting in marketing and sales.
+- Used in large scale DNA sequencing.
+- Fake news detection.
+
 ### K-means Clustering Vs K-medoids Clustering
 
 - Both K-means and K-medoids clustering are partitional algorithms.
@@ -92,3 +105,7 @@ DISADVANTAGES:
 - Hierarchical clustering can't handle big data well but K Means clustering can. This is because the time complexity of K Means is linear i.e. O(n) while that of hierarchical clustering is quadratic i.e. O(n2).
 - Hierarchical clustering does not require any input parameters, while partitional clustering algorithms like K-means Clustering and K-medoids Clustering require the number of clusters to start running.
 - Hierarchical clustering returns a much more meaningful and subjective division of clusters but partitional clustering results in exactly k clusters.
+
+Thanks for Reading!
+
+Happy Learning!!!
