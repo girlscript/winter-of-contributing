@@ -16,7 +16,7 @@ Output: 3
 ```
 - Store the sum of all the elements of the array in some variable say, s.
 - Since, the numbers are ranging from 1 to n then we can simply store the sum of numbers from 1 to n in some another variable say, t.
-- Subtract t from s to get our desired result.
+- Subtract t from s to get the desired result.
 ```
 ### Dry Run
 ```
