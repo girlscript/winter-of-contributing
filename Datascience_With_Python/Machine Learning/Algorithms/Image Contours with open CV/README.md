@@ -27,7 +27,7 @@ OpenCV makes this a fairly simple task. Just follow these steps:
 
 1. **Read the Image and convert it to Grayscale Format**
 
-  Read the image and convert the image to grayscale format. Converting the image to grayscale is very important as it prepares the image for the next step. Converting the image   to a single channel grayscale image is important for thresholding, which in turn is necessary for the contour detection algorithm to work properly.
+      Read the image and convert the image to grayscale format. Converting the image to grayscale is very important as it prepares the image for the next step. Converting the image   to a single channel grayscale image is important for thresholding, which in turn is necessary for the contour detection algorithm to work properly.
 
 2. **Apply Binary Thresholding**
 
