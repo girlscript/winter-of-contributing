@@ -22,18 +22,21 @@ Let's look at the issue that we could encounter in the application if we don't u
 //A Java programme to show why method overriding is required.
 //Here, we are calling the method of parent class with child class object.
 //Now creating a parent class
-class Airplane{
-   void run(){System.out.println("Airplane is in the air");}
+class Airplane {
+    void run() {
+        System.out.println("Airplane is in the air");
+    }
 }
-//Now creating a child class
-class Airplane extends Helicopter{
-   public static void main(String args[]){
-//creating a child class instance
-Helicopter obj = new Helicopter();
-//using a child class instance to invoke the method
-obj.run();
- }
-} 
+
+// Now creating a child class
+class Helicopter extends Airplane {
+    public static void main(String args[]) {
+        // creating a child class instance
+        Helicopter obj = new Helicopter();
+        // using a child class instance to invoke the method
+        obj.run();
+    }
+}
 ```
 
 ### **Output:**
@@ -50,19 +53,27 @@ Here in this example, we have declared the run method in the another class i.e. 
 ```
 //A Java programme that demonstrates the use of a Java Method Overriding
 //Now creating a parent class
-class Airplane{
-  //defining a method
-  void run(){System.out.println("Airplane is in the air");}
-//Now creating a child class
-class Helicopter2 extends Airplane{
-  //declaring the same function/method as the parent class
-void run(){System.out.println("Helicopter is running safely");}
-
-public static void main(String args[]){
-Helicopter2 obj = new Helicopter2(); //creating object
-obj.run(); //calling method/ function
- }
+class Airplane {
+    // defining a method
+    void run() {
+        System.out.println("Airplane is in the air");
+    }
 }
+
+// Now creating a child class
+class Helicopter2 extends Airplane {
+    void run() {
+        // declaring the same function/method as the parent class
+        System.out.println("Helicopter is running safely");
+    }
+
+    public static void main(String args[]) {
+        Helicopter2 obj = new Helicopter2();
+        // creating object
+        obj.run(); // calling method/ function
+    }
+}
+
 ```
 
 ### **Output:**
