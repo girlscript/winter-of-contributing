@@ -32,7 +32,7 @@ If the above code executes with no errors, then mysql.connector is installed and
 <br>
  
  
- ## Topics Covered in the Code file
+ ## Topics Covered in the [Code File](https://github.com/prishita-s/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Programming/SQL/Introduction%20to%20MySQL/Introduction_to_MySQL_with_Python.ipynb)
 - Installing MySQL connectors/driver
 - Establishing a connection with the MySQL server
 - Creating a Database
