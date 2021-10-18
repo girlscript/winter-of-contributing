@@ -4,8 +4,8 @@ In this document we are going to learn how to we can use MySQLi extension in PHP
 
 As its name, "MySQLi" suggests that it can only be used with MySQL database. If you want to use another database then there is another method that PHP provides called PDO. In this document, we are gonna discuss MySQLi extension only.
 
-### Connecting to Server
-The very first work to be done before creating or accessing an existing database is to connect with the server. Please make sure before testing PHP, your wamp or xampp or another server you are using is running. We are going to do this using the ```mysqli_connect($server_name, $user_name, $password)```function. It takes three parameters server name, username, and password. This function returns true if the connection is established or false if any error occurred.
+## Connecting to Server
+The very first work to be done before creating or accessing an existing database is to connect with the server. Please make sure before testing PHP, your wamp or xampp or another server you are using is running. We are going to do this using the `mysqli_connect($server_name, $user_name, $password)`function. It takes three parameters server name, username, and password. This function returns true if the connection is established or false if any error occurred.
 
 ```php
 <?php
@@ -27,8 +27,8 @@ else echo "Connection established<br>";
 ?>
 ```
 
-### Creating a Database
-Now, we know how to connect to the server so we can proceed ahead. PHP provides us a function called ```mysql_query($are_we_connected, $query)``` which allows us to run any SQL query, It takes two parameters, a variable that stores value returned by mysqli_connect() and a string that has the SQL query. To create a database SQL query is "CREATE DATABASE STUDENTS". This query will create a database named STUDENTS. mysqli_query() function return true if the query runs successfully or it returns false.
+## Creating a Database
+Now, we know how to connect to the server so we can proceed ahead. PHP provides us a function called `mysql_query($are_we_connected, $query)` which allows us to run any SQL query, It takes two parameters, a variable that stores value returned by mysqli_connect() and a string that has the SQL query. To create a database SQL query is "CREATE DATABASE STUDENTS". This query will create a database named STUDENTS. mysqli_query() function return true if the query runs successfully or it returns false.
 
 ```php
 <?php
@@ -58,13 +58,13 @@ else echo "Database create successfully";
 ?>
 ```
 
-Using the ```mysql_query($are_we_connected, $query)``` function we can run any SQL query we want. It takes two parameters as explained above.
+Using the `mysql_query($are_we_connected, $query)` function we can run any SQL query we want. It takes two parameters as explained above.
 
 Now the remaining document will only contain code about creating table and insertion and deletion because everything is the same only SQL query changes.
 
 When we gonna connect to a specific database of the server, we give the database name as the 3rd parameter of mysqli_connect() function to access the database.
 
-### Creating a Table
+## Creating a Table
 ```php
 <?php
 $server_name = "localhost";
@@ -97,7 +97,7 @@ else echo "Table created successfully";
 ?>
 ```
 
-### Insertion in Table
+## Insertion in Table
 ```php
 <?php
 
@@ -131,7 +131,7 @@ mysqli_close($are_we_connected);
 
 ```
 
-### Deletion in Table
+## Deletion in Table
 ```php
 <?php
 $server_name = "localhost";
@@ -157,8 +157,8 @@ else echo "Data deleted successfully<br>";
 ?>
 ```
 
-### Retrieving Data from Table
-There are two new functions we are going to learn which will help us to retrieve data. ```mysqli_num_rows($variable)``` function checks if there are more rows in variable. ```mysqli_fetch_assoc($variable)``` function pulls the data from the variable given as a parameter and returns it.
+## Retrieving Data from Table
+There are two new functions we are going to learn which will help us to retrieve data. `mysqli_num_rows($variable)` function checks if there are more rows in variable. `mysqli_fetch_assoc($variable)` function pulls the data from the variable given as a parameter and returns it.
 
 Just have a look at the code you will have more clarity.
 
