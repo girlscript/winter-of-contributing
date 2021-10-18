@@ -4,13 +4,13 @@
 
 Given an array arr[] of size n which have some missing and repeating numbers. Our task is to find that number.
 
-#### EXAMPLE
+### EXAMPLE
 
 Input => {1,2,3,3,4,6,7,8}
 Output => {3,5}
 Here we have 3 as repeating number and 5 as missing number.
 
-#### ALGORITHM
+### ALGORITHM
 
 1. Let a & b be the desired output elements.
 2. We have to calculate XOR of all the array elements.
@@ -25,7 +25,7 @@ Here we have 3 as repeating number and 5 as missing number.
 
 ### C++ Programm code of the Problem
 
-````cpp
+```cpp
 #include <bits/std++.h>
 using namespace std;
 
@@ -76,14 +76,16 @@ int n = sizeof(arr) / sizeof(arr[0]);
     getchar();
 }
 ```
+
 **Input** /
+
 7 /
 { 1, 3, 4, 5, 5, 6, 2 } /
 **Output** /
+
 {5, 7}
 
-##### COMPLEXITY
+### COMPLEXITY
 
 **Time Complexity** - O(n)
 **Space complexity** - O(n)
-````
