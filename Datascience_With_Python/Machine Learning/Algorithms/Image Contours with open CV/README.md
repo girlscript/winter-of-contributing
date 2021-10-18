@@ -119,3 +119,14 @@ Image from paper cited – background frame without and with the unattended obje
 ![image](https://user-images.githubusercontent.com/62233992/137804198-e67407f7-a786-4c0c-bd44-255289c28ff3.png)
 
 An example of simple image foreground extraction, and adding a new background to the image using contour detection.
+
+## Conclusion
+
+You started with contour detection, and learned to implement that in OpenCV. Saw how applications use contours for mobility detection and segmentation. Next, we demonstrated the use of four different retrieval modes and two contour-approximation methods. You also learned to draw contours. We concluded with a discussion of contour hierarchies, and how different contour-retrieval modes affect the drawing of contours on an image.
+
+Key takeaways:
+
+* The contour-detection algorithms in OpenCV work very well, when the image has a dark background and a well-defined object-of-interest. 
+* But when the background of the input image is cluttered or has the same pixel intensity as the object-of-interest, the algorithms don’t fare so well.
+
+You have all the code here, why not experiment with different images now! Try images containing varied shapes, and experiment with different threshold values. Also, explore different retrieval modes, using test images that contain nested contours. This way, you can fully appreciate the hierarchical relationships between objects.
