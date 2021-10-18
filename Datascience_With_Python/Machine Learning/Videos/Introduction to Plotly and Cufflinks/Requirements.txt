@@ -1,0 +1,6 @@
+Librares used in Introduction to plotly and cufflinks
+1.Pandas
+2.Seaborn
+3.Matplotlib
+4.Plotly
+5.Cufflinks
