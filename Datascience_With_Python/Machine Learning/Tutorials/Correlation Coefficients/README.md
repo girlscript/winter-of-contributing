@@ -1,4 +1,4 @@
-# Correlation coefficients
+# Correlation Coefficients
 
 # Introduction
 Correlation coefficients quantify the affiliation among variables or capabilities of a dataset. These records are of excessive significance for technological know-how and technology, and Python has amazing equipment that you may use to calculate them. SciPy, NumPy, and Pandas correlation techniques are fast, comprehensive, and well-documented.<br>
@@ -31,12 +31,38 @@ Kendall rank correlation coefficient Formula :<br>
 
 ![](Images/Kendall.png)<br>
 
+# Why Correlation Coefficients are used
+Correlation is used to explain the linear relationship
+between two continuous variables.
+Generally, correlation tends to be used when there's no
+identified response variable. It measures the strength
+(qualitatively) and direction of the linear relationship
+between two or more variables. 
+
 # Steps to be followed:<br>
 1. Import Required Libraries
 2. Load the Dataset
 3. Data Cleaning and preprocessing
 4. Data visualizations
 5. Calculate the Correlation Coefficients.
+
+# Applications of Correlation Coefficients
+1. Ecommerce
+2. Real Estate
+3. Education Ministry 
+
+# Advantages of Correlation Coefficients
+- Can display power of relationship among  variables.
+- Study behaviour which you can not study.
+- Gain quantitative information which may be effortlessly analysed.
+- Correlational studies may be used while experimental studies isn't always viable due to the fact the variables can not be manipulated or it might be unethical to apply an experiment. 
+- Correlational designs additionally have the gain of permitting the researcher to examine conduct because it happens in everyday life.
+
+# Disadvantages of Correlation Coefficients
+- Cannot display purpose and effect (what variables manage what).
+- No control of third variable that could have an effect on the correlation.
+- It may be very a good deal possibly to be misinterpreted in particular in case of homogeneous data.
+- It is very much affected by the values of the extreme items.
 
 # Conclusion
 Correlation coefficients describe the energy and course of an affiliation among variables. A Pearson correlation can also be a degree of a linear affiliation among 2 generally disbursed random variables. A Spearman rank correlation describes the monotonic dating among 2 variables. it's (1) beneficial for nonnormally disbursed non-stop data,<br>(2) are frequently used for ordinal data, and <br>(3) is incredibly strong to outliers. Hypothesis assessments are used to check the null speculation of no correlation, and self-belief durations offer a range of manageable values of the estimate.<br
