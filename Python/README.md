@@ -35,6 +35,7 @@
 - [List_Comprehension](./List_Comprehension)
 - [Advanced_function_map()](./Advanced_function_map())
 - [What is Automation?](./What_is_Automation)
+- [Modules](./Modules)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
@@ -52,6 +53,28 @@
 
 ## Learning path
 
+1. Git & GitHub
+2. Installing development and debugging software for python
+3. Brief history of python
+4. What is a programming language?
+5. What is type conversion ?
+6. Use cases of Python
+7. Virtual Environment
+8. Operators
+9. List\_&_Matrix
+10. Objects in Python
+11. Stack and Queue
+12. Loop Break
+13. Decorators
+14. Functions
+14. What_is_Filter_in_python
+15. OOP-Class
+16. Advanced function-reduce()
+17. Advanced Function - Zip
+18. List Comprehension
+19. Advanced function-map()
+20. What is Automation?
+21. Modules
 1. Git & Github
 2. How To Install Python
 3. Installing development and debugging software for python
@@ -80,6 +103,8 @@
 26. Web_Scraping
 27. Python File I/O
 28. Python Strings
+29. Yield Keyword
+30. Dictionary Comprehension
 29. Dictionary Comprehension
 30. if_statement
 29. Recursion in Python
