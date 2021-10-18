@@ -6,7 +6,7 @@
 
 ### 1. Introduction 
 
-Transformers introduced back in 2017 took the NLP world by storm. They were known for their long range memory dependencies. Largely used in machine translation and speech recognition tasks.
+Transformers introduced back in 2017 took the NLP world by storm. They were known for their long range memory dependencies. They are used in many applications like machine language translation, conversational chatbots, and even to power better search engines. Transformers are the rage in deep learning nowadays. Transformers were recently used by OpenAI in their language models, and also used recently by DeepMind for AlphaStar — their program to defeat a top professional Starcraft player.
 
 <img src="https://user-images.githubusercontent.com/30192967/137615858-8f42b391-f71b-4dcc-aa7a-4feaac79bbdc.png" alt="Transformers-arch" width="380" align="center" />
 
@@ -78,6 +78,20 @@ The only drawback of this algorithm is it's **heavy computation**.
 - Large training computation.
 - Large datasets(~1M) are required for training.
 - Huge amount of time taken for training on an average GPU.
+
+### ViT performs well when pretrained on larger datasets <hr>
+![image](https://user-images.githubusercontent.com/30192967/137672598-d31dbdc9-31ea-467d-b9b9-01a45d89f172.png)
+
+From the image above we can see that, the model is pretrained on datasets on the X Axis and transfer learnt to the datset on Y Axis.
+While large ViT models perform worse than BiT ResNets (shaded area) when pre-trained on small datasets, they shine when pre-trained on larger datasets. Similarly, larger ViT variants overtake smaller ones as the dataset grows.
+ 
+### Performance VS Cost for various architectures <hr>
+![image](https://user-images.githubusercontent.com/30192967/137672870-72363bbd-cd19-47f0-8906-e44194a99f75.png)
+Vision Transformers, ResNets, and hybrids. Vision Transformers generally outperform ResNets with the same computational budget.
+Hybrids improve upon pure Transformers for smaller model sizes, but the gap vanishes for larger
+models.
+
+
 
 ### References
 
