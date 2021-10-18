@@ -1,12 +1,12 @@
 
-CONSTRUCTORS: 
+# CONSTRUCTORS: 
 ===============
 The member functions of a class,used to initialise objects of the same class. With no return type, it has the same name as of class and should be placed inside public section of same.
 
-DESTRUCTORS: 
+# DESTRUCTORS: 
 ===============   
 These are used for memory deallocation and cleanup for class objects and its members , when the object is deleted at first place.A destructor is a member function with the same name as its class prefixed by a ~ (tilde).
-```
+```cpp
 //SYNTAX:
 class AB{
    public:
@@ -122,7 +122,6 @@ int main()
 }
 ```
 
-(https://github.com/girlscript/winter-of-contributing/pull/3833/files)
 
 
 
