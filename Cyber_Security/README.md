@@ -105,7 +105,7 @@
 ## Week-6 VAPT (Vulnerability Assessment and Penetration Testing)
 - [Vulnerability identification]
 - [Vulnerability analysis]
-- [Risk assessment]
+- [Risk assessment](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/6.2_Risk_Assessment.md)
 - [Remediation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/CyberSecurity%206.3%20Remediation.md)
 - [Information gathering]
 - [Reconnaissance]
