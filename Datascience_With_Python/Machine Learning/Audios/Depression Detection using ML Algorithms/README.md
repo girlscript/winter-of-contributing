@@ -18,7 +18,7 @@ This is an important section and I have used my time to write it especially for 
 
 Different ways to handle stress and depression -
 
-1. Depression is a state of mind when we underestimate ourselves and is result of overthinking, to get rid of this always have a goal to motivate yourself and work harder and smarter to achieve it <br>
+1. Depression is a state of mind when we underestimate ourselves and is result of overthinking, to get rid of this always have a goal to motivate yourself and work harder and smarter to achieve it. <br>
 2. Whenever you feel too stressed or depressed take a break, small walk, interact with your friends and family members. If you are comfortable then discuss your thoughts and problems with them. <br>
 3. You still have a to look forward in future. So, stay motivated and appreciate the things or people you have. Be Bold and Strong to deal under any circumstances.
 
