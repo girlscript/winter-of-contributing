@@ -31,9 +31,9 @@ int index=hash1(key);
     }
 ```
 * If the position is already occupied by any other element then we search for the next space available
-    * If position ***hash[key]%s*** is full then we look for position (hash[key]+1)%s.
-    * If position ***(hash[key]+1)%s*** is also full then we look for position (hash[key]+2)%s.
-    * If position ***(hash[key]+2)%s*** is also full then we look for position (hash[key]+3)%s.
+    * If position ***hash[key]%s*** is full then we look for position ***(hash[key]+1)%s***.
+    * If position ***(hash[key]+1)%s*** is also full then we look for position ***(hash[key]+2)%s***.
+    * If position ***(hash[key]+2)%s*** is also full then we look for position ***(hash[key]+3)%s***.
 
 Likewise, the process continues till we encounter an empty position.
 
