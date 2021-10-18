@@ -63,7 +63,7 @@ Following all the principles discussed above about the transformers and it's arc
 The ViT tends to learn the association of various objects in the image to other objects in the image.
 The only drawback of this algorithm is it's **heavy computation**.  
 
-### Conclusion
+### Advantages
 
 <hr>
 
@@ -71,6 +71,13 @@ The only drawback of this algorithm is it's **heavy computation**.
 - They're known for long range information dependencies.
 - Transformers can be better especially if you want to encode or generate long sequences.
 - When using a **large number of parameter**s and when trained with **lots of data**, these models produce similar or better results than **SOTA** in tasks such as Image Classification or Object Detection with way simpler models and faster to train.
+
+### Disadvantages <hr>
+
+
+- Large training computation.
+- Large datasets(~1M) are required for training.
+- Huge amount of time taken for training on an average GPU.
 
 ### References
 
