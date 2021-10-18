@@ -3,10 +3,10 @@
 
 # Flow Chart 
 
-![Binayry search flow chart](img2.png)
+![Binayry search flow chart](https://drive.google.com/file/d/1qHOKSRd2TrPYHgr_FoI9-i9C9BKk55lq/view?usp=sharing)
 
 # Example Array
 
-![eg.](img1.png)
+![eg.](https://drive.google.com/file/d/1WUjFFb8tHGqvOA5Jxum2c0bAW7d3l6tl/view?usp=sharing)
 
 # [Click here to watch!](https://drive.google.com/file/d/1w5CdObHlBt0WxNIrkS8AJZp8bXZPra3n/view?usp=sharing)
