@@ -1,6 +1,7 @@
 # Annotations at runtime
-Annotations are a form of metadata that provide data about a program that is not part of the program itself. If any annotation specifies its retention policy as RUNTIME, then those annotations can be queried at runtime by any java program. We use Java reflection to process Java Annotations at runtime.
+Annotations are tags representing metadata that provide additional information about a program to the java compiler and JVM. This tag is attached with classes, methods or fields of the program. If the retention policy of any annotation is specified to be RUNTIME, then those annotations can be queried at runtime by any java program. This is possible with the help of Java reflection. 
 Here is an example of a class annotation.
+
 ```java
 import java.lang.annotation.*;
 import java.lang.reflect.*;
@@ -16,9 +17,11 @@ public @interface MyAnnotation {
 public class Test {
 }
 ```
+
 The first few lines constitute the definition of MyAnnotation. @Retention(RetentionPolicy.RUNTIME) and @Target(ElementType.TYPE), specifies how the annotation is to be used. Retention(RetentionPolicy.RUNTIME) allows annotation to be accessed via reflection. Not setting this directive will not preserve the annotation at runtime.<br>
 Class, field, method and parameter annotations can be accessed at runtime. Following are a few examples to show the same.
 - Class annotations: 
+
 ```java
  Class TestA = Test.class;
  Annotation[] annotations = TestA.getAnnotations();     // TestA.getAnnotations(MyAnnotation.class) to access specific class annotation
@@ -32,6 +35,7 @@ Class, field, method and parameter annotations can be accessed at runtime. Follo
 }
 ```
 - Method annotations:
+
 ``` java
 Method method = ... //obtain method object
 Annotation[] annotations = method.getDeclaredAnnotations();
@@ -45,6 +49,7 @@ for(Annotation annotation : annotations){
 }
 ```
 - Parameter annotations
+
 ```java
 Method method = ... //obtain method object
 Annotation[][] parameterAnnotations = method.getParameterAnnotations();
@@ -65,6 +70,7 @@ for(Annotation[] annotations : parameterAnnotations){
 }
 ```
 - Field annotations:
+
 ```java
 Field field = ... //obtain field object
 Annotation[] annotations = field.getDeclaredAnnotations();
