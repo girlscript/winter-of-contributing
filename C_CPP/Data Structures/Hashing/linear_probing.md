@@ -1,7 +1,6 @@
 ## Implementation of Hash Tables with Linear Probing
 
-### Linear probing
-
+### Linear probing  
 * Linear probing is a technique to resolve collisions in an open addressed hash table. 
 * In linear probing each cell of the hash table contains only a single key pair value.
 * If collisions occur then the element is inserted in the next space available.
@@ -12,20 +11,16 @@
  ```
 and initialize every index with -1.
 
-
 ### **The different operations are**
 
-
-Let "key" be the element to be inserted and "s" be the size of the hash, then the element is inserted using the following hash function
-
+Let "key" be the element to be inserted and "s" be the size of the hash, then the element is inserted using the following hash function  
 ```C++
 int hash1(int key){
     return (key%s);//returns the position where element has be inserted
 }
 ```
 ### 1. Insertion
-Let us see the steps to insert an element in a hash table
-
+Let us see the steps to insert an element in a hash table  
 **Step 1** : We use the hash function to find the position where element has to inserted.
 * If the position is empty we simply insert the element
 ```C++
@@ -36,11 +31,9 @@ int index=hash1(key);
     }
 ```
 * If the position is already occupied by any other element then we search for the next space available
-    * If position hash[key]%s is full then we look for position (hash[key]+1)%s.
-
-    * If position (hash[key]+1)%s is also full then we look for position (hash[key]+2)%s.
-
-    * If position (hash[key]+2)%s is also full then we look for position (hash[key]+3)%s.
+    * If position ***hash[key]%s*** is full then we look for position (hash[key]+1)%s.
+    * If position ***(hash[key]+1)%s*** is also full then we look for position (hash[key]+2)%s.
+    * If position ***(hash[key]+2)%s*** is also full then we look for position (hash[key]+3)%s.
 
 Likewise, the process continues till we encounter an empty position.
 
@@ -55,12 +48,9 @@ for(int i=1;i<size;i++){
 ```
 > Time complexity in the best case is O (1) and in the worst case is O (size of the hash table)
 
-### 2. **Searching**
-
-**Step 1**: We use the hash function to find out where the element should be present.
-
-**Step 2**: If the element is not there then we linearly iterate to the next slots.
-
+### 2. **Searching**  
+**Step 1**: We use the hash function to find out where the element should be present.  
+**Step 2**: If the element is not there then we linearly iterate to the next slots.  
 **Step 3**: If we encounter an empty place, it indicates that the element is not present and we simply return.
 
 ```C++
@@ -85,14 +75,10 @@ void search(int key){
 
 > Time complexity in the best case is O (1) and in the worst case is O (size of the hash table).
 
-### 3. **Deletion**
-
-**Step 1**: We use the hash function to find out where the element should be present.
-
-**Step 2**: If the element is not there then we linearly iterate to the next slots.
-
-**Step 3**: If we encounter an element then we simply replace it with INT_MIN to indicate it as an empty position
-
+### 3. **Deletion**  
+**Step 1**: We use the hash function to find out where the element should be present.  
+**Step 2**: If the element is not there then we linearly iterate to the next slots.  
+**Step 3**: If we encounter an element then we simply replace it with INT_MIN to indicate it as an empty position.  
 **Step 4**: If we encounter an empty place, it indicates that the element is not present and we simply return.
 
 ```C++
@@ -119,8 +105,7 @@ void del(int key){
 > Time complexity in the best case is O (1) and in the worst case is O (size of the hash table).
 
 
-## **C++ code**
-
+## **C++ code**  
 ```C++
 #include<iostream>
 using namespace std;
