@@ -64,12 +64,11 @@ If these three conditions are met, the python will use its closure feature.
 
 ## **When and Why do you need to use Closures in Python?**
 
-You can use closures –
++ If you have global variables that has only one function in your program, you can use closure. Define the variables in the outer function and use them in the inner function.
 
-+ **To replace the unnecessary use of class**: Suppose you have a class that contains just one method besides the _ _init_ _ method. In such cases, it is often more elegant to use a closure instead of a class.
-+ **To avoid the use of the global scope**: If you have global variables which only one function in your program will use, think closure. Define the variables in the outer function and use them in the inner function.
-+ **To implement data hiding**: The only way to access the enclosed function is by calling the enclosing function. There is no way to access the inner function directly.
-+ **To remember a function environment even after it completes its execution**: You can then access the variables of this environment later in your program.
++ The only way to access the enclosed function is by calling the enclosing function. There is no way to access the inner function directly. So. it helps in data hiding.
+
++ Closures remember a function environment even after it completes its execution which can then be accessed in the program.
 
 ## **How can we define Closure?**
 
@@ -94,7 +93,7 @@ Here, the call to outer function returns the inner function. This then gets assi
 
 Do you see what just happened here? Even after ‘outer’ finishes its execution and all its variables go out of scope, the value passed to its argument is still remembered.
 
-This is the beauty of closures! We can access the values of a function that no longer exists.
+We can access the values of a function that no longer exists.
  
  ## **Examples**
  **Ex1:**
@@ -106,14 +105,12 @@ This is the beauty of closures! We can access the values of a function that no l
 ## **Advantages of using Closures**
 
 + Closures help to invoke functions outside their scope.
-
-+ With closures, we can easily extend the scope to invoke a function outside its scope.
  
-+ With Python closure, we don’t need to use global values. This is because they let us refer to nonlocal variables. A closure then provides some form of data hiding.
++ With Python closure, we don’t need to use global values. It let us refer to nonlocal variables.
 
-+ A closure lets us implement a Python decorator.
++ Lets us implement a Python decorator.
 
-+ When we have only a few Python methods (usually, only one), we may use a Python closure instead of implementing a class for that. This makes it easier on the programmer.
++ It makes it easier on the programmer. When we have only a few Python methods (usually, only one), we may use a closure.
 
 
 ## **Summary**
@@ -128,4 +125,3 @@ In this we learned about how to define it, conditions required and advantages.
 + https://www.programiz.com/python-programming/closure
 + https://techvidvan.com/tutorials/closures-in-python/
 + https://www.geeksforgeeks.org/python-closures/
-+ https://data-flair.training/blogs/python-closure/
