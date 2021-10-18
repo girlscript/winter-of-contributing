@@ -31,20 +31,20 @@ OpenCV makes this a fairly simple task. Just follow these steps:
 
 2. **Apply Binary Thresholding**
 
-  While finding contours, first always apply binary thresholding or Canny edge detection to the grayscale image. Here, we will apply binary thresholding.
+      While finding contours, first always apply binary thresholding or Canny edge detection to the grayscale image. Here, we will apply binary thresholding.
 
-  This converts the image to black and white, highlighting the objects-of-interest to make things easy for the contour-detection algorithm. Thresholding turns the border of the object in the image completely white, with all pixels having the same intensity. The algorithm can now detect the borders of the objects from these white pixels.
+       This converts the image to black and white, highlighting the objects-of-interest to make things easy for the contour-detection algorithm. Thresholding turns the border of the object in the image completely white, with all pixels having the same intensity. The algorithm can now detect the borders of the objects from these white pixels.
 
   **Note:** *The black pixels, having value 0, are perceived as background pixels and ignored.*
 
-  At this point, one question may arise. What if we use single channels like R (red), G (green), or B (blue) instead of grayscale (thresholded) images? In such a case, the contour detection algorithm will not work well. As we discussed previously, the algorithm looks for borders, and similar intensity pixels to detect the contours. A binary image provides this information much better than a single (RGB) color channel  image. In a later portion of the blog, we have resultant images when using only a single R, G, or B channel instead of grayscale and thresholded images.
+      At this point, one question may arise. What if we use single channels like R (red), G (green), or B (blue) instead of grayscale (thresholded) images? In such a case, the contour detection algorithm will not work well. As we discussed previously, the algorithm looks for borders, and similar intensity pixels to detect the contours. A binary image provides this information much better than a single (RGB) color channel  image. In a later portion of the blog, we have resultant images when using only a single R, G, or B channel instead of grayscale and thresholded images.
 
 3. **Find the Contours**
 
-  Use the **findContours()** function to detect the contours in the image.
+       Use the **findContours()** function to detect the contours in the image.
 
 4. **Draw Contours on the Original RGB Image.**
 
-  Once contours have been identified, use the **drawContours()** function to overlay the contours on the original RGB image.
+      Once contours have been identified, use the **drawContours()** function to overlay the contours on the original RGB image.
 
 The above steps will make much more sense, and become even clearer when we will start to code.
