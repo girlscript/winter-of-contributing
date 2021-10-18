@@ -133,23 +133,7 @@ class Gen<T>{
 
 ```
 class Gen2<T, U>{
-    // Data members
-    T genericVar1;
-    U genericVar2;
-    T[] genericArray1;
-    U[] genericArray2;
-    Vector<T> genericVector1;
-    Vector<U> genericVector2;
-
-    // Constructor
-    <T, U> Gen(T arg1, U arg2){
-
-    }
-
-    // Methods
-    void calculateSomethingGeneric(T arg1, U arg2){
-
-    }
+    
 }
 ```
 
