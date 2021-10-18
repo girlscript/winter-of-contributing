@@ -3,7 +3,7 @@
 
 # Flow Chart 
 
-![Binayry search flow chart](https://drive.google.com/file/d/1qHOKSRd2TrPYHgr_FoI9-i9C9BKk55lq/view?usp=sharing)
+![Binary search flow chart](https://drive.google.com/file/d/1qHOKSRd2TrPYHgr_FoI9-i9C9BKk55lq/view?usp=sharing)
 
 # Example Array
 
