@@ -182,8 +182,8 @@ int main()
 {
 	int arr[] = { 1 , 6 , 3 , 0 ,3 , 5, 2 , 8 ,9,2 , 1 , 3 ,4  };
 	int n = sizeof(arr) / sizeof(arr[0]);
-	cout << "Minimum number of jumps to";
-	cout << " reach the end is " << minJumps(arr, n);
+	cout << "Minimum number of jumps to reach the end is " << minJumps(arr, n);
+
 	return 0;
 }
 
