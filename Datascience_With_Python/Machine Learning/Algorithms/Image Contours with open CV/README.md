@@ -33,7 +33,7 @@ OpenCV makes this a fairly simple task. Just follow these steps:
 
       While finding contours, first always apply binary thresholding or Canny edge detection to the grayscale image. Here, we will apply binary thresholding.
 
-       This converts the image to black and white, highlighting the objects-of-interest to make things easy for the contour-detection algorithm. Thresholding turns the border of the object in the image completely white, with all pixels having the same intensity. The algorithm can now detect the borders of the objects from these white pixels.
+      This converts the image to black and white, highlighting the objects-of-interest to make things easy for the contour-detection algorithm. Thresholding turns the border of the object in the image completely white, with all pixels having the same intensity. The algorithm can now detect the borders of the objects from these white pixels.
 
   **Note:** *The black pixels, having value 0, are perceived as background pixels and ignored.*
 
@@ -41,7 +41,7 @@ OpenCV makes this a fairly simple task. Just follow these steps:
 
 3. **Find the Contours**
 
-       Use the **findContours()** function to detect the contours in the image.
+      Use the **findContours()** function to detect the contours in the image.
 
 4. **Draw Contours on the Original RGB Image.**
 
