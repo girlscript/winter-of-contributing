@@ -1,4 +1,4 @@
-# HTML CHEAT-SHEET
+# HTML CHEAT-SHEET📄
 ### **HTML** or **HyperText Markup Language** is used to give content to a web page and inform web browsers on how to visualize that content.The content of an HTML element is the information between the opening and closing tags of an element.
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## HTML Boilerplate
@@ -89,7 +89,7 @@
 <colgroup></colgroup>                             <!-- Groups a single or multiple columns for formatting purposes -->
 <col>                                             <!-- Defines a single column of information inside a table -->
 ```
-## <h1 align="center">Forms Formatting and Attributes Tags📌</h1>
+## <h1 align="center">Forms Formatting Tags📌</h1>
 ```html
 <form action="url"></form> <!-- Form element creates a form and action="" specifies where the data is to be 
                                 sent to when the visitor submits the form -->
@@ -126,14 +126,5 @@
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
 ---
-## Happy Learning🎇
-- Documentation created by :[Anushka Paul](https://github.com/pilipi-puu-puu)
-
-
-
-
-
-
-
-
-
+## Happy Learning✨
+- Documentation created by : [Anushka Paul](https://github.com/pilipi-puu-puu) 
