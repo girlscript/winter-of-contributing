@@ -1,13 +1,15 @@
-# Append Last N nodes To First in a singly linkedlist
+## Append Last N nodes To First in a singly linkedlist
 
-## Explaination:
+**Explaination:**
 
-- ### We have to move the last N nodes to the front of the Linkedlist.
+- We have to move the last N nodes to the front of the Linkedlist.
 
-###  For Example, 
-### "1->2->3->4->5->6" is a list which represents the 6 nodes of Linkedlist. When we move the last 3 nodes of this list to the front then the remaining part of the initial list which is, "1->2->3" is attached after 6. Hence, the new list formed with an updated head pointing to 4 and the list will become "4->5->6->1->2->3".
+ For Example, 
+ 
+"1->2->3->4->5->6" is a list which represents the 6 nodes of Linkedlist. When we move the last 3 nodes of this list to the front then the remaining part of the initial list which is, "1->2->3" is attached after 6. Hence, the new list formed with an updated head pointing to 4 and the list will become "4->5->6->1->2->3".
 
-- **Algorithm**
+## Algorithm
+
 1. Create a linkedlist.
 2. Break this original linkedlist by maintaining a count and as this count becomes equal to (total number of nodes in linkedlist- N nodes), stores the new head in the linkedlist.
 3. Now connect the nodes by putting the start node of original linkedlist in the next of the last node of linkedlist.
