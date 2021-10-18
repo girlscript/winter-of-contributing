@@ -3,4 +3,3 @@
 - [Topological Sorting](./TopologicalSorting)
 - [Flood Fill Algorithm](./Flood%20Fill%20Algorithm)
 - [Hamiltonian Path](./HamiltonianPath)
-- [Prim's Algorithm](./PRIMS_ALGORITHM.md)
