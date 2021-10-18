@@ -47,7 +47,7 @@ Airplane is in the air
 
 The issue is that I must supply a particular implementation of the run() function in each subclass, which is why we utilise method overriding.
 
-Let's take one more exampel of method overriding-
+Let's take one more example of method overriding-
 Here in this example, we have declared the run method in the another class i.e. subclass in the same way that it is defined in the parent class, but it has a different implementation. Because the method's name and parameters are the same, and there is an inheritance link between the classes, method overriding is possible.
 
 ```
