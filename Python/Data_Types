@@ -123,3 +123,5 @@ Dict1 = {1:'Hello',2:5.5, 3:'World'}
 print(Dict1)
 Output: {1: ‘Hello’, 2: 5.5, 3: ‘World’}
 
+Hope this documentation is helpful!
+
