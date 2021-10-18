@@ -10,19 +10,6 @@ The general workflow of a Python program which interacts with a MySQL database i
 - Informing the database if any changes are made to a table.
 - Closing the connection to the MySQL server.
 
-## Index
-- Installing MySQL connectors/driver
-- Establishing a connection with the MySQL server
-- Creating a Database
-- Creating a Table
-- Inserting Records in a Table
-- Altering records in a Table
-- Reading records in a Table
-- Updating records in a Table 
-- Sorting records in a Table
-- Deleting
-
-
 #### Pre requisties - MySQL server shouel be installed. 
 <br>
 
@@ -44,3 +31,17 @@ If the above code executes with no errors, then mysql.connector is installed and
 <br>
 <br>
  
+ 
+ ## Topics Covered in the Code file
+- Installing MySQL connectors/driver
+- Establishing a connection with the MySQL server
+- Creating a Database
+- Creating a Table
+- Inserting Records in a Table
+- Altering records in a Table
+- Reading records in a Table
+- Updating records in a Table 
+- Sorting records in a Table
+- Deleting
+
+Using mysqlconnector is not the only way to create a connection between python and a MySQL server. Other modules like [mysqlclient](https://pypi.org/project/mysqlclient/), [MySQLdb](https://pypi.org/project/MySQL-python/) etc., are also available to perform this. 
