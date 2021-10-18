@@ -1,4 +1,4 @@
-Requirements:
+Libraries used:
 
 from cam_functions import extract_feat_cam
 from utils import create_folders, save_data, preprocess_images, load_data, print_classes
