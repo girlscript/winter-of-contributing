@@ -1,6 +1,6 @@
 ## Python code on diabetes Classification
 
-## [Click here to watch video](https://drive.google.com/file/d/1NWQyi1kF8JUXFa0PCVtpGo4fEP_WVcu5/view?usp=sharing)
+## [Click here to listen audio](https://drive.google.com/file/d/1AVh60ewy6kS71EYQ254I68Qqqetd5D3_/view?usp=sharing)
 
 - Diabetes classification is a dataset and objective is to classify the data into the persons having diabetes or not.
 - Dataset contains p_id, no_times_pregnant, glucose_concentration, blood_pressure, skin_fold_thickness, serum_insulin, bmi, diabetes pedigree, age, diabetes.
@@ -46,6 +46,18 @@ diabetes: 0: person not having diabetes, 1: person having diabetes.
 
 ![Capture_6](https://user-images.githubusercontent.com/79050917/134951466-f651a64c-70c0-43c9-bfbc-470ff0ca6d98.PNG)
 
+**In this project i have choosen:**
+- Logistic Regression
+- Decision tree algorithm
+- Random forest Classifier
+**Logistic Regression:**
+-  A logistic regression model predicts a dependent data variable by analyzing the relationship between one or more existing independent variables.
+
+**Decision tree algorithm:**
+- Decision Trees are a type of Supervised Machine Learning (that is you explain what the input is and what the corresponding output is in the training data) where the data is continuously split according to a certain parameter.
+
+**Random forest Classifier:**
+- The algorithm uses randomness to build each individual tree to promote uncorrelated forests, which then uses the forest's predictive powers to make accurate decisions.
 
 - **I have followed the following steps while writing code.**
 - **Importing the libraries.**
