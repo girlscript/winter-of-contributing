@@ -37,7 +37,7 @@ OpenCV makes this a fairly simple task. Just follow these steps:
 
   **Note:** *The black pixels, having value 0, are perceived as background pixels and ignored.*
 
-      At this point, one question may arise. What if we use single channels like R (red), G (green), or B (blue) instead of grayscale (thresholded) images? In such a case, the contour detection algorithm will not work well. As we discussed previously, the algorithm looks for borders, and similar intensity pixels to detect the contours. A binary image provides this information much better than a single (RGB) color channel  image. In a later portion of the blog, we have resultant images when using only a single R, G, or B channel instead of grayscale and thresholded images.
+     At this point, one question may arise. What if we use single channels like R (red), G (green), or B (blue) instead of grayscale (thresholded) images? In such a case, the contour detection algorithm will not work well. As we discussed previously, the algorithm looks for borders, and similar intensity pixels to detect the contours. A binary image provides this information much better than a single (RGB) color channel  image. In a later portion of the blog, we have resultant images when using only a single R, G, or B channel instead of grayscale and thresholded images.
 
 3. **Find the Contours**
 
