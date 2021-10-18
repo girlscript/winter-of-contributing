@@ -46,6 +46,14 @@ between two or more variables.
 4. Data visualizations
 5. Calculate the Correlation Coefficients.
 
+# Data Visualizations(Correlation Heatmaps)
+1.<br>
+![](Data%20Visualizations/Pearson.png)<br>
+2.<br>
+![](Data%20Visualizations/Spearman.png)<br>
+3.<br>
+![](Data%20Visualizations/Kendall.png)<br>
+
 # Applications of Correlation Coefficients
 1. Ecommerce
 2. Real Estate
