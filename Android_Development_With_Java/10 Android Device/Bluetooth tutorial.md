@@ -1,0 +1,72 @@
+# Bluetooth tutorial
+Bluetooth is a method of communicating data between two devices. Sometimes we need to switch on the bluetooth in our device directly from our App. To perform this action, we first need to add the following permissions in the Android Manifest file.
+
+```XML
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+```
+
+Before Proceeding further, we will create a demo UI of our App consisting of two buttons. You can create the UI as per your App.
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/79036525/137682995-008eb656-8ac4-4272-b562-e9512dff5330.png">
+ </p>
+ 
+ 
+ 
+ 
+ 
+ We will use intent to enable bluetooth in our device on clicking the ```BLUETOOTH ON``` button.
+ 
+ 
+ 
+ 
+ ```JAVA
+import androidx.appcompat.app.AppCompatActivity;
+import android.bluetooth.BluetoothAdapter;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+public class BluetoothActivity extends AppCompatActivity {
+
+    private Button bluetooth_on, bluetooth_off;
+    private BluetoothAdapter bluetoothAdapter;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_bluetooth);
+        bluetooth_on = findViewById(R.id.bluetooth_on);
+        bluetooth_off = findViewById(R.id.bluetooth_off);
+        bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        bluetooth_on.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Enable();
+            }
+        });
+        bluetooth_off.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Disable();
+            }
+        });
+    }
+
+    private void Enable() {
+        Intent intent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+        startActivityForResult(intent, 1);
+        Toast.makeText(getApplicationContext(), "BLUETOOTH ON", Toast.LENGTH_SHORT).show();
+    }
+
+    private void Disable() {
+        bluetoothAdapter.disable();
+        Toast.makeText(getApplicationContext(), "BLUETOOTH OFF", Toast.LENGTH_SHORT).show();
+    }
+}
+```
+
+Now on clicking the ```BLUETOOTH ON``` button the app will ask permission to switch on the bluetooth in your device, accepting which bluetooth will be switched on.
