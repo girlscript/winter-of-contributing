@@ -16,10 +16,10 @@
 
 ### Complexity Analysis:
 - **Time Complexity:**<br>
-    As in the below code visits each and every cell of a matrix of size n x m (where 'n' is the number of rows and 'm' is the number of columns of the grid) starting with some source cell.
-    Therefore the Time Complexity of the algorithm will be: O(n x m).
+    As in the below code visits each and every cell of a matrix of size n * m (where 'n' is the number of rows and 'm' is the number of columns of the grid) starting with some source cell.
+    Therefore the Time Complexity of the algorithm will be: O(n * m).
 - **Space Complexity:**<br>
-    As the extra space has been maintained to keep that of the visisted cells, therefore the Space Complexity of the algorithm will also be: O(n x m).
+    As the extra space has been maintained to keep that of the visisted cells, therefore the Space Complexity of the algorithm will also be: O(n * m).
     
 ### References:
 - [https://en.wikipedia.org/wiki/Flood_fill](https://en.wikipedia.org/wiki/Flood_fill)
