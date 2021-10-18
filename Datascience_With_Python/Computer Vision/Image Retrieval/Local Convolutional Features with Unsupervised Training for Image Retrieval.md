@@ -1,0 +1,12 @@
+Using Convolutional Neural Networks, we have to train our model such that it classifies Images correctly on which it is trained. And also classifies all those Images which are not part of training but part of classification output. This is perfect example of Deep Learning and Unsupervised Approach.
+
+Below is the Audio link, where I have successfully explained the topics in following manner:-
+
+Types of Image Retrieval
+Convolutional Neural Networks & its Types
+1.Kernel
+2.Pooling
+3.Fully Connected Layers & Epochs
+Flow of Content Based Image Retrieval
+Euclidean Distance
+Conclusion
