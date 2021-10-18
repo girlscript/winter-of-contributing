@@ -14,7 +14,7 @@ Machine learning offers hundreds of algorithms which can be used for making pred
 On a broader scope it depends on two factors. <b> One is the kind of solution you are looking for and the other being the kind of dataset you have</b>.On going a little deep down further, we need to constantly ask questions and seek answers in detail about these two factors. We'll understand all that in depth in this tutorial, but first let us be clear with initial two major questions.
 
 ### Type of algorithm? ###
-<b>Machine learning is of three types. Choosing among them totally depend on the dataset and the expected output. Analyze your data and problem statement and categorize it into one of the following type in order to proceed further.</b>
+<b>Machine learning is of three types. Choosing among them totally depend on the dataset and the expected output. Analyze your data and problem statement and categorize it into one of the following type in order to proceed further.</b><br>
 <b>1. Supervised Learning:</b> In this case the final output is "labelled" in the dataset.You need to train the data according to given lables and the algorithms will make use of that to give you prediction about a new test data.<br>
 Algorithms in this case include<br> Neural networks.<br>
 Naive Bayes.<br>
@@ -64,7 +64,6 @@ Example of such algorithms include Linear Regression, Naive Bayes algorithm, SVM
 It does, however, have a fixed memory footprint in terms of the code and consumes that much while getting loaded.<br>On the other hand, neural network model consumes a lot of memory at the training/fitting step, unlike the linear regression model. However, for a small number of features and large data size, the fitting takes a low amount of memory.<br>Hence, memory space acts as an important factor in model selection as well.<br><br><br>
 
 ### Overfitting tendency  - A factor or not (A discussion) ###
-Separate Overfitting Analysis From Model Selection
 Overfitting can be an explanation for poor performance of a predictive model.
 
 Creating learning curve plots that show the learning dynamics of a model on the train and test dataset is a helpful analysis for learning more about a model on a dataset.
