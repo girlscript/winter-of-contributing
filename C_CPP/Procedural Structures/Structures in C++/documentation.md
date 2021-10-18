@@ -22,38 +22,10 @@ Structure variables can be initialized. The initialization for each variable mus
 [struct] tag declarators;
 ```
 
-If you find this syntax a bit complicated, don't worry guys.
-
-Open [structure in C++](https://github.com/ankushsingh24/winter-of-contributing/tree/C_CPP/C_CPP/Procedural%20Structures/Structure/Structure%20in%20C%2B%2B), for a beginner friendly documentation.
-
-Happy Learning.
-
-<hr>
-
-## Contribution Guidelines :gear:
-
-Please refer to the **[DSA Contribution Guidelines](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/CONTRIBUTING.md)** within the same folder for all the submission guidelines. It contains the documentation process to assist you. Please go through it before creating issues/PRs.
-
-<hr>
-
 Reference to get started:
 
 - [GeeksForGeeks](https://www.geeksforgeeks.org/)
 - [HackerRank](https://www.hackerrank.com/dashboard)
 - [HackerEarth](https://www.hackerearth.com/practice/)
-
-<hr>
-
-## License
-
-This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
-
-<hr>
-
-## Maintainer
-
-<a href="https://github.com/ankushsingh24">
-  <img src="https://contrib.rocks/image?repo=ankushsingh24/ankushsingh24" />
-</a>
 
 <hr>
