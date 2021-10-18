@@ -1,0 +1,3 @@
+- [Errors in C++](Errors-in-CPP.md)
+- [Error Audio](./Error_Audio.md)
+- [Runtime Errors in C_C++](./runtimeerror.md)

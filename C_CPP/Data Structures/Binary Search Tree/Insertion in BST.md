@@ -21,53 +21,53 @@ Steps for insertion -
 <br>
 ### Code for insertion of element in BST in C
 
-```
-
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct BST_node{
+typedef struct BST_node
+{
 	int data;
-	struct BST_node *left , *right;
+	struct BST_node *left, *right;
 } BST;
 
 BST *insertData(int val, BST *node)
 {
-    // root node
-    if(node == NULL)
-    {
-		node = (BST*)malloc(sizeof(BST));
+	// root node
+	if (node == NULL)
+	{
+		node = (BST *)malloc(sizeof(BST));
 		node->data = val;
 		node->left = NULL;
 		node->right = NULL;
 	}
-    // left subtree
-	else if(val <= node->data)
-    {
-		node->left = insert_data(val , node->left);
+	// left subtree
+	else if (val <= node->data)
+	{
+		node->left = insertData(val, node->left);
 	}
-    // right subtree
-	else if(val > node->data)
-    {
-		node->right = insert_data(val , node->right);
+	// right subtree
+	else if (val > node->data)
+	{
+		node->right = insertData(val, node->right);
 	}
 	return node;
 }
 
 int main()
 {
-    // generating the above BST example
-    BST *root = NULL;
-    root = insertData(10, root);
-    root = insertData(7, root);
-    root = insertData(14, root);
-    root = insertData(4, root);
-    root = insertData(9, root);
-    root = insertData(26, root);
+	// generating the above BST example
+	BST *root = NULL;
+	root = insertData(10, root);
+	root = insertData(7, root);
+	root = insertData(14, root);
+	root = insertData(4, root);
+	root = insertData(9, root);
+	root = insertData(26, root);
 
-    // inserting the node 11 into the above BST to get the desired result
-    root = insertData(11, root);
+	// inserting the node 11 into the above BST to get the desired result
+	root = insertData(11, root);
 
-    return 0;
+	return 0;
 }
 ```

@@ -1,4 +1,5 @@
-- [Single Inheritance](Single_Inheritance_Video.md)
+- [Single Inheritance](./Single_Inheritance/)
 - [Hierarchical Inheritance](Hierarchical_Inheritance.md)
 - [Multiple Inheritance](multilevel-inheritance.md)
 - [Hybrid Inheritance](hybrid-inheritance.md)
+- [Multiple Inheritance Audio](./multiple_inheritance.md)
