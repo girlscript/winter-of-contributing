@@ -22,6 +22,8 @@
 
 ### 2. Getting started with open source : 
 
+- [2. Getting started with open source](2.Getting_Started_With_Open_Source/2._GettingStarted_With_Open_Source.ipynb)
+
 - [2.0 Why open source?](2.Getting_Started_With_Open_Source/2.0_Why_Open_Source.md)
 
 - [2.1 Practice Git & Github fundamentals](2.Getting_Started_With_Open_Source/2.1_Practice_Git_and_Github_fundamentals.md)
@@ -50,6 +52,8 @@
 - [3.6 How to find issues on Github](3.Share_Things_With_Community/3.6_Finding_Github_Issues.ipynb)
 
 - [3.7 Youtube resources & blogs](3.Share_Things_With_Community/3.7_Youtube_Video_links_for_Beginners.md)
+
+- [3.8 Submit patch to linux kernel](3.Share_Things_With_Community/3.8_Submit_Patch_To_Linux_kernel.md)
  
 
 ### 4. Open source programs :
@@ -89,6 +93,10 @@
 - [4.18 Julia summer of code](4.Open_Source_Programs/4.18_julia_summer_of_code.md)
 
 - [4.19 Mozilla winter of security](4.Open_Source_Programs/4.19_Mozilla_Winter_of_Security.md)
+
+- [4.20 NJACK Winter of code](4.Open_Source_Programs/4.20_NJACK_Winter_Of_Code.md)
+
+- [4.21 OpenCode IIITA](4.Open_Source_Programs/4.21_OpenCode_IIITA.md)
 
 
 ### 5. Cloud Native Computing Foundation (CNCF) projects :
@@ -153,11 +161,56 @@
 
 - [5.30 Thanos](5.CNCF_Projects/5.30_Thanos.md)
 
+- [5.31 CrossPlane](5.CNCF_Projects/5.31_Contour.md)
+
+- [5.32 CrossPlane](5.CNCF_Projects/5.32_Cortex.md)
+
+- [5.33 CrossPlane](5.CNCF_Projects/5.33_CrossPlane.md)
+
+- [5.34 Flagger](5.CNCF_Projects/5.34_Flagger.md)
+
+- [5.35 gRPC](5.CNCF_Projects/5.35_gRPC.md)
+
+- [5.36 KEDA](5.CNCF_Projects/5.36_KEDA.md)
+
+- [5.37 Notary](5.CNCF_Projects/5.37_Notary.md)
+
+- [5.38 Operator Framework](5.CNCF_Projects/5.38_OperatorFramework.md)
+
 
 ### 6. Popular open source projects and softwares :
 
 - [6.1 npm - Node package manager](6.Popular_Projects/6.1_npm.md)
 
+- [6.2 npm vs yarn](6.Popular_Projects/6.2_npm_vs_yarn.md)
+
+- [6.4 VS Code](6.Popular_Projects/6.4_vscode.md)
+
+- [6.5 Ansible](6.Popular_Projects/6.5_Ansible.md)
+
+- [6.6 Azure Docs](6.Popular_Projects/6.6_Azure_Docs.md)
+
+- [6.7 Definitely Typed](6.Popular_Projects/6.7_DefinitelyTyped.md)
+
+- [6.8 Deno](6.Popular_Projects/6.8_Deno.md)
+
+- [6.9 ThreeJS](6.Popular_Projects/6.9_Three.js.md)
+
+- [6.10 Material UI](6.Popular_Projects/6.10_MaterialUI.md)
+
+- [6.11 Webpack](6.Popular_Projects/6.11_Webpack.md)
+
+- [6.12 Socket.io](6.Popular_Projects/6.12_Socket.io.md)
+
+- [6.13 React Native](6.Popular_Projects/6.13_React_Native.md)
+
+- [6.14 Grunt](6.Popular_Projects/6.14_Grunt.md)
+
+- [6.15 Ember.js](6.Popular_Projects/6.15_Ember.js.md)
+
+- [6.16 NextJS](6.Popular_Projects/6.16_Next.js.md)
+
+- [6.17 Language Server Protocol](6.Popular_Projects/6.17_Language_Server_Protocol.md)
 
 ### Miscellaneous :
 
