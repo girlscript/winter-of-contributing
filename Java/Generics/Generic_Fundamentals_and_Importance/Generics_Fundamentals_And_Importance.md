@@ -1,10 +1,10 @@
 # Generic Fundamentals and Importance
 
-Generics were introduced by JDK 5. Two major consequences of the feature were, first, it added a new syntatical element to the language. Second, it changed many of the classes and methods in core API. 
+Generics were introduced by JDK 5. Two major consequences of the feature were, first, it added a new syntactical element to the language. Second, it changed many of the classes and methods in core API. 
 
 ## What are Generics?
 
-Going by literal meaning, generics means parametrized types. they enable us to create classes, interfaces and methods in which can work in type-safe manner with various kinds of data. In short we can specify the type of data we are operating upon as a paremeter to a generic class, interface or method. 
+Going by literal meaning, generics means parameterized types. they enable us to create classes, interfaces and methods in which can work in type-safe manner with various kinds of data. In short we can specify the type of data we are operating upon as a parameter to a generic class, interface or method. 
 
 For example, consider the following program
 ```
@@ -48,7 +48,7 @@ public class stack {
 }
 ```
 
-Here we have created a stack data structure of `integer` type with 3 methods `push()`, `pop()` and `peek()`. But what if now we want to implement a stack data structure for `float` type or for `String` type? Writing seperate classes for each type creates redundancy and makes code difficult to maintain. 
+Here we have created a stack data structure of `integer` type with 3 methods `push()`, `pop()` and `peek()`. But what if now we want to implement a stack data structure for `float` type or for `String` type? Writing separate classes for each type creates redundancy and makes code difficult to maintain. 
 
 Generics overcome such shortcomings, let's see how this program can be written using generics. 
 ```
@@ -102,7 +102,7 @@ public class stack<T>{
 }
 ```
 
-Instead of creating seprate classes for each datatype we can easily create a generic class which will handle all datatype. <br />
+Instead of creating separate classes for each datatype we can easily create a generic class which will handle all datatype. <br />
 Here, `stack<T> s = new stack<T>(size);` creates an stack of `T` type. This allows us to use same class for a `Integer`, `Float` and `String` type stack. 
 
 ## Syntax for various Generic Types
@@ -180,4 +180,4 @@ class example{
 1. Generics allow us to reuse the same code for multiple datatypes. 
 2. Generics implement type safety, i.e., Errors appear at compile type than at runtime. 
 3. Generics exempt user from individual type casting.
-4. Generics implements the concept of polymorphism, which is an important aspect of OOPS programming pardigm. 
+4. Generics implements the concept of polymorphism, which is an important aspect of OOPS programming paradigm. 
