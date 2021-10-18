@@ -7,7 +7,7 @@
 + Nested functions and Non-local Variable in Python
 + What are Python Closures?
 + Criteria to use Closures
-+ When and Why do you need to use Closures in Python?
++ When to use Closures in Python?
 + How can we define Closure?
 + Advantages of using Closures
 + Summary
@@ -18,18 +18,18 @@
 **Closures** are elegant Python constructs.
 Python Closures are inner functions that are enclosed within the outer function.
 
-Before getting into what a closure is, we have to first understand what a nested function and non local variable is.
+Before moving forward to what Python closures are, we first have to know about what is a nested function and non-local variable.
 
 ## **Nested functions and Non-local Variable in Python**
 
 A function that is defined inside another function is known as a **nested function**. Nested functions are able to access variables of the enclosing scope. 
-In Python, these **non-local variables** can be accessed only within their scope and not outside their scope.
+In Python, these **non-local variables** are those that can be accessed only within their scope and not outside their scope.
 
-This can be illustrated by the following example: 
+Let's understand it by an example: 
 
 ``` python 
 def print_msg(msg):
-    # This is the outer enclosing function
+    #  outer enclosing function
     def printer():
         # This is the nested function
         print(msg)
@@ -42,33 +42,33 @@ print_msg("Hello")
 ##### **Output**
 **Hello**
 
-We can see that the nested printer() function was able to access the non-local msg variable of the enclosing function.
+Here, the nested printer() function was able to access the non-local variable i.e, msg of the enclosing function.
 
 ## **What are Python Closures?**
 
 ![Python Closures](https://lh3.googleusercontent.com/proxy/oSl4MjzUzM2Ru3QLzF15nONYfO6XEn_SzoI2EeD1jjCXmVMm5AWG-QhvEWTiU7Pq2fxbares8FoGZfvf1Dpr1pDPMhl0yI48Ze58uHgFuDYs3BhYh3s)
 
-Like nested loops, we can also nest functions. That said, Python gives us the power to define functions within functions.
+Like nested loops, we can nest functions too. Python provides us with a tool to define functions within functions. For this purpose, we can use Python Closures.
 
-Python Closures are these inner functions that are enclosed within the outer function. Closures can access variables present in the outer function scope. It can access these variables even after the outer function has completed its execution.
+Python Closures are inner functions that are enclosed within the outer function. Closures can access variables present in the outer function scope. It can access these variables even after the outer function has completed its execution. 
 
 ## **Criteria to use Closures?**
 
-We have a closure in Python when a nested function references a value in its enclosing scope. For using closures, these three conditions must be met:
+We use a closure in Python when a nested function references a value in its enclosing scope. For using closures, these three conditions must be met:
 
 + We must have a nested function.
 + This nested function must refer to a variable nonlocal to it(a variable in the scope enclosing it).
 + The enclosing scope must return this function.
 
-If these three conditions are met, the python will use its closure feature.
+If all the three above criteria is met, the python will use its closure feature.
 
-## **When and Why do you need to use Closures in Python?**
+## **When to use Closures in Python?**
 
-+ If you have global variables that has only one function in your program, you can use closure. Define the variables in the outer function and use them in the inner function.
++ If you have global variables that has only one function in your program, you can use closure. We can define these variables in the outer function itself and then use them in the inner function.
 
 + The only way to access the enclosed function is by calling the enclosing function. There is no way to access the inner function directly. So. it helps in data hiding.
 
-+ Closures remember a function environment even after it completes its execution which can then be accessed in the program.
++ Closures remembers a function environment even after it completes its execution which can then be accessed in the program.
 
 ## **How can we define Closure?**
 
@@ -77,7 +77,7 @@ def outer(name):
     # this is the enclosing function
     def inner():
         # this is the enclosed function
-        # the inner function accessing the outer function's variable 'name'
+        # here the inner function is accessing the outer function's variable i.e., 'name'
         print(name)
     return inner
     
@@ -89,9 +89,9 @@ myFunction()
 ##### **Output**
 **'Python Closures'**
 
-Here, the call to outer function returns the inner function. This then gets assigned to ‘myFunction’. Now when we call myFunction, it prints ‘Python Closures’ (which was earlier given as an argument to outer).
+Here, the calling of outer function returns the inner function. This then gets assigned to ‘myFunction’. Now when we call myFunction, it prints ‘Python Closures’ (which was earlier given as an argument to outer function).
 
-Do you see what just happened here? Even after ‘outer’ finishes its execution and all its variables go out of scope, the value passed to its argument is still remembered.
+Do you see what just happened here? Even if the ‘outer’ finishes its execution and all its variables go out of scope, the value still gets passed to its argument and is accessible.
 
 We can access the values of a function that no longer exists.
  
@@ -104,9 +104,9 @@ We can access the values of a function that no longer exists.
 
 ## **Advantages of using Closures**
 
-+ Closures help to invoke functions outside their scope.
++ With the help of closures, we can invoke functions outside their scope.
  
-+ With Python closure, we don’t need to use global values. It let us refer to nonlocal variables.
++ We don’t need to use global values with Python closure. It let us refer to nonlocal variables.
 
 + Lets us implement a Python decorator.
 
@@ -115,9 +115,9 @@ We can access the values of a function that no longer exists.
 
 ## **Summary**
 
-Closures are just functions, but with an extra environment of variables.
+Closures are basically just functions, but with an extra environment of variables.
 It can be defined when a nested function references a value in its enclosing scope. 
-A closure can also be a highly efficient way to preserve state across a series of function calls.
+A closure can also be a effective way to preserve state across a series of function calls.
 In this we learned about how to define it, conditions required and advantages.
 
 
