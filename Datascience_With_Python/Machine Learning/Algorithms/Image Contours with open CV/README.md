@@ -88,5 +88,34 @@ cv2.destroyAllWindows()
 
 **OUTPUT**
 
+![image](https://user-images.githubusercontent.com/62233992/137803555-7fb15bb6-0f77-4b25-bb03-239fb09522c5.png)
 
+We see that there are three essential arguments in cv2.findContours() function. First one is source image, second is contour retrieval mode, third is contour approximation method and it outputs the image, contours, and hierarchy. ‘contours‘ is a Python list of all the contours in the image. Each individual contour is a Numpy array of (x, y) coordinates of boundary points of the object.
 
+**Contours Approximation Method –**
+
+Above, we see that contours are the boundaries of a shape with the same intensity. It stores the (x, y) coordinates of the boundary of a shape. But does it store all the coordinates? That is specified by this contour approximation method.
+
+If we pass **cv2.CHAIN_APPROX_NONE**, all the boundary points are stored. But actually, do we need all the points? For eg, if we have to find the contour of a straight line. We need just two endpoints of that line. This is what **cv2.CHAIN_APPROX_SIMPLE** does. It removes all redundant points and compresses the contour, thereby saving memory.
+
+### Application of Contours in Computer Vision
+
+Some really cool applications have been built, using contours for motion detection or segmentation. Here are some examples:
+
+* **Motion Detection:** In surveillance video, motion detection technology has numerous applications, ranging from indoor and outdoor security environments, traffic control, behaviour detection during sports activities, detection of unattended objects, and even compression of video. In the figure below, see how detecting the movement of people in a video stream could be useful in a surveillance application. Notice how the group of people standing still in the left side of the image are not detected. Only those in motion are captured. Do refer to this paper to study this approach in detail.
+
+![image](https://user-images.githubusercontent.com/62233992/137803992-2d039d6d-cf70-4a69-a7a5-1cfc2a221ff5.png)
+
+An example of moving object detection, identifying the persons in motion. Note that the person standing still on the left is not being detected.
+
+* **Unattended object detection:** Any unattended object in public places is generally considered as a suspicious object. An effective and safe solution could be: *(Unattended Object Detection through Contour Formation using Background Subtraction).*
+
+![image](https://user-images.githubusercontent.com/62233992/137804079-8d6bb201-ca48-45cb-a87e-5d13185e67d5.png)
+
+Image from paper cited – background frame without and with the unattended object – identification and marking the unattended object.
+
+* **Background / Foreground Segmentation:** To replace the background of an image with another, you need to perform image-foreground extraction (similar to image segmentation). Using contours is one approach that can be used to perform segmentation. Refer to this post for more details. The following images show simple examples of such an application:
+
+![image](https://user-images.githubusercontent.com/62233992/137804198-e67407f7-a786-4c0c-bd44-255289c28ff3.png)
+
+An example of simple image foreground extraction, and adding a new background to the image using contour detection.
