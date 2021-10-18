@@ -1,10 +1,7 @@
-
 # CONSTRUCTORS: 
-===============
 The member functions of a class,used to initialise objects of the same class. With no return type, it has the same name as of class and should be placed inside public section of same.
 
-# DESTRUCTORS: 
-===============   
+# DESTRUCTORS:   
 These are used for memory deallocation and cleanup for class objects and its members , when the object is deleted at first place.A destructor is a member function with the same name as its class prefixed by a ~ (tilde).
 ```cpp
 //SYNTAX:
@@ -14,8 +11,8 @@ class AB{
    ~AB(); // DESTRUCTOR
 }
 ```
-IMPLEMENTATION OF STACK USING CONSTRUCTORS (PARAMETRISED CONSTRUCTORS) AND DESTRUCTORS: 
----------------
+Implementation of stack using Constrctors and Destructors. 
+------------------
 ```c++
 #include <iostream>
 using namespace std;
@@ -121,11 +118,15 @@ int main()
     return 0;
 }
 ```
-
-
-
-
-
-
-
-
+Output:
+---------
+STACK IMPLEMENTATION     
+Element to be inserted:6    
+Element to be inserted:7   
+Element to be inserted:10   
+Element to be inserted:13   
+Element to be inserted:20  
+Element to be removed: 20  
+Element to be removed: 13  
+Element to be inserted:56  
+The top most element is 56  
