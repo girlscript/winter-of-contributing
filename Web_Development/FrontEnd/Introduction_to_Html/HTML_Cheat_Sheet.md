@@ -148,7 +148,7 @@
 ```
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-## Resources:
+## Resources✅
 - [HTML CheatSheet](https://www.wpkube.com/html5-cheat-sheet/)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 
