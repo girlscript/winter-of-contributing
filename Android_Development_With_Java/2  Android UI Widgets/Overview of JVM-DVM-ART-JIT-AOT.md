@@ -58,13 +58,6 @@ e.) AOT: AOT stands for Ahead of Time compilation, and compiles your code, to th
 
 Difference Table
 
-JVM(Java Virtual 																			DVM(Dalvik Virtual Machine)
-Stack-based VM that performs arithmetic and logic operations through push and pop operands. The result of operations is stored in stack memory. 			Register-based VM that uses registers located in the CPU to perform arithmetic and logic operations.
-Java source code is compiled into Java bytecode format(.class file) that further translates into machine code.								Source code files are first of all compiled into Java bytecode format like JVM. Further, the DEX compiler (dx tool) converts the Java bytecode into Dalvik bytecode(classes.dex) file that will be used to create the .apk file.
-More information is required to the VM for data loading and manipulation as well as method loading in the stack data structure.						Instruction size is larger as it needs to encode the source and destination register of the VM.
-Compiled bytecode size is compact because the location of the operand is implicitly on the operand stack.								Compiled bytecode size is larger as each instruction needs all implicit operands.
-The executable file for the device is .jar file.															The executable file for the device is .apk file.
-A single instance of JVM is configured with shared processes and memory space in order to run all deployed applications.						The device runs multiple DVM instances with a separate process in shared memory space to deploy the code of each application. 
 
 <img src="https://miro.medium.com/max/966/1*7AiR9XA-FXy9LCFsPFktqg.png">
 
