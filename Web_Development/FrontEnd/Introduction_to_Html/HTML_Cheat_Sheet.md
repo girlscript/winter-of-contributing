@@ -1,7 +1,7 @@
 # HTML CHEAT-SHEET📄
 ### **HTML** or **HyperText Markup Language** is used to give content to a web page and inform web browsers on how to visualize that content.The content of an HTML element is the information between the opening and closing tags of an element.
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## HTML Boilerplate
+## HTML Boilerplate💡
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -88,6 +88,21 @@
 <td></td>                                         <!-- Contains actual information in a table cell -->
 <colgroup></colgroup>                             <!-- Groups a single or multiple columns for formatting purposes -->
 <col>                                             <!-- Defines a single column of information inside a table -->
+```
+## <h2 align="left">Table Attributes🔍</h2> 
+```HTML
+<table border=?>                            <!--Sets the width of the border around table cells-->
+<table cellspacing=?>                       <!--Sets amount of space between table cells-->
+<table cellpadding=?>                       <!--Sets amount of space between a cell's border and its contents-->
+<table width=?>                             <!--Sets width of the table in pixels or as a percentage-->
+<tr align=?>                                <!--Sets alignment for cells within the row (left/center/right)-->
+<td align=?>                                <!--Sets alignment for cells (left/center/right)-->
+<tr valign=?>                               <!--Sets vertical alignment for cells within the row (top/middle/bottom)-->
+<td valign=?>                               <!-- Sets vertical alignment for cell (top/middle/bottom)-->
+<td rowspan=?>                              <!--Sets number of rows a cell should span (default=1)-->
+<td colspan=?>                              <!--Sets number of columns a cell should span-->
+<td nowrap>                                 <!--Prevents lines within a cell from being broken to fit-->
+    
 ```
 ## <h1 align="center">Forms Formatting Tags📌</h1>
 ```html
