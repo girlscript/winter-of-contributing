@@ -115,3 +115,11 @@
 - [Maintaining access]
 - [Covering Tracks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Cybersecurity%206.9%20Covering%20tracks.md)
 
+## Week-7 Tools
+ - [Wireshark]
+ - [Nmap]
+ - [OWASP-ZAP]
+ - [Nikto]
+ - [Burp Suite]
+ - [Metasploit]
+
