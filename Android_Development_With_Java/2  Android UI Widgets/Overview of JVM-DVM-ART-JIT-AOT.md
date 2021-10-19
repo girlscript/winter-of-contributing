@@ -14,7 +14,8 @@ There are 2 main types of Virtual Machine (VM):
 
 ### 2. Give some overview of JVM, DVM, ART, JIT,AOT
 
-##### a.) JVM: JVM is the virtual machine that runs java code on different platforms. It acts as an abstract layer between the program and the platform on which the java code is running. The portability of Java code is possible only because of the JVM. The javac compiler converts the source code file(.java file) into an intermediate java bytecode format which is machine/platform independent. This intermediate file is then provided to the target machine/platform where it gets translated into machine code. JVM supports multiple host architecture and it is the reason why Java applications are called WORA(Write Once Run Anywhere).
+##### a.) JVM:
+JVM is the virtual machine that runs java code on different platforms. It acts as an abstract layer between the program and the platform on which the java code is running. The portability of Java code is possible only because of the JVM. The javac compiler converts the source code file(.java file) into an intermediate java bytecode format which is machine/platform independent. This intermediate file is then provided to the target machine/platform where it gets translated into machine code. JVM supports multiple host architecture and it is the reason why Java applications are called WORA(Write Once Run Anywhere).
 
  <img src="https://static.javatpoint.com/images/jvm-architecture.png">
 
