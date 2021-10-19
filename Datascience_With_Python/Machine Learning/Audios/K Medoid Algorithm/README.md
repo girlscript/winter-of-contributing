@@ -88,3 +88,6 @@ until we have homogeneous clusters:
     *** Diameter ok 3.000 <= 3.000
     *** Stopping, 2 clusters enough (7 points initially)
 
+## CONCLUSION
+
+k-medoid is based on medoids (which is a point that belongs to the dataset) calculating by minimizing the absolute distance between the points and the selected centroid, rather than minimizing the square distance. As a result, it's more robust to noise and outliers than k-means.
