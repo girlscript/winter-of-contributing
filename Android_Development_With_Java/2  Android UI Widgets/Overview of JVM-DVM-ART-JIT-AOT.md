@@ -98,6 +98,7 @@ Application lagging due to garbage collector pauses and JIT					Reduced applicat
 App installation time is comparatively lower as the compilation is performed later		App installation time is longer as compilation is done during installation
 
 
+<img src="https://miro.medium.com/max/1400/0*LMPhjF2BanM_9h8o.png">
 
 What’s Better?
 It depends on the device and one’s own device and preferences: in the long run, ART is better, but the apps do get bigger, requiring large storage space over time, unlike flappy bird which was just 1MB and required less space. Therefore, the devices in the future need to expand storage if ART is going to dominate the market in the next few years.
