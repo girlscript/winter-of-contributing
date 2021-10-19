@@ -1,9 +1,8 @@
 				
-<font size="5">					   ISSUE NAME: Overview of JVM,DVM, ART, JIT, AOT	
-					        GIRLSCRIPT WINTER OF CONTRIBUTING’21	      				
-					     		 OVERVIEW
+					  	##	 ISSUE NAME: Overview of JVM,DVM, ART, JIT, AOT	
+					       	##	      GIRLSCRIPT WINTER OF CONTRIBUTING’21	      				
+					     	##			   OVERVIEW
 
-<\font>
 
 							    
 1. What is Virtual Machine?
