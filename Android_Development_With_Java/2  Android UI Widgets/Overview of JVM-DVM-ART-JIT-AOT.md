@@ -1,7 +1,7 @@
 				
-					  	##	 ISSUE NAME: Overview of JVM,DVM, ART, JIT, AOT	
-					       	##	      GIRLSCRIPT WINTER OF CONTRIBUTING’21	      				
-					     	##			   OVERVIEW
+					  		<font size="6"> ISSUE NAME: Overview of JVM,DVM, ART, JIT, AOT	</font>
+					       		  <font size="6">    GIRLSCRIPT WINTER OF CONTRIBUTING’21	</font>      				
+					     			<font size="6">	   OVERVIEW    </font>
 
 
 							    
