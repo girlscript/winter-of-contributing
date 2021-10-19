@@ -8,6 +8,10 @@ There are 2 main types of Virtual Machine (VM):
 · System virtual machines (full virtualization VMs) provide a substitute for a real machine.
 · Process virtual machines are designed to execute computer programs in a platform-independent environment.
 
+<img src="https://azurecomcdn.azureedge.net/cvt-7a1caae261bd8b84c6eea4a6d655fb0f72c5bad2c994b89e12fa57f965ffefca/images/page/overview/what-is-a-virtual-machine/overview-img.png">
+
+
+
 
 2. Give some overview of JVM, DVM, ART, JIT,AOT
 
