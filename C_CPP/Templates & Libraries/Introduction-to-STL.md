@@ -42,31 +42,20 @@ The Algorithms defines a collection of functions mainly designed to be used for 
 operations to the contents of container.
 
 List of STL Algorithms:
-- Search
-- Sort
-- Swap
-- Merge
-- Count
-- Find
-- Copy
-- Fill
+- **Search**: Searches for a set of sequence of values in a container and corresponds the same sequence with another container.
+- **Sort**: Sorts the values in container in a specified order.
+- **Swap**: Exchanges values in a location with values in another.
+- **Merge**: Combines 2 sorted ranges of elements.
+- **Count**: Counts the number of elements with a specific value.
+- **Find**: Searches and returns the first occurence of the specified value.
+- **Fill**: Copies a value and fills in the specified location.
 
 ## Iterators
 
 Iterators are mostly pointer-like entities used to access data items individually in a container. They are used to move sequentially to each elements which is called 
 _iterating_ through the container. They are the major feature which allows generality in STL.
 
-List of Iterator characteristics:
-- Random access
-- Bidirectional
-- Forward
-
-
-
-
-
-
-
-
-
-
+List of Iterator characteristics: 
+- **Random access**: This iterator supplies random access of any specified element at an arbitrary position.
+- **Forward**: This iterator is used to read and write to a container and provides only forward direction.
+- **Bidirectional**: This iterator provides all the features of forward iterator and also we can move backwards. So it provides both forward and back direction.
