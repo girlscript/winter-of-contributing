@@ -4,8 +4,9 @@ there are many algorith which are based on this technique but from those some of
 1. Binary search 
 2. Merge sort
 3. Find max and min
+4. Quick sort
 ## Binary seearch using DAC
-```
+```cpp
 //binary search using DAC techinque
 #include<bits/stdc++.h>
 using namespace std;
@@ -37,7 +38,7 @@ int main()
 ```
 **Note** :- The combine step is not mandatory in DAC approach as u can see there is no combine step in this problem.
 ## Merge sort using DAC
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 void merge(int arr[],int beg,int mid,int end)
@@ -76,7 +77,7 @@ int main()
 ```
 This algorithmic approach has a time complixity of O(n log n) and space complixity of O(n). Majority portion of its time complixity is in **combine step** and this is one of the difference in the merge sort and quick sort as in quick sort major portion of its time complixity is in **divide step**.
 ## Find max and min in an array using DAC
-```
+```cpp
 //use divide and conqure technique to find the maximum and minimum element in an array
 #include<bits/stdc++.h>
 using namespace std;
@@ -112,3 +113,47 @@ int main()
    return 0;
 }
 ```
+## Quick sort using DAC
+```cpp
+// use quick sort (DAC) to sort an array
+#include<bits/stdc++.h>
+using namespace std;
+void swap( int *a , int *b)
+{  int temp;
+   temp=*a;
+   *a=(*b);
+   *b=temp;
+}
+int partition(int arr[],int beg,int end)
+{  int i=beg-1,j=beg,pivot;
+   pivot=arr[end];
+   while(j<end)
+   {  if(arr[j]<pivot)
+      { i++;
+        swap(&arr[i],&arr[j]);
+      }
+      j++;
+   }
+   swap(&arr[i+1],&arr[end]);
+   return (i+1);
+}
+void quicksort(int arr[],int beg,int end)
+{  if(beg<end)
+   {  int q=partition(arr,beg,end);        // divide step
+      quicksort(arr,beg,q-1);              // solving each sub problem recursively
+      quicksort(arr,q+1,end);              //solving each sub problem recursively
+   }
+}
+int main()
+{ int arr[]={10,60,12,56,54,25,41};
+  int size=sizeof(arr)/sizeof(int); 
+  quicksort(arr,0,size-1);
+  for(auto it:arr)
+     cout<<it<<" ";
+  return 0;
+}
+```
+In this approach  <br>
+best time complexity is O(n log n)<br>
+average case O(n log n)<br>
+worst case O(n^2)
