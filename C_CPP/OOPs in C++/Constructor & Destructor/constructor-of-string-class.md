@@ -1,4 +1,4 @@
-# Construcotrs of "string" Class
+# Constructors of "string" Class
 
 The most commonly used constructors of "string" class are as follows:
 
