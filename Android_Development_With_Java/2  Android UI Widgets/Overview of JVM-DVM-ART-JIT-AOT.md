@@ -69,7 +69,7 @@ There are couple of reasons why Google not choose JVM over DVM, so let’s under
 · JVM was designed for desktops and it is too heavy for embedded devices.
 · DVM takes less memory, runs and loads faster compared to JVM.
 
-
+<img src="https://miro.medium.com/proxy/0*xH_f2BPxEl9fVJWQ.png">
 
 5. Why Android deprecated DVM & started to use ART?
 In Android Lollipop, DVM has been replaced by ART. Because DVM converts bytecode every time you launch a specific app. But ART converts it just once at the time of app installation.
