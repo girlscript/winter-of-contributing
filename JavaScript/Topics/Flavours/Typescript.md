@@ -70,11 +70,10 @@ whenever there is an error along with the description of that error.So this way 
    
    Functions are the primary means of passing data around in JavaScript. TypeScript allows you to specify the types of both the input and output values of functions
    
-  ``` 
+  ``` ts
      function make_coffe(numofcups: number) {
        console.log("Hello,we want " + numofcups + " cups of coffee!!");
           }  
-```
 
 ## Defining types (from typeScript official website)
 
