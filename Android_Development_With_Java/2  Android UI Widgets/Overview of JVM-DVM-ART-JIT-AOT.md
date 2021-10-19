@@ -34,6 +34,7 @@ b.) DVM: DVM stands for “Dalvik Virtual Machine”. It is a Register-Based vir
 
 c.) ART: ART or Android Runtime is an Android runtime that uses Ahead Of Time (AOT). By using AOT, what is does is it converts or compiles the whole High-level language code into Machine level code and at the time of installation of the app and not dynamically as the application runs(like in case of Dalvik). By compiling the whole code during installation results in no lag that we see when we run our app on our device. By doing so, the compilation becomes very faster.
 
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20210308154349/Android.png">
 
  
 
