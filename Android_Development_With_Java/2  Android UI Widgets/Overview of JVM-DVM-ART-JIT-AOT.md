@@ -1,7 +1,7 @@
 				
 					   ## ISSUE NAME: Overview of JVM,DVM, ART, JIT, AOT	
-					     ##	GIRLSCRIPT WINTER OF CONTRIBUTING’21			    							 
-					       ####        	  OVERVIEW
+					     ##	GIRLSCRIPT WINTER OF CONTRIBUTING’21	      				## OVERVIEW
+
 							    
 1. What is Virtual Machine?
 A virtual machine, commonly shortened to just VM, is no different than any other physical computer like a laptop, smart phone or server. It has a CPU, memory, disks to store your files and can connect to the internet if needed. While the parts that make up your computer (called hardware) are physical and tangible, VMs are often thought of as virtual computers or software-defined computers within physical servers, existing only as code.
@@ -18,7 +18,7 @@ There are 2 main types of Virtual Machine (VM):
 
 a.) JVM: JVM is the virtual machine that runs java code on different platforms. It acts as an abstract layer between the program and the platform on which the java code is running. The portability of Java code is possible only because of the JVM. The javac compiler converts the source code file(.java file) into an intermediate java bytecode format which is machine/platform independent. This intermediate file is then provided to the target machine/platform where it gets translated into machine code. JVM supports multiple host architecture and it is the reason why Java applications are called WORA(Write Once Run Anywhere).
 
- 
+ <img src="https://static.javatpoint.com/images/jvm-architecture.png">
 
 
 
