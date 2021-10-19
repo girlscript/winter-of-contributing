@@ -79,7 +79,7 @@ But ART uses the Ahead-Of-Time (AOT) approach, in which the dex files were comp
 
 
 
-
+<img src="https://miro.medium.com/max/1298/0*sBVBYfFKLj-lJ_ps.png">
 
 
 6. DVM V/s ART
