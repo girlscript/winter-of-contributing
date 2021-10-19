@@ -129,6 +129,3 @@ References:
 8. https://towardsdatascience.com/jvm-vs-dvm-b257229d18a2
 9. https://stackoverflow.com/questions/31957568/what-is-difference-between-dvm-and-art-why-dvm-has-been-officially-replaced-wi
 10. https://stackoverflow.com/questions/40336455/difference-between-aot-and-jit-compiler-in-the-art
-
-
-
