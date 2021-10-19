@@ -91,3 +91,6 @@ until we have homogeneous clusters:
 ## CONCLUSION
 
 k-medoid is based on medoids (which is a point that belongs to the dataset) calculating by minimizing the absolute distance between the points and the selected centroid, rather than minimizing the square distance. As a result, it's more robust to noise and outliers than k-means.
+
+### Refrences
+- https://www.geeksforgeeks.org/ml-k-medoids-clustering-with-example/
