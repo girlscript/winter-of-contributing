@@ -164,12 +164,10 @@ function simpleExample<T>(arg: T): T{              //T stands for Type
   }
     
   function simpleExample<T>(arg : T): T{              //T stands for Type
-  return arg;
+    return arg;
   }
     
-    let myExample = GenericExample<string> =simpleExample;
-    
-  
+  let myExample : GenericExample<string> = simpleExample;
   ```
 
     
