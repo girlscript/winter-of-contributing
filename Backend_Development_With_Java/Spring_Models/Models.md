@@ -147,3 +147,9 @@ ID: ${id}
 ```
 
 The above code prints the data which we recieved from the form.
+
+### References
+
+1. [Spring Model Baeldung](https://www.baeldung.com/spring-mvc-model-model-map-model-view)
+2. [Model Annotation Baeldung](https://www.baeldung.com/spring-mvc-and-the-modelattribute-annotation)
+3. [Spring Beans Doc](https://docs.spring.io/spring-javaconfig/docs/1.0.0.M4/reference/html/ch02s02.html)
