@@ -1,6 +1,7 @@
 				
 					   ## ISSUE NAME: Overview of JVM,DVM, ART, JIT, AOT	
-					     ##	GIRLSCRIPT WINTER OF CONTRIBUTING’21	      				## OVERVIEW
+					        ##GIRLSCRIPT WINTER OF CONTRIBUTING’21	      				
+					     		 ## OVERVIEW
 
 							    
 1. What is Virtual Machine?
