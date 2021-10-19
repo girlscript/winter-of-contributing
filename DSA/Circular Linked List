@@ -1,0 +1,50 @@
+What is Circular Linked List?
+Circular Linked List is a sequence of elements in which every elements has a link to its next element in the sequence and the last element has a link to the first element. 
+A circular linked list is a type of linked list in which the first and the last nodes are also connected to each other to form a circle.
+
+In Circular Linked List, We can perform the following Operations :-
+   1) Insertion
+   2) Deletion
+   3) Display
+   
+But before implementing actual operations, first we need to set up the Empty List. So following are the steps to create Empty List - 
+
+Step 1 - Include all the header files which are used in program.
+Step 2 - Declare all the user-defined functions.
+Step 3 - Define a Node structure with two members Data & Next.
+Step 4 - Define a Node Pointer "Head" and set it to NULL.
+Step 5 - Implement the MAIN method by displaying operations menu and make suitable functions calls in main method to perform user selected operations.
+
+◆ Insertion at the Beginning
+Steps to insert a Node at beginning :
+
+Step 1 - The first Node is the Head for any Linked List.
+Step 2 - When a new Linked List is instantiated, it just has the Head, which is Null.
+Step 3 - Else, the Head holds the pointer to the fisrt Node of the List.
+Step 4 - When we want to add any Node at the front, we must make the head point to it.
+Step 5 - And the Next pointer of the newly added Node, must point to the previous Head, whether it be NULL(in case of new List) or the pointer to the first Node of the List.
+Step 6 - The previous Head Node is now the second Node of Linked List, because the new Node is added at the front.
+
+◆ Insertion at the End
+Steps to insert a Node at the end :
+
+Step 1 - If the Linked List is empty then we simply, add the new Node as the Head of the Linked List.
+Step 2 - If the Linked List is not empty then we find the last node, and make it' next to the new Node, and make the next of the Newly added Node point to the Head of the List.
+
+• Deleting a Node from the List
+Deleting a node can be done in many ways, like we first search the Node with data which we want to delete and then we delete it. In our approach, we will define a method which will take the data to be deleted as argument, will use the search method to locate it and will then remove the Node from the List.
+
+To remove any Node from the list, we need to do the following :
+
+Step 1 - If the Node to be deleted is the first node, then simply set the Next pointer of the Head to point to the next element from the Node to be deleted. And update the next pointer of the Last Node as well.
+Step 2 - If the Node is in the middle somewhere, then find the Node before it, and make the Node before it point to the Node next to it.
+Step 3 - If the Node is at the end, then remove it and make the new last node point to the head.
+
+◆ Display 
+We can use the following steps to display the elements of a Circular Linked List :-
+
+Step 1 - Check whether list is empty (head == NULL).
+Step 2 - If it is empty, then Display List is Empty!!! and Terminate the function.
+Step 3 - If it is not empty, Define a Node Pointer 'temp' and initialize with Head.
+Step 4 - Keep displaying temp -> data with an arrow (-->) until temp reaches to the last node.
+Step 5 - Finally display Temp -> data with arrow pointing to Head -> data.
