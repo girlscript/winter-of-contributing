@@ -3,15 +3,18 @@
 This documentation includes the following points in brief:
 * What is NaN?
 * How to check for NaN?
-* Other facts
+* Eliminating NaN exception
 * References
-
 
 ## Introduction
 
-**NaN** is stands for *Not a Number*. This exception is shown when a mathemtaical operation results in a number which cannot be shown by the computer. For example, imaginary numbers, square roots, result of 0/0, etc.
-The NaN values can be different from each other. Library functions can differentiate them by analysing their implememntaion.
+**NaN** stands for *Not a Number*. This exception is shown when a mathematical operation results in a number which cannot be shown by the computer. For example, imaginary numbers, square roots, result of 0/0, etc.
+The NaN values can be different from each other. Library functions can differentiate between them by analysing their implementation.
 
+Possible conditions that generate NaN exception:
+* Division by 0.
+* Operations producing invalid floating-point numbers.
+* Operation on a quiet NaN operand.
 
 ## How to check?
 
@@ -70,18 +73,16 @@ The NaN values can be different from each other. Library functions can different
 
 `nanf` and `nanl` return NaN values of type float and long double, respectively.
 
+## How to deal with it?
 
-## How to deal with it?'
-
-One must check for NaN before dispatching the operation. If detected, the compiler should throw an error to signal the exception.
-A simple 'if' statement should be used if NaN occurs frequently in one's code or if the code involves complex mathematical calculations. In all other cases, the checks can be eliminated.
-
+Real life models can turn out to be completely corrupted if NaN is encountered. Hence, one must check for NaN before dispatching the operation. If detected, the compiler should throw an error to signal the exception.
+A simple 'if' statement should be used if NaN occurs frequently in one's code or if the code involves complex mathematical calculations. In imported datasets, empty values may also be reported as NaN. In all other cases, the checks can be eliminated.
 
 ## Points to note
 
 * According to the IEEE, NaN comparisons always result in `false`.
 * A variable can be set NaN in C++ by the use of pointers.
-
+* The sign bit of NaN has no significance. The sign bit of the `Default NaN` is unknown.
 
 ## References
 
