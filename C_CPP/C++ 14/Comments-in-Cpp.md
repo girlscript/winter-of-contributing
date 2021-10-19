@@ -10,6 +10,8 @@ There are 2 types of comments in C++:
 
 <div align="center">
   <img src = "https://user-images.githubusercontent.com/76544476/137767962-fff80713-3416-4699-b95c-c025b420dc2e.png" width="300" height="200">
+  
+  Source: [GeeksForGeeks](https://www.geeksforgeeks.org/comments-in-c-c/)
   </div>
   
 
@@ -55,7 +57,3 @@ int main()
 ### Output:
 > 10  
 > 10
-
-
-### Source for Image:
-[GeeksForGeeks](https://www.geeksforgeeks.org/comments-in-c-c/)
