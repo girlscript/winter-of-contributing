@@ -115,7 +115,7 @@ It creates a component that can work with many data type rather than single data
  In generics, we need to write a type parameter between the open (<) and close (>) brackets, which makes it strongly typed collections. Generics use a special kind of type variable <T> that denotes types. The generics collections contain only similar types of objects.
   
 For example :
-```
+```ts
 function simpleExample<T>(arg: T): T{              //T stands for Type
   return arg;
   }
