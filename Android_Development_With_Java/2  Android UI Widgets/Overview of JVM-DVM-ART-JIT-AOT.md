@@ -50,6 +50,8 @@ d.) JIT: JIT stands for "Just In Time," and we use it to describe a Dalvik JIT c
               
 e.) AOT: AOT stands for Ahead of Time compilation, and compiles your code, to the native platform, dependent upon the architecture. The reason you would use AOT, is because it has a drastically reduces startup time, and app performance.
 
+<img src="https://miro.medium.com/max/1838/1*hb26HQBJXRwl5lcsML5IoQ.png">
+
 
 
 3. JVM V/s DVM
@@ -63,6 +65,8 @@ More information is required to the VM for data loading and manipulation as well
 Compiled bytecode size is compact because the location of the operand is implicitly on the operand stack.								Compiled bytecode size is larger as each instruction needs all implicit operands.
 The executable file for the device is .jar file.															The executable file for the device is .apk file.
 A single instance of JVM is configured with shared processes and memory space in order to run all deployed applications.						The device runs multiple DVM instances with a separate process in shared memory space to deploy the code of each application. 
+
+<img src="https://miro.medium.com/max/966/1*7AiR9XA-FXy9LCFsPFktqg.png">
 
 4. Why Android OS used DVM instead of JVM ? 
 One of the main reasons of using DVM in android is because it follows the register based model and it is much faster than stack based model while JVM follows the stack based model which takes a lot of memory and also slower than DVM.
