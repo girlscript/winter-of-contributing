@@ -116,6 +116,8 @@ JIT compilers have way more information at their disposal than AOT compilers. St
 Plus, a JIT compiler has techniques at its disposal that AOT compilers don't, the most important one being de-optimization. Now, you might think, we is de-optimization important for performance? Well, if you can de-optimize, then you can be over-aggressive in making optimizations that are actually invalid (like inlining a method call that may or may not be polymorphic), and if it turns out that you are wrong, you can then de-optimize back to the un-inlined case (for example).
 However, there's the problem of resources: an AOT compiler can take as much time as it wants, and use as much memory as it wants. A JIT compiler has to steal its resources away from the very program that the user wants to use right now.
 
+<img src="https://i.stack.imgur.com/CoBK6.png">
+
 
 
 
