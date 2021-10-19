@@ -94,3 +94,4 @@ k-medoid is based on medoids (which is a point that belongs to the dataset) calc
 
 ### Refrences
 - https://www.geeksforgeeks.org/ml-k-medoids-clustering-with-example/
+- https://iq.opengenus.org/k-medoids-clustering/
