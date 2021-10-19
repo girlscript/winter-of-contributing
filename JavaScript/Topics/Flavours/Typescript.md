@@ -71,10 +71,11 @@ whenever there is an error along with the description of that error.So this way 
    Functions are the primary means of passing data around in JavaScript. TypeScript allows you to specify the types of both the input and output values of functions
    
   ``` ts
+  
      function make_coffe(numofcups: number) {
        console.log("Hello,we want " + numofcups + " cups of coffee!!");
           }  
-
+```
 ## Defining types (from typeScript official website)
 
 We can use a wide variety of design patterns in JavaScript. However, some design patterns make it difficult for types to be inferred automatically (for example, patterns that use dynamic programming). To cover these cases, TypeScript supports an extension of the JavaScript language, which offers places for you to tell TypeScript what the types should be.
@@ -83,19 +84,23 @@ We can use a wide variety of design patterns in JavaScript. However, some design
 let's create an object employee with name (string ) and emp_id(number)
 
 ```ts
+
 const emp={
  name : "John",
  emp_id : 101
 }
+```
 We can explicitly describe the object's shape using an *interface*  declaration
 
 ```ts
+
 interface Emp={
 name : string;
 emp_id : number ;
 }
-Now we can use above to create new objects
 ```
+Now we can use above to create new objects
+```ts
 const emp : Emp={
 name : "John",
 emp_id : 101
@@ -116,6 +121,7 @@ It creates a component that can work with many data type rather than single data
   
 For example :
 ```ts
+ 
 function simpleExample<T>(arg: T): T{              //T stands for Type
   return arg;
   }
@@ -137,6 +143,7 @@ function simpleExample<T>(arg: T): T{              //T stands for Type
   
   Like other functions generic functions can also be written like this (function declaration)
   ```ts
+  
   function simpleExample<T>(arg : T): T{              //T stands for Type
   return arg;
   }
@@ -148,6 +155,7 @@ function simpleExample<T>(arg: T): T{              //T stands for Type
   We can also write the generic type as a call signature of an object literal type:
   
   ```ts
+  
   function simpleExample<T>(arg : T): T{              //T stands for Type
     return arg;
   }
@@ -156,9 +164,12 @@ function simpleExample<T>(arg: T): T{              //T stands for Type
   
   ```
   
-  Thus ,here also we can make interface and use it to save ourself from writing more lines of code
   
-  ```
+  Thus ,here also we can make interface and use it to save ourself from writing more lines of code  
+  
+  
+  ```ts
+  
   interface GenericExample{
   <T>(arg: T): T;
   }
