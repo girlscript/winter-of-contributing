@@ -106,8 +106,20 @@
 ```
 ## <h1 align="center">Forms Formatting Tags📌</h1>
 ```html
-<form action="url"></form> <!-- Form element creates a form and action="" specifies where the data is to be 
-                                sent to when the visitor submits the form -->
+<form> </form>                                      <!--Defines a form-->
+<select multiple name=? size=?> </select>           <!--Creates a scrolling menu. Size sets the number of menu items visible before user needs to scroll.-->
+<select name=?> </select>                           <!--Creates a pulldown menu-->
+<option>                                            <!--Sets off each menu item-->
+<textarea name=? cols="x" rows="y"></textarea>      <!--Creates a text box area. Columns set the width; rows set the height.-->
+<input type="checkbox" name=? value=?>              <!--Creates a checkbox.-->
+<input type="checkbox" name=? value=? checked>      <!--Creates a checkbox which is pre-checked.-->
+<input type="radio" name=? value=?>                 <!--Creates a radio button.-->
+<input type="radio" name=? value=? checked>         <!--Creates a radio button which is pre-checked.-->
+<input type="text" name=? size=?>                   <!--Creates a one-line text area. Size sets length, in characters.-->
+<input type="submit" value=?>                       <!--Creates a submit button. Value sets the text in the submit button.-->
+<input type="image" name=? src=? border=? alt=?>    <!--Creates a submit button using an image.-->
+<input type="reset">                                <!--Creates a reset button-->
+
 ```
 ## <h1 align="center"> HTML5 New Tags📌</h1>
 ```html
