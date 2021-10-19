@@ -136,7 +136,7 @@ function simpleExample<T>(arg: T): T{              //T stands for Type
   ## Generic Types
   
   Like other functions generic functions can also be written like this (function declaration)
-  ```
+  ```ts
   function simpleExample<T>(arg : T): T{              //T stands for Type
   return arg;
   }
