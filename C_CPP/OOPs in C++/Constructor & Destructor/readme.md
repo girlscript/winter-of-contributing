@@ -10,5 +10,4 @@
 
 - [Advanced Destructor](Advanced-Destructor.md)
 
-
 - [The 'explicit' Keyword](explicit-keyword.md)
