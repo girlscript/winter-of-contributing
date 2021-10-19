@@ -1,20 +1,14 @@
 # HTML head element
-
 The <head> element primarily is the container for all the head elements, which provide extra information about the document (metadata), or reference to other resources that are required for the document to display or behave correctly in a web browser.
 
 The HTML <head> element is a container for the following elements: <title>, <style>, <meta>, <link> and <script>.
-
 ## HTML title element
-
 The <title> element defines the title of the document.
-
- The title of the document may be used for different purposes. For example:
-
+The title of the document may be used for different purposes. For example:
 1.  To display a title in the browser title bar and in the task bar.
 2.  To provide a title for the page when it is added to favorites or bookmarked.
 3.  To displays a title for the page in search-engine results.
-
->>> Let's see an example :
+> Let's see an example :
 
 	<!DOCTYPE html>
 	<html>
@@ -28,10 +22,8 @@ The <title> element defines the title of the document.
 	</html>
 
 ## HTML style element
-
 The <style> element is used to define embedded style information for an HTML document. The style rules inside the <style> element specify how HTML elements render in a browser.
-
->>> Let's see an example :
+> Let's see an example :
 
 	<!DOCTYPE html>
 	<html>
@@ -50,12 +42,9 @@ The <style> element is used to define embedded style information for an HTML doc
 		</body>
 	</html>
 	
-
 ## HTML meta Element
-
 The <meta> element provides metadata about the HTML document. Metadata is a set of data that describes and gives information about other data.
-
->>> Let's see an example :
+> Let's see an example :
 
 	<!DOCTYPE html>
 	<html lang="en">
@@ -69,13 +58,31 @@ The <meta> element provides metadata about the HTML document. Metadata is a set 
 			<p>Meta tags contain information about a web page. It is not visible in the browser.</p>
 		</body>
 	</html>
+		
+## HTML link Element
+The <link> element defines the relationship between the current document and an external resource.
+The <link> tag is most often used to link to external style sheets.
+> Let's see an example :
 	
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<link rel="stylesheet" href="styles.css">
+		</head>
+		<body>
+			<h1>Hello World!</h1>
 
+			<h2>I am formatted with a linked style sheet.</h2>
+
+			<p>Me too!</p>
+		</body>
+	</html>
+		
+Here "styles.css" is an external CSS file but we can link it with our HTML file.
 ## HTML script Element
-
 The <script> element is used to define client-side script, such as JavaScript in HTML documents.
 
->>> Let's see an example :
+> Let's see an example :
 
 	<!DOCTYPE html>
 	<html lang="en">
