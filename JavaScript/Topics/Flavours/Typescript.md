@@ -89,12 +89,11 @@ const emp={
 }
 We can explicitly describe the object's shape using an *interface*  declaration
 
-```
+```ts
 interface Emp={
 name : string;
 emp_id : number ;
 }
-```
 Now we can use above to create new objects
 ```
 const emp : Emp={
