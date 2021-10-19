@@ -83,12 +83,11 @@ We can use a wide variety of design patterns in JavaScript. However, some design
 **Example**
 let's create an object employee with name (string ) and emp_id(number)
 
-```
+```ts
 const emp={
  name : "John",
  emp_id : 101
 }
-```
 We can explicitly describe the object's shape using an *interface*  declaration
 
 ```
