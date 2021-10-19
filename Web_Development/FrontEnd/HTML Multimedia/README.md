@@ -1,27 +1,26 @@
 # HTML Multimedia
-##### Multimedia on the web is sound, music, videos, movies, and animations.
+Multimedia on the web is sound, music, videos, movies, and animations.
 
 --------------------------
-<br>
+
 
 ### What is Multimedia?
 
 
 It can be anything you can hear or see, such as photos, music, sound, videos, records, films, animations, and so on. Web sites frequently incorporate multimedia content of various sorts and formats.
-<br>
+
 
 ### Multimedia Tags
 HTML allows adding different multimedia files on your website by various multimedia tags. These tags include:
 
 
-* ```<audio>``` for displaying a audio file on the web page,
-* ```<video>``` for displaying a video file on the web page,
-* ```<embed>``` for embedding multimedia files on the web page,
-* ```<object>``` for embedding multimedia files on the web page.
-* ```<iframe>``` for embedding other web pages
+* `<audio>` for displaying a audio file on the web page,
+* `<video>` for displaying a video file on the web page,
+* `<embed>` for embedding multimedia files on the web page,
+* `<object>` for embedding multimedia files on the web page.
+* `<iframe>` for embedding other web pages
 
 
-<br>
 
 ### Multimedia Formats
 Media files include multimedia components such as audio and video. The file extension can be used to determine the file type.
@@ -32,7 +31,7 @@ Multimedia files have formats and different extensions: .mp3, .mp4, .mpg, .swf, 
 
 
 ### Video Formats 
-<br>
+
 
 | FORMAT | FILE  | DESCRIPTION  |
 | :----- | :- | :- |
@@ -46,11 +45,11 @@ Multimedia files have formats and different extensions: .mp3, .mp4, .mpg, .swf, 
 |WebM| .webm | Mozilla, Opera, Google, and Adobe collaborated to create this format. HTML5 is compliant. |
 |MPEG-4 or MP4| .mp4 | The Moving Pictures Expert Group came up with this format. It is commonly found in television gear and modern video cameras. YouTube has recommended this video. All HTML5 browsers support it. |
 
-<br>
+
 
 ## Audio Formats
 The newest format for compressed recorded music is MP3. This term is synonymous with digital music.
-</br>
+
 | FORMAT | FILE  | DESCRIPTION  |
 | :----- | :- | :- |
 | MIDI (Musical Instrument Digital Interface) | .mid .midi | This is the standard format for all electronic music players (e.g. synthesisers and PC sound cards). MIDI files include digital notes that can be played by electronics, but no sound. It works great on musical instruments and PCs, but not on web browsers. |
@@ -63,19 +62,20 @@ The newest format for compressed recorded music is MP3. This term is synonymous 
 |MP4| .mp4 | This is a video format, although it may also be used for audio. MP4 video is the internet's future video standard, with all browsers automatically supporting MP4 audio. |
 
 ---------
-<br>
+
   
 ### Browser Support
 The main browsers have taken varied approaches to audio, video, and animation. They accept a variety of formats, although some of them require plug-ins to function.
 
 Multimedia will be handled more easily in the future thanks to HTML5.
 
-</br>
+
 
 ### The HTML Video Element
 
 To show a video in HTML, use the <video> element:
-```sh
+  
+```html
 <video width="320" height="240" controls>
   <source src="movie.mp4" type="video/mp4">
   <source src="movie.ogg" type="video/ogg">
@@ -84,8 +84,9 @@ Your browser does not support the video tag.
 ```
 
 ### The HTML Audio Element
-To play an audio file in HTML, use the <audio> element:
-```sh
+To play an audio file in HTML, use the `<audio>` element:
+  
+```html
 <audio controls>
   <source src="horse.ogg" type="audio/ogg">
   <source src="horse.mp3" type="audio/mpeg">
