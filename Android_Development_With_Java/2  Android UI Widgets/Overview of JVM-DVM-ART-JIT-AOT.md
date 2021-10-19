@@ -1,13 +1,7 @@
 				
-<<<<<<< HEAD
-					   ## ISSUE NAME: Overview of JVM,DVM, ART, JIT, AOT	
-					     ##	GIRLSCRIPT WINTER OF CONTRIBUTING’21			    							 
-					       ####        	  OVERVIEW
-=======
 					## ISSUE NAME: Overview of JVM,DVM, ART, JIT, AOT	
 					      ## GIRLSCRIPT WINTER OF CONTRIBUTING’21			    							 
 					                 ##OVERVIEW
->>>>>>> 868a8c2ec398c80b9709f9fb7dc46eec1cdef0e4
 							    
 1. What is Virtual Machine?
 A virtual machine, commonly shortened to just VM, is no different than any other physical computer like a laptop, smart phone or server. It has a CPU, memory, disks to store your files and can connect to the internet if needed. While the parts that make up your computer (called hardware) are physical and tangible, VMs are often thought of as virtual computers or software-defined computers within physical servers, existing only as code.
