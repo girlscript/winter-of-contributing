@@ -147,9 +147,9 @@ function simpleExample<T>(arg: T): T{              //T stands for Type
   
   We can also write the generic type as a call signature of an object literal type:
   
-  ```
-   function simpleExample<T>(arg : T): T{              //T stands for Type
-  return arg;
+  ```ts
+  function simpleExample<T>(arg : T): T{              //T stands for Type
+    return arg;
   }
   
   const example: { <T>(arg: T): T } = simpleExample;
