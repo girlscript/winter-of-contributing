@@ -109,7 +109,7 @@ It depends on the device and one’s own device and preferences: in the long run
 This is done in order to tackle problems such as initial installation time and memory. Using the Hybrid Runtime, there won't be any compilation during install, and applications can be started right away, the bytecode is interpreted. Now with ART and the new JIT the application installation is faster.
 
 
-
+<img src="https://miro.medium.com/max/1838/1*oLO0ahW043xHq_Jg0q8twQ.png">
 
 8. JIT V/s AOT
 JIT compilers have way more information at their disposal than AOT compilers. Static analysis is impossible in the general case (nearly everything interesting you would want to know about a program can be reduced to either the Halting Problem or Rice's Theorem), and hard even in the special case. JIT compilers don't have this problem: they don't have to statically analyze the program; they can observe it dynamically at runtime.
