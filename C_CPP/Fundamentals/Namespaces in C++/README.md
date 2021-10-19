@@ -1,8 +1,6 @@
 
 ## README
 
----
-
 ### Description
 To describe what a namespace is, how it is defined and used in the C++ .
 
