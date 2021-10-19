@@ -25,6 +25,7 @@ a.) JVM: JVM is the virtual machine that runs java code on different platforms. 
 
 b.) DVM: DVM stands for “Dalvik Virtual Machine”. It is a Register-Based virtual machine. It was designed and written by Dan Bornstein with contributions of other Google engineers as part of the Android mobile phone platform. The Dalvik virtual machine was named after Bornstein after the fishing village “Dalvík” in Iceland, where some of his ancestors used to live.
 
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20201227043937/WorkingofDVM.png">
 
  
 
