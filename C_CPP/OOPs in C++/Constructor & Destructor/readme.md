@@ -6,3 +6,5 @@
 - [Constructors in derived classes ](Constructors_in_Derived_Classes.md)
 
 - [Advanced Destructor](Advanced-Destructor.md)
+
+- [The 'explicit' Keyword](explicit-keyword.md)
