@@ -40,19 +40,18 @@ fs.writeFile('fileName.txt', string, 'urf8',  (err) => {
 
 ### `.writeFileSync()`
 This method is used to write data in a synchronous way. This method returns `undefined` so it is suggested to execute this function in a try-catch block.  
-It takes three parameters:
+It takes four parameters:
 1. filename: The name of the file that is to be read.
 2. data: buffer/string of information that has to be added.
 3. encoding: It is a string that specifies the encoding of the file. Possible encodings are 'ascii', 'utf8' and 'base64'. 'utf8' is set as default
-mode: The mode of operation. It can be any of these three. `r++` is set as default:
+4. mode: The mode of operation. It can be any of these three. `r++` is set as default:
     |Mode   |   Description |
     |-------|---------------|
     |r  |   Read    |
     |w  |   Write   |
     |r+ |   Read & Write    |
 
-flag:  the operation in which the file has to open. All the types of flags are described below:
-
+5. flag:  the operation in which the file has to open. All the types of flags are described below:
     | Flag  |   Description |
     |-------|---------------|
     |r      |Open the file. THis is default flag|
@@ -66,6 +65,7 @@ flag:  the operation in which the file has to open. All the types of flags are d
     |ax     |Same as ‘a’ but fails if path exists.|
     |a+     |Open file for reading and appending.|
     |ax+    |Same as ‘a+’ but fails if path exists.|
+    
 
 # Read
 ### `.readFile()`
@@ -179,4 +179,9 @@ try {
 }
 ```
 
+
 Here is the link to official [Node JS documentation](https://nodejs.dev/learn/the-nodejs-fs-module) if you want to lean more about filesystem moduele.
+
+<hr >
+
+Contributed by: [Kaushal Joshi](https://github.com/joshi-kaushal) 
