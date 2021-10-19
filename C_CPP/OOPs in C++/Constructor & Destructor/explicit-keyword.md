@@ -2,15 +2,12 @@
 
 When a constructor receives a single argument, then an automatic type conversion takes place in which the type of the argument passed to the constructor is converted from its basic type to the class type in which the constructor is defined.
 
-<br />
 
 If we wish we can suppress such a behaviour. It means if we do not want such an automatic conversion to take place then we should define the class constructors to be "explicit constructors".
 
-<br />
 
 The 'explicit' keyword is used to declare the class constructors to be "explicit constructors". Once the constructor is made explicit, the automatic type conversion does not takes place. 
 
-<br />
 
 Here's an example below explaining the same:
 
@@ -43,7 +40,10 @@ int main()
 
 ```
 
-<br />
+### Output:
+
+> a = 13  
+> b = 14  
 
 While using "explicit constructors", statements like
 
