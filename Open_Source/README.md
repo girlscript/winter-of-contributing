@@ -28,6 +28,8 @@
 
 - [2. Getting started with open source](2.Getting_Started_With_Open_Source/2._GettingStarted_With_Open_Source.md)
 
+- [2.01 Create First Repository](2.Getting_Started_With_Open_Source/2.01_Create_First_repo.md)
+
 - [2.0 Why open source?](2.Getting_Started_With_Open_Source/2.0_Why_Open_Source.md)
 
 - [2.1 Practice Git & Github fundamentals](2.Getting_Started_With_Open_Source/2.1_Practice_Git_and_Github_fundamentals.md)
