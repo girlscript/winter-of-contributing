@@ -36,7 +36,7 @@ whenever there is an error along with the description of that error.So this way 
   let name:  string = "wajiha";
   name = "myName";        // This will work.
   name = 5;               // This will throw an error
-
+  ```
 - And some of the additional features are modules support , generic support , functions with optional parameters as optional parameters are great for simplifying code, and hiding advanced but not-often-used functionality.
 
 ## What are types?
