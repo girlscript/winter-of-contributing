@@ -104,9 +104,8 @@ emp_id : 101
 ### Combining types
  In typeScript we can use simple types to make complex types.  
  
- ```
+```ts
 type primeNumsUnderTen = 2| 3 | 5 | 7 
-
 ```
 
 ## GENERICS
