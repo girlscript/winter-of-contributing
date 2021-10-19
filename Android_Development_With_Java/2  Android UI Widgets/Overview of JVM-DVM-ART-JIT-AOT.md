@@ -42,6 +42,8 @@ c.) ART: ART or Android Runtime is an Android runtime that uses Ahead Of Time (A
 
 d.) JIT: JIT stands for "Just In Time," and we use it to describe a Dalvik JIT compiler, which was added to Android with the 2.2 release.  It compiles bytecode into native machine code at runtime.  Essentially it takes the code for an app, analyzes it and converts it into something that runs faster.  It does all this while the application is running, and that's where the "just in time" tag comes from.  The JIT compiler designed for Android also can do this with a very short "warm up" time, meaning it doesn't take very long to analyze the code before it starts working.  It stores information in a cache in your phone's RAM, which means it's not an ideal solution for devices with low memory.
 
+<img src="https://cdn.arstechnica.net/wp-content/uploads/2016/07/ART.jpg">
+
  
 
 
