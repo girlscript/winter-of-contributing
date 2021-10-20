@@ -28,7 +28,7 @@
 - [x] Some more Hooks (As per recommended by Mentor) 
  
 ### Week 4 
-- [ ] Conditional rendering 
+- [x] Conditional rendering 
 - [ ] State in React-Declarative and Imperative programing 
  
  ### Week 5 
