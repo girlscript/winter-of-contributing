@@ -1,12 +1,16 @@
 # How Browser Rendering Works ?
-Web browser is a piece of software which loads files from the remote server and displays the information received to user , This makes user and website interaction. 
-<p> The browser engine is a core software component of each browser, and different browers name their engines with different names. </p>
-<p> When we write some HTML, CSS, and JS, then open the HTML file in our browser, The browser reads the raw bytes of HTML from your hard disk and displays the output . </p>
+Web browser is a piece of software which loads files from the remote server and displays the information received to user , This makes user and website interaction. \
+\
+The browser engine is a core software component of each browser, and different browers name their engines with different names. \
+\
+When we write some HTML, CSS, and JS, then open the HTML file in our browser, The browser reads the raw bytes of HTML from your hard disk and displays the output .
 
 ## HTML to DOM
-The characters in the code that you have written. This conversion is done based on the character encoding of the HTML file that we have written .
-<p>The actual characters in the file . But they are not the final result . These characters are further changed into tokens (The smallest unit ) . The bunch of characters in a html file does not make the browser engine good Without the tokenization process each character is changed into token . </p>
-<p>When we save a file with the ( .html ) extension , An indication is send to the browser engine to interpret the file as an HTML document . Then browser interprets html file by first parsing it and with continuation the process of  tokenization take place . </p>
+The characters in the code that you have written. This conversion is done based on the character encoding of the HTML file that we have written . \
+\
+The actual characters in the file . But they are not the final result . These characters are further changed into tokens (The smallest unit ) . The bunch of characters in a html file does not make the browser engine good Without the tokenization process each character is changed into token . \
+\
+When we save a file with the ( .html ) extension , An indication is send to the browser engine to interpret the file as an HTML document . Then browser interprets html file by first parsing it and with continuation the process of  tokenization take place .
 Note : - The DOM contruction process time will depend upon the size of html file . 
 
 ```html
@@ -29,10 +33,11 @@ Note : - The DOM contruction process time will depend upon the size of html file
 <!-- All the characters which are under angle brackets are changed into tokens .   -->
 ```
 ## CSS to DOM
-When we make the structure of any website by Html we use CSS for designing of the website which make it as good looking as possible . 
-<p> There are different ways of applying styles to HTML elements like using external CSS file or by embedded CSS using style tag . But in the end, the browser has to do the heavy lifting of applying CSS styles to the DOM elements of Html .</p>
-
-<p> The CSSOM tree does not contain elements which don't get printed on the screen like link, title, script etc. CSS property values in the red colors are implemented down from the top while property values in the gray are overriding the inherited values or default values of element which are set by browsers . </p>
+When we make the structure of any website by Html we use CSS for designing of the website which make it as good looking as possible .
+\
+There are different ways of applying styles to HTML elements like using external CSS file or by embedded CSS using style tag . But in the end, the browser has to do the heavy lifting of applying CSS styles to the DOM elements of Html . \
+\
+The CSSOM tree does not contain elements which don't get printed on the screen like link, title, script etc. CSS property values in the red colors are implemented down from the top while property values in the gray are overriding the inherited values or default values of element which are set by browsers .
 
 ```css
 html {
@@ -63,9 +68,9 @@ body {
 ```
 
 ## Rendering In Browsers
-However the rendering don't depends how a browser renders things , it might be that google chrome and safari browsers have different rendering processes . But HTML , CSS , or JavaScript these languages are standardized by some organization  and the browser manages them together to render things on the screen is not standardized .
-
-<p> There are some common principles which should be same among all browsers . Let’s understand the common approach that each browser takes to render the elements and present the things on the screen and the common events of this process . </p>
+However the rendering don't depends how a browser renders things , it might be that google chrome and safari browsers have different rendering processes . But HTML , CSS , or JavaScript these languages are standardized by some organization  and the browser manages them together to render things on the screen is not standardized . 
+\
+There are some common principles which should be same among all browsers . Let’s understand the common approach that each browser takes to render the elements and present the things on the screen and the common events of this process .
 
 1. Parsing and External Resources : - Parsing is the process of reading HTML content and constructing a DOM tree structure from it . That's why this process is also known DOM parsing and the program that perform this process is called the DOM parser .
 
