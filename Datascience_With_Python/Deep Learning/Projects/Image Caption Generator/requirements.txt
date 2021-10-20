@@ -6,10 +6,10 @@ Keras
 Tensorflow
 glob
 string
-re
 cv2
-ResNet50
+ResNet50, preprocess_input
 VGG16
-LSTM
 pad_sequences
 to_categorical
+Dense, Dropout, Input, Embedding, LSTM
+Model, load_model
