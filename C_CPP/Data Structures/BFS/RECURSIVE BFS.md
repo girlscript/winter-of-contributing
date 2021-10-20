@@ -20,12 +20,12 @@ There are basically 2 ways by which we can implement BFS algorithm
 * Iterative Method
 * Recursive Method
 
-### RECURSIVE METHOD OF BFS
+## RECURSIVE METHOD OF BFS
 
 We can implement BFS in recursive way, Here is the C++ code for recursive code--
 
 
-## Code
+### C++ Code
 
 
 ```bash
@@ -127,13 +127,13 @@ int main()
 }
 
 ```
-## Output
+### Output
 
 ```bash
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
 
 ```
 
-## Time Complexity
+### Time Complexity
 
 The time complexity of BFS is ***O(V+E)*** where ***V*** is ***total number of vertices*** and ***E*** is ***total number of edges***.
