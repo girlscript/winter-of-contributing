@@ -1,1 +1,1 @@
-
+[![ML 5.10 : Logarithmic Loss](https://github.com/Pratyaksha-047/winter-of-contributing/blob/20e5593ec1d8aea33a366d7fa4481335abc9bb85/Assets/Probability%20distributions%20(1).png](https://drive.google.com/file/d/1pCY1uwmbyn4DmNihl_mc4cEL6elMrRbr/view?usp=sharing)
