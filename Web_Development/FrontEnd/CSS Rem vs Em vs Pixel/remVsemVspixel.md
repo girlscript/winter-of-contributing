@@ -20,6 +20,8 @@ The length units used in CSS can be generally divided into two categories
 
     ![Relative lengths](assests/Annotation%202021-10-18%20100351.jpg)
 
+    [image reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+
 
     ### Absolute length units :
     These length units are fixed, doesn't depend on any other factors and the changes like changing the default font size of browser, 
@@ -29,6 +31,8 @@ The length units used in CSS can be generally divided into two categories
     Examples for Absolute lengths:
 
     ![Absolute lengths](assests/Annotation%202021-10-18%20100317.jpg)
+
+    [image reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 ## px vs rem vs em 
 Now that we have a basic idea about Relative and Absolute lengths, let's see what is the difference between pixel , em and rem.
@@ -45,10 +49,10 @@ Now let's see what is rem and em actually
     
     how to see browser defaults (Google Chrome)
 
-    visit [chrome settings](chrome://settings/appearance)
 
     ![Browser Defaults](assests/Annotation%202021-10-18%20115454.jpg)
 
+    visit chrome settings [image reference](chrome://settings/appearance)
 
 
 To understand it better, let's see these values in action on three different paragraph tags
@@ -107,7 +111,7 @@ and the value of font size assigned was also same ie 2.
 
 So why they are acting differently? Let me tell you that the main difference lies between rem and em
 
-If you'll see the defination carefully , you'll notice 😮
+If you'll see the defination carefully , you'll notice 
 
 for __em__ we have  __*font size of an element relative to the font size of its parent*__
 
@@ -135,9 +139,3 @@ Happy Learning 👨‍💻
 
  - [CSS values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
  - [Confused About REM and EM?](https://css-tricks.com/confused-rem-em/)
-
-
-
-## Author
-
-- [@Saurav Singh Rauthan](https://github.com/Saurav-Singh-Rauthan)
