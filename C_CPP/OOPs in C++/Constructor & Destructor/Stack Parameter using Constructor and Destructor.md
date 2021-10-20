@@ -1,8 +1,10 @@
 # CONSTRUCTORS: 
-The member functions of a class,used to initialise objects of the same class. With no return type, it has the same name as of class and should be placed inside public section of same.
+They are similar to a member function of the class as they are used to initialise the objects of the same class, but doesn't support a prototype. 
+It has the same name as of class and should be placed inside public section of same.
 
 # DESTRUCTORS:   
-These are used for memory deallocation and cleanup for class objects and its members , when the object is deleted at first place.A destructor is a member function with the same name as its class prefixed by a ~ (tilde).
+These are used for memory deallocation and cleanup for class objects and its members , when the object is deleted at first place.
+Similar to constructors in its usage, they are prefixed by a "sign" named as tilde (~). 
 ```cpp
 //SYNTAX:
 class AB{
@@ -120,6 +122,7 @@ int main()
 ```
 Output:
 ---------
+```
 STACK IMPLEMENTATION     
 Element to be inserted:6    
 Element to be inserted:7   
@@ -130,3 +133,4 @@ Element to be removed: 20
 Element to be removed: 13  
 Element to be inserted:56  
 The top most element is 56  
+```
