@@ -10,10 +10,8 @@ dictionary_variable={key1 : val1 ,key2 : val2 ,....}
 
 let us see an example
 CODE TO PRINT DICTIONARY:
-'
- dict={}
- print(dict)
-'
+'dict={}
+ print(dict)'
 OUTPUT:
 {}
 
