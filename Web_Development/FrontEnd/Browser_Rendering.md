@@ -76,8 +76,8 @@ There are some common principles which should be same among all browsers . Let�
 
 2. Parser - Blocking Scripts : - This is a script ( JavaScript code ) that initiate the process to stop the parsing of the HTML. When the browser encounters a script element, if and only if it is an embedded script using the script tag in Html code . Then it will execute that script first and then continue parsing the HTML to construct the DOM tree . So all embedded scripts are parser-blocking .
 
-3. Render - Blocking CSS : - Any external resource request except a parser-blocking script that file doesn’t block the DOM parsing processes . Hence CSS ( including embedded one ) doesn’t block the DOM parser . Yes, CSS can block DOM parsing . 
-<p> When browser find style element , it will parse all the embedded CSS and update the CSSOM tree with new CSS ( style ) rules . After that , it will continue parsing the HTML elements in the normal manner and the same goes for inline styling .  </p>
+3. Render - Blocking CSS : - Any external resource request except a parser-blocking script that file doesn’t block the DOM parsing processes . Hence CSS ( including embedded one ) doesn’t block the DOM parser . Yes, CSS can block DOM parsing . \
+When browser find style element , it will parse all the embedded CSS and update the CSSOM tree with new CSS ( style ) rules . After that , it will continue parsing the HTML elements in the normal manner and the same goes for inline styling .
 
 4. Document's Event : - The DOM Content Loaded ( DCL ) event marks the point in that time when the browser is constructing a complete DOM tree from all the available HTML. But will be lot of factors involved that can change when the DCL event is fired .
 ```js
