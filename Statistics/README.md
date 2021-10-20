@@ -306,7 +306,3 @@ Scatter Plot
 - Here, we learned about the basic concepts of statistics.
 - We also learned about the terms used in statistics.
 - We learnt that statistics could be divided into two parts and understood both types. 
-
-
-
-
