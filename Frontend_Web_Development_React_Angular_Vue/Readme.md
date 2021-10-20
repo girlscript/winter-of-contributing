@@ -2,7 +2,6 @@
 
 ![Alt text](./assets/react.png?raw=true) ![Alt text](./assets/angular.png?raw=true)![Alt text](./assets/vue.png?raw=true)
 
-## Week 4 is going on !!!!
 
 # How to get Work
 
