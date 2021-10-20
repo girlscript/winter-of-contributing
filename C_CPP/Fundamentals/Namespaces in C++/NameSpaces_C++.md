@@ -138,6 +138,6 @@ The members of nested namespaces can be accessed using ***scope resolution opera
 ~~~  
 ###### References-
 For more details, visit the websites-
-- https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm
-- https://www.javatpoint.com/cpp-namespaces
-- https://www.geeksforgeeks.org/namespace-in-c/
+- [Tutorials Point](https://www.tutorialspoint.com/cplusplus/cpp_namespaces.htm)
+- [javatpoint](https://www.javatpoint.com/cpp-namespaces)
+- [Geeks for Geeks](https://www.geeksforgeeks.org/namespace-in-c/)
