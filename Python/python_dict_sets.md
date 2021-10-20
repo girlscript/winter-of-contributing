@@ -21,12 +21,10 @@ to access values in a dictionary square brackets are used along with key to obta
 
  Example:
 CODE TO ACCESS VALUES:
-'
- dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
+'dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
  print("dict['rollno'] =", dict['rollno'])
  print("dict['name'] =" , dict['name'])
- print("dict['course'] = ",dict['course'])
-'
+ print("dict['course'] = ",dict['course'])'
  Output
  dict[rollno] = 1002
  dict[name] = gwoc
@@ -37,14 +35,12 @@ to add a new entry we have to just specify the key-value pairs as you had done f
 
 Example
 CODE TO ADD AND UPDATE VALUE:
-'
- dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
+'dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
  print("dict['rollno'] =", dict['rollno'])
  print("dict['name'] =" , dict['name'])
  print("dict['course'] = ",dict['course'])
  dict['source'] ='github'          #new entry
- print("dict[source] = ",dict['source'] )
-'
+ print("dict[source] = ",dict['source'] )'
 Output
 dict[rollno] = 1002
  dict[name] = gwoc
@@ -56,13 +52,11 @@ dict[rollno] = 1002
 
  Example
 CODE TO MODIFY:
-'
- dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
+'dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
  print("dict['rollno'] =", dict['rollno'])
  print("dict['name'] =" , dict['name'])
  print("dict['course'] = ",dict['course'])
- dict['course'] = 'python'  #modified
-'
+ dict['course'] = 'python'  #modified'
 Output
 dict[rollno] = 1002
  dict[name] = gwoc
@@ -73,13 +67,11 @@ you can delete one or more items by using del keyword
 
 EXAMPLE
 CODE TO DELETE ITEMS:
-'
- dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
+'dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
  print("dict['rollno'] =", dict['rollno'])
  print("dict['name'] =" , dict['name'])
  print("dict['course'] = ",dict['course'])
- del dict['course']  #deleting 
-'
+ del dict['course']  #deleting '
 OUTPUT
 dict[rollno] = 1002
  dict[name] = gwoc
@@ -89,10 +81,8 @@ the sorted function is to sort the keys
 
 EXAMPLE
 CODE TO SORT ITEMS:
-'
- dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
- print(sorted(dict.keys()))
-'
+'dict={'rollno':'1002'  , 'name':'gwoc' ,'course':'opensource'}
+ print(sorted(dict.keys()))'
 OUPUT
 ['course' , 'name' ,'rollno']
 
@@ -106,10 +96,8 @@ it is created by placing all the values in curly braces
 
 EXAMPLE
 CODE TO PRINT SET :
-'
- thisset = {"apple", "banana", "cherry"}
- print(thisset)
-'
+'thisset = {"apple", "banana", "cherry"}
+ print(thisset)'
 ## SET OPERATIONS
 
 LENGTH OF SET
@@ -119,21 +107,17 @@ Example
 CODE FOR LENGTH OF SET:
 
 Get the number of items in a set:
-'
- thisset = {"apple", "banana", "cherry"}
- print(len(thisset))
- '
+'thisset = {"apple", "banana", "cherry"}
+ print(len(thisset))'
 
 ## SET ITEMS
 Set items can be of any data type:
 Example
 CODE:
 String, int and boolean data types:
-'
- set1 = {"apple", "banana", "cherry"}
+'set1 = {"apple", "banana", "cherry"}
  set2 = {1, 5, 7, 9, 3}
- set3 = {True, False, False}
- '
+ set3 = {True, False, False}'
 
 ## SET TYPE
 type()
@@ -142,7 +126,5 @@ From Python's perspective, sets are defined as objects with the data type 'set':
 Example
 What is the data type of a set?
 CODE:
-'
- myset = {"apple", "banana", "cherry"}
- print(type(myset)) 
-'
+'myset = {"apple", "banana", "cherry"}
+ print(type(myset)) '
