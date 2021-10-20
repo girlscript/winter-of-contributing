@@ -2,6 +2,7 @@
 The <head> element primarily is the container for all the head elements, which provide extra information about the document (metadata), or reference to other resources that are required for the document to display or behave correctly in a web browser.
 
 The HTML <head> element is a container for the following elements: <title>, <style>, <meta>, <link> and <script>.
+
 ## HTML title element
 The <title> element defines the title of the document.
 The title of the document may be used for different purposes. For example:
@@ -79,9 +80,9 @@ The <link> tag is most often used to link to external style sheets.
 	</html>
 		
 Here "styles.css" is an external CSS file but we can link it with our HTML file.
+
 ## HTML script Element
 The <script> element is used to define client-side script, such as JavaScript in HTML documents.
-
 > Let's see an example :
 
 	<!DOCTYPE html>
