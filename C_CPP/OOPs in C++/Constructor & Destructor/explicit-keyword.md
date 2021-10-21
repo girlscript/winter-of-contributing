@@ -43,13 +43,6 @@ int main()
 > a = 13  
 > b = 14  
 
-While using "explicit constructors", statements like
+- While using "explicit constructors", statements like `girlscript g(k);` is perfectly valid, but statements like `girlscript g = k; // automatic conversion type` is invalid.
 
-> girlscript g(k);  
 
-is perfectly valid, but statements like
-
-> girlscript g = k;    // automatic conversion type  
-
-is invalid. 
-         
