@@ -1,19 +1,22 @@
 ## What is LOOP
-Loops in JAVA  are used to automate some particular task which is  repeated for no.s of times.
- Suppose that, you’re creating a program that print the fist five natural number its very easy to just write print statement five time,
+When we have to perform some particular task repeatedly for number of times then we use looping concept, so the group of instructions executed 
+repeatedly until some condition is true, it is called loop.
+
+ Suppose we need to write a program to print number from 1 to 5 ,
+ We can do it just by writing  print statement five time.
 
 _**BUT**_
 
-What if you want to print the first _1000 natural number_ .
-Its not feasible to just write 1000 lines of code which just do **similar task** here you will use a **loop** to automate the task
+What if you want to print the first _1 to 1000 number_ .
+Its not feasible to just write 1000 lines of code which just do **similar task** here you will use a **loop** for this task
 That will also reduces the line of code and increase readbility.
 
 Java provides different types of loops, 
-Here we will see about **`For loop`** and **`For-each loop`**, with reference to a few examples and Java programs.
+Here study we see about **`For loop`** and **`For-each loop`**, with some few example Java programs.
 
 ## `1️⃣.FOR LOOP`
-It is used to iterate a part of the program several times if the number of iteration is fixed.
-
+* For Loop is the type of loop in whch we initialize control variable, & check condition .
+* This is used when  number of iteration is fixed. 
 ### SYNTAX:-
 
 ```Java
@@ -23,11 +26,11 @@ for (initialization;condition;updation)
 }
 ```
 
-* `Initialization` is used to initialize a variable that keeps track of how many times the loop has executed.
-* `Condition` is a boolean expression whose condition is either  true or false
-  1. If its true then executes the body of the loop. 
-  2. If its false then its exit the loop.
-* `Body of the loop` Its the main code which needs to be repeated  written inside the curly bracket which is called block of loop.
+* `Initialization` initializes a control variable that tell about the number oftimes loop has been executed.
+* `Condition` is a boolean expression which test for the final value of the control variable 
+  1. Executes the body of the loop when its true. 
+  2. It exit the loop if its false.
+* `Body of the loop` Its the main block of code ,inside the curly bracket repeated for fixed interval .
 * `Updation` is executed after the body of the loop and updates the initialization variable.
 
 ### FLOWCHART:-
@@ -35,7 +38,7 @@ for (initialization;condition;updation)
 ![for loop](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fluhib6yud3n2rdiinct.png)
 
 ### **EXAMPLE 1:-**
-You need to print the first 10000 natural nos 
+Write a program to print 1 to 1000 number
 ---
 ```Java
 class For{
@@ -117,7 +120,7 @@ for (dataType item : collection obj/array) {
 
 ### ADVANTAGE:-
 
-* It makes the code more readable.
+* It code is easy to read.
 * It reduces the possibilty of bug.
 
 ### DRAWBACK:-
@@ -157,7 +160,7 @@ The Maximum marks is: 895
 
 ### **EXAMPLE 2:-**
 
-You are need to print the all the menu item of coffee shop stored in the ArrayList
+Write a program to print all the menu item of the coffee shop stord in arraylist 
 ---
 
 
