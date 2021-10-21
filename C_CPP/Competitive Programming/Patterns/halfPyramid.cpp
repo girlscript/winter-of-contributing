@@ -19,6 +19,6 @@ int main(){
          }
          cout<<endl;
      }
-     
-    
 }
+
+
