@@ -10,4 +10,7 @@
 
 - [Advanced Destructor](Advanced-Destructor.md)
 
+- [Constructors of "string" Class](constructor-of-string-class.md)
+
 - [The 'explicit' Keyword](explicit-keyword.md)
+
