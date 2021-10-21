@@ -24,3 +24,13 @@ in a header file with .H extension which is combined with the client's source co
 and call on member functions from the objects. This declarations are called _interface_ because that's what a user of class sees and interacts with.
 
 ### Implementation
+
+The innermost works of the member functions of the various classes doesn't need to be known by the programmer. Member functions except for inline functions are distributed 
+in object form as .OBJ files or as library .LIB files.
+
+## Organization and Conceptualization
+
+Programs are shattered down into multiple files for reasons apart from the accommodation of class libraries. Confining programmer's responsibility to split files helps 
+organize the project which defines interface more cleanly among different parts of program. Also a program is divided into separate files due to their functionality like:
+One file handles code involved in the graphics display, while the other file handles mathematical analysis and the next one handles the I/O disk. So, it's clear that 
+a large program when it's a single file it becomes too large to conveniently handle it. 
