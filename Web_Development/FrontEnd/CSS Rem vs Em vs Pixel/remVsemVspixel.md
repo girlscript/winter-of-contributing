@@ -18,7 +18,7 @@ The length units used in CSS can be generally divided into two categories
 
     Examples for Relative lengths:
 
-    ![Relative lengths](assests/Annotation%202021-10-18%20100351.jpg)
+    ![relative lengths](https://user-images.githubusercontent.com/54982868/138211412-4b27e636-dd4d-4e4d-9f87-687c3577ae97.jpg)
 
     [image reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
@@ -30,7 +30,8 @@ The length units used in CSS can be generally divided into two categories
 
     Examples for Absolute lengths:
 
-    ![Absolute lengths](assests/Annotation%202021-10-18%20100317.jpg)
+    ![absolute lenghts](https://user-images.githubusercontent.com/54982868/138211454-ab83d86e-b1b2-4708-97c6-15a4a65798b6.jpg)
+
 
     [image reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
@@ -50,7 +51,7 @@ Now let's see what is rem and em actually
     how to see browser defaults (Google Chrome)
 
 
-    ![Browser Defaults](assests/Annotation%202021-10-18%20115454.jpg)
+    ![appearance settings](https://user-images.githubusercontent.com/54982868/138211522-41811364-4809-4f37-be1a-017355349fae.jpg)
 
     visit chrome settings [image reference](chrome://settings/appearance)
 
@@ -104,7 +105,8 @@ and the paragraph with class p2 and p3 are wrapped by div with class parent with
 
 So lets guess the output based upon the above code 👨‍🔧.
 
-![Results](assests/Annotation%202021-10-18%20110954.jpg)
+![result](https://user-images.githubusercontent.com/54982868/138211486-cbd2422b-76cf-499d-b65f-73dc16e50246.jpg)
+
 
 The above result seems kinda odd right... because both paragraphs (p2, p3) were having same parent div
 and the value of font size assigned was also same ie 2. 
