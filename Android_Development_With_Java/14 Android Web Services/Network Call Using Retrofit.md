@@ -14,33 +14,71 @@ implementation 'com.squareup.retrofit2:retrofit:2.5.0'
 implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 ```
 
-We first need to send out network requests to an API. For this we need the Retrofit Builder class and specify the base URL for the service. For demo purposes, we will use a  [Fake JSON API server](https://jsonplaceholder.typicode.com/posts) as our URL.
+Let us first create a simple TextView where we can show a particular post from the [demo URL](https://jsonplaceholder.typicode.com/posts) (for example , let us display the 6th post)
 
-```JAVA
- Retrofit retrofit=new Retrofit.Builder()
-                .baseUrl("https://jsonplaceholder.typicode.com/")
-                .addConverterFactory(GsonConverterFactory.create())  // Convert the data to Gson
-                .build();
+```xml
+ <?xml version="1.0" encoding="utf-8"?>
+ <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     tools:context=".MainActivity">
 
-        Service service=retrofit.create(Service.class); //Service is an interface  (described below)
+     <TextView
+         android:id="@+id/textView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:textColor="@color/black"
+         android:textSize="18dp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintLeft_toLeftOf="parent"
+         app:layout_constraintRight_toRightOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
 
-        service.getDataSet().enqueue(new Callback<List<DataModel>>() {
-            @Override
-            public void onResponse(Call<List<DataModel>> call, Response<List<DataModel>> response) {
-
-                    List<DataModel> list = (List<DataModel>) response.body(); // DataModel is the POJO Class (described below)
-                    // You can now perform your required tasks from this list
-            }
-
-            @Override
-            public void onFailure(Call<List<DataModel>> call, Throwable t) {
-                Toast.makeText(MainActivity.this,t.getLocalizedMessage(),Toast.LENGTH_SHORT).show();
-
-            }
-        });
+ </androidx.constraintlayout.widget.ConstraintLayout>
 ```
 
-As mentioned in the code, we need an Interface ```Service``` and a POJO Class ```DataModel```.
+We need to send out network requests to an API. For this we need the Retrofit Builder class and specify the base URL for the service. For demo purposes, we will use a  [Fake JSON API server](https://jsonplaceholder.typicode.com/posts) as our URL.
+
+```JAVA
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        TextView textview=findViewById(R.id.textView);
+        Retrofit retrofit=new Retrofit.Builder()
+                .baseUrl("https://jsonplaceholder.typicode.com/")
+                .addConverterFactory(GsonConverterFactory.create())  //Convert the data to Gson
+                .build();
+        Service api=retrofit.create(Service.class);
+        api.getPosts().enqueue(new Callback<List<PostModel>>() {
+            @Override
+            public void onResponse(Call<List<PostModel>> call, Response<List<PostModel>> response) {
+                List<PostModel> list=response.body(); //PostModel is a POJO class (described below)
+                String str1="Found "+list.size()+" posts in the Web. \n\n";
+                PostModel post=list.get(5); //to get the 6th post in the list.
+                String str2="User ID: " + post.userId
+                        +"\nPost ID: "+ post.id
+                        +"\nTitle: "+ post.title
+                        +"\nBody: "+ post.body;
+                textview.setText(str1+str2);
+
+            }
+
+            @Override
+            public void onFailure(Call<List<PostModel>> call, Throwable t) {
+                Toast.makeText(MainActivity.this,t.getLocalizedMessage(),Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+}
+```
+
+As mentioned in the code, we need an Interface ```Service``` and a POJO Class ```PostModel```.
 
 ```java
 import retrofit2.Call;
@@ -51,23 +89,22 @@ public interface Service {
 
 
     @GET("/posts") //Add extension as per the data needed by the App
-    Call<List<DataModel>> getDataSet();
-
+    Call<List<PostModel>> getPosts();
 }
 ```
 
-```DataModel:-```
+```PostModel:- (POJO Class)```
 
 ```java
 import com.google.gson.annotations.SerializedName;
 
-public class DataModel {
+public class PostModel {
 
     @SerializedName("userId")
-    public String userId;
+    public int userId;
 
     @SerializedName("id")
-    public String id;
+    public int id;
 
     @SerializedName("title")
     public  String title;
@@ -75,40 +112,15 @@ public class DataModel {
     @SerializedName("body")
     public  String body;
 
-    public String getUserId() {
-        return userId;
-    }
-
-    public void setUserId(String userId) {
-        this.userId = userId;
-    }
-
-    public String getId() {
-        return id;
-    }
-
-    public void setId(String id) {
-        this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getBody() {
-        return body;
-    }
-
-    public void setBody(String body) {
-        this.body = body;
-    }
 }
 
 ```
+
+The output of the above code implemented is as follows:
+
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/79036525/138334521-c4957726-5ae2-48a2-9882-b643810a73f1.png">
+</p>
 
 Retrofit can also be used for authentication purposes. For token authentication we can use this code in the ```Service``` interface :
 
@@ -116,6 +128,15 @@ Retrofit can also be used for authentication purposes. For token authentication 
  @POST("posts")
     Call<ResponseCreatePost> createPost(@Header ("Authorization") String token, @Body HashMap<String, Object> newPost);
     
+```
+
+The ResponseCreatePost Class is as follows:
+```java
+class ResponseCreatePost
+{
+    public int code;
+    public String message;
+}
 ```
 
 Other important applications of Retrofit include Pgination, File uploads and Downloads, Token Authentication, Error Handling, Caching, etc. To know more about all these functions, you can refer to the following [Tutorial](https://futurestud.io/tutorials/retrofit-token-authentication-on-android).
