@@ -1,5 +1,11 @@
 ## **Accuracy Scores**
 
+🔴 **Type of Content** : Video
+
+🔴 **Domain** : Machine Learning
+
+🔴 **Module** : Feature Engineering and Performance Metrices
+
 Accuracy is calculated as the total number of predictions divided by the total number of dataset
 
 ### **Overview of the tutorial**
@@ -22,3 +28,5 @@ Accuracy is calculated as the total number of predictions divided by the total n
 - Domain-Machine Learning
 - Batch-6
 - Serial No-992
+
+### GirlScript Winter of Contributions 2021
