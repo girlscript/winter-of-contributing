@@ -1,2 +1,2 @@
-# Lets Setup a New Project in Rust : 
+# Let's Setup a New Project in Rust : 
 
