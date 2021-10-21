@@ -3,7 +3,7 @@ The <head> element primarily is the container for all the head elements, which p
 
 The HTML <head> element is a container for the following elements: <title>, <style>, <meta>, <link> and <script>.
 
-## HTML title element
+## HTML <title> element
 The <title> element defines the title of the document.
 The title of the document may be used for different purposes. For example:
 1.  To display a title in the browser title bar and in the task bar.
@@ -22,7 +22,7 @@ The title of the document may be used for different purposes. For example:
 		</body>
 	</html>
 
-## HTML style element
+## HTML <style> element
 The <style> element is used to define embedded style information for an HTML document. The style rules inside the <style> element specify how HTML elements render in a browser.
 > Let's see an example :
 
@@ -43,8 +43,8 @@ The <style> element is used to define embedded style information for an HTML doc
 		</body>
 	</html>
 	
-## HTML meta Element
-The <meta> element provides metadata about the HTML document. Metadata is a set of data that describes and gives information about other data.
+## HTML < meta> Element
+The < meta> element provides metadata about the HTML document. Metadata is a set of data that describes and gives information about other data.
 > Let's see an example :
 
 	<!DOCTYPE html>
@@ -60,9 +60,9 @@ The <meta> element provides metadata about the HTML document. Metadata is a set 
 		</body>
 	</html>
 		
-## HTML link Element
-The <link> element defines the relationship between the current document and an external resource.
-The <link> tag is most often used to link to external style sheets.
+## HTML < link> Element
+The < link> element defines the relationship between the current document and an external resource.
+The < link> tag is most often used to link to external style sheets.
 > Let's see an example :
 	
 	<!DOCTYPE html>
@@ -81,7 +81,7 @@ The <link> tag is most often used to link to external style sheets.
 		
 Here "styles.css" is an external CSS file but we can link it with our HTML file.
 
-## HTML script Element
+## HTML <script> Element
 The <script> element is used to define client-side script, such as JavaScript in HTML documents.
 > Let's see an example :
 
