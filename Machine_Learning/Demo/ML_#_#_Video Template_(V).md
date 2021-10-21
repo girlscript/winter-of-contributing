@@ -7,7 +7,7 @@
 
 *********************************************************************
 
-### Click here for the audio file,
+### Click here for the video file,
 
 ```
 Provide the audio link in the given format,
