@@ -1,4 +1,5 @@
 /*
+
     * 
    * *
   * * *
@@ -9,6 +10,7 @@
   * * *
    * *
     *
+    
 */
 #include <iostream>
 using namespace std;
@@ -30,6 +32,9 @@ int main(){
         }
         cout<<endl;
     }
+   
+   
+   
     
      for (int i = n; i >= 1 ; i--)
     {
