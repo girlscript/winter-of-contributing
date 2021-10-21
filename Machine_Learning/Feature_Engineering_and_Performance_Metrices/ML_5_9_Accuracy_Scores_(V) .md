@@ -16,17 +16,14 @@ Accuracy is calculated as the total number of predictions divided by the total n
 - How to decide which performance metrics to consider based on the nature of dataset ?
 
 ## VIDEO LINK: 
-[![image](https://user-images.githubusercontent.com/59737567/138305408-421ad628-8352-4503-a765-f149231c7093.png)](https://drive.google.com/file/d/1VJb5DlUnP1Tzbkk4WDMcrQBdfpWqI9nG/view?usp=sharing)
+[![image](https://user-images.githubusercontent.com/59737567/138341448-a9bae3a7-8bc3-4ab6-b327-0354d167f679.png)
+](https://drive.google.com/file/d/1VJb5DlUnP1Tzbkk4WDMcrQBdfpWqI9nG/view?usp=sharing)
 
 #### References :
 - https://youtu.be/HBi-P5j0Kec
 ### Image Credits
 - https://youtu.be/HBi-P5j0Kec
 
-#### Contributed by
-- Name-Nikita Bhrugumaharshi Emberi
-- Domain-Machine Learning
-- Batch-6
-- Serial No-992
+#### Contributed by Nikita Bhrugumaharshi Emberi
 
 ### GirlScript Winter of Contributions 2021
