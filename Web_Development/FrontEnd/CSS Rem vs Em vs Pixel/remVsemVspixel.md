@@ -20,7 +20,7 @@ The length units used in CSS can be generally divided into two categories
 
     ![relative lengths](https://user-images.githubusercontent.com/54982868/138211412-4b27e636-dd4d-4e4d-9f87-687c3577ae97.jpg)
 
-    [image reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+     Image reference: [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 
     ### Absolute length units :
@@ -33,7 +33,7 @@ The length units used in CSS can be generally divided into two categories
     ![absolute lenghts](https://user-images.githubusercontent.com/54982868/138211454-ab83d86e-b1b2-4708-97c6-15a4a65798b6.jpg)
 
 
-    [image reference](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+    Image reference: [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 ## px vs rem vs em 
 Now that we have a basic idea about Relative and Absolute lengths, let's see what is the difference between pixel , em and rem.
