@@ -19,6 +19,14 @@
 
 
 
-<h2> Here is an example of How to Give your Introduction</h2>
+<h2> Example of How to Give your Introduction as a Fresher</h2>
 
 > My Name is XYZ. I am a Fresher with certification in Javascript, CSS, and Html. During my college days, I made a Website for my College Society named XYZ. My Strength takes Initiative to work independently, Good leadership skills, Adaptable to any kind of situation in an estranged group & Helping tendencies. My Weakness is I am not comfortable until I finish my work in the given time & am friendly. I am passionate about entering the world of websites and contributing towards making a social impact on your users, or something like – That’s all about me, I wish to utilize my skills, learn and grow together with your company and provide top-notch services to your clients. My Long term goal is to become a more responsible and knowledgeable personality and in a respectable position in my company.
+
+<h2> Example of How to Give your Introduction as an Experiennced Candidate</h2>
+
+>Hello, I’m XYZ.
+I completed my B.Tech from ABC College and I’ve been practicing/working as a civil engineer for the past 3 years.
+I’ve previously worked for XYZ company for an year and ABC company for two years.
+I am interested in joining your company as an assistant civil engineer. Previously, I’ve worked on the construction of a multi-specialty hospital. This project was led by Mr. ABC, and I was his assistant civil engineer. I’ve also had the opportunity to assist Mr. XYZ in the construction of a dam. So, I am well versed in the tasks and I hold a good experience of what I am supposed to do as an assistant civil engineer.
+My interests include reading articles about how certain complicated designed buildings were made. I read and watch videos that explain the tips and tricks which are applied to construct any project. Besides this, I like to read self-improvement books which help me improve more like a human. I was always interested in visiting places that have complex designs built. And that is why I took up civil engineering so that I could understand how certain ideas come into existence.
