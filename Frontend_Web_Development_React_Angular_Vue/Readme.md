@@ -117,7 +117,7 @@ Otherwise your PR will be lost in tones of PR.Please follow this Trend
 - Refs 
 - Writiing your own hooks *High order 
 Components 
-- Fibre Architecture 
+- Fiber Architecture 
  ### Week 6 
 - Multi page react app 
 - Context 
