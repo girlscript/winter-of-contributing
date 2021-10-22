@@ -2,7 +2,6 @@
 
 ![Alt text](./assets/react.png?raw=true) ![Alt text](./assets/angular.png?raw=true)![Alt text](./assets/vue.png?raw=true)
 
-## Week 4 is going on !!!!
 
 # How to get Work
 
@@ -118,7 +117,7 @@ Otherwise your PR will be lost in tones of PR.Please follow this Trend
 - Refs 
 - Writiing your own hooks *High order 
 Components 
-- Fibre Architecture 
+- Fiber Architecture 
  ### Week 6 
 - Multi page react app 
 - Context 
@@ -138,6 +137,7 @@ Components
 ### Week-9 
 - Testing 
 - Jest 
+- React Icons
 - React Testing Library 
  
  

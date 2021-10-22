@@ -28,7 +28,7 @@
 - [x] Some more Hooks (As per recommended by Mentor) 
  
 ### Week 4 
-- [ ] Conditional rendering 
+- [x] Conditional rendering 
 - [ ] State in React-Declarative and Imperative programing 
  
  ### Week 5 
@@ -36,7 +36,7 @@
 - [ ] Refs 
 - [ ] Writiing your own hooks 
 - [ ] High order Components 
-- [ ] Fibre Architecture 
+- [ ] Fiber Architecture 
  ### Week 6 
 - [ ] Multi page react app (React Router)
 - [ ] Good Coding Practices
@@ -58,4 +58,5 @@
 ### Week-9 
 - [ ] Testing 
 - [ ] Jest 
+- [ ] React icons
 - [ ] React Testing Library
