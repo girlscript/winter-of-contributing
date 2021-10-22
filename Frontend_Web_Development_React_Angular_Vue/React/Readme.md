@@ -36,7 +36,7 @@
 - [ ] Refs 
 - [ ] Writiing your own hooks 
 - [ ] High order Components 
-- [ ] Fibre Architecture 
+- [ ] Fiber Architecture 
  ### Week 6 
 - [ ] Multi page react app (React Router)
 - [ ] Good Coding Practices
