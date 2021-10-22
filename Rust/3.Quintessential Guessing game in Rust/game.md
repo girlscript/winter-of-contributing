@@ -73,3 +73,6 @@ fn main() {
 
 
 ```
+ - `println!()` for asking users input 
+ -  `guess` is use to store the used input and as you notice it has the `mut` keyword , this means that the variable can be overwritten . `mut` is short for mutable and is a central to Rust's ownership model . **No need to worry about it now** 🍦 .
+ 
