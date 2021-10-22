@@ -57,3 +57,19 @@ fn main() {
 ## Main Function 🦀🦀 :
 
 - We are using `let` to define `secret_number` , generating a **random number that the user has to guess** between 1 and 100 .
+
+- The **loop** is an indefinite loop , it is **infact the game loop** and we are using a `break` statement to end the game .
+
+- Onto the snippet below then : 
+
+```rust
+       println!("Please input your guess.");
+
+       let mut guess = String::new();
+
+       io::stdin()
+           .read_line(&mut guess)
+           .expect("Failed to read line");
+
+
+```
