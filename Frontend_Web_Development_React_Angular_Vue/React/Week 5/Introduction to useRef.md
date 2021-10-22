@@ -13,9 +13,61 @@ useRef() is a built-in React hook that accepts one argument as the initial value
 Example 1: Use of useRef while filling a form
 
 ```
+import { useRef } from "react";
+const App = () => {
+  const emailInputRef = useRef();
+  const passwordRef = useRef();
+
+  const submitHandler = (event) => {
+    event.preventDefault();
+    const email = emailInputRef.current.value;
+    const password = passwordRef.current.value;
+    console.log(email);
+    console.log(password);
+  };
+
+  return (
+    <div >
+      <h1>Using useRef in a Form</h1>
+
+      <form onSubmit={submitHandler}>
+        <label htmlFor="email-input">Email</label>
+        <input
+          id="email-input"
+          type="email"
+          name="email"
+          placeholder="Enter your email here"
+          ref={emailInputRef}
+        />
+        <label htmlFor="password-input">Password</label>
+        <input
+          id="password-input"
+          name="password"
+          placeholder="******"
+          type="password"
+          ref={passwordRef}
+        />
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+  );
+};
+export default App;
 
 
 ```
+
+This code would render the following output:
+
+![](./assets/useRef_example1.JPG)
+
+##### Explanation
+
+- The email input value has reference to the emailInputRef.
+- The password input value has reference to the passwordRef.
+- We extract the input value from InputRef.current.value
+- When the user submits the form,we see the submitted values in the console.
+- The component is re-rendered only on refresh or on form submission,not while the user is entering the values.
 
 Example 2: Implementing a StopWatch using useRef
 
