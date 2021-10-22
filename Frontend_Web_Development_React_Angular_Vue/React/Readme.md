@@ -58,4 +58,5 @@
 ### Week-9 
 - [ ] Testing 
 - [ ] Jest 
+- [ ] React icons
 - [ ] React Testing Library
