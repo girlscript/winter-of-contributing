@@ -120,7 +120,7 @@ fn main() {
 cargo run 
 ```
 
-## You Deserve some Rest now but come back in an hour or so 😎:  
+## You Deserve some Rest now , but come back in an hour or so 😎:  
 <p align="center">
 <img src="https://media.giphy.com/media/bqolELP0thqfj4wAMb/giphy.gif">
 
