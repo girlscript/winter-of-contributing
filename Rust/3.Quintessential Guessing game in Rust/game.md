@@ -51,6 +51,7 @@ fn main() {
   
   - The `std::io` is for handling input/output streams , equivalent to the **<iostream.h>** from C++ land .
   - The `std::cmp::Ordering` is for ordering and we are using it here for comparing the values and check for a match [**Ordering is an enum**].
-  - `rand:Rng` is used to generate random numbers in a range , and this comes from the crate rand . So our **Cargo.toml** will have `rand = "0.9.0"` under dependencies 
+  - `rand:Rng` is used to generate random numbers in a range , and this comes from the crate rand . 
+  - So our **Cargo.toml** will have `rand = "0.9.0"` under dependencies 
   
-## 🦀🦀 Main Function 🦀🦀 :
+## Main Function 🦀🦀 :
