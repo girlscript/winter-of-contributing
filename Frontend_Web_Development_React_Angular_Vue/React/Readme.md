@@ -20,21 +20,22 @@
 - [x] import, export, modules 
 - [x] React Props vs State 
 - [x] Mapping data to components 
-- [ ] Using the  React Developer Tools (Preferrably a video)
+- [x] Using the  React Developer Tools (Preferrably a video)
 ### Week 3 
-- [ ] List and Keys 
+- [x] List and Keys 
 - [ ] Composition vs Inheritance 
-- [ ] Basic Hooks : a) useState b) useEffect 
-- [ ] Some more Hooks (As per recommended by Mentor) 
+- [x] Basic Hooks : a) useState b) useEffect 
+- [x] Some more Hooks (As per recommended by Mentor) 
  
 ### Week 4 
-- [ ] Conditional rendering 
+- [x] Conditional rendering 
 - [ ] State in React-Declarative and Imperative programing 
  
  ### Week 5 
 - [ ] Common hooks(useRef,useContent etc) 
 - [ ] Refs 
-- [ ] Writiing your own hooks *High order Components 
+- [ ] Writiing your own hooks 
+- [ ] High order Components 
 - [ ] Fibre Architecture 
  ### Week 6 
 - [ ] Multi page react app (React Router)
