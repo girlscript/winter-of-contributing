@@ -2,33 +2,18 @@
 
 Threaded binary tree is a binary tree in which the null pointers of leaf node of the binary tree is pointing to inorder predecessor or inorder successor.Threaded binary tree structure makes the inorder and preorder traversal of the tree faster without using any additional data structure(e.g auxilary stack) or memory to do the traversal.
 
-<br /><br />
-
 
 ## **Double Threaded Binary Search Tree**
 ---
-
-<br />
-
 Double threaded binary search tree is a binary search tree in which every node has left NULL pointer points to its inorder predecessor and the right NULL pointer points to the inorder successor. The threads are useful for fast accessing the ancestors of a node.
 
 Double Threaded Binary Search Tree is one of the most used types of Advanced data structures used in many real-time applications like places where there are insertion and traversal of all elements of the search tree. 
 
-<br />
-
-<p align= "center">
-<img src="assets/pic1.png" />
-</p>
-
-
-<br /><br />
+![Double Threaded Binary Search Tree](assets/pic1.png)
 
 
 ## **Advantages of using double threaded binary tree-**
 ---
-
-<br />
-
 Although adding right and left threads increases complexity, the double-threaded tree has the advantages of both single-threaded trees and binary search tree.
 
 1. Fast successor and predecessor access.
@@ -39,14 +24,9 @@ Although adding right and left threads increases complexity, the double-threaded
 
 4. Utilize wasted space. Since the empty left and right attribute of a node does not store anything, we can use the empty left and right attributes as threads.
 
-<br /><br />
-
 
 ## **Algorithm:**
 ---
-
-<br />
-
 - In this tree, there are five fields namely, data fields, left, right pointers, leftThread, and rightThread where leftThread and rightThread are boolean value stored to denote the right pointer points to an inorder successor or a new child node. Similarly, the left pointer points to an inorder predecessor or a new child node.
 
 - Base condition for the creation of the Double Threaded binary search tree is that the root node exists or not, If it doesn’t exist then create a new node and store it.
@@ -55,45 +35,53 @@ Although adding right and left threads increases complexity, the double-threaded
 
 - If the left child or right child doesn’t exist then insert the node to its left and point its left and right child to the inorder predecessor and successor respectively.
 
-<br /><br />
-
 
 ## **Implementation of double threaded binary search tree for inorder and preorder traversal-**
-
-<br />
 
 ```
 #include<bits/stdc++.h>
 using namespace std;
 
-class Node{
+//class of the node
+class Node{                 
 public:
     int data;
     Node* left;
     Node* right;
     int leftThread;   
     int rightThread; 
+
+    // constructor of the node in tree
     Node(int val){
         this->data = val;
     }
 };
 
 
+// Class of the double threaded binary search tree
 class DoubleThreadedBinaryTree{
 private:
     Node*root;
 public:
+
+    //Constructor of the double threaded binary search tree
     DoubleThreadedBinaryTree(){
         
+        //Consider your whole tree lies to the left this dummy node
         root=new Node(INT_MAX);
         root->left=root->right=root;
+
+        //Considering our whole tree is at left of dummy node
         root->leftThread=0;
         root->rightThread=1;
     }
 
-
+    
+    //Function to insert the nodes into the double threaded binary search tree
     void insert(int data){
         Node* new_node=new Node(data);
+
+        //Condition to check if there is no node in the binary tree
         if(root->left==root&&root->right==root){
             //EmptyTree
             new_node->left=root;
@@ -105,8 +93,12 @@ public:
             return;
         }
         else{
+
+            //New node
             Node*current=root->left;
             while(true){
+
+                //Condition to check if the data to be inserted is less than the current node
                 if(current->data>data){
                     if(current->leftThread==0){
                     //thisisthelastNode
@@ -129,6 +121,8 @@ public:
                         current->right=new_node;
                         new_node->rightThread=current->rightThread;
                         new_node->leftThread=0;
+
+                        //Inserting the node in the right
                         current->rightThread=1;
                         new_node->left=current;
                         break;
@@ -141,6 +135,8 @@ public:
         }
     }
 
+
+    //Otherwise insert the node in the left of the current node
     Node*findNextInorder(Node*current){
         if(current->rightThread==0){
             return current->right;
@@ -153,13 +149,18 @@ public:
         return current;
     }
 
-
+//In double threaded binary search tree the left pointer of every node points to its inorder predecessor whereas its right pointer points to the inorder successor
+    
+    //Function to find the inorder successor of the node
     void inorder(){
+
         Node*current=root->left;
         while(current->leftThread==1){
             current=current->left;
         }
         cout<<"\nInorder Traversal :"<<"\n";
+
+        //Loop to traverse tree
         while(current!=root){
             cout<<current->data<<" ";
             current=findNextInorder(current);
@@ -167,10 +168,13 @@ public:
         cout<<"\n\n";
     }
 
-
+    
+    //Function to find the preorder successor of the node
     void preorder(){
         Node*current=root->left;
         cout<<"\nPreorder Traversal :"<<"\n";
+
+        //Loop to traverse the tree inn preorder fashion
         while(current!=root){
             cout<<current->data<<" ";
             if(current->left!=root&&current->leftThread!=0)
@@ -211,51 +215,25 @@ int main(){
    ;
     return 0;
 }
-
 ```
-<br />
+
 
 ## **Output:**
 ---
 
-<br />
-
-<p align= "center">
-     <img src="assets/prgm1.png" />
-</p>
-
-
-<br /><br/>
+![Output](assets/prgm1.png)
 
 
 ## **Application of double threaded binary search tree:**
 ---
 
-<br/>
-
-The main idea behind double threaded binary trees is to make inorder traversal of the binary tree faster and do it without using any external extra space, so sometimes in small systems where hardware is limited we use threaded binary tree for better efficiency of the software in a limited hardware space.
-
-<br /><br />
+The main idea behind double threaded binary trees is to make inorder traversal of the binary tree faster and do it without using any external extra space, so sometimes in small systems where hardware is limited we use threaded binary tree for better efficiency of the software in a limited hardware space.  
 
 
 ## **Summary:**
----
+---  
 
-<br />
-
-The double-threaded tree offers both single-threaded binary trees’ benefits, but its implementation is even more complex than single-threaded binary trees. Besides, there is no significant improvement in run-time performance. However, in some cases, such as the space complexity is concerned, and the specific traversals (e.g., in-order traversal) are critical, the double-threaded binary tree could be the best option.
-
-<br /><br /><br /><br />
-
+The double-threaded tree offers both single-threaded binary trees’ benefits, but its implementation is even more complex than single-threaded binary trees. Besides, there is no significant improvement in run-time performance. However, in some cases, such as the space complexity is concerned, and the specific traversals (e.g., in-order traversal) are critical, the double-threaded binary tree could be the best option. 
 
 ---
-
-
 *Thanks for reading !!*
-
-**Contributed by : Palak Tiwari**
-
-
-
-
-
