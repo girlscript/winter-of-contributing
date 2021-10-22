@@ -1,8 +1,8 @@
 # Guessing Game In Rust : 
 
-- We will learn quite a few things here like **let , match , functions , how to use external crates** and other miscellaneous things
-- The is basically a CLI game about guessing random numbers .
-- Let us jump **HEAD first into the code**
+- We will learn quite a few things here like **let , match , functions , how to use external crates** and other miscellaneous things .
+- This is basically a CLI game about guessing random numbers .
+- Let us jump **HEAD first into the code** :
  ```rust
 use rand::Rng;
 use std::cmp::Ordering;
