@@ -12,15 +12,29 @@
 
 *  In contrast to SVR, fitting a KRR model can be done in closed-form and is typically faster for medium-sized datasets. On the other hand, the learned model is non-sparse and thus slower than SVR, which learns a sparse model for epsilon > 0, at prediction-time.
 
-# EXAMPLE:
+## **COMPARISON BETWEEN KRR AND SVR**
 
 * The following figure compares KernelRidge and SVR on an artificial dataset, which consists of a sinusoidal target function and strong noise added to every fifth datapoint.
 
+*  The learned model of KernelRidge and SVR is plotted, where both complexity/regularization and bandwidth of the RBF kernel have been optimized using grid-search.
+
+*    The learned functions are very similar; however, fitting KernelRidge is approximately seven times faster than fitting SVR (both with grid-search). 
+   
+*    However, prediction of 100000 target values is more than three times faster with SVR since it has learned a sparse model using only approximately 1/3 of the 100 training datapoints as support vectors.
 
 
 ![Picture](https://scikit-learn.org/stable/_images/sphx_glr_plot_kernel_ridge_regression_001.png)
 
-# **IMPLEMENTATION OF KERNEL RIDGE REGRESSION USING PYTHON**
+* The next figure compares the time for fitting and prediction of KernelRidge and SVR for different sizes of the training set. 
+ 
+* Fitting KernelRidge is faster than SVR for medium-sized training sets (less than 1000 samples); however, for larger training sets SVR scales better.
+ 
+* With regard to prediction time, SVR is faster than KernelRidge for all sizes of the training set because of the learned sparse solution. 
+  
+* Note that the degree of sparsity and thus the prediction time depends on the parameters  and  of the SVR;  would correspond to a dense model.
+
+![Picture](https://scikit-learn.org/stable/_images/sphx_glr_plot_kernel_ridge_regression_003.png)
+
 
 ## **PARAMETERS**
 
@@ -67,95 +81,7 @@ Number of features seen during fit.
 
 Names of features seen during fit. Defined only when X has feature names that are all strings.
 
-# **CODE:**
-
-## INPUT:
-
-    import math
-    import random
-    import numpy as np
-    import matplotlib.pyplot as plt
-    from sklearn import linear_model
-    from sklearn.metrics import mean_squared_error, r2_score
-    from sklearn.kernel_ridge import KernelRidge
-    
-    list_x = []
-    list_y = []
-    list_x_pred = []
-    list_y_real = []
-    random.seed(2020)
-
-    for i in range(-10,11):
-    x = i/2
-    rnd_number= random.uniform(-1,1)
-    y = (x+4)*(x+1)*(x-1)*(x-3) + rnd_number
-    list_x.append(x)
-    list_y.append(y)
-    print(x,y)
-
-    for i in range(-50,51):
-        x = 0.1*i
-        list_x_pred.append(x)
-        list_y_real.append((x+4)*(x+1)*(x-1)*(x-3))
-        list_x = np.array(list_x).reshape(-1, 1)
-        list_x_pred = np.array(list_x_pred).reshape(-1, 1)
-        list_y_pred = []
-        short_list_y_pred = []
-        rmse_list = []
-        
-    for degree_value in [2,3,4,5]:
-        krr = KernelRidge(alpha=1.0,kernel='polynomial',degree=degree_value)
-        krr.fit(list_x,list_y)
-        list_y_pred.append(krr.predict(list_x_pred))
-        new_y = krr.predict(list_x)
-        short_list_y_pred.append(new_y)
-        # Print rmse value
-        rmse = math.sqrt(mean_squared_error(new_y, list_y))
-        rmse_list.append(rmse)
-        print('############################')
-        print('Degree:', degree_value)
-        print('Root Mean Squared Error: %.1f' % rmse)
- 
-    fig, axs = plt.subplots(2, 2)
-    for ax in axs.flat:
-        ax.set(xlabel='x', ylabel='y')
-
-    for ax in axs.flat:
-        ax.label_outer()
-
-    axs[0, 0].scatter(list_x, list_y,color='C0')
-    axs[0, 0].plot(list_x_pred,list_y_pred[0],color='C1')
-    axs[0, 0].set_title(r'$d = 2$')
-    axs[0, 0].set_xlim(-5.5,5.5)
-    axs[0, 0].set_ylim(-100,500)
-    axs[0, 0].annotate(u'$RMSE$ = %.1f' % rmse_list[0], xy=(0.15,0.85), xycoords='axes fraction')
-
-    axs[0, 1].scatter(list_x, list_y,color='C0')
-    axs[0, 1].plot(list_x_pred,list_y_pred[1], color='C1')
-    axs[0, 1].set_title(r'$d = 3$')
-    axs[0, 1].set_xlim(-5.5,5.5)
-    axs[0, 1].set_ylim(-100,500)
-    axs[0, 1].annotate(u'$RMSE$ = %.1f' % rmse_list[1], xy=(0.15,0.85), xycoords='axes fraction')
-
-    axs[1, 0].scatter(list_x, list_y,color='C0')
-    axs[1, 0].plot(list_x_pred,list_y_pred[2], color='C1')
-    axs[1, 0].set_title(r'$d = 4$')
-    axs[1, 0].set_xlim(-5.5,5.5)
-    axs[1, 0].set_ylim(-100,500)
-    axs[1, 0].annotate(u'$RMSE$ = %.1f' % rmse_list[2], xy=(0.15,0.85), xycoords='axes fraction')
-
-    axs[1, 1].scatter(list_x, list_y,color='C0')
-    axs[1, 1].plot(list_x_pred,list_y_pred[3], color='C1')
-    axs[1, 1].set_title(r'$d = 5$')
-    axs[1, 1].set_xlim(-5.5,5.5)
-    axs[1, 1].set_ylim(-100,500)
-    axs[1, 1].annotate(u'$RMSE$ = %.1f' % rmse_list[3], xy=(0.15,0.85), xycoords='axes fraction')
-
-## OUTPUT:
-
-![Picture](https://i0.wp.com/www.mdelcueto.com/wp-content/uploads/2020/09/Figure_3-1.png?resize=1024%2C768&ssl=1)
-
-# **ADVANTAGES**
+# **ADVANTAGES OF KRR**
 
 * Works on any size of the dataset.
 
@@ -164,15 +90,25 @@ Names of features seen during fit. Defined only when X has feature names that ar
 * Works very well on non-linear problems.
 
 
-# **DISADVANTAGES**
+# **DISADVANTAGES OF KRR**
 
 * We need to choose the right polynomial degree for good variance tradeoff.
 
 * It doesn’t directly provide probability estimates.
 
+# **APPLICATIONS OF KRR**
+
+a) Slope System Reliability Analysis.
+
+b) Prediction of Bearing Capacity of Cement-Flyash-Gravel Pile Composite Foundation.
+
+c) Spectroscopy for carbon and nitrogen prediction in soils under sugarcane.
+
+d) Streamflow Forecast.
+
+e) Determine Stability State of Asphaltene in Oilfields by Utilizing SARA Fractions.
 
 
 ## **CONCLUSION**
 
-Here,we have given a brief idea on Kernel Ridge Regression, their pros and cons and finally, implementation with the help of Python.
-
+Here,we have given a brief idea on Kernel Ridge Regression, their pros and cons,  applications and implementation with the help of Python.
