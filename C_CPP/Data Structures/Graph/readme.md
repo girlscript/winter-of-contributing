@@ -1,4 +1,5 @@
 - [Breadth First Search](./BreadthFirstSearch)
+- [Recursive Breadth First Serach](./RECURSIVE_BFS)
 - [Depth First Search](./DepthFirstSearch)
 - [Topological Sorting](./TopologicalSorting)
 - [Flood Fill Algorithm](./Flood%20Fill%20Algorithm)
