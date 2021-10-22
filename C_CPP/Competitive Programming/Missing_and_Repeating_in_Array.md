@@ -29,6 +29,8 @@ Here we have 3 as repeating number and 5 as missing number.
 #include <bits/std++.h>
 using namespace std;
 
+// Here we made a function 'gtw' to take inputs.
+
 void gtw(int arr[], int n, int* a, int* b)
 {
 int xor1;
@@ -38,6 +40,8 @@ int xor1;
     int i;
     *a = 0;
     *b = 0;
+
+// Storing the 0th position value of array in 'xor1'.
 
     xor1 = arr[0];
 
@@ -77,15 +81,22 @@ int n = sizeof(arr) / sizeof(arr[0]);
 }
 ```
 
-**Input** /
+**Input**
 
-7 /
-{ 1, 3, 4, 5, 5, 6, 2 } /
-**Output** /
+```
+7
+{ 1, 3, 4, 5, 5, 6, 2 }
+```
 
+**Output**
+
+```
 {5, 7}
+```
 
-### COMPLEXITY
+**COMPLEXITY**
 
+```
 **Time Complexity** - O(n)
 **Space complexity** - O(n)
+```
