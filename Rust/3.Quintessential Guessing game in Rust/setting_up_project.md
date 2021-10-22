@@ -12,3 +12,21 @@ cd guessing_game
 - This create a code template for you to start with .
 - **The cargo.toml** file is important and we will writing the code in the **src/main.rs** rust file 
 
+### Contents of main.rs : 
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
+### Contents of Cargo.toml :
+```toml
+[package]
+name = "guessing_game"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# you can add your dependencies implicitly here or use "cargo install" , we will discuss it later 
+```
