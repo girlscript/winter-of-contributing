@@ -116,7 +116,7 @@ fn main() {
  
 ### That is the end of the game and to run the game use : 
 
-```rust
+```bash
 cargo run 
 ```
 
