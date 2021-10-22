@@ -6,8 +6,8 @@ There are several reasons for using the multifile programs like:
 
 ## Class Libraries
 
-As we all know that Libraries provide readymade functions to use for a variety of fields. Since C++ is a organized about classes rather than functions, libraries for C++ 
-programs consists of classes. So, it's clear that class library is much better than funcction library. Classes encapsulates both data and functions, they are more close 
+As we all know that Libraries provide inbuilt functions to use for a variety of fields. Since C++ is a organized about classes rather than functions, libraries for C++ 
+programs consists of classes. So, it's clear that class library is much better than function library. Classes encapsulates both data and functions, they are more close 
 to model objects in real life, the interface between the class libraries and the application that makes use of it can be much cleaner than that of function library.
 A class library takes a greater portion of programming burden. Also as more class libraries are created, the chances of finding one that solves your particular 
 programming problems continues to increase.
