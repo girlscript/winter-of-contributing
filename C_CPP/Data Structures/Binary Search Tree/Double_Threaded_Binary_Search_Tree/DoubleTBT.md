@@ -38,7 +38,7 @@ Although adding right and left threads increases complexity, the double-threaded
 
 ## **Implementation of double threaded binary search tree for inorder and preorder traversal-**
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
