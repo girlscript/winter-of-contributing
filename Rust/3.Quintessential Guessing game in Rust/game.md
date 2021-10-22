@@ -73,9 +73,11 @@ fn main() {
 
 
 ```
- - `println!()` for asking users input 
- -  `guess` is use to store the used input and as you notice it has the `mut` keyword , this means that the variable can be overwritten . `mut` is short for mutable and is a central to Rust's ownership model . **No need to worry about it now** 🍦 .
+   - `println!()` for asking users input 
+   -  `guess` is use to store the used input and as you notice it has the `mut` keyword , this means that the variable can be overwritten . `mut` is short for mutable and is a central to Rust's ownership model . **No need to worry about it now** 🍦 .
  
- - `String::new()` is one of numerous ways of using string , here the `new()` signifies a heap allocated string 
- - The last part is used to take the input from `stdin` and `expect` is there to handle error cases if and when they occur
+   - `String::new()` is one of numerous ways of using string , here the `new()` signifies a heap allocated string 
+   - The last part is used to take the input from `stdin` and `expect` is there to handle error cases if and when they occur .
+ 
+ 
  
