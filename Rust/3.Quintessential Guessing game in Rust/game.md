@@ -40,3 +40,17 @@ fn main() {
     }
 } 
  ```
+- So this is lot to take in but I am sure you must be getting a feel of it .
+- Let's discuss **the imports i.e. the use** statements :
+
+  ```rust
+  use rand::Rng;
+  use std::cmp::Ordering; 
+  use std::io;
+  ```
+  
+  - The `std::io` is for handling input/output streams , equivalent to the **<iostream.h>** from C++ land .
+  - The `std::cmp::Ordering` is for ordering and we are using it here for comparing the values and check for a match [**Ordering is an enum**].
+  - `rand:Rng` is used to generate random numbers in a range , and this comes from the crate rand . So our **Cargo.toml** will have `rand = "0.9.0"` under dependencies 
+  
+## 🦀🦀 Main Function 🦀🦀 :
