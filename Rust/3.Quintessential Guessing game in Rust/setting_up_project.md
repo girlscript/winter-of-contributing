@@ -30,3 +30,4 @@ edition = "2018"
 [dependencies]
 # you can add your dependencies implicitly here or use "cargo install" , we will discuss it later 
 ```
+[Let's move on to the code](./game.md)
