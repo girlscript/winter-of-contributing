@@ -49,9 +49,11 @@ fn main() {
   use std::io;
   ```
   
-  - The `std::io` is for handling input/output streams , equivalent to the **<iostream.h>** from C++ land .
+  - The `std::io` is for handling input/output streams , equivalent to the **<iostream.h>** headerfile from C++ land .
   - The `std::cmp::Ordering` is for ordering and we are using it here for comparing the values and check for a match [**Ordering is an enum**].
   - `rand:Rng` is used to generate random numbers in a range , and this comes from the crate rand . 
   - So our **Cargo.toml** will have `rand = "0.9.0"` under dependencies 
   
 ## Main Function 🦀🦀 :
+
+- We are using `let` to define `secret_number` , generating a **random number that the user has to guess** between 1 and 100 .
