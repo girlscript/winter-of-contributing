@@ -1,7 +1,6 @@
-
 # RECURSIVE BFS IN C++
 
-**Defination Of BFS**
+**Definition Of BFS**
 
 Breadth-First Search is an algorithm to traverse tree/graph. It starts from the root node and explores the neighbouring nodes before moving to the next level neighbour nodes.
 
@@ -22,13 +21,11 @@ There are basically 2 ways by which we can implement BFS algorithm
 
 ## RECURSIVE METHOD OF BFS
 
-We can implement BFS in recursive way, Here is the C++ code for recursive code--
+We can implement BFS in recursive way, Here is the C++ code for recursive code--  
 
+### C++ Code  
 
-### C++ Code
-
-
-```bash
+```cpp
 #include <iostream>
 #include <queue>
 #include <vector>
@@ -127,9 +124,9 @@ int main()
 }
 
 ```
-### Output
+### Output  
 
-```bash
+```cpp
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
 
 ```
