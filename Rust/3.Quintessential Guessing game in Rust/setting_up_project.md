@@ -6,6 +6,7 @@
 
 ```bash
 cargo new guessing_game
+cd guessing_game
 ```
 
 - This create a code template for you to start with .
