@@ -26,8 +26,8 @@
 
 ### 3. Quintessential Guessing game in Rust :
 
-- [Setting up a **new project**]()
-- [The **game** itself]()
+- [Setting up a **new project**](3.Quintessential Guessing game in Rust/setting_up_project.md)
+- [The **game** itself](3.Quintessential Guessing game in Rust/game.md)
 
 ### 4.  Common programming concepts in Rust :
 
