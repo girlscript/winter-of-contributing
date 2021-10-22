@@ -137,6 +137,7 @@ Components
 ### Week-9 
 - Testing 
 - Jest 
+- React Icons
 - React Testing Library 
  
  
