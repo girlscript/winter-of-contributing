@@ -1,7 +1,6 @@
 # MERGE SORT
-- MERGE SORT: Merge sort is one of the widely accepted sorting algorithm. It is based on Divide and Conquer algorithm. In this type of algorithm we build a heap and sort with comparisons.</br>
-
--  Merge Sort is accomplished by Dividing the array into two halves, and then again for the two halves until we get unit, and finally merging the two sorted halves. Merging is done ithe help of a Merge function
+- **MERGE SORT**: Merge sort is one of the widely accepted sorting algorithm. It is based on Divide and Conquer algorithm. In this type of algorithm we build a heap and sort with comparisons.  
+-  Merge Sort is accomplished by dividing the array into two halves, and then again for the two halves until we get unit, and finally merging the two sorted halves. Merging is done ithe help of a Merge function.
  
 #### DIVIDE AND CONQUER
 <p align="center"><img src="https://user-images.githubusercontent.com/71391631/136206260-1ea70f02-e77d-4a50-9a3e-7ad779d27a68.png"  width="400"/></p>
@@ -25,7 +24,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/71391631/136206563-b55e8ecd-3017-4aa9-8fb6-d7646e0a4a9b.png"  width="400"/></p>
 
 ## CODE FOR MERGE SORT IN C++
-```
+```CPP
 #include <iostream>
 using namespace std;
 void merge(int a[],int l,int mid,int r){
