@@ -42,56 +42,9 @@ Let us first create a simple TextView where we can show a particular post from t
 
 We need to send out network requests to an API. For this we need the Retrofit Builder class and specify the base URL for the service. For demo purposes, we will use a  [Fake JSON API server](https://jsonplaceholder.typicode.com/posts) as our URL.
 
-```JAVA
-public class MainActivity extends AppCompatActivity {
-
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        TextView textview=findViewById(R.id.textView);
-        Retrofit retrofit=new Retrofit.Builder()
-                .baseUrl("https://jsonplaceholder.typicode.com/")
-                .addConverterFactory(GsonConverterFactory.create())  //Convert the data to Gson
-                .build();
-        Service api=retrofit.create(Service.class);
-        api.getPosts().enqueue(new Callback<List<PostModel>>() {
-            @Override
-            public void onResponse(Call<List<PostModel>> call, Response<List<PostModel>> response) {
-                List<PostModel> list=response.body(); //PostModel is a POJO class (described below)
-                String str1="Found "+list.size()+" posts in the Web. \n\n";
-                PostModel post=list.get(5); //to get the 6th post in the list.
-                String str2="User ID: " + post.userId
-                        +"\nPost ID: "+ post.id
-                        +"\nTitle: "+ post.title
-                        +"\nBody: "+ post.body;
-                textview.setText(str1+str2);
-
-            }
-
-            @Override
-            public void onFailure(Call<List<PostModel>> call, Throwable t) {
-                Toast.makeText(MainActivity.this,t.getLocalizedMessage(),Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
-}
-```
-
-As mentioned in the code, we need an Interface ```Service``` and a POJO Class ```PostModel```.
-
-```java
-import retrofit2.Call;
-import retrofit2.http.GET;
-import retrofit2.http.Query;
-
-public interface Service {
-
-
-    @GET("/posts") //Add extension as per the data needed by the App
-    Call<List<PostModel>> getPosts();
-}
-```
+<p align="center">
+    <img src="https://user-images.githubusercontent.com/79036525/138501461-b5246bd5-2d47-469c-b242-7628d9290e15.png">
+ </p>
 
 ```PostModel:- (POJO Class)```
 
@@ -115,6 +68,59 @@ public class PostModel {
 }
 
 ```
+
+```Service Interface```
+
+```java
+import retrofit2.Call;
+import retrofit2.http.GET;
+import retrofit2.http.Query;
+
+public interface Service {
+
+
+    @GET("/posts") //Add extension as per the data needed by the App
+    Call<List<PostModel>> getPosts();
+}
+```
+
+```JAVA
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        TextView textview=findViewById(R.id.textView);
+        Retrofit retrofit=new Retrofit.Builder()
+                .baseUrl("https://jsonplaceholder.typicode.com/")
+                .addConverterFactory(GsonConverterFactory.create())  //Convert the data to Gson
+                .build();
+        Service api=retrofit.create(Service.class); //Service Interface
+        api.getPosts().enqueue(new Callback<List<PostModel>>() {
+            @Override
+            public void onResponse(Call<List<PostModel>> call, Response<List<PostModel>> response) {
+                List<PostModel> list=response.body(); //PostModel-a POJO class 
+                String str1="Found "+list.size()+" posts in the Web. \n\n";
+                PostModel post=list.get(5); //to get the 6th post in the list.
+                String str2="User ID: " + post.userId
+                        +"\nPost ID: "+ post.id
+                        +"\nTitle: "+ post.title
+                        +"\nBody: "+ post.body;
+                textview.setText(str1+str2);
+
+            }
+
+            @Override
+            public void onFailure(Call<List<PostModel>> call, Throwable t) {
+                Toast.makeText(MainActivity.this,t.getLocalizedMessage(),Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+}
+```
+
+
 
 The output of the above code implemented is as follows:
 
