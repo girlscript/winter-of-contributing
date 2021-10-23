@@ -5,10 +5,8 @@ The JavaScript provides static methods that belong to the class instead of an in
  
 ```javascript
  <script>
-	class Test  
-	{  
-	  static display()  
-	  {  
+	class Test {  
+	  static display() {  
 	    return "static method is invoked"  
 	  }  
 	}  
