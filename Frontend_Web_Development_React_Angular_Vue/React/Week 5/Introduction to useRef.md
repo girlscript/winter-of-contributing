@@ -12,7 +12,7 @@ useRef() is a built-in React hook that accepts one argument as the initial value
 
 Example 1: Use of useRef while filling a form
 
-```
+```javascript
 import { useRef } from "react";
 const App = () => {
   const emailInputRef = useRef();
@@ -27,7 +27,7 @@ const App = () => {
   };
 
   return (
-    <div >
+    <div>
       <h1>Using useRef in a Form</h1>
 
       <form onSubmit={submitHandler}>
@@ -71,7 +71,7 @@ This code would render the following output:
 
 Example 2: Implementing a StopWatch using useRef
 
-```
+```javascript
 import { useRef, useState, useEffect } from "react";
 const App = () => {
   const timerIdRef = useRef(0);
