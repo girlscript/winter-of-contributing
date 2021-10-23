@@ -1,5 +1,7 @@
 # Reasons for Multifile Programs
 
+A large C++ program should be split/divided into multiple files, which makes each file small enough to edit, modify, print efficiently.
+
 There are several reasons for using the multifile programs like:
 - Class Libraries
 - Organization and Conceptualization
