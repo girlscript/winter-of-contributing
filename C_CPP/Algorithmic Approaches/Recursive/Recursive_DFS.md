@@ -17,7 +17,7 @@ return(x*b);
 
 In the statement b=factorial(a); the function factorial calls itself.
 
-## DSF
+## DFS
 
 The DFS (depth-first search) or DFT (depth-first traverse) algorithm is used to traverse or search data structures such as graphs. Before retracing, the algorithm starts at the root node and investigates each branch as far as possible. So the basic idea is to start at the root or any arbitrary node and mark it, then advance to the next unmarked node and repeat until there are no more unmarked nodes. Then go back and check for any more unmarked nodes to cross. Finally, print the path's nodes.
 	
