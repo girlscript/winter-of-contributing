@@ -12,7 +12,7 @@ As we all know that Libraries provide inbuilt functions to use for a variety of 
 programs consists of classes. So, it's clear that class library is much better than function library. Classes encapsulates both data and functions, they are more close 
 to model objects in real life, the interface between the class libraries and the application that makes use of it can be much cleaner than that of function library.
 A class library takes a greater portion of programming burden. Also as more class libraries are created, the chances of finding one that solves your particular 
-programming problems continues to increase.
+programming problems continues to increase. Programmers have to combine only these class libraries along with adding their own functionality to achieve desired objectives.
 
 A class library includes mainly 2 components:
 - Interface
@@ -29,6 +29,15 @@ and call on member functions from the objects. This declarations are called _int
 
 The innermost works of the member functions of the various classes doesn't need to be known by the programmer. Member functions except for inline functions are distributed 
 in object form as .OBJ files or as library .LIB files.
+
+#### Example:
+
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/76544476/138542872-4d47fab0-e6bc-4faf-8e6c-f8fe44869c29.png" width="450" height="600">  <br>
+  
+ [Image Source](https://classes.mst.edu/compsci1570/multiplefiles.htm) 
+  
+</div>
 
 ## Organization and Conceptualization
 
