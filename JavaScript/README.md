@@ -38,6 +38,7 @@
 - [Destructuring, Rest Parameters, and Spread Syntax](Topics/9.Destructuring_Rest_Parameters_And_Spread_Syntax)
 - [Template Strings](Topics/10.Template_Strings)
 - [Scheduling](Topics/11.Scheduling)
+- [Debouncing and Throttling](Topics/11.2.Debouncing_And_Throttling)
 - [Closures](Topics/12.Closures_In_JavaScript)
 - [Regular Expressions](Topics/15.1.Regular_Expressions)
 - [Error-Handling](Topics/15.2.Error_Handling)
@@ -64,11 +65,15 @@
   - [AJAX](Topics/13.AJAX)
 
 ### Flavours
+- [Vanilla and DOM Manipulation](Topics/Flavours/Vanilla_And_Dom_Manipulation)
 - [JSX](Topics/Flavours/JSX)
+- [Deno](Topics/Flavours/Deno)
 
 ### Popular Libraries
 - [jQuery](Topics/External_Libraries/JQuery)
+- [Bootstrap](Topics/External_Libraries/Bootstrap)
 - [Tailwind CSS](Topics/External_Libraries/Tailwind_CSS)
 
 ### JavaScript Frameworks
 - [React](Topics/Frameworks/React)
+- [Vue](Topics/Frameworks/Vue)
