@@ -3,16 +3,6 @@
 ---
 ---
 
-## Brief of Dynamic Programming:
-- This is one of the *optimization algorithm*.
-- This uses *brute force approach*, it means this algorithm checks for all the possible solutions which will be feasible and then choose one among these as a optimized one but in a manner such that it takes less time comparatively while using simply brute force.
-- In this algorithm, we divide the given problem into various sub-problems and our optimal solution for given problems depends on the optimal solution of sub-problems.
-- We can say, in this algorithm, the *sub-problems* are *overlapping*.
-
----
-
-**Now we can look into one among few problems and how we use DP while solving those problem.**
-
 ##  Traveling Salesman Problem(TSP)
 
 It is also known as **Traveling Salesperson Problem**.
@@ -191,6 +181,3 @@ para2 **-->** second parameter which indicates the set of remaining nodes **/** 
 *And,* the **Sequence** of *cities* to *visit* is **:** *1* **-->** *2* **-->** *4* **-->** *3* **-->** *1*.
 
 This is how we solve any **Traveling Salesman Problem** using **Dynamic Programming method.**
-
-
-
