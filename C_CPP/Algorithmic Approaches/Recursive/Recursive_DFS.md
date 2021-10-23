@@ -3,7 +3,7 @@
 The C/C++ language allows a programmer to write subroutines and functions that call themselves. These routines are called recursive. We can also say the process of defining something in terms of itself is recursive.
 
 For example:
-```
+```cpp
 int factorial(int x)
 {
 int a,b;
