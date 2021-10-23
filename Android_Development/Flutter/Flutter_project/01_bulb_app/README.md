@@ -26,7 +26,7 @@ And that's the basic working of this app.<br>
 * LIB : <br> This folder mainly contains 2 dart files in it, one is the main.dart file and the other is bulb_on.dart file.<br>
          Both of the files contain the main code for turing on and of the bulb.<br>
            
-* PUBSPEC.YAML : <br>Here, in this file, we added the depencies in assets and google fonts because we've used certain images in our app and also different font, for the betterment of the UI.<br><br> And here are the dependencies for the same: <br>
+* PUBSPEC.YAML : <br>Here, in this file, we added the dependencies in assets and google fonts because we've used certain images in our app and also different font, for the betterment of the UI.<br><br> And here are the dependencies for the same: <br>
  <br>
 
  
@@ -61,10 +61,10 @@ uses-material-design: true
  - Then comes MaterialApp, which is basically used for styling or for the theme of the app, its main use is to configure the top-level Navigator to search for routes.<br>
  - We gave the name of the app as, Build App in the section of 'title'
  - Under the theme data, we used primaryswatch which is a material color and is assigned with the color blue.<br>
- - Then, we made a class, named as, 'OnBulb()', which will be used to define the funstion inside it to make the bulb glow, or n simple words, it'll be used to pick up an image which consist the glowing bulb image.<br>
+ - Then, we made a class, named as, 'OnBulb()', which will be used to define the function inside it to make the bulb glow, or in simple words, it'll be used to pick up an image which consist the glowing bulb image.<br>
  - Now the OnBulb() class extends the statefull widgets, statefull widget is used when we need to change some part of the UI dynamically during runtime.<br>
  - Under that class, we created a scaffold, which is used to provide many widgets or we can say APIs like Drawer, SnackBar, BottomNavigationBar, FloatingActionButton, AppBar etc., and here we used or created an AppBar, in which we defined with the title text to turn on the bulb, we gave its color as grey and positioned it in center with the google font nunito in white color.<br>
- - Under the body, GestureDetector, we created container to add up the path of image of bulb, which will fetch up thepath and show on the screen and it is positioned in the center with defined height and width.<br>
+ - Under the body, GestureDetector, we created container to add up the path of image of bulb, which will fetch up the path and show on the screen and it is positioned in the center with defined height and width.<br>
  - Inside the body, we've used the Navigator function which will change/replace the image on tapping screen, and it'll navigate to the other class, which is defined for off bulb.<br>
  
  ```
@@ -122,7 +122,7 @@ class _MainPage2State extends State<OnBulb> {
  
   ### MAIN.DART
  
- Here, everything is just same as the above for on_bulb.dart code, just with a little difference of class and the path of the other image, here another class is defined, which has been named as 'OffBulb()' which will, while tapping the screen, will navigate to the other screen .
+ Here, everything is same as above for on_bulb.dart code, just with a little difference of class and the path of the other image, here another class is defined, which has been named as 'OffBulb()' which will, while tapping the screen, will navigate to the other screen .
  ```
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
