@@ -9,4 +9,3 @@
 - [School Management System](School_Management_System.md)
 - [Number Theory](numbertheory.md)
 - [Matrix Exponentiation in c++](Matrix_exponentiation.md)
-- [Patterns_in_C++](Patterns_in_CPP.md)
