@@ -9,6 +9,8 @@ Double threaded binary search tree is a binary search tree in which every node h
 
 Double Threaded Binary Search Tree is one of the most used types of Advanced data structures used in many real-time applications like places where there are insertion and traversal of all elements of the search tree. 
 
+![image](https://user-images.githubusercontent.com/75716335/138551219-a303bcaf-b793-4d96-9f33-5ff53f698d0a.png)
+
 
 ## **Advantages of using double threaded binary tree-**
 ---
