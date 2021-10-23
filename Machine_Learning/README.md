@@ -6,7 +6,7 @@
 ************************************************************
 
 ## Roadmap for GWoC '21
-### :yellow_circle: *Week 1 [Statistics for Machine Learning]* :
+### :yellow_circle: *[Week 1 [Statistics for Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning)* :
    - **1.1. Variables, Range, Population Distribution, Sample Distribution**   
    - **1.2. PDFs, CDFs**
    - **1.3. Central Limit Theorem**
@@ -21,7 +21,7 @@
    - **1.12. Confusion Matrix**
    - **1.13. Types of distribution**
 
-### :yellow_circle: *Week 2 [Supervised Machine Learning (Classic Algorithms)]* :
+### :yellow_circle: *[Week 2 [Supervised Machine Learning (Classic Algorithms)]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Supervised_Machine_Learning)* :
    - **2.1. What is Learning? Why Machine Learning works?**
    - **2.2. Contrast between Regression and Classification**
    - **2.3. Numpy Cheatsheet: Most Useful Functions and Methods**
@@ -43,7 +43,7 @@
    - **2.19. Gradient Descent Algorithms**
    - **2.20. Implement Gradient Descent on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
 
-### 🟡 *Week 3 [Unsupervised Machine Learning]* :
+### 🟡 *[Week 3 [Unsupervised Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning)* :
    - **3.1. What is Clustering? Validate its necessity using real-world applications.**
    - **3.2. k-means Clustering.**
    - **3.3. k-medoids.**
@@ -57,7 +57,7 @@
    - **3.11. Implement k-means without using any standard ML library like scikit-learn or more. ⭐**
    - **3.12. Implement k-medoids without using any standard ML library like scikit-learn or more. ⭐**
 
-### 🟡 *Week 4 [Reinforcement Learning]* :
+### 🟡 *[Week 4 [Reinforcement Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Reinforcement_Learning)* :
    - **4.1. Introduction to RL: Definition and Types.**
    - **4.2. Contrast in Supervised, Unsupervised and Reinforcement Learning.**
    - **4.3. SARSA.**
@@ -69,7 +69,7 @@
    - **4.9. Practical Applications.**
    - **4.10. Challenges and Future Scope.**
 
-### 🟡 *Week 5 [Feature Engineering & Performance Metrices]* :
+### 🟡 *[Week 5 [Feature Engineering & Performance Metrices]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Feature_Engineering_and_Performance_Metrices)* :
    - **5.1. Normalization.**
    - **5.2. Standardization.**
    - **5.3. Handling Outliers.**
