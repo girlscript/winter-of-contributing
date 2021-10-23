@@ -3,7 +3,7 @@
 ## What is useContext?
 usecontent() provides an easy way to pass data throughout our app without manually passing props down the tree. It is used to share data that can be managed as global data, e.g. global state, theme, services, user settings and more.
 
-## Why use useContent?
+## Why use useContext?
 
 * useContext allow your components to access some global data and re-render when that global data is changed.
 * It solves the props drilling problem, i.e., when you have to pass down props from parents to children.
