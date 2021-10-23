@@ -118,11 +118,16 @@ All the dependencies and required libraries are included in the file <code>requi
 </p>
 --------------
 
+## 🏁 **CONCLUSION**
+* Backpropagation is the essence of neural network training. It is the method of fine-tuning the weights of a neural network based on the error rate obtained in the previous epoch (i.e., iteration). Proper tuning of the weights allows you to reduce error rates and make the model reliable by increasing its generalization.
+
+* Backpropagation in neural network is a short form for “backward propagation of errors.” It is a standard method of training artificial neural networks. This method helps calculate the gradient of a loss function with respect to all the weights in the network.
+
 ## ✒️**CREDITS**
 * https://www.edureka.co/blog/backpropagation/
 * https://en.wikipedia.org/wiki/Feedforward_neural_network
 * https://www.mygreatlearning.com/blog/backpropagation-algorithm/
-
+* https://www.guru99.com/backpropogation-neural-network.html
 ### 😎 **CREATOR**: https://github.com/theshredbox
 
 
