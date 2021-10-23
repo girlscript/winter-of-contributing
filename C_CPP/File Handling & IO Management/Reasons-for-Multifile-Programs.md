@@ -33,7 +33,7 @@ in object form as .OBJ files or as library .LIB files.
 #### Example:
 
 <div align="center">
- <img src="https://user-images.githubusercontent.com/76544476/138542872-4d47fab0-e6bc-4faf-8e6c-f8fe44869c29.png" width="450" height="600">  <br>
+ <img src="https://user-images.githubusercontent.com/76544476/138542872-4d47fab0-e6bc-4faf-8e6c-f8fe44869c29.png" width="415" height="700">  <br>
   
  [Image Source](https://classes.mst.edu/compsci1570/multiplefiles.htm) 
   
