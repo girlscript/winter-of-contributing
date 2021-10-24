@@ -1,4 +1,12 @@
-# <ins>**Logarithmic Loss**</ins>
+## Title : Logarithmic Loss
+🔴 **Type of Content** : Documentation
+
+🔴 **Domain** : Machine Learning
+
+🔴 **Module** : Name of the module for every week
+<br><br>
+
+## **Defination**
 Log Loss is the most important classification metric based on probabilities. It’s hard to interpret raw log-loss values, but log-loss is still a good metric for comparing models. For any given problem, a lower log loss value means better predictions.
 <br>
 Mathematical interpretation:
@@ -73,4 +81,12 @@ The log-loss measure considers confidence of the prediction when assessing how t
 - In simple words, log loss measures the UNCERTAINTY of the probabilities of your model by comparing them to the true labels. Let us look closely at its formula and see how it measures the UNCERTAINTY
 - Log Loss is hard to interpret. A Log Loss may be good in a multiclass problem, but very bad in a binary biased case.
 - While creating a statistical model, it should accomplish the baseline log-loss score depending on the given dataset. If it does not achieve the log score, the trained statistical model is inaccurate and not helpful. In that case, you should use a better model to find the log loss of a probability.
+<br><br>
 
+## **References**
+- https://datascience.eu/computer-programming/log-loss/
+- https://pandio.com/blog/what-is-log-loss-in-machine-learning/
+- https://towardsdatascience.com/intuition-behind-log-loss-score-4e0c9979680a
+<br><br>
+
+### GirlScript Winter of Contributions 2021
