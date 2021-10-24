@@ -20,13 +20,13 @@ The Structural Directives are written in the html tag elements
 
  2. *ngFor
  *ngFor is used to loop through the dynamic lists in the DOM. Simply, it is used to build data presentation lists and tables in HTML DOM.
- ![](https://i.imgur.com/m21wgre.jpeg)
+ <br>![](https://i.imgur.com/m21wgre.jpeg)</br>
 
  3. *ngIf-else
    The ngIf directive removes or recreates a portion of the DOM tree based on an {expression}. If the expression assigned to *ngIf evaluates to a false value then the element is removed from the DOM, otherwise a clone of the element is reinserted into the DOM.
    
    
-   ![](https://i.imgur.com/IuU3PkJ.jpeg)
+  <br> ![](https://i.imgur.com/IuU3PkJ.jpeg)</br>
 
 
 
