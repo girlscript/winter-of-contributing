@@ -1,5 +1,5 @@
 <div align = 'center'>
-  <h1> 🟣 Dimensionality Reduction & Neural Networks 🟣 </h1></div>
+  <h1> 🟣 Chapter 6 - Dimensionality Reduction & Neural Networks 🟣 </h1></div>
   
 *************************************************************************
 
