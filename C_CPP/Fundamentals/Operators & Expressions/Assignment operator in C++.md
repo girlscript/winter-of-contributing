@@ -1,6 +1,6 @@
-# Assignment Operators in c++
+Assignment Operators in c++
 
-## There are mainly six type of operators in C++ which includes following:
+ There are mainly six type of operators in C++ which includes following:
 
 1.Arithemetic Operators\
 2.Assignment  Operators\
