@@ -16,7 +16,7 @@ There are three types of directives:
 The Structural Directives are written in the html tag elements
  1.*ngIf
   It conditionally includes a template based on the value of an expression coerced to Boolean.
- ![](https://imgur.com/5vX0Hma)
+ ![](https://i.imgur.com/5vX0Hma.jpeg)
 
  2. ***ngFor**
  *ngFor is used to loop through the dynamic lists in the DOM. Simply, it is used to build data presentation lists and tables in HTML DOM.
@@ -24,7 +24,7 @@ The Structural Directives are written in the html tag elements
 
  3. ***ngIf-else**
    The ngIf directive removes or recreates a portion of the DOM tree based on an {expression}. If the expression assigned to *ngIf evaluates to a false value then the element is removed from the DOM, otherwise a clone of the element is reinserted into the DOM.
-   ![](https://imgur.com/IuU3PkJ)
+   ![](https://i.imgur.com/IuU3PkJ.jpeg)
 
 # How to test Structural Directive?
 
@@ -32,9 +32,9 @@ Step 1. Configure **Test Bed**
         The first parameter for MockBuilder is the directive itself, and if it has dependencies we should pass its module as the second parameter
         ![](https://imgur.com/iKW2hrs)
 Step-2.We need to render a custom template.
-![](https://imgur.com/S6av5cP)
+![](https://i.imgur.com/S6av5cP.jpeg)
 Step-3.With help of MockRender we can access the element of the directive via fixture.point to cause events on, and we can change the value via fixture.componentInstance.value. 
-![](https://imgur.com/S6av5cP)      
+![](https://i.imgur.com/S6av5cP.jpeg)      
 
 # Shorthand for Structural Directive
 
