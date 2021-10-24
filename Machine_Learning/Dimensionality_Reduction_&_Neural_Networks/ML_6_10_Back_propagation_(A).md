@@ -1,11 +1,17 @@
-## ML 6.10 Back-propagation (A)
+## Title : Back-propagation
+🔴 **Type of Content** : Audio
 
-This audio provides a brief introduction to Back-propagation.
+🔴 **Domain** : Machine Learning
 
-Outline:
+🔴 **Module** : Dimensionality Reduction & Neural Networks
 
-- Definition of Backpropagation
-- Computing Gradients
-- Advantages and Disadvantages
+****************************************************************************************************************************************************
 
-[![ML 6.10 Back-propagation (A)](https://github.com/riyasai22/winter-of-contributing/blob/60c2be43fb82155e56d7da69c2fcc70d4ccb4f2e/Machine_Learning/Dimensionality_Reduction_&_Neural_Networks/Assets/BACKPROPOGATION.png)](https://drive.google.com/file/d/1aZLxhnEaRcnB0C-SBmluqcNnfFwlxC9O/view?usp=sharing "Backpropagation")
+### Click here for the audio file,
+
+
+[![ML 6.10 Back-propagation(A)](https://user-images.githubusercontent.com/80235375/138598916-7471cba0-5ba3-4ac8-af28-c4236b19d64f.png)](https://drive.google.com/file/d/1aZLxhnEaRcnB0C-SBmluqcNnfFwlxC9O/view?usp=sharing "Backpropagation")
+
+****************************************************************************************************************************************************
+
+### GirlScript Winter of Contributions 2021
