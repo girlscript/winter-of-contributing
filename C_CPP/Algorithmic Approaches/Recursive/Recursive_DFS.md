@@ -1,5 +1,5 @@
-# Recursive 
- 
+# Recursive  
+
 The C/C++ language allows a programmer to write subroutines and functions that call themselves. These routines are called recursive. We can also say the process of defining something in terms of itself is recursive.
 
 For example:
@@ -31,21 +31,15 @@ Hence the algorithm for DFS:-
 // C++ program to print DFT traversal from
 //a specific vertex in a graph
 #include <bits/stdc++.h>
-
 using namespace std;
-
 class Graph
-
 {
-
   public:
-
     map < int, bool > visited;
   map < int, list < int >> adj;
 
   // addEdge function to add an edge to graph
   void addEdge(int v, int w);
-
   void DFS(int v);
 };
 
