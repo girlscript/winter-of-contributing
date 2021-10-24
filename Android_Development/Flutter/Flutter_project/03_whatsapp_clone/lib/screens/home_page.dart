@@ -28,8 +28,8 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     double width = MediaQuery.of(context).size.width;
-    double yourWidth = width  / 5;
-    Widget customSearchBar = Text(widget.title);
+    double tabWidth = width  / 5;
+    Widget customSearchBar = Text("WhatsApp");//Text(widget.title);
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
@@ -75,17 +75,17 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 Container(
-                    width: yourWidth,
+                    width: tabWidth,
                     height: 50,
                     alignment: Alignment.center,
                     child: Text("CHATS")),
                 Container(
-                    width: yourWidth,
+                    width: tabWidth,
                     height: 50,
                     alignment: Alignment.center,
                     child: Text("STATUS")),
                 Container(
-                    width: yourWidth,
+                    width: tabWidth,
                     height: 50,
                     alignment: Alignment.center,
                     child: Text("CALL"))
