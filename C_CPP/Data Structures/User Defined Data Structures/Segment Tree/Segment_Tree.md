@@ -17,5 +17,16 @@ Terminology:
 - It follows a Divide and Conquer mechanism very similar to binary trees.
 - We recursively construct the values of the two child vertices.
 - Then merge the computed values of these children to form the segment tree.
+- Updating an element in the segment tree is very similar to binary search.
+  - We find out mid, and compare our index with mid and two conditions arise
+  - Idx <= mid, then we recursively call the left child of the tree’s node.
+  - Idx > mid, then we recursively call the right child of the tree’s node.
 
 ## Sample Test case:
+
+Let us take an example of returning and updating the sum of the subarray a[i to j] of an array of size n.
+Question: Take an input array arr from the user.
+Query: Output the sum from i=1 to i=5.
+Update: Update the element at ith index. Example: put arr[4] = 13.
+
+<img src="./st.svg" alt="segment tree">
