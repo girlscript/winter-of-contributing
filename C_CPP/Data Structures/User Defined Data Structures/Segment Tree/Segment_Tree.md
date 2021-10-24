@@ -29,4 +29,6 @@ Question: Take an input array arr from the user.
 Query: Output the sum from i=1 to i=5.
 Update: Update the element at ith index. Example: put arr[4] = 13.
 
-<img src="./st.svg" alt="segment tree">
+
+![image](./st.svg)
+
