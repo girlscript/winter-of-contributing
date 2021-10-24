@@ -30,5 +30,6 @@ Query: Output the sum from i=1 to i=5.
 Update: Update the element at ith index. Example: put arr[4] = 13.
 
 
-![image](./st.svg)
+![Segment Trees](https://user-images.githubusercontent.com/72400676/138603900-12964778-942f-4597-8e0a-4fbec3cdbb4a.png)
+
 
