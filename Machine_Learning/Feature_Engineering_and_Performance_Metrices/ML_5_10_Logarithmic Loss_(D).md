@@ -3,7 +3,7 @@
 
 🔴 **Domain** : Machine Learning
 
-🔴 **Module** : Name of the module for every week
+🔴 **Module** : Feature Engineering & Performance Metrices
 <br><br>
 
 ## **Defination**
