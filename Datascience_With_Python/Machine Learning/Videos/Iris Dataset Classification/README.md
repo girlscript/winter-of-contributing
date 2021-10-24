@@ -51,7 +51,7 @@ df.head()
 
 
 
-<img src=''>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Iris%20Dataset%20Classification/Images/head.PNG'>
 
 
 ### Printing the last five rows of dataset
@@ -62,14 +62,14 @@ tail() method is used to display last five rows
 df.tail()
 ```
 
-<img src=''>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Iris%20Dataset%20Classification/Images/tail.PNG'>
 
 
 ### info()
 
 info() display concise summary of the dataset
 
-<img src=''>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Iris%20Dataset%20Classification/Images/info.PNG'>
 
 ---
 
@@ -77,7 +77,7 @@ info() display concise summary of the dataset
 
 ### describe()
 describe() is used to view some basic statistical details like percentile, mean, std etc. of a data frame or a series of numeric values
-<img src=''>
+<img src='https://github.com/ayushijindal/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Iris%20Dataset%20Classification/Images/describe.PNG'>
 
 ---
 
