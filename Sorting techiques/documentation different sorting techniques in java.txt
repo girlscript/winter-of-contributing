@@ -1,0 +1,498 @@
+#IFFERENT SORTING TECHNIQUES IN JAVA#
+---------------------------------------
+
+1. **SELECTION SORT**
+   In selection sort algorithm, we search for the lowest element and arrange it to the proper location. We swap the current element with the next lowest number.
+EXAMPLE:-
+
+    Given  arr[] = 25 35 45 12 65 10  
+  
+// Find the minimum element in arr[0...5] and place it at beginning.  
+  
+10 25 35 45 12 65   
+  
+// Find the minimum element in arr[1...5] and place it at beginning of arr[1...5]  
+  
+10 12 25 35 45 65   
+  
+// Find the minimum element in arr[2...5] and place it at beginning of arr[2...5]  
+No, you can see that the array is already sorted.   
+  
+10 12 25 35 45 65  
+ 
+Time Complexity:-
+----------------
+Best: ?(n^2)
+Average: ?(n^2)
+Worst: O(n^2)
+
+     **CODE**
+==>
+  public class SelectionSortExample {  
+    public static void selectionSort(int[] arr){  
+        for (int i = 0; i < arr.length - 1; i++)  
+        {  
+            int index = i;  
+            for (int j = i+1; j < arr.length; j++){  
+                if (arr[j] < arr[index]){  
+                    index = j;//searching for lowest index  
+                }  
+            }  
+            int smallerNumber = arr[index];   
+            arr[index] = arr[i];  
+            arr[i] = smallerNumber;  
+        }  
+    }  
+       
+    public static void main(String a[]){  
+        int[] arr1 = {9,14,3,2,43,11,58,22};  
+        System.out.println("Before Selection Sort");  
+        for(int i:arr1){  
+            System.out.print(i+" ");  
+        }  
+        System.out.println();  
+          
+        selectionSort(arr1);//sorting array using selection sort  
+         
+        System.out.println("After Selection Sort");  
+        for(int i:arr1){  
+            System.out.print(i+" ");  
+        }  
+    }  
+}  
+
+2. #BUBBLE SORT#
+  ##CODE##
+==>
+import java.util.Scanner;
+class BubbleSort {
+  public static void main(String []args) {
+    int n, c, d, swap;
+    Scanner in = new Scanner(System.in);
+ 
+    System.out.println("Input number of integers to sort");
+    n = in.nextInt();
+ 
+    int array[] = new int[n];
+ 
+    System.out.println("Enter " + n + " integers");
+ 
+    for (c = 0; c < n; c++)
+      array[c] = in.nextInt();
+   
+    for (c = 0; c < ( n - 1 ); c++) {
+ for (d = 0; d < n - c - 1; d++) {
+        if (array[d] > array[d+1]) /* For descending order use < */
+        {
+          swap       = array[d];
+          array[d]   = array[d+1];
+          array[d+1] = swap;
+        }
+      }
+    }
+ 
+    System.out.println("Sorted list of numbers:");
+ 
+    for (c = 0; c < n; c++)
+      System.out.println(array[c]);
+  }
+}
+
+EXPLANATION:-
+      Given array 11 3 6 15 
+
+Pass 1:
+11 3 6 15 (check 3>11 ,no swap 3 and 11 )
+
+
+3 11 6 15  (check 6>11 np swap)
+ 3 6 11 15 (check 15>11 yes do not swap continue)
+
+Pass 2:
+3 6 11 15(check 3<6 yes donot swap)
+3 6 11 15 (check 6<11 yes do not swap)
+
+Pass 3:
+3 6 11 15
+(check 3<6 yes hence array sorted)
+
+3 #INSERTION SORT#
+
+Explanation
+The idea behind Insertion Sort is dividing the array into the sorted and unsorted subarrays.
+
+The sorted part is of length 1 at the beginning and is corresponding to the first (left-most) element in the array. We iterate through the array and during each iteration, we expand the sorted portion of the array by one element.
+
+Upon expanding, we place the new element into its proper place within the sorted subarray. We do this by shifting all of the elements to the right until we encounter the first element we don't have to shift.
+
+For example, if in the following array the bolded part is sorted in an ascending order, the following happens:
+
+3 5 7 8 4 2 1 9 6: We take 4 and remember that that's what we need to insert. Since 8 > 4, we shift.
+
+3 5 7 x 8 2 1 9 6: Where the value of x is not of crucial importance, since it will be overwritten immediately (either by 4 if it's its appropriate place or by 7 if we shift). Since 7 > 4, we shift.
+
+3 5 x 7 8 2 1 9 6
+
+3 x 5 7 8 2 1 9 6
+
+3 4 5 7 8 2 1 9 6
+
+After this process, the sorted portion was expanded by one element, we now have five rather than four elements. Each iteration does this and by the end we'll have the whole array sorted.
+
+Implementation:-
+--------------
+
+public static void insertionSort(int[] array) {
+    for (int i = 1; i < array.length; i++) {
+        int current = array[i];
+        int j = i - 1;
+        while(j >= 0 && current < array[j]) {
+            array[j+1] = array[j];
+            j--;
+        }
+        // at this point we've exited, so j is either -1
+        // or it's at the first element where current >= a[j]
+        array[j+1] = current;
+    }
+}
+
+3. #MERGE SORT#
+------------
+
+##EXPLANATION##
+      Explanation
+Merge Sort uses recursion to solve the problem of sorting more efficiently than algorithms previously presented, and in particular it uses a divide and conquer approach.
+
+Using both of these concepts, we'll break the whole array down into two subarrays and then:
+
+Sort the left half of the array (recursively)
+Sort the right half of the array (recursively)
+Merge the solutions
+Merge Sort IllustratioN
+
+In our example, we have the array 3 5 3 2 1, so we divide it into 3 5 4 and 2 1. To sort them, we further divide them into their components. Once we've reached the bottom, we start merging up and sorting them as we go.
+
+          **CODE**
+
+class Merge {  
+  
+/* Function to merge the subarrays of a[] */  
+void merge(int a[], int beg, int mid, int end)    
+{    
+    int i, j, k;  
+    int n1 = mid - beg + 1;    
+    int n2 = end - mid;    
+      
+   /* temporary Arrays */  
+        int LeftArray[] = new int[n1];  
+        int RightArray[] = new int[n2];  
+      
+    /* copy data to temp arrays */  
+    for (i = 0; i < n1; i++)    
+    LeftArray[i] = a[beg + i];    
+    for (j = 0; j < n2; j++)    
+    RightArray[j] = a[mid + 1 + j];    
+      
+    i = 0; /* initial index of first sub-array */  
+    j = 0; /* initial index of second sub-array */   
+    k = beg;  /* initial index of merged sub-array */  
+      
+    while (i < n1 && j < n2)    
+    {    
+        if(LeftArray[i] <= RightArray[j])    
+        {    
+            a[k] = LeftArray[i];    
+            i++;    
+        }    
+        else    
+        {    
+            a[k] = RightArray[j];    
+            j++;    
+        }    
+        k++;    
+    }    
+    while (i<n1)    
+    {    
+        a[k] = LeftArray[i];    
+        i++;    
+        k++;    
+    }    
+      
+    while (j<n2)    
+    {    
+        a[k] = RightArray[j];    
+        j++;    
+        k++;    
+    }    
+}    
+  
+void mergeSort(int a[], int beg, int end)  
+{  
+    if (beg < end)   
+    {  
+        int mid = (beg + end) / 2;  
+        mergeSort(a, beg, mid);  
+        mergeSort(a, mid + 1, end);  
+        merge(a, beg, mid, end);  
+    }  
+}  
+  
+/* Function to print the array */  
+void printArray(int a[], int n)  
+{  
+    int i;  
+    for (i = 0; i < n; i++)  
+        System.out.print(a[i] + " ");  
+}  
+  
+public static void main(String args[])  
+{  
+    int a[] = { 11, 30, 24, 7, 31, 16, 39, 41 };  
+    int n = a.length;  
+    Merge m1 = new Merge();  
+    System.out.println("\nBefore sorting array elements are - ");  
+    m1.printArray(a, n);  
+    m1.mergeSort(a, 0, n - 1);  
+    System.out.println("\nAfter sorting array elements are - ");  
+    m1.printArray(a, n);  
+    System.out.println("");  
+}  
+  
+  }  
+
+4. #HEAP SORT#
+
+Explanation
+To properly understand why Heapsort works, you must first understand the structure it's based on - the heap. We'll be talking in terms of a binary heap specifically, but you can generalize most of this to other heap structures as well.
+
+A heap is a tree that satisfies the heap property, which is that for each node, all of its children are in a given relation to it. Additionally, a heap must be almost complete. An almost complete binary tree of depth d has a subtree of depth d-1 with the same root that is complete, and in which each node with a left descendent has a complete left subtree. In other words, when adding a node, we always go for the leftmost position in the highest incomplete level.
+
+If the heap is a max-heap, then all of the children are smaller than the parent, and if it's a min-heap all of them are larger.
+
+In other words, as you move down the tree, you get to smaller and smaller numbers (min-heap) or greater and greater numbers (max-heap).
+                         8
+                    _____|_______
+                    |           |
+                    5           6
+                 ___|__      ___|___
+                 |     |     |      |
+                 3     1     2      4
+Here's an example of a max-heap:
+
+Max Heap
+We can represent this max-heap in memory as an array in the following way:
+
+  8 5 6 3 1 2 4
+You can envision it as reading from the graph level by level, left to right. What we have achieved by this is that if we take the kth element in the array, its children's positions are 2*k+1 and 2*k+2 (assuming the indexing starts at 0). You can check this for yourself.
+
+Conversely, for the kth element the parent's position is always (k-1)/2.
+
+Knowing this, you can easily "max-heapify" any given array. For each element, check if any of its children are smaller than it. If they are, swap one of them with the parent, and recursively repeat this step with the parent (because the new large element might still be bigger than its other child).
+
+Leaves have no children, so they're trivially max-heaps of their own:
+
+  6 1 8 3 5 2 4: Both children are smaller than the parent, so everything stays the same.
+
+  6 1 8 3 5 2 4: Because 5 > 1, we swap them. We recursively heapify for 5 now.
+
+  6 5 8 3 1 2 4: Both of the children are smaller, so nothing happens.
+
+  6 5 8 3 1 2 4: Because 8 > 6, we swap them.
+
+  8 5 6 3 1 2 4: We got the heap pictured above!
+
+Once we've learned to heapify an array the rest is pretty simple. We swap the root of the heap with the end of the array, and shorten the array by one.
+
+We heapify the shortened array again, and repeat the process:
+
+  8 5 6 3 1 2 4
+
+  4 5 6 3 1 2 8: swapped
+
+  6 5 4 3 1 2 8: heapified
+
+  2 5 4 3 1 6 8: swapped
+
+  5 2 4 2 1 6 8: heapified
+
+  1 2 4 2 5 6 8: swapped
+
+And so on, I'm sure you can see the pattern emerging.
+
+**CODE**
+ 
+
+public class HeapSort
+{
+public void sort(int arr[])
+{
+int n = arr.length;
+for (int x = n / 2 - 1; x >= 0; x--)
+heapify(arr, n, x);
+for (int x=n-1; x>=0; x--)
+int tmp = arr[0];
+arr[0] = arr[x];
+arr[x] = tmp;
+heapify(arr, x, 0);
+}
+}
+void heapify(int arr[], int n, int x)
+{
+int largest = x;
+int L = 2*x + 1;
+int r = 2*x + 2;
+if (L < n && arr[L] > arr[largest])
+largest = L;
+if (r < n && arr[r] > arr[largest])
+largest = r;
+if (largest != x)
+{
+int swap = arr[x];
+arr[x] = arr[largest];
+arr[largest] = swap;
+heapify(arr, n, largest);
+}
+}
+static void printArray(int arr[])
+{
+int n = arr.length;
+for (int x=0; x<n; ++x)
+System.out.print(arr[x]+" ");
+System.out.println();
+}
+public static void main(String args[])
+{
+int arr[] = {6,1,8,3,5,2,4};
+int n = arr.length;
+System.out.println("Before Sorting:");
+printArray(arr);
+HeapSort ob = new HeapSort();
+ob.sort(arr);
+System.out.println("After Heap Sorting:");
+printArray(arr);
+}
+}
+the total complexity of Heapsort O(nlog n).
+
+5. #QUICKSORT#
+ ##EXPLANATION##
+Quicksort is another Divide and Conquer algorithm. It picks one element of an array as the pivot and sorts all of the other elements around it, for example smaller elements to the left, and larger to the right.
+
+This guarantees that the pivot is in its proper place after the process. Then the algorithm recursively does the same for the left and right portions of the array.
+
+Implementation
+---------------
+static int partition(int[] array, int begin, int end) {
+    int pivot = end;
+
+    int counter = begin;
+    for (int i = begin; i < end; i++) {
+        if (array[i] < array[pivot]) {
+            int temp = array[counter];
+            array[counter] = array[i];
+            array[i] = temp;
+            counter++;
+        }
+    }
+    int temp = array[pivot];
+    array[pivot] = array[counter];
+    array[counter] = temp;
+
+    return counter;
+}
+
+public static void quickSort(int[] array, int begin, int end) {
+    if (end <= begin) return;
+    int pivot = partition(array, begin, end);
+    quickSort(array, begin, pivot-1);
+    quickSort(array, pivot+1, end);
+}
+
+Time Complexity
+The time complexity of Quicksort can be expressed with the following equation:
+
+T(n)=T(k)+T(n−k−1)+O(n)
+The worst case scenario is when the biggest or smallest element is always picked for pivot. The equation would then look like this:
+
+T(n)=T(0)+T(n−1)+O(n)=T(n−1)+O(n)
+This turns out to be O(n^2).
+
+This may sound bad, as we have already learned multiple algorithms which run in O(nlog n) time as their worst case, but Quicksort is actually very widely used.
+
+This is because it has a really good average runtime, also bounded by O(nlog n), and is very efficient for a large portion of possible inputs.
+
+One of the reasons it is preferred to Merge Sort is that it doesn't take any extra space, all of the sorting is done in-place, and there's no expensive allocation and deallocation calls.
+
+6.#MERGESORT#
+
+**CODE**
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+public class MergeSort {
+static void merge(int[] array,int lowval,int midval,int highval){
+int x, y ,k;
+int[] c= new int[highval-lowval+1];
+k = 0;
+x=lowval;
+y=midval+1;
+while(x<=midval && y<=highval){
+if(array[x]<=array[y]){
+c[k++] = array[x++];
+}
+else{
+c[k++] = array[y++];
+}
+}
+while(x<=midval){
+c[k++] = array[x++];
+}
+while(y<=highval){
+c[k++] = array[y++];
+}
+k=0;
+for(x = lowval; x<=highval; x++){
+array[x] = c[k++];
+}
+}
+static void mergeSort(int[] array,int lowval, int highval){
+if(highval-lowval+1>1){
+int midval = (lowval+highval)/2;
+mergeSort(array,lowval,midval);
+mergeSort(array,midval+1,highval);
+merge(array,lowval,midval,highval);
+}
+}
+public static void main(String[] args) {
+BufferedReader r = new BufferedReader(new InputStreamReader(System.in));
+int size;
+System.out.println("Enter the array");
+try {
+size = Integer.parseInt(r.readLine());
+} catch (Exception e) {
+System.out.println("Please Enter valid Input");
+return;
+}
+int[] array = new int[size];
+System.out.println("Enter array elements");
+int x;
+for (x = 0; x < array.length; x++) {
+try {
+array[x] = Integer.parseInt(r.readLine());
+} catch (Exception e) {
+System.out.println("An error Occurred");
+}
+}
+System.out.println("After Sorting");
+System.out.println(Arrays.toString(array));
+mergeSort(array,0,array.length-1);
+System.out.println("Before Merge Sorting");
+System.out.println(Arrays.toString(array));
+}
+}
+
+In this program, we have asked the user to enter input. The output will be in sorted order based on the user’s input.
+
+
+
