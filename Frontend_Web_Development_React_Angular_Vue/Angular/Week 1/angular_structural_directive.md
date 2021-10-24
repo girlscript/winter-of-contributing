@@ -20,7 +20,7 @@ The Structural Directives are written in the html tag elements
 
  2. *ngFor
  *ngFor is used to loop through the dynamic lists in the DOM. Simply, it is used to build data presentation lists and tables in HTML DOM.
- ![](https://imgur.com/m21wgre)
+ ![](https://i.imgur.com/m21wgre.jpeg)
 
  3. *ngIf-else
    The ngIf directive removes or recreates a portion of the DOM tree based on an {expression}. If the expression assigned to *ngIf evaluates to a false value then the element is removed from the DOM, otherwise a clone of the element is reinserted into the DOM.
@@ -35,7 +35,7 @@ The Structural Directives are written in the html tag elements
 Step 1. Configure **Test Bed**
         The first parameter for MockBuilder is the directive itself, and if it has dependencies we should pass its module as the second parameter
         
-        ![](https://imgur.com/iKW2hrs)
+        ![](https://i.imgur.com/iKW2hrs.jpeg)
         
 Step-2.We need to render a custom template.
 
