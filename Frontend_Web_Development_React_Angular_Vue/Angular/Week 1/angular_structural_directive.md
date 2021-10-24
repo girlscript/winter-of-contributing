@@ -32,8 +32,8 @@ The Structural Directives are written in the html tag elements
 
 # How to test Structural Directive?
 
-Step 1. Configure **Test Bed**
-        The first parameter for MockBuilder is the directive itself, and if it has dependencies we should pass its module as the second parameter
+Step 1. Configure Test Bed
+  The first parameter for MockBuilder is the directive itself, and if it has dependencies we should pass its module as the second parameter
         
         ![](https://i.imgur.com/iKW2hrs.jpeg)
         
