@@ -68,7 +68,7 @@ function ListOfNames() {
 ```
 The Output of above code will be :-
 
-![The Output of above code](assets\CustomHooksImg-1.png "The Output of above code")
+![The Output of above code](./assets/CustomHooksImg-1.png "The Output of above code")
 
 The above code works but if we want to repeat this task multiple times we will have to copy and paste multiple times. Now to avoid lets see how to Create Custom Hooks.
 
