@@ -1,46 +1,54 @@
  # <p align="center" fontize=40px; >Arrays in Javascript</p>
 ## What is Arrays?
-Array is a single variable that is used to store different elements. Unlike most languages where array is a reference to the multiple variable, in JavaScript array is a single variable that stores multiple elements.The Array object lets you store multiple values in a single variable. It stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.\
+Array is a single variable that is used to store different elements. Unlike most languages where array is a reference to the multiple variable, in JavaScript array is a single variable that stores multiple elements.The Array object lets you store multiple values in a single variable. It stores a fixed-size sequential collection of elements of the same type. An array is used to store a collection of data, but it is often more useful to think of an array as a collection of variables of the same type.Arrays are commonly used in computer programs to organize data so that a related set of values can be easily sorted or searched.
+
 **Example of Arrays**\
-cars is a variable where can store mutliple value as you can see below Saab,Vaolv,BMW.<br>
+cars is a variable where can store mutliple value as you can see below Saab,Vaolv,BMW.
+```
 const cars = [
   "Saab",
   "Volvo",
   "BMW"
 ];
-\
+```
 **Using new Keyword**\
-cars is a variable where can store mutliple value as you can see below Saab,Vaolv,BMW.\
+cars is a variable where can store mutliple value as you can see below Saab,Vaolv,BMW.
+```
 const cars = new Array("Saab", "Volvo", "BMW");
-
+```
 ## Accessing Array Elements
-Array index starts with 0 . [0] is the first element. [1] is the second element.\
-const cars = ["Saab", "Volvo", "BMW"];\
+Array index starts with 0 . [0] is the first element. [1] is the second element.
+```const cars = ["Saab", "Volvo", "BMW"];
 let x = cars[0];
 console.log(x);
-
+```
 ## Changing an Array Element
-const cars = ["Saab", "Volvo", "BMW"];\
-cars[0] = "Opel";\
+```const cars = ["Saab", "Volvo", "BMW"];
+cars[0] = "Opel";
 console.log(cars[0]);
-
+```
 ## Access the Full Array
-The full array can be accessed by referring to the array name:\
-const cars = ["Saab", "Volvo", "BMW"];\
+The full array can be accessed by referring to the array name:
+```
+const cars = ["Saab", "Volvo", "BMW"];
 document.getElementById("demo").innerHTML = cars;
+```
 
 ## Using Arrays are Objects
 Arrays are a special type of objects. The typeof operator in JavaScript returns "object" for arrays.
 But, JavaScript arrays are best described as arrays.
 Arrays use numbers to access its "elements". In this example, person[0] returns John:\
-**Array ::**\
-const person = ["John", "Doe", 46];\
-document.getElementById("demo").innerHTML = person[0];\
-
+**Array ::**
+```
+const person = ["John", "Doe", 46];
+document.getElementById("demo").innerHTML = person[0];
+```
 **Objects ::**\
-Objects use names to access its "members". In this example, person.firstName returns John:\
-const person = {firstName:"John", lastName:"Doe", age:46};\
+Objects use names to access its "members". In this example, person.firstName returns John:
+```
+const person = {firstName:"John", lastName:"Doe", age:46};
 document.getElementById("demo").innerHTML = person.firstName;
+```
 
 ## Array Properties and Methods
 The real strength of JavaScript arrays are the built-in array properties and methods.
@@ -58,23 +66,27 @@ The real strength of JavaScript arrays are the built-in array properties and met
 - slice()      :: method slices out a piece of an array into a new array.
 
 ## Looping Array Elements
-The safest way to loop through an array, is using a for loop:\
-const fruits = ["Banana", "Orange", "Apple", "Mango"];\
-let fLen = fruits.length;\
-for (let i = 0; i < fLen; i++) {\
-  fruits[i] ;\
+The safest way to loop through an array, is using a for loop:
+```
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fLen = fruits.length;
+for (let i = 0; i < fLen; i++) {
+  fruits[i] ;
 }
+```
 
 ## What Associative Arrays?
 Many programming languages support arrays with named indexes.
 Arrays with named indexes are called associative arrays (or hashes).
 JavaScript does not support arrays with named indexes.
-In JavaScript, arrays always use numbered indexes.  \
-const person = [];\
-person[0] = "John";\
-person[1] = "Doe";\
-person[2] = 46; \
-document.getElementById("demo").innerHTML =person[0] + " " + person.length);\
+In JavaScript, arrays always use numbered indexes.  
+```
+const person = [];
+person[0] = "John";
+person[1] = "Doe";
+person[2] = 46; 
+document.getElementById("demo").innerHTML =person[0] + " " + person.length);
+```
 If you use named indexes, JavaScript will redefine the array to an object.
 After that, some array methods and properties will produce incorrect results.
  
@@ -87,16 +99,22 @@ You should use arrays when you want the element names to be numbers.
 
 ## How to Recognize an Array?
 **How do I know if a variable is an array?**\
-The problem is that the JavaScript operator typeof returns "object":\
-const fruits = ["Banana", "Orange", "Apple"];\
-typeof fruits;  \
+The problem is that the JavaScript operator typeof returns "object":
+```
+const fruits = ["Banana", "Orange", "Apple"];
+typeof fruits;  
+```
 The typeof operator returns object because a JavaScript array is an object.
 - **Solution 1:**\
-To solve this problem ECMAScript 5 defines a new method Array.isArray():\
-Array.isArray(fruits);\
+To solve this problem ECMAScript 5 defines a new method Array.isArray():
+```
+Array.isArray(fruits);
 return true;
+```
 - **Solution 2:**\
-The instanceof operator returns true if an object is created by a given constructor:\
-const fruits = ["Banana", "Orange", "Apple"];\
-fruits instanceof Array; \
+The instanceof operator returns true if an object is created by a given constructor:
+```
+const fruits = ["Banana", "Orange", "Apple"];
+fruits instanceof Array; 
 return true;
+```
