@@ -3,11 +3,11 @@
 
 | Sl. No. | Topics | Audio | Documentation |  Video |
 | :-: |:-: |:-: |:-: |:-: |
-| 6.1 | **Singular Value Decomposition** | - | - | - |
+| 6.1 | **Singular Value Decomposition** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/ML_6_1_Singular_Value_Decomposition_(A).md) | - | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/ML_6_1_Singular_Value_Decomposition_(V).md) |
 | 6.2 | **Principle Component Analysis** | - | - | - |
 | 6.3 | **Self Organizing Maps** | - | - | - | 
-| 6.4 | **Perceptron** | - | - | - | 
-| 6.5 | **Multilayered Perceptron** | - | - | - | 
+| 6.4 | **Perceptron** | - | - | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/ML_6_4_Perceptron_(V).md) | 
+| 6.5 | **Multilayered Perceptron** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/ML_6_5_Multilayered_Perceptron_(A).md) | - | - | 
 | 6.6 | **Feedforward Neural Networks** | - | - | - |
 | 6.7 | **Gradient (Vanilla) Descent** | - | - | - | 
 | 6.8 | **Stochastic and Minibatch Gradient Descent** | - | - | - |
