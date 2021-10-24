@@ -14,11 +14,13 @@
   
 ## INFORMATION ABOUT DATASET
 
-To share my understanding of the concept and techniques I know, I have used Iris dataset which will help to make you understand the concept of different Machine Learning algorithm using different approaches.
+* To share my understanding of the concept and techniques I know, I have used Iris dataset which will help to make you understand the concept of different Machine Learning algorithm using different approaches.
 
 * The dataset consist four independent variables and one dependent variable:
-1. Features: sepal_length, sepal_width, petal_length, petal_width
-2. Label: Species
+
+   * Features: sepal_length, sepal_width, petal_length, petal_width
+
+   * Labels: Species
 
 ## DESCRIPTION
 The dataset consist of labeled data to develop a model we need to used supervised and unsupervised Machine Learning Algorithm technique.
