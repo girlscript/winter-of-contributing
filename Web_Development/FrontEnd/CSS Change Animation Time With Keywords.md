@@ -18,7 +18,6 @@ There are some  predefined keywords available for animation speed. For example :
 
 ### CODE
 
-![1634407390835 1](https://user-images.githubusercontent.com/54473091/137597694-ca4e4606-b3fa-4470-b445-a1363deafdc2.jpg)
 ```
 
 <style>
@@ -64,7 +63,7 @@ There are some  predefined keywords available for animation speed. For example :
 ```
 
 ### OUTPUT
-    below video shows the change in animation time using the keyword.
+    below gif shows the change in animation time using the keyword.
   
   ![image](https://user-images.githubusercontent.com/54473091/137640119-1303a942-1e64-4bd7-8e53-7701ec18b182.gif)
    
