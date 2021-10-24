@@ -1,6 +1,6 @@
 ## Introduction to Monotonic Functions:
 
-    Functions are known as monotonic if they are either increasing or decreasing in their entire domain->
+    Functions are known as monotonic if they are either increasing or decreasing in their entire domain :=>
     
     • increasing if x1 <x2 implies f(x1)≤f(x2)
     • decreasing if x1 <x2 implies f(x1)≥f(x2),
