@@ -105,7 +105,8 @@
 *N.B.: Upcoming roadmap will be published as the program goes! and ⭐ marked issues are having extra points on successful completion.*
 
 ***************************************************************
-### Supervisors of Machine Learning
+<div align = 'center'>
+ <h3> 📌 Supervisors of Machine Learning </h3>
 
 <table>
   <tr>
@@ -118,6 +119,9 @@
 <td align="center"><a href="https://github.com/kshitijshrivastava1903"><img src="https://avatars.githubusercontent.com/u/62825399?v=4" width="80px;" alt=""/><br /><sub><b>Kshitij S (B6)</b></sub></a></td>           
 </tr>
    </table>
+</div>
+
+*******************************************************************
 
 
 ### Happy Contributions!
