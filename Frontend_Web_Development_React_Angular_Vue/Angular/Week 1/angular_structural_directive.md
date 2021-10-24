@@ -16,7 +16,7 @@ There are three types of directives:
 The Structural Directives are written in the html tag elements
  1.*ngIf
   It conditionally includes a template based on the value of an expression coerced to Boolean.
- ![](https://i.imgur.com/5vX0Hma.jpeg)
+ <br>![](https://i.imgur.com/5vX0Hma.jpeg)</br>
 
  2. *ngFor
  *ngFor is used to loop through the dynamic lists in the DOM. Simply, it is used to build data presentation lists and tables in HTML DOM.
@@ -32,10 +32,9 @@ The Structural Directives are written in the html tag elements
 
 # How to test Structural Directive?
 
-Step 1. Configure Test Bed
-  The first parameter for MockBuilder is the directive itself, and if it has dependencies we should pass its module as the second parameter
+Step 1. Configure Test Bed -The first parameter for MockBuilder is the directive itself, and if it has dependencies we should pass its module as the second parameter
         
-        ![](https://i.imgur.com/iKW2hrs.jpeg)
+![](https://i.imgur.com/iKW2hrs.jpeg)
         
 Step-2.We need to render a custom template.
 
