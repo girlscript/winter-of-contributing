@@ -1,5 +1,5 @@
 # What is NPM
-NPM, or 'Node Package Manager' is a huge repository of libraries, packags and modules that can be used with your JavaScript applications.  
+NPM, or **'Node Package Manager'** is a huge repository of libraries, packags and modules that can be used with your JavaScript applications.  
 
 NPM is the default package manager for JavaScript runtime environment Node JS. NPM mainly consists of two things - A command line client which is also called as 'NPM' and a huge online database of public/ private packages, referred to as 'NPM Registry.' Online database of packages can be fount at [npmjs.org](https://www.npmjs.com/).
 
@@ -31,7 +31,7 @@ This is helpful when you need to install something that is only beneficial while
 #### Few things to notice:
 1. replace `<package-name>` with name of the package you want to install. NPM will throw an error if no package with that name exists in the repo.
 
-2. You can type `-i` instead of `install` while installing NPM packages.
+2. You can type `i` instead of `install` while installing NPM packages.
 
 3. Similarly, you can use `-g` instead of `--global` as  a shortcut.
 
@@ -49,17 +49,17 @@ npm install <package-name>
 
 ### Installing a Specific Version:
 ```bash
-npm -i <package-name>@<version>
+npm i <package-name>@<version>
 ```
 
 ### Installing with a Specific Tag:
 ```bash
-npm -i <package-name>@<tag>
+npm i <package-name>@<tag>
 ```
 
 ### Installing as a dev-dependency
 ```bash
-npm -i <package-name> --save-dev
+npm i <package-name> --save-dev
 ```
 > You can also use an ally `-D` instead of `--save-dev`
 
