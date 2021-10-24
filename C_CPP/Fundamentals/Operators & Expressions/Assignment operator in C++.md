@@ -2,12 +2,12 @@
 
 ## There are mainly six type of operators in C++ which includes following:
 
-1.Arithemetic Operators
-1.Assignment  Operators
-1.Relational  Operators
-1.Logical     Operators
-1.Bitwise     Operators
-1.Other
+1.Arithemetic Operators\
+2.Assignment  Operators\
+3.Relational  Operators\
+4.Logical     Operators\
+5.Bitwise     Operators\
+6.Other
 
 ### Here we will have brief decription about assignment operator and its use in c++ code.
 Assignment operator is used for assigning values to the variables.
@@ -23,36 +23,36 @@ it will be an error.
 
 ### Different ways in which we can use this operator is shown below:
  
- **code**
- int a =  2;
- a+=3;
+ **code**\
+ int a =  2;\
+ a+=3;\
  cout<<a;
 
  Output: 5 
 
 #### Here a is assigned value 5 as a will become a+3, simplified as a = a+3.
 
-**code**
-int a  = 8;
-a -= 5;
+**code**\
+int a  = 8;\
+a -= 5;\
 cout <<a;
 
 Output : 3
 
 #### Here it is simplified as a = a-5 which gives output as 3.
 
-**code**
-int c = 8;
-c*= 2;
+**code**\
+int c = 8;\
+c*= 2;\
 cout<<c;
 
 Output: 16;
 
 #### Here c will become two times of its original value.
  
- **code**
- int b = 4;
- b/=2;
+ **code**\
+ int b = 4;\
+ b/=2;\
  cout<<b;
 
  Output: 2
