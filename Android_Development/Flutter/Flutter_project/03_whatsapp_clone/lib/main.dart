@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       routes: {
         '/': (context) => const MyHomePage(
-              title: "whatsapp clone",
+              title: "WhatsApp",
             ),
         // other routes here
       },
