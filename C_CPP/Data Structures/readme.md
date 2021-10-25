@@ -25,7 +25,7 @@
 - ## [Standard Template Library](./Standard%20Template%20Library)
   
 - ## [User Defined Data Structures](./UserDefinedDataStructures)
-  - ### [Segment Tree](./UserDefinedDataStructures/SegmentTree)
+  - ### [Segment Tree](./User%20Defined%20Data%20Structures/Segment%20Tree)
   - ### [Fenwick Tree](#)
   - ### [BTree](#)
   - ### [Trie](#)
