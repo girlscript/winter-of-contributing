@@ -24,27 +24,29 @@ Dropping rows containing missing values seemed like the best way to deal with th
 To preprocess your text simply means to bring your text into a form that is predictable and analyzable for your task. First, the year_month column has been spilt and made
 into separate columns (year and month) to make it easier to analyze the data. Multiple steps of preprocessing have been applied on the reviews. Some of which include lowering
 of text, removing punctutation and stopwords, lemmatization, etc. For more on preprocessing of data, [click here](https://github.com/deepeshaburse/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Natural%20Language%20Processing/Tutorials/Text%20Preprocessing).
-#### 4. Data visualization (via graphs and maps)
-#### 5. Word cloud
-#### 6. Label encoding on various columns
-#### 7. Performing sentiment analysis using SentimentIntensityAnalyzer and VADER Polarity
-#### 8. Splitting the data
-#### 9. Using Tf-IDF Vectorizer
-#### 10. Using Decision Tree Classifier
-#### 11. Using Random Forest Classifier
-
-### Models Used:
-#### 1. Decision Tree Classifier: 
+#### 4. Data visualization (via graphs and maps):
+Data visualization has been used to observe the patterns in reviews and ratings. The libraries used for data visualization are seaborn and matplotlib.
+#### 5. Word cloud:
+This is another way to visualize data. In the word clouds in this project, most commonly used words in reviews have been included and the shape of the word cloud is the
+map of the location where the branch is.
+#### 6. Label encoding on various columns:
+Label encoding is used to convert labels to numeric format which makes it machine readable. This was used on columns wherever necessary.
+#### 7. Performing sentiment analysis using SentimentIntensityAnalyzer and VADER Polarity:
+This step was quite straightforward, it just included importing the right packages and functions.
+#### 8. Splitting the data:
+The data is then spilt into training and testing data.
+#### 9. Using Tf-IDF Vectorizer:
+This is used to count the frequency of different words and decide how much weightage should be given to each for analysis.
+#### 10. Using Decision Tree Classifier:
 Decision tree is a type of supervised learning algorithm that can be used for both regression and classification problems. The algorithm uses training data to create rules that can be represented by a tree structure. Decision tree can work with both categorical and numerical data. This is in contrast with other machine learning algorithms that cannot work with categorical data and requires encoding to numeric values.
 
 To read more about decision tree classifiers, [click here](https://machinelearningknowledge.ai/decision-tree-classifier-in-python-sklearn-with-example/).
-
-#### 2. Random Forest Classifier:
+#### 11. Using Random Forest Classifier:
 Random forest is an ensemble machine learning algorithm. Random forest involves constructing a large number of decision trees from bootstrap samples from the training dataset, like bagging.
 
 To read more about random forest classifiers, [click here](https://machinelearningmastery.com/random-forest-ensemble-in-python/).
 
-[Dataset used](https://www.kaggle.com/arushchillar/disneyland-reviews?select=DisneylandReviews.csv)
+[Link to dataset used.](https://www.kaggle.com/arushchillar/disneyland-reviews?select=DisneylandReviews.csv)
 
 ### Conclusion
 
