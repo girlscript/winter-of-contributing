@@ -28,6 +28,8 @@
 
 - [2. Getting started with open source](2.Getting_Started_With_Open_Source/2._GettingStarted_With_Open_Source.md)
 
+- [2.01 Create First Repository](2.Getting_Started_With_Open_Source/2.01_Create_First_repo.md)
+
 - [2.0 Why open source?](2.Getting_Started_With_Open_Source/2.0_Why_Open_Source.md)
 
 - [2.1 Practice Git & Github fundamentals](2.Getting_Started_With_Open_Source/2.1_Practice_Git_and_Github_fundamentals.md)
@@ -251,6 +253,46 @@
 - [6.31 D3](6.Popular_Projects/6.31_D3.js.md)
 
 - [6.32 Flask](6.Popular_Projects/6.32_Flask.md)
+
+- [6.33 Linux Kernel](6.Popular_Projects/6.33_Linux_kernal.md)
+
+- [6.34 GO : Programming Language](6.Popular_Projects/6.34_Go_Programming_Lanuage.md)
+
+- [6.35 VLC Media Player](6.Popular_Projects/6.35_VLC_media_player.md)
+
+- [6.36 Libreoffice](6.Popular_Projects/6.36_LibreOffice.md)
+
+- [6.37 Electron](6.Popular_Projects/6.37_Electron.md)
+
+- [6.38 MongoDB](6.Popular_Projects/6.38_MongoDB.md)
+
+- [6.39 GunJS](6.Popular_Projects/6.39_GunJS.md)
+
+- [6.41 PostCSS](6.Popular_Projects/6.41_PostCSS.md)
+
+- [6.43 Redis](6.Popular_Projects/6.43_Redis.md)
+
+- [6.44 celery](6.Popular_Projects/6.44_celery.md)
+
+- [6.45 Astro](6.Popular_Projects/6.45_astro.md)
+
+- [6.46 GraphQL Engine](6.Popular_Projects/6.46_GraphQLEngine.md)
+
+- [6.48 Nx](6.Popular_Projects/6.48_nx.md)
+
+- [6.49 RxJS](6.Popular_Projects/6.49_RxJS.md)
+
+- [6.50 Django Rest Framework](6.Popular_Projects/6.50_DRF.md)
+
+- [6.51 NodeJS](6.Popular_Projects/6.51_Node.js.md)
+
+- [6.52 Axios](6.Popular_Projects/6.52_Axios.md)
+
+- [6.53 OpenCV](6.Popular_Projects/6.53_OpenCV.md)
+
+- [6.55 Spring](6.Popular_Projects/6.55_Spring.md)
+
+- [6.57 Hibernate](6.Popular_Projects/6.57_Hibernate.md)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
