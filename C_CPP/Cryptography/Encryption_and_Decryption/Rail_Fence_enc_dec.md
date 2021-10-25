@@ -69,59 +69,9 @@ string decrypt(string CipherText){
 // end of decryption function
 ```
 
-### full code:
+### main function:
 ```cpp
-// including header files
-#include<iostream>
-#include<string>
-using namespace std;
-// rail fence technique 
-// return type is string that returns ciphertext and one argument that is plaintext
-string encrypt(string plainText){
-//   d denotes ciphertext
-    string d="";
-//   iterating over the plaintext for taking even indexed values
-    for(int i=0;i<plainText.length();i+=2){
-        d+=plainText[i];
-    }
-//   interating over the plaintext for taking odd indexed values
-    for(int i=1;i<plainText.length();i+=2){
-        d+=plainText[i];
-    }
-//   returning ciphertext
-    return d;
-}
-// end of function
-
-// return type is string that returns plaintext for the argument of ciphertext
-string decrypt(string CipherText){
-//   d stores plaintext
-    string d="";
-//  outputs will vary for even and odd length ciphertext.
-//   firstly considering even length of ciphertext
-    if(CipherText.length()%2==0){
-//       adding the ith and n/2+ith index substring values from ciphertext to d till all the characters are not considered
-        for(int i=0;i<CipherText.length()/2;i++){
-            d+=CipherText[i];
-            d+=CipherText[i+CipherText.length()/2];
-        }
-    }
-//   considering odd length of ciphertext
-    else{
-//       n will keep a count of the length of string d
-        int n=0;
-//       determining the d (plaintext string)
-        for(int i=0;n<CipherText.length();i=(i+CipherText.length()/2+1)%CipherText.length()){
-            d+=CipherText[i];
-            n++;
-        }
-    }
-//   returning plaintext stored in d
-    return d;
-}
-// end of decryption function
-
-// main block
+// main function
 int main(){
 //   text will store the string to be encrypted or decrpted
     string text;
