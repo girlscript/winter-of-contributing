@@ -30,6 +30,23 @@
 
 ![image](https://user-images.githubusercontent.com/79050917/138644505-80e41936-62e9-44f5-a9f1-d228bf6ee7c7.png)
 
+## Uses of ANOVA
+- To test correlation and regression.
+- To study the homogeneity in the case of two-way classification.
+- To test the significance of the multiple correlation coefficient.
+- To test the linearity of regression.
+## Advantages
+- Suitable for multidimensional variables.
+- Analysis of various factors at a time.
+- Can be used in 3 or more than 3 groups
+## Disadvantages
+- It is difficult to analyze ANOVA under strict assumptions regarding the nature of data.
+- It is not so helpful in comparison with the t-test that there is no special interpretation of the significance of two means.
+- The requirement of the post-ANOVA t-test for further testing.
+
+![image](https://user-images.githubusercontent.com/79050917/138661492-d7b56f78-c29b-479a-9d5e-105d5cf7cca0.png)
+
+
 ## KEY TAKEAWAYS
 - Analysis of variance, or ANOVA, is a statistical method that separates observed variance data into different components to use for additional tests.
 - A one-way ANOVA is used for three or more groups of data, to gain information about the relationship between the dependent and independent variables.
