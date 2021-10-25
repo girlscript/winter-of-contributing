@@ -46,7 +46,7 @@ Random forest is an ensemble machine learning algorithm. Random forest involves 
 
 To read more about random forest classifiers, [click here](https://machinelearningmastery.com/random-forest-ensemble-in-python/).
 
-[Link to dataset used.](https://www.kaggle.com/arushchillar/disneyland-reviews?select=DisneylandReviews.csv)
+### [Link to dataset used.](https://www.kaggle.com/arushchillar/disneyland-reviews?select=DisneylandReviews.csv)
 
 ### Conclusion
 
