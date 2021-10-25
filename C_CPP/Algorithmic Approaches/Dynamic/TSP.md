@@ -1,9 +1,4 @@
-# Problem2 which uses Dynamic Programming Algorithm
-
----
----
-
-##  Traveling Salesman Problem(TSP)
+#  Traveling Salesman Problem(TSP)
 
 It is also known as **Traveling Salesperson Problem**.
 
