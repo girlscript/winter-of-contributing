@@ -2,10 +2,9 @@
 
 
 <h1 align="center"> :fleur_de_lis: MACHINE LEARNING :fleur_de_lis: </h1>
+<h2 align="center"> Roadmap for GWoC '21  </h2>
 
 
-
-## Roadmap for GWoC '21
 ### :yellow_circle: *[Week 1 [Statistics for Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning)* :
    - **1.1. Variables, Range, Population Distribution, Sample Distribution**   
    - **1.2. PDFs, CDFs**
