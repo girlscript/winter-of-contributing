@@ -126,7 +126,7 @@ Now , to simplify things, we will proceed with treating the useFetch as a normal
 
 So our Code would be Like :-
 ```javascript
-    import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 
 let useFetch=()=>{
     const [Data, setData] = useState([]);
@@ -192,4 +192,4 @@ Like this, we can call our own hook from wherever we want and get the desired re
 ## And That is how we create a Custom Hook in React.
 
 ---
-### Contributed By - **[Harjas Sodhi](https://www.linkedin.com/in/harjas-sodhi-ab985317a/)**
+### Contributed By - Harjas Sodhi
