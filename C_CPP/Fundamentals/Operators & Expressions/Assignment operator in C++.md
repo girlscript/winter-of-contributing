@@ -59,6 +59,6 @@ Output: 16;
 
 #### Here b is assigned half of its initial value .
 
-[![image](image/screenshot URL)]https://drive.google.com/file/d/14U66W2IhrU5FbnXbAtK7U7L4pu7yRgPg/view?usp=sharing
+(Audio link)]https://drive.google.com/file/d/14U66W2IhrU5FbnXbAtK7U7L4pu7yRgPg/view?usp=sharing
 
    
