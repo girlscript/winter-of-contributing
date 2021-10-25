@@ -4,6 +4,8 @@
 
 The aim of this project is to analyse the reviews given by visitors from different countries of the world using Natural Language Processing (NLP) to understand the sentiment of the reviews and classify them using Sentiment Analysis metrics like Sentiment Polarity and VADER Polarity. This processed data is then fed to different classifier models (DecisionTreeClassifier and RandomForestClassifier) to get trained and predict the sentiment of the test reviews.
 
+---
+
 ### Libraries Used:
 - pandas
 - numpy
@@ -14,6 +16,8 @@ The aim of this project is to analyse the reviews given by visitors from differe
 - scikit-learn
 - string
 - PIL
+
+---
 
 ### Workflow:
 #### 1. Loading the dataset: 
@@ -46,7 +50,11 @@ Random forest is an ensemble machine learning algorithm. Random forest involves 
 
 To read more about random forest classifiers, [click here](https://machinelearningmastery.com/random-forest-ensemble-in-python/).
 
-### [Link to dataset used.](https://www.kaggle.com/arushchillar/disneyland-reviews?select=DisneylandReviews.csv)
+---
+
+[Link to dataset used.](https://www.kaggle.com/arushchillar/disneyland-reviews?select=DisneylandReviews.csv)
+
+---
 
 ### Conclusion
 
