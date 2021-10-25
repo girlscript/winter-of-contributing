@@ -1,9 +1,9 @@
 <h1 align="center">'inline' Functions</h1>
 
-While calling a normal function each time, a substantial amount of time is spent on overheads involved in calling and returning mechanism. Typically, the arguments are pushed on to the stack and when a function is called several registers are saved and later restored when the function returns. The problem is that, the execution of machine instrucitons for these activities takes huge amount of time. Especially, when small funcitons are called, these overheads has to be eliminated.
+While calling a normal function each time, a substantial amount of time is spent on overheads involved in calling and returning mechanism. Typically, the arguments are pushed on to the stack and when a function is called several registers are saved and later restored when the function returns. The problem is that, the execution of machine instructions for these activities takes huge amount of time. Especially, when small functions are called, these overheads has to be eliminated.
 <br />
 <br />
-Hence, to eliminate the cost of calls to small funciton definitions, C++ introduces a new feature called *inline funcitons*. An *inline funciton* is a function that is expanded inline within the main program at the point of invocation when it is invoked. 
+Hence, to eliminate the cost of calls to small function definitions, C++ introduces a new feature called *inline functions*. An *inline function* is a function that is expanded inline within the main program at the point of invocation when it is invoked. 
 <br />
 <br />
 Here's the syntax of *inline function* below:
@@ -49,4 +49,4 @@ int main()
 }
 ```
 <br />
-Though expanding function calls in line can produce faster execution of the code, it can also result in larger code size because of duplication of code. inline functions are not used where functions are called several times, to avoid increase in size of the time. Hence it is best to use inline functions for every small functions.
+Though expanding function calls in line can produce faster execution of the code, it can also result in larger code size because of duplication of code. 'inline' functions are not used where functions are called several times, to avoid increase in size of the time. Hence it is best to use inline functions for every small functions.
