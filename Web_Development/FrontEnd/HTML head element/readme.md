@@ -1,7 +1,7 @@
 # HTML head element
 The < head> element primarily is the container for all the head elements, which provide extra information about the document (metadata), or reference to other resources that are required for the document to display or behave correctly in a web browser.
 
-The HTML <head> element is a container for the following elements: <title>, <style>, < meta>, < link> and <script>.
+The HTML < head> element is a container for the following elements: <title>, <style>, < meta>, < link> and <script>.
 
 ## HTML <title> element
 The <title> element defines the title of the document.
