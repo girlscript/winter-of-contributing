@@ -1,4 +1,4 @@
-# [Video link]() #
+# Dictionary in python: [Video link](https://drive.google.com/file/d/187dqD0MBwXNcdl0nWf9g7qmAUAvx310b/view?usp=sharing) #
 ## Topics covered ##
 1. Definition and properties
 2. Initialization ways
