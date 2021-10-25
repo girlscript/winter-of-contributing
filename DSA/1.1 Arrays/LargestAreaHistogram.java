@@ -81,25 +81,3 @@ public class LargestAreaHistogram {
         System.out.println(ans);
     }
 }
-/*
-
- Stack<Integer> st = new Stack<>();
-        int max =0;
-
-        st.push(-1);
-
-        for(int i=0;i<=heights.length;i++){
-            int val = i==heights.length? 0:heights[i];
-
-            while(st.peek() >=0 && heights[st.peek()] >= val){
-                int h = heights[st.pop()];
-                int start = st.peek();
-                max = Math.max(max, h*(i-start-1));
-            }
-            st.push(i);
-        }
-
-        return max;
-
-
- */
