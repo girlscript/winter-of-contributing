@@ -15,18 +15,23 @@ The aim of this project is to analyse the reviews given by visitors from differe
 - string
 - PIL
 
-### Topics Covered:
-- Loading the dataset
-- Dealing with missing values
-- Pre-processing of data
-- Data visualization (via graphs and maps)
-- Word cloud
-- Label encoding on various columns
-- Performing sentiment analysis using SentimentIntensityAnalyzer and VADER Polarity
-- Splitting the data
-- Using Tf-IDF Vectorizer
-- Using Decision Tree Classifier
-- Using Random Forest Classifier
+### Workflow:
+#### 1. Loading the dataset: 
+The dataset is read using pandas as a dataframe.
+#### 2. Dealing with missing values: 
+Dropping rows containing missing values seemed like the best way to deal with them in this dataset. This was done using a function called dropna.
+#### 3. Pre-processing of data:
+To preprocess your text simply means to bring your text into a form that is predictable and analyzable for your task. First, the year_month column has been spilt and made
+into separate columns (year and month) to make it easier to analyze the data. Multiple steps of preprocessing have been applied on the reviews. Some of which include lowering
+of text, removing punctutation and stopwords, lemmatization, etc. For more on preprocessing of data, [click here](https://github.com/deepeshaburse/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Natural%20Language%20Processing/Tutorials/Text%20Preprocessing).
+#### 4. Data visualization (via graphs and maps)
+#### 5. Word cloud
+#### 6. Label encoding on various columns
+#### 7. Performing sentiment analysis using SentimentIntensityAnalyzer and VADER Polarity
+#### 8. Splitting the data
+#### 9. Using Tf-IDF Vectorizer
+#### 10. Using Decision Tree Classifier
+#### 11. Using Random Forest Classifier
 
 ### Models Used:
 #### 1. Decision Tree Classifier: 
