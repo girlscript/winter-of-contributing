@@ -279,4 +279,7 @@ int main()
 
 **Output:-**  
 
-![DEMO](https://bit.ly/3pxkALx)
+![DEMO]
+
+https://user-images.githubusercontent.com/63858941/138689452-9bb5989d-6ccf-43fe-b049-affd02cf30b7.mp4
+
