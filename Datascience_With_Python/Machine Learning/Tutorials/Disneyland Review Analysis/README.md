@@ -27,7 +27,7 @@ Dropping rows containing missing values seemed like the best way to deal with th
 #### 3. Pre-processing of data:
 To preprocess your text simply means to bring your text into a form that is predictable and analyzable for your task. First, the year_month column has been spilt and made
 into separate columns (year and month) to make it easier to analyze the data. Multiple steps of preprocessing have been applied on the reviews. Some of which include lowering
-of text, removing punctutation and stopwords, lemmatization, etc. For more on preprocessing of data, [click here](https://github.com/deepeshaburse/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Natural%20Language%20Processing/Tutorials/Text%20Preprocessing).
+of text, removing punctutation and stopwords, lemmatization, etc. For more on preprocessing of data, [click here](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Natural%20Language%20Processing/Tutorials/Text%20Preprocessing).
 #### 4. Data visualization (via graphs and maps):
 Data visualization has been used to observe the patterns in reviews and ratings. The libraries used for data visualization are seaborn and matplotlib.
 #### 5. Word cloud:
