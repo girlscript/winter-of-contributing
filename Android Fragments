@@ -1,0 +1,51 @@
+◆ Android Fragments
+ 
+– A Fragment is a piece of an activity which enable more modular activity design. It will not be wrong if we say, a fragment is a kind of sub-activity. 
+– You can also create fragments by extending Fragment class and You can insert a fragment into your activity layout by declaring the fragment in the activity's layout file, as a <fragment> element.
+
+– A fragment has its own layout and its own behaviour with its own life cycle callbacks.
+– You can add or remove fragments in an activity while the activity is running.
+– You can combine multiple fragments in a single activity to build a multi-pane UI.
+– A fragment can be used in multiple activities.
+
+Fragment life cycle is closely related to the life cycle of its host activity which means when the activity is paused, all the fragments available in the activity will also be stopped.
+
+► Fragment Life Cycle
+Android fragments have their own life cycle very similar to an android activity. This section briefs different stages of its life cycle.
+
+Here is the list of methods which you can to override in your fragment class −
+
+1. onAttach() - The fragment instance is associated with an activity instance.The fragment and the activity is not fully initialized. Typically you get in this method a reference to the activity which uses the fragment for further initialization work.
+
+2. onCreate() - The system calls this method when creating the fragment. You should initialize essential components of the fragment that you want to retain when the fragment is paused or stopped, then resumed.
+
+3. onCreateView() - The system calls this callback when it's time for the fragment to draw its user interface for the first time. 
+
+4. onActivityCreated() - The onActivityCreated() is called after the onCreateView() method when the host activity is created. Activity and fragment instance have been created as well as the view hierarchy of the activity. At this point, view can be accessed with the findViewById() method.
+
+5. onStart() - The onStart() method is called once the fragment gets visible.
+
+6. onResume() - Fragment becomes active.
+
+7. onPause() - The system calls this method as the first indication that the user is leaving the fragment. This is usually where you should commit any changes that should be persisted beyond the current user session.
+
+8. onStop() - Fragment going to be stopped by calling onStop()
+
+9. onDestroyView() - Fragment view will destroy after call this method
+
+10. onDestroy()onDestroy() - called to do final clean up of the fragment's state but Not guaranteed to be called by the Android platform.
+
+► How to use Fragments?
+This involves number of simple steps to create Fragments.
+
+Step 1 - First of all decide how many fragments you want to use in an activity. For example let's we want to use two fragments to handle landscape and portrait modes of the device.
+Step 2 - Next based on number of fragments, create classes which will extend the Fragment class. The Fragment class has above mentioned callback functions. You can override any of the functions based on your requirements.
+Step 3 - Corresponding to each fragment, you will need to create layout files in XML file. These files will have layout for the defined fragments.
+Step 4 - Finally modify activity file to define the actual logic of replacing fragments based on your requirement.
+
+► Types of Fragments
+Basically fragments are divided as three stages as shown below.
+
+1. Single frame fragments − Single frame fragments are using for hand hold devices like mobiles, here we can show only one fragment as a view.
+2. List fragments − fragments having special list view is called as list fragment
+3. Fragments transaction − Using with fragment transaction. we can move one fragment to another fragment.
