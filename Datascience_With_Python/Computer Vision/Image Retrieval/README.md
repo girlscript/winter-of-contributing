@@ -25,7 +25,7 @@ Using Convolutional Neural Networks, we have to train our model such that it cla
 I have successfully explained the topics in following manner:-
 
 - Types of Image Retrieval <br>
-- Convolutional Neural Networks & its Types <br>
+- Convolutional Neural Networks<br>
 1.Kernel <br>
 2.Pooling <br>
 3.Fully Connected Layers & Epochs <br>
