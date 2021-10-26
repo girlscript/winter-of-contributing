@@ -119,7 +119,7 @@
 ## Week-7 Tools
  - [Wireshark]
  - [Nmap]
- - [OWASP-ZAP]
+ - [OWASP-ZAP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/ZAP.md)
  - [Nikto]
  - [Burp Suite]
  - [Metasploit]
