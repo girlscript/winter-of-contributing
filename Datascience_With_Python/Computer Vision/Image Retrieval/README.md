@@ -16,6 +16,9 @@ Basically, there are two types of Image Retrieval -
 - Text Based Image Retrieval
 - Content Based Image Retrieval
 
+Also, both Text Based and Content Based Image Retrieval are combined for getting better results while searching or browsing through Internet or whether it is related to Medical Domain. Below is a chart representing use of Image retrieval framework in Medical Domain
+
+![11517_2021_2392_Fig1_HTML](https://user-images.githubusercontent.com/75624735/138880311-399cf12a-b1ec-42ca-bb30-8c3147c93b7a.png)
 
 Using Convolutional Neural Networks, we have to train our model such that it classifies Images correctly on which it is trained. And also classifies all those Images which are not part of training but part of classification output. This is perfect example of Deep Learning and Unsupervised Approach.
 
