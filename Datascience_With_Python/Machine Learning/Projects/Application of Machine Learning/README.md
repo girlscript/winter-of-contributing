@@ -11,15 +11,6 @@ The process of learning begins with observations or data, such as examples, dire
   <img width="350" height="250" src="https://www.thermofisher.com/blog/connectedlab/wp-content/uploads/sites/14/2020/01/istock-962219860-2-scaled.jpg">
   </p>
 
-Some Applications of ML are:
-
-:stars: House Price Prediction using Regression
-
-:stars: Face mask Detection using CNN
-
-:stars: Email spam Detector
-
-:stars: Fingerprint Recognition using YOLOV3.
 
 In this documentation , we are gonna see basic Regression ML model
 
@@ -46,8 +37,24 @@ In this documentation , we are gonna see basic Regression ML model
 
 using this, many ML models can be implemented.
 
+## :nazar_amulet: Applications:
+
+:Stars: Image recognition:
+
+It is one of the most common applications of machine learning. It is used to identify objects, persons, places, digital images, etc. The popular use case of image recognition and face detection is, Automatic friend tagging suggestion.
+
+:stars: Speech Recognition:
+
+While using Google, we get an option of "Search by voice," it comes under speech recognition, and it's a popular application of machine learning.
+Speech recognition is a process of converting voice instructions into text, and it is also known as "Speech to text", or "Computer speech recognition." At present, machine learning algorithms are widely used by various applications of speech recognition. Google assistant, Siri, Cortana, and Alexa are using speech recognition technology to follow the voice instructions.
+
+:stars: Product Recommendation:
+
+Machine learning is widely used by various e-commerce and entertainment companies such as Amazon, Netflix, etc., for product recommendation to the user. Whenever we search for some product on Amazon, then we started getting an advertisement for the same product while internet surfing on the same browser and this is because of machine learning.
+
 ## :nazar_amulet: CONCLUSION:
-Nowadays, Machine Learning (ML) is an exciting major of research in computer science and engineering. Also, it is used in various areas and fields in real-life during these days such as finance, CRM, self-driving cars, business intelligence, and so on. In fact, Machine Learning allows software to become accurate in predicting outcomes.
+Machine learning is quickly growing field in computer science. It has applications in nearly every other field of study and is already being implemented commercially because machine learning can solve problems too difficult or time consuming for humans to solve.
+Nowadays, ML is an exciting major of research in computer science and engineering. Also, it is used in various areas and fields in real-life during these days such as finance, CRM, self-driving cars, business intelligence, and so on. In fact, Machine Learning allows software to become accurate in predicting outcomes.
 
 ## :nazar_amulet: Contributor
 
