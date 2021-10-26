@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
+import 'package:whatsapp_clone/screens/ChatScreen.dart';
+import 'package:whatsapp_clone/screens/StatusScreen.dart';
+import 'package:whatsapp_clone/screens/CallScreen.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key, required this.title}) : super(key: key);
@@ -11,7 +15,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
-
   void _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
@@ -22,9 +25,11 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
     });
   }
-
   @override
   Widget build(BuildContext context) {
+    double width = MediaQuery.of(context).size.width;
+    double tabWidth = width  / 5;
+    Widget customSearchBar = Text("WhatsApp");//Text(widget.title);
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
@@ -32,46 +37,71 @@ class _MyHomePageState extends State<MyHomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
-      appBar: AppBar(
-        // Here we take the value from the MyHomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: Center(
-        // Center is a layout widget. It takes a single child and positions it
-        // in the middle of the parent.
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Invoke "debug painting" (press "p" in the console, choose the
-          // "Toggle Debug Paint" action from the Flutter Inspector in Android
-          // Studio, or the "Toggle Debug Paint" command in Visual Studio Code)
-          // to see the wireframe for each widget.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
+      body: DefaultTabController(
+        length: 4,
+        child: Scaffold(
+          appBar: AppBar(
+            // Here we take the value from the MyHomePage object that was created by
+            // the App.build method, and use it to set our appbar title.
+            title: customSearchBar,
+            actions: [
+              IconButton(
+                  onPressed: (){},
+                  icon: Icon(Icons.search)
+              ),
+              PopupMenuButton(
+                itemBuilder: (BuildContext context) {
+                  return [
+                    PopupMenuItem(child: Text("New Group")),
+                    PopupMenuItem(child: Text("New Broadcast")),
+                    PopupMenuItem(child: Text("Linked Devices")),
+                    PopupMenuItem(child: Text("Starred messages")),
+                    PopupMenuItem(child: Text("Payments")),
+                    PopupMenuItem(child: Text("Settings")),
+                  ];
+                },
+              )
+            ],
+            bottom: TabBar(
+              indicatorSize: TabBarIndicatorSize.label,
+              isScrollable: true,
+              tabs: [
+                Container(
+                  width: 30,
+                  height: 50,
+                  alignment: Alignment.center,
+                  child: Icon(
+                    Icons.camera_alt,
+                  ),
+                ),
+                Container(
+                    width: tabWidth,
+                    height: 50,
+                    alignment: Alignment.center,
+                    child: Text("CHATS")),
+                Container(
+                    width: tabWidth,
+                    height: 50,
+                    alignment: Alignment.center,
+                    child: Text("STATUS")),
+                Container(
+                    width: tabWidth,
+                    height: 50,
+                    alignment: Alignment.center,
+                    child: Text("CALL"))
+              ],
+            )
+          ),
+          body: TabBarView(
+            children: [
+              Text("Camera Screen",textAlign: TextAlign.center,),
+              ChatScreen(),
+              StatusScreen(),
+              CallScreen(),
+            ],
+          )
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
