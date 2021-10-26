@@ -37,7 +37,7 @@ div {
 }
 ```
 
-![toverflow_visible_and_hidden](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_visible_and_hidden.png)
+![overflow_visible_and_hidden](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_visible_and_hidden.png)
 
 ```
 div { 
@@ -56,3 +56,18 @@ div {
    #eee; overflow: hidden; 
 }
 ```
+
+
+## overflow-x and overflow-y
+The overflow-x and overflow-y properties specifies whether to change the overflow of content just horizontally or vertically (or both):
+
+overflow-x specifies what to do with the left/right edges of the content.
+
+overflow-y specifies what to do with the top/bottom edges of the content.
+
+![overflow-x](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-x.png)
+
+![overflow-y](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-x.png)
+
+
+
