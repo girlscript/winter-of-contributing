@@ -35,4 +35,5 @@ __Installation:__ `pip install nltk`
 - WordCloud: Many times you might have seen a cloud filled with lots of words in different sizes, which represent the frequency or the importance of each word. This is called the Tag Cloud or WordCloud. Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites.<br>
 __Installation:__ `pip install wordcloud`
 
+![eichstaedt-johannes-PNAS-Facebook-depression](https://user-images.githubusercontent.com/75624735/138894038-326c99d8-cc2f-4088-80e9-6e2026d53d1a.png)
 
