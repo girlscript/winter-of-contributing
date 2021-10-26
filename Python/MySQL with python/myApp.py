@@ -15,9 +15,6 @@ def browseing():
    
 root = Tk()
 t1 = StringVar()
-
-
-
 wrapper = LabelFrame(root, text = "Source File")
 wrapper.pack(fill="both" ,expand="yes" , padx = 20 , pady =20)
 
@@ -39,37 +36,3 @@ btn.pack(side = tk.LEFT , padx=10 , pady =10)
 root.title("Image Resizer")
 root.geometry("800x600")
 root.mainloop()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
