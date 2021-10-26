@@ -35,11 +35,9 @@ In this documentation , we are gonna see basic Regression ML model
 
 7 - Make Predictions.
 
-using this, many ML models can be implemented.
-
 ## :nazar_amulet: Applications:
 
-:Stars: Image recognition:
+:stars: Image recognition:
 
 It is one of the most common applications of machine learning. It is used to identify objects, persons, places, digital images, etc. The popular use case of image recognition and face detection is, Automatic friend tagging suggestion.
 
