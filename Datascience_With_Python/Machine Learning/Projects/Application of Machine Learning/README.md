@@ -17,47 +17,36 @@ Some Applications of ML are:
 
 :stars: Face mask Detection using CNN
 
-:stars: Parkinson's disease detection using XGBoost Algorithm.
+:stars: Email spam Detector
 
 :stars: Fingerprint Recognition using YOLOV3.
 
-In this documentation , we are gonna see :star: Parkinson's disease Detection using XGBoost Algorithm :star: .
+In this documentation , we are gonna see basic Regression ML model
 
-## :nazar_amulet: What is Parkinson's Disease?
-A disorder of the central nervous system that affects movement, often including tremors. Nerve cell damage in the brain causes dopamine levels to drop, leading to the symptoms of Parkinson's. Parkinson's often starts with a tremor in one hand. Other symptoms are slow movement, stiffness and loss of balance.
-
-<p align="center">
-  <img width="350" height="250" src="https://www.news-medical.net/image.axd?picture=2017%2F4%2FParkinson%27s_disease_brain_680x_-_Designua.jpg">
-  </p>
-
-
-## :nazar_amulet: What is XGBoost Algorithm?
-XGBoost is an algorithm that has recently been dominating applied machine learning and Kaggle competitions for structured or tabular data. XGBoost is an implementation of gradient boosted decision trees designed for speed and performance.
-The two reasons to use XGBoost are also the two goals of the project:
-### :small_orange_diamond: Execution Speed:
-Generally, XGBoost is fast. Really fast when compared to other implementations of gradient boosting.
-### :small_orange_diamond: Model Performance:
-XGBoost dominates structured or tabular datasets on classification and regression predictive modeling problems.
 
 ## :nazar_amulet: Implementation:
-1. Install following libraries: numpy , pandas , xgboost(from sklearn).
-2. Import all the necessary libraries required.
-3. Read the csv file into the dataframe.
-4. Get the features and labels from the DataFrame (dataset).
-5. Initialize a MinMaxScaler.
-6. Scale the features to between -1 and 1 to normalize them. The MinMaxScaler transforms features by scaling them to a given range.
-7. Use the fit_transform() method fits to the data and then transforms it.
-8. Split the dataset into training and testing sets.
-9. Initialize an XGBClassifier and train the model.
-10. Generate y_pred and calculate the accuracy for the model.
 
-## :nazar_amulet: Output:
+<p align="center">
+  <img width="350" height="250" src="https://cdn-images-1.medium.com/max/600/1*NyI3dnzU8288aob0dytMbg.png">
+  </p>
+  
+1 - Data Collection.
 
-The accuracy of model is 94.87
+2 - Data Preparation.
+
+3 - Choose a Model.
+
+4 - Train the Model.
+
+5 - Evaluate the Model.
+
+6 - Parameter Tuning.
+
+7 - Make Predictions.
+
+using this, many ML models can be implemented.
 
 ## :nazar_amulet: CONCLUSION:
-
-Parkinson’s disease affects the central newvous system of the brain and has yet no treatment unless it’s detected early. Late detection leads to no treatment and loss of life. Thus its early detection is significant. For early detection of the disease, we utilized machine learning algorithm XGBoost to predict the onset of disease and save many lives.
 Nowadays, Machine Learning (ML) is an exciting major of research in computer science and engineering. Also, it is used in various areas and fields in real-life during these days such as finance, CRM, self-driving cars, business intelligence, and so on. In fact, Machine Learning allows software to become accurate in predicting outcomes.
 
 ## :nazar_amulet: Contributor
