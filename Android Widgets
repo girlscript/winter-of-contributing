@@ -1,0 +1,72 @@
+Android Widget
+
+– Android widgets are basically mini-apps that run on our Android Home screens. 
+– Android widgets generally display data and take up more space than a single icon.
+     Lets take up an example - weather widgets show data about local weather forecasts. Widgets can also be interactive or resizable, such as a sticky note widget.
+     
+► Purpose of using Widgets :-
+Widgets can be added to your phone's home as a quick way to access certain information from apps without having to open the app itself. One example is the Calendar widget, which provides a quick view of the upcoming events in your calendar without having to open the Calendar application.
+
+► Adding a widgets-
+
+Step 1 - On the home screen, tap and hold on any available space.
+Step 2 - Tap "Widgets".
+Step 3 - Tap and hold the widget you would like to add.
+         If you're looking for the Google Search bar, you will need to tap Google or Google Search, then tap and hold the Google Search bar widget.
+Step 4 - Drag and drop the widget onto the available space.
+
+► Adjusting the size of widgets-
+
+Step 1 - Tap and hold the widget.
+Step 2 - A blue box will appear around the widget. Drag the box to increase or decrease the size of the widget.
+Step 3 - Tap the space around the blue box to save.
+
+► Deleting a widgets-
+
+Step 1 - Tap and hold the widget.
+Step 2 - Tap "Remove from home".
+         The widget will be removed from the Home screen but will still be available in the Widgets tab, should you ever wish to put it back on your Home screen.
+
+◆ Lets see How we can create a Simple Widget -
+
+• Creating a Simple Widget-
+
+App widgets are miniature application views that can be embedded in other applications (such as the home screen) and receive periodic updates. These views are referred to as "widgets" in the user interface, and you can publish one with an app widget provider (or widget provider).
+
+"An app component that is able to hold other widgets is called an app widget host (or widget host)."
+
+• Widget components :-
+
+In order to create a Widget, you need the following basic components:
+
+1. AppWidgetProviderInfo object - Describes the metadata for a widget, such as the widget's layout, update frequency, and the AppWidgetProvider class. Defined in the XML in this                                  document.
+2. AppWidgetProvider class - Defines the basic methods that allow you to programmatically interface with the widget. Through it, you will receive broadcasts when the widget is                               updated, enabled, disabled, or deleted. AppWidgetProvider is declared in the manifest and then implemented, as described in this document.
+
+In addition to the required basic components, if your widget needs user configuration you should implement the App Widget configuration activity. This activity allows users to modify widget settings (for example, the time zone for a clock widget).
+
+– Starting in Android 12 (API level 31), you can choose to provide a default configuration and allow users to reconfigure the widget later. See Use the widget's default configuration and Enable users to reconfigure placed widgets for more details.
+– In Android 11 (API level 30) or lower, this activity is launched every time the user adds the widget to their home screen.
+
+• Declare the AppWidgetProviderInfo XML
+
+The AppWidgetProviderInfo defines the essential qualities of a widget. Define the AppWidgetProviderInfo object in an XML resource file using a single <appwidget-provider> element and save it in the project's res/xml/ folder.
+
+• Program illustration - 
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:maxResizeWidth="250dp"
+    android:maxResizeHeight="120dp"
+    android:updatePeriodMillis="86400000"
+    android:description="@string/example_appwidget_description"
+    android:previewLayout="@layout/example_appwidget_preview"
+    android:initialLayout="@layout/example_loading_appwidget"
+    android:configure="com.example.android.ExampleAppWidgetConfigurationActivity"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable|configuration_optional">
+</appwidget-provider>
+
