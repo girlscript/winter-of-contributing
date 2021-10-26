@@ -1,2 +1,2 @@
-# Varialbles and Mutability 
+# Variables and Mutability 
 
