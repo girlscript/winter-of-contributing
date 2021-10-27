@@ -126,6 +126,11 @@ container.appendChild(btn);
 #### **CONCLUSION**
 I hope this short article on the brief introduction to Programming paradigms and differences between Imperative and Declarative programming helped you to get a better and a clear understanding of the discussed topics. 
 
+#### **References**
+https://learn.co/lessons/react-declarative-programming - LEARN.CO
+https://dev.to/itsjzt/declarative-programming--react-3bh2 -DEV COMMUNITY
+https://www.explainprogramming.com/theory/imperative-declarative-react/ - EXPLAIN PROGRAMMING
+
 
 
 
