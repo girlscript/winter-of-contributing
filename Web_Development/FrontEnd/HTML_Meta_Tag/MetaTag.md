@@ -16,9 +16,7 @@ The meta-data means a set of data that describes or gives more information on ot
 ## Visiblity of metadata on browsers-
 <br>
 
-<p align= "center">
-   <img src="assets\exm.png" />
-</p>
+![image](https://user-images.githubusercontent.com/75716335/139000776-830f91e1-fad9-4db0-82e1-3f2fc43525ad.png)
 
 <br><br>
 
@@ -140,7 +138,7 @@ Eg-
 
 ## **Output:**
 
-![Output](assets/opt.png)
+![image](https://user-images.githubusercontent.com/75716335/139000884-6e844ef6-bc75-49f5-a822-b2bd4dd40095.png)
 
 <br>
 
