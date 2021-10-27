@@ -1,11 +1,9 @@
 # TIC TAC TOE GAME IN C++
 
-**Defination:-**  
-
+**Definition:-**  
 *Tic Tac Toe* is one of the most easiest and popular game all around the world. It's a two player game.
 
 **Rules:-**  
-
 * Tic Tac Toe is a 2 player game, either a single player can play with Computer or two players can play with each other.
 * There are two signs in this game, **Cross(X)** and **Circle(O)**. Each player have to choose one of these signs to play the game.
 * There are 9 spaces to place the signs. no two players can place their sign in same space.
@@ -13,9 +11,7 @@
 * If both of the players are unable to match the signs of their own, the game is declared a **Draw Game**.
 
 **C++ Code:-**  
-
-Here is the C++ code for this amazing game
-
+Here is the C++ code for this amazing game  
 ```cpp
 #include <iostream>
 #include<list>
@@ -27,7 +23,6 @@ using namespace std;
 typedef struct{
     int *row;
 }WinList;
- 
  
 class Player {
 private:
@@ -42,7 +37,6 @@ public:
         score++;
     }
     int getScore(){ return this->score;}
- 
     string getName(){ return this->name;}
 };
  
@@ -55,7 +49,6 @@ private:
     WinList winlist[8];
  
     // Displaying the initial board
-   
     void displayBoard(){
         cout <<endl;
         cout << "   |   |   "<<endl;
@@ -73,7 +66,6 @@ private:
     }
     
     // Creating Computer Input For One-player Mode
-    
     void computerInput(){
         int pos;
         pos = rand()%10;
@@ -91,7 +83,6 @@ private:
     }
  
     //Taking Player Input from User
-    
     void playerInput(Player &player){
         int pos;
         cout << endl;
@@ -111,7 +102,6 @@ private:
     }
     
     // Checking if any player won or not after every input
-    
     void checkWin(Player &p1,Player &p2){
         int i,j,k;
         bool flag = false;
@@ -156,8 +146,7 @@ private:
         }
     }
  
- //  Function for playing
- 
+        //  Function for playing
         void play(Player &p1,Player &p2){
             char rematch ='\0';
             int hand = 0;
@@ -189,7 +178,6 @@ private:
         }
         
     // Displaying the score of both players
-    
     void displayScore(Player &p1, Player &p2){
         cout << endl;
         cout << "\t SCORE: \t";
@@ -214,7 +202,6 @@ public:
  
     void init(){
         gameOn = 1;
- 
         emptyCount =0;
         srand(time(0));
         for(size_t i=0; i<10; i++){
@@ -235,7 +222,6 @@ public:
         cout << endl;
         againstComputer = 1;
         play(c,p);
- 
     }
  
     void twoPlayerGame(){
@@ -254,7 +240,6 @@ public:
 int main()
 {
     int ch;
- 
     while(1){
         cout<< "      ----------MENU----------" << endl;
         cout << "\t 1. 1 Player game" <<endl;
@@ -282,15 +267,11 @@ int main()
         default:
             cout << "OOPS!!!!Invalid Option! TRY AGAIN";
         }
- 
     }
     return 0;
 }
-
-
-```
-
+```  
+  
 **Output:-**  
 
 https://user-images.githubusercontent.com/63858941/138689452-9bb5989d-6ccf-43fe-b049-affd02cf30b7.mp4
-
