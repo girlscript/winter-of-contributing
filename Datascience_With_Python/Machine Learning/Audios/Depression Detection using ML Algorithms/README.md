@@ -27,6 +27,8 @@ Different ways to handle stress and depression -
 Here, we are going to use different libraries to extract and analyse data from different social media sites such as twitter, facebook, whatsapp, etc. Then we will find words which are oftenly used to show emotions.<br>
 After that, we will label them as good or bad based on the frequency of the word using wordclouds.
 
+![images (1)](https://user-images.githubusercontent.com/75624735/138996108-1357052c-7bf1-4c97-ad84-50b9fc18e487.png)
+
 ### ML Libraries involved
 
 - NLTK: Natural Language Toolkit. It is a suite that contains libraries and programs for statistical language processing. It is one of the most powerful NLP libraries, which contains packages to make machines understand human language and reply to it with an appropriate response.<br>
