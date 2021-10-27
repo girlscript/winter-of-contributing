@@ -18,7 +18,7 @@
 
 ### Video link ⬇
 
-[![Handling Outliers](https://user-images.githubusercontent.com/30192967/139076707-90c199de-4179-470e-9352-a421a09a54fe.png)](https://youtu.be/_bmtS5OT670)
+[![Handling Outliers](https://user-images.githubusercontent.com/30192967/139085629-3ffa00da-6fef-4da8-a9ca-861651756be1.png)](https://youtu.be/_bmtS5OT670)
 
 
 *********************************************************************
