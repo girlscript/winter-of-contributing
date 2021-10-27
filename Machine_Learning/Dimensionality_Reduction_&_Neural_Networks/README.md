@@ -13,7 +13,7 @@
 | 6.8 | **Stochastic and Minibatch Gradient Descent** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/ML_6_8_Stochastic_and_Minibatch_Gradient_Descent_(A).md) | - | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/ML_6_8_Stochastic_and_Minibatch_Gradient_Descent_(V).md) |
 | 6.9 | **Momentum and Nesterov Gradient Descent** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/ML_6_9_Momentum_and_Nesterov_Gradient_Descent_(A).md) | - | - |
 | 6.10 | **Backpropagation** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/ML_6_10_Back_propagation_(A).md) | - | - |
-| 6.11 | **Implement a MultiLayered Perceptron model on XOR function with 3 inputs. ⭐** | ❌ | - | - |
+| 6.11 | **Implement a MultiLayered Perceptron model on XOR function with 3 inputs. ⭐** | ❌ | - | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/ML_6_11_Implement_a_Multi_Layered_Perceptron_model_on_XOR_function_with_3_inputs_(V).md) |
 
 
 **N.B.: ⭐ marked issue is the Star issue of this week!**
