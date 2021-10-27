@@ -65,8 +65,6 @@ write:
 
 ``` li{ list-style-image: url(file Name{e.g- cs.png});} ```
 
-Congratulations!! You have successfully changed your bullet to your own custom bullet.
-And yes it is that simple.
 
 **Reference Links:**
 
@@ -121,4 +119,3 @@ First goto [Google Fonts](https://fonts.google.com/).
    * [Google Fonts getting started](https://developers.google.com/fonts/docs/getting_started)
    * [w3schools](https://www.w3schools.com/css/css_font_google.asp)
 
-Congratulations !!! You have used a custom font.
