@@ -186,7 +186,7 @@ During the reconciliation every React Element returned from the render is merged
 
 Fiber in nutshell allows React to better utilize the main thread by pausing/ resuming/ prioritising/ cancelling updates to provide a seamless user experience.React was once considered to be the fastest library for rendering user interfaces, and now, with Fiber, other libraries need to work really hard to be able to compete with it.
 
-# **Reference**
+### **Reference**
 
 [https://developpaper.com/source-code-analysis-of-react-fiber/](https://developpaper.com/source-code-analysis-of-react-fiber/)
 
