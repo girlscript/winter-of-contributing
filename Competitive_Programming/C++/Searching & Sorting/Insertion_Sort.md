@@ -1,7 +1,7 @@
 # Sorting
 **Sorting** refers to ordering same type of data in an increasing and decreasing fashion according to some relationship among them.
 
-***Example :-*** During assembly in schools students stand according to their respective heights in increasing order so that student with smallest height stand in front while student with the highest height stand at last.
+***Example :-*** During assembly in schools students stand according to their respective heights in increasing order so that student with smallest height stand in front while student with the highest height stand at last. Here height is sorted in increasing order. 
 
 ![image](https://user-images.githubusercontent.com/71928146/137345394-5fd6269c-ec5c-4e02-897a-4787856add25.png)
 
