@@ -14,4 +14,4 @@ This section provides what are feedforward neural networks, its components and h
 
 # **Click on the given image to listen to the audio**
 
-[![Feedforward neural networks](https://github.com/tavneetgill/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/Assets/Feed-forward%20neural%20networks.jpeg](https://drive.google.com/file/d/1usJ-IK76EOgWqS5Yq_vM55QjIITsuFCy/view?usp=sharing)
+[![Feedforward neural networks](https://github.com/tavneetgill/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/Assets/Feed-forward%20neural%20networks.jpeg)](https://drive.google.com/file/d/1usJ-IK76EOgWqS5Yq_vM55QjIITsuFCy/view?usp=sharing)
