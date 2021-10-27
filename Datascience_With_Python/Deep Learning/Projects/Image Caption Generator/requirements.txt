@@ -1,0 +1,15 @@
+Libraries imported:
+Numpy
+Pandas
+Matplotlib
+Keras
+Tensorflow
+glob
+string
+cv2
+ResNet50, preprocess_input
+VGG16
+pad_sequences
+to_categorical
+Dense, Dropout, Input, Embedding, LSTM
+Model, load_model
