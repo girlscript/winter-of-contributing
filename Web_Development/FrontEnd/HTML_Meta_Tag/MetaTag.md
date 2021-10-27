@@ -2,29 +2,26 @@
 <br>
 
 ## **What is HTML ```<meta>``` tag ?**
----
-<br>
-
 The meta-data means a set of data that describes or gives more information on other data. The ```<meta>``` tag in HTML provides important information about HTML document created which is relevant to browser. HTML ```<meta>``` tag is used to represent the metadata about the HTML document. It specifies properties of HTML documents, such as page description, keywords, copyright, language, author of the documents, expiry date , viewport setting, etc.
 <br>
 
->Syntax : 
-> ```<meta attribute-name="value">```
+Syntax : 
+
+ ```
+ <meta attribute-name="value">
+ ```
 
 <br>
 
 ## Visiblity of metadata on browsers-
-<br>
 
 ![image](https://user-images.githubusercontent.com/75716335/139000776-830f91e1-fad9-4db0-82e1-3f2fc43525ad.png)
 
-<br><br>
+Source : Google Images
 
-
-## **Key Points :**
----
 <br>
 
+## **Key Points :**
 - The <meta> tag is placed within the <head> tag, A web (HTML) document can include one or more meta tags depending on information, but in general, it doesn’t affect the physical appearance of the document.
 
 - ```<meta>``` tag is an empty element because it only has an opening tag and no closing tag, but it carries information within its attributes.
@@ -34,24 +31,20 @@ The meta-data means a set of data that describes or gives more information on ot
 - The <meta> tags are added to our HTML document for the purpose of Search Engine Optimisation (SEO).
 
 - With the help of ```<meta>``` tag, you can experiment and preview that how your webpage will render on the browser.
-<br><br>
-
+ 
+<br>
 
 ## **Advantages of using ```<meta>``` tag in HTML (web) document :**
----
-<br>
 
 1. Adding the meta tag while making the webpage or website, is a great practice because search engines like Google search look for this meta tag in order to understand the information provided by the website and accordingly show them in under relevant search. 
 
 2. It is also helpful if the user search for a specific website then the search engine result page will display snippets of metadata in search results that will provide information related to that website.
 
 3. Meta descriptions can assist you to improve your page's search engine rating. In search engine results, a meta description is a brief explanation of upto 160 characters that appear after the title and URL.
-<br><br>
 
+<br>
 
 ## **Attributes in ```<meta>``` tag :**
----
-<br>
 
  This tag accept four attributes which are mentioned and described below.
 
@@ -63,51 +56,50 @@ The meta-data means a set of data that describes or gives more information on ot
 
 >## **Note:**
 >The ```<meta>``` tag also accepts Global Attributes as well as Event Attributes in HTML.
-<br><br>
 
+<br>
 
 ## **Following are some specific syntaxes of meta tag which shows the different uses of meta Tag :**
-<br>
 
->1. ```<meta charset="utf-8">```   
->It defines the character encoding. The value of charset is "utf-8" which means it will support to display any language. 
-
-<br>
-
->2. ```<meta name="keywords" content="HTML, CSS, JavaScript, Tutorials"> ```    
->It specifies the list of keyword which is used by search engines.
+1. ```<meta charset="utf-8">```   
+It defines the character encoding. The value of charset is "utf-8" which means it will support to display any language. 
 
 <br>
 
->3. ```<meta name="description" content="Free Online tutorials">```    
->It defines the website description which is useful to provide relevant search performed by search engines.
+2. ```<meta name="keywords" content="Travel, Blog"> ```    
+It specifies the list of keyword which is used by search engines.
 
 <br>
 
->4. ```<meta name="author" content="thisauthor">```   
->It specifies the author of the page. It is useful to extract author information by Content management system automatically.
+3. ```<meta name="description" content="Free Travel planners, guidelines...">```    
+It defines the website description which is useful to provide relevant search performed by search engines.
 
 <br>
 
->5. ```<meta name="refresh" content="50">```    
->It specifies to provide instruction to the browser to automatically refresh the content after every 50sec (or any given time).
+4. ```<meta name="author" content="thisauthor">```   
+It specifies the author of the page. It is useful to extract author information by Content management system automatically.
 
 <br>
 
->6. ```<meta http-equiv="refresh" content="5; url=https://www.javatpoint.com/html-tags-list">```     
->In the above example we have set a URL with content so it will automatically redirect to the given page after the provided time.
+5. ```<meta name="refresh" content="50">```    
+It specifies to provide instruction to the browser to automatically refresh the content after every 50sec (or any given time).
 
 <br>
 
->7. ```<meta name="viewport" content="width=device-width, initial-scale=1.0">```   
->It specifies the viewport to control the page dimension and scaling so that our website looks good on all devices. If this tag is present, it indicates that this page is mobile device supported.
-<br><br>
+6. ```<meta http-equiv="refresh" content="5; url=https://www.abc.com/travel-blogs">```     
+In the above example we have set a URL with content so it will automatically redirect to the given page after the provided time.
 
+<br>
+
+7. ```<meta name="viewport" content="width=device-width, initial-scale=1.0">```   
+It specifies the viewport to control the page dimension and scaling so that our website looks good on all devices. If this tag is present, it indicates that this page is mobile device supported.
+
+<br>
 
 ## **Example to demonstrate use of meta tag :**
 <br>
 
-> In the example given below, more than one  ```<meta>``` tag with different attributes namely keywords, description, author, http-equiv and name is used to describe the HTML document in order to help browser recognize this document and show it under relevant search by scanning these attributes of ```<meta>``` tag.
+In the example given below, more than one  ```<meta>``` tag with different attributes namely keywords, description, author, http-equiv and name is used to describe the HTML document in order to help browser recognize this document and show it under relevant search by scanning these attributes of ```<meta>``` tag.
 
 ```
 Eg-
@@ -139,14 +131,12 @@ Eg-
 ## **Output:**
 
 ![image](https://user-images.githubusercontent.com/75716335/139000884-6e844ef6-bc75-49f5-a822-b2bd4dd40095.png)
+ 
+Source: Output (VSCode)
 
 <br>
-
 
 ## **Values that an attribute of ```<meta>``` tag can have:**
----
-
-<br>
 
 1. **charset**   
    Value - character_set   
@@ -185,7 +175,7 @@ Element - ```<meta>``` tag
 
 | **Chrome** |  **IE** | **Firefox** | **Oracle** | **Safari** |
 
-<br><br>
+<br>
 
 ---
 *Thanks for reading !*
