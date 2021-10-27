@@ -116,7 +116,9 @@ int josephus(int n, int k) {
     return res;
 }
 ```
-**Explanation:** As K is significantly smaller than N, we can delete multiple numbers in ⌊n/k⌋ in one run of the loop. Each time we will have (n - ⌊n/k⌋) numbers left and we will start with (⌊n/k⌋ * k).
+**Explanation:**  
+As K is significantly smaller than N, we can delete multiple numbers in ⌊n/k⌋ in one run of the loop.  
+Each time we will have (n - ⌊n/k⌋) numbers left and we will start with (⌊n/k⌋ * k).
 
 [Simulation of the Problem](https://www.geogebra.org/m/ExvvrBbR)
 
