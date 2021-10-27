@@ -67,6 +67,10 @@ Transpiling means to convert newer syntax code into older equivalent code which 
 ## Resources
 You can try above code [here](https://babeljs.io/repl#?browsers=defaults%2C%20not%20ie%2011%2C%20not%20ie_mob%2011&build=&builtIns=false&corejs=3.6&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=env%2Creact%2Cstage-2&prettier=false&targets=&version=7.15.8&externalPlugins=&assumptions=%7B%7D)
 
+## Next step
+To learn setup of babel in your repository, [click me](../Babel/README.md)
+
+
 *Hope you enjoyed and gained some knowledge regarding transpiling*
 
 __Contributer__ : [Harsh Anand](https://github.com/its-me-Harsh-Anand)
