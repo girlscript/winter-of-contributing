@@ -36,7 +36,7 @@
 ### Projects
 
 - [Fashion MNIST using CNN's](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Deep%20Learning/Projects/Fashion%20MNIST%20using%20CNNs)
-- [GRU - Gated Recurrent Unit](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Deep%20Learning/Projects/GRU%20(Gated%20Recurrent%20Unit)
+- [GRU-Gated Recurrent Unit](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Deep%20Learning/Projects/GRU%20(Gated%20Recurrent%20Unit))
 - [Image Caption Generator](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Deep%20Learning/Projects/Image%20Caption%20Generator)
 
 ### Tools
