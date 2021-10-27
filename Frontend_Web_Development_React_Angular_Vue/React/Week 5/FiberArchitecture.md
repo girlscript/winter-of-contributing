@@ -30,7 +30,6 @@ A fiber is a simple JavaScript object. It represents the React element or a node
   nextEffect,
 }
 ```
-
 ## **stateNode** 
 
 Keeps reference to the component instance fiber belongs to
