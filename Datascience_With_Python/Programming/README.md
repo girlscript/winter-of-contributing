@@ -1,7 +1,5 @@
 <h1 align="left">Programming 👨🏻‍💻</h1>
 
-# Programming
-
 ## Index
 
 - [Python](./Python)
