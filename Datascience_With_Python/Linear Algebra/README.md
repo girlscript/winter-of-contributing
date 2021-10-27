@@ -1,4 +1,4 @@
-<h1 align="left">;inear Algebra 👨🏻‍💻</h1>
+<h1 align="left">Linear Algebra 👨🏻‍💻</h1>
 
 ## Index
 
