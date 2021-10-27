@@ -77,7 +77,7 @@ Program: -
             ans = Math.max(ans , arr[i] * (nsr[i]-nsl[i]-1));
         }
         System.out.println(ans);
-    }    
+    }     
     
     
 Source :- PepCoading.
