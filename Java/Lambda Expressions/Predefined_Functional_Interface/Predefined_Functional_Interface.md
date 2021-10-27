@@ -1,7 +1,6 @@
 # Predefined Functional Interface
 ## Table of Content
 * [Introduction](#introduction)
-* [Major Types of Predefined Functional Interface](#major-types-of-predefined-functional-interface)
 * [Predicate](#predicate)
 * [Function](#function)
 * [Consumer](#consumer)
@@ -10,7 +9,7 @@
 
 ## Introduction
 
-Java provides a bunch of functional interfaces to deal with functional programming by using lambda and method references that comes under java.util.function package. Every predefined functional interface has its characteristics. 
+Java provides functional interfaces to deal with functional programming by using lambda and method references that comes under java.util.function package. Every predefined functional interface has its characteristics. 
 
 >Some of the major ones are :
 * Predicate
@@ -21,8 +20,8 @@ Java provides a bunch of functional interfaces to deal with functional programmi
 ## Predicate
 
 * It accepts a single input.
-* In other words, it is used for conditional checks.
-* It supports a single abstract method named test().
+* It is used for conditional checks.
+* It supports test() which is a single abstract method.
 * It always returns a Boolean type.
 
 **For example :**
@@ -32,7 +31,7 @@ import java.util.function.Predicate;
 public class InBuiltFunctionalInterfaceExamples {
 
     public static void main(String[] args) {
-        Predicate<Integer> ageTester = (x) -> x>18;
+        Predicate ageTester = (x) -> x>18;
         if(ageTester.test(15))
         {
             System.out.println("You can vote");
@@ -52,9 +51,9 @@ You are too young
 ```
 ## Function
 
-* It is used for performing logic on given input.
-* It takes two arguments first is to represent input and second is for output.
-* It supports a single abstract method named apply().
+* It is used for performing logic on a given input.
+* It takes two arguments in which first is used to represent input and second is used for output.
+* It supports apply() which is a single abstract method.
 * Its return type can be varied.
 
 **For example :**
@@ -64,7 +63,7 @@ import java.util.function.Function;
 public class InBuiltFunctionalInterfaceExamples {
 
     public static void main(String[] args) {
-        Function<Integer,Integer> calculator = (x) -> 4*4;
+        Function calculator = (x) -> 4*4;
         System.out.println("Square : "+calculator.apply(4));
     }
 }
@@ -76,9 +75,10 @@ Square: 16
 ```
 ## Consumer
 
-* It accepts a single input argument but returns nothing.
+* Single input argument is accepted and nothing is returned.
 * It supports a single abstract method named accept().
 * It doesn’t have any return type.
+
 
 **For example :**
 ```java
@@ -87,7 +87,7 @@ import java.util.function.Consumer;
 public class InBuiltFunctionalInterfaceExamples {
 
     public static void main(String[] args) {
-        Consumer<Integer> display = (x) -> System.out.println("I am displaying "+ x);
+        Consumer display = (x) -> System.out.println("I am displaying "+ x);
        display.accept(10);
     }
 }
@@ -99,7 +99,7 @@ I am displaying 10
 ```
 ## Supplier
 
-* It accepts no argument but returns a value.
+* No argument is accepted but it returns a value.
 * It must return something.
 * It supports a single abstract method named get().
 
@@ -111,7 +111,7 @@ import java.util.function.Supplier;
 public class InBuiltFunctionalInterfaceExamples {
 
     public static void main(String[] args) {
-        Supplier<Date> date = () -> new Date();
+        Supplier date = () -> new Date();
         System.out.println("Date : "+date.get());
 
     }
@@ -125,44 +125,44 @@ Date : Thu Oct 21 13:56:32 GMT 2021
 
 ## Other Functional Interfaces
 
-* **BiConsumer<T,U>:** Represents an operation that accepts two input arguments and returns no result.
-* **BiFunction<T,U,R>:** Represents a function that accepts two arguments and returns a result.
-* **BiPredicate<T,U>:** Represents a boolean-valued function of two arguments.
-* **BinaryOperator<T>:** Represents an operation upon two operands of the same type, producing a result of the same type as the operands.
+* **BiConsumer:** Represents an operation that accepts two input arguments and returns no result.
+* **BiFunction:** Represents a function which accepts two arguments and returns a result.
+* **BiPredicate:** Represents a boolean-valued function of two arguments.
+* **BinaryOperator:** Represents an operation upon two operands of the same type that produces a result of same type as the operands.
 * **BooleanSupplier:** Represents a supplier of boolean-valued results.
-* **Consumer<T>:** Represents an operation that accepts a single input argument and returns no result.
-* **DoubleBinaryOperator:** Represents an operation upon two double-valued operands and producing a double-valued result.
-* **DoubleConsumer:** Represents an operation that accepts a single double-valued argument and returns no result.
-* **DoubleFunction<R>:** Represents a function that accepts a double-valued argument and produces a result.
-* **DoublePredicate:** Represents a predicate (boolean-valued function) of one double-valued argument.
+* **Consumer:** Represents an operation which accepts a single input argument and returns no result.
+* **DoubleBinaryOperator:** Represents an operation upon two double-valued operands that produces a double-valued result.
+* **DoubleConsumer:** Represents an operation which accepts a single double-valued argument and returns no result.
+* **DoubleFunction:** Represents a function which accepts a double-valued argument and produces a result.
+* **DoublePredicate:** Represents a predicate of one double-valued argument.
 * **DoubleSupplier:** Represents a supplier of double-valued results.
-* **DoubleToIntFunction:** Represents a function that accepts a double-valued argument and produces an int-valued result.
-* **DoubleToLongFunction:**	Represents a function that accepts a double-valued argument and produces a long-valued result.
-* **DoubleUnaryOperato:r** Represents an operation on a single double-valued operand that produces a double-valued result.
-* **Function<T,R>:** Represents a function that accepts one argument and produces a result.
+* **DoubleToIntFunction:** Represents a function which accepts a double-valued argument and produces an int-valued result.
+* **DoubleToLongFunction:**	Represents a function where a double-valued argument is accepted and a long-valued result is produced.
+* **DoubleUnaryOperator:** Represents an operation on a single double-valued operand which produces a double-valued result.
+* **Function:** Represents a function which accepts one argument and produces a result.
 * **IntBinaryOperator:** Represents an operation upon two int-valued operands and producing an int-valued result.
-* **IntConsumer:** Represents an operation that accepts a single int-valued argument and returns no result.
-* **IntFunction<R>:** Represents a function that accepts an int-valued argument and produces a result.
-* **IntPredicate:**	Represents a predicate (boolean-valued function) of one int-valued argument.
-* **IntSupplier:** Represents a supplier of int-valued results.
-* **IntToDoubleFunction:** Represents a function that accepts an int-valued argument and produces a double-valued result.
-* **IntToLongFunction:**  Represents a function that accepts an int-valued argument and produces a long-valued result.
-* **IntUnaryOperator:** Represents an operation on a single int-valued operand that produces an int-valued result.
-* **LongBinaryOperator:** Represents an operation upon two long-valued operands and producing a long-valued result.
-* **LongConsumer:**	Represents an operation that accepts a single long-valued argument and returns no result.
-* **LongFunction<R>:** Represents a function that accepts a long-valued argument and produces a result.
-* **LongPredicate:** Represents a predicate (boolean-valued function) of one long-valued argument.
+* **IntConsumer:** Represents an operation which accepts a single int-valued argument and returns no result.
+* **IntFunction:** Represents a function which accepts an int-valued argument and produces a result.
+* **IntPredicate:**	Represents a predicate of one int-valued argument.
+* **IntSupplier:** Represents supplier of int-valued results.
+* **IntToDoubleFunction:** Represents a function where an int-valued argument is accepted and a double-valued result is produced.
+* **IntToLongFunction:**  Represents a function which accepts an int-valued argument and produce a long-valued result.
+* **IntUnaryOperator:** Represents an operation on a single int-valued operand which produces an int-valued result.
+* **LongBinaryOperator:** Represents an operation upon two long-valued operands that produces a long-valued result.
+* **LongConsumer:**	Represents an operation which accepts a single long-valued argument and returns no result.
+* **LongFunction:** Represents a function which accepts a long-valued argument and produce a result.
+* **LongPredicate:** Represents a predicate of one long-valued argument.
 * **LongSupplier:** Represents a supplier of long-valued results.
-* **LongToDoubleFunction:** Represents a function that accepts a long-valued argument and produces a double-valued result.
-* **LongToIntFunction:** Represents a function that accepts a long-valued argument and produces an int-valued result.
+* **LongToDoubleFunction:** Represents a function which accepts a long-valued argument and produces a double-valued result.
+* **LongToIntFunction:** Represents a function which accepts a long-valued argument and produces an int-valued result.
 * **LongUnaryOperator:** Represents an operation on a single long-valued operand that produces a long-valued result.
-* **ObjDoubleConsumer<T>:** Represents an operation that accepts an object-valued and a double-valued argument, and returns no result.
-* **ObjIntConsumer<T>:** Represents an operation that accepts an object-valued and a int-valued argument, and returns no result.
-* **ObjLongConsumer<T>:** Represents an operation that accepts an object-valued and a long-valued argument, and returns no result.
-* **ToDoubleBiFunction<T,U>:** Represents a function that accepts two arguments and produces a double-valued result.
-* **ToDoubleFunction<T>:** Represents a function that produces a double-valued result.
-* **ToIntBiFunction<T,U>:** Represents a function that accepts two arguments and produces an int-valued result.
-* **ToIntFunction<T>:** Represents a function that produces an int-valued result.
-* **ToLongBiFunction<T,U>:** Represents a function that accepts two arguments and produces a long-valued result.
-* **ToLongFunction<T>:** Represents a function that produces a long-valued result.
-* **UnaryOperator<T>:** Represents an operation on a single operand that produces a result of the same type as its operand.
+* **ObjDoubleConsumer:** Represents an operation which accepts an object-valued and a double-valued argument, and returns no result.
+* **ObjIntConsumer:** Represents an operation which accepts an object-valued and a int-valued argument, and returns no result.
+* **ObjLongConsumer:** Represents an operation which accepts an object-valued and a long-valued argument, and returns no result.
+* **ToDoubleBiFunction:** Represents a function which accepts two arguments and produces a double-valued result.
+* **ToDoubleFunction:** Represents a function which produces a double-valued result.
+* **ToIntBiFunction:** Represents a function which accepts two arguments and produces an int-valued result.
+* **ToIntFunction:** Represents a function which produces an int-valued result.
+* **ToLongBiFunction:** Represents a function which accepts two arguments and produces a long-valued result.
+* **ToLongFunction:** Represents a function which produces a long-valued result.
+* **UnaryOperator:** Represents an operation on a single operand that produces a result of the same type as its operand.
