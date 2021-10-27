@@ -192,4 +192,4 @@ Like this, we can call our own hook from wherever we want and get the desired re
 ## And That is how we create a Custom Hook in React.
 
 ---
-### Contributed By - Harjas Sodhi
+### Reference - https://reactjs.org/docs/hooks-custom.html
