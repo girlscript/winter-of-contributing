@@ -1,4 +1,4 @@
-<h1 align="left">Artificial Intelligence 👨🏻‍💻</h1>
+<h1 align="left">Deep Learning 👨🏻‍💻</h1>
 
 ## Index
 
