@@ -54,6 +54,8 @@ private:
     int emptyCount;
     WinList winlist[8];
  
+    // Displaying the initial board
+   
     void displayBoard(){
         cout <<endl;
         cout << "   |   |   "<<endl;
@@ -69,7 +71,9 @@ private:
         cout << "   |   |   "<<endl;
         cout <<endl;
     }
- 
+    
+    // Creating Computer Input For One-player Mode
+    
     void computerInput(){
         int pos;
         pos = rand()%10;
@@ -86,6 +90,8 @@ private:
  
     }
  
+    //Taking Player Input from User
+    
     void playerInput(Player &player){
         int pos;
         cout << endl;
@@ -103,7 +109,9 @@ private:
         }
  
     }
- 
+    
+    // Checking if any player won or not after every input
+    
     void checkWin(Player &p1,Player &p2){
         int i,j,k;
         bool flag = false;
@@ -148,6 +156,8 @@ private:
         }
     }
  
+ //  Function for playing
+ 
         void play(Player &p1,Player &p2){
             char rematch ='\0';
             int hand = 0;
@@ -177,6 +187,9 @@ private:
             }
  
         }
+        
+    // Displaying the score of both players
+    
     void displayScore(Player &p1, Player &p2){
         cout << endl;
         cout << "\t SCORE: \t";
