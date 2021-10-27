@@ -8,10 +8,11 @@
 
 ---
 
-### Click here for the audio file,
+### Click here for the video file,
 
-[![ML 6.9 Momentum and Nesterov Gradient Descent (V)](https://user-images.githubusercontent.com/79050917/138584987-6facdc17-d8fe-4595-9051-7b815ed9f948.png)](https://drive.google.com/file/d/1Y1tcaU-tv06jU4GsSpdcc_VOeD49M8JN/view?usp=sharing "Momentum and Nesterov Gradient Descent")
+[![ML 6.9 Momentum and Nesterov Gradient Descent (V)](https://user-images.githubusercontent.com/80235375/139094425-0ad7052b-8431-4d9b-bf20-76ebc11c8b80.png)](https://drive.google.com/file/d/1gWUMIwKy3XPjZ2kTxnOOZLgfPB5XaGYz/view?usp=sharing "Momentum and Nesterov Gradient Descent")
 
 ---
 
 ### GirlScript Winter of Contributions 2021
+
