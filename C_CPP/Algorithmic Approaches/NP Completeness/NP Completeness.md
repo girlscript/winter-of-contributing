@@ -49,6 +49,7 @@
 
 ## Reduction formulla 
 <img src="NP-Completeness1.png" alt="NP-Completeness1" width="350" height="200">
+ - [ image refrence from **GFG** ] (https://www.geeksforgeeks.org/np-completeness-set-1/)
 
 -------------------
 
