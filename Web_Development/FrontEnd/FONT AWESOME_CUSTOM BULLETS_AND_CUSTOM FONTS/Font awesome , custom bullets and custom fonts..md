@@ -29,7 +29,13 @@ Font Awesome is a widely-used icon set that gives you scalable vector images tha
  **Outcome:** 
  
  ![Font-Awesome GitHub Icon](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Font_Awesome_5_brands_github.svg/232px-Font_Awesome_5_brands_github.svg.png)
+ 
+ 
+**Reference Links:**
 
+* [Font Awesome Official Site](https://fontawesome.com/)
+  
+* [Font Awesome Official GitHub page](https://github.com/FortAwesome/Font-Awesome)
 
  
 
@@ -61,6 +67,11 @@ write:
 
 Congratulations!! You have successfully changed your bullet to your own custom bullet.
 And yes it is that simple.
+
+**Reference Links:**
+
+* [Web.Dev](https://web.dev/css-marker-pseudo-element/)
+* [W3Schools](https://www.w3schools.com/css/css_list.asp)
 
 
 ***Note:***
@@ -105,5 +116,9 @@ First goto [Google Fonts](https://fonts.google.com/).
    ```p{font-family: 'Playfair Display', serif;}```
 
    ***note:*** Here I selected 'Playfair Display' font as an example.
+   
+   **Reference Links:**
+   * [Google Fonts getting started](https://developers.google.com/fonts/docs/getting_started)
+   * [w3schools](https://www.w3schools.com/css/css_font_google.asp)
 
 Congratulations !!! You have used a custom font.
