@@ -75,4 +75,8 @@ int main()
 }
 ~~~
 
+# Output
+
+![image](https://user-images.githubusercontent.com/71928146/139271542-45b8f284-0d8e-444f-bd62-2ae8527a399a.png)
+
 
