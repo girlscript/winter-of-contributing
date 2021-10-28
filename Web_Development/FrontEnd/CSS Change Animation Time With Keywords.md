@@ -67,7 +67,7 @@ There are some  predefined keywords available for animation speed. For example :
   
   ![image](https://user-images.githubusercontent.com/54473091/137640119-1303a942-1e64-4bd7-8e53-7701ec18b182.gif)
   
-   The given [video link](https://github.com/girlscript/winter-of-contributing/files/7435533/VID_20211028_203823.zip) shows the output.
+  The given [video link](https://github.com/girlscript/winter-of-contributing/files/7435533/VID_20211028_203823.zip) display the output.
    
   For the elements with id of ball1 and ball2, add an animation-timing-function property to each, and set #ball1 to linear, and #ball2 to ease-out. we have to notice the difference between how the elements move during the animation but end together, since they share the same animation-duration of 2 seconds.
 
