@@ -1,5 +1,9 @@
 # Doubly Circular Linked List
-Circular Doubly Linked List is a list which have properties of both doubly linked list and circular linked list in which two consecutive elements are linked by previous ( prev ) and next pointer and the last node points to first node by next pointer and also the first node points to last node by the previous pointer and in this way the condition of circular linked list fullfill .
+It is list which have properties of both doubly linked list and circular linked list within which two consecutive elements are linked by previous ( prev ) and next pointer and therefore the last node points to first node by next pointer and also the first node points to last node by the previous pointer and in this way the condition of circular linked list fullfill .
+### Important Points :
+-  In Circular doubly linked list any node doesn't contain NULL value and last node contains the address of the first node of the list .
+-  Traversing in forward and backward is very easy.
+-  It is the combination of circular linked list and doubly linked linked list .
 
 Code For Insertion :
 ```cpp
@@ -284,6 +288,8 @@ After Deleting 2: 4
 - Can be used for managing the songs playlists .
 - Can be used for managing the shopping cart on e-commerce websites .
 - Used in multi-player games like jitter-butter .
+- Useful in implementation of queue .
+- Can be used when list of objects in a 3D game/video needs to be rendered for displaying it to the screen.
 
 ## Advantages
 1. List can be traversed in both directions as we can see in above code output .
@@ -291,5 +297,5 @@ After Deleting 2: 4
 3. The important one that it is used to implement advance data structure Fabonacci Heap .
 
 ## Disadvantages 
-1. Data should be handled carefully beacuse of involment of many pointers so there is chance of getting data lost .
+1. Data should be handled carefully beacuse of involment of many pointers so there is chance of getting data lost , so be aware .
 2. It takes slightly more space for accomodation of previous pointer .
