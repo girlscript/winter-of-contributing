@@ -33,6 +33,46 @@ Insertion sort is a simple sorting algorithm. In this method we virtually split/
 ![image](https://user-images.githubusercontent.com/71928146/139249962-ff6fec5e-fa9c-4149-b69b-fc8559c0e8e4.png)
 
 # Program/Code in C++
+~~~
+#include<iostream>
 
+using namespace std;
+
+void insertionsort(int arr[], int n)
+{
+    int i,temp,j;
+    for(int i=1;i<=n;i++)
+    {
+        temp=arr[i];
+        j=i-1;
+        while(j>=0 && arr[j]>temp)
+        {
+            arr[j+1]=arr[j];
+            j=j-1;
+        }
+        arr[j+1]=temp;
+    }
+
+    cout<<"Your sorted array is:- ";
+    for(i=0;i<n;i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+}
+int main()
+{
+    int n;
+    cout<<"Enter size of your array:- ";
+    cin>>n;
+    int a[n];
+    cout<<"Enter elements in your array:- ";
+    for(int i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+
+    insertionsort(a,n);
+}
+~~~
 
 
