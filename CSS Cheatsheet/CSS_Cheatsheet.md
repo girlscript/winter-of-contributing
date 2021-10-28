@@ -15,7 +15,7 @@ CSS is used to define styles for your web pages, including the design, layout an
 
 **Syntax**
 
-```
+```ruby
 selector{
     property: value;
     property2: value2;
@@ -30,7 +30,7 @@ CSS File can be attach in HTML in three different ways
 
 **Include External Stylesheet in the HTML file**
 
-```json
+```ruby
 <link rel="stylesheet" type="text/css" href="/style.css" />
 ```
 
@@ -42,7 +42,7 @@ The internal style is defined inside the **style** element inside the head secti
 
 > Example
 
-```json
+```ruby
 <!DOCTYPE html>
 <html>
 <head>
@@ -73,7 +73,7 @@ Inline styles are defined within the "style" attribute of the relevant element
 
 >Example 
 
-```json
+```ruby
 <!DOCTYPE html>
     <html>
         <body>
@@ -354,7 +354,7 @@ Media queries are a technique for delivering a tailored style sheet (responsive 
 
 **Syntax**
 
-```json
+```ruby
 @media not|only mediatype and (media feature) {
     CSS Code 
 }
