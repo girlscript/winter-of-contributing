@@ -1,0 +1,4 @@
+imutils==0.5.4 
+skimage==0.16.2
+numpy==1.19.5
+opencv-python==4.1.2
