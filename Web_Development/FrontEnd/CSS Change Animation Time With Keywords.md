@@ -18,7 +18,7 @@ There are some  predefined keywords available for animation speed. For example :
 
 ### CODE
 
-```
+```html
 
 <style>
 
