@@ -9,6 +9,8 @@ This is the video explanation about huffman Decoding.
 - Huffman Decoding with example.
 
 ### Click Image for Video!!
-<a href="https://drive.google.com/file/d/1fSr1ZU6AphvqUWLDMQo_xY4X2oVHk3Re/view?usp=sharing"><img src="huffmanVideoImage.png"></a>
+[![huffmanVideoImage](https://user-images.githubusercontent.com/56475512/139273683-fa2dffb2-11bf-40d4-a303-5388386957b6.png)](https://drive.google.com/file/d/15gvBVZQ_3YEwDPWUU0IpTwbRFOnGTpqG/view?usp=sharing)
+
+
 <br>
 Hope my video helps!!! Thankyou.
