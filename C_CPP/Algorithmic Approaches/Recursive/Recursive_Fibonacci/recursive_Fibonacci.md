@@ -7,15 +7,13 @@ For example,
 0 1 1 2 3 5 .... and so on.
 Here third `1` is the sum of its previous two numbers `0` and `1`.
 
-<br>
+
 
 ## Recursion
 
 Recursion is the process in which a function calls itself directly or indirectly.
 
 It is like repeating a function itself inside same function until a condition is met.
-
-<br>
 
 ## Program in c
 
@@ -33,7 +31,11 @@ int main()
    scanf("%d", &n); // input number of elements present in series from user
 
    if (n <= 0)
-      printf("\nEnter a non-zero positive integer.");
+   {
+      printf("\nEnter a non-zero positive integer: ");
+      scanf("%d", &n);
+      printf("\nFibonacci series: \n");
+   }
    else
       printf("\nFibonacci series: \n");
 
@@ -61,7 +63,7 @@ int Fibonacci(int n)
 
 ```
 
-### Sample tests
+## Sample tests
 <hr>
 
 1. Fibonacci series having positive number of elements given as input
@@ -78,11 +80,17 @@ Fibonacci series:
 ~~~
 Enter no. of elements in Fibonacci series: 0
 
-Enter a non-zero positive integer.
+Enter a non-zero positive integer: 5
+
+Fibonacci series:
+0 1 1 2 3
 ~~~
 
 ~~~
 Enter no. of elements in Fibonacci series: -1
 
-Enter a non-zero positive integer.
+Enter a non-zero positive integer: 5
+
+Fibonacci series:
+0 1 1 2 3
 ~~~
