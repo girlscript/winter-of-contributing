@@ -1,5 +1,5 @@
-# Polyfill in Javascript
-The web had a beginning but it won't have an end. As the new features come out, they won't be supported by browsers immediately. For example, many new features of modern ECMAScript (javascript) are only supported by chrome, and not by all the browsers. This can be a challange where we want to implement all new features but older browsers don't support it. <br>
+# Polyfill in JavaScript
+The web had a beginning but it won't have an end. As the new features come out, they won't be supported by browsers immediately. For example, many new features of modern ECMAScript (JavaScript) are only supported by chrome, and not by all the browsers. This can be a challange where we want to implement all new features but older browsers don't support it. <br>
 Every problem has a solution and for this developers had produced a new term, **"Polyfills"**
 
 ## Understanding Polyfill
@@ -25,7 +25,7 @@ JavaScript is the language used to create a polyfill, but a polyfill can be used
 ## Example
 #### 1. Defining imaginary Math.double() function
 Let's understand with a imaginary function.<br>
-Consider a <code>Math.double()</code> function is present in Javascript standard function that doubles any number we pass into it, but our browser doesn't support this.<br><br>
+Consider a <code>Math.double()</code> function is present in JavaScript standard function that doubles any number we pass into it, but our browser doesn't support this.<br><br>
 
 **Problem:-** How to use Math.double() function, if our browser doesn't support this? <br>
 **Solution:-** Create your own Math.double() function and use it in the place of original function.
@@ -42,7 +42,7 @@ Consider a <code>Math.double()</code> function is present in Javascript standard
 If Math.double() function is unsupported by the browser, then our code will use the function we have written
 
 #### 2. Work on original Math.max() function
-<code>Math.max()</code> function is already present in javascript which is supported by every browser. It returns the maximum of numbers passed as argument. <br>
+<code>Math.max()</code> function is already present in JavaScript which is supported by every browser. It returns the maximum of numbers passed as argument. <br>
 
 **Problem :-** If we create the polyfill of <code>Math.max()</code>, it will override the standard function.<br>
 
@@ -86,4 +86,4 @@ You can practise Polyfills [here](https://www.w3.org/2001/tag/doc/polyfills/)
 
 *Hope you have a clear understanding of **polyfills** now*
 
-__Contributer__ : [Harsh Anand](https://github.com/its-me-Harsh-Anand)
+__Contributor__ : [Harsh Anand](https://github.com/its-me-Harsh-Anand)

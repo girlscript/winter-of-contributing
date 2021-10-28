@@ -4,7 +4,7 @@
 Babel is a JavaScript [transpiler](../Transpile/README.md) that converts edge JavaScript(ES6) into plain old ES5 JavaScript that can run in any browser even in the old ones. It can [transpile](../Transpile/README.md) every new syntax code to old similar code which is supported by every browsers.
 
 ## Reason for using Babel
-The biggest reason behind using *Babel* is that all the latest features of javascript are not supported in every browser yet. Hence, someone needs to do the converting part. And here comes Babel, which transpile latest ES6 features to ES5 features which is understandable by every browser.
+The biggest reason behind using *Babel* is that all the latest features of JavaScript are not supported in every browser yet. Hence, someone needs to do the converting part. And here comes Babel, which transpile latest ES6 features to ES5 features which is understandable by every browser.
 
 ## Setting up Babel into our project
 - Babel comes as a package as a node module which can be installed via npm (node package manager).
@@ -114,4 +114,4 @@ We have successfully done the setup of babel in our repository.
 
 Hope you have enjoyed and gained some knowledge. 
 
-__Contributer__ : [Harsh Anand](https://github.com/its-me-Harsh-Anand)
+__Contributor__ : [Harsh Anand](https://github.com/its-me-Harsh-Anand)

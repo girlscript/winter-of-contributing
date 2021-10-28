@@ -1,7 +1,7 @@
 # Transpile and Transpilers
 
 ## What is Transpiling
-As we all know, [ECMAScript](../ECMAScript/README.md) brings updates every year since 2015 with some major as well as minor changes. Likewise, new Javascript versions also bring syntaxial updates as well which is not possible to be [polyfilled](../Polyfills/README.md) as it would simply not get executed and will throw errors in old Javascript engines, this is where a transpiler comes into play.
+As we all know, [ECMAScript](../ECMAScript/README.md) brings updates every year since 2015 with some major as well as minor changes. Likewise, new JavaScript versions also bring syntaxial updates as well which is not possible to be [polyfilled](../Polyfills/README.md) as it would simply not get executed and will throw errors in old JavaScript engines, this is where a transpiler comes into play.
 
 <br>
 
@@ -73,4 +73,4 @@ To learn setup of babel in your repository, [click me](../Babel/README.md)
 
 *Hope you enjoyed and gained some knowledge regarding transpiling*
 
-__Contributer__ : [Harsh Anand](https://github.com/its-me-Harsh-Anand)
+__Contributor__ : [Harsh Anand](https://github.com/its-me-Harsh-Anand)

@@ -2,18 +2,18 @@
 
 ## What is a Bundler?
 
-A JavaScript bundler is a tool that puts our code and all its dependencies together in a single Javascript file. 
+A JavaScript bundler is a tool that puts our code and all its dependencies together in a single JavaScript file. 
 
 Module bundlers are tools frontend developers used to bundle JavaScript modules into a single JavaScript files that can be executed in the browser.
 
 ## Why do we need that?
 
-The underlying problem is handling dependencies from our code. Earlier javascript hasn't had a standard for requiring dependencies from our code. There was no *import* or *require* statements before the new [ES2015](../ECMAScript/README.md) import statement. Let's ignore that because it is not widely implemented.
+The underlying problem is handling dependencies from our code. Earlier JavaScript hasn't had a standard for requiring dependencies from our code. There was no *import* or *require* statements before the new [ES2015](../ECMAScript/README.md) import statement. Let's ignore that because it is not widely implemented.
 
 ### Problem
-How do we import and export things in Javascript?<br>
+How do we import and export things in JavaScript?<br>
 How do we make functions of our code visible to the outer world?<br>How do we import functions from other people's code?<br>
-If we have 10 javascript file, *http* will take 10 round trip of request in order to get our app started. How to minimise this time?
+If we have 10 JavaScript file, *http* will take 10 round trip of request in order to get our app started. How to minimise this time?
 
 ### Solution
 The only way has always been through global variables. For examples, if we want to use JQuery:

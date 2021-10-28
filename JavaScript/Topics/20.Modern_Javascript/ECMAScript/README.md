@@ -78,8 +78,8 @@ Read more about TC39 [here](https://tc39.es/)
     * 2015
 
 * Description
-    * ES6 is an next-gen of JavaScript, the ecma technical committee 39 governs ecma specification, they discovered new features to the javascript.
-    * ES6 can`t compile directly in browsers, so need an compiler from ES6 to ES5, for that compiling using [babel](../Transpile_and_babel/README.md), it produce the browser compatible javascript.
+    * ES6 is an next-gen of JavaScript, the ecma technical committee 39 governs ecma specification, they discovered new features to the JavaScript.
+    * ES6 can't compile directly in browsers, so need an compiler from ES6 to ES5, for that compiling using [babel](../Transpile_and_babel/README.md), it produce the browser compatible JavaScript.
 
 * Features Added
     * arrows
@@ -156,6 +156,6 @@ Read more about TC39 [here](https://tc39.es/)
 You can practise all the features [here](https://www.w3schools.com/js/js_versions.asp)
 
 Yay! we have learnt so far about ECMAScript. Thanks for reading.<br>
-__Contributer__ : [Harsh Anand](https://github.com/its-me-Harsh-Anand)
+__Contributor__ : [Harsh Anand](https://github.com/its-me-Harsh-Anand)
 
 
