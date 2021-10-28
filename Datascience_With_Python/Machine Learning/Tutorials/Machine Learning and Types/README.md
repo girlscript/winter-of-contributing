@@ -288,6 +288,10 @@ is not an absolute value. Instead, it takes on a score of effectiveness, express
 this percentage value is, the more reward is given to the algorithm. Thus, the program is trained to give the best
 possible solution for the best possible reward.
 
+![image](https://user-images.githubusercontent.com/57637086/139266497-e4fa6dd0-907a-4dc4-99c8-7cde26aec278.png)
+
+
+
 ### How does reinforcement learning work?
 
 In reinforcement learning, developers devise a method of rewarding desired behaviors and punishing negative behaviors.
@@ -304,6 +308,16 @@ While reinforcement learning has been a topic of much interest in the field of A
 and application remain limited. Noting this, however, research papers abound on theoretical applications, and there have
 been some successful use cases.
 
+Due to its generality, RL is widely studied in the following disciplines:
+
+Game theory
+Control theory
+Operations research
+Information theory
+Simulation-based optimization
+Multi-agent systems
+Swarm intelligence
+Statistics
 
 # Applications of Machine Learning
 
