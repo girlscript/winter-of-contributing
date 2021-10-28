@@ -31,16 +31,17 @@ These are some possible values for margin property.
 __Example__  
 `1. margin: 50px 100px 150px 200px;` 
 
-![command](https://github.com/japneetbhatia/Preparations/blob/main/src/margin1.JPG)
+![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-2/Web_Development/FrontEnd/CSS_ContentManipulation/images/margin1.JPG)
 `2. margin: 50px 100px 150px;`
 
-![command](https://github.com/japneetbhatia/Preparations/blob/main/src/margin2.JPG)
+![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-2/Web_Development/FrontEnd/CSS_ContentManipulation/images/margin2.JPG)
 `3. margin: 50px 100px;` 
 
-![command](https://github.com/japneetbhatia/Preparations/blob/main/src/margin3.JPG)
+![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-2/Web_Development/FrontEnd/CSS_ContentManipulation/images/margin3.JPG)
 `4. margin: 50px;` 
 
-![command](https://github.com/japneetbhatia/Preparations/blob/main/src/margin4.JPG)
+![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-2/Web_Development/FrontEnd/CSS_ContentManipulation/images/margin4.JPG)  
+
 ## 2. Padding  
 The padding property in CSS defines the innermost portion of the box model, creating space around an element’s content, inside of any defined margins and/or borders. 
 
@@ -69,15 +70,15 @@ The value of this attribute should be either a length, a percentage, or the word
 __Example:__  
 `1. padding: 25px 50px 75px 100px;`  
 
- ![command](https://github.com/japneetbhatia/Preparations/blob/main/src/padding1.JPG)
+ ![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-2/Web_Development/FrontEnd/CSS_ContentManipulation/images/padding1.JPG)
 `2. padding: 25px 50px 75px;`  
 
-![command](https://github.com/japneetbhatia/Preparations/blob/main/src/padding2.JPG)
+![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-2/Web_Development/FrontEnd/CSS_ContentManipulation/images/padding2.JPG)
 
 `3. padding: 25px 50px;`   
 
-![command](https://github.com/japneetbhatia/Preparations/blob/main/src/padding3.JPG)
+![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-2/Web_Development/FrontEnd/CSS_ContentManipulation/images/padding3.JPG)
 
 `4. padding: 25px;`    
 
-![command](https://github.com/japneetbhatia/Preparations/blob/main/src/padding4.JPG)
+![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-2/Web_Development/FrontEnd/CSS_ContentManipulation/images/padding4.JPG)
