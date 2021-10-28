@@ -69,11 +69,13 @@ Text classifiers work by leveraging signals in the text to “guess” the most 
   
 A type of yellow journalism, fake news encapsulates pieces of news that may be hoaxes and is generally spread through social media and other online media. This is often done to further or impose certain ideas and is often achieved with political agendas. Such news items may contain false and/or exaggerated claims, and may end up being viralized by algorithms, and users may end up in a filter bubble.
   
-#### This can be implemented using Decision Tree
+#### This can be implemented using Decision tree or random forest algorithm.
     
 <p align="center">
   <img width="350" height="250" src="https://www.researchgate.net/publication/337885241/figure/fig1/AS:834766018469889@1576035136832/A-Decision-Tree-for-fraud-detection-Leaf-node-v0-Non-Fraud-v1-Fraud.ppm">
   </p>
+  
+For better understanding , I have implemented Credit card fraud detection using Random forest.
 
 ## :nazar_amulet: Need for ML:
 Ever since the technical revolution, we’ve been generating an immeasurable amount of data. As per research, we generate around 2.5 quintillion bytes of data every single day! It is estimated that by 2020, 1.7MB of data will be created every second for every person on earth.
