@@ -1,0 +1,110 @@
+
+<h1>
+What are open-source operating systems?
+</h1>
+<h2>How the world changed with the release of Linux Kernel in the early 90's?</h3>
+<img align = 'right' height = '350' src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Linus_Torvalds.jpeg/330px-Linus_Torvalds.jpeg"> 
+
+It started in 1991, while studying [computer science](https://en.wikipedia.org/wiki/Computer_science "Computer science") at [University of Helsinki](https://en.wikipedia.org/wiki/University_of_Helsinki "University of Helsinki"), 
+Linus Torvalds began a project that later became the [Linux kernel](https://en.wikipedia.org/wiki/Linux_kernel "Linux kernel").\
+**Linux is a free, open source operating system (OS)**, released under the GNU General Public License (GPL). It is also the *largest open source software project in the world*.
+With the success and popularity of Linux other open-source operating systems started popping up. 
+
+Just to give you an idea about ubiquity of these open-source OSs, I want you to look at your phone and find out what OS it uses and now look at the figure below.
+<br><br>
+<br><br>
+<img align = 'left' height = '350' src="https://github.com/RAMESSESII2/RAMESSESII2/blob/main/assets/external/OS/smartphone-shipment.png"> \
+<br><br>
+<br><br>
+And that overwhelming figure is the number of people (individual and organisations) dependent on Android Operating System.
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+## Android 
+
+<img align = 'right' height = '250' padding="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Android_robot_%282014-2019%29.svg/227px-Android_robot_%282014-2019%29.svg.png">\
+[Android](https://source.android.com/) is an open-source operating system and software stack created for an array of devices with different form factors, including phones, tablets, wearables, TV’s, automobiles, and connected devices. The primary purposes of Android are to create an open platform available for carriers, OEMs, and developers to make their ideas a reality and to provide a successful, real-world product that improves the mobile experience for users.
+Let me tell you that Android is built on top of Linux kernel.
+![](https://source.android.com/images/android_stack_480.png)
+<br><br>
+
+## Chromium OS
+
+<img align = 'right' height = '250' padding="30px" src="https://www.gstatic.com/opensource/project-images/chromium-os/logo.png?rs=AGWjSYQSYOfzGEk34bgeC3aZnymTyaGFeg&sqp=-oaymwEKCIwBEIwBIABQAQivmcqGBg"> \
+[Chromium OS](https://en.wikipedia.org/wiki/Chromium_OS) is an open-source project that aims to build an operating system that provides a fast, simple, and more secure computing experience for people who spend most of their time on the web.
+
+Chromium OS is the operating system that Google Chrome OS is built on, which powers Chromebook laptops and Chrome OS workstations. The OS is all about the web. All apps are web apps and the entire experience takes place within the browser, so users do not have to deal with installing, managing and updating programs.
+<br><br>
+<br><br>
+<br>
+
+## The FreeBSD Project
+
+<img align = 'right' height = '300' padding="30px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/VirtualBox_FreeBSD_12.1_07_05_2020_11_59_43.png/450px-VirtualBox_FreeBSD_12.1_07_05_2020_11_59_43.png"> 
+
+[FreeBSD](https://en.wikipedia.org/wiki/FreeBSD) is an operating system used to power modern servers, desktops, and embedded platforms. 
+
+A large community has continually developed it for more than thirty years. Its advanced networking, security, and storage features have made FreeBSD the platform of choice for many of the busiest web sites and most pervasive embedded networking and storage devices.
+<br><br>
+<br><br>
+<br><br>
+
+## And then there perpetual pool of Open-Source Linux Distro designed for every need.
+
+### SteamOS
+
+<img align = 'right' height = '250' src="https://upload.wikimedia.org/wikipedia/en/2/21/SteamOS_Logo.png"> 
+
+You are a gaming addict, and looking for the full gaming PC experience—in which there's no difference between your desktop computer and a game console—then [SteamOS](https://store.steampowered.com/steamos/) is the obvious choice. Gaming on Linux got a thorough kickstart in 2013 when Valve announced that their own SteamOS would be written on top of Linux. Since then, Linux users could realistically expect to play high-grade games that, in the past, required the purchase of a Windows computer or gaming console.
+<br><br>
+<br><br>
+
+
+### ChaletOS
+
+<img align = 'right' height = '300' src="https://lcom.static.linuxfound.org/sites/lcom/files/chalet_a.png"> 
+
+New to Linux? Start with a beginner friendly linux distro which provides Windows like interface. [ChaletOS]( https://sites.google.com/site/chaletoslinux/home) is a beginner-friendly Linux distribution based on Xubuntu and featuring the Xfce desktop. It provides a simple and intuitive desktop interface, modest hardware requirements and five years of security support.
+<br><br>
+<br><br>
+<br><br><br><br><br><br>
+
+
+#### *And now the floor is yours to explore more of the amazing open-source OSs out there.( P.S.-my favourite is Fedora(Red Hat) ).*
+
+<br><br>
+
+## Why would there be open-source Operating Systems in the first place? Why would one expose millions of lines of codes to the people instead of making money out of it like Windows?
+
+Open source software is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code as they see fit. Many open source projects are hosted on GitHub, where you can access repositories or get involved in community projects. 
+<img align = 'right' height = '300' src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8b3BlbiUyMHNvdXJjZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"> \
+**Open source software is often cheaper, more flexible, and has more longevity than its proprietary peers because it is developed by communities rather than a single author or company.** \
+
+Allowing anyone to inspect the source code in this way has many advantages. Those with sufficient technical knowledge can customise the OS and fix problems as they arise by delving into the source code.
+It also allows the development of open-source operating systems to be community-led, or at least influenced, with technical users suggesting changes to an open-source operating system's codebase.
+
+<br><br>
+<br>
+
+
+## How are they maintaining it? Tech and stacks?
+
+<img align = 'right' height = '300' src="https://github.com/RAMESSESII2/RAMESSESII2/blob/main/assets/external/OS/programLang.jpeg"> \
+The most essential tool for building an open-source community around a project is something that gives some sort of feature to maintain source code and provides version control, and that's where Github and GIT version control system comes into play.\
+The Linux kernel is written in ANSI C with some native assembler hooks for low level processor support.\
+The GNU parts of the Linux OS are also written in ANSI C, including the compiler itself (gcc) and glibc.\
+And the effort has been to use only open-source sofwares to develop an open-source operating system.\
+And there are many programming languages used : Not just obvious languages such as C, C++, Python and Java but also C# (Mono), Fortran, Pascal, COBOL and Lisp and many more.
+<br><br>
+<br><br>
+
+## What does the future of open-source Operating Systems looks like?
+
+<img align = 'right' height = '300' src="https://github.com/RAMESSESII2/RAMESSESII2/blob/main/assets/external/OS/OpenOsr.jpeg"> \
+Now after been through all of this, we can confidently conclude that in the coming future, the enterprises are only going to be more reliant on the open-source softwares and community.\
+The future of open source software is incredibly bright. And it's only gonna be brighter. Open source is on the rise. And teams everywhere are leveraging open source — from small businesses to massive enterprises.
+<img align = 'right' height = '300' src="https://github.com/RAMESSESII2/RAMESSESII2/blob/main/assets/external/OS/Open-source.jpeg"> \
+The future of open source is now. In the next 5 years, open source development will be driven by necessity. The industry trends Cope predicts doesn’t make an open source 
+an option, it makes it the gospel. Corporations will need to utilize it to stay relevant. This puts OSS more front and center more now than ever.
