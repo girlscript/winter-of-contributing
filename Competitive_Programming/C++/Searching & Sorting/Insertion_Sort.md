@@ -91,5 +91,6 @@ int main()
 O(1)
 
 # Advantages
-1) The main advantage of the insertion sort is its simplicity. It also exhibits a good performance when dealing with a small list.
-2) The insertion sort is an in-place sorting algorithm so the space requirement is minimal.
+1) The main advantage of the insertion sort is its simplicity. 
+2) It also exhibits a good performance when dealing with a small list.
+3) The insertion sort is an in-place sorting algorithm so the space requirement is minimal.
