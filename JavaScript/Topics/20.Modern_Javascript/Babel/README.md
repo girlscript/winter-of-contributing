@@ -8,6 +8,8 @@ The biggest reason behind using *Babel* is that all the latest features of javas
 
 ## Setting up Babel into our project
 - Babel comes as a package as a node module which can be installed via npm (node package manager).
+- For Windows, if you are finding issue regargind installation of babel and other related package, use [git bash](https://git-scm.com/downloads) instead.
+- For mac, it work just fine
 
 > Step 1 
 
@@ -71,7 +73,7 @@ The above build command will take each and every file present in **src** folder 
 
 ```js
     {
-        presets : ["@babel/preset-env"]
+        "presets" : ["@babel/preset-env"]
     }
 ```
 
@@ -107,7 +109,8 @@ For now, your code in *dext/script.js* should like below code which is supported
 We have successfully done the setup of babel in our repository.
 
 ## Resources
-For more knowledge, you can visit [here](https://babeljs.io/setup)
+- For more knowledge, you can visit [here](https://babeljs.io/setup)
+- For downloading git, visit [here](https://git-scm.com/downloads)
 
 Hope you have enjoyed and gained some knowledge. 
 
