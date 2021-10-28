@@ -1,4 +1,4 @@
-### **TYPES OF LOOPS:-** ###
+## TYPES OF LOOPS :-
 
 *The purpose of the loop is to repeat the same code a number of times.This process is known as Iteration.Iterative statements are used to repeat the execution of a list of statements,depending on the value of an integer expression.C language supports three types of iterative statements also known as looping statements.These are as follows:-*
 - While loop
