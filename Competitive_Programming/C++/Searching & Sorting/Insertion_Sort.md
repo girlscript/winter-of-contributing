@@ -79,4 +79,13 @@ int main()
 
 ![image](https://user-images.githubusercontent.com/71928146/139271542-45b8f284-0d8e-444f-bd62-2ae8527a399a.png)
 
-
+# Time Complexity
+   ### Best Case
+   O(n)
+   ### Average Case
+   O(n^2)
+   ### Worst Case
+   O(n^2)
+  
+# Space Complexity
+O(1)
