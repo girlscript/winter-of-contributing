@@ -17,7 +17,7 @@
 
 So here we will discuss Insertion Sort.
 
-# Insertion Sorting
+# Insertion Sort
 Insertion sort is a simple sorting algorithm. In this method we virtually split/divide our array into sorted and unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
 
 # Working/Algorithm For Insertion Sort
