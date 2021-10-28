@@ -18,7 +18,7 @@ It is not good for use on-screen, cause screen size varies so much depending on 
 | px |	It is used to define the measurement in pixels. |
 
 
-![command](https://github.com/japneetbhatia/Preparations/blob/main/src/units1.JPG)
+![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-1/Web_Development/FrontEnd/CSS%20Units/units1.JPG)
 
 
 ### 2. Relative Units    
@@ -38,5 +38,5 @@ It is good for use on screen, if screen size varies so much depending on the dev
 | % |	It is used to define the measurement as a percentage that is relative to another value. |
 
 
-![command](https://github.com/japneetbhatia/Preparations/blob/main/src/units2.JPG)
+![command](https://github.com/japneetbhatia/winter-of-contributing/blob/patch-1/Web_Development/FrontEnd/CSS%20Units/units2.JPG)
 
