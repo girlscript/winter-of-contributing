@@ -214,4 +214,5 @@ function App() {
 
 I hope you now understand what higher order components are, why they are used, how to utilise hoc for cross-cutting concerns, and how to use hoc in real-world applications as a result of this example. I choose the simplest example to help you grasp hoc quickly.
 
-** Reference - https://reactjs.org/docs/higher-order-components.html **
+<h2>Reference</h2>
+  - https://reactjs.org/docs/higher-order-components.html 
