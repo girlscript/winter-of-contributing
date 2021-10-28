@@ -1,8 +1,13 @@
-# CSS UNITS   
-` Many CSS properties like width, margin, padding, font-size etc. take length. CSS has a way to express length in multiple units. Length is a combination of a number and unit with no whitespace. E.g. 5px, 0.7em. ` 
-## TYPES OF UNITS
-### 1. Absolute Units
-` It is not good for use on-screen, cause screen size varies so much depending on the device used for that page it is recommended to use for print layout and where the output medium is known. `     
+# CSS UNITS     
+
+Many CSS properties like width, margin, padding, font-size etc. take length. CSS has a way to express length in multiple units. Length is a combination of a number and unit with no whitespace. E.g. 5px, 0.7em.  
+
+## TYPES OF UNITS  
+
+### 1. Absolute Units  
+
+It is not good for use on-screen, cause screen size varies so much depending on the device used for that page it is recommended to use for print layout and where the output medium is known.     
+
 | Unit | Explanation |
 | ---- | ----------- |
 | cm | It is used to define the measurement in centimeters.|
@@ -16,8 +21,10 @@
 ![command](https://github.com/japneetbhatia/Preparations/blob/main/src/units1.JPG)
 
 
-### 2. Relative Units  
-` It is good for use on screen, if screen size varies so much depending on the device then these relative length units are perfect because it changes with the different rendering mediums. `
+### 2. Relative Units    
+
+It is good for use on screen, if screen size varies so much depending on the device then these relative length units are perfect because it changes with the different rendering mediums.  
+
 | unit | Explanation |
 | ---- | ----------- |
 | em | It is relative to the font-size of the element |
