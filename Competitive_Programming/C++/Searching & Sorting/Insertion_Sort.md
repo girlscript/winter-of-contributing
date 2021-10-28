@@ -97,3 +97,4 @@ O(1)
 
 # Diadvantages
 1) In this n-squared steps required for every n element to be sorted, the insertion sort does not deal well with a huge list. 
+2) Therefore, the insertion sort is particularly useful only when sorting a list of few items.
