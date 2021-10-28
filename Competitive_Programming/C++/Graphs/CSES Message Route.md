@@ -1,4 +1,4 @@
-# CSES Counting Rooms
+# CSES Message Route
 <!-- ## Definition -->
 
 Syrjälä's network has n computers and m connections. Your task is to find out if Uolevi can send a message to Maija, and if it is possible, what is the minimum number of computers on such a route.
