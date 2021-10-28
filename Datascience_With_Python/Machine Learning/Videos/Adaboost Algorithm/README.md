@@ -13,6 +13,17 @@ AdaBoost was the first really successful boosting algorithm developed for the pu
 -	AdaBoost is short for Adaptive Boosting and is a very popular boosting technique that combines multiple “weak classifiers” into a single “strong classifier”. 
 -	It was formulated by Yoav Freund and Robert Schapire. They also won the 2003 Gödel Prize for their work. 
 
+OR
+
+AdaBoost also called Adaptive Boosting is a technique in Machine Learning used as an Ensemble Method. The most common algorithm used with AdaBoost is decision trees with one level that means with Decision trees with only 1 split. These trees are also called Decision Stumps.
+
+![image](https://user-images.githubusercontent.com/63282184/139245358-1ecb0859-dfe6-4206-9210-7c2bb2adfcad.png)
+
+What this algorithm does is that it builds a model and gives equal weights to all the data points. It then assigns higher weights to points that are wrongly classified. Now all the points which have higher weights are given more importance in the next model. It will keep training models until and unless a lowe error is received.
+
+![image](https://user-images.githubusercontent.com/63282184/139245413-88b37397-761d-454f-b1ba-11cdacfeb339.png)
+
+
 ### Algorithm: 
  
 1.	Initialise the dataset and assign equal weight to each of the data point.
@@ -66,4 +77,7 @@ The above diagram explains the AdaBoost algorithm in a very simple way. Let’s 
 - It needs a quality dataset. 
 - Noisy data and outliers have to be avoided before adopting an Adaboost algorithm.
 
+## AdaBoost Limitation
 
+- The resulting “flat” probability distribution of AdaBoost is its main limitation. Depending on your use case, it may not be an issue for you. Say if you only care about assigning the correct class, then the prediction probability is less relevant.
+- However, if you care more about the probability itself, you may want to use Random Forest, which provides you with probability predictions such as 9% or 78%, as shown in the rain prediction modeling above. This is in contrast to AdaBoost, where all predictions are much closer to 50%.
