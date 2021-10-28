@@ -64,7 +64,6 @@ int Fibonacci(int n)
 ```
 
 ## Sample tests
-<hr>
 
 1. Fibonacci series having positive number of elements given as input
 
