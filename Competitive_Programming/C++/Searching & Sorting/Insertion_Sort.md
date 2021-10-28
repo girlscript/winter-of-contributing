@@ -91,3 +91,4 @@ int main()
 O(1)
 
 # Advantages
+1) The main advantage of the insertion sort is its simplicity. It also exhibits a good performance when dealing with a small list.
