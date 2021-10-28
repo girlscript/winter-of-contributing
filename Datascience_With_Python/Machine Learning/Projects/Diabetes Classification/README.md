@@ -1,6 +1,6 @@
 ## Python code on diabetes Classification
 
-[Click here to watch video](https://drive.google.com/file/d/1NWQyi1kF8JUXFa0PCVtpGo4fEP_WVcu5/view?usp=sharing)
+## [Click here to watch video](https://drive.google.com/file/d/1NWQyi1kF8JUXFa0PCVtpGo4fEP_WVcu5/view?usp=sharing)
 
 - Diabetes classification is a dataset and objective is to classify the data into the persons having diabetes or not.
 - Dataset contains p_id, no_times_pregnant, glucose_concentration, blood_pressure, skin_fold_thickness, serum_insulin, bmi, diabetes pedigree, age, diabetes.
