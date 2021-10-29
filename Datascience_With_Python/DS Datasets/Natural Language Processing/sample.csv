@@ -1,0 +1,100 @@
+tweet_id,author_id,inbound,created_at,text,response_tweet_id,in_response_to_tweet_id
+119237,105834,True,Wed Oct 11 06:55:44 +0000 2017,@AppleSupport causing the reply to be disregarded and the tapped notification under the keyboard is opened😡😡😡,119236,
+119238,ChaseSupport,False,Wed Oct 11 13:25:49 +0000 2017,"@105835 Your business means a lot to us. Please DM your name, zip code and additional details about your concern. ^RR https://t.co/znUu1VJn9r",,119239
+119239,105835,True,Wed Oct 11 13:00:09 +0000 2017,@76328 I really hope you all change but I'm sure you won't! Because you don't have to!,119238,
+119240,VirginTrains,False,Tue Oct 10 15:16:08 +0000 2017,"@105836 LiveChat is online at the moment - https://t.co/SY94VtU8Kq or contact 03331 031 031 option 1, 4, 3 (Leave a message) to request a call back",119241,119242
+119241,105836,True,Tue Oct 10 15:17:21 +0000 2017,@VirginTrains see attached error message. I've tried leaving a voicemail several times in the past week https://t.co/NxVZjlYx1k,119243,119240
+119243,VirginTrains,False,Tue Oct 10 15:25:14 +0000 2017,"@105836 Have you tried from another device, Miriam ^MM",119244,119241
+119244,105836,True,Tue Oct 10 15:26:44 +0000 2017,"@VirginTrains yep, I've tried laptop too several times over the past week and again today. I've tried different browsers too",119245,119243
+119245,VirginTrains,False,Tue Oct 10 15:33:22 +0000 2017,"@105836 It's working OK from here, Miriam. Does this link help https://t.co/0m2mpH15eh ? ^MM",,119244
+119242,105836,True,Tue Oct 10 15:09:00 +0000 2017,@VirginTrains I still haven't heard &amp; the number I'm directed to by phone is a dead end &amp; the live chat doesn't work. Can someone call me?,119240,119246
+119246,VirginTrains,False,Tue Oct 10 10:13:19 +0000 2017,@105836 That's what we're here for Miriam 😊  The team should send you an email shortly ^HP,119242,119247
+119248,AppleSupport,False,Wed Oct 11 13:38:29 +0000 2017,@105837 We can help. Which version of iOS are you on? You can find that in Settings &gt; General &gt; About. Reply in DM. https://t.co/GDrqU22YpT,,119249
+119249,105837,True,Wed Oct 11 07:37:27 +0000 2017,"@105838 @AppleSupport Me too am suffering , hope the can find a solution",119248,119250
+119250,105838,True,Wed Oct 11 05:33:17 +0000 2017,"@AppleSupport hi #apple, I’ve a concern about the latest ios is too slow on #iphone6 and i am not happy with it. Any solution please?","119249,119251",
+119252,AppleSupport,False,Wed Oct 11 13:40:27 +0000 2017,@105839 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT,,119253
+119253,105839,True,Wed Oct 11 07:21:34 +0000 2017,I just updated my phone and suddenly everything takes ages to load wtf @76099 this update sux I hate it fix it bye,119252,
+119254,SpotifyCares,False,Wed Oct 11 13:41:25 +0000 2017,"@105840 Hi there! What device is this happening on? If you could also let us know the Android and Spotify versions you're using, that'd be great /AY",119255,119256
+119255,105840,True,Wed Oct 11 13:45:59 +0000 2017,@SpotifyCares Thanks! Version 8.4.22.857 armv7 on anker bluetooth speaker on Samsung Galaxy Tab A (2016) Model SM-T280 Does distance from speaker matter?,119257,119254
+119257,SpotifyCares,False,Wed Oct 11 14:00:48 +0000 2017,@105840 Thanks. The distance could possibly affect playback. Does logging out &gt; restarting your device &gt; logging back in make a difference? /AY,119258,119255
+119258,105840,True,Wed Oct 11 14:01:58 +0000 2017,"@SpotifyCares No, but I've moved speaker to about 1 metre away and it's not skipping at the mo - it was about 3 or 4 metres away before. Fingers crossed!",119259,119257
+119259,SpotifyCares,False,Wed Oct 11 14:20:00 +0000 2017,"@105840 That's great to hear. If anything comes up, just let us know. We'll carry on helping out 🙂 /AY",119260,119258
+119260,105840,True,Wed Oct 11 14:22:05 +0000 2017,@SpotifyCares Brilliant thanks 😊,119261,119259
+119261,SpotifyCares,False,Wed Oct 11 14:41:35 +0000 2017,"@105840 You're welcome! If there's anything else we can help with, just give us a shout. We're here for you 😉 /CP",,119260
+119256,105840,True,Wed Oct 11 12:53:29 +0000 2017,@76495 @91226 Please help! Spotify Premium skipping through songs constantly on android tablet &amp; bluetooth speaker. Tried everything!,119254,
+119262,AppleSupport,False,Wed Oct 11 13:30:39 +0000 2017,@105841 We'd love to help! Please DM us and let us know any steps you've tried since experiencing these behaviors. https://t.co/GDrqU22YpT,,119263
+119263,105841,True,Wed Oct 11 06:29:07 +0000 2017,"@AppleSupport after the 11.0.2 my phone just sucks most of the apps are broken, wifi disconnects frequently #apple #ios1102 #painfulupdate",119262,
+119264,British_Airways,False,Wed Oct 11 13:36:31 +0000 2017,"@105842 We're sorry your flight has been delayed, Beatner. Are you travelling on the BA8733? If so, the updated departure time we have is 15:30. 1/2",,119265
+119265,105842,True,Wed Oct 11 10:42:43 +0000 2017,First flight for long time with @British_Airways. Now over one 1h delay for the short jump FRA-LCY and NO one here to provide status updates,"119264,119266",
+119267,AppleSupport,False,Wed Oct 11 13:30:38 +0000 2017,"@105843 Battery life is important, and we're here for you. DM us the iOS version your iPhone is running. We'll go from there. https://t.co/GDrqU22YpT",,119268
+119268,105843,True,Wed Oct 11 06:27:16 +0000 2017,Okay @76099 I used my fucking phone for 2 minutes and it drains it down 8 fucking percent,119267,
+119269,AppleSupport,False,Wed Oct 11 13:30:12 +0000 2017,@105844 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT,,119270
+119270,105844,True,Wed Oct 11 06:49:50 +0000 2017,"@AppleSupport Can you get my iPhone 7plus back on the old iOS please?  Battery runs out in half the time, apps now frequently crash.",119269,119271
+119271,AppleSupport,False,Wed Oct 11 03:26:00 +0000 2017,@105844 We'd be happy to help. Send us a DM and we can start there. https://t.co/GDrqU22YpT,119270,119272
+119272,105844,True,Wed Oct 11 02:19:23 +0000 2017,You’ve paralysed my phone with your update @76099 grrrrrrrrrr,119271,
+119273,O2,False,Wed Oct 11 13:13:14 +0000 2017,"@82476 🤔 We'd like to help Sam, which number is calling you? Please DM us more info so we can advise further. https://t.co/5pyLDJBC6r",,119274
+119274,82476,True,Wed Oct 11 12:50:07 +0000 2017,"@O2 I received this a few weeks ago, since then I've been getting 2/3 calls a day from a telemarketer. Is someone using your name? https://t.co/GLtz4XHcex",119273,
+119275,comcastcares,False,Wed Oct 11 13:42:46 +0000 2017,"@105845 I understand this is a frustrating experience, please send a DM with your account information so I can look into this matter for you. -AD",,119276
+119276,105845,True,Wed Oct 11 13:38:04 +0000 2017,"My internet is down and xfinity talkin about 24-72 hours... y’all have the game messed up. 
+
+@77245",119275,
+119277,sprintcare,False,Wed Oct 11 13:29:53 +0000 2017,@105676 I understand how you frustrated this situation can be. Please follow us by sending a DM for further assistance. Sprint Cares. -AC,,119278
+119278,105676,True,Wed Oct 11 13:24:06 +0000 2017,@76803  I service last 40 min sprint can I get a refund https://t.co/wYPw9hP6wt,119277,
+119279,AppleSupport,False,Wed Oct 11 13:35:01 +0000 2017,@105846 We'd like to help. What happens when you try to listen to Apple Music &amp; use WhatsApp? Does the music pause? Let us know in DM. https://t.co/GDrqU22YpT,,119280
+119280,105846,True,Wed Oct 11 07:13:34 +0000 2017,So the new @76099 update does not let me listen to music and go on whatsapp at the same time?!?,119279,
+119281,SpotifyCares,False,Wed Oct 11 13:31:32 +0000 2017,@105847 Hi Harry! Help's here. Can you check if logging out &gt; restarting your device &gt; logging back in makes a difference? Keep us posted /MU,119282,119283
+119282,105847,True,Wed Oct 11 13:46:20 +0000 2017,@SpotifyCares seems to be working at this stage. Will let you know if it happens again. Cheers,119284,119281
+119284,SpotifyCares,False,Wed Oct 11 14:07:15 +0000 2017,@105847 Sure thing. We'll keep an eye out for your update /MU,119285,119282
+119285,105847,True,Thu Oct 12 10:25:35 +0000 2017,@SpotifyCares problem has come back again today. is there some kind of bug?,119286,119284
+119286,SpotifyCares,False,Thu Oct 12 11:43:57 +0000 2017,"@105847 Thanks for giving us a nudge about this. What device, operating system, and Spotify version is this happening on? /AY",119287,119285
+119287,105847,True,Thu Oct 12 12:04:21 +0000 2017,"@SpotifyCares It's on a Macbook Air (early 2014), running High Sierra, spotify version 1.0.65.320.gac7a8e02",119288,119286
+119288,SpotifyCares,False,Thu Oct 12 12:09:13 +0000 2017,@105847 Got it. Can you try the steps here for us: https://t.co/EqisDMwZAT? They should help with this. Let us know how it plays out /AY,,119287
+119283,105847,True,Wed Oct 11 12:37:46 +0000 2017,@SpotifyCares i've been having issues with playback. songs have been stopping midway through and won't restart unless i close and reopen app,119281,
+119289,AppleSupport,False,Wed Oct 11 13:44:29 +0000 2017,@105848 Let's take a look. What is the exact iOS you're using? Are you using any specific apps when noticing this? DM us your reply. https://t.co/GDrqU22YpT,"119290,119291",119292
+119290,105848,True,Wed Oct 11 13:48:49 +0000 2017,@AppleSupport Latest version 😡😡 I have read the help page turned off virtually all apps and location svs too - but in typing this I dropped 3% life,,119289
+119291,105848,True,Wed Oct 11 15:44:02 +0000 2017,@AppleSupport Super help - problem solved 😀 once again in love with Apple,,119289
+119292,105848,True,Wed Oct 11 08:06:34 +0000 2017,@AppleSupport #ios11update - is still killing my battery within 12 hours - phone is 10 months old - it’s a disgrace - used to get 2 days,119289,
+119293,AppleSupport,False,Wed Oct 11 13:30:00 +0000 2017,@105849 Thanks for reaching out to us. We are always happy to help. Send us a DM so we can look into this together. https://t.co/GDrqU22YpT,,119294
+119294,105849,True,Wed Oct 11 07:03:47 +0000 2017,"Took my phone off charge at 7:20am.
+
+8:03am - 60% battery remaining.
+
+@76099 plz I beg you, sort your battery life out😩",119293,
+119295,SouthwestAir,False,Wed Oct 11 13:39:32 +0000 2017,"@105850 Once the points load and you hit the number, you get it immediately! You'll even receive a congrats email. Are you almost there? ^AC",119296,119297
+119296,105850,True,Wed Oct 11 13:55:48 +0000 2017,@SouthwestAir I am! Thank you for the answer!!,,119295
+119297,105850,True,Wed Oct 11 13:34:46 +0000 2017,@southwestair Just curious....will I get the companion pass the exact moment I get enough points? It will I have to wait? Thanks!,119295,
+119298,AppleSupport,False,Wed Oct 11 13:34:00 +0000 2017,@105851 We'd like to provide some assistance with this. Tell us more about the issue you're experiencing in DM. We'll go from there. https://t.co/GDrqU22YpT,,119299
+119299,105851,True,Wed Oct 11 07:16:18 +0000 2017,@AppleSupport I need a new code for my I-store. I haven’t recd any but msg is too many sent. Help!,119298,
+119300,AppleSupport,False,Wed Oct 11 13:31:27 +0000 2017,"@105852 Are you experiencing an issue with your device? If so, DM us with what's going on. We'll see how we can help from there. https://t.co/GDrqU22YpT",,119301
+119301,105852,True,Wed Oct 11 08:50:14 +0000 2017,@76099 @AppleSupport fix this update. It’s horrible,119300,
+119266,British_Airways,False,Wed Oct 11 13:37:15 +0000 2017,"@105842 I appreciate it's after 15:30 now, so hopefully you will depart very soon. We're sorry for any inconvenience the delay has caused. 2/2 ^JR",119302,119265
+119302,105842,True,Wed Oct 11 13:47:24 +0000 2017,"@British_Airways Thanks for your answer. Response onsite was that Aircraft will not depart today, so rebooking to @105853 with now 4h delay...",119303,119266
+119303,British_Airways,False,Wed Oct 11 16:28:34 +0000 2017,@105842 Very sorry to hear this.  We hope you get everything sorted.   Kind Regards ^Jools,,119302
+119304,Ask_Spectrum,False,Wed Oct 11 13:42:00 +0000 2017,"@105854 I am sorry for the poor experience. Can you please DM the full service address and name on the account, as we ass... https://t.co/JEZhqGdBMd",119305,119306
+119305,105854,True,Wed Oct 11 13:49:52 +0000 2017,@Ask_Spectrum It's just in my yard. I've called 4-5 times in 6 weeks. I'm not a customer but it's pretty tempting. I do have some coaxial,,119304
+119306,105854,True,Wed Oct 11 13:27:49 +0000 2017,@76501 I guess this means free cable for the neighborhood. https://t.co/FBgEE9YXPm,"119304,119307",
+119308,Tesco,False,Wed Oct 11 13:33:07 +0000 2017,"@105855 Hi Thomas, if a colleague believes the person buying alcohol looks under 25, they will be challenged for ID to prove they're of age. - Paige",119309,119310
+119309,105855,True,Wed Oct 11 13:33:43 +0000 2017,@Tesco Maybe hire colleagues who can see?,,119308
+119310,105855,True,Wed Oct 11 13:31:06 +0000 2017,@Tesco The point is if it's enforced they do it properly or they don't. Plus take some common-sense and think does that person look over 18?,119308,119311
+119311,Tesco,False,Wed Oct 11 13:28:34 +0000 2017,"@105855 Hi Thomas, this is correct but this helps our store colleagues judge age and protect them from making underage sales. Amanda","119310,119312",119313
+119313,105855,True,Wed Oct 11 12:29:52 +0000 2017,@Tesco Uk offlicense law is 18. Not 25,119311,119314
+119314,Tesco,False,Wed Oct 11 12:17:02 +0000 2017,"@105855 Hi Thomas, we operate a Think 25 policy at our stores. I'd be flattered to be ID'd. :-) - Helena",119313,119315
+119315,105855,True,Wed Oct 11 12:14:41 +0000 2017,Got id's @Tesco for buying one Adnams Broadside. Is being blind part of the job-spec? I am 35 and 99 kilos.,"119316,119314",
+119317,Tesco,False,Wed Oct 11 13:42:19 +0000 2017,"@105856 Hi there, could you try deleting your cache and cookies and reinstalling the app if using it? This should fix the issue :) - Dani",119318,119319
+119318,105856,True,Wed Oct 11 13:43:09 +0000 2017,@Tesco Will I lose all the shopping I've done if I delete the cache/cookies (not using app)?,119320,119317
+119320,Tesco,False,Wed Oct 11 13:45:00 +0000 2017,"@105856 Hi there, as long as you sign out of your account prior to deleting your cache &amp; cookies, you'll still have a full basket :) Thanks - Mike",119321,119318
+119321,105856,True,Wed Oct 11 13:48:39 +0000 2017,@Tesco Done all that. Still telling me there are no delivery slots whatsoever.,119322,119320
+119322,Tesco,False,Wed Oct 11 13:49:29 +0000 2017,"@105856 Can you DM me your full name, address and email? I'd be happy to look into this further for you :) Thanks - Mike",,119321
+119319,105856,True,Wed Oct 11 13:36:32 +0000 2017,"Hey @Tesco, your website's broken. It's telling me there are no delivery slots for the next 3 weeks, which I find slightly unlikely.",119317,
+119323,AppleSupport,False,Wed Oct 11 13:55:31 +0000 2017,@105857 Is there a particular app that seems to cause these issues more than others? What model iPhone are you using? Join us in DM. https://t.co/GDrqU22YpT,,119324
+119324,105857,True,Wed Oct 11 08:52:14 +0000 2017,@AppleSupport I have the latest version iOS. It started immediately after I updated my phone.,119323,119325
+119325,AppleSupport,False,Wed Oct 11 00:19:34 +0000 2017,@105857 We'd like to help if we can. When did this start happening? Which version of iOS are you running currently?,119324,119326
+119326,105857,True,Tue Oct 10 23:09:08 +0000 2017,My apps stop working without warning and my phone freezes every five minutes! Love the new update @76099!!!!,119325,
+119327,HPSupport,False,Wed Oct 11 13:36:36 +0000 2017,"@105858 Hi Agoura, thanks for tweeting. Please refer to this article: https://t.co/BSsgjZARTc &amp; click the link to reply back. ^Rashmi https://t.co/a2xkfCrUG1",,119328
+119328,105858,True,Wed Oct 11 02:04:50 +0000 2017,@HPSupport Problem with printhead  Serial# TH536D1HN #hpcswus #hpprnt,119327,
+119329,UPSHelp,False,Wed Oct 11 13:56:00 +0000 2017,@105859 UPS has a service called My Choice that will allow your packages to be delivered to UPS Store. ^ML  https://t.co/BPZKndqww1 https://t.co/wKJHDXWGRQ,,119330
+119330,105859,True,Wed Oct 11 13:50:42 +0000 2017,@105860 I wish Amazon had an option of where I can just get it shipped to the ups store so I can avoid a lot of the struggle,119329,119331
+119331,105860,True,Wed Oct 11 13:47:14 +0000 2017,They reschedule my shit for tomorrow https://t.co/RsvZcT982t,119330,
+119332,Tesco,False,Wed Oct 11 13:34:06 +0000 2017,"@105861 Hey Sara, sorry to hear of the issues you are having, can I ask if it's the lay out or just the speed of the website responding? TY - Chris",119333,119334
+119333,105861,True,Wed Oct 11 14:05:18 +0000 2017,@Tesco bit of both - finding the layout cumbersome and when removing an item from faves - getting a huge slowdown. Not keen on the thin green line https://t.co/9281OKEebk,"119335,119336",119332
+119335,Tesco,False,Wed Oct 11 15:38:07 +0000 2017,"@105861 If that doesn't help please DM your full name, address and email including the browser and device so we can log this. Thanks - Lee 2/2",,119333
