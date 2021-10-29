@@ -59,3 +59,8 @@ There are many applications such as :
 * Discriminant analysis is also commonly used by marketers to develop perceptual maps.
 * There are seemingly endless ways to implement discriminant analysis for market research and business purposes.
 
+
+### Refrences :
+* https://www.alchemer.com/resources/blog/discriminant-analysis/
+* https://en.wikipedia.org/wiki/Linear_discriminant_analysis
+* https://online.stat.psu.edu/stat505/lesson/10/10.2
