@@ -34,7 +34,7 @@ We will implement LDA:
 * Objective : To identify different customer segments based on several wine features available. So, the shop owner of Wine shop can recommend wine according to the customer segment.
 * Dataset : Wine.csv
 * Libraris : Pandas, Matplotlib, NumPy
-* Refer DiscriminantAnalysis.ipynb file for more details.
+* Refer [DiscriminantAnalysis.ipynb](https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Discriminant%20Analysis/DiscriminantAnalysis.ipynb) file for more details.
 
 ![Obtained img](https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Discriminant%20Analysis/Images/Screenshot%202021-10-29%2013.19.08.png)
 
