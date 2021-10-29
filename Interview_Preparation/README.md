@@ -65,6 +65,8 @@
   - [OS (Operating System)](./Interview_Preparation/OS%20CheatSheet-Notes.md)
   - [SQL](./SQL%20CheatSheet-Notes.md)
 
+### [:orange_circle: *Books and resources for preparation* :](./Interview_Preparation/Important%20Resources%20and%20Books.md)
+
 
 ***************************************************************
 
@@ -78,7 +80,7 @@
    </table>
 
 
-### Happy Contributions!
+### Happy Contributing!
 
 [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/syedareehaquasar/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/syedareehaquasar/)
