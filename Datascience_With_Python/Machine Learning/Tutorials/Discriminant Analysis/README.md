@@ -35,7 +35,10 @@ We will implement LDA:
 * Dataset : Wine.csv
 * Libraris : Pandas, Matplotlib, NumPy
 * Refer DiscriminantAnalysis.ipynb file for more details.
+
 ![Obtained img](https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Discriminant%20Analysis/Images/Screenshot%202021-10-29%2013.19.08.png)
+
+
 
 ## Applications
 There are many applications such as :
