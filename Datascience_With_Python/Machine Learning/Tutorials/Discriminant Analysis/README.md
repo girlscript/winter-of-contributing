@@ -10,6 +10,8 @@
 
 * It also evaluates the accuracy of the classification.
 
+![Before amd after LDA](https://github.com/HastiSutaria/winter-of-contributing/edit/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Discriminant%20Analysis/Images/Before-LDA-and-after-LDA_)
+
 # Types of Discriminant Analysis
 ## Linear Discriminant Analysis
 Linear Discriminant Analysis is a method of Dimensionality Reduction.This is a technique used in machine learning, statistics and pattern recognition to recognize a linear combination of features which separates or characterizes more than two or two events or objects.
@@ -28,10 +30,11 @@ Gaussian Discriminant Analysis also known as GDA, is used when data can be appro
 
 # Implementation
 We will implement LDA: 
-Objective : To identify different customer segments based on several wine features available. So, the shop owner of Wine shop can recommend wine according to the customer segment.
-Dataset : Wine.csv
-Libraris : Pandas, Matplotlib, NumPy
-Refer DiscriminantAnalysis.ipynb file for more details.
+
+* Objective : To identify different customer segments based on several wine features available. So, the shop owner of Wine shop can recommend wine according to the customer segment.
+* Dataset : Wine.csv
+* Libraris : Pandas, Matplotlib, NumPy
+* Refer DiscriminantAnalysis.ipynb file for more details.
 
 ## Applications
 There are many applications such as :
