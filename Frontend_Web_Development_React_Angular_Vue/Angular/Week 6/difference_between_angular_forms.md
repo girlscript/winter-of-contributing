@@ -17,3 +17,22 @@ Major differences between template driven and reactive forms are as follows:
 |6.      | Minimal component code| More component code and less HTML markup |
 |7.      | Two way data binding(using [(NgModel)] syntax) | No data binding is done (immutable data model preferred by most developers) |
 |8.      | Unit testing is another challenge | Easier unit testing |
+
+## Template driven form 
+These forms are basically useful when adding very basic forms to your apps like a simple email list signup form.
+Simply forms which has basic requirements, with minimal logic needs and might need no scaling in the future.
+
+'''
+javascript 
+import { Component } from '@angular/core';
+@Component({
+  selector: 'app-template-login-details',
+  template: `
+    Email: <input type="text" [(ngModel)]="loginDetails">
+    Password: <input type="password" [(ngModel)]="loginDetails">
+  `
+})
+export class LoginDetailsComponent {
+  loginDetails = '';
+}
+'''
