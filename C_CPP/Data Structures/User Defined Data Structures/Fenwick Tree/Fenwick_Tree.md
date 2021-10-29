@@ -14,8 +14,11 @@ Terminology:
 ## Bit Manipulation Concepts:
 
 - Chain of Responsibilities:
+![image](https://user-images.githubusercontent.com/72400676/139364185-263bbadf-237d-4d01-8f7b-1f3c1e12bae4.png)
 
 - Isolation of L.S.B
+![image](https://user-images.githubusercontent.com/72400676/139364135-1bfc2a26-e9d9-415a-b30c-fe5bec458b3c.png)
+
 
 ## Algorithm:
 
