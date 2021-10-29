@@ -77,7 +77,11 @@ int main()
 
 # Output
 
-![image](https://user-images.githubusercontent.com/71928146/139271542-45b8f284-0d8e-444f-bd62-2ae8527a399a.png)
+Enter size of your array:- 5
+
+Enter elements in your array:- 5 4 10 1 6
+
+Your sorted array is:- 1 4 5 6 10
 
 # Time Complexity
    ### Best Case
