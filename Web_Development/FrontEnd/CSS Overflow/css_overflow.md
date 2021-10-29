@@ -1,11 +1,12 @@
 # CSS : Overflow Property
 
-The overflow property specifies what should happen if content overflows an
-element's box. This property specifies whether to clip content or to add
-scrollbars when an element's content is too big to fit in a specified
-area.
+The overflow property controls what happens to content that breaks outside of its bounds.
+<br>
+<br>
+Example : Imagine a div in which you’ve explicitly set to be 200px wide, but contains an image that is 300px wide. That image will stick out of the div and be visible by default. Whereas if you set the overflow value to hidden, the image will cut off at 200px. 
    
-![text overflow example](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_intro.png)
+![text overflow example](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-image%20example.png)
+
 
 ## CSS Overflow Property Values
 
