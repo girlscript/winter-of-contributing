@@ -22,15 +22,32 @@ Insertion sort is a simple sorting algorithm. In this method we virtually split/
 
 # Working/Algorithm For Insertion Sort
 
-![image](https://user-images.githubusercontent.com/71928146/139216843-237e6b3e-3524-4214-8a6b-6399a58ddd8d.png)
-![image](https://user-images.githubusercontent.com/71928146/139217139-f951bb28-b5cc-4c5a-b005-f666cfa7c180.png)
-![image](https://user-images.githubusercontent.com/71928146/139217377-ef1a6fff-93d1-48b9-92b5-51b8fc4a6e20.png)
-![image](https://user-images.githubusercontent.com/71928146/139217516-514f4af0-fe43-412b-a138-9ab04c17ad31.png)
-![image](https://user-images.githubusercontent.com/71928146/139249486-74cc00a7-8af1-4f76-83f3-1bd4e1a1549c.png)
-![image](https://user-images.githubusercontent.com/71928146/139249619-ec902c42-d12a-49a1-baa7-2097dc88bac7.png)
-![image](https://user-images.githubusercontent.com/71928146/139249736-5cc35596-df89-43f1-9998-5acde19920cd.png)
-![image](https://user-images.githubusercontent.com/71928146/139249852-8ad83337-87ee-4901-a2af-88338411cdec.png)
-![image](https://user-images.githubusercontent.com/71928146/139249962-ff6fec5e-fa9c-4149-b69b-fc8559c0e8e4.png)
+* Here we have our array which is not in sorted form. So to sort it using Insertion Sorting we will divide this array into two parts i.e sorted array/sublist and unsorted array/sublist.
+![image](https://user-images.githubusercontent.com/71928146/139432056-fd231264-e482-4ed6-902b-5db54401e800.png)
+
+* Now we have divided our array. Our 1st element i.e element on 0th index is at sorted side and elements from index number 1 to n-1(n is size of array) i.e 4 are on unsorted side.
+![image](https://user-images.githubusercontent.com/71928146/139432225-15a95a5d-94c2-4b5e-9acb-a35dc3efc658.png)
+
+* Now we will pick elements from unsorted side from index 1 to 4 and then compare it with the element of the sorted side and will place it accordingly at the sorted side.
+![image](https://user-images.githubusercontent.com/71928146/139432650-ca509750-5cf1-4f00-ab3b-0f3a7ed39435.png)
+
+* So first of all pick element on index number 1 i.e 4 and place it in the temp variable. This will create free space at index number 1.
+![image](https://user-images.githubusercontent.com/71928146/139432777-fb59cc35-d53c-49d1-b744-640a32153d75.png)
+
+* Now compare temp value i.e 4 with element at sorted side. 4<5 and we have also on index number 0. So put 4 at index 0 and shift 5 at index 1. Now sorted array size became 2 i.e from index number 0 to 1. 
+![image](https://user-images.githubusercontent.com/71928146/139432933-218d9250-b2de-4d73-9ba4-994cd9171bea.png)
+
+* Now put 10 in temp variable and compare it with 5.
+![image](https://user-images.githubusercontent.com/71928146/139433167-1c3b17a2-4545-4f42-bdd3-3002894aa44f.png)
+
+
+
+
+
+
+
+
+
 
 # Program/Code in cpp
 ~~~
