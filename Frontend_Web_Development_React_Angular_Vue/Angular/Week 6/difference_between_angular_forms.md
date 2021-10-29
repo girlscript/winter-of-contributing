@@ -31,7 +31,7 @@ import { Component } from '@angular/core';
   selector: 'app-template-login-details',
   template: `
     Email: <input type="text" [(ngModel)]="loginDetails">
-    Password: <input type="password" [(ngModel)]="loginDetails">
+   
   `
 })
 export class LoginDetailsComponent {
