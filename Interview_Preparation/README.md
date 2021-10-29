@@ -65,7 +65,7 @@
   - [OS (Operating System)](./Interview_Preparation/OS%20CheatSheet-Notes.md)
   - [SQL](./SQL%20CheatSheet-Notes.md)
 
-### [:orange_circle: *Books and resources for preparation* :](./Interview_Preparation/Important%20Resources%20and%20Books.md)
+### [:orange_circle: *Resources/Guide for preparation*](./Interview_Preparation/Important%20Resources%20and%20Books.md)
 
 
 ***************************************************************
