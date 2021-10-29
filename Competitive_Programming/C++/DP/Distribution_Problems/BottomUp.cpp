@@ -1,9 +1,10 @@
-//--// There are N people and there is shop where there are C candies. An i_th person will but C_i 
-//chocolates and will give R_i money to shopkeeper.
-// There are some friends. You are given M pairs of friends where (x,y) means x and y are friends.
-// They are weird and if the person P buys candies then none of his friends 
-//(direct/indirect) friends should not buy candies.
-// Maximize the amount of money shopkeeper could earn
+// There are N people in a shop having C candies. 
+// The i-th person will but Ci candies 
+// and will pay Ri money for it to the shopkeeper. 
+// You are also given M pairs of friends where a pair (x,y) 
+// means x and y are friends. The friends have a rule that 
+// if the person Q buys candies then none of Q's friends (direct or indirect) 
+// can buy candies. Maximize the amount of money the shopkeeper can earn.
 
 #include<bits/stdc++.h>
 using namespace std;

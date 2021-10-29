@@ -1,6 +1,7 @@
-//--// There are two friends and there are N packets where i_th packet contains A_i amount of chocolates.
-// Each packet should be given to either 1 or 2.
-// Find the minimum difference of chocolate between two.friends
+// There are two friends and there are N packets,
+// where i_th packet contains A_i amount of chocolates.
+// Each packet should be given to exactly one of the friends. 
+// Find the minimum difference between the number of chocolates of the two friends.
 
 #include<bits/stdc++.h>
 using namespace std;
