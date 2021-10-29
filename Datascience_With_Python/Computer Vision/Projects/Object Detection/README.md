@@ -68,6 +68,6 @@ So to summarize, object detection can impact our life in a more positive way tha
 ### Refer the [Object-Detection](https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/obj_detection.ipynb) file for hands on experience. 
 
 # References :
-https://towardsdatascience.com/
-https://www.geeksforgeeks.org/detect-an-object-with-opencv-python/
+* https://towardsdatascience.com/
+* https://www.geeksforgeeks.org/detect-an-object-with-opencv-python/
 
