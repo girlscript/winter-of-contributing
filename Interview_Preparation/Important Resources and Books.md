@@ -47,7 +47,7 @@ In this particular round, the candidates have to solve 3-4 questions based on Da
 
 # Round 2: Technical Round or AA Round
 
-STEP 1:Learn development from here-
+<i> If the role is of developer here are some resources for development- </i>
 
 ### Video resource [available on youtube]
 
@@ -68,7 +68,7 @@ STEP 1:Learn development from here-
 * [freecodecamp](https://www.freecodecamp.org/)
 * [pyhtoncoder 2.0](https://www.python.org/download/releases/2.0/)
 
-STEP 2: Make projects-
+<i> Work on projects to present facts and figures and to get hands-on experience - </i>
  
 ### Take project ideas from here:
  
@@ -76,7 +76,7 @@ STEP 2: Make projects-
 * [crio.do](https://www.crio.do/)
 * [freecodecamp](https://www.freecodecamp.org/)
 
-STEP 3: projets you can host here-
+<i> Domains/ websites you can use for hosting projects: </i>
  
 ### For frontend:
  
@@ -93,7 +93,7 @@ STEP 3: projets you can host here-
 * [azure](https://azure.microsoft.com/en-in/free/search/?&ef_id=Cj0KCQjw8eOLBhC1ARIsAOzx5cGH2EG54v-UuuHZ-o308g6IKOOyUuDd9xI3VPct41evtUjnDWqv8O8aAqNWEALw_wcB:G:s&OCID=AID2200195_SEM_Cj0KCQjw8eOLBhC1ARIsAOzx5cGH2EG54v-UuuHZ-o308g6IKOOyUuDd9xI3VPct41evtUjnDWqv8O8aAqNWEALw_wcB:G:s&gclid=Cj0KCQjw8eOLBhC1ARIsAOzx5cGH2EG54v-UuuHZ-o308g6IKOOyUuDd9xI3VPct41evtUjnDWqv8O8aAqNWEALw_wcB)
 * [aws](https://aws.amazon.com/free/?trk=ps_a134p000003yhlXAAQ&trkCampaign=acq_paid_search_brand&sc_channel=ps&sc_campaign=acquisition_IN&sc_publisher=google&sc_category=core-main&sc_country=IN&sc_geo=APAC&sc_outcome=Acquisition&sc_detail=aws&sc_content=Brand_Core_aws_e&sc_matchtype=e&sc_segment=453325184782&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Core-Main|Core|IN|EN|Text&s_kwcid=AL!4422!3!453325184782!e!!g!!aws&ef_id=Cj0KCQjw8eOLBhC1ARIsAOzx5cHytZDCf-UDp7CtbWeUqm1Z2TuItEMKadgHlmwmj-bqBADPBD31cq4aAjIjEALw_wcB:G:s&s_kwcid=AL!4422!3!453325184782!e!!g!!aws&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
 
- STEP 4: participating in a hackathon and open source projects-
+<i> Bonus - participating in a hackathon and open source projects- </i>
  
 ### plateform where hackathon hosted:
  
