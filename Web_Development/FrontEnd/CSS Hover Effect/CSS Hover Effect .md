@@ -47,9 +47,9 @@ h1:hover{
 }
 ```
 ### 👉🏽Example for visited , active , hover link
-`:active`: Changes when we click on the link<br/>
-`:hover`: Changes when we hover on the link<br/>
-`:visited`: Changes when once we visit the link<br/>
+`:active`: Changes when we click on the link (Yellow color as per example)<br/>
+`:hover`: Changes when we hover on the link (Red color as per example)<br/>
+`:visited`: Changes when once we visit the link (Green color as per example)<br/>
 [![Screenshot 2021-10-28 at 11.38.13 PM.png](https://www.dropbox.com/s/xs5kk9q8hxh35uk/Screenshot%202021-10-28%20at%2011.38.13%20PM.png?dl=0&raw=1)](https://drive.google.com/file/d/1ca8DK-n9v5yx1RVpz7Xiv7NfS8hfLo5X/view?usp=sharing)
 #### 👉🏽HTML File
 ```
