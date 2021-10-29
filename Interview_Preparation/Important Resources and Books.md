@@ -3,7 +3,7 @@
 **For any interview these are some common steps:**
 
 1. Resume Screening
->In this round basically the resume of the applicants is reviewed and accordingly the shortlisting happens. 
+>In this round the resume of the applicants is reviewed and accordingly the shortlisting happens. 
 Apart from skills and projects a strong resume includes a good amount of Internship experience, at least one Volunteer Experience and Additional Certifications with some achievement are a must.
 
 2. Technical  Interview
@@ -15,12 +15,12 @@ Apart from skills and projects a strong resume includes a good amount of Interns
 
 4. HR Round Interview
 >HR Round( "takes 1 hours")
-quetion based on Technical, Resume Based, Situation-Based Behavioural questions, Guesstimates, Puzzles and cs core fundamentals.
+question-based on Technical, Resume Based, Situation-Based Behavioural questions, Guesstimates, Puzzles, and cs core fundamentals.
 
 
-# Round 1: Dsa rouund
+# Round 1: Dsa round
 
-In this particular round the candidates have to slove 3-4 que based on Data Structures and Algorithms.Quetions level depends on company to company.
+In this particular round, the candidates have to solve 3-4 questions based on Data Structures and Algorithms. Question level depends on company to company.
 
 ### Video Resource [available on youtube]
 * [CodeWithHarry](https://www.youtube.com/c/CodeWithHarry)
@@ -45,7 +45,7 @@ In this particular round the candidates have to slove 3-4 que based on Data Stru
 * [leetcode](https://leetcode.com/)
 * [gfg](https://www.geeksforgeeks.org/)
 
-# Round 2: Technincal Round or AA Round
+# Round 2: Technical Round or AA Round
 
 STEP 1:Learn development from here-
 
@@ -59,7 +59,7 @@ STEP 1:Learn development from here-
 * [twowaits](https://www.youtube.com/c/Twowaits)
 * [code step by step](https://www.youtube.com/channel/UCvHX2bCZG2m9ddUhwxudKYA)
 
-### Documentary resource [Available On internet]
+### Doccumentary resource [Available On internet]
  
 * [Stack overflow community](https://stackoverflow.com/)
 * [W3school website](https://www.w3schools.com/)
@@ -78,7 +78,7 @@ STEP 2: Make projects-
 
 STEP 3: projets you can host here-
  
-### For fronted:
+### For frontend:
  
 * [firebase](https://firebase.google.com/)
 * [Netlify](https://www.netlify.com/)
@@ -93,7 +93,7 @@ STEP 3: projets you can host here-
 * [azure](https://azure.microsoft.com/en-in/free/search/?&ef_id=Cj0KCQjw8eOLBhC1ARIsAOzx5cGH2EG54v-UuuHZ-o308g6IKOOyUuDd9xI3VPct41evtUjnDWqv8O8aAqNWEALw_wcB:G:s&OCID=AID2200195_SEM_Cj0KCQjw8eOLBhC1ARIsAOzx5cGH2EG54v-UuuHZ-o308g6IKOOyUuDd9xI3VPct41evtUjnDWqv8O8aAqNWEALw_wcB:G:s&gclid=Cj0KCQjw8eOLBhC1ARIsAOzx5cGH2EG54v-UuuHZ-o308g6IKOOyUuDd9xI3VPct41evtUjnDWqv8O8aAqNWEALw_wcB)
 * [aws](https://aws.amazon.com/free/?trk=ps_a134p000003yhlXAAQ&trkCampaign=acq_paid_search_brand&sc_channel=ps&sc_campaign=acquisition_IN&sc_publisher=google&sc_category=core-main&sc_country=IN&sc_geo=APAC&sc_outcome=Acquisition&sc_detail=aws&sc_content=Brand_Core_aws_e&sc_matchtype=e&sc_segment=453325184782&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Core-Main|Core|IN|EN|Text&s_kwcid=AL!4422!3!453325184782!e!!g!!aws&ef_id=Cj0KCQjw8eOLBhC1ARIsAOzx5cHytZDCf-UDp7CtbWeUqm1Z2TuItEMKadgHlmwmj-bqBADPBD31cq4aAjIjEALw_wcB:G:s&s_kwcid=AL!4422!3!453325184782!e!!g!!aws&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all)
 
- STEP 4: participating on hackathon and open source projects-
+ STEP 4: participating in a hackathon and open source projects-
  
 ### plateform where hackathon hosted:
  
@@ -113,16 +113,16 @@ STEP 3: projets you can host here-
 
 # Round 3: HR round or Final round
  
-This is the final round in which interviewer can ask you anything regarding your resume or cs core subjects.
+This is the final round in which the interviewer can ask you anything regarding your resume or cs core subjects.
 
-* Data Structures and Algorithms oops, dbms, Operating system, Networking system, Software Engineering, SQL queries, Linux command and git command: [**Tutorialpoint website**](https://www.tutorialspoint.com/index.htm)
+* Data Structures and Algorithms oops, DBMS, Operating system, Networking system, Software Engineering, SQL queries, Linux command, and git command: [**Tutorialpoint website**](https://www.tutorialspoint.com/index.htm)
 * Apitude quetions practice on: [**Indiabix website**](https://www.indiabix.com/)
 
 
 *********************************************************************************************************************************************************************************
->After completing all 4 step which is mentiooned above than:
-* Have a final look on previous year interview experiences on : [**gfg**](https://www.geeksforgeeks.org/) and [**interview bit**](https://www.interviewbit.com/)
-* Solve  more quetions of dsa on : [**algoexpoet.io**](https://www.algoexpert.io/product?r=ads&gclid=CjwKCAjw_L6LBhBbEiwA4c46upPgWbQqBKOck5JylFyiHE2G0uenJ6AuIkJW8vzrrUSjqZtbT62uBBoCTOEQAvD_BwE)
+>After completing all 4 steps which are mentioned above then:
+* Have a final look at previous year interview experiences on [**gfg**](https://www.geeksforgeeks.org/) and [**interview bit**](https://www.interviewbit.com/)
+* Solve  more questions of dsa on [**algoexpoet.io**](https://www.algoexpert.io/product?r=ads&gclid=CjwKCAjw_L6LBhBbEiwA4c46upPgWbQqBKOck5JylFyiHE2G0uenJ6AuIkJW8vzrrUSjqZtbT62uBBoCTOEQAvD_BwE)
 
 
 
