@@ -111,15 +111,15 @@ Your sorted array is:- 1 4 5 6 10
 
 # Time Complexity
    ### Best Case
-   When the array is already sorted (in ascending order)
-   
    O(n)
+   
+   eg:- When the array is already sorted (in ascending order)
    ### Average Case
    O(n^2)
    ### Worst Case
-   When the array is reversly sorted (in descending order)
-   
    O(n^2)
+   
+   eg:- When the array is reversly sorted (in descending order)
   
 # Space Complexity
 O(1)
