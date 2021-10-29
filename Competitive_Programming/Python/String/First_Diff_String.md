@@ -14,11 +14,11 @@ In the below program:
 4. If two strings are equal, then it returns -1.
 5. Otherwise the code executes as shown below,
 ~~~py
-	If the length of two strings is equal, then apply below code
+	#If the length of two strings is equal, then apply below code
 		if s1[i]!=s2[i]:
 			return (i+1)   
-	Otherwise,
-		If the length of s1 is less than s2, then apply code
+	#Otherwise,
+		#If the length of s1 is less than s2, then apply code
 			while(i<len(s1)):
 				if(s1[i]!=s2[i]):
 					flag=1
@@ -26,7 +26,7 @@ In the below program:
 				i=i+1
 			if(flag==0):
 				return(i+1)
-		Otherwise,
+		#Otherwise,
 			while(i<len(s2)):
 				if(s2[i]!=s1[i]):
 					flag=1
@@ -80,28 +80,27 @@ In the below program:
 		else:		#Strings are not equal, returns the location
 			print("-first difference occurs at location :",x)
 ~~~
-~~~py
-	Enter the number of pairs of strings:5
-	Enter string 1: apple
-	Enter string 2: apple
-	-strings are identical
-	Enter string 1: app
-	Enter string 2: apple
-	-first difference occurs at location : 4
-	Enter string 1: apple
-	Enter string 2: app
-	-first difference occurs at location : 4
-	Enter string 1: aeple
-	Enter string 2: apple
-	-first difference occurs at location : 2
-	Enter string 1: apple
-	Enter string 2: aeple
-	-first difference occurs at location : 2
-~~~
+#### Input/Output:  
+
+*Enter the number of pairs of strings:* 5  
+*Enter string 1:* apple  
+*Enter string 2:* apple  
+-strings are identical  
+*Enter string 1:* app  
+*Enter string 2:* apple  
+-first difference occurs at location : 4  
+*Enter string 1:* apple  
+*Enter string 2:* app  
+-first difference occurs at location : 4  
+*Enter string 1:* aeple  
+*Enter string 2:* apple  
+-first difference occurs at location : 2  
+*Enter string 1:* apple  
+*Enter string 2:* aeple  
+-first difference occurs at location : 2
 ### Time Complexity:
 Here time complexity is ***O(n)***.
 ### Space Complexity:
 Here space complexity is ***O(n)*** i.e. Linear Complexity.
 ### Conclusion:
 For given two strings, The location at which the difference occurs is found and displayed to user.
-
