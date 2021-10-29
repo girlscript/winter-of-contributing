@@ -101,5 +101,5 @@ int main(){
 
 ```
 
-## OUTPUT
+### OUTPUT
 9
