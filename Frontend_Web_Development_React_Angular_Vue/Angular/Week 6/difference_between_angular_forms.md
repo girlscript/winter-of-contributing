@@ -25,7 +25,7 @@ Simply forms which has basic requirements, with minimal logic needs and might ne
 * Example mentioned below is the simple login details form.
 
 ```
-javascript 
+
 import { Component } from '@angular/core';
 @Component({
   selector: 'app-template-login-details',
@@ -45,7 +45,7 @@ If forms are a key part of your application, or you’re already using reactive 
 * Below mentioned block is an example of reactive form for employee details. The sample attributes are employee name and department name. Since the department of an employee is not fixed in a company we prioritize Reactive form over template driven form.
 
 ```
-javascript
+
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 @Component({
