@@ -16,6 +16,27 @@ Given weights and values of n items, put these items in a knapsack of capacity W
 **Description:** 
 Given two integer arrays *val[0..n-1]* and *wt[0..n-1]* representing values and weights associated with *n* items respectively and an integer *W* representing capacity of the sack, calculate the maximum valued subset of *val[]* wherein sum of the weights of items corresponding to this subset is no more than W.
 
+**Input Format:** 
+First line contains the number of objects.
+Second line has the capacity of the knapsack.
+Third line contains *n* space seperated integers denoting values of objects.
+Last line contains *n* space seperated integers denoting weights of objects.
+
+**Output Format:** 
+Single line of output contains the maximum sum of object values that can be accomodated in the knapsack.
+
+**Example Input and Output:** 
+```
+3
+50
+60 100 120
+10 20 30
+```
+
+```
+220
+```
+
 **Code:**
 ```
 
@@ -87,7 +108,31 @@ This problem will depict a bottom up manner of constructing the DP table as we w
 **Problem Statement:**
 There are *N* people in a shop having *C* candies. The *i*<sub>th</sub> person will but *C*<sub>i</sub> candies and will pay *R*<sub>i</sub> money for it to the shopkeeper. You are also given *M* pairs of friends where a pair *(x,y)* means *x* and *y* are friends. The friends have a rule that if the person *Q* buys candies then none of *Q*'s friends (direct or indirect) can buy candies. Maximize the amount of money the shopkeeper can earn.
 
-**Explanation:**
+**Input Format:** 
+First line contains the number of candies and number of friends seperated by a space.
+Next line contains *n* space seperated integers denoting candies that can be bought by each person.
+Following line contains *n* space seperated integers denoting price that will be paid by each person.
+Fourth line contains an integer *m* denoting the number of pairs of friends.
+
+Then follow *m* lines containing 2 space seperated integers *x* and *y* each denoting that *x* and *y* are friends.
+
+**Output Format:** 
+Single line of output contains the maximum amount the shopkeeper can earn.
+
+**Example Input and Output:** 
+```
+3 4
+1 2 3
+2 3 4
+1
+1 2
+```
+
+```
+6
+```
+
+**Approach Explanation:**
 As direct and indirect friends of an individual can't buy candies if the individual has already bought them, we need to find out such friend circles from which only a single person will be able to purchase candies. For estabilishing this we find the number of connected componentsin the graph resulting from the given pair of friends before applying the knapsack approach.
 
 Relating to the knapsack:
@@ -105,7 +150,24 @@ This problem will depict a top down manner of constructing the DP table, as we w
 **Problem Statement:**
 There are two friends and there are *n* packets where the *i*<sub>th</sub> packet contains *A*<sub>i</sub> amount of chocolates. Each packet should be given to exactly one of the friends. Find the minimum difference between the number of chocolates of the two friends.
 
-**Explanation:**
+**Input Format:** 
+First line contains the number of packets.
+Second line has *n* space seperated integers denoting number of chocolates in each packet.
+
+**Output Format:** 
+Single line of output contains the minimum difference between number of chocolates possessed by each friend.
+
+**Example Input and Output:** 
+```
+3
+10 19 30
+```
+
+```
+1
+```
+
+**Approach Explanation:**
 We assign the packets to only one of the friends. Because once we know which packets the first friend has, those with the second friend are known without needing to be found out seperately. 
 
 Number of packets from 0 to *n* will be our first parameter of the DP table and sum of chocolates (which is analogous to weights in knapsack) will be the second. Here on finding a number of chocolates that is attainable within the first *i* packets, we consider two possibilities for the *i+1*<sub>th</sub> packet as follows:

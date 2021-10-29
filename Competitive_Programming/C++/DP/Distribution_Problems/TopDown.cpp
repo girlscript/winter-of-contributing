@@ -14,25 +14,38 @@ using namespace std;
 #define mp_ make_pair
 
 void solve() {
-    int n, su=0, ans=mod;
+    int n, su=0, ans=mod; //su=total number of chocolates, n=number of packets of chocolates
+                          //ans=minimum difference between friends' chocolates
+
     cin>>n;
-    int a[n];
+    int a[n]; //a[i]=number of chocolates in the i-th packet
+
     for(int i=0; i<n; i++) {
         cin>>a[i];
         su+=a[i];
     }
-    int mat[su+1][n+1];
+    int mat[su+1][n+1]; //mat[i][j] depicts that the first friend has i chocolates
+                        //considering he can only have packets from among the first j packets
+
     for(int i=0; i<su+1; i++) {
+
+        //initially consider all cases to not be feasible
         for(int j=0; j<=n; j++) {
             mat[i][j]=0;
         }
     }
-    mat[0][0]=1;
+    mat[0][0]=1; //first friend has 0 chocolates considering first 0 packets only 
+                 //is possible
+
     for(int i=0; i<=su; i++) {
         for(int j=0; j<=n; j++) {
+
+            //if having i chocolates considering first j packets is possible then
+            //having i chocolates considering first j+1 packets will also be possible
             if(mat[i][j]) {
                 int temp=su-i;
-                ans=min(ans, abs(temp-i));
+                ans=min(ans, abs(temp-i)); //pick the minimum difference obtained so far
+
                 if(i+a[j]<=su && j<n) mat[i+a[j]][j+1]=1;
                 if(j<n) mat[i][j+1]=1;
             }
@@ -45,8 +58,11 @@ int32_t main()
 {
     _z; //Fast io
     int t=1; //Initialize number of test cases as 1
+
     //cin>>t;  // Use in case of multiple test cases
+
     while(t--) {
+
         solve(); //Call utility function for each test case
     }
 }
