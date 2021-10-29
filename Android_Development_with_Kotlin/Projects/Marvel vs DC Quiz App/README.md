@@ -462,6 +462,7 @@ I would encourage you to design your own UI cause mine is not good and you will 
 Though I would recommend you to just take all the drawables file from res>drawables and copy it into your drawables folder.
 
 # Screenshots
+
 <p align = "left">
 <img src="https://user-images.githubusercontent.com/59731205/138231597-cefc4a27-3d9f-4dec-80ab-f43a344b95ae.png" width ="200">
 <img src="https://user-images.githubusercontent.com/59731205/138231899-214c5c29-2136-4826-a974-3be096ff750c.png" width ="200">
