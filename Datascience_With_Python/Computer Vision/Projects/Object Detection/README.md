@@ -5,7 +5,8 @@
 -> Image recognition assigns a label to an image. A picture of a car receives the label “dog”. A picture of two dogs, still receives the label “dog”. 
 -> Object detection, on the other hand, draws a box around each dog and labels the box “dog”. The model predicts where each object is and what label should be applied. In that way, object detection provides more information about an image than recognition.
 
-![difference](https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Images/ssd1Article.jpg)
+<img src="https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Images/ssd1Article.jpg" align = "center" alt="difference" width="400"/>
+
 
 * Object detection can be broken down into machine learning-based approaches and deep learning-based approaches.
 * In more traditional ML-based approaches, computer vision techniques are used to look at various features of an image, such as the color histogram or edges, to identify groups of pixels that may belong to an object. These features are then fed into a regression model that predicts the location of the object along with its label.
@@ -64,7 +65,7 @@ When it comes to object detection, popular detection frameworks are
 # Conclusion
 So to summarize, object detection can impact our life in a more positive way than ever before. I hope the above overview was helpful in understanding the basics of object detection and how it can be used in the real world. 
 
-### Refer the [Object-Detection]() file for hands on experience. 
+### Refer the [Object-Detection](https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/obj_detection.ipynb) file for hands on experience. 
 
 # References :
 https://towardsdatascience.com/
