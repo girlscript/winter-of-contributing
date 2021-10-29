@@ -2,6 +2,7 @@
 
 Angular provides two different approaches to handling user input through forms: reactive and template-driven. Both capture user input events from the view, validate the user input, create a form model and data model to update, and provide a way to track changes. 
 
+
 ## What is the difference between template and reactive forms?
 
 Major differences between template driven and reactive forms are as follows:
@@ -17,6 +18,8 @@ Major differences between template driven and reactive forms are as follows:
 |6.      | Minimal component code| More component code and less HTML markup |
 |7.      | Two way data binding(using [(NgModel)] syntax) | No data binding is done (immutable data model preferred by most developers) |
 |8.      | Unit testing is another challenge | Easier unit testing |
+
+
 
 ## Template driven form 
 These forms are basically useful when adding very basic forms to your apps like a simple email list signup form.
