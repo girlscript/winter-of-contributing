@@ -12,6 +12,11 @@ Example : Imagine a div in which you’ve explicitly set to be 200px wide, but c
 
 The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
 
+![overflow_scroll_and_auto](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-table.png)
+<a href="https://www.javatpoint.com/css-overflow">Reference<a>
+
+
+
 The overflow property has the following values:
 - visible - Default. The overflow is not clipped. The content renders outside the element's box
 - hidden - The overflow is clipped, and the rest of the content will be invisible
