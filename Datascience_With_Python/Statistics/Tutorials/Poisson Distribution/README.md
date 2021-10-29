@@ -1,5 +1,7 @@
 # Data Science with Python: Poisson Distribution #6361
 
+A <b>distribution</b> is a parameterised mathematical function that can be used to calculate the probability for any kind of observation from the sample space.
+
 The <b>Poisson distribution</b> is a discrete probability distribution for the counts of events that occur randomly in a given interval of time (or space). In other words, we can say that a Poisson distribution measures how many times an event is likely to occur within “t” period of time. Poisson distribution is named after the French mathematician <b>Denis Poisson</b>. It is a limiting process of the <b>binomial distribution</b>. 
 
 Let X = The number of events in a given interval.
@@ -53,7 +55,7 @@ There are many applications of the Poisson distribution in many fields -
 1. scipy.stats
 2. numpy
 3. matplotlib.pyplot
-4. seaborn
+4. pandas
 
 ## References :
 
