@@ -45,17 +45,25 @@ requirements and logic that can be managed solely in the template, template-driv
   
 To use reactive forms controls, import necessary modules from the @angular/.... packages.
 ```
-import { TemplateDrivenComponent } from '@angular/forms';
-import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';        //import FormsModule
+ 
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+ 
 @NgModule({
-  imports: [
-    <!-- other imports -->
-    TemplateDrivenComponent
+  declarations: [
+    AppComponent
   ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    FormsModule                    //Add in Imports Array
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
-
 export class AppModule { }
 ```
 
