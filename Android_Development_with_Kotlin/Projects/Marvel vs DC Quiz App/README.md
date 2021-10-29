@@ -66,10 +66,10 @@ So now coming back to the point.
 
 We want to show some parameters on the app like questions , images , options etc.
 
+```
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
-```
 data class Question(
     val id : Int,
     @StringRes val question : Int,
@@ -81,6 +81,46 @@ data class Question(
     val correctAnswer : Int
 )
 ```
+3. Now we will have to create a class which will act as a data source for the app.
+
+In my case it is an object(Singleton) but you can also use normal class for this.
+
+```
+package com.example.quiz_app.data
+
+import com.example.quiz_app.Question.Question
+import com.example.quiz_app.R
+
+object datasource{
+
+const val USER_NAME : String = "user_name"
+const val TOTAL_QUESTIONS: String = "total_ques"
+const val CORRECT_ANSWERS = "correct_answers"
+
+fun getMarvelQuestion(): List<Question>{
+    return listOf<Question>(
+        Question(1, R.string.Mques01, R.drawable.marvelimg01,"2005","2008","2010","2012",2),
+        Question(2, R.string.Mques02, R.drawable.marvelimg02,"Vanir","Mjolnir","Aesir","Norn",2),
+        Question(3, R.string.Mques03, R.drawable.marvelimg03,"That he wants to study The Hulk","That he knows about S.H.I.E.L.D.","That they are putting a team together","That Thaddeus owes him money",3),
+        Question(4, R.string.Mques04, R.drawable.marvelimg04,"Adamantium","Vibranium","Promethium","Carbonadium",2),
+        Question(5, R.string.Mques05, R.drawable.marvelimg05,"Cats","Ducks","Reptiles","Raccoons",1),
+        Question(6, R.string.Mques06, R.drawable.marvelimg06,"H.O.M.E.R.","J.A.R.V.I.S.","A.L.F.R.E.D.","M.A.R.V.I.N.",2),
+        Question(7, R.string.Mques07, R.drawable.marvelimg07,"T’Challa","M’Baku","N’Jadaka","N’Jobu",1),
+        Question(8, R.string.Mques08, R.drawable.marvelimg08,"The Chitauri","The Skrulls","The Kree","The Flerkens",1),
+        Question(9, R.string.Mques09, R.drawable.marvelimg09,"Thor","Loki","The Collector","Tony Stark",2),
+        Question(10, R.string.Mques10, R.drawable.marvelimg10,"On Vormir","In a vault on Asgard","Inside Sif’s sword","To the Collector",4)
+    )}
+}
+```
+
+Now coming to the activity part:
+
+In this app there are 5 Activities. Source code of all the Activities is provided in this repo.
+
+* MainActivity.kt is for handling the _**user input**_ part.
+* MarvelQuestion.kt and DCQuestion.kt are for providing the data to the View Component.
+* SelectTeam.kt is for the user to select his/her team.
+* Result 
 
 <p align = "left">
 <img src="https://user-images.githubusercontent.com/59731205/138231597-cefc4a27-3d9f-4dec-80ab-f43a344b95ae.png" width ="200">
