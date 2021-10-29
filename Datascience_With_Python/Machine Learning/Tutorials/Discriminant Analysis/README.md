@@ -10,7 +10,7 @@
 
 * It also evaluates the accuracy of the classification.
 
-![Before amd after LDA](https://github.com/HastiSutaria/winter-of-contributing/edit/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Discriminant%20Analysis/Images/Before-LDA-and-after-LDA_)
+![Before amd after LDA](https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Tutorials/Discriminant%20Analysis/Images/Before-LDA-and-after-LDA_.jpg)
 
 # Types of Discriminant Analysis
 ## Linear Discriminant Analysis
