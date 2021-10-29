@@ -11,17 +11,17 @@ The biggest reason behind using *Babel* is that all the latest features of JavaS
 - For Windows, if you are finding issue regargind installation of babel and other related package, use [git bash](https://git-scm.com/downloads) instead.
 - For mac, it work just fine
 
-> Step 1 
+* ### Step 1 
 
-#### Create the directory of your project where we are going to test babel in action. I've created mine as *Babel-testing*
+Create the directory of your project where we are going to test babel in action. I've created mine as *Babel-testing*
 
-> Step 2
+* ### Step 2
 
-#### Change the directory to *Bable-testing*
+Change the directory to *Bable-testing*
 
-> Step 3
+* ### Step 3
 
-#### Initialize your repository with npm with code given
+Initialize your repository with npm with code given
 
 ```js
     npm init -y
@@ -29,17 +29,17 @@ The biggest reason behind using *Babel* is that all the latest features of JavaS
 
 This will create a <code>package.json</code> file.
 
-> Step 4
+* ### Step 4
 
-#### Install babel core and babel cli by executing the  code given
+Install babel core and babel cli by executing the  code given
 
 ```js
     npm install --save-dev @babel/core @babel/cli
 ```
 
-> Step 5
+* ### Step 5
 
-#### Create a folder named *src* in the root of your directory. This src folder will contain all your code that is needed to be transpiled.<br>
+Create a folder named *src* in the root of your directory. This src folder will contain all your code that is needed to be transpiled.<br>
 Go to the <code>package.json</code> file and replace your <code>script object with below code</code>
 
 ```js
@@ -50,26 +50,26 @@ Go to the <code>package.json</code> file and replace your <code>script object wi
 
 The above build command will take each and every file present in **src** folder and then transpile it and finally put transpiled files to the destination folder - **dest**
 
-> Step 6
+* ### Step 6
 
-#### Create a file named *script.js* in your *src* folder and write some code. Below is the example of code you can use:
+Create a file named *script.js* in your *src* folder and write some code. Below is the example of code you can use:
 
 ```js
     const a = [1, 2, 3]
     console.log(...a)
 ```
 
-> Step 7
+* ### Step 7
 
-#### Install a preset package of babel by executing below code.
+Install a preset package of babel by executing below code.
 
 ```js
     npm install @babel/preset-env --save-dev
 ```
 
-> Step 8
+* ### Step 8
 
-#### Create a file named *babel.config.json* in the root of your directory which will tell the babel what we want to do (here transpile). Write the below code to the same file:
+Create a file named *babel.config.json* in the root of your directory which will tell the babel what we want to do (here transpile). Write the below code to the same file:
 
 ```js
     {
@@ -77,19 +77,19 @@ The above build command will take each and every file present in **src** folder 
     }
 ```
 
-> Step 9
+* ### Step 9
 
-#### Phew! We have done so many work but haven't got the result what we are trying to do. So it's time to get exact transpiled code as a result to this messy work. For this, execute the code given
+Phew! We have done so many work but haven't got the result what we are trying to do. So it's time to get exact transpiled code as a result to this messy work. For this, execute the code given
 
 ```js
     npm run build
 ```
 
-> Step 10
+* ### Step 10
 
-#### Finally, we have done it! All the files present inside src folder get transpiled and it can be visible in *dest* folder that have been created by **Babel**. <br>
+Finally, we have done it! All the files present inside src folder get transpiled and it can be visible in *dest* folder that have been created by **Babel**. <br>
 
-#### You can write anything inside the file in *src* folder and babel will transpile it and send the output in *dest* folder.
+You can write anything inside the file in *src* folder and babel will transpile it and send the output in *dest* folder.
 
 
 For now, your code in *dext/script.js* should like below code which is supported by every browser :
