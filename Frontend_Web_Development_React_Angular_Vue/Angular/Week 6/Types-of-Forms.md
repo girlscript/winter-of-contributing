@@ -17,7 +17,7 @@ Angular provides two different approaches to handling user input through forms: 
 Reactive forms are forms where we define the structure of the form in the component class. Reactive Forms is created inside component class 
 so it is also referred as model driven forms. Every form control will have an object in the component and this provides greater control and 
 flexibility in the form programming. Reactive Form is based on structured data model.Compared to template-driven forms, they are more robust: they're more 
-scalable, reusable, and testable.
+scalable, reusable, and testable. 
 
 To use reactive forms controls, import necessary modules from the @angular/.... packages.
 ```
