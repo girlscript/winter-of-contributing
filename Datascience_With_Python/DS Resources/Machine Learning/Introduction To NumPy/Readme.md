@@ -2,7 +2,22 @@
 
 ## Description 📜
 
-Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. 
+Topic: Data Science with Python : INTRODUCTION TO  NUMPY#3<Br>
+ 
+<h2>  Video Link:<a href ="https://drive.google.com/file/d/1T4sMIwsXHV50xifCZBXf9ABZxMvQP-zZ/view?usp=sharing" > INTRODUCTION TO NUMPY<a></h2><br>
+What is NumPY?<br>
+NumPy is a core Python Library
+NumPy is the fundamental package for scientific computing in Python.
+It has large collection of high level mathematical functions to operate on arrays.<br>
+<br>
+Where is it used?
+We can create a multi dimensional arrays in NumP
+We can perform Mathematical Operations using NumPy 
+NumPy is used for scientific calculations.
+
+<br>
+
+
 Fixes #issue_number_here 
 
 <hr>
@@ -69,3 +84,4 @@ Fixes #issue_number_here
 ## Screenshots / Gif (Optional) 📸
 
 <hr>
+
