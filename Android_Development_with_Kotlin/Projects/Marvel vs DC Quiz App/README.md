@@ -37,7 +37,30 @@ Also if your app contains any image then store it in Drawables folder.
 
 In my case I have stored all the questions in the strings.xml file.
 
-2. Now you will have to create a blueprint of what
+2. Now you will have to create a blueprint of what you want to show in your app.
+
+In my case screen contains one Question at a time.
+
+So we will make a Questions data class which will hold the information about what we want to show.
+
+> **Data class:** The soul purpose of a data class is to hold data . It is also far more suitable for handling data than a normal class. For example ->
+```
+data class Person(val name: String, val age: Int)
+
+fun task6(): List<Person> {
+    return listOf(Person("Alice", 29), Person("Bob", 31))
+}
+```
+Result: `[Person(name=Alice, age=29), Person(name=Bob, age=31)]`
+
+```
+class Person(val name: String, val age: Int)
+
+fun task6(): List<Person> {
+    return listOf(Person("Alice", 29), Person("Bob", 31))
+}
+```
+Result: `[i_introduction._6_Data_Classes.Person@4f47d241, i_introduction._6_Data_Classes.Person@4c3e4790]`
 
 
 <p align = "left">
