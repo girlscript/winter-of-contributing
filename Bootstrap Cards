@@ -6,7 +6,7 @@ A basic bootstrap card is created with the .card class, and content inside the c
 Example Code:
 
 <div class="card">
-  <div class="card-body">This is a basic</div>
+  <div class="card-body">This is a basic Card</div>
 </div>
 
 Header and Footer
@@ -80,10 +80,10 @@ Code:
   
   Bootstrap cards can vary in different shapes and sizes with innumerable styles which can be designed in any form.They privide systematic way of representing data in shorter bolder way.
   We see Bootstrap cards in:
-  Fasion industry sites
+  Fashion industry websites
   Portfolios
-  Educational sites
-  Job sites
+  Educational websites
+  Job websites with peoples' CVs
   
   
   
