@@ -28,9 +28,20 @@ Canonical Discriminant Analysis is a method of dimension-reduction liked with Ca
 ## Gaussian Discriminant Analysis
 Gaussian Discriminant Analysis also known as GDA, is used when data can be approximated with normal distribution. Two variables are mean and standard deviations are important while computing this type of analysis.
 
-# Implementation
-We will implement LDA: 
+# Adavantages
+* It generates helpful plots, especially a territorial map, to aid analysis.
+* It still offers the opportunity for classifying cases that are "ungrouped" on the dependent variable.
+* Discriminant analysis can be leveraged to determine which predictor variables are related to the dependant variable, as well as to predict the value of the dependent variable based on the values of the predictor variables. 
+* It identifies the degree to which objects adhere to the specifications of certain groups.
 
+# Disadvantages
+* Fixed K (the number of topics is fixed and must be known ahead of time)
+* Non-hierarchical (in data-limited regimes hierarchical models allow sharing of data)
+* Unsupervised (sometimes weak supervision is desirable, e.g. in sentiment analysis)
+
+# Implementation
+
+* We will see the wine recommendation system by Wine shop owner.
 * Objective : To identify different customer segments based on several wine features available. So, the shop owner of Wine shop can recommend wine according to the customer segment.
 * Dataset : Wine.csv
 * Libraris : Pandas, Matplotlib, NumPy
@@ -45,4 +56,6 @@ There are many applications such as :
 * It can be used to know whether heavy, medium and light users of soft drinks are different in terms of their consumption of frozen foods. 
 * In the field of psychology, it can be used to differentiate between the price sensitive and non price sensitive buyers of groceries in terms of their psychological attributes or characteristics. 
 * In the field of business, it can be used to understand the characteristics or the attributes of a customer possessing store loyalty and a customer who does not have store loyalty.
-* We will see the wine recommendation system by Wine shop owner.
+* Discriminant analysis is also commonly used by marketers to develop perceptual maps.
+* There are seemingly endless ways to implement discriminant analysis for market research and business purposes.
+
