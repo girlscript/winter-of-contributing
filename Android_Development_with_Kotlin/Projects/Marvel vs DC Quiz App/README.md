@@ -471,6 +471,5 @@ Though I would recommend you to just take all the drawables file from res>drawab
 
 [video1](https://user-images.githubusercontent.com/59731205/138166675-6a914fb7-daad-4346-8ca3-aa25bcbafb33.mp4)
 
-https://user-images.githubusercontent.com/59731205/138167517-0f1b2276-b4d7-4bfa-ab63-67a834defb8d.mp4
 
 
