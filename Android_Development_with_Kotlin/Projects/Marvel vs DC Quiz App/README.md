@@ -120,7 +120,7 @@ In this app there are 5 Activities. Source code of all the Activities is provide
 * MainActivity.kt is for handling the _**user input**_ part.
 * MarvelQuestion.kt and DCQuestion.kt are for providing the data to the View Component.
 * SelectTeam.kt is for the user to select his/her team.
-* Result 
+* Result
 
 <p align = "left">
 <img src="https://user-images.githubusercontent.com/59731205/138231597-cefc4a27-3d9f-4dec-80ab-f43a344b95ae.png" width ="200">
