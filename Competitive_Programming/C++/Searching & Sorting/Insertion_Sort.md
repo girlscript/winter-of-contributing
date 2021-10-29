@@ -40,14 +40,23 @@ Insertion sort is a simple sorting algorithm. In this method we virtually split/
 * Now put 10 in temp variable and compare it with 5.
 ![image](https://user-images.githubusercontent.com/71928146/139433167-1c3b17a2-4545-4f42-bdd3-3002894aa44f.png)
 
+* 10>5 so it means 10 will be at same position i.e on index number 2 and size of sorted array became 3 i.e from 0 to 2.  
+![image](https://user-images.githubusercontent.com/71928146/139433413-ba3229c5-4691-4dfa-9d83-3d3c3e9b5c73.png)
 
+* Now put 1 in temp variable and compare it with 10. !
+![image](https://user-images.githubusercontent.com/71928146/139433680-eb178229-6220-458c-b10a-cf822da17ca5.png)
 
+* 1<10 so now 10 will go to index number 3 and index becomes empty.
+![image](https://user-images.githubusercontent.com/71928146/139433776-b0d68ad1-9494-4128-b1c3-871151b9f9d3.png)
 
+* Now compare 1 with 5. 1<5 so move 5 to index number 2 and index 1 becomes empty.
+![image](https://user-images.githubusercontent.com/71928146/139433874-f8f67e45-1e48-4f3d-b8f5-d353d094fa4a.png)
 
+* Now compare 1 with 4. 1<4 so move 4 to index number 1 and also we have checked last element of sorted array i.e we have reached to the 0th index so now put 1 from temp and index number 0 and now our sorted array becomes of size 4 i.e from index number 0 to 3.
+![image](https://user-images.githubusercontent.com/71928146/139434085-75c73a17-c91a-4bda-ac98-468654b993bb.png)
 
-
-
-
+* Now same procedure will be there for element 6 which is on index number 4 and at last we will have our sorted array only.
+![image](https://user-images.githubusercontent.com/71928146/139434306-85492bf1-7391-4d51-bb5c-af85ba5d0e56.png)
 
 # Program/Code in cpp
 ~~~
