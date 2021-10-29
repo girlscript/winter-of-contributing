@@ -22,7 +22,7 @@ Major differences between template driven and reactive forms are as follows:
 These forms are basically useful when adding very basic forms to your apps like a simple email list signup form.
 Simply forms which has basic requirements, with minimal logic needs and might need no scaling in the future.
 
-'''
+```
 javascript 
 import { Component } from '@angular/core';
 @Component({
@@ -35,4 +35,4 @@ import { Component } from '@angular/core';
 export class LoginDetailsComponent {
   loginDetails = '';
 }
-'''
+```
