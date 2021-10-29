@@ -62,6 +62,25 @@ fun task6(): List<Person> {
 ```
 Result: `[i_introduction._6_Data_Classes.Person@4f47d241, i_introduction._6_Data_Classes.Person@4c3e4790]`
 
+So now coming back to the point.
+
+We want to show some parameters on the app like questions , images , options etc.
+
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
+```
+data class Question(
+    val id : Int,
+    @StringRes val question : Int,
+    @DrawableRes val image : Int,
+    val option1 : String,
+    val option2 : String,
+    val option3 : String,
+    val option4 : String,
+    val correctAnswer : Int
+)
+```
 
 <p align = "left">
 <img src="https://user-images.githubusercontent.com/59731205/138231597-cefc4a27-3d9f-4dec-80ab-f43a344b95ae.png" width ="200">
