@@ -118,9 +118,32 @@ Now coming to the activity part:
 In this app there are 5 Activities. Source code of all the Activities is provided in this repo.
 
 * MainActivity.kt is for handling the _**user input**_ part.
+
+```
+class MainActivity : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        Start_btn.setOnClickListener{
+            if(EditName_Text.text.toString().isEmpty()){
+                Toast.makeText(this,"Please enter a name",Toast.LENGTH_LONG).show()
+            }
+            else{
+                val intent = Intent(this,SelectTeam::class.java)
+                intent.putExtra(datasource.USER_NAME , EditName_Text.text.toString())
+                startActivity(intent)
+                finish()
+            }
+        }
+    }
+}
+```
+> Here we also have to use Intents to pass on the user name to other activitis.
+
 * MarvelQuestion.kt and DCQuestion.kt are for providing the data to the View Component.
+
+
 * SelectTeam.kt is for the user to select his/her team.
-* Result
+* ResultActivity.kt is just showing the user's result.
 
 <p align = "left">
 <img src="https://user-images.githubusercontent.com/59731205/138231597-cefc4a27-3d9f-4dec-80ab-f43a344b95ae.png" width ="200">
