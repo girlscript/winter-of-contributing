@@ -2,10 +2,10 @@
 
 * Object detection is a computer vision technique that allows us to identify and locate objects in an image or video. With this kind of identification and localization, object detection can be used to count objects in a scene and determine and track their precise locations, all while accurately labeling them.
 * Object detection is commonly confused with image recognition.
--> Image recognition assigns a label to an image. A picture of a car receives the label “car”. A picture of two cars, still receives the label “car”. 
--> Object detection, on the other hand, draws a box around each car and labels the box “car”. The model predicts where each object is and what label should be applied. In that way, object detection provides more information about an image than recognition.
+-> Image recognition assigns a label to an image. A picture of a car receives the label “dog”. A picture of two dogs, still receives the label “dog”. 
+-> Object detection, on the other hand, draws a box around each dog and labels the box “dog”. The model predicts where each object is and what label should be applied. In that way, object detection provides more information about an image than recognition.
 
-![]()
+![difference](https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Images/ssd1Article.jpg)
 
 * Object detection can be broken down into machine learning-based approaches and deep learning-based approaches.
 * In more traditional ML-based approaches, computer vision techniques are used to look at various features of an image, such as the color histogram or edges, to identify groups of pixels that may belong to an object. These features are then fed into a regression model that predicts the location of the object along with its label.
@@ -17,14 +17,10 @@
 
 # Object detection using deep learning with OpenCV and Python
 
-OpenCV `dnn` module supports running inference on pre-trained deep learning models from popular frameworks like Caffe, Torch and TensorFlow. 
-
 When it comes to object detection, popular detection frameworks are
  * YOLO
  * SSD
  * Faster R-CNN
- 
- Support for running YOLO/DarkNet has been added to OpenCV dnn module recently. 
  
  ## Dependencies
   * opencv
@@ -36,7 +32,13 @@ When it comes to object detection, popular detection frameworks are
  ## YOLO (You Only Look Once)
  
  Provided all the files are in the current directory : 
- 
+ * Requirements : [Visit here](https://github.com/HastiSutaria/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Requirements)
+
+### Before
+<img src="https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Images/sample.jpg" align = "center" alt="sampleinput" width="400"/>
+
+### After
+<img src="https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Images/Screenshot%202021-10-29%2015.21.44.png" align = "center" alt="sampleinput" width="400"/>
 
 # Advantages
 * To locate and identity objects with box around it.
