@@ -18,7 +18,6 @@
 **When it used?**
 - It is used when the output is numeric.
 - When the inputs are linear or non-linear.
-![image](https://user-images.githubusercontent.com/79050917/139549860-8d4a28dc-c502-4646-85a0-ff56122db71e.png)
 
 **What are the other names of multilayer perceptron?**
 - Fully connected network.
