@@ -11,58 +11,43 @@ Example : Imagine a div in which you’ve explicitly set to be 200px wide, but c
 ## CSS Overflow Property Values
 
 The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
+The overflow property has the following values:
 
-![overflow_scroll_and_auto](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-table.png)
+![overflow_table](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-table.png)
 <a href="https://www.javatpoint.com/css-overflow">Reference<a>
 
+   
+   
+## 1) visible
+  If you don’t set the overflow property at all, the default is visible. So in general, there is no reason to explicitly set this property to visible unless you are overriding     it from being set elsewhere.
+  
+![overflow-visible](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-visible-1.png)
+ 
+The important thing to remember here is that even though the content is visible outside of the box, that content does not affect the flow of the page. For example:
+  
+![overflow-visible](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-visible-2.png)
+
+   
+   
+## 2) hidden
+
+Content is clipped if necessary to fit the padding box. No scrollbars are provided, and no support for allowing the user to scroll (such as by dragging or using a scroll wheel) is allowed. The content can be scrolled programmatically (for example, by setting the value of a property such as offsetLeft), so the element is still a scroll container.
+   
+![overflow_hidden](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-hidden.png)
 
 
-The overflow property has the following values:
-- visible - Default. The overflow is not clipped. The content renders outside the element's box
-- hidden - The overflow is clipped, and the rest of the content will be invisible
-- scroll - The overflow is clipped, and a scrollbar is added to see the rest of the content
-- auto - Similar to scroll, but it adds scrollbars only when necessary
+## 3) Scroll
 
-![overflow_scroll_and_auto](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_scroll_and_auto.png)
+Content is clipped if necessary to fit the padding box. Browsers always display scrollbars whether or not any content is actually clipped, preventing scrollbars from appearing or disappearing as content changes. Printers may still print overflowing content.  
+ 
+![overflow_scroll](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-scroll.png)
 
-```
-div { 
-   width: 130px;
-   height: 25%; 
-   background-color:
-   #eee; overflow: scroll; 
-}
-```
+   
+## 4) auto
+   
+Depends on the user agent. If content fits inside the padding box, it looks the same as visible, but still establishes a new block formatting context. Desktop browsers provide scrollbars if content overflows
 
-```
-div { 
-   width: 130px;
-   height: 25%; 
-   background-color:
-   #eee; overflow: auto; 
-}
-```
-
-![overflow_visible_and_hidden](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow_visible_and_hidden.png)
-
-```
-div { 
-   width: 130px;
-   height: 25%; 
-   background-color:
-   #eee; overflow: visible; 
-}
-```
-
-```
-div { 
-   width: 130px;
-   height: 25%; 
-   background-color:
-   #eee; overflow: hidden; 
-}
-```
-
+![overflow_auto](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-auto.png)
 
 ## overflow-x and overflow-y
 The overflow-x and overflow-y properties specifies whether to change the overflow of content just horizontally or vertically (or both):
