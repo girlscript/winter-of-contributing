@@ -2,7 +2,7 @@
 
 ## Link for the Video:
 
-![image](https://user-images.githubusercontent.com/62233992/139556665-61af3043-8f17-44d0-856e-b2b6e051e13b.png)(https://youtu.be/hKXle9w8g5M)
+[![image](https://user-images.githubusercontent.com/62233992/139556665-61af3043-8f17-44d0-856e-b2b6e051e13b.png)](https://youtu.be/hKXle9w8g5M)
 
 ## What are Contours?
 Contours are defined as the line joining all the points along the boundary of an image that are having the same intensity. Contours come handy in shape analysis, finding the size of the object of interest, and object detection.
