@@ -59,7 +59,7 @@ Insertion sort is a simple sorting algorithm. In this method we virtually split/
 <img src="https://user-images.githubusercontent.com/71928146/139434306-85492bf1-7391-4d51-bb5c-af85ba5d0e56.png" width="1000"  />
 
 # Program/Code in cpp
-~~~
+~~~cpp
 #include<iostream>
 
 using namespace std;
