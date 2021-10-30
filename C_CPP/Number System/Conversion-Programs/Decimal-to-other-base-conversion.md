@@ -1,5 +1,10 @@
 # Programs to convert from decimal to any other base in cpp.
+## Number System :- 
+- Number system are necessary to represent computer data. Number system are differentiate by their base.
+- where BASE is total digits or symbols available in that Number system.
+- Detail on different [Types of Number System](../num_sys.md)
 ## Decimal To Binary 
+*In decimal to binary conversion decimal number is divided by 2 and reminder will be consider as digit of equivalent binary number.These reminders are arranged in bottom to top order.*
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -33,6 +38,7 @@ int main()
 ![binary](https://user-images.githubusercontent.com/70843941/138641632-58408401-95ef-40bd-9627-363fa94061c1.png)
 
 ## Decimal To Octal
+*Here the decimal number is divided by 8 and remainder will be the digit of equivalent octal number. these remainders are arranged in reverse (bottom to top) order.*
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -70,6 +76,8 @@ int main()
 ![octal](https://user-images.githubusercontent.com/70843941/138641591-c092f98d-1550-4a0f-bf86-759698948025.png)
 
 ## Decimal To HexaDecimal
+*In this conversion the decimal number is divided by 16 and remainder will be the digit of equivalent hexadecimal number. these remainders are arranged in reverse (bottom to top) order.*
+*(Note:- if remainder is 10, 11, 12, 13, 14, 15 then in hexadecimal it will be A,B,C,D,E,F respectively.*
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
@@ -108,5 +116,4 @@ int main()
 ```
 ## OUTPUT:- 
 ![hexadecimal](https://user-images.githubusercontent.com/70843941/138641536-6b176083-7daa-4d68-8c0b-f211d1ed4351.png)
-
 
