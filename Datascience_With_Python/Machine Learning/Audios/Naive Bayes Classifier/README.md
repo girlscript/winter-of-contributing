@@ -14,6 +14,10 @@ If a fruit is recognized on basis of color, shape and taste, then apple is ident
 and sweet fruit. Hence, each feature contributes independently.
 It is called as Bayes because it uses Bayes theorem.
 ![image](https://user-images.githubusercontent.com/79050917/139282178-01df30a8-3c9c-4a73-b225-e6a213de1dd8.png)
+
+**The work flow of the algorithm:**
+![image](https://user-images.githubusercontent.com/79050917/139526616-b472a5e9-bf65-4d29-ac82-4bf38ed8d595.png)
+
 **Types of naïve Bayes algorithm:**
 
 1. Gaussian Naïve Bayes algorithm:
@@ -30,6 +34,7 @@ then model assumes that these values are sampled from the Gaussian distribution.
 • It is used when predictor variables are independent Boolean variables.
 ![image](https://user-images.githubusercontent.com/79050917/139282399-821907c6-c3f1-4210-8052-af25446eb562.png)
 
+
 **Advantages :**
 - It is one of the fast machine learning algorithm.
 - It is one of the easy machine learning algorithm.
@@ -39,3 +44,9 @@ then model assumes that these values are sampled from the Gaussian distribution.
 
 **Disadvantages:**
 - It cannot learn relationship between features as it assumes all features are independent 
+
+**Applications:**
+- Real time Prediction
+- Multi class Prediction
+- Text classification/ Spam Filtering/ Sentiment Analysis
+- Recommendation System
