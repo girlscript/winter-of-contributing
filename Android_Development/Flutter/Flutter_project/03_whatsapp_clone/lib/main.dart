@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       // whatsapp theme data
       theme: ThemeData(
         primarySwatch: Colors.teal,
-        fontFamily: GoogleFonts.poppins().fontFamily,
+        fontFamily: GoogleFonts.roboto().fontFamily,
       ),
       routes: {
         '/': (context) => const MyHomePage(
