@@ -91,6 +91,7 @@ The nice aspect of flexbox is the styles apply to all the children of our flex c
 By default the flex-direction is set as row. If we change the flex-direction to column that would interchange the main-axis and the cross-axis. It will also make our items stack in a column instead of a row like before.
 
 ![flex-direction ](assets/flex-direction.png)
+Image-source: shorturl.at/ryJV8
 
 ![flex-direction column](assets/column.png)
 
@@ -121,3 +122,8 @@ Hence, in this case our `justify-content` property will center the boxes vertica
 
 ![align-items](assets/column2.png)
 
+Reference-links:
+
+1) https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox
+2)  https://www.w3schools.com/css/css3_flexbox.asp
+3) https://www.better.dev/centering-things-with-css-flexbox
