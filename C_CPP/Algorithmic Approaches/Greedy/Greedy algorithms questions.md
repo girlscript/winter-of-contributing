@@ -9,7 +9,6 @@
 using namespace std;
 
 int max(int a, int b)
-
 {
     return (a>b)?a:b;
 }
@@ -17,7 +16,6 @@ int max(int a, int b)
 int knapsack(int w , int wt[], int val[], int n){
     if(n==0 || w==0)
     return 0;
-
 
 if(wt[n-1]>w)
 return knapsack(w,wt,val,n-1);
@@ -42,7 +40,6 @@ int main()
 ```
 - Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack. In other words, given two integer arrays val[0..n-1] and wt[0..n-1] which represent values and weights associated with n items respectively. Also given an integer W which represents knapsack capacity, find out the maximum value subset of val[] such that sum of the weights of this subset is smaller than or equal to W. You cannot break an item, either pick the complete item or don’t pick it (0-1 property).
 
-
 ### OUTPUT
 220
 
@@ -53,7 +50,6 @@ int main()
 #include<iostream>
 #include<vector>
 using namespace std;
-
 
 int highest_mountain(vector<int> a){
 	int n = a.size();
@@ -89,13 +85,8 @@ int highest_mountain(vector<int> a){
 }
 
 int main(){
-
 	vector<int> arr{5,6,1,2,3,4,5,4,3,2,0,1,2,3,-2,4};
-
 	cout<< highest_mountain(arr)<<endl;
-
-
-
 	return 0;
 }
 
