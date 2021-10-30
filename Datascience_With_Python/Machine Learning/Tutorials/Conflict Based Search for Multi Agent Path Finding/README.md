@@ -9,21 +9,40 @@ A brief summary of what this entails:
 * What is Conflict based search?
 * Algorithm of Conflict based search
 
-## Description:
-# **Multi-Agent path finding:**
+# Description:
+## **Multi-Agent path finding:**
 > Multi-agent path finding or in short refered to as MAPF is a problem for finding paths which are collision or obstacle free for a given set of agents.
 
-# **Conflict based search:**
+## **Conflict based search:**
 
 >Conflict based search or in short refered to as CBS is a multi-agent path finding algorithm.  CBS is a continuum of coupled and decoupled approaches.The uniqueness of CBS is that all low-level
 searches are performed as single-agent searches. The performance of CBS depends on the structure of the problem.
 
-## Practical applications of Multi-agent path finding(MAPF):
+# Practical applications of Multi-agent path finding(MAPF):
 * Robotics.
 * Video games.
 * Vehicle routing/ Traffic Management.
 * Warehouse management.
 * Product assembly
+
+
+# Purpose:
+* To plan paths for multiple agents.
+* To follow the key constraint that the agents do not collide with each other.
+* To create a generalization of the single-agent path finding problem for k > 1 agents.
+* To make sure that the cost of path is minimum.
+
+
+# Advantages:
+
+## MAPF(MULTI AGENT PATH FINDING):
+* Agents operate in a known environment.
+* It has Unique initial and final state.
+
+## CONFLICT BASED SEARCH for MAPF:
+* CBS breaks problems into large number of constrained single agent path finding problem to solve MAPF.
+* The primary goal of CBS is to find paths that no longer have the constraints it previously chose. 
+* Traditional search algorithms scale poorly in the number of agents.
 
 ## Example for Conflict Based Search: 
 <img align = left>![image](https://user-images.githubusercontent.com/66793093/139477204-2b29892e-40da-4422-b62b-ed0ef524c20a.png)</img>
@@ -40,7 +59,7 @@ The mice needs to get to their respective piece of cheese (Figure 1). The corres
 * Similarly, the right child V is generated, also with cost 7. Both children are added to OPEN list. In the final step U is chosen for expansion, and the underlying paths are validated. Since no conflicts exist, U is declared as a goal node and its solution is returned. 
 
 
-## References:
+# References:
 * https://arxiv.org/pdf/2109.08299v1.pdf
 * https://www.ijcai.org/proceedings/2019/0063.pdf
 * https://www.ijcai.org/Proceedings/15/Papers/110.pdf
