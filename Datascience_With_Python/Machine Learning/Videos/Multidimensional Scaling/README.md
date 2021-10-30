@@ -44,6 +44,7 @@ The matrix shows relationships between items. For a simple example, let’s say 
 ![image](https://user-images.githubusercontent.com/30192967/139530186-040f8eaf-ef9f-4327-ae08-ff6a525760dd.png)
 
 The scaling produces a graph like the one below.
+
 ![image](https://user-images.githubusercontent.com/30192967/139530196-bed2e69a-ee9f-481b-a664-519b896232bd.png)
 
 The very simple example above shows cities and distances, which are easy to visualize as a map. However, multidimensional scaling can work on “theoretically” mapped data as well.
