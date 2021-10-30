@@ -47,10 +47,10 @@ h1:hover{
 }
 ```
 ### 👉🏽Example for visited , active , hover link
-`:active`: Changes when we click on the link (Yellow color as per example)<br/>
-`:hover`: Changes when we hover on the link (Red color as per example)<br/>
-`:visited`: Changes when once we visit the link (Green color as per example)<br/>
-[![Screenshot 2021-10-28 at 11.38.13 PM.png](https://www.dropbox.com/s/xs5kk9q8hxh35uk/Screenshot%202021-10-28%20at%2011.38.13%20PM.png?dl=0&raw=1)](https://drive.google.com/file/d/1ca8DK-n9v5yx1RVpz7Xiv7NfS8hfLo5X/view?usp=sharing)
+`:active`: Changes when we click on the link <br/>
+`:hover`: Changes when we hover on the link <br/>
+`:visited`: Changes when once we visit the link <br/>
+[![Screenshot 2021-10-30 at 10.25.22AM.png](https://www.dropbox.com/s/75w47meel5dc33v/Screenshot%202021-10-30%20at%2010.25.22%20AM.png?dl=0&raw=1)](https://drive.google.com/file/d/1FKrQ3EpBH93XkCmWJyklOooWwCyLJLRA/view?usp=sharing)
 #### 👉🏽HTML File
 ```
 <!DOCTYPE html>
@@ -59,7 +59,10 @@ h1:hover{
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<p>GWOC : <a href="https://gwoc.girlscript.tech/">girlscript.com</a></p>
+<p style="color: white;">GWOC : <a href="https://gwoc.girlscript.tech/">girlscript.com</a></p>
+<p class="visited">Visited: Green</p>
+<p class="hover">Hover: Red</p>
+<p class="active">Active: Yellow</p>
 </body>
 </html>
 ```
@@ -74,4 +77,16 @@ h1:hover{
   a:active {
     color: yellow;
   } 
+  .hover{
+    color: red;
+  }
+  .active{
+    color: yellow;
+  }
+  .visited{
+    color: green;
+  }
+  body{
+    background-color: black;
+  }
 ```
