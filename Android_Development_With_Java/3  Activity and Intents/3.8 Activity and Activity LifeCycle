@@ -1,9 +1,9 @@
--  ## What is activity in android?
+-   # **What is activity in android?**
 
     An activity is a single, focused thing that the user can do. Almost all activities interact with the user. An Android app may contain one or more activities,
     meaning one or more screens. The Android app starts by showing the main activity, and from there the app may make it possible to open additional activities.
 
--  ## What is activity life cycle in android?
+-  #  **What is activity life cycle in android?**
 
 > An activity has various stages in its lifecycle. To transit from one stage to the other stage of the activity lifecycle activity class has six methods which are 
   overided by the developers according to the need. These methods are termed as callbacks. The six callbacks are :
@@ -38,7 +38,7 @@
 
 6.  *onDestroy():* onDestroy callback is to be called when you need to shutdown all the operations .
 
-## Starting Activities and Getting Results
+## *Starting Activities and Getting Results*
 
 The *startActivity(Intent)* method is used to start a new activity,which will be placed at the top of the activity stack. It takes a single argument,an 
 [*Intent*](https://developer.android.com/reference/android/content/Intent),which describes the activity to be executed.
