@@ -7,7 +7,7 @@ When this statement is executed,consecutive space for 100 integers is allocated 
 rest of the space .To overcome this problem and to utilize the memory efficiently,C language provides a mechanism of dynamically allocating memory so that only the amount
 of memory that is actually required is reserved.We reserve space only at the run time for the variables that are actually required.Dynamic memory allocation gives best
 performance in situations in which we do not know memory requirements in advance.  
-C provides four library routines to automatically allocate memory at the run time.These routines are as follows
+C provides four library routines to automatically allocate memory at the run time.These routines are as follows.
 - Malloc()
 - Calloc()
 - Free()
