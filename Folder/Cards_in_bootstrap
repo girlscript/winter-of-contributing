@@ -1,0 +1,87 @@
+Bootstrap cards are specialised designing templates which are used to to present data in systematic and beautiful way with approriate headers and footers it provides a nice user-interface experience and gives better view of data on our websites.
+
+Basic Card
+A basic bootstrap card is created with the .card class, and content inside the card has a .card-body class.
+
+Example Code:
+
+<div class="card">
+  <div class="card-body">This is a basic Card</div>
+</div>
+
+Header and Footer
+The .card-header class builds a heading to the card and the .card-footer class adds a footer to the card:
+
+<div class="card">
+  <div class="card_header">This is a Header</div>
+  <div class="card_body">Main content</div>
+  <div class="card_footer">This is a Footer</div>
+</div>
+
+To add a background color  to ourcard, we use classes(
+.bg-secondary,
+.bg-primary, 
+.bg-danger,
+.bg-success,
+.bg-dark and 
+.bg-light,
+.bg-info, 
+.bg-warning,.)
+
+Use .card-title to add titles to any heading. The .card-text class removes bottom margins for a <p> element if it is the last child inside .card-body. The .card-link class adds a blue color to any link, and a hover effect.
+
+Code:
+<div class="card">
+  <div class="card-body">
+    <h4 class="card-title">This is the title</h4>
+    <p class="card-text">I am a Contributor</p>
+    <a href="#" class="card-link">Link1</a>
+    <a href="#" class="card-link">Link2</a>
+  </div>
+
+
+
+Card Columns
+
+The .card-columns class creates grid of cards (like pinterest). The layout will automatically adjust as you insert more cards.
+
+Code:
+
+<div class="card-columns">
+  <div class="card bg-success">
+    <div class="card-body text-center">
+      <p class="card-text">Card body</p>
+    </div>
+  </div>
+  <div class="card bg-primary">
+    <div class="card-body text-center">
+      <p class="card-text">Card body</p>
+    </div>
+  </div>
+  <div class="card bg-danger">
+    <div class="card-body text-left">
+      <p class="card-text">Card body</p>
+    </div>
+  </div>
+
+ Card Images
+
+ Add .card-img-top or .card-img-bottom to an <img> to place the image at the top or at the bottom inside the card. 
+ Code:
+ <div class="card" style="width:900px">
+  <img class="card-img-top" src="GWOC.png" alt="Image couldn't get loaded">
+  <div class="card-body">
+    <h4 class="card-title">Anjali</h4>
+    <p class="card-text">Card body</p>
+    <a href="#" class="btn btn-primary">Profile name</a>
+  </div>
+</div>
+</div>
+
+  Bootstrap cards can vary in different shapes and sizes with innumerable styles which can be designed in any form.They privide systematic way of representing data in shorter bolder way.
+  We see Bootstrap cards in:
+  Fashion industry websites
+  Portfolios
+  Educational websites
+  Job websites with peoples' CVs
+
