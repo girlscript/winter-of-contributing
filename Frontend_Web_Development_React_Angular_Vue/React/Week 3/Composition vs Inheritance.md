@@ -124,4 +124,4 @@ behaviors cannot be clubbed seamlessly. However, with Composition, it's possible
 ">React.js and Inheritance!</a></p>
 <p>Why don't we use inheritance in react-native too often? <a href="https://stackoverflow.com/questions/57734538/why-dont-we-use-inheritance-in-react-native-too-often
 ">Stackoverflow.com!</a></p>
-### Thanks for reading! ✨ 
+<h3>Thanks for reading! ✨ </h3>
