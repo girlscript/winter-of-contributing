@@ -1,0 +1,29 @@
+create models here.
+
+Model - Model here referes as all the harcoded data that you will using in this whatsapp clone
+
+Ex:
+
+class ChatModel{
+    constructor(id,name,message,time,profilePic){
+        this.id = id;
+        this.name = name;
+        this.message = message;
+        this.profilePic = profilePic;
+    }
+}
+
+List<ChatModel> dummyData = [
+    new ChatModel(
+        "1",
+        "Asmit",
+        "Hello",
+        "img url",
+    ),
+    new ChatModel(
+        "2",
+        "Sachin",
+        "Hello",
+        "img url",
+    ),
+]
