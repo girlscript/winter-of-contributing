@@ -1,6 +1,7 @@
 # COMMENTS IN C/CPP
 
-<b>What are comments?</b> <br>
+## What are comments?
+
 Comments are lines of code which are ignored by the compiler.
 Comments are of 2 types:
 - Single Line Comment
@@ -25,6 +26,11 @@ Single line comments are used to apply comment to one line only. It is denoted b
       return 0;
     }
 ```
+<b>OUTPUT:</b>
+```
+    Hello World
+```
+
 <b>EXPLANATION:</b>
 If we take a look at this particular program we can see that the comment lines are used to show the function of certain lines. It is also used to define what the particular code does. As we can see in the above code, the single line comments are used a number of times.
 
@@ -52,6 +58,11 @@ Multi line comments are used to apply comment to more than one line only. It is 
       return 0;
     }
 ```
+<b>OUTPUT:</b>
+```
+    Hello World
+```
+
 <b>EXPLANATION:</b>
 We can say that with the help of multi line comments we can provide a clear description of what the program does.
 
@@ -69,6 +80,10 @@ Let us now look at a C code having combination of single and multi line comment:
     printf("%d", a+b); // sum of the variables
     return 0;
   }
+```
+<b>OUTPUT:</b>
+```
+    10
 ```
 
 ### ADVANTAGES:
