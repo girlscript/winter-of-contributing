@@ -13,9 +13,12 @@ Example : Imagine a div in which you’ve explicitly set to be 200px wide, but c
 The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area.
 The overflow property has the following values:
 
-![overflow_table](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-table.png)
-<a href="https://www.javatpoint.com/css-overflow">Reference<a>
-
+- visible     - It specifies that overflow is not clipped. it renders outside the element's box.this is a default value.
+- hidden      - It specifies that the overflow is clipped, and rest of the content will be invisible.
+- scroll      - It specifies that the overflow is clipped, and a scroll bar is used to see the rest of the content.
+- auto        - It specifies that if overflow is clipped, a scroll bar is needed to see the rest of the content.
+- overflow-x  - It specifies that if overflow is clipped, a scroll bar is needed to see the rest of the content.
+- overflow-y  - It specifies that if overflow is clipped, a scroll bar is needed to see the rest of the content.
    
    
 ## 1) visible
@@ -50,15 +53,21 @@ Depends on the user agent. If content fits inside the padding box, it looks the 
 ![overflow_auto](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-auto.png)
 
 ## overflow-x and overflow-y
+   
 The overflow-x and overflow-y properties specifies whether to change the overflow of content just horizontally or vertically (or both):
 
 overflow-x specifies what to do with the left/right edges of the content.
 
 overflow-y specifies what to do with the top/bottom edges of the content.
 
-![overflow-x](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-x.png)
-
-![overflow-y](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-y.png)
-
-
-
+![Overflow-x_overflow-y](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-x_overflow-y.png)
+   
+   
+Credits & References -
+<br>
+<a>https://www.freecodecamp.org/news/css-overflow-explained-with-examples/</a>
+<a>https://www.javatpoint.com/css-overflow/</a>
+<a>https://www.w3schools.com/css/css_overflow.asp</a>
+<a>https://css-tricks.com/almanac/properties/o/overflow//</a>
+<a>https://developer.mozilla.org/en-US/docs/Web/CSS/overflow/</a>
+   
