@@ -1,6 +1,6 @@
 # DYNAMIC MEMORY ALLOCATION
 The process of allocating memory to the variables during execution of the program or at run time is known as dynamic memory allocation.Till now whenever we needed an array
-we had decleared a static array of fixed size,say
+we had decleared a static array of fixed size,say  
 ```cpp
 int arr[100];
 When this statement is executed,consecutive space for 100 integers is allocated .It is not uncommon that we may be using only 10% or 20% of the allocated space thereby wasting
