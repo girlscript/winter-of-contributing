@@ -22,7 +22,7 @@ The overflow property has the following values:
    
    
 ## 1) Overflow : visible
-  If you don’t set the overflow property at all, the default is visible. So in general, there is no reason to explicitly set this property to visible unless you are overriding     it from being set elsewhere.
+  If you don’t set the overflow property , the default is visible. So in general, there is no reason to explicitly set this property to visible unless you are overriding it from being set elsewhere.
   
 ![overflow-visible](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-visible-1.png)
  
@@ -63,7 +63,7 @@ div {
    
 ## 4) Overflow : auto
    
-Depends on the user agent. If content fits inside the padding box, it looks the same as visible, but still establishes a new block formatting context. Desktop browsers provide scrollbars if content overflows
+If content fits inside the padding box, it looks the same as visible, but still establishes a new block formatting context. Desktop browsers provide scrollbars if content overflows.
 
 ![overflow_auto](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-auto.png)
 
@@ -77,7 +77,7 @@ div {
    
 The overflow-x property sets what shows when content overflows a block-level element's left and right edges. This may be nothing, a scroll bar, or the overflow content.
 
-The overflow-y CSS property sets what shows when content overflows a block-level element's top and bottom edges. This may be nothing, a scroll bar, or the overflow content.
+The overflow-y property sets what shows when content overflows a block-level element's top and bottom edges. This may be nothing, a scroll bar, or the overflow content.
 
 ![Overflow-x_overflow-y](https://github.com/neerajdhakad/winter-of-contributing/blob/Frontend_Web_Development_HTML_CSS_JS/Web_Development/FrontEnd/CSS%20Overflow/overflow-x_overflow-y.png)
  
