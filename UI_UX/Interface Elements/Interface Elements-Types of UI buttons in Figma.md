@@ -9,10 +9,11 @@
 <p align="right"><i>Fig: Simple form with a LOGIN button & create an account button on the bottom.</i><p><br><br>
 
 ## Anatomy of a button:
-![Button](ImageAssets/Anatomy-Button.jpeg)*Fig: Design components of  a Button.*
+![Button](ImageAssets/Anatomy-Button.jpeg)*Fig: Design components of  a Button. (Courtesy of uxdesign.cc from writer Taras Bakusevych)*
 
 ## Different states of a Button:
-![Button](ImageAssets/States-Button.jpeg)*Fig: Button states.*
+![Button](ImageAssets/States-Button.jpg)*Fig: Button states.(Courtesy of uxdesign.cc from writer Taras Bakusevych)*
+
 
  - **Normal:** states that button is available for interaction.
  - **Focus:** states that the button element is highlighted by a keyboard or other input method.
