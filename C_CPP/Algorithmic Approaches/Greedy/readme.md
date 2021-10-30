@@ -1,1 +1,1 @@
-
+[Greedy Algorithm basic questions](https://github.com/girlscript/winter-of-contributing/pull/6803/files/b76057d494478b85e66a523c363a844bc845b34f#diff-b9433e4f3ca2bd6a9d5ce791c5abd3f0003ff25b3d1a162acbb53b045af4b181)
