@@ -10,30 +10,30 @@ You are required to print all paths that can be used to move from top-left to bo
 
 ## CODE
 
-```c
+```cpp
 #include<iostream>
 #include<vector>
 
 using namespace std;
-const int col = 11;
+const int col = 11;                 
 
 void floodfill(vector<vector<int>> maze,int rows,int columns,string ans,bool visited[][col]) {
     
     if(rows<0 || columns<0 || rows==maze.size() || columns == maze[0].size()|| maze[rows][columns]==1 || visited[rows]
-    [columns]==true)
+    [columns]==true)                //BASE CONDITION I
     {
         return;
     }
-    else if(rows==maze.size()-1 && columns==maze[0].size()-1)
+    else if(rows==maze.size()-1 && columns==maze[0].size()-1)       //BASE CONDITION II
     {
         cout<<ans<<endl;
         return;
     }
-    visited[rows][columns]=true;
-    floodfill(maze,rows-1,columns,ans+"t",visited);
-    floodfill(maze,rows,columns-1,ans+"l",visited);
-    floodfill(maze,rows+1,columns,ans+"d",visited);
-    floodfill(maze,rows,columns+1,ans+"r",visited);
+    visited[rows][columns]=true;                            //MARKING VISITED BLOCKS
+    floodfill(maze,rows-1,columns,ans+"t",visited);         //RECURSIVE CALL FOR MOVING IN UPWARD DIRECTION
+    floodfill(maze,rows,columns-1,ans+"l",visited);         //RECURSIVE CALL FOR MOVING IN LEFT DIRECTION
+    floodfill(maze,rows+1,columns,ans+"d",visited);         //RECURSIVE CALL FOR MOVING IN DOWNWARD DIRECTION
+    floodfill(maze,rows,columns+1,ans+"r",visited);         //RECURSIVE CALL FOR MOVING IN RIGHT DIRECTION
     visited[rows][columns]=false;
     
 }
@@ -41,14 +41,14 @@ void floodfill(vector<vector<int>> maze,int rows,int columns,string ans,bool vis
 int main() {
     int n, m;
     cin >> n >> m;
-    vector < vector < int >> arr(n, vector < int > (m));
+    vector < vector < int >> arr(n, vector < int > (m));    //CREATED VECTOR
     bool visited[n][col]={false};
 
     for (int i = 0; i < n; i++)
         for (int j = 0; j < m; j++)
             cin >> arr[i][j];
 
-    floodfill(arr,0,0,"",visited);
+    floodfill(arr,0,0,"",visited);                          //FUNCTION CALL
     return 0;
 }
 ```
