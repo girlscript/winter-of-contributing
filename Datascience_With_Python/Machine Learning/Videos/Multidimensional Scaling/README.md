@@ -44,5 +44,6 @@ As you can see above, using MDS(Multidimensional Scaling) we have achieved to sc
 *******
 
 https://www.youtube.com/watch?v=GEn-_dAyYME
+
 https://towardsdatascience.com/multidimensional-scaling-d84c2a998f72
 
