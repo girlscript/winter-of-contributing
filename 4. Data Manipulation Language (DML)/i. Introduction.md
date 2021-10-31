@@ -52,18 +52,20 @@ These SQL commands are mainly categorized into four categories as: 
     - **CALL** : Call a PL/SQL or JAVA subprogram. <br />
     - **EXPLAIN PLAN** : It describes the access path to data. <br />
   
+<br />
+
 ## 4. DCL(Data Control Language):
 DCL includes commands such as GRANT and REVOKE which mainly deal with the rights, permissions, and other controls of the database system. 
 
 List of  DCL commands: 
--   [**GRANT: **]This commandgives users access privileges to the database.
--   [**REVOKE:**]This command withdraws the user's access privileges given by using the GRANT command.
+- **GRANT** : This commandgives users access privileges to the database.
+- **REVOKE** : This command withdraws the user's access privileges given by using the GRANT command.
 
 Though many resources claim there to be another category of SQL clauses TCL -- Transaction Control Language. So we will see in detail about TCL as well. TCL commands deal 
 with the transaction within the database.
 List of TCL commands:
 
--   [**COMMIT**]Commits a Transaction.
--   [**ROLLBACK**Rollbacks a transaction in case of any error occurs.
--   [**SAVEPOINT**]Sets a savepoint within a transaction.
--   [**SET TRANSACTION:**Specify characteristics for the transaction.
+- **COMMIT** : Commits a Transaction.
+- **ROLLBACK** : Rollbacks a transaction in case of any error occurs.
+- **SAVEPOINT** : Sets a savepoint within a transaction.
+- **SET TRANSACTION** : Specify characteristics for the transaction.
