@@ -28,38 +28,27 @@ Create a context for the current theme (with "light" as the default).
 
 
     // Context lets us pass a value deep into the component tree
-
     // without joining it through every component.
 
 
     const ThemeContext = React.createContext('light');
 
     class App extends React.Component {
-
      render() {
   
-    // Use a Provider to pass the current theme to the tree below.
-    
-    // Any component can read it, no matter how deep it is.
-    
+    // Use a Provider to pass the current theme to the tree below.    
+    // Any component can read it, no matter how deep it is.    
     // In this example, we're passing "dark" as the current value.
     
-    return (
-    
-      <ThemeContext.Provider value="dark">
-      
-        <Toolbar />
-        
-      </ThemeContext.Provider>
-      
-    );
-    
+    return (    
+      <ThemeContext.Provider value="dark">      
+        <Toolbar />        
+      </ThemeContext.Provider>      
+    );    
       }
-
     }
-
+    
     // A component in the middle doesn't have to
-
     // pass the theme down explicitly anymore.
 
     function Toolbar() {
