@@ -24,7 +24,7 @@ Data Structures are the main part of many computer science algorithms as they en
 ### Data Structures
 - Week 1: [Array](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.1%20Arrays)
 - Week 2: [Strings](https://github.com/AJgthb2002/winter-of-contributing/tree/DSA/DSA/2.1%20Strings)
-- Week 3: Linked List
+- Week 3: [Linked List](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.1%20Linked%20List)
 - Week 4: Stacks, Queues
 - Week 5: Hash Tables
 - Week 6: Trees
@@ -35,7 +35,7 @@ Data Structures are the main part of many computer science algorithms as they en
 ### Algorithms
 - Week 1: [Analysis of Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms)
 - Week 2: [Searching & Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms)
-- Week 3: Greedy Algorithms
+- Week 3: [Greedy Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms)
 - Week 4: Pattern Searching Algorithms
 - Week 5: Backtracking
 - Week 6: Divide and Conquer
@@ -66,6 +66,9 @@ This project follows the [MIT License](https://choosealicense.com/licenses/mit/)
 </a>
 <a href="https://github.com/goelesha">
   <img src="https://contrib.rocks/image?repo=goelesha/goelesha" />
+</a>
+<a href="https://github.com/Muskan-creator">
+  <img src="https://contrib.rocks/image?repo=Muskan-creator/Muskan-creator" />
 </a>
   
 
