@@ -79,3 +79,9 @@ lines too can have colors, width.
   #### Outliers: 
    These are data points that differ significantly from other observations and lie beyond the whiskers.
    
+## Jupyter Notebook for Reference :
+  here is the link to better understand the matplotlib library.
+
+  Click here 👇
+
+ - [Visualisation_of_Matplotlib]()
