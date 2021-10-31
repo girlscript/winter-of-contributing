@@ -9,7 +9,7 @@ Imagine a world where there is no color and style, how terrible would the world 
 
 CSS stands for **Cascading Styling Sheet**. It's a language for describing how an HTML document should look. Basically, it instructs the browser on how to style and design lay out for web pages, such as changing the font, color, size, and spacing of text, splitting it into numerous columns, and adding animations and other ornamentals. Let's see an example of CSS code.
 
-### Example of CSS code
+## Example of CSS code
 
 ```css
 body {
