@@ -96,8 +96,7 @@ target_and = np.array(
         [0],
         [1]])
  
-
-```def train(self):
+def train(self):
     """
     Train a single layer perceptron.
     """
