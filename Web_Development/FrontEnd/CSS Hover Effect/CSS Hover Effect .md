@@ -100,3 +100,6 @@ h1:hover{
     background-color: black;
   }
 ```
+## References
+* https://www.w3schools.com/cssref/sel_hover.asp
+* https://developer.mozilla.org/en-US/docs/Web/CSS/:hover
