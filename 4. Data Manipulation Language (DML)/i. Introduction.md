@@ -10,6 +10,14 @@ These SQL commands are mainly categorized into four categories as: 
 
 <br />
 
+## Table of Contents
+- [**DDL - Data Definition Language**](#1-ddl-data-definition-language)
+- [**DQL - Data Query Language**](#2-dql-data-query-language)
+- [**DML - Data Manipulation Language**](#3-dmldata-manipulation-language)
+- [**DCL - Data Control Language**](#4-dcldata-control-language)
+
+<br />
+
 ![image](https://user-images.githubusercontent.com/72455881/139575541-1c143942-3409-405f-b5d0-a743259692c5.png)
 
 <br />
