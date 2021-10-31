@@ -98,7 +98,18 @@
    - **6.10. Backpropagation.**
    - **6.11. Implement a MultiLayered Perceptron model on XOR function with 3 inputs. ⭐**
 
-
+### 🟡 *[Week 7 [Bayesian ML & Ensemble-based Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML)* :
+   - **7.1. Bootstrap Aggregation.**
+   - **7.2. Adaboost.**
+   - **7.3. LGBM.**
+   - **7.4. XGBoost.**
+   - **7.5. CatBoost.**
+   - **7.6. Bayesian Network.**
+   - **7.7. Latent Variables (based algorithms).**
+   - **7.8. Gaussian Mixture Models.**
+   - **7.9. Hidden Markov Model.**
+   - **7.10. Viterbi Algorithm.**
+   
 
 
 *N.B.: Upcoming roadmap will be published as the program goes! and ⭐ marked issues are having extra points on successful completion.*
