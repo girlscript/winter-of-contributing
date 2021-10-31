@@ -61,8 +61,7 @@ import numpy as np```
 
 We next create our training data.
 
-```
-train_data = np.array(
+```train_data = np.array(
     [
         [0, 0],
         [0, 1],
@@ -96,7 +95,7 @@ target_and = np.array(
         [0],
         [0],
         [1]])
-  ```
+ 
 
 ```def train(self):
     """
