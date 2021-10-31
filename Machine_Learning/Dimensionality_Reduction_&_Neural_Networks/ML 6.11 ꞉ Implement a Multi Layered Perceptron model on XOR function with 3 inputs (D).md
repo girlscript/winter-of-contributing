@@ -7,10 +7,10 @@ The perceptron basically works as a threshold function — non-negative outputs 
 
 <b>A perceptron has the following components:</b>
 <br><br>
-Input nodes<br>
-Output node<br>
-An activation function<br>
-Weights and biases<br>
+* Input nodes<br>
+* Output node<br>
+* An activation function<br>
+* Weights and biases<br>
 
 ![Single Layer Perceptron](https://github.com/amitrakshar01/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/Assets/perceptron.png)
 
