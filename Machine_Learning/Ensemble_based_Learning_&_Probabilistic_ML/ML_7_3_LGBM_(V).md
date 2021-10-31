@@ -13,4 +13,10 @@
 
 *********************************************************************
 
+### Refrences
+
+https://www.analyticsvidhya.com/blog/2021/08/complete-guide-on-how-to-use-lightgbm-in-python/
+
+https://www.geeksforgeeks.org/lightgbm-light-gradient-boosting-machine/
+
 ### GirlScript Winter of Contributions 2021
