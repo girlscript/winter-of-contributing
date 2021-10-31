@@ -27,13 +27,111 @@ Context lets us pass a value deep into the component tree without explicitly thr
 Create a context for the current theme (with "light" as the default).
 
 
-![image](https://user-images.githubusercontent.com/62420933/139574280-fc740a86-d894-4852-8c9e-90cdcc0ff120.png)
-![image](https://user-images.githubusercontent.com/62420933/139574308-c9182da7-41b2-4e79-b2ab-9f7c9deb0afa.png)
+// Context lets us pass a value deep into the component tree
+// without joining it through every component.
+
+
+const ThemeContext = React.createContext('light');
+
+class App extends React.Component {
+  render() {
+    // Use a Provider to pass the current theme to the tree below.
+    // Any component can read it, no matter how deep it is.
+    // In this example, we're passing "dark" as the current value.
+    return (
+      <ThemeContext.Provider value="dark">
+        <Toolbar />
+      </ThemeContext.Provider>
+    );
+  }
+}
+
+// A component in the middle doesn't have to
+// pass the theme down explicitly anymore.
+function Toolbar() {
+  return (
+    <div>
+      <ThemedButton />
+    </div>
+  );
+}
+
+class ThemedButton extends React.Component {
+  // Assign a contextType to read the current theme context.
+  // React will find the closest theme Provider above and use its value.
+  // In this example, the current theme is "dark".
+  static contextType = ThemeContext;
+  render() {
+    return <Button theme={this.context} />;
+  }
+}
+class ThemedButton extends React.Component {
+  render() {
+    return <Button theme={this.props.theme} />;
+  }
 
 #### With the context API, we can avoid passing props through intermediate elements, and directly pass the props to the last child or the child we are targeting:
 
-![image](https://user-images.githubusercontent.com/62420933/139574345-550b609c-2d3b-4891-bf43-261a2d959bc5.png)
-![image](https://user-images.githubusercontent.com/62420933/139574359-65cb1ccb-4e7e-477e-b277-e35df557ce66.png)
+// Context lets us pass a value deep into the component tree
+// without explicitly threading it through every component.
+// Create a context for the current theme (with "light" as the default).
+const ThemeContext = React.createContext('light');
+
+class App extends React.Component {
+  render() {
+    // Use a Provider to pass the current theme to the tree below.
+    // Any component can read it, no matter how deep it is.
+    // In this example, we're passing "dark" as the current value.
+    return (
+      <ThemeContext.Provider value="dark">
+        <Toolbar />
+      </ThemeContext.Provider>
+    );
+  }
+}
+
+// A component in the middle doesn't have to
+// pass the theme down explicitly anymore.
+function Toolbar() {
+  return (
+    <div>
+      <ThemedButton />
+    </div>
+  );
+}
+
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import reducer, { initialState } from "./reducer";
+import { DataLayer } from "./DataLayer";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <DataLayer initialState={initialState} reducer={reducer}>
+      <App />
+    </DataLayer>
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+class ThemedButton extends React.Component {
+  // Assign a contextType to read the current theme context.
+  // React will find the closest theme Provider above and use its value.
+  // In this example, the current theme is "dark".
+  static contextType = ThemeContext;
+  render() {
+    return <Button theme={this.context} />;
+  }
+}
+class ThemedButton extends React.Component {
+  render() {
+    return <Button theme={this.props.theme} />;
+  }
+}
+
+
 
 #### Every Context object comes with a Provider React component that allows consuming components to subscribe to context changes. All that we have to do is make a variable (here it is initialState) and give it and the provider an initial value. This initial value depends upon the project which you are making.
 #### For more, I highly recommend going to the official documentation and reading their tutorials from https://reactjs.org/docs/context.html
