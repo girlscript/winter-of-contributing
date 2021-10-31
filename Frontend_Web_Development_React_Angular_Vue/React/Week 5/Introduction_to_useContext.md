@@ -121,4 +121,6 @@ function UserInfo() {
 * Storing this data with useContext saves developers from prop-drilling, an anti-pattern that passes large amounts of data down from parent components to deeply-nested components, and all the components in between.
 * It re-renders all components whenever there is any update in the provider’s value prop.
 
-
+## References
+- https://dmitripavlutin.com/react-context-and-usecontext/
+- https://reactjs.org/docs/context.html
