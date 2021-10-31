@@ -14,6 +14,7 @@
 ## Different states of a Button:
 ![Button](ImageAssets/States-Button.jpg)*Fig: Button states.(Courtesy of uxdesign.cc from writer Taras Bakusevych)*
 
+
  - **Normal:** states that button is available for interaction.
  - **Focus:** states that the button element is highlighted by a keyboard or other input method.
  - **Hover:** states that user is hovering the mouse pointer over it.
