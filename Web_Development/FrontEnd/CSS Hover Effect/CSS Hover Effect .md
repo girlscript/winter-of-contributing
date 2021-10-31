@@ -1,18 +1,28 @@
 # CSS Hover Effect
-## 🤔When to use?
-We need to use it when we need to add some changes when user hover in certain area.
-## 🤔How to use this?
-To use this we need to follow following syntax
-### 👉🏽Syntax
-```
+## What are hover effects?
+The `:hover` CSS pseudo-class matches when the user interacts with an element with a pointing device, but does not necessarily activate it. It is generally triggered when the user hovers over an element with the cursor (mouse pointer).
+## Why hover effects?
+This enables us to select elements when you mouse over them on all the elements not only on links.
+## Browser Compatibility
+* Chrome
+* Firefox
+* Internet Explorer
+* Opera
+* Safari
+## When to use?
+We need to use it when we need to add some changes when user hovers over an element with the cursor.
+## How to use this?
+To use this we need to follow following syntax->
+### Syntax
+```css
 :hover{
     css declarations;
 }
 ```
-### 👉🏽Example
+### Example
 [![Screenshot 2021-10-28 at 7.10.26 PM.png)](https://www.dropbox.com/s/fotknrlip96i154/Screenshot%202021-10-28%20at%207.10.26%20PM.png?dl=0&raw=1)](https://drive.google.com/file/d/17aNOHHR_IzQa_BhkW4hmM7dTQBOtVxn6/view?usp=sharing)
-#### 👉🏽HTML File
-```
+#### HTML File
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,8 +39,8 @@ To use this we need to follow following syntax
 </body>
 </html>
 ```
-#### 👉🏽CSS File
-```
+#### CSS File
+```css
 .box{
     height: 500px;
     width: 500px;
@@ -46,13 +56,13 @@ h1:hover{
     color: brown;
 }
 ```
-### 👉🏽Example for visited , active , hover link
+### Example for visited , active , hover link
 `:active`: Changes when we click on the link <br/>
 `:hover`: Changes when we hover on the link <br/>
 `:visited`: Changes when once we visit the link <br/>
 [![Screenshot 2021-10-30 at 10.25.22AM.png](https://www.dropbox.com/s/75w47meel5dc33v/Screenshot%202021-10-30%20at%2010.25.22%20AM.png?dl=0&raw=1)](https://drive.google.com/file/d/1FKrQ3EpBH93XkCmWJyklOooWwCyLJLRA/view?usp=sharing)
-#### 👉🏽HTML File
-```
+#### HTML File
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -66,8 +76,8 @@ h1:hover{
 </body>
 </html>
 ```
-#### 👉🏽CSS File
-```
+#### CSS File
+```css
   a:visited {
     color: green;
   }
