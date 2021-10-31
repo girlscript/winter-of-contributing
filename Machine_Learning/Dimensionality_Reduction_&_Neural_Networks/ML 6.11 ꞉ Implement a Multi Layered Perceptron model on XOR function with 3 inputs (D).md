@@ -17,16 +17,16 @@ The perceptron basically works as a threshold function — non-negative outputs 
 Error function<br>
 
 
-<b>Input Nodes</b><br>
-These nodes contain the input to the network. In any iteration — whether testing or training — these nodes are passed the input from our data.<br>
-<b>Weights and Biases</b><br>
-These parameters are what we update when we talk about “training” a model. They are initialized to some random value or set to 0 and updated as the training progresses. The bias is analogous to a weight independent of any input node. Basically, it makes the model more flexible, since you can “move” the activation function around.<br>
-<b>Evaluation</b><br>
-The output calculation is straightforward.<br>
+* <b>Input Nodes</b><br>
+These nodes contain the input to the network. In any iteration — whether testing or training — these nodes are passed the input from our data.<br><br>
+* <b>Weights and Biases</b><br>
+These parameters are what we update when we talk about “training” a model. They are initialized to some random value or set to 0 and updated as the training progresses. The bias is analogous to a weight independent of any input node. Basically, it makes the model more flexible, since you can “move” the activation function around.<br><br>
+* <b>Evaluation</b><br>
+The output calculation is straightforward.<br><br>
 <i>Compute the dot product of the input and weight vector</i><br>
 <i>Add the bias</i><br>
 <i>Apply the activation function.</i><br>
-<b>Activation Function</b><br>
+<b>Activation Function</b><br><br>
 This function allows us to fit the output in a way that makes more sense. For example, in the case of a simple classifier, an output of say -2.5 or 8 doesn’t make much sense with regards to classification. If we use something called a sigmoidal activation function, we can fit that within a range of 0 to 1, which can be interpreted directly as a probability of a datapoint belonging to a particular class.<br>
 
 <b>Classification</b><br>
