@@ -940,11 +940,80 @@ public static void main (String[] args)
 Maximum profit is: 12 <br>
 - The time complexity of the above solution is O(kn) and space complexity is O(nk). Space complexity can further be reduced to O(n) as we use the result from the last
 transaction. But to make the article easily readable, we have used O(kn) space.
-
-
-
-
-
-
-
-
+# String Questions
+## How do you print duplicate characters from a string?
+- The standard way to solve this problem is to get the character array from String, iterate through that and build a Map with character and their count. Then iterate through that Map and print characters which have appeared more than once. So you actually need two loops to do the job, the first loop to build the map and the second loop to print characters and counts.
+- If you look at the below example, there is only one static method called the printDuplicateCharacters(), which does both this job. We first got the character array from String by calling toCharArray().
+- Next, we are using HashMap to store characters and their count. We use the containsKey() method to check if the key, which is a character that already exists or not if already exists we get the old count from HashMap by calling the get() method and store it back after incrementing it by 1.
+### Java Code :- 
+```Java
+import java.util.HashMap; 
+import java.util.Map; 
+import java.util.Scanner; 
+import java.util.Set;
+public class FindDuplicateCharacters{
+public static void main(String args[]) {
+ printDuplicateCharacters("Programming");
+ printDuplicateCharacters("Combination");
+ printDuplicateCharacters("Java");
+ }
+ public static void printDuplicateCharacters(String word) {
+  char[] characters = word.toCharArray();
+   Map<Character, Integer> charMap = new HashMap<Character, Integer>();
+   for (Character ch : characters) {
+   if (charMap.containsKey(ch)) {
+   charMap.put(ch, charMap.get(ch) + 1);
+   } else {
+                charMap.put(ch, 1);
+}
+}
+Set<Map.Entry<Character, Integer>> entrySet = charMap.entrySet();
+System.out.printf("List of duplicate characters in String '%s' %n", word);
+for (Map.Entry<Character, Integer> entry : entrySet) {
+if (entry.getValue() > 1) {
+System.out.printf("%s : %d %n", entry.getKey(), entry.getValue());
+}
+}
+}
+}
+```
+**Output:-**
+List of duplicate characters in String 'Programming' g : 2
+r : 2
+m : 2
+List of duplicate characters in String 'Combination' 
+n : 2
+o : 2 
+i : 2
+List of duplicate characters in String 'Java'
+# How does the substring() method fix memory leakage?
+Substring shares the same character array as the String. If the original String is too large, it will lead to a memory leak, and sometimes it will not be retained.
+Then, the original String will be retained by the substring as the size of the substring is smaller than the original String. It will further result in the prevention of large arrays being garbage collected. 
+## Write a program to check whether the two given strings are anagrams.
+Two strings are said to be anagrams if the two strings contain the same set of characters, but the order can be different.
+For example: “coding” and “dincog” are anagrams. “ninjas” and “jasnni” are anagrams.
+There are two approaches to solve this problem:
+- Approach 1: This approach involves sorting both the strings lexicographically and then comparing both strings. This approach will cost O(N * log(N) + M * log(M)) time where ‘M’ and ‘N’ represent the length of two strings. 
+- Approach 2: This approach involves storing the frequencies of each character of the two strings and then comparing the occurrence of the characters in the two strings. This approach will cost O(N + M) time and O(26) space where ‘N’ and ‘M’ represent the length of the two strings.
+# Write a program to swap two string variables without using a third variable in Java.
+- Suppose we have two strings, String a = “Coding” and String b = “Ninjas.” After swapping, the result should be a = “Ninjas” and b = “Coding.”
+- For this we first concatenate string b to string a, So a = “CodingNinjas”. Now we will store the substring starting from index 0 and of length = a.length() – b.length() in string b. Now b = “Coding”.
+- Now store the substring from index = b.length() till the end of the String a in String a. After this, String a = “Ninjas.”
+- You can refer to the below code snippet for the logic.
+### Java code :- 
+```Java
+public class Solution { 
+    public static void main(String args[]) { 
+        String a = "Coding"; 
+        String b = "Ninjas"; 
+        System.out.println("Before swap: " + a + b);  
+        a = a + b;  
+        b = a.substring(0, a.length() - b.length());  
+        a = a.substring(b.length());  
+        System.out.println("After swap : " + a + b);  
+    } 
+}
+```
+**The output for the code is:*** <br>
+Before swap: CodingNinjas
+After swap: NinjasCoding
