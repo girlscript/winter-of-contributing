@@ -28,6 +28,6 @@ p {
 }
 ```
 
-The style above specifies how the paragraph tag `p` should appear, as well as what font it should use and what size it should be. For `h1` tag we change it's color, font weight which make `h1` tag bold and make it align center. For `body` tag I change background color to blue. External.css files are often used to save these definitions or by writing internal CSS inside of style tags or you can also add CSS inline means in the tags you can define it's style. But if you use external file for CSS, you may modify the design of a complete website by updating only one file using an external stylesheet file.
+The style above specifies how the paragraph tag `p` should appear, as well as what font it should use and what size it should be. For `h1` tag I change it's color, font weight which make `h1` tag bold and make it align center. For `body` tag I change background color to blue. External.css files are often used to save these definitions or by writing internal CSS inside of style tags or you can also add CSS inline means in the tags you can define it's style. But if you use external file for CSS, you may modify the design of a complete website by updating only one file using an external stylesheet file.
 
 **Reference Link:** [MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps)
