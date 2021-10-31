@@ -1,3 +1,10 @@
+## Title : Implement a Multi Layered Perceptron Model on XOR function with 3 inputs.
+🔴 Domain : **Machine Learning** <br>
+🔴 Type : **Documentation** <br>
+🔴 Module : **Dimensionality Reduction and Neural Networks** <br>
+
+************************************************************
+
 ## Perceptron
 
 The perceptron is a classification algorithm. Basically, it works as a linear binary classifier. It was invented in the late 1950s by Frank Rosenblatt.<br>
