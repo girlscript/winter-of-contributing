@@ -1,0 +1,13 @@
+pandas
+seaborn
+nltk
+wordnet
+re
+wordcloud
+matplotlib.pyplot
+sklearn
+imblearn
+pickle
+anaconda-client==1.7.2
+anaconda-navigator==1.10.0
+anaconda-project==0.8.3
