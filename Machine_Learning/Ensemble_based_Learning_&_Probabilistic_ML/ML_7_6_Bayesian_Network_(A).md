@@ -10,7 +10,7 @@
 
 ### Click here for the audio file,
 
-[![ML 7.6: Bayesian Network (A)](https://user-images.githubusercontent.com/79050917/138584987-6facdc17-d8fe-4595-9051-7b815ed9f948.png)](https://drive.google.com/file/d/1r_NFW_E1eLhCymZzVFCDScXkRQOUxdx3/view?usp=sharing "HMM")
+[![ML 7.6: Bayesian Network (A)](https://user-images.githubusercontent.com/80235375/139586872-c44c4868-3731-4b1b-bb5d-af0b555192fc.png)](https://drive.google.com/file/d/1r_NFW_E1eLhCymZzVFCDScXkRQOUxdx3/view?usp=sharing "HMM")
 
 ---
 
