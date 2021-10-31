@@ -1014,6 +1014,6 @@ public class Solution {
     } 
 }
 ```
-**The output for the code is:*** <br>
+**The output for the code is:** <br>
 Before swap: CodingNinjas
 After swap: NinjasCoding
