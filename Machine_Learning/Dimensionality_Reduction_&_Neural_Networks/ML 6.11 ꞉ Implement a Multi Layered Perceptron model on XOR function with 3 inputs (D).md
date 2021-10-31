@@ -11,6 +11,9 @@ Input nodes<br>
 Output node<br>
 An activation function<br>
 Weights and biases<br>
+
+![Single Layer Perceptron](https://github.com/amitrakshar01/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/Assets/perceptron.png)
+
 Error function<br>
 
 
@@ -36,8 +39,12 @@ In the XOR problem, we are trying to train a model to mimic a 2D XOR function.
 The XOR function
 The function is defined like so:
 
+![Table](https://github.com/amitrakshar01/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/Assets/XOR.png)
+
 
 If we plot it, we get the following chart. This is what we’re trying to classify. The ⊕ (“o-plus”) symbol you see in the legend is conventionally used to represent the XOR boolean operator.
+
+![graph](https://github.com/amitrakshar01/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks/Assets/XOR%20graph.png)
 
 
 Our algorithm —regardless of how it works — must correctly output the XOR value for each of the 4 points. We’ll be modelling this as a classification problem, so Class 1 would represent an XOR value of 1, while Class 0 would represent a value of 0.
