@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Java provides functional interfaces to deal with functional programming by using lambda and method references that comes under java.util.function package. Every predefined functional interface has its characteristics. 
+Java furnishes utilitarian interfaces to manage practical programming by utilizing lambda and technique references that goes under java.util.function bundle. Each predefined utilitarian interface has its attributes.
 
 >Some of the major ones are :
 * Predicate
@@ -76,9 +76,8 @@ Square: 16
 ## Consumer
 
 * Single input argument is accepted and nothing is returned.
-* It supports a single abstract method named accept().
+* It upholds a single abstract method named accept().
 * It doesn’t have any return type.
-
 
 **For example :**
 ```java
@@ -101,7 +100,7 @@ I am displaying 10
 
 * No argument is accepted but it returns a value.
 * It must return something.
-* It supports a single abstract method named get().
+* It upholds a single abstract method named get().
 
 **For example :**
 ```java
@@ -131,15 +130,15 @@ Date : Thu Oct 21 13:56:32 GMT 2021
 * **BinaryOperator:** Represents an operation upon two operands of the same type that produces a result of same type as the operands.
 * **BooleanSupplier:** Represents a supplier of boolean-valued results.
 * **Consumer:** Represents an operation which accepts a single input argument and returns no result.
-* **DoubleBinaryOperator:** Represents an operation upon two double-valued operands that produces a double-valued result.
-* **DoubleConsumer:** Represents an operation which accepts a single double-valued argument and returns no result.
+* **DoubleBinaryOperator:** Represents an operation that occurs on two double-valued operands and a double-valued result is produced.
+* **DoubleConsumer:** Represents an operation that accepts a single double-valued argument and returns no result.
 * **DoubleFunction:** Represents a function which accepts a double-valued argument and produces a result.
 * **DoublePredicate:** Represents a predicate of one double-valued argument.
 * **DoubleSupplier:** Represents a supplier of double-valued results.
 * **DoubleToIntFunction:** Represents a function which accepts a double-valued argument and produces an int-valued result.
 * **DoubleToLongFunction:**	Represents a function where a double-valued argument is accepted and a long-valued result is produced.
 * **DoubleUnaryOperator:** Represents an operation on a single double-valued operand which produces a double-valued result.
-* **Function:** Represents a function which accepts one argument and produces a result.
+* **Function:** Represents a function in which one argument is accepted and a result is produced.
 * **IntBinaryOperator:** Represents an operation upon two int-valued operands and producing an int-valued result.
 * **IntConsumer:** Represents an operation which accepts a single int-valued argument and returns no result.
 * **IntFunction:** Represents a function which accepts an int-valued argument and produces a result.
