@@ -8,6 +8,17 @@
 - import matplotlib.pyplot as plt
 
 ## Codes used for different actions:
+#### Create Figure : 
+- fig = plt.figure()
+- fig2 = plt.figure(figsize=plt.figaspect(2.0))
+#### Create Axes :
+- All plotting is done with respect to an Axes. In most cases, a subplot will fit your needs. 
+- A subplot is an axes on a grid system.
+- fig.add_axes()
+- ax1 = fig.add_subplot(221)  #row-col-num
+- ax3 = fig.add_subplot(212)
+- fig3, axes = plt.subplots(nrows=2,ncols=2)
+- fig4, axes2 = plt.subplots(ncols=3)
 #### Plotting x and y points : 
 - plt.plot(x_points,y_points)  where x_points is array containing the points on the x-axis & y_points is array containing the points on the y-axis
 #### Plotting x and y points without a line :
@@ -35,7 +46,9 @@ lines too can have colors, width.
 - Example: plt.title("Sports Watch Data", fontdict = {'family':'serif','color':'blue','size':20} )
 #### To display the plot :
 - plt.show() -Explicit command required to display the plot object
-
+#### To save a plot :
+- plt.savefig('image.png') - to save figures
+- plt.savefig('image.png' , transparent=True)  - to save transparent figures 
 ## Barplots :
 - A bar graph is helpful when you have to visualise a numeric feature (fact) across multiple categories. 
 - To draw a bar graph: plt.bar(x_component, y_component) 
