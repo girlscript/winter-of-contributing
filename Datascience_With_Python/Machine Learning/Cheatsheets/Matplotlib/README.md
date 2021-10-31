@@ -50,9 +50,14 @@ lines too can have colors, width.
 - plt.savefig('image.png') - to save figures
 - plt.savefig('image.png' , transparent=True)  - to save transparent figures 
 ## Barplots :
+ ![Bar_plot](Images/bar_plot.png)
+ 
 - A bar graph is helpful when you have to visualise a numeric feature (fact) across multiple categories. 
 - To draw a bar graph: plt.bar(x_component, y_component) 
  #### Horizontal Bar Graphs : 
+ 
+ ![Horizontal_bar plot](Images/horizontal_bars.png)
+ 
 - plt.barh(x_component, y_component) 
  #### Bar Color, Width :
  - color : plt.bar(x_component, y_component, color="red")
@@ -62,7 +67,10 @@ lines too can have colors, width.
  
 ## Scatterplots :
  - Scatterplot, displays the scatter of the data. 
- - It can be helpful in checking for any relationship pattern between two quantitative variables and detecting the presence of outliers within them. 
+ - It can be helpful in checking for any relationship pattern between two quantitative variables and detecting the presence of outliers within them.
+ 
+  ![Scatter plot](Images/scatter_plot.png) 
+  
  - To draw a scatterplot : plt.scatter(x_axis, y_axis)
  - plt.scatter(x_axis, y_axis, c = color, label = labels) :  all the information (x_axis, y_axis, colour, labels) needs to be provided in the form of a list or array
  - plt.annotate(text, xy = points_to_annotate_xy) : to add a note (annotate) with a point in the scatterplot
@@ -71,6 +79,9 @@ lines too can have colors, width.
 ## Line Graphs :
  - A line graph is used to present continuous time-dependent data. 
  - It accurately depicts the trend of a variable over a specified time period.
+
+ ![Line graph](Images/line_graph.png)
+ 
  - plt.plot(x_axis, y_axis) : command to plot a line graph
  - plt.plot(y, 'red', marker = 'o') : command to get line plot with the points marked
  - plt.yticks(rotation = number) : to rotate the tick labels on the axes, could do for xticks as well
@@ -78,11 +89,17 @@ lines too can have colors, width.
  ## Histogram :
  - A histogram is a frequency chart that records the occurrence of an entry or an element in a data set. 
  - It is useful when you want to understand the distribution of a given series.
+ 
+  ![Histogram](Images/histogram.png)
+  
  - plt.hist(input, bins = number_of_bins, edgecolor = "color", color = "color") : command to plot a histogram
  
  ## Box Plots :
  - Box plots are very effective in summarising the spread of large data into a visual representation. 
  - They take the help of percentiles to divide the data range. 
+ - 
+  ![Box_plots](Images/box_plot.png)
+  
  - plt.boxplot([ list_1, list_2]) : command to create a box plot
  - Box plots divide the data range into three important categories:
   #### Median value: 
@@ -97,4 +114,4 @@ lines too can have colors, width.
 
   Click here 👇
 
- - [Visualisation_of_Matplotlib](https://github.com/singhmansi25/winter-of-contributing/blob/patch-4/Datascience_With_Python/Machine%20Learning/Cheatsheets/Matplotlib/Visualization%20using%20Matplotlib.ipynb)
+ - [Visualisation_of_Matplotlib](Visualization%20using%20Matplotlib.ipynb)
