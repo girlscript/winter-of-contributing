@@ -8,6 +8,11 @@ React Apps are structured to have a single index.html page.But sometimes we need
 
 - When building complex user interfaces,we typically build Single Page Applications or S.P.As.In this method, there is only one initial HTML request and response.
 - In Multi-Page React Applications, page(url) changes are handled by client-side(React) code.This method changes the visible content without fetching a new HTML file.
+- To do so, we need to install React Router using the following npm command.
+
+```javascript
+    npm install react-router-dom
+```
 
 Example 1: Using Route and BrowserRouter
 
@@ -34,6 +39,9 @@ Example 6: Redirecting the User
 Example 7: Implementing Programmatic Navigation
 
 ## Benefits of the multi page react app ?
+
+- In Multi Page React App,we can render different views where each page is different for every route.
+-
 
 also give some theory explanation with code
 any addons from your side (in-depth of the topic) .
