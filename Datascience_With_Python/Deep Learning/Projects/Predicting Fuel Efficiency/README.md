@@ -59,15 +59,15 @@ This module offers several options for transforming numeric data:
 
 Repeat these steps again for simple linear regression with multiple inputs and regression with deep neural network for multiple inputs
 
-13) Testing set performance is then analysed using mean absolute error.
+14) Testing set performance is then analysed using mean absolute error.
 
-14) Make predictions with dnn_model using model.predict() function.
+15) Make predictions with dnn_model using model.predict() function.
 
-15) Calculate error using test_predictions - test_labels and plot a histogram.
+16) Calculate error using test_predictions - test_labels and plot a histogram.
 
-16) We can save the model for future use using model.save() function.
+17) We can save the model for future use using model.save() function.
 
-17) models.load_model() function is used to reload the model. Because of this you will get output regardless of how many times you ran the model.
+18) models.load_model() function is used to reload the model. Because of this you will get output regardless of how many times you ran the model.
 
 5] COMPARISON
 
