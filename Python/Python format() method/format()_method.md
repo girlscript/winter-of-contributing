@@ -13,7 +13,7 @@ The ```format()``` is a method that formats the specified strings and place the 
 ~~~
 val1,val2,val3,..valn represents the values of strings to be formatted and placed in placeholder.  
 #### Example  
-~~~
+~~~py
 	eg1 = "The language is {lname},developed by {dname}".format(lname="Python",dname="Guido van Rossum")
 	eg2 = "The language is {0},developed by {1}".format("Python","Guido van Rossum")
 	eg3 = "The language is {},developed by {}".format("Python","Guido van Rossum")
