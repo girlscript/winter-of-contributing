@@ -1,6 +1,6 @@
 # Problem Statement
 You are given a 2d array of dimensions n*m.
-This array is filled with either 0 or 1. You can only move to cells which have 0 value in them. You can't move out of the boundaries or in the cells which have value 1 in them (1 means obstacle)
+This array is filled with either 0 or 1. You can only move to cells which have 0 value in them. You can't move out of the boundaries or in the cells which have value 1 in them (1 means obstacle)  
 Only four moves are allowed: 't' (1-step up), 'l' (1-step left), 'd' (1-step down) 'r' (1-step right) in the given order only.  
 You are required to print all paths that can be used to move from top-left to bottom-right.
 
