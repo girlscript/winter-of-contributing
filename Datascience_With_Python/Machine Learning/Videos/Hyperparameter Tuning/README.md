@@ -131,6 +131,19 @@ I would be explaining following approaches to Hyperparameter tuning:
 
 •	tol = learning rate for minimization loss
 
+
+### What is the importance of hyperparameter tuning? 
+
+Hyperparameters are crucial as they control the overall behaviour of a machine learning model. The ultimate goal is to find an optimal combination of hyperparameters that minimizes a predefined loss function to give better results.
+
+### Does Hyperparameter tuning reduce accuracy?
+
+For example, having regularized hyperparameters in place provides the ability to control the flexibility of the model. This control prevents overfitting and reduction in predictive accuracy on new test data.
+
+### What is the best hyperparameter tuning method?
+
+Grid search is arguably the most basic hyperparameter tuning method. With this technique, we simply build a model for each possible combination of all of the hyperparameter values provided, evaluating each model, and selecting the architecture which produces the best results.
+
 ### Conclusion
 
 - Here, we explored three methods for hyperparameter tuning. While this is an important step in modeling, it is by no means the only way to improve performance.
