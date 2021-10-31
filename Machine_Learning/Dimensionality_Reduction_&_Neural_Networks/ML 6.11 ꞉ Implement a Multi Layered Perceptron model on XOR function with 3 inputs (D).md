@@ -57,7 +57,8 @@ Apart from the usual visualization ( matplotlib and seaborn) and numerical libra
 ```from itertools import cycle
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np```
+import numpy as np
+```
 
 We next create our training data.
 
