@@ -12,9 +12,10 @@ We use Convolutional Neural Network to train our model after going through diffe
 Feature Detectors and Pooling are used to filter important features and try to capture useful information just like human beings. Then, they are passed to Fully Connected Layers for further processing.<br>
 Fully Connected layers are Artificial_Neural_Networks(ANN) which relies on inputs and their weights to classify or retrieve images based on their previous training.
 
-Basically, there are two types of Image Retrieval -
+Basically, there are three types of Image Retrieval -
 - Text Based Image Retrieval
 - Content Based Image Retrieval
+- Hybrid Image Retrieval
 
 Also, both Text Based and Content Based Image Retrieval are combined for getting better results while searching or browsing through Internet or whether it is related to Medical Domain. Below is a chart representing use of Image retrieval framework in Medical Domain
 
