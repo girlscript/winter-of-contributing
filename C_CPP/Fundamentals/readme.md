@@ -1,6 +1,7 @@
 - ### [Fundamentals](./Fundamentals/)
 
   - [Introduction to C/C++](./Introduction%20to%20C/)
+  - [C vs CPP](./C%20VS%20CPP/)
   - [Programming components, Structure & Keyword](./Programming%20components%2C%20Structure%20%26%20Keyword/)
   - [Operators & Expressions](./Operators%20%26%20Expressions/)
   - [Input & Output Operations](.Input%20%26%20Output%20Operations/)
