@@ -11,4 +11,4 @@
 - [Branch & Bound Algorithm](./Branch%20%26%20Bound)
 - [NP Complete Algorithm](./NP%20Completeness)
 - [Jump Search](./Algorithmic%20Approaches/Searching/jump_search.md)
-- [Interpolation Search](./Algorithmic%20Approaches/Searching/Interpolation_Search.md)
+- [Interpolation Search](https://github.com/Pranshu321/winter-of-contributing/blob/patch-19/C_CPP/Algorithmic%20Approaches/Searching/Interpolation_Search.md)
