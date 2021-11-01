@@ -34,6 +34,8 @@
 <br>
 
   ### Blurring an Image
+  ![original](Images/original.png)
+  ![blurred](Images/blurred.png)
   **Gaussian Blur:**
   
     cv2.GaussianBlur(image,ksize,sigmaX,sigmaY,borderType)
@@ -65,6 +67,8 @@
   <br>
   
   ### Grayscaling of images
+  ![grayscale](Images/grayscale.png)
+  
       cv2.cvtColor(image,colorcode)
   **Parameter:**
   - image: source image read
@@ -75,6 +79,17 @@
 <br>
 
 ### Canny Edge Detection 
+![coins](Images/coins.png)
+
+           👇
+![canny](Images/canny.png)
+
+            👇
+![canny2](Images/canny2.png)
+
+             👇
+![canny3](Images/canny3.png)
+
     cv2.Canny(image, edges, threshold1, threshold2, apertureSize, L2gradient)
  **Parameter:**
 - image - The 8-bit input image
