@@ -94,7 +94,7 @@ By default the flex-direction is set as row. If we change the flex-direction to 
 
 ![flex-direction](https://user-images.githubusercontent.com/86849664/139647286-56adde37-e110-407f-b338-30754270d768.png)
 
-<p align="center"> Image Source: https://miro.medium.com/max/700/1*bw4hK0MYxFXbw7ylW2fR5Q.png </p>
+<p align="center">Image Source:<a href="https://medium.com/@sahil.kapoor440/css-flexbox-a-developers-rejoice-to-placing-elements-on-a-website-29efaa3aa9df">  Sahil Kapoor's Medium blog </a></p>
 <br><br>
 
 ![flex-direction column](https://user-images.githubusercontent.com/86849664/139648344-6ea32642-29e8-4835-851b-a3f446f8ac14.png)
