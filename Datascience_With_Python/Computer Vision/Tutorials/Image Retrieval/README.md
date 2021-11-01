@@ -47,6 +47,10 @@ In cases of extremely basic binary images using feed forward neural networks, th
 
 The role of the ConvNet is to reduce the images into a form which is easier to process, without losing features which are critical for getting a good prediction. We try to capture the important features which play crucial role in identification of Images further it also provides thematic interpretations. In brief, it's trained on previous huge data observed until its accuracy is improved to best with the help of mathematical tools.
 
+![Convolutional_neural_network](https://user-images.githubusercontent.com/75624735/139677497-f112058b-3190-45c9-94a1-ce4c1b96a66c.jpg)
+
+Above is an image showing CNN and Different Layers which are explained below
+
   <h4>1.Kernel</h4>
 
 The element involved in carrying out the convolution operation in the first part of a Convolutional Layer is called the Kernel/Filter or Feature Detector.Kernels are usually of small dimensions so that they can train over most of features. The first ConvLayer is responsible for capturing the Low-Level features such as edges, color, gradient orientation, etc. With added layers, the architecture adapts to the High-Level features as well, giving us a network which has the wholesome understanding of images in the dataset, similar to how we would.
