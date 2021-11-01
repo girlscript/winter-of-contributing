@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_clone/models/chatmodel.dart';
+import 'package:page_transition/page_transition.dart';
 
 import 'conversation.dart';
 
@@ -50,8 +51,14 @@ class _ChatScreenState extends State<ChatScreen> {
               onTap: () {
                 Navigator.push(
                   context,
-                  MaterialPageRoute(
-                    builder: (context) => ConverstationPage(),
+                  PageTransition(
+                    type: PageTransitionType.rightToLeft,
+                    child: ConverstationPage(
+                      name: chatdata[index].name,
+                      profile: chatdata[index].profile,
+                      message: chatdata[index].message,
+                      time: chatdata[index].time,
+                    ),
                   ),
                 );
               },
