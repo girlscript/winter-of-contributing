@@ -10,11 +10,11 @@ Comments are of 2 types:
 ### SINGLE LINE COMMENT
 
 Single line comments are used to apply comment to one line only. It is denoted by `// text`. <br>
-<b>SYNTAX:</b>
+**SYNTAX:**
 ```
     // Single Line Comment
 ```
-<b>EXAMPLE:</b>
+**EXAMPLE:**
 ```CPP
     //Program to print 'Hello World'
     #include<bits/stdc++.h> // Header File
@@ -26,18 +26,18 @@ Single line comments are used to apply comment to one line only. It is denoted b
       return 0;
     }
 ```
-<b>OUTPUT:</b>
+**OUTPUT:**
 ```
     Hello World
 ```
 
-<b>EXPLANATION:</b>
+**EXPLANATION:**
 If we take a look at this particular program we can see that the comment lines are used to show the function of certain lines. It is also used to define what the particular code does. As we can see in the above code, the single line comments are used a number of times.
 
 ### MULTI LINE COMMENT
 
 Multi line comments are used to apply comment to more than one line only. It is denoted by ` /* text */`. <br>
-<b>SYNTAX:</b>
+**SYNTAX:**
 ```
     /* Multi Line Comment
     .
@@ -45,7 +45,7 @@ Multi line comments are used to apply comment to more than one line only. It is 
     .
     Comment ends here */
 ```
-<b>EXAMPLE:</b>
+**EXAMPLE:**
 ```CPP
     /*Program to print 'Hello World'.
     In this particular program only a single line of output is printed. */
@@ -58,12 +58,12 @@ Multi line comments are used to apply comment to more than one line only. It is 
       return 0;
     }
 ```
-<b>OUTPUT:</b>
+**OUTPUT:**
 ```
     Hello World
 ```
 
-<b>EXPLANATION:</b>
+**EXPLANATION:**
 We can say that with the help of multi line comments we can provide a clear description of what the program does.
 
 Let us now look at a C code having combination of single and multi line comment:
@@ -81,7 +81,7 @@ Let us now look at a C code having combination of single and multi line comment:
     return 0;
   }
 ```
-<b>OUTPUT:</b>
+**OUTPUT:**
 ```
     10
 ```
