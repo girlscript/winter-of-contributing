@@ -22,6 +22,6 @@ It forms a single layer perceptron. Structure of a feed forward is an advantage 
   Using a property known as the delta rule, the neural network can compare the outputs of its nodes with the intended values, thus allowing the network to adjust its weights through training in order to produce more accurate output values.
 <img src="https://images.deepai.org/django-summernote/2019-06-06/0c04202e-8108-48fd-bccf-c11796d5a9dc.png"></img>
 More generally, any directed acyclic graph may be used for a feedforward network, with some nodes (with no parents) designated as inputs, and some nodes (with no children) designated as outputs. 
----
+
 
 ### GirlScript Winter of Contributions 2021
