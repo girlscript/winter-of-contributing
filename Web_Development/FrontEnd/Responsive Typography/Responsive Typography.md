@@ -23,5 +23,25 @@ Here is an example that sets a body tag to 50% of the viewport's width.
 ```css
 body { width: 50vw; }
 ```
+### Application of Viewport Units :
+   These units are depend on viewport dimensions,So it’s very useful where the width, height or size of elements needs to be set relative to the viewport.
 
+1.Fullscreen Background Images or Sections
+  It’s very common to set background images on elements that fully cover the screen. Similarly, you may want to design a website where each individual section about a product or service has to cover the entire screen. In such cases, you can set the width of the respective elements to be equal to 100% and set their height equal to 100vh.
 
+```html
+   <style>
+      .fullscreen {
+  width: 100%;
+  height: 100vh;
+  padding: 40vh;
+}
+
+.a {
+  background: url('path/to/image.jpg') center/cover;
+}
+  </style>
+   <div class="fullscreen a">
+  <p>a<p>
+</div>
+```
