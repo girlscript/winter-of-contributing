@@ -56,6 +56,7 @@ int octalToDecimal(int n)
     }
     return decimal;                             //return answer
 }
+
 int main()
 {
     int num;
@@ -65,7 +66,7 @@ int main()
     cout<<octalToDecimal(num);                      //call a function
 }
 ```
-# OUTPUT:- 
+## OUTPUT  
 ![oTd](https://user-images.githubusercontent.com/70843941/138642094-539c791b-2344-4bfe-9f52-a239ccbcf9bf.png)
 
 ## HexaDecimal to Decimal 
@@ -94,6 +95,7 @@ int hexaToDecimal(string n)
     }
     return sum;                                       //return answer
 }
+
 int main()
 {
     string num;
@@ -103,6 +105,6 @@ int main()
     cout<< hexaToDecimal(num);                                //function call
 }
 ```
-# OUTPUT:- 
+## OUTPUT  
 ![hTd](https://user-images.githubusercontent.com/70843941/138642131-feeee7fe-74f7-4e18-92b9-cd3bbb4f28f5.png)
 

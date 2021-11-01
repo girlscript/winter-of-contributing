@@ -23,7 +23,6 @@ int decimalToBinary(int n)
         i *= 10;  // increment placevalue 
     }
     return ans ;
-
 }
 int main()
 {
@@ -34,7 +33,7 @@ int main()
     cout<< decimalToBinary(num);   // function call
 }
 ```
-## OUTPUT:- 
+## OUTPUT  
 ![binary](https://user-images.githubusercontent.com/70843941/138641632-58408401-95ef-40bd-9627-363fa94061c1.png)
 
 ## Decimal To Octal
@@ -114,6 +113,6 @@ int main()
     decimalToHexadecimal(num);      //function call
 }
 ```
-## OUTPUT:- 
+## OUTPUT  
 ![hexadecimal](https://user-images.githubusercontent.com/70843941/138641536-6b176083-7daa-4d68-8c0b-f211d1ed4351.png)
 
