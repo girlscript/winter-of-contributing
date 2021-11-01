@@ -21,7 +21,7 @@ ar2[] = {10, 13, 15, 20}
 We start comparing elements that are far from each other rather than adjacent.
 For every pass, we calculate the gap and compare the elements towards the right of the gap. Every pass, the gap reduces to the ceiling value of dividing by 2.
 
-### C++ Programm code of the Problem
+### C++ Program code of the Problem
 
 ```cpp
 // Merging two sorted arrays with O(1) extra space
@@ -103,6 +103,11 @@ Second Array - { 43, 82 }
 **COMPLEXITY**
 
 ```
-Time Complexity - O(n log n)
-Space complexity - O(1)
+Time Complexity -> O(nlogn) - For the Best Case
+                -> O(n^2) - For the Worst Case
+Space complexity -> O(1)
 ```
+
+### Refrence Link :
+
+https://www.geeksforgeeks.org/efficiently-merging-two-sorted-arrays-with-o1-extra-space/
