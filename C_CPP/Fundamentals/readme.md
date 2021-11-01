@@ -11,5 +11,5 @@
   - [Functions & Recursion and its types](./Functions%20%26%20Recursion%20and%20its%20types/)
   - [Arrays](./Arrays/)
   - [Variadic Functions](./Variadic%20Functions)
-  - [Comments in C/CPP](./Comments%20in%20C%20and%20CPP/)
+  - [Comments in C/CPP](./Comments%20in%20C_CPP/)
   
