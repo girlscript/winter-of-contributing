@@ -2,3 +2,4 @@
 - [Singly Linked List in C](Singly%20Linked%20List%20(Normal%20Linked%20List))
 - [Doubly Linked List](Doubly%20Linked%20List)
 - [Doubly Circular Linked List](Doubly_Circular_Linked_List.md)
+- [XOR Linked List](XOR%20Linked%20List)
