@@ -24,7 +24,7 @@ Using Convolutional Neural Networks, we have to train our model such that it cla
 
 I have successfully explained the topics in following manner:-
 
-<h3>- Types of Image Retrieval</h3> <br>
+<h1>- Types of Image Retrieval</h1> <br>
 <h3>- Convolutional Neural Networks</h3><br>
 <h3>1.Kernel</h3> <br>
 <h3>2.Pooling</h3> <br>
