@@ -91,4 +91,4 @@ void operator (girlscript &x)
 }
 ```  
 
-The output od the program is now quite self-explanatory.
+The output of the program is now quite self-explanatory.
