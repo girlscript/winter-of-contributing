@@ -1,5 +1,5 @@
 # Forward List
-Forward Lists is same as the list in STL ( Standard Template Library ) , But it differ in one aspect that in this element only keep the track of next element not of previous but in list the element keep track of both next and previous element .
+Forward Lists is same as the list in STL ( Standard Template Library ) , But it differs in one aspect that in this element only keep the track of next element not of previous but in list the element keep track of both next and previous element .
 
 
 ![Pictorial Representation of Forward List](https://user-images.githubusercontent.com/86917304/139671015-96c3c713-d25d-4d18-aa70-7380a894a9da.png)
@@ -11,7 +11,7 @@ Forward Lists is same as the list in STL ( Standard Template Library ) , But it 
 
 ## Disadvantages 
 1. Backward Traversing is not possible .
-2. Indivisual element can't be accessible directly.
+2. Individual element can't be accessible directly.
 
 ## Applications 
 1. Used to do chaining in hashing .
