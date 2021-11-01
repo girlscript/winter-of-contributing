@@ -4,36 +4,14 @@ C and CPP are one of the most commonly used programming languages. These 2 progr
 
 Let us now look at the basic differences between these programming languages,
 
-<table border="3">
-	<tr>
-		<th>C++</th>
-		<th>C</th>
-	</tr>
-	<tr>
-		<td>It is a high level language.</td>
-		<td>It is an intermediate between high level and machine level language.</td>
-	</tr>
-	<tr>
-		<td>It implements the concept of OOPs.</td>
-		<td>It does not implement the concept of OOPs.</td>
-	</tr>
-	<tr>
-		<td>Reference variables are supported.</td>
-		<td>Reference variables are not supported.</td>
-	</tr>
-	<tr>
-		<td>Access Modifiers are present.</td>
-		<td>Access Modifiers are absent.</td>
-	</tr>
-	<tr>
-		<td>cin and cout are used for input and output respectively.</td>
-		<td>scanf and printf are used for input and output respectively.</td>
-	</tr>
-	<tr>
-		<td>Namespace features are present.</td>
-		<td>Namespace features are absent.</td>
-	</tr>
-</table>
+| C++  | C |
+| ------------- | ------------- |
+| It is a high level language.  | It is an intermediate between high level and machine level language.  |
+| It implements the concept of OOPs.  | It does not implement the concept of OOPs.  |
+| Reference variables are supported.  | Reference variables are not supported.  |
+| Access Modifiers are present.  | Access Modifiers are absent.  |
+| cin and cout are used for input and output respectively.  | scanf and printf are used for input and output respectively.  |
+| Namespace features are present.  | Namespace features are absent.  |
 
 As we can see, the C and CPP programming languages have a lot of differences. However, they also have a few similarities. These similarities are as follows,
 
