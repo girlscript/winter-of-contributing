@@ -28,7 +28,7 @@ body { width: 50vw; }
 
 1. Fullscreen Background Images or Sections
   
-  It’s very common to set background images on elements that fully cover the screen. Similarly, you may want to design a website where each individual section about a product or service has to cover the entire screen. In such cases, you can set the width of the respective elements to be equal to 100% and set their height equal to 100vh.
+   It’s very common to set background images on elements that fully cover the screen. Similarly, you may want to design a website where each individual section about a product or service has to cover the entire screen. In such cases, you can set the width of the respective elements to be equal to 100% and set their height equal to 100vh.
 
 ```html
    <style>
@@ -47,3 +47,9 @@ body { width: 50vw; }
   <p>a<p>
 </div>
 ```
+2. Easily Center Your Elements
+
+  Viewport units can be very helpful when you want to put an element exactly at the center of your user’s screen. If you know the element’s height, you just have to set the top and bottom value of the margin property to be equal to [(100 - height)/2]vh.
+  
+### Reference
+  
