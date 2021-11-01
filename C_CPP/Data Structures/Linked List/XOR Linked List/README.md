@@ -22,7 +22,7 @@ Link of a node is calculated by XORing the address of previous and next nodes i.
 
 # Insertion in XOR Linked List
 While adding a new node in this XOR linked list, the node gets inserted in the beginning of the linked list. The link of the new node will be XOR of NULL(previous) and current head(next). Link of current head will be XOR of new node(previous) and link of head(next). And finally we need to make the new node as our head.
-```
+```cpp
 newNode->link = XOR(NULL, head);
 head->link = XOR(newNode, head->link);
 head = newNode;
@@ -32,17 +32,17 @@ If the node inserted is the first node of the linked list then we can simply add
 # Deletion in XOR Linked List
 To delete a particular element from the XOR linked list, we need to traverse the linked list to search for the element to be deleted.  
 If the node to be deleted in first node(if previous pointer in NULL), we update the head to the XOR of NULL(previous) and link of current element(next). The link of head will be XOR of address of current(previous) and link of head(next).
-```
+```cpp
 head = XOR(NULL, current->link);
 head->link = XOR(head->link, XOR(current, NULL));
 ```
 If the node to be deleted is the last node(if next pointer is NULL), we update link of previous node by removing the presence of current node. We update the link of previous to XOR of link of previous(previous) and address of current(current).
-```
+```cpp
 previous->link = XOR(previous->link, XOR(current, NULL));
 ```
 If the node to be deleted is in the middle of the linked list, we simply update the links of previous and next by removing the presence of the node to be deleted.
 We update previous->link = previous->link ⊕ current ⊕ next. And update next->link = next->link ⊕ current ⊕ previous
-```
+```cpp
 previous->link = XOR(previous->link, XOR(current, next));
 next->link = XOR(next->link, XOR(current, previous));
 ```
@@ -50,7 +50,7 @@ next->link = XOR(next->link, XOR(current, previous));
 # Traversal in XOR Linked List
 While traversing an XOR linked list, we need to maintain three pointers: previous, current and next. To traverse the list, we need the address of next node every time to access the next node. We can get the address of next node by XORing previous and link of current i.e. **address(next) = address(previous) ^ link(current)**  
 We then update the previous to current node and current to next node. So currently we are at the next node and moving forward.
-```
+```cpp
 next = XOR(previous, current->link);
 previous = current;
 current = next;
@@ -61,7 +61,7 @@ Reversing of an XOR linked list is easy as we just need to point our **head** to
 We simply need to traverse the XOR linked list till the end of the linked list and after our current pointer reaches the last node, we update our head to the current node. Now our head is pointing to the last node. When we traverse this linked list, it will be traversed in reverse order.  
 
 # C++ Program to implement XOR Linked List
-```
+```cpp
 #include <iostream>
 using namespace std;
 
