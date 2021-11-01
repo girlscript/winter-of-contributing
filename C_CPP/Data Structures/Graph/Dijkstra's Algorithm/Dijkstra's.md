@@ -81,7 +81,7 @@ int main(){
 >**Space Complexity: O(node + edge)**                                
 
 ![example](https://s3.amazonaws.com/vasir-assets/archive/shortest_path1.png)
->image credit: s3.amazonaws.com
+>image credit: https://s3.amazonaws.com/vasir-assets/archive/shortest_path1.png
 
 ### Input
 >4 4                             
