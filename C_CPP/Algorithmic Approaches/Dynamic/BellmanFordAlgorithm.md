@@ -1,6 +1,5 @@
 # Bellman Ford Algorithm
----
----
+
 
 This *Algorithm* solves problem, called as **Single Source Shortest Path** Problem using *DP approach*.
 
