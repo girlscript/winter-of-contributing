@@ -2,4 +2,4 @@ In this folder, all medium and hard level CP problems from various websites and 
 
 **PROBLEMS**  
 
-*[Card Shuffling(Codechef)](CARD%20SHUFFLE.md)
+* [Card Shuffling(Codechef)](CARD%20SHUFFLE.md)
