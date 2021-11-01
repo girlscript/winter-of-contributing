@@ -47,7 +47,7 @@ In cases of extremely basic binary images using feed forward neural networks, th
 
 The role of the ConvNet is to reduce the images into a form which is easier to process, without losing features which are critical for getting a good prediction. We try to capture the important features which play crucial role in identification of Images further it also provides thematic interpretations. In brief, it's trained on previous huge data observed until its accuracy is improved to best with the help of mathematical tools.
 
-[image](https://user-images.githubusercontent.com/75624735/139678046-14e9cc25-4871-4b71-909a-6cedded734a8.png)
+![image](https://user-images.githubusercontent.com/75624735/139678414-4c038b29-e190-4638-9d4d-9f90036e53b0.png)
 
 Above is an image showing CNN and Different Layers which are explained below
 
