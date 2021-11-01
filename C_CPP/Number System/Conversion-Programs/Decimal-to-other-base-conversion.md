@@ -76,7 +76,7 @@ int main()
 
 ## Decimal To HexaDecimal
 *In this conversion the decimal number is divided by 16 and remainder will be the digit of equivalent hexadecimal number. these remainders are arranged in reverse (bottom to top) order.*
-*(Note:- if remainder is 10, 11, 12, 13, 14, 15 then in hexadecimal it will be A,B,C,D,E,F respectively.*
+*(Note:- if remainder is 10, 11, 12, 13, 14, 15 then in hexadecimal it will be A,B,C,D,E,F respectively.)*
 ```cpp
 #include <bits/stdc++.h>
 using namespace std;
