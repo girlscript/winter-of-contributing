@@ -24,11 +24,11 @@ Using Convolutional Neural Networks, we have to train our model such that it cla
 
 I have successfully explained the topics in following manner:-
 
-- Types of Image Retrieval <br>
-- Convolutional Neural Networks<br>
-1.Kernel <br>
-2.Pooling <br>
-3.Fully Connected Layers & Epochs <br>
-- Flow of Content Based Image Retrieval <br>
-- Euclidean Distance <br>
-- Conclusion <br>
+<h3>- Types of Image Retrieval</h3> <br>
+<h3>- Convolutional Neural Networks</h3><br>
+<h3>1.Kernel</h3> <br>
+<h3>2.Pooling</h3> <br>
+<h3>3.Fully Connected Layers & Epochs</h3> <br>
+<h3>- Flow of Content Based Image Retrieval</h3> <br>
+<h3>- Euclidean Distance</h3> <br>
+<h3>- Conclusion</h3> <br>
