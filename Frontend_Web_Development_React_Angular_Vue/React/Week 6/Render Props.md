@@ -320,8 +320,8 @@ Then we called that render function inside the Wrapper Component as it was passe
 
 Then we got our button element  and the flow is :-
 
-### <kbd><b>Whenver the button is clicked -> the button updates the state of its parent -> this makes the parent component to re-render -> the re-render makes the Wrapper component call the wrapper function again -> now new state and updation function are passes to the button elemnt -> the button element displays the new state it recieved as prop.</b>
-</kbd>
+### <b>Whenver the button is clicked -> the button updates the state of its parent -> this makes the parent component to re-render -> the re-render makes the Wrapper component call the wrapper function again -> now new state and updation function are passes to the button elemnt -> the button element displays the new state it recieved as prop.</b>
+
 <br/>
 This cycle happens everytime the button is clicked.
 <br/>
