@@ -1,4 +1,13 @@
-## Gaussian Mixture Models
+## Title : Gaussian Mixture Models
+🔴 **Type of Content** : Documentation
+
+🔴 **Domain** : Machine Learning
+
+🔴 **Module** : Ensemble based Learning & Probabilistic ML
+
+*********************************************************************
+
+
 ![gmm2](https://user-images.githubusercontent.com/80235375/139640493-d316482d-432c-49ec-91ff-25ac9b62a8a9.png)
 
 
@@ -53,3 +62,8 @@ Even though, training the GMM with EM Algorithm can ensure that missing data are
 ### APPLICATIONS
 
 GMMs have been used for feature extraction from speech data, and have also been used extensively in object tracking of multiple objects, where the number of mixture components and their means predict object locations at each frame in a video sequence.
+
+
+*********************************************************************
+
+### GirlScript Winter of Contributions 2021 
