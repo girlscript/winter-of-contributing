@@ -14,7 +14,6 @@
 | 7.9 | **Hidden Markov Model** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML/ML_7_9_Hidden_Markov_Model_(A).md) | - | - |
 | 7.10 | **Viterbi Algorithm** | - | - | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML/ML_7_10_Viterbi_Algorithm_(V).md) |
 
-**N.B.: ⭐ marked issue is the Star issue of this week!**
   
 *************************************************************************
 
