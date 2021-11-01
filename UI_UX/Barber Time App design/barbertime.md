@@ -33,3 +33,6 @@ Splash Screen is the first startup screen which appears when App is opened.
 ## 8) Profile Screen
 
 ![Profile](https://github.com/neerajdhakad/winter-of-contributing/blob/UI_UX/UI_UX/Barber%20Time%20App%20design/Profile.png)
+
+
+For Figma Prototype Link click <a href="here">https://www.figma.com/file/7jpeJmvnMzBG4s5iisc9xf/BarberTime-App-Design?node-id=0%3A1<a>
