@@ -49,7 +49,10 @@ body { width: 50vw; }
 ```
 2. Easily Center Your Elements
 
-  Viewport units can be very helpful when you want to put an element exactly at the center of your user’s screen. If you know the element’s height, you just have to set the top and bottom value of the margin property to be equal to [(100 - height)/2]vh.
+   Viewport units can be very helpful when you want to put an element exactly at the center of your user’s screen. If you know the element’s height, you just have to set the top and bottom value of the margin property to be equal to [(100 - height)/2]vh.
   
 ### Reference
+    
+   1) [Free Code Camp](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/make-typography-responsive)
+   2) [Sitepoint](https://www.sitepoint.com/css-viewport-units-quick-start/)
   
