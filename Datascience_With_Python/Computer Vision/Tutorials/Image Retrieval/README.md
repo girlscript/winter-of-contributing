@@ -4,7 +4,7 @@
 
 Retrieving Images using Machine Learning Algorithms such as Convolutional Neural Networks have been one of the most great development in the technical domain. Image Retrieving models can be widely used to classify and differentiate Images on the basis of color, texture, theme, etc. They are used in apps for finding similiar accesories, dresses, etc. An image retrieval system is a computer system used for browsing, searching and retrieving images from a large database of digital images. 
 
-![rorissa_figure1](https://user-images.githubusercontent.com/75624735/138871934-108a7933-8384-45f9-aa72-2b36a77ab01f.png)
+![](https://user-images.githubusercontent.com/75624735/138871934-108a7933-8384-45f9-aa72-2b36a77ab01f.png)
 
 ## Image Retrieval using CNN
 
@@ -19,7 +19,7 @@ Basically, there are three types of Image Retrieval -
 
 Also, both Text Based and Content Based Image Retrieval are combined for getting better results while searching or browsing through Internet or whether it is related to Medical Domain. Below is a chart representing use of Image retrieval framework in Medical Domain
 
-![11517_2021_2392_Fig1_HTML](https://user-images.githubusercontent.com/75624735/138880311-399cf12a-b1ec-42ca-bb30-8c3147c93b7a.png)
+![](https://user-images.githubusercontent.com/75624735/138880311-399cf12a-b1ec-42ca-bb30-8c3147c93b7a.png)
 
 Using Convolutional Neural Networks, we have to train our model such that it classifies Images correctly on which it is trained. And also classifies all those Images which are not part of training but part of classification output. This is perfect example of Deep Learning and Unsupervised Approach.
 
@@ -47,7 +47,7 @@ In cases of extremely basic binary images using feed forward neural networks, th
 
 The role of the ConvNet is to reduce the images into a form which is easier to process, without losing features which are critical for getting a good prediction. We try to capture the important features which play crucial role in identification of Images further it also provides thematic interpretations. In brief, it's trained on previous huge data observed until its accuracy is improved to best with the help of mathematical tools.
 
-![Convolutional_neural_network](https://user-images.githubusercontent.com/75624735/139677497-f112058b-3190-45c9-94a1-ce4c1b96a66c.jpg)
+[image](https://user-images.githubusercontent.com/75624735/139678046-14e9cc25-4871-4b71-909a-6cedded734a8.png)
 
 Above is an image showing CNN and Different Layers which are explained below
 
