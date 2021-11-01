@@ -213,5 +213,3 @@ int main() {
 - Little **increase** in code complexity.
 - **Not supported** by many other programming languages like **Java, JavaScript, Python, etc** due to absence of access to memory address of the object.
 - Traversal **not possible** if we need to start it from the **middle** of the XOR linked list as we do not have the **necessary information** to start.
-
-#### Contributor: [Keval Dhanani](https://github.com/OptimalLearner)
