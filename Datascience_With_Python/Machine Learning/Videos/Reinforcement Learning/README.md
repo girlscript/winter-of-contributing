@@ -1,12 +1,13 @@
 # Reinforcement Learning 
 # Video Link : [click here](https://drive.google.com/file/d/19BRA0OOiUa77jszt3AOHyhtuy9MCMcWv/view?usp=sharing) 
 
-![img](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Reinforcement_learning_diagr.png) 
+![img](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Images/Reinforcement_learning_diagr.png) 
 <br> *RL - Img source Wikipedia* 
 <br> **Machine Learning** as defined by Arthur Samuel is &quot;the field of technology that gives computer ability to learn without being explicitly programmed&quot;. It is the most demanded skill that has attracted students belonging to the majors of engineering, mathematics, and data analytics. Machine Learning is the growing field that is further divided into four types.
 
 Types of machine Learning:
-![](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture1.png)
+![](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Images/Picture1.png)
+
 *1. ML branches*
 
 The target of this document is to simplify the knowledge of Reinforcement learning, unleash its growing applications, algorithms, and few limitations. It also highlights the pre-requisites which may be required by the aspiring students looking to advance their education in the field of Reinforcement learning.
@@ -63,10 +64,10 @@ Markov&#39;s decision process or MDPs is based upon the long-term impact of the 
 4. Action
 5. Reward
 
-Consider an example where rabbit is an agent which has carrot and broccoli at its both sides in the environment. Eating any of it would provide a reward of 10 points to the rabbit. It is natural for a rabbit to prefer carrot over broccoli. However, there is a tiger next to carrot, which would result in a penalty of -1000 points. It is noted from the provided example that next state or future reward is only evaluated based on the present state and action of te agent. ![](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture2.png)
+Consider an example where rabbit is an agent which has carrot and broccoli at its both sides in the environment. Eating any of it would provide a reward of 10 points to the rabbit. It is natural for a rabbit to prefer carrot over broccoli. However, there is a tiger next to carrot, which would result in a penalty of -1000 points. It is noted from the provided example that next state or future reward is only evaluated based on the present state and action of te agent. ![](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Images/Picture2.png)
 *2. Image source: coursera*
 <br> Game of chess is a Markovian as current state of each piece is considered while taking next move and past reference is excluded. Tic tac toe is another example.
-<br> ![test](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture3.png) *3 Image source : coursera*
+<br> ![test](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Images/Picture3.png) *3 Image source : coursera*
 
 #### 2. Q learning:
 For basic understandinmg of Q-learning, knowldge of terms *exploration* and *exploitation* is requried. Let's decipher these terms first.
@@ -78,7 +79,7 @@ In RL, both the act of exploring and exploiting is necessary for agent to acheiv
 
 ##### Explanation
 These steps are simplified as follows:
-- First step involves making a q-table that segregate the entire enviroment in to small equal peices and marked each piece with reward and penalty. A q-function is used here that takes two parameter of state and action. This function determine the next step selected by the agent. <br> ![optimal Q-function](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Picture4.png)
+- First step involves making a q-table that segregate the entire enviroment in to small equal peices and marked each piece with reward and penalty. A q-function is used here that takes two parameter of state and action. This function determine the next step selected by the agent. <br> ![optimal Q-function](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Images/Picture4.png)
 - Step 2 and 3 requres agent to explore and exploit the environment in the search of reward and target value function. The agent will chose action based on the state of the envronment.
 - Q function is updated in 4th step based upon the reward or penalty acquired by the agent.
 
@@ -116,5 +117,3 @@ Below I have listed some popular online resources of reinforcement learning for 
 6. [Reference 6](https://www.ias.informatik.tu-darmstadt.de/uploads/Publications/Kober_IJRR_2013.pdf)
 7. [Reference 7](https://www.freecodecamp.org/news/an-introduction-to-q-learning-reinforcement-learning-14ac0b4493cc/)
 
-### Contributor:
-Noor ul Huda - GWOC'21 Contributer in DSWP
