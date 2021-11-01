@@ -13,9 +13,11 @@ In a given interval the probability of observing x events is given by
 
 ##  Poisson Distribution: a Limiting Case of the Binomial Distribution
 
+<img src = "https://www.davidyding.com/navPages/latex/derivation.png" width ="800"/>
 The number of successes in a Bernoullian sequence of <b>n</b> trials with probability of success <b>p</b>, where n is very large and p is very small such that λ = np is of moderate magnitude, has an approximate Poisson Distribution having parameter λ.
 
 That does not mean that the Poisson Distribution only occurrs as an approximation to the binomial distribution. It may also arise itself in connection with various practical problems.
+
 
 ## Properties Of Poisson Distribution:
 
@@ -26,6 +28,14 @@ That does not mean that the Poisson Distribution only occurrs as an approximatio
 5. Poisson distribution can be unimodal or bi-modal, depending on the rate parameter (λ). 
    If it is a non-integer, then the distribution will be uni-modal, 
    If it is an integer, then it will be bi-modal.
+
+
+## Conditions for Poisson Distribution:
+
+1. An event can occur any number of times during a time period.
+2. Events should be independent. In other words, occurrence of one event, should not affect the probability of another event occurring in the same time period.
+3. The rate of occurrence (λ) will be constant; that is, the rate should not change over the time.
+4. The probability of an event occurring is proportional to the length of the time period.
 
 
 ## Mean & Variance of a Poisson Distribution :
@@ -49,6 +59,8 @@ There are many applications of the Poisson distribution in many fields -
 4. The number of jumps in a stock price in a given time interval may be modelled as a Poisson Distribution.
 5. We can model the number of typographical errors found in a book as a Poisson Distribution.
 
+#### In the notebook, we have worked on some real life examples (observing cars in a highway and counting errors of a skilled typist) of Poisson Distribution. From the problem statement we have found λ (expected value) first and then calculated the probability of the stated random event.
+
 
 ## Libraries Used for Implementing Poisson distribution :
 
@@ -56,6 +68,7 @@ There are many applications of the Poisson distribution in many fields -
 2. numpy
 3. matplotlib.pyplot
 4. pandas
+
 
 ## References :
 
