@@ -88,6 +88,7 @@ export default Button2;
 ```
 
 The Output of the above Two Components is :-
+
 ![](./assests/renderProps1.png)
 
 The above Code works fine. But there is one problem of repeating our logic inside both components 
@@ -254,6 +255,7 @@ class Button1 extends React.Component {
 export default Button1;
 ```
 Output of this code will be :-
+
 ![](./assests/renderProps2.png);
 
 Now , We Can do the same for Button2 Class.
@@ -318,8 +320,8 @@ Then we called that render function inside the Wrapper Component as it was passe
 
 Then we got our button element  and the flow is :-
 
-### <b>Whenver the button is clicked -> the button updates the state of its parent -> this makes the parent component to re-render -> the re-render makes the Wrapper component call the wrapper function again -> now new state and updation function are passes to the button elemnt -> the button element displays the new state it recieved as prop.</b>
-
+### <kbd><b>Whenver the button is clicked -> the button updates the state of its parent -> this makes the parent component to re-render -> the re-render makes the Wrapper component call the wrapper function again -> now new state and updation function are passes to the button elemnt -> the button element displays the new state it recieved as prop.</b>
+</kbd>
 <br/>
 This cycle happens everytime the button is clicked.
 <br/>
