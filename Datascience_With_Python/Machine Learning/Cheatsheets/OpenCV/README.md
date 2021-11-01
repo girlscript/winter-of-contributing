@@ -34,8 +34,9 @@
 <br>
 
   ### Blurring an Image
-  ![original](Images/original.png)
+  ![original](Images/original.png)  👉 👉
   ![blurred](Images/blurred.png)
+  
   **Gaussian Blur:**
   
     cv2.GaussianBlur(image,ksize,sigmaX,sigmaY,borderType)
