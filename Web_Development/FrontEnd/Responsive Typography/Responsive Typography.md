@@ -20,7 +20,7 @@ The different viewport units are:
 - Viewport Maximum (vmax). This unit is based on the larger dimension of the viewport. If the viewport width is larger than the height, the value of 10vmax will be equal to 10% of hte viewport width. Similarly,  If the viewport height is larger than the width, the value of 10vmax will be equal to 10% of viewport height.
 
 Here is an example that sets a body tag to 50% of the viewport's width.
-```html
+```css
 body { width: 50vw; }
 ```
 
