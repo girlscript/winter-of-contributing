@@ -72,7 +72,7 @@ int main()
     cout<< decimalToOctal(num);         //function call
 }
 ```
-## OUTPUT:- 
+## OUTPUT  
 ![octal](https://user-images.githubusercontent.com/70843941/138641591-c092f98d-1550-4a0f-bf86-759698948025.png)
 
 ## Decimal To HexaDecimal
