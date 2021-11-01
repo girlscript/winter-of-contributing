@@ -1,5 +1,6 @@
 # Forward List
 Forward Lists is same as the list in STL ( Standard Template Library ) , But it differ in one aspect that in this element only keep the track of next element not of previous but in list the element keep track of both next and previous element .
+
 ## Advantages Over List
 1. Less space required for accomodation .
 2. Operation like insertion , removal , deletion takes place in constant time complexity .
