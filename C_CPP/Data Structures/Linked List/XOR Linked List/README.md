@@ -2,11 +2,11 @@
 
 A **Doubly linked list** node requires **three** fields: 1 to store the **data** and other 2 to store the **address for previous and next nodes**. To move forward in the list, we use next pointer and to move backward we use previous pointer. The doubly linked list representation is displayed below:
 
-<p align="center"> <img width="650em" src="Doubly-Linked-List.svg" alt="Doubly Linked List Representation" /> </p>   
+<p align="center"> <img width="650em" src="https://user-images.githubusercontent.com/74010615/139650169-850231c2-f07a-487b-9667-160a14418312.png" alt="Doubly Linked List Representation" /> </p>  
 
 An **XOR linked list** is the **memory-efficient version** of doubly linked list with 1 field to store **data** and 1 field to store the **XOR of the previous and next node addresses** and not the actual address of the node. To move forward in the list, we need to perform certain calculations to get the next node address. Similarly, some calculations are required to get the previous node address. Below is the representation of XOR linked list:
 
-<p align="center"> <img width="650em" src="XOR-Linked-List.svg" alt="XOR Linked List Representation" /> </p>  
+<p align="center"> <img width="650em" src="https://user-images.githubusercontent.com/74010615/139650807-0a5434b4-430d-4f35-9aad-79cd75853e82.png" alt="XOR Linked List Representation" /> </p>  
 
 ```
 NOTE: ⊕ and ^ are used to represent XOR.  
