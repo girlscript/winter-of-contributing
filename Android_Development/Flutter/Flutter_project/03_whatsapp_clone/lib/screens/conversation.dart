@@ -16,13 +16,6 @@ class ConverstationPage extends StatefulWidget {
 
 class _ConverstationPageState extends State<ConverstationPage> {
   @override
-  void initState() {
-    print(widget.time);
-    print(widget.message);
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -93,15 +86,18 @@ class _ConverstationPageState extends State<ConverstationPage> {
             child: Stack(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(top: 630.0),
-                  child: ListView(
-                    shrinkWrap: true,
-                    children: [
-                      OwnMessage(
-                        message: widget.message,
-                        time: widget.time,
-                      ),
-                    ],
+                  padding: const EdgeInsets.only(bottom: 80.0),
+                  child: Align(
+                    alignment: Alignment.bottomRight,
+                    child: ListView(
+                      shrinkWrap: true,
+                      children: [
+                        OwnMessage(
+                          message: widget.message,
+                          time: widget.time,
+                        ),
+                      ],
+                    ),
                   ),
                 ),
                 Align(
