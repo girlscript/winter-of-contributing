@@ -68,4 +68,10 @@ __Installation:__ `pip install wordcloud`
 
 ![image](https://user-images.githubusercontent.com/75624735/139836759-1b0b2ec4-b85b-4862-ac80-ce8896d3dfbc.png)
 
-### 
+### Importing NLTK & Wordnet
+
+![image](https://user-images.githubusercontent.com/75624735/139855396-36df63b9-57c6-4a1d-8c28-95a73a5765a8.png)
+
+### Words Initialization
+
+http://localhost:8888/notebooks/Depression%20Detection.ipynb
