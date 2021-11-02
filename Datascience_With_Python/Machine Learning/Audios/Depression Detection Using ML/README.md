@@ -45,6 +45,7 @@ Some useful medical treatment can also be provided to improve the situation :-
 Here, we are going to use different libraries to extract and analyse data from different social media sites such as twitter, facebook, whatsapp, etc. Then we will find words which are oftenly used to show emotions. We are going to perform this task using NLTK library. Assign weights to words based on their effectiveness. Get the approx frequency based of the word using wordclouds. <br>
 After extracting features, we will perform sampling and then apply Logistic Regresssion Algorithm and MultinomialNB . After preprocessing, we will label output as Depressive or Non Depressive. 
 
+Below is an example where count of tweets per person is given for depressed and non-depressed responses.  
 ![images (1)](https://user-images.githubusercontent.com/75624735/138996108-1357052c-7bf1-4c97-ad84-50b9fc18e487.png)
 
 ### ML Libraries involved
@@ -52,14 +53,12 @@ After extracting features, we will perform sampling and then apply Logistic Regr
 - NLTK: Natural Language Toolkit. It is a suite that contains libraries and programs for statistical language processing. It is one of the most powerful NLP libraries, which contains packages to make machines understand human language and reply to it with an appropriate response. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning<br>
 __Installation:__ `pip install nltk`
 
+Below, Image represents the step-by-step approach of Natural Language Toolkit (NLTK) which is performed on raw text. 
 ![image](https://user-images.githubusercontent.com/75624735/139830414-d51f7fb7-e250-410d-8b23-1985f20ad478.png)
 
 - WordCloud: Many times you might have seen a cloud filled with lots of words in different sizes, which represent the frequency or the importance of each word. This is called the Tag Cloud or WordCloud. Word Cloud is a data visualization technique used for representing text data in which the size of each word indicates its frequency or importance. Significant textual data points can be highlighted using a word cloud. Word clouds are widely used for analyzing data from social network websites.<br>
 __Installation:__ `pip install wordcloud`
 
-![eichstaedt-johannes-PNAS-Facebook-depression](https://user-images.githubusercontent.com/75624735/138894038-326c99d8-cc2f-4088-80e9-6e2026d53d1a.png)
+Different wordclouds representing frequency of words in each cloud.
+![Wordclouds](https://user-images.githubusercontent.com/75624735/138894038-326c99d8-cc2f-4088-80e9-6e2026d53d1a.png)
 
-
-### Follow this link for Code Compilation
-
-https://colab.research.google.com/drive/1oxaTauml5H1681kwTvNIu5SwG_PPy2c_#scrollTo=de992f6f
