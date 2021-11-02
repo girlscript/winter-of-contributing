@@ -1,7 +1,6 @@
 # INTRODUCTION TO STRUCTURE
 
 *In this audio file,I have covered following topics:-*
-<br>
 1. What is structure?
 2. What is the difference between an array and a structure?
 3. How we can declare structure?
