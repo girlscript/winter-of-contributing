@@ -1,5 +1,5 @@
 <div align = 'center'>
-  <h1> 🟣 Chapter 7 - Ensemble based Learning and Probabilistic ML 🟣 </h1></div>
+  <h1> ⚪ Chapter 7 - Ensemble based Learning and Probabilistic ML :white_circle: </h1></div>
   
 | Sl. No. | Topics | Audio | Documentation |  Video |
 | :-: |:-: |:-: |:-: |:-: |
