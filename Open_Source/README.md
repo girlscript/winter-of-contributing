@@ -41,6 +41,7 @@
 - [2.4 Create your own open source projects](2.Getting_Started_With_Open_Source/2.4_Create_Your_Own_Open_Source_Project.md)
 
 - [2.5 Resources to find good first issues for your first open source contribution](2.Getting_Started_With_Open_Source/2.5_Resources_to_find_good_First_Issues_for_your_first_Open_Source_Contribution.md)
+- [2.6 Markdown CheatSheet](2.Getting_Started_With_Open_Source/2.6_Markdown_CheatSheet.md)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
