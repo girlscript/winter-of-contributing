@@ -29,6 +29,11 @@ while (condition) {
 }
 ```
 
+**Flowchart:**
+
+![JavaScript-while-loop](https://user-images.githubusercontent.com/80022922/139807897-4d210095-b7e0-4285-b201-19111c3aeb72.png)
+
+
 **Example:**
 
 ```js
@@ -62,6 +67,11 @@ do {
  }
 while (condition);
 ```
+
+**Flowchart:**
+
+![JavaScript-do-while-loop](https://user-images.githubusercontent.com/80022922/139808191-5cc2f445-dc7b-441e-bad7-e239c8a0804d.png)
+
 
 **Example:**
 
@@ -98,6 +108,11 @@ for ([initialization];[condition];[final-expression]){
    Block of code
 }
 ```
+
+**Flowchart:**
+
+ ![JavaScript-for-loop](https://user-images.githubusercontent.com/80022922/139808158-c0aa5676-923a-4869-a54c-dde90856fd70.jpg)
+
 
 **Example:**
 
