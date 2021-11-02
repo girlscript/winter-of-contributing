@@ -21,8 +21,18 @@ Following are the important methods of the `StringBuffer` Class.
 |13. | [`replace()`](#replace) | Replaces a set of characters with the string passed as the parameter.|
 |14. | [`subString()`](#substring) | Returns a substring of StringBuffer object specified by the parameters.|
 
+<br/>
+<br/>
+<br/>
 
+## Constructors
+<hr />
 
+`StringBuffer` class defines the ollowing 4 constructors,
+1. `StringBuffer()`
+2. `StringBuffer(int size)`
+3. `StringBuffer(String str)`
+4. `StringBuffer(CharSequene chars)`
 
 
 ## `length()`
@@ -172,27 +182,140 @@ good
 ## `append()`
 <hr />
 
+General forms:` StringBuffer append(String str)`, `StringBuffer append(int num)` and `StringBuffer append(Object obj)`. 
 
+```java
+class StringBufferExample{
+    public static void main(String[] args){
+        String s; 
+        int a = 42;
+        StringBuffer obj = new StringBuffer(40);
+
+        s = obj.append("a = ").append(a).append("!").toString();
+        System.out.println(s);
+    }
+}
+
+```
+
+The program produces the following output
+```
+a = 42!
+```
 
 ## `insert()`
 <hr />
 
+General form: `StringBuffer insert(int index, String str)`, `StringBuffer insert(int index, char ch)` and `StringBuffer insert(int index, Object obj)`.
+
+```java
+class StringBufferExample{
+    public static void main(String[] args){
+        StringBuffer obj = new StringBuffer("I Java!");
+        obj.insert(2, "like ");
+        System.out.println(obj);
+    }
+}
+```
+
+The program produces the following
+```
+I like Java!
+```
 
 ## `reverse()`
 <hr />
 
+General form: `StringBuffer reverse()`
+
+```java
+class StringBufferExample{
+    public static void main(String[] args){
+        StringBuffer obj = new StringBuffer("reverse");
+        System.out.println(obj.reverse());
+    }
+}
+```
+
+The program produces the following output
+```
+esrever
+```
 
 ## `delete()`
 <hr />
 
+General form: `StringBuffer delete(int start, int end)`
+```java
+class StringBufferExample{
+    public static void main(String[] args){
+        StringBuffer obj = new StringBuffer("This is is a string");
+
+        System.out.println(obj.delete(4, 7));        
+   }
+}
+```
+The program produces the following output
+```
+This is a string
+```
 
 ## `deleteCharAt()`
 <hr />
 
+General form: `StringBuffer deleteCharAt(int index)`
+
+```java
+class StringBufferExample{
+    public static void main(String[] args){
+        StringBuffer obj = new StringBuffer("This iis a string");
+
+        System.out.println(obj.delete(5));        
+   }
+}
+```
+The program produces the following output
+```
+This is a string
+```
 
 ## `replace()`
 <hr />
 
+General form: `StringBuffer replace(int start, int end, String str)`
 
-## `subString()`
+```java
+class StringBufferExample{
+    public static void main(String[] args){
+        StringBuffer obj = new StringBuffer("This is a string");
+        obj.replace(5, 7, "was");
+        System.out.println(obj);
+   }
+}
+```
+The program produces the following output
+```
+This was a string
+```
+
+## `substring()`
 <hr />
+
+General form: `String substring(int start)` and `String substring(int start, int end)`
+
+```java
+class StringBufferExample{
+    public static void main(String[] args){
+        StringBuffer obj = new StringBuffer("This is a string");
+        System.out.println(obj.substring(0, 4));
+   }
+}
+```
+The program produces the following output
+```
+This
+```
+
+In addition to these StringBuffer provides serveral other methods. More information can be found [here](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/StringBuffer.html)
+
+This article was contributed by Varun Borar. 
