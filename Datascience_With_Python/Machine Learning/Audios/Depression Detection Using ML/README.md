@@ -74,4 +74,4 @@ __Installation:__ `pip install wordcloud`
 
 ### Words Initialization
 
-http://localhost:8888/notebooks/Depression%20Detection.ipynb
+https://colab.research.google.com/drive/1oxaTauml5H1681kwTvNIu5SwG_PPy2c_#scrollTo=de992f6f
