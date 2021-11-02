@@ -1,15 +1,21 @@
+enum Direction{incoming,outgoing}
+enum TypeOfCall{voice,video}
 class CallModel {
   String name = "";
   String day = "";
   String time = "";
   String profile = "";
-  bool call = false;
+  Direction direction = Direction.outgoing;
+  TypeOfCall type = TypeOfCall.voice;
+  bool callMissed = false;
 
-  CallModel(name, day, time, call, profile) {
+  CallModel(name, day, time, direction, type, callMissed, profile) {
     this.name = name;
     this.day = day;
     this.time = time;
-    this.call = call;
+    this.direction=direction;
+    this.type=type;
+    this.callMissed = callMissed;
     this.profile = profile;
   }
 }
@@ -20,6 +26,8 @@ List<CallModel> calldata = [
     "Aachal",
     "Today",
     "11:00 AM",
+    Direction.incoming,
+    TypeOfCall.voice,
     true,
     "assets/girl.png",
   ),
@@ -27,6 +35,8 @@ List<CallModel> calldata = [
     "Ankit",
     "Today",
     "6:00 PM",
+    Direction.outgoing,
+    TypeOfCall.voice,
     false,
     "assets/profile.png",
   ),
@@ -34,6 +44,8 @@ List<CallModel> calldata = [
     "Sakshi",
     "Yesterday",
     "8:00 PM",
+    Direction.incoming,
+    TypeOfCall.voice,
     false,
     "assets/girl.png",
   ),
@@ -41,6 +53,8 @@ List<CallModel> calldata = [
     "Ajinkya",
     "Yesterday",
     "10:00 AM",
+    Direction.incoming,
+    TypeOfCall.video,
     true,
     "assets/profile.png",
   ),
@@ -48,6 +62,8 @@ List<CallModel> calldata = [
     "Pranav",
     "Yesterday",
     "8:00 AM",
+    Direction.incoming,
+    TypeOfCall.voice,
     false,
     "assets/men.png",
   ),
@@ -55,6 +71,8 @@ List<CallModel> calldata = [
     "Dron",
     "October 26",
     "2:00 PM",
+    Direction.outgoing,
+    TypeOfCall.video,
     true,
     "assets/men.png",
   ),
