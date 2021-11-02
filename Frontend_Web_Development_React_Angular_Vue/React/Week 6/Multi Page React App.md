@@ -14,7 +14,7 @@ React Apps are structured to have a single index.html page.But sometimes we need
     npm install react-router-dom
 ```
 
-Example 1:Working with Routes and Links in BrowserRouter
+**Example 1:Working with Routes and Links in BrowserRouter**
 
 index.js
 
@@ -75,9 +75,12 @@ This code would render the following output:
 
 ##### Explanation
 
-- The email input value has reference to the emailInputRef.
+- <BrowserRouter> helps to keep the UI in sync with the URL and is placed in index,js, so we can control Routes from anywhere inside the app like App.js .
+- <Route> serves as the most important part in React Router and renders the respective UI when its path matches the current URL.
+- <Link> provides declarative, accessible navigation through the react application and makes sure no new requests are sent.
+- Here we have defined a route called "/welcome" to render the Welcome Page when the URL changes accordingly.
 
-Example 2: Using NavLinks
+**Example 2: Using NavLinks**
 
 ```javascript
 import { Route, NavLink } from "react-router-dom";
@@ -104,7 +107,11 @@ This code would render the following output:
 
 ##### Explanation
 
-Example 3: Adding Nested Dynamic Routes with Params
+- <NavLink> is nothing but a special styled version of the <Link> component in React Router.
+- It add styling attributes like hyperlink to the text and redirects to the specific UI when it matches the current URL.
+- When the user clicks on Welcome, the app renders the Welcome Page and the URL is changes to "/welcome".
+
+**Example 3: Adding Nested Dynamic Routes with Params**
 
 App.js
 
@@ -149,7 +156,12 @@ This code would render the following output:
 
 ##### Explanation
 
-Example 4: Configuring Routes
+- Dynamic Routes help to render different pages depending on the URL that is not pre-defined.
+- Nesting helps to show modified URLs like "/product/:productId" here.
+- Here :productId is the dynamic route params in the Route definition.
+- The productId get passed to the component via useParams() and we render it using {params.productId}.
+
+**Example 4: Configuring Routes**
 
 App.js
 
@@ -177,9 +189,15 @@ export default App;
 
 This code would render the following output:
 
-![](./assets/mpa3.JPG) ![](./assets/mp1.JPG)
+![](./assets/mpa3.JPG) ![](./assets/mpa1.JPG)
 
-Example 5: Redirecting the User
+##### Explanation
+
+- <Switch> is a unique component in React Router that renders a route exclusively.
+- It Renders the first child <Route> or <Redirect> that matches the URL.
+- It will only allow one route at a time but will render whichever matches first.
+
+**Example 5: Redirecting the User**
 
 App.js
 
@@ -206,7 +224,13 @@ This code would render the following output:
 
 ![](./assets/mpa1.JPG)
 
-Example 6: Implementing Programmatic Navigation
+##### Explanation
+
+- Rendering a <Redirect> will navigate to a new location.
+- The new location will override the current location in the history stack of the Browser.
+- So, when the entered URL is "/" here, it gets redirected to "/welcome" and the Welcome Page is rendered.
+
+**Example 6: Implementing Programmatic Navigation**
 
 ```javascript
 import { Route, useHistory } from "react-router-dom";
@@ -238,11 +262,12 @@ This code would render the following output:
 
 ##### Explanation
 
-React Router is mostly a wrapper around the history library. history handles interaction with the browser's window.history for you with its browser and hash histories. It also provides a memory history which is useful for environments that don't have a global history. This is particularly useful in mobile app development (react-native) and unit testing with Node.
+- React Router acts like a wrapper around the browser history.
+- useHistory() handles interaction with the browser's window.history.
+- While history.push() adds a new page to the stack , history.replace() adds a page redirect.
+- Here the Welcome page is added to the stack , so we can navigate to it after visiting and clicking on the back button.
 
-A history instance has two methods for navigating: push and replace. If you think of the history as an array of visited locations, push will add a new location to the array and replace will replace the current location in the array with the new one. Typically you will want to use the push method when you are navigating.
-
-Example 7: Adding a Not Found Page
+**Example 7: Adding a Not Found Page**
 
 App.js
 
@@ -290,7 +315,13 @@ This code would render the following output:
 
 ##### Explanation
 
+- <Route path="*"> means all paths except the pre-defined ones. It helps to render a 404 page if there is no pre-defined route matching the URL.
+- We have to make sure to place the <Route> for the NotFound Page at the end of all routes, so that router will check all the routes and fallback if no match is found.
+- So, by visiting any random URL like "mypage", the user will see the default NotFound page.
+
 ## Benefits of the multi page react app ?
 
 - In Multi Page React App,we can render different views where each page is different for every route.
--
+- Using the useHistory() functionality, the user can navigate backwards/forwards and restore different linked UIs.
+- Routing provides a standarized structure and behaviour to the app that helps a lot while working in a team and provides the user easy and faster navigation.
+- A Multi Page React App helps to add various other advanced functionalities like Lazy Loading,Flexible Routing Code with query params and Dynamic as well as Nested Routes for enhancing user experience and app performance.
