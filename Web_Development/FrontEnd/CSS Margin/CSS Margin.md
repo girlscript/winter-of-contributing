@@ -9,7 +9,7 @@ Margin property for each side of element:
 * For Left Margin:- `margin-left`
 * For Bottom Margin:- `margin-bottom`
 * For Right Margin:- `margin-right`
-### 👉🏽Syntax
+### Syntax
 ```css
 h1{
     margin: 20px;
@@ -81,5 +81,5 @@ body{
 }
 ```
 ### References
-* https://www.w3schools.com/css/css_margin.asp
-* https://developer.mozilla.org/en-US/docs/Web/CSS/margin
+* [W3Schools](https://www.w3schools.com/css/css_margin.asp)
+* [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/margin)
