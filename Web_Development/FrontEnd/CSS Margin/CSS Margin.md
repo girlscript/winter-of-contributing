@@ -1,8 +1,8 @@
 # CSS Margin
-It can be used for creating space outside the element by this we can adjust the position of element like where we have to shift it.
+CSS Margin property is used for creating space outside the element .
 There are properties for setting the margin for each side of an element (top, right, bottom, and left).
 ## When to use this?
-When we need to shift any element from one position to another or when we need to create some space outside an element.
+When we have to provide spacing between two elements or setting position of element to the center (horizontally)
 ## Margin property for Individual sides
 Margin property for each side of element:
 * For Top Margin:- `margin-top`
