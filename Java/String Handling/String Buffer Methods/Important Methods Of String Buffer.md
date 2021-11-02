@@ -26,9 +26,9 @@ Following are the important methods of the `StringBuffer` Class.
 <br/>
 
 ## Constructors
-<hr />
 
-`StringBuffer` class defines the ollowing 4 constructors,
+
+`StringBuffer` class defines the following 4 constructors,
 1. `StringBuffer()`
 2. `StringBuffer(int size)`
 3. `StringBuffer(String str)`
@@ -36,7 +36,7 @@ Following are the important methods of the `StringBuffer` Class.
 
 
 ## `length()`
-<hr />
+
 
 General form: ` int length()`. 
 
@@ -54,7 +54,7 @@ Length of the string is: 11
  ```
 
 ## `capacity()`
-<hr />
+
 
 General form:  `int capacity()`.
 
@@ -74,7 +74,7 @@ Length of the string is: 35
 <span style="opacity:0.8">Note: Capacity of a StringBuffer is always greater than the length. It automatically grows and shrinks as required.</span>
 
 ## `ensureCapacity()`
-<hr />
+
 
 General form: `void ensureCapacity(int minCapacity)`
 
@@ -91,7 +91,7 @@ class StringBufferExample{
 
 
 ## `setLength()`
-<hr />
+
 
 General form: `void setLength(int len)`
 
@@ -120,7 +120,7 @@ The program produces the following output
 ```
 
 ## `charAt()`
-<hr />
+
 
 General form: ` char charAt(int index)`
 
@@ -139,7 +139,7 @@ Char at index 1 is o
 ```
 
 ## `setCharAt()`
-<hr />
+
 
 General form: `void setCharAt(int index, char ch)`
 
@@ -158,7 +158,7 @@ String
 ```
 
 ## `getChars()`
-<hr />
+
 
 General form: `void getChars(int sourceStart, int sourceEnd, char target[], int targetStart)`
 
@@ -180,7 +180,7 @@ good
 ```
 
 ## `append()`
-<hr />
+
 
 General forms:` StringBuffer append(String str)`, `StringBuffer append(int num)` and `StringBuffer append(Object obj)`. 
 
@@ -204,7 +204,7 @@ a = 42!
 ```
 
 ## `insert()`
-<hr />
+
 
 General form: `StringBuffer insert(int index, String str)`, `StringBuffer insert(int index, char ch)` and `StringBuffer insert(int index, Object obj)`.
 
@@ -224,7 +224,7 @@ I like Java!
 ```
 
 ## `reverse()`
-<hr />
+
 
 General form: `StringBuffer reverse()`
 
@@ -243,7 +243,7 @@ esrever
 ```
 
 ## `delete()`
-<hr />
+
 
 General form: `StringBuffer delete(int start, int end)`
 ```java
@@ -261,7 +261,7 @@ This is a string
 ```
 
 ## `deleteCharAt()`
-<hr />
+
 
 General form: `StringBuffer deleteCharAt(int index)`
 
@@ -280,7 +280,7 @@ This is a string
 ```
 
 ## `replace()`
-<hr />
+
 
 General form: `StringBuffer replace(int start, int end, String str)`
 
@@ -299,7 +299,7 @@ This was a string
 ```
 
 ## `substring()`
-<hr />
+
 
 General form: `String substring(int start)` and `String substring(int start, int end)`
 
@@ -318,4 +318,4 @@ This
 
 In addition to these StringBuffer provides serveral other methods. More information can be found [here](https://docs.oracle.com/en/java/javase/12/docs/api/java.base/java/lang/StringBuffer.html)
 
-This article was contributed by Varun Borar. 
+This article was contributed by [Varun Borar](https://github.com/varunborar). 
