@@ -98,7 +98,7 @@
    - **6.10. Backpropagation.**
    - **6.11. Implement a MultiLayered Perceptron model on XOR function with 3 inputs. ⭐**
 
-### 🟡 *[Week 7 [Bayesian ML & Ensemble-based Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML)* :
+### 🟡 *[Week 7 [Ensemble Based Learning and Probabilistic ML]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML)* :
    - **7.1. Bootstrap Aggregation.**
    - **7.2. Adaboost.**
    - **7.3. LGBM.**
