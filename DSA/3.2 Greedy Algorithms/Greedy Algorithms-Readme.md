@@ -2,7 +2,6 @@
 
 A greedy algorithm is an algorithmic strategy that picks the best solution at the moment without regard for consequences. It makes the best optimal choice at each small stage with the goal of this eventually leading to a globally optimum solution.It picks the best immediate output, but does not consider the big picture, hence it is considered greedy.
 
-
 **:arrow_right:Types of Problems:-**
 
 1) Minimization Problem: Getting a solution to a problem is easy, given that all the conditions are met. However, when this problem demands a minimum result, it is then called a Minimization Problem.
@@ -16,6 +15,7 @@ A greedy algorithm is an algorithmic strategy that picks the best solution at th
 1) Feasible Solution: Now, when a problem arises, we have many plausible solutions to this problem. Yet, taking into consideration the condition set on that problem, we choose solutions that satisfy the given condition. Such solutions that help us get results meeting the given condition is called a Feasible Solution.
 
 2) Optimal Solution: A solution is called optimal when it is already feasible and achieves the objective of the problem; the best result. This objective could either be the minimum or maximum result. The point here to be noticed is that any problem will only have one optimal solution.
+
 
 **:arrow_right:Some of the standard greedy algorithm problems are as follows:-**
 
@@ -37,74 +37,49 @@ finish = [3, 4, 5, 7, 9, 10, 12]
 Sorted by their finish time, the activity 0 gets selected. As the activity 1 has starting time which is equal to the finish time of activity 0, it gets selected. Activities 2 and 3 have smaller starting time than finish time of activity 1, so they get rejected. Based on similar comparisons, activities 4 and 6 also get selected, whereas activity 5 gets rejected. In this example, in all the activities 0, 1, 4 and 6 get selected, while others get rejected.
 
 **C++ Code:-**
-
+```
 #include<bits/stdc++.h>
-
 using namespace std;
 
 struct Activitiy 
 {
-
-   int start, end;
-   
+   int start, end;   
 };
 
 bool comp(Activitiy act1, Activitiy act2) 
 {
-
    return (act1.end < act2.end);
-   
 }
 
 void maxActivity(Activitiy act[], int n) 
-
 {
-
-   sort(act, act+n, comp); //sort activities using compare function
-
+   sort(act, act+n, comp);                                              //sort activities using compare function
    cout << "The following activities are selected: " << endl;
-   
-   int i = 0;	// first activity as 0 is selected
-   
+   int i = 0;	                                                        // first activity as 0 is selected   
    cout<<i<<" ";
-
-   for (int j = 1; j < n; j++)//for all other activities
-   
-  { 
-  
-      if (act[j].start >= act[i].end) //when start time is >= end time, print the activity
-       { 
-       
-        cout<<j<<" ";
-        
-         i = j;
-         
-      }
-      
-   }
-   
+   for (int j = 1; j < n; j++)                                          //for all other activities
+   { 
+    if (act[j].start >= act[i].end)                                     //when start time is >= end time, print the activity
+         { 
+          cout<<j<<" ";
+          i = j;
+         }  
+   }   
 }
 
 int main()
 {
-
    Activitiy actArr[] = {{1,3},{3,4},{2,5},{0,7},{5,9},{8,10},{11,12}};
-   
    int n = 7;
-   
-   maxActivity(actArr, n);
-   
-   return 0;
-   
+   maxActivity(actArr, n); 
+   return 0;   
 }
-  
-/* Output
-
+``` 
+```
+Output:-
 The following activities are selected:
-
 0 1 4 6
-
-*/ 
+```
   
 **Time Complexity:**
 
@@ -113,7 +88,7 @@ When activities are sorted by their finish time: O(N)
 When activities are not sorted by their finish time, the time complexity is O(N log N) due to complexity of sorting
   
 **Space Complexity:** O(1)
-   
+
 :point_right:*Graph Coloring Problem*
 
 Graph coloring (also called vertex coloring) is a way of coloring a graph’s vertices such that no two adjacent vertices share the same color. This post will discuss a greedy algorithm for graph coloring and minimize the total number of colors used.
