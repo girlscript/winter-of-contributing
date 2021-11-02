@@ -14,10 +14,59 @@ React Apps are structured to have a single index.html page.But sometimes we need
     npm install react-router-dom
 ```
 
-Example 1: Using Route and BrowserRouter
+Example 1:Working with Routes and Links in BrowserRouter
+
+index.js
 
 ```javascript
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import { BrowserRouter } from "react-router-dom";
 
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
+);
+```
+
+App.js
+
+```javascript
+import { Route, Link } from "react-router-dom";
+import Welcome from "./components/Welcome";
+
+const App = () => {
+  return (
+    <div>
+      <Route path="/welcome">
+        <Welcome />
+      </Route>
+      <Link to="/welcome"></Link>
+    </div>
+  );
+};
+export default App;
+```
+
+Welcome.js
+
+```javascript
+import React from "react";
+
+const Welcome = () => {
+  return (
+    <div>
+      <h1>Welcome to Girlscript Winter of Contributing...</h1>
+      <h3>This is the Welcome page for understanding React Router</h3>
+    </div>
+  );
+};
+
+export default Welcome;
 ```
 
 This code would render the following output:
@@ -28,15 +77,40 @@ This code would render the following output:
 
 - The email input value has reference to the emailInputRef.
 
-Example 3: Using NavLinks
+Example 2: Using NavLinks
 
-Example 4: Adding Dynamic Routes with Params
+```javascript
+import { Route, NavLink } from "react-router-dom";
+import Welcome from "./components/Welcome";
 
-Example 5: Configuring Routes
+const App = () => {
+  return (
+    <div>
+      <Route path="/welcome">
+        <Welcome />
+      </Route>
+      <h1>
+        <NavLink to="/welcome">Welcome</NavLink>
+      </h1>
+    </div>
+  );
+};
+export default App;
+```
 
-Example 6: Redirecting the User
+This code would render the following output:
 
-Example 7: Implementing Programmatic Navigation
+![](./assets/mpa2.JPG)
+
+##### Explanation
+
+Example 3: Adding Dynamic Routes with Params
+
+Example 4: Configuring Routes
+
+Example 5: Redirecting the User
+
+Example 6: Implementing Programmatic Navigation
 
 ## Benefits of the multi page react app ?
 
