@@ -42,8 +42,8 @@ Some useful medical treatment can also be provided to improve the situation :-
 
 ### Approach
 
-Here, we are going to use different libraries to extract and analyse data from different social media sites such as twitter, facebook, whatsapp, etc. Then we will find words which are oftenly used to show emotions.<br>
-After that, we will label them as good or bad based on the frequency of the word using wordclouds.
+Here, we are going to use different libraries to extract and analyse data from different social media sites such as twitter, facebook, whatsapp, etc. Then we will find words which are oftenly used to show emotions. We are going to perform this task using NLTK library. Assign weights to words based on their effectiveness. Get the approx frequency based of the word using wordclouds. <br>
+After extracting features, we will perform sampling and then apply Logistic Regresssion Algorithm and MultinomialNB . After preprocessing, we will label them as Depressive or Non Depressive. 
 
 ![images (1)](https://user-images.githubusercontent.com/75624735/138996108-1357052c-7bf1-4c97-ad84-50b9fc18e487.png)
 
@@ -60,18 +60,6 @@ __Installation:__ `pip install wordcloud`
 ![eichstaedt-johannes-PNAS-Facebook-depression](https://user-images.githubusercontent.com/75624735/138894038-326c99d8-cc2f-4088-80e9-6e2026d53d1a.png)
 
 
-### Loading Dataset & Dropping Extra Columns
-
-![image](https://user-images.githubusercontent.com/75624735/139836457-ec3f387d-d9fa-4c69-b16a-1fc55a2cfb73.png)
-
-### Visualizing the Data
-
-![image](https://user-images.githubusercontent.com/75624735/139836759-1b0b2ec4-b85b-4862-ac80-ce8896d3dfbc.png)
-
-### Importing NLTK & Wordnet
-
-![image](https://user-images.githubusercontent.com/75624735/139855396-36df63b9-57c6-4a1d-8c28-95a73a5765a8.png)
-
-### Words Initialization
+### Follow this link for Code Compilation
 
 https://colab.research.google.com/drive/1oxaTauml5H1681kwTvNIu5SwG_PPy2c_#scrollTo=de992f6f
