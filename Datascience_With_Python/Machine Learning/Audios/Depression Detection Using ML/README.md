@@ -43,7 +43,7 @@ Some useful medical treatment can also be provided to improve the situation :-
 ### Approach
 
 Here, we are going to use different libraries to extract and analyse data from different social media sites such as twitter, facebook, whatsapp, etc. Then we will find words which are oftenly used to show emotions. We are going to perform this task using NLTK library. Assign weights to words based on their effectiveness. Get the approx frequency based of the word using wordclouds. <br>
-After extracting features, we will perform sampling and then apply Logistic Regresssion Algorithm and MultinomialNB . After preprocessing, we will label them as Depressive or Non Depressive. 
+After extracting features, we will perform sampling and then apply Logistic Regresssion Algorithm and MultinomialNB . After preprocessing, we will label output as Depressive or Non Depressive. 
 
 ![images (1)](https://user-images.githubusercontent.com/75624735/138996108-1357052c-7bf1-4c97-ad84-50b9fc18e487.png)
 
