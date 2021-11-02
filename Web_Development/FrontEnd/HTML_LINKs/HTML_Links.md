@@ -24,7 +24,11 @@
   
 This example shows how to create a link to Github:
 
-```<a href="https://github.com/"> Visit Github.com!</a>```
+```
+ Use of <a> tag
+ 
+ <a href="https://github.com/"> Visit Github.com!</a>
+ ```
   
 * By default, links will appear as follows in all browsers:
 
@@ -49,7 +53,11 @@ The target attribute specifies where to open the linked document.
 ### Example
 Use **target="_blank"** to open the linked document in a new browser window or tab:
 
-```<a href="https://github.com/" target="_blank">Open Github!</a>```
+```
+ Use of <a target=""> tag 
+ 
+ <a href="https://github.com/" target="_blank">Open Github!</a>
+ ```
   
 **Absolute URLs vs. Relative URLs**
 
@@ -74,6 +82,8 @@ To use an image as a link, just put the ```<img>``` tag inside the ```<a>``` tag
 
 ### Example
 ```
+Using <img> tag in <a> tag
+ 
 <a href="https://www.github.com">
 <img src="https://pngimg.com/uploads/github/github_PNG83.png" alt="Github" style="width:50px;height:50px;">
 </a>
@@ -100,6 +110,8 @@ To use an image as a link, just put the ```<img>``` tag inside the ```<a>``` tag
 
 ### Example:
 ``` 
+Using mailto
+ 
 <a href="mailto:someone@example.com">Send email</a>
 ```
 **Button as a Link**
@@ -110,6 +122,8 @@ JavaScript allows you to specify what happens at certain events, such as a click
 
 ### Example:
 ```
+Using button as link
+ 
 <button onclick="document.location="https://github.com/girlscript/winter-of-contributing"> GWOC21</button>
 ```
   
@@ -124,6 +138,6 @@ JavaScript allows you to specify what happens at certain events, such as a click
 <a href="https://github.com/girlscript/winter-of-contributing" title="Go to girlscript repository">Visit GWOC'21 Repository</a>
                                                                                                   
 ### References:
-* W3schools
-* tutorialspoint
-* MDN Webdocs
+* <a href="https://www.w3schools.com/" title="W3schools">W3schools</a>
+* <a href="https://www.tutorialspoint.com/index.htm" title="tutorialspoint">Tutorialspoint</a>
+* <a href="https://developer.mozilla.org/en-US/" title="MDN Webdocs">MDN Webdocs</a>
