@@ -1,6 +1,6 @@
 # Overloading Unary Operators Using 'friend' Functions
 
-Here, the operator functions is not the member function of any class. Hence, in this scenario if an operator has to be overloaded to make it work on a class object, the operator function has to be declared as a **friend** to that class.  
+Here, the operator function is not the member function of any class. Hence, in this scenario if an operator has to be overloaded to make it work on a class object, the operator function has to be declared as a **friend** to that class.  
 
 In other words, when operator function is *friend* to a class, then we can call that function as a "friend operation function."  
 
