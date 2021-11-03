@@ -1,4 +1,4 @@
-# All About Bootstrap Grids
+# Bootstrap Grids
 
 ### What is a Grid-System?
 
