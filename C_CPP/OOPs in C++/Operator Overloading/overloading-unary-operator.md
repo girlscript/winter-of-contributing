@@ -19,11 +19,11 @@ class < class_name >
 ```  
 where  
 
-*friend* -> keyword to make a non-member function as a friend to a class  
-*return_type* -> type of the value returned by the friend operator function  
-*operator* -> keyword to create an operator function  
-*opr* -> unary operator that is to be overloaded  
-*argument* -> is the formal argument referring to the class object on which the operator overloading is being done.  
+- *friend* -> keyword to make a non-member function as a friend to a class  
+- *return_type* -> type of the value returned by the friend operator function  
+- *operator* -> keyword to create an operator function  
+- *opr* -> unary operator that is to be overloaded  
+- *argument* -> is the formal argument referring to the class object on which the operator overloading is being done.  
 
 Here's a program to overload a unary minus '-' operator using friend functions.  
 
