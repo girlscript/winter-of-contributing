@@ -4,7 +4,7 @@ Here, the operator function is not the member function of any class. Hence, in t
 
 In other words, when operator function is *friend* to a class, then we can call that function as a "friend operation function."  
 
-The synatx for defining a friend operator function to overload an unary operator is as follows:  
+The syntax for defining a friend operator function to overload a unary operator is as follows:  
 
 ```C++
 class < class_name >
