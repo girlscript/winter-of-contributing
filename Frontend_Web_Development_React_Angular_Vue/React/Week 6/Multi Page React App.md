@@ -325,3 +325,8 @@ This code would render the following output:
 - Using the useHistory() functionality, the user can navigate backwards/forwards and restore different linked UIs.
 - Routing provides a standarized structure and behaviour to the app that helps a lot while working in a team and provides the user easy and faster navigation.
 - A Multi Page React App helps to add various other advanced functionalities like Lazy Loading,Flexible Routing Code with query params and Dynamic as well as Nested Routes for enhancing user experience and app performance.
+
+## References
+
+- https://reactrouter.com/web/guides/quick-start
+- https://learnwithparam.com/blog/dynamic-pages-in-react-router/
