@@ -1,2 +1,2 @@
 ### Structured Binding
-[Structured Binding](StructuredBinding.md)
+- [Structured Binding](StructuredBinding.md)
