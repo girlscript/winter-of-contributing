@@ -15,7 +15,7 @@ A Markov chain is specified by the following components:
 
 A set of states
 
-**A** = **[aij]**nxn
+**A** = **[aij]** nxn
 
 A transition probability matrix A, each aij representing the probability of moving from state i to state j.
 
@@ -43,7 +43,7 @@ A Markov chain is specified by the following components:
 
 A set of states
 
-**A** = **[aij]**nxn
+**A** = **[aij]** nxn
 
 A transition probability matrix A, each aij representing the probability of moving from state i to state j.
 
@@ -60,7 +60,7 @@ following components:
 **Q** = **q**1**q**2 . . .**q**N 
 a set of states
 
-**A** = **[aij]**NxN 
+**A** = **[aij]** NxN 
 a transition probability matrix A, each aij representing the probability of moving from state i to state j,
 
 **O** = **o**1**o**2 . . .**o**N 
@@ -106,9 +106,9 @@ Find the internal state sequence based on the current model and observations.The
 
 ![HMM-decoding](https://github.com/Mann-tech13/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML/Assets/HMM-decoding.jpeg)
 
-**Learning (Baum–Welch algorithm or Forward-Backward Algorithm — build the model):
+**Learning (Baum–Welch algorithm or Forward-Backward Algorithm — build the model):**
 
-** Besides likelihood and decoding, the last algorithm learns the HMM model parameters λ given the observation. Here, we will use the Baum–Welch algorithm to learn the transition and the emission probability. EM algorithm solves the problem in iteration steps. In each step, we optimizing one latent variable while fixing the others. Even for a continuous space, we work with limited provisions, and therefore, there are finite states to explore and improve only.
+Besides likelihood and decoding, the last algorithm learns the HMM model parameters λ given the observation. Here, we will use the Baum–Welch algorithm to learn the transition and the emission probability. EM algorithm solves the problem in iteration steps. In each step, we optimizing one latent variable while fixing the others. Even for a continuous space, we work with limited provisions, and therefore, there are finite states to explore and improve only.
 
 # **Advantages and Disadvantages of HMM**
 
