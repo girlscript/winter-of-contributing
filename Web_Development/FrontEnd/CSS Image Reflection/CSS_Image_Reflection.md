@@ -56,6 +56,15 @@ img{
 <br/>
 <br/>
 
+## Credits
+<ul>
+<li>https://www.w3schools.com/css/css3_image_reflection.asp</li>
+<li>https://hatrabbits.com/en/random-image/</li>
+</ul>
+
+<br>
+<br>
+
 > Author:
 > <cite>[Dezyl Solanki](https://github.com/Dezyl1641)</cite>
 
