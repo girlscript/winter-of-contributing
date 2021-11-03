@@ -378,7 +378,6 @@ c = 25
 c = 5 
 c = 0
 ```
-[Audio link] (https://drive.google.com/file/d/14U66W2IhrU5FbnXbAtK7U7L4pu7yRgPg/view?usp=drivesdk) 
 <hr>
 
 ## Other Operators
