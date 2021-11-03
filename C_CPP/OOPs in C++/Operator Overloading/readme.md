@@ -1,2 +1,2 @@
-
-[Operator Overloading In C++](operator_overloading_in_c++.md)
+- [Operator Overloading In C++](operator_overloading_in_c++.md)
+- [Overloading Binary Operators Using 'friend' Functions](overloading-binary-operator.md)
