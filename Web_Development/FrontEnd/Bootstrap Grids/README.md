@@ -38,7 +38,7 @@ The first thing to know is that **when we are making a bootstrap grid it always 
 
 #### Basic Grid
 
-Now to create columns inside this container we first have to create a div with the class row and then add divs with class col inside it.
+Now to create columns inside this container we first have to create a div with the class `row` and then add divs with class `col` inside it.
 
 ```html
 	<div class="container">
@@ -73,7 +73,7 @@ Then both the columns will occupy 50% width of the entire row.
 
 #### Column Widths
 
-But what if in the above example we want the first column to occupy half of the width of the screen? We do it by using `col-6` class, which basically specifies that the first block will take a width of 6 columns.
+But what if in the above example we want the first column to occupy half of the screen? We do it by using `col-6` class, which basically specifies that the first block will take a width of 6 columns.
 
 ```html
 <div class="container">
@@ -116,7 +116,6 @@ This looks quite stuffed though. What if I wanted these columns to have differen
 Bootstrap provides us with **six break-points** namely xs, sm, md, l, xl, xxl, we can control container and column sizing by these breakpoint.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/86849664/140104748-d031e65b-eca5-4e56-b6a2-9564111a9775.png"></p>
-<!-- ![breakpoints](https://user-images.githubusercontent.com/86849664/140104748-d031e65b-eca5-4e56-b6a2-9564111a9775.png) -->
 
 <p align="center">Image Source: <a href="https://getbootstrap.com/docs/5.1/layout/grid/#grid-options">Bootstrap Grids Documentation</a>
 
@@ -124,7 +123,7 @@ Bootstrap provides us with **six break-points** namely xs, sm, md, l, xl, xxl, w
 
 Let's take two columns. I want these columns to occupy half of the screen width each in desktop and tablet devices but in mobile devices I want them to occupy the entire width of the screen.
 
-For this we will use the `col-md-6` class. This basically means that we should have a six units column on any size from medium size or tablet size upwards. So that means on tablet, laptop and large-desktop they will take six units, but on anything smaller than the medium size, namely mobile, they will cover the entire width of the screen.
+For this we will use the `col-md-6` class. This basically means that we should have a six units column on any size from medium size(tablet size) upwards. So that means on tablet, laptop and large-desktop they will take six units, but on anything smaller than the medium size, namely mobile, they will cover the entire width of the screen.
 
 ```html
 <div class="container">
