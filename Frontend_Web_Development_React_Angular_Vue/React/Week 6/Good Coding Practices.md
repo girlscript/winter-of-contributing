@@ -15,12 +15,12 @@ Good Coding Practices improve code quality making it consistent,maintainable and
 - **Clean Code** : Good Coding Practices make the code readable,simple and concise.
 - **Modular Code** : Modular production code makes the code more organized,efficient and reusable.
 - **Structure** : Refactoring ensures that there is improvement of internal structure without changing the external functionality of the code.
-- **Documentation** : Good Coding Practices advocate adding a relevant documentation. It is helpful for clarifying complex parts of the code and makes it easily understandable.Example:Adding a README file is a minimum requirement.
-- **Version Control** :
+- **Documentation** : Good Coding Practices advocate adding a relevant documentation. It is helpful for clarifying complex parts of the code and makes it easily understandable. Example: Adding a README file is a minimum requirement.
+- **Version Control** : It is always advisable to make meaningful commits after making changes and use version control tools like git. Merging commits to stay updated and resolving merge commits properly are integral part of following good coding practices.
 
 ## Some Good Coding Practices in React
 
-- Reusability: Code Reusability can be schieved in React with the help of reusable components.
+- **Reusability** : Code Reusability can be schieved in React with the help of reusable components.
 
 Button.jsx
 
@@ -93,6 +93,54 @@ This code would render the following output:
 
 ![](./assets/gcp_example1.JPG)
 
+##### Explanation:
+
+- Here we have made a customized reusable Button component for the app.
+- So,whenever we need a Button we can just use this component.
+- Such modular component will help to cover many such places with the same piece of code.
+
+- **DRY** : DRY stands for Don't Repeat Yourself.Using the .map() method we can avoid duplication of code.
+
+```javascript
+const App = () => {
+  const data = [
+    { id: 1, name: "John Doe" },
+    { id: 2, name: "Victor Wayne" },
+    { id: 3, name: "Jane Doe" },
+  ];
+  return (
+    <div>
+      {data.map((user) => (
+        <div>
+          <h1>{user.id}</h1>
+          <h3>{user.name}</h3>
+        </div>
+      ))}
+    </div>
+  );
+};
+export default App;
+```
+
+This code would render the following output:
+
+![](./assets/gcp_example2.JPG)
+
+##### Explanation
+
+- We loop through the data array of objects using the JavaScript map() function.
+- In this way, we don't have to render each object individually and there is no code duplication.
+
+- **CSS in Javascript**: Using libraries like Emotion provides powerful and predictable style composition with CSS in Javascript. The css prop function gives easy access to common and customizable values and helps to reduce boilerplate code.
+
+```
+npm install @emotion/react
+
+```
+
+- **Naming Conventions**:
+- **Comments**:
+
 ## How it is helpful to a developer ?
 
 - **Clean Production-Quality Code** : Good Coding Practices ensure that clean production-quality code is produced.It is crucial for collaboration and maintainability in Software Development.
@@ -101,4 +149,5 @@ This code would render the following output:
 
 ## References
 
--
+- https://help.figma.com/hc/en-us/articles/360041064174-Access-design-tools-from-the-toolbar
+- https://www.codeinwp.com/blog/react-best-practices/
