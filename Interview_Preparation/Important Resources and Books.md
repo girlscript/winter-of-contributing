@@ -95,7 +95,7 @@ In this particular round, the candidates have to solve 3-4 questions based on Da
 
 <i> Bonus - participating in a hackathon and open source projects- </i>
  
-### plateform where hackathon hosted:
+### Platform where hackathons are hosted:
  
 * [Hackerearth](https://www.hackerearth.com/)
 * [Dare2compete](https://dare2compete.com/)
