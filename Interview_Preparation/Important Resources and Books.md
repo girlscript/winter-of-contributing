@@ -59,7 +59,7 @@ In this particular round, the candidates have to solve 3-4 questions based on Da
 * [twowaits](https://www.youtube.com/c/Twowaits)
 * [code step by step](https://www.youtube.com/channel/UCvHX2bCZG2m9ddUhwxudKYA)
 
-### Doccumentary resource [Available On internet]
+### Documentary resource [Available On internet]
  
 * [Stack overflow community](https://stackoverflow.com/)
 * [W3school website](https://www.w3schools.com/)
@@ -95,7 +95,7 @@ In this particular round, the candidates have to solve 3-4 questions based on Da
 
 <i> Bonus - participating in a hackathon and open source projects- </i>
  
-### plateform where hackathon hosted:
+### Platform where hackathons are hosted:
  
 * [Hackerearth](https://www.hackerearth.com/)
 * [Dare2compete](https://dare2compete.com/)
@@ -122,7 +122,7 @@ This is the final round in which the interviewer can ask you anything regarding 
 *********************************************************************************************************************************************************************************
 >After completing all 4 steps which are mentioned above then:
 * Have a final look at previous year interview experiences on [**gfg**](https://www.geeksforgeeks.org/) and [**interview bit**](https://www.interviewbit.com/)
-* Solve  more questions of dsa on [**algoexpoet.io**](https://www.algoexpert.io/product?r=ads&gclid=CjwKCAjw_L6LBhBbEiwA4c46upPgWbQqBKOck5JylFyiHE2G0uenJ6AuIkJW8vzrrUSjqZtbT62uBBoCTOEQAvD_BwE)
+* Solve  more questions of dsa on [**algoexpert.io**](https://www.algoexpert.io/product?r=ads&gclid=CjwKCAjw_L6LBhBbEiwA4c46upPgWbQqBKOck5JylFyiHE2G0uenJ6AuIkJW8vzrrUSjqZtbT62uBBoCTOEQAvD_BwE)
 
 
 
