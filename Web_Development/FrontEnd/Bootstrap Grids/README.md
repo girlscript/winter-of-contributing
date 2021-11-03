@@ -109,7 +109,7 @@ Similarly, if we wanted 2nd, 3rd and 4th block to occupy a width of 3, 2 and 1 c
 
 Notice that the column sizes remain same even in mobile display.
 
-![responsive column width](https://user-images.githubusercontent.com/86849664/140104686-6a5d6814-0aa6-4684-aaaf-e0534711083a.png)
+<p align="center"><img src="https://user-images.githubusercontent.com/86849664/140104686-6a5d6814-0aa6-4684-aaaf-e0534711083a.png"></p>
 
 This looks quite stuffed though. What if I wanted these columns to have different widths for different device sizes? This is when the responsive behavior of bootstrap grids come into play. 
 
