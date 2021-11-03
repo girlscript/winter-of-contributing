@@ -122,7 +122,7 @@ This is the final round in which the interviewer can ask you anything regarding 
 *********************************************************************************************************************************************************************************
 >After completing all 4 steps which are mentioned above then:
 * Have a final look at previous year interview experiences on [**gfg**](https://www.geeksforgeeks.org/) and [**interview bit**](https://www.interviewbit.com/)
-* Solve  more questions of dsa on [**algoexpoet.io**](https://www.algoexpert.io/product?r=ads&gclid=CjwKCAjw_L6LBhBbEiwA4c46upPgWbQqBKOck5JylFyiHE2G0uenJ6AuIkJW8vzrrUSjqZtbT62uBBoCTOEQAvD_BwE)
+* Solve  more questions of dsa on [**algoexpert.io**](https://www.algoexpert.io/product?r=ads&gclid=CjwKCAjw_L6LBhBbEiwA4c46upPgWbQqBKOck5JylFyiHE2G0uenJ6AuIkJW8vzrrUSjqZtbT62uBBoCTOEQAvD_BwE)
 
 
 
