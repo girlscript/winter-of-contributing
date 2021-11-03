@@ -1,2 +1,2 @@
 Index<br>
--[Heap sort](heap_sort.md)
+-[Heap sort](Heap sort)
