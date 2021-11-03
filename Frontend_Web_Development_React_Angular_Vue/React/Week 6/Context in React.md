@@ -28,6 +28,7 @@ Create a context for the current theme (with "light" as the default).
 
 
     // Context lets us pass a value deep into the component tree
+    ```jsx
     // without joining it through every component.
 
 
@@ -47,6 +48,7 @@ Create a context for the current theme (with "light" as the default).
     );    
       }
     }
+    
     
     // A component in the middle doesn't have to
     // pass the theme down explicitly anymore.
@@ -73,10 +75,12 @@ Create a context for the current theme (with "light" as the default).
       render() {
         return <Button theme={this.props.theme} />;
       }
+      ```
 
 #### With the context API, we can avoid passing props through intermediate elements, and directly pass the props to the last child or the child we are targeting:
 
       // Context lets us pass a value deep into the component tree
+      ```jsx
       // without explicitly threading it through every component.
       // Create a context for the current theme (with "light" as the default).
       const ThemeContext = React.createContext('light');
@@ -103,8 +107,11 @@ Create a context for the current theme (with "light" as the default).
           </div>
         );
       }
-
+      ```
+Part 2
+      
       import React from "react";
+      ```jsx 
       import ReactDOM from "react-dom";
       import "./index.css";
       import App from "./App";
@@ -134,6 +141,7 @@ Create a context for the current theme (with "light" as the default).
           return <Button theme={this.props.theme} />;
         }
       }
+      ```
 
 
 
