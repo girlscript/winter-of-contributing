@@ -59,7 +59,7 @@ In this particular round, the candidates have to solve 3-4 questions based on Da
 * [twowaits](https://www.youtube.com/c/Twowaits)
 * [code step by step](https://www.youtube.com/channel/UCvHX2bCZG2m9ddUhwxudKYA)
 
-### Doccumentary resource [Available On internet]
+### Documentary resource [Available On internet]
  
 * [Stack overflow community](https://stackoverflow.com/)
 * [W3school website](https://www.w3schools.com/)
