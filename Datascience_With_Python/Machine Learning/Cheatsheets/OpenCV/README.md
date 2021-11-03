@@ -1,6 +1,31 @@
 
 # OpenCV Cheatsheet
 
+## Computer Vision
+1. Computer vision is a field of study focused on the problem of helping computers to see.
+2. Computer vision enables computers to see, identify and process images in the same way that human vision does, and then provide appropriate output. 
+3. It is like imparting human intelligence and instincts to a computer, then perform appropriate analysis or act accordingly.
+4. Computer vision is distinct from image processing.
+
+## OpenCV
+1. OpenCV is a huge open-source library for computer vision, machine learning, and image processing.
+2. OpenCV supports a wide variety of programming languages like Python, C++, Java, etc.
+
+## Use of OpenCV
+
+## Application of OpenCV
+
+1. Optical character recognition (OCR)
+2. Machine inspection
+3. Retail (e.g. automated checkouts)
+4. 3D model building (photogrammetry)
+5. Medical imaging
+6. Automotive safety
+7. Match move (e.g. merging CGI with live actors in movies)
+8. Motion capture (mocap)
+9. Surveillance
+10. Fingerprint recognition and biometrics
+
 ## Installing OpenCV
     pip install opencv-python
 
