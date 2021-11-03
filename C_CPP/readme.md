@@ -1,2 +1,2 @@
-
-[Heap sort](heap_sort.md)
+Index
+[!Heap sort](heap_sort.md)
