@@ -20,7 +20,7 @@ Good Coding Practices improve code quality making it consistent,maintainable and
 
 ## Some Good Coding Practices in React
 
-- **Reusability** : Code Reusability can be schieved in React with the help of reusable components.
+- **Reusability** : Code Reusability can be achieved in React with the help of reusable components.
 
 Button.jsx
 
@@ -201,6 +201,14 @@ npm install eslint --save-dev
 npm install --save-dev jest
 
 ```
+
+- **Folder Structure** : There are a few common approaches popular for maintaining a proper folder structure of a React Application.
+- Method 1: Create folders grouped by a specific feature or route. Put all css,js,utils and tests together in these folders.
+- Method 2: Group all same types of files together in a single folder i.e. all .js files grouped together in a folder called javascript , all .css files in css and so on.
+
+An example of such a folder structure is as follows:
+
+![](./assets/folder_structure.JPG)
 
 ## How it is helpful to a developer ?
 
