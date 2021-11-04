@@ -13,13 +13,13 @@ For example: `int matrix[3][3]`
 
 ## Matrix multiplication
 If A is a m x n matrix and B is a n x p matrix <br>
-![matrix](./assets/img1.png)
+![matrix](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8n9rAv2Sz052YgP5OKFhp92raK9H7_BDUeQ&usqp=CAU)
 
 then multiplication of A and B, let say C, will be <br>
-![matrix](./assets/img2.png) <br>
+![matrix](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ38N15gtaMKfrr_bY46hDTrD2UOWdTCeWtWk9IqPoc6jPulby_N2qbh3jCi_doKOjxBw&usqp=CAU) <br>
 Here, C is a m x p matrix. To multiply two matrices, the column of first matrix should be equal to the row of second matrix.
 
-## Algorihtm for matrix multiplication of 2-D array
+## Algorithm for matrix multiplication of 2-D array
 
 <pre>
 1. Start
@@ -55,7 +55,7 @@ int main()
     // conditional statments
     if (c1 != r2) //if number of columns of 1st matrix is not equal to no. of rows of 2nd matrix
     {
-        printf("\nIt is not possible to multipltly these two matrices,\n");
+        printf("\nIt is not possible to multiply these two matrices,\n");
         printf("because to multiply two matrices, \n");
         printf("column of first matrix should be equal to \n");
         printf("row of second matrix.");
@@ -105,7 +105,7 @@ int main()
 
 ## Sample tests
 
-1. if column of 1st matrix is not equal to row of second matrix
+1. if column of 1<sup>st</sup> matrix is not equal to row of 2<sup>nd</sup> matrix
 
 ```
 Enter no. of rows of 1st matrix: 2
@@ -113,13 +113,13 @@ Enter no. of columns of 1st matrix: 2
 Enter no. of rows of 2nd matrix: 3
 Enter no. of column of 2nd matrix: 2
 
-It is not possible to multipltly these two matrices,
+It is not possible to multiply these two matrices,
 because to multiply two matrices,
 column of first matrix should be equal to
 row of second matrix.
 ```
 
-2. if column of 1st matrix and row of 2nd matrix are equal
+2. if column of 1<sup>st</sup> matrix and row of 2<sup>nd</sup> matrix are equal
 
 ```
 Enter no. of rows of 1st matrix: 2
@@ -136,3 +136,10 @@ Multplication of m1 and m2 is:
 19 22
 43 50
 ```
+
+
+# References
+
+https://en.wikipedia.org/wiki/Matrix_multiplication
+
+https://www.codewithc.com/matrix-multiplication-algorithm-flowchart/
