@@ -54,3 +54,41 @@ There are mainly two security affecting factors:
 
 - Unauthorized Access
 - Viruses
+
+### 5. Which are the different factors that affect the performance of a network?
+The following factors affect the performance of a network:
+
+- Large number of users
+- Transmission medium types
+- Hardware
+- Software
+
+### 6. What is bandwidth?
+Every signal has a limit of upper range frequency and lower range frequency. The range of limit of network between its upper and lower frequency is called bandwidth.
+
+### 7. What is a gateway? Is there any difference between a gateway and router?
+A node that is connected to two or more networks is commonly known as a gateway. It is also known as a router. It is used to forward messages from one network to another. **Both the gateway and router regulate the traffic in the network.**
+
+**Differences between gateway and router:**
+
+A router sends the data between two similar networks while gateway sends the data between two dissimilar networks.
+
+### 8. What is DNS?
+DNS is an acronym stands for Domain Name System.
+
+- DNS was introduced by Paul Mockapetris and Jon Postel in 1983.
+- It is a naming system for all the resources over the internet which includes physical nodes and applications. It is used to locate to resource easily over a network.
+- DNS is an internet which maps the domain names to their associated IP addresses.
+- Without DNS, users must know the IP address of the web page that you wanted to access.
+
+**Working of DNS:**
+
+If you want to visit the website of "Nikhil", then the user will type "https://www.nikhil.com" into the address bar of the web browser. Once the domain name is entered, then the domain name system will translate the domain name into the IP address which can be easily interpreted by the computer. Using the IP address, the computer can locate the web page requested by the user.
+
+### 9. What is DNS forwarder?
+- A forwarder is used with DNS server when it receives DNS queries that cannot be resolved quickly. So it forwards those requests to external DNS servers for resolution.
+- A DNS server which is configured as a forwarder will behave differently than the DNS server which is not configured as a forwarder.
+- **Following are the ways that the DNS server behaves when it is configured as a forwarder:**
+  - When the DNS server receives the query, then it resolves the query by using a cache.
+  - If the DNS server is not able to resolve the query, then it forwards the query to another DNS server.
+  - If the forwarder is not available, then it will try to resolve the query by using root hint.
