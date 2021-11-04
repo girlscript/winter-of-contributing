@@ -36,6 +36,7 @@
 - CSS general rule
 - [Colors in css](CSS_Colors_In_CSS/Colors_In_CSS.md)
 - Text manipulation
+- [CSS Web Fonts](./CSS_web_fonts.md)
 - [The css box model](./CSS_BoxModel)
 - Content manipulation - margin,padding,align
 - What is FlexBox
@@ -62,5 +63,4 @@
    * [Positions](./CSS%20Positioning)
    * Flex Box
    * CSS Grid
-- [Syntactically Awesome StyleSheets - SASS](./SASS.md)
 - Responsive Design & Media Queries
