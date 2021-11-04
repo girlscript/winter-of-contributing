@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <div><img src="GWOC_logo_spin.gif" height="100px" width=auto/></div>
+      <div><img src="GWOC_logo_spin.gif" height="120px" width=auto/></div>
     </td>
     <td>
       <h1> GirlScript Winter of Contributing </h1>
