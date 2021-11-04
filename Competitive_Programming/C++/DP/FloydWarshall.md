@@ -23,15 +23,17 @@ A[i][j] is filled with (A[i][k] + A[k][j]),  &nbsp;  <strong>if (A[i][j] > A[i][
 Let us look at the implementation of Floyd Warshall algorithm on a 4x4 matrix:
 
 <div align ="center">
-[0 , 5, INF, 10]
+[ 0 , 5, INF, 10 ]
 </br>
-[INF, 0, 3, INF]
+[ INF, 0, 3, INF ]
 </br>
-[INF, INF, 0, 1]
+[ INF, INF, 0, 1 ]
 </br>
-[INF, INF, INF, 0] 
+[ INF, INF, INF, 0]  
 </br>
 </div>
+
+</br>
 
 ``` C++
 #include<iostream>
@@ -99,5 +101,14 @@ int main()
     FlyodWarshall(Graph,n);
     return 0;
 }
+
+```
+### Output
+
+```
+    0      5      8      9
+    INF    0      3      4
+    INF    INF    0      1
+    INF    INF    INF    0
 
 ```
