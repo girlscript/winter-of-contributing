@@ -12,7 +12,7 @@ Each cell A[i][j] is filled with the distance from the ith vertex to the jth ver
 
 - Now, create a matrix A1 using matrix A0. The elements in the first column and the first row are left as they are. The remaining cells are filled in the following way.
 <div align ="center">
-A[i][j] is filled with (A[i][k] + A[k][j]),   <strong>if (A[i][j] > A[i][k] + A[k][j]).</strong>
+A[i][j] is filled with (A[i][k] + A[k][j]),  &nbsp;  <strong>if (A[i][j] > A[i][k] + A[k][j]).</strong>
 </div>
 
 - In a similar way, A2 is created using A3. The elements in the second column and the second row are left as they are.
@@ -24,9 +24,13 @@ Let us look at the implementation of Floyd Warshall algorithm on a 4x4 matrix:
 
 <div align ="center">
 [0 , 5, INF, 10]
+</br>
 [INF, 0, 3, INF]
+</br>
 [INF, INF, 0, 1]
+</br>
 [INF, INF, INF, 0] 
+</br>
 </div>
 
 ``` C++
