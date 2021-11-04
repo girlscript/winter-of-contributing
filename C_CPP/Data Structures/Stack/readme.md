@@ -4,6 +4,9 @@
 - [Stock Span Problem](./Stock%20Span%20Problem )
 - [Stack Audio](./Stack_Audio.md)
 - [Stack Video](./Stack_Video.md)
+<<<<<<< HEAD
 
 
 - [Infix to Postfix using Stack](./infixToPostfix.md)
+=======
+>>>>>>> parent of b4e68555 (readmeUpdated)

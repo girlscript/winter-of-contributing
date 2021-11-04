@@ -24,15 +24,15 @@ It is an expression in which the operator is written after the operand . For exa
 1. Take input of infix expression as a string
 2. Initialise the stack and create a string postfix to store the final answer
 3. Iterate from the start of the string to its end
-4. If the character is an operand then add it to the string
-5. If the character is an operator and the Stack is empty or the stack contains the '(', ')' symbols , then push the operator into the Stack.
-6. If the operator has higher precedence than the existing operator on the top of the Stack or if the Stack is empty, then push it into the Stack.
-7. If the operator has lower precedence than the existing operator on the top of the Stack then pop all the operators on top of the stack that have the higher precedence than the present operator into the output postfix string, then push it into the Stack.
-8. If the character is a left bracket '(', push it into the Stack.
-9. If the character is a right bracket ')', pop all the elements in the Stack and store them in the output postfix string , until '(' is encountered and discard both the brackets.
+4. Add the character to the postfix string if it is an operand
+5. Push the operator into the stack If it is an operator (+,-,*,/) and the stack is empty or if the top of the stack contains '(' or ')' symbol.
+6. If the operator that is now read from string has greater precedence than the already existing operator on the top of the Stack or if the Stack is already empty , then push this operator into the Stack.
+7. If the operator that is now read from string has lesser precedence than the already existing operator on the top of the Stack then the operators which have a higher precedence than the top operator are popped out from the stack into the output postfix string and push it into the Stack.
+8. Push the character into the stack if it is a left bracket '('.
+9. Pop all the elements from the stack and store them in the postfix string it is a right bracket '(' until a left bracket '(' is reached 
 10. Repeat all steps from 4 to 9 until the end of the infix expression is reached.
-11. Pop and store all characters in the postfix string, including the operator(s), from the Stack until it is not empty.
-11. Print the output postfix string.
+11. Now pop all the elements from stack into the postfix string until the stack becomes empty.
+12. Print the output postfix string.
 
 
 
