@@ -53,8 +53,17 @@ After the transaction is completed user can see the transaction details and tran
 ## 8) Profile Screen
 
 ![Profile](https://github.com/neerajdhakad/winter-of-contributing/blob/UI_UX/UI_UX/Barber%20Time%20App%20design/Profile.png)
-By clicking on the profile icon user can see his details and wallet balance , he can also change the details like phone number, email etc/ 
+By clicking on the profile icon user can see his details and wallet balance , he can also change the details like phone number, email etc.
 
+
+## Color Scheme
+![color-scheme](https://github.com/neerajdhakad/winter-of-contributing/blob/UI_UX/UI_UX/Barber%20Time%20App%20design/color-scheme.png)
+
+## Iconography
+![iconography](https://github.com/neerajdhakad/winter-of-contributing/blob/UI_UX/UI_UX/Barber%20Time%20App%20design/iconography.png)
+
+## Typography
+![Typography](https://github.com/neerajdhakad/winter-of-contributing/blob/UI_UX/UI_UX/Barber%20Time%20App%20design/Typography.png)
 
 For <img src="https://github.com/neerajdhakad/winter-of-contributing/blob/UI_UX/UI_UX/Barber%20Time%20App%20design/figma_logo.png" alt="Figma logo" width="20" height="20">
 Prototype Link <a href="https://www.figma.com/file/7jpeJmvnMzBG4s5iisc9xf/BarberTime-App-Design?node-id=0%3A1">click here</a>
