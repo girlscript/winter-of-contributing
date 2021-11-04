@@ -1,6 +1,6 @@
 # MIDDLE ELEMENT OF SINGLY LINKED LIST
 ## INPUT :
-A singly linked list which is inputed by user.  
+Singly linked lists which are inputed by user.  
 Example 1 : 10->9->8->7->6  
 Example 2 : 10->9->8->7->6->5
 ## OUTPUT:
