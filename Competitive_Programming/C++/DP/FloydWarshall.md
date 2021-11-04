@@ -22,14 +22,13 @@ A[i][j] is filled with (A[i][k] + A[k][j]),  &nbsp;  <strong>if (A[i][j] > A[i][
 ## Implementation of the algorithm in C++
 Let us look at the implementation of Floyd Warshall algorithm on a 4x4 matrix:
 
-<div align ="center">
 ```
     0      5      INF    10
     INF    0      3      INF
     INF    INF    0      1
     INF    INF    INF    0
+
 ```
-</div>
 
 </br>
 
@@ -110,3 +109,9 @@ int main()
     INF    INF    INF    0
 
 ```
+
+### Time Complexity 
+There are three loops. So, the time complexity of the Floyd-Warshall algorithm is O(n3).
+
+### Space Complexity
+The space complexity of the Floyd-Warshall algorithm is O(n2).
