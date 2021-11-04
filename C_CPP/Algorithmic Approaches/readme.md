@@ -11,4 +11,4 @@
 - [Branch & Bound Algorithm](./Branch%20%26%20Bound)
 - [NP Complete Algorithm](./NP%20Completeness)
 - [Jump Search](./Algorithmic%20Approaches/Searching/jump_search.md)
-- [Interpolation Search](./Searching/Interpolation_Search.md)
+- [Interpolation Search](./Interpolation_Search.md)
