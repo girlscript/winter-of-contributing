@@ -49,8 +49,7 @@ int main()
 // Function definition
 void create_list(int n) 
 {
-    // declare two nodes new_node and temp
-    struct node *new_node, *temp;
+    struct node *temp , *new_node;
     int i,value;
     
     // creating a new node
