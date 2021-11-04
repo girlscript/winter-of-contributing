@@ -9,7 +9,7 @@ For first example, middle will be 8.
 For second example, middle will be 7. (because we will take the second middle element in case of even number of nodes)
 ## APPROACH :
 * Ask the user for number of nodes in the linked list.
-* Create the Linked list by inputing the data value given by user.
+* Create the Linked list by inputting the data value given by user.
 * Traverse the whole linked list and calculate the number of nodes in that list. Lets say : n nodes are there.
 * Iterate through the list again till n/2. 
 * This node is the middle node.
