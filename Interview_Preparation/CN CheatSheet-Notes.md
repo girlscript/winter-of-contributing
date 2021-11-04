@@ -38,3 +38,19 @@ The types of topologies are:
   - It is a robust as a failure in one cable will only disconnect the specified computer connected to this cable.
   - Mesh topology is rarely used as installation and configuration are difficult when connectivity gets more.
   - Cabling cost is high as it requires bulk wiring.
+  
+### 3. What is the criteria to check the network reliability?
+Network reliability means the ability of the network to carry out the desired operation through a network such as communication through a network.
+
+Network reliability plays a significant role in the network functionality. The network monitoring systems and devices are the essential requirements for making the network reliable.The network monitoring system identifies the problems that are occurred in the network while the network devices ensure that data should reach the appropriate destination.
+
+The reliability of a network can be measured by the following factors:
+
+- Downtime: The downtime is defined as the required time to recover.
+- Failure Frequency: It is the frequency when it fails to work the way it is intended.
+- Catastrophe: It indicates that the network has been attacked by some unexpected event such as fire, earthquake.
+### 4. Which are the different factors that affect the security of a network?
+There are mainly two security affecting factors:
+
+- Unauthorized Access
+- Viruses
