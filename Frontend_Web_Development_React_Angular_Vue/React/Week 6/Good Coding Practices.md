@@ -139,7 +139,68 @@ npm install @emotion/react
 ```
 
 - **Naming Conventions**:
-- **Comments**:
+  - Naming the Component after the name of the Function.
+  - Naming the function depending on what it does in camelCase.
+  - Using Capital for Component Names in PascalCase.
+  - Utility files of components having similar names.
+
+```javascript
+import React, { useState } from "react";
+
+function USExample1() {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  );
+}
+
+export default USExample1;
+```
+
+##### Explanation
+
+- The above codebloack describes the USExample1 component.
+- The mentioned naming conventions have been followed.
+- setCount function name is in camelCase and depicts that it sets the count.
+- USExample1 is in PascalCase and the function name is same as component name.
+
+- **Comments**: Adding necessary comments before specific codeblocks help to understand their functionality and aid in faster debugging.
+
+```javascript
+const App = () => {
+  //This is a single line comment for variable declaration.
+  return (
+    <div>
+      <h1>Girlscript Winter of Contributing</h1>
+      {/*
+        This is a multi-line comment.
+        Also helpful in commenting out codeblocks like this that might be needed later.
+        <h2>This the Frontend with Framework: React domain.</h2>
+      */}
+    </div>
+  );
+};
+export default App;
+```
+
+-**Linting** : Using Linting keeps the code errorfree and makes sure that the syntax is correct. Example: ESLint-plugin-React provides React specific linting rules for ESLint.
+
+```
+npm install eslint --save-dev
+
+```
+
+-**Testing** : Testing the development code before pushing to production is a major check to prevent any problems or breaks on the user end. One such testing tool is the JavaScript test runner, Jest. It uses jsdom to emulate the HTML DOM for testing React.
+
+```
+npm install --save-dev jest
+
+```
 
 ## How it is helpful to a developer ?
 
@@ -149,5 +210,4 @@ npm install @emotion/react
 
 ## References
 
-- https://help.figma.com/hc/en-us/articles/360041064174-Access-design-tools-from-the-toolbar
 - https://www.codeinwp.com/blog/react-best-practices/
