@@ -188,14 +188,14 @@ const App = () => {
 export default App;
 ```
 
--**Linting** : Using Linting keeps the code errorfree and makes sure that the syntax is correct. Example: ESLint-plugin-React provides React specific linting rules for ESLint.
+- **Linting** : Using Linting keeps the code errorfree and makes sure that the syntax is correct. Example: ESLint-plugin-React provides React specific linting rules for ESLint.
 
 ```
 npm install eslint --save-dev
 
 ```
 
--**Testing** : Testing the development code before pushing to production is a major check to prevent any problems or breaks on the user end. One such testing tool is the JavaScript test runner, Jest. It uses jsdom to emulate the HTML DOM for testing React.
+- **Testing** : Testing the development code before pushing to production is a major check to prevent any problems or breaks on the user end. One such testing tool is the JavaScript test runner, Jest. It uses jsdom to emulate the HTML DOM for testing React.
 
 ```
 npm install --save-dev jest
@@ -203,8 +203,8 @@ npm install --save-dev jest
 ```
 
 - **Folder Structure** : There are a few common approaches popular for maintaining a proper folder structure of a React Application.
-- Method 1: Create folders grouped by a specific feature or route. Put all css,js,utils and tests together in these folders.
-- Method 2: Group all same types of files together in a single folder i.e. all .js files grouped together in a folder called javascript , all .css files in css and so on.
+  - Method 1: Create folders grouped by a specific feature or route. Put all css,js,utils and tests together in these folders.
+  - Method 2: Group all same types of files together in a single folder i.e. all .js files grouped together in a folder called javascript , all .css files in css and so on.
 
 An example of such a folder structure is as follows:
 
