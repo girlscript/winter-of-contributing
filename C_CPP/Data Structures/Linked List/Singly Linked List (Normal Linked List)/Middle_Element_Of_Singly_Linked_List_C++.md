@@ -19,32 +19,44 @@ For second example, middle will be 7. (because we will take the second middle el
 #include <iostream>
 using namespace std;
 
+// node creation
 struct node 
 {
-    int data;                
-    node *next;             
-}*head; 
-              
+    int data;       // data of the node         
+    node *next;     // address of next node       
+}*head; // head pointer
+
+// function declaration
 void Middle_element(struct node *head);	        
 void create_list(int n);   
 
-
+// main function
 int main() 
 {
     int n,num;
     cout<<"Enter number of nodes of Linked List: ";
     cin>>n;
+    
+    // function call
     create_list(n);
-    cout<<endl<<"Middle element of Linked List: ";	
+    cout<<endl<<"Middle element of Linked List: ";
+    
+    // function call
     Middle_element(head);
    
 }
+
+// Function definition
 void create_list(int n) 
 {
+    // declare two nodes new_node and temp
     struct node *new_node, *temp;
     int i,value;
- 
+    
+    // creating a new node
     head = (struct node *)malloc(sizeof(struct node));
+    
+    // checks if the list is empty
     if(head == NULL)        
     {
         cout<<"Memory can not be allocated!";
@@ -54,15 +66,21 @@ void create_list(int n)
                                   
         cout<<"Enter data for node 1: ";
         cin>>value;
-        head-> data = value;      
+        
+        // assign data to first node
+        head-> data = value; 
+        
+        // link address field of head with NULL
         head-> next = NULL; 
+        
+        // temp will become new head of the list
         temp = head;
  
         for(i=2; i<=n; i++)
-        {
+        {    
+            // creating a new node
             new_node = (struct node *)malloc(sizeof(struct node)); 
- 
-
+            
             if(new_node == NULL) 
             {
                 cout<<"Memory can not be allocated!";
@@ -72,25 +90,39 @@ void create_list(int n)
             {
                 cout<<"Enter data for node "<<i<<": "; 
                 cin>>value;
-                new_node->data = value;         
+            
+                // assign data to ith node
+                new_node->data = value;
+                
+                // link address field of new node with NULL
                 new_node->next = NULL;    
+                
+                // temp's next will point to new_node i.e. new node will be added after tail
                 temp->next = new_node;     
+                
+                // advances position of temp node
                 temp = temp->next;
             }
         }
     }
 } 
 
+// Function definition
 void Middle_element(struct node *head)
 {
         struct node *p=head;
         int l=0,s=0;
+        
+        // Traversing the list to find the total number of nodes present
         while(p!=NULL){
             l++;
             p=p->next;
         }
-       // cout<<l;
+       
+       // p will become new head of the list
        p=head;
+       
+       // iterating through the list to find middle element
         while(s<l/2){
             p=p->next;
             s++;
