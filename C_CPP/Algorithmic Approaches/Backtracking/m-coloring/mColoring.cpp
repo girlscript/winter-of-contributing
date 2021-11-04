@@ -70,3 +70,16 @@ int main(){
     |       |
     4-------3 
 Example graph */
+/* Input
+4
+0 1 0 1
+1 0 1 0
+0 1 0 1
+1 0 1 0 */
+
+/* Output
+Enter value of m: 2
+1 2 1 2 
+2 1 2 1 
+Total no. of solutions are 2
+*/
