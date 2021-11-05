@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:whatsapp_clone/components/own_message.dart';
+import '../components/own_message.dart';
+import '../components/reply_message.dart';
 
 class ConverstationPage extends StatefulWidget {
   final name;
@@ -89,14 +90,42 @@ class _ConverstationPageState extends State<ConverstationPage> {
                   padding: const EdgeInsets.only(bottom: 80.0),
                   child: Align(
                     alignment: Alignment.bottomRight,
-                    child: ListView(
-                      shrinkWrap: true,
-                      children: [
-                        OwnMessage(
-                          message: widget.message,
-                          time: widget.time,
-                        ),
-                      ],
+                    child: Container(
+                      height: MediaQuery.of(context).size.height - 140,
+                      child: ListView(
+                        shrinkWrap: true,
+                        children: [
+                          OwnMessage(
+                            message: widget.message,
+                            time: widget.time,
+                          ),
+                          ReplyMessage(),
+                          OwnMessage(
+                            message: widget.message,
+                            time: widget.time,
+                          ),
+                          ReplyMessage(),
+                          OwnMessage(
+                            message: widget.message,
+                            time: widget.time,
+                          ),
+                          ReplyMessage(),
+                          OwnMessage(
+                            message: widget.message,
+                            time: widget.time,
+                          ),
+                          ReplyMessage(),
+                          OwnMessage(
+                            message: widget.message,
+                            time: widget.time,
+                          ),
+                          ReplyMessage(),
+                          OwnMessage(
+                            message: widget.message,
+                            time: widget.time,
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ),
