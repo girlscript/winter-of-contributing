@@ -2,13 +2,13 @@
 ## Problem statement  
 Given an unidirected graph and a number m , determine if the graph can be colored with at most **m** colors such that no two adjacent vertices of the graph are colored with the same color.
 
-![image](image1.png)
+![image](https://user-images.githubusercontent.com/81347179/140553908-4a7fa63f-0b10-405f-a265-7fdb456433ab.png)
 
 Number of vertices (n) = 4  
 Minimum number of color m=2 , then we get 2 solutions  
 Let color1 = yellow and color2 = green
 
-![image](image2.png)  
+![image](https://user-images.githubusercontent.com/81347179/140554168-1c3b7b76-80ea-41fc-8e75-a53289fb90e4.png) 
 
 ## Algorithm  
 
