@@ -1,0 +1,1 @@
+[![ML 7.7 : Latent Variables (A)](https://github.com/Pratyaksha-047/winter-of-contributing/blob/5f955c02f655895bf8d84ec11dc8f475fdcf7071/Machine_Learning/Ensemble_based_Learning_&_Probabilistic_ML/Assets/Latent_variables.png)](https://drive.google.com/file/d/1tJMfMVLhbY2w0icnUviE3ctZ3JqSCp2H/view?usp=sharing)
