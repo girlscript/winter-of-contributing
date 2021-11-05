@@ -104,7 +104,7 @@ Here are the main classes of the Movie Ticket Booking System:
 
 # Functional requirement:
 
-1. Registration -
+1. Registration 
 
 
 2. Login 
