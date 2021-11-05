@@ -140,6 +140,6 @@ Multplication of m1 and m2 is:
 
 # References
 
-https://en.wikipedia.org/wiki/Matrix_multiplication
+[Wikipedia](https://en.wikipedia.org/wiki/Matrix_multiplication)
 
-https://www.codewithc.com/matrix-multiplication-algorithm-flowchart/
+[Codewithc](https://www.codewithc.com/matrix-multiplication-algorithm-flowchart/)
