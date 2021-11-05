@@ -17,7 +17,7 @@ img{
     -webkit-box-reflect: below;
 }
 ```
-<img src="BelowReflection.png" width="300">
+![Screenshot 2021-11-03 023324](https://user-images.githubusercontent.com/73912907/140558861-98dcdb37-9609-4e8c-834a-746925056f92.png)
 
 ## Reflection To The Right
 
@@ -28,7 +28,7 @@ img{
     -webkit-box-reflect: right;
 }
 ```
-<img src="RightReflection.png" height="200">
+![Screenshot 2021-11-03 023240](https://user-images.githubusercontent.com/73912907/140559132-0a16f47b-a25d-40da-b540-a3f84e0b6e78.png)
 
 ## Reflection With Offset
 
@@ -39,7 +39,7 @@ img{
     -webkit-box-reflect:  below 75px;
 }
 ```
-<img src="OffsetReflection.png" width="300">
+![Screenshot 2021-11-03 023547](https://user-images.githubusercontent.com/73912907/140559178-b71001e3-9949-4913-a784-678256813756.png)
 
 ## Reflection With Gradient
 
@@ -50,7 +50,8 @@ img{
     -webkit-box-reflect:  below 0px linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.8));
 }
 ```
-<img src="GradientReflection.png" width="300">
+![Screenshot 2021-11-03 023741](https://user-images.githubusercontent.com/73912907/140559193-9630d084-3e61-4b93-99a8-150d51dc3edf.png)
+
 
 ## Refrences
 
