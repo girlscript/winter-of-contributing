@@ -17,9 +17,10 @@ void nextval(int k)
 		int j;
 		for(j=1 ; j<=k-1 ; ++j){
 			if(graph[k][j]==1 && x[j]==x[k]) //colour adjacent to it have same colour
-                		break;
+                	break;
 		}
-		if(j==k) return;//new colour found
+		if(j==k) 
+		return;//new colour found
         //otherwise try to find another color
 	}
 }
