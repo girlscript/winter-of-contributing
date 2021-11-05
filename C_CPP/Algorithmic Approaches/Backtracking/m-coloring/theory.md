@@ -64,7 +64,10 @@ Step 5: After each coloring check if all vertices are colored or not. If yes the
 Step 6: Now select any one of the unclored adjacent vertices of the current colored vertex and repeat the whole process.
 
 ### Time complexity :  
- The number of internal nodes in the state space tree is   
+ The number of internal nodes in the state space tree is  
+ 
 ![Untitled](https://user-images.githubusercontent.com/81347179/140557695-441921de-fc89-412a-8bf6-a6bb1a88e680.png) .  
+
 At each internal node , O(mn) time is spent by NextValue function. Hence the total time is   
+
 ![Untitled](https://user-images.githubusercontent.com/81347179/140559100-baaac361-f338-4779-8994-5cbc15c696ba.png)
