@@ -1,1 +1,1 @@
-
+- Static and Dynamic scoping 
