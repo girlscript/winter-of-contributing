@@ -42,7 +42,7 @@ repeat{
     if(x[k]=0) then return //No new color possible  
     	for(j=1 ; j<=k-1 ; ++j){
 			if(graph[k][j]==1 and x[j]==x[k]) //colour adjacent to it have same colour
-                break;
+                		break;
 		}
     ................
 }until(false)
@@ -54,7 +54,7 @@ repeat{
     if(x[k]=0) then return //No new color possible  
     	for(j=1 ; j<=k-1 ; ++j){
 			if(graph[k][j]==1 and x[j]==x[k]) //colour adjacent to it have same colour
-                break;
+                		break;
 		}
     if(j==k) return;//new colour found
         //otherwise try to find another color
