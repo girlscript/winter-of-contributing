@@ -16,8 +16,8 @@ void nextval(int k)
 		if(x[k]==0) return;//all colours exhausted
 		int j;
 		for(j=1 ; j<=k-1 ; ++j){
-			if(graph[k][j]==1 and x[j]==x[k]) //colour adjacent to it have same colour
-                break;
+			if(graph[k][j]==1 && x[j]==x[k]) //colour adjacent to it have same colour
+                		break;
 		}
 		if(j==k) return;//new colour found
         //otherwise try to find another color
@@ -40,27 +40,33 @@ void mcoloring(int k)
 			cout<<endl;
 		}
 		else 
-        mcoloring(k+1);//contiue with next process
+        		mcoloring(k+1);//contiue with next process
 	}
 }
 
 int main(){
+	
     fstream infile;
     infile.open("m.txt",ios::in);
+	
     if(!infile){
         cout<<"Error on openning file"<<endl;
         return 0;
     }
+	
     infile>>n;
     for(int i=1;i<=n ;++i){
         for(int j=1;j<=n ;++j){
             infile>>graph[i][j];
         }
     }
+	
     cout<<"Enter value of m: ";
     cin>>m;
     mcoloring(1);
+	
     cout<<"Total no. of solutions are "<<cnt<<endl;
+	
     return 0;
 }
 
@@ -69,17 +75,24 @@ int main(){
     |       |
     |       |
     4-------3 
+    
 Example graph */
+
+
 /* Input
+
 4
 0 1 0 1
 1 0 1 0
 0 1 0 1
 1 0 1 0 */
 
+
 /* Output
+
 Enter value of m: 2
 1 2 1 2 
 2 1 2 1 
 Total no. of solutions are 2
+
 */
