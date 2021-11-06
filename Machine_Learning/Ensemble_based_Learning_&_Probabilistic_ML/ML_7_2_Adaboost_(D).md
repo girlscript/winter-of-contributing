@@ -1,4 +1,11 @@
-## AdaBoost
+## Title : AdaBoost
+🔴 **Type of Content** : Documentation
+
+🔴 **Domain** : Machine Learning
+
+🔴 **Module** : Ensemble based Learning & Probabilistic ML
+
+*********************************************************************
 ### Introduction
 1) AdaBoost(Adaptive Boosting) is one of the Boosting algorithms.
 2) It helps to combine weak classifiers into a single strong classifier.
@@ -52,3 +59,6 @@ iii) n_informative to get the number of informative features.<br><br>
 ### References
 1) https://www.geeksforgeeks.org/boosting-in-machine-learning-boosting-and-adaboost/
 2) https://www.analyticsvidhya.com/blog/2021/09/adaboost-algorithm-a-complete-guide-for-beginners/
+*********************************************************************
+
+### GirlScript Winter of Contributions 2021 
