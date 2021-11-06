@@ -41,28 +41,31 @@
 <hr>
 
 ### :orange_circle: *Introduction* :
-  - [Overview](https://github.com/girlscript/winter-of-contributing/tree/Interview_Preparation/Interview_Preparation/Introduction)
+  - [Overview](./Introduction)
   - Examples
 
 
 ### :orange_circle: *Online Assessments* :
-   - [Overview](https://github.com/girlscript/winter-of-contributing/tree/Interview_Preparation/Interview_Preparation/Online%20Assessments)
+   - [Overview](./Online%20Assessments)
    - Resources
 
 
 ### :orange_circle: *Technical Interview* :
    - [Overview]()
    - Resources
+     - [Most popular Algorithms asked in Interviews](./Most%20popular%20Algorithms%20asked%20in%20Interviews.md)
 
 
 ### :orange_circle: *Behavorial Interview* :
-   - [Overview](https://github.com/girlscript/winter-of-contributing/tree/Interview_Preparation/Interview_Preparation/Behavioural%20Questions)
+   - [Overview](./Interview_Preparation/Behavioural%20Questions)
    - Resources
 
 
 ### :orange_circle: *Cheat Sheet - Notes* :
-  - [OS (Operating System)](https://github.com/girlscript/winter-of-contributing/blob/Interview_Preparation/Interview_Preparation/OS%20CheatSheet-Notes.md)
-  - [SQL](https://github.com/girlscript/winter-of-contributing/blob/Interview_Preparation/Interview_Preparation/SQL%20CheatSheet-Notes.md)
+  - [OS (Operating System)](./Interview_Preparation/OS%20CheatSheet-Notes.md)
+  - [SQL](./SQL%20CheatSheet-Notes.md)
+
+### [:orange_circle: *Resources/Guide for preparation*](./Interview_Preparation/Important%20Resources%20and%20Books.md)
 
 
 ***************************************************************
@@ -77,7 +80,7 @@
    </table>
 
 
-### Happy Contributions!
+### Happy Contributing!
 
 [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/syedareehaquasar/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/syedareehaquasar/)
