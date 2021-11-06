@@ -67,6 +67,6 @@ Let us understand its use with the help of a code.
 	Low Rent
 ```
 
-## ADVANTAGES
+### ADVANTAGES
 Let me explain the advantages with the help of the above code. In the above code as we can see the value of rent is fixed. The calculations are performed in accordance with the value of rent. So, if the owner increases the rent it is not possible to change the value everywhere in the program. Therefore, having the constant variable helps. Thus, it helps us to simplify complex situations.
 
