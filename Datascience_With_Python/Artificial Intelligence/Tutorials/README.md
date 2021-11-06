@@ -1,4 +1,4 @@
-# Getting_introduced_to Activation_Functions_in_Neural_Networks
+# Getting introduced to Activation Functions in Neural Networks
 ## [Link to Video](https://drive.google.com/drive/folders/1Vfizxy3N7RvvPGkyMpSB-IZ9aH6Kx-2n?usp=sharing)
 
 ## What is an activation function
