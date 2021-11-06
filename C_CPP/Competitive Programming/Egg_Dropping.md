@@ -1,22 +1,19 @@
-# EGG DROPPING USING RECURSION
+# EGG DROPPING PROBLEM USING RECURSION
+## Question: 
+You are given N identical eggs and you have access to a K-floored building from 1 to K.
 
-### CODE:
+There exists a floor f where 0 <= f <= K such that any egg dropped at a floor higher than f will break, and any egg dropped at or below floor f will not break. There are few rules given below. 
+
+An egg that survives a fall can be used again.
+A broken egg must be discarded.
+The effect of a fall is the same for all eggs.
+If the egg doesn't break at a certain floor, it will not break at any floor below.
+If the eggs breaks at a certain floor, it will break at any floor above.
+Return the minimum number of moves that you need to determine with certainty what the value of f is.
+
+## CODE:
  
 ``` cpp
-// we wish to know which stories in a no_of_floor -story building are safe to drop eggs from, 
-// and which will cause the eggs to break on landing. We make a few assumptions:
-// An egg that survives a fall can be used again. 
-// A broken egg must be discarded. 
-// The effect of a fall is the same for all eggs. 
-// If an egg breaks when dropped, then it would break if dropped from a higher floor. 
-// If an egg survives a fall then it would survive a shorter fall. 
-// It is not ruled out that the first-floor windows break eggs, nor is it ruled out that the 36th-floor do not cause an egg to break.
-// If only one egg is available and we wish to be sure of obtaining the right result, the experiment can be 
-// carried out in only one way. Drop the egg from the first-floor window; if it survives, drop it from the 
-// second-floor window. Continue upward until it breaks. 
-// THE TASK IS TO FIND MINIMUM NUMBER OF TRIALS IN WORST CASE TO FIND WHICH FLOORS ARE SAFE FOR DROPPING EGG
-// problem statement is taken from geeksforgeeks
-
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -48,7 +45,7 @@ vector<vector<int>> memo(500, vector<int> (500, -1));
 int min_trial_using_memoized_recursive_method(int no_of_eggs, int no_of_floors)
 {
     // if we have already calculated the min trials for given no_of_floor and no_of_eggs
-    if(memo[no_of_eggs][no_of_floors] != -1) { return memo[no_of_eggs][no_of_floors];}
+    if (memo[no_of_eggs][no_of_floors] != -1) { return memo[no_of_eggs][no_of_floors];}
      
     // if only one floor is present or no floor is present then simply return no_of_floor
     if (no_of_floors == 1 || no_of_floors == 0)
@@ -115,8 +112,9 @@ int main()
     cout<<"min trial by dynamic programming using tabulation = "<<min_trial_using_tabulation_method(no_of_eggs,no_of_floor)<<"\n";
     return 0;
 }
-
-// TIME COMPLEXITY FOR SIMPLE RECURSION IS EXPONENTIAL, IT CAN BE MINIMIZED USING MEMOIZATION! 
-// AUXILIARY SPACE OF O(NO_OF_EGG * NO_OF_FLOOR) IS NEEDED WHEN WE USE DYNAMIC PROGRAMMING
-// TIME COMPLEXITY IS O(NO_OF_EGG * NO_OF_FLOOR * NO_OF_FLOOR) WHEN DYNAMIC PROGRAMMING IS USED
 ```
+
+## COMPLEXITY:
+TIME COMPLEXITY FOR SIMPLE RECURSION IS EXPONENTIAL, IT CAN BE MINIMIZED USING MEMOIZATION! 
+AUXILIARY SPACE OF O(NO_OF_EGG * NO_OF_FLOOR) IS NEEDED WHEN WE USE DYNAMIC PROGRAMMING
+TIME COMPLEXITY IS O(NO_OF_EGG * NO_OF_FLOOR * NO_OF_FLOOR) WHEN DYNAMIC PROGRAMMING IS USED
