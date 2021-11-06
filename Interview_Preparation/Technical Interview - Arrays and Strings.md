@@ -1017,3 +1017,115 @@ public class Solution {
 **The output for the code is:** <br>
 Before swap: CodingNinjas
 After swap: NinjasCoding
+## How to check if a String is Number
+- In order to build a regular expression to check if String is a number or not or if String contains any non-digit character or not you need to learn about character set in Java regular expression, Which we are going to see in this Java regular expression example. No doubt Regular Expression is a great tool in a developer's arsenal and familiarity or some expertise with regular expression can help you a lot. Java supports regular expression using java.util.regex.Pattern and java.util.regex.Matchter class, you can see a dedicated package java.util.regex for a regular expression in Java. Java supports regex from JDK 1.4, which means well before Generics, Enum, or Autoboxing.
+- to clarify the requirement, a String would be a number if it contains digits. we have omitted decimal point and sign or + or - for simplicity.
+- If you are familiar with a predefined character class in Java regular an expression that you must know that \d will represent a digit (0-9) and \D will represent a non-digit (anything other than 0 to 9). Now using this predefined character class, a String will not be a number if it contains any non digit characters, which can be written in Java regular expression as: <br>
+`Pattern pattern = Pattern.compile(".*\\D.*");`
+- which checks for non digit character anywhere in the String. This pattern return true if String contains any thing other than 0-9 digit, which can be used to know if an String is number or not using regular expression.
+- Same regular expression for checking String for numbers can also be written without using predefined character set and using character class and negation as shown in following example : <br>
+`Pattern pattern = Pattern.compile(".*[^0-9].*");`
+### Java Code
+```java
+import java.util.regex.Pattern;
+import java.util.regex.Pattern;
+/**
+ * Java program to demonstrate use of Regular Expression to check
+ * if a String is a 6 digit number or not.
+ */
+public class RegularExpressionExample {
+ 
+    public static void main(String args[]) {
+     
+        // Regular expression in Java to check if String is a number or not
+        Pattern pattern = Pattern.compile(".*[^0-9].*");
+       //Pattern pattern = Pattern.compile(".*\\D.*");
+       String [] inputs = {"123", "-123" , "123.12", "abcd123"};
+     
+       for(String input: inputs){
+           System.out.println( "does " + input + " is number : "
+                                + !pattern.matcher(input).matches());
+       }
+     
+       // Regular expression in java to check if String is 6 digit number or not
+       String [] numbers = {"123", "1234" , "123.12", "abcd123", "123456"};
+       Pattern digitPattern = Pattern.compile("\\d{6}");       
+       //Pattern digitPattern = Pattern.compile("\\d\\d\\d\\d\\d\\d");
+       
+
+       for(String number: numbers){
+           System.out.println( "does " + number + " is 6 digit number : "
+                               + digitPattern.matcher(number).matches());
+       }
+    }
+ 
+}
+```
+**Output:**
+does 123 is number : true
+does -123 is number : false
+does 123.12 is number : false
+does abcd123 is number : false
+
+does 123 is 6 digit number : false
+does 1234 is 6 digit number : false
+does 123.12 is 6 digit number : false
+does abcd123 is 6 digit number : false
+does 123456 is 6 digit number : true
+
+## How to count a number of vowels and consonants in a String?
+- One of the easiest String questions you will ever see. You have to write a Java program that will take a String input and print out a number of vowels and consonants on that String. For example, if the input is "Java" then your program should print `"2 vowels and 2 consonants"`.
+- If you get this question on Interview, you should clarify whether String can contain numbers, special characters, or not like anything other than vowels and consonants.
+
+![str](https://user-images.githubusercontent.com/55615219/140613977-49be2994-462a-43ec-80fe-c18781d53ee4.png)
+- Java program to count how many vowels in a String, which is entered from the command prompt. It's similar to the program of counting the occurrence of characters in a String, in fact, it's a special case, where you need to count occurrences of all vowels, which includes five characters a, e, i, o and u. We will further use Scanner to get input from the user, as shown in this article. Though I have put down all code inside the main method for quick testing, if you are asked to write this program as part of your homework or during the interview, better writing a method called public int `countVowels(String word)` and put the logic of counting vowels there. That's a better coding style than writing everything inside the main method.
+
+- By the way, you can also use this logic to count number of consonants in a Java String. What you need to do is first count number of vowels and then subtract those characters from length of String, but remember this will only work if your String contains only alphabetic words, if it contains special character like @, _, | or numbers like 1,2,3 etc, than it will not work.
+### Java Code
+```java
+import java.util.Scanner;
+/** * Java Program to count vowels in a String. It accept a String from command prompt * and count how many vowels it contains. To revise, 5 letters a, e, i, o and u are * known as vowels in English. */
+public class VowelCounter 
+{ 
+public static void main(String args[]) 
+{ 
+System.out.println("Please enter some text"); 
+Scanner reader = new Scanner(System.in); 
+String input = reader.nextLine(); 
+char[] letters = input.toCharArray(); 
+int count = 0;
+for (char c : letters) 
+{ 
+switch (c) 
+{ 
+case 'a': 
+case 'e': 
+case 'i': 
+case 'o': 
+case 'u': 
+count++; 
+break; 
+default: 
+// no count increment 
+} 
+} 
+System.out.println("Number of vowels in String [" + input + "] is : " + count); 
+} 
+}
+```
+**Output**
+Please enter some text
+How many vowels in this String Number of vowels in String [How many vowels in this String] is : 7
+
+
+
+
+
+
+
+
+
+
+
+
+
