@@ -51,6 +51,7 @@ Since we have explored much about GraphQL and Appolo Server, it's time to have s
     - JavaScript
 
 
+## Steps for building API
 
 - ### Step 1 : Installing Dependencies / Package
     - Create a folder with name such as `graphql-tutorial` and  open it with a code editor such as `Visual Studio Code`
