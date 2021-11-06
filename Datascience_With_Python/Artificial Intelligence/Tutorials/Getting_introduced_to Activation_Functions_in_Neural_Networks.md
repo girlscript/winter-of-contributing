@@ -56,4 +56,4 @@ The Softmax activation function calculates the relative probabilities of each cl
 9. An output layer can be linear activation function in case of regression problems.
 
 ## Usage of sigmoid function to create a simple Perceptron model
-[Link to Code](https://drive.google.com/drive/folders/1Vfizxy3N7RvvPGkyMpSB-IZ9aH6Kx-2n?usp=sharing)
+## [Link to Code](https://drive.google.com/drive/folders/1Vfizxy3N7RvvPGkyMpSB-IZ9aH6Kx-2n?usp=sharing)
