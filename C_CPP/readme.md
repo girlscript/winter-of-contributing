@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <div><img src="GWOC_logo_spin.gif" height="100px" width=auto/></div>
+      <div><img src="GWOC_logo_spin.gif" height="120px" width=auto/></div>
     </td>
     <td>
       <h1> GirlScript Winter of Contributing </h1>
@@ -32,6 +32,8 @@
   - [Functions & Recursion and its types](./Fundamentals/Functions%20%26%20Recursion%20and%20its%20types/)
   - [Arrays](./Fundamentals/Arrays/)
   - [Variadic Functions](./Fundamentals/Variadic%20Functions)
+  - [Comments in C/CPP](./Fundamentals/Comments%20in%20C_CPP)
+  - [Namespaces in C++](./Fundamentals/Namespaces%20in%20C++)
   
 - ### [Strings and their functions](./Strings%20and%20their%20functions/)
   
@@ -116,7 +118,7 @@
   - [Randomised Algorithm](./Algorithmic%20Approaches/Randomised)
   - [Branch & Bound Algorithm](./Algorithmic%20Approaches/Branch%20%26%20Bound)
   - [NP Complete Algorithm](./Algorithmic%20Approaches/NP%20Completeness)
-  - [Binary Search Practice Questions](./Algorithmic%20Approaches/binary_practice.md)
+
 - ### [OpenGL using C++ (3D,2D graphics using C++)](OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)/)
 
 - ### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
