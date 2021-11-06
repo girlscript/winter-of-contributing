@@ -3,21 +3,20 @@
 
 ## Brief Summary:
 A brief summary of what this entails:
-* What is MLOps?
-* What is DevOps?
-* Advantages of MLOps
-* Machine Learning Pipeline and its steps
-* Levels in Mlops 
-* Machine Learning pipeline tools and its usage
+
+* Machine Learning Pipeline and its steps with example code
+* Levels in Mlops
+* References
 
 ## Description:
 # **MLOps:**
->MLOps is the amalgam of Machine Learning, DevOps and Data science whose primary goal is to create automated ML pipelines.
+> MLOps is a combination of Machine Learning, Data science and DevOps. Many of its principles are borrowed from DevOps. The primary goal of MLOps is to create automated ML pipelines which are used for multiple iterations in the whole lifecycle of the ML project and also to track the other metrics.
 
 <img align = center>![image](https://user-images.githubusercontent.com/66793093/139496786-8bccd41c-7a14-4f9a-860f-60272a2c04c3.png)</img>
 
 # **DevOps:**
->DevOps is a combination of Software Development and Operations and its processes.
+>A software can run properly only if it is built correctly. DevOps help in smoothing the whole software development process. DevOps combines the process of Software **Dev**elopment(**Dev**) and Software **Op**eration**s**(**Ops**).
+It supports the use of infinity loop art to show that the processes are related to each other and how development and operations is a continuous cycle.
 
 <img align = center>![image](https://user-images.githubusercontent.com/66793093/139497085-8873280c-dfd1-422c-9fd5-5877b6c4fad8.png)</img>
 
@@ -35,6 +34,17 @@ A brief summary of what this entails:
 3. **Comet:** helps view and compare all ML experiments in one place.
 4. **Metaflow:** created by Netflix this is an open source platform managing large-scale, enterprise-level data science projects.
 5. **Kedro:** a python framework used to create reproducible and maintainable code. 
+
+## **Advantages:**
+
+* MLOps help in deploying Machine Learning models in a fast and easier way. 
+* The Machine Learning models deployed by using MLOps can be reused for other use cases.
+* Monitoring becomes easy as validation and reporting are integrated into the system.
+* Continuous integration and deployment can be done on a MLOp based Machine Learning model.
+
+## **Machine learning pipeline tools with their usage:**
+
+![image](https://user-images.githubusercontent.com/66793093/140606824-3a6bfe11-06b3-41fb-9461-d429ff509a60.png)
 
 ## **References:**
 
