@@ -92,7 +92,3 @@ Move disk 1 from rod Start to rod End
 
 * Time Complexity: O(2^n)
 * Space Complexity: O(n)
-
-## Further Information
-
-You can read the mathematics and history behind Tower of Hanoi [here](https://www.hackerearth.com/blog/developers/tower-hanoi-recursion-game-algorithm-explained/).
