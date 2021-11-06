@@ -10,7 +10,7 @@
 <p align="center">
 
 
-<img src="./graphqlExample.PNG" alt="graphql-example" width="200" />
+<img src="./graphqlExample.PNG" alt="graphql-example" />
 
 Demo from [official graphQL website](https://graphql.org/)
 </p>
@@ -40,7 +40,7 @@ Since GraphQL is just a query language, we need a library that provides an easy-
 
 Since we have explored much about GraphQL and Appolo Server, it's time to have some hands-on practise with some code.
 
-**Pre-requisites** 
+### Pre-requisites
 
 - You must have downloaded below mentioned things in your system
     - [Node.js](https://nodejs.org/en/)
@@ -49,6 +49,7 @@ Since we have explored much about GraphQL and Appolo Server, it's time to have s
 - You should have the knowledge of (or atleast familiar with)
     - Node.js
     - JavaScript
+
 
 
 - ### Step 1 : Installing Dependencies / Package
@@ -78,7 +79,7 @@ Since we have explored much about GraphQL and Appolo Server, it's time to have s
 - ### Step 2 : Running server initially
     - Create an `index.js` file in the root of your directory. Your directory should look like this :
 
-    ![directory](directory.png)
+    ![directory](directory.PNG)
 
     - In `index.js` file, write the below code to import ApolloServer and gql from apollo-server NPM module, we just downloaded.
 
@@ -169,7 +170,7 @@ Since we have explored much about GraphQL and Appolo Server, it's time to have s
     ```
 
     - Visit *localhost:3000/* in your browser and you will find your server looking like this
-    ![server look](server.png)
+    ![server look](server.PNG)
 
 - ### Step 5 : Querying our API
     - Now this is the time when we can query our API and for this we have a set-up of two query namely `hello` and `id` which return **Hello World!** and **a random number** respectively.
@@ -182,7 +183,7 @@ Since we have explored much about GraphQL and Appolo Server, it's time to have s
     }
     ```
     - Here is the result you will get as a response, when you click run button
-    ![response of query](response.png)
+    ![response of query](response.PNG)
 
     - The beauty of GraphQL can be seen here. If we remove *id* query, it will give response of the query *hello* only.
 
