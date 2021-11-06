@@ -1,6 +1,28 @@
 # **Movie Ticket Pricing System** 
 
-* An online movie ticket pricing system facilitates the purchasing of movie tickets to its customers. E-ticketing systems allow customers to browse through movies currently playing and book seats, anywhere and anytime.
+# **Dynamic Pricing:**
+
+* Dynamic pricing is used to create different prices for different customers, based on their location or other circumstances. 
+
+* This method was first used for American Airlines in the year 1980. They figured out that not all customers are the same, they all have different concerns and different priorities.
+
+* While some customers want tickets at a cheaper price while others want good service. This method is now used in all movie booking systems.
+
+* There are some parameters, depends on which the price varies, like whether the customer wants to book a ticket in the front row or the back, or the customer wants an executive seat or a couple of seats. 
+
+* Not only the seats, but prices also depend on where the movie hall is located and which show timing the customer has chosen.
+
+* The other way is to come up with discounts or to give users with customized offers for a limited period. In other words, dynamic pricing is a prediction problem, where machine learning is the best tool to tackle it.
+
+# Hardware and Software used:
+
+* A suitable OS.
+
+* A desktop or laptop.
+
+* Enough RAM to run the program without any interruption.
+
+* Python 3 or upwards installed on your system.
 
 # System Requirements
 
@@ -67,6 +89,8 @@ Here are the main classes of the Movie Ticket Booking System:
 * Booking: A booking is against a movie show and has attributes like a unique booking number, number of seats, and status.
 * Payment: Responsible for collecting payments from customers.
 * Notification: Will take care of sending notifications to customers.
+
+![Picture](https://online.visual-paradigm.com/repository/images/efb12bec-04ee-4cf4-9640-53acc42e0e43.png)
 
 # Non-functional requirement:
  
@@ -155,4 +179,21 @@ Here are the main classes of the Movie Ticket Booking System:
 * The system shall authenticate user credentials to view the profile.
 
 * The system shall send an order confirmation to the user through email.
+
+# **ADVANTAGES:**
+
+* The biggest advantage of online ticket booking is that it is very convenient to book tickets online as one can book tickets from the comfort of home.
+
+* Another benefit of online ticket booking is that one gets discounts from various online websites. 
+
+* Another advantage is that one can book tickets from anywhere in the world and one does not need to be physically present.
+
+# **DISADVANTAGES:**
+
+* The biggest disadvantage of online booking is that one needs to have internet connection for booking tickets online.
+
+* Another problem with online booking is that chances of errors are high.
+
+* In case of a developed world where the majority of the population is tech savvy online ticket booking is not an issue but when it comes to developing nations of regions like Asia and Africa where not many people have that much technical knowledge to do online ticket booking.
+
 
