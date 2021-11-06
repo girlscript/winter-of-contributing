@@ -6,7 +6,6 @@ A brief summary of what this entails:
 
 * Machine Learning Pipeline and its steps with example code
 * Levels in Mlops
-* References
 
 ## Description:
 # **MLOps:**
