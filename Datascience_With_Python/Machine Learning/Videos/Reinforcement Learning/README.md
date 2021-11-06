@@ -1,5 +1,6 @@
 # Reinforcement Learning 
-# Video Link : [click here](https://drive.google.com/file/d/1gEt2yV7u0lVranUdghuC0Io0UgxMq1rm/view?usp=sharing) 
+# Video Link : [click here](https://drive.google.com/file/d/1gEt2yV7u0lVranUdghuC0Io0UgxMq1rm/view?usp=sharingg)
+
 
 ![img](https://github.com/Anna-cod/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Machine%20Learning/Videos/Reinforcement%20Learning/Images/Reinforcement_learning_diagr.png) 
 <br> *RL - Img source Wikipedia* 
