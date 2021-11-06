@@ -72,6 +72,7 @@ Here are the top use cases of the Movie Ticket Booking System:
 
 * Refund payment: Upon cancellation, customers will be refunded the payment amount as long as the cancellation occurs within the allowed time frame.
 
+![Picture](https://www.freeprojectz.com/sites/default/files/xMovie,P20Ticket,P20Booking,P20System_0.jpeg.pagespeed.ic.O0tiAUNhLV.jpg)
 
 # Class Diagram
 
