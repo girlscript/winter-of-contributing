@@ -1,15 +1,11 @@
-## PROBLEM STATEMENT:
-Develop a solution to Fractional Knapsack problem applying greedy algorithm.
-
 ### PROBLEM DEFINITION:
-Maximum profit from robbery:
+Maximum profit :
 <br>
-Consider a thief broke into a house one night. There are objects in front of him each
-with a particular value and of different weights. He has a sack with him which can carry
+ There are objects in front of you each with a particular value and of different weights. you have sack which can carry
 a fixed weight and not more than that. He has to choose among those objects and fill
-the sack in such a way that he makes maximum profit from the stolen goods.
+the sack in such a way that you makes maximum profit.
 If there are n objects each with a value vi and weight wi [i=1,2,...,n] then to fill his bag
-with most profitable items, he has to choose the objects with maximum vi/wi.
+with most profitable items, you has to choose the objects with maximum vi/wi.
 <br>
 #### Example:
 ##### Input:
@@ -28,17 +24,6 @@ So 1/2 fraction of 20 kg is taken.<br>
 Hence total price will be 60+120+(1/2)*(20) = 190.
 <br>
 ## SOLUTION: 
-The idea is to use Greedy Approach. Greedy approach solves Fractional Knapsack
-problem reasonably in a good time. The local optimal strategy is to choose the item that has maximum value vs weight ratio. This strategy also leads to global optimal solution
-because we allowed to take fractions of an item. Below are the steps:
-1. Find the ratio value/weight for each item and sort the item on the basis of this
-ratio.
-2. Choose the item with the highest ratio and add them until we can’t add the next
-item as a whole.
-3. In the end, add the next item as much as we can.
-4. Print the maximum profit after the above steps.
-As main time taking step is sorting, the whole problem can be solved in O(n log n)
-only.
 ### Algorithm:
 Algorithm that we followed to solve this problem is :
 ```
@@ -88,11 +73,11 @@ break;
 return knapsackVal;
 }
 int main() {
-cout<<"HII THIEF"<<endl;
+cout<<"HII"<<endl;
 int weight;
 cout<<"I WILL HELP YOU FINDING THE MAXIMUM COST YOU CAN EARN BY
 TAKING THE BEST ELEMENTS "<<endl;
-cout<<"THIEF ENTER THE MAXIMUM CAPACITY OF YOUR SACK-";
+cout<<"ENTER THE MAXIMUM CAPACITY OF YOUR SACK-";
 cin>>weight;
 cout<<"\nENTER THE FOLLOWING INFORMATION";
 int n ;
@@ -121,9 +106,9 @@ OF" << fractionalKnapsack(weight, itemList, n);
 ```
 ### OUTPUT
 ```
-HII THIEF
+HII
 I WILL HELP YOU FINDING THE MAXIMUM COST YOU CAN EARN BY TAKING THE BEST ELEMENTS
-THIEF ENTER THE MAXIMUM CAPACITY OF YOUR SACK-60
+ENTER THE MAXIMUM CAPACITY OF YOUR SACK-60
 
 ENTER THE FOLLOWING INFORMATION
 ENTER THE NUMBER OF ITEMS-5
