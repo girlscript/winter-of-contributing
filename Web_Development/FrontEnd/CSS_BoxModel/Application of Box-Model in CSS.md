@@ -69,4 +69,10 @@ Further , We can also calculate the total width of the content as follows:
 - TOTAL HEIGHT= GIVEN HEIGHT + 2 X given padding  + 2 X given border +2 X given margin.    
 #### Example:      
 - TOTAL WIDTH= 400+50+50+50=550   
-- TOTAL HEIGHT= 200+50+50+50=350   
+- TOTAL HEIGHT= 200+50+50+50=350  
+
+### REFERENCES:
+- [GEEKS FOR GEEKS](https://www.geeksforgeeks.org/css-box-model/)       
+- [w3school](https://www.w3schools.com/css/css_boxmodel.asp)     
+
+
