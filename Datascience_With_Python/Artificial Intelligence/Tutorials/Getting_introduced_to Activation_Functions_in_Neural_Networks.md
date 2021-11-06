@@ -1,5 +1,5 @@
 # Getting_introduced_to Activation_Functions_in_Neural_Networks
-[Link to Video](https://drive.google.com/drive/folders/1Vfizxy3N7RvvPGkyMpSB-IZ9aH6Kx-2n?usp=sharing)
+## [Link to Video](https://drive.google.com/drive/folders/1Vfizxy3N7RvvPGkyMpSB-IZ9aH6Kx-2n?usp=sharing)
 
 ## What is an activation function
 Activation function decides, whether a neuron should be activated or not by calculating weighted sum and further adding bias with it. 
