@@ -1,8 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 # Tail Recursion
 
 * A special form of recursion where the last operation of a function is a recursive call. The recursion may be optimized away by executing the call in the current stack frame and returning its result rather than creating a new stack frame.
@@ -90,3 +85,5 @@ int factorial(int n, int b = 1) {
  **Space Complexity**
 
  Space complexity of tail Recursion  is O(n)
+
+
