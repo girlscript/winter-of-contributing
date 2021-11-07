@@ -1,4 +1,13 @@
-# Latent Variables 
+## Title : Latent Variables
+🔴 **Type of Content** : Documentation
+
+🔴 **Domain** : Machine Learning
+
+🔴 **Module** : Ensemble based Learning & Probabilistic ML
+
+
+*********************************************************************
+
 
 - A latent variable is a random variable which you can't observe neither in training nor in test phase . 
 - It is derived from the latin word latēre which means hidden.
@@ -74,3 +83,7 @@ Harder to train
 The use of latent variables can serve to reduce the dimensionality of data. Many observable variables can be aggregated in a model to represent an underlying concept, making it easier to understand the data. 
 
 In this sense, they serve a function similar to that of scientific theories.
+
+*********************************************************************
+
+### GirlScript Winter of Contributions 2021
