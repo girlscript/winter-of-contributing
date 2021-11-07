@@ -1,5 +1,5 @@
 
 ## Index
 - [Operators and Expressions in C](./operators-&-expressions-in-C.md)
-- [Cast operators](https://github.com/Eswari-Priya/winter-of-contributing/blob/C_CPP/C_CPP/Fundamentals/Operators%20%26%20Expressions/cast_operators.md)
-
+- [Cast operators](./cast_operators.md)
+- [Assignment Operators](./Assignment%20operator%20in%20C%2B%2B.md) 

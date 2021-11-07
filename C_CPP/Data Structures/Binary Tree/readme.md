@@ -1,2 +1,4 @@
 - [LevelorderTraversal](LevelOrderTraversal.md)
 - [Binary_Tree_Basics](Binary_Tree_Basics.md)
+- [Diameter Of A Binary Tree](DiameterOfABinaryTree.md)
+- [Height Balanced Trees](HeightBalancedTrees.md)
