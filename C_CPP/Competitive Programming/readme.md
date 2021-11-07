@@ -9,5 +9,5 @@
 - [Number Theory](numbertheory.md)
 - [Missing and repeating numbers in array](Missing_and_Repeating_in_Array.md)
 - [School Management System](School_Management_System.md)
-- [Number Theory](numbertheory.md)
 - [Matrix Exponentiation in c++](Matrix_exponentiation.md)
+- [Egg Dropping Problem using Recursion](Egg_Dropping.md)
