@@ -1,4 +1,4 @@
-## Title : Viterbi Algorithm
+## Title : Hidden Markov Model
 🔴 **Type of Content** : Video
 
 🔴 **Domain** : Machine Learning
