@@ -94,7 +94,7 @@
 - [XOR](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/4.3%20XOR.md)
 - [RSA](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/RSA.md)
   - [Video](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/RSA%20video.md)
-- [Vigenère Cipher]
+- [Vigenère Cipher](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/Cybersecurity%204.6%20Vigen%C3%A8re%20Cipher%20%233646.md)
 - [Substitution Cipher](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/Substitution_Cipher.md)
 - [Affine Cipher](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/Affine.md)
 - [ROT13](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_4/rot13.md)
