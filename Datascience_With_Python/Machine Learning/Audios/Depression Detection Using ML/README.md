@@ -50,7 +50,7 @@ Below is an example where count of tweets per person is given for depressed and 
 
 ### Use Of Depression Detection Algorithms
 
-Depression has a way of silencing its sufferers. Even in today's technology-connected society, people are hesitant to talk about their painful experiences and suffering for fear of being stigmatized. In such cases, Depression Detecting Algorithms perform and provide great results. Internet access and social media usage have increased significantly, providing experts and patients with a means of communication that may contribute to the development of methods to detect mental health issues among social media users. The evaluation follows a time-aware approach that rewards early detections and penalizes late detections. The results show how a dual model performs significantly better than the singleton model and is able to improve current state-of-the-art detection models by more than 10%. Apps like Instagram has become a haven for people making sensitive self-disclosures. 
+Depression has a way of silencing its sufferers. Even in today's technology-connected society, people are hesitant to talk about their painful experiences and suffering for fear of being stigmatized. In such cases, Depression Detecting Algorithms perform and provide great results. Internet access and social media usage have increased significantly, providing experts and patients with a means of communication that may contribute to the development of methods to detect mental health issues among social media users. The evaluation follows a time-aware approach that rewards early detections and penalizes late detections. The results show how a dual model performs significantly better than the singleton model and is able to improve current state-of-the-art detection models by more than 10%. Apps like Instagram has become a haven for people making sensitive self-disclosures.
 
 ### ML Libraries involved
 
@@ -66,3 +66,14 @@ __Installation:__ `pip install wordcloud`
 Different wordclouds representing frequency of words in each cloud.
 ![Wordclouds](https://user-images.githubusercontent.com/75624735/138894038-326c99d8-cc2f-4088-80e9-6e2026d53d1a.png)
 
+### Implementation
+
+Now, we will use different Python libraries to retrieve and analyse our dataset in proper format using Regex library. After this, we will visualise our Dataset. We will now use different libraries to train and implement our model. For implementation, we can create an app using flask, HTML. Every time any statement is provided it will predict whether the statement is depressive or not. Thereby, using this app to predict on different social media platform will be quite beneficial too.
+
+### Summary
+
+Overall, we can summarize that here I have explained about depression, its causes and ways to handle it. I have also discussed our approach, use of depression detecting algorithms in improving our life and helping the needy ones before they face depression related issues with help of there social media account. Different ML libraries involved and there application in training our model. Finally, I have discussed about implementing the algorithms in brief. As an app it will form an attractive interface which will take different inputs and will correctly predict mental state.
+
+### Conclusion
+
+Hereby, I conclude that it's an end to end project which shows whether a person is depressed or not. If the result is 1 that means you are depressed and if the result is 0 that means you are not depressed. It has a Test section that can be used to self evaluate yourself whether you are depressed or not.
