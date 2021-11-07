@@ -115,6 +115,8 @@
 
 - [4.24 Github Externship](4.Open_Source_Programs/4.24_GitHub_Externship.md)
 
+- [4.25 Redox OS Summer of Code](4.Open_Source_Programs/4.25_Redox_OS_Summer_of_Code.md)
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### 5. Cloud Native Computing Foundation (CNCF) projects :
