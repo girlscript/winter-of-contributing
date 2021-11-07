@@ -146,3 +146,77 @@ Complement = 111111 = 63.
 64-63 = 1.
 
 You can apply this for any ’n’.
+
+### 17. There is a room with a door (closed) and three light bulbs. Outside the room, there are three switches, connected to the bulbs. You may manipulate the switches as you wish, but once you open the door you can’t change them. Identify each switch with its bulb. All bulbs are in working condition.
+- Let the bulbs be X, Y, and Z 
+Turn on switch X for 5 to 10 minutes. Turn it off and turn on switch Y. Open the door and touch the light bulb. 
+1. the light is on from the bulb, it is Y 
+
+Now we will check other two off bulbs  
+
+2. the bulb which is hot, it is X   
+ 
+3. the bulb which is cold, it is Z 
+
+### 18. There are 25 horses among which you need to find out the fastest 3 horses. You can conduct race among at most 5 to find out their relative speed. At no point you can find out the actual speed of the horse in a race. Find out the minimum no. of races which are required to get the top 3 horses.
+- Make group of 5 horses and run 5 races. Suppose five groups are a,b,c,d,e and next alphabet is its individual rank in tis group(of 5 horses).for eg. d3 means horse in group d and has rank 3rd in his group. [ 5 RACES DONE ] 
+
+a1 b1 c1 d1 e1 
+
+a2 b2 c2 d2 e2 
+
+a3 b3 c3 d3 e3 
+
+a4 b4 c4 d4 e4 
+
+a5 b5 c5 d5 e5 
+
+
+Now make a race of (a1,b1,c1,d1,e1).[RACE 6 DONE] suppose result is a1>b1>c1>d1>e1 
+
+which implies a1 must be FIRST. 
+
+b1 and c1 MAY BE(but not must be) 2nd and 3rd. 
+
+FOR II position, horse will be either b1 or a2 
+
+(we have to find top 3 horse therefore we choose horses b1,b2,a2,a3,c1 do racing among them [RACE 7 DONE]. 
+
+The only possibilities are : 
+
+c1 may be third 
+
+b1 may be second or third 
+
+b2 may be third 
+
+a2 may be second or third 
+
+a3 may be third 
+
+The final result will give ANSWER. suppose result is a2>a3>b1>c1>b2 
+
+then answer is a1,a2,a3,b1,c1. 
+
+HENCE ANSWER is 7 RACES 
+
+
+Please note that the 7 races work for the case also when all top 3 horses are same group or any top two horses are in same group. The group which has top 3 horses would always have winner in 6th race. In 7th race, we consider 2nd and 3rd horses of the group whose horse is overall winner. We also consider 2nd horse of the group whose horse came 2nd in 6th race. 
+
+### 19. There are 1000 wine bottles. One of the bottles contains poisoned wine. A rat dies after one hour of drinking the poisoned wine. How many minimum rats are needed to figure out which bottle contains poison in hour.
+- We need to figure out in hour. We need 10 rats to figure out the poisoned bottle. The result is based on binary number system. We get 10 using ⌈ Log21000 ⌉.
+- The idea is to number bottles from 1 to 1000 and write their corresponding binary numbers on the bottle. Each rat is assigned a position in the binary numbers written on bottles. Let us take an example. Rat 1 represents first bit in every bottle, rat 2 represents second bit and so on. If rat numbers 2, 4 and 6 die, then bottle number 42 (Binary 0000101010) is poisoned. 
+
+### 20. You have 15 Rs with you. You go to a shop and shopkeeper tells you price as 1 Rs per chocolate. He also tells you that you can get a chocolate in return of 3 wrappers. How many maximum chocolates you can eat?
+- Answer: 22
+
+Buy and eat 15 chocolates
+
+Return 15 wrappers and get 5 more chocolates.
+
+Return 3 wrappers, get 1 chocolate and eat it (keep 2 wrappers)
+
+Now we have 3 wrappers. Return 3 and get 1 more chocolate.
+
+
+So total chocolates = 15 + 5 + 1 + 1
