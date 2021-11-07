@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Quiz_App</string>
+    <string name="App_heading">ComicsQuiz</string>
+    <string name="welcome_txt">Welcome</string>
+    <string name="name_enterTxt">Please enter your name</string>
+    <string name="hint_name">Name</string>
+    <string name="StartBttnTxt">Start</string>
+    <!-- Marvel Questions -->
+    <string name="Mques01">What year was the first Iron Man movie released, kicking off the Marvel Cinematic Universe?</string>
+    <string name="Mques02">What is the name of Thor’s hammer?</string>
+    <string name="Mques03">In the Incredible Hulk, what does Tony tell Thaddeus Ross at the end of the film?</string>
+    <string name="Mques04">What is Captain America’s shield made of?</string>
+    <string name="Mques05">The Flerkens are a race of extremely dangerous aliens that resembles what?</string>
+    <string name="Mques06">Before becoming Vision, what is the name of Iron Man’s A.I. butler?</string>
+    <string name="Mques07">What is the real name of the Black Panther?</string>
+    <string name="Mques08">What is the alien race Loki sends to invade Earth in The Avengers?</string>
+    <string name="Mques09">Who was the last holder of the Space Stone before Thanos claims it for his Infinity Gauntlet?</string>
+    <string name="Mques10">Where do Lady Sif and Volstagg keep the Reality Stone after the Dark Elves tried to steal it?</string>
+    <!-- DC questions -->
+    <string name="Dques01">What is Superman\'s birth name from Krypton?</string>
+    <string name="Dques02">How did Bruce Wayne\'s parents die?</string>
+    <string name="Dques03">Who was the first human to become a Green Lantern?</string>
+    <string name="Dques04">What is the name of the precursor to the Justice League of America?</string>
+    <string name="Dques05">Who is the secret identity of Green Arrow?</string>
+    <string name="Dques06">Where is Aquaman from?</string>
+    <string name="Dques07">What is the name of Batman\'s very first Robin?</string>
+    <string name="Dques08">Who actually kills Superman?</string>
+    <string name="Dques09">Which of these characters does not have the ability to time travel?</string>
+    <string name="Dques10">Which name did the first Robin take after leaving Batman\'s shadow?</string>
+
+    <!-- Activity 2 (Select Team)-->
+    <string name="app_heading2">Choose your team!</string>
+    <string name="Submit">Submit</string>
+
+
+</resources>
