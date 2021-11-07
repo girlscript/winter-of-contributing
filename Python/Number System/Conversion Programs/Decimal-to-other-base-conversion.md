@@ -96,7 +96,7 @@ decToOctal(n)
 3. Repeat the above two steps until the number is not equal to 0.
 4. Print the array in reverse order now.
 
-For Example
+For Example <br>
 If the given decimal number is 2545. 
 
 Step 1: Calculate remainder when 2545 is divided by 16 is 1. Therefore, temp = 1. As temp is less than 10. So, arr[0] = 48 + 1 = 49 = ‘1’. <br>
