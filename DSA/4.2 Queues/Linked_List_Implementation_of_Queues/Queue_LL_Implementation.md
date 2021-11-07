@@ -26,7 +26,7 @@ In a Queue, we maintain two pointers, front and rear. The front points to the fi
  _C++ Program to Implement Queue using Linked List_
 
 
-```cpp:
+```cpp
 #include<iostream>
 using namespace std;
 class Node {
