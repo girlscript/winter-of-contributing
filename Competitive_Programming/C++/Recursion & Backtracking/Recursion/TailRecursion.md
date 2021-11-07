@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # Tail Recursion
 
 * A special form of recursion where the last operation of a function is a recursive call. The recursion may be optimized away by executing the call in the current stack frame and returning its result rather than creating a new stack frame.
@@ -6,7 +11,7 @@
 * The value returned by the recursive call is the result of the function.
 * Usually a tail-recursive function can be easily transformed into an iterative one.
 * Compilers can also optimize the code for such functions by using a single function space for the entire stack of recursive calls.
- 
+
 For better understanding, please have a look at the below code.
 ```cpp
 fun(a)  
@@ -56,3 +61,32 @@ int main()
 Enter two numbers: 4 6
 GCD of 4 and 6 is: 2
 ```
+
+Let us consider another example, factorial in a recursive manner in C++
+```cpp
+int factorial(int n) {
+    if (n > 1) {
+        return n * factorial(n - 1);
+    }
+    else {
+        return 1;
+    }
+}
+```
+
+This implementation, while nice and neat and easy on the eyes, is not tail recursion. To get it to be tail recursive, that multiplication needs to happen inside the parameter list of the function call 
+```cpp
+int factorial(int n, int b = 1) {
+    if (n == 0) {
+        return b;
+        }
+    return factorial(n - 1, b * n);
+}
+```
+**Time Complexity**
+
+ Time complexity of a tail recursion is O(n) 
+
+ **Space Complexity**
+
+ Space complexity of tail Recursion  is O(n)
