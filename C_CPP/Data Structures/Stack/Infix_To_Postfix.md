@@ -216,3 +216,7 @@ int main()
     return 0;
 }
 ```
+
+## OUTPUT:
+![image](https://user-images.githubusercontent.com/89743157/140655017-e5509d24-5dc4-4819-a487-5bbd086e2339.png)
+![image](https://user-images.githubusercontent.com/89743157/140655067-6cdda709-d9a1-4e09-beec-2cbaa08d414b.png)
