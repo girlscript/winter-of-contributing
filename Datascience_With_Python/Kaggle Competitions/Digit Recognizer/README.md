@@ -8,9 +8,20 @@ The dataset of images is divided into training images and test images. Training 
 ## CONVOLUTIONAL NEURAL NETWORKS (CNN):
 ![image](https://user-images.githubusercontent.com/89564985/140636498-ad1babac-8ce8-4b01-9fa9-ad6b5b400260.png)<br>
 [Image source](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148)<br>
- A CNN consists of one or more convolution layer, subsampling or pooling layer followed by one or more fully connected layers. CNN models to train and test, each input image will pass it through a series of convolution layers with filters, Pooling, fully connected layers and apply Softmax function to classify an object with probabilistic values between 0 and 1.<br>
- Convolution layer performs the convolution operation on the image pixels within the kernel or receptive field and kernel weights. Since convolution is a linear operation so we use activation functions to introduce non-linearity. The most common activation function used if ReLU (Rectified Linear Unit).
- 
+* A CNN consists of one or more convolution layer, subsampling or pooling layer followed by one or more fully connected layers. CNN models to train and test, each input image will pass it through a series of convolution layers with filters, Pooling, fully connected layers and apply Softmax function to classify an object with probabilistic values between 0 and 1.<br>
+
+* Convolution layer performs the convolution operation on the image pixels within the kernel or receptive field and kernel weights. Since convolution is a linear operation so we use activation functions to introduce non-linearity. The most common activation function used if ReLU (Rectified Linear Unit).<br>
+![image](https://user-images.githubusercontent.com/89564985/140650152-97a75e14-2418-46ea-84f0-193949ee6790.png)<br>
+![image](https://user-images.githubusercontent.com/89564985/140650165-84c0cfc0-bd84-4166-b359-7be8e2253627.png)<br>
+[Image source](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2)<br>
+We continue like this and aggregate the convolution results in the feature map.
+
+* Pooling layers are a form of downsampling which usually follow convolution layers in the neural network. This operation is used to reduce the dimensions of input and feature maps while still preserving the spatial invariants. There are many approaches like max-pooling, mean-pooling, etc. But the most common approach used is max pooling.<br>
+![image](https://user-images.githubusercontent.com/89564985/140650077-9062d4c3-9008-46f7-93f1-214e09839958.png)<br>
+[Image source](https://towardsdatascience.com/applied-deep-learning-part-4-convolutional-neural-networks-584bc134c1e2)<br>
+
+* Fully connected layer is the last layer of CNN. It allows the network to learn a function which maps the final layer of high-level feature maps to each of the image classifications.
+
 ### Activation functions:
  * ReLU (Rectified Linear Unit):
    It is an element-wise operation which replaces negative values with 0. It overcomes the problem of saturation in sigmoid function.<br>
@@ -21,6 +32,13 @@ The dataset of images is divided into training images and test images. Training 
    Generally used for multi-class classification. For each class, it will calculate the probability and that class with maximum probability will be our predicted output.<br>
    ![image](https://user-images.githubusercontent.com/89564985/140636700-affab409-5494-4c5b-a65d-66b460348312.png)<br>
    [Image source](https://deepai.org/machine-learning-glossary-and-terms/softmax-layer)
+
+### Applications of CNN:
+* Object detection
+* Semantic segmentation
+* Continuous robotic control
+* Medical Image Computing
+* Face recognition
    
 ## Libraries used:
 * Numpy
