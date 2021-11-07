@@ -31,6 +31,14 @@ The dataset of images is divided into training images and test images. Training 
 ## API used:
 * Keras
 
+## Workflow:
+* Importing libraries
+* Loading the dataset using Keras
+* Visualization of our data i.e. to see the count of each digit and how they look.
+* Normalizing the data by the maximum value in this case 255 making the data points in the range of 0 to 1 and reshaping.
+* Then we will start training our model. And then predict the digits using this model.
+* Evaluating the loss and accuracy.
+
 ## References:
 * https://www.analyticsvidhya.com/blog/2021/04/introduction-to-softmax-for-neural-network/
 * https://www.analyticsvidhya.com/blog/2021/07/classification-of-handwritten-digits-using-cnn/
