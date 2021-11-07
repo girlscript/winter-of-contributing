@@ -1,4 +1,4 @@
-## Complete Food Delivery App Design
+ ## Complete Food Delivery App Design
 I have taken a reference of **Swiggy** As most of us known about Swiggy App the UI of the app is so normal, let's design a new version of Swiggy
 ![1](https://user-images.githubusercontent.com/54928117/140015395-12959a3c-67f7-4928-9174-6fe3904910f9.png)
 ![2](https://user-images.githubusercontent.com/54928117/140015401-bb9d6748-43fe-44ff-8ed2-c0d83e216b85.png)
