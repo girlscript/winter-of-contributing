@@ -48,6 +48,10 @@ After extracting features, we will perform sampling and then apply Logistic Regr
 Below is an example where count of tweets per person is given for depressed and non-depressed responses.  
 ![images (1)](https://user-images.githubusercontent.com/75624735/138996108-1357052c-7bf1-4c97-ad84-50b9fc18e487.png)
 
+### Use Of Depression Detection Algorithms
+
+Depression has a way of silencing its sufferers. Even in today's technology-connected society, people are hesitant to talk about their painful experiences and suffering for fear of being stigmatized. In such cases, Depression Detecting Algorithms perform and provide great results. Internet access and social media usage have increased significantly, providing experts and patients with a means of communication that may contribute to the development of methods to detect mental health issues among social media users. The evaluation follows a time-aware approach that rewards early detections and penalizes late detections. The results show how a dual model performs significantly better than the singleton model and is able to improve current state-of-the-art detection models by more than 10%. Apps like Instagram has become a haven for people making sensitive self-disclosures. 
+
 ### ML Libraries involved
 
 - NLTK: Natural Language Toolkit. It is a suite that contains libraries and programs for statistical language processing. It is one of the most powerful NLP libraries, which contains packages to make machines understand human language and reply to it with an appropriate response. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning<br>
