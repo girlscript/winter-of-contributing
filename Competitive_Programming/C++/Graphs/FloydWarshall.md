@@ -44,7 +44,7 @@ using namespace std;
 void FlyodWarshall(int Graph[4][4],int n)
 {
     int Distance[n][n];  // Declaring Distance matrix
-    int i,j,k;
+    int i, j, k;
     for(i=0;i<n;i++)
     {
         for(j=0;j<n;j++)
