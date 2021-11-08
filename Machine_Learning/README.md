@@ -134,7 +134,6 @@
    
 
 
-*N.B.: Upcoming roadmap will be published as the program goes! and ⭐ marked issues are having extra points on successful completion.*
 
 ***************************************************************
 <div align = 'center'>
