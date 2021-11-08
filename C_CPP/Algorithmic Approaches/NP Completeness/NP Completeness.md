@@ -47,6 +47,10 @@
 >- **P≠NP** still leave open the average-case-complexity of the problem in **NP.*
 <img src="P!=NP.png" alt="P!=NP" width="400" height="250">
 
+- [Image refrence from geeksforgeeks](https://www.geeksforgeeks.org/np-completeness-set-1/)
+
+
+
 ## Reduction formulla 
 <img src="NP-Completeness1.png" alt="NP-Completeness1" width="350" height="200">
 
