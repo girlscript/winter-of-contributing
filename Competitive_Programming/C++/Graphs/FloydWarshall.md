@@ -52,7 +52,7 @@ void FlyodWarshall(int Graph[4][4], int n)
             Distance[i][j] = Graph[i][j]; // equating Distange to Graph distance
         }
     }
-    for(k=0;k<n;k++)
+    for(k = 0; k < n; k++)
     {
         for(i=0;i<n;i++)
         {
