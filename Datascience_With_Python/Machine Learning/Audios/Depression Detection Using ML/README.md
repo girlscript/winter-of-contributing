@@ -70,6 +70,13 @@ Different wordclouds representing frequency of words in each cloud.
 
 Now, we will use different Python libraries to retrieve and analyse our dataset in proper format using Regex library. After this, we will visualise our Dataset. We will now use different libraries to train and implement our model. For implementation, we can create an app using flask, HTML. Every time any statement is provided it will predict whether the statement is depressive or not. Thereby, using this app to predict on different social media platform will be quite beneficial too.
 
+Here's an Implementation using Google Colaboratory below :-
+https://colab.research.google.com/drive/1oxaTauml5H1681kwTvNIu5SwG_PPy2c_?usp=sharing
+
+__Dataset__
+[depression_data.csv](https://github.com/kishlayaug15/winter-of-contributing/files/7497289/depression_data.csv)
+
+
 ### Summary
 
 Overall, we can summarize that here I have explained about depression, its causes and ways to handle it. I have also discussed our approach, use of depression detecting algorithms in improving our life and helping the needy ones before they face depression related issues with help of there social media account. Different ML libraries involved and there application in training our model. Finally, I have discussed about implementing the algorithms in brief. As an app it will form an attractive interface which will take different inputs and will correctly predict mental state.
