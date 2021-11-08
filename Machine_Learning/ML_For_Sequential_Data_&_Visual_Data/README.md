@@ -12,14 +12,18 @@
 | 8.6 | **Transformers** | - | - | - |
 | 8.7 | **Bert** | - | - | - |
 | 8.8 | **Convolution and Convolutional Neural Networks** | - | - | - |
-| 8.9 | **Classical CNNs: AlexNet, VGGNe** | - | - | - |
-| 8.10 | **ResNet, Object Classification** | - | - | - |
-| 8.11 | **Intro to Object Detection and RCNN** | - | - | - |
-| 8.12 | **YOLO** | - | - | - |
-| 8.13 | **Single Shot Detector** | - | - | - |
-| 8.14 | **Image Tranformations 1** | - | - | - |
-| 8.15 | **Image Transformation 2** | - | - | - |
-| 8.16 | **GAN** | - | - | - |
+| 8.9 | **Object Classification** | - | - | - |
+| 8.10 | **Classical CNNs: AlexNet, VGGNe** | - | - | - |
+| 8.11 | **ResNet** | - | - | - |
+| 8.12 | **Intro to Object Detection and RCNN** | - | - | - |
+| 8.13 | **YOLO** | - | - | - |
+| 8.14 | **Single Shot Detector** | - | - | - |
+| 8.15 | **Shear, Scale and Reflect Images** | - | - | - |
+| 8.16 | **Fourier and Discrete Cosine Transformations of Images** | - | - | - |
+| 8.17 | **Lines (Hough) and Edge Detection (Filters)** | - | - | - |
+| 8.18 | **Image Denoising** | - | - | - |
+| 8.19 | **GANs** | - | - | - |
+| 8.20 | **Implement an edge detector for images without using any Image Processing library like OpenCV. | :x: | - | :x: |
 
 **************************************************************************
 ### Happy Contributions and All the Best 🚀
