@@ -9,7 +9,7 @@
 
 ### Click here for the video file,
 
-[![image](https://github.com/kishlayaug15/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Ensemble_based_Learning_&_Probabilistic_ML/Assets/Hidden%20Markov%20.png)](https://drive.google.com/file/d/1xd03SfkBie21VMlIFvmkwZ_pX-RAwJUo/view?usp=sharing)
+[![image](https://github.com/kishlayaug15/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Ensemble_based_Learning_&_Probabilistic_ML/Assets/Hidden%20Markov%20.png)](https://drive.google.com/file/d/1IkNl91dVvSDGO7AFbec0PWqy_WaiooI-/view?usp=sharing)
 *********************************************************************
 
 ## References 
