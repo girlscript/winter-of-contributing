@@ -4,18 +4,18 @@
 
 | Sl. No. | Name of the Topic | Audio | Documentation | Video |
 | :-: | :-: | :-: | :-: | :-: |
-| 8.1 | **Recurrent Neural Networks** | - | - | - |
-| 8.2 | **LSTM** | - | - | - |
+| 8.1 | **Recurrent Neural Networks** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data/ML_8_1_RNN_(A).md) | - | - |
+| 8.2 | **LSTM** | - | - | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data/ML_8_2_LSTM_(V).md) |
 | 8.3 | **GRU** | - | - | - |
 | 8.4 | **Bidirectional LSTM** | - | - | - |
-| 8.5 | **Word Embedding** | - | - | - |
-| 8.6 | **Transformers** | - | - | - |
+| 8.5 | **Word Embedding** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data/ML_8_5_Word_Embedding(A).md) | - | - |
+| 8.6 | **Transformers** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data/ML_8_6_Transformers_(A).md) | - | - |
 | 8.7 | **Bert** | - | - | - |
 | 8.8 | **Convolution and Convolutional Neural Networks** | - | - | - |
 | 8.9 | **Object Classification** | - | - | - |
-| 8.10 | **Classical CNNs: AlexNet, VGGNe** | - | - | - |
+| 8.10 | **Classical CNNs: AlexNet, VGGNe** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data/ML_8_10_Classical_CNNs_AlexNet_VGGNet_(A).md) | - | - |
 | 8.11 | **ResNet** | - | - | - |
-| 8.12 | **Intro to Object Detection and RCNN** | - | - | - |
+| 8.12 | **Intro to Object Detection and RCNN** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data/ML_8_12_What_is_Object_Detection_and_RCNN_(A).md) | - | - |
 | 8.13 | **YOLO** | - | - | - |
 | 8.14 | **Single Shot Detector** | - | - | - |
 | 8.15 | **Shear, Scale and Reflect Images** | - | - | - |
