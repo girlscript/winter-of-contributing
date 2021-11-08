@@ -1,8 +1,6 @@
 # Reversing the Queue 
 
-**QUEUE** - A linear data structure which stores and retrieves data in the **First In First out(FIFO)** order.
-        
-	
+**QUEUE** - A linear data structure which stores and retrieves data in the **First In First out(FIFO)** order.	
 *Queue Operations:*
 1. *Enqueue* - To add elements in the queue.
 2. *Dequeue* - To delete elements from the queue.
@@ -11,15 +9,12 @@
 
 To perform the reversing of a queue ,we first stored it in a stack and then re-inserted it in the queue.
 
-
 **The code for this is given below :**
 ```cpp
 // Header Files
 
-
 #include<bits/stdc++.h>
 using namespace std;
-
 
 // Function for reversing the Queue
 
