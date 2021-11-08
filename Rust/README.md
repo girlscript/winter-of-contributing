@@ -31,8 +31,8 @@
 
 ### 4.  Common programming concepts in Rust :
 
-- [Variables & **Mutability**]()
-- [Data types & Compound Types]()
+- [Variables & **Mutability**](4.Common_programming_concepts_in_Rust/variables_and_mutabilty.md)
+- [Data types & Compound Types](4.Common_programming_concepts_in_Rust/data_types_and_compound_types.org)
 - [Functions]()
 - [Flow of Control]()
 
