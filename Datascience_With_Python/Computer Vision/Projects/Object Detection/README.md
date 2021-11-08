@@ -5,7 +5,7 @@
 -> Image recognition assigns a label to an image. A picture of a car receives the label “dog”. A picture of two dogs, still receives the label “dog”. 
 -> Object detection, on the other hand, draws a box around each dog and labels the box “dog”. The model predicts where each object is and what label should be applied. In that way, object detection provides more information about an image than recognition.
 
-<img src="https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Object%20Detection/Images/ssd1Article.jpg" align = "center" alt="difference" width="400"/>
+<img src="https://github.com/HastiSutaria/winter-of-contributing/blob/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Projects/Object%20Detection/Images/ssd1Article.jpg" align = "center" alt="difference" width="400"/>
 
 
 * Object detection can be broken down into machine learning-based approaches and deep learning-based approaches.
