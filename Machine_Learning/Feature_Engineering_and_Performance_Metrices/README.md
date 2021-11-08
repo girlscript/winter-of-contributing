@@ -2,6 +2,22 @@
   <h1> 🟠 Chapter 5 - Feature Engineering & Performance Metrices 🟠 </h1>
   </div>
 
+<p align = 'justify'>
+  The <b>Feature Engineering</b> pipeline is the preprocessing steps that transform raw data into features that can be used in machine learning algorithms, such as predictive models. Predictive models consist of an outcome variable and predictor variables, and it is during the feature engineering process that the most useful predictor variables are created and selected for the predictive model. Automated feature engineering has been available in some machine learning software since 2016. Feature engineering in ML consists of four main steps: Feature Creation, Transformations, Feature Extraction, and Feature Selection.</p>
+  
+  > ### _“Numbers have an important story to tell. They rely on you to give them a voice.”_ — Stephen Few
+
+<p align = 'justify'>
+Talking about the <b>Performance Metrices</b>, After doing the usual Feature Engineering, Selection, and of course, implementing a model and getting some output in forms of a probability or a class, the next step is to find out how effective is the model based on some metric using test datasets. Different performance metrics are used to evaluate different Machine Learning Algorithms. For now, we will be focusing on the ones used for Classification problems. We can use classification performance metrics such as Log-Loss, Accuracy, AUC(Area under Curve) etc. Another example of metric for evaluation of machine learning algorithms is precision, recall, which can be used for sorting algorithms primarily used by search engines.<br/>
+<p align = 'justify'>
+The metrics that you choose to evaluate your machine learning model is very important. Choice of metrics influences how the performance of machine learning algorithms is measured and compared. Before wasting any more time, let’s jump right in and see what those metrics are.
+  
+Let's discuss the topics over here,
+  
+**********************************************************************
+
+## 📌 List of Contents
+
 
 | Sl. No. | Topics | Audio | Documentation | Video |
 | :-: | :-: | :-: | :-: | :-: |
