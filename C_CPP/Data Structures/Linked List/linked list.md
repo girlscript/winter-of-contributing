@@ -36,6 +36,9 @@ int main()
 ## OUTPUT
 1 2 3 
 
+- Time complexity O(n)
+- Space complexity O(1)
+
 ## Counting total elements in linked list 
 
 ```CPP
@@ -102,3 +105,6 @@ Do yo want to continue?
 ## OUTPUT
 1->2->3->6->7->Total
 
+
+- Time complexity O(n)
+- Space complexity O(1)
