@@ -1,4 +1,4 @@
-<h1 align="center">  Trie or Prefix Tree </h1>
+# Trie or Prefix Tree
 
 Trie is a user-defined Data Structure that acts like a Multi-Way Tree. It is used to store a set of strings/paths for efficient query and insertions.
 
