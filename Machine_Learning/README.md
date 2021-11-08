@@ -109,6 +109,28 @@
    - **7.8. Gaussian Mixture Models.**
    - **7.9. Hidden Markov Model.**
    - **7.10. Viterbi Algorithm.**
+
+### 🟡 *[Week 8 [ML for Sequential Data & Visual Data]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data)* :
+   - **8.1. Recurrent Neural Networks.**
+   - **8.2. LSTM.**
+   - **8.3. GRU.**
+   - **8.4. Bidirectional LSTM.**
+   - **8.5. Word Embedding.**
+   - **8.6. Transformers.**
+   - **8.7. Bert.**
+   - **8.8. Convolution and Convolution Neural Networks.**
+   - **8.9. Object Classification.**
+   - **8.10. Classical CNNs: AlexNet, VGGNet**
+   - **8.11. ResNet.**
+   - **8.12. Intro to Object Detection and RCNN.**
+   - **8.13. YOLO.**
+   - **8.14. Single Shot Detector.**
+   - **8.15. Shear, Scale and Reflect Images.**
+   - **8.16. Fourier and Discrete Cosine Transformations of Images.**
+   - **8.17. Lines (Hough) and Edge Detection (Filters).**
+   - **8.18. Image Denoising.**
+   - **8.19. GANs.**
+   - **8.20. Implement an edge detector for images without using any Image Processing library like OpenCV.**
    
 
 
