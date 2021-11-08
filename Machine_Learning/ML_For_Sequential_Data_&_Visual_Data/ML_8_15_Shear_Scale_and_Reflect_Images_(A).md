@@ -10,7 +10,7 @@
 
 ### Click here for the audio file,
 
-[![ML 8.15 : Shear, Scale and Reflect Images (A)](https://user-images.githubusercontent.com/79050917/138584987-6facdc17-d8fe-4595-9051-7b815ed9f948.png)](https://drive.google.com/file/d/13_Wki6-97SdeHFvbEg7webqfAARhw6Ys/view?usp=sharing "Fourier and Discrete Cosine Transformations of Images")
+[![ML 8.15 : Shear, Scale and Reflect Images (A)](https://user-images.githubusercontent.com/80235375/140742262-39e69d43-06cc-4c97-bd97-e266cd8c1f9e.png)](https://drive.google.com/file/d/13_Wki6-97SdeHFvbEg7webqfAARhw6Ys/view?usp=sharing "Fourier and Discrete Cosine Transformations of Images")
 
 ---
 
