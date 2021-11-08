@@ -1,5 +1,33 @@
 <div align = 'center'>
   <h1> 🟣 Chapter 6 - Dimensionality Reduction & Neural Networks 🟣 </h1></div>
+  
+<p align = 'justify'>
+  The number of input features, variables, or columns present in a given dataset is known as dimensionality, and the process to reduce these features is called dimensionality reduction.
+<p align = 'justify'>
+A dataset contains a huge number of input features in various cases, which makes the predictive modeling task more complicated. Because it is very difficult to visualize or make predictions for the training dataset with a high number of features, for such cases, dimensionality reduction techniques are required to use.
+<p align = 'justify'>
+Dimensionality reduction technique can be defined as, "It is a way of converting the higher dimensions dataset into lesser dimensions dataset ensuring that it provides similar information." These techniques are widely used in machine learning for obtaining a better fit predictive model while solving the classification and regression problems.
+<p align = 'justify'>
+It is commonly used in the fields that deal with high-dimensional data, such as speech recognition, signal processing, bioinformatics, etc. It can also be used for data visualization, noise reduction, cluster analysis, etc.
+  
+**Benefits of Dimensionality Reduction:**
+  
+Some benefits of applying dimensionality reduction technique to the given dataset are given below:
+* By reducing the dimensions of the features, the space required to store the dataset also gets reduced.
+* Less Computation training time is required for reduced dimensions of features.
+* Reduced dimensions of features of the dataset help in visualizing the data quickly.
+* It removes the redundant features (if present) by taking care of multicollinearity.
+  
+**Neural Network:**
+<p align = 'justify'>
+A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. In this sense, neural networks refer to systems of neurons, either organic or artificial in nature.
+<p align = 'justify'>  
+Neural networks generally perform supervised learning tasks, building knowledge from data sets where the right answer is provided in advance. The networks then learn by tuning themselves to find the right answer on their own, increasing the accuracy of their predictions.
+  
+Let's talk about the topics of this  chapter,
+****************************************************************************
+
+## 📌 List of Contents
 
 | Sl. No. | Topics | Audio | Documentation |  Video |
 | :-: |:-: |:-: |:-: |:-: |

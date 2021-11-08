@@ -1,8 +1,29 @@
-
-
 <div align = 'center'>
   <h1> 🟢 Chapter 4 -  Reinforcement Learning 🟢 </h1>
   </div>
+  
+<p align = 'justify'>
+  Reinforcement Learning is a feedback-based Machine learning technique in which an agent learns to behave in an environment by performing the actions and seeing the results of actions. For each good action, the agent gets positive feedback, and for each bad action, the agent gets negative feedback or penalty.</p>
+  
+**Key Features about Re-inforcement Learning:**
+* In Reinforcement Learning, the agent learns automatically using feedbacks without any labeled data, unlike supervised learning.
+* Since there is no labeled data, so the agent is bound to learn by its experience only.
+* RL solves a specific type of problem where decision making is sequential, and the goal is long-term, such as game-playing, robotics, etc.
+* The agent interacts with the environment and explores it by itself. The primary goal of an agent in reinforcement learning is to improve the performance by getting the maximum positive rewards.
+* The agent learns with the process of hit and trial, and based on the experience, it learns to perform the task in a better way. Hence, we can say that _**"Reinforcement learning is a type of machine learning method where an intelligent agent (computer program) interacts with the environment and learns to act within that."**_ How a Robotic dog learns the movement of his arms is an example of Reinforcement learning.
+* It is a core part of Artificial intelligence, and all AI agent works on the concept of reinforcement learning. Here we do not need to pre-program the agent, as it learns from its own experience without any human intervention.
+
+**Advantages of Re-inforcement Learning:**
+* In RL, the agent is not instructed about the environment and what actions need to be taken.
+* It is based on the hit and trial process.
+* The agent takes the next action and changes states according to the feedback of the previous action.
+* The agent may get a delayed reward.
+* The environment is stochastic, and the agent needs to explore it to reach to get the maximum positive rewards.
+
+Let's discuss more about the reinforcement learning,
+
+********************************************************************
+## 📌 List of Contents
   
 | Sl. No. | Topics | Audio | Documentation | Video |
 | :-: | :-: | :-: | :-: | :-: |
