@@ -3,5 +3,5 @@
 - [Queue using linked list](https://github.com/ishrutik/winter-of-contributing/blob/C_CPP/C_CPP/Data%20Structures/Queue/Queue%20Implementation/Queue_Using_LL.cpp)
 - [Queue Operations](Queue-Operations.md)
 - [Implementation of queue using stack](./implementation_of_queue_using_stack.md)
-- [Reversing a queue](C_CPP/Data Structures/Queue/Reversingqueue.md)
+- [Reversing a queue](./Reversingqueue.md)
 
