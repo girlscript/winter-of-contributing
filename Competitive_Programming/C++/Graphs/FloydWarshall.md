@@ -111,7 +111,7 @@ int main()
 ```
 
 ### Time Complexity 
-There are three loops. So, the time complexity of the Floyd-Warshall algorithm is O(n3).
+There are three loops. So, the time complexity of the Floyd-Warshall algorithm is ```O(n^3)```.
 
 ### Space Complexity
 The space complexity of the Floyd-Warshall algorithm is O(n2).
