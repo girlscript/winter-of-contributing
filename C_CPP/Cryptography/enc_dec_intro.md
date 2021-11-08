@@ -16,7 +16,7 @@ He gave the code of encrypt program to you and taken the decrypt program for him
 
 ## 1. Program for Encryption of messages (For You)
 
-```
+```cpp
 #include <iostream>
 #include <stdio.h>
 using namespace std;
@@ -55,7 +55,7 @@ Encrypted string is : ifmmp!cspuifs-!ipx!zpv!epjoh@
 
 ## 2. Program for Decryption of messages (For your Friend)
 
-```
+```cpp
 #include <iostream>
 #include <stdio.h>
 using namespace std;
