@@ -1,6 +1,10 @@
+# WebGL
+
 <p align="center">
   <img src="images/WebGL_Logo.png">
 </p>
+
+<br>
 
 # Introduction
 
