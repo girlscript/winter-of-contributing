@@ -1,6 +1,13 @@
 <div align = 'center'>
   <h1> ⚪ Chapter 7 - Ensemble based Learning and Probabilistic ML :white_circle: </h1></div>
   
+<p align = 'justify'><b>Ensemble methods</b> is a machine learning technique that combines several base models in order to produce one optimal predictive model . To better understand this definition lets take a step back into ultimate goal of machine learning and model building.<br><br>In machine learning, a <b>probabilistic classifier</b> is a classifier that is able to predict, given an observation of an input, a probability distribution over a set of classes, rather than only outputting the most likely class that the observation should belong to.</p>
+
+Let's take a look at the topics covered here,
+***************************************************************
+## 📌 List of Contents
+
+  
 | Sl. No. | Topics | Audio | Documentation |  Video |
 | :-: |:-: |:-: |:-: |:-: |
 | 7.1 | **Bootstrap Aggregation** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML/ML_7_1_Bootstrap_Aggregation_(A).md) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML/ML_7_1_Bootstrap_Aggregation_(D).ipynb) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML/ML_7_1_Bootstrap_Aggregation(V).md) |
