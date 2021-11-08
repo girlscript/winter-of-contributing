@@ -1,6 +1,14 @@
 <div align = 'center'>
   <h1> 🔶 Chapter 8 - ML for Sequential Data & Visual Data 🔶 </h1>
   </div>
+  
+  <p align = 'justify'>Statistical learning problems in many fields involve sequential data. This paper formalizes the principal learning tasks and describes
+the methods that have been developed within the machine learning research community for addressing these problems. These methods include
+sliding window methods, recurrent sliding windows, hidden Markov models, conditional random fields, and graph transformer networks. The paper also discusses some open research issues.<br><br>Image and video data, or visual data, has seen unprecedented growth in the last few years. Applications across domains are shifting to Machine Learning (ML) and Data Science to create new products with better user experiences and to derive insights from this vast and rich collection of visual data. These insights help businesses gain a better understanding of their customers and provide inference points for making complex decisions.</p>
+
+Take a look at the topics covered,
+******************************************************************
+## 📌 List of Contents
 
 | Sl. No. | Name of the Topic | Audio | Documentation | Video |
 | :-: | :-: | :-: | :-: | :-: |
