@@ -6,6 +6,9 @@
 
 <img src="NP-Complete.png" alt="NP-Complete" width="600" height="300">
 
+- [Image refrence from geeksforgeeks](https://www.geeksforgeeks.org/np-completeness-set-1/)
+
+
 | Polynomial Time     | Eponetial Time (NP)       |
 | --------------------| --------------------------|
 | Header              | Title              |
@@ -40,6 +43,8 @@
 >- The potential consequences,  both positive or negative arise since various *NP-complete* problems are fundamental in many fields.
 >- Proof is not lead to practical algorithms for *NP Complete* problem.
 <img src="P=NP.png" alt="P=NP" width="500" height="300">
+
+- [Image refrence from wikipedia](https://en.wikipedia.org/wiki/NP-completeness)
 
 ## **P≠NP**
 >- **P≠NP** would piratical Computational benefit of a proof that **P=NP.** 
