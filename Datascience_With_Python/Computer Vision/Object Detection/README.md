@@ -16,6 +16,14 @@
 * Deep learning-based object detection models typically have two parts. An encoder takes an image as input and runs it through a series of blocks and layers that learn to extract statistical features used to locate and label objects. Outputs from the encoder are then passed to a decoder, which predicts bounding boxes and labels for each object.
 * A number of popular object detection models belong to the R-CNN family. Over the years, they’ve become both more accurate and more computationally efficient. There are also a number of models that belong to the single shot detector family. MobileNet + SSD models feature a MobileNet-based encoder and the YOLO model features its own convolutional architecture.
 
+# Purpose 
+* The main purpose of object detection is to identify and locate one or more effective targets from still image or video data. It comprehensively includes a variety of important techniques, such as image processing, pattern recognition, artificial intelligence and machine learning. 
+* It has broad application prospects in such areas such as road traffic accident prevention [1], warnings of dangerous goods in factories, military restricted area monitoring and advanced human–computer interaction. 
+* Since the application scenarios of multi-target detection in the real world are usually complex and variable, balancing the relationship between accuracy and computing costs is a difficult task.
+
+# Outline
+In this project, we will detect the objects from a still image with the help of OpenCV library in Python. OpenCV library is widely known for image processing, object detection and has many real world applications. After importing the necessary libraries, we would read the sample image, train the model, use the coco dataset for the pre-defined classes (objects) and as an outcome we would detect the object, it's location, accuracy and index of the class (which helps us to identify the object). Successfully in this project 
+
 # Object detection using deep learning with OpenCV and Python
 
 When it comes to object detection, popular detection frameworks are
