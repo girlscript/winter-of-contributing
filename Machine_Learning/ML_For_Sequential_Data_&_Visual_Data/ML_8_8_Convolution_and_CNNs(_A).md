@@ -1,4 +1,4 @@
-## Title : Name of the Topic
+## Title : Convolution and CNNs
 
 🔴 **Type of Content** : Audio
 
