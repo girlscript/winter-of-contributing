@@ -71,7 +71,7 @@ void FlyodWarshall(int Graph[4][4], int n)
     // printing the shortest distance matrix
     for(i=0;i<n;i++)
     {
-        for(j=0;j<n;j++)
+        for(j = 0; j < n; j++)
         {
             if(Distance[i][j] == INF)
             {
