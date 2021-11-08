@@ -56,7 +56,7 @@ void FlyodWarshall(int Graph[4][4], int n)
     {
         for(i = 0; i < n; i++)
         {
-            for(j=0;j<n;j++)
+            for(j = 0; j < n; j++)
             {
                 // if city K is shortest path from i to j
                 // update Distance Matrix
