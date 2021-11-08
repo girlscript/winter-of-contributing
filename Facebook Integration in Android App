@@ -1,0 +1,189 @@
+Facebook Integration
+
+Android allows your application to connect to facebook and even share data or any kind of updates on facebook. All this is about integrating facebook into your application.
+There are following two ways by which you can integrate Facebook and share your information -
+                  1. Integrating Facebook SDK
+                  2. Intent Share
+                  
+1. Integrating Facebook SDK
+This is the first way of connecting your application with facebook. You have to first register your application and then receive some Application Id , and then you have to download the facebook SDK and add it to your project.
+
+   Step 1 - Generating application signature
+          You have to generate a key signature, but before you generate it, make sure you have SSL installed, otherwise you have to download SSl. 
+          Now open command prompt and redirect to your java jre folder. Once you reach there, type this command exactly. You have to replace the path in the inverted commas with your keystore path which you can found in eclipse by selecting the window tab and selecting the preferences tab and then selecting the build option under android from left side.
+
+   Example -    keytool -exportcert -alias androiddebugkey -keystore "your path" 
+                | openssl sha1 -binary | openssl base64
+                
+   Step 2 - Registering your application
+           Now create a new facebook application at developers.facebook.com/apps and fill all the information.
+           Now move to the native android app section and fill in your project and class name and paste the hash that you copied in step 1.
+           If everything works fine, you will receive an application ID with the secret. Just copy the application id and save it somewhere.
+           
+   Step 3 - Downloading SDK and integrating it
+Download facebook sdk. Import this into eclipse. Once imported, right click on your facebook project and click on properties.Click on android, click on add button and select facebook sdk as the project.Click ok.
+
+Creating facebook login application
+Once everything is complete , you can run the samples, that comes with SDK or create your own application. In order to login, you need to call openActiveSession method and implements its callback. 
+
+Its syntax is given below −
+// start Facebook Login
+Session.openActiveSession(this, true, new Session.StatusCallback() {
+   
+   // callback when session changes state
+   public void call(Session session, SessionState state, Exception exception) {
+      if (session.isOpened()) {
+         // make request to;2 the /me API
+         Request.executeMeRequestAsync(session, new Request.GraphUserCallback() {
+            
+            // callback after Graph API response with user object
+            @Override
+            public void onCompleted(GraphUser user, Response response) {
+               if (user != null) {
+                  TextView welcome = (TextView) findViewById(R.id.welcome);
+                  welcome.setText("Hello " + user.getName() + "!");
+               }
+            }
+         });
+      }
+   }
+}
+
+Intent share
+Intent share is used to share data between applications. In this strategy, we will not handle the SDK stuff, but let the facebook application handles it. We will simply call the facebook application and pass the data to share. This way, we can share something on facebook.
+
+Android provides intent library to share data between activities and applications. In order to use it as share intent , we have to specify the type of the share intent to ACTION_SEND. 
+
+Its syntax is given below −   Intent shareIntent = new Intent();
+                              shareIntent.setAction(Intent.ACTION_SEND);
+                              
+ Now just define the type of data to pass , and then pass the data. 
+ 
+ Its syntax is given below −    shareIntent.setType("text/plain");
+                                shareIntent.putExtra(Intent.EXTRA_TEXT, "Hello, from tutorialspoint");
+                                startActivity(Intent.createChooser(shareIntent, "Share your thoughts"));
+                                
+• Following is the MainActivity.java file code -
+
+package com.example.sairamkrishna.myapplication;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+
+import android.widget.Button;
+import android.widget.ImageView;
+
+import java.io.FileNotFoundException;
+import java.io.InputStream;
+
+public class MainActivity extends AppCompatActivity {
+   private ImageView img;
+
+   protected void onCreate(Bundle savedInstanceState) {
+      super.onCreate(savedInstanceState);
+      setContentView(R.layout.activity_main);
+
+      img=(ImageView)findViewById(R.id.imageView);
+      Button b1=(Button)findViewById(R.id.button);
+
+      b1.setOnClickListener(new View.OnClickListener() {
+         @Override
+         public void onClick(View v) {
+            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
+            Uri screenshotUri = Uri.parse("android.
+            resource://comexample.sairamkrishna.myapplication/*");
+            
+            try {
+               InputStream stream = getContentResolver().openInputStream(screenshotUri);
+            } catch (FileNotFoundException e) {
+               // TODO Auto-generated catch block
+               e.printStackTrace();
+            }
+
+            sharingIntent.setType("image/jpeg");
+            sharingIntent.putExtra(Intent.EXTRA_STREAM, screenshotUri);
+            startActivity(Intent.createChooser(sharingIntent, "Share image using"));
+         }
+      });
+   }
+}
+
+• Following is the modified content of the xml res/layout/activity_main.xml.
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:tools="http://schemas.android.com/tools" 
+   android:layout_width="match_parent"
+   android:layout_height="match_parent" 
+   android:paddingLeft="@dimen/activity_horizontal_margin"
+   android:paddingRight="@dimen/activity_horizontal_margin"
+   android:paddingTop="@dimen/activity_vertical_margin"
+   android:paddingBottom="@dimen/activity_vertical_margin" 
+   tools:context=".MainActivity">
+   
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:textSize="30dp"
+      android:text="Facebook share " />
+      
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Tutorials Point"
+      android:id="@+id/textView2"
+      android:layout_below="@+id/textView"
+      android:layout_centerHorizontal="true"
+      android:textSize="35dp"
+      android:textColor="#ff16ff01" />
+      
+   <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/imageView"
+      android:layout_below="@+id/textView2"
+      android:layout_centerHorizontal="true"
+      android:src="@drawable/abc"/>
+   
+   <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Share"
+      android:id="@+id/button"
+      android:layout_marginTop="61dp"
+      android:layout_below="@+id/imageView"
+      android:layout_centerHorizontal="true" />
+      
+</RelativeLayout>
+
+
+• Following is the content of AndroidManifest.xml file.
+
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+   package="com.example.sairamkrishna.myapplication" >
+   <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme" >
+      
+      <activity
+         android:name=".MainActivity"
+         android:label="@string/app_name" >
+         
+         <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+         
+      </activity>
+   </application>
+</manifest>
