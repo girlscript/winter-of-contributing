@@ -1,4 +1,4 @@
-## Title : ## Title : Name of the Topic
+## Title : RNN
 🔴 **Type of Content** : Audio
 
 🔴 **Domain** : Machine Learning
