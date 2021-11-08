@@ -2,7 +2,11 @@
 
 
 <h1 align="center"> :fleur_de_lis: MACHINE LEARNING :fleur_de_lis: </h1>
-<h2 align="center"> Roadmap for GWoC '21  </h2>
+<p align = 'justify'>
+   Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values.<br><br>Recommendation engines are a common use case for machine learning. Other popular uses include fraud detection, spam filtering, malware threat detection, business process automation (BPA) and predictive maintenance.<br><br>Machine learning is important because it gives enterprises a view of trends in customer behavior and business operational patterns, as well as supports the development of new products. Many of today's leading companies, such as Facebook, Google and Uber, make machine learning a central part of their operations. Machine learning has become a significant competitive differentiator for many companies.<br><br>This whole directory is dedicated towards Machine Learning. A beginner can learn ML easily from the content provided in the repository. We have followed a certain roadmap which will help the beginner to guide him/her for the due course of time while learning ML.</p>
+   
+<p align = 'justify'>This whole folder is contributed through an open source program named as, GirlScript Winter of Contributions 2021. Here several contributors helped us to make this beautiful course type materials for the users who are seeking to learn ML, but couldn't him/herself with proper roadmap or, materials. Here is the one stop solution for them. Let's check out the Roadmap, to get an idea what are the topics that you are going to learn here. We have three types of contents here, Audio, Documentations and Video files for each and every topic mentioned in the roadmap.</p>
+<h2 align="center"> 🗺️ Roadmap to be a Pro in ML! 🔥  </h2>
 
 
 ### :yellow_circle: *[Week 1 [Statistics for Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning)* :
@@ -132,7 +136,9 @@
    - **8.19. GANs.**
    - **8.20. Implement an edge detector for images without using any Image Processing library like OpenCV. :star:**
    
-
+**************************************************************
+### ©️ GirlScript Winter of Contributions 2021
+<p align = 'justify'>Thanks to GWoC Team for creating this folder, which will guide the users to become Pro in ML without searching any other YouTube videos or, different websites for the documentations. The contributors of this program had been awesome through out the journey, as a result the repository is fully ready to be served to the users! Happy Learning and All the Best in ML journey!</p>
 
 
 ***************************************************************
