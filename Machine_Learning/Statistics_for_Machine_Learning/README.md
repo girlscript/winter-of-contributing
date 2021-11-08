@@ -2,6 +2,38 @@
 <h1>♦️ Chapter 1 - Statistics for Machine Learning ♦️</h1>
    </div>
    
+<p align = 'justify'>
+   <b>Machine learning and statistics are two tightly related fields of study.</b> So much so that statisticians refer to machine learning as “applied statistics” or “statistical learning” rather than the computer-science-centric name. Machine learning is almost universally presented to beginners assuming that the reader has some background in statistics. Raw observations alone are data, but they are not information or knowledge.</p>
+   
+Data raises questions, such as:
+
+- What is the most common or expected observation?
+- What are the limits on the observations?
+- What does the data look like? <br>
+
+Although they appear simple, these questions must be answered in order to turn raw observations into information that we can use and share.
+
+Beyond raw data, we may design experiments in order to collect observations. From these experimental results we may have more sophisticated questions, such as:
+
+- What variables are most relevant?
+- What is the difference in an outcome between two experiments?
+- Are the differences real or the result of noise in the data?
+
+<p align = 'justify'>
+Questions of this type are important. The results matter to the project, to stakeholders, and to effective decision making. Statistical methods are required to find answers to the questions that we have about data. We can see that in order to both understand the data used to train a machine learning model and to interpret the results of testing different machine learning models, that statistical methods are required. </p>
+
+This is just the tip of the iceberg as each step in a predictive modeling project will require the use of a statistical method. Take a look at this quote from the beginning of a popular applied machine learning book titled _**“Applied Predictive Modeling"**_:
+
+   > `… the reader should have some knowledge of basic statistics, including variance, correlation, simple linear regression, and basic hypothesis testing (e.g. p-values and test statistics).`<br/>
+    — Page vii, _Applied Predictive Modeling_, 2013
+
+Let's dive into the topics covered here,
+
+*************************************************************************
+
+## 📌 List of Contents 
+
+
 | Sl. no. | Name of the topics | Audio | Documentation | Video |
 |:---:|:---:|:---:|:---:|:---:|
 | 1.1 | **Variables, Range, Population Distribution, Sample Distribution** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/ML_1_1_Variables%2C%20Range%2C%20Population%20Distribution%2C%20Sample%20Distribution_(A).md) |  [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/ML_1_1_Variables%2C%20Range%2CPopulation_Distribution%2CSample_Distribution_(D).ipynb) | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning/ML_1_1_Variables%2C%20Range%2C%20Population%20Distribution%2C%20Sample%20Distribution_(V).md) |
