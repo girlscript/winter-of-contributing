@@ -1,5 +1,5 @@
 # Exception Handling in C
-Exception handling in C is very difficult as C does not provide any direct support to handle the exception handling , there are some ways by which programmer can handle the exceptions .
+Exception handling in C is comparatively tough as C does not provide any direct support to handle the exception handling , there are some ways by which programmer can handle the exceptions .
 
 ### Steps to Approach the Exception :
 1. A programmer has to prevent errors as its priority.
