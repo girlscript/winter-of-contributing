@@ -338,4 +338,8 @@ conversion rates by recommending products that the user actually wants to buy. H
 various fields and use-cases, it becomes more important to know the difference between artificial intelligence and
 machine learning.  
 
+## REFERENCES
 
+https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0
+https://machinelearningmastery.com/types-of-learning-in-machine-learning/
+https://www.potentiaco.com/what-is-machine-learning-definition-types-applications-and-examples/
