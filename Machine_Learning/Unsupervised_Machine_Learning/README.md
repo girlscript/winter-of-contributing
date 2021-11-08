@@ -3,7 +3,31 @@
 <div align = 'center'>
        <h1> 🟡 Chapter 3 - Unsupervised Machine Learning 🟡 </h1>
        </div>
-       
+
+<p align = 'justify'>
+As the name suggests, unsupervised learning is a machine learning technique in which models are not supervised using training dataset. Instead, models itself find the hidden patterns and insights from the given data. It can be compared to learning which takes place in the human brain while learning new things. It can be defined as:</p>
+
+  > ☄️" _Unsupervised learning is a type of machine learning in which models are trained using unlabeled dataset and are allowed to act on that data without any supervision._ "
+
+<p align = 'justify'>
+Unsupervised learning cannot be directly applied to a regression or classification problem because unlike supervised learning, we have the input data but no corresponding output data. The goal of unsupervised learning is to find the underlying structure of dataset, group that data according to similarities, and represent that dataset in a compressed format.</p>
+
+**Advantages of Unsupervised Learning:**
+* Unsupervised learning is used for more complex tasks as compared to supervised learning because, in unsupervised learning, we don't have labeled input data.
+* Unsupervised learning is preferable as it is easy to get unlabeled data in comparison to labeled data.
+
+**Disadvantages of Unsupervised Learning:**
+- Unsupervised learning is intrinsically more difficult than supervised learning as it does not have corresponding output.
+- The result of the unsupervised learning algorithm might be less accurate as input data is not labeled, and algorithms do not know the exact output in advance.
+
+Let's check out the topics of Unsupervised Machine Learning...
+
+*******************************************************************
+
+## 📌 List of Contents
+
+
+
 | Sl. No. | Topics | Audio | Documentation | Video |
 |:-:|:-:|:-:|:-:|:-:|
 | 3.1 | **What is Clustering? Validate its necessity using real-world applications.** | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_1_What_is_Clustering%3F_Validate_its_necessity_using_real_world_applications._(A).md) | ❌ | [Click Here](https://github.com/girlscript/winter-of-contributing/blob/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning/ML_3_1_what_is_clustering_%3F_Validate_its_necessity_using_real_world_applications_(V).md) |
