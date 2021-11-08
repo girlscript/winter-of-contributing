@@ -1,6 +1,37 @@
 <div align = 'center'>
      <h1> 🔷 Chapter 2 - Supervised Machine Learning 🔷 </h1>
      </div>
+ 
+
+<p align = 'justify'>
+     Supervised learning is the types of machine learning in which machines are trained using well "labelled" training data, and on basis of that data, machines predict the output. The labelled data means some input data is already tagged with the correct output.
+
+<p align = 'justify'>
+In supervised learning, the training data provided to the machines work as the supervisor that teaches the machines to predict the output correctly. It applies the same concept as a student learns in the supervision of the teacher.
+
+<p align = 'justify'>
+Supervised learning is a process of providing input data as well as correct output data to the machine learning model. The aim of a supervised learning algorithm is to find a mapping function to map the input variable(x) with the output variable(y).
+
+     
+In the real-world, supervised learning can be used for Risk Assessment, Image classification, Fraud Detection, spam filtering, etc.</p>
+
+**Advantages of Supervised Learning:**
+- With the help of supervised learning, the model can predict the output on the basis of prior experiences.
+- In supervised learning, we can have an exact idea about the classes of objects.
+- Supervised learning model helps us to solve various real-world problems such as fraud detection, spam filtering, etc.
+
+**Disadvantages of Supervised Learning:**
+- Supervised learning models are not suitable for handling the complex tasks.
+- Supervised learning cannot predict the correct output if the test data is different from the training dataset.
+- Training required lots of computation times.
+- In supervised learning, we need enough knowledge about the classes of object.
+     
+Now, let's dive deep into the topics covered here,
+
+*****************************************************************************************
+## 📌 List of Contents
+     
+     
      
 | Sl. No. | Topics Name | Audio | Documnentation | Video |
 |:---:|:---:|:---:|:---:|:---:|
