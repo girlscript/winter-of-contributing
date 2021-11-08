@@ -1,3 +1,9 @@
+# Rendering Lists in Vue
+
+Web applications handle lists of data for various reasons: showing a list of registered users, checkout page with items to be purchased or a log of previous transactions.
+
+A list is such a common construct that it’s a good fit for an abstraction. Vue makes it convenient to render lists of data with a nice syntax. In this article, we’ll look at lists and how to handle them in Vue.
+
 # List rendering (v-for)
 
 List rendering is one of the most commonly used practices in front-end web development. Dynamic list rendering is often
