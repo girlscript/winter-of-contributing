@@ -47,7 +47,7 @@ return -1;  // not found
 ```
 
 In Binary Search we divide the array in *two halves* and then one half is decided and the searching is done on that half only similarily this divide take place till the element is not found.
-so the the time complexity in Worst Case is O(log n) where n is the size of array.
+so the the time complexity in Worst Case is *O(log n)* where n is the size of array.
 
 Binary Search can solve various other problem in Competitive Programming where we have to print result in specific time otherwise TLE comes. 
 
@@ -106,6 +106,8 @@ return 0;
 >First occurence 2
 >
 >Last occurence 4
+
+>Time Complexity O(log n)
 
 In this we can find the occurence of element in array in O(log(n)) time where n is the size of array. we can find the total number of time the element comes in the array if we know the first and last occurence . 
 
@@ -175,5 +177,21 @@ return 0;
 >
 >Ceil of the element 5
 
+>Time Complexity O(log n)    , where n is the size of array
 
-These are some of the programs that can be solve by Binary Search , Binary search is really important in competitve programming as it do the searching in O(log (n)) time . 
+Explanation:
+- In floor of an element in the array we need to find the greatest element samaller than the element we wish to find the floor.
+- example:
+ array =[1,2,3,5,6,7,8] element = 4 for which we have to find the floor , 
+ 1. why Binary Search ?  because the array is sorted and we know that the element floor will be present in the array (ie. from start=0 to end=n-1 where n is the size of array)
+2. so we find the mid element using start and end of the array index till the time start <= end.
+3. then we compare array[mid] with the element for which we have to find floor.
+4. and whenever we find any smaller element than 4 ,then we save it in a variable indx(as that can be a possible answer) and move the start to mid+1 , to find if other greater element that is smaller than the element (in this case 4).
+5. After Binary Search, we will return the indx as it will have the floor of the element.
+- Similarily we can approach ceil, as we know ceil is the smallest greater element than the element for which we want to find ceil.
+
+These are some of the programs that can be solve by Binary Search , Binary search is really important in competitve programming as it do the searching in O(log (n)) time .
+
+>The flow of document
+>
+>Title -> explanation -> code -> Time Complexity 
