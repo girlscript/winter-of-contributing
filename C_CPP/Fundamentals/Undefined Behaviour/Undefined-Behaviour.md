@@ -11,7 +11,7 @@ Undefined behaviour occurs due to the following reasons:
 - Going out of bounds.
 - Going beyond the limit of the datatype.
 
-The above are the few common mistakes which lead to undefined behaviour. There are also other reasons that that lead to this kind of behaviour.
+The above are the few common mistakes which lead to undefined behaviour. There are also other reasons that lead to this kind of behaviour.
 
 Let us understand it clearly with the help of a sample code:
 ```CPP
