@@ -41,7 +41,7 @@ using namespace std;
 
 // Flyod Warshall function to find all pair shortest path for 4x4 matrix
 
-void FlyodWarshall(int Graph[4][4],int n)
+void FlyodWarshall(int Graph[4][4], int n)
 {
     int Distance[n][n];  // Declaring Distance matrix
     int i, j, k;
