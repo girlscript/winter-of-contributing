@@ -43,7 +43,7 @@
 - What is Grid
 - Grid vs Flex
 - Transition and transformation
-- Animations
+- [Animations](CSS_Animation.md)
 - CSS Libraries
 - [CSS Pagination](./CSS_Pagination/CSS_Pagination.md)
 - [What is FlexBox](./CSS_Flexbox)
