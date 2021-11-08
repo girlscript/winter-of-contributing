@@ -1,3 +1,5 @@
+![Image](https://github.com/Mann-tech13/winter-of-contributing/blob/Java/Java/Java_Lang_Package/assets/runtime.jpg)
+
 # **Run Time Memory Management in Java**
 
 The run-time environment is the structure of the target computers registers and memory that serves to manage memory and maintain information needed to guide a programs execution process.
