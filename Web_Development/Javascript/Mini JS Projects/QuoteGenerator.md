@@ -4,7 +4,7 @@ Built using: HTML, JavaScript
 
 ## Introduction
 
-This documentation covers the steps to create a simple "Random Quote Generator" using JavaScript. You can
+This documentation covers the steps to create a simple "Random Quote Generator" using JavaScript. It requires the creation of just two files namely, index.html and script.js.
 
 A basic HTML file is made that consists of:
 
@@ -69,14 +69,46 @@ The file is saved as script.js.
 
 ## Explanation of Tags used
 
-1. The `<h1>` tag defines HTML heading of the largest size. 
+1. `<html>`represents the root of HTML document.
 
-2. `<button>`creates a button which `onclick` invokes function `Quote()`.
+2. `<head>` element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+    
+3. `<title>` tag lets us give a title to our webpage.
+    
+4. `<body>`tag defines the document's body and it further contains other tags.
+    
+5. The `<h1>` tag defines HTML heading of the largest size. 
 
-3. `<script>`tag is used to integrate JavaScript file in the HTML document.
+6. `<button>`creates a button which `onclick` invokes function `Quote()`.
 
-4. `<div>` tag is used to specify a division. It is given an `id` which is accesed within a function in JS file. The quote is displayed here.
+7. `<script>`tag is used to integrate JavaScript file in the HTML document.
 
+8. `<div>` tag is used to specify a division. It is given an `id` which is accesed within a function in JS file. The quote is displayed here.
+
+Each tag has a closing tag which is a slash (/) followed by tag name.
+    
+## Explanation of JS File
+    
+1. Firstly a vartiable 'quote' is declared and 7 strings are stored in it. 
+  
+2. The fucntion `Quote()` is declared. This function is called when the button is clicked.
+    
+3. In the function, another variable 'randonNumber' is declared and gien the value of any random number between 1 to 7. For this operation, inbuilt function `Math.random()` is used.
+    
+4. `Math.floor()` is used to round-off the number to nearest whole number value.
+ 
+5. The next statment picks up the quote from 'randomNumber' th position and sends it to division tag with id = 'Q'.
+   
+6. This quote is displayed on the screen.
+    
 ## Demo
 
 This project has been demoed on Replit. You can try it out [here](https://replit.com/@areenoverclouds/ShadyWastefulLivedistro#index.html).
+    
+**Images:**
+    
+ <img src="https://cdn.discordapp.com/attachments/884864861815857173/907351211555053658/1.PNG">
+    
+ After clicking on "Show new quote" button
+    
+ <img src="https://cdn.discordapp.com/attachments/884864861815857173/907351226138652672/2.PNG">
