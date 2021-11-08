@@ -1,0 +1,32 @@
+Dragging and Dropping Framework
+
+Android drag/drop framework allows your users to move data from one View to another View in the current layout using a graphical drag and drop gesture.
+The framework includes following three important components to support drag & drop functionality −
+      Drag event class.
+      Drag listeners.
+      Helper methods and classes.
+      
+The Drag/Drop Process
+There are basically four steps or states in the drag and drop process −
+
+Started − This event occurs when you start dragging an item in a layout, your application calls startDrag() method to tell the system to start a drag. The arguments inside startDrag() method provide the data to be dragged, metadata for this data, and a callback for drawing the drag shadow.
+
+Continuing − The user continues the drag. System sends ACTION_DRAG_ENTERED action followed by ACTION_DRAG_LOCATION action to the registered drag event listener for the View where dragging point enters. 
+
+Dropped − The user releases the dragged item within the bounding box of a View. The system sends the View object's listener a drag event with action type ACTION_DROP.
+Ended − Just after the action type ACTION_DROP, the system sends out a drag event with action type ACTION_DRAG_ENDED to indicate that the drag operation is over.
+
+The DragEvent Class
+The DragEvent represents an event that is sent out by the system at various times during a drag and drop operation. This class provides few Constants and important methods which we use during Drag/Drop process.
+
+Constants
+Following are all constants integers available as a part of DragEvent class.
+
+Sr.No.	                         Constants & Description
+  1	                               ACTION_DRAG_STARTED - Signals the start of a drag and drop operation.
+  2	                               ACTION_DRAG_ENTERED - Signals to a View that the drag point has entered the bounding box of the View.
+  3	                              ACTION_DRAG_LOCATION - Sent to a View after ACTION_DRAG_ENTERED if the drag shadow is still within the View object's bounding box.
+  4	                                ACTION_DRAG_EXITED - Signals that the user has moved the drag shadow outside the bounding box of the View.
+  5	                                       ACTION_DROP - Signals to a View that the user has released the drag shadow, and the drag point is within the bounding box of the View.
+  6	                                 ACTION_DRAG_ENDED - Signals to a View that the drag and drop operation has concluded.
+  
