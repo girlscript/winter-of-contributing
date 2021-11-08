@@ -44,6 +44,10 @@ int main()
 ## Output :-
 ![Subarray](https://user-images.githubusercontent.com/70843941/140601332-79d716b9-1910-4d1a-9117-1c1dd0388c73.png)
 
+**Time Complexity ->O(n^3)**
+
+**Space Complexity ->O(1)**
+
 # Subsequence
 *A subsequence is defined as a sequence that can be derived from an array by selecting zero or more elements without changing the order of the remaining elements.*
 
@@ -60,6 +64,8 @@ Given Array :-
 `1 5 9`&nbsp;&nbsp;`3 9`&nbsp;&nbsp;`1 3 9`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 `5 3 9`&nbsp;&nbsp;`1 5 3 9`&nbsp;&nbsp;`7 9`&nbsp;&nbsp;`1 7 9`&nbsp;&nbsp;
 `5 7 9`&nbsp;&nbsp;`1 5 7 9`&nbsp;&nbsp;`3 7 9`&nbsp;&nbsp;`1 3 7 9`&nbsp;&nbsp;`5 3 7 9`&nbsp;&nbsp;`1 5 3 7 9`
+
+Formula to find number of subsequence with n elements :- 2^n
 
 ## Program to print Subsequence
 ```cpp
@@ -94,6 +100,10 @@ int main(){
 ```
 ## Output :-
 ![Subsequence](https://user-images.githubusercontent.com/70843941/140635880-4d485767-49b8-45bb-aa1b-f4ec06438e32.png)
+
+**Time Complexity ->O(2^n)**
+
+**Space Complexity ->O(1)**
 
 ***Note->***
 *Every subarray is subsequence but every subsequence is not a subarray.*
