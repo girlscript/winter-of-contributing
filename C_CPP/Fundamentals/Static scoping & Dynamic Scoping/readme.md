@@ -1,1 +1,1 @@
-- [Static and Dynamic scoping](https://github.com/girlscript/winter-of-contributing/pull/6855/files)
+- Static and Dynamic scoping (./Static scoping & Dynamic Scoping.md)
