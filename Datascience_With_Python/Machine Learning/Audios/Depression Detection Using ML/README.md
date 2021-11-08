@@ -73,8 +73,7 @@ Now, we will use different Python libraries to retrieve and analyse our dataset 
 Here's an Implementation using Google Colaboratory below :-
 https://colab.research.google.com/drive/1oxaTauml5H1681kwTvNIu5SwG_PPy2c_?usp=sharing
 
-__Dataset__
-[depression_data.csv](https://github.com/kishlayaug15/winter-of-contributing/files/7497289/depression_data.csv)
+__Dataset__ : [depression_data.csv](https://github.com/kishlayaug15/winter-of-contributing/files/7497289/depression_data.csv)
 
 
 ### Summary
