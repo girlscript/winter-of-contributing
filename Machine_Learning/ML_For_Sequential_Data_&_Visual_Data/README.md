@@ -23,7 +23,7 @@
 | 8.17 | **Lines (Hough) and Edge Detection (Filters)** | - | - | - |
 | 8.18 | **Image Denoising** | - | - | - |
 | 8.19 | **GANs** | - | - | - |
-| 8.20 | **Implement an edge detector for images without using any Image Processing library like OpenCV. | :x: | - | :x: |
+| 8.20 | **Implement an edge detector for images without using any Image Processing library like OpenCV. ⭐ ** | :x: | - | :x: |
 
 **************************************************************************
 ### Happy Contributions and All the Best 🚀
