@@ -16,4 +16,4 @@
 * Efficient for large database, i.e. sample size more than few thousands.
 
 
-** The main concept of DBSCAN algorithm is to locate regions of high density that are separated from one another by regions of low density. **
+**The main concept of DBSCAN algorithm is to locate regions of high density that are separated from one another by regions of low density.**
