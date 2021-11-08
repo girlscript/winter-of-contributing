@@ -22,7 +22,9 @@
 * Since the application scenarios of multi-target detection in the real world are usually complex and variable, balancing the relationship between accuracy and computing costs is a difficult task.
 
 # Outline
-In this project, we will detect the objects from a still image with the help of OpenCV library in Python. OpenCV library is widely known for image processing, object detection and has many real world applications. After importing the necessary libraries, we would read the sample image, train the model, use the coco dataset for the pre-defined classes (objects) and as an outcome we would detect the object, it's location, accuracy and index of the class (which helps us to identify the object). Successfully in this project 
+* In this project, we will detect the objects from a still image with the help of OpenCV library in Python. OpenCV library is widely known for image processing, object detection and has many real world applications. 
+* After importing the necessary libraries, we would read the sample image, train the model, use the coco dataset for the pre-defined classes (objects) and as an outcome we would detect the object, it's location, accuracy and index of the class (which helps us to identify the object). 
+* Successfully in this project objects such as person, car, truck and traffic light are detected accurately from the image. Also the average accuracy of the model is greater than 60% which is fair enough.
 
 # Object detection using deep learning with OpenCV and Python
 
