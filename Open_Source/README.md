@@ -41,6 +41,7 @@
 - [2.4 Create your own open source projects](2.Getting_Started_With_Open_Source/2.4_Create_Your_Own_Open_Source_Project.md)
 
 - [2.5 Resources to find good first issues for your first open source contribution](2.Getting_Started_With_Open_Source/2.5_Resources_to_find_good_First_Issues_for_your_first_Open_Source_Contribution.md)
+- [2.6 Markdown CheatSheet](2.Getting_Started_With_Open_Source/2.6_Markdown_CheatSheet.md)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -113,6 +114,8 @@
 - [4.23 Tezos India Fellowship](4.Open_Source_Programs/4.23_Tezos_India_Fellowship.md)
 
 - [4.24 Github Externship](4.Open_Source_Programs/4.24_GitHub_Externship.md)
+
+- [4.25 Redox OS Summer of Code](4.Open_Source_Programs/4.25_Redox_OS_Summer_of_Code.md)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -292,7 +295,71 @@
 
 - [6.55 Spring](6.Popular_Projects/6.55_Spring.md)
 
+- [6.56 Laravel](6.Popular_Projects/6.56_Laravel.md)
+
 - [6.57 Hibernate](6.Popular_Projects/6.57_Hibernate.md)
+
+- [6.58 Keras](6.Popular_Projects/6.58_Keras.md)
+
+- [6.59 Scikit-Learn](6.Popular_Projects/6.59_Scikit-learn.md)
+
+- [6.60 Zulip](6.Popular_Projects/6.60_Zulip.md)
+
+- [6.61 Hibernate](6.Popular_Projects/6.57_Hibernate.md)
+
+- [6.62 httpie](6.Popular_Projects/6.62_httpie.md)
+
+- [6.63 tornado](6.Popular_Projects/6.63_tornado.md)
+
+- [6.64 pandas](6.Popular_Projects/6.64_pandas.md)
+
+- [6.65 gatsby](6.Popular_Projects/6.65_gatsby.md)
+
+- [6.66 Brave](6.Popular_Projects/6.66_brave.md)
+
+- [6.67 Notepad++](6.Popular_Projects/6.67_notepad++.md)
+
+- [6.68 OpenNN](6.Popular_Projects/6.68_OpenNN.md)
+
+- [6.69 Thunderbird](6.Popular_Projects/6.69_thunderbird.md)
+
+- [6.71 Wordpress](6.Popular_Projects/6.71_Wordpress.md)
+
+- [6.72 ChartJS](6.Popular_Projects/6.72_chartJS.md)
+
+- [6.73 DrawIO](6.Popular_Projects/6.73_drawIO.md)
+
+- [6.74 Wireframe](6.Popular_Projects/6.74_wireframe.md)
+
+- [6.76 Gimp](6.Popular_Projects/6.76_gimp.md)
+
+- [6.77 Openboard](6.Popular_Projects/6.77_OpenBoard.md)
+
+- [6.78 Audacity](6.Popular_Projects/6.78_audacity.md)
+
+- [6.79 7Zip](6.Popular_Projects/6.79_7Zip.md)
+
+- [6.81 GnuCash](6.Popular_Projects/6.81_GNUCash.md)
+
+- [6.82 SuiteCRM](6.Popular_Projects/6.82_SuiteCRM.md)
+
+- [6.83 OSTicket](6.Popular_Projects/6.83_OSTicket.md)
+
+- [6.84 Mycollab](6.Popular_Projects/6.84_MyCollab.md)
+
+- [6.85 XMind](6.Popular_Projects/6.85_XMind.md)
+
+- [6.87 OpenBravo](6.Popular_Projects/6.87_OpenBravo.md)
+
+- [6.88 TaskJuggler](6.Popular_Projects/6.88_TaskJuggler.md)
+
+- [6.90 Elasticsearch](6.Popular_Projects/6.90_Elasticsearch.md)
+
+- [6.94 PyTorch](6.Popular_Projects/6.94_PyTorch.md)
+
+- [6.95 AntDesign](6.Popular_Projects/6.95_AntDesign.md)
+
+- [6.98 Swift](6.Popular_Projects/6.98_Swift.md)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -345,6 +412,8 @@
 - [M.13 Customise Django-admin interface with Jet](Miscellaneous/M.13_Customise_Django_admin_with_Jet.md)
 
 - [M.14 What is web hosting and how to host websites](Miscellaneous/M.14_Web_Hosting.md)
+
+- [M.15 Alternative of jenkins](Miscellaneous/M.15_Alternative_of_Jenkins.md)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
