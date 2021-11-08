@@ -1,4 +1,4 @@
-## Title : Perceptron
+## Title : LSTM
 🔴 **Type of Content** : Video
 
 🔴 **Domain** : Machine Learning
