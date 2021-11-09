@@ -112,3 +112,7 @@ This project has been demoed on Replit. You can try it out [here](https://replit
  After clicking on "Show new quote" button
     
  <img src="https://cdn.discordapp.com/attachments/884864861815857173/907351226138652672/2.PNG">
+    
+## References
+ 
+* [Free Code Camp](https://www.freecodecamp.org/news/creating-a-bare-bones-quote-generator-with-javascript-and-html-for-absolute-beginners-5264e1725f08/)
