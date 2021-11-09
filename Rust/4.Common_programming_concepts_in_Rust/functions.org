@@ -1,0 +1,17 @@
+#+TITLE: FUNCTIONS :
+* Basics :
++ Functions are prevalent in Rust code. You’ve already seen one of the most important functions in the language: the *main* function, which is the entry point of many programs. You’ve also seen the *fn* keyword, which allows you to declare new functions
++ Rust code uses snake case as the conventional style for function and variable names. In snake case, all letters are lowercase and underscores separate words.
+* Function Parameters :
++ Functions can also be defined to have parameters, which are special variables that are part of a function’s signature.
++ When a function has parameters, you can provide it with concrete values for those parameters. Technically, the concrete values are called *arguments*, but in casual conversation, people tend to *use the words parameter and argument interchangeably* for either the variables in a function’s definition or the concrete values passed in when you call a function.
+ #+begin_src rust
+ fn main() {
+    print_labeled_measurement(5, 'h');
+}
+
+fn print_labeled_measurement(value: i32, unit_label: char) {
+    println!("The measurement is: {}{}", value, unit_label);
+}
+ #+end_src
++ This example creates a function named print_labeled_measurement with two parameters. The *first parameter is named value and is an i32. The second is named unit_label and is type char*. The function then prints text containing both the value and the unit_label.
