@@ -179,7 +179,7 @@ return 0;
 
 >Time Complexity O(log n)    , where n is the size of array
 
-Explanation:
+## Approach:
 - In floor of an element in the array we need to find the greatest element samaller than the element we wish to find the floor.
 - example:
  array =[1,2,3,5,6,7,8] element = 4 for which we have to find the floor , 
