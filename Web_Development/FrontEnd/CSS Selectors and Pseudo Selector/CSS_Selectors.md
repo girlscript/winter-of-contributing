@@ -150,7 +150,6 @@ These properties will work on element when we hover cuser on it.
 
 `not(selector) is used to remove a specific target from similer selected elements. Here selector is our id or class selectors usally.`
 
-<br>
 
 > #### Select some part of element using pseudo selectors:
 
@@ -171,7 +170,6 @@ p::first-letter {
 ```
 
 ---
-<br>
 
 ## Combinators:
 
@@ -233,7 +231,3 @@ div + p
 }
 ```
 This will apply on the paragraphs that is just after the div.
-
-#### 
-
-
