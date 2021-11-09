@@ -3,28 +3,29 @@ The <html> tag points that the code is written in html and </html> tag states th
 
 ### The head tag: 
 The head of an html code contains special information, for example: it's title. 
-```
+
+```html 
 <html>
-<head>
-<title>Hello! Welcome to Girlscript Winter of Contributing</title>
-</head>
+   <head>
+      <title>Hello! Welcome to Girlscript Winter of Contributing</title>
+   </head>
 </html>
 ```
 
 ### Title: 
 A title tag specifies a title in your browser window.  
-```
+```html
 <title>Hello! Welcome to Girlscript Winter of Contributing</title>
 ```
 
 ### The body tag: 
 The body tag specifies the beginning and end of the code that consiste of text, pictures, links, etc.
-```
+```html
 <html>
-<head>
-<title>Hello! Welcome to Girlscript Winter of Contributing</title>
-</head>
-<body>
+   <head>
+      <title>Hello! Welcome to Girlscript Winter of Contributing</title>
+   </head>
+   <body>
 ```
   
 ### Headers: 
@@ -36,47 +37,47 @@ A paragraph tag specifies the beginning and ending of paragraph of "normal" text
 ### Bold tag: 
 It's used to bold the text.
 e.g.: 
-```
+```html
 Welcome to <b>GWOC</b> 2021. 
 ```
         
 ### Italic tag: 
 It's used to italic the text.
-```
+```html
 Welcome to <i>GWOC</i> 2021.
 ```
         
 ### Strike tag: 
 It's use to strike the text.
-```
+```html
 Welcome to <strike>GWOC</strike> 2021.  
 ```
         
 ### Unordered list tag: 
 You can create unordered list in html by:
 
-```
+```html
 <ul>
-<li> Girlscript
-<li> Winter
-<li> Of
-<li> Contributing
+   <li> Girlscript
+   <li> Winter
+   <li> Of
+   <li> Contributing
 </ul>
 ```
 
 ### Ordered list tag: 
 You can create Ordered list in html by:
-```        
+```html      
 <ol>
-<li> Girlscript
-<li> Winter
-<li> Of
-<li> Contributing
+   <li> Girlscript
+   <li> Winter
+   <li> Of
+   <li> Contributing
 </ol>
 ```
 
 ### Comments: 
 We can comment in html code using:
-```
+```html
 <!-----Welcome to GWOC'21----->
 ```   
