@@ -26,9 +26,8 @@
 Context lets us pass a value deep into the component tree without explicitly threading it through every component.
 Create a context for the current theme (with "light" as the default).
 
-
-// Context lets us pass a value deep into the component tree
 ```jsx
+// Context lets us pass a value deep into the component tree
 // without joining it through every component.
 
 
@@ -71,17 +70,18 @@ class ThemedButton extends React.Component {
     return <Button theme={this.context} />;
   }
 }
+
 class ThemedButton extends React.Component {
   render() {
     return <Button theme={this.props.theme} />;
   }
+  }
   ```
 
 #### With the context API, we can avoid passing props through intermediate elements, and directly pass the props to the last child or the child we are targeting:
-
+```jsx
  // Context lets us pass a value deep into the component tree
- ```jsx
- // without explicitly threading it through every component.
+  // without explicitly threading it through every component.
  // Create a context for the current theme (with "light" as the default).
  const ThemeContext = React.createContext('light');
 
@@ -109,9 +109,9 @@ class ThemedButton extends React.Component {
  }
  ```
 Part 2
-      
+
+ ```jsx     
  import React from "react";
- ```jsx 
  import ReactDOM from "react-dom";
  import "./index.css";
  import App from "./App";
