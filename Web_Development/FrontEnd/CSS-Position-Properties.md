@@ -10,12 +10,12 @@ CSS Position property describe the type of positioning method used for an elemen
 
 **Example**
 
-.static{
-       position: static;
-       border: 2px solid black;
- }
- 
- ## 2.  Relative Position:
+.static {
+  position: static;
+  border: 2px solid black;
+}
+
+  ## 2.  Relative Position:
  
 - In this relative position, an element is positioned relative to its normal position.
 - By setting top, bottom, right and left properties we can change the position of an element to its relative position.
@@ -23,11 +23,11 @@ CSS Position property describe the type of positioning method used for an elemen
  
 **Example**
 
-.relative{
-          position: relative;
-          left: 20px;
-          top: 10px;
-          border: 2px solid red;
+.relative {
+  position: relative;
+  left: 20px;
+  top: 10px;
+  border: 2px solid red;
 }
   
 ## 3. Absolute Position:
@@ -39,11 +39,11 @@ CSS Position property describe the type of positioning method used for an elemen
   
 **Example**
 
-.absolute{
-            position: absolute;
-            right: 20px;
-            bottom: 10px;
-            border: 2px solid blue;
+.absolute {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+  border: 2px solid blue;
 }
    
 ## 4. Fixed Position:
@@ -54,12 +54,12 @@ CSS Position property describe the type of positioning method used for an elemen
    
 **Example**
 
-.fixed{
-          position: fixed;
-          bottom: 2px;
-          left: 4px;
-          width: 200px;
-          border: 2px solid yellow;
+.fixed {
+  position: fixed;
+  bottom: 2px;
+  left: 4px;
+  width: 200px;
+  border: 2px solid yellow;
 }
     
 ## 5. Sticky Position:
@@ -69,9 +69,9 @@ CSS Position property describe the type of positioning method used for an elemen
    
 **Example**
    
-.sticky{
-          position: sticky;
-          left: 2px;
-          top: 0px;
-          border: 2px solid green;
-} 
+.sticky {
+  position: sticky;
+  left: 2px;
+  top: 0px;
+  border: 2px solid green;
+}
