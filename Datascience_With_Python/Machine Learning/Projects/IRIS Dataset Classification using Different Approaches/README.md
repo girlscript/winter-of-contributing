@@ -33,3 +33,15 @@
 
 - Drawn the accuracy of each model and then evaluated.
 
+> Setosa : 1
+
+![iris_setosa](https://upload.wikimedia.org/wikipedia/commons/5/56/Kosaciec_szczecinkowaty_Iris_setosa.jpg)
+
+> Versicolor : 2
+
+![iris_versicolor](https://upload.wikimedia.org/wikipedia/commons/2/27/Blue_Flag%2C_Ottawa.jpg)
+
+> Virginica : 3
+
+![iris_virginica](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Iris_virginica_2.jpg/1200px-Iris_virginica_2.jpg)
+    </ul>
