@@ -105,7 +105,7 @@
 - [General methods](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_5/General%20Socket%20method.md)
 - [Keylogger](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_5/Keylogger.md)
 ## Week-6 VAPT (Vulnerability Assessment and Penetration Testing)
-- [Vulnerability identification]
+- [Vulnerability identification](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Vulnerability_Identification.md)
 - [Vulnerability analysis](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Cybersecurity%206.1%20Vulnerability%20analysis%20%235308.md)
 - [Risk assessment](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/6.2_Risk_Assessment.md)
 - [Remediation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/CyberSecurity%206.3%20Remediation.md)
