@@ -11,13 +11,12 @@ To perform the reversing of a queue ,we first stored it in a stack and then re-i
 
 **The code for this is given below :**
 ```cpp
-// Header Files
 
+// Header Files
 #include<bits/stdc++.h>
 using namespace std;
 
 // Function for reversing the Queue
-
 void reverseQueue(queue<int>& q)
 {
 	stack<int> s;
@@ -30,8 +29,8 @@ void reverseQueue(queue<int>& q)
 		s.pop();
 	}
 }
-// Printing the Queue
 
+// Printing the Queue
 void printQueue(queue<int>& q)
 {
 	while (!q.empty()) {
@@ -39,8 +38,8 @@ void printQueue(queue<int>& q)
 		q.pop();
 	}
 }
-// Main Function
 
+// Main Function
 int main()
 {
 	queue<int> q;
