@@ -15,7 +15,7 @@ fn print_labeled_measurement(value: i32, unit_label: char) {
 }
  #+end_src
 + This example creates a function named print_labeled_measurement with two parameters. The *first parameter is named value and is an i32. The second is named unit_label and is type char*. The function then prints text containing both the value and the unit_label.
-* Function Bodies Contain Statements and Expressions :
+* Function Bodies Contain Statements and Expressions:
 + Function bodies are made up of a series of statements optionally ending in an expression
 + *Rust is an expression-based language*, this is an important distinction to /understand/
 + *Statements are instructions that perform some action and do not return a value*.
