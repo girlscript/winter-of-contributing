@@ -5,6 +5,8 @@
 - **Actor**: Any object inside the level is called an Actor. It is made up of Actor Components.
 - **Character**: A special type of Actor that acts as the Player in the game. The user can control its movement using the **W A S D** keys.
 
+![character](https://user-images.githubusercontent.com/72400676/140915248-a0a55754-10a2-434a-a3b5-44a3ca0e3ccb.JPG)
+
 ## Types of components:
 
 - **Capsule Component**: It provides collision detection and makes sure an actor/character doesn't walk through a wall.
@@ -12,6 +14,8 @@
 - **Mesh Component**: It denotes the part of the character that is actually visible on the screen.
 - **Camera Boom**: Part of the character where the camera attaches to and helps the user to view the game surroundings while navigating.
 - **Character Movement**: It helps to drive a character's movement.
+
+![components](https://user-images.githubusercontent.com/72400676/140915142-f041c72b-a0fb-41be-8ac6-1e98d345cbed.JPG)
 
 ## Installation Guide:
 
@@ -44,3 +48,6 @@
   - When the installation is complete, click **Launch** on the top right-hand corner to launch the Unreal Engine. You can also select a particular version before launching.
   - You are now ready to start using the Unreal Engine.
   - Click on New Blank Project and select **C++** to create a new project and start working.
+
+![new_project](https://user-images.githubusercontent.com/72400676/140915335-f6f13f04-aa96-4fdd-8831-1541a54a0103.JPG)
+
