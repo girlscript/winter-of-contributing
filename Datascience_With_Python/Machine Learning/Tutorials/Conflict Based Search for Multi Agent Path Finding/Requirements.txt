@@ -1,0 +1,33 @@
+Installing Python 3:
+
+On Ubuntu , Linux: 
+Download python by using:
+
+sudo apt install python3 python3-numpy python3-matplotlib
+
+On Mac OS X:
+Download Anaconda 2019.03 with Python 3.7 from https://www.anaconda.com/distribution/#download-section 
+
+Installation can be verified by using:
+
+python3 --version
+
+On Windows:
+Download Anaconda 2019.03 with Python 3.7 from https://www.anaconda.com/distribution/#download-section.
+
+IDE can also be used: 
+Download PyCharm from https://www.jetbrains.com/pycharm/. 
+
+
+Libraries used:
+
+* Numpy
+* Matplotlib
+
+Modules used:
+
+* Time
+* Glob
+* Argparse
+* Pathlib
+
