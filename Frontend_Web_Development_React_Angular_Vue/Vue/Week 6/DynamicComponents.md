@@ -42,15 +42,15 @@ We write our main code in App.vue file.
   <button @click="activeTab = 'TabC'">Tab C</button>
 
   <!--Dynamic Component-->
-  <component :is="activeTab" />
+  <component :is="activeTab" ></component>
 
 
 
 </template>
 <script>
-import Tab1 from :'./components/TabA.vue'
-import Tab2 from :'./components/TabB.vue'
-import Tab3 from :'./components/TabC.vue'
+import TabA from :'./components/TabA.vue'
+import TabB from :'./components/TabB.vue'
+import TabC from :'./components/TabC.vue'
 
 export default {
     name:'App',
@@ -83,11 +83,19 @@ h4 {
 }
 </style>
 ```  
+![OUTPUT](./assests/E.PNG)  
+
 In case you want some component instances to be cached once they're created for the first time we use ```<keep-alive>``` element. We simply wrap the ```<component>``` tag with the ```<keep-alive>``` tag.
 ```
 <keep-alive>
 <component :is="activeTab" />
-</keep-alive>
+</keep-alive>  
+
+```
+
+## References
+1. [Codevolution](https://www.youtube.com/playlist?list=PLC3y8-rFHvwgeQIfSDtEGVvvSEPDkL_1f)
+2. [vue-nav-tabs](https://cristijora.github.io/vue-tabs/#/)
 
 
  
