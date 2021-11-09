@@ -41,7 +41,6 @@
 - [Dictionary Comprehension](./Dictionary_Comprehension)
 - [How_to_install_python](./How_to_install_python)
 - [Python File I/O](./Python_File_IO)
-- [Python Numpy](./Python_Numpy)
 - [Python Strings](./Python_Strings)
 - [Recursion in Python](./Recursion_in_Python)
 - [Yield Keyword](./Yield_Keyword)
