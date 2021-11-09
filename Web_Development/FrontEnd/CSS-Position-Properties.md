@@ -1,6 +1,6 @@
 # CSS Position Properties
 
- CSS Position property describe the type of positioning method used for an element or document. The top,bottom,right and left properties decide the final location of positioned element. There are five types of positions which are as follows :
+CSS Position property describe the type of positioning method used for an element or document. The top,bottom,right and left properties decide the final location of positioned element. There are five types of positions which are as follows:
 
 ## 1. Static Position:
 
@@ -74,4 +74,4 @@
           left: 2px;
           top: 0px;
           border: 2px solid green;
-   } 
+} 
