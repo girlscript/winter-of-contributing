@@ -190,7 +190,8 @@ return 0;
 5. After Binary Search, we will return the indx as it will have the floor of the element.
 - Similarily we can approach ceil, as we know ceil is the smallest greater element than the element for which we want to find ceil.
 
-These are some of the programs that can be solve by Binary Search , Binary search is really important in competitve programming as it do the searching in O(log (n)) time .
+## Complexity
+These are some of the programs that can be solve by Binary Search , Binary search is really important in competitve programming as it do the searching in ```O(log (n))``` time .
 
 >The flow of document
 >
