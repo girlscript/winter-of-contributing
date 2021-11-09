@@ -70,7 +70,7 @@ let a=5;            //bit representation: 00000000000000000000000000000101
 let b=1;           //bit representation: 00000000000000000000000000000001
 console.log(a<<b); //output 00000000000000000000000000001010 (that is 10)
 ``` 
-### 6. Right Shift
+## 6. Right Shift
 Right shift operator shifts the bits of the first operand to the right, as specified by the second operand.
 ### Example
 ```javascript
