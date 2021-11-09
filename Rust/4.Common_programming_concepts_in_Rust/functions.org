@@ -20,3 +20,33 @@ fn print_labeled_measurement(value: i32, unit_label: char) {
 + *Rust is an expression-based language*, this is an important distinction to /understand/
 + *Statements are instructions that perform some action and do not return a value*.
 + *Expressions evaluate to a resulting value*.
++  This is different from what happens in *other languages, such as C and Ruby, where the assignment returns the value of the assignment*.
+ #+begin_src rust
+ fn main() {
+    let x = 5;
+
+    let y = {
+        let x = 3;
+        x + 1 //expression as x+1 is returned
+    };
+
+    println!("The value of y is: {}", y);
+}
+ #+end_src
+* Functions with Return Values
++ *Functions can return values to the code that calls them*. We don’t name return values, but *we do declare their type after an arrow (->)*.
++ In Rust, *the return value of the function is /synonymous/ with the value of the final expression in the block of the body of a function*.
++ You *can return early from a function by using the /return/ keyword and specifying a value*, but *most functions return the last expression implicitly*.
+#+begin_src rust
+
+fn five() -> i32 {
+    5
+}
+
+fn main() {
+    let x = five();
+
+    println!("The value of x is: {}", x);
+}
+#+end_src
+  + There are no function calls, macros, or even let statements in the five function—just the number 5 by itself. That’s a perfectly valid function in Rust. *Note that the function’s return type is specified too, as -> i32*.
