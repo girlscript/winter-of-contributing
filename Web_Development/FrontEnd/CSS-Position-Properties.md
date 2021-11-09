@@ -79,9 +79,9 @@ CSS Position property describe the type of positioning method used for an elemen
  
  ```
 .sticky {
-  position: sticky;
-  left: 2px;
-  top: 0px;
-  border: 2px solid green;
+   position: sticky;
+   left: 2px;
+   top: 0px;
+   border: 2px solid green;
 }
 ```
