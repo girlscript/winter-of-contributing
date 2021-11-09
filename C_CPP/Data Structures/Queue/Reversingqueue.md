@@ -7,7 +7,7 @@
 3. *Queue Front* - Gives the front element of the queue.
 4. *Empty* - To check whether the queue is empty or not.
 
-To perform the reversing of a queue ,we first stored it in a stack and then re-inserted it in the queue.
+**To perform the reversing of a queue**, another data structure is required to reverse it since queue follows FIFO order,the elements will stay in the same sequence,therfore we will need a stack *(which follows a LIFO order)* to reverse the sequence. **Hence we will dequeue all the elements of the queue and push them into the stack, and once the queue is empty, we will pop elements from the stack and insert them in the queue.**
 
 **The code for this is given below :**
 ```cpp
