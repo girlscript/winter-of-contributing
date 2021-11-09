@@ -190,7 +190,7 @@ Output-
 [3, 4, 5, 6]
 ```
 
-We can also define the step as [start:end:step]. For example, if we need to print alternate numbers from a given array, we write step = 2.
+We can also define the step as [start : end : step]. For example, if we need to print alternate numbers from a given array, we write step = 2.
 NOTE- If start index is not passed, default considered is 0
              If end index is not passed, it is considered the length of array in that dimension
              If step is not passed default considered is 1. 
