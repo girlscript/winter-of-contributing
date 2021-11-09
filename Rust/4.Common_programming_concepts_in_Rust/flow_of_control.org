@@ -97,3 +97,30 @@ fn main() {
   #+end_src
 ** Conditional Loops with while
  + It’s often useful for a program to evaluate a condition within a loop. While the condition is true, the loop runs.
+ + This construct eliminates a lot of nesting that would be necessary if you used loop, if, else, and break, and it’s clearer. While a condition holds true, the code runs; otherwise, it exits the loop.
+  #+begin_src rust
+fn main() {
+    let mut number = 3;
+
+    while number != 0 {
+        println!("{}!", number);
+
+        number -= 1;
+    }
+
+    println!("LIFTOFF!!!");
+}
+
+  #+end_src
+** Iterating Collections Using For loop
++ A *while loop* can be used for iterating collections but can be *prone to errors related to index value or test condition being incorrect*
++ As a more concise alternative, you can use a for loop and execute some code for each item in a collection.
+ #+begin_src rust
+ fn main() {
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("the value is: {}", element);
+    }
+}
+ #+end_src
