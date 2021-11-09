@@ -59,14 +59,16 @@ Here, the question arises- Why use arrays over lists?
 Before exploring arrays and its functions, it is important to understand the types of arrays.
 1.	1D Arrays: This consists of a single row of elements. It’s the most basic type of array. The example discussed in the earlier section is an example of 1D array.
 
-
-
+![1dArray](https://github.com/mridu-pant/winter-of-contributing/blob/9f6caf5392dfd09f15ae50ab89d97f9902231b21/Python/Python_Numpy/images/python%20numpy%201d.jpg)
 
 2.	2D Arrays: Arrays that consist of 1D arrays as elements are known as 2D arrays. Here, it can be seen that this type of array has a structure similar to matrices. 
+
+![2DArray](https://github.com/mridu-pant/winter-of-contributing/blob/9f6caf5392dfd09f15ae50ab89d97f9902231b21/Python/Python_Numpy/images/python%20numpy%202d.jpg)
 
 3.	3D Arrays: Arrays that have 2D arrays i.e matrices as its elements are called 3D arrays. 
 If the structure of 1D arrays is linear and of 2D arrays is rectangular, then we can conclude that the structure of 3D arrays can be compared to rectangles stacked on top of each other.
 
+![3DArray](https://github.com/mridu-pant/winter-of-contributing/blob/9f6caf5392dfd09f15ae50ab89d97f9902231b21/Python/Python_Numpy/images/python%20numpy%203d.jpg)
 
 An array can be of even higher dimensions like 4D or 5D. However, defining dimensions in a manner similar to the above examples will get too complicated.
 In order to create arrays of higher dimensions, we can use the argument ndmin.
