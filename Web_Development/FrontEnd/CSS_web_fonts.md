@@ -1,6 +1,6 @@
 # CSS WEB FONTS
 
-CSS Web Fonts allow us to use fonts that are not installed locally. After choosing the the desired font, include the font file on the web server and you are good to go.
+CSS Web Fonts allow us to specify font files that are available on the web, to be downloaded along with the website when it is accessed. In other words, we can use fonts that  can be loaded from either a remote server or from the user's own computer . After choosing the the desired font, include the font file on the web server and you are good to go.
 This font can be defined within the CSS ` @font-face ` rule.
 
 ```css
@@ -19,38 +19,35 @@ Optional Descriptors:
 - ` font-weight `: Boldness of the font ('norma;', 'bold', 100-900)
 - ` font-stretch `: 'normal', 'condensed', 'expanded' ('condensed' and 'expanded' have ultra, extra and semi variants)
 
-Example: Web fontS in HTML
+Example: Web fonts in HTML
 
 ```html
 <!DOCTYPE html>
 <html>
-	
 <head>
-	<style>
-		@font-face{
-				
-			font-family:monospace;   	/* Set font family to monospace */
-			src:url(sansation_light.woff);		}
+  <style>
+    @font-face {
+ 		font-family:monospace;   	  /* Set font family to monospace */
+		src:url(sansation_light.woff);
+	       }
 		
-		* {
-			font-family:monospace;
-			font-style:italic;       /** font style to italic */      }
+	    * { 
+		font-family:monospace;
+		font-style:italic;                /* font style to italic */      
+	      }
     
-                p {
-                        font-weight: bold;    }
-
-	</style>
+            p {
+                font-weight: bold;    
+	      }
+   </style>
 </head>
-
-<body>
-	<div>
-		<h1>Web Development</h1>
-		<h2>CSS Web Fonts</h2>
-	</div>
-	
+ <body>
+     <div>
+	<h1>Web Development</h1>
+	<h2>CSS Web Fonts</h2>
+     </div>
 	<p>Monospace</h1>
 </body>
-
 </html>					
 ```
 ![image](https://user-images.githubusercontent.com/76458668/140291077-904395b6-6516-441c-9b9d-cf53cc34fad8.png)
@@ -70,4 +67,5 @@ Web fonts are available in various font formats.
 
 - SVG Fonts -  Glyph information is embedded into SVGs. The SVG 1.1 version allows creation of fonts within a SVG document.
 
- Learn more about ` @font-face ` [here](https://www.digitalocean.com/community/tutorials/css-font-face).
+References:
+- [https://www.digitalocean.com/community/tutorials/css-font-face](https://www.digitalocean.com/community/tutorials/css-font-face).
