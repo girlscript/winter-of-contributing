@@ -9,7 +9,7 @@ Given Array :-
  
 *Following are the possible subarrays of given array ->*
 
-`1`&nbsp;&nbsp;`1 5`&nbsp;&nbsp;`1 5 7 ` &nbsp;&nbsp;`1 5 7 3 `&nbsp;&nbsp;`1 5 7 3 9 `&nbsp;&nbsp;`5`&nbsp;&nbsp;`5 7`&nbsp;&nbsp; `5 7 3 `&nbsp;&nbsp;`5 7 3 9`&nbsp;&nbsp; `7 `&nbsp;&nbsp;`7 3 `&nbsp;&nbsp;`7 3 9`&nbsp;&nbsp; `3 `&nbsp;&nbsp;`3 9 `&nbsp;&nbsp;`9 `
+ `1` , `1 5` , `1 5 7 `  , `1 5 7 3 ` , `1 5 7 3 9 ` , `5` , `5 7` , `5 7 3 ` , `5 7 3 9` , `7 ` , `7 3 ` , `7 3 9` , `3 ` , `3 9 ` , `9 `
 
 Formula to find number of subarray with n elements :- n*(n+1)/2
 
@@ -59,11 +59,8 @@ Given Array :-
 
 *Following are the possible subsequence of given array ->*
 
-`1`&nbsp;&nbsp;`5`&nbsp;&nbsp;`1 5`&nbsp;&nbsp;`3`&nbsp;&nbsp;`1 3`&nbsp;&nbsp;`5 3`&nbsp;&nbsp;`1 5 3`&nbsp;&nbsp;`7`&nbsp;&nbsp;`1 7`&nbsp;&nbsp;
-`5 7`&nbsp;&nbsp;`1 5 7`&nbsp;&nbsp;`3 7`&nbsp;&nbsp;`1 3 7`&nbsp;&nbsp;`5 3 7`&nbsp;&nbsp;`1 5 3 7`&nbsp;&nbsp;`9`&nbsp;&nbsp;`1 9`&nbsp;&nbsp;`5 9`&nbsp;&nbsp;
-`1 5 9`&nbsp;&nbsp;`3 9`&nbsp;&nbsp;`1 3 9`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-`5 3 9`&nbsp;&nbsp;`1 5 3 9`&nbsp;&nbsp;`7 9`&nbsp;&nbsp;`1 7 9`&nbsp;&nbsp;
-`5 7 9`&nbsp;&nbsp;`1 5 7 9`&nbsp;&nbsp;`3 7 9`&nbsp;&nbsp;`1 3 7 9`&nbsp;&nbsp;`5 3 7 9`&nbsp;&nbsp;`1 5 3 7 9`
+`1` , `5` , `1 5` , `3` , `1 3` , `5 3` , `1 5 3` , `7` , `1 7` , `5 7` , `1 5 7` , `3 7` , `1 3 7` , `5 3 7` , `1 5 3 7` , `9` , `1 9` , `5 9` , `1 5 9` , `3 9` ,  
+`1 3 9` , `5 3 9` , `1 5 3 9` , `7 9` , `1 7 9` , `5 7 9` , `1 5 7 9` , `3 7 9` , `1 3 7 9` , `5 3 7 9` , `1 5 3 7 9`
 
 Formula to find number of subsequence with n elements :- 2^n
 
