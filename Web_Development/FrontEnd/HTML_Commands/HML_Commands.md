@@ -135,3 +135,8 @@ We can comment in html code using:
 ```html
 <!-----Welcome to GWOC'21----->
 ```   
+
+### References: 
+* https://www.apu.ac.jp/~gunarto/html.html
+* https://www.w3schools.com/html/
+      
