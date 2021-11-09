@@ -1,7 +1,6 @@
 # HTML : Meta Tag 
 
-## What is HTML ```<meta>``` tag ?
-The meta-data means a set of data that describes or gives more information about other data of webpage. The ```<meta>``` tag in HTML provides important information about created HTML document, which is relevant to browser. The ```<meta>``` tag is used to define or represent the metadata of the HTML document on browser. It specifies properties of HTML document, such as description of the page, keywords, language, author of the documents, expiry date , viewport setting, etc.
+The meta-data means a set of data that describes or gives more information about other data of webpage. The ```<meta>``` tag in HTML provides important information about created HTML document, which is relevant to browser. This tag is used to define or represent the metadata of the HTML document on browser. It specifies properties of HTML document, such as description of the page, keywords, language, author of the documents, expiry date , viewport setting, etc.
 
 Syntax 
 
@@ -11,27 +10,28 @@ Syntax
 
 ## Visiblity of metadata on browsers
 
-![metadata](https://user-images.githubusercontent.com/75716335/139000776-830f91e1-fad9-4db0-82e1-3f2fc43525ad.png)
+![metadata](https://user-images.githubusercontent.com/75716335/139000776-830f91e1-fad9-4db0-82e1-3f2fc43525ad.png)   
+Source : Google Images (HTML Meta Tag)
 
 ## Key Points
 
 - The ```<meta>``` tag is placed in the ```<head>``` tag, A web (HTML) document can include more than one meta tag depending upon the information given, but meta tags in general doesn't affect the appearance of actual html web page.
 
-- ```<meta>``` tag is an empty element, which carries information within its attributes.
+- It is an empty element, which carries information within its attributes.
 
 - The metadata is not visible on the webpage, but it is relevant to browsers and search engine, which scan the site or webpage to know about the webpage.
 
-- The ```<meta>``` tags are added to HTML document for the purpose of Search Engine Optimisation (SEO).
+- The meta tags are added to HTML document for the purpose of Search Engine Optimisation (SEO).
 
-- By adding ```<meta>``` tag to HTML document, you can preview that how your webpage will get rendered on the browser. 
+- By adding this tag to HTML document, you can preview that how your webpage will get rendered on the browser. 
  
 ## Advantages of using ```<meta>``` tag in HTML (web) document
 
-1. Adding the meta tag while making the webpage, is a good practice because search engines like Google search look for this meta tag in order to understand the information provided by the website and accordingly show them under relevant search. 
+1. Adding this tag while making the webpage, is a good practice because search engines like Google search look for this meta tag in order to understand the information provided by the website and accordingly show them under relevant search. 
 
 2. It is also helpful when the user search for a specific website and there are more than thousands of results, then the search engine result page will display snippets of metadata in search results that will provide information related to that website, So that user can navigate fast through different websites.
 
-3. Description in ```<meta>``` tag helps to improve page's search engine rating. In search engine results, a meta description is a brief explanation of 160 characters that appear after the title and URL.
+3. Description in meta tag helps to improve page's search engine rating. In search engine results, a meta description is a brief explanation of 160 characters that appear after the title and URL.
 
 ## Attributes in ```<meta>``` tag
 
@@ -43,11 +43,11 @@ This tag accept four attributes which are mentioned below.
 - **http-equiv:** This attribute is used to get the HTTP response header for the information in the content attribute.
 
 >**Note**
->The ```<meta>``` tag also accepts Global Attributes as well as Event Attributes in HTML.
+>The meta tag also accepts Global Attributes as well as Event Attributes in HTML.
 
 ## Example to demonstrate use of ```<meta>``` tag
 
-In the example given below, more than one  ```<meta>``` tag with different attributes namely keywords, description, author, http-equiv and name is used to describe the HTML document in order to help browser recognize this document and show it under relevant search by scanning these attributes of ```<meta>``` tag.
+In the example given below, more than one meta tag with different attributes namely keywords, description, author, http-equiv and name is used to describe the HTML document in order to help browser recognize this document and show it under relevant search by scanning these attributes of meta tag.
 
 ```html
 
