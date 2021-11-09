@@ -34,7 +34,7 @@
 - [Variables & **Mutability**](4.Common_programming_concepts_in_Rust/variables_and_mutability.md)
 - [Data types & Compound Types](4.Common_programming_concepts_in_Rust/data_types_and_compound_types.org)
 - [Functions](4.Common_programming_concepts_in_Rust/functions.org)
-- [Flow of Control]()
+- [Flow of Control](4.Common_programming_concepts_in_Rust/flow_of_control.org)
 
 ### 5. Understanding **Ownership** aka an Awesome feature :
 
