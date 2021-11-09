@@ -7,6 +7,9 @@
 * Structure of Liquid State Machine
 * Functions of Liquid State Machine (LSM)
 * Preference over Artifical neural networks
+* The Liquid-What is the meaning behind it?
+* Applications
+* Difficulties faced in LSM
 * References and Resources
 * Summary
 
@@ -34,6 +37,38 @@ Another clue to the character of a liquid state machine has got to do with the n
 * Computations on various time scales can be done using the same network.
 * The same network can perform multiple computations.
 
+## **The Liquid-What is the meaning behind it?**
+* Neurons are randomly (heuristically) connected
+– Follow properties observed in cortical microcircuits
+– Some attempts to “learn” the liquid (Spike-timing-dependency plasticity)
+– Multiplexing diverse computations on a common input stream
+* Serves a temporal preprocessor
+– Provides all temporal integration of information for readout neurons
+– Fading memory
+* Maps input streams to output streams
+* Heuristic properties
+– 80% excitatory neurons, 20% inhibitory neurons
+– 30% connectivity
+– Stochastic connectivity based on distance between neurons
+* Accumulates information overtime
+
+## **Applications**
+* Speech and audio recognition
+* Image Pattern Recognition
+* Music Classification
+* Robot Path Planning 
+* Fingerprint Scanners
+* Facial emotion recognition
+
+## **Difficulties faced in LSM**
+1. Applications lacking state awareness
+   * LSM research focuses on modeling dynamical and representational phenomena in biological neural networks, rather more at engineering applications
+   * How to bridge the gap between research and practicality
+2. Getting data into spike trains
+   * Looking at using raw input of the data
+3. Varying time between inputs
+   * Could vary the feedback time for different neurons
+
 ## **References and Resources**
 * https://www.assignmentpoint.com/science/technology/liquid-state-machine-lsm.html
 * https://en.wikipedia.org/wiki/Liquid_state_machine
@@ -41,6 +76,7 @@ Another clue to the character of a liquid state machine has got to do with the n
 * https://i0.wp.com/hananel.hazan.org.il/wp-content/uploads/2013/06/LSM.jpg
 * https://www.assignmentpoint.com/wp-content/uploads/2020/09/The-structure-of-Liquid-State-Machine-LSM.jpg
 * https://image1.slideserve.com/3330957/liquid-state-machine-lsm1-l.jpg
+* https://www.osti.gov/servlets/purl/1405258
 
 ## **Summary**
 The Liquid is a generic dynamical system consisting preferentially of complex rather than uniform and stereotypical components in more abstract models. The theory is that dropping a stone or other solid object into a water body or some other liquid creates ripples on the surface, which can be analyzed to understand what is happening in the system, and movement under the surface. In the same way, humans can evaluate the operations of a liquid state machine to know more about how it’s modeling human brain activity.
