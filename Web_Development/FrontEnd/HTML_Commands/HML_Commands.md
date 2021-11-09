@@ -1,11 +1,8 @@
-## Basic HTML Commands
-<hr>
-
-### The HTML tag: 
-The <html> tag points that the code is written in HTML and </html> tag states that it's the end of HTML code.
+### The html tag: 
+The <html> tag points that the code is written in html and </html> tag states that it's the end of html code.
 
 ### The head tag: 
-The head of an HTML code contains special information, for example: it's title. 
+The head of an html code contains special information, for example: it's title. 
 ```
 <html>
 <head>
@@ -31,7 +28,7 @@ The body tag specifies the beginning and end of the code that consiste of text, 
 ```
   
 ### Headers: 
-There are up to six levels of headers that we can use in our HTML code, h1 through h6. Header 1 is the largest header and it decreases till header 6.
+There are up to six levels of headers that we can use in our html code, h1 through h6. Header 1 is the largest header and it decreases till header 6.
 
 ### Paragraphs: 
 A paragraph tag specifies the beginning and ending of paragraph of "normal" text.
@@ -56,7 +53,7 @@ Welcome to <strike>GWOC</strike> 2021.
 ```
         
 ### Unordered list tag: 
-You can create unordered list in HTML by:
+You can create unordered list in html by:
 
 ```
 <ul>
@@ -68,7 +65,7 @@ You can create unordered list in HTML by:
 ```
 
 ### Ordered list tag: 
-You can create Ordered list in HTML by:
+You can create Ordered list in html by:
 ```        
 <ol>
 <li> Girlscript
@@ -79,7 +76,7 @@ You can create Ordered list in HTML by:
 ```
 
 ### Comments: 
-We can comment in HTML code using:
+We can comment in html code using:
 ```
 <!-----Welcome to GWOC'21----->
 ```   
