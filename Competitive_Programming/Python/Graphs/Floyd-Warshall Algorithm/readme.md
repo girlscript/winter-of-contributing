@@ -48,15 +48,15 @@ floyd_warshall(G)
 
 ## Output:
 
-![output](https://user-images.githubusercontent.com/65852362/141053638-428efa68-dbb5-4c9d-9c4e-e3652975a25c.png)
+<img src='https://user-images.githubusercontent.com/65852362/141053638-428efa68-dbb5-4c9d-9c4e-e3652975a25c.png'>
 
 ## Time Complexity:
 
-There are three loops. Each loop has constant complexities. So, the time complexity of the <b>Floyd-Warshall algorithm</b> is <b>O(n3)</b>.
+There are three loops. Each loop has constant complexities. So, the time complexity of the <b>Floyd-Warshall algorithm</b> is <b>n<sup>3</sup></b>.
 
 ## Space Complexity:
 
-The space complexity of the <b>Floyd-Warshall algorithm</b> is <b>O(n2)</b>.
+The space complexity of the <b>Floyd-Warshall algorithm</b> is <b>n<sup>2</sup></b>.
 
 ## Floyd-Warshall Algorithm Applications:
 
