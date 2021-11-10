@@ -20,4 +20,9 @@
   * Relationship between scopes and when variables are valid is similar to that in other programming languages.
 
 ** String Type🥚:
-+
++ Rust has a second string type, String
++ This type manages data allocated on the heap and as such is able to store an amount of text that is unknown to us at compile time.
+ #+begin_src rust
+let a = String::from("Girlscript is changing lives🔑");
+ #+end_src
++ The double colon (::) is an operator that allows us to namespace this particular =from= function under the =string= type . *These can be mutated*
