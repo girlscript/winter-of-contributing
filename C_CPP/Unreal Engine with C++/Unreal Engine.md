@@ -1,9 +1,16 @@
 # Unreal Engine in C++
 
+Unreal Engine is not just a game engine developed in C++. It serves as an advanced 3D creation tool too. It is helpful for creating a bunch of different content like Games, 3d shows, Actions, Meta Humans, Simulations and more with the help of the free and accessible resources.
+Unreal Engine also provides free online learning resources and webiners to learn more about the software.
+
 ## Terminology:
 
 - **Actor**: Any object inside the level is called an Actor. It is made up of Actor Components.
-- **Character**: A special type of Actor that acts as the Player in the game. The user can control its movement using the **W A S D** keys.
+- **Pawns**: A special type of Actor that has a persona in the game.
+- **Character**: A special type of Pawn that acts as the Player in the game. The user can control its movement using the **W A S D** keys.
+- **Casting**: To perform class-specific activity on an Actor i.e. giving the Actor a functionality. However, casting may result in success or failure depending on the situation in the game.
+
+Other self-explanatory terms include : Game Level, Game Mode, Volume, Player State etc.
 
 ![character](https://user-images.githubusercontent.com/72400676/140915248-a0a55754-10a2-434a-a3b5-44a3ca0e3ccb.JPG)
 
@@ -51,3 +58,15 @@
 
 ![new_project](https://user-images.githubusercontent.com/72400676/140915335-f6f13f04-aa96-4fdd-8831-1541a54a0103.JPG)
 
+## Movements:
+
+- **Rotation**: Holding the right mouse button down helps to rotate around the game screen.
+- **Linear Movement**: Holding the left mouse button down helps to move from left to right or top to bottom.
+- **Zooming**: Using the Scroll button helps the camera to zoom in and out of the game screen.
+
+## References:
+
+If you feel Unreal Engine is interesting and wish to explore more, refer to the links below:
+
+- [Official_Website](https://www.unrealengine.com/en-US/)
+- [Learn](https://www.unrealengine.com/en-US/learn)
