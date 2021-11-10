@@ -79,6 +79,7 @@ In this journal, authors proposed a new approach to use SIFT descriptors for mul
 SIFT features can essentially be applied to any task that requires identification of matching locations between images. Work has been done on applications such as recognition of particular object categories in 2D images, 3D reconstruction, motion tracking and segmentation, robot localization, image panorama stitching and epipolar calibration. Some of these are discussed in more detail below.
 
 **Robot localization and mapping**
+
 In this application, a trinocular stereo system is used to determine 3D estimates for keypoint locations. Keypoints are used only when they appear in all 3 images with consistent disparities, resulting in very few outliers. As the robot moves, it localizes itself using feature matches to the existing 3D map, and then incrementally adds features to the map while updating their 3D positions using a Kalman filter. This provides a robust and accurate solution to the problem of robot localization in unknown environments. Recent 3D solvers leverage the use of keypoint directions to solve trinocular geometry from three keypoints and absolute pose from only two keypoints, an often disregarded but useful measurement available in SIFT. These orientation measurements reduce the number of required correspondences, further increasing robustness exponentially.
 
 **Panorama stitching**
@@ -151,3 +152,16 @@ Although the dimension of the descriptor, i.e. 128, seems high, descriptors with
 **Bibliography**
 
 https://en.wikipedia.org/wiki/Scale-invariant_feature_transform#Overview
+
+https://www.analyticsvidhya.com/blog/2019/10/detailed-guide-powerful-sift-technique-image-matching-python/
+
+https://iq.opengenus.org/scale-invariant-feature-transform/
+
+
+https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_feature2d/py_sift_intro/py_sift_intro.html
+
+
+https://colab.research.google.com/github/YoniChechik/AI_is_Math/blob/master/c_08_features/sift.ipynb#scrollTo=M-ypzqFA752X
+
+
+https://socs.binus.ac.id/2017/06/13/feature-descriptor-sift-scale-invariant-feature-transform-part-1-introduction-to-sift/
