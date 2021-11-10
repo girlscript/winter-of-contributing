@@ -25,4 +25,6 @@
  #+begin_src rust
 let a = String::from("Girlscript is changing lives🔑");
  #+end_src
-+ The double colon (::) is an operator that allows us to namespace this particular =from= function under the =string= type . *These can be mutated*
++ The double colon =(::)= is an operator that allows us to namespace this particular =from= function under the =string= type . *These can be mutated*
+
+** Memory And Allocation🎈:
