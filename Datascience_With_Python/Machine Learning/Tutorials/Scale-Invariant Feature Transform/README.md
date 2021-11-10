@@ -15,26 +15,25 @@ To understand the concept of SIFT in images
 
 **Introduction**
 
-So, in this article, we will talk about an image matching algorithm that identifies the key features from the images and is able to match these features to a new image of       the same object. Let’s get rolling!  SIFT, or Scale Invariant Feature Transform, is a feature detection algorithm in Computer Vision.
-SIFT helps locate the local features in an image, commonly known as the ‘keypoints‘ of the image. These keypoints are scale & rotation invariant that can be used for various     computer vision applications, like image matching, object detection, scene detection, etc.
-We can also use the keypoints generated using SIFT as features for the image during model training. The major advantage of SIFT features, over edge features or hog features,     is that they are not affected by the size or orientation of the image.
+So, in this article, we will talk about an image matching algorithm that identifies the key features from the images and is able to match these features to a new image of       the same object. Let’s get rolling!  
 
 
 **What is Scale Invariant Feature Transform**
 
-The scale-invariant feature transform (SIFT) is a computer vision algorithm to detect, describe, and match local features in images, invented by David Lowe in 1999.Applications include object recognition, robotic mapping and navigation, image stitching, 3D modeling, gesture recognition, video tracking, individual identification of wildlife and match moving.
+SIFT, or Scale Invariant Feature Transform, is a feature detection algorithm in Computer Vision.
+SIFT helps locate the local features in an image, commonly known as the ‘keypoints‘ of the image. These keypoints are scale & rotation invariant that can be used for various     computer vision applications, like image matching, object detection, scene detection, etc.
+We can also use the keypoints generated using SIFT as features for the image during model training. The major advantage of SIFT features, over edge features or hog features,     is that they are not affected by the size or orientation of the image.
 
 
 **Purpose Of SIFT**
 
 This explains about the main purpose of using SIFT over other algorithms and what is the basic idea behind using this.
 
-SIFT can robustly identify objects even among clutter and under partial occlusion, because the SIFT feature descriptor is invariant to uniform scaling, orientation, illumination changes, and partially invariant to affine distortion. This section summarizes the original SIFT algorithm and mentions a few competing techniques available for object recognition under clutter and partial occlusion.
+This section summarizes the original SIFT algorithm and mentions a few competing techniques available for object recognition under clutter and partial occlusion.
 
 
 **Features Of SIFT**
 
-The detection and description of local image features can help in object recognition.
 
 The SIFT features are local and based on the appearance of the object at particular interest points, and are invariant to image scale and rotation. 
 
@@ -58,11 +57,6 @@ SIFT features can essentially be applied to any task that requires identificatio
 In this application, a trinocular stereo system is used to determine 3D estimates for keypoint locations. Keypoints are used only when they appear in all 3 images with consistent disparities, resulting in very few outliers. As the robot moves, it localizes itself using feature matches to the existing 3D map, and then incrementally adds features to the map while updating their 3D positions using a Kalman filter. This provides a robust and accurate solution to the problem of robot localization in unknown environments. 
 
 
-**Panorama stitching**
-
-SIFT feature matching can be used in image stitching for fully automated panorama reconstruction from non-panoramic images. The SIFT features extracted from the input images are matched against each other to find k nearest-neighbors for each feature. These correspondences are then used to find m candidate matching images for each image. Homographies between pairs of images are then computed using RANSAC and a probabilistic model is used for verification. Because there is no restriction on the input images, graph search is applied to find connected components of image matches such that each connected component will correspond to a panorama. Finally for each connected component bundle adjustment is performed to solve for joint camera parameters, and the panorama is rendered using multi-band blending. Because of the SIFT-inspired object recognition approach to panorama stitching, the resulting system is insensitive to the ordering, orientation, scale and illumination of the images. The input images can contain multiple panoramas and noise images (some of which may not even be part of the composite image), and panoramic sequences are recognized and rendered as output.
-
-
 **3D scene modeling, recognition and tracking**
 
 This application uses SIFT features for 3D object recognition and 3D modeling in context of augmented reality, in which synthetic objects with accurate pose are superimposed on real images. SIFT matching is done for a number of 2D images of a scene or object taken from different angles. This is used with bundle adjustment initialized from an essential matrix or trifocal tensor to build a sparse 3D model of the viewed scene and to simultaneously recover camera poses and calibration parameters. 
@@ -77,6 +71,7 @@ This application uses SIFT features for 3D object recognition and 3D modeling in
 **Quantity:** many features can be generated for even small objects
 
 **Efficiency:** close to real-time performance
+
 
 **Distadvantages of SIFT**
 
