@@ -11,6 +11,8 @@ Approach: Roman numerals are represented by seven symbols: I, V, X, L, C, D and 
 
 ![image](https://user-images.githubusercontent.com/73405757/140963448-360c6a7f-f391-4396-8fbd-68ab3c365c52.png)
 
+[Reference source to image](https://leetcode.com/problems/roman-to-integer/)
+
 ## Algorithm:  
 
 Step 1) Split the string into characters.
@@ -113,6 +115,3 @@ Output: 1994
 Time Complexity: O(n), where n is the length of the string. 
 
 Space Complexity: O(1), as no extra space is required.
-
-## Reference:
-https://leetcode.com/problems/roman-to-integer/
