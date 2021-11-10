@@ -2,8 +2,19 @@
 
 + *Ownership* is one of those features of Rust that make it special
 + *Memory in Rust is managed through a system of ownership* with a set of rules that the compiler checks at compile time. None of the ownership features slow down your program while it’s running.
-** Ownership Rules :
+** Ownership Rules👑:
 1. Each value in Rust has a variable that’s called its owner.
 2. There can only be one owner at a time.
 3. When the owner goes out of scope, the value will be dropped.
-** Variable Scope :
+** Variable Scope🔭:
++ A scope is the range within a program for which an item is valid
+ #+begin_src rust
+   {                      // s is not valid here, it’s not yet declared
+        let s = "hello";   // s is valid from this point forward
+
+        // do stuff with s
+    }                      // this scope is now over, and s is no longer valid
+ #+end_src
+  * Hence =s= comes into *scope* , and is /valid until it goes out of scope/
+
+  * Relationship between scopes and when variables are valid is similar to that in other programming languages.
