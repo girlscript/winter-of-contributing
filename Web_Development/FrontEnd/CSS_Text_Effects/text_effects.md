@@ -20,17 +20,19 @@ It doesn't work on its own.<b>white-space: nowrap;</b> and <b>overflow: hidden;<
 text-overflow: clip|ellipis|initial|string|inherit;
 ```
 
-Here the default value is <b>clip</b>.
+```
+Here the default value is clip.
 
-<b>clip: </b>Clips the overflowed text.
+1. clip: Clips the overflowed text.
 
-<b>ellipsis: </b>Displays an ellipsis (…) or three dots to show the clipped text.
+2. ellipsis: Displays an ellipsis (…) or three dots to show the clipped text.
 
-<b>initial: </b>Iniializes CSS property to its default value.
+3. initial: Iniializes CSS property to its default value.
 
-<b>string: </b>Displays clipped text to the user using the string of programmer's choice. But this feature is only accessible in Firefox browser.
+4. string: Displays clipped text to the user using the string of programmer's choice. But this feature is only accessible in Firefox browser.
 
-<b>inherit: </b>It will set the text-overflow value to its parent element's value.
+5. inherit: It will set the text-overflow value to its parent element's value.
+```
 
 Here, is the code for better understanding:
 
@@ -111,13 +113,15 @@ When an unbreakable string is too long to fit in the containing box, it is used 
 word-wrap: normal|break-word|inherit;
 ```
 
-<b>normal: </b>It breaks the words only at allowed break points.
+```
+1. normal: It breaks the words only at allowed break points.
 
-<b>break-word: </b>It breaks unbreakable words.
+2. break-word: It breaks unbreakable words.
 
-<b>initial: </b>Iniializes CSS property to its default value.
+3. initial: Iniializes CSS property to its default value.
 
-<b>inherit: </b>It will set the word-wrap value to its parent element's value.
+4. inherit: It will set the word-wrap value to its parent element's value.
+```
 
 Here is the code for better understanding:
 
@@ -169,11 +173,13 @@ This property specifies line breaking rules i.e. the way that words would break 
 word-break:normal|keep-all|break-all|inherit;
 ```
 
-Default Value is <b>normal</b>.
+```
+Default Value is normal.
 
-<b>keep-all: </b>Breaks the word in the default style.
+1. keep-all: Breaks the word in the default style.
 
-<b>break-all: </b>In order to prevent the word overflow, it inserts the word break between the characters.
+2. break-all: In order to prevent the word overflow, it inserts the word break between the characters.
+```
 
 Here is the code for better understanding:
 
@@ -231,13 +237,15 @@ This property specifies whether the text will be written in the horizontal or ve
 writing-mode: horizontal-tb|vertical-lr|vertical-rl|inherit;
 ```
 
-The default value is <b>horizontal-tb</b>.
+```
+The default value is horizontal-tb.
 
-<b>horizontal-tb: </b>The text is displayed in horizontal direction and read from left to right and top to bottom.
+1. horizontal-tb: The text is displayed in horizontal direction and read from left to right and top to bottom.
 
-<b>vertical-rl: </b>The text is displayed in vertical direction and the text is read from right to left and top to bottom.
+2. vertical-rl: The text is displayed in vertical direction and the text is read from right to left and top to bottom.
 
-<b>vertical-lr: </b>The text is displayed in vertical direction and the text is read from left to right and top to bottom.
+3. vertical-lr: The text is displayed in vertical direction and the text is read from left to right and top to bottom.
+```
 
 Here is the code for better understanding:
 
