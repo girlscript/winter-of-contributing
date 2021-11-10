@@ -15,6 +15,9 @@
         // do stuff with s
     }                      // this scope is now over, and s is no longer valid
  #+end_src
-  * Hence =s= comes into *scope* , and is /valid until it goes out of scope/
+  * Hence =s= comes into *scope* , and is /valid until it goes out of scope/.
 
   * Relationship between scopes and when variables are valid is similar to that in other programming languages.
+
+** String Type🥚:
++
