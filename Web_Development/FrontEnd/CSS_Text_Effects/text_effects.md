@@ -10,171 +10,71 @@ Lets dive into each one!
 
 ## 1. CSS Text Overflow
 
-The CSS text-overflow property specifies how overflowed content that is not displayed should be signaled to the user.
+It is used to signal the overflowed content to the user which is hidden from the view.
 
-Here is the code explaining it in detail: 
+It doesn't work on its own.<b>white-space: nowrap;</b> and <b>overflow: hidden;</b> has to be used with this property.
 
-```HTML
-<!DOCTYPE html>
-<html>
-<head>
-<style> 
-p.test1 {
-  white-space: nowrap; 
-  width: 200px; 
-  border: 1px solid #000000;
-  overflow: hidden;
-  text-overflow: clip;
-}
+### Syntax:
 
-p.test2 {
-  white-space: nowrap; 
-  width: 200px; 
-  border: 1px solid #000000;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-</style>
-</head>
-<body>
+text-overflow: clip|ellipis|initial|string|inherit;
 
-<h1>The text-overflow Property</h1>
-<p>The following two paragraphs contains a long text that will not fit in the box.</p>
+Here the default value is <b>clip</b>.
 
-<h2>text-overflow: clip:</h2>
-<p class="test1">This is some long text that will not fit in the box</p>
+<b>clip: </b>Clips the overflowed text.
 
-<h2>text-overflow: ellipsis:</h2>
-<p class="test2">This is some long text that will not fit in the box</p>
+<b>ellipsis: </b>Displays an ellipsis (…) or three dots to show the clipped text.
 
-</body>
-</html>
-```
-### Output:
+<b>initial: </b>Iniializes CSS property to its default value.
 
-![output](op_1.png)
+<b>string: </b>Displays clipped text to the user using the string of programmer's choice. But this feature is only accessible in Firefox browser.
+
+<b>inherit: </b>It will set the text-overflow value to its parent element's value.
 
 ## 2. CSS Word Wrapping
 
-The CSS word-wrap property allows long words to be able to be broken and wrap onto the next line.
+This property breaks the long words and wrap them onto the next line.
 
-Here is the code explaining it in detail:
+When an unbreakable string is too long to fit in the containing box, it is used to prevent overflow .
 
-```HTML
-<!DOCTYPE html>
-<html>
-<head>
-<style> 
-p.test {
-  width: 11em; 
-  border: 1px solid #000000;
-  word-wrap: break-word;
-}
-</style>
-</head>
-<body>
+### Syntax:
 
-<h1>The word-wrap Property</h1>
+word-wrap: normal|break-word|inherit;
 
-<p class="test">This paragraph contains a very long word: thisisaveryveryveryveryveryverylongword. The long word will break and wrap to the next line.</p>
+<b>normal: </b>It breaks the words only at allowed break points.
 
-</body>
-</html>
-```
+<b>break-word: </b>It breaks unbreakable words.
 
-### Output:
+<b>initial: </b>Iniializes CSS property to its default value.
 
-![output](op_2.png)
+<b>inherit: </b>It will set the word-wrap value to its parent element's value.
 
 ## 3. CSS Word Breaking
 
-The CSS word-break property specifies line breaking rules.
+This property specifies line breaking rules i.e. the way that words would break at the end of the line.
 
-Here is the code explaining it in detail:
+### Syntax:
 
-```HTML
-<!DOCTYPE html>
-<html>
-<head>
-<style> 
-p.test1 {
-  width: 140px; 
-  border: 1px solid #000000;
-  word-break: keep-all;
-}
+word-break:normal|keep-all|break-all|inherit;
 
-p.test2 {
-  width: 140px; 
-  border: 1px solid #000000;
-  word-break: break-all;
-}
-</style>
-</head>
-<body>
+Default Value is <b>normal</b>.
 
-<h1>The word-break Property</h1>
+<b>keep-all: </b>Breaks the word in the default style.
 
-<p class="test1">This paragraph contains some text. This line will-break-at-hyphens.</p>
+<b>break-all: </b>In order to prevent the word overflow, it inserts the word break between the characters.
 
-<p class="test2">This paragraph contains some text. The lines will break at any character.</p>
+## 4. Writing Modes
 
-</body>
-</html>
-```
-Output:
+This property specifies whether the text will be written in the horizontal or vertical direction.
 
-![ouput](op_3.png)
+### Syntax:
 
-## 4. CSS Writing Mode
+writing-mode: horizontal-tb|vertical-lr|vertical-rl|inherit;
 
-The CSS writing-mode property specifies whether lines of text are laid out horizontally or vertically.
+The default value is <b>horizontal-tb</b>.
 
-Here, is the code explaining it in detail:
+<b>horizontal-tb: </b>The text is displayed in horizontal direction and read from left to right and top to bottom.
 
-```HTML
-<!DOCTYPE html>
-<html>
-<head>
-<style> 
-p.test1 {
-  writing-mode: horizontal-tb; 
-}
+<b>vertical-rl: </b>The text is displayed in vertical direction and the text is read from right to left and top to bottom.
 
-span.test2 {
-  writing-mode: vertical-rl; 
-}
+<b>vertical-lr: </b>The text is displayed in vertical direction and the text is read from left to right and top to bottom.
 
-p.test2 {
-  writing-mode: vertical-rl; 
-}
-</style>
-</head>
-<body>
-<h1>The writing-mode Property</h1>
-
-<p class="test1">Some text with default writing-mode.</p>
-
-<p>Some text with a span element with a <span class="test2">vertical-rl</span> writing-mode.</p>
-
-<p class="test2">Some text with writing-mode: vertical-rl.</p>
-
-</body>
-</html>
-```
-
-### Output:
-
-![output](op_4.png)
-
-## CSS Text Effect Properties
-
-|Property|Description|
-|-|-|
-|text-align-last|Specifies how to align the last line of a text|
-|text-justify|	Specifies how justified text should be aligned and spaced|
-|text-overflow|	Specifies how overflowed content that is not displayed should be signaled to the user|
-|word-break|Specifies line breaking rules for non-CJK scripts|
-|word-wrap|	Allows long words to be able to be broken and wrap onto the next line|
-|writing-mode|Specifies whether lines of text are laid out horizontally or vertically|
-
-For more details, refer [CSS Text Effects](https://www.w3schools.com/css/css3_text_effects.asp)
