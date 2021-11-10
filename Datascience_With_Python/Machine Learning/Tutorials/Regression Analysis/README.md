@@ -6,12 +6,29 @@ The provided notebook shows the regression analysis through several ML metrics t
 ## Introduction
 Regression refers to the mathematics and supervised learning based methodology/algorithm that allow ML engineers and Data Scientists to predict a target outcome (usually y) based on the value of one (single) or more (multivariate) independent variables (usually x), and happens to be one of the most used ML algorithms in use today.
 
-## Regression Applications
-- Students score based on number of hours studied
-- Predicting crop yields based on the amount of rainfall
-- Predicting salary based on years of experience
-- Predicting revenue based on advertising spending
-- Predicting patient blood pressure based on drug dosage
+## Linear Regression
+Linear regression is a linear methodology under regression for modelling the relationship between dependent and independent variable(s) through iteration for generating the most precise and closest relational linear and numerical association.
+
+## Logistic Regression
+Logistic regression is an exponential methodology under regression for modelling the probability of a certain class' or event's existence (such as win/lose and healthy/sick) through iteration for generating the most precise and closest exponential and numerical association.
+
+## Purpose and Usage
+A regression analysis is usually undertaken and used for two main purposes:
+- Prediction for value of a dependent variable for obtaining information that concerns the explanatory variables
+- Estimation of the effect of some explanatory variable on the dependent variable
+
+## Applications
+- Predictive analytics
+- Operational efficiency improvement
+- Supportive decision making
+- Error correction
+- Gaining new insights
+
+## Advantages
+- Simple implementation
+- Effective on large datasets
+- Faster fitting period
+- Absence of overfitting (if regularization is applied)
 
 ## Libraries
 - pandas
@@ -24,7 +41,7 @@ Regression refers to the mathematics and supervised learning based methodology/a
 - Dataset 1 : Years of Experience vs Salary
 - Dataset 2 : Hours vs Exam Pass
 
-## Steps
+## Workflow and Implementation:
 - Install necessary libraries.
 - Access the data via proper dataset path.
 - Engineer the data (by dropping null values, converting string to integers, performing sort and reindexing) in order to get the data ready.
@@ -36,8 +53,24 @@ Regression refers to the mathematics and supervised learning based methodology/a
 - Visualize the predicted and actual test values
 - Perform regression analysis using r2 score on all 4 scenarios!
 
+## Regression Use Cases
+- Students score based on number of hours studied
+- Predicting crop yields based on the amount of rainfall
+- Predicting salary based on years of experience
+- Predicting revenue based on advertising spending
+- Predicting patient blood pressure based on drug dosage
+
 ## Metric
 - R2 Score : R2 score or the coefficient of determination refers to the proportion of the variation in the dependent variable that is predictable from the independent variable.
+
+## Performance
+R2 Score for linear model and linear data : 6802.77957
+
+R2 Score for linear model and logistic data : 5411.00000
+
+R2 Score for logistic model and linear data : 0.26699
+
+R2 Score for logistic model and logistic data : 0.25000
 
 ## Conclusion
 The regression analysis helps in understanding the implementation and performance of regression models through various datasets. It also helps figure out how performance increases and decreases as per the model and dataset used; with the help of evaluation metrics such as r2 score.
