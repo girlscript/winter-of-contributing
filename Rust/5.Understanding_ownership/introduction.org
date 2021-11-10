@@ -1,0 +1,9 @@
+#+TITLE: Introduction
+
++ *Ownership* is one of those features of Rust that make it special
++ *Memory in Rust is managed through a system of ownership* with a set of rules that the compiler checks at compile time. None of the ownership features slow down your program while it’s running.
+** Ownership Rules :
+1. Each value in Rust has a variable that’s called its owner.
+2. There can only be one owner at a time.
+3. When the owner goes out of scope, the value will be dropped.
+** Variable Scope :
