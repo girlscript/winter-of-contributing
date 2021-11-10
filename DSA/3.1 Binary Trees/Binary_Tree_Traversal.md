@@ -5,6 +5,9 @@ Tree traversal means visiting all nodes of the tree. We always start traversing 
 - Postorder Traversal
 
 Consider a Tree as - 
+<p align ="center">
+    <img src = "https://github.com/saloni33/winter-of-contributing/blob/main/DSA/3.1%20Binary%20Trees/tree-img.jpeg" width="500" height="300">
+</p>
 
 ## Inorder Traversal - <br>
 In this traversal, we first visit the left subtree, then the root, and after that the right subtree. For the given tree, the inorder traversal will be -  <br>
