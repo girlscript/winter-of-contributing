@@ -27,7 +27,7 @@ source set as main and your directory name as menu, click OK. Now you have succe
 5. Run the application to launch Android emulator or you can run it on your mobile also(which is way faster).
  
 
- ## <hr> **XML File(res/layout/activity_main.xml):** </hr>
+ ### *XML File(res/layout/activity_main.xml):*
 
  <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -48,7 +48,7 @@ source set as main and your directory name as menu, click OK. Now you have succe
 </RelativeLayout>
 
 
-## <hr> **XML File(res/menu/context_menu.xml):** </hr>
+### *XML File(res/menu/context_menu.xml):*
 
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
@@ -71,7 +71,7 @@ source set as main and your directory name as menu, click OK. Now you have succe
 </menu>
 
 
-## <hr> **MainActivity.java** </hr> 
+### *MainActivity.java* 
 
 package codedost.contextmenu;
 
