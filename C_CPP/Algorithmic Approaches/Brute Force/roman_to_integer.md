@@ -11,7 +11,7 @@ Approach: Roman numerals are represented by seven symbols: I, V, X, L, C, D and 
 
 ![image](https://user-images.githubusercontent.com/73405757/140963448-360c6a7f-f391-4396-8fbd-68ab3c365c52.png)
 
-[Reference source to image](https://leetcode.com/problems/roman-to-integer/)
+Source: [Leetcode](https://leetcode.com/problems/roman-to-integer/)
 
 ## Algorithm:  
 
