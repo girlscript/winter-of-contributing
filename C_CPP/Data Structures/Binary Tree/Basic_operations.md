@@ -116,6 +116,14 @@ void preorder(struct node *root)
 }
 ```
 
+Examples:
+
+![image](https://user-images.githubusercontent.com/73405757/141156800-7e403573-9c58-44ab-9b43-30adee9a5bf9.png)
+
+![image](https://user-images.githubusercontent.com/73405757/141156871-e97413ea-ec9d-4d10-a780-b9e6efbb1b8c.png)
+
+Source: [GeeksforGeeks](https://practice.geeksforgeeks.org/problems/preorder-traversal/1)
+
 ## Postorder Traversal
 
 Algorithm:
@@ -143,6 +151,14 @@ void postorder(struct node *root)
 }
 ```
 
+Examples:
+
+![image](https://user-images.githubusercontent.com/73405757/141156467-b77de97f-b0df-476f-b395-b55f989be028.png)
+
+![image](https://user-images.githubusercontent.com/73405757/141156529-1646cd0c-0ce3-4582-8029-8d6b9247a5f7.png)
+
+Source: [GeeksforGeeks](https://practice.geeksforgeeks.org/problems/postorder-traversal/1)
+
 ## Inorder Traversal
 
 Algorithm:
@@ -169,6 +185,10 @@ void inorder(struct node *root)
 }
 ```
 
-![image](https://user-images.githubusercontent.com/73405757/141145042-e2f6f4b9-c70a-4aa2-8773-94c8146ae8de.png)
+Examples:
 
-Source: [GeeksforGeeks](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
+![image](https://user-images.githubusercontent.com/73405757/141155910-382f217c-12e9-4682-993c-cb5611710d8d.png)
+
+![image](https://user-images.githubusercontent.com/73405757/141155987-20e232b5-d166-40dd-b624-b74f58b853e1.png)
+
+Source: [GeeksforGeeks](https://practice.geeksforgeeks.org/problems/inorder-traversal/1)
