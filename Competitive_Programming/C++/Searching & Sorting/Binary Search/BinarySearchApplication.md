@@ -1,6 +1,9 @@
 # Binary Search Application
 
 ## Linear Search
+
+### Explanation 
+In this the iterator visit one by one to each element of the array to search the element to be seached , so the complexity in Worst case is O(n) where n is the size of array
 The most simple way to search is linear search , as
 ```c++
 //c++
@@ -22,10 +25,16 @@ for(int i=0;i<10;i++)
   cout<<"element not present";
 }
 ```
-In this the iterator visit one by one to each element of the array to search the element to be seached , so the complexity in Worst case is O(n) where n is the size of array
+>Time Complexity O(n)   , where n is the size of array
 
 We should use linear search incases where the array is not sorted neither monotonic nor bitonic way.
 ## Binary Search
+
+### Explanation
+
+In Binary Search we divide the array in *two halves* and then one half is decided and the searching is done on that half only similarily this divide take place till the element is not found.
+so the the time complexity in Worst Case is *O(log n)* where n is the size of array.
+
 
 ```c++
 //c++
@@ -45,13 +54,22 @@ while(start<=end)
 }
 return -1;  // not found
 ```
-
-In Binary Search we divide the array in *two halves* and then one half is decided and the searching is done on that half only similarily this divide take place till the element is not found.
-so the the time complexity in Worst Case is *O(log n)* where n is the size of array.
+>Time Complexity O(log n)  , where n is the size of array
 
 Binary Search can solve various other problem in Competitive Programming where we have to print result in specific time otherwise TLE comes. 
 
 ##  Find the first and last occurence
+
+### Explanation
+
+- In the case of first occurence we search the element and when we find that the mid calculated is the index that has the same element so this can be a answer , that is why we save the index in a varible and move the end pointer to mid-1 , to serach if the element is present before the index stored.
+- This way after the binary search the result will have the index of first occurence of that element.
+- Similarily in Last occurence we search the element and when we find that the mid calculated is the index that has the same element so this can be a answer , that is why we save the index in a varible and move the start pointer to mid+1 , to serach if the element is present after the index stored.
+- This way after the binary search the result will have the index of last occurence of that element.
+
+In this we can find the occurence of element in array in O(log(n)) time where n is the size of array. we can find the total number of time the element comes in the array if we know the first and last occurence . 
+
+>count= first_occurence - last_occurence
 
 ```c++
 #include<bits/stdc++.h>
@@ -107,11 +125,8 @@ return 0;
 >
 >Last occurence 4
 
->Time Complexity O(log n)
+>Time Complexity O(log n)   , where n is the size of array
 
-In this we can find the occurence of element in array in O(log(n)) time where n is the size of array. we can find the total number of time the element comes in the array if we know the first and last occurence . 
-
->count= first_occurence - last_occurence
 
 ## Find Floor and Ceil of a element from a given array in O(log n) time complexity
 
@@ -194,6 +209,3 @@ return 0;
 ## Complexity
 These are some of the programs that can be solve by Binary Search , Binary search is really important in competitve programming as it do the searching in ```O(log (n))``` time .
 
->The flow of document
->
->Title -> explanation -> code -> Time Complexity 
