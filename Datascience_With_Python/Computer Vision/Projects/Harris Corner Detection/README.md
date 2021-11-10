@@ -60,7 +60,7 @@ Sometimes, you may need to find the corners with maximum accuracy. OpenCV comes 
   </p>  
   
   <p align="center">
-  <img width="400" height="300" src="https://user-images.githubusercontent.com/66861391/141097798-31b764f7-5efa-4063-aac6-280868d719cf.png">
+  <img width="500" height="350" src="https://user-images.githubusercontent.com/66861391/141099308-4908b769-2563-48fa-99f0-970e1c3e77c2.png">
   </p>  
   
 ## :stars: Application
