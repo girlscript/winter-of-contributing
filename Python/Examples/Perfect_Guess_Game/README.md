@@ -14,6 +14,6 @@ For integers, there is uniform selection from a range. For sequences, there is u
 User needs a Python IDE to run the program
 
 ## OUTPUT
-![Code](Images/The_Perfect_Guess.py - Perfect_Guess_Game - Visual Studio Code 07_11_2021 8_33_53 pm.png)
+![Code](Images/Image_1.png)
 
-![Output](Images/The_Perfect_Guess.py - Perfect_Guess_Game - Visual Studio Code 07_11_2021 8_40_25 pm.png)
+![Output](Images/Image_2.png)
