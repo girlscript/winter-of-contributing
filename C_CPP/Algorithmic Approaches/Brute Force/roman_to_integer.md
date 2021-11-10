@@ -9,9 +9,9 @@ Task: Given a roman numeral, convert it to an integer.
 
 Approach: Roman numerals are represented by seven symbols: I, V, X, L, C, D and M.
 
-![image](https://user-images.githubusercontent.com/73405757/140963448-360c6a7f-f391-4396-8fbd-68ab3c365c52.png)
+![romanToInt](https://user-images.githubusercontent.com/73405757/140963448-360c6a7f-f391-4396-8fbd-68ab3c365c52.png)
 
-Source: [Leetcode](https://leetcode.com/problems/roman-to-integer/)
+Source: [LeetCode](https://leetcode.com/problems/roman-to-integer/)
 
 ## Algorithm:  
 
@@ -49,7 +49,6 @@ int romanToInt(char ch)
  
     return -1;
 }
- 
 // Returns decimal value of roman numaral
 int romanToDecimal(string& str)
 {
