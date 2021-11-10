@@ -1,4 +1,4 @@
-## Title : ML 8.7 : Bert (A) 
+## Title : Bert
 🔴 **Type of Content** : Audio
 
 🔴 **Domain** : Machine Learning
