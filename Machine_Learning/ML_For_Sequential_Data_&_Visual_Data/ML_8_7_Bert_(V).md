@@ -1,4 +1,4 @@
-## **Gradient (Vanilla) Descent**
+## **BERT**
 
 🔴 **Type of Content** : Video
 
@@ -13,7 +13,5 @@
 #### References :
 - https://youtu.be/7kLi8u2dJz0
 - Image Credits to the original owners.
-
-#### Contributed by Nikita Bhrugumaharshi Emberi
 
 ### GirlScript Winter of Contributions 2021
