@@ -1,0 +1,13 @@
+Libraries Required in Music Recommendation System
+1.numpy
+2.Pandas
+3.matplotlib
+4.pickle
+5.kmeans
+6.train_test_split
+7.MinMaxScaler
+8.PCA
+9.KElbowVisualizer
+10.SilhouetteVisualizer
+11.InterClusterDistance
+
