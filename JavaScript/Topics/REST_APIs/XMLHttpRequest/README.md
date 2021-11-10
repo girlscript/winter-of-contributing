@@ -45,7 +45,7 @@ xhr.send(null);
        }     
      }
  ```
-1. When the browser has received and loaded a response from the server, the on load event will fire. This will trigger a function (here, it is an anonymous function).
+1. When the browser has received and loaded a response from the server, the onload event will fire. This will trigger a function (here, it is an anonymous function).
 
 2. The function checks the status property of the object. This is used to make sure the server's response was okay. (If this property is blank, check the setup of the server.)
 
@@ -53,15 +53,15 @@ xhr.send(null);
 #### Let's consider an example:
 
 ```js
-var xhr = new XMLHttpRequest();                                         // Create XMLHttpRequest object
-xhr.onload = function() {                                             // When response has loaded
-//The following conditional check will not work locally - only on a server
- if(xhr.status === 200) {                                            // If server status was ok
-document.getElementByid('content').innerHTML = xhr.responseText;     //Update
-}
+var xhr = new XMLHttpRequest(); // Create XMLHttpRequest object
+xhr.onload = function() { // When response has loaded
+    //The following conditional check will not work locally - only on a server
+    if (xhr.status === 200) { // If server status was ok
+        document.getElementByid('content').innerHTML = xhr.responseText; //Update
+    }
 };
-xhr.open('GET','data/data.html', true);                           //prepare the request
-xhr.send(null);                                                     //Send the request
+xhr.open('GET', 'data/data.html', true); //prepare the request
+xhr.send(null); //Send the request
 ```
 
 The above example updating a element(whose id is content) innerHTML property by new HTML that has been sent from the server.
@@ -99,7 +99,7 @@ The above example updating a element(whose id is content) innerHTML property by 
 
 1. **statusText** - Returns a response string returned by the HTTP server. Unlike **XMLHttpRequest.status**, this includes the entire text of the response message (for example - "200 OK").
 
-> XMLHttpRequest is mostly used in AJAX programming. To learn about AJAX,you can visit **AJAX** folder in the same Javascript directory.
+> XMLHttpRequest is mostly used in AJAX programming. To learn about AJAX,you can visit [**AJAX**](https://github.com/girlscript/winter-of-contributing/tree/Javascript/JavaScript/Topics/13.AJAX) folder in the same Javascript directory.
 ---
 > Contribution by :  
 > <cite>[Anjali Rai](https://github.com/anjalirai12)</cite>
