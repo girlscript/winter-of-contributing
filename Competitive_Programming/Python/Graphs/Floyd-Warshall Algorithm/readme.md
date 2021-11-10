@@ -1,6 +1,6 @@
 # Floyd-Warshall Algorithm
 
-Floyd-Warshall Algorithm is an algorithm for finding the shortest path between all the pairs of vertices in a weighted graph. 
+<b>Floyd-Warshall Algorithm</b> is an algorithm for finding the shortest path between all the pairs of vertices in a weighted graph. 
 
 ## Algorithm:
 
@@ -39,7 +39,6 @@ def print_solution(distance):
                 print(distance[i][j], end="  ")
         print(" ")
 
-
 G = [[0, 3, INF, 5],
          [2, 0, INF, 4],
          [INF, 1, 0, INF],
@@ -49,15 +48,15 @@ floyd_warshall(G)
 
 ## Output:
 
-![output](output.png)
+![output](https://user-images.githubusercontent.com/65852362/141053638-428efa68-dbb5-4c9d-9c4e-e3652975a25c.png)
 
 ## Time Complexity:
 
-There are three loops. Each loop has constant complexities. So, the time complexity of the Floyd-Warshall algorithm is O(n3).
+There are three loops. Each loop has constant complexities. So, the time complexity of the <b>Floyd-Warshall algorithm</b> is <b>O(n3)</b>.
 
 ## Space Complexity:
 
-The space complexity of the Floyd-Warshall algorithm is O(n2).
+The space complexity of the <b>Floyd-Warshall algorithm</b> is <b>O(n2)</b>.
 
 ## Floyd-Warshall Algorithm Applications:
 
@@ -65,7 +64,3 @@ The space complexity of the Floyd-Warshall algorithm is O(n2).
 2. To find the transitive closure of directed graphs
 3. To find the Inversion of real matrices.
 4. For testing whether an undirected graph is bipartite.
-
-For more details refer:
-
-https://www.programiz.com/dsa/floyd-warshall-algorithm
