@@ -3,7 +3,7 @@
 
 🔴 **Domain** : Machine Learning
 
-🔴 **Module** : ML for Seqential Data & Visual Data
+🔴 **Module** : ML for Sequential Data & Visual Data
 
 *********************************************************************
 
