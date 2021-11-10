@@ -1,9 +1,9 @@
-## Roman To Integer Using Brute Force Approach
+# Roman To Integer Using Brute Force Approach
 
-### Brute Force
+## Brute Force
 A Brute Force Algorithm is a straight-forward approach to a problem i.e the first method or algorithm which come in our mind to solve a particular problem. In this we try every possibility rather than going for advance techniques to improve efficiency.
 
-### Roman To Integer
+## Roman To Integer
 
 Task: Given a roman numeral, convert it to an integer.
 
@@ -11,7 +11,7 @@ Approach: Roman numerals are represented by seven symbols: I, V, X, L, C, D and 
 
 ![image](https://user-images.githubusercontent.com/73405757/140963448-360c6a7f-f391-4396-8fbd-68ab3c365c52.png)
 
-### Algorithm:  
+## Algorithm:  
 
 Step 1) Split the string into characters.
 
@@ -21,7 +21,7 @@ Step 3) Take characters starting from index 0:
 * If current value of character is greater than or equal to the value of next character, add its value to the total.
 * else subtract its value by adding the value of the next character to the total.
         
-### Code of converting Roman numerals to integer in C++
+## Code of converting Roman numerals to integer in C++
 
 ```c++
 #include <bits/stdc++.h>
@@ -96,7 +96,7 @@ int main(){
 }
 ```
 
-### Input/Output Examples
+## Input/Output Examples
 
 #### Example 1:
 Input: str = "LVIII"
@@ -108,8 +108,11 @@ Input: str = "MCMXCIV"
 
 Output: 1994
 
-### Time And Space Complexity
+## Time And Space Complexity
 
 Time Complexity: O(n), where n is the length of the string. 
 
 Space Complexity: O(1), as no extra space is required.
+
+## Reference:
+https://leetcode.com/problems/roman-to-integer/
