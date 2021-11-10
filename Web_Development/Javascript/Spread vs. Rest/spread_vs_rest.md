@@ -2,7 +2,7 @@
 ![Spread vs. Rest](https://pbs.twimg.com/media/FDv-D-FVgAIJ-5X?format=jpg&name=small)
 
 ***
-### The ***Rest parameter*** and ***Spread Syntax*** were added in JavaScript ES6 (ECMAScript 6) despite the fact that their symbols are the same they work differently.
+ The ***Rest parameter*** and ***Spread Syntax*** were added in JavaScript ES6 (ECMAScript 6) despite the fact that their symbols are the same they work differently.
 
 > NOTE: 
 >- Parameters are value passed inside the function definition :
@@ -13,12 +13,12 @@
 >      add(arguments)
 >
 
-### Let's discuss about them using the explanation and examples.
+ Let's discuss about them using the explanation and examples.
 
 ***
 ## **Rest Parameter**
 
-### Sometimes while creating the  function we face the situation where the value of number of arguments to be passed are unknown to us. There comes the ***Rest Parameter*** to our rescue.
+ Sometimes while creating the  function we face the situation where the value of number of arguments to be passed are unknown to us. There comes the ***Rest Parameter*** to our rescue.
 
 ```
 <--- Without Rest parameter --->
@@ -50,9 +50,9 @@ console.log(add(2, 3, 6)) // 11
 console.log(add(2, 3, 7, 4, 2, 5)) // 23
 
 ```
-## **Point to Remember**
+### **Point to Remember**
 
-### 1. The rest parameter is always used at the end of the function parameters 
+ 1. The rest parameter is always used at the end of the function parameters 
 ```
 function add(a, b, ...rest){}
 ```
@@ -60,7 +60,7 @@ function add(a, b, ...rest){}
 
 ## **Spread Syntax**
 
-### Sometimes we need to add the an array of values as the arguments to the functions because adding each value to the arguments will not be good practice. There comes the **Spread Synatx** for our rescue.
+ Sometimes we need to add the an array of values as the arguments to the functions because adding each value to the arguments will not be good practice. There comes the **Spread Synatx** for our rescue.
 
 ```
 <--- Without Spread Sytax --->
@@ -82,9 +82,9 @@ let arr2 = [8, 3, -8, 1];
 console.log(Math.max(1, ...arr1, 2, ...arr2, 25)); // 25
 ```
 
-## **Point to Remember**
+### **Point to Remember**
 
-### Unlike **rest parameter**, **spread syntax** can be used anywhere in the function arguments.
+ Unlike **rest parameter**, **spread syntax** can be used anywhere in the function arguments.
 
 ```
 console.log(Math.max(1, ...arr1, 2, ...arr2, 25));
