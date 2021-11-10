@@ -16,7 +16,9 @@ It doesn't work on its own.<b>white-space: nowrap;</b> and <b>overflow: hidden;<
 
 ### Syntax:
 
+```
 text-overflow: clip|ellipis|initial|string|inherit;
+```
 
 Here the default value is <b>clip</b>.
 
@@ -105,7 +107,9 @@ When an unbreakable string is too long to fit in the containing box, it is used 
 
 ### Syntax:
 
+```
 word-wrap: normal|break-word|inherit;
+```
 
 <b>normal: </b>It breaks the words only at allowed break points.
 
@@ -161,7 +165,9 @@ This property specifies line breaking rules i.e. the way that words would break 
 
 ### Syntax:
 
+```
 word-break:normal|keep-all|break-all|inherit;
+```
 
 Default Value is <b>normal</b>.
 
@@ -221,7 +227,9 @@ This property specifies whether the text will be written in the horizontal or ve
 
 ### Syntax:
 
+```
 writing-mode: horizontal-tb|vertical-lr|vertical-rl|inherit;
+```
 
 The default value is <b>horizontal-tb</b>.
 
@@ -269,3 +277,9 @@ Here is the code for better understanding:
 ### Output:
 
 <img src='https://user-images.githubusercontent.com/65852362/141079060-63ed08b2-7981-4c90-a83e-dfc572df1cc0.png'>
+
+For more details, refer
+
+https://www.javatpoint.com/css-text-effects
+
+https://www.w3schools.com/css/css3_text_effects.asp
