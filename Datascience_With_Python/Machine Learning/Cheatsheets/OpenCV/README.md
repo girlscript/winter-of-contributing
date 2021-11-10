@@ -102,8 +102,9 @@
   - image: source image read
   - colorcode: color space conversion code.
   for grayscale colorcode is *cv2.COLOR_BGR2GRAY*
-  
 
+
+>  *Sample Code can be found **[here](Notebooks/OpenCV.ipynb)***
 <br>
 
 ### Canny Edge Detection 
@@ -127,6 +128,7 @@
 - L2gradient - This specifies the equation for finding gradient magnitude
 
 
+> *Sample Code can be found **[here](Notebooks/Canny_edge_detection.ipynb)***
 <br>
 
 ## Working with Images
@@ -146,6 +148,10 @@
         cap = cv2.VideoCapture('number part.mp4')
 
 - It will play the video frame by frame. Warning it will be very slow on Google Colab.
+
+## Refernce Notebooks
+
+> *Sample Notebooks can be found **[here](Notebooks)***
 
 
 <br>
