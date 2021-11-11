@@ -13,7 +13,3 @@ For integers, there is uniform selection from a range. For sequences, there is u
 ## SETUP INSTRUCTIONS
 User needs a Python IDE to run the program
 
-## OUTPUT
-![Code](Images/Image_1.png)
-
-![Output](Images/Image_2.png)
