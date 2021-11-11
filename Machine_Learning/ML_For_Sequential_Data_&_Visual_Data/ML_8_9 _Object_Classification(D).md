@@ -18,7 +18,7 @@ Image segmentation is a method in which a digital image is broken down into vari
 In simple words object Detection helps us to identify the location of a single object in the given image.
 The goal of this Classification technique is to determine where objects are located in a given image called as object localisation and which category each object belongs to, that is called as object classification.  
  <br>
-<img src="https://929687.smushcdn.com/2407837/wp-content/uploads/2021/05/pytorch_pretrained_object_Classification_example.jpg?lossy=1&strip=1&webp=0"> </img>
+
 
 <h3>Difference between Object detection and Object Localisation</h3>
 <b>Object detection</b> refers to the overall task, usually assuming the object is also classified after it is detected.<br>
