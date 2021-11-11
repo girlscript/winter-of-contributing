@@ -1,6 +1,6 @@
 # This Pointer in C++
 
-### Defination: This is a keyword which is a pointer that points to the object which invokes the member function.
+### Definition: This is a keyword which is a pointer that points to the object which invokes the member function.
 
 - It is used to refer caller object in member function.
 - This pointer can not be modify.
