@@ -44,8 +44,9 @@ if __name__ == '__main__':
     num = int(input())
     binaryToDecimal(num)
 ```
-## OUTPUT:- 
+## INPUT 
 100 <br>
+## OUTPUT
 4
 
 ## Octal to Decimal 
@@ -95,8 +96,9 @@ num = int(input))
 print(octalToDecimal(num))
  
 ```
-## OUTPUT 
+## INPUT
 67 <br>
+## OUTPUT
 55
 
 ## HexaDecimal to Decimal 
@@ -134,7 +136,7 @@ if chk == 0:
 else:
     print("\nInvalid Input!")
 ```
-## OUTPUT  
+## RESULT 
 Enter the Hexadecimal Number: <br>
 4A7F <br>
 Equivalent Decimal Value: <br>
