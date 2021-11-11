@@ -67,7 +67,7 @@ int main()
 > a = 1  
 > b = 2  
 > a = -1  
-> b = -2
+> b = -2  
 
 In the above program, in 'main()' function, the statement,  
 ```C++
@@ -102,5 +102,6 @@ void girlscript :: operator - ()
 ```  
 
 As explained before, 'operator -' together becomes the operator function name. In the function definition, the data members are negated. It is to be noted that, the operator function is a member function of class 'girlscript', which eventually gives us the output as,  
+
 > a = -1  
-> b = -2 
+> b = -2  
