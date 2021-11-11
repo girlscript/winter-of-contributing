@@ -50,6 +50,7 @@
 - [Type Annotations in Python](./Type_Annotations)
 - [if statement](./if_statement)
 
+
 ## Learning path
 
 1. Git & GitHub
