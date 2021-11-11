@@ -1,1 +1,4 @@
-[Backtracking Algorithm](./Algorithmic%20Approaches/Backtracking/backtracking.md)
+- [Backtracking Algorithm](./backtracking.md)
+- [Flood Fill Problem](./Flood_Fill_Problem.md)
+- [Knights Tour Problem](./Knights_Tour_problem.md)
+- [m-coloring Problem](./m-coloring)

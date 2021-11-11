@@ -18,4 +18,4 @@ In this project, we'll talk about Deque (Double Ended Queue), a topic under The 
 - [Map](./Maps)
 - Multimap
 - [Lists](STL-LISTS.md)
-
+- [Forward List](Forward_List.md)

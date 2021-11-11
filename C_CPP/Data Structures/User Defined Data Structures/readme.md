@@ -1,1 +1,3 @@
-- [Binary Search Tree](Binary%20Search%20Tree)
+- [Segment Tree](./Segment%20Tree)
+- [Fenwick Tree](./Fenwick%20Tree)
+- [Trie](./Trie)
