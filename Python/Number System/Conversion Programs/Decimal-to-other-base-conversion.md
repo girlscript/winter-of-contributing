@@ -23,8 +23,9 @@ if __name__ == '__main__':
     # Calling function
     DecimalToBinary(dec_val)
 ```
-## OUTPUT  
+## INPUT
 24 <br>
+## OUTPUT  
 011000
 
 ## Decimal To Octal
@@ -79,8 +80,9 @@ n = int(input())
 # Function Call
 decToOctal(n)
 ```
-## OUTPUT  
+## INPUT  
 16 <br>
+## OUTPUT
 20
 
 <!-- ## Time Complexity: O(log N)  -->
@@ -151,6 +153,7 @@ n = int(input())
 decToHexa(n)
  
 ```
-## OUTPUT  
+## INPUT  
 2545 <br>
+## OUTPUT
 9F1
