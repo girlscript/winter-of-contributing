@@ -11,7 +11,6 @@
 | 5             | [Array](#array) |
 | 6             | [Object](#object) |
 | 7             | [NULL](#null) |
-| 8             | [Resource](#resource) |
 ---
 ### String
 - A string is a sequence of characters.
@@ -76,3 +75,36 @@ var_dump($fruits);
 ```
 ---
 ### Object
+- Object is a main aspect of object oriented programming.
+- Object is an instance of class.
+- We use `new` for creating an object.
+#### Code Snippet :
+```php
+?php
+class test
+{
+    function test_fun()
+    {
+        echo "test execution"; 
+    }
+}
+
+$x = new test;
+$x->test_fun();
+?>
+```
+---
+### Null
+- It represents no value.
+- `null` is only possible value of this type.
+- A variable of data type `null` is a variable that has no value assigned to it.
+- we can also set `null` as a value of a Variable.
+#### Code Snippet :
+```php
+<?php
+$a = "Hello GWOC'21";
+$a = null;
+var_dump($a);
+?>
+```
+---
