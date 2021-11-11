@@ -53,10 +53,9 @@ img {
 ```
 ![ReflectionWithGradient](https://user-images.githubusercontent.com/73912907/140559193-9630d084-3e61-4b93-99a8-150d51dc3edf.png)
 
-## Refrences
+## References
 
  - [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-box-reflect)
- - [W3schools](https://www.w3schools.com/css/css3_image_reflection.asp)
  - [Image Source](https://hatrabbits.com/en/random-image/)
 
 
