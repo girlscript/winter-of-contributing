@@ -65,8 +65,8 @@ int main()
 ### *Output*  
 
 > a = 1  
-> b = 2
-> a = -1
+> b = 2  
+> a = -1  
 > b = -2
 
 In the above program, in 'main()' function, the statement,  
