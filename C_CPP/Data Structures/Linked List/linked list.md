@@ -32,10 +32,10 @@ int main()
     return(0);
 }
 ```
-
 ## OUTPUT
+```CPP
 1 2 3 
-
+```
 - Time complexity O(n)
 - Space complexity O(1)
 
@@ -86,6 +86,7 @@ int main()
 ```
 
 ## INPUT
+```CPP
 Enter data 1
 Do yo want to continue?
 1
@@ -101,10 +102,11 @@ Do yo want to continue?
 Enter data 7
 Do yo want to continue?
 0
-
+```
 ## OUTPUT
+```CPP
 1->2->3->6->7->Total
-
+```
 
 - Time complexity O(n)
 - Space complexity O(1)
