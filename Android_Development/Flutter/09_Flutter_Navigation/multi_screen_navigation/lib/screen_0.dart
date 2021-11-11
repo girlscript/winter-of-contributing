@@ -19,10 +19,8 @@ class Screen0 extends StatelessWidget {
                 Navigator.pushNamed(context, "/first");
               },
               style: ButtonStyle(
-                backgroundColor:
-                    MaterialStateProperty.all(Colors.blue.shade900),
-                textStyle: MaterialStateProperty.all(
-                  const TextStyle(color: Colors.white),
+                backgroundColor: MaterialStateProperty.all(Colors.blue.shade900),
+                textStyle: MaterialStateProperty.all(const TextStyle(color: Colors.white),
                 ),
               ),
             ),
@@ -33,8 +31,7 @@ class Screen0 extends StatelessWidget {
               },
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(Colors.green),
-                textStyle: MaterialStateProperty.all(
-                  const TextStyle(color: Colors.white),
+                textStyle: MaterialStateProperty.all(const TextStyle(color: Colors.white),
                 ),
               ),
             ),

@@ -14,10 +14,7 @@ class Screen1 extends StatelessWidget {
         child: ElevatedButton(
           child: const Text("Go to Screen 2"),
           onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) {
+            Navigator.push(context,MaterialPageRoute(builder: (context) {
                   return const Screen2();
                 },
               ),
@@ -25,8 +22,7 @@ class Screen1 extends StatelessWidget {
           },
           style: ButtonStyle(
             backgroundColor: MaterialStateProperty.all(Colors.green),
-            textStyle: MaterialStateProperty.all(
-              const TextStyle(color: Colors.white),
+            textStyle: MaterialStateProperty.all(const TextStyle(color: Colors.white),
             ),
           ),
         ),
