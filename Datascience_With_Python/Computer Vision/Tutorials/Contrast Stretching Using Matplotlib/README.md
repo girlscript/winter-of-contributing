@@ -36,6 +36,21 @@ Min_P_out = Minimum value of pixel in output image
 Max_P_in = Maximum value of pixel in input image
 Min_P_in = Minimum value of pixel in input image
 ```
+
+## Why to use Matplotlib Library For Contrast Stretching and its advantages:
+
+As we know, matplotlib supports various graphical representation like Bar Graphs, Histograms, Line Graph, Scatter Plot, etc. It is basically a 2-D plotting library.
+
+With the help of matplotlib, we can plot histograms of both original and contrast stretched image. 
+
+We can compare both histograms(you can find the histogram in the implementation part) and draw some conclusions like,
+
+```
+1. In the histogram of original image, the amount of white pixels is more than that of gray. 
+2. Also, the histogram of original image is less densed.
+3. In the histogram of the contrast-stretched image, the amount of gray pixels have increased significantly and the histogram is also more densed than the original one, thus contrast of the image got increased.
+```
+
 ## Implementation
 
 Now, we will see the implementation of contrast stretching using matplotlib:
@@ -155,6 +170,22 @@ cv2.waitKey(0)
 
 <img src='https://user-images.githubusercontent.com/65852362/141204453-0e32a728-c574-4d96-b918-bd7eb8a13c97.png'>
 
+## Conclusion:
+
+Thus, by using libraries like matplotlib, cv2 and numpy, we could stretch the contrast of the image.
+
+We used cv2 library to convert RGB image to binary image.
+
+With the help of cv2, we also set the brightness(beta) and contrast parameters(alpha).
+
+We used numpy library to modify the pixel values by applying normalization formula.
+
+Matplotlib was used to plot the histogram of both original and contrast-stretched image.
+
+In short, we stored the original image's pixel values and applied image normalization formula on them to increase the contrast. We stored the modified pixel values and assigned them to the pixel values of original image, thus stretching the contrast of the original image.
+
+So, this was a simple guide to using <b>matplotlib for contrast stretching.</b> I hope you enjoyed the journey and can now implement whatever explained in the tutorial.
+
 For more details refer:
 
 https://pythontic.com/image-processing/pillow/contrast%20stretching
@@ -162,3 +193,5 @@ https://pythontic.com/image-processing/pillow/contrast%20stretching
 Image Credit:
 
 http://www.aforgenet.com/
+
+## Thank You!
