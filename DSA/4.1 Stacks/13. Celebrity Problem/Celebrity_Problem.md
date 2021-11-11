@@ -340,7 +340,7 @@ When the recursive function has finished its loop, it will return an id. We chec
 
 ## **Method 4: Using Stack**  
 
-If for any pair (i, j)  such that `i`!= `j`, if  `knows(i, j)` returns true, then it implies that the person having id `i` cannot be a celebrity as it knows the person having id `j`. Similarly, if `knows(i, j)` returns false, then it implies that the person having id `j cannot be a celebrity as it is not known by a person having id `i`. We can use this observation to solve this problem.
+If for any pair (i, j)  such that `i`!= `j`, if  `knows(i, j)` returns true, then it implies that the person having id `i` cannot be a celebrity as it knows the person having id `j`. Similarly, if `knows(i, j)` returns false, then it implies that the person having id `j` cannot be a celebrity as it is not known by a person having id `i`. We can use this observation to solve this problem.
 
 <br>
 
