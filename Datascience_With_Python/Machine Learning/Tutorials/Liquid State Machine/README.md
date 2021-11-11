@@ -66,6 +66,6 @@ Well, there are not many differences between both of them, b
   </li>
   <br/><br/>
 
-<small>References: scholarpedia.org<br>
-researchgate.net
+<small>References: https://www.scholarpedia.org<br>
+https://www.researchgate.net
   </small>
