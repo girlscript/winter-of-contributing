@@ -114,7 +114,7 @@
 
 - [4.24 Github Externship](4.Open_Source_Programs/4.24_GitHub_Externship.md)
 
-- [4.25 Rails Girls Summer of Code](4.Open_Source_Programs/4.25_Rails_Girls_Summer_of_Code.md)
+- [4.25 Rails Girls Summer of Code](4.Open_Source_Programs/4.25_RAILS_GIRLS_SUMMER_OF_CODE.md)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
