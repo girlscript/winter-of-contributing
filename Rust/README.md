@@ -39,7 +39,7 @@
 ### 5. Understanding **Ownership** aka an Awesome feature :
 
 - [What is this life saving feature ?](5.Understanding_ownership/introduction.org)
-- [**Borrowing & Refrences**]()
+- [**Borrowing & Refrences**](5.Understanding_ownership/ref_and_borrowing.org)
 - [**Slice Type**]()
 
 ### 6. Structs , Enums & Patterns :
