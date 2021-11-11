@@ -49,8 +49,6 @@
 - [Regular expressions in Python](./Regex)
 - [Type Annotations in Python](./Type_Annotations)
 - [if statement](./if_statement)
-- [JSON in Python](./json_python)
-
 
 ## Learning path
 
@@ -114,4 +112,3 @@
 32. Django Framework
 33. Regular expressions in Python
 34. Type Annotations in Python
-35. JSON in Python
