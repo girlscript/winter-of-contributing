@@ -7,7 +7,7 @@ g3 = g1 + 6;
 g3 = 6 + g1;
 ```  
 
-In the above two statements, the binary '+' is being overloaded to operate on a class object 'g1' and a constant '6'. The first statement can be overloaded easily using the member functions. This is because, the compiler will interpret the statement,  
+In the above two statements, the binary '+' is being overloaded to operate on a class object 'g1' and a constant '6'. The first statement can be overloaded easily using the member functions. This can be as a result of, the compiler can interpret the statement,
 ```C++
 g3 = g1 + 6;  as  
 g3 = g1.operator + (6);
