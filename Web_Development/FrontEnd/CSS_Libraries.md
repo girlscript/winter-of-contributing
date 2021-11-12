@@ -1,5 +1,5 @@
 # CSS Libraries
-CSS Libraries are the assets which help us to made the website or any other thing from scratch and allows you to design your flows . \
+CSS Libraries are the assets which help us to made the website or any other thing from scratch and allows you to design your flows.
 ### Important Points :
 1. Full control in your hand .
 2. Allows you design your methods .
@@ -36,14 +36,14 @@ CSS Libraries are the assets which help us to made the website or any other thin
 -  Float
 - Position
 
-6. **Font Awesome :** This is a CSS library which have vector icons and logos these are easily customize for your web designs. These icons are in multiple variants, as well, with each with good asset like light, regular, or solid styles . 
--  It is extremely light as well as being easy to install and use
-- Font Awesome is as simple as cutting and pasting lines into your code.
+6. **De Style CSS:** Destyle CSS is a library which allows you to reset your HTML hence giving you a clean state for your web project. 
+- It let's you return line-height and font-size to its original state.
+- It's also offers a blank canvas for specific web projects and applications.
 
-7. **Ionic :**  This have the features of a full array of CSS utilities and components and featuring everything from Headers to Buttons to Customized Text all things are possible with ionic .
-- It also allows for cross-platform development .
-- It have native integration with most popular development environments .
-- It also make prototyping easy, quick, and painless . 
+7. **Ionic :**  This is the library which more concentrated about the UI development , It have so much utilities Headers,Buttons and customized text.
+- It can work on cross-platform hence make development easy .
+- The native intigration of the ionic library is very much useful in environment like react,vue and angular.
+- The prototyping is easy, very quick, and with easy implementation. 
 
 8. **Semantic UI :** Semantic UI is used to give intented developers and designers a common vocabulary to make sure that everybody’s on the same page and make UI look more impressive .
 - Its classes are clear and easy to understand. 
