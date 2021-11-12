@@ -226,3 +226,8 @@ npm run serve
 ```
 
 * Finally, we directly access the route without include hash(#). Hence, the history mode of routing is working perfectly fine.
+
+
+## References : https://next.router.vuejs.org/guide/essentials/history-mode.html
+
+# Thank You!
