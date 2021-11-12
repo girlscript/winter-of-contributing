@@ -9,10 +9,12 @@ The following functions are provided by this module. Except when explicitly note
 
 ## Number-theoretic and representation functions
 
-math.ceil(x)
+- math.ceil(x)
+
 Return the ceiling of x, the smallest integer greater than or equal to x. If x is not a float, delegates to x.__ceil__(), which should return an Integral value.
 
-math.comb(n, k)
+- math.comb(n, k)
+
 Return the number of ways to choose k items from n items without repetition and without order.
 
 Evaluates to n! / (k! * (n - k)!) when k <= n and evaluates to zero when k > n.
@@ -21,27 +23,34 @@ Also called the binomial coefficient because it is equivalent to the coefficient
 
 Raises TypeError if either of the arguments are not integers. Raises ValueError if either of the arguments are negative.
 
-math.copysign(x, y)
+- math.copysign(x, y)
+
 Return a float with the magnitude (absolute value) of x but the sign of y. On platforms that support signed zeros, copysign(1.0, -0.0) returns -1.0.
 
-math.fabs(x)
+- math.fabs(x)
+
 Return the absolute value of x.
 
-math.factorial(x)
+- math.factorial(x)
+
 Return x factorial as an integer. Raises ValueError if x is not integral or is negative.
 
 Deprecated since version 3.9: Accepting floats with integral values (like 5.0) is deprecated.
 
-math.floor(x)
+- math.floor(x)
+
 Return the floor of x, the largest integer less than or equal to x. If x is not a float, delegates to x.__floor__(), which should return an Integral value.
 
-math.fmod(x, y)
+- math.fmod(x, y)
+
 Return fmod(x, y), as defined by the platform C library. Note that the Python expression x % y may not return the same result. The intent of the C standard is that fmod(x, y) be exactly (mathematically; to infinite precision) equal to x - n*y for some integer n such that the result has the same sign as x and magnitude less than abs(y). Python’s x % y returns a result with the sign of y instead, and may not be exactly computable for float arguments. For example, fmod(-1e-100, 1e100) is -1e-100, but the result of Python’s -1e-100 % 1e100 is 1e100-1e-100, which cannot be represented exactly as a float, and rounds to the surprising 1e100. For this reason, function fmod() is generally preferred when working with floats, while Python’s x % y is preferred when working with integers.
 
-math.frexp(x)
+- math.frexp(x)
+
 Return the mantissa and exponent of x as the pair (m, e). m is a float and e is an integer such that x == m * 2**e exactly. If x is zero, returns (0.0, 0), otherwise 0.5 <= abs(m) < 1. This is used to “pick apart” the internal representation of a float in a portable way.
 
-math.fsum(iterable)
+- math.fsum(iterable)
+
 Return an accurate floating point sum of values in the iterable. Avoids loss of precision by tracking multiple intermediate partial sums:
 
 >>>
@@ -52,10 +61,12 @@ Return an accurate floating point sum of values in the iterable. Avoids loss of 
 The algorithm’s accuracy depends on IEEE-754 arithmetic guarantees and the typical case where the rounding mode is half-even. On some non-Windows builds, the underlying C library uses extended precision addition and may occasionally double-round an intermediate sum causing it to be off in its least significant bit.
 
 
-math.gcd(*integers)
+- math.gcd(*integers)
+
 Return the greatest common divisor of the specified integer arguments. If any of the arguments is nonzero, then the returned value is the largest positive integer that is a divisor of all arguments. If all arguments are zero, then the returned value is 0. gcd() without arguments returns 0.
 
-math.isclose(a, b, *, rel_tol=1e-09, abs_tol=0.0)
+- math.isclose(a, b, *, rel_tol=1e-09, abs_tol=0.0)
+
 Return True if the values a and b are close to each other and False otherwise.
 
 Whether or not two values are considered close is determined according to given absolute and relative tolerances.
