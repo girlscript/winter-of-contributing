@@ -135,6 +135,20 @@
    - **8.18. Image Denoising.**
    - **8.19. GANs.**
    - **8.20. Implement an edge detector for images without using any Image Processing library like OpenCV. :star:**
+
+### *[Week 9 [Basic Projects of Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning)* :
+   - **Kaggle's Titanic Prediction.**
+   - **House Price Prediction.**
+   - **Wine Quality Prediction.**
+   - **Heart Disease Prediction.**
+   - **MNIST Digit Classification.**
+   - **Sentiment Analysis on Twitter Data.**
+   - **Pima Indian Diabetes Prediction.**
+   - **Breast Cancer Classification.**
+   - **IMDB Box office Prediction.**
+   - **Customer Segmentation.**
+
+
    
 **************************************************************
 ### ©️ GirlScript Winter of Contributions 2021
