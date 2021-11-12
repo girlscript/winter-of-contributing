@@ -222,6 +222,7 @@ new Vue({
 
 * Now, we start the development server using the following command.
 ```
-npm run serve```
+npm run serve
+```
 
 * Finally, we directly access the route without include hash(#). Hence, the history mode of routing is working perfectly fine.
