@@ -6,16 +6,16 @@ CSS Libraries are the assets which help us to made the website or any other thin
 3. More flexible than the frameworks .
 
 ## Most used Libraries 
-1. **Animate css :** This library help us to implement animations in our website and generate interest and favorable impressions of your website . 
-- CSS animations that can be implemented across multiple browsers like safari,chrome,opera and more . 
-- It’s easy to install , but somehow tricky to use .
-- It’s just as easy to add an animated element by simply using the *animate__animated* function of CSS library .
-- This can specify the length, delay time of an animation .
+1. **Animate css :** This library help us to implement animations in our website and generate interest and favorable impressions of your website. 
+- CSS animations that can be implemented across multiple browsers like safari,chrome,opera and more. 
+- It’s easy to install , but somehow tricky to use.
+- It’s just as easy to add an animated element by simply using the *animate__animated* function of CSS library.
+- This can specify the length, delay time of an animation.
 
 2. **CSS Wand :** CSS wand is used when we have to implement speaking of web animations and it also can be used animation elements are floating cursor and drop shadows .
 - Wand commands are simply need to be cut and paste in your web code .
 
-3. **Devstyle CSS :** Destyle.css allows you to reset custom margins,spacing and padding . It lets you return line-height and font-size to their original state as it was before . 
+3. **De style CSS :** Destyle.css allows you to reset custom margins,spacing and padding . It lets you return line-height and font-size to their original state as it was before . 
 - It also prevents you from having to reset your web projects for different types of User Agents it make according to the user agents of different web browsers .
 - It also allows us to take advantage of style sheets for our webpage .
 
@@ -36,11 +36,13 @@ CSS Libraries are the assets which help us to made the website or any other thin
 -  Float
 - Position
 
-6. **De Style CSS:** Destyle CSS is a library which allows you to reset your HTML hence giving you a clean state for your web project. 
-- It let's you return line-height and font-size to its original state.
-- It's also offers a blank canvas for specific web projects and applications.
+6. **Foundation :** This is the library which offers most advanced responsive front-end framework in the world and it's go naturally with the Rails framework.
+- It provides Full tooling.
+- It provides extreme flexiblity.
+- Foundation library also have awesome training and consultance.
+- It have many things other than UI components like form-validation, right-to-left support, responsive embeds.
 
-7. **Ionic :**  This is the library which more concentrated about the UI development , It have so much utilities Headers,Buttons and customized text.
+7. **Ionic :**  This is the library which more concentrated about the UI development , It have so much utilities like Headers,Buttons and customized text.
 - It can work on cross-platform hence make development easy .
 - The native intigration of the ionic library is very much useful in environment like react,vue and angular.
 - The prototyping is easy, very quick, and with easy implementation. 
