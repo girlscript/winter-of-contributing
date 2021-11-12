@@ -1,3 +1,14 @@
+## Title : Name of the Topic
+🔴 **Type of Content** : Documentation
+
+🔴 **Domain** : Machine Learning
+
+🔴 **Module** : Name of the module for every week
+
+
+*********************************************************************
+
+
 Natural language processing (NLP) is a subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data. 
 
 # **What is Word Embedding?**
@@ -120,3 +131,8 @@ for label, x, y in zip(labels, T[:, 0], T[:, 1]):
 [https://en.wikipedia.org/wiki/Word_embedding](https://en.wikipedia.org/wiki/Word_embedding)
 
 [https://machinelearningmastery.com/what-are-word-embeddings/](https://machinelearningmastery.com/what-are-word-embeddings/)
+
+
+*********************************************************************
+
+### GirlScript Winter of Contributions 2021
