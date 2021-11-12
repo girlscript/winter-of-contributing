@@ -1,0 +1,112 @@
+## Spinner
+
+**Android Spinner is a view similar to the dropdown list which is used to select one option from the list of options. It provides an easy way to select one item from the list of items and it shows a dropdown list of all values when we click on it.**
+
+<p align="center"><img src="https://user-images.githubusercontent.com/90956475/140788901-d001a674-c9fc-4108-9b6b-0ea744dfb926.png"></p>
+
+### Sample Project
+
+Here we will create a simple spinner having some numbers as items.
+
+<p align ="center"><img src="https://user-images.githubusercontent.com/90956475/140795180-99fd51f2-14a0-4e9a-a4d6-2b604e5e0dc6.gif" height="700"></p>
+
+## Process
+
+### Step 1 - Add `Spinner` widget to `activity_main.xml` layout.
+
+> XML Code:
+
+```XML
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+  
+  <!--Adding Spinner-->
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+```
+### Step 2 - Add `Spinner` list item in form of a `Array`.
+
+Here we will add the list of items in form of `string-array`. We will that in 
+
+* `string.xml` file is by default present in the project.
+Path - `res -> Values -> string.xml`
+
+> XML Code:
+
+```xml
+<resources>
+  <!--App name depends upon your naming-->
+  
+    <string name="app_name">Spinners</string>
+
+
+    <string-array name="numbers">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+
+    </string-array>
+</resources>
+```
+### Step 3 - Adding functionality in `MainActivity.java`
+
+Android spinner is associated with AdapterView. So you need to use one of the adapter classes with spinner.
+
+> JAVA Code:
+
+```java
+package com.example.spinners;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
+import android.widget.Toast;
+
+public class MainActivity extends AppCompatActivity{
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        Spinner spinner =findViewById(R.id.spinner);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+        
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.numbers, android.R.layout.simple_spinner_item);
+        // Specify the layout to use when the list of choices appears
+        
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        // Apply the adapter to the spinner
+        
+        spinner.setAdapter(adapter);
+        
+    }
+}
+```
+* Both `simple_spinner_item` and `simple_spinner_dropdown_item` is by default available in Android.
+
+For more details please visit [Andoid Official Documentation](https://developer.android.com/guide/topics/ui/controls/spinner).
