@@ -1,1 +1,3 @@
 #+TITLE: Slice
++ *Slice* does not have ownership
++ *Slices let you reference a contigous sequence of elements in a collection rather than the whole collection*.
