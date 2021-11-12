@@ -10,7 +10,7 @@
 
 ### Click here for the audio file,
 
-	![[Object Detection](https://github.com/snoice45/winter-of-contributing/blob/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data/Assets/ml.jpg)](https://drive.google.com/file/d/1aXNnsMIhLVdT-tonqTdMZBA2WPmMMVRn/view?usp=sharing)
+	[![Object Detection](https://github.com/snoice45/winter-of-contributing/blob/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data/Assets/ml.jpg)](https://drive.google.com/file/d/1aXNnsMIhLVdT-tonqTdMZBA2WPmMMVRn/view?usp=sharing)
 
 *********************************************************************
 
