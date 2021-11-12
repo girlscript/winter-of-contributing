@@ -17,7 +17,7 @@ is an ancestor of both the nodes.
 **Finding the LCA** - At first we traverse the tree and match nodes n1 and n2 if we get one of the 
 nodes in the left subtree and another one in the right subtree,then the root is the LCA.
 
-```
+```cpp
 //Header files
 #include<bits/stdc++.h>
 using namespace std;
