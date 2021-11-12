@@ -1,5 +1,7 @@
 ## Implementation of Linked List
 
+
+- To insert a node, we have to redirect the next pointer of the previous node to point to the new node instead of the current one and the next pointer of the new node must point to the original next node.To insert a node at the front of the Linked List, the head pointer should point to the new node and the next pointer of the new node must point to the previous first node.
 ```CPP
 #include<iostream>
 using namespace std;
@@ -39,9 +41,9 @@ int main()
 - Time complexity O(n)
 - Space complexity O(1)
 
-- To insert a node, we have to redirect the next pointer of the previous node to point to the new node instead of the current one and the next pointer of the new node must point to the original next node.To insert a node at the front of the Linked List, the head pointer should point to the new node and the next pointer of the new node must point to the previous first node.
-
 ## Counting total elements in linked list 
+
+- To insert a node, we have to redirect the next pointer of the previous node to point to the new node instead of the current one and the next pointer of the new node must point to the original next node.To insert a node at the front of the Linked List, the head pointer should point to the new node and the next pointer of the new node must point to the previous first node. And by using count variable we will count the number of nodes present in the linked list.
 
 ```CPP
 #include<iostream>
@@ -84,9 +86,7 @@ int main()
     }
     cout<<"Total linked list = "<<count<<endl;
 }
-
 ```
-
 ## INPUT
 ```CPP
 Enter data 1
@@ -112,5 +112,3 @@ Do yo want to continue?
 
 - Time complexity O(n)
 - Space complexity O(1)
-
-- To insert a node, we have to redirect the next pointer of the previous node to point to the new node instead of the current one and the next pointer of the new node must point to the original next node.To insert a node at the front of the Linked List, the head pointer should point to the new node and the next pointer of the new node must point to the previous first node. And by using count variable we will count the number of nodes present in the linked list.
