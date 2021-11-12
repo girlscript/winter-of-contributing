@@ -72,6 +72,7 @@ http.createServer((req, res) => {
   console.log('Server listening on: http://localhost:%s', httpPort)
 })
 ```
+![image](https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Vue/Week%207/assets/Vue-History-Mode-Routing-Tutorial.png)
 
 
 # Example
