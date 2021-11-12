@@ -2,7 +2,7 @@
 
 ## Binary Tree
 A Hierarchical data structure that stores data in the form of a tree and can have either **0,1 or 2 children** at each node.
-It works on the rule that a node which has lesser value that the root is place on the left subtree and the one with more value 
+It works on the rule that a node which has lesser value that the root is placed on the left subtree and the one with more value 
 than the root is kept on the right subtree.
 
 ## Components of the Tree:
