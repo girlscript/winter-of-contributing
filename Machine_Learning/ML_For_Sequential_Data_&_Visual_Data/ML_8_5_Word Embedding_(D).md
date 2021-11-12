@@ -1,9 +1,10 @@
-## Title : Name of the Topic
+## Title : Word Embedding
 🔴 **Type of Content** : Documentation
 
 🔴 **Domain** : Machine Learning
 
-🔴 **Module** : Name of the module for every week
+🔴 **Module** : ML_For_Sequential_Data_&_Visual_Data
+
 
 
 *********************************************************************
