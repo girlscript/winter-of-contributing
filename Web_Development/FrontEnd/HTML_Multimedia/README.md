@@ -106,7 +106,7 @@ Text between the <audio> and </audio> tags will be displayed in browsers which d
 Multiple <source> elements can be linked to different audio files. The browser will be using the first recognized format.
 
 
-### Browser Suppor:-
+### Browser Support:-
   
   
 | BROWSER | MP4  | WebM  |  OGG  |
@@ -118,7 +118,7 @@ Multiple <source> elements can be linked to different audio files. The browser w
 | Opera | YES(from Opera 25) | YES | YES |
   
   
-### HTML Audio- Metho, Properties and Events:-
+### HTML Audio- Method, Properties and Events:-
 
 HTML5 is used to define DOM methods, properties, and events for the <audio> element.
 This will allow you to load, play, and pause audios, and also set time duration and volume.
