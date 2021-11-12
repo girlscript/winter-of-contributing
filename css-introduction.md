@@ -18,10 +18,10 @@
 ## CSS Editors
 Some of the popular editors that are best suited to wire CSS code are as following:
 
-- 1. [Atom](https://atom.io/)
-- 2. [Visual Studio Code](https://code.visualstudio.com/download)
-- 3. [Brackets](https://brackets.io/)
-- 4. [Espresso(For Mac OS  User)](https://www.espressoapp.com/)
-- 5. [Notepad++(Great for HTML & CSS)](https://notepad-plus-plus.org/downloads/)
-- 6. [Komodo Edit (Simple)](https://www.activestate.com/products/komodo-ide/downloads/edit/)
-- 7. [Sublime Text (Best Editor)](https://www.sublimetext.com/3)
+ 1. [Atom](https://atom.io/)
+ 2. [Visual Studio Code](https://code.visualstudio.com/download)
+ 3. [Brackets](https://brackets.io/)
+ 4. [Espresso(For Mac OS  User)](https://www.espressoapp.com/)
+ 5. [Notepad++(Great for HTML & CSS)](https://notepad-plus-plus.org/downloads/)
+ 6. [Komodo Edit (Simple)](https://www.activestate.com/products/komodo-ide/downloads/edit/)
+ 7. [Sublime Text (Best Editor)](https://www.sublimetext.com/3)
