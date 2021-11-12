@@ -226,6 +226,8 @@ a.mean : Gives mean of all elements in array
 
 np.transpose(a) : Calculates transpose of matrix
 
+## Audio Explanation
+[Python Numpy Audio Explanation](https://drive.google.com/drive/folders/1yRUivvJlasIN8kRZarDrNQjIKYIIy8xe?usp=sharing)
 
 References-
 https://numpy.org/doc/stable/index.html
