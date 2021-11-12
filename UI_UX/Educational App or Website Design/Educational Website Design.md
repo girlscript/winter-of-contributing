@@ -1,7 +1,9 @@
-<h1 align="center">  Educational Website Design </h1>
+<h1 align="center">  Educational Website Design : EduTech </h1>
 
-Screens
-### 1.EduTech:Official Home Page
+## EduTech Screens
+EduTech Design is a full application design of an Educational Website taking reference of existing platforms like Coursera & Byjus and created using own and unique design ideas.
+
+### 1.EduTech:Official Landing Page
 
 ![EduTech-Home](https://user-images.githubusercontent.com/72400676/141446456-9c08764c-efb9-40de-82b7-c89bf025bb4e.png)
 
@@ -50,18 +52,14 @@ Screens
 ### 12.Feedback Form
 ![Feedback](https://user-images.githubusercontent.com/72400676/141449811-8f832a3b-2eef-4975-8416-f2c1ff6fb88c.png)
 
-Why the design is better than existing design?
-In this new design i have maintained the colour through out the entire app
-In onboarding screen i have infused the different visualization rather than using ordinary illustration
-In login screen, came up with new food background which gives a new feel to the user or customer while they are approcing the application
-In home Screen I have neglected some ideas like featuring more about offers I have imposed a carasouel to showcase the fast moving foods and gave a color to the navigation bar which maintains the color of the app
-In the product screen i have made simple as that , beacuse in Swiggy app if we choose kebas it does'nt direclty take us to that dish so by making this we can reduce the customers navigation to many screens
-In cart screen I have showcased the bill summary including taxes,delivery fee and arranged the order of products
-Also used a notification symbol which does'nt exists in Swiggy App
-In Payment page rather that displaying the product name i have maintained a image of the product which makes the customer easy to check their food
-Last but not the least Account screen comes up with color of our app inorder to display the user details.
+## Why the design is better than existing designs like Byju's or Coursera?
+- In this new design I have maintained the colour scheme throughout the entire web application.
+- The landing Page has an amazing tagline, different options like 'Book a Free Counselling Session' with an overview of a multitude of resources available to the learners.
+- The login card provides choices to sign up or login side by side which gives a new feel to the learner while they are approaching the application.
+- The User Home Page shows a graph of the learning data, upcoming courses and tests as well as linked to a detailed User Profile.
+- The Sidebar has all the important resource pages linked with icons like Home, Videos/Live Lectures, Notes, Tests etlc for easy navigation.
+- There are separate pages for Videos and Live Lectures with detailed information linked to specific subject and available filters like Recently Watched, Bookmarks etc.
+- The Tests and Test Analysis pages show detailed correct/incorrect answers with marks, explanation and time along with line charts showing progress.
+- I have also included a Contact Us and Feedback Form for improving the User Experience and resolving issues/queries easily and effectively.
 
-### Here is the Link of the Web design [EduTech](https://www.figma.com/file/JYrliHZJXM8mvLHZQNLDdJ/Educational-Website-Design)
-
-Yes, Finally we can get a visual treat for a food app which tempts customer to order more products , Prototype link
-Here is the Link of the Web design prototype
+### Here is the Link of the Web design Figma Prototype [EduTech](https://www.figma.com/file/JYrliHZJXM8mvLHZQNLDdJ/Educational-Website-Design)
