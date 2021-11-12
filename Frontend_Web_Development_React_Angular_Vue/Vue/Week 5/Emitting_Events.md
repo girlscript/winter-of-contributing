@@ -2,11 +2,11 @@
 
 Instead of standard events provided by Vue.js like `@click` or `@change`, someone wants to create a custom event, like doing some task after a function in a child component has finished its execution. Here **Emitting events** comes into play.
 
-In Vue.js `$emit` keyword helps us to emit or send custom events from child componenets to parent components. In a standard Vue flow, this can be considered as the best way to send data or trigger certain events from child to parent components.
+In Vue.js `$emit` keyword helps us to emit or send custom events from child components to parent components. In a standard Vue flow, this can be considered as the best way to send data or trigger certain events from child to parent components.
 
-## How does the emitting events work ?
+## How do the emitting events work?
 
-In the syntax of `$emit` there are two arguments which needs to be passed to make this work:
+In the syntax of `$emit` there are two arguments that need to be passed to make this work:
 
 1. **Event name** - this is the name of the event that we listen to in our parent component.
 
@@ -18,9 +18,9 @@ Example of the above syntax:
 $emit("event-name", payload_object);
 ```
 
-The above code snippets creates a custome event with the provided event-name and also data can be passed from child component to parent if required. In the parent component, the event is listened to and certain task is performed if the event is emitted or triggered correctly.
+The above code snippets create a custom event with the provided event name and also data can be passed from child component to parent if required. In the parent component, the event is listened to and a certain task is performed if the event is emitted or triggered correctly.
 
-Unlike components or props, event-names don't provide any automatic case transformation. So the event-names should be exactly the same where the event is listened to.
+Unlike components or props, event names don't provide any automatic case transformation. So the event names should be the same where the event is listened to.
 
 The most common ways to use emit is:
 
@@ -32,15 +32,15 @@ We will see the working of the above two syntaxes in a while.
 
 ## Advantages of emitting events:
 
-1. Passing data from any component to another with the help of `$emit` payload object.
+1. Passing data from any component to another with the help of the `$emit` payload object.
 
-2. Overriding the native events to achieve much concise and complex actions to be performed as and when required.
+2. Overriding the native events to achieve many concise and complex actions to be performed as and when required.
 
-3. Building wrappers for event heavy elements like the `input`, `form` components.
+3. Building wrappers for event-heavy elements like the `input`, `form` components.
 
 ## Need for emitting events:
 
-It is generraly used to notify the parent component that something has changed, and also can be used to send data while an event is being emitted to change/update it's state or value, or computing some fields which might require that data value.
+It is generally used to notify the parent component that something has changed, and also can be used to send data while an event is being emitted to change/update its state or value, or compute some fields which might require that data value.
 
 ## Examples
 
@@ -67,7 +67,7 @@ Child Component: `Hello World.vue`
 </script>
 ```
 
-In the above component we are emitting an event `custom-event` when the button is clicked after entering the value in the input box, then the above value is passed to the parent component as shown value, which hears for it and updates the background color to the same as the value in the input box.
+In the above component, we are emitting an event `custom-event` when the button is clicked after entering the value in the input box, then the above value is passed to the parent component as shown value, which hears for it and updates the background color to the same as the value in the input box.
 
 Parent Component: `App.vue`
 
@@ -136,13 +136,13 @@ The above change in the code would bring the same output as shown earlier.
 
 ## Using `context.emit` in Composition API
 
-In the **Composition API**, setup runs before our component is created so we donot have access to `this` keyword.
+In the **Composition API**, setup runs before our component is created so we don't have access to the `this` keyword.
 
-Instead we can emit events by using the second argument of our `setup` function - `context`.
+Instead, we can emit events by using the second argument of our `setup` function - `context`.
 
-`context` has access to your component slots, attributes and most importantly **emit** event.
+`context` has access to your component slots, attributes, and most importantly **emit** event.
 
-We can use this just like emitting events with Options API, creating a method and emitting an event.
+We can use this just like emitting events with Options API, creating a method, and emitting an event.
 
 Let's tweak the previous example to print the user input value in the console:
 
