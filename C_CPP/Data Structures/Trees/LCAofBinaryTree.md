@@ -84,7 +84,8 @@ int main(){
 ```
 LCA of node 73 and 76 is: 56
 ```
-
+Time Complexity - O(n)
+Space Complexity - O(1)
 
 ## Benefits of a Binary Tree
 - The search operation in a binary tree is faster as compared to other trees.
