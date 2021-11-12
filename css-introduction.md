@@ -25,3 +25,30 @@ Some of the popular editors that are best suited to wire CSS code are as followi
  5. [Notepad++(Great for HTML & CSS)](https://notepad-plus-plus.org/downloads/)
  6. [Komodo Edit (Simple)](https://www.activestate.com/products/komodo-ide/downloads/edit/)
  7. [Sublime Text (Best Editor)](https://www.sublimetext.com/3)
+
+## CSS Syntax
+ 
+    Selector {
+  		 Property 1 : value;
+                	 Property 2 : value;
+               	 Property 3 : value;
+             }
+   For example:
+   ```html
+         h1
+         {
+            Color: red;
+            Text-align: center;
+         }
+          #unique 
+           {
+                 color: green;
+           }
+  ```
+   
+- **Selector**: selects the element you want to target
+- Always remains the same whether we apply internal or external styling 
+- There are few basic selectors like tags, id’s, and classes 
+- All forms this key-value pair
+- **Keys**: properties(attributes) like color, font-size, background, width, height,etc
+**Value**: values associated with these properties
