@@ -36,8 +36,8 @@ Word2vec takes in words from a large corpus of texts as input and learns to give
 
 Cosine similarity of 1 would mean that the angle between two words is 0; and would denote that the words are similar. Two similar words will occupy locations close to each other in that vector space, whereas words that are very different will occupy far away spaces.
 
-The algorithm uses a neural network architecture that consists of two learning models:
 
+The algorithm uses a neural network architecture that consists of two learning models:
 
 
 ### **Continuous Bag-of-Words model (CBOW)**
@@ -48,6 +48,44 @@ In this approach, the model uses context words to predict the target words. The 
 
 The continuous skip-gram model works the other way around. It uses the target words to predict the context words. It involves training a neural network to learn the weights of the hidden layer. These learned weights correspond to the word vectors that we are trying to learn.
 
+### **Implementation**
+
+
+```
+from nltk.tokenize import sent_tokenize, word_tokenize
+import warnings
+  
+warnings.filterwarnings(action = 'ignore')
+  
+import gensim
+from gensim.models import Word2Vec
+  
+sample = open("..file-path(.txt)", "r")
+s = sample.read()
+  
+# Replaces escape character with space
+f = s.replace("\n", " ")
+  
+data = []
+  
+# iterate through each sentence in the file
+for i in sent_tokenize(f):
+    temp = []
+      
+    # tokenize the sentence into words
+    for j in word_tokenize(i):
+        temp.append(j.lower())
+  
+    data.append(temp)
+  
+# Create CBOW model
+model1 = gensim.models.Word2Vec(data, min_count = 1, size = 100, window = 5)
+  
+# Create Skip Gram model
+model2 = gensim.models.Word2Vec(data, min_count = 1, size = 100, window = 5, sg = 1)
+```
+
+
 ## **3. GloVe**
 
 The Global Vectors for Word Representation, or GloVe, algorithm is an extension to the word2vec method for efficiently learning word vectors. GloVe is an approach to marry both the global statistics of matrix factorization techniques like LSA with the local context-based learning in word2vec.
@@ -55,6 +93,27 @@ The Global Vectors for Word Representation, or GloVe, algorithm is an extension 
 Rather than using a window to define local context, GloVe constructs an explicit word-context or word co-occurrence matrix using statistics across the whole text corpus. The result is a learning model that may result in generally better word embeddings.
 
 The advantage of GloVe is that, unlike Word2vec, GloVe does not rely just on local statistics (local context information of words), but incorporates global statistics (word co-occurrence) to obtain word vectors.
+
+### **Implementation**
+
+```
+import spacy
+from sklearn.manifold import TSNE
+
+nlp = spacy.load('en_vecs')
+total_vectors = len(nlp.vocab.vectors)
+
+tsne = TSNE(n_components=2, random_state=0, n_iter=5000, perplexity=3)
+np.set_printoptions(suppress=True)
+T = tsne.fit_transform(word_glove_vectors)
+labels = unique_words
+
+plt.figure(figsize=(12, 6))
+plt.scatter(T[:, 0], T[:, 1], c='orange', edgecolors='r')
+for label, x, y in zip(labels, T[:, 0], T[:, 1]):
+    plt.annotate(label, xy=(x+1, y+1), xytext=(0, 0), textcoords='offset points')
+    
+```
 
 ### **References:**
 
