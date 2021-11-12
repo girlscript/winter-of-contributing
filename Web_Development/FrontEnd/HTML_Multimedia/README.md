@@ -1,16 +1,9 @@
 # HTML Multimedia
 Multimedia on the web is sound, music, videos, movies, and animations.
-
---------------------------
-
-
-### What is Multimedia?
-
-
 It can be anything you can hear or see, such as photos, music, sound, videos, records, films, animations, and so on. Web sites frequently incorporate multimedia content of various sorts and formats.
 
 
-### Multimedia Tags
+## Multimedia Tags
 HTML allows adding different multimedia files on your website by various multimedia tags. These tags include:
 
 
@@ -22,58 +15,16 @@ HTML allows adding different multimedia files on your website by various multime
 
 
 
-### Multimedia Formats
+## Multimedia Formats
 Media files include multimedia components such as audio and video. The file extension can be used to determine the file type.
 Multimedia files have formats and different extensions: .mp3, .mp4, .mpg, .swf, .wav, .mpg, .wmv, and .avi.
 
----------------------
 
+## The HTML Video Element
 
+-------
 
-### Video Formats 
-
-
-| FORMAT | FILE  | DESCRIPTION  |
-| :----- | :- | :- |
-| MPEG | .mpg .mpeg | The Moving Pictures Expert Group came up with this format. It was the first widely used video format on the internet. HTML5 does not support this. |
-| AVI(Audio Video Interleave) | .avi | This format was created by Microsoft. It is commonly found in television gear and video cameras. It runs smoothly on Windows PCs but not in web browsers. |
-| WMV(Windows Media Video) | .wmv | This format has been developed by Microsoft. It is normally used in TV hardware and video cameras. It plays well on Windows computers, but not in web browsers. |
-| QuickTime | 	.mov | This format was created by Apple. It is commonly found in television gear and video cameras. It works fine on Mac machines but not in web browsers. |
-| RealVideo | .rm .ram | Real Media created this format, which enables for low-bandwidth video streaming. It's still used for Internet TV and online video, but it doesn't work in web browsers. |
-| Flash | .swf .flv | This format was created by Macromedia. To play on a web browser, it is frequently necessary to install a plug-in. |
-| OggTheora Ogg | .ogg | This format was created by the Xiph.Org Foundation. HTML5 is compliant. |
-|WebM| .webm | Mozilla, Opera, Google, and Adobe collaborated to create this format. HTML5 is compliant. |
-|MPEG-4 or MP4| .mp4 | The Moving Pictures Expert Group came up with this format. It is commonly found in television gear and modern video cameras. YouTube has recommended this video. All HTML5 browsers support it. |
-
-
-
-## Audio Formats
-The newest format for compressed recorded music is MP3. This term is synonymous with digital music.
-
-| FORMAT | FILE  | DESCRIPTION  |
-| :----- | :- | :- |
-| MIDI (Musical Instrument Digital Interface) | .mid .midi | This is the standard format for all electronic music players (e.g. synthesisers and PC sound cards). MIDI files include digital notes that can be played by electronics, but no sound. It works great on musical instruments and PCs, but not on web browsers. |
-| RealAudio | .rm .ram | Allows for low-bandwidth audio streaming. It does not work on web browsers. |
-| WMA | .wma | Microsoft created this format, which is often used in music players. It runs smoothly on Windows PCs but not in web browsers. |
-| AAC | 	.aac | Apple created this format as the default format for iTunes. It works fine on Mac machines but not in web browsers. |
-| WAV | .wav | This format was created by IBM and Microsoft. It works nicely on Windows, Linux, and Macintosh computers. HTML5 is compliant. |
-| Ogg | .ogg .flv | This format was created by the Xiph.Org Foundation. HTML5 is compliant. |
-| MP3 | .mp3 | This is the most common music player format. The format offers great quality and good compression (compact files). Supported by all browsers. |
-|MP4| .mp4 | This is a video format, although it may also be used for audio. MP4 video is the internet's future video standard, with all browsers automatically supporting MP4 audio. |
-
----------
-
-  
-### Browser Support
-The main browsers have taken varied approaches to audio, video, and animation. They accept a variety of formats, although some of them require plug-ins to function.
-
-Multimedia will be handled more easily in the future thanks to HTML5.
-
-
-
-### The HTML Video Element
-
-To show a video in HTML, use the <video> element:
+To show a video in HTML, use the `<video>` element:
   
 ```html
 <video width="320" height="240" controls>
@@ -83,7 +34,60 @@ Your browser does not support the video tag.
 </video>
 ```
 
-### The HTML Audio Element
+### HTML `<VIDEO>` AUTOPLAY
+
+For starting a video automatically make use of the autoplay attribute:
+
+```html
+<video width="320" height="240" autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+```
+
+### How it works:-
+  
+The controls attribute is used to add video controls, like play, pause, and volume.
+It is a good method to always use width and height attributes.
+If height and width are not mentioned, the browser will not know the size of the video. The effect of this is that page will be changing (or flicker) while the video gets loaded.
+Text between the <video> and </video> tags will only get displayed in browsers which do not support the <video> element.
+Multiple <source> elements can be used to link different video files. The browser will be using the first recognized format.
+  
+  
+  
+  
+### Browser Support:-
+  
+  
+| BROWSER | MP4  | WebM  |  OGG  |
+| :----- | :- | :- | :- |
+| Internet Explorer | YES | NO | NO |
+| Chrome | YES | YES | YES |
+| Firefox | YES | YES | YES |
+| Safari | YES | NO | NO |
+| Opera | YES(from Opera 25) | YES | YES |
+  
+  
+  
+### HTML5 VIDEO TAGS:-
+  
+| Tag | Description  |
+| :----- | :- |
+| `<video>` | It is used to define a video or movie  |
+| `<source>` |It is used to define multiple media resources for various media elements, such as `<video>` and <audio>  |
+| `<track>` | It is used to define text tracks in media players  |
+  
+  
+-------
+  
+  
+## The HTML Audio Element
+  
+Before the arrival of HTML5, there was no standard present inorder to play audio files on a web page.
+Before the arrival of HTML5, audio files can be played with a help of a plug-in (like flash).
+The HTML5 `<audio>` element has specified a standard method to embed audio in a web page.
+  
 To play an audio file in HTML, use the `<audio>` element:
   
 ```html
@@ -93,5 +97,199 @@ To play an audio file in HTML, use the `<audio>` element:
 Your browser does not support the audio element.
 </audio>
 ```
+  
+  
+### How it works:-
+  
+The controls attribute is used to add audio controls, like play, pause, and volume.
+Text between the <audio> and </audio> tags will be displayed in browsers which does not support the <audio> element.
+Multiple <source> elements can be linked to different audio files. The browser will be using the first recognized format.
+
+
+### Browser Suppor:-
+  
+  
+| BROWSER | MP4  | WebM  |  OGG  |
+| :----- | :- | :- | :- |
+| Internet Explorer | YES | NO | NO |
+| Chrome | YES | YES | YES |
+| Firefox | YES | YES | YES |
+| Safari | YES | YES | NO |
+| Opera | YES(from Opera 25) | YES | YES |
+  
+  
+### HTML Audio- Metho, Properties and Events:-
+
+HTML5 is used to define DOM methods, properties, and events for the <audio> element.
+This will allow you to load, play, and pause audios, and also set time duration and volume.
+Other DOM events are also available which can notify you regarding the audio ie when it will begin to play, is paused, etc.
+To have a look at full DOM reference, you can go to DOM Reference of our HTML5 Audio/Video.
+
+  
+  
+### HTML5 AUDIO TAGS:-
+  
+| Tag | Description  |
+| :----- | :- |
+| `<audio>` | Defines sound content  |
+| `<source>` |Defines multiple media resources for media elements, such as `<video>` and `<audio>` |
+  
+Multimedia will be handled more easily in the future thanks to HTML5.
+
+------------
+  
+# Embed Multimedia
+
+* `<embed>`
+* `<object>`
+* `<bgsound>`
+
+Embed multimedia is nothing but adding media files(video, audios) to the HTML document. HTML allows adding multimedia to the HTML page. 
+There are three ways of adding multimedia to HTML document.
+  
+| Tag | Description  |
+| :----- | :- |
+| `<embed>` | Embedding an external application or content into the current HTML documents |
+| `<object>`| Embedded object or external object in an HTML documents |
+| `<bgsound>`| used to insert a background audio track in an HTML Page | 
+
+  
+## `<embed>`
+ 
+  
+Embedding an external application or content into the current HTML documents.
+The `<embed>` tag is used to insert an external application or content into an HTML document.
+  
+The tag can be specified like <embed src="" type=""> with the URL of the embedded resource added to the src attribute. 
+Most of the browsers have supported the <embed> tag for a long time. <embed> tag has no content and therefore does not warrant a closing tag.
+
+### Syntax
+
+```html
+  <embed>.. text here.. </embed>
+```
+  
+Below media types can be used inside embed tag.  
+ 
+* .swf files  - Macromedia's Flash program.
+* Avi files   - Audio Video Interleaved.
+* wmv files  - Microsoft's Window's Media Video file types.
+* .mov files  - Apple's Quick Time Movie format.
+* .mpeg files  - Moving Pictures Expert Group.
+  
+  
+## Operational Attributes -
+  
+| Attribute | Description  | values  |
+| :----- | :- | :- |
+| height | Specifies the height of the plug-in.  | Number in pixels. |
+| src | Specifies the embedded resource location. | URL |
+| type | Specifies the linked resource type | type |
+| width | Specifies the width of the plug-in.  | Number in pixels. |
+
+  
+  
+### Example-
+ 
+```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Embed tag example..</title>
+    </head>
+    <body>
+      <embed src="img/logo.png" height="120px" weight="300px">
+    </body>
+  </html>
+  ```
+
+  ---------------
+  
+## `<object>`
+  
+Embedded object or external object in an HTML documents. The <object> tag represents an embedded object in an HTML document.
+External object can be an image, external resource and plugin etc,. The tag can be specified like `<object type=""></object>` or `<object data=""></object>`.
+
+Type and data attributes are mandatory and atleast one of the attribute is needed along with `<object>` tag. `<object>` tag can be used to embed multimedia also in to the HTML document. `<object>` tag can be used to embed another webpage also in to the HTML document.
+  
+An `<object>` element should be coded inside the `<body>` element. 
+The text between the `<object>` and `</object>` is an fallback text. Objects are no longer appear inside the `<head>` element of a document in HTML5.
+
+
+ ### Syntax
+
+```html
+  <object>…. </object>
+``` 
+  
+### Example
+
+```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Object tag example..</title>
+    </head>
+    <body>
+      <embed height="120px" weight="300px" data="img/logo.png">
+      Browser do not support object tag
+    </body>
+  </html>
+```
+  
+--------------
+  
+## `<bgsound>`
+
+The `<bgsound>` element was used to insert a background audio track in an HTML Page.
+The `<bgsound>` element was introduced by Microsoft into the Internet Explorer browser. 
+  
+So no other browsers are supports the <bgsound> tag. It allowed web designers to add a background audio loop to a website in internet explorer.
+It is no longer supported.
+  
+This feature is non-standard and is not on a standards track.
+The `<audio>` element can be used to add background sounds instead of `<bgsound>` tag. But it has autoplay attribute and can’t be disabled.
+  
+
+## Operational Attributes -
+  
+| Attribute | Description  | 
+| :----- | :- | 
+| Balance |Defines the volume divided between the speakers.The values in between -10000 to +10000  | 
+| loop | The attribute indicates the number of times a sound is to be playedThe values are numbers or “infinite” | 
+| src | Specifies the URL of the sound file. | 
+| volume | Specifies the loudnessThe value is between -10000 and 0 |
+  
+  
+### Syntax
+
+```html
+  <bgsound>…. </bgsound>
+``` 
+  
+### Example
+
+```html
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Bgsound tag example..</title>
+    </head>
+    <body>
+      <bgsound src="audio/new.png">
+    </body>
+  </html>
+``` 
+  
+  
+  
+  
+  
+
+
+
+
+
+
 
 
