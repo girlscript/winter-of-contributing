@@ -7,6 +7,4 @@ You can take 2-3 examples with codes of different types to explain this. -->
 
 # History Mode in routes in Vue.js
 
-The default mode for the vue-router is hash(#) mode, as it uses the URL hash to simulate a full URL so that the page won’t be reloaded when the URL changes.
-
-To get rid of the hash mode, we can use the router’s history mode, which leverages the history.pushState API to achieve URL navigation without a page reload.
+The **history** option when creating the router instance allows us to choose among different history modes. We can set Vue Router to history mode to get rid of the hash. It uses ``` history.pushState ``` API to let us navigate URLs without a page reload.
