@@ -40,7 +40,7 @@
 
 - [What is this life saving feature ?](5.Understanding_ownership/introduction.org)
 - [**Borrowing & Refrences**](5.Understanding_ownership/ref_and_borrowing.org)
-- [**Slice Type**]()
+- [**Slice Type**](5.Understanding_ownership/slice.org)
 
 ### 6. Structs , Enums & Patterns :
 
