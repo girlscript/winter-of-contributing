@@ -2,4 +2,4 @@
 
 - [Red Black Trees](RedBlackTrees)
 - [Flatten Binary Tree](FlattenBinaryTree.md)
-- [LCA of a Binary Tree](C_CPP/Data Structures/Trees/LCAofBinaryTree.md)
+- [LCA of a Binary Tree](./LCAofBinaryTree.md)
