@@ -5,5 +5,5 @@ Index
 - [0/1 Knapsack](DP_Knapsack.md)
 - [Bellman Ford Algorithm](BellmanFordAlgorithm.md)
 - [Traveling Salesman Problem(TSP)](TSP.md)
-- [Warshall'sAlgorithm](Warshall's Algorithm.md)
+- [Warshall'sAlgorithm](Warshall's_Algorithm.md)
 
