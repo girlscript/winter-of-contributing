@@ -13,7 +13,8 @@
 <p> 
 Image result for single shot detector in machine learning
 Single Shot detector like YOLO takes only one shot to detect multiple objects present in an image using multibox. It is significantly faster in speed and high-accuracy object detection algorithm. A quick comparison between speed and accuracy of different object detection models on VOC2007</p><br><br>
-## Architecture of SSD model
+
+### Architecture of SSD model
 
 <p>
 The SSD model is made up of 2 parts namely
@@ -45,14 +46,14 @@ Here we use different grid sizes to detect objects of different sizes, for examp
 The multi-scale feature maps are added to the end of the truncated backbone model. These multi-scale feature maps reduce in size progressively, which allows the detections at various scales of the image. The convolutional layers used here vary for each feature layer.
 </p>
 <br>
-<br>
+
 
 ## Detection using the convolutional predictors
 <pr>
 The addition of each extra layer produces a fixed number of predictions using the convolutional filters in them. These additional layers are shown at the top of the model in the given diagram below. For example, a feature layer of size m x n with p channels, the minimal prediction parameter that gives a decent detection is a 3 x 3 x p small kernel. Such kernel gives us the score for a category or a shape offset relative to the default box coordinates.
 </p>
 <br>
-<br>
+
 
 ## Single-Shot Detector (SSD)
 <p>
@@ -62,10 +63,9 @@ In the figure below, the first few layers (white boxes) are the backbone, the la
 </p>
 <br>
 
-<img src="https://user-images.githubusercontent.com/70129990/141645693-ff833425-83eb-495d-8467-6b226fe65191.png
-">
+<img src="https://user-images.githubusercontent.com/70129990/141645693-ff833425-83eb-495d-8467-6b226fe65191.png">
 <br>
-<br>
+
 ## Grid cell
  <p>
 Instead of using sliding window, SSD divides the image using a grid and have each grid cell be responsible for detecting objects in that region of the image. Detection objects simply means predicting the class and location of an object within that region. If no object is present, we consider it as the background class and the location is ignored. For instance, we could use a 4x4 grid in the example below. Each grid cell is able to output the position and shape of the object it contains.
@@ -74,7 +74,7 @@ Instead of using sliding window, SSD divides the image using a grid and have eac
 ">
  </p>
  <br>
- <br>
+ 
 ## Anchor box
 <p>
 Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These anchor boxes are pre-defined and each one is responsible for a size and shape within a grid cell. For example, the swimming pool in the image below corresponds to the taller anchor box while the building corresponds to the wider box.
@@ -83,7 +83,7 @@ Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These an
 ">
 </p>
 <br>
- <br>
+
 ## Aspect ratio
 <p>
 Not all objects are square in shape. Some are longer and some are wider, by varying degrees. The SSD architecture allows pre-defined aspect ratios of the anchor boxes to account for this. The ratios parameter can be used to specify the different aspect ratios of the anchor boxes associates with each grid cell at each zoom/scale level.
@@ -92,7 +92,7 @@ Not all objects are square in shape. Some are longer and some are wider, by vary
 
   </p>
 <br>
- <br>
+
   
   
 ## Difference between YOLO and SSD
@@ -102,7 +102,7 @@ The You look only once (YOLO) model is a predecessor to the SSD model, it also d
 The SSD produces an average of 8732 detections per class while the YOLO produces only 98 predictions per class. An SSD with a 300 x 300 inputs size significantly outperforms a 448 x 448 YOLO counterpart in accuracy as well as speed in the VOC2007 test.
 </p>
 <br>
- <br>
+ 
  
  ## References
  <pr>
