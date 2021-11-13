@@ -2,3 +2,4 @@
 - [Overloading Unary Operator Using 'friend' Functions](overloading-unary-operator.md)
 - [Overloading Binary Operators Using 'friend' Functions](overloading-binary-operator.md)
 - [Overloading Unary Operators Using Member Functions](overloading-unary-operators-using-member-functions.md)
+- [Overloading Binary Operators Using Member Functions](overloading-binary-operator-using-member-function.md)
