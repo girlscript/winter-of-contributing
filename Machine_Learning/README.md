@@ -15,7 +15,7 @@
    - **1.3. Central Limit Theorem**
    - **1.4. Variance, Standard Deviation, Expectation**
    - **1.5. Probability Distributions (Gaussian, Standard, Poisson)**
-   - **1.6. Maximum Likelyhood Estimation**
+   - **1.6. Maximum Likelihood Estimation**
    - **1.7. Parzen Windows**
    - **1.8. A/B Testing**
    - **1.9. Hypothesis Testing**
