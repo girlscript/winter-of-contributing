@@ -1,3 +1,5 @@
+## Index
+
 - [Stacks](Stacks.md)
 - [Stack using Array](./stack_using_arrays.cpp)
 - [Stack using Linked List](./stack_using_linked_list.cpp)
@@ -5,4 +7,6 @@
 - [Stack Audio](./Stack_Audio.md)
 - [Valid Brackets](Valid%20Brackets/valid_brackets.md)
 - [Stack Video](./Stack_Video.md)
+- [Infix to Postfix using Stack](./infixToPostfix.md)
 - [Stack Important Questions](stacks%20important%20questions.md)
+
