@@ -8,7 +8,7 @@
 *********************************************************************
 ### Single shot detectors
 
-<img align="center" src="![image](https://user-images.githubusercontent.com/70129990/141645139-063bc8a4-359f-45ce-bec9-409ae82f268a.png)">
+<img align="center" src="https://user-images.githubusercontent.com/70129990/141645139-063bc8a4-359f-45ce-bec9-409ae82f268a.png">
 <br>
 <p> 
 Image result for single shot detector in machine learning
@@ -20,6 +20,7 @@ Single Shot detector like YOLO takes only one shot to detect multiple objects pr
 The SSD model is made up of 2 parts namely
 <br>
 1. The backbone model
+  <br>
 2. The SSD head.
 <br>
 The Backbone model is a typical pre-trained image classification network that works as the feature map extractor. Here, the image final image classification layers of the model are removed to give us only the extracted feature maps.
