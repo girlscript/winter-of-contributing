@@ -113,6 +113,9 @@
 </html>
 
 ```
+### Output video for proper understanding of HTML Bookmark
+
+[Watch the video](https://user-images.githubusercontent.com/78864134/141610461-625c5bb6-f4fe-4886-b90e-dbbb447598bb.mp4)
 
 ## References
 
