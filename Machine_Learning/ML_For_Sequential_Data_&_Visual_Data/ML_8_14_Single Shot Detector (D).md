@@ -65,8 +65,7 @@ SSD has two components: a backbone model and SSD head. Backbone model usually is
 In the figure below, the first few layers (white boxes) are the backbone, the last few layers (blue boxes) represent the SSD head.
 </p>
 <br>
-<img  src="![image](https://user-images.githubusercontent.com/70129990/141646867-d6ac8a9d-a3ed-4873-ad7f-470d3f93a081.png)
-" style="width:900px;"/>
+<img  src="https://user-images.githubusercontent.com/70129990/141646867-d6ac8a9d-a3ed-4873-ad7f-470d3f93a081.png" style="width:900px;"/>
 
 <br>
 
