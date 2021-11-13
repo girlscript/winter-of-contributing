@@ -19,9 +19,10 @@ Single Shot detector like YOLO takes only one shot to detect multiple objects pr
 <p>
 The SSD model is made up of 2 parts namely
 <br>
-1. The backbone model
+
+<li>1. The backbone model
   <br>
-2. The SSD head.
+<li>2. The SSD head.
 <br>
 The Backbone model is a typical pre-trained image classification network that works as the feature map extractor. Here, the image final image classification layers of the model are removed to give us only the extracted feature maps.
 <br>
@@ -63,24 +64,27 @@ SSD has two components: a backbone model and SSD head. Backbone model usually is
 In the figure below, the first few layers (white boxes) are the backbone, the last few layers (blue boxes) represent the SSD head.
 </p>
 <br>
-<img align="center" src=""https://user-images.githubusercontent.com/70129990/141646129-eff6e3d6-4dc4-4c2b-9f8e-592bb1842b1b.png">
+<img align="center" src="![image](https://user-images.githubusercontent.com/70129990/141646253-d6e316b7-45a3-419d-9cf1-514a0431fcf5.png)
+">
 
 <br>
 
 ## Grid cell
  <p>
-Instead of using sliding window, SSD divides the image using a grid and have each grid cell be responsible for detecting objects in that region of the image. Detection objects simply means predicting the class and location of an object within that region. If no object is present, we consider it as the background class and the location is ignored. For instance, we could use a 4x4 grid in the example below. Each grid cell is able to output the position and shape of the object it contains.
+Instead of using sliding window, SSD divides the image using a grid and have each grid cell be responsible for detecting objects in that region of the image. Detection objects simply means predicting the class and location of an object within that region. If no object is present, we consider it as the background class and the location is ignored.
 
- <img src="https://user-images.githubusercontent.com/70129990/141645697-82f9fd23-7184-4703-a0cf-44ac11434b74.png
+ <img src="![image](https://user-images.githubusercontent.com/70129990/141646276-44c1a9e9-b545-404a-988c-05c4dfec5168.png)
+
 ">
  </p>
  <br>
  
 ## Anchor box
 <p>
-Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These anchor boxes are pre-defined and each one is responsible for a size and shape within a grid cell. For example, the swimming pool in the image below corresponds to the taller anchor box while the building corresponds to the wider box.
+Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These anchor boxes are pre-defined and each one is responsible for a size and shape within a grid cell. 
 
-  <img src="https://user-images.githubusercontent.com/70129990/141645705-787572cc-8387-4e17-8634-5367eb32a906.png
+  <img src="![image](https://user-images.githubusercontent.com/70129990/141646319-9c7601b4-89de-4ae9-82cc-ce67b09fdffe.png)
+
 ">
 </p>
 <br>
@@ -88,9 +92,7 @@ Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These an
 ## Aspect ratio
 <p>
 Not all objects are square in shape. Some are longer and some are wider, by varying degrees. The SSD architecture allows pre-defined aspect ratios of the anchor boxes to account for this. The ratios parameter can be used to specify the different aspect ratios of the anchor boxes associates with each grid cell at each zoom/scale level.
- <br>
-<img src="https://user-images.githubusercontent.com/70129990/141645723-fd6ae2b0-b910-4a4d-886c-7f2094ce3a22.png
-">
+
 
   </p>
 <br>
@@ -125,7 +127,7 @@ The SSD produces an average of 8732 detections per class while the YOLO produces
   </p>
   
 <br>
- <br>
+
   
   
   
@@ -141,7 +143,7 @@ The SSD model is one of the fastest and efficient object detection models for mu
   
   
   
-  ### GirlScript Winter of Contributions 2021
+## GirlScript Winter of Contributions 2021
   
   
   
