@@ -7,7 +7,7 @@
 ### 📌 Contents :
 
 |Sl. no.|Project Title|Aim of the Project|Project Folder|
-|:-:|:-:|:--|:-:|
+|:-:|:-:|---|:-:|
 | 01 | **Kaggle's Titanic Prediction** | Use machine learning to create a model that predicts which passengers survived the Titanic shipwreck. | - |
 | 02 | **House Price Prediction**| This project predicts the prices of houses located in the cities of the US, with the help of essential features. | - |
 | 03 | **Wine Quality Prediction**| This model predicts the quality of wine based on some features like pH, fixed acidity, citric acid etc. using SVM and Random forest algorithm. | - |
