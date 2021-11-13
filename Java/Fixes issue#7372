@@ -1,0 +1,442 @@
+
+MULTIDIMENSIONAL ARRAYLIST:---
+-------------------------------
+
+It is a collection of group of objects where each group can have any number of objects stored dynamically. Hence, here we can store any number of elements in a group whenever we want.
+In Java we have Collection framework which provides functionality to store multidimensional Array List which is commonly called Multidimensional Collections (or Nested Collections)
+The most common and the simplest form of Multidimensional Array Lists used is 2-D Array Lists. In this article, we'll dive deeper into it, studying about its implementation, advantages and disadvantages.
+
+2-D Array List
+A two dimensional array list can be seen as an array list of an array list. Here also, we do not need to predefine the size of rows and columns. When it is filled completely, the size increases automatically to store the next element.
+
+Implementation
+It is a generic class already defined in java. We just need to import it using -
+import java.util.ArrayList;
+Syntax
+The following are diiferent ways to initialize a 2D ArrayList:
+
+import java.util.ArrayList;
+
+public class TwoDimensionalArrayLists{
+    public static void main(String args[]) {
+        ArrayList<ArrayList<Integer> > arrLL = new ArrayList<ArrayList<Integer> >();
+    }
+}
+Here, a 2D arraylist is created.
+
+Methods
+Java 2D ArrayLists has various methods such as
+
+1.<ArrayList_name>.add(Object element) : It helps in adding a new row in our existing 2D arraylist where element is the element to be added of datatype of which ArrayList created.
+2.<ArrayList_name>.add(int index, Object element) : It helps in adding the element at a particular index.
+3.<ArrayList_name>.get(int index) : It helps in getting the index of the ArrayList where the required element is to be added.
+4.<ArrayList_name>.get(int index).indexOf(Object element): It helps in finding the index of particular element in our ArrayList in a particular row.
+5.<ArrayList_name>.remove(int row) : It helps in removing a particular row from our ArrayList.
+6.<ArrayList_name>.get(int row).remove(int index) : It helps in deleting an element present at a particular index of ArrayList in a given row.
+7.<ArrayList_name>.contains (Object element) : It helps in checking whether a particular element is present in a particular row.
+8.<ArrayList_name>.get(int index).lastIndexOf(Object element) : It helps in finding the last index whether the given element is present in our ArrayList.
+
+Advantages
+Array Lists have many advantages like,
+
+We don't have to specify size at the time of creation. 2D arraylist is a dynamic version of 2D arrays.
+It helps in reducing Space Complexity which is very important for competitive programmers.
+It is available in Java Collections Framework (STL library). So, it helps in reducing number of lines of code.
+Applications
+It can be used to implement a graph where edges of the graph can be represented by 2D ArrayLists and can be stored in ArrayList of ArrayLists.
+It is used by competitive coders to solve various types of problems.
+
+
+SINGLE DIMENSIONAL ARRAYLIST :---
+-------------------------------
+
+ArrayList Class In Java
+The ArrayList data structure in Java is represented by the ArrayList class which is a part of the “java.util” package.
+
+The hierarchy for the ArrayList class is shown below.
+
+Hierarchy for the ArrayList class
+
+As you can see, the ArrayList class implements the List interface which in turn extends from the Collection interface.
+
+The general definition of the ArrayList class is given below:
+
+public class ArrayList<E>
+extends AbstractList<E>
+implements List<E>,RandomAccess, Cloneable, Serializable
+Here are some of the distinguishing characteristics of ArrayList:
+
+The ArrayList class of Java stores elements by maintaining the insertion order.
+The ArrayList allows duplicate elements stored in it.
+ArrayList is not synchronized, the major point that differentiates the ArrayList from Vector class in Java.
+ArrayList in Java is more identical to Vectors in C++.
+The ArrayList in Java also uses indices like arrays and supports random access.
+The operations that manipulate elements in the ArrayList are slow as a lot of shifting of elements needs to be done if any element is to be removed from the ArrayList.
+The ArrayList class cannot contain primitive types but only objects. In this case, we usually call it as ‘ArrayList of objects’. So if you want to store integer type of elements, then you have to use the Integer object of the wrapper class and not primitive type int.
+Create And Declare ArrayList
+
+In order to use the ArrayList class in your program, you need to include it first in your program using the ‘import’ directive as shown below:
+
+import java.util.ArrayList;
+OR
+
+import java.util.*;     //this will include all classes from java.util package
+Once you import the ArrayList class in your program, you can create an ArrayList object.
+
+The general ArrayList creation syntax is:
+
+ArrayList<data_type> arrayList = new ArrayList<> ();
+Apart from the above statement that uses default constructor, the ArrayList class also provides other overloaded constructors that you can use to create the ArrayList.
+
+Constructor Methods
+The ArrayList class in Java provides the following constructor methods to create the ArrayList.
+
+Method #1: ArrayList()
+This method uses the default constructor of the ArrayList class and is used to create an empty ArrayList.
+
+The general syntax of this method is:
+
+ArrayList<data_type> list_name = new ArrayList<>();
+For Example, you can create a generic ArrayList of type String using the following statement.
+
+ArrayList<String> arraylist = new ArrayList<>();
+This will create an empty ArrayList named ‘arraylist’ of type String.
+
+Method #2: ArrayList (int capacity)
+This overloaded constructor can be used to create an ArrayList with the specified size or capacity provided as an argument to the constructor.
+
+The general syntax for this method is:
+
+ArrayList<data_type> list_name = new ArrayList<>(int capacity);
+Example:
+
+ArrayList<Integer> arraylist = new ArrayList<>(10);
+The above statement creates an empty ArrayList named ‘arraylist’ of type Integer with capacity 10.
+
+Method #3: ArrayList (Collection<? Extends E> c)
+The third overloaded constructor for the ArrayList class takes an already existing collection as an argument and creates an ArrayList with the elements from the specified collection c as its initial elements.
+
+The general syntax for the ArrayList initialization using this constructor is:
+
+ArrayList<data_type> list_name = new ArrayList<> (Collection c)
+For Example, if intList is an existing collection with elements {10,20,30,40,50}, then the following statement will create a list ‘arraylist’ with the contents of intList as its initial elements.
+
+ArrayList<Integer> ArrayList = new ArrayList<>(intList);
+The ArrayList class also supports various methods that can be used to manipulate the contents of the list. We will discuss these methods in detail in our upcoming tutorial “ArrayList methods in Java”.
+
+Initialize ArrayList In Java
+Once the ArrayList is created, there are multiple ways to initialize the ArrayList with values. In this section, we will discuss these ways.
+
+#1) Using Arrays.asList
+Here, you can pass an Array converted to List using the asList method of Arrays class to initialize the ArrayList.
+
+General Syntax:
+
+ArrayList<data_type> arrayListName = new ArrayList<data_type>(
+            Arrays.asList (Object o1, Object o2, …, Object on));
+Example:
+
+import java.util.*;
+ 
+public class Main {
+   public static void main(String args[]) {
+      //create and initialize ArrayList object myList with Arrays.asList method
+     ArrayList<String> myList = new ArrayList<String>(
+     Arrays.asList("One", "Two", "Three"));
+     //print the ArrayList
+     System.out.println("List contents:"+myList);
+   }
+}
+Output:
+
+Initialize ArrayList in Java
+
+#2) Using Anonymous inner class Method
+Here we use the anonymous inner class to initialize the ArrayList to values.
+
+The general syntax for using an anonymous inner class for ArrayList initialization is as follows:
+
+ArrayList<data_type>arraylistName = new ArrayList<data_type>(){{
+			add(Object o1); add (Object o2);…
+			add (Object on);}};
+Example:
+
+import java.util.*;
+public class Main {
+   public static void main(String args[]) {
+       //create and initialize ArrayList with anonymous inner class calls
+       ArrayList<String> colors = new ArrayList<String>(){{
+        add("Red");
+        add("Blue");
+        add("Purple");
+           }};
+      //print the ArrayList
+    System.out.println("Content of ArrayList:"+colors);
+   }
+}
+Output:
+
+Using Anonymous inner class method
+
+#3) Using add Method
+This is the common method to add elements to any collection.
+
+The general syntax for using add method to add elements to ArrayList is:
+
+ArrayList<data_type>ArraylistName = new ArrayList<data_type>();
+ArraylistName.add(value1);
+ArraylistName.add(value2);
+ArraylistName.add(value3);
+Programming Example:
+
+import java.util.*;
+public class Main {
+   public static void main(String args[]) {
+       //create ArrayList 
+       ArrayList<String> colors = new ArrayList<String>();
+       //add elements to the ArrayList using add method
+       colors.add("Red");
+       colors.add("Green");
+       colors.add("Blue");
+       colors.add("Orange");
+       //print the ArrayList
+       System.out.println("Content of ArrayList:"+colors);
+   }
+Output:
+
+Using add method
+
+#4) Using Collection.nCopies Method
+This method is used to initialize the ArrayList with the same values. We provide the count of elements to be initialized and the initial value to the method.
+
+The general syntax of initialization is:
+
+ArrayList<data_type> arrayListName = new 				
+	ArrayList<data_type>(Collections.nCopies(count, element));
+The below example demonstrates Array initialization using Collections.nCopies method.
+
+import java.util.*;
+public class Main {
+   public static void main(String args[]) {
+       //create ArrayList with 10 elements 
+       //initialized to value 10 using Collections.nCopies
+       ArrayList<Integer> intList = new ArrayList<Integer>(Collections.nCopies(10,10));
+     
+      //print the ArrayList
+    System.out.println("Content of ArrayList:"+intList);
+   }
+}
+Output:
+
+Using Collection.nCopies method
+
+Iterating Through ArrayList
+We have the following ways to traverse through or loop through the ArrayList:
+
+Using for loop
+By for-each loop (enhanced for-loop).
+Using the Iterator interface.
+By ListIterator interface.
+By forEachRemaining() method.
+In fact, these methods are used to iterate through collections in general. We will see examples of each of the methods with respect to ArrayList in this tutorial.
+
+#1) Using for loop
+An index-based for loop can be used to traverse the ArrayList and print its elements.
+
+Following is an example to traverse and print the ArrayList using for loop.
+
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args) {
+        //create a list
+        List<Integer> intList  = new ArrayList<>();
+        intList.add(10);
+        intList.add(20);
+        intList.add(30);
+        intList.add(40);
+        intList.add(50);
+       //create & initialize a new ArrayList with previous list
+        ArrayList<Integer> arraylist = new ArrayList<>(intList);
+        System.out.println("Contents of ArrayList using for-loop:");
+        //use for loop to traverse through its elements and print it
+        for(int i=0;i<intList.size();i++){
+               System.out.print(intList.get(i) + " ");
+        }
+    }
+}
+Output:
+
+By forEachRemaining() method
+
+This is the simplest and easiest way to traverse and print the elements of ArrayList and works the same way in case of other collections as well.
+
+#2) By for-each loop (enhanced for loop)
+You can also traverse the ArrayList using a for-each loop or the enhanced for loop. Prior to Java 8, it did not include lambda expressions. But from Java 8 onwards, you can also include Lambda expressions in the for-each loop.
+
+Further reading =>> How to use Lambda Expressions in Python
+
+The program below demonstrates the traversal and printing of ArrayList using for each loop and lambda expression.
+
+import java.util.*;
+public class Main
+{
+    public static void main(String[] args) {
+        //create a list
+        List<Integer> intList  = new ArrayList<>();
+        intList.add(10);
+        intList.add(20);
+        intList.add(30);
+        intList.add(40);
+        intList.add(50);
+       //create & initialize a new ArrayList with previous list
+        ArrayList<Integer> arraylist = new ArrayList<>(intList);
+        System.out.println("Contents of ArrayList using for-each loop:");
+       //use for-each loop to traverse through its elements and print it
+         intList.forEach(val ->{
+       System.out.print(val + " ");
+        });
+      }
+}
+Output:
+
+By for-each loop
+
+#3) Using Iterator Interface
+We have seen the Iterator interface in detail in our previous topics. Iterator interface can be used to iterate through the ArrayList and print its values.
+
+The following program shows this.
+
+import java.util.*;
+ 
+public class Main
+{
+    public static void main(String[] args) {
+        //create a list
+        List<Integer> intList  = new ArrayList<>();
+        intList.add(5);
+        intList.add(10);
+        intList.add(15);
+        intList.add(20);
+        intList.add(25);
+        //create & initialize a new ArrayList with previous list
+        ArrayList<Integer> arraylist = new ArrayList<>(intList);
+       System.out.println("Contents of ArrayList using Iterator interface:");
+     //Traverse through the ArrayList using iterator
+    Iterator iter=arraylist.iterator();  
+       while(iter.hasNext()){  
+            System.out.print(iter.next() + " ");  
+       }  
+       }
+}
+Output:
+
+Using Iterator interface
+
+#4) By ListIterator Interface
+You can also traverse the ArrayList using ListIterator. ListIterator can be used to traverse the ArrayList in forward as well as backward direction.
+
+Let’s implement a Java program that demonstrates an example of using ListIterator.
+
+import java.util.*;  
+class Main{  
+  public static void main(String args[]){  
+    //create a list and initiliaze it 
+    List<String> colors_list=new ArrayList<String>();//Creating arraylist
+    colors_list.add("Red");  
+    colors_list.add("Green");  
+    colors_list.add("Blue");  
+    colors_list.add("Cyan");
+    colors_list.add("Magenta");
+    colors_list.add("Yellow");
+    System.out.println("The contents of the list using ListIterator:");
+    //Traverse the list using ListIterator 
+   ListIterator<String> color_iter=colors_list.listIterator(colors_list.size());  
+      while(color_iter.hasPrevious())  
+        {  
+            String str=color_iter.previous();  
+            System.out.print(str + " ");  
+        }    
+ }  
+}  
+Output:
+
+By ListIterator interface
+
+As you can see from the output, in the above program the ArrayList is traversed in backward direction using hasPrevious () and previous () methods of ListIterator.
+
+#5) By forEachRemaining () Method
+This is one of the methods to traverse the ArrayList and is available since Java 8.
+
+The following program demonstrates the forEachRemaining () method to traverse ArrayList.
+
+import java.util.*;  
+class Main{  
+  public static void main(String args[]){  
+    //create a list and initiliaze it 
+    List<String> colors_list=new ArrayList<String>();  
+    colors_list.add("Red");  
+    colors_list.add("Green");  
+    colors_list.add("Blue");  
+    colors_list.add("Cyan");
+    colors_list.add("Magenta");
+    colors_list.add("Yellow");
+    System.out.println("The contents of the list using forEachRemaining() method:");
+    //Traverse the list using forEachRemaining () method 
+    Iterator<String> itr=colors_list.iterator();  
+        itr.forEachRemaining(val-> //lambda expression  
+          {  
+            System.out.print(val + " ");  
+          });  
+ }  
+}  
+Output:
+
+By forEachRemaining () method
+
+We use the forEachRemaining () method along with an Iterator. It is similar to each and we use lambda expression inside this method.
+
+ArrayList Java Example
+In this section, we will see the ArrayList implementation in Java. As an example, we will implement a complete example from creating, initializing and using Java ArrayList to perform various manipulations.
+
+import java.util.ArrayList;
+class Main {
+   public static void main(String[] args) {
+    //Creating a generic ArrayList
+    ArrayList<String> newList = new ArrayList<String>();
+    //Size of arrayList
+    System.out.println("Original size of ArrayList at creation: " + newList.size());
+    //add elements to it
+    newList.add("IND");
+    newList.add("USA");
+    newList.add("AUS");
+    newList.add("UK");
+ 
+    //print the size after adding elements
+    System.out.println("ArrayList size after adding elements: " + newList.size());
+ 
+    //Print ArrayList contents
+    System.out.println("Contents of the ArrayList: " + newList);
+ 
+    //Remove an element from the list
+    newList.remove("USA");
+    System.out.println("ArrayList contents after removing element(USA): " + newList);
+ 
+    //Remove another element by index
+    newList.remove(2);
+    System.out.println("ArrayList contents after removing element at index 2: " + newList);
+ 
+    //print new size
+    System.out.println("Size of arrayList: " + newList.size());
+    //print list contents
+    System.out.println("Final ArrayList Contents: " + newList);
+ }
+}
+Output:
+Original size of ArrayList at creation: 0
+ArrayList size after adding elements: 4
+Contents of the ArrayList: [IND, USA, AUS, UK]
+ArrayList contents after removing element(USA): [IND, AUS, UK]
+ArrayList contents after removing element at index 2:[IND, AUS]
+Size of arrayList: 2
+Final ArrayList Contents: [IND, AUS]
