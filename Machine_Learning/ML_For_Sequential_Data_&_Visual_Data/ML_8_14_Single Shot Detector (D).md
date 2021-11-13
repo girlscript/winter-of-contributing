@@ -12,7 +12,7 @@
 <br>
 <p> 
 Image result for single shot detector in machine learning
-Single Shot detector like YOLO takes only one shot to detect multiple objects present in an image using multibox. It is significantly faster in speed and high-accuracy object detection algorithm. A quick comparison between speed and accuracy of different object detection models on VOC2007</p><br><br>
+Single Shot detector like YOLO takes only one shot to detect multiple objects present in an image using multibox. It is significantly faster in speed and high-accuracy object detection algorithm. A quick comparison between speed and accuracy of different object detection models on VOC2007</p><br>
 
 ### Architecture of SSD model
 
@@ -71,7 +71,7 @@ In the figure below, the first few layers (white boxes) are the backbone, the la
 ## Grid cell
  <p>
 Instead of using sliding window, SSD divides the image using a grid and have each grid cell be responsible for detecting objects in that region of the image. Detection objects simply means predicting the class and location of an object within that region. If no object is present, we consider it as the background class and the location is ignored.
-
+<br>
  <img src="https://user-images.githubusercontent.com/70129990/141646276-44c1a9e9-b545-404a-988c-05c4dfec5168.png">
  </p>
  <br>
@@ -79,7 +79,7 @@ Instead of using sliding window, SSD divides the image using a grid and have eac
 ## Anchor box
 <p>
 Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These anchor boxes are pre-defined and each one is responsible for a size and shape within a grid cell. 
-
+<br>
 <img src="https://user-images.githubusercontent.com/70129990/141646319-9c7601b4-89de-4ae9-82cc-ce67b09fdffe.png">
 </p>
 <br>
