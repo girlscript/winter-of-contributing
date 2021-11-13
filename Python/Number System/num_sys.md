@@ -16,16 +16,16 @@ In our day to day life we are using numbers which comprises of 10 different symb
   (1010.01)2 <br>
   1x2<sup>3</sup> + 0x2<sup>2</sup> + 1x2<sup>1</sup>+ 0x2<sup>0</sup> + 0x2<sup>-1</sup> + 1x2<sup>-2</sup> = 8+0+2+0+0+0.25 = 10.25 <br>
   (1010.01)<sub>2</sub> = (10.25)<sub>10</sub> <br> 
- - To convert **decimal to binary** we have to repeteadly divide the number by 2 and print the remainder in reverse order . For example:- <br>
-   click the [link](https://media.geeksforgeeks.org/wp-content/uploads/2-47.png)
+ - To convert **decimal to binary** we have to repeteadly divide the number by 2 and print the remainder in reverse order .<br> For example:- <br>
+   <img  aligh = "center" src = "https://media.geeksforgeeks.org/wp-content/uploads/2-47.png" />
  ## 2. Octal number system
   This system is a base 8 system which uses symbols from 0 to 7 to represents any number.<br>
   - To convert from **octal to decimal** we simply have to multiply the each digit with the powers of 8 of their respective weights. For example:-<br>
  (1756.21)<sub>8</sub> <br>
   1x8<sup>3</sup> + 7x8<sup>2</sup> + 5x8<sup>1</sup>+ 6x8<sup>0</sup> + 2x8<sup>-1</sup> + 1x8<sup>-2</sup> =512 + 448 + 40 + 6 +0.765625 = 1006.765625 <br>
   (1756.21)<sub>8</sub> = (1006.765625)<sub>10</sub> <br>
-  - To convert **decimal to octal** we have to repetedly divide the number by 8 and print the remainder in reverse order .for example:-<br>
-  click the [link](https://media.geeksforgeeks.org/wp-content/uploads/decToOctal.png)
+  - To convert **decimal to octal** we have to repetedly divide the number by 8 and print the remainder in reverse order .<br> For example:-<br>
+   <img  aligh = "center" src = "https://media.geeksforgeeks.org/wp-content/uploads/decToOctal.png" />
  ## 3. Decimal number system
   This system of numbers we use in our daily life calculation . in this system we can represents any number with the help of 10 symbols from 0 to 9
  ## 4. Hexadecimal number system
@@ -34,7 +34,7 @@ This system is a base 16 system which uses symbols from 0 to 9  and A to F in wh
  (20A.2C)<sub>8</sub> <br>
    2x16<sup>2</sup> + 0x16<sup>1</sup>+ 10x16<sup>0</sup> + 2x16<sup>-1</sup> + 12x16<sup>-2</sup> =512 + 0 + 10 + 0.171878= 522.171878 <br>
   (20A.2C)<sub>16</sub> = (522.171878)<sub>10</sub> <br>
-  -To convert **decimal to hexadecimal** we have to repetedly divide the number by 16 and print the remainder in reverse order .for example:-<br>
-  click the [link](https://circuitglobe.com/wp-content/uploads/2016/09/deciaml-to-hexadecimal-conversion-6.jpg).
+  -To convert **decimal to hexadecimal** we have to repetedly divide the number by 16 and print the remainder in reverse order .<br> For example:-<br>
+  <img  aligh = "centre" src = "https://circuitglobe.com/wp-content/uploads/2016/09/deciaml-to-hexadecimal-conversion-6.jpg" />
   <br><br>
  
