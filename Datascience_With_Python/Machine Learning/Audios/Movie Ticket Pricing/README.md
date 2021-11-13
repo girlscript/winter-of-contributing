@@ -148,6 +148,17 @@ Here are the main classes of the Movie Ticket Booking System:
 
 - The system shall send an order confirmation to the user through email.
 
+## Implementations
+- Decide the public you are aiming at.
+
+- Mention the type of customer you are aiming.
+
+- Collect historical data from on different price points offered in the past as well as the demand for these points.
+
+-nBuild a model to predict the different parameters.
+
+- Use an optimization algorithm to discover the optimal price and product features, to maximize the probability of purchasing. This method can also be used for creating product bundles and discounts.
+
 ## ADVANTAGES:
 * The biggest advantage of online ticket booking is that it is very convenient to book tickets online as one can book tickets from the comfort of home.
 
@@ -161,3 +172,9 @@ Here are the main classes of the Movie Ticket Booking System:
 * Another problem with online booking is that chances of errors are high.
 
 * In case of a developed world where the majority of the population is tech savvy online ticket booking is not an issue but when it comes to developing nations of regions like Asia and Africa where not many people have that much technical knowledge to do online ticket booking.
+
+## Conclusion
+
+- Dynamic pricing has a huge impact on sales and profits earned by companies.
+- It can increase the profit from 10 to 20 per cent and also can increase the sales up to 200 per cent.
+- This is why most of the leading companies and apps, be it BookMyShow or Flipkart or Walmart use dynamic pricing.
