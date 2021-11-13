@@ -64,8 +64,7 @@ SSD has two components: a backbone model and SSD head. Backbone model usually is
 In the figure below, the first few layers (white boxes) are the backbone, the last few layers (blue boxes) represent the SSD head.
 </p>
 <br>
-<img align="center" src="![image](https://user-images.githubusercontent.com/70129990/141646253-d6e316b7-45a3-419d-9cf1-514a0431fcf5.png)
-">
+<img  src="https://user-images.githubusercontent.com/70129990/141646389-fe39935d-0c24-40c8-9f95-b7e3b7c36f36.png">
 
 <br>
 
@@ -73,9 +72,7 @@ In the figure below, the first few layers (white boxes) are the backbone, the la
  <p>
 Instead of using sliding window, SSD divides the image using a grid and have each grid cell be responsible for detecting objects in that region of the image. Detection objects simply means predicting the class and location of an object within that region. If no object is present, we consider it as the background class and the location is ignored.
 
- <img src="![image](https://user-images.githubusercontent.com/70129990/141646276-44c1a9e9-b545-404a-988c-05c4dfec5168.png)
-
-">
+ <img src="https://user-images.githubusercontent.com/70129990/141646276-44c1a9e9-b545-404a-988c-05c4dfec5168.png">
  </p>
  <br>
  
@@ -83,9 +80,7 @@ Instead of using sliding window, SSD divides the image using a grid and have eac
 <p>
 Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These anchor boxes are pre-defined and each one is responsible for a size and shape within a grid cell. 
 
-  <img src="![image](https://user-images.githubusercontent.com/70129990/141646319-9c7601b4-89de-4ae9-82cc-ce67b09fdffe.png)
-
-">
+<img src="https://user-images.githubusercontent.com/70129990/141646319-9c7601b4-89de-4ae9-82cc-ce67b09fdffe.png">
 </p>
 <br>
 
