@@ -8,7 +8,7 @@
 *********************************************************************
 ### Single shot detectors
 
-<img align="center" src="https://user-images.githubusercontent.com/70129990/141645139-063bc8a4-359f-45ce-bec9-409ae82f268a.png">
+<img align="center" src="https://user-images.githubusercontent.com/70129990/141645139-063bc8a4-359f-45ce-bec9-409ae82f268a.png" style="width:200px;"/>
 <br>
 <p> 
 Image result for single shot detector in machine learning
