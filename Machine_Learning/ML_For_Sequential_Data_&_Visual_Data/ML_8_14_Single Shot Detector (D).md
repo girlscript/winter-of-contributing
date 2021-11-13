@@ -1,4 +1,4 @@
-## Title : Bidirectional LSTM
+## Title :Single shot detector
 🔴 **Type of Content** : Documentation
 
 🔴 **Domain** : Machine Learning
@@ -35,23 +35,25 @@ The SSD is based on the use of convolutional networks that produce multiple boun
 The SSD model works as follows, each input image is divided into grids of various sizes and at each grid, the detection is performed for different classes and different aspect ratios. And a score is assigned to each of these grids that says how well an object matches in that particular grid. And non maximum supression is applied to get the final detection from the set of overlapping detections. This is the basic idea behind the SSD model.
 Here we use different grid sizes to detect objects of different sizes, for example, look at the image given below when we want to detect the cat smaller grids are used but when we want to detect a dog the grid size is increased which makes the SSD more efficient.
  <br>
-  <img src="![image](https://user-images.githubusercontent.com/70129990/141645667-c86a9bc7-f83c-452c-8209-c7a9039f8e35.png)
-">
+  
+  <img src="https://user-images.githubusercontent.com/70129990/141645667-c86a9bc7-f83c-452c-8209-c7a9039f8e35.png">
 </p>
   <br>
   
- ## Detections using multi-scale feature maps
+## Detections using multi-scale feature maps
  <p>
 The multi-scale feature maps are added to the end of the truncated backbone model. These multi-scale feature maps reduce in size progressively, which allows the detections at various scales of the image. The convolutional layers used here vary for each feature layer.
 </p>
 <br>
 <br>
+
 ## Detection using the convolutional predictors
 <pr>
 The addition of each extra layer produces a fixed number of predictions using the convolutional filters in them. These additional layers are shown at the top of the model in the given diagram below. For example, a feature layer of size m x n with p channels, the minimal prediction parameter that gives a decent detection is a 3 x 3 x p small kernel. Such kernel gives us the score for a category or a shape offset relative to the default box coordinates.
 </p>
 <br>
 <br>
+
 ## Single-Shot Detector (SSD)
 <p>
 SSD has two components: a backbone model and SSD head. Backbone model usually is a pre-trained image classification network as a feature extractor. This is typically a network like ResNet trained on ImageNet from which the final fully connected classification layer has been removed. We are thus left with a deep neural network that is able to extract semantic meaning from the input image while preserving the spatial structure of the image albeit at a lower resolution. For ResNet34, the backbone results in a 256 7x7 feature maps for an input image. We will explain what feature and feature map are later on. The SSD head is just one or more convolutional layers added to this backbone and the outputs are interpreted as the bounding boxes and classes of objects in the spatial location of the final layers activations.
@@ -60,16 +62,15 @@ In the figure below, the first few layers (white boxes) are the backbone, the la
 </p>
 <br>
 
-<img src="![image](https://user-images.githubusercontent.com/70129990/141645693-ff833425-83eb-495d-8467-6b226fe65191.png)
+<img src="https://user-images.githubusercontent.com/70129990/141645693-ff833425-83eb-495d-8467-6b226fe65191.png
 ">
 <br>
 <br>
-
- ## Grid cell
+## Grid cell
  <p>
 Instead of using sliding window, SSD divides the image using a grid and have each grid cell be responsible for detecting objects in that region of the image. Detection objects simply means predicting the class and location of an object within that region. If no object is present, we consider it as the background class and the location is ignored. For instance, we could use a 4x4 grid in the example below. Each grid cell is able to output the position and shape of the object it contains.
 
- <img src="![image](https://user-images.githubusercontent.com/70129990/141645697-82f9fd23-7184-4703-a0cf-44ac11434b74.png)
+ <img src="https://user-images.githubusercontent.com/70129990/141645697-82f9fd23-7184-4703-a0cf-44ac11434b74.png
 ">
  </p>
  <br>
@@ -78,7 +79,7 @@ Instead of using sliding window, SSD divides the image using a grid and have eac
 <p>
 Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These anchor boxes are pre-defined and each one is responsible for a size and shape within a grid cell. For example, the swimming pool in the image below corresponds to the taller anchor box while the building corresponds to the wider box.
 
-  <img src="![image](https://user-images.githubusercontent.com/70129990/141645705-787572cc-8387-4e17-8634-5367eb32a906.png)
+  <img src="https://user-images.githubusercontent.com/70129990/141645705-787572cc-8387-4e17-8634-5367eb32a906.png
 ">
 </p>
 <br>
@@ -86,7 +87,7 @@ Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These an
 ## Aspect ratio
 <p>
 Not all objects are square in shape. Some are longer and some are wider, by varying degrees. The SSD architecture allows pre-defined aspect ratios of the anchor boxes to account for this. The ratios parameter can be used to specify the different aspect ratios of the anchor boxes associates with each grid cell at each zoom/scale level.
-<img src="![image](https://user-images.githubusercontent.com/70129990/141645723-fd6ae2b0-b910-4a4d-886c-7f2094ce3a22.png)
+<img src="https://user-images.githubusercontent.com/70129990/141645723-fd6ae2b0-b910-4a4d-886c-7f2094ce3a22.png
 ">
 
   </p>
@@ -107,12 +108,16 @@ The SSD produces an average of 8732 detections per class while the YOLO produces
  <pr>
 [1] Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi: “You Only Look Once: Unified, Real-Time Object Detection”, 2015; arXiv:1506.02640.
 <br>
+  <br>
 [2] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu: “SSD: Single Shot MultiBox Detector”, 2016; arXiv:1512.02325.
 <br>
+  <br>
 [3] Zeiler, Matthew D., and Rob Fergus. "Visualizing and understanding convolutional networks." In European conference on computer vision, pp. 818-833. springer, Cham, 2014.
 <br>
+  <br>
 [4] Dang Ha The Hien. A guide to receptive field arithmetic for Convolutional Neural Networks. https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807
 <br>
+  <br>
 [5] Howard Jeremy. Lesson 9: Deep Learning Part 2 2018 - Multi-object detection. https://docs.fast.ai/vision.models.unet.html#Dynamic-U-Net. Accessed 2 September 2019.
   <br>
   </p>
