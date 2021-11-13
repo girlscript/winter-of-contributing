@@ -24,6 +24,7 @@ The SSD model is made up of 2 parts namely
   <br>
 <li>2. The SSD head.
 <br>
+  <br>
 The Backbone model is a typical pre-trained image classification network that works as the feature map extractor. Here, the image final image classification layers of the model are removed to give us only the extracted feature maps.
 <br>
 SSD head is made up of a couple of convolutional layers stacked together and it is added to the top of the backbone model. This gives us the output as the bounding boxes over the objects. These convolutional layers detect the various objects in the image.
@@ -64,7 +65,8 @@ SSD has two components: a backbone model and SSD head. Backbone model usually is
 In the figure below, the first few layers (white boxes) are the backbone, the last few layers (blue boxes) represent the SSD head.
 </p>
 <br>
-<img  src="https://user-images.githubusercontent.com/70129990/141646389-fe39935d-0c24-40c8-9f95-b7e3b7c36f36.png" style="width:900px;"/>
+<img  src="![image](https://user-images.githubusercontent.com/70129990/141646867-d6ac8a9d-a3ed-4873-ad7f-470d3f93a081.png)
+" style="width:900px;"/>
 
 <br>
 
