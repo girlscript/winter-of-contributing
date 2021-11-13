@@ -63,9 +63,8 @@ SSD has two components: a backbone model and SSD head. Backbone model usually is
 In the figure below, the first few layers (white boxes) are the backbone, the last few layers (blue boxes) represent the SSD head.
 </p>
 <br>
+<img align="center" src=""https://user-images.githubusercontent.com/70129990/141646129-eff6e3d6-4dc4-4c2b-9f8e-592bb1842b1b.png">
 
-<img src="https://user-images.githubusercontent.com/70129990/141646129-eff6e3d6-4dc4-4c2b-9f8e-592bb1842b1b.png
-">
 <br>
 
 ## Grid cell
@@ -89,6 +88,7 @@ Each grid cell in SSD can be assigned with multiple anchor/prior boxes. These an
 ## Aspect ratio
 <p>
 Not all objects are square in shape. Some are longer and some are wider, by varying degrees. The SSD architecture allows pre-defined aspect ratios of the anchor boxes to account for this. The ratios parameter can be used to specify the different aspect ratios of the anchor boxes associates with each grid cell at each zoom/scale level.
+ <br>
 <img src="https://user-images.githubusercontent.com/70129990/141645723-fd6ae2b0-b910-4a4d-886c-7f2094ce3a22.png
 ">
 
