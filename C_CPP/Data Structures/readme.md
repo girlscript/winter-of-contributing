@@ -22,7 +22,7 @@
   - ### [Segment Tree](./User%20Defined%20Data%20Structures/Segment%20Tree)
   - ### [Fenwick Tree](./User%20Defined%20Data%20Structures/Fenwick%20Tree)
   - ### [BTree](#)
-  - ### [Trie](#)
+  - ### [Trie](./User%20Defined%20Data%20Structures/Trie)
 
   - ### [Suffix Tree](#)
 
