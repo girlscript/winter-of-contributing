@@ -1,4 +1,4 @@
-## Title :Single shot detector
+## Title : Single Shot Detector
 🔴 **Type of Content** : Documentation
 
 🔴 **Domain** : Machine Learning
@@ -27,6 +27,7 @@ The SSD model is made up of 2 parts namely
   <br>
 The Backbone model is a typical pre-trained image classification network that works as the feature map extractor. Here, the image final image classification layers of the model are removed to give us only the extracted feature maps.
 <br>
+  <br>
 SSD head is made up of a couple of convolutional layers stacked together and it is added to the top of the backbone model. This gives us the output as the bounding boxes over the objects. These convolutional layers detect the various objects in the image.
 <br>
 </p>
@@ -136,6 +137,7 @@ The SSD model is one of the fastest and efficient object detection models for mu
   </p>
  
   
+*********************************************************************
   
   
   
