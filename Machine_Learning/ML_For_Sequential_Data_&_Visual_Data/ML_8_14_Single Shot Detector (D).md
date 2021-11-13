@@ -64,7 +64,8 @@ In the figure below, the first few layers (white boxes) are the backbone, the la
 </p>
 <br>
 
-<img src="https://user-images.githubusercontent.com/70129990/141645693-ff833425-83eb-495d-8467-6b226fe65191.png">
+<img src="https://user-images.githubusercontent.com/70129990/141646129-eff6e3d6-4dc4-4c2b-9f8e-592bb1842b1b.png
+">
 <br>
 
 ## Grid cell
