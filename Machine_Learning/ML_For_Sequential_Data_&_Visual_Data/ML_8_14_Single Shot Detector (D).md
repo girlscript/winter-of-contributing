@@ -105,19 +105,19 @@ The SSD produces an average of 8732 detections per class while the YOLO produces
  
  ## References
  <pr>
-[1] Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi: “You Only Look Once: Unified, Real-Time Object Detection”, 2015; arXiv:1506.02640.
+<li>[1] Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi: “You Only Look Once: Unified, Real-Time Object Detection”, 2015; arXiv:1506.02640.
 <br>
   <br>
-[2] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu: “SSD: Single Shot MultiBox Detector”, 2016; arXiv:1512.02325.
+<li>[2] Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang Fu: “SSD: Single Shot MultiBox Detector”, 2016; arXiv:1512.02325.
 <br>
   <br>
-[3] Zeiler, Matthew D., and Rob Fergus. "Visualizing and understanding convolutional networks." In European conference on computer vision, pp. 818-833. springer, Cham, 2014.
+<li>[3] Zeiler, Matthew D., and Rob Fergus. "Visualizing and understanding convolutional networks." In European conference on computer vision, pp. 818-833. springer, Cham, 2014.
 <br>
   <br>
-[4] Dang Ha The Hien. A guide to receptive field arithmetic for Convolutional Neural Networks. https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807
+<li>[4] Dang Ha The Hien. A guide to receptive field arithmetic for Convolutional Neural Networks. https://medium.com/mlreview/a-guide-to-receptive-field-arithmetic-for-convolutional-neural-networks-e0f514068807
 <br>
   <br>
-[5] Howard Jeremy. Lesson 9: Deep Learning Part 2 2018 - Multi-object detection. https://docs.fast.ai/vision.models.unet.html#Dynamic-U-Net. Accessed 2 September 2019.
+<li>[5] Howard Jeremy. Lesson 9: Deep Learning Part 2 2018 - Multi-object detection. https://docs.fast.ai/vision.models.unet.html#Dynamic-U-Net. Accessed 2 September 2019.
   <br>
   </p>
   
