@@ -1,6 +1,6 @@
 
 
-# Wildcard Routes
+# **Wildcard Routes**
 
 
 
@@ -16,17 +16,17 @@ to setup wildcard route :
 
 
 
-** represents that it is a wildcard route
+****** represents that it is a **wildcard route** .
 
-There are different components most commonly used are like 
+There are different components most commonly used are like :-
 
-PagNotFound for this we can display 404 error.
+**PageNotFound** for this we can display **404 error**.
 
-redirecting to you main component.
+**redirecting to you main component**.
 
 
 
-# Display 404 error / page
+# **Display 404 error / page**
 
 
 
@@ -34,7 +34,7 @@ redirecting to you main component.
 
 
 
-For showing this page we have to develop a wildcard route. 
+For showing this page we have to develop a **wildcard route**. 
 
 
 
@@ -48,7 +48,7 @@ const routes: Routes = [
 
 
 
-In this there are two components and after that if the requested url dosen't match with the paths the PageNotFoundComponent .
+In this there are two components and after that if the requested url dosen't match with the paths the **PageNotFoundComponent is called and 404 error is displayed** .
 
 
 
