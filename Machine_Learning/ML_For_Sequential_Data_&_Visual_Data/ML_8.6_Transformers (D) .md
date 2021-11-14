@@ -39,7 +39,8 @@ For example: if dimension key vector is 100, so that will be 10.
 
 **Using Transformer for language modelling**
 
-Al-Rfou et al. (2018) proposed the idea of applying the Transformer model for language modeling. According to him, the entire corpus can be split into fixed-length segments
+Al-Rfou et al. (2018) proposed the idea of applying the Transformer model for language modeling. According to him, the entire corpus can be split into fixed-length segments. Then, train the model on segments independently ignoring all  previous contextual information. This model does not suffer the vanishing gradiet problem but context-fragmentation limits its longer-term dependency learning.  
+During the evaluation phase, the segment is shifted to the right by only one position.The new segment needs to repeat the same process.
 
 ![image](https://user-images.githubusercontent.com/46518960/141615449-df9cfd56-6837-43b4-a446-9e57daf1e347.png)
 
