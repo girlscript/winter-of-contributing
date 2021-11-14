@@ -31,6 +31,7 @@ These vectors are created by multiplying the embedding by three matrices that we
 For example: if dimension key vector is 100, so that will be 10.
 
 4. Apply softmax function on all self-attention scores.
+
 ![image](https://user-images.githubusercontent.com/46518960/141669054-d93cfc55-ba82-4a86-8d05-50ef1e929b0b.png)
 
 5. We sum up the weighted value that we calculated in the previous step, this will give us self-attention output for the given word.
