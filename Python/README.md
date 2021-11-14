@@ -36,20 +36,47 @@
 - [Advanced_function_map()](./Advanced_function_map())
 - [Lambda Function](<./Lambda Function>)
 - [What is Automation?](./What_is_Automation)
+- [Modules](./Modules)
 - [args_and_kwargs](./args_&_kwargs)
 - [Web_Scraping](./Web_Scraping)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
 - [How_to_install_python](./How_to_install_python)
 - [Python File I/O](./Python_File_IO)
 - [Python Strings](./Python_Strings)
+- [Recursion in Python](./Recursion_in_Python)
 - [Yield Keyword](./Yield_Keyword)
 - [Dictionary Comprehension](./Dictionary_Comprehension)
 - [Django Framework](./Django_Framework)
+- [Regular expressions in Python](./Regex)
+- [Type Annotations in Python](./Type_Annotations)
+- [if statement](./if_statement)
 
 
 ## Learning path
 
 1. Git & GitHub
+2. Installing development and debugging software for python
+3. Brief history of python
+4. What is a programming language?
+5. What is type conversion ?
+6. Use cases of Python
+7. Virtual Environment
+8. Operators
+9. List\_&_Matrix
+10. Objects in Python
+11. Stack and Queue
+12. Loop Break
+13. Decorators
+14. Functions
+14. What_is_Filter_in_python
+15. OOP-Class
+16. Advanced function-reduce()
+17. Advanced Function - Zip
+18. List Comprehension
+19. Advanced function-map()
+20. What is Automation?
+21. Modules
+1. Git & Github
 2. How To Install Python
 3. Installing development and debugging software for python
 4. Brief history of python
@@ -80,4 +107,7 @@
 29. Yield Keyword
 30. Dictionary Comprehension
 31. Django Framework
+32. Django Framework
+33. Regular expressions in Python
+34. Type Annotations in Python
 
