@@ -87,4 +87,12 @@ function myStopFunction() {
 // Display the current time (the setInterval() method will execute the "myTimer" function once every 1 second). Use clearInterval() to stop the time
 ```
 
-#### Contributor: [Sushovan Banerjee](https://github.com/sushovanb02)
+## Summary:-
+
+- Methods  **setTimeout(func, delay, ...args)** and **setInterval(func, delay, ...args)** allow us to run the **func** once/regularly after delay milliseconds.
+- To cancel the execution, we should call **clearTimeout/clearInterval** with the value returned by **setTimeout/setInterval**.
+- Nested **setTimeout** calls are a more flexible alternative to **setInterval**, allowing us to set the time _between_ executions more precisely.
+- Zero delay scheduling with **setTimeout(func, 0)** (the same as **setTimeout(func)**) is used to schedule the call “as soon as possible, but after the current script is complete”.
+- The browser limits the minimal delay for five or more nested calls of **setTimeout** or for **setInterval** (after 5th call) to 4ms. That’s for historical reasons.
+
+#### Contributor: [Sushovan Banerjee](https://github.com/sushovanb02) [Sakshi Mishra](https://github.com/SakshiMishra1)
