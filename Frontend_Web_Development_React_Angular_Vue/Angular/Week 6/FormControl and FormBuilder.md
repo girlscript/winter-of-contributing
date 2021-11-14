@@ -8,4 +8,30 @@
   
   1. setValue()
   2. patchValue()
-  3. 
+  3. reset()
+  4. _updateValue()
+  5. _anyControls()
+  6. _allControlsDisabled()
+  7. registerOnChange()
+  8. registerOnDisabledChange()
+  9. _forEachChild()
+ 10. _syncPendingControls()
+ 
+Initializing Form Controls
+Instantiate a FormControl, with an initial value.
+ ```angular
+ const control = new FormControl('some value');
+console.log(control.value);     // 'some value'
+ ```
+ The following example initializes the control with a form state object. The value and disabled keys are required in this case.
+ ```angular
+ const control = new FormControl({ value: 'n/a', disabled: true });
+console.log(control.value);     // 'n/a'
+console.log(control.status);    // 'DISABLED'
+ ```
+ The following example initializes the control with a synchronous validator.
+ ```angular
+ const control = new FormControl('', Validators.required);
+console.log(control.value);      // ''
+console.log(control.status);     // 'INVALID'
+ ```
