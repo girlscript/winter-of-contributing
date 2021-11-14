@@ -45,3 +45,7 @@ The unsupervised k-means clustering algorithm gives the values of any point lyin
 
 ## Applications
 Clustering problems have applications in surface science, biology, medicine, psychology, economics, and many other disciplines.
+
+## Conclusion:
+
+Fuzzy c-means clustering has can be considered a better algorithm compared to the k-Means algorithm. Unlike the k-Means algorithm where the data points exclusively belong to one cluster, in the case of the fuzzy c-means algorithm, the data point can belong to more than one cluster with a likelihood. Fuzzy c-means clustering gives comparatively better results for overlapped data sets.
