@@ -1,10 +1,10 @@
-# Using a Retina Image for High Resolution Display
+# High Resolution Display using the Retina Imgae Concept
 
 With the high use of internet devices, their sizes and specifications vary, and also the displays they use may well be completely different. picture element density of the devices that will diverge on one device from others and this density is thought as picture element Per Inch(PPI) or Dots Per Inch(DPI). the foremost common show is that the one called a "Retina Display" on the newest Apple MacBook professional notebooks, and recently iMac computers. thanks to the distinction in picture element density between a "Retina" and "Non-Retina" displays, some pictures that haven't been created with a high-resolution show in mind may look "pixelated" once rendered on a high-resolution show.
 
 ### Display Resolution
 
-The display resolution or display modes of a digital tv, laptop monitor or display device is that the variety of distinct pixels in every dimension that may be displayed. ... In digital mensuration, the display resolution would run in pixels per inch (PPI).
+The display resolution of the device such as laptop monitor,smart tv is that the variety of different pixels in every space that may be displayed. ... In digital mensuration, the display resolution run in pixels per inch (PPI).
 
 There are two types of display resolution we can define :-
 
@@ -13,7 +13,7 @@ There are two types of display resolution we can define :-
 
 ### Retina Display
 
-Retina display may be a term created by Apple to see devices and monitors that have a resolution and element density therefore high that someone is unable to recognise the individual pixels at a traditional viewing distance. Apple’s membrane show created its debut on 2011’s iPhone four, that featured a screen resolution of 960 x 640 pixels fourfold the quantity of pixels because the iPhone three. The new membrane display was well received and greatly improved the viewing expertise.
+Retina display may be a term created by Apple to see devices and monitors that have a resolution and element density therefore high that someone is unable to recognise the individual pixels at a traditional viewing distance. Apple’s membrane created its debut on 2011’s iPhone four, that featured a screen resolution of 960 x 640 pixels fourfold the quantity of pixels because the iPhone three. The new membrane device's display was well received and greatly improved the viewing expertise.
 
 The simplest way to create your pictures properly seem on high-resolution Displays, like the MacBook execs "retina display" is to outline their breadth and height values as solely 1/2 what the first file is. Here is associate example of a picture that's solely victimisation 1/2 the first height and width:
 
