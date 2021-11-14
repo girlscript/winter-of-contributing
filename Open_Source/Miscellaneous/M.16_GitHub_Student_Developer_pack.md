@@ -69,3 +69,5 @@ The Intro to Web Dev Experience gives students the tools to start their journey 
 ---
 ### No! This is not the End😯. There are many more🤩. You can access more than 50 offers🥳.
 ## To know more [Click here](https://education.github.com/globalcampus/student)
+
+Documentation created by [Anushka Paul](https://github.com/pilipi-puu-puu)
