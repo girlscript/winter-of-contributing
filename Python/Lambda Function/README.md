@@ -31,3 +31,5 @@ This function uses the return function to return the output value of lambda func
 Lambda functions can also be used as the parameters of other functions. Thus all over it acts as an important tool for us.
 
 https://drive.google.com/file/d/1DF13HbaJjDOIw8qBdP4Scsq03zEqI1Ao/view?usp=sharing
+
+Documentation for the same can be found in the above file named `Lambda_Documentation.ipynb`
