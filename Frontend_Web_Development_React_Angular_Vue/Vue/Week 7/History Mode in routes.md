@@ -86,7 +86,9 @@ yarn global add @vue/cli
 ```
 * After that, Now create a Vue.js project using the following command.
 
-```javascript vue create history ```
+```javascript
+vue create history
+```
 
 * After successfully creating a new project install VueJs routing using this following this command :
 
@@ -223,7 +225,7 @@ new Vue({
 ```
 
 * Now, we start the development server using the following command.
-```
+```javascript
 npm run serve
 ```
 
