@@ -50,7 +50,7 @@ During the evaluation phase, the segment is shifted to the right by only one pos
 1.	Attention deals with strings of fixed length. Text is splitted into certain number of chunks and before being fed into the model.
 2.	Text is splitted without without respecting the order of the string.
 
-**Transformer-XL **
+**Transformer-XL**
 
 To overcome these problems new model was proposed Transformer-XL
 In Transformer-XL, the hidden state computed for the previous state is used as an additional context for the current text. This recurrence mechanism overcome the conventional Transformer limitation of fixed length.
