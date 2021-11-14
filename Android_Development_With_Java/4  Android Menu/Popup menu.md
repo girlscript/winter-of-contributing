@@ -6,8 +6,13 @@
  is not available then it displays it above the Anchor text. It appears untill when you do not click on the pop-up menu text.
  
 # <hr> For this you need to create an XML file inside "res/menu/popup" like this: </hr>
+<<<<<<< HEAD
+```<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+    <item         
+=======
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
      <item         
+>>>>>>> 8d558f78494aff2faa8a86d27fdb522f0ec6ae78
        android:id="@+id/one"  
      android:title="Android"/>  
     <item  
@@ -17,14 +22,15 @@
     <item  
         android:id="@+id/three"  
         android:title="Apple"/>   
-</menu> 
+</menu>
+```
 
 ## <hr> Step 1 </hr>
 
 ## **Create an XML file with this:**
 
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+``` <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
     xmlns:tools="http://schemas.android.com/tools"  
     android:layout_width="match_parent"  
     android:layout_height="match_parent"  
@@ -41,7 +47,8 @@
         android:layout_marginTop="80dp"  
         android:text="Show Popup" />  
    
-</RelativeLayout> 
+</RelativeLayout>
+```
 
 
 
@@ -49,7 +56,7 @@
 
 ## **Create another XML file with this:**
 
-<menu xmlns:android="http://schemas.android.com/apk/res/android" >  
+``` <menu xmlns:android="http://schemas.android.com/apk/res/android" >  
     <item  
         android:id="@+id/one"  
         android:title="Android"/>  
@@ -59,7 +66,8 @@
     <item  
         android:id="@+id/three"  
         android:title="Apple"/>  
-</menu> 
+</menu>
+ ```
 
 
 ## <hr> Step 3 </hr>
@@ -69,7 +77,12 @@
 In this, you create the id of the button on which you pop up the menu. Now you will crate the instance of the PopUp menu, then 
 you will populate.
 
+<<<<<<< HEAD
+
+``` package com.popupmenu;  
+=======
 package com.popupmenu;  
+>>>>>>> 8d558f78494aff2faa8a86d27fdb522f0ec6ae78
    
 import android.os.Bundle;  
 import android.app.Activity;  
@@ -107,7 +120,10 @@ public class MainActivity extends Activity {
             }  
         });//closing the setOnClickListener method  
     }  
-} 
+}
+```
+
+
 
 
 
@@ -115,7 +131,7 @@ public class MainActivity extends Activity {
 
 ## **Android Manifest.xml file**
 
-<?xml version="1.0" encoding="utf-8"?>  
+``` <?xml version="1.0" encoding="utf-8"?>  
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"  
     package="com.popupmenu"  
     android:versionCode="1"  
@@ -141,7 +157,8 @@ public class MainActivity extends Activity {
         </activity>  
     </application>  
    
-</manifest> 
+</manifest>
+ ```
 
 
 ## <hr >Step 5 </hr>
