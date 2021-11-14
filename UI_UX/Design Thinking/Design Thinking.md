@@ -14,7 +14,8 @@ Design thinking starts with the customer and then offers the solution, not the o
 
 #### Stage 1: Empathize
 
-It starts by putting yourself in your customers’ shoes. During this phase, it is important to understand who your specific user is. Empathize with people through observation or open-ended interviews to uncover what people do, rather than what they want. Understand their point of view—what they’re doing, how they’re feeling, and what issues they may have. Do a lot of research to get a clear picture of who your users are and the challenges they are facing.
+It starts by putting yourself in your customers’ shoes. During this phase, it is important to understand who your specific user is. Empathize with people through observation or open-ended interviews to uncover what people do, rather than what they want.
+Understand their point of view —what they’re doing, how they’re feeling, and what issues they may have. Do a lot of research to get a clear picture of who your users are and the challenges they are facing.
 
 #### Stage 2: Define
 
