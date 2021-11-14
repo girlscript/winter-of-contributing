@@ -20,6 +20,14 @@ This dataset contains the real bank transactions made by European cardholders in
 * Display Confusion Matrix
 
 
+## Logistic Regression:
+Logistic regression is an algorithm used for classification where the predicted variable y is a discrete value.<br>
+Examples of classification problems:<br>
+* Email: spam/ not spam<br>
+* Tumor: malignant/ benign<br>
+Such classification problems are known as binary classification where the predicted variable y can take only two values that is either 0 or 1/ spam or not spam.<br>
+In a multi-class classification problem, the predicted variable y can take more than two values like 0,1, or 2.
+
 ## Decision Tree:
 A decision tree is a graphical representation of all the possible solutions to a decision based on some conditions.<br>
 ![image](https://user-images.githubusercontent.com/89564985/141346256-63184b7f-0261-4421-8fc9-1ec3a089df8d.png)<br>
@@ -35,14 +43,6 @@ Random forest is an ensemble model. Ensemble models are those that use more than
 Random forest works on the Bagging principle. Bagging chooses a random sample from the dataset.Hence each model (individual decision tree) is generated from the samples known as row sampling. This step of row sampling with replacement is called bootstrap. Each model is trained independently which generates results. The final answer is based on majority voting after combining the results of all the models. This step is known as aggregation.<br>
 ![image](https://user-images.githubusercontent.com/89564985/141353446-160fba98-a213-4269-b750-9b37872ec7d6.png)<br>
 Random forest gives more accurate and stable predictions.<br>
-
-## Logistic Regression:
-Logistic regression is an algorithm used for classification where the predicted variable y is a discrete value.<br>
-Examples of classification problems:<br>
-* Email: spam/ not spam<br>
-* Tumor: malignant/ benign<br>
-Such classification problems are known as binary classification where the predicted variable y can take only two values that is either 0 or 1/ spam or not spam.<br>
-In a multi-class classification problem, the predicted variable y can take more than two values like 0,1, or 2.
 
 ## Summary:
 In this task, I have used three different ML models to classify abnormal transactions.<br>
