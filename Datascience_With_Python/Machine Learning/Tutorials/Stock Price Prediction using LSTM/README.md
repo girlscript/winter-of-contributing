@@ -2,9 +2,9 @@
 
 ### Aim:
 
-The aim of this project is to predict the share prices of Amazon. 
+The goal of stock market prediction is to predict the future movement of a financial exchange's stock value. Investors will be able to make more money if they can accurately predict share price movement. Predicting how the stock market will perform is a hard task to do without technology. The aim of this project is to predict the share prices of Amazon. 
 
-Long Short-Term Memory (LSTM) is an artificial recurrent neural network (RNN) in the area of deep learning. It selectively remembers patterns over long periods of time. LSTMs make small modifications to the existing data by multiplications and additions. This allows LSTMs to remember and forget certain things. To understand LSTMs better, [click here.](https://www.analyticsvidhya.com/blog/2017/12/fundamentals-of-deep-learning-introduction-to-lstm/)
+Long Short-Term Memory (LSTM) is an artificial recurrent neural network (RNN) in the area of deep learning. It selectively remembers patterns over long periods of time. LSTMs make small modifications to the existing data by multiplications and additions. This allows LSTMs to remember and forget certain things. An LSTM network is an RNN that is made up of LSTM units. A cell, an input gate, an output gate, and a forget gate make up a typical LSTM unit. The three gates control the flow of information into and out of the cell, and the cell remembers values across arbitrary time intervals. To understand LSTMs better, [click here.](https://www.analyticsvidhya.com/blog/2017/12/fundamentals-of-deep-learning-introduction-to-lstm/)
 
 ---
 
