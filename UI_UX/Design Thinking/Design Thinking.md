@@ -1,8 +1,11 @@
 ## What is Design Thinking?
 
 Design Thinking is a user-centric, iterative, solution-based approach to problem-solving.
+
 It helps designers create solutions that address a real user problem and are functional and affordable.
+
 According to Tim Brown, CEO of IDEO: "Design thinking is a human-centered approach to innovation that draws from the designer’s toolkit to integrate the needs of people, the possibilities of technology, and the requirements for business success."
+
 Design thinking starts with the customer and then offers the solution, not the other way around!
 
 ## 5 stages of Design Thinking
@@ -15,7 +18,7 @@ It starts by putting yourself in your customers’ shoes. During this phase, it 
 
 #### Stage 2: Define
 
-After you understand the user's needs, describe an idea or view of the user that will be the basis of the product or application to be made. Here, identify What’s the ‘aha’ moment from the observations? What’s the problem to be solved? This can be done by making a list of user needs and using knowledge about design to meet the user requirements.
+After you understand the user's needs, describe an idea or view of the user that will be the basis of the product or application to be made. Here, identify what’s the ‘aha’ moment from the observations? What’s the problem to be solved? This can be done by making a list of user needs and using knowledge about design to meet the user requirements.
 
 #### Stage 3: Ideate
 
