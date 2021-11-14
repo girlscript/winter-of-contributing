@@ -45,7 +45,7 @@ console.log(control.status);    // 'DISABLED'
  ```
  The following example initializes the control with a synchronous validator.
  
- ```css
+ ```angular
  const control = new FormControl('', Validators.required);
 console.log(control.value);      // ''
 console.log(control.status);     // 'INVALID'
