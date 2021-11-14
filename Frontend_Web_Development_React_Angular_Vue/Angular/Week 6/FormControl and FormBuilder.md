@@ -38,7 +38,7 @@ console.log(control.value);     // 'some value'
  ```
  The following example initializes the control with a form state object. The value and disabled keys are required in this case.
  
- ```css
+ ```angular
  const control = new FormControl({ value: 'n/a', disabled: true });
 console.log(control.value);     // 'n/a'
 console.log(control.status);    // 'DISABLED'
