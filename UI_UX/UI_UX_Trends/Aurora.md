@@ -2,7 +2,7 @@
 
 ![Aurora](https://i.imgur.com/QTGfMy4.png)
 
-Here I will write down the procedure to create an Aurora gradient 
+Aurora is the new design Trend for soft and blurred backgrounds. Here I will write down the procedure to create an Aurora gradient 
 
 ### STEP 1 
 select the frame and in fill select linear
