@@ -13,9 +13,15 @@ Let's discuss
 </p>
 <p align="center">
    <img src="https://user-images.githubusercontent.com/54928117/141670378-4ecbc6d7-2621-4d20-82fb-76c9462bdf58.png" height="450" width="220" />  &nbsp  &nbsp
-  <img src="https://user-images.githubusercontent.com/54928117/141670379-d8dbf1c3-6393-48bc-9771-4557345cb807.png" height="450" width="220" />
+  <img src="https://user-images.githubusercontent.com/54928117/141670379-d8dbf1c3-6393-48bc-9771-4557345cb807.png" height="450" width="220" /> &nbsp  &nbsp
+  <img src="https://user-images.githubusercontent.com/54928117/141672788-1bbcc895-33df-43e7-9556-fa0843d60696.png" height="450" width="220" />
   </p>
   
+
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/54928117/141672753-89f86c20-1f88-4938-a4dd-437f08839a6e.png" height="450" width="220" /> </p>
+
+
   These are the screens designed for movie booking app
   The colors used are 
   - #303648
