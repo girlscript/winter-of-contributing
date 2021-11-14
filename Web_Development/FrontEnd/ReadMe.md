@@ -56,6 +56,7 @@
 - Basics & Syntax
 - [The Box Model](./2.6_CSS_Box_Model.md)
 - [CSS buttons styling](./CSS%20Button%20Styling)
+- [CSS Text Manipulation](./CSS_Text_Manipulation.md)
 - CSS Layouts
    * Displays
    * Floats
