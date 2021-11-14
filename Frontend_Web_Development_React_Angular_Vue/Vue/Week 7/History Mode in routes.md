@@ -38,7 +38,7 @@ To fix the issue, all we need to do is add a simple catch-all fallback route to 
 The following example stats that you are serving your app from the root folder. If you deploy to a subfolder, you should use the publicPath option of Vue CLI (opens new window)and the related base property of the router (opens new window). You also need to adjust the examples below to use the subfolder instead of the root folder (e.g. replacing RewriteBase / with RewriteBase /name-of-your-subfolder/). 
 
 
-```
+```javascript
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -79,18 +79,19 @@ http.createServer((req, res) => {
 
 * To install vuejs use this following command. (you can skip this installation if you install vuejs CLI)
 
-```
+```javascript
 npm install -g @vue/cli
 # OR
 yarn global add @vue/cli
 ```
 * After that, Now create a Vue.js project using the following command.
 
-``` vue create history ```
+```javascript vue create history ```
 
 * After successfully creating a new project install VueJs routing using this following this command :
 
-```yarn add vue-router
+```javascript
+yarn add vue-router
 
 # or
 
@@ -98,7 +99,7 @@ npm install vue-router --save
 ```
 * Now, open src/main.js file and edit. In this code, we use two parameter mode and route array. We use a mode History. 
 
-```
+```javascript
 // main.js
 
 import Vue from 'vue'
@@ -117,7 +118,7 @@ new Vue({
 ```
 * For better style here we use bootstrap so install bootstrap using this following this command.
 
-```
+```javascript
 yarn add bootstrap
 
 # or
@@ -125,7 +126,7 @@ yarn add bootstrap
 npm install bootstrap --save
 ```
 * After successfully install bootstrap import bootstrap file in App.vue file.
-```
+```javascript
 App.vue
 
 ...
@@ -135,7 +136,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 * Now we will create two components inside the **component** folder.
 
 ## MyComponent1
-```
+```javascript
 // myComponent1.vue
 
 <template>
@@ -148,7 +149,7 @@ export default {
 </script>
 ```
 ## MyComponent2
-```
+```javascript
 // myComponent2.vue
 
 <template>
@@ -163,7 +164,7 @@ export default {
 
 * Now, import all this component in the main.js file because we use to these components to assign the different routes and create an array.
 
-```
+```javascript
 // main.js
 
 import Vue from 'vue'
@@ -196,7 +197,7 @@ new Vue({
 
 * Since we have registered the all components with routes successfully. Now, add the following code inside App.vue file. this is work as a navigation.
 
-```
+```javascript
 <template>
   <div id="app">
   <nav >
