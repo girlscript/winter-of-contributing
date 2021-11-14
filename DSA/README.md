@@ -25,24 +25,20 @@ Data Structures are the main part of many computer science algorithms as they en
 - Week 1: [Array](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.1%20Arrays)
 - Week 2: [Strings](https://github.com/AJgthb2002/winter-of-contributing/tree/DSA/DSA/2.1%20Strings)
 - Week 3: [Linked List](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.1%20Linked%20List)
-- Week 4: Stacks, Queues
+- Week 4: [Stacks](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.1%20Stacks), [Queues](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.2%20Queues)
 - Week 5: Hash Tables
-- Week 6: Trees
-- Week 7: Heap
-- Week 8: Graphs
-- Week 9: Fenwick Tree, Segment Tree
-- Week 10: Tries, Disjoint Set Union
+- Week 6: Trees, Fenwick Tree, Segment Tree
+- Week 7: Heap, Graphs
+- Week 8: Tries, Disjoint Set Union
 ### Algorithms
 - Week 1: [Analysis of Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms)
 - Week 2: [Searching & Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms)
 - Week 3: [Greedy Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms)
-- Week 4: Pattern Searching Algorithms
+- Week 4: [Pattern Searching Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.3%20Pattern%20Searching%20Algorithms)
 - Week 5: Backtracking
-- Week 6: Divide and Conquer
-- Week 7: Dynamic Programming
-- Week 8: Bit Manipulation
-- Week 9: Misc Algorithms (Maths, Geometric, Randomized)
-- Week 10: Tree Algorithms
+- Week 6: Divide and Conquer, Dynamic Programming
+- Week 7: Bit Manipulation
+- Week 8: Misc Algorithms (Maths, Geometric, Randomized)
 
 ## Contribution Guidelines :gear:
 Please refer to the **[DSA Contribution Guidelines](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/CONTRIBUTING.md)** within the same folder for all the submission guidelines. It contains the documentation process to assist you. Please go through it before creating issues/PRs.
