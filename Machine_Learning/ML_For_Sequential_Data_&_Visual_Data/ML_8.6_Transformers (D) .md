@@ -41,7 +41,7 @@ For example: if dimension key vector is 100, so that will be 10.
 **Using Transformer for language modelling**
 
 Al-Rfou et al. (2018) proposed the idea of applying the Transformer model for language modeling. According to him, the entire corpus can be split into fixed-length segments. Then, train the model on segments independently ignoring all  previous contextual information. This model does not suffer the vanishing gradiet problem but context-fragmentation limits its longer-term dependency learning.  
-During the evaluation phase, the segment is shifted to the right by only one position.The new segment needs to repeat the same process.
+During the evaluation phase, the segment is shifted to the right by only one position.The new segment needs to start from scratch.
 
 ![image](https://user-images.githubusercontent.com/46518960/141615449-df9cfd56-6837-43b4-a446-9e57daf1e347.png)
 
@@ -50,7 +50,8 @@ During the evaluation phase, the segment is shifted to the right by only one pos
 1.	Attention deals with strings of fixed length. Text is splitted into certain number of chunks and before being fed into the model.
 2.	Text is splitted without without respecting the order of the string.
 
-**Using Transformer-XL for language modelling**
+**Transformer-XL **
 
 To overcome these problems new model was proposed Transformer-XL
 In Transformer-XL, the hidden state computed for the previous state is used as an additional context for the current text. This recurrence mechanism overcome the conventional Transformer limitation of fixed length.
+In evaluation phase,the representations from the previous segments can be reused instead of being computed from scratch.
