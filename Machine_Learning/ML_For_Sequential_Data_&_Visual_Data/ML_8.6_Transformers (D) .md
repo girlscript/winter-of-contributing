@@ -14,7 +14,7 @@ In tranformer encoder is on the left hand side and decoder on right. Both encode
 All encoders shares the same architecture. Each encoder has self-attention and feed forward neural network.
 
 **Self-Attention**: Self-Attention is the attention mechanism allows output to focus attention on input while producing output while the self-attention model allows inputs to interact with each other
-![image](https://user-images.githubusercontent.com/46518960/141615434-5527147d-9be2-4850-97df-bd9fd796fb79.png)
+![image](https://user-images.githubusercontent.com/46518960/141669078-989e2027-8a3d-4875-a7b6-cc3251fdae2d.png)
 
 [Q-Query Vector , K-Key Vector, V-Value Vector]
 
