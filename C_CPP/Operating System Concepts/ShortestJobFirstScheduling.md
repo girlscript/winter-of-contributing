@@ -4,109 +4,107 @@
 time or duration first.
 - This is the best approach to minimize waiting time.
 
-## Implementation of Non-Preemptive SJF Scheduling
+## Implementation of SJF Scheduling
 ```C
 // C program 
 #include <stdio.h>
 
-//function to swap two integers
-void swap(int *a, int *b){
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
+void runProcess(int arr[], int bt[], int n, float* avg_wt, float* avg_tat){
+    float total_wt, total_tat;
+    int current_time, count=0, end, temp[20];
 
+    // duplicating burst time - bt array
+    for(int i=0; i<n; i++){
+        temp[i] = bt[i];
+    }
+
+    bt[19] = __INT_MAX__;
+    for(current_time=0; count<n; current_time++){
+        int smallest = 19;
+        for(int i = 0; i < n; i++){
+            //checking for processes which are available for execution
+            if(arr[i] <= current_time && bt[i] < bt[smallest] && bt[i] > 0){  
+                smallest = i;
+            }
+        }
+        bt[smallest]--;
+        
+        //if the process completed its execution
+        if(bt[smallest] == 0){
+            count++;
+            end = current_time + 1;
+            
+            //adding waiting time of current process to total waiting time
+            total_wt = total_wt + end - temp[smallest] - arr[smallest];  
+
+            //adding turnaround time of current process to total turnaround time
+            total_tat = total_tat + end - arr[smallest];
+        }
+    }
+    *avg_wt = total_wt/n; 
+    *avg_tat = total_tat/n;
+}
+ 
 int main(){
     /*
       the arrays
         bt - for burst time
+        arr - for arrival time
         p  - for process id
         wt - for waiting time
         tat - for turnaround time
     */
-    int bt[20], p[20], wt[20], tat[20], n, total_tat = 0, total_wt = 0, minimum , temp, index;
-
+    int bt[20], arr[20], n, total_tat = 0;
     float avg_wt, avg_tat;
 
     printf("Enter number of Process: ");
     scanf("%d", &n);
 
-    for(int i=0; i<n; i++) {
-        p[i] = i+1;
-        printf("Process %d:-\n", p[i]);
+    for (int i = 0; i < n; i++) {
+        printf("Process %d:-\n", 1+i);
+        printf("Enter Arrival Time: ");
+        scanf("%d", &arr[i]);
         printf("Enter Burst Time: ");
         scanf("%d", &bt[i]);
     }
-	
-    //printing the given data
-    printf("Given Case:-\n");
-    printf("Process ID\tBurst Time\n");
-    for (int i=0; i<n; i++)
-        printf("%d\t\t%d\n", i+1, bt[i]);
     
-    //sorting the processes based on burst time in ascending order using selection sort
-    for (int i=0; i<n-1; i++){
-        index = i;
-        for (int j=i+1; j<n; j++)
-            if(bt[j]<bt[index]){
-                index = j;
-            }  
-        swap(&bt[i],&bt[index]);
-        swap(&p[i],&p[index]);
+    printf("Given Data:-\n");
+    printf("Process ID\tArrival Time\tBurst Time\n");
+    for (int i = 0; i < n; i++){
+        printf("%d\t\t%d\t\t%d\n", i+1, arr[i], bt[i]);
     }
 
-    wt[0] = 0;
-    tat[0] = wt[0] + bt[0];
-    total_tat += tat[0];
-    for(int i=1; i<n; i++){
-	/* waiting time of current process is equal to sum of waiting time and burst time of previous process */
-        wt[i] =  bt[i-1]+wt[i-1];      
+    runProcess(arr, bt, n, &avg_wt, &avg_tat);
 
-/* turnaround time of current process is equal to sum of waiting time and burst time of the process */    
-	   tat[i] = bt[i]+wt[i]; 
-
-        total_wt += wt[i];
-        total_tat += tat[i];
-    }
-
-    printf("\nFinal Result\n");
-    printf("Process ID Burst Time  Waiting Time  Turnaround Time\n");
-    for(int i=0; i<n; i++)
-        printf("%d\t\t%d\t\t%d\t\t%d\n", p[i], bt[i], wt[i], tat[i]);
-    
-    // average waiting time and turnaround time
-    avg_wt=(float)total_wt/n;
-    avg_tat=(float)total_tat/n;
-    printf("\nAverage waiting time = %.2f", avg_wt);
-    printf("\nAverage turn around time = %.2f ", avg_tat);
-} 
+    printf("Final Result...");
+    printf("\nAverage Waiting Time: %.2f\n", avg_wt);
+    printf("Average Turnaround Time: %.2f\n", avg_tat);
+}
 ``` 
 
 ## Output
 ```
 Enter number of Process: 4
 Process 1:-
-Enter Burst Time: 21
-Process 2:-
-Enter Burst Time: 3
-Process 3:-
+Enter Arrival Time: 0
 Enter Burst Time: 6
+Process 2:-
+Enter Arrival Time: 1
+Enter Burst Time: 4
+Process 3:-
+Enter Arrival Time: 3
+Enter Burst Time: 5
 Process 4:-
-Enter Burst Time: 2
-Given Case:-
-Process ID      Burst Time
-1               21
-2               3
-3               6
-4               2
+Enter Arrival Time: 5
+Enter Burst Time: 3
+Given Data:-
+Process ID      Arrival Time    Burst Time
+1               0               6
+2               1               4
+3               3               5
+4               5               3
 
-Final Result
-Process ID Burst Time  Waiting Time  Turnaround Time
-4               2               0               2
-2               3               2               5
-3               6               5               11
-1               21              11              32
-
-Average waiting time = 4.50
-Average turn around time = 12.50
+Final Result...
+Average Waiting Time: 4.25
+Average Turnaround Time: 8.75
 ```
