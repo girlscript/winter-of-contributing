@@ -1,1 +1,1 @@
-
+For this task, I have used Kaggle's Red Wine Quality dataset. Each wine in this dataset is given a quality score between 0 and 10. The quality of a wine is determined by 11 input variables: Fixed acidity, Volatile acidity, Citric acid, Residual sugar, Chlorides, Free sulfur dioxide, Total sulfur dioxide, Density, pH, Sulfates, and Alcohol.
