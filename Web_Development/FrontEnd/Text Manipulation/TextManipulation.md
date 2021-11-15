@@ -4,7 +4,7 @@ To create an attractive and beautiful website, text manipulation is required. Te
 
 ## CSS Properties For Text Manipulation
 
-### Font size, families, color and weight
+### Font size, families, color and weight properties
 
 By using css property `font-size` you can increase or decrease the size of text.
 
@@ -38,7 +38,7 @@ font-weight: 600;
 }
 ```
 
-### Direction
+### Direction property
 
 Tells the direction of text. This depends on the language you're wrinting in website. By default language is english and direction is left. 
 
@@ -49,7 +49,7 @@ p{
 
 ```
 
-### Word-spacing, letter-spacing and white-spacing
+### Word-spacing, letter-spacing and white-spacing properties
 
 With the help of both properties `word-spacing` and `letter-spacing` you can set spacing between letters and words. `white-space` property used to give white spacing (line break) inside the element. It specify two things how white-space is collapsed and line  wraping or non wraping.
 
@@ -63,7 +63,7 @@ white-space: break-spaces;
 }
 ```
 
-### Indentation,  Alignment and Transformation
+### Indentation,  Alignment and Transformation properties
 
 `text-indent` tells how much space should be left before the start of paragraph or heading. `text-align` property is used to set the alignment of element or container. With the help of `text-transform` property you can transform font (Uppercase, Lowercase and Capitalize).
 
@@ -77,7 +77,7 @@ text-indent: 30px;
 }
 ```
 
-### Text shadow
+### Text shadow property
 
 `text-shadow` gives a shadow effect to your text. 
 
