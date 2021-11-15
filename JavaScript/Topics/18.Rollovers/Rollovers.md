@@ -39,16 +39,14 @@ change the text color to blue.
 
 <br>
 
-<img src="
-https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-1.png" alt="Output" />
+![image](op-1.png)
 <br><br>
+
 
 <br>
 
-<img src="
-https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-2.png" alt="Output" />
+![image](op-2.png)
 <br><br>
-
 
 
 ## **Example 2:**
@@ -86,21 +84,16 @@ https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScr
 
 <br>
 
-<img src="
-https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-3.PNG" alt="Output" />
-
+![image](op-3.PNG)
+<br><br>
 <br>
 
-<br>
-
-<img src="
-https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-4.png" alt="Output" />
+![image](op-4.png)
 <br><br>
 
 <br>
 
-<img src="
-https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-5.png" alt="Output" />
+![image](op-5.png)
 <br><br>
 
 
@@ -124,19 +117,14 @@ onmouseout=”this.value=’Rollover means a webpage changes when the user moves
 
 ## Output
 
-
-
 <br>
 
-<img src="
-https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-6.png" alt="Output" />
-
+![image](op-6.png)
 <br><br>
 
 <br>
 
-<img src="
-https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-7.PNG" alt="Output" />
+![image](op-7.PNG)
 <br><br>
 
 # **More Efficient Rollovers**
@@ -160,6 +148,7 @@ to react to the rollover event.
 
 
 ## **Summary**
+
 
 A rollover provides an easy way to make your web page come alive, as visitors to 
 your web site move the mouse cursor around the web page. Each time the mouse 
