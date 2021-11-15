@@ -28,31 +28,32 @@ The figure here represents the stump. It can be seen clearly that it has only on
 ## Implementation of AdaBoost Algorithm
 
 
-Step 1 – First we create the first base learner. So, we take the first feature, i.e., feature 1 and hence build the first stump, f1. It will create the same number of stumps as the number of features. In the case below, it will create 3 stumps as there are only 3 features in this dataset. From these stumps, it will create three decision trees. Out of these 3 models, the algorithm selects only one. Two properties are considered while selecting a base learner – Gini and Entropy. We must calculate Gini or Entropy the same way it is calculated for decision trees. The stump with the least value will be the first base learner.  So, let’s take stump 1, i.e., feature 1 as our first base learner.
+Step 1 – First, we start by creating the first base learner. So, we take the first feature, and hence build the first stump, f1. AdaBoost will create the same number of stumps as the number of features. Here, it will create 3 stumps as there are only 3 features in this dataset. From these stumps, it will create three decision trees. Then from the 3 models, the algorithm selects only one of them. Gini and Entropy are considered while selecting the first base learner. The stump with the minimum value will be the first base learner.  So, let’s take stump 1, i.e., feature 1 as our first base learner.
+
+![Uploading RfnGcSykUeWrhnZnDBZ8i8w4vH9s57LILIYJrOHkSbbmdDNUll_NUpEJoJH0_eTJvgVPUAUsAX7nOKyYPxE01AA_GCJHLK4vhMURQ-AyjrxAIhsE2BfVbTJM058cmP0Fmj7a4p8IP_JMyn3kFQ.png…]()
+
+![GyllEoiJtZeRI-_bdJsSimz3f0wxSs7vCZsEYYoA7V-S75wGrUNf7r_geuW1qTG470qdgtNpnrpv3J-Y9YE9gBHzBDhOTxd7C70d5m06UceSHeH32xHkJx5UtAjtIzQ9XYOmOL2wfp1QydmR7w](https://user-images.githubusercontent.com/54388275/141850649-f4336503-4aa3-4cea-84b8-e2840d789988.png)
 
 Stumps
-No alt text provided for this image
-Here, feature (f1) has classified 2 records correctly and 1 incorrectly. The row in the figure that is marked red is incorrectly classified. For this, we will be calculating the total error.
+Here, feature f1 has predicted 2 records accurately and 1 incorrectly. The row in the figure that is marked red is incorrectly classified. For this, we will be calculating the total error.
 
 Step 2 – Calculating the Total Error (TE)
-The total error is the sum of all the errors in the classified record for sample weights. In our case, there is only 1 error, so Total Error (TE) = 1/5.
+The total error is the sum of all the errors in the classified record for sample weights. 
+Here, there is only 1 error, so Total Error (TE) = 1/5.
 
-Step 3 – Calculating Performance of the Stump
+Step 3 – Calculation of Performance of the Stump
 Formula for calculating Performance of the Stump is: –
 
 Performance of Stump Formula
 where, ln is natural log and TE is Total Error.
 
-In our case, TE is 1/5. By substituting the value of total error in the above formula and solving it, we get the value for the performance of the stump as 0.693. Why is it necessary to calculate the TE and performance of a stump? The answer is, we must update the sample weight before proceeding to the next model or stage because if the same weight is applied, the output received will be from the first model. In boosting, only the wrong records/incorrectly classified records would get more preference than the correctly classified records. Thus, only the wrong records from the decision tree/stump are passed on to another stump. Whereas, in AdaBoost, both records were allowed to pass and the wrong records are repeated more than the correct ones. We must increase the weight for the wrongly classified records and decrease the weight for the correctly classified records. In the next step, we will be updating the weights based on the performance of the stump.
-
-Also Read: Decision Tree Algorithm Explained
+It is necessary to calculate the TE and performance of a stump because we must update the sample weight before proceeding to the next model or stage because if the same weight is applied, the output received will be from the first model. In boosting, only the wrong records classified records would get more preference than the correctly classified records but in AdaBoost, both records were allowed to pass and the wrong records are repeated more than the correct ones. We must increase the weight for the wrongly classified records and decrease the weight for the correctly classified records. In the next step, we will be updating the weights based on the performance of the stump.
 
 Step 4 – Updating Weights
 For incorrectly classified records, the formula for updating weights is:
 
 New Sample Weight = Sample Weight * e^(Performance) 
 
-In our case Sample weight = 1/5 so, 1/5 * e^ (0.693) = 0.399
 
 For correctly classified records, we use the same formula with the performance value being negative. This leads the weight for correctly classified records to be reduced as compared to the incorrectly classified ones. The formula is:
 
@@ -61,7 +62,8 @@ New Sample Weight = Sample Weight * e^- (Performance)
 Putting the values, 1/5 * e^-(0.693) = 0.100
 
 Updated Weight
-The updated weight for all the records can be seen in the figure. As is known, the total sum of all the weights should be 1. In this case, it is seen that the total updated weight of all the records is not 1, it’s 0.799. To bring the sum to 1, every updated weight must be divided by the total sum of updated weight. For example, if our updated weight is 0.399 and we divide this by 0.799, i.e. 0.399/0.799=0.50. 
+The updated weight for all the records can be seen in the figure. As is known, the total sum of all the weights should be 1. In this case, it is seen that the total updated weight of all the records is not 1, it’s 0.799. To bring the sum to 1, every updated weight must be divided by the total sum of updated weight. 
+For example, if our updated weight is 0.399 and we divide this by 0.799, i.e. 0.399/0.799=0.50. 
 
 0.50 can be known as the normalized weight. In the below figure, we can see all the normalized weight and their sum is approximately 1.
 
@@ -78,3 +80,5 @@ New Dataset
 Based on this new dataset, the algorithm will create a new decision tree/stump and it will repeat the same process from step 1 till it sequentially passes through all stumps and finds that there is less error as compared to normalized weight that we had in the initial stage.
 
 ## Conclusion
+
+AdaBoost helps in choosing the training set for each new classifier that is trained based on the results of the previous classifier. Also, while combining the results; it determines how much weight should be given to each classifier’s proposed answer. It combines the weak learners to create a strong one to correct classification errors which is also the first successful boosting algorithm for binary classification problems.
