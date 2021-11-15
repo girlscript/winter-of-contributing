@@ -13,6 +13,17 @@ on which the prediction is not good.
 
 AdaBoost can be used to solve a variety of daily life problems, such as predicting customer churn and classifying the types of topics customers are having conversation about. The algorithm is heavily utilised for solving classification problems, because of its relative ease of implementation in languages such as R and Python.
 
+## Advantages of AdaBoost Algorithm:
+
+1. One of the many advantages of the AdaBoost Algorithm is it is fast, simple and easy to program.
+2. Boosting has been shown to be robust to overfitting.
+3. It has been extended to learning problems beyond binary classification (i.e.) it can be used with text or numeric data.
+
+## Drawbacks:
+
+1. AdaBoost can be sensitive to noisy data and outliers.
+2. Weak classifiers being too weak can lead to low margins and overfitting.
+
 ## How does it work?
 
 Boosting works by making ‘n’ number of decision trees during the training process. As the first decision tree is made, the incorrectly classified record in the first model is given priority. Only these records are sent as input to the second model. The process continues until we specify a number of base learners we want to create. 
