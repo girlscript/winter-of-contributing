@@ -86,3 +86,4 @@ Even for vertical alignment there is a syntax "vertical-align" which can be appl
         </body>
     </html>
 
+- [CSS Text Manipulation](./CSS_Text_Manipulation.md)
