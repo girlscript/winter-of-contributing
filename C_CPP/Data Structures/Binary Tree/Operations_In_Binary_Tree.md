@@ -64,7 +64,7 @@ struct Node *RInsert(struct Node *p,int key){
     return p;
 }
 
-// Finding the height of a binary search tree -------------------> 
+// Finding the height of the B.Tree -------------------> 
 int Height(struct Node *p){
     int x,y;
     if(p==NULL){
@@ -185,38 +185,39 @@ int main(){
     struct Node *temp;
     root=RInsert(root,50);
     do{
-        printf("Press-1 to insert an element into a Binary Tree: \n");
-        printf("Press-2 to delete an element from a Binary Tree: \n");
-        printf("Press-3 to traverse through the Binary Tree in INORDER: \n");
-        printf("Press-4 to count the number of nodes in the Binary Tree: \n");
-        printf("Press-5 to find the height of the Binary Tree: \n");
-        printf("Press-6 to traverse tree in LEVEL ORDER: \n");
-        printf("Press-7 to search a value in the Binary Tree: \n");
+        printf("Choose any one operation out of the given below: \n")
+        printf("Press-1 Insertion: \n");
+        printf("Press-2 Deletion: \n");
+        printf("Press-3 Traversing in (INORDER): \n");
+        printf("Press-4 Counting total nodes: \n");
+        printf("Press-5 Finding the height: \n");
+        printf("Press-6 Traversing in (LEVEL ORDER): \n");
+        printf("Press-7 Searching: \n");
         scanf("%d", &choice);
-        if(choice==1){
+        if (choice == 1){
             int value;
-            printf("Enter the value you wanna insert into the Binary Tree: ");
+            printf("\n Input the value to insert in the B.Tree as per your wish: ");
             scanf("%d", &value);
             RInsert(root, value);
-        }else if(choice ==2){
+        }else if (choice == 2){
             int valueToBeDeleted;
-            printf("Enter the value you wanna delete from the Binary Tree: ");
+            printf("\n Input the value to delete from the B.Tree: ");
             scanf("%d", &valueToBeDeleted);
             Delete(root, valueToBeDeleted);
-        }else if(choice ==3){
+        }else if (choice == 3){
             Inorder(root);
-        }else if(choice ==4){
-            printf("\n The number of nodes in the Binary Tree are = %d", countnodes(root));
-        }else if(choice == 5){
-            printf("\n The height of the Binary Tree is %d.", Height(root));
-        }else if(choice == 6){
+        }else if (choice == 4){
+            printf("\n Total counted nodes = %d", countnodes(root));
+        }else if (choice == 5){
+            printf("\n The height found is %d.", Height(root));
+        }else if (choice == 6){
             printLevelOrder(root);
-        }else if(choice == 7){
+        }else if (choice == 7){
             int elementToBeSearched;
-            printf("Enter the element to be searched for: ");
+            printf("Input the element you want to search in the B.Tree(as per your wish): ");
             scanf("%d", &elementToBeSearched);
             temp=Search(elementToBeSearched);
-            if(temp!=NULL)
+            if (temp!=NULL)
                 printf("element %d is found\n",temp->data);
             else
                 printf("element is not found\n");
