@@ -4,9 +4,7 @@
 - If **L1 ≤P L2** and **L2 ∈ P,** then **L1 ∈ P**
 - If **L1≤P L2** and **L2∈ NP,** then **L1∈ NP**
 
-<img src="./image/NP-Complete.png" alt="NP-Complete" width="600" height="300">
 
-- [Image refrence from geeksforgeeks](https://www.geeksforgeeks.org/np-completeness-set-1/)
 
 
 | Polynomial Time     | Eponetial Time (NP)       |
@@ -42,24 +40,13 @@
 >- **P=NP** could have stunning practical consequence if the proof leads to efficient methods for solving some important problem in **NP**
 >- The potential consequences,  both positive or negative arise since various *NP-complete* problems are fundamental in many fields.
 >- Proof is not lead to practical algorithms for *NP Complete* problem.
-<img src="./image/P=NP.png" alt="P=NP" width="500" height="300">
-
-- [Image refrence from wikipedia](https://en.wikipedia.org/wiki/NP-completeness)
 
 ## **P≠NP**
 >- **P≠NP** would piratical Computational benefit of a proof that **P=NP.** 
 >-  It can't be solve many problemse efficiently.
 >- **P≠NP** still leave open the average-case-complexity of the problem in **NP.*
-<img src="./image/P!=NP.png" alt="P!=NP" width="400" height="250">
-
-- [Image refrence from geeksforgeeks](https://www.geeksforgeeks.org/np-completeness-set-1/)
-
-
 
 ## Reduction formulla 
-<img src="./image/NP-Completeness1.png" alt="NP-Completeness1" width="350" height="200">
-
-- [Image refrence from geeksforgeeks](https://www.geeksforgeeks.org/np-completeness-set-1/)
 
 -------------------
 
