@@ -6,6 +6,7 @@
 - [Simple ATM Bank In C](Simple_ATM_Bank_in_C.md)
 - [Sieve of Eratosthenes in C++](Sieve_of_Eratosthenes.md)
 - [Basic problems on string](basic_string_problems.md)
+- [Railway Reservation System](Railway_Reservation_System.md)
 - [Number Theory](numbertheory.md)
 - [Missing and repeating numbers in array](Missing_and_Repeating_in_Array.md)
 - [School Management System](School_Management_System.md)
