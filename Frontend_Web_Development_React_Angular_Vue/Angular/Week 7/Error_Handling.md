@@ -5,11 +5,11 @@
 # Types of errors
 There are many types of errors but the two main categories are: insider and outsider errors.
 
-## Insider errors
+## 1. Insider errors
 ### (Also known as client side errors) 
 * These are the ones you can be held responsible for, the syntax errors, package manager errors, reference errors, type errors and all types of client side errors that can be fixed by the developer within the Angular application.
 
-## Outsider errors
+## 2. Outsider errors
 ### (Also known as server side errors) 
 * These ones can span from server errors, which mostly come with three digit status codes like 500 to internet network errors, to even browser specific errors. These are basically errors that are out of the reach of the Angular application hence the name outsider.
 
