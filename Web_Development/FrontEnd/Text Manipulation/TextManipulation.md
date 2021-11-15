@@ -87,7 +87,7 @@ text-shadow: 4px 4px 5px red;
 }
 ```
 
-As you can see, first we are telling about horizontal shadow then we are telling about vertical shadow then we are telling blurness of shadow and lastly we are tellin color of shadow.
+As you can see, first we are telling about horizontal shadow then we are telling about vertical shadow then we are telling blurness of shadow and lastly we are telling color of shadow.
 
 ## CODE
 ```html
@@ -124,7 +124,10 @@ p {
 </head>
 <body>
 <h1>Tommy The Cat</h1>
-<p>Well I remember it as though it were a meal ago... Said Tommy the Cat as he reeled back to clear whatever foreign matter may have nestled its way into his mighty throat. Many a fat alley rat had met its demise while staring point blank down the cavernous barrel of this awesome prowling machine. Truly a wonder of nature this urban predator — Tommy the cat had many a story to tell. But it was a rare occasion such as this that he did.</p>
+<p>Well I remember it as though it were a meal ago... Said Tommy the Cat as he reeled back to clear whatever 
+ foreign matter may have nestled its way into his mighty throat. Many a fat alley rat had met its demise while
+ staring point blank down the cavernous barrel of this awesome prowling machine. Truly a wonder of nature this
+ urban predator — Tommy the cat had many a story to tell. But it was a rare occasion such as this that he did.</p>
 </body>
 </html>
 ``` 
