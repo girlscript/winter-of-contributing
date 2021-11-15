@@ -1,5 +1,8 @@
 # Project Title : Customer Segmentation
 
+![image](https://user-images.githubusercontent.com/59737567/141859051-2e35f7ac-56f7-4857-88ba-ed4384dca49b.png)
+
+
 ## Abstract/Brief Description about the Project :
 An automobile company has plans to enter new markets with their existing products (P1, P2, P3, P4 and P5). After intensive market research, they’ve deduced that the behavior of new market is similar to their existing market.
 
