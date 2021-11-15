@@ -9,7 +9,7 @@ Content In their existing market, the sales team has classified all customers in
 The dataset which is used here, is collected from Kaggle website. Here is the link of the dataset : https://www.kaggle.com/vetrirah/customer.
 
 ## Goal/Aim of the project :
-The goal of this project is to develop a model which can segment the customers into different categories based on the characteristics provided in dataset.
+The goal of this project is to analyse different types of customers around the globe and build a classification model accordingly.
 
 ## Libraries used :
 - Numpy
