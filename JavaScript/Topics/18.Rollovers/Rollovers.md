@@ -15,6 +15,7 @@
  * Causes text to pop up or become highlighted with bold colors when the mouse is moved on a text element.
 
 # **Creating a Rollover**
+
   * ### A rollover is caused by an event called onmouseover and occurs when a visitor to your web site moves the mouse over an object that appears on the page. An object can be an image, text, or any element of a form.
 
   * ### You react to the onmouseover event by using the __onmouseover__ attribute of an HTML tag that defines the object on the web page and then assign to the onmouseover attribute the action you want performed when the event occurs. 
@@ -84,7 +85,8 @@ change the text color to blue.
 <br>
 
 ![image](op-3.png)
-<br><br>
+
+<br>
 
 <br>
 
@@ -117,9 +119,12 @@ onmouseout=”this.value=’Rollover means a webpage changes when the user moves
 
 ## Output
 
+
+
 <br>
 
 ![image](op-6.png)
+
 <br><br>
 
 <br>
@@ -129,13 +134,13 @@ onmouseout=”this.value=’Rollover means a webpage changes when the user moves
 
 # **More Efficient Rollovers**
 An efficient way of handling rollovers is to load images into an array when your 
-web page loads. The browser loads each image once the fi rst time the image is referenced in the web page. Typically, the default setting for the browser is to check 
+web page loads. The browser loads each image once the fi rst time the image is referenced in the web page. Typically, the default setting for the browser is to check 
 the browser cache for subsequent references for the image rather than download the 
 image again from the web server. However, a visitor to your web page might have 
 changed the default setting, causing the browser to reload the image each time the 
 image is referenced. This might cause a noticeable delay.
-Any delay in transmission is likely to be noticed by the visitor. While most visitors accept short delays when they're selecting a different web page, they tend to be 
-unforgiving if the rollover takes longer than a second or two to display the new image. You can reduce this delay by creating a JavaScript that loads all the images into 
+Any delay in transmission is likely to be noticed by the visitor. While most visitors accept short delays when they're selecting a different web page, they tend to be 
+unforgiving if the rollover takes longer than a second or two to display the new image. You can reduce this delay by creating a JavaScript that loads all the images into 
 memory once at the beginning of the JavaScript, where they can be quickly called 
 upon as the onmouseover event occurs.
 
@@ -147,7 +152,7 @@ process:
 to react to the rollover event.
 
 
-## Summary
+## **Summary**
 
 A rollover provides an easy way to make your web page come alive, as visitors to 
 your web site move the mouse cursor around the web page. Each time the mouse 
