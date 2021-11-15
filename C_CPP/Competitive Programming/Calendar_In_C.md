@@ -1,5 +1,13 @@
 # Calendar In C
 
+### Description of the following Code:
+This fascinating program prints a calendar of the year on the basis of :
+- Year
+- Month by Month in sequential order by inputting Year by the user
+- Day by inputting Date , Month and Year
+
+Hope you find the Date, Date, Month of your choice! :)
+
 ## CODE:
 
 ```cpp
