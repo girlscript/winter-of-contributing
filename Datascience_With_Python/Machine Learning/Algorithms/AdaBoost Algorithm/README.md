@@ -2,16 +2,16 @@
 
 ## Introduction
 
-AdaBoost algorithm, short for Adaptive Boosting, is a Boosting technique used as an Ensemble Method in Machine Learning. It is called Adaptive Boosting as the weights are re-assigned to each instance, with higher weights assigned to incorrectly classified instances. Boosting is used to reduce bias as well as variance for supervised learning. It works on the principle of learners growing sequentially. Except for the first, each subsequent learner is grown from previously grown learners. In simple words, weak learners are converted into strong ones. The AdaBoost algorithm works on the same principle as boosting with a slight difference. 
+AdaBoost algorithm, is short form for Adaptive Boosting, and it is a Boosting technique used as an Ensemble Method. This is called Adaptive Boosting because the weights are re-assigned to each instance, and higher weights are given to incorrectly classified instances. It is used to decrease bias and variance for supervised learning. It works on the concept of learners increasing sequentially as each subsequent learner is grown from previous learners except the first layer. Weak learners are transformed into strong ones. 
 
 ## Properties and Applications of the Algorithm
 
-1. Adaboost adjusts adaptively the errors of the weak hypotheses by weak learner.
-2. Unlike the conventional boosting algorithm, the prior error need not be known ahead of time.
-3. The update rule reduces the probability assigned to those examples on which the hypothesis makes a good predictions and increases the probability of the examples
-on which the prediction is poor.
+1. It adjusts the errors of the weak hypotheses by weak learner in an adaptive way.
+2. The prior error need not be known ahead of time which is not the case of the normal boosting algorithm.
+3. The update rule decreases the probability given to examples on which the hypothesis makes good predictions and increases the probability of the examples
+on which the prediction is not good.
 
-AdaBoost can be used to solve a variety of real-world problems, such as predicting customer churn and classifying the types of topics customers are talking/calling about. The algorithm is heavily utilised for solving classification problems, given its relative ease of implementation in languages such as R and Python.
+AdaBoost can be used to solve a variety of daily life problems, such as predicting customer churn and classifying the types of topics customers are having conversation about. The algorithm is heavily utilised for solving classification problems, because of its relative ease of implementation in languages such as R and Python.
 
 ## How does it work?
 
