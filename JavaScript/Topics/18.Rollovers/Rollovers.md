@@ -39,12 +39,14 @@ change the text color to blue.
 
 <br>
 
-![image](op-1.png)
+<img src="
+https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-1.png" alt="Output" />
 <br><br>
 
 <br>
 
-![image](op-2.png)
+<img src="
+https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-2.png" alt="Output" />
 <br><br>
 
 
@@ -84,23 +86,26 @@ change the text color to blue.
 
 <br>
 
-![image](op-3.png)
+<img src="
+https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-3.PNG" alt="Output" />
 
 <br>
 
 <br>
 
-![image](op-4.png)
+<img src="
+https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-4.png" alt="Output" />
 <br><br>
 
 <br>
 
-![image](op-5.png)
+<img src="
+https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-5.png" alt="Output" />
 <br><br>
 
 
 # **Text Rollover**
- You can create as many rollovers as you want on your web page; however,each one should be meaningful to the visitor. There is nothing more distracting to a visitor than to encounter rollovers on practically every object on a web page. Carefully placed rollovers can enhance a visitor's experience when browsing the web page. A clever rollover technique used by some developers is to enable a visitor to see additional information about an item described in text by placing the mouse cursor on the text. This eliminates the time-consuming task of using a hyperlink to display another web page that contains this additional information and reduces the information clutter found on some web pages.You create a rollover for text by using the **onmouseover** attribute.
+ You can create as many rollovers as you want on your web page; however,each one should be meaningful to the visitor. There is nothing more distracting to a visitor than to encounter rollovers on practically every object on a web page. Carefully placed rollovers can enhance a visitor's experience when browsing the web page. A clever rollover technique used by some developers is to enable a visitor to see additional information about an item described in text by placing the mouse cursor on the text. This eliminates the time-consuming task of using a hyperlink to display another web page that contains this additional information and reduces the information clutter found on some web pages.You create a rollover for text by using the **onmouseover** attribute.
 
 
 ## **Example :**
@@ -123,13 +128,15 @@ onmouseout=”this.value=’Rollover means a webpage changes when the user moves
 
 <br>
 
-![image](op-6.png)
+<img src="
+https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-6.png" alt="Output" />
 
 <br><br>
 
 <br>
 
-![image](op-7.png)
+<img src="
+https://github.com/utkarshakakade/winter-of-contributing/blob/Javascript/JavaScript/Topics/18.Rollovers/op-7.PNG" alt="Output" />
 <br><br>
 
 # **More Efficient Rollovers**
