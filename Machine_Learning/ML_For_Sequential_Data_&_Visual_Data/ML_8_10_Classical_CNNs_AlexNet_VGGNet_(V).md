@@ -3,7 +3,7 @@
 
 🔴 **Domain** : Machine Learning
 
-🔴 **Module** : Classical CNNs - AlexNet, VGGNet
+🔴 **Module** : ML for Sequential Data and Visual Data
 
 *********************************************************************
 
