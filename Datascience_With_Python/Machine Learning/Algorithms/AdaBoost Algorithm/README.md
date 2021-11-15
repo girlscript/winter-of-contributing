@@ -30,11 +30,10 @@ The figure here represents the stump. It can be seen clearly that it has only on
 
 Step 1 – First, we start by creating the first base learner. So, we take the first feature, and hence build the first stump, f1. AdaBoost will create the same number of stumps as the number of features. Here, it will create 3 stumps as there are only 3 features in this dataset. From these stumps, it will create three decision trees. Then from the 3 models, the algorithm selects only one of them. Gini and Entropy are considered while selecting the first base learner. The stump with the minimum value will be the first base learner.  So, let’s take stump 1, i.e., feature 1 as our first base learner.
 
-![Uploading RfnGcSykUeWrhnZnDBZ8i8w4vH9s57LILIYJrOHkSbbmdDNUll_NUpEJoJH0_eTJvgVPUAUsAX7nOKyYPxE01AA_GCJHLK4vhMURQ-AyjrxAIhsE2BfVbTJM058cmP0Fmj7a4p8IP_JMyn3kFQ.png…]()
+![RfnGcSykUeWrhnZnDBZ8i8w4vH9s57LILIYJrOHkSbbmdDNUll_NUpEJoJH0_eTJvgVPUAUsAX7nOKyYPxE01AA_GCJHLK4vhMURQ-AyjrxAIhsE2BfVbTJM058cmP0Fmj7a4p8IP_JMyn3kFQ](https://user-images.githubusercontent.com/54388275/141850735-6c3fee2b-e67e-462e-8084-2cc5da62a5d8.png)
 
 ![GyllEoiJtZeRI-_bdJsSimz3f0wxSs7vCZsEYYoA7V-S75wGrUNf7r_geuW1qTG470qdgtNpnrpv3J-Y9YE9gBHzBDhOTxd7C70d5m06UceSHeH32xHkJx5UtAjtIzQ9XYOmOL2wfp1QydmR7w](https://user-images.githubusercontent.com/54388275/141850649-f4336503-4aa3-4cea-84b8-e2840d789988.png)
 
-Stumps
 Here, feature f1 has predicted 2 records accurately and 1 incorrectly. The row in the figure that is marked red is incorrectly classified. For this, we will be calculating the total error.
 
 Step 2 – Calculating the Total Error (TE)
@@ -43,6 +42,8 @@ Here, there is only 1 error, so Total Error (TE) = 1/5.
 
 Step 3 – Calculation of Performance of the Stump
 Formula for calculating Performance of the Stump is: –
+
+![GLQJhUiPMqLy8XeQ7MwHvidwjwuF5vNrqSnAr63YmT7fTibePfVDByqqKyM-qU0QkLeFgNxZkQypD2E5YJMUaX8KMYTRxQGlQhnrMI-MSQowJzPAMyO8D5hzh0mx-j-ZZDEaVt2uaINZycwA3A](https://user-images.githubusercontent.com/54388275/141855064-fe9ade39-d736-4ac2-a6cb-6e78e3419da4.png)
 
 Performance of Stump Formula
 where, ln is natural log and TE is Total Error.
@@ -61,22 +62,28 @@ New Sample Weight = Sample Weight * e^- (Performance)
 
 Putting the values, 1/5 * e^-(0.693) = 0.100
 
+![tMYAB3cZHp9PsTYSCasaeod8th5qvmZUYdIAybagt5K4Q6UfrH4ltxVDy-V_nhKIDYoTtls-6bzarO2LNOUpGX8XzioMYbFWrFUGC-SBWsvBVEbM95S6GVO88Mt9-WnwIwO9RTydwARWMliUUw](https://user-images.githubusercontent.com/54388275/141855095-4ae3afff-57c4-4911-bc97-77f18b7c22ec.png)
+
 Updated Weight
 The updated weight for all the records can be seen in the figure. As is known, the total sum of all the weights should be 1. In this case, it is seen that the total updated weight of all the records is not 1, it’s 0.799. To bring the sum to 1, every updated weight must be divided by the total sum of updated weight. 
 For example, if our updated weight is 0.399 and we divide this by 0.799, i.e. 0.399/0.799=0.50. 
 
 0.50 can be known as the normalized weight. In the below figure, we can see all the normalized weight and their sum is approximately 1.
 
+![WSeQLplGzze6scU9KvUH9qiSZ5Pl9NPsVcIO7SsOF2vjkQALkQqzdgU6QOD-JBTyt32Li6Emy3GNHXsScR3jY3eSqvvHzBy-EVN0Xfa1eAc-1kQmUv4JkQtO6wh9-pTIsVrl9jGoXw8ekXHj4g](https://user-images.githubusercontent.com/54388275/141855120-f3facc3d-1399-4f74-8be6-690e9ce9011e.png)
+
 Normalized Weight
 Step 5 – Creating a New Dataset
 Now, it’s time to create a new dataset from our previous one. In the new dataset, the frequency of incorrectly classified records will be more than the correct ones. The new dataset has to be created using and considering the normalized weights. It will probably select the wrong records for training purposes. That will be the second decision tree/stump. To make a new dataset based on normalized weight, the algorithm will divide it into buckets.
 
-Buckets
+![wPe2-195UokO0IHgxIW4NKp6TaMDS36zYFW03ZSxbHLQCseE5KwUfHSQQIPHbFIuHtWsJgdUVWSOAds8IcHSu05EyXyroEwwyQXwZz6eguIaCtPd4pvICHdi9GhdbYnsDh5c0bBFO8ttN2WVeg](https://user-images.githubusercontent.com/54388275/141855146-faed0a08-b3ed-4b3b-9f67-020a723b70df.png)
+
 So, our first bucket is from 0 – 0.13, second will be from 0.13 – 0.63(0.13+0.50), third will be from 0.63 – 0.76(0.63+0.13), and so on. After this the algorithm will run 5 iterations to select different records from the older dataset. Suppose in the 1st iteration, the algorithm will take a random value 0.46 to see which bucket that value falls into and select that record in the new dataset. It will again select a random value, see which bucket it is in and select that record for the new dataset. The same process is repeated 5 times. 
 
 There is a high probability for wrong records to get selected several times. This will form the new dataset. It can be seen in the image below that row number 2 has been selected multiple times from the older dataset as that row is incorrectly classified in the previous one. 
 
-New Dataset
+![GdEsShAjQ0H9rwO8552I0uV2YVLXmtcvvx8xvJl-apL2c43hDiFm2AgdDg_3eh9fx_3_KhhcxGFbZK-OaGa-l3xVzNbTwanTPAr0yOFGqSxs6Uj2oDUP3ipWSzVkBLhuMXIU6muVxNEgjnR-QQ](https://user-images.githubusercontent.com/54388275/141855178-ff6122df-487e-48fc-a544-e6ec5f406896.png)
+
 Based on this new dataset, the algorithm will create a new decision tree/stump and it will repeat the same process from step 1 till it sequentially passes through all stumps and finds that there is less error as compared to normalized weight that we had in the initial stage.
 
 ## Conclusion
