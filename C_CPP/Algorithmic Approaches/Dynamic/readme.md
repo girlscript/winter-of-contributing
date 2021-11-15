@@ -5,4 +5,4 @@ Index
 - [0/1 Knapsack](DP_Knapsack.md)
 - [Bellman Ford Algorithm](BellmanFordAlgorithm.md)
 - [Traveling Salesman Problem(TSP)](TSP.md)
-
+- [Kadane's Algorithm](Kadane's%20Algorithm.cpp)
