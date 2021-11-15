@@ -155,7 +155,7 @@ Here are the main classes of the Movie Ticket Booking System:
 
 - Collect historical data from on different price points offered in the past as well as the demand for these points.
 
--nBuild a model to predict the different parameters.
+- Build a model to predict the different parameters.
 
 - Use an optimization algorithm to discover the optimal price and product features, to maximize the probability of purchasing. This method can also be used for creating product bundles and discounts.
 
