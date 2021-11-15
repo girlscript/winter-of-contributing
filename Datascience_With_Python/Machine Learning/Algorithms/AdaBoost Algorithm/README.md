@@ -15,11 +15,12 @@ AdaBoost can be used to solve a variety of daily life problems, such as predicti
 
 ## How does it work?
 
-First, let us discuss how boosting works. It makes ‘n’ number of decision trees during the data training period. As the first decision tree/model is made, the incorrectly classified record in the first model is given priority. Only these records are sent as input for the second model. The process goes on until we specify a number of base learners we want to create. Remember, repetition of records is allowed with all boosting techniques.
+Boosting works by making ‘n’ number of decision trees during the training process. As the first decision tree is made, the incorrectly classified record in the first model is given priority. Only these records are sent as input to the second model. The process continues until we specify a number of base learners we want to create. 
 
 This figure shows how the first model is made and errors from the first model are noted by the algorithm. The record which is incorrectly classified is used as input for the next model. This process is repeated until the specified condition is met. As you can see in the figure, there are ‘n’ number of models made by taking the errors from the previous model. This is how boosting works. The models 1,2, 3,…, N are individual models that can be known as decision trees. All types of boosting models work on the same principle. 
 
-Since we now know the boosting principle, it will be easy to understand the AdaBoost algorithm. Let’s dive into AdaBoost’s working. When the random forest is used, the algorithm makes an ‘n’ number of trees. It makes proper trees that consist of a start node with several leaf nodes. Some trees might be bigger than others, but there is no fixed depth in a random forest. With AdaBoost, however, the algorithm only makes a node with two leaves, known as Stump.
+Now we can look at the working of AdaBoost Algorithm. When the random forest is used, the algorithm makes an ‘n’ number of trees. It makes proper trees that consist of a start node with several leaf nodes. Some trees might be bigger than others, but there is no fixed depth in a random forest. 
+With AdaBoost, however, the algorithm only makes a node with two leaves, known as Stump.
 
 The figure here represents the stump. It can be seen clearly that it has only one node with two leaves. These stumps are weak learners and boosting techniques prefer this. The order of stumps is very important in AdaBoost. The error of the first stump influences how other stumps are made. 
 
@@ -76,7 +77,5 @@ There is a high probability for wrong records to get selected several times. Thi
 
 New Dataset
 Based on this new dataset, the algorithm will create a new decision tree/stump and it will repeat the same process from step 1 till it sequentially passes through all stumps and finds that there is less error as compared to normalized weight that we had in the initial stage.
-
-
 
 ## Conclusion
