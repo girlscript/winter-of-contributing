@@ -86,3 +86,4 @@ Even for vertical alignment there is a syntax "vertical-align" which can be appl
         </body>
     </html>
 
+Reference: [W3Schools](https://www.w3schools.com/css/css_text.asp)
