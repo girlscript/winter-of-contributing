@@ -1,0 +1,60 @@
+#+TITLE: Traits
+
++ Traits can be used to implement a standard set of behaviors (methods) across multiple structures.
++ Traits are like interfaces in Object-oriented Programming.
+
+ #+begin_src rust
+trait some_trait {
+   //abstract or method which is empty
+   fn method1(&self);
+   // this is already implemented , this is free
+   fn method2(&self){
+      //some contents of method2
+   }
+}
+
+ #+end_src
+  + *Traits* /can contain/ *concrete methods (methods with body)* /or/ *abstract methods (methods without a body)*.
+
+  + *Use a concrete method if the method definition will be shared by all structures implementing the Trait*.
+
+  + However, *a structure can choose to override a function defined by the trait*.
+
+  + *Use abstract methods if the method definition varies for the implementing structures*.
+*** Implementing a trait :
+
+#+begin_src rust
+impl some_trait for structure_name {
+   // implement method1() there..
+   fn method1(&self ){
+   }
+}
+#+end_src
+
++ The following examples defines a trait =Printable= with a method =print()=, which is implemented by the structure =book=.
+
+ #+begin_src rust
+fn main(){
+   //create an instance of the structure
+   let b1 = Book {
+      id:1001,
+      name:"Rust in Action"
+   };
+   b1.print();
+}
+//declare a structure
+struct Book {
+   name:&'static str,
+   id:u32
+}
+//declare a trait
+trait Printable {
+   fn print(&self);
+}
+//implement the trait
+impl Printable for Book {
+   fn print(&self){
+      println!("Printing book with id:{} and name {}",self.id,self.name)
+   }
+}
+ #+end_src
