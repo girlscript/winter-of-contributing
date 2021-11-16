@@ -1,0 +1,26 @@
+#+TITLE: Vectors to store lists of values
++ Vectors allow you to store more than one value in a single data structure that puts all the values next to each other in memory. Vectors can only store values of the same type.
++ They are useful when you have a list of items, such as the lines of text in a file or the prices of items in a shopping cart.
+
+** Creating a New Vector↗:
++ To create a new, empty vector, we can call the Vec::new function
+#+begin_src rust
+    let v: Vec<i32> = Vec::new();
+#+end_src
++ We are annotating the type here as =Vec<T>= are implemented using *generics* , which we will cover later .
++ For a *generics* is a drop in replacement for any type .
++ Rust can infer types if the vector is initialized most of the times .
+ #+begin_src rust
+let v = vec![1, 2, 3];
+ #+end_src
+** Updating a vector↖:
++ As with any variable, if we want to be able to change its value, we need to make it mutable using the mut keyword.
++ The numbers we place inside are all of type =i32=, and Rust infers this from the data, so we don’t need the =Vec<i32>= annotation.
+#+begin_src rust
+    let mut v = Vec::new();
+
+    v.push(5);
+    v.push(6);
+    v.push(7);
+    v.push(8);
+#+end_src
