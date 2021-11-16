@@ -10,11 +10,11 @@
 |:-:|:-:|---|:-:|
 | 01 | **Kaggle's Titanic Prediction** | Use machine learning to create a model that predicts which passengers survived the Titanic shipwreck. | - |
 | 02 | **House Price Prediction**| This project predicts the prices of houses located in the cities of the US, with the help of essential features. | - |
-| 03 | **Wine Quality Prediction**| This model predicts the quality of wine based on some features like pH, fixed acidity, citric acid etc. using different machine learning algorithm. | - |
+| 03 | **Wine Quality Prediction**| This model predicts the quality of wine based on some features like pH, fixed acidity, citric acid etc. using different machine learning algorithm. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Wine%20Quality%20Prediction%20Project) |
 | 04 | **Heart Disease Prediction**| This project predicts heart disease based on features like age, cholesterol level, blood sugar level etc. | - |
 | 05 | **MNIST Digit Classification**| This project will classify different digits and predict accordingly. | - |
 | 06 | **Sentiment Analysis on Twitter Data**|  Analysing the sentiment of the users and creating a prediction model based on the data, which will predict the sentiment of the user. | - |
-| 07 | **Pima Indian Diabetes Prediction**| Creating a machine learning model, which will classify the diabetes and then predict accordingly. | - |
+| 07 | **Pima Indian Diabetes Prediction**| Creating a machine learning model, which will classify the diabetes and then predict accordingly. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Pima_Diabetes_Analysis) |
 | 08 | **Breast Cancer Classification**| Creating a machine learning model, which will classify breast cancer and then predict accordingly. | - |
 | 09 | **IMDB Box office Prediction**| Machine learning model to predict the rating of the movies enlisted through IMDB Box Office. | - |
 | 10 | **Customer Segmentation**| Analysing different types of customers around the globe and build a classification model accordingly. | - |
