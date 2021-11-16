@@ -46,7 +46,7 @@
 
 - [Structs & Method Syntax](6.Structs_enums_and_patterns/Struct_and_Method.org)
 - [Enums](6.Structs_enums_and_patterns/enum.org)
-- [Control Flow Operator](6.Structs_enums_and_patterns/Control_Flow_Operator.org)
+- [Control Flow Operator](6.Structs_enums_and_patterns/control_flow_operator.org)
 
 ### 7. Common Collections :
 
