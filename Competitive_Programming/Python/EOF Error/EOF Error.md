@@ -1,4 +1,4 @@
-# Python : How to overcome from EOF Error in Compititve programming
+# How to overcome EOF Error in **Competitive Programming**
 
 
 
@@ -44,7 +44,7 @@ if(n>=1 and n<=10**5):
 The code above gives **EOFError** because the input statement inside `while` loop raises an exception at last iteration
 
 
-Do not worry if you don't understand the code or don't get context of the code, its just a solution of one of the problem statements on HackerRank 30 days of code challenge which you might want to [check](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem)
+**Note :** Do not worry if you don't understand the code or don't get the context of the code, its just a solution of one of the problem statements on HackerRank 30 days of code challenge which you might want to [check](https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem)
 
 The important part here is, that I used an infinite while loop to accept input which gave me a runtime error.
 
