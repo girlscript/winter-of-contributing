@@ -36,31 +36,39 @@ The objective of the dataset is to diagnostically predict whether or not a patie
 **Correlation Graph**
 
 ![correlation](https://user-images.githubusercontent.com/72789934/142020333-a11ec816-fcf0-4655-ab73-d5124e933cb0.png)
+<br>
 **PairPlot**
 ![pairplots](https://user-images.githubusercontent.com/72789934/142020543-bf1bdd66-1d03-4e3d-801b-ab62d87b2c84.png)
+<br>
 **Distplot Comparision**
 ![displot_comparison](https://user-images.githubusercontent.com/72789934/142020644-3d4e0186-4835-471b-8f5c-b401e48eeb63.png)
+<br>
 
 **Histograms**
 ![histogram](https://user-images.githubusercontent.com/72789934/142020753-95e941df-46a9-4cca-bcea-13e9ac4c7db5.png)
+<br>
 
 **Countplot Pregnacies**
 ![countplot_pregnacies](https://user-images.githubusercontent.com/72789934/142020865-3819e0e1-b460-492f-bb79-53ada5a6bde6.png)
+<br>
 
 **Scatter Plot Sge vs Bmi **
 ![scatter_plot_age_vs_bmi](https://user-images.githubusercontent.com/72789934/142021063-0f09aa2b-5140-4ca9-bd69-d5095bd0cc80.png)
+<br>
 
 **Distplot Age **
 ![distplot_age](https://user-images.githubusercontent.com/72789934/142021171-98aed761-635d-42c0-b411-66084088ee05.png)
 
+<br>
 **Count Plot Outcomes**
 ![plot_outcome](https://user-images.githubusercontent.com/72789934/142021258-dae63493-e0a2-43de-b53e-d7d6f471a52d.png)
+<br>
 
 ## Model comparison :
-
-Logistic Regression : 77 % accuracy
-Knn : 75%
-Decision tree :75%
+<br>
+Logistic Regression : 77 % accuracy<br>
+Knn : 75% <br>
+Decision tree :75% <br>
 
 ## Conclusion :
 
