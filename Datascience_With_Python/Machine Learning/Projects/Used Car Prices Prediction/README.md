@@ -5,6 +5,8 @@
 The aim of this project is to predict the used Car Prices. We will be using the Cardekho Dataset which is a research based  Dataset on Used Cars still running on Indian Roads plus the cost and features with which the cars were sold.We are going to analyze and try to predict car prices using this dataset .
 
 ---
+### Desciption
+A used car, a pre-owned vehicle, or a secondhand car, is a vehicle that has previously had one or more retail owners. Used cars are sold through a variety of outlets, including franchise and independent car dealers, rental car companies, buy here pay here dealerships, leasing offices, auctions, and private party sales. Some car retailers offer "no-haggle prices," "certified" used cars, and extended service plans or warranties.The price of a used car depends on various factors like age , mileage , engine , condition , features , etc. We will be looking through some of those and try to determine the car prices.
 
 ### Libraries Used:
 - pandas
@@ -29,6 +31,18 @@ The model that we built is now used to predict the share prices on the testing d
 ---
 
 [Link to dataset used.](https://github.com/photon149/winter-of-contributing/blob/5e8523e6fb89cf8b166f30a0fd238f6069364797/Datascience_With_Python/DS%20Datasets/Used%20Car%20Prices%20Prediction/Car%20details%20v3.csv)
+
+---
+
+### Model Scores 
+- Random Forest Regressor : 98.9
+- Linear Regression : 98.1
+- Decision Tree Regressor : 99.9
+
+---
+
+### Application
+This system can come in Handy with those people who deal in buying and selling of Used Cars.This Project can be connected with a Real Time System and a User Can enter the car input details and the model can then try to predict the approx valuation of it.
 
 ---
 
