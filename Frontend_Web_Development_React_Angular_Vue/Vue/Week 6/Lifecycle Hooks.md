@@ -7,7 +7,10 @@ A vue component can go through four phases :
 3. Updating
 4. Unmounting
 
-There are 13 life cycle hooks that we can use in a component.
+There are 13 life cycle hooks that we can use in a component.  
+
+![image](https://user-images.githubusercontent.com/87546207/141983910-35b3085f-fa2b-43c1-9a0a-acbbccedf162.png)
+
 
 ## Creation
 ### beforeCreate()
@@ -30,9 +33,9 @@ This is the lifecycle hook called after the mounted hook, anytime a change is ma
 This lifecycle hook is called just after a DOM update has occurred, so this means immediately after the beforeUpdate hook is called. DOM related operations can be performed here.
 
 ## Unmounting
-### beforeUnmount()
+### beforeUnmount()/beforeDestroy()
 Called right before a component instance is unmounted. At this stage the instance is still fully functional.
-### unmounted
+### unmounted()/destroyed()
 Called after a component instance has been unmounted. When this hook is called, all directives of the component instance have been unbound, all event listeners have been removed
 and all child component instances have also been unmounted.
 I made two component files one is Parent.vue and the other Child.vue.I have added eight life cycle hooks corresponding to the four phases we have just discussed above. 
@@ -151,5 +154,6 @@ Called when virtual DOM re-render is tracked. The hook receives a debugger event
 Called when virtual DOM re-render is triggered. Similarly to renderTracked, receives a debugger event as an argument. This event tells you what operation triggered the re-rendering and the target object and key of that operation.
 
 ## References
+[Image](https://cdn-images-1.medium.com/max/1600/1*byyX8EW6mIhRsCBWwByNYg.png)  
 [Lifecycle Hooks|Vue.js](https://v3.vuejs.org/api/options-lifecycle-hooks.html#rendertracked)  
 [Codevolution](https://youtu.be/hk6OktYj8Fs)
