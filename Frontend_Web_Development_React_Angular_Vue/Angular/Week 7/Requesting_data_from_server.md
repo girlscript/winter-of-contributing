@@ -164,7 +164,9 @@ download() {
 
 Conclusion
  * Hence, we saw how to request data from server.
+ 
 References
+ 
  * https://angular.io/guide/http#requesting-data-from-a-server
  
  Thank you..
