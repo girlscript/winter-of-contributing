@@ -50,8 +50,8 @@
 
 ### 7. Common Collections :
 
-- [Storing List values with Vec](7.Common_collection/vecs.org)
-- [Storing UTF-8 with Strings](7.Common_collection/utf8_string.org)
+- [Storing List values with Vec](7.Common_collections/vecs.org)
+- [Storing UTF-8 with Strings](7.Common_collections/utf8_string.org)
 - [Hash Maps]()
 
 ### 8. Generic Types , Traits & Lifetimes :
