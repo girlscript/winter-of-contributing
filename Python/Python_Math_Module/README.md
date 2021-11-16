@@ -1,7 +1,7 @@
 # Python Math Module
 
 * [Documentation](./Python_Math_Module.ipynb)
-* [Video](https://drive.google.com/drive/folders/15XYm3qrdPtJ6_0XKbEbGdPFhMzBQQHfi?usp=sharing)
+* [Video](https://drive.google.com/file/d/1KV-Te26kaqu4wZG9-WEggHMXtxIvEvRi/view?usp=sharing)
 ## Description
 Brief description about math module related concepts in Python.
 
