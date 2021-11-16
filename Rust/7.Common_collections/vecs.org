@@ -24,3 +24,21 @@ let v = vec![1, 2, 3];
     v.push(7);
     v.push(8);
 #+end_src
+** Reading Elements of vectors📖:
+ + There are two ways to reference a value stored in a vector.
+ + Methods of accessing a value in a vector, either with indexing syntax or the get method.
+  #+begin_src rust
+    let v = vec![1, 2, 3, 4, 5];
+
+    let third: &i32 = &v[2];
+    println!("The third element is {}", third);
+
+    match v.get(2) {
+        Some(third) => println!("The third element is {}", third),
+        None => println!("There is no third element."),
+    }
+
+  #+end_src
+   * Indexing as in =&v[2]= can be used .
+
+   * Also =get()= can vbe used , which gives us an =Option<&T>= .
