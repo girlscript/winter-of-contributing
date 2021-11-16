@@ -1,6 +1,6 @@
 # Virtual Destructor  
 
-Destrcutors are called in the reverse order in the class hierarchy i.e. reverse to the order in which their counterpart constructors are invoked. A destructor of a base class is not declared virtual and a base class pointer containing the address of a derived class object obtained dynamically using a new operator. The concept of virtual destructors come into picture when the objects in the derived class are created using the new operator.  
+Destructors are called in the reverse order in the class hierarchy i.e. reverse to the order in which their counterpart constructors are invoked. A destructor of a base class is not declared virtual and a base class pointer containing the address of a derived class object is obtained dynamically using a new operator. The concept of virtual destructors come into the picture when the objects in the derived class are created using the new operator.  
 
 ```C++
 int main()
