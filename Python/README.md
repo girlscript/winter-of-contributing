@@ -34,6 +34,7 @@
 - [Advanced_Funciton_Zip/Documentation](./Advanced_Funciton_Zip/Documentation)
 - [List_Comprehension](./List_Comprehension)
 - [Advanced_function_map()](./Advanced_function_map())
+- [Lambda Function](<./Lambda Function>)
 - [What is Automation?](./What_is_Automation)
 - [Modules](./Modules)
 - [args_and_kwargs](./args_&_kwargs)
@@ -105,11 +106,8 @@
 28. Python Strings
 29. Yield Keyword
 30. Dictionary Comprehension
-29. Dictionary Comprehension
-30. if_statement
-29. Recursion in Python
-30. Yield Keyword
-31. Dictionary Comprehension
+31. Django Framework
 32. Django Framework
 33. Regular expressions in Python
 34. Type Annotations in Python
+
