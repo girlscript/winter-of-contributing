@@ -93,7 +93,6 @@ As you can see, first we are telling about horizontal shadow then we are telling
 ```html
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Text Manipulation</title>
     <style>
