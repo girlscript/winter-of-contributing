@@ -34,10 +34,10 @@ The model that we built is now used to predict the share prices on the testing d
 
 ---
 
-### Model Scores 
-- Random Forest Regressor : 98.9
-- Linear Regression : 98.1
-- Decision Tree Regressor : 99.9
+### Model Scores (Training / RMSE) 
+- Random Forest Regressor : 98.9/1.516435e+05
+- Linear Regression : 98.1/9.173600e+09
+- Decision Tree Regressor : 99.9/2.056130e+05
 
 ---
 
