@@ -10,7 +10,7 @@
 
 ### Click here for the video,
 
-[![image](https://user-images.githubusercontent.com/73405757/141768264-3c36a25d-5819-4751-9d3b-fcdc8fc3232c.png)](https://drive.google.com/file/d/1IXzAuNKgzWuK30Isy5HgFXXvRVYLJAS9/view?usp=sharing)
+[![image](https://user-images.githubusercontent.com/73405757/141768264-3c36a25d-5819-4751-9d3b-fcdc8fc3232c.png)](https://drive.google.com/file/d/1E9-H-L_nWyMNmtiGxx0o58sLLUgZplKG/view)
 
 ---
 
