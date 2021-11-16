@@ -52,7 +52,7 @@
 
 - [Storing List values with Vec](7.Common_collections/vecs.org)
 - [Storing UTF-8 with Strings](7.Common_collections/utf8_string.org)
-- [Hash Maps]()
+- [Hash Maps](7.Common_collections/hash.org)
 
 ### 8. Generic Types , Traits & Lifetimes :
 
