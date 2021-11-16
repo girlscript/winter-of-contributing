@@ -103,3 +103,7 @@ fn main() {
  #+end_src
 + Default implementations are most useful when I am creating the trait and the types that use that trait’s implementation.
 + This is a way of reducing unnecessarily duplicated code, primarily.
+
+ #+begin_quote
+🦀 THERE IS LOT MORE TO TRAITS THAT WE WILL COVER IN CONSEQUENT CHAPTERS , TILL THEN STAY RUSTY 🦀 .
+ #+end_quote
