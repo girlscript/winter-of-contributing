@@ -1,5 +1,7 @@
 # Operations In Binary Tree 
 
+### Referred : https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/ and https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
+
 ## CODE:
 
 ```cpp
@@ -185,7 +187,7 @@ int main(){
     struct Node *temp;
     root=RInsert(root,50);
     do{
-        printf("Choose any one operation out of the given below: \n")
+        printf("Operations: \n")
         printf("Press-1 Insertion: \n");
         printf("Press-2 Deletion: \n");
         printf("Press-3 Traversing in (INORDER): \n");
@@ -196,25 +198,25 @@ int main(){
         scanf("%d", &choice);
         if (choice == 1){
             int value;
-            printf("\n Input the value to insert in the B.Tree as per your wish: ");
+            printf("\n Input the value to insert in this B-Tree: ");
             scanf("%d", &value);
             RInsert(root, value);
         }else if (choice == 2){
             int valueToBeDeleted;
-            printf("\n Input the value to delete from the B.Tree: ");
+            printf("\n  Put in the value to delete from this B-Tree: ");
             scanf("%d", &valueToBeDeleted);
             Delete(root, valueToBeDeleted);
         }else if (choice == 3){
             Inorder(root);
         }else if (choice == 4){
-            printf("\n Total counted nodes = %d", countnodes(root));
+            printf("\n Total no. of nodes = %d", countnodes(root));
         }else if (choice == 5){
-            printf("\n The height found is %d.", Height(root));
+            printf("\n The height of this B-Tree is %d.", Height(root));
         }else if (choice == 6){
             printLevelOrder(root);
         }else if (choice == 7){
             int elementToBeSearched;
-            printf("Input the element you want to search in the B.Tree(as per your wish): ");
+            printf("Put in the element you want to search in this B-Tree: ");
             scanf("%d", &elementToBeSearched);
             temp=Search(elementToBeSearched);
             if (temp!=NULL)
