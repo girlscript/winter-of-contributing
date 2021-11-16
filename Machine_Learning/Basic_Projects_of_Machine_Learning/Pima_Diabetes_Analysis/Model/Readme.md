@@ -52,16 +52,13 @@ The objective of the dataset is to diagnostically predict whether or not a patie
 ![countplot_pregnacies](https://user-images.githubusercontent.com/72789934/142020865-3819e0e1-b460-492f-bb79-53ada5a6bde6.png)
 <br>
 
-**Scatter Plot Sge vs Bmi **
+Scatter Plot Sge vs Bmi 
 ![scatter_plot_age_vs_bmi](https://user-images.githubusercontent.com/72789934/142021063-0f09aa2b-5140-4ca9-bd69-d5095bd0cc80.png)
 <br>
 
-**Distplot Age **
+Distplot Age 
 ![distplot_age](https://user-images.githubusercontent.com/72789934/142021171-98aed761-635d-42c0-b411-66084088ee05.png)
 
-<br>
-**Count Plot Outcomes**
-![plot_outcome](https://user-images.githubusercontent.com/72789934/142021258-dae63493-e0a2-43de-b53e-d7d6f471a52d.png)
 <br>
 
 ## Model comparison :
