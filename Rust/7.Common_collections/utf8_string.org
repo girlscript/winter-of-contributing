@@ -48,8 +48,14 @@ let h = s1[0]; // will result in error‼
     let hello = String::from("Здравствуйте"); // len is 24‼
 
  #+end_src
-  + It takes 24 bytes to encode *"Здравствуйте"* , even tho is has 12 characters , because each *unicode scalar* takes 2 bytes of storage .
+  + It takes *24 bytes to encode* =Здравствуйте= , even though it *has 12 characters* , because each *unicode scalar* takes *2 bytes of storage* .
 
-  + Therefore, an index into the string’s bytes will not always correlate to a valid Unicode scalar value.
+  + *Therefore, an index into the string’s bytes will not always correlate to a valid Unicode scalar value*.
 
   + Hence Rust traded out traditional indexing to support UTF8 support .
+** Bytes and Scalar Values and Grapheme Clusters :
++ Another point about UTF-8 is that there are actually three relevant ways to look at strings from Rust’s perspective: *as bytes, scalar values, and grapheme clusters*.
++ If we look at the Hindi word =नमस्ते= written in the Devanagari script, it is stored as a vector of =u8= values that looks like this:
+ #+begin_comment
+[224, 164, 168, 224, 164, 174, 224, 164, 184, 224, 165, 141, 224, 164, 164,224, 165, 135]
+ #+end_comment
