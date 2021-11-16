@@ -57,7 +57,10 @@ I have used four models to predict the quality of wine. Lets take a look at the 
     <td>Gradient Boosting</td>
     <td>0.937</td>
   </tr>
-</table>
+</table><br>
+
+![Comparison between the Models](https://user-images.githubusercontent.com/89564985/141903743-efc117d4-ba80-4a46-8004-2bd24cc1c8e2.png)
+
 
 ## Conclusion and Discussion:
 In this task, I have used three machine learning models to classify wine quality into good or bad i.e. 1 or 0.<br>
