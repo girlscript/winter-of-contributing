@@ -2,12 +2,14 @@ import 'package:cloud_photos/widgets/colors.dart';
 import 'package:cloud_photos/widgets/text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
   @override
   _HomeScreenState createState() => _HomeScreenState();
 }
+
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
@@ -101,29 +103,65 @@ class _HomeScreenState extends State<HomeScreen> {
                 ]),
           ),
           Expanded(
-              child: Container(
-            height: MediaQuery.of(context).size.height,
-            child: GridView.builder(
-              itemCount: 10,
-              gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-                maxCrossAxisExtent: 200,
+              child: GestureDetector(
+            onLongPress: () {
+              showAlertDialog(context);
+            },
+            child: Container(
+              height: MediaQuery.of(context).size.height,
+              child: GridView.builder(
+                itemCount: 20,
+                gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+                    maxCrossAxisExtent: 100,
+                    mainAxisSpacing: 10,
+                    crossAxisSpacing: 10),
+                itemBuilder: (BuildContext context, int index) {
+                  return Container(
+                    decoration:
+                        BoxDecoration(borderRadius: BorderRadius.circular(20)),
+                    height: 200,
+                    width: 400,
+                    child: Image.network(
+                      'https://images.pexels.com/photos/5822226/pexels-photo-5822226.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
+                      fit: BoxFit.cover,
+                    ),
+                  );
+                },
               ),
-              itemBuilder: (BuildContext context, int index) {
-                return Container(
-                  decoration:
-                      BoxDecoration(borderRadius: BorderRadius.circular(20)),
-                  height: 200,
-                  width: 400,
-                  child: Image.network(
-                    'https://images.pexels.com/photos/5822226/pexels-photo-5822226.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-                    fit: BoxFit.cover,
-                  ),
-                );
-              },
             ),
           ))
         ],
       )),
+    );
+  }
+
+  showAlertDialog(BuildContext context) {
+    Widget cancelButton = TextButton(
+      style: ButtonStyle(backgroundColor: MaterialStateProperty.all(appColor)),
+      child: Helper.text('Cancel', 20, 0, secondaryColor, FontWeight.bold),
+      onPressed: () {
+        Navigator.pop(context);
+      },
+    );
+    Widget continueButton = TextButton(
+      child: Helper.text('Delete', 20, 0, appColor, FontWeight.bold),
+      onPressed: () {
+        Navigator.pop(context);
+      },
+    );
+    AlertDialog alert = AlertDialog(
+      content: Helper.text('Would you like to delete the image?', 18, 0,
+          appColor, FontWeight.bold),
+      actions: [
+        cancelButton,
+        continueButton,
+      ],
+    );
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alert;
+      },
     );
   }
 }
