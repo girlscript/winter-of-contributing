@@ -1,1 +1,55 @@
 #+TITLE: Storing UTF8 strings
++ It’s useful to discuss strings in the context of collections because strings are implemented as a collection of bytes, plus some methods to provide useful functionality when those bytes are interpreted as text.
+** Examples of UTF8 Encoded Strings :
+ #+begin_src rust
+    let hello = String::from("السلام عليكم");
+    let hello = String::from("Dobrý den");
+    let hello = String::from("Hello");
+    let hello = String::from("שָׁלוֹם");
+    let hello = String::from("नमस्ते");
+    let hello = String::from("こんにちは");
+    let hello = String::from("안녕하세요");
+    let hello = String::from("你好");
+    let hello = String::from("Olá");
+    let hello = String::from("Здравствуйте");
+    let hello = String::from("Hola");
+
+ #+end_src
+ * All these are valid strings .
+** Updating a string :
++ We can grow a String by using the push_str method to append a string slice.
+ #+begin_src rust
+let mut s = String::from("foo");
+s.push_str("bar");
+ #+end_src
+ * =s= will hence contain *foobar*.
+*** Concatenation with the + Operator or the format! Macro :
++ using =+= :
+ #+begin_src rust
+ let s1 = String::from("Hello, ");
+ let s2 = String::from("world!");
+ let s3 = s1 + &s2; // note s1 has been moved here and can no longer be used
+
+ #+end_src
+ * =s3= will contain *Hello, world!*
+** Indexing into String :
++ In many other programming languages, accessing individual characters in a string by referencing them by index is a valid and common operation.
++ However, if you try to access parts of a String using indexing syntax in Rust, you’ll get an error.
+ #+begin_src rust
+let s1 = String::from("hello");
+let h = s1[0]; // will result in error‼
+
+ #+end_src
+ * Therefore by this we have established that Rust doesn't support indexing , to learn why is this so we have learn about the internal representation .
+*** Internal representation of strings  :
++ A String is a wrapper over a =Vec<u8>=.
+ #+begin_src rust
+    let hello = String::from("Hola"); // len is 4‼
+    let hello = String::from("Здравствуйте"); // len is 24‼
+
+ #+end_src
+  + It takes 24 bytes to encode *"Здравствуйте"* , even tho is has 12 characters , because each *unicode scalar* takes 2 bytes of storage .
+
+  + Therefore, an index into the string’s bytes will not always correlate to a valid Unicode scalar value.
+
+  + Hence Rust traded out traditional indexing to support UTF8 support .
