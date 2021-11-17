@@ -21,7 +21,7 @@ First, is our state shared by more than two components? If not, then the next qu
 For example, if we have a simple counter with one component, the use of local state with useState is sufficient.
 
 * App.js
-```
+```jsx
 import React, { useState } from 'react';
 
 function App() {
@@ -54,7 +54,7 @@ export default App;
 Now, if our state does have complex update logic, it makes sense to useReducer.
 As described above, “complex” in this context means that a change of the state must change many values of the state or that the state depends on the previous state.
 
-```
+```jsx
 import React, { useReducer } from "react";
  
 // Defining the initial state and the reducer
@@ -101,7 +101,7 @@ If we look at the right part of the decision diagram — that is, if we answered
 A typical example is the login state of a user that is needed in many different components.
 * auth-context.js
 
-```
+```jsx
 import React from 'react';
   
 // Creating the context object and passing the default values.
@@ -111,7 +111,7 @@ export default authContext;
 ```
 * App.js
 
-```
+```jsx
 import React, { useState } from "react";
 import Auth from "./Auth";
 import AuthContext from "./auth-context";
@@ -135,7 +135,7 @@ export default App;
 ```
 * Auth.js
 
-```
+```jsx
 import React, { useContext } from "react";
 import AuthContext from "./auth-context";
   
@@ -166,7 +166,7 @@ export default Auth;
 If an application uses global state primarily to retrieve, cache, and update data residing on a server, it is recommended to use a specialized data management solution.
 In an admin interface, we often need to display many different data in different views. Managing this data efficiently can be anything but trivial.
 * App.js
-```
+```jsx
 import { QueryClient, QueryClientProvider} from 'react-query'
 const queryClient = new QueryClient()
 export default function App() {
@@ -179,7 +179,7 @@ export default function App() {
 ```
 
 * Component.js
- ```
+```jsx
 import { useQuery } from 'react-query'
 function Component() {
   const { isLoading, error, data } = useQuery('issues', () =>
@@ -206,7 +206,7 @@ In addition, the provided context provider is optimized to prevent unnecessary r
 But what do you do if the state is shared by multiple components, changes frequently, and is not mainly server state?
 Let’s take managing the state in a text editor with many buttons as an example. This is where Redux comes in. Redux is very efficient, has a large ecosystem with many plugins (so-called middleware), and is very well-documented.
 
-```
+```jsx
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { createSlice } from '@reduxjs/toolkit'
