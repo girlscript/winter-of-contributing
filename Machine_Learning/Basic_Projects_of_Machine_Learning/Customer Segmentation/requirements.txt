@@ -1,0 +1,8 @@
+The required libraries for this project work
+
+Numpy==1.19.5
+Pandas==1.1.5
+Matplotlib==3.2.2
+Sklearn==1.0.1
+Seaborn==0.11.2
+xgboost==0.90.0
