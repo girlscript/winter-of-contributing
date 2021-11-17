@@ -2,7 +2,7 @@
  
  FormControl is an inbuilt class that is utilized to get and set qualities and approval of the structure control fields like <input> or <select>. The FormControl tracks the worth and approval status of a singular structure control. It tends to be utilized independent just as with a parent structure.
   
-  ## FormControl Methods
+## FormControl Methods
   
   There are lots of method to write in angular some of them are shown below :- 
   
@@ -17,11 +17,11 @@
   9 _forEachChild()
  10 _syncPendingControls()
  
- ## FormBuilder
+## FormBuilder
  
  The FormBuilder provides syntactic sugar that shortens creating instances of a FormControl, FormGroup, or FormArray. It reduces the amount of boilerplate needed to build complex forms.
  
- ## FormBuilder Methods
+## FormBuilder Methods
  
  Below are the methods used in angular for FormBuilder :-
  
@@ -29,7 +29,7 @@
  2 control()
  3 array()
  
-## Initializing Form Controls
+## Initializing FormControls
  
 Instantiate a FormControl, with an initial value.
  
