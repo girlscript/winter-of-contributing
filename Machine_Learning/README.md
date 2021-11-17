@@ -153,7 +153,7 @@
    
 **************************************************************
 ### ©️ GirlScript Winter of Contributions 2021
-<p align = 'justify'>Thanks to GWoC Team for creating this folder, which will guide the users to become Pro in ML without searching any other YouTube videos or, different websites for the documentations. The contributors of this program had been awesome through out the journey, as a result the repository is fully ready to be served to the users! Happy Learning and All the Best in ML journey!</p>
+<p align = 'justify'>Thanks to GWoC Team for creating this folder, which will guide the users to become Pro in ML without searching any other YouTube videos or, different websites for the documentations. The contributors of this program had been awesome through out the journey, as a result the repository is fully ready to be served to the users! Happy Learning and All the Best in ML journey! 🎉</p>
 
 
 ***************************************************************
@@ -176,7 +176,7 @@
 *******************************************************************
 
 
-### Happy Contributions!
+### Happy Contributions! 🚀
 
 [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Naereen/)
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
