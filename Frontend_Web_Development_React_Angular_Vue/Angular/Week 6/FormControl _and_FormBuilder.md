@@ -31,9 +31,9 @@ we can initailize the FormControl Instantly by given some initial value.
 const control = new FormControl('some value');
 console.log(control.value);     // 'some value'
 ```
-The following example initializes the FormControl.
+The following example initializes the FormControl :
 
-The value and disabled keys are required in this case.
+In this case disabled keys and value are required
 
 ```css
 const control = new FormControl({ value: 'n/a', disabled: true });
@@ -41,7 +41,7 @@ console.log(control.value);     // 'n/a'
 console.log(control.status);    // 'DISABLED'
 ```
 
-The following example initializes the control with a synchronous validator.
+In this case synchronous validator is required
 
 ```css
 const control = new FormControl('', Validators.required);
