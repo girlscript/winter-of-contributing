@@ -2,7 +2,7 @@
 
 In Angular,The classes which contains the valid information and the some data values of any kind of form element is called the Form Controls. Is is the basic units for making the reactive forms and Every reactive form input is bounded by some form control.
 
-## Form Control Methods
+## FormControl Methods
 
 There are following methods used in FormControl , Some of them are as follows :- 
 
@@ -23,7 +23,7 @@ There are mainly three methods used in FormBuilder,which shown below :-
 2. **control() :-** It is used to create a new FormControl by applying some validators , options and the state providing to control the from. 
 3. **array() :-**  It is used to create a new FormArray by applying some provided configurations of array ,options and the validators.
 
-## Initializing Form Controls
+## Initializing FormControls
 
 we can initailize the FormControl Instantly by given some initial value.
 
