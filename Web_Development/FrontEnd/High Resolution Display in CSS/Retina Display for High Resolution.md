@@ -16,7 +16,7 @@ There are two types of display resolution we can define :-
 
 Retina display may be a term created by Apple to see devices and monitors that have a resolution and element density therefore high that someone is unable to recognise the individual pixels at a traditional viewing distance.Now The Apple device's display was well received and greatly improved the viewing expertise.
 
-The simplest way to create your pictures properly seem on high-resolution Displays, like the MacBook execs "retina display" is to outline their breadth and height values as solely 1/2 what the first file is. Here is associate example of a picture that's solely victimisation 1/2 the first height and width:
+The simplest way to create your pictures properly seem on high-resolution Displays, like the MacBook execs "retina display" is to set their breadth and height values as  1/2 of the file size. Here is an example of a picture that's 1/2 the height and width:
 
 ```css
 <style>
