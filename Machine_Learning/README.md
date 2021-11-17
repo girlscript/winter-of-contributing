@@ -158,7 +158,7 @@
 
 ***************************************************************
 <div align = 'center'>
- <h3> 📌 Supervisors of Machine Learning </h3>
+ <h3> ⚔️ Supervisors of Machine Learning :shield: </h3>
 
 <table>
   <tr>
