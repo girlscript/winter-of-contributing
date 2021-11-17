@@ -1,7 +1,7 @@
-# README FILE
+# Python Math Module
 
-[Python Math Module](./Python_Math_Module.ipynb)
-
+* [Documentation](./Python_Math_Module.ipynb)
+* [Video](https://drive.google.com/file/d/1KV-Te26kaqu4wZG9-WEggHMXtxIvEvRi/view?usp=sharing)
 ## Description
 Brief description about math module related concepts in Python.
 
