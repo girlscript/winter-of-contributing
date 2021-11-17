@@ -22,7 +22,7 @@
  The FormBuilder provides syntactic sugar that shortens creating instances of a FormControl, FormGroup, or FormArray. It reduces the amount of boilerplate needed to build complex forms.
  
 # FormBuilder Methods
- 
+  
  Below are the methods used in angular for FormBuilder :-
  
  1 group()
@@ -31,20 +31,20 @@
  
 # Initializing FormControls
  
-Instantiate a FormControl, with an initial value.
+1. Instantiate a FormControl, with an initial value.
  
  ```css
  const control = new FormControl('some value');
 console.log(control.value);     // 'some value'
  ```
- The following example initializes the control with a form state object. The value and disabled keys are required in this case.
+2. The following example initializes the control with a form state object. The value and disabled keys are required in this case.
  
  ```angular
  const control = new FormControl({ value: 'n/a', disabled: true });
 console.log(control.value);     // 'n/a'
 console.log(control.status);    // 'DISABLED'
  ```
- The following example initializes the control with a synchronous validator.
+3. The following example initializes the control with a synchronous validator.
  
  ```angular
  const control = new FormControl('', Validators.required);
