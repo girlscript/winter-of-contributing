@@ -1,53 +1,50 @@
-# FormControl
- 
- FormControl is an inbuilt class that is utilized to get and set qualities and approval of the structure control fields like <input> or <select>. The FormControl tracks the worth and approval status of a singular structure control. It tends to be utilized independent just as with a parent structure.
-  
-# FormControl Methods
-  
-  There are lots of method to write in angular some of them are shown below :- 
-  
-  1 setValue()
-  2 patchValue()
-  3 reset()
-  4 _updateValue()
-  5 _anyControls()
-  6 _allControlsDisabled()
-  7 registerOnChange()
-  8 registerOnDisabledChange()
-  9 _forEachChild()
- 10 _syncPendingControls()
- 
-# FormBuilder
- 
- The FormBuilder provides syntactic sugar that shortens creating instances of a FormControl, FormGroup, or FormArray. It reduces the amount of boilerplate needed to build complex forms.
- 
-# FormBuilder Methods
-  
- Below are the methods used in angular for FormBuilder :-
- 
- 1 group()
- 2 control()
- 3 array()
- 
-# Initializing FormControls
- 
-1. Instantiate a FormControl, with an initial value.
- 
- ```
- const control = new FormControl('some value');
+## What is FormControl?
+
+In Angular,The classes which contains the valid information and the some data values of any kind of form element is called the Form Controls. Is is the basic units for making the reactive forms and Every reactive form input is bounded by some form control.
+
+## Form Control Methods
+
+There are following methods used in FormControl , Some of them are as follows :- 
+
+1. **setValue() :-** With the help of setValue() method , we can set the values for any individual control. It can change the whole value of the FormControl.
+2. **patchValue() :-** with the help of the patchValue() method , we can chnage the defined properties of object into the Form Model.
+3. **reset() :-**  With the help of reset() method , we can resets all the input changes to its initial state.
+4. **_updateValue() :-** With the help of _updateValue() method , we can update any specific value of any form or inputs.
+
+## What is FormBuilder?
+
+The API which helps in the construction of forms in Angular is called the FormBuilder.It gives the shortcut way to build the FormGroup,FormBUilder FormControl instancely.
+It minimize the code for forms which are complex.
+
+## FormBuilder Methods
+
+There are mainly three methods used in FormBuilder,which shown below :- 
+1. **group() :-** It is used to create a new FormGroup instantly.
+2. **control() :-** It is used to create a new FormControl by applying some validators , options and the state providing to control the from. 
+3. **array() :-**  It is used to create a new FormArray by applying some provided configurations of array ,options and the validators.
+
+## Initializing Form Controls
+
+we can initailize the FormControl Instantly by given some initial value.
+
+```css
+const control = new FormControl('some value');
 console.log(control.value);     // 'some value'
- ```
-2. The following example initializes the control with a form state object. The value and disabled keys are required in this case.
- 
- ```angular
- const control = new FormControl({ value: 'n/a', disabled: true });
+```
+The following example initializes the FormControl.
+
+The value and disabled keys are required in this case.
+
+```css
+const control = new FormControl({ value: 'n/a', disabled: true });
 console.log(control.value);     // 'n/a'
 console.log(control.status);    // 'DISABLED'
- ```
-3. The following example initializes the control with a synchronous validator.
- 
- ```angular
- const control = new FormControl('', Validators.required);
+```
+
+The following example initializes the control with a synchronous validator.
+
+```css
+const control = new FormControl('', Validators.required);
 console.log(control.value);      // ''
 console.log(control.status);     // 'INVALID'
- ```
+```
