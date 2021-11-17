@@ -1,4 +1,5 @@
-import 'package:cloud_photos/Pages/home.dart';
+// import 'package:cloud_photos/Pages/home.dart';
+import 'package:cloud_photos/Screen/HomeScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:pinput/pin_put/pin_put.dart';
@@ -35,16 +36,9 @@ class _OTPScreenState extends State<OTPScreen> {
           if (value.user != null) {
             Navigator.of(context).pushReplacement(
               MaterialPageRoute(
-                builder: (context) => const HomePage(),
+                builder: (context) => const HomeScreen(),
               ),
             );
-            // WidgetsBinding.instance!.addPostFrameCallback((_) {
-            //   Navigator.of(context).push(
-            //     MaterialPageRoute(
-            //       builder: (context) => const HomePage(),
-            //     ),
-            //   );
-            // });
           }
         });
       },
@@ -117,7 +111,7 @@ class _OTPScreenState extends State<OTPScreen> {
                         Navigator.pushReplacement(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => const HomePage(),
+                            builder: (context) => const HomeScreen(),
                           ),
                         );
                         // WidgetsBinding.instance!.addPostFrameCallback(

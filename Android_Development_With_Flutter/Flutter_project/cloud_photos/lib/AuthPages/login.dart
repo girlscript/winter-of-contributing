@@ -1,9 +1,10 @@
+import 'package:cloud_photos/Screen/HomeScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_signin_button/button_list.dart';
 import 'package:flutter_signin_button/button_view.dart';
 import '../Authentication/auth.dart';
-import 'home.dart';
+// import 'home.dart';
 import 'otp.dart';
 
 class LoginPage extends StatefulWidget {
@@ -26,7 +27,7 @@ class _LoginPageState extends State<LoginPage> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const HomePage(),
+          builder: (context) => const HomeScreen(),
         ),
       );
       // WidgetsBinding.instance!.addPostFrameCallback(
@@ -47,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
     Navigator.pushReplacement(
       context,
       MaterialPageRoute(
-        builder: (context) => const HomePage(),
+        builder: (context) => const HomeScreen(),
       ),
     );
     // WidgetsBinding.instance!.addPostFrameCallback(

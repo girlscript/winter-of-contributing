@@ -1,5 +1,5 @@
+import 'package:cloud_photos/AuthPages/login.dart';
 import 'package:cloud_photos/Authentication/auth.dart';
-import 'package:cloud_photos/Pages/login.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
