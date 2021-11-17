@@ -21,5 +21,3 @@
 
 - You can also contribute to Pillow at "https://github.com/python-pillow/Pillow"
 
-
-- Contributed by [burpcat](https://www.github.com/burpcat)
