@@ -1,5 +1,5 @@
 
-<h1 align="center"> :fleur_de_lis: MACHINE LEARNING :fleur_de_lis: </h1>
+<h1 align="center"> :abacus: 𝕄𝔸ℂℍ𝕀ℕ𝔼 𝕃𝔼𝔸ℝℕ𝕀ℕ𝔾 :computer: </h1>
 
 ![](https://i.imgur.com/oHInhoJ.png)
 
@@ -10,7 +10,7 @@
 <h2 align="center"> 🗺️ Roadmap to be a Pro in ML! 🔥  </h2>
 
 
-### :yellow_circle: [Week 1 [Statistics for Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning) :
+### :file_folder: [Week 1 [Statistics for Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Statistics_for_Machine_Learning) :
    - **1.1. Variables, Range, Population Distribution, Sample Distribution**   
    - **1.2. PDFs, CDFs**
    - **1.3. Central Limit Theorem**
@@ -25,7 +25,7 @@
    - **1.12. Confusion Matrix**
    - **1.13. Types of distribution**
 
-### :yellow_circle: [Week 2 [Supervised Machine Learning (Classic Algorithms)]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Supervised_Machine_Learning) :
+### :file_folder: [Week 2 [Supervised Machine Learning (Classic Algorithms)]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Supervised_Machine_Learning) :
    - **2.1. What is Learning? Why Machine Learning works?**
    - **2.2. Contrast between Regression and Classification**
    - **2.3. Numpy Cheatsheet: Most Useful Functions and Methods**
@@ -47,7 +47,7 @@
    - **2.19. Gradient Descent Algorithms**
    - **2.20. Implement Gradient Descent on Iris Dataset without using any standard ML library like scikit-learn or more. ⭐**
 
-### 🟡 [Week 3 [Unsupervised Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning) :
+### :file_folder: [Week 3 [Unsupervised Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Unsupervised_Machine_Learning) :
    - **3.1. What is Clustering? Validate its necessity using real-world applications.**
    - **3.2. k-means Clustering.**
    - **3.3. k-medoids.**
@@ -61,7 +61,7 @@
    - **3.11. Implement k-means without using any standard ML library like scikit-learn or more. ⭐**
    - **3.12. Implement k-medoids without using any standard ML library like scikit-learn or more. ⭐**
 
-### 🟡 [Week 4 [Reinforcement Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Reinforcement_Learning) :
+### :file_folder: [Week 4 [Reinforcement Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Reinforcement_Learning) :
    - **4.1. Introduction to RL: Definition and Types.**
    - **4.2. Contrast in Supervised, Unsupervised and Reinforcement Learning.**
    - **4.3. SARSA.**
@@ -73,7 +73,7 @@
    - **4.9. Practical Applications.**
    - **4.10. Challenges and Future Scope.**
 
-### 🟡 [Week 5 [Feature Engineering & Performance Metrices]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Feature_Engineering_and_Performance_Metrices) :
+### :file_folder: [Week 5 [Feature Engineering & Performance Metrices]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Feature_Engineering_and_Performance_Metrices) :
    - **5.1. Normalization.**
    - **5.2. Standardization.**
    - **5.3. Handling Outliers.**
@@ -90,7 +90,7 @@
    - **5.14. Cross Validation.**
    - **5.15. Bias Variance Tradeoff.**
 
-### 🟡 [Week 6 [Dimensionality Reduction & Neural Networks]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks) :
+### :file_folder: [Week 6 [Dimensionality Reduction & Neural Networks]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Dimensionality_Reduction_%26_Neural_Networks) :
    - **6.1. Singular Value Decomposition.**
    - **6.2. Principle Component Analysis.**
    - **6.3. Self Organizing Maps.**
@@ -103,7 +103,7 @@
    - **6.10. Backpropagation.**
    - **6.11. Implement a MultiLayered Perceptron model on XOR function with 3 inputs. ⭐**
 
-### 🟡 [Week 7 [Ensemble Based Learning and Probabilistic ML]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML) :
+### :file_folder: [Week 7 [Ensemble Based Learning and Probabilistic ML]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Ensemble_based_Learning_%26_Probabilistic_ML) :
    - **7.1. Bootstrap Aggregation.**
    - **7.2. Adaboost.**
    - **7.3. LGBM.**
@@ -115,7 +115,7 @@
    - **7.9. Hidden Markov Model.**
    - **7.10. Viterbi Algorithm.**
 
-### 🟡 [Week 8 [ML for Sequential Data & Visual Data]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data) :
+### :file_folder: [Week 8 [ML for Sequential Data & Visual Data]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/ML_For_Sequential_Data_%26_Visual_Data) :
    - **8.1. Recurrent Neural Networks.**
    - **8.2. LSTM.**
    - **8.3. GRU.**
@@ -137,7 +137,7 @@
    - **8.19. GANs.**
    - **8.20. Implement an edge detector for images without using any Image Processing library like OpenCV. :star:**
 
-### 🟡 [Week 9 [Basic Projects of Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning) :
+### :file_folder: [Week 9 [Basic Projects of Machine Learning]](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning) :
    - **Kaggle's Titanic Prediction.**
    - **House Price Prediction.**
    - **Wine Quality Prediction.**
