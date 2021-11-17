@@ -5,7 +5,7 @@ This display has high resolution power and we can easily distinguish between nor
 
 ### Display Resolution
 
-The display resolution of the device such as laptop monitor,smart tv is that the variety of different pixels in every space that may be displayed. ... In digital mensuration, the display resolution run in pixels per inch (PPI).
+The display resolution of the device such as laptop monitor,smart tv is that the variety of different pixels in every space that may be displayed.In digital mensuration, the display resolution run in pixels per inch (PPI).
 
 There are two types of display resolution we can define :-
 
