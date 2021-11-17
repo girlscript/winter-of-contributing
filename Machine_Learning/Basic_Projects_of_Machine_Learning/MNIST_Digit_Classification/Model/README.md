@@ -1,5 +1,5 @@
 # Project Title : MNIST Digits Classification
-<img src="images/cover.png">
+![cover](https://user-images.githubusercontent.com/81156510/142250005-a0a3556c-fc77-4502-a64f-b08fadd16188.png)
 
 ## Abstract/Brief Description about the Project :
 **Actually, MNIST is ‘Modified National Institute of Standards and Technology. This dataset consists of handwritten digits from 0 to 9 and it provides a pavement for testing image processing systems. This is considered to be the ‘hello world program in Machine Learning’ which involves Deep Learning.**
@@ -20,12 +20,19 @@ https://www.kaggle.com/avnishnish/mnist-original
 - ```Keras```
 
 ## Data Visualization :
+
 1. Count Plot: Showing the number of images available for a particular 
-<img src="images/count.png" alt_text="count-plot">
 
-<img src="images/dataset.png" alt_text="dataset">
+![count](https://user-images.githubusercontent.com/81156510/142249893-4a32c4b2-59e7-4ed6-9f82-74813a7c904d.png)
 
-<img src="images/output-model_2.png" alt_text="prediction-model-2">
+2. Dataset:
+
+![dataset](https://user-images.githubusercontent.com/81156510/142250068-f2dc73ab-7e3e-4433-b587-b075e21df96c.png)
+
+3. Predication: Images with the model predicted labels
+
+![output-model_2](https://user-images.githubusercontent.com/81156510/142250192-c4357f28-32b3-4dd0-a912-42412681515a.png)
+
 
 ## Model comparison :
 <table>
