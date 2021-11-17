@@ -24,7 +24,7 @@ Difference between Non Retina Display and Retina Display
 
 2. Non Retina Display Image
 
-
+![300px-Non-Retina_Display](https://user-images.githubusercontent.com/54473091/142193055-64f38832-168c-45ed-94ee-d02bfb779dbb.jpg)
 
 
 The retina display is used in many apple products like in apple Watch, apple iPhone, apple ipad etc.Ratina Display of apple are not fixed sharpness , it's depends on the viewer distance from the display. If viewer is nearer to the screen means he/she see the more pixelated display. If he/she is far from the screen then he feels is not much good resolution. 
