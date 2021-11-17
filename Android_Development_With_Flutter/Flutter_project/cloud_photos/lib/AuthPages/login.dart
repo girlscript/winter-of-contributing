@@ -30,16 +30,6 @@ class _LoginPageState extends State<LoginPage> {
           builder: (context) => const HomeScreen(),
         ),
       );
-      // WidgetsBinding.instance!.addPostFrameCallback(
-      //   (_) {
-      //     Navigator.pushReplacement(
-      //       context,
-      //       MaterialPageRoute(
-      //         builder: (context) => const HomePage(),
-      //       ),
-      //     );
-      //   },
-      // );
     }
   }
 
@@ -51,16 +41,6 @@ class _LoginPageState extends State<LoginPage> {
         builder: (context) => const HomeScreen(),
       ),
     );
-    // WidgetsBinding.instance!.addPostFrameCallback(
-    //   (_) {
-    //     Navigator.pushReplacement(
-    //       context,
-    //       MaterialPageRoute(
-    //         builder: (context) => const HomePage(),
-    //       ),
-    //     );
-    //   },
-    // );
   }
 
   @override
@@ -116,15 +96,6 @@ class _LoginPageState extends State<LoginPage> {
                             ),
                           ),
                         );
-                        // WidgetsBinding.instance!.addPostFrameCallback((_) {
-                        //   Navigator.of(context).push(
-                        //     MaterialPageRoute(
-                        //       builder: (context) => OTPScreen(
-                        //         phone: _phonecontroller.text,
-                        //       ),
-                        //     ),
-                        //   );
-                        // });
                       },
                     ),
                     const Text(

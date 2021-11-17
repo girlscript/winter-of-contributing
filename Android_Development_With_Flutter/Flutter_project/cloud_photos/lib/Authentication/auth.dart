@@ -10,14 +10,11 @@ String email = "";
 String imgurl = "";
 //Sign In function
 Future<User?> signin() async {
-  //signin option of different email acc
   try {
     final GoogleSignInAccount? googleSignInAccount =
         await googleSignIn.signIn();
     final GoogleSignInAuthentication googleSignInAuthentication =
         await googleSignInAccount!.authentication;
-
-    // creating credential for a user same as recipt that user is been verified
     final AuthCredential credential = GoogleAuthProvider.credential(
       idToken: googleSignInAuthentication.idToken,
       accessToken: googleSignInAuthentication.accessToken,

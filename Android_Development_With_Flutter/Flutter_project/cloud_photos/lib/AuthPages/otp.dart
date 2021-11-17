@@ -114,16 +114,6 @@ class _OTPScreenState extends State<OTPScreen> {
                             builder: (context) => const HomeScreen(),
                           ),
                         );
-                        // WidgetsBinding.instance!.addPostFrameCallback(
-                        //   (_) {
-                        //     Navigator.push(
-                        //       context,
-                        //       MaterialPageRoute(
-                        //         builder: (context) => const HomePage(),
-                        //       ),
-                        //     );
-                        //   },
-                        // );
                       }
                     },
                   );
