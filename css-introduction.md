@@ -52,3 +52,55 @@ Some of the popular editors that are best suited to wire CSS code are as followi
 - All forms this key-value pair
 - **Keys**: properties(attributes) like color, font-size, background, width, height,etc
 **Value**: values associated with these properties
+
+## CSS How-To 
+In our HTML file, we may write CSS in three different methods:
+- Inline CSS
+- Internal CSS
+- External CSS
+
+**Priority order**
+   Inline > Internal > External
+
+### Inline CSS
+- This was the only technique to apply styles before CSS.
+- It's not the most efficient approach to write because there's a lot of redundancy.
+- Self-contained
+- Each element is given its own approach.
+- The concept of worry separation was lost.
+ Example:
+ ```html
+   <h3 style=” color:red”> Have a great day </h3>
+   <p  style =” color: green”> I did this , I did that </p>
+ ```
+ 
+ ### Internal CSS
+- We can use the style tag to apply styles to the HTML file.
+- There is no longer any redundancy.
+- However, the concept of worry separation is still a work in progress.
+- One-of-a-kind application on a single document
+Example
+ ```html
+<style>
+   h1{
+       color:red;
+      }
+</style>  
+<h3> Have a great day </h3>
+ ```
+ ### External CSS
+- With the help of <link> tag in the head tag, we can apply styles
+- Reference is added 
+- File saved with .css extension
+- Redundancy is removed
+- The idea of separation of concerns is maintained
+- Uniquely applied to each document
+Example
+```html
+<head>
+<link rel="stylesheet" type="text/css" href="name of the Css file">
+</head>
+            h1{
+                     color:red;         //.css file
+                 }
+ ```
