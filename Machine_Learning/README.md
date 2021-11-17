@@ -1,5 +1,5 @@
 
-<h1 align="center"> :abacus: 𝕄𝔸ℂℍ𝕀ℕ𝔼 𝕃𝔼𝔸ℝℕ𝕀ℕ𝔾 :computer: </h1>
+<h1 align="center"> :abacus: 𝙼𝙰𝙲𝙷𝙸𝙽𝙴 𝙻𝙴𝙰𝚁𝙽𝙸𝙽𝙶 :computer: </h1>
 
 ![](https://i.imgur.com/oHInhoJ.png)
 
