@@ -1,2 +1,2 @@
 
-[Encapsualtion_in_c++](Encapsulation.md)
+[Encapsulation_in_C++](./Encapsulation.md)
