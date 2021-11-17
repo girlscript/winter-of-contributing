@@ -2,6 +2,7 @@
 
 - We will be implementing a stack which can be used to extract the largest element of the stack at any time efficiently
 - We will be creating our custom Stack Class for this purpose
+- Minimum stack implementation follows the same concept, we just need to change the equality
 
 <br>
 
@@ -74,6 +75,17 @@ public:
   }
 };
 ```
+
+<br>
+
+## **Space And Time Complexity Analysis**
+
+- **Space Complexity**
+  - Notice that, to maintain the top element at every step, we have used an additional vector
+  - Due to this additional vector the overall Space Complexity becomes O(N)
+- **Time Complexity**
+  - Since we have used a vector, which facilitates random access, and thus anytime we need the maximum element, we can simply access it in constant time
+  - Hence it can be seen that the overall Time Complexity boils down to O(1)
 
 <br>
 
