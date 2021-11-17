@@ -45,6 +45,6 @@ int main()
 ### *Output*  
 > Girlscript  
 
-Normally, ther virtual functions are declared in a base class and redefined in the derived class. The base class version of the function is not always used to perform the specific job or task, i.e. in case where a base class may be abstract with no possibility of declaration of an object, there is no sense in defining the virtual function in a base class. The base class function should just act as a placeholder to be overridden by the derived class versions. And it is not involved by itself directly. To be more precise, a class having pure vitual function cannot be used to instantiate objects of its own. Hence the error in the above program.  
+Normally, the virtual functions are declared in a base class and redefined in the derived class. The base class version of the function is not always used to perform the specific job or task, i.e. in case where a base class may be abstract with no possibility of declaration of an object, there is no sense in defining the virtual function in a base class. The base class function should just act as a placeholder to be overridden by the derived class versions. And it is not involved by itself directly. To be more precise, a class having pure vitual function cannot be used to instantiate objects of its own. Hence the error in the above program.  
 
 "A virtual function which gives an interface for the derived class functions to override but must not be invoked itself through virtual mechanism is called a pure virtual function."  
