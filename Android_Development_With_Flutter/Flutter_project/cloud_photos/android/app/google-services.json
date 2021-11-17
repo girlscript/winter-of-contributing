@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "157699061988-q8oesc67351g7j5r6ed76oevg18jj5p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asmit.cloud_photos",
+            "certificate_hash": "f51b75e1771822b726abb7f91333fa745f0e399c"
+          }
+        },
+        {
           "client_id": "157699061988-vbqbq8ftj07abdsbecl1f8fo1qdu1vib.apps.googleusercontent.com",
           "client_type": 3
         }

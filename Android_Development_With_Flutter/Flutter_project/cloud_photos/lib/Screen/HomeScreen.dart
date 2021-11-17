@@ -1,3 +1,5 @@
+import 'package:cloud_photos/AuthPages/login.dart';
+import 'package:cloud_photos/Authentication/auth.dart';
 import 'package:cloud_photos/widgets/colors.dart';
 import 'package:cloud_photos/widgets/text.dart';
 import 'package:flutter/material.dart';
@@ -11,6 +13,26 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  signoutmethod(context) async {
+    await signout();
+    // Navigator.pushReplacement(
+    //   context,
+    //   MaterialPageRoute(
+    //     builder: (context) => const LoginPage(),
+    //   ),
+    // );
+    WidgetsBinding.instance!.addPostFrameCallback(
+      (_) {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const LoginPage(),
+          ),
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -88,6 +110,12 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SafeArea(
           child: Column(
         children: [
+          ElevatedButton(
+            onPressed: () {
+              signoutmethod(context);
+            },
+            child: const Text("sign Out"),
+          ),
           Padding(
             padding: const EdgeInsets.all(15.0),
             child: Row(
