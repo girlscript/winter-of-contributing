@@ -41,22 +41,22 @@ using namespace std;
 
 // Flyod Warshall function to find all pair shortest path for 4x4 matrix
 
-void FlyodWarshall(int Graph[4][4],int n)
+void FlyodWarshall(int Graph[4][4], int n)
 {
     int Distance[n][n];  // Declaring Distance matrix
-    int i,j,k;
-    for(i=0;i<n;i++)
+    int i, j, k;
+    for(i = 0; i < n; i++)
     {
-        for(j=0;j<n;j++)
+        for(j = 0; j < n; j++)
         {
             Distance[i][j] = Graph[i][j]; // equating Distange to Graph distance
         }
     }
-    for(k=0;k<n;k++)
+    for(k = 0; k < n; k++)
     {
-        for(i=0;i<n;i++)
+        for(i = 0; i < n; i++)
         {
-            for(j=0;j<n;j++)
+            for(j = 0; j < n; j++)
             {
                 // if city K is shortest path from i to j
                 // update Distance Matrix
@@ -69,9 +69,9 @@ void FlyodWarshall(int Graph[4][4],int n)
         }
     }
     // printing the shortest distance matrix
-    for(i=0;i<n;i++)
+    for(i = 0; i < n; i++)
     {
-        for(j=0;j<n;j++)
+        for(j = 0; j < n; j++)
         {
             if(Distance[i][j] == INF)
             {
@@ -111,7 +111,7 @@ int main()
 ```
 
 ### Time Complexity 
-There are three loops. So, the time complexity of the Floyd-Warshall algorithm is O(n3).
+There are three loops. So, the time complexity of the Floyd-Warshall algorithm is ```O(n^3)```.
 
 ### Space Complexity
-The space complexity of the Floyd-Warshall algorithm is O(n2).
+The space complexity of the Floyd-Warshall algorithm is ```O(n^2)```.
