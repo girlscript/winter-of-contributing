@@ -156,6 +156,15 @@
 ### ©️ GirlScript Winter of Contributions 2021
 <p align = 'justify'>Thanks to GWoC Team for creating this folder, which will guide the users to become Pro in ML without searching any other YouTube videos or, different websites for the documentations. The contributors of this program had been awesome through out the journey, as a result the repository is fully ready to be served to the users! Happy Learning and All the Best in ML journey! 🎉</p>
 
+<p align = 'justify'>GirlScript Winter of Contributing is a three-month newly established initiative by <a href = "https://www.girlscript.tech/home">GirlScript Foundation</a> that will take place over the winter months. GWOC invites people to contribute their expertise and ideas in order to improve their technical abilities and obtain significant experience in the field of tech education.Throughout the program, the participants can contribute to a range of themes while being guided by an expert facilitator.The goal of GWOC is to develop the world's largest multilingual repository.🧡 </p>
+
+### Contributing Guidelines
+Please follow the [contributing guidelines](./.github/CONTRIBUTING.md) to contribute to the project.
+
+### Code of Conduct
+
+This project and everyone participating in it is governed by the [GirlScript Code of Conduct](./.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code
+
 
 ***************************************************************
 <div align = 'center'>
