@@ -1,0 +1,89 @@
+Central Limit Theorem and Approximating the Normal Distribution
+To recap, the central limit theorem links the following two distributions:
+
+
+The distribution of the variable in the population.
+The sampling distribution of the mean.
+Specifically, the CLT states that regardless of the variable’s distribution in the population, the sampling distribution of the mean will tend to approximate the normal distribution.
+
+In other words, the population distribution can look like the following:
+
+Moderately skewed data
+
+But, the sampling distribution can appear like below:
+
+Graph of normally distributed sampling distribution produced by central limit theorem.
+It’s not surprising that a normally distributed variable produces a sampling distribution that also follows the normal distribution. But, surprisingly, nonnormal population distributions can also create normal sampling distributions.
+
+Related Post: Normal Distribution in Statistics
+
+Properties of the Central Limit Theorem
+Let’s get more specific about the normality features of the central limit theorem. Normal distributions have two parameters, the mean and standard deviation. What values do these parameters converge on?
+
+As the sample size increases, the sampling distribution converges on a normal distribution where the mean equals the population mean, and the standard deviation equals σ/√n.  Where:
+
+σ = the population standard deviation
+n = the sample size
+As the sample size (n) increases, the standard deviation of the sampling distribution becomes smaller because the square root of the sample size is in the denominator. In other words, the sampling distribution clusters more tightly around the mean as sample size increases.
+
+Let’s put all of this together. As sample size increases, the sampling distribution more closely approximates the normal distribution, and the spread of that distribution tightens. These properties have essential implications in statistics that I’ll discuss later in this post.
+
+Related Posts: Measures of Central Tendency and Measures of Variability
+
+Empirical Demonstration of the Central Limit Theorem
+Now the fun part! There is a mathematical proof for the central theorem, but that goes beyond the scope of this blog post. However, I will show how it works empirically by using statistical simulation software. I’ll define population distributions and have the software draw many thousands of random samples from it. The software will calculate the mean of each sample and then graph these sample means on a histogram to display the sampling distribution of the mean.
+
+For the following examples, I’ll vary the sample size to show how that affects the sampling distribution. To produce the sampling distribution, I’ll draw 500,000 random samples because that creates a fairly smooth distribution in the histogram.
+
+Keep this critical difference in mind. While I’ll collect a consistent 500,000 samples per condition, the size of those samples will vary, and that affects the shape of the sampling distribution.
+
+Let’s test this theory! To do that, I’ll use Statistics101, which is a giftware computer program. This is a great simulation program that I’ve also used to tackle the Monty Hall Problem!
+
+Testing the Central Limit Theorem with Three Probability Distributions
+I’ll show you how the central limit theorem works with three different distributions: moderately skewed, severely skewed, and a uniform distribution. The first two distributions skew to the right and follow the lognormal distribution. The probability distribution plot below displays the population’s distribution of values. Notice how the red dashed distribution is much more severely skewed. It actually extends quite a way off the graph! We’ll see how this makes a difference in the sampling distributions.
+
+Graph that displays a moderately and severely skewed distributions.
+Let’s see how the central limit theorem handles these two distributions and the uniform distribution.
+
+Moderately Skewed Distribution and the Central Limit Theorem
+The graph below shows the moderately skewed lognormal distribution. This distribution fits the body fat percentage dataset that I use in my post about identifying the distribution of your data. These data correspond to the blue line in the probability distribution plot above. I use the simulation software to draw random samples from this population 500,000 times for each sample size (5, 20, 40).
+
+The central limit theorem produces approximately normal sampling distributions in this histogram.
+In the graph above, the gray color shows the skewed distribution of the values in the population. The other colors represent the sampling distributions of the means for different sample sizes. The red color shows the distribution of means when your sample size is 5. Blue denotes a sample size of 20. Green is 40. The red curve (n=5) is still skewed a bit, but the blue and green (20 and 40) are not visibly skewed.
+
+As the sample size increases, the sampling distributions more closely approximate the normal distribution and become more tightly clustered around the population mean—just as the central limit theorem states!
+
+Very Skewed Distribution and the Central Limit Theorem
+Now, let’s try this with the very skewed lognormal distribution. These data follow the red dashed line in the probability distribution plot above. I follow the same process but use larger sample sizes of 40 (grey), 60 (red), and 80 (blue). I do not include the population distribution in this one because it is so skewed that it messes up the X-axis scale!
+
+For the very skewed data, the sample sizes are too small for the central limit theorem to produce normal sampling distributions.
+The population distribution is extremely skewed. It’s probably more skewed than real data tend to be. As you can see, even with the largest sample size (blue, n=80), the sampling distribution of the mean is still skewed right. However, it is less skewed than the sampling distributions for the smaller sample sizes. Also, notice how the peaks of the sampling distribution shift to the right as the sample increases. Eventually, with a large enough sample size, the sampling distributions will become symmetric, and the peak will stop shifting and center on the actual population mean.
+
+If your population distribution is extremely skewed, be aware that you might need a substantial sample size for the central limit theorem to kick in and produce sampling distributions that approximate a normal distribution!
+
+Uniform Distribution and the Central Limit Theorem
+Now, let’s change gears and look at an entirely different type of distribution. Imagine that we roll a die and take the average value of the rolls. The probabilities for rolling the numbers on a die follow a uniform distribution because all numbers have the same chance of occurring. Can the central limit theorem work with discrete numbers and uniform probabilities? Let’s see!
+
+In the graph below, I follow the same procedure as above. In this example, the sample size refers to the number of times we roll the die. The process calculates the mean for each sample.
+
+Central limit theorem causes the distribution of the mean die roll to follow an approximately normal distribution.
+In the graph above, I use sample sizes of 5, 20, and 40. We’d expect the average to be (1 + 2 + 3 + 4 + 5 + 6 / 6 = 3.5). The sampling distributions of the means center on this value. Just as the central limit theorem predicts, as we increase the sample size, the sampling distributions more closely approximate a normal distribution and have a tighter spread of values.
+
+You could perform a similar experiment using the binomial distribution with coin flips and obtain the same types of results when it comes to, say, the probability of getting heads. All thanks to the central limit theorem!
+
+Why is the Central Limit Theorem Important?
+The central limit theorem is vital in statistics for two main reasons—the normality assumption and the precision of the estimates.
+
+Central limit theorem and the normality assumption
+The fact that sampling distributions can approximate a normal distribution has critical implications. In statistics, the normality assumption is vital for parametric hypothesis tests of the mean, such as the t-test. Consequently, you might think that these tests are not valid when the data are nonnormally distributed. However, if your sample size is large enough, the central limit theorem kicks in and produces sampling distributions that approximate a normal distribution. This fact allows you to use these hypothesis tests even when your data are nonnormally distributed—as long as your sample size is large enough.
+
+You might have heard that parametric tests of the mean are robust to departures from the normality assumption when your sample size is sufficiently large. That’s thanks to the central limit theorem!
+
+For more information about this aspect, read my post that compares parametric and nonparametric tests.
+
+Precision of estimates
+In all of the graphs, notice how the sampling distributions of the mean cluster more tightly around the population mean as the sample sizes increase. This property of the central limit theorem becomes relevant when using a sample to estimate the mean of an entire population. With a larger sample size, your sample mean is more likely to be close to the real population mean. In other words, your estimate is more precise.
+
+Conversely, the sampling distributions of the mean for smaller sample sizes are much broader. For small sample sizes, it’s not unusual for sample means to be further away from the actual population mean. You obtain less precise estimates.
+
+In closing, understanding the central limit theorem is crucial when it comes to trusting the validity of your results and assessing the precision of your estimates. Use large sample sizes to satisfy the normality assumption even when your data are nonnormally distributed and to obtain more precise estimates!

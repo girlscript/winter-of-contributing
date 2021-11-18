@@ -1,0 +1,14 @@
+The central limit theorem in statistics states that, given a sufficiently large sample size, the sampling distribution of the mean for a variable will approximate a normal distribution regardless of that variable’s distribution in the population.
+
+Unpacking the meaning from that complex definition can be difficult. That’s the topic for this post! I’ll walk you through the various aspects of the central limit theorem (CLT) definition, and show you why it is vital in statistics.
+
+Distribution of the Variable in the Population
+Part of the definition for the central limit theorem states, “regardless of the variable’s distribution in the population.” This part is easy! In a population, the values of a variable can follow different probability distributions. These distributions can range from normal, left-skewed, right-skewed, and uniform among others.
+
+##images to be inserted
+
+This part of the definition refers to the distribution of the variable’s values in the population from which you draw a random sample.
+
+The central limit theorem applies to almost all types of probability distributions, but there are exceptions. For example, the population must have a finite variance. That restriction rules out the Cauchy distribution because it has infinite variance.
+
+Additionally, the central limit theorem applies to independent, identically distributed variables. In other words, the value of one observation does not depend on the value of another observation. And, the distribution of that variable must remain constant across all measurements.
