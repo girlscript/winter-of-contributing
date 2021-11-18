@@ -1,0 +1,4 @@
+Central Limit Theorem and a Sufficiently Large Sample Size
+As the previous section states, the shape of the sampling distribution changes with the sample size. And, the definition of the central limit theorem states that when you have a sufficiently large sample size, the sampling distribution starts to approximate a normal distribution. How large does the sample size have to be for that approximation to occur?
+
+It depends on the shape of the variable’s distribution in the underlying population. The more the population distribution differs from being normal, the larger the sample size must be. Typically, statisticians say that a sample size of 30 is sufficient for most distributions. However, strongly skewed distributions can require larger sample sizes. We’ll see the sample size aspect in action during the empirical demonstration below.
