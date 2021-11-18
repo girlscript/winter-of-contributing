@@ -15,8 +15,8 @@ Functional vs content requirements - The feature is having a phonebook for your 
 This is the 'how' plane. How much content is there? How is it organized? How is it prioritized? How the system will behave when the user interacts with the product? The scope is given structure on the software side through interaction design, in which we define how the system behaves in response to the user. For information spaces, the structure is the information architecture which defines the arrangement of content elements within the information space.
 
 ### 4.Skeleton
-The skeleton is designed to optimize the arrangement of the elements for maximum effect and efficiency. Here, the designer puts together the information gathered from previous layers to determine the visual form (interaction design) and the navigation design of the product. 
+The skeleton is designed to optimize the arrangement of the elements for maximum effect and efficiency. Here, the designer puts together the information gathered from previous layers to determine the visual form, interaction design and the navigation design of the product. 
 
 ### 5.Surface
-It is the combination of the layers below. Here, our concern is the visual design, or the look of the finished product. Here, designers plan the user interface and all visual things to aid users in using the product with fonts, styling, colors, animations. Designers need to make things easier to understand what users see on the screen.
+It is the amalgamation of the layers below. Here, our concern is the visual design, or the look of the finished product. Here, designers plan the user interface and all visual things to aid users in using the product with fonts, styling, colors, animations. Designers need to make things easier to understand what users see on the screen.
 
