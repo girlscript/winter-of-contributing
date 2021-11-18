@@ -23,10 +23,10 @@ Data Structures are the main part of many computer science algorithms as they en
 ## Roadmap (Overview of Code Structure)
 ### Data Structures
 - Week 1: [Array](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.1%20Arrays)
-- Week 2: [Strings](https://github.com/AJgthb2002/winter-of-contributing/tree/DSA/DSA/2.1%20Strings)
+- Week 2: [Strings](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings)
 - Week 3: [Linked List](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.1%20Linked%20List)
 - Week 4: [Stacks](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.1%20Stacks), [Queues](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.2%20Queues)
-- Week 5: Hash Tables
+- Week 5: [Hash Tables]()
 - Week 6: Trees, Fenwick Tree, Segment Tree
 - Week 7: Heap, Graphs
 - Week 8: Tries, Disjoint Set Union
@@ -35,7 +35,7 @@ Data Structures are the main part of many computer science algorithms as they en
 - Week 2: [Searching & Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms)
 - Week 3: [Greedy Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms)
 - Week 4: [Pattern Searching Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.3%20Pattern%20Searching%20Algorithms)
-- Week 5: Backtracking
+- Week 5: [Backtracking]()
 - Week 6: Divide and Conquer, Dynamic Programming
 - Week 7: Bit Manipulation
 - Week 8: Misc Algorithms (Maths, Geometric, Randomized)
