@@ -1,4 +1,6 @@
 - [LevelorderTraversal](LevelOrderTraversal.md)
 - [Binary_Tree_Basics](Binary_Tree_Basics.md)
+- [Basic Operations](Basic_operations.md)
 - [Diameter Of A Binary Tree](DiameterOfABinaryTree.md)
 - [Height Balanced Trees](HeightBalancedTrees.md)
+- [Build Height Balanced Tree From Array](BuildHeightBalancedTreeFromArray.md)
