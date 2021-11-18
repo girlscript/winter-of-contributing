@@ -32,8 +32,7 @@ To install **Node** and **npm** , you can refer [Node and npm installation.](htt
 
 Confirm that node and npm are installed by running the following commands in your terminal.
 
-> node --version
-npm --version
+> node --version <br> npm --version
 
 If node and npm have installed successfully on your local system , then you should get similar output like this:
 
@@ -44,9 +43,7 @@ If node and npm have installed successfully on your local system , then you shou
 
 **Step 1:** Open your terminal and enter the following in your terminal to create a new folder and enter the following commands:
 
-> mkdir socket-io
-cd socket-io
-npm init
+> mkdir socket-io<br>cd socket-io<br>npm init
 
 ![](Screenshot2.PNG)
 
@@ -59,13 +56,13 @@ This will create a **'package.json node.js'** configuration file.
 
 Now , we need to install **Express** and **Socket.io** and save these to **package.json node.js** file. To do this task, enter the following command in your terminal:
 
->npm install --save express socket.io
+> npm install --save express socket.io
 
 Finally, the only installation we are left with is **Nodemon**.To install nodemon, open your terminal and enter the following command:
 
->nnpm install -g nodemon
+> npm install -g nodemon
 
-Whenever you need to start the server, use **nodemon app.js** instead of **node app.js.**This will ensure that you don't need to restart your server everytime when you change a file. It helps in speeding up the development process.
+Whenever you need to start the server, use **nodemon app.js** instead of **node app.js**.This will ensure that you don't need to restart your server everytime when you change a file. It helps in speeding up the development process.
 
 
 Now, you have your development environment set up. You can start developing real-time application with socket.io.
@@ -131,9 +128,7 @@ Then, check your server logs, you well get to see this  message:
 
 And, if you refresh your browser, you will get to see these messages in your log:
 
-> A user connected
-A user disconnected
-A user connected
+> A user connected<br>A user disconnected<br>A user connected
 
 
 ## Event handling in Socket.io:
