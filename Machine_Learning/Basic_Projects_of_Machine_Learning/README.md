@@ -18,6 +18,7 @@
 | 08 | **Breast Cancer Classification**| Creating a machine learning model, which will classify breast cancer and then predict accordingly. | - |
 | 09 | **IMDB Box office Prediction**| Machine learning model to predict the rating of the movies enlisted through IMDB Box Office. | - |
 | 10 | **Customer Segmentation**| Analysing different types of customers around the globe and build a classification model accordingly. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Customer%20Segmentation) |
+| 11 | **Fake News Classification** |  Develop a machine learning program to identify when an news might be fake news | - |
 
 *****************************************************************
 **:copyright: GirlScript Winter of Contributions 2021**
