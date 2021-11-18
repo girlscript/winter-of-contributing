@@ -14,6 +14,7 @@ Source: [LeetCode](https://leetcode.com/problems/integer-to-roman/)
 #include <bits/stdc++.h>
 using namespace std;
 
+// Function to convert decimal to Roman Numerals
 string intToRoman(int N) {
     int val[13] = {1000,900,500,400,100,90,50,40,10,9,5,4,1};
     string rom[13] = {"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
@@ -40,9 +41,12 @@ int main(){
 ## Input/Output Examples
 
 #### Example 1:
+```
 Input: number = 3  
 Output: "III"
-
+```
 #### Example 2:
+```
 Input: number = 1994  
 Output: "MCMXCIV"  
+```
