@@ -2,7 +2,7 @@
 
 This method should be used when you want your users to use multiple authentication providers to sign in to the same account.
 
-The users of your application can sign in using multiple authentication providers by linking new authentication credentials to the existing user accounts. Firebase user ID can be used to identify the users, regardless of the provider they used to sign in. For example, a user who initially signed in with an email and password can link a GitHub account and sign in with either method in the future.
+By linking new AuthCredentials to the existing user accounts, multiple authentication providers can be used by the users to sign in to your application. Firebase user ID can be used to identify the users, regardless of the provider they used to sign in.For example, a user who signed in with an email and password can link a GitHub account and sign in with either method in the future.
 
 It is **mandatory** for the user to be **logged in** to one of the accounts you want to link the new authentication provider to. The user can then be signed in to the second provider, and pass that AuthCredential to the linkWithCredential method from the existing user(current user instance).
 
@@ -21,7 +21,7 @@ dependencies:
 
 ```dart
 Future<void> linkWithGoogle(BuildContext context) async {
-  //get currently logged in user
+  //get the currently logged in user
   User? existingUser = FirebaseAuth.instance.currentUser;
   // Trigger the authentication flow
   final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
@@ -75,6 +75,7 @@ linkWithPhone(String phoneNo) async {
     verificationId = verificationId;
   };
   
+  //verify the phone number
   await FirebaseAuth.instance.verifyPhoneNumber(
       phoneNumber: phoneNo,
       timeout: const Duration(seconds: 5),
