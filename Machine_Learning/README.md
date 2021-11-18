@@ -148,6 +148,7 @@
    - **Breast Cancer Classification.**
    - **IMDB Box office Prediction.**
    - **Customer Segmentation.**
+   - **Fake News Classification.**
 
 
    
