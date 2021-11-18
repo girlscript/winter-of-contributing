@@ -81,3 +81,7 @@ int main()
     (3 ,2)
 
 ```
+From the above output we can see that one of possible outcome of 4-Queens problem is 
+<div  align ="center">
+    <img  src="https://geekstocode.com/wp-content/uploads/2020/03/NQueen.png" width="400" height="200">
+</div>
