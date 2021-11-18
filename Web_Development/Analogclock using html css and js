@@ -1,0 +1,143 @@
+//This is a responsive analogclock fully designed from html css and js.We can add this to our website and make our website look more attractive .you can also change the colour of the clock and its background 
+//and design it by your imagination.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+ 
+  .circleBase {
+    border-radius: 100%;
+    border:10px solid rgb(4, 50, 71);
+    position:relative;
+    background-color: rgb(74, 73, 145);
+  }
+  .circle1 {
+    
+    width: 40vw;
+    height: 40vw;
+    /* border:10px solid green; */
+    justify-content: center;
+   padding:10px;
+   margin: auto;
+    
+    /* border: 1px solid #000; */
+  }
+  
+  #hour{
+    position: absolute;
+    background: black;
+    border-radius: 2px;
+    height: 22%;
+    width: 0.7%;
+    left:48.8%;
+    top:30%;
+    opacity:0.8;
+    transform-origin: bottom;
+  }
+  #minute{
+    position: absolute;
+    background: black;
+    border-radius: 2px;
+    height: 28%;
+    width: 0.5%;
+    left:49%;
+    top:24%;
+    opacity: 0.8;
+    transform-origin: bottom;
+  }
+
+  
+  #second{
+    position: absolute;
+    background: black;
+    border-radius: 2px;
+    height: 37%;
+    width: 0.4%;
+    left:49%;
+    top:15%;
+    opacity:0.8;
+    transform-origin: bottom;
+  }
+  #A,#B{
+    position: relative;
+  }
+  #A{
+  position:absolute;
+  color: rgb(14, 14, 17);
+  font-weight: bold;
+  font-size: 6vw;
+  height:2%;
+  top:3%;
+  left:44%;
+  }
+  #B{
+    position:absolute;
+  color: rgb(9, 9, 10);
+  font-weight: bold;
+  font-size: 6vw;
+  top:43%;
+  left:4%
+  }
+  #C{
+    position:absolute;
+  color: rgb(12, 12, 14);
+  font-weight: bold;
+  font-size: 6vw;
+  top:43%;
+  left:88%
+  }
+  #D{
+    position:absolute;
+  color: rgb(14, 14, 17);
+  font-weight: bold;
+  font-size: 6vw;
+  height:2%;
+  top:81%;
+  left:47%;
+  }
+  /* .circle2 {
+    width: 150px;
+    height: 150px;
+    background: #a1a1a1;
+    border: 1px solid #000;            
+  } */
+</style>
+</head>
+<body>
+ 
+  <div class="circle1 circleBase">
+    <div id="A">12</div>
+    <div id="B">9</div>
+    <div id="C">3</div>
+    <div id="D">6</div>
+     <div id="hour"></div>
+     <div id="minute"></div>
+     <div id="second"></div>
+  </div>
+
+  <script>
+    setInterval(() => {
+      d=new Date();
+    htime=d.getHours();
+    mtime=d.getMinutes();
+    stime=d.getSeconds();
+    hrotation=30*htime+mtime/2;
+    mrotation=6*mtime;
+    srotation=6*stime;
+
+     hour.style.transform =`rotate(${hrotation}deg)`;
+    minute.style.transform =`rotate(${mrotation}deg)`;
+    second.style.transform =`rotate(${srotation}deg)`;
+    },1000);
+   
+  </script>
+</body>
+
+</html>
