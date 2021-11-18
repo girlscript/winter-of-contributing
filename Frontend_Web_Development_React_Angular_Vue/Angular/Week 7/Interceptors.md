@@ -64,7 +64,88 @@ The three different Interceptor implementations:
 * HTTP Error Handling
 
 # How to handle interceptor events?
+
 * Most HttpClient methods return observables of HttpResponse<any>. The HttpResponse class itself is actually an event, whose type is HttpEventType.Response. A single HTTP request can, however, generate multiple events of other types, including upload and download progress events. The methods HttpInterceptor.intercept() and HttpHandler.handle() return observables of HttpEvent<any>.
 * Many interceptors are only concerned with the outgoing request and return the event stream from next.handle() without modifying it. Some interceptors, however, need to examine and modify the response from next.handle(); these operations can see all of these events in the stream.
 * Although interceptors are capable of modifying requests and responses, the HttpRequest and HttpResponse instance properties are readonly, rendering them largely immutable. They are immutable for a good reason: an app might retry a request several times before it succeeds, which means that the interceptor chain can re-process the same request multiple times. 
 * If an interceptor could modify the original request object, the re-tried operation would start from the modified request rather than the original. Immutability ensures that interceptors see the same request for each try.
+
+# Interface Usecases:
+
+### 1.Looking for Unauthorised Responses
+* When tokens expire we will generally get a 401 Unauthorised response back from the server.This gives us an indication that we need the user to log in again to get a new token.
+* We need to set up the interceptor to handle responses. The intercept method returns an observable which means we can capture the success and error channels for a response and operate on them however we like.
+```javascript
+@Injectable()
+export class JwtInterceptor implements HttpInterceptor {
+  constructor(public auth: AuthService) {}
+  intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
+    
+    return next.handle(request).do((event: HttpEvent<any>) => {
+      if (event instanceof HttpResponse) {
+        // do stuff with response if you want
+      }
+    }, (err: any) => {
+      if (err instanceof HttpErrorResponse) {
+        if (err.status === 401) {
+          // redirect to the login route
+          // or show a modal
+        }
+      }
+    });
+  }
+}
+```
+```javascript
+// auth.service.ts
+ 
+import { HttpRequest } from '@angular/common/http';
+ 
+@Injectable()
+export class AuthService {
+cachedRequests: Array<HttpRequest<any>> = [];
+public collectFailedRequest(request): void {
+    this.cachedRequests.push(request);
+  }
+public retryFailedRequests(): void {
+    // retry the requests. this method can
+    // be called after the token is refreshed
+  }
+}
+```
+
+### 2. Manage Authentication
+First on the list is authentication! It is just so fundamental for many applications that we have a proper authentication system in place. This is one of the most common use cases for interceptors and for a good reason. It fits right in!
+There are several things connected to authentication we can do:
+* Add bearer token
+* Refresh Token
+* Redirect to the login page
+
+### 3. Set Headers
+We can do a lot by manipulating headers. Some things are:
+* Authentication/authorization
+* Caching behaviour; for example, If-Modified-Since
+* XSRF protection
+```javascript 
+const modified = req.clone({ 
+  setHeaders: { "X-Man": "Wolverine" } 
+});
+return next.handle(modified);
+```
+
+### 4. Converting response
+When the API returns a format we do not agree with, we can use an interceptor to format it the way we like it.
+This could be converting from XML to JSON or like in this example property names from PascalCase to camelCase.
+If the back-end doesn’t care about JSON/JS conventions we can use an interceptor to rename all the property names to camelCase.
+```javascript
+return next.handle(req).pipe(
+  map((event: HttpEvent<any>) => {
+    if (event instanceof HttpResponse) {
+      let camelCaseObject = mapKeys(event.body, (v, k) => camelCase(k));
+      const modEvent = event.clone({ body: camelCaseObject });
+      
+      return modEvent;
+    }
+  })
+);
+```
