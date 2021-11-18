@@ -1,5 +1,5 @@
 # Algorithms
-- [Searching Algorithm](./Searching_Techniques.md)
+- [Searching Algorithm](./Searching)
 - [Sorting Algorithm](./Sorting)
 - [Brute Force Algorithm](./Brute%20Force)
 - [Recursive Algorithm](./Recursive)
@@ -10,4 +10,4 @@
 - [Randomised Algorithm](./Randomised)
 - [Branch & Bound Algorithm](./Branch%20%26%20Bound)
 - [NP Complete Algorithm](./NP%20Completeness)
-- [Jump Search](./Algorithmic%20Approaches/Searching/jump_search.md)
+- [Bit Manipulation](./Bit%20Manipulation)

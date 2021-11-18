@@ -1,7 +1,7 @@
 <table>
   <tr>
     <td>
-      <div><img src="GWOC_logo_spin.gif" height="100px" width=auto/></div>
+      <div><img src="GWOC_logo_spin.gif" height="120px" width=auto/></div>
     </td>
     <td>
       <h1> GirlScript Winter of Contributing </h1>
@@ -13,11 +13,11 @@
   </tr>
 </table>
 
-##  :world_map: [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
+## :world_map: [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
 
 # Topics in the C++ language &nbsp;&nbsp;&nbsp;&nbsp; ![C](https://img.shields.io/badge/C-black?style=for-the-badge&logo=c&labelColor=black&color=404040) &nbsp;&nbsp; ![C++](https://img.shields.io/badge/CPP-blue?style=for-the-badge&logo=cplusplus&labelColor=006199)
 
-- ### [Install C++ on different OS](Install%20C%2B%2B%20on%20different%20OS/) 
+- ### [Install C++ on different OS](Install%20C%2B%2B%20on%20different%20OS/)
 
 - ### [Fundamentals](./Fundamentals/)
 
@@ -34,11 +34,9 @@
   - [Variadic Functions](./Fundamentals/Variadic%20Functions)
   - [Comments in C/CPP](./Fundamentals/Comments%20in%20C_CPP)
   - [Namespaces in C++](./Fundamentals/Namespaces%20in%20C++)
-  
+
 - ### [Strings and their functions](./Strings%20and%20their%20functions/)
-  
 - ### [Pointer and its types](./Pointer%20and%20its%20types/)
-  
 - ### [Procedural Structures](./Procedural%20Structures/)
 
 - ### [Dynamic Memory allocation](./Dynamic%20Memory%20allocation/)
@@ -70,7 +68,7 @@
 - ### [Number System](./Number%20System/)
 
 - ### [Data Structures](Data%20Structures/)
-  
+
   - [Array](./Data%20Structures/Array)
   - [Linked List](./Data%20Structures/Linked%20List)
   - [Stack](./Data%20Structures/Stack)
@@ -90,24 +88,24 @@
     - [Stack](./Data%20Structures/Standard%20Template%20Library/Stack/)
     - [Priority Queue](./Data%20Structures/Standard%20Template%20Library/Priority_Queue/)
   - [User Defined Data Structures](./Data%20Structures/User%20Defined%20Data%20Structures/)
-    - [Segment Tree](#)
-    - [Fenwick Tree](#)
+    - [Segment Tree](./Data%20Structures/User%20Defined%20Data%20Structures/Segment%20Tree)
+    - [Fenwick Tree](./Data%20Structures/User%20Defined%20Data%20Structures/Fenwick%20Tree)
     - [BTree](#)
-    - [Trie](#)
+    - [Trie](./Data%20Structures/User%20Defined%20Data%20Structures/Trie)
     - [Suffix Tree](#)
-  
+
 - ### [Operating System Concepts](Operating%20System%20Concepts/)
+
   - [Introduction to Operating System](./Operating%20System%20Concepts/Introduction_to_OS)
   - [Scheduling Algorithms](./Operating%20System%20Concepts/)
   - [Memory Management](#)
   - [Deadlock](#)
   - [File Management](#)
-  
 
 - ### [Competitive Programming](Competitive%20Programming/)
 
 - ### [Algorithmic Approaches](Algorithmic%20Approaches/)
-  
+
   - [Sorting Algorithm](./Algorithmic%20Approaches/Sorting)
   - [Brute Force Algorithm](./Algorithmic%20Approaches/Brute%20Force)
   - [Recursive Algorithm](./Algorithmic%20Approaches/Recursive)
@@ -118,8 +116,8 @@
   - [Randomised Algorithm](./Algorithmic%20Approaches/Randomised)
   - [Branch & Bound Algorithm](./Algorithmic%20Approaches/Branch%20%26%20Bound)
   - [NP Complete Algorithm](./Algorithmic%20Approaches/NP%20Completeness)
-  - [Binary Search Practice Questions](./Algorithmic%20Approaches/binary_practice.md)
-- ### [OpenGL using C++ (3D,2D graphics using C++)](OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)/)
+
+- ### [OpenGL using C++ (3D,2D graphics using C++)](<OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)/>)
 
 - ### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
 
