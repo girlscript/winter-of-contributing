@@ -4,7 +4,9 @@ To recap, the central limit theorem links the following two distributions:
 
 The distribution of the variable in the population.
 The sampling distribution of the mean.
-Specifically, the CLT states that regardless of the variable’s distribution in the population, the sampling distribution of the mean will tend to approximate the normal distribution.
+Specifically, the CLT states that regardless of the variable’s distribution in the population,
+
+the sampling distribution of the mean will tend to approximate the normal distribution.
 
 In other words, the population distribution can look like the following:
 
@@ -13,18 +15,25 @@ Moderately skewed data
 But, the sampling distribution can appear like below:
 
 Graph of normally distributed sampling distribution produced by central limit theorem.
-It’s not surprising that a normally distributed variable produces a sampling distribution that also follows the normal distribution. But, surprisingly, nonnormal population distributions can also create normal sampling distributions.
+It’s not surprising that a normally distributed variable produces a sampling distribution that
+also follows the normal distribution. But, surprisingly, nonnormal population distributions can also create normal sampling distributions.
 
 Related Post: Normal Distribution in Statistics
 
 Properties of the Central Limit Theorem
-Let’s get more specific about the normality features of the central limit theorem. Normal distributions have two parameters, the mean and standard deviation. What values do these parameters converge on?
+Let’s get more specific about the normality features of the central limit theorem. Normal distributions have 
+two parameters, the mean and standard deviation. What values do these parameters converge on?
 
-As the sample size increases, the sampling distribution converges on a normal distribution where the mean equals the population mean, and the standard deviation equals σ/√n.  Where:
+As the sample size increases, the sampling distribution converges on a normal distribution where the mean equals
+the population mean, and the standard deviation equals σ/√n.  Where:
 
 σ = the population standard deviation
 n = the sample size
-As the sample size (n) increases, the standard deviation of the sampling distribution becomes smaller because the square root of the sample size is in the denominator. In other words, the sampling distribution clusters more tightly around the mean as sample size increases.
+As the sample size (n) increases, the standard deviation of the sampling distribution becomes smaller because the
+square root of the sample size is in the denominator. In other words, the sampling distribution clusters more tightly 
+around the mean as sample size increases.
 
-Let’s put all of this together. As sample size increases, the sampling distribution more closely approximates the normal distribution, and the spread of that distribution tightens. These properties have essential implications in statistics that I’ll discuss later in this post.
+Let’s put all of this together. As sample size increases, the sampling distribution more closely approximates the normal
+distribution, and the spread of that distribution tightens. These properties have essential implications in statistics
+that I’ll discuss later in this post.
 
