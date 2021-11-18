@@ -40,7 +40,7 @@ For this competition, the current Kaggle Leaderboard accuracy I reached is 0.799
 
 ## Preliminary Work
 
-![SurvivalHistogram](survive_or_not.png)
+
 
 In the training dataframe, we observe that the 2 label are slightly balanced (61% labeled as 0). We also see we have access to 16 different features per passengers. <br> 4 of the features have missing values:
 
@@ -124,32 +124,20 @@ I chosed several classifiers and compared them using [k-fold cross validation](h
 K-fold is important here (in the case of a small dataset) because it enables us to train/test the model 10 times and then we can reduce the chance of over-fitting or even luck.
 
 The models tried for this bi-label classification problem will be:
-- Logistic Regression
+- Cross Validation (K-fold)
+- kNN
 - Decision Tree
-- Random Forest
+- Ramdom Forest
+- Naive Bayes
 - SVM
-- ExtraTree
-- Gradient Boosting
-- AdaBoost
-- KNN 
-- XGBoost
 
-![ModelEvaluation](model_evaluation.png)
+
 
 The different algorithms perform differently. We need to look at the average, but also at the standard deviation of the accuracy of these algorithms. Indeed, we want our model to perform well on average, but we don't want it to perform really poorly sometimes or really greatly on other times. 
 I decided to use a hand-crafted criterion in order to take into account both average and deviation. The criterion is defined as the average minus the half of the deviation. So we take the algorithm with the best accuracy modulated by a not to big deviation.
 
-![Criterion](criterion.png)
 
-Gradient Boosting produces the best outcome in terms of criterion. We can directly use it to produce the submission file. <br>
-Or we can decide to use different models and ensemble the results in order to produce a better outcome: this method is so-called 'Ensemble modeling'.<br>
-To select the best ones, I use a criterion which is the mean of the accuracy minus the half of the standard deviation of the accuracy. <br>
-But first, let's select the 5 best algorithms in order to perform hyper-parameters optimization:
-- LogisticRegression
-- GradientBoosting
-- XGBoost
-- SVM
-- RandomForest	
+
 
 ###Hyper-Parameters Optimization 
 
@@ -157,7 +145,7 @@ In this part, I tried to improve the accuracy of the selected classifiers by hyp
 
 ###Ensemble Modeling
 
-![corrMatrix](corr_matrix.png)
+
 
 The classifier are quiet correlated. This is a good sign! However we observe some differences between the 5 classifiers. This is good for you because we can leverage the use of a voting system to improve our prediction.
 
