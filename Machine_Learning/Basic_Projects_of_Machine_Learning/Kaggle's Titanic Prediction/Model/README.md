@@ -1,5 +1,6 @@
 # Kaggle's Titanic Prediction
 
+![image](https://user-images.githubusercontent.com/63282184/142458721-c0a32098-a527-4941-9ee2-f08ba91af594.png)
 
 
 
@@ -124,6 +125,16 @@ In this part, I tried to improve the accuracy of the selected classifiers by hyp
 
 
 The classifier are quiet correlated. This is a good sign! However we observe some differences between the 5 classifiers. This is good for you because we can leverage the use of a voting system to improve our prediction. 
+
+
+## Some of the visulaizations from the model are :
+
+![image](https://user-images.githubusercontent.com/63282184/142458506-bd068131-396a-47c3-bd2c-a1d161284334.png)
+
+![image](https://user-images.githubusercontent.com/63282184/142458560-cc885512-1f0b-4cac-91c3-20277fbfbb45.png)
+
+![image](https://user-images.githubusercontent.com/63282184/142458621-a187310d-49a0-4c69-8af3-0e2ac445db18.png)
+
 
 ## Modeling
 
