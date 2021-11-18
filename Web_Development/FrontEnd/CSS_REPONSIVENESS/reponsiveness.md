@@ -98,9 +98,14 @@ div.ele {
 ```
 **When the browser's width is 350px wide or less, font size is 40px.**
 <img src="ss/ss3.jpg" width="70%">
+ <br />
 **Now font size is 20px with change in color to green.**
+ <br />
 <img src="ss/ss4.jpg" width="70%">
+ <br />
 **Hide Elements With Media Queries**
+ <br />
+ 
 ```html
 <!DOCTYPE html>
 <html>
@@ -126,8 +131,12 @@ div.ele {
 </html>
 ```
 **Element block is displayed.**
+ <br />
 <img src="ss/ss5.jpg" width="70%">
+ <br />
 **Element block is hidden.**
+ <br />
 <img src="ss/ss6.jpg" width="70%">
-**Refrences**
+ <br />
+**Refrence**
 https://www.w3schools.com/css/css_rwd_intro.asp
