@@ -2,7 +2,7 @@
 
 **The Elements of User Experience** is a 2002 book by **Jesse James Garrett**. It talks about the user experience using this five-layer diagram as layers, that inform one another when building a product. These layers from bottom to top are **Strategy, Scope, Structure, Skeleton, and Surface**. Each layer supports those above it. The issues that we have have to deal with, become less abstract, and more concrete with each plane.
 
-![elements of ux experience](https://miro.medium.com/max/680/1*sPFsGOoQU_-p051a3yYKHw.png)
+![elements of ux experience](5_elements_of_user_experience.png)
 
 ### 1.Strategy
 This is the 'why' plane. Here, we need to find the reason for the product, application or the site. Why we create it? Why people are willing to use it? Why they need it? The goal here is to define the user needs and business objectives.
