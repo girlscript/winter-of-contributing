@@ -6,6 +6,10 @@ N queens problem is not applicable for n = 1,2,3 as n=1 will generate a trivial 
 ## Implementation of N Queens Problem in C++
 We start by placing queens one by one in different columns, starting from the leftmost column. In the current column, if we find a row for which there is no clash, we mark this row and column as part of the solution. If we do not find such a row due to clashes, then we backtrack.
 
+Now implementing the code for N queens problem, here lets take the value of n as 4 and see the possible output
+
+</br>
+
 ```C++
 #include<iostream>
 using namespace std;
@@ -49,6 +53,7 @@ int NQueen(int r)
 }
 int main()
 {
+    cout<<"Enter the value of n : ";
     cin>>n;
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
@@ -65,4 +70,14 @@ int main()
         }
     }
 }
+```
+### Output
+
+```
+    Enter the value of n : 4
+    (0, 1)
+    (1 ,3)
+    (2 ,0)
+    (3 ,2)
+
 ```
