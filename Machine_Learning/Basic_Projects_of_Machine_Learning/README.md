@@ -12,7 +12,7 @@
 | 02 | **House Price Prediction**| This project predicts the prices of houses located in the cities of the US, with the help of essential features. | - |
 | 03 | **Wine Quality Prediction**| This model predicts the quality of wine based on some features like pH, fixed acidity, citric acid etc. using different machine learning algorithm. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Wine%20Quality%20Prediction%20Project) |
 | 04 | **Heart Disease Prediction**| This project predicts heart disease based on features like age, cholesterol level, blood sugar level etc. | - |
-| 05 | **MNIST Digit Classification**| This project will classify different digits and predict accordingly. | - |
+| 05 | **MNIST Digit Classification**| This project will classify different digits and predict accordingly. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/MNIST_Digit_Classification) |
 | 06 | **Sentiment Analysis on Twitter Data**|  Analysing the sentiment of the users and creating a prediction model based on the data, which will predict the sentiment of the user. | - |
 | 07 | **Pima Indian Diabetes Prediction**| Creating a machine learning model, which will classify the diabetes and then predict accordingly. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Pima_Diabetes_Analysis) |
 | 08 | **Breast Cancer Classification**| Creating a machine learning model, which will classify breast cancer and then predict accordingly. | - |
