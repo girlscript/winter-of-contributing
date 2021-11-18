@@ -1,12 +1,13 @@
 # Linking User Accounts
 
-Account linking allows the users to sign into the same account with different authentication providers.
+This method should be used when you want your users to use multiple authentication providers to sign in to the same account.
 
-You can allow your users to sign into your application using multiple providers by linking authentication credentials to existing user accounts. Users can then be identified using their Firebase UID, regardless of the provider they used to sign in.
+The users of your application can sign in using multiple authentication providers by linking new authentication credentials to the existing user accounts. Firebase user ID can be used to identify the users, regardless of the provider they used to sign in. For example, a user who initially signed in with an email and password can link a GitHub account and sign in with either method in the future.
 
-The user must first be logged in to one of the accounts you want to link the new provider to. You can then log the user into the second provider, and pass that AuthCredential to the linkWithCredential method from the first UserCredential.
+It is **mandatory** for the user to be **logged in** to one of the accounts you want to link the new authentication provider to. The user can then be signed in to the second provider, and pass that AuthCredential to the linkWithCredential method from the existing user(current user instance).
 
-### Initially,enable the providers
+
+### Initially, enable the providers and provide support for two or more authentication providers in the app
 
 <img width="705" alt="firebase" src="https://user-images.githubusercontent.com/68653906/141871702-2c447b8a-f3cf-444e-a07d-3e7b88c740a1.png">
 
@@ -25,7 +26,7 @@ Future<void> linkWithGoogle(BuildContext context) async {
   // Trigger the authentication flow
   final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
 
-  // Obtain the auth details from the request
+  // Obtain the authentication details from the request
   final GoogleSignInAuthentication googleAuth =
       await googleUser!.authentication;
 
@@ -34,7 +35,8 @@ Future<void> linkWithGoogle(BuildContext context) async {
     accessToken: googleAuth.accessToken,
     idToken: googleAuth.idToken,
   );
-
+  
+  //Link these credentials with the existing user
   await existingUser!.linkWithCredential(credential).whenComplete(() {
     print("Linked");
   });
@@ -52,8 +54,8 @@ linkWithPhone(String phoneNo) async {
     //now link these credentials with the existing user
     await existingUser!.linkWithCredential(authCreds);
   }
-  //get the credentials of the new linking account
 
+  //get the credentials of the new account to be linked
   final PhoneVerificationCompleted verificationCompleted =
       (AuthCredential authCreds) {
     signIn(authCreds);
@@ -72,6 +74,7 @@ linkWithPhone(String phoneNo) async {
       (String verificationId) {
     verificationId = verificationId;
   };
+  
   await FirebaseAuth.instance.verifyPhoneNumber(
       phoneNumber: phoneNo,
       timeout: const Duration(seconds: 5),
