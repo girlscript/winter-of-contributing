@@ -1,179 +1,184 @@
-# String Methods in Javascript
+# String Methods in JavaScript
 
-Pre-defined string methods are very useful while working with Strings in Javascript.
+Pre-defined string methods are very useful while working with Strings in JavaScript.
 
-Here are the details of most useful Javascript String Methods.
+Here are the details of most useful JavaScript String Methods.
 
-##  String Length
-The Length property of a string returns the length or size of the string.
+## String Length
+
+The `length` property of a string returns the length or size of the string.
 
 ```javascript
-    let x="Girlscript"
-    x.length
+let x = "Girlscript";
+x.length
 
-    // OUTPUT: 10
+// OUTPUT: 10
 ```
 
-##  Slice() Method
+## Slice Method
 
-The Slice Method of a string will extract and return the any part of a string.
+The `slice()` Method of a string will extract and return the any part of a string.
 
 Takes the starting and ending index of the desired part as input parameter.
 
 ```javascript
-    let x="Girlscript"
-    x.slice(4,10)
+let x = "Girlscript";
+x.slice(4,10)
 
-    // OUTPUT: script
+// OUTPUT: script
 ```
 If the input parameter is negative, position is counted from ending of the string.
 
 ```javascript
-    let x="Girlscript"
-    x.slice(-10,-6)
+let x = "Girlscript";
+x.slice(-10,-6)
 
-    // OUTPUT: script
+// OUTPUT: script
 ```
 If the 2nd parameter is not given, then it will slice till the end.
 
 ```javascript
-    let x="Girlscript"
-    x.slice(4)
+let x = "Girlscript";
+x.slice(4)
 
-    // OUTPUT: script
+// OUTPUT: script
 ```
 
-##  substring() Method
-The substring() Method of a string works similar to slice() Method but it doesn't except negative parameters.
+## Substring Method
+
+The `substring()` Method of a string works similar to `slice()` Method but it doesn't except negative parameters.
 
 Takes the starting and ending index of the desired part as input parameter.
 
 ```javascript
-    let x="Girlscript"
-    x.substring(4,10)
+let x = "Girlscript";
+x.substring(4,10)
 
-    // OUTPUT: script
+// OUTPUT: script
 ```
 
-##  substr() Method
-The substr Method of a string works similar to Slice Method.
+## Substr Method
+
+The `substr()` Method of a string works similar to `slice()` Method.
 
 The second parameter specifies the length of the desired string.
 
 ```javascript
-    let x="Girlscript"
-    x.substr(4,6)
+let x = "Girlscript";
+x.substr(4,6)
 
-    // OUTPUT: script
+// OUTPUT: script
 ```
 
 If the first input parameter is negative, position is counted from ending of the string.
 
 ```javascript
-    let x="Girlscript"
-    x.substr(-10,4)
+let x="Girlscript"
+x.substr(-10,4)
 
-    // OUTPUT: Girl
+// OUTPUT: Girl
 ```
 If the 2nd parameter is not given, then it will slice till the end.
 
 ```javascript
-    let x="Girlscript"
-    x.substr(4)
+let x="Girlscript"
+x.substr(4)
 
-    // OUTPUT: script
+// OUTPUT: script
 ```
 
-##  replace() Method
+## Replace Method
 
-The replace Method of a string will replace any value of a string with another specified value.
+The `replace()` Method of a string will replace any value of a string with another specified value.
 
 The input parameter are the value of substring to be replaced and the specified value.
 
 Replace method doesn't change the original string but returns a new string.
 
 ```javascript
-    let x="Girlscripted Winter of Contributing"
-    let y=x.replace("Girlscripted","Girlscript")
+let x = "Girlscripted Winter of Contributing";
+let y = x.replace("Girlscripted","Girlscript");
 
-    // OUTPUT: y="Girlscript Winter of Contributing"
+// OUTPUT: y = "Girlscript Winter of Contributing"
 ```
 By default, Replace method will change the first match only.
 
 ```javascript
-    let x="Girlscripted Winter of Girlscripted"
-    let y=x.replace("Girlscripted","Girlscript")
+let x = "Girlscripted Winter of Girlscripted";
+let y = x.replace("Girlscripted","Girlscript");
 
-     // OUTPUT: y="Girlscript Winter of Girlscripted"
+ // OUTPUT: y="Girlscript Winter of Girlscripted"
 ```
 To replace all matches,we use a regilar expression with /g flag.
 
 ```javascript
-    let x="Girlscripted Winter of Girlscripted"
-    let y=x.replace("/Girlscripted/g","Girlscript")
+let x = "Girlscripted Winter of Girlscripted";
+let y = x.replace("/Girlscripted/g","Girlscript");
 
-     // OUTPUT: y="Girlscript Winter of Girlscript"
+ // OUTPUT: y="Girlscript Winter of Girlscript"
 ```
 
 By default, Replace method is very case-sensitive. 
 
-Writing ` "GIRLSCRIPTED"` will not work (all-uppercase).
+Writing `"GIRLSCRIPTED"` will not work (all-uppercase).
 
 ```javascript
-    let x="Girlscripted Winter of Contributing"
-    let y=x.replace("GIRLSCRIPTED","Girlscript")
+let x = "Girlscripted Winter of Contributing";
+let y = x.replace("GIRLSCRIPTED","Girlscript");
 
-     // OUTPUT: y="Girlscripted Winter of Contributing"
+ // OUTPUT: y="Girlscripted Winter of Contributing"
 ```
 To replace case-insensitive values ,we use a regular expression with /i flag.
 
 ```javascript
-    let x="Girlscripted Winter of Contributing"
-    let y=x.replace("/GIRLSCRIPTED/i","Girlscript")
+let x = "Girlscripted Winter of Contributing";
+let y = x.replace("/GIRLSCRIPTED/i","Girlscript");
 
-    // OUTPUT: y="Girlscript Winter of Contributing"
+// OUTPUT: y="Girlscript Winter of Contributing"
 ```
-##  toUpperCase() Method
-The toUpperCase() Method of a String will return the same string will all character in Uppercase.
+## toUpperCase Method
+
+The `toUpperCase()` Method of a String will return the same string will all character in Uppercase.
 
 ```javascript
-    let x="Girlscript"
-    let y=x.toUpperCase()
+let x="Girlscript"
+let y=x.toUpperCase()
 
-    // OUTPUT: y="GIRLSCRIPT"
+// OUTPUT: y="GIRLSCRIPT"
 ```
 
-##  toLowerCase() Method
-The toLowerCase() Method of a String will return the same string will all character in Lowercase.
+##  toLowerCase Method
+
+The `toLowerCase()` Method of a String will return the same string will all character in Lowercase.
 
 ```javascript
-    let x="GIRLSCRIPT"
-    let y=x.toLowerCase()
+let x="GIRLSCRIPT"
+let y=x.toLowerCase()
 
-    // OUTPUT: y="girlscript"
+// OUTPUT: y="girlscript"
 ```
 
-##  concat() Method
-The concat() Method of a String will return a string joining two strings together.
+## Concat Method
+The `concat()` Method of a String will return a string joining two strings together.
 
 The input parameters are the strings that are required to be joined.
 
 ```javascript
-    let x="Girlscript"
-    let y="Winter of Contributing"
-    let y=x.concat("",y)
+let x="Girlscript"
+let y="Winter of Contributing"
+let y=x.concat("",y)
 
-    // OUTPUT: y="Girlscript Winter of Contributing"
+// OUTPUT: y="Girlscript Winter of Contributing"
 ```
 
-##  trim() Method
-The trim() Method will remove whitespace from both sides of the string.
+## Trim Method
+The `trim()` Method will remove whitespace from both sides of the string.
 
 ```javascript
-    let x="         Girlscript          "
-    x.trim()
+let x="         Girlscript          "
+x.trim()
 
-    // OUTPUT: Girlscript
+// OUTPUT: Girlscript
 ```
 
 ##  charAt() Method
