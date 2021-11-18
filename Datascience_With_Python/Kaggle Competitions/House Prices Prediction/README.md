@@ -18,7 +18,7 @@ Regression in machine learning consists of mathematical methods that allow data 
 
 The goal to predict the sales price for each house. For each Id in the test set, the value of the SalePrice variable is to be predicted. 
 
-Since the dataset invlves more than 1 feature, here, we'll be using Multiple Linear Regression, Support Vector Regression, Decision Tree Regression and Random FOrest Regression
+Since the dataset invlves more than 1 feature, here, we'll be using Multiple Linear Regression, Decision Tree Regression and Random FOrest Regression
 
 ## Let's begin
   
@@ -32,23 +32,14 @@ Since the dataset invlves more than 1 feature, here, we'll be using Multiple Lin
   
   ![image](https://user-images.githubusercontent.com/83827603/141648756-e516e336-bdc2-485f-928a-9e8482a95dd0.png)
   
-  We can see that there are many NA values, different string type labels in a column, hence, 
-  1) Techniques to convert NA in float type columns have to replace by 0 and convert NA in string type column to "None"
-  2) All the categorical labels to be encoded using Label Encoder
-  3) It can be later observed that there are some missing, NaN values as a result of some preprocessing techniques, which are replaced with 0 for numeric columns and with "None" for Categorical columns
-  4)Label Encoding: Some of the columns in the dataset have string or categorical values which should be converted to numeric form so that it is machine readable. This is done using a LabelEncoder
+  1) All the missing values have to be removed... The categorical columns' missing values are removed using SimpleImputer and the missing values of numerical columns are removed by manually replacing them with mean of the column values 
+  2) All the categorical labels to be encoded using One Hot Encoder
   
   * Preparing dataset
   
     The dataset_total consisting of both training and test set is divided into training and test set. y_train is obtained from the original "dataset" because it consists of plain numerical value and did not require any preprocessing and consists of "SalePrice"
   
 ## Aplying the models:
-  
-  * Support Vector Regression (SVR)
-  
-    Support Vector Regression is similar to Linear Regression in that the equation of the line is y= wx+b In SVR, this straight line is referred to as hyperplane. The data points on either side of the hyperplane that are closest to the hyperplane are called Support Vectors which is used to plot the boundary line.
-  
-    ![image](https://user-images.githubusercontent.com/83827603/141650113-654bfab4-41d0-4ebd-88d2-dd7c6308e95e.png)
 
   * Multiple Linear Regression
   
@@ -70,17 +61,20 @@ Since the dataset invlves more than 1 feature, here, we'll be using Multiple Lin
   
     ![image](https://user-images.githubusercontent.com/83827603/141650169-c597fbe4-594f-4b26-854e-caa435e65547.png)
 
- ## Almost Done!
-  
-  The final results are predicted using Random Forest Regression Model
-  
-  ![image](https://user-images.githubusercontent.com/83827603/141650214-9d6a4f60-8a12-48e8-baba-e06621617074.png)
-
-  The different models can be compared using mean squared error
+ ## Conclusion!
   
   Various regression models have been successfully applied on the given dataset...
+  
+  The different models can be compared using r2 square values
+  
+  The final results are predicted using Random Forest Regression Model because of highest r2 value of 0.8632
+  
+  ![image](https://user-images.githubusercontent.com/83827603/142351128-d31ce6b0-342f-46bd-aab1-6d2535ddebd1.png)  
 
-  The submission dataframe is as given above and contains all the predicted SalePrice values as asked in the question
+  The submission dataframe is as given below and contains all the predicted SalePrice values as asked in the question
+  
+  ![image](https://user-images.githubusercontent.com/83827603/142351311-f7d42b7a-090c-4cb7-979b-93edcaf207de.png)
+
   
 ## References
   
@@ -93,3 +87,6 @@ Since the dataset invlves more than 1 feature, here, we'll be using Multiple Lin
 * https://www.saedsayad.com/decision_tree_reg.htm
 * https://levelup.gitconnected.com/random-forest-regression-209c0f354c84
   
+For One Hot Encoding:
+  
+  https://www.kaggle.com/sisharaneranjana/house-price-prediction-advanced-analysis#%F0%9F%94%90Description-of-the-dataset
