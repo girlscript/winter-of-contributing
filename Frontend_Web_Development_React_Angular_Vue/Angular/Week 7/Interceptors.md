@@ -149,3 +149,28 @@ return next.handle(req).pipe(
   })
 );
 ```
+### 5. Using interceptors to request multiple values
+* The HttpClient.get() method normally returns an observable that emits a single value, either the data or an error. An interceptor can change this to an observable that emits multiple values.
+* The following revised version of the CachingInterceptor optionally returns an observable that immediately emits the cached response, sends the request on to the package search API, and emits again later with the updated search results.
+
+```javascript
+// cache-then-refresh
+if (req.headers.get('x-refresh')) {
+  const results$ = sendRequest(req, next, this.cache);
+  return cachedResponse ?
+    results$.pipe( startWith(cachedResponse) ) :
+    results$;
+}
+// cache-or-fetch
+return cachedResponse ?
+  of(cachedResponse) : sendRequest(req, next, this.cache);
+  ```
+* The revised CachingInterceptor sets up a server request whether there's a cached value or not, using the same sendRequest() method described above. The results$ observable makes the request when subscribed.
+* If there's no cached value, the interceptor returns results$.
+* If there is a cached value, the code pipes the cached response onto results$, producing a recomposed observable that emits twice, the cached response first (and immediately), followed later by the response from the server. Subscribers see a sequence of two responses.
+  
+# Conclusion
+Hence, we learned about how to handle the HTTP request and response using Angular interceptors. 
+  
+# References :
+  https://angular.io/api/common/http/HttpInterceptor
