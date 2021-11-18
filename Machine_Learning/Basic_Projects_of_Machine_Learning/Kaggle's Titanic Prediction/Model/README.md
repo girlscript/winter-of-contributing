@@ -115,15 +115,21 @@ In this part, I designed the features following the previous part. I ended with 
 - cabin_letter (engineered from the Cabin)
 - Embarked 
 
+### Hyper-Parameters Optimization 
+
+In this part, I tried to improve the accuracy of the selected classifiers by hyper-parameters optimization. To do so, I used a Scikit-Learn implemented tool in order to perform a grid search.
+
+### Ensemble Modeling
+
+
+
+The classifier are quiet correlated. This is a good sign! However we observe some differences between the 5 classifiers. This is good for you because we can leverage the use of a voting system to improve our prediction. 
+
 ## Modeling
 
-###Simple Models & Selection
 
-I chosed several classifiers and compared them using [k-fold cross validation](https://en.wikipedia.org/wiki/Cross-validation_(statistics)). <br>
 
-K-fold is important here (in the case of a small dataset) because it enables us to train/test the model 10 times and then we can reduce the chance of over-fitting or even luck.
-
-The models tried for this bi-label classification problem will be:
+The models tried are:
 - Cross Validation (K-fold)
 - kNN
 - Decision Tree
@@ -139,15 +145,7 @@ I decided to use a hand-crafted criterion in order to take into account both ave
 
 
 
-###Hyper-Parameters Optimization 
 
-In this part, I tried to improve the accuracy of the selected classifiers by hyper-parameters optimization. To do so, I used a Scikit-Learn implemented tool in order to perform a grid search.
-
-###Ensemble Modeling
-
-
-
-The classifier are quiet correlated. This is a good sign! However we observe some differences between the 5 classifiers. This is good for you because we can leverage the use of a voting system to improve our prediction.
 
 
 
