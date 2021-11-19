@@ -13,107 +13,107 @@ struct Node{
     struct Node *lchild;
     int data;
     struct Node *rchild;
-}*root=NULL;
+}*rootnode = NULL;
 
 
 // Insertion --------------------------------------->
 void Insert(int key){
-    struct Node *t=root;
-    struct Node *r=NULL,*p;
-    if(root==NULL){
-        p=(struct Node *)malloc(sizeof(struct Node));
-        p->data=key;
-        p->lchild=p->rchild=NULL;
-        root=p;
+    struct Node *t = rootnode;
+    struct Node *r = NULL,*p;
+    if (rootnode == NULL){
+        p = (struct Node *)malloc(sizeof(struct Node));
+        p->data = key;
+        p->lchild = p->rchild = NULL;
+        rootnode = p;
         return;
     }
-    while(t!=NULL){
-        r=t;
+    while(t != NULL){
+        r = t;
         if(key<t->data){
-            t=t->lchild;
+            t = t->lchild;
         }
-        else if(key>t->data){
-            t=t->rchild;
+        else if(key > t->data){
+            t = t->rchild;
         }
         else{
             return;
         }
     }
-    p=(struct Node *)malloc(sizeof(struct Node));
-    p->data=key;
-    p->lchild=p->rchild=NULL;
-    if(key<r->data){
-        r->lchild=p;
+    p = (struct Node *)malloc(sizeof(struct Node));
+    p->data = key;
+    p->lchild = p->rchild = NULL;
+    if(key < r->data){
+        r->lchild = p;
     }
     else {
-        r->rchild=p;
+        r->rchild = p;
     }
 }
 
 // Recursive Insertion -------------------------->
 struct Node *RInsert(struct Node *p,int key){
-    struct Node *t=NULL;
-    if(p==NULL){
-        t=(struct Node *)malloc(sizeof(struct Node));
-        t->data=key;
-        t->lchild=t->rchild=NULL;
+    struct Node *t = NULL;
+    if(p == NULL){
+        t = (struct Node *)malloc(sizeof(struct Node));
+        t->data = key;
+        t->lchild = t->rchild = NULL;
         return t;
     }
     if(key < p->data)
-        p->lchild=RInsert(p->lchild,key);
+        p->lchild = RInsert(p->lchild,key);
     else if(key > p->data)
-        p->rchild=RInsert(p->rchild,key);
+        p->rchild = RInsert(p->rchild,key);
     return p;
 }
 
 // Finding the height of the B.Tree -------------------> 
 int Height(struct Node *p){
     int x,y;
-    if(p==NULL){
+    if(p == NULL){
         return 0;
     }
-    x=Height(p->lchild);
-    y=Height(p->rchild);
-    return x>y?x+1:y+1;
+    x = Height(p->lchild);
+    y = Height(p->rchild);
+    return x > y ? x+1:y+1;
 }
 
 struct Node *InPre(struct Node *p){
-    while(p && p->rchild!=NULL)
-        p=p->rchild;
+    while(p && p->rchild != NULL)
+        p = p->rchild;
     return p;
 }
 
 struct Node *InSucc(struct Node *p){
-    while(p && p->lchild!=NULL)
-        p=p->lchild;
+    while(p && p->lchild != NULL)
+        p = p->lchild;
     return p;
 }
 
 // Deleting a node ----------------->
 struct Node *Delete(struct Node *p,int key){
     struct Node *q;
-    if(p==NULL)
+    if(p == NULL)
         return NULL;
-    if(p->lchild==NULL && p->rchild==NULL){
-        if(p==root)
-            root=NULL;
+    if(p->lchild == NULL && p->rchild == NULL){
+        if(p == rootnode)
+            rootnode = NULL;
         free(p);
         return NULL;
     }
     if(key < p->data)
-        p->lchild=Delete(p->lchild,key);
+        p->lchild = Delete(p->lchild,key);
     else if(key > p->data)
-        p->rchild=Delete(p->rchild,key);
+        p->rchild = Delete(p->rchild,key);
     else{
-        if(Height(p->lchild)>Height(p->rchild)){
-            q=InPre(p->lchild);
-            p->data=q->data;
-            p->lchild=Delete(p->lchild,q->data);
+        if(Height(p->lchild) > Height(p->rchild)){
+            q = InPre(p->lchild);
+            p->data = q->data;
+            p->lchild = Delete(p->lchild,q->data);
         }
         else{
-            q=InSucc(p->rchild);
-            p->data=q->data;
-            p->rchild=Delete(p->rchild,q->data);
+            q = InSucc(p->rchild);
+            p->data = q->data;
+            p->rchild = Delete(p->rchild,q->data);
         }
     }
     return p;
@@ -131,14 +131,14 @@ void Inorder(struct Node *p){
 
 
 struct Node * Search(int key){
-    struct Node *t=root;
-    while(t!=NULL){
-        if(key==t->data)
+    struct Node *t = rootnode;
+    while(t != NULL){
+        if(key == t->data)
             return t;
-        else if(key<t->data)
-            t=t->lchild;
+        else if(key < t->data)
+            t = t->lchild;
         else
-            t=t->rchild;
+            t = t->rchild;
     }
     return NULL;
 }
@@ -146,48 +146,48 @@ struct Node * Search(int key){
 
 
 static int count = 0;
-int countnodes(struct Node *root)
+int countnodes(struct Node *rootnode)
 {
-    if(root != NULL)
+    if(rootnode != NULL)
     {
-        countnodes(root->lchild);
+        countnodes(rootnode->lchild);
         count++;
-        countnodes(root->rchild);
+        countnodes(rootnode->rchild);
     }
     return count;
 }
 
 
 
-void printLevelOrder(struct Node* root)
+void printLevelOrder(struct Node* rootnode)
 {
-    int h = Height(root);
+    int h = Height(rootnode);
     int i;
-    for (i=1; i<=h; i++){
-        printGivenLevel(root, i);
+    for (i = 1; i <= h; i++){
+        printGivenLevel(rootnode, i);
     }
 }
 
 /* Print nodes at a given level */
-void printGivenLevel(struct Node* root, int level)
+void printGivenLevel(struct Node* rootnode, int level)
 {
-    if (root == NULL)
+    if (rootnode == NULL)
         return;
     if (level == 1)
-        printf("%d ", root->data);
+        printf("%d ", rootnode->data);
     else if (level > 1)
     {
-        printGivenLevel(root->lchild, level-1);
-        printGivenLevel(root->rchild, level-1);
+        printGivenLevel(rootnode->lchild, level-1);
+        printGivenLevel(rootnode->rchild, level-1);
     }
 }
 
 int main(){
     int choice;
     struct Node *temp;
-    root=RInsert(root,50);
+    rootnode = RInsert(rootnode,50);
     do{
-        printf("Operations: \n")
+        printf("Operations: \n");
         printf("Press-1 Insertion: \n");
         printf("Press-2 Deletion: \n");
         printf("Press-3 Traversing in (INORDER): \n");
@@ -200,20 +200,20 @@ int main(){
             int value;
             printf("\n Input the value to insert in this B-Tree: ");
             scanf("%d", &value);
-            RInsert(root, value);
+            RInsert(rootnode, value);
         }else if (choice == 2){
             int valueToBeDeleted;
             printf("\n  Put in the value to delete from this B-Tree: ");
             scanf("%d", &valueToBeDeleted);
-            Delete(root, valueToBeDeleted);
+            Delete(rootnode, valueToBeDeleted);
         }else if (choice == 3){
-            Inorder(root);
+            Inorder(rootnode);
         }else if (choice == 4){
-            printf("\n Total no. of nodes = %d", countnodes(root));
+            printf("\n Total no. of nodes = %d", countnodes(rootnode));
         }else if (choice == 5){
-            printf("\n The height of this B-Tree is %d.", Height(root));
+            printf("\n The height of this B-Tree is %d.", Height(rootnode));
         }else if (choice == 6){
-            printLevelOrder(root);
+            printLevelOrder(rootnode);
         }else if (choice == 7){
             int elementToBeSearched;
             printf("Put in the element you want to search in this B-Tree: ");
