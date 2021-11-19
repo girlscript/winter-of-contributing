@@ -95,52 +95,48 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
 ## Aplying the models:
 
-  * Multiple Linear Regression
+  * GloVe for Vectorization
   
-    Multiple Linear Regression is one of the important regression algorithms which models the linear relationship between a single dependent continuous variable and more than one independent variable. It has the equation of the form 
+  GloVe stands for global vectors for word representation. It is an unsupervised learning algorithm developed by Stanford for generating word embeddings by aggregating global word-word co-occurrence matrix from a corpus. The resulting embeddings show interesting linear substructures of the word in vector space.
+    
+  Here we will use GloVe pretrained corpus model to represent our words.It is available in 3 varieties :50D ,100D and 200 Dimentional.We will try 100 D here.
+  
+  Baseline Model:
+  
+  ![image](https://user-images.githubusercontent.com/62233992/142581705-49fe4da0-8c83-490a-935e-2327bec17b80.png)
 
-    y = A+B1x1+B2x2+B3x3+B4x4
-  
-    ![image](https://user-images.githubusercontent.com/83827603/141650091-3a55f342-882c-4a6a-bcd3-079840c37df2.png)
+  ![image](https://user-images.githubusercontent.com/62233992/142581744-88e59fc7-6a58-4db9-8690-5167a754fc22.png)
 
-  * Decision Tree Regression
   
-    Decision tree builds regression or classification models in the form of a tree structure. It breaks down a dataset into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes.
-  
-    ![image](https://user-images.githubusercontent.com/83827603/141650139-e6d37e0c-249c-4b2e-91c7-062f1791d753.png)
-
-  * Random Forest Regression
-  
-    Random Forest Regression is a supervised learning algorithm that uses ensemble learning method for regression. A Random Forest operates by constructing several decision trees during training time and outputting the mean of the classes as the prediction of all the trees.
-  
-    ![image](https://user-images.githubusercontent.com/83827603/141650169-c597fbe4-594f-4b26-854e-caa435e65547.png)
-
  ## Conclusion!
   
-  Various regression models have been successfully applied on the given dataset...
+  Various classification models have been successfully applied on the given dataset...
   
-  The different models can be compared using r2 square values
+  The different models can be evaluated using F1 between the predicted and expected answers
   
-  The final results are predicted using Random Forest Regression Model because of highest r2 value of 0.8632
+  F1 is calculated as follows:
+  
+    ![image](https://user-images.githubusercontent.com/62233992/142583358-6bf8f257-811e-436a-ab5e-2558987893d2.png)
+
+  where, 
+  
+  ![image](https://user-images.githubusercontent.com/62233992/142583387-3fc69aea-e772-4a2a-bcea-c6e515d43aaa.png)
+  
+  
+      - True Positive [TP] = your prediction is 1, and the ground truth is also 1 - you predicted a positive and that's true!
+      - False Positive [FP] = your prediction is 1, and the ground truth is 0 - you predicted a positive, and that's false.
+      - False Negative [FN] = your prediction is 0, and the ground truth is 1 - you predicted a negative, and that's false.
+  
+  The final results are predicted using our Model because of it has the best accuracy of 0.7665 which is pretty good.
+  
+
+  The submission dataframe is as given below and contains all for each ID in the test set, we must predict 1 if the tweet is describing a real disaster, and 0 otherwise. Our submission dataframe is: 
   
   ![image](https://user-images.githubusercontent.com/83827603/142351128-d31ce6b0-342f-46bd-aab1-6d2535ddebd1.png)  
-
-  The submission dataframe is as given below and contains all the predicted SalePrice values as asked in the question
-  
-  ![image](https://user-images.githubusercontent.com/83827603/142351311-f7d42b7a-090c-4cb7-979b-93edcaf207de.png)
-
   
 ## References
   
   For definitions:
 
-* https://builtin.com/data-science/regression-machine-learning
-* https://towardsdatascience.com/machine-learning-basics-support-vector-regression-660306ac5226
-* https://corporatefinanceinstitute.com/resources/knowledge/other/multiple-linear-regression/
-* https://www.javatpoint.com/multiple-linear-regression-in-machine-learning
-* https://www.saedsayad.com/decision_tree_reg.htm
-* https://levelup.gitconnected.com/random-forest-regression-209c0f354c84
-  
-For One Hot Encoding:
-  
-  https://www.kaggle.com/sisharaneranjana/house-price-prediction-advanced-analysis#%F0%9F%94%90Description-of-the-dataset
+* [What is GloVe? - Medium](https://medium.com/analytics-vidhya/word-vectorization-using-glove-76919685ee0b)
+* [Classification Algorithm in Machine Learning - Javatpoint](https://www.javatpoint.com/classification-algorithm-in-machine-learning)
