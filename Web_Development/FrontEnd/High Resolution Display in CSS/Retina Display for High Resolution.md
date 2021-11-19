@@ -1,20 +1,20 @@
-# High Resolution Display using the Retina Imgae Concept
+# High Resolution Display using the Retina Image Concept
 
-The Apple introduces a display called the "Retina Display" which has much better than our normal display such as picture element Per Inch(PPI) or Dots Per Inch(DPI).
-This display have high resolution power and we can easily distinguish between normal and retina display because each display vary sizes and specifications.
+The Apple introduces a display called the "Retina Display" which has much better than our normal display such as a picture element Per Inch (PPI) or Dots Per Inch (DPI).
+This display has high resolution power and we can easily distinguish between normal and retina display because each display vary sizes and specifications.
 
 ## Display Resolution
 
-The display resolution of the device like laptop monitor,smart tv have the variety of different pixels in every space that may be displayed.In digital mensuration, the display resolution run in pixels per inch (PPI).
+The display resolution of the device like laptop monitor, smart tv have the variety of different pixels in every space that may be displayed. In digital mensuration, the display resolution run in pixels per inch (PPI).
 
-There are two types of display resolution we can define :-
+There are two types of display resolution we can define:-
 
-1) Low Display Resolution : The display in which Pixels per inch has low value is called low display resolution .It is Less sharper as compare to high resolution.
-2) High Display Resolution : The display in which Pixels per inch has higher value as compared to other is called the high display resolution and it is more clear.
+1) Low Display Resolution: The display in which Pixels per inch has low value is called low display resolution. It is Less sharper as compared to high resolution.
+2) High Display Resolution: The display in which Pixels per inch has higher value as compared to other is called the high display resolution and it is more clear.
 
 ## Retina Display
 
-Retina display is a term created by Apple to see devices and monitors that have a resolution and element density therefore high that someone is unable to recognise the individual pixels at a traditional viewing distance.Now The Apple device's display was well received and greatly improved the viewing expertise.
+Retina display is a term created by Apple to see devices and monitors that have a resolution and element density therefore high that someone is unable to recognize the individual pixels at a traditional viewing distance. Now The Apple device's display was well received and greatly improved the viewing expertise.
 
 Difference between Non Retina Display and Retina Display
 
@@ -30,9 +30,9 @@ Difference between Non Retina Display and Retina Display
 
 [Non Retina Display Image](https://user-images.githubusercontent.com/54473091/142193055-64f38832-168c-45ed-94ee-d02bfb779dbb.jpg)
 
-The retina display is used in many apple products like in apple Watch, apple iPhone, apple ipad etc.Ratina Display of apple are not fixed sharpness , it's depends on the viewer distance from the display. If viewer is nearer to the screen means he/she see the more pixelated display. If he/she is far from the screen then he feels is not much good resolution. 
+The retina display is used in many Apple products like in Apple Watch, Apple iPhone, Apple iPad etc. Retina Display of Apple is not fixed sharpness , it's depends on the viewer distance from the display. If the viewer is nearer to the screen means he/she see the more pixelated display. If he/she is far from the screen, then he is not able to see much better resolution. 
 
-The simplest way to create your pictures properly seem on high-resolution Displays, like the MacBook execs "retina display" is to set their breadth and height values as  1/2 of the file size. Here is an example of a picture that's 1/2 the height and width:
+The simplest way to create your pictures properly seem on high-resolution Displays, like the MacBook execs "Retina Display" is to set their breadth and height values as  1/2 of the file size. Here is an example of a picture that's 1/2 the height and width:
 
 ```css
 <style>
