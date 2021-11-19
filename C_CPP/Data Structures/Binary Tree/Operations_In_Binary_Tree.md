@@ -10,9 +10,9 @@
 #include <string.h>
 
 struct Node{
-    struct Node *lchild;
+    struct Node *lc;
     int data;
-    struct Node *rchild;
+    struct Node *rc;
 }*rootnode = NULL;
 
 
@@ -23,17 +23,17 @@ void Insert(int key){
     if (rootnode == NULL){
         p = (struct Node *)malloc(sizeof(struct Node));
         p->data = key;
-        p->lchild = p->rchild = NULL;
+        p->lc = p->rc = NULL;
         rootnode = p;
         return;
     }
     while(t != NULL){
         r = t;
         if(key<t->data){
-            t = t->lchild;
+            t = t->lc;
         }
         else if(key > t->data){
-            t = t->rchild;
+            t = t->rc;
         }
         else{
             return;
@@ -41,12 +41,12 @@ void Insert(int key){
     }
     p = (struct Node *)malloc(sizeof(struct Node));
     p->data = key;
-    p->lchild = p->rchild = NULL;
+    p->lc = p->rc = NULL;
     if(key < r->data){
-        r->lchild = p;
+        r->lc = p;
     }
     else {
-        r->rchild = p;
+        r->rc = p;
     }
 }
 
@@ -56,13 +56,13 @@ struct Node *RInsert(struct Node *p,int key){
     if(p == NULL){
         t = (struct Node *)malloc(sizeof(struct Node));
         t->data = key;
-        t->lchild = t->rchild = NULL;
+        t->lc = t->rc = NULL;
         return t;
     }
     if(key < p->data)
-        p->lchild = RInsert(p->lchild,key);
+        p->lc = RInsert(p->lc,key);
     else if(key > p->data)
-        p->rchild = RInsert(p->rchild,key);
+        p->rc = RInsert(p->rc,key);
     return p;
 }
 
@@ -72,20 +72,20 @@ int Height(struct Node *p){
     if(p == NULL){
         return 0;
     }
-    x = Height(p->lchild);
-    y = Height(p->rchild);
+    x = Height(p->lc);
+    y = Height(p->rc);
     return x > y ? x+1:y+1;
 }
 
 struct Node *InPre(struct Node *p){
-    while(p && p->rchild != NULL)
-        p = p->rchild;
+    while(p && p->rc != NULL)
+        p = p->rc;
     return p;
 }
 
 struct Node *InSucc(struct Node *p){
-    while(p && p->lchild != NULL)
-        p = p->lchild;
+    while(p && p->lc != NULL)
+        p = p->lc;
     return p;
 }
 
@@ -94,26 +94,26 @@ struct Node *Delete(struct Node *p,int key){
     struct Node *q;
     if(p == NULL)
         return NULL;
-    if(p->lchild == NULL && p->rchild == NULL){
+    if(p->lc == NULL && p->rc == NULL){
         if(p == rootnode)
             rootnode = NULL;
         free(p);
         return NULL;
     }
     if(key < p->data)
-        p->lchild = Delete(p->lchild,key);
+        p->lc = Delete(p->lc,key);
     else if(key > p->data)
-        p->rchild = Delete(p->rchild,key);
+        p->rc = Delete(p->rc,key);
     else{
-        if(Height(p->lchild) > Height(p->rchild)){
-            q = InPre(p->lchild);
+        if(Height(p->lc) > Height(p->rc)){
+            q = InPre(p->lc);
             p->data = q->data;
-            p->lchild = Delete(p->lchild,q->data);
+            p->lc = Delete(p->lc,q->data);
         }
         else{
-            q = InSucc(p->rchild);
+            q = InSucc(p->rc);
             p->data = q->data;
-            p->rchild = Delete(p->rchild,q->data);
+            p->rc = Delete(p->rc,q->data);
         }
     }
     return p;
@@ -123,9 +123,9 @@ struct Node *Delete(struct Node *p,int key){
 
 void Inorder(struct Node *p){
     if(p){
-        Inorder(p->lchild);
+        Inorder(p->lc);
         printf("%d ",p->data);
-        Inorder(p->rchild);
+        Inorder(p->rc);
     }
 }
 
@@ -136,9 +136,9 @@ struct Node * Search(int key){
         if(key == t->data)
             return t;
         else if(key < t->data)
-            t = t->lchild;
+            t = t->lc;
         else
-            t = t->rchild;
+            t = t->rc;
     }
     return NULL;
 }
@@ -150,9 +150,9 @@ int countnodes(struct Node *rootnode)
 {
     if(rootnode != NULL)
     {
-        countnodes(rootnode->lchild);
+        countnodes(rootnode->lc);
         count++;
-        countnodes(rootnode->rchild);
+        countnodes(rootnode->rc);
     }
     return count;
 }
@@ -177,8 +177,8 @@ void printGivenLevel(struct Node* rootnode, int level)
         printf("%d ", rootnode->data);
     else if (level > 1)
     {
-        printGivenLevel(rootnode->lchild, level-1);
-        printGivenLevel(rootnode->rchild, level-1);
+        printGivenLevel(rootnode->lc, level-1);
+        printGivenLevel(rootnode->rc, level-1);
     }
 }
 
@@ -224,7 +224,7 @@ int main(){
             else
                 printf("element is not found\n");
         }
-    }while(choice<8);
+    }while(choice < 8);
 
     printf("Program Terminated!");
     return 0;
