@@ -6,5 +6,5 @@
 - [Rethrowing an Exception](rethrowing-an-exception.md)
 - [Exception handling Involving Classes and Objects](exception-handling-with-classes-and-objects.md)
 - [Exception Handling in C language](Exception_Handling_in_C.md)
-- [Exception Handling in C++](./VIDEO_Exception%20Handling%20in%20C++/README.md)
+- [(Video) Exception Handling in C++](./VIDEO_Exception%20Handling%20in%20C++/README.md)
 
