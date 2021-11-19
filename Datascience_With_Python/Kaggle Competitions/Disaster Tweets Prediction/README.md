@@ -1,18 +1,33 @@
-# *Disaster Tweets Prediction*
+# **Disaster Tweets Prediction**
 <a href="https://www.kaggle.com/c/nlp-getting-started/data"> Click here to access Dataset from Kaggle
 
-## **What is Regression?**
+## **What is Classification?**
 
-Regression in machine learning consists of mathematical methods that allow data scientists to predict a continuous dependent outcome (y) based on the values of one or more independent variables (X)
+The Classification algorithm is a Supervised Learning technique that is used to identify the category of new observations on the basis of training data. 
+  
+In Classification, a program learns from the given dataset or observations and then classifies new observation into a number of classes or groups. Such as, Yes or No, 0 or 1, Spam or Not Spam, cat or dog, etc. Classes can be called as targets/labels or categories.
+  
+The best example of an ML classification algorithm is Email Spam Detector.
 
-## **What are the different types of Regression?**
+The main goal of the Classification algorithm is to identify the category of a given dataset, and these algorithms are mainly used to predict the output for the categorical data.
 
-* Linear Regression
-* Multiple Linear Regression
-* Polynomial Regression
-* Support Vector Regression
-* Decision Tree Regression
-* Random FOrest Regression
+Classification algorithms can be better understood using the below diagram. In the below diagram, there are two classes, class A and Class B. These classes have features that are similar to each other and dissimilar to other classes.
+
+![image](https://user-images.githubusercontent.com/62233992/142577145-98cfe492-6a0c-48d7-838f-c0db0e004503.png)
+
+## **Types of ML Classification Algorithms:**
+Classification Algorithms can be further divided into the Mainly two category:
+
+1. **Linear Models**
+* Logistic Regression
+* Support Vector Machines
+  
+2. Non-linear Models
+* K-Nearest Neighbours
+* Kernel SVM
+* Naïve Bayes
+* Decision Tree Classification
+* Random Forest Classification
 
 ##  **The Goal**
 
