@@ -10,3 +10,4 @@
 - [Randomised Algorithm](./Randomised)
 - [Branch & Bound Algorithm](./Branch%20%26%20Bound)
 - [NP Complete Algorithm](./NP%20Completeness)
+- [Bit Manipulation](./Bit%20Manipulation)

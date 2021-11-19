@@ -3,3 +3,4 @@
 - [Overloading Binary Operators Using 'friend' Functions](overloading-binary-operator.md)
 - [Why to Overload Operators Using Friend Functions](why-to-overload-operators-using-friend-functions.md)
 - [Overloading Unary Operators Using Member Functions](overloading-unary-operators-using-member-functions.md)
+- [Overloading Binary Operators Using Member Functions](overloading-binary-operator-using-member-function.md)
