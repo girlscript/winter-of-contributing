@@ -19,15 +19,15 @@ Classification algorithms can be better understood using the below diagram. In t
 Classification Algorithms can be further divided into the Mainly two category:
 
 1. **Linear Models**
-  * Logistic Regression
-  * Support Vector Machines
+    * Logistic Regression
+    * Support Vector Machines
   
 2. **Non-linear Models**
-  * K-Nearest Neighbours
-  * Kernel SVM
-  * Naïve Bayes
-  * Decision Tree Classification
-  * Random Forest Classification
+    * K-Nearest Neighbours
+    * Kernel SVM
+    * Naïve Bayes
+    * Decision Tree Classification
+    * Random Forest Classification
 
 ##  **The Goal**
 
@@ -116,7 +116,7 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
   F1 is calculated as follows:
   
-    ![image](https://user-images.githubusercontent.com/62233992/142583358-6bf8f257-811e-436a-ab5e-2558987893d2.png)
+  ![image](https://user-images.githubusercontent.com/62233992/142583358-6bf8f257-811e-436a-ab5e-2558987893d2.png)
 
   where, 
   
@@ -132,7 +132,8 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
 
   The submission dataframe is as given below and contains all for each ID in the test set, we must predict 1 if the tweet is describing a real disaster, and 0 otherwise. Our submission dataframe is: 
   
-  ![image](https://user-images.githubusercontent.com/83827603/142351128-d31ce6b0-342f-46bd-aab1-6d2535ddebd1.png)  
+![image](https://user-images.githubusercontent.com/62233992/142584758-1d13c06a-4091-4af8-b952-3fe73b3be5a4.png)
+
   
 ## References
   
