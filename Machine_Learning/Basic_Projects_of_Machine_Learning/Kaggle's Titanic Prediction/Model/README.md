@@ -153,9 +153,15 @@ For this type of features, we don't directly do analysis. A first transformation
 	- the title of the passenger
 	- Group the title to reduce the number of categories
 
+- The accuracy score of SVM (support vector machine ) is 83.5  
 
+- The accuracy score of Naive Bayes which is 78.78
 
+- The accuracy score of Random forest is 80.59
 
+- The accuracy score of Decision Tree is 79.69
+
+### So by comparing all this we can see that the accuracy score of SVM is highest and we use SVM for our prediction 
 
 **********************************************************************
 **GirlScript Winter of Contributions 2021**
