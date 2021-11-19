@@ -1,11 +1,11 @@
 # High Resolution Display using the Retina Imgae Concept
 
-The Apple has introduced a display called the "Retina Display" which is much better than our normal display such as picture element Per Inch(PPI) or Dots Per Inch(DPI).
-This display has high resolution power and we can easily distinguish between normal and retina display because each display vary sizes and specifications.
+The Apple was introduced a display called the "Retina Display" which have much better than our normal display such as picture element Per Inch(PPI) or Dots Per Inch(DPI).
+This display have high resolution power and we could easily distinguish between normal and retina display because each display vary sizes and specifications.
 
 ## Display Resolution
 
-The display resolution of the device such as laptop monitor,smart tv is that the variety of different pixels in every space that may be displayed.In digital mensuration, the display resolution run in pixels per inch (PPI).
+The display resolution of the device like laptop monitor,smart tv have the variety of different pixels in every space that may be displayed.In digital mensuration, the display resolution run in pixels per inch (PPI).
 
 There are two types of display resolution we can define :-
 
@@ -14,13 +14,14 @@ There are two types of display resolution we can define :-
 
 ## Retina Display
 
-Retina display may be a term created by Apple to see devices and monitors that have a resolution and element density therefore high that someone is unable to recognise the individual pixels at a traditional viewing distance.Now The Apple device's display was well received and greatly improved the viewing expertise.
+Retina display is a term created by Apple to see devices and monitors that have a resolution and element density therefore high that someone is unable to recognise the individual pixels at a traditional viewing distance.Now The Apple device's display was well received and greatly improved the viewing expertise.
 
 Difference between Non Retina Display and Retina Display
 
 1. Retina Display Image
 
 ![300px-Retina_Display](https://user-images.githubusercontent.com/54473091/142192529-16602e16-c339-44de-915d-ddc02687b69d.jpg)
+
 
 2. Non Retina Display Image
 
