@@ -42,7 +42,6 @@ From automatically separating backgrounds and foregrounds, to cutting out segmen
 
 ## :high_brightness: **K MEANS FOR IMAGE SEGMENTATION**
 The K Means Clustering for image segmentation works in the following manner:
-Let’s see how does K-means clustering work –
 
   1. Choose the number of clusters you want to find which is K.
   2. Randomly assign the data points to any of the K clusters.
