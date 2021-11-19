@@ -2,12 +2,12 @@
 
 This method should be used when you want your users to use multiple authentication providers to sign in to the same account.
 
-By linking new AuthCredentials to the existing user accounts, multiple authentication providers can be used by the users to sign in to your application. Firebase user ID can be used to identify the users, regardless of the provider they used to sign in.For example, a user who signed in with an email and password can link a GitHub account and sign in with either method in the future.
+By linking new AuthCredentials to the existing user's accounts, user can later log in to your application using multiple authentication providers. Regardless of the authentication provider they used to sign in, Firebase user ID can be used to identify the users. For example, a user who signed in with an email and password can link a GitHub account and sign in with either method in the future.
 
 It is **mandatory** for the user to be **logged in** to one of the accounts you want to link the new authentication provider to. The user can then be signed in to the second provider, and pass that AuthCredential to the linkWithCredential method from the existing user(current user instance).
 
 
-### Initially, enable the providers and provide support for two or more authentication providers in the app
+### Initially, enable the required authentication providers and provide support for two or more authentication providers in the app
 
 <img width="705" alt="firebase" src="https://user-images.githubusercontent.com/68653906/141871702-2c447b8a-f3cf-444e-a07d-3e7b88c740a1.png">
 
@@ -16,28 +16,30 @@ It is **mandatory** for the user to be **logged in** to one of the accounts you 
 ### Add dependency:
 ```
 dependencies:
+  //use the latest version
   google_sign_in: "^4.5.1"
 ```
 
 ```dart
-Future<void> linkWithGoogle(BuildContext context) async {
-  //get the currently logged in user
-  User? existingUser = FirebaseAuth.instance.currentUser;
-  // Trigger the authentication flow
-  final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
+Future<void> linkAccountWithGoogle(BuildContext context) async {
+  // get the currently signed in user
+  User? currentUser = FirebaseAuth.instance.currentUser;
+
+  // For triggering the authentication flow
+  final GoogleSignInAccount? googleSignInAccount = await GoogleSignIn().signIn();
 
   // Obtain the authentication details from the request
-  final GoogleSignInAuthentication googleAuth =
-      await googleUser!.authentication;
+  final GoogleSignInAuthentication googleAuthentication =
+      await googleSignInAccount!.authentication;
 
-  // Create a new credential
-  final OAuthCredential credential = GoogleAuthProvider.credential(
-    accessToken: googleAuth.accessToken,
-    idToken: googleAuth.idToken,
+  // Create a new OAuthCredential
+  final OAuthCredential _credential = GoogleAuthProvider.credential(
+    accessToken: googleAuthentication.accessToken,
+    idToken: googleAuthentication.idToken,
   );
   
-  //Link these credentials with the existing user
-  await existingUser!.linkWithCredential(credential).whenComplete(() {
+  //Link current user with these credentials
+  await currentUser!.linkWithCredential(_credential).whenComplete(() {
     print("Linked");
   });
 }
@@ -45,10 +47,11 @@ Future<void> linkWithGoogle(BuildContext context) async {
 
 ## Linking Phone Number
 ```dart
-linkWithPhone(String phoneNo) async {
+linkAccountWithPhoneNo(String phoneNo) async {
   late String verificationId;
+  final FirebaseAuth _auth = FirebaseAuth.instance;
   //get currently logged in user
-  User? existingUser = FirebaseAuth.instance.currentUser;
+  User? existingUser = _auth.currentUser;
   
   signIn(AuthCredential authCreds) async {
     //now link these credentials with the existing user
@@ -61,27 +64,27 @@ linkWithPhone(String phoneNo) async {
     signIn(authCreds);
   };
 
-  final PhoneVerificationFailed verificationFailed =
-      (FirebaseAuthException authException) {
-    print('Auth Exception is ${authException.message}');
+  final PhoneVerificationFailed verificationFailed = (FirebaseAuthException authException) {
+    print('Verificatin failed, Auth Exception : ${authException.message}');
   };
-  final PhoneCodeSent codeSent =
-      (String verificationId, int? forceResendingToken) {
-    print('verification id is $verificationId');
+
+  final PhoneCodeSent phoneCodeSent = (String verificationId, int? forceResendingToken) {
+    print('verification id : $verificationId');
     verificationId = verificationId;
   };
+
   final PhoneCodeAutoRetrievalTimeout codeAutoRetrievalTimeout =
       (String verificationId) {
     verificationId = verificationId;
   };
   
-  //verify the phone number
-  await FirebaseAuth.instance.verifyPhoneNumber(
+  //verify phone number
+  await _auth.verifyPhoneNumber(
       phoneNumber: phoneNo,
-      timeout: const Duration(seconds: 5),
+      timeout: const Duration(seconds: 30),
       verificationCompleted: verificationCompleted,
       verificationFailed: verificationFailed,
-      codeSent: codeSent,
+      codeSent: phoneCodeSent,
       codeAutoRetrievalTimeout: codeAutoRetrievalTimeout);
 }
 ```
