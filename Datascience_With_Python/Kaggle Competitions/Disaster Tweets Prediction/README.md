@@ -19,21 +19,21 @@ Classification algorithms can be better understood using the below diagram. In t
 Classification Algorithms can be further divided into the Mainly two category:
 
 1. **Linear Models**
-* Logistic Regression
-* Support Vector Machines
+  * Logistic Regression
+  * Support Vector Machines
   
-2. Non-linear Models
-* K-Nearest Neighbours
-* Kernel SVM
-* Naïve Bayes
-* Decision Tree Classification
-* Random Forest Classification
+2. **Non-linear Models**
+  * K-Nearest Neighbours
+  * Kernel SVM
+  * Naïve Bayes
+  * Decision Tree Classification
+  * Random Forest Classification
 
 ##  **The Goal**
 
-The goal to predict the sales price for each house. For each Id in the test set, the value of the SalePrice variable is to be predicted. 
-
-Since the dataset invlves more than 1 feature, here, we'll be using Multiple Linear Regression, Decision Tree Regression and Random FOrest Regression
+In this competition, you’re challenged to build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t.
+  
+You are predicting whether a given tweet is about a real disaster or not. If so, predict a 1. If not, predict a 0.
 
 ## Let's begin
   
@@ -41,18 +41,26 @@ Since the dataset invlves more than 1 feature, here, we'll be using Multiple Lin
   * Importing the dataset
   
       The Training and Test dataset are imported... Also, a dataset_total is created consisting of both training and test set to apply the preprocessing techniques to the whole dataset...
+  * Class Distribution
+  
+  Before we begin with anything else,let's check the class distribution. There are only two classes 0 and 1.
+  
+  ![image](https://user-images.githubusercontent.com/62233992/142579096-799c0cb5-0fe0-4d2d-8640-4c86de7964e3.png)
+
+  There is a class distribution.There are more tweets with class 0 ( No disaster) than class 1 ( disaster tweets).
+  
   * Data Preprocessing
    
   To figure out the different preprocessing techniques to be applied on the dataset, we first have a look at the dataset
   
-  ![image](https://user-images.githubusercontent.com/83827603/141648756-e516e336-bdc2-485f-928a-9e8482a95dd0.png)
+![image](https://user-images.githubusercontent.com/62233992/142578358-e3287b27-e66e-4e1f-9bee-b5e9818df47a.png)
   
   1) All the missing values have to be removed... The categorical columns' missing values are removed using SimpleImputer and the missing values of numerical columns are removed by manually replacing them with mean of the column values 
   2) All the categorical labels to be encoded using One Hot Encoder
   
   * Preparing dataset
   
-    The dataset_total consisting of both training and test set is divided into training and test set. y_train is obtained from the original "dataset" because it consists of plain numerical value and did not require any preprocessing and consists of "SalePrice"
+    The dataset_total consisting of both training and test set is divided into training and test set. y_train is obtained from the original "dataset" because it consists of plain numerical value and did not require any preprocessing.
   
 ## Aplying the models:
 
