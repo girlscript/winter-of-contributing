@@ -32,12 +32,9 @@ Goal: For each passenger, predict the label (0 or 1).
 - pandas
 - matplotlib.pyplot
 - seaborn
-- from sklearn.neighbors import KNeighborsClassifier
-- from sklearn.tree import DecisionTreeClassifier
-- from sklearn.ensemble import RandomForestClassifier
-- from sklearn.naive_bayes import GaussianNB
-- from sklearn.svm import SVC
-
+- sklearn
+- Numpy
+- matplotlib
 ## Data Visualization :
 
 ![image](https://user-images.githubusercontent.com/63282184/142458506-bd068131-396a-47c3-bd2c-a1d161284334.png)
