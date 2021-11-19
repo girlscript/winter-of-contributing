@@ -11,9 +11,9 @@ Classify whether the person will have the breast cancer or not.
 
 ## Libraries used :
 The required libraries for this project work
-- Numpy
-- Pandas
-- Matplotlib
+- Numpy==1.19.2
+- Pandas==1.2.4
+- Matplotlib==3.4.2
 - Sklearn
 - Seaborn
 
