@@ -2,9 +2,9 @@
 ## EOL 
 
 
-EOL == End Of Line
+**EOL == End Of Line**
 
-An EOL error indicatesthat Python interpreter expected a particular character or set of characters to have occurred in specific line of code, but that those characters were not found before the end of the line . This results in Python stopping the program execution and throwing a syntax error .The EOL error signifies that the Interpreter of Python reached the end of the line while scanning the string literal.
+An EOL error indicates that Python interpreter expected a particular character or set of characters to have occurred in specific line of code, but that those characters were not found before the end of the line . This results in Python stopping the program execution and throwing a syntax error .The EOL error signifies that the Interpreter of Python reached the end of the line while scanning the string literal.
 
 ## syntaxerror : Eol while scanning string literal
 
