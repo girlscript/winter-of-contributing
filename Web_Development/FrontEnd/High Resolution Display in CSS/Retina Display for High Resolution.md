@@ -1,7 +1,7 @@
 # High Resolution Display using the Retina Imgae Concept
 
-The Apple was introduced a display called the "Retina Display" which have much better than our normal display such as picture element Per Inch(PPI) or Dots Per Inch(DPI).
-This display have high resolution power and we could easily distinguish between normal and retina display because each display vary sizes and specifications.
+The Apple introduces a display called the "Retina Display" which has much better than our normal display such as picture element Per Inch(PPI) or Dots Per Inch(DPI).
+This display have high resolution power and we can easily distinguish between normal and retina display because each display vary sizes and specifications.
 
 ## Display Resolution
 
@@ -22,11 +22,13 @@ Difference between Non Retina Display and Retina Display
 
 ![300px-Retina_Display](https://user-images.githubusercontent.com/54473091/142192529-16602e16-c339-44de-915d-ddc02687b69d.jpg)
 
+[Retina Display Image](https://user-images.githubusercontent.com/54473091/142192529-16602e16-c339-44de-915d-ddc02687b69d.jpg)
 
 2. Non Retina Display Image
 
 ![300px-Non-Retina_Display](https://user-images.githubusercontent.com/54473091/142193055-64f38832-168c-45ed-94ee-d02bfb779dbb.jpg)
 
+[Non Retina Display Image](https://user-images.githubusercontent.com/54473091/142193055-64f38832-168c-45ed-94ee-d02bfb779dbb.jpg)
 
 The retina display is used in many apple products like in apple Watch, apple iPhone, apple ipad etc.Ratina Display of apple are not fixed sharpness , it's depends on the viewer distance from the display. If viewer is nearer to the screen means he/she see the more pixelated display. If he/she is far from the screen then he feels is not much good resolution. 
 
