@@ -4,4 +4,4 @@
 - [Void Pointer](Void_Pointer.md)
 - [Wild Pointer](Wild_Pointer.md)
 - [Dangling Pointer](Dangling_Pointer.md)
-- [Audio for arrays of pointers](Audio_array_of_pointers.md)
+- [Audio array of pointers](Audio_array_pointer.md)
