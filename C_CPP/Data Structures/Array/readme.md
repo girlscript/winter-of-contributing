@@ -9,4 +9,4 @@
 - [Matrix Multiplication](./Matrix_multiplication/Matrix_multiplication.md)
 - [Subarray & Subsequence](./Subarray&Subsequence.md)
 - [ARRAY BAR CHART](./ARRAY%20BAR%20CHART/bargraph.md)
-- [TRAVERSAL PROBLEMS](./TRAVERSAL%20PROBLEMS%20/wave_spiral_traversal.md)
+- [TRAVERSAL PROBLEMS](./TRAVERSAL%20PROBLEMS/wave_spiral_traversal.md)
