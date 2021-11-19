@@ -41,13 +41,6 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   * Importing the dataset
   
       The Training and Test dataset are imported... Also, a dataset_total is created consisting of both training and test set to apply the preprocessing techniques to the whole dataset...
-  * Class Distribution
-  
-  Before we begin with anything else,let's check the class distribution. There are only two classes 0 and 1.
-  
-  ![image](https://user-images.githubusercontent.com/62233992/142579096-799c0cb5-0fe0-4d2d-8640-4c86de7964e3.png)
-
-  There is a class distribution.There are more tweets with class 0 ( No disaster) than class 1 ( disaster tweets).
   
   * Data Preprocessing
    
@@ -55,8 +48,46 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
 ![image](https://user-images.githubusercontent.com/62233992/142578358-e3287b27-e66e-4e1f-9bee-b5e9818df47a.png)
   
-  1) All the missing values have to be removed... The categorical columns' missing values are removed using SimpleImputer and the missing values of numerical columns are removed by manually replacing them with mean of the column values 
-  2) All the categorical labels to be encoded using One Hot Encoder
+  * Class Distribution
+  
+  Before we begin with anything else,let's check the class distribution. There are only two classes 0 and 1.
+  
+  ![image](https://user-images.githubusercontent.com/62233992/142579096-799c0cb5-0fe0-4d2d-8640-4c86de7964e3.png)
+
+  There is a class distribution. There are more tweets with class 0 ( No disaster) than class 1 ( disaster tweets).
+  
+  * Exploratory Data Analysis of tweets
+  
+  First,we will do very basic analysis,that is character level,word level and sentence level analysis.
+
+  **Number of characters in tweets**
+  
+  ![image](https://user-images.githubusercontent.com/62233992/142579779-44def7d3-8937-4d9f-8935-aebf1a843353.png)
+
+  The distribution of both seems to be almost same. 120 t0 140 characters in a tweet are the most common among both.
+  
+  **Number of words in a tweet**
+  
+  ![image](https://user-images.githubusercontent.com/62233992/142579934-ca851b31-e6d3-4335-bd27-b7937a9fb2ee.png)
+
+  **Common stopwords in tweets
+  First we will analyze tweets with class 0.
+  
+  ![image](https://user-images.githubusercontent.com/62233992/142580439-377eb1bf-ca79-4883-86ce-bf30d46c464d.png)
+
+  Now,we will analyze tweets with class 1.
+  
+  ![image](https://user-images.githubusercontent.com/62233992/142580516-9f76eaec-5a14-444a-968b-ce07dca841d1.png)
+
+  In both of them,"the" dominates which is followed by "a" in class 0 and "in" in class 1.
+  
+  * Data Cleaning
+  As we know,twitter tweets always have to be cleaned before we go onto modelling. So we will do some basic cleaning such as spelling correction,removing punctuations,removing html tags and emojis etc. So let's start.
+  1) Removing urls
+  2) Removing HTML tags
+  3) Romoving Emojis
+  4) Removing punctuations
+  5) Spelling Correction
   
   * Preparing dataset
   
