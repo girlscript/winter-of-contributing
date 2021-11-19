@@ -1,0 +1,7 @@
+The required libraries for this project work
+
+Numpy
+Pandas
+Matplotlib
+Sklearn
+Seaborn
