@@ -30,6 +30,7 @@ Difference between Non Retina Display and Retina Display
 [Non Retina Display Image](https://user-images.githubusercontent.com/54473091/142193055-64f38832-168c-45ed-94ee-d02bfb779dbb.jpg)
 
 The retina display is used in many Apple products, like the Apple Watch, Apple iPhone, Apple iPad, etc. The Retina Display of Apple is not a fixed sharpness, it depends on the viewer's distance from the display. If the viewer is nearer to the screen, it means he/she will see the more pixelated display. If he/she is far from the screen, then he/she is not able to see much better resolution. 
+
 The simplest way to make your pictures properly appear on high-resolution displays, like the MacBook execs' "Retina Display," is to set their breadth and height values to 1/2 of the file size. Here is an example of a picture that's half the height and width:
 
 ```css
