@@ -6,7 +6,7 @@
 
 🔴 Module : Miscellaneous
 
-![image](https://user-images.githubusercontent.com/46518960/142733403-b8b8ee71-c530-4506-a44e-1ca996d498e5.png)
+                    ![image](https://user-images.githubusercontent.com/46518960/142733403-b8b8ee71-c530-4506-a44e-1ca996d498e5.png)
 
 Bagging and Boosting are two types of Ensemble learning models.
 
