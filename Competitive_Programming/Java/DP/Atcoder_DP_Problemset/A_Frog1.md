@@ -14,6 +14,13 @@ Find the minimum possible total cost incurred before the frog reaches Stone N.
 2. 2≤N≤10<sup>5</sup>
 3. 1≤hi​≤10<sup>4</sup>
 
+#### <u>Sample Input</u>
+4   
+10 30 40 20
+
+#### <u>Sample Output</u>
+30
+
 ---
 
 ## Hint

@@ -21,6 +21,15 @@ Find the maximum possible total points of happiness that Taro gains.
 2. 1≤N≤10<sup>5</sup>
 3. 1≤a<sub>i​</sub>,b<sub>i​</sub>,c<sub>i</sub>​≤10<sup>4</sup>
 
+#### <u>Sample Input</u>
+3  
+10 40 70
+20 50 80
+30 60 90
+
+#### <u>Sample Output</u>
+210
+
 ---
 
 ## Hint
