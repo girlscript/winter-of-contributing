@@ -109,7 +109,7 @@ knn_yhat = KNN.predict(X_test)
 print('Accuracy score of the K-Nearest Neighbors model is {}'.format(accuracy_score(y_test, knn_yhat)))
 print('F1 score of the K-Nearest Neighbors model is {}'.format(f1_score(y_test, knn_yhat)))
 ```
-The accuracy score came ou to be about 0.99 and the F1-score around 0.83
+The accuracy score came out to be about 0.99 and the F1-score around 0.83
 
 ### Logistic Regression
 ```
@@ -119,4 +119,4 @@ lr_yhat = lr.predict(X_test)
 print('Accuracy score of the Logistic Regression model is {}'.format(accuracy_score(y_test, lr_yhat)))
 print('F1 score of the Logistic Regression model is {}'.format(f1_score(y_test, lr_yhat)))
 ```
-The accuracy score came ou to be about 0.99 and the F1-score around 0.69
+The accuracy score came out to be about 0.99 and the F1-score around 0.69
