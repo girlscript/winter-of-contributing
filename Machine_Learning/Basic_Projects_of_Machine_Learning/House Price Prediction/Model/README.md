@@ -55,7 +55,15 @@ The goal of this project is to make a prediction model which will predict the pr
 ***************************************
 ## Conclusion
 
-* ElasticNet Regression works the best for the following dataset.
+<h3> Models: </h3>
+
+| Model-Name  | Training Accuracy  | Testing Accuracy  |
+|---|---|---|
+| Linear Regresssion  |  40% | 52%  |
+| Random Forest  |  88% | 15%  |
+|  Lasso Regresssion | 39%  |  52% |
+
+* Therefore, Random Forest works the best for the following dataset.
 
 ******************************
 ## Author
