@@ -3,3 +3,4 @@
 - [Friend_Function](Friend_function_in_c++.md)
 - [Friend_Class](Friend_Class_in_c++.md)
 - [Virtual Destructor](virtual-destructor.md)
+- [Abstract Classes in Virtual Functions](abstract-class-in-virtual-functions.md)
