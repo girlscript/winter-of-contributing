@@ -14,7 +14,7 @@ Bagging and Boosting are two types of Ensemble learning models.
 
 **Brief description of Bagging and Boosting**
 
-**1. Bagging:** It is a bootstrap meta-algorithm designed to improve the accuracy and stability of the algorithm used in Classification and Regression. It combines several decision tree models to produce better predictive output than a single model. It works on the principle that group of weak learners combines together to form a strong learner.
+**1. Bagging:** It is a bootstrap meta-algorithm designed to improve the accuracy and stability of the algorithm used in Classification and Regression. It combines several decision tree models to produce better predictive output than a single model. 
 
 **Advantages**
 1.	It reduces the overfitting.
