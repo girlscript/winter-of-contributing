@@ -53,7 +53,8 @@ For Regression Model each regression model returns its prediction and final outp
 
 **Difference between bagging and boosting**
 
-![image](https://user-images.githubusercontent.com/46518960/142733563-e02d5031-5958-4a04-9058-c64e3818b2f5.png)
+![image](https://user-images.githubusercontent.com/46518960/142733695-388865ae-decb-499d-8827-4125dda90c7a.png)
+
 
 
 
