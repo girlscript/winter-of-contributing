@@ -52,18 +52,8 @@ For Regression Model each regression model returns its prediction and final outp
 
 **Difference between bagging and boosting**
 
-Bagging	Boosting
-It combines the predictions that belongs to same types of model	It combines the predictions that belongs to different types of model
-Decreases variance	Decreases bias
-Each model receives equal weights	Each model is weighted according to their performance 
-Different subsets of data are randomly drawn with replacement from the training set	Different subsets of data are randomly drawn with replacement from the training set
-Reduces overfitting	Prone to overfitting
-Bagging gives better predictions when a classifier is unstable (high variance)	Boosting gives better predictions when a classifier is stable (high bias)
-Example: Random Forest
-
-	Example: AdaBoost, xgboost
+![image](https://user-images.githubusercontent.com/46518960/142733563-e02d5031-5958-4a04-9058-c64e3818b2f5.png)
 
 
-	Example: AdaBoost, xgboost
 
 
