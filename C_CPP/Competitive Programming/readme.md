@@ -9,3 +9,4 @@
 - [School Management System](School_Management_System.md)
 - [Number Theory](numbertheory.md)
 - [Matrix Exponentiation in c++](Matrix_exponentiation.md)
+- [Secound largest number in array](Secound_largest_number_aaray.md)
