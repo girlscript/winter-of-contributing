@@ -2,7 +2,7 @@
 
 ## Description 📜
 
-Topic: Data Science with Python : INTRODUCTION TO  NUMPY#3<Br>
+Topic: Data Science with Python : INTRODUCTION TO  NUMPY<Br>
  
 <h2>  Video Link:<a href ="https://drive.google.com/file/d/1T4sMIwsXHV50xifCZBXf9ABZxMvQP-zZ/view?usp=sharing" > INTRODUCTION TO NUMPY<a></h2><br>
 What is NumPY?<br>
@@ -18,7 +18,7 @@ NumPy is used for scientific calculations.
 <br>
 
 
-Fixes #issue_number_here 
+Fixes #434
 
 <hr>
 
@@ -72,10 +72,10 @@ Fixes #issue_number_here
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 
 - [x] I follow [Contributing Guidelines](https://github.com/girlscript/winter-of-contributing/blob/main/.github/CONTRIBUTING.md) & [Code of conduct](https://github.com/girlscript/winter-of-contributing/blob/main/.github/CODE_OF_CONDUCT.md) of this project.
-- [ ] I have performed a self-review of my own code or work.
+- [x] I have performed a self-review of my own code or work.
 - [ ] I have commented my code, particularly in hard-to-understand areas.
 - [ ] My changes generates no new warnings.
-- [ ] I'm GWOC'21 contributor
+- [x] I'm GWOC'21 contributor
 
 <hr>
 
