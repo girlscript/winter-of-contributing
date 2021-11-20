@@ -265,7 +265,10 @@ const Alarm = styled(BsFillAlarmFill)`
 `;
 ```
 
+## Resources
+
+- Learn more about React Icons : [react-icons](https://react-icons.github.io/react-icons/)
+- React icons package installation : [react-icons](https://www.npmjs.com/package/react-icons)
+
 ## Conclusion
 Phew! We have covered so many things. Now, it's time to apply all these things in your beautiful projects. Hopw you have learnt everything about React Icons.
-
-__Contributor__ : [Harsh Anand](https://www.github.com/its-me-Harsh-Anand)
