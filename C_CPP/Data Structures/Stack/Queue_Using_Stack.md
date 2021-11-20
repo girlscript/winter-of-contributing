@@ -1,8 +1,10 @@
-# Implementation Queue Using Stack
-A queue is a data structure which follows FIFO operation (which means First In First Out) and if we talk about Stack it is the data structure which follows LIFO (which means Last In First Out) and we can implement queue using the stack , There are three by which we can implement this in each method any one operation enqueue or dequeue become costly , Methods are :
+# Implementation of Queue Using Stack
+A queue is a data structure which follows FIFO operation (which means First In First Out) and if we talk about Stack it is the data structure which follows LIFO (which means Last In First Out) and we can implement queue using the stack , Basically there are three methods that are :
 1. By making enQueue operation costly.
 2. By making deQueue operation costly.
 3. By using function call stack for implementation of method 2.
+
+So by these methods we can implement queue using stack and we can see in each method any one operation enqueue or dequeue become costly.
 
 ## 1. Method 1 (Making enQueue operation costly)
 ```cpp
