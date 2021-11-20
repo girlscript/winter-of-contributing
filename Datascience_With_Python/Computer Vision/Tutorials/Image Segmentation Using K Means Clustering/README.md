@@ -24,8 +24,13 @@ While image classification is helpful for seeing what’s in an image in general
 * We can readily see the power of image segmentation when we consider its flexibility in photo editing software. 
 From automatically separating backgrounds and foregrounds, to cutting out segmented people and objects, to creating responsive portrait modes, image segmentation offers a wide range of capabilities for these kinds of creativity tools.
 
+## ❔ **WHY EXACTLY DO WE NEED IMAGE SEGMETNATION ?**
+* Segmentation is an important stage of the image recognition system, because it extracts the objects of our interest, for further processing such as description or recognition.
+* Segmentation of an image is in practice for the classification of image pixel. Segmentation techniques are used to isolate the desired object from the image in order to perform analysis of the object. 
+* For example, a tumor, cancer or a block in the blood flow can be easily isolated from its background with the help of image segmentation technique. Various techniques are available for the segmentation of monochrome images. The segmentation of color images is more complicated as each pixel in the color images is vector valued.
+
 ### ❓ **WHAT IS K MEANS CLUSTERING**
-* K-Means Clustering is an unsupervised learning algorithm that is used to solve the clustering problems in machine learning or data science. In this topic, we will learn what is K-means clustering algorithm, how the algorithm works, along with the Python implementation of k-means clustering.
+* K-Means Clustering is an unsupervised learning algorithm that is used to solve the clustering problems in machine learning or data science. 
 * K-Means Clustering is an Unsupervised Learning algorithm, which groups the unlabeled dataset into different clusters. Here K defines the number of pre-defined clusters that need to be created in the process, as if K=2, there will be two clusters, and for K=3, there will be three clusters, and so on.
 
  <p align="center">
@@ -39,6 +44,8 @@ From automatically separating backgrounds and foregrounds, to cutting out segmen
 * Clustering quality depends on the methods and to the identification of hidden patterns.
 * They play a wide role in applications like marketing economic research and weblogs to identify similarity measures, Image processing, and spatial research.
 * They are used in outlier detections to detect credit card fraudulence.
+
+
 
 ## :high_brightness: **K MEANS FOR IMAGE SEGMENTATION**
 The K Means Clustering for image segmentation works in the following manner:
@@ -92,6 +99,12 @@ All the dependencies and required libraries are included in the file <code>requi
 <p align="center">
   <img width="700" height="350" src="https://user-images.githubusercontent.com/36481036/136064416-6943f600-e56f-45df-8934-a1aac5e88977.png">
 </p>
+
+## 📗 **CONCLUSION**
+* Image segementation is an integral part of data processing because it helps us to glorify the input and hence helps to increase the quality of the data as a whole. 
+* In the tutorial above, we play with the popular unsupervised learning algorithm; the K Means Clustering to see how it can benifit the level of image segementation performed. 
+* Thus, K Means, as expected, turns out to be a good approach towards integrating it with computer vision techniques.
+
 
 ## ✒️**CREDITS**
 * https://www.fritz.ai/image-segmentation/#part-basics
