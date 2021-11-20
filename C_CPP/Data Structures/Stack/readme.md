@@ -10,4 +10,5 @@
 - [Infix Expression To Postfix Expression In C](Infix_To_Postfix.md)
 - [Infix to Postfix using Stack](./infixToPostfix.md)
 - [Stack Important Questions](stacks%20important%20questions.md)
+- [Using Stack Implementation of Queue](Queue_Using_Stack.md)
 
