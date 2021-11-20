@@ -41,11 +41,12 @@ body {
 **Here, whenever screen max width will be 600px and orientation is landscape , body text will appear in green color.**
 
 In landscape its background color is "lightblue"
-<img src="ss/ss3.jpg" width="70%">
+
+![ss3](https://user-images.githubusercontent.com/72392580/142740596-ed9bd52e-e95c-4070-85cb-bbd0d166a851.jpg)
+
 
 In portrait its background color is "lightgreen"
-<img src="ss/ss4.jpg" width="70%">
-
+![ss4](https://user-images.githubusercontent.com/72392580/142740613-40f820b3-7e01-4c4c-bd6a-e3e4270d1c00.jpg)
 
 Source:
 <br />
@@ -99,11 +100,13 @@ div.ele {
 </html>
 ```
 **When the browser's width is 350px wide or less, font size is 40px.**
-<img src="ss/ss1.jpg" width="70%">
+ ![ss1](https://user-images.githubusercontent.com/72392580/142740633-f1ae6309-2f3e-4ce2-b239-031103097ea7.jpg)
  <br />
+ 
 **Now font size is 20px with change in color to green.**
  <br />
-<img src="ss/ss2.jpg" width="70%">
+
+![ss2](https://user-images.githubusercontent.com/72392580/142740648-91a6513e-d019-4d07-910b-b1af37e29d10.jpg)
  <br />
  
  
@@ -141,12 +144,15 @@ div.ele {
 ```
 **Element block is displayed.**
  <br />
-<img src="ss/ss5.jpg" width="70%">
- <br />
+
+![ss5](https://user-images.githubusercontent.com/72392580/142740661-504badb9-8db8-46d0-8ea4-278b056ba5eb.jpg)
+<br />
+
 **Element block is hidden.**
  <br />
-<img src="ss/ss6.jpg" width="70%">
- <br />
+
+ ![ss6](https://user-images.githubusercontent.com/72392580/142740653-89688df0-542f-418c-9a81-48c1332827b0.jpg)
+<br />
  
  
  Reference:
