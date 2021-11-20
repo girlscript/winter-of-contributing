@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        h1{
+            color: #1a64d6;
+            font-size: 35px;
+        }
+        h2{
+            display: block;
+            border: #deb887;
+            padding: 30px;
+            margin: 0 auto;
+            max-width: 400px;
+            font-size: 25px;
+        }
+        h3{
+            font-size: 30px;
+        }
+        h2:hover{
+            background:blanchedalmond         }
+        .temp{
+            color: black;
+        }
+        button{
+            font-size: 20px;
+            background-color: blue;
+            color: white;
+            border-radius: 30px;
+            margin: 10px;
+            padding: 20px;
+        }
+        button:hover{
+            background: transparent;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        🌤
+        <br />
+        Currently 21° in Tokyo
+    </h1>
+    <h3>13° / 
+        <strong>23°</strong>
+    </h3>    
+    <h2>
+        🌧Tomorrow
+        <br>
+        10° / 22°
+      </h2>
+      <h2>
+        🌥Saturday
+          <br>
+          15° / 17°
+      </h2>
+      <h2>
+        ☀️Sunday
+          <br>
+          25° / 28°
+      </h2>
+      <button>
+          Change City
+      </button>
+    <h3 style="font-style: italic;">
+        Coded By Sneha Jain
+    </h3>
+    <script>
+        function temp(){
+        let city = prompt("What city do you live in");
+        let celsius = prompt("What temperature is it");
+        let heading = document.querySelector("h1");
+        if (celsius < 0) {
+          heading.innerHTML =
+            "☹️<br />Currently " + celsius + "°C in " + city;
+        } else {
+          heading.innerHTML =
+            "😄<br />Currently " + celsius + "°C in " + city;
+        }
+      }
+        let changebutton=document.querySelector("button");
+       changebutton.addEventListener("click",temp);
+    
+    </script>
+</body>
+</html>
