@@ -1,1 +1,5 @@
 #+TITLE: Reference Validation with Lifetimes
++ When we are dealing with references, we have to make sure that the referencing data stay alive until we stop using the references.
++ A *resource can only have one owner at a time*. When it /goes out of the scope, Rust removes it from the Memory/.
++ When *we want to reuse the same resource, we are referencing it/ borrowing its content*.
++ When dealing with =references=, we have to specify lifetime annotations to provide instructions for the =compiler= to /set how long those referenced resources should be alive/.
