@@ -8,6 +8,10 @@ Unrecoverable errors cause a program to fail abruptly. A program cannot revert t
 Unlike other programming languages, Rust does not have exceptions. It returns an enum Result<T, E> for recoverable errors, while it calls the panic macro if the program encounters an unrecoverable error. The panic macro causes the program to exit abruptly.
 
 
+```enum Result<T, E> {
+    Ok(T),
+    Err(E),
+}```
 
 
 <h1>Unrecoverable Errors</h1>
