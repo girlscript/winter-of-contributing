@@ -2,24 +2,24 @@
 
 ## Introduction
 
-### Sometimes in your application, if you wanted to ask the user about taking a decision between yes or no in response of any particular action taken by the user, by remaining in the same activity and without changing the screen, you can use __Alert Dialog__.
+ Sometimes in your application, if you wanted to ask the user about taking a decision between yes or no in response of any particular action taken by the user, by remaining in the same activity and without changing the screen, you can use __Alert Dialog__.
 <br>
 
-### Android AlertDialog is composed of three regions: __title, content area and action buttons__. Android AlertDialog is the subclass of Dialog class.
+ Android AlertDialog is composed of three regions: __title, content area and action buttons__. Android AlertDialog is the subclass of Dialog class.
 <br>
 
 ![android-alertdialog](https://user-images.githubusercontent.com/68474842/142722169-5f5eb06d-690b-49ec-a0b0-d962ec02ded3.png)
 
 
 
-### In order to make an alert dialog, you need to make an object of __AlertDialogBuilder__ which an inner class of __AlertDialog__.
-### Its syntax is given below:
+ In order to make an alert dialog, you need to make an object of __AlertDialogBuilder__ which an inner class of __AlertDialog__.
+ Its syntax is given below:
 ``` java
 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
 
 ```
 
-### Now you have to set the positive (yes) or negative (no) button using the object of the AlertDialogBuilder class. Its syntax is-
+ Now you have to set the positive (yes) or negative (no) button using the object of the AlertDialogBuilder class. Its syntax is-
 ``` java
 alertDialogBuilder.setPositiveButton(CharSequence text, 
 DialogInterface.OnClickListener listener)
@@ -30,7 +30,7 @@ DialogInterface.OnClickListener listener)
 
 # __Functions provided by the builder class__
 
-### Apart from this, you can use other functions provided by the builder class to customize the alert dialog. These are listed below:
+Apart from this, you can use other functions provided by the builder class to customize the alert dialog. These are listed below:
 
 <br>
 
@@ -47,22 +47,22 @@ DialogInterface.OnClickListener listener)
 
 <br>
 
-### After creating and setting the dialog builder, you will create an alert dialog by calling the create() method of the builder class. Its syntax is:
+ After creating and setting the dialog builder, you will create an alert dialog by calling the create() method of the builder class. Its syntax is:
 ``` java
 AlertDialog alertDialog = alertDialogBuilder.create();
 alertDialog.show();
 ```
-### This will create the alert dialog and will show it on the screen.
+ This will create the alert dialog and will show it on the screen.
 <br>
 
 # __Example__
 
-### Let's see a simple example of android alert dialog.
+ Let's see a simple example of android alert dialog.
 <br>
 
 __activity_main.xml__
 
-### You can have multiple components, here we are having only a textview.
+ You can have multiple components, here we are having only a textview.
 
 ```
 <?xml version="1.0" encoding="utf-8"?>  
@@ -89,7 +89,7 @@ android:layout_height="match_parent"  tools:context="example.javatpoint.com. ale
 
 ### __strings.xml__
 
-### Optionally, you can store the dialog message and title in the strings.xml file.
+ Optionally, you can store the dialog message and title in the strings.xml file.
 
 ``` java
 <resources>  
