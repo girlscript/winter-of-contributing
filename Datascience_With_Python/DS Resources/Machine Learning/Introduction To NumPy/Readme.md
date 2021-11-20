@@ -19,9 +19,9 @@ NumPy arrays facilitate advanced mathematical and other types of operations on l
 A growing plethora of scientific and mathematical Python-based packages are using NumPy arrays; though these typically support Python-sequence input, they convert such input to NumPy arrays prior to processing, and they often output NumPy arrays. In other words, in order to efficiently use much (perhaps even most) of today’s scientific/mathematical Python-based software, just knowing how to use Python’s built-in sequence types is insufficient - one also needs to know how to use NumPy arrays.<br>
 <br>
 <h2>Where is it used?</h2>
-We can create a multi dimensional arrays in NumP
-We can perform Mathematical Operations using NumPy 
-NumPy is used for scientific calculations.
+We can create a multi dimensional arrays in NumP<br>
+We can perform Mathematical Operations using NumPy <br>
+NumPy is used for scientific calculations
 
 <br>
 
@@ -45,33 +45,9 @@ Fixes #434
 
 <!----Please delete the hashtag from your domain----->
 
-- [ ] Android Dev #(Flutter)
-- [ ] Android Dev #(Java)
-- [ ] Android Dev #(Kotlin)
-- [ ] Backend Dev #(Java)
-- [ ] Backend Dev #(.NET)
-- [ ] Backend Dev #(PHP)
-- [ ] Backend Dev #(Python)
-- [ ] C/#CPP
-- [ ] Competitive #Programming
-- [ ] Cyber #Security
-- [ ] DS#A
-- [ ] Data#base
+
 - [x] Datascience with #Python
-- [ ] Datascience with #R
-- [ ] Frontend Dev #HTML/CSS/JS
-- [ ] Frontend Dev #React/Angular/Vue
-- [ ] Go#lang
-- [ ] Interview #Prep
-- [ ] Java_#Domain
-- [ ] JavaScript_#Domain
-- [ ] ME#RN
-- [ ] Machine #Learning
-- [ ] Open #Source
-- [ ] Python_#Domain
-- [ ] Ru#st
-- [ ] Statis#tics
-- [ ] UI/#UX
+
 
 <hr>
 
@@ -80,9 +56,9 @@ Fixes #434
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 
 - [x] I follow [Contributing Guidelines](https://github.com/girlscript/winter-of-contributing/blob/main/.github/CONTRIBUTING.md) & [Code of conduct](https://github.com/girlscript/winter-of-contributing/blob/main/.github/CODE_OF_CONDUCT.md) of this project.
-- [ ] I have performed a self-review of my own code or work.
-- [ ] I have commented my code, particularly in hard-to-understand areas.
-- [ ] My changes generates no new warnings.
+- [x] I have performed a self-review of my own code or work.
+- [x] I have commented my code, particularly in hard-to-understand areas.
+- [x] My changes generates no new warnings.
 - [x] I'm GWOC'21 contributor
 
 <hr>
