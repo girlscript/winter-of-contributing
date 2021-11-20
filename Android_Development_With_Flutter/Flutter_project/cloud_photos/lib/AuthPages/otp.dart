@@ -1,5 +1,4 @@
-// import 'package:cloud_photos/Pages/home.dart';
-import 'package:cloud_photos/Screen/HomeScreen.dart';
+import 'package:cloud_photos/Screen/home_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:pinput/pin_put/pin_put.dart';
@@ -34,7 +33,7 @@ class _OTPScreenState extends State<OTPScreen> {
             .signInWithCredential(credential)
             .then((value) async {
           if (value.user != null) {
-            Navigator.of(context).pushReplacement(
+            Navigator.of(context).pop(
               MaterialPageRoute(
                 builder: (context) => const HomeScreen(),
               ),
