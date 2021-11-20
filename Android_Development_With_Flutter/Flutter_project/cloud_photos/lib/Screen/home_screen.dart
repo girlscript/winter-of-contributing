@@ -22,75 +22,6 @@ firebase_storage.FirebaseStorage storage =
     firebase_storage.FirebaseStorage.instance;
 
 class _HomeScreenState extends State<HomeScreen> {
-  var imageUrl = 'str';
-  late File img;
-  late String time;
-  bool uploaded = false;
-
-  Future<void> uploading() async {
-    firebase_storage.Reference ref = storage
-        .ref()
-        .child('photos')
-        .child(FirebaseAuth.instance.currentUser!.uid);
-
-    var imgPath = DateTime.now().millisecondsSinceEpoch.toString() + ".png";
-    ref = ref.child(imgPath);
-    firebase_storage.UploadTask uploadedImg = ref.putFile(img);
-    await uploadedImg.whenComplete(() => null);
-
-    await ref.getDownloadURL().then((value) {
-      imageUrl = value;
-      time = DateTime.now().millisecondsSinceEpoch.toString();
-    });
-    await tofirestore();
-  }
-
-  bool flag = true;
-  Future<void> tofirestore() async {
-    flag
-        ? FirebaseFirestore.instance
-            .collection("photos")
-            .doc(FirebaseAuth.instance.currentUser!.uid)
-            .set({
-            "images": FieldValue.arrayUnion(
-              [
-                {"url": imageUrl, "time": DateTime.now()}
-              ],
-            )
-          })
-        : FirebaseFirestore.instance
-            .collection("photos")
-            .doc(FirebaseAuth.instance.currentUser!.uid)
-            .update(
-            {
-              "images": FieldValue.arrayUnion(
-                [
-                  {
-                    "url": imageUrl,
-                    "time": DateTime.now(),
-                  }
-                ],
-              )
-            },
-          );
-    setState(() {
-      flag = false;
-      uploaded = true;
-    });
-  }
-
-  getImage(bool val) async {
-    ImagePicker _picker = ImagePicker();
-    final XFile? image = await _picker.pickImage(
-        source: val ? ImageSource.gallery : ImageSource.camera);
-    if (image != null) {
-      setState(() {
-        img = File(image.path);
-      });
-      await uploading();
-    }
-  }
-
   signoutmethod(context) async {
     await signout();
     WidgetsBinding.instance!.addPostFrameCallback(
@@ -145,74 +76,9 @@ class _HomeScreenState extends State<HomeScreen> {
           onPressed: () {
             showModalBottomSheet(
               context: context,
+              isDismissible: true,
               builder: (context) {
-                return Container(
-                  decoration: const BoxDecoration(
-                    borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(40),
-                      topRight: Radius.circular(40),
-                    ),
-                  ),
-                  height: 200,
-                  child: Column(
-                    children: [
-                      const SizedBox(
-                        height: 30,
-                      ),
-                      Container(
-                        child: Helper.text("Choose a picture to Upload", 20, 0,
-                            appColor, FontWeight.bold),
-                      ),
-                      const SizedBox(
-                        height: 40,
-                      ),
-                      Row(children: [
-                        const SizedBox(
-                          width: 10,
-                        ),
-                        IconButton(
-                            onPressed: () {
-                              getImage(true);
-                              if (uploaded == false) {
-                                const Center(
-                                    child: CircularProgressIndicator());
-                              }
-                              // uploading();
-                            },
-                            icon: Icon(
-                              Icons.image,
-                              size: 15,
-                              color: appColor,
-                            )),
-                        const SizedBox(
-                          width: 10,
-                        ),
-                        Helper.text(
-                            "Gallery", 20, 0, appColor, FontWeight.bold),
-                        const SizedBox(
-                          width: 10,
-                        ),
-                        IconButton(
-                            onPressed: () {
-                              getImage(false);
-                              uploading();
-                              if (uploaded == false) {
-                                const CircularProgressIndicator();
-                              }
-                            },
-                            icon: Icon(
-                              Icons.camera,
-                              color: appColor,
-                              size: 15,
-                            )),
-                        const SizedBox(
-                          width: 10,
-                        ),
-                        Helper.text("Camera", 20, 0, appColor, FontWeight.bold),
-                      ]),
-                    ],
-                  ),
-                );
+                return const BottomSheet();
               },
             );
           },
@@ -308,6 +174,142 @@ class _HomeScreenState extends State<HomeScreen> {
       builder: (BuildContext context) {
         return alert;
       },
+    );
+  }
+}
+
+class BottomSheet extends StatefulWidget {
+  const BottomSheet({Key? key}) : super(key: key);
+
+  @override
+  _BottomSheetState createState() => _BottomSheetState();
+}
+
+class _BottomSheetState extends State<BottomSheet> {
+  var imageUrl = 'str';
+  late File img;
+  late String time;
+  bool flag = true;
+  bool uploaded = false;
+  Future<void> uploading() async {
+    firebase_storage.Reference ref = storage
+        .ref()
+        .child('photos')
+        .child(FirebaseAuth.instance.currentUser!.uid);
+
+    var imgPath = DateTime.now().millisecondsSinceEpoch.toString() + ".png";
+    ref = ref.child(imgPath);
+    firebase_storage.UploadTask uploadedImg = ref.putFile(img);
+    await uploadedImg.whenComplete(() => null);
+
+    await ref.getDownloadURL().then((value) {
+      imageUrl = value;
+      time = DateTime.now().millisecondsSinceEpoch.toString();
+    });
+    FirebaseFirestore.instance
+        .collection("photos")
+        .doc(FirebaseAuth.instance.currentUser!.uid)
+        .set(
+      {
+        "images": FieldValue.arrayUnion(
+          [
+            {"url": imageUrl, "time": DateTime.now()}
+          ],
+        ),
+      },
+      SetOptions(merge: true),
+    );
+
+    setState(() {
+      flag = false;
+    });
+  }
+
+  getImage(bool val) async {
+    ImagePicker _picker = ImagePicker();
+    final XFile? image = await _picker.pickImage(
+        source: val ? ImageSource.gallery : ImageSource.camera);
+    if (image != null) {
+      setState(() {
+        img = File(image.path);
+      });
+      await uploading();
+    }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      decoration: const BoxDecoration(
+        borderRadius: BorderRadius.only(
+          topLeft: Radius.circular(40),
+          topRight: Radius.circular(40),
+        ),
+      ),
+      height: 200,
+      child: Column(
+        children: [
+          const SizedBox(
+            height: 30,
+          ),
+          Container(
+            child: Helper.text(
+                "Choose a picture to Upload", 20, 0, appColor, FontWeight.bold),
+          ),
+          const SizedBox(
+            height: 40,
+          ),
+          !uploaded
+              ? Row(children: [
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  IconButton(
+                      onPressed: () async {
+                        setState(() {
+                          uploaded = true;
+                        });
+                        print(uploaded);
+                        await getImage(true);
+                        Navigator.pop(context);
+                        // uploading();
+                      },
+                      icon: Icon(
+                        Icons.image,
+                        size: 15,
+                        color: appColor,
+                      )),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  Helper.text("Gallery", 20, 0, appColor, FontWeight.bold),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  IconButton(
+                      onPressed: () {
+                        Navigator.pop(context);
+                        getImage(false);
+                        uploading();
+                        if (uploaded == false) {
+                          const CircularProgressIndicator();
+                        }
+                      },
+                      icon: Icon(
+                        Icons.camera,
+                        color: appColor,
+                        size: 15,
+                      )),
+                  const SizedBox(
+                    width: 10,
+                  ),
+                  Helper.text("Camera", 20, 0, appColor, FontWeight.bold),
+                ])
+              : const Center(
+                  child: CircularProgressIndicator(),
+                ),
+        ],
+      ),
     );
   }
 }
