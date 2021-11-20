@@ -1,4 +1,4 @@
-# Binomail Coefficient Using Bottom-Up Tabularization:
+# Binomial Coefficient Using Bottom-Up Tabularization:
 
 Here, firstly we will see the conventional method to obtain the binomial coefficient and how we can reduce the complexity of it using bottom-up tabularization.
 
@@ -30,11 +30,11 @@ We will also form a table to obtain the value of C(n, k) whose columns will repr
 
 Consider the below table for calculation of C(n, k):
 
-<img src='https://user-images.githubusercontent.com/65852362/142717582-551212e7-2bc2-4a62-9ebe-66c6f236b5d4.png'>
+<img src='https://user-images.githubusercontent.com/65852362/142717582-551212e7-2bc2-4a62-9ebe-66c6f236b5d4.png' style='height: 50%; width: 50%'>
 
 Here, if k = 0 or k = n, we will store value '1' in the cell corresponding to that n and k values.
 
-<img src='https://user-images.githubusercontent.com/65852362/142717592-7d210bc6-8494-4dcd-9cb6-2baf79f7a520.png'>
+<img src='https://user-images.githubusercontent.com/65852362/142717592-7d210bc6-8494-4dcd-9cb6-2baf79f7a520.png' style='height: 50%; width: 50%'>
 
 Now, for other cells, having n-value as 'i' and k-value as 'j', where <b>j != 0 and j != i</b>, C(i,j) will be the sum of <b>C(i-1, j-1)</b> and <b>C(i-1, j)</b>.
 
@@ -44,13 +44,13 @@ C(2,1) = C(1,1) + C(2, 0)
 C(2, 1) = 1 + 1
 C(2, 1) = 2
 ```
-<img src = '(https://user-images.githubusercontent.com/65852362/142717603-5b95a41f-ab49-4347-9210-47ff9aa3d4c4.png'>
+<img src = '(https://user-images.githubusercontent.com/65852362/142717603-5b95a41f-ab49-4347-9210-47ff9aa3d4c4.png' style='height: 50%; width: 50%'>
 
 Similarly, we will compute values for C(3,1), C(3,2), C(4,1), C(4,2), C(4,3), ... till we obtain the value for C(n, k).
 
 You can see in the below table, that it is gradually forming a <b>Pascal's triangle</b>.
 
-<img src = 'https://user-images.githubusercontent.com/65852362/142717613-f2ba9100-6134-41a2-8ea7-e54f28c027c8.png'>
+<img src = 'https://user-images.githubusercontent.com/65852362/142717613-f2ba9100-6134-41a2-8ea7-e54f28c027c8.png' style='height: 50%; width: 50%'>
 
 The algorithm to represent the above solution will be:
 
