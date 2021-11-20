@@ -5,14 +5,14 @@
 
 - Class that contains atleast one pure virtual function becomes abstract class.  
 
-**Note :**
-- A pure virtual function is a do nothing function in which virtual keyword is added.
-- It's declaration is provided in parent / base class but defined in child / derived class otherwise child class becomes abstract.
-- Syntax-
-```c++
-virtual void f1()=0;
-```
-- Here in place of body we add assignment operator then zero and a semicolon, since it's an empty body function.
+- **Note :**
+  - A pure virtual function is a do nothing function in which virtual keyword is added.
+  - It's declaration is provided in parent / base class but defined in child / derived class otherwise child class becomes abstract.
+  - Syntax-
+  ```c++
+   virtual void f1()=0;
+  ```
+   - Here in place of body we add assignment operator then zero and a semicolon, since it's an empty body function.
 
 - In Java, Abstract class is made by adding abstract keyword. Like C++,there's no virtual keyword in Java.  
 ## Syntax of Abstract class in c++
