@@ -1,5 +1,5 @@
-import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 import 'package:flutter/material.dart';
@@ -26,6 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
   late File img;
   late String time;
   bool uploaded = false;
+
   Future<void> uploading() async {
     firebase_storage.Reference ref = storage
         .ref()
@@ -72,8 +73,8 @@ class _HomeScreenState extends State<HomeScreen> {
               )
             },
           );
-    flag = false;
     setState(() {
+      flag = false;
       uploaded = true;
     });
   }
@@ -86,6 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
       setState(() {
         img = File(image.path);
       });
+      await uploading();
     }
   }
 
@@ -171,10 +173,11 @@ class _HomeScreenState extends State<HomeScreen> {
                         IconButton(
                             onPressed: () {
                               getImage(true);
-                              uploading();
                               if (uploaded == false) {
-                                const CircularProgressIndicator();
+                                const Center(
+                                    child: CircularProgressIndicator());
                               }
+                              // uploading();
                             },
                             icon: Icon(
                               Icons.image,
