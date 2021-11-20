@@ -1,3 +1,72 @@
+# Errors and Exceptions in Python
+
+The most common reason of an error in a Python program is when a certain statement is not in accordance with the prescribed usage. Such an error is called a syntax error. The Python interpreter immediately reports it, usually along with the reason.
+
+Example - 
+```
+print "Hello World!"
+```
+Output - 
+```
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print("Hello World!")?
+```
+Two types of Error occurs in python. 
+
+1. Syntax errors
+2. Logical errors (Exceptions) 
+
+## Syntax errors
+
+When the proper syntax of the language is not followed then a syntax error is thrown.
+
+Example - 
+
+```
+Age = 18
+if(Age > 18)
+	print("You are eligible for vote..")
+```
+Output - 
+
+```
+SyntaxError: invalid syntax
+```
+It returns a syntax error message because after the if statement a colon: is missing. We can solve this by writing the correct syntax.
+
+## Logical errors
+
+Logical errors are the most difficult to fix. They occur when the program runs without crashing, but produces an incorrect result. The error is caused by a mistake in the program’s logic. 
+
+Example - 
+
+When indentation is not correct. 
+
+```
+if(A<3):
+print("Age")
+```
+
+Output - 
+
+```
+IndentationError : expected an indented block
+```
+
+The following table lists important built-in exceptions in Python :
+
+| Exception      | Description                                                  |
+| :------------- | :----------------------------------------------------------- |
+| IndexError     | When the wrong index of a list is retrieved.                 |
+| AssertionError | It occurs when the assert statement fails                    |
+| AttributeError | It occurs when an attribute assignment is failed.            |
+| ImportError    | It occurs when an imported module is not found.              |
+| KeyError       | It occurs when the key of the dictionary is not found.       |
+| NameError      | It occurs when the variable is not defined.                  |
+| MemoryError    | It occurs when a program runs out of memory.                 |
+| TypeError      | It occurs when a function and operation are applied in an incorrect type.
+
+ ### Let's learn about AttributeError in Python :-
+ 
 # Python :  AttributeError in Competitive programming
 
 
