@@ -60,7 +60,7 @@ Then we can poppulate the data in our users array.
 This is the difference between require, import and dynamic import.
 
 ---
-## Refferences -
+## References -
 
 * https://flexiple.com/javascript-require-vs-import/
 * https://www.youtube.com/watch?v=ddVm53j80vc
