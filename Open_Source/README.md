@@ -415,6 +415,8 @@
 
 - [M.15 Alternative of jenkins](Miscellaneous/M.15_Alternative_of_Jenkins.md)
 
+- [M.16 GitHub Student Developer pack](Miscellaneous/M.16_GitHub_Student_Developer_pack.md)
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <h2 align="center"> ✨ CONTRIBUTORS ✨</h2>
