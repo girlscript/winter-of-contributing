@@ -18,41 +18,46 @@ A real-life example of multiple inheritance could be, class Bat inheriting its p
 #include <iostream>
 using namespace std;
 
-class A
+class Inheritance
 {
-    int a;
     public:
-    void callA()
+    void displayInheritance()
     {
-        cout<<"Inside Class A\n";
+        cout<<"I am following inheritance..\n";
     }
 };
-class B
+class Encapsulation
 {
-    int b;
     public:
-    void callB()
+    void displayEncapsulation()
     {
-        cout<<"Inside Class B\n";
+        cout<<"I am following encapsulation..\n";
+    }
+};
+class Polymorphism
+{
+    public:
+    void displayPolymorphism()
+    {
+        cout<<"I am following polymorphism..";
     }
 };
 //Multiple inheritance
-class C: public A, public B
+class CPP: public Inheritance, public Encapsulation, public Polymorphism
 {
-  int c;
   public:
-  void callC()
+  void display()
   {
-      cout<<"Inside Class C\n";
+      cout<<"Working with CPP..\n";
   }
 };
-
 int main() {
-	C obj;
-	//All the three functions can be accessed via Class C's object
-	obj.callA();
-	obj.callB();
-	obj.callC();
+	CPP obj;
+	//All the given functions can be accessed through CPP class
+	obj.display();
+	obj.displayInheritance();
+	obj.displayEncapsulation();
+	obj.displayPolymorphism();
 	return 0;
 }
 ```
@@ -60,9 +65,10 @@ int main() {
 Output :
 
 ```
-Inside Class A
-Inside Class B
-Inside Class C
+Working with CPP..
+I am following inheritance..
+I am following encapsulation..
+I am following polymorphism..
 ```
 
 ## Constructors and Destructors in multiple inheritance
