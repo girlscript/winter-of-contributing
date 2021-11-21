@@ -1,10 +1,10 @@
-#### Spotify-Tinder App
+# Spotify-Tinder App
 This app that matches two people on the basis of their playlist.<br/>
 
 ## Sign in screen
 <img src="https://user-images.githubusercontent.com/56426767/142757580-0ebb167c-2060-4996-9e95-6cddbe6305c7.png" alt="sign in page" width="300" height="534" align = "middle"><br/>
 
-This the first sign in page of the Musiclove app.<br/><br/><br/>
+#### This the first page i.e sign in of the Musiclove app.<br/><br/><br/>
 
 
 ## Home screen
