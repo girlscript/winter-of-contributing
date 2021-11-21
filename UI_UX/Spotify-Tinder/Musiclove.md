@@ -1,8 +1,6 @@
 # Spotify-Tinder App
 This app that matches two people on the basis of their playlist.<br/>
 
-## Screens of the app at a glance
-<img src="https://user-images.githubusercontent.com/56426767/142759023-b4f0da2b-a49f-4b1e-a887-ffcd0674ec1e.png" height="534"><br/><br/><br/>
 
 ## Sign in screen
 <img align = "middle" width="300" height="534" src="https://user-images.githubusercontent.com/56426767/142757580-0ebb167c-2060-4996-9e95-6cddbe6305c7.png" alt="sign in page"><br/>
