@@ -1,0 +1,6 @@
+streamlit==0.68.1
+pandas==0.25.3
+lxml==4.5.1
+requests==2.22.0
+json5==0.9.4
+Pillow==7.0.0
