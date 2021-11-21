@@ -289,51 +289,60 @@ class _BottomSheetState extends State<BottomSheet> {
             height: 40,
           ),
           !uploaded
-              ? Row(children: [
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  IconButton(
-                      onPressed: () async {
-                        setState(() {
-                          uploaded = true;
-                        });
-                        print(uploaded);
-                        await getImage(true);
-                        Navigator.pop(context);
-                        // uploading();
-                      },
-                      icon: Icon(
-                        Icons.image,
-                        size: 15,
-                        color: appColor,
-                      )),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Helper.text("Gallery", 20, 0, appColor, FontWeight.bold),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  IconButton(
-                      onPressed: () {
-                        Navigator.pop(context);
-                        getImage(false);
-                        uploading();
-                        if (uploaded == false) {
-                          const CircularProgressIndicator();
-                        }
-                      },
-                      icon: Icon(
-                        Icons.camera,
-                        color: appColor,
-                        size: 15,
-                      )),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Helper.text("Camera", 20, 0, appColor, FontWeight.bold),
-                ])
+              ? Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                        Row(
+                          children: [
+                            IconButton(
+                                onPressed: () async {
+                                  setState(() {
+                                    uploaded = true;
+                                  });
+                                  print(uploaded);
+                                  await getImage(true);
+                                  Navigator.pop(context);
+                                  // uploading();
+                                },
+                                icon: Icon(
+                                  Icons.image,
+                                  size: 15,
+                                  color: appColor,
+                                )),
+                            Helper.text(
+                                "Gallery", 20, 0, appColor, FontWeight.bold),
+                          ],
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Row(
+                          children: [
+                            IconButton(
+                                onPressed: () {
+                                  Navigator.pop(context);
+                                  getImage(false);
+                                  uploading();
+                                  if (uploaded == false) {
+                                    const CircularProgressIndicator();
+                                  }
+                                },
+                                icon: Icon(
+                                  Icons.camera,
+                                  color: appColor,
+                                  size: 15,
+                                )),
+                            const SizedBox(
+                              width: 10,
+                            ),
+                            Helper.text(
+                                "Camera", 20, 0, appColor, FontWeight.bold),
+                          ],
+                        )
+                      ]),
+              )
               : const Center(
                   child: CircularProgressIndicator(),
                 ),
