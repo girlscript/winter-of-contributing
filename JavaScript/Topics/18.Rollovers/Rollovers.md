@@ -15,6 +15,7 @@
  * Causes text to pop up or become highlighted with bold colors when the mouse is moved on a text element.
 
 # **Creating a Rollover**
+<br>
 
   * ### A rollover is caused by an event called onmouseover and occurs when a visitor to your web site moves the mouse over an object that appears on the page. An object can be an image, text, or any element of a form.
 
@@ -24,9 +25,10 @@
 
 
 ## **Example 1:**
+<br>
 ### In example below, we create a rollover effect that can change the color of its text using the style attribute.
 
-``` JavaScript
+```html
 <p
 onmouseover=”this.style.color=’red'”
 onmouseout=”this.style.color=’blue'”>
@@ -52,7 +54,7 @@ change the text color to blue.
 ## **Example 2:**
  ### This example shows how to create rollover effect that involves text and images. When the user places his or her mouse pointer over a book title, the corresponding book image appears.
 
- ``` JavaScript 
+ ```html 
 
 <html>
 <head>
@@ -105,7 +107,7 @@ change the text color to blue.
 
 ### In example below, we create a rollover effect that can change the text when move goes over the text.
 
-```JavaScript
+```html
 <HTML>
 <head></head>
 <Body>
@@ -156,18 +158,4 @@ cursor rolls over an object on the web page, the browser signals an onmouseover
 event. An onmouseout event is then generated when the mouse cursor moves off the 
 object. Your can design your web page to perform an action to respond to these 
 events.
-
-You specify the action that is to be taken by assigning a value to the onmouseover
-and onmouseout attributes of the ```<IMG>``` tag and the anchor tag. The value can 
-be as simple as resetting the value of another attribute, such as the src attribute of 
-the ```<IMG>``` tag, or it can call a JavaScript function. A JavaScript function can be defined to perform one or multiple actions in response to the onemouseover and 
-onmouseout events by including multiple JavaScript statements within the function 
-definition.
-
-Most browsers support rollovers; however, some browsers don't, so you'll need 
-to test whether or not the browser supports the document.images object. If it 
-does support this object, then the browser also supports rollovers.
-In the next chapter, you'll learn how to dress up your web pages with banners and 
-slideshows.
-
 
