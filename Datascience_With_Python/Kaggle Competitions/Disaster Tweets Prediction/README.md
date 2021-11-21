@@ -44,50 +44,51 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
   3. Data Preprocessing
    
-  To figure out the different preprocessing techniques to be applied on the dataset, we first have a look at the dataset
+    To figure out the different preprocessing techniques to be applied on the dataset, we first have a look at the dataset
   
 ![image](https://user-images.githubusercontent.com/62233992/142578358-e3287b27-e66e-4e1f-9bee-b5e9818df47a.png)
   
   * Class Distribution
   
-  Before we begin with anything else,let's check the class distribution. There are only two classes 0 and 1.
+    Before we begin with anything else,let's check the class distribution. There are only two classes 0 and 1.
   
   ![image](https://user-images.githubusercontent.com/62233992/142579096-799c0cb5-0fe0-4d2d-8640-4c86de7964e3.png)
 
-  There is a class distribution. There are more tweets with class 0 ( No disaster) than class 1 ( disaster tweets).
+    There is a class distribution. There are more tweets with class 0 ( No disaster) than class 1 ( disaster tweets).
   
   * Exploratory Data Analysis of tweets
   
-  First,we will do very basic analysis,that is character level,word level and sentence level analysis.
+    First,we will do very basic analysis,that is character level,word level and sentence level analysis.
 
   **Number of characters in tweets**
   
-  ![image](https://user-images.githubusercontent.com/62233992/142579779-44def7d3-8937-4d9f-8935-aebf1a843353.png)
+    ![image](https://user-images.githubusercontent.com/62233992/142579779-44def7d3-8937-4d9f-8935-aebf1a843353.png)
 
-  The distribution of both seems to be almost same. 120 t0 140 characters in a tweet are the most common among both.
+    The distribution of both seems to be almost same. 120 t0 140 characters in a tweet are the most common among both.
   
   **Number of words in a tweet**
   
-  ![image](https://user-images.githubusercontent.com/62233992/142579934-ca851b31-e6d3-4335-bd27-b7937a9fb2ee.png)
+    ![image](https://user-images.githubusercontent.com/62233992/142579934-ca851b31-e6d3-4335-bd27-b7937a9fb2ee.png)
 
-  **Common stopwords in tweets
-  First we will analyze tweets with class 0.
+  **Common stopwords in tweets**
+  
+    First we will analyze tweets with class 0.
   
   ![image](https://user-images.githubusercontent.com/62233992/142580439-377eb1bf-ca79-4883-86ce-bf30d46c464d.png)
 
-  Now,we will analyze tweets with class 1.
+    Now,we will analyze tweets with class 1.
   
   ![image](https://user-images.githubusercontent.com/62233992/142580516-9f76eaec-5a14-444a-968b-ce07dca841d1.png)
 
-  In both of them,"the" dominates which is followed by "a" in class 0 and "in" in class 1.
+    In both of them,"the" dominates which is followed by "a" in class 0 and "in" in class 1.
   
   4. Data Cleaning
-  As we know,twitter tweets always have to be cleaned before we go onto modelling. So we will do some basic cleaning such as spelling correction,removing punctuations,removing html tags and emojis etc. So let's start.
-  1) Removing urls
-  2) Removing HTML tags
-  3) Romoving Emojis
-  4) Removing punctuations
-  5) Spelling Correction
+    As we know,twitter tweets always have to be cleaned before we go onto modelling. So we will do some basic cleaning such as spelling correction,removing punctuations,removing html tags and emojis etc. So let's start.
+    1) Removing urls
+    2) Removing HTML tags
+    3) Romoving Emojis
+    4) Removing punctuations
+    5) Spelling Correction
   
   * Preparing dataset
   
@@ -95,17 +96,17 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
   5. Aplying the models:
 
-  * GloVe for Vectorization
+  * **GloVe for Vectorization**
   
-  GloVe stands for global vectors for word representation. It is an unsupervised learning algorithm developed by Stanford for generating word embeddings by aggregating global word-word co-occurrence matrix from a corpus. The resulting embeddings show interesting linear substructures of the word in vector space.
-    
-  Here we will use GloVe pretrained corpus model to represent our words.It is available in 3 varieties :50D ,100D and 200 Dimentional.We will try 100 D here.
+    GloVe stands for global vectors for word representation. It is an unsupervised learning algorithm developed by Stanford for generating word embeddings by aggregating global word-word co-occurrence matrix from a corpus. The resulting embeddings show interesting linear substructures of the word in vector space.
+
+    Here we will use GloVe pretrained corpus model to represent our words.It is available in 3 varieties :50D ,100D and 200 Dimentional.We will try 100 D here.
   
   Baseline Model:
   
-  ![image](https://user-images.githubusercontent.com/62233992/142581705-49fe4da0-8c83-490a-935e-2327bec17b80.png)
+    ![image](https://user-images.githubusercontent.com/62233992/142581705-49fe4da0-8c83-490a-935e-2327bec17b80.png)
 
-  ![image](https://user-images.githubusercontent.com/62233992/142581744-88e59fc7-6a58-4db9-8690-5167a754fc22.png)
+    ![image](https://user-images.githubusercontent.com/62233992/142581744-88e59fc7-6a58-4db9-8690-5167a754fc22.png)
 
   
   6. Conclusion!
