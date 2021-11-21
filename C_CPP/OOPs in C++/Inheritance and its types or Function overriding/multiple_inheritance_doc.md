@@ -14,7 +14,7 @@ A real-life example of multiple inheritance could be, class Bat inheriting its p
 
 ## Example
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -71,7 +71,7 @@ The constructors of base classes in multiple inheritance are called in the seque
 
 ### Example
 
-```
+```cpp
 #include <iostream>
 using namespace std;
 
