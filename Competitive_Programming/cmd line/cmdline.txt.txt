@@ -1,0 +1,86 @@
+A Beginner's Guide to the Windows Command Prompt
+
+If you're not familiar with the Command Prompt in Windows, here's a basic guide to the command line for beginners.
+
+A lot of Windows users have never even touched the Command Prompt. With today's advanced operating systems, it's easy to use a computer without ever worrying about entering text commands in the command line.
+
+However, it's a good idea to become familiar with command line basics in Windows. It helps you appreciate the OS more, and can come in handy for some tasks. Here's a beginner's guide to the Windows Command Prompt if you're not familiar.
+
+What Is the Command Prompt?
+The Command Prompt, officially called the Windows Command Processor and often abbreviated to CMD, is the command line interface for Windows operating systems. A command line interface is a way of interacting with a computer directly using text commands.
+
+These hearken back to the early days of computers, when you had to type commands into a terminal to execute processes on the machine. Early PC operating systems, like MS-DOS, operated exclusively through command-line interfaces. There was no mouse cursor, window management, or other graphical user interface (GUI) elements like we take for granted today.
+
+
+Another term you should know is the word "shell," which is used to describe a program that allows the user to give commands to the computer. So a command line interface, as well as a GUI, are both shells.
+
+Early versions of Windows, like Windows 3.1, effectively ran as a visual interface on top of DOS. Later versions, including Windows 95 through Windows ME, also included MS-DOS integration. These allowed you to run commands through the MS-DOS Prompt, as the Command Prompt was called at the time.
+
+Starting with Windows XP, Windows broke away from MS-DOS. However, in modern versions of Windows, you can still use the Command Prompt to interface with your computer directly instead of clicking through various menus. The Command Prompt can also run batch files, which are a great way to automate tasks.
+
+Power users prefer the Command Prompt for some tasks, as you can take actions with a few simple keystrokes that would require dozens of clicks in the GUI.
+
+How to Open the Command Prompt in Windows 10
+There are a few ways to open the Command Prompt in Windows. Below are the most convenient:
+
+Type "command prompt" into the Start menu to search for it. You can also type "cmd" (the short name of the executable that runs the Command Prompt) if you prefer.
+Press Win + R to open the Run box, then type "cmd" and hit Enter to open it.
+Press Win + X (or right-click the Start button) and choose Command Prompt from the menu. Depending on your Windows settings, this may show Windows PowerShell instead. PowerShell is more powerful than the Command Prompt, but can run all the same commands.
+Windows Open CMD Prompt
+Any of these will open the Command Prompt with regular permissions. A lot of useful commands require you to have administrator permissions, which will fail with a regular CMD window.
+
+To run the Command Prompt as an admin, hold Ctrl + Shift when you launch either of the first two options above. If you use the third option, pick Command Prompt (Admin) instead. This will require you to accept a UAC prompt, so you'll need to be logged into an admin account or provide an admin password.
+
+Command Prompt Basics
+When you open a Command Prompt window, you'll see some basic info about your current Windows version. You'll then see a line like the below:
+
+C:\Users\Username>
+
+This is your current location. Any commands you run that rely on location (such as deleting files) will take place in this folder. Other CMD commands are more general and don't rely on you being in a specific location.
+
+It's important to know that when working in the Command Prompt, you must type commands exactly as they should be. Since you're issuing commands directly to your computer, it won't understand if you type something wrong.
+
+If you type a command that your computer doesn't recognize, you'll see a message that says [Command] is not recognized... and Windows won't do anything.
+
+Command Prompt Command Not Recognized
+This isn't really a problem; what's more of a risk is accidentally typing the wrong command, or using a command in a way you didn't intend. For example, when trying to delete one file, you might accidentally tell it to delete an entire folder instead.
+
+The command line will run whatever you tell it, as long as it's a valid option. So you should always double-check what you're about to do before you fire it off.
+
+Basic Command Prompt Commands for Beginners
+There are lots of Command Prompt commands, and most of them aren't intuitive for newcomers. Learning them takes some time, so it's best to pick up a few at a time and slowly build your knowledge.
+
+Let's look at a handful of CMD commands that illustrate its use for a beginner. These are just a very small sampling of what the Command Prompt can do, however. When you're ready to move on, have a look at more CMD commands you should know, as well as our cheat sheet of handy commands.
+
+Getting Help
+CMD Help Example Commands
+Typing help will list many common commands that you can use. These will get you started, so you don't have to go looking for command names on your own.
+
+If you'd like more specific information about how to use a certain command, type it followed by /?. This will give you more help, plus additional options for modifying how it works.
+
+Listing and Changing Directories
+Windows Directory Command Example
+The dir command, which is short for directory, will list the contents of the folder that you're currently in. As mentioned earlier, you can check this by looking at the folder that appears to the left of your current command.
+
+To change your current location, use cd (short for change directory) followed by the folder you want to visit. Available folders are marked with <DIR> when you run the dir command.
+
+So for example, to move to your Desktop folder from your default user folder, you would type cd Desktop. And to move up one folder, use the cd.. shortcut.
+
+Creating and Deleting Files and Folders
+Use mkdir [new folder name] (make directory) to create a new folder. For instance, mkdir Awesome Pics will make a folder called Awesome Pics.
+
+Similarly, rmdir [folder name] (remove directory) will delete a folder, but only if it's empty. To delete a file, use del [file name].
+
+CMD Management
+If there's too much clutter on the Command Prompt's screen, type cls to clear the contents and start fresh. And if there's a command running that you want to cancel (maybe it's taking too long), hit Ctrl + C to end it.
+
+Networking Commands and More
+Some of the most useful Command Prompt commands deal with networking. Commands like ping let you see if your computer can reach a remote destination and how long it takes. Meanwhile, ipconfig lets you see the network overview for your current connection.
+
+Ping CMD Example
+Learning about CMD commands for managing networks is thus a great use of the tool.
+
+Taking the Command Prompt to the Next Level
+Now you're familiar with the basics of the Command Prompt, even if you've never used it before. Some tasks, like managing files and folders, will probably feel clunky in the command line if you're used to doing these with the GUI. But for other tasks, like checking your IP address, running a quick CMD command is much more convenient than clicking through a bunch of menus.
+
+While most CMD commands are specific to a Windows environment, Windows 10 now allows you to run the Bash shell used by Linux, macOS, and many other OSes. This is a worth learning about if you use multiple platforms.
