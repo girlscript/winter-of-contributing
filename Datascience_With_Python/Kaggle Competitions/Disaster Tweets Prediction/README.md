@@ -62,13 +62,13 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
 
   **Number of characters in tweets**
   
-    ![image](https://user-images.githubusercontent.com/62233992/142579779-44def7d3-8937-4d9f-8935-aebf1a843353.png)
+   ![image](https://user-images.githubusercontent.com/62233992/142579779-44def7d3-8937-4d9f-8935-aebf1a843353.png)
 
     The distribution of both seems to be almost same. 120 t0 140 characters in a tweet are the most common among both.
   
   **Number of words in a tweet**
   
-    ![image](https://user-images.githubusercontent.com/62233992/142579934-ca851b31-e6d3-4335-bd27-b7937a9fb2ee.png)
+   ![image](https://user-images.githubusercontent.com/62233992/142579934-ca851b31-e6d3-4335-bd27-b7937a9fb2ee.png)
 
   **Common stopwords in tweets**
   
@@ -104,9 +104,9 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
   Baseline Model:
   
-    ![image](https://user-images.githubusercontent.com/62233992/142581705-49fe4da0-8c83-490a-935e-2327bec17b80.png)
+  ![image](https://user-images.githubusercontent.com/62233992/142581705-49fe4da0-8c83-490a-935e-2327bec17b80.png)
 
-    ![image](https://user-images.githubusercontent.com/62233992/142581744-88e59fc7-6a58-4db9-8690-5167a754fc22.png)
+  ![image](https://user-images.githubusercontent.com/62233992/142581744-88e59fc7-6a58-4db9-8690-5167a754fc22.png)
 
   
   6. Conclusion!
