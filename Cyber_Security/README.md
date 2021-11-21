@@ -117,7 +117,7 @@
 - [Covering Tracks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Cybersecurity%206.9%20Covering%20tracks.md)
 
 ## Week-7 Tools
- - [Wireshark]
+ - [Wireshark](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/Wireshark.md)
  - [Nmap]
  - [OWASP-ZAP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/ZAP.md)
  - [Nikto]
