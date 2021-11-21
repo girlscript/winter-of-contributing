@@ -1,4 +1,4 @@
-# Binary tree to DLL
+# Doubly Linked List from Binary Tree
 
 ### What is a binary tree ?
 
@@ -19,7 +19,8 @@
 ### Approach 💭
 
 ```
-A binary tree can be converted to a doubly linked list based on in order traversal, where left and right pointers point to prev and next element Eg :-
+A binary tree can be converted to a doubly linked list based on in order traversal, 
+where left and right pointers point to prev and next element Eg :-
 
      10 
     /  \
@@ -31,7 +32,9 @@ can be converted to the doubly linked list
 
 25 <-> 12 <-> 30 <-> 10 <-> 36 <-> 15
 
-We can use an iterative approach here, keeping the track of head and tail of the doubly linked list, recursively solving left subtree, then redirecting the pointers to connect the last element and the current element, and finally recursively solving the right subtree
+We can use an iterative approach here, keeping the track of head and tail of the doubly linked list, 
+recursively solving left subtree, then redirecting the pointers to connect the last element and the current element, 
+and finally recursively solving the right subtree
 ```
 
 ### Implementation of above approach 👨‍💻
