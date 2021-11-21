@@ -39,7 +39,7 @@ In a multi-class classification problem, the predicted variable y can take more 
 Random forest is an ensemble model. Ensemble models are those that use more than two or three models in combination for prediction. Ensemble uses two types of methods: Bagging and Boosting. Random forest works on the Bagging principle. Bagging chooses a random sample from the dataset.Hence each model (individual decision tree) is generated from the samples known as row sampling. This step of row sampling with replacement is called bootstrap. Each model is trained independently which generates results. The final answer is based on majority voting after combining the results of all the models. This step is known as aggregation.<br>
 ![image](https://user-images.githubusercontent.com/89564985/142756467-d2f182af-225d-4391-af19-52b6ec6161e1.png)
 
-## K Nearest Neighbor (KNN):
+### K Nearest Neighbor (KNN):
 K Nearest Neighbor algorithm falls under the Supervised Learning category and is used for classification and regression. It is a versatile algorithm also used for imputing missing values and resampling datasets. As the name suggests it considers K Nearest Neighbors (Data points) to predict the class or continuous value for the new Datapoint.
 
 ## Summary:
