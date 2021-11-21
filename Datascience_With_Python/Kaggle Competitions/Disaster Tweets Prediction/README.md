@@ -140,7 +140,7 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
   ![image](https://user-images.githubusercontent.com/62233992/142584758-1d13c06a-4091-4af8-b952-3fe73b3be5a4.png)
   
-## 6. Conclusion!
+## Conclusion!
   
   Various classification models have been successfully applied on the given dataset...
   
