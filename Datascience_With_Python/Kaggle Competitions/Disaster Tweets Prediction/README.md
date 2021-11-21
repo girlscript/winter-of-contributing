@@ -35,14 +35,14 @@ In this competition, you’re challenged to build a machine learning model that 
   
 You are predicting whether a given tweet is about a real disaster or not. If so, predict a 1. If not, predict a 0.
 
-## Let's begin
+## Workflow
   
-  * Importing the libraries
-  * Importing the dataset
+  1. Importing the libraries
+  2. Importing the dataset
   
       The Training and Test dataset are imported... Also, a dataset_total is created consisting of both training and test set to apply the preprocessing techniques to the whole dataset...
   
-  * Data Preprocessing
+  3. Data Preprocessing
    
   To figure out the different preprocessing techniques to be applied on the dataset, we first have a look at the dataset
   
@@ -81,7 +81,7 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
 
   In both of them,"the" dominates which is followed by "a" in class 0 and "in" in class 1.
   
-  * Data Cleaning
+  4. Data Cleaning
   As we know,twitter tweets always have to be cleaned before we go onto modelling. So we will do some basic cleaning such as spelling correction,removing punctuations,removing html tags and emojis etc. So let's start.
   1) Removing urls
   2) Removing HTML tags
@@ -93,7 +93,7 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
     The dataset_total consisting of both training and test set is divided into training and test set. y_train is obtained from the original "dataset" because it consists of plain numerical value and did not require any preprocessing.
   
-## Aplying the models:
+  5. Aplying the models:
 
   * GloVe for Vectorization
   
@@ -108,7 +108,7 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   ![image](https://user-images.githubusercontent.com/62233992/142581744-88e59fc7-6a58-4db9-8690-5167a754fc22.png)
 
   
- ## Conclusion!
+  6. Conclusion!
   
   Various classification models have been successfully applied on the given dataset...
   
