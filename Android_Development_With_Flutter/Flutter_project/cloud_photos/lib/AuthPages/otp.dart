@@ -1,4 +1,6 @@
 import 'package:cloud_photos/Screen/home_screen.dart';
+import 'package:cloud_photos/widgets/colors.dart';
+import 'package:cloud_photos/widgets/text.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:pinput/pin_put/pin_put.dart';
@@ -69,21 +71,14 @@ class _OTPScreenState extends State<OTPScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("OTP Verification"),
-      ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Container(
             margin: const EdgeInsets.only(top: 40),
             child: Center(
-              child: Text(
-                'Verify +91-${widget.phone}',
-                style: const TextStyle(
-                  fontWeight: FontWeight.bold,
-                  fontSize: 26,
-                ),
-              ),
+              child: Helper.text('Verify +91-${widget.phone}', 20, 0, appColor,
+                  FontWeight.bold),
             ),
           ),
           Padding(
