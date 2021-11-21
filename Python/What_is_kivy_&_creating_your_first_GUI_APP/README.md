@@ -8,7 +8,7 @@ Advantages of Kivy is given below –
 -	It provides well-documented APIs.
 -	It offers a better representation of programs, including classes, widget configuration, and inherited classes.
 -	It performs better than HTML 5.
-Disadvantages
+# Disadvantages
 -	Non-native looking User Interface.
 -	Bigger package size (because Python interpreter needs to be included).
 -	Lack of community support (Kivy Community isn’t particularly large).
