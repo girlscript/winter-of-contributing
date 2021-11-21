@@ -8,7 +8,6 @@ import 'package:cloud_photos/Authentication/auth.dart';
 import 'package:cloud_photos/widgets/colors.dart';
 import 'package:cloud_photos/widgets/text.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:image_picker/image_picker.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -20,8 +19,26 @@ class HomeScreen extends StatefulWidget {
 
 firebase_storage.FirebaseStorage storage =
     firebase_storage.FirebaseStorage.instance;
+var images = [];
 
 class _HomeScreenState extends State<HomeScreen> {
+  void get_image() async {
+    var val = await FirebaseFirestore.instance
+        .collection('photos')
+        .doc(FirebaseAuth.instance.currentUser!.uid)
+        .get();
+    setState(() {
+      images = val.data()!['images'];
+    });
+    print(images);
+  }
+
+  @override
+  void initState() {
+    get_image();
+    super.initState();
+  }
+
   signoutmethod(context) async {
     await signout();
     WidgetsBinding.instance!.addPostFrameCallback(
@@ -40,111 +57,123 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final _advancedDrawerController = AdvancedDrawerController();
     return AdvancedDrawer(
-      drawer: Drawer(
-        child: SafeArea(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              CircleAvatar(
-                radius: 50,
-                child: Image.network(
-                    'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Circular_buffer.svg/1200px-Circular_buffer.svg.png'),
-              ),
-              IconButton(
-                onPressed: () {
-                  signoutmethod(context);
-                },
-                icon: const Icon(
-                  Icons.exit_to_app,
-                  size: 35,
-                ),
-              )
-            ],
-          ),
-        ),
-      ),
-      backdropColor: Colors.grey,
-      controller: _advancedDrawerController,
-      animationCurve: Curves.easeInOut,
-      animationDuration: const Duration(milliseconds: 300),
-      animateChildDecoration: true,
-      rtlOpening: false,
-      disabledGestures: false,
-      child: Scaffold(
-        resizeToAvoidBottomInset: false,
-        floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            showModalBottomSheet(
-              context: context,
-              isDismissible: true,
-              builder: (context) {
-                return const BottomSheet();
-              },
-            );
-          },
-          backgroundColor: appColor,
-          child: Icon(
-            Icons.cloud_upload,
-            size: 30,
-            color: secondaryColor,
-          ),
-        ),
-        backgroundColor: secondaryColor,
-        appBar: AppBar(
-          title: Text(
-            "Cloud Photos",
-            style: GoogleFonts.nunito(),
-          ),
-        ),
-        body: SafeArea(
-            child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(15.0),
-              child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        drawer: Drawer(
+          child: Container(
+              color: appColor,
+              child: new Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Helper.text(
-                        "Welcome Reshma !", 20, 0, appColor, FontWeight.bold),
-                    CircleAvatar(
-                        radius: 20,
-                        backgroundColor: primaryColor,
-                        backgroundImage: const NetworkImage(
-                            "https://images.pexels.com/photos/5822225/pexels-photo-5822225.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"))
-                  ]),
-            ),
-            Expanded(
-                child: GestureDetector(
-              onLongPress: () {
-                showAlertDialog(context);
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Helper.text("Dashboard", 20, 0, secondaryColor,
+                              FontWeight.bold),
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Helper.text(
+                              "Dashboard", 20, 0, Colors.grey, FontWeight.bold),
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Helper.text(
+                              "Dashboard", 20, 0, Colors.grey, FontWeight.bold),
+                        ],
+                      ),
+                    ),
+                    Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Row(
+                        children: [
+                          Helper.text(
+                              "Logout", 20, 0, Colors.grey, FontWeight.bold),
+                        ],
+                      ),
+                    ),
+                  ])),
+        ),
+        backdropColor: appColor,
+        controller: _advancedDrawerController,
+        animationCurve: Curves.easeInOut,
+        animationDuration: const Duration(milliseconds: 300),
+        animateChildDecoration: true,
+        rtlOpening: false,
+        disabledGestures: false,
+        childDecoration: const BoxDecoration(
+            borderRadius: const BorderRadius.all(Radius.circular(16))),
+        child: Scaffold(
+            resizeToAvoidBottomInset: false,
+            floatingActionButton: FloatingActionButton(
+              onPressed: () {
+                showModalBottomSheet(
+                  context: context,
+                  isDismissible: true,
+                  builder: (context) {
+                    return const BottomSheet();
+                  },
+                );
               },
-              child: Container(
-                height: MediaQuery.of(context).size.height,
+              backgroundColor: appColor,
+              child: Icon(
+                Icons.cloud_upload,
+                size: 30,
+                color: secondaryColor,
+              ),
+            ),
+            backgroundColor: secondaryColor,
+            body: SafeArea(
+                child: Column(children: [
+              Padding(
+                padding: const EdgeInsets.all(15.0),
+                child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Helper.text(
+                          "Welcome ${FirebaseAuth.instance.currentUser!.displayName} !",
+                          20,
+                          0,
+                          appColor,
+                          FontWeight.bold),
+                    ]),
+              ),
+              Expanded(
+                  child: GestureDetector(
+                onLongPress: () {
+                  showAlertDialog(context);
+                },
                 child: GridView.builder(
-                  itemCount: 20,
+                  itemCount: images.length,
                   gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                      maxCrossAxisExtent: 100,
-                      mainAxisSpacing: 10,
-                      crossAxisSpacing: 10),
+                    maxCrossAxisExtent: 100,
+                  ),
                   itemBuilder: (BuildContext context, int index) {
-                    return Container(
-                      decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20)),
-                      height: 200,
-                      width: 400,
-                      child: Image.network(
-                        'https://images.pexels.com/photos/5822226/pexels-photo-5822226.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500',
-                        fit: BoxFit.cover,
+                    return Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Container(
+                        height: 200,
+                        width: 400,
+                        decoration: BoxDecoration(
+                            borderRadius: BorderRadius.all(Radius.circular(5)),
+                            image: DecorationImage(
+                                image: NetworkImage(
+                                  images[index]['url'],
+                                ),
+                                fit: BoxFit.cover)),
                       ),
                     );
                   },
                 ),
-              ),
-            ))
-          ],
-        )),
-      ),
-    );
+              ))
+            ]))));
   }
 
   showAlertDialog(BuildContext context) {
@@ -260,51 +289,60 @@ class _BottomSheetState extends State<BottomSheet> {
             height: 40,
           ),
           !uploaded
-              ? Row(children: [
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  IconButton(
-                      onPressed: () async {
-                        setState(() {
-                          uploaded = true;
-                        });
-                        print(uploaded);
-                        await getImage(true);
-                        Navigator.pop(context);
-                        // uploading();
-                      },
-                      icon: Icon(
-                        Icons.image,
-                        size: 15,
-                        color: appColor,
-                      )),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Helper.text("Gallery", 20, 0, appColor, FontWeight.bold),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  IconButton(
-                      onPressed: () {
-                        Navigator.pop(context);
-                        getImage(false);
-                        uploading();
-                        if (uploaded == false) {
-                          const CircularProgressIndicator();
-                        }
-                      },
-                      icon: Icon(
-                        Icons.camera,
-                        color: appColor,
-                        size: 15,
-                      )),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Helper.text("Camera", 20, 0, appColor, FontWeight.bold),
-                ])
+              ? Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                        Row(
+                          children: [
+                            IconButton(
+                                onPressed: () async {
+                                  setState(() {
+                                    uploaded = true;
+                                  });
+                                  print(uploaded);
+                                  await getImage(true);
+                                  Navigator.pop(context);
+                                  // uploading();
+                                },
+                                icon: Icon(
+                                  Icons.image,
+                                  size: 15,
+                                  color: appColor,
+                                )),
+                            Helper.text(
+                                "Gallery", 20, 0, appColor, FontWeight.bold),
+                          ],
+                        ),
+                        const SizedBox(
+                          width: 10,
+                        ),
+                        Row(
+                          children: [
+                            IconButton(
+                                onPressed: () {
+                                  Navigator.pop(context);
+                                  getImage(false);
+                                  uploading();
+                                  if (uploaded == false) {
+                                    const CircularProgressIndicator();
+                                  }
+                                },
+                                icon: Icon(
+                                  Icons.camera,
+                                  color: appColor,
+                                  size: 15,
+                                )),
+                            const SizedBox(
+                              width: 10,
+                            ),
+                            Helper.text(
+                                "Camera", 20, 0, appColor, FontWeight.bold),
+                          ],
+                        )
+                      ]),
+              )
               : const Center(
                   child: CircularProgressIndicator(),
                 ),
