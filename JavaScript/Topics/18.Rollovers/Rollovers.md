@@ -6,7 +6,7 @@
 
 # **Features of Rollover**
 
-  ### Some of the key features of rollover include:
+   Some of the key features of rollover include:
 
  * Enables interaction between the user and the Web page.
  * Makes an image appear or disappear when the mouse is moved over it.
@@ -17,22 +17,22 @@
 # **Creating a Rollover**
 <br>
 
-  * ### A rollover is caused by an event called onmouseover and occurs when a visitor to your web site moves the mouse over an object that appears on the page. An object can be an image, text, or any element of a form.
+  *  A rollover is caused by an event called onmouseover and occurs when a visitor to your web site moves the mouse over an object that appears on the page. An object can be an image, text, or any element of a form.
 
-  * ### You react to the onmouseover event by using the __onmouseover__ attribute of an HTML tag that defines the object on the web page and then assign to the onmouseover attribute the action you want performed when the event occurs. 
-   * ### The action can assign a new value to an attribute of an object, call a method of an object, or call a JavaScript function.
+  *  You react to the onmouseover event by using the __onmouseover__ attribute of an HTML tag that defines the object on the web page and then assign to the onmouseover attribute the action you want performed when the event occurs. 
+   *  The action can assign a new value to an attribute of an object, call a method of an object, or call a JavaScript function.
 
 
 
 ## **Example 1:**
 <br>
 
-### In example below, we create a rollover effect that can change the color of its text using the style attribute.
+ In example below, we create a rollover effect that can change the color of its text using the style attribute.
 
 ```html
 <p
-onmouseover=”this.style.color=’red'”
-onmouseout=”this.style.color=’blue'”>
+onmouseover="this.style.color='red'"
+onmouseout="this.style.color='blue'">
 Move the mouse over this text to change its color to red. Move the mouse away to
 change the text color to blue.
 </p>
@@ -53,7 +53,7 @@ change the text color to blue.
 
 
 ## **Example 2:**
- ### This example shows how to create rollover effect that involves text and images. When the user places his or her mouse pointer over a book title, the corresponding book image appears.
+  This example shows how to create rollover effect that involves text and images. When the user places his or her mouse pointer over a book title, the corresponding book image appears.
 
  ```html 
 
@@ -64,16 +64,16 @@ change the text color to blue.
 <body>
 <table>
 <tbody>
-<tr valign=”top”>
-<td width=”50″>
-<a><img src=”vb2010book.jpg” name=”book”></a>
+<tr valign="top">
+<td width="50">
+<a><img src="vb2010book.jpg" name="book"></a>
 </td>
-<td><img height=”1″ width=”10″></td>
-<td><a onmouseover=”document.book.src=’vb2010book.jpg'”><b>Visual Basic 2010 Made Easy</b></a>
+<td><img height="1" width="10"></td>
+<td><a onmouseover="document.book.src='vb2010book.jpg'"><b>Visual Basic 2010 Made Easy</b></a>
 <br>
-<a onmouseover=”document.book.src=’vb2008book.jpg'”><b>Visual Basic 2008 Made Easy</b></a>
+<a onmouseover="document.book.src='vb2008book.jpg'"><b>Visual Basic 2008 Made Easy</b></a>
 <br>
-<a onmouseover=”document.book.src=’vb6book.jpg'”><b>Visual Basic 6 Made Easy</b></a>
+<a onmouseover="document.book.src='vb6book.jpg'"><b>Visual Basic 6 Made Easy</b></a>
 <br>
 </td>
 </tr>
@@ -106,14 +106,14 @@ change the text color to blue.
 
 ## **Example :**
 
-### In example below, we create a rollover effect that can change the text when move goes over the text.
+ In example below, we create a rollover effect that can change the text when move goes over the text.
 
 ```html
 <HTML>
 <head></head>
 <Body>
-<textarea rows=”2″ cols=”50″ name=”rollovertext” onmouseover=”this.value=’What is rollover?'”
-onmouseout=”this.value=’Rollover means a webpage changes when the user moves his or her mouse over an object on the page'”></textarea>
+<textarea rows="2" cols="50" name="rollovertext" onmouseover="this.value='What is rollover?'"
+onmouseout="this.value='Rollover means a webpage changes when the user moves his or her mouse over an object on the page'"></textarea>
 </body>
 </html>
 ```
