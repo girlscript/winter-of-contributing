@@ -94,7 +94,7 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
 
   In both of them,"the" dominates which is followed by "a" in class 0 and "in" in class 1.
   
-  ### Data Cleaning
+  ### 4. Data Cleaning
   
   As we know,twitter tweets always have to be cleaned before we go onto modelling. So we will do some basic cleaning such as spelling correction,removing punctuations,removing html tags and emojis etc. So let's start.
   
@@ -108,7 +108,7 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
   The dataset_total consisting of both training and test set is divided into training and test set. y_train is obtained from the original "dataset" because it consists of plain numerical value and did not require any preprocessing.
   
-  ### 5. Aplying the models:
+  ### 5. Applying the models:
 
   * **GloVe for Vectorization**
   
