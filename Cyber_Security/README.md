@@ -110,7 +110,7 @@
 - [Risk assessment](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/6.2_Risk_Assessment.md)
 - [Remediation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/CyberSecurity%206.3%20Remediation.md)
 - [Information gathering]
-- [Reconnaissance]
+- [Reconnaissance](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/6.5%20Reconnaissance.md)
 - [Threat Modelling]
 - [Gaining access]
 - [Maintaining access]
