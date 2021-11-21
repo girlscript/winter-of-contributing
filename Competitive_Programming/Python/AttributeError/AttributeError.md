@@ -106,7 +106,7 @@ To see a list of all function and data attributes associated with an object of a
 Or, if you want to see a fairly comprehensive overview of types and their attributes, check out the Python documentation on [built-in types](http://docs.python.org/2/library/stdtypes.html).
 
 
-## **Conclusion**
+## Conclusion
 
 
 Attribute errors in Python are raised when an invalid attribute is referenced. To solve these errors, first check that the attribute you are calling exists. Then, make sure the attribute is related to the object or data type with which you are working.
