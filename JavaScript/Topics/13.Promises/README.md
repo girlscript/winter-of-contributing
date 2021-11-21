@@ -304,12 +304,25 @@ Promise.resolve('Success').then(function(value) {
 });
 ```
 
+### Pros and Cons of using Promises:-
+
+**Pros**
+- Better defined and organized control flow of asynchronous logic.
+- Highly reduced coupling.
+- We have integrated error handling.
+- Enhanced readability.
+
+**Cons**
+- It kills the purpose of asynchronous non-blocking I/O.
+- Only one object can be returned.
+- We cannot return multiple arguments.
+
 #### References:
  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
  - [W3Schools](https://www.w3schools.com/js/js_promise.asp)
 <br>
 
 
- __Contributor :__ [Aniket Pathak](https://github.com/aniketpathak028)
+ __Contributor :__ [Aniket Pathak](https://github.com/aniketpathak028) [Sakshi Mishra](https://github.com/SakshiMishra1)
 
  
