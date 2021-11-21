@@ -2,7 +2,7 @@
 
 ## What is Built-in Fetch API ?
 
-The Built-in Fetch API is a modern interface that sends **HTTP Requests** from React(web browsers) to the background(servers). The fetch()method of **javascript**, having a global scope is way simpler and cleaner than the other methods of handling APIs. It intructs the browser to send a request to the specified URL in an asynchronous fashion.
+The Built-in Fetch API is a modern interface that sends **HTTP Requests** from React(web browsers) to the background(servers). The fetch()method of **javascript**, having a global scope is way simpler and cleaner than the other methods of handling APIs. It instructs the browser to send a request to the specified URL in an asynchronous fashion.
 
 - **Sending Requests**:
 
@@ -11,10 +11,10 @@ The Built-in Fetch API is a modern interface that sends **HTTP Requests** from R
   - It does not return the response body in JSON format.
 
 - **Handling Responses**:
-  - The fetch API returns a promise that resolves to a response which we can convert to JSON format using .json().
+  - The fetch API returns a promise that resolves to a response which we can convert to JSON format using **.json()**.
   - The .json() in turn returns a second promise which allows us then to react to the response accordingly.
-  - We can use the .then() block to access,render,modify or log the data fetched in the console.
-  - And the .catch() block to catch any potential errors, so that the page loading does not fail and only the error is logged to the console or an Error message is shown on the screen.
+  - We can use the **.then()** block to access,render,modify or log the data fetched in the console.
+  - And the **.catch()** block to catch any potential errors, so that the page loading does not fail and only the error is logged to the console or an Error message is shown on the screen.
 
 ## Where we are Using Built-in Fetch API ?
 
@@ -28,7 +28,7 @@ The Fetch API is useful to perform a multitude of tasks involving HTTP Requests.
 
 For Example :
 
-- #### Example 1 : While fetching data from an API using 'GET' Method
+- #### Example 1 : Fetching data from an API using 'GET' Method
 
   ```javascript
   import { useState, useEffect } from "react";
@@ -69,9 +69,12 @@ For Example :
 
   ##### Explanation:
 
-  - Fetch returns a promise, which resolves to a response.
-  - The response’s json() method returns a JavaScript object.
-  - If something goes wrong, the catch handler logs the error to the console
+  - We are fetching data from the URL **https://swapi.dev/api/films/** using the Fetch API.
+  - The fetch() takes this url as an argument and returns a promise, which resolves to a response object.
+  - We then use .json() method to convert the data into JSON format.
+  - The formatted fetched data is then stored in a state variable called movies.
+  - The movies is then mapped using .map() to render the list of movies on the screen.
+  - If something goes wrong, the .catch() handler logs the error to the console.
 
 - #### Example 2 : While uploading data to a database using 'POST' Method
 
@@ -145,20 +148,38 @@ For Example :
   ##### Explanation:
 
   - We have used the Developer version of the ReqRes API to demonstrate the 'POST' method.
+  - The fetch() takes the url as an argument and the other arguments include :
+    - **method** : to define the type of HTTP Request i.e. GET, POST, PUT, PATCH or DELETE.
+    - **body** : to send the data in JSON format with key value pairs.
+    - **headers** : to represent the meta-data associated with the API request and response.
+  - It then returns a promise, which resolves to a response object.
+  - We then use .json() method to convert the response into JSON format.
+  - The formatted data is then stored in a state variable called posts.
+  - The posts is then used to render the data that has been entered by the user in the form and sent via **POST** method.
 
 - #### Example 3: Using Async/Await
 
-```javascript
-async function fetchText() {
-  let response = await fetch("/readme.txt");
-  let data = await response.text();
-  console.log(data);
-}
-```
+  ```javascript
+  async function fetchText() {
+    let response = await fetch("/readme.txt");
+    let data = await response.text();
+    console.log(data);
+  }
+  ```
+
+  ##### Explanation:
+
+  - async/await simplifies the work with promises which is used by fetch().
+  - Here, fetchText() is an asynchronous function since it's marked with the async keyword.
+  - await fetch('/readme.txt') starts an HTTP request to '/readme' URL. Because the await keyword is present, the asynchronous function is paused until the request is completed. This allows the data to be fetched before any further operations are performed on it.
+  - When the request is complete, the response can be logged to the console.
 
 ## Benefits of the Using Built-In Fetch API.
 
-- It has no external dependencies.
+- The Fetch API is in-built in javascript. Thus, it requires no external dependencies.
+- It helps to make asynchronous requests and handle responses better by using promises and thereby avoiding callback hell.
+- We can use async/await with it as well as write functions to modify a request before it is sent.
+- It allows the developers to develop code that is more sequential and easy to debug thereby providing a simpler development experience.
 
 ## References
 
