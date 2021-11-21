@@ -49,12 +49,12 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
 
 ## Workflow
   
-  1. Importing the libraries
-  2. Importing the dataset
+  ### 1. Importing the libraries
+  ### 2. Importing the dataset
   
       The Training and Test dataset are imported... Also, a dataset_total is created consisting of both training and test set to apply the preprocessing techniques to the whole dataset...
   
-  3. Data Preprocessing
+  ### 3. Data Preprocessing
    
     To figure out the different preprocessing techniques to be applied on the dataset, we first have a look at the dataset
   
@@ -94,7 +94,7 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
 
     In both of them,"the" dominates which is followed by "a" in class 0 and "in" in class 1.
   
-  4. Data Cleaning
+  ### Data Cleaning
     As we know,twitter tweets always have to be cleaned before we go onto modelling. So we will do some basic cleaning such as spelling correction,removing punctuations,removing html tags and emojis etc. So let's start.
     1) Removing urls
     2) Removing HTML tags
@@ -106,7 +106,7 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   
     The dataset_total consisting of both training and test set is divided into training and test set. y_train is obtained from the original "dataset" because it consists of plain numerical value and did not require any preprocessing.
   
-  5. Aplying the models:
+  ### 5. Aplying the models:
 
   * **GloVe for Vectorization**
   
@@ -119,9 +119,26 @@ You are predicting whether a given tweet is about a real disaster or not. If so,
   ![image](https://user-images.githubusercontent.com/62233992/142581705-49fe4da0-8c83-490a-935e-2327bec17b80.png)
 
   ![image](https://user-images.githubusercontent.com/62233992/142581744-88e59fc7-6a58-4db9-8690-5167a754fc22.png)
-
   
-  6. Conclusion!
+  ### 6. Evaluating model score:
+  
+    After the 15th Epoch we have the got the accuracy as 0.7665 and val_loss as 0.4885.
+
+    Since, the value of val_loss is gradually decreasing this proves that our model is performing good and that it is has a good accuracy.
+  
+  ![image](https://user-images.githubusercontent.com/62233992/142748417-134963ae-7661-439b-90dc-db27b24354d3.png)
+
+  ### 7. Making our Submission:
+  
+    Various classification models have been successfully applied on the given dataset...
+
+    The different models can be evaluated using F1 between the predicted and expected answers
+  
+    The submission dataframe is as given below and contains all for each ID in the test set, we must predict 1 if the tweet is describing a real disaster, and 0 otherwise. Our submission dataframe is:
+  
+    ![image](https://user-images.githubusercontent.com/62233992/142584758-1d13c06a-4091-4af8-b952-3fe73b3be5a4.png)
+  
+## 6. Conclusion!
   
   Various classification models have been successfully applied on the given dataset...
   
