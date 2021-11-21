@@ -106,3 +106,7 @@ Hence, Total Time Complexity = O(n)
 
 **Space complexity** : The conversion is done in place hence only constant amount of space is required. Therefore,  Total Space Complexity = O(1)
 
+### References
+- https://www.techiedelight.com/wp-content/uploads/BT-To-DLL.png
+- https://www.geeksforgeeks.org/convert-given-binary-tree-doubly-linked-list-set-3/
+- https://www.techiedelight.com/place-convert-given-binary-tree-to-doubly-linked-list/
