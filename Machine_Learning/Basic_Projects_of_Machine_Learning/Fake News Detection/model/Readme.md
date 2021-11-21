@@ -42,7 +42,7 @@ To develop a machine learning program to identify when a article might be fake n
 ![confusion_matrix](https://user-images.githubusercontent.com/72789934/142722267-c410c08d-9b39-4d78-8799-4465852b515f.png)
 
 - PassiveAggressiveClassifier : 77% <br>
-- ![confusion_matrix_passive regressor_algo](https://user-images.githubusercontent.com/72789934/142722278-ecc31245-8926-44c0-8403-563f922d070a.png)
+ ![confusion_matrix_passive regressor_algo](https://user-images.githubusercontent.com/72789934/142722278-ecc31245-8926-44c0-8403-563f922d070a.png)
 
 - Multinomial Classifier with Hyperparameter: 82% <br>
 
