@@ -99,7 +99,7 @@ if __name__ == "__main__":
     print("\n")
 ```
 
-### Aanalysis  ⏳
+### Analysis  ⏳
 
 **Time complexity** : The tree is traversed only once so for n nodes it takes O(n) time, and same time may be used for printing the converted doubly linked list.  
 Hence, Total Time Complexity = O(n)
