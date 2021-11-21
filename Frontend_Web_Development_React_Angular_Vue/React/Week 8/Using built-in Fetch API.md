@@ -2,7 +2,31 @@
 
 ## What is Built-in Fetch API ?
 
+The Built-in Fetch API is a modern interface that sends **HTTP Requests** from React(web browsers) to the background(servers). The fetch()method of **javascript**, having a global scope is way simpler and cleaner than the other methods of handling APIs. It intructs the browser to send a request to the specified URL in an asynchronous fashion.
+
+- **Sending Requests**:
+
+  - The fetch() takes one argument for the default **GET** request— the URL to the resource to be fetched.
+  - It takes more arguments like method, body, header etc for other methods like **POST**.
+  - It does not return the response body in JSON format.
+
+- **Handling Responses**:
+  - The fetch API returns a promise that resolves to a response which we can convert to JSON format using .json().
+  - The .json() in turn returns a second promise which allows us then to react to the response accordingly.
+  - We can use the .then() block to access,render,modify or log the data fetched in the console.
+  - And the .catch() block to catch any potential errors, so that the page loading does not fail and only the error is logged to the console or an Error message is shown on the screen.
+
 ## Where we are Using Built-in Fetch API ?
+
+The Fetch API is useful to perform a multitude of tasks involving HTTP Requests.
+
+- Sending HTTP Requests with credentials included
+- Uploading Data in JSON format
+- Uploading single or multiple files
+- Fetching Data from an API
+- Checking the status of the fetch
+
+For Example :
 
 - #### Example 1 : While fetching data from an API using 'GET' Method
 
@@ -45,7 +69,9 @@
 
   ##### Explanation:
 
-  -
+  - Fetch returns a promise, which resolves to a response.
+  - The response’s json() method returns a JavaScript object.
+  - If something goes wrong, the catch handler logs the error to the console
 
 - #### Example 2 : While uploading data to a database using 'POST' Method
 
@@ -118,9 +144,21 @@
 
   ##### Explanation:
 
-  - We have used the Firebase AUTH REST API to demonstrate sign up/sign in.
+  - We have used the Developer version of the ReqRes API to demonstrate the 'POST' method.
+
+- #### Example 3: Using Async/Await
+
+```javascript
+async function fetchText() {
+  let response = await fetch("/readme.txt");
+  let data = await response.text();
+  console.log(data);
+}
+```
 
 ## Benefits of the Using Built-In Fetch API.
+
+- It has no external dependencies.
 
 ## References
 
