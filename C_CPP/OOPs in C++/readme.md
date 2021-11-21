@@ -9,3 +9,4 @@
   - [Inheritance and its types / Function overriding](./Inheritance%20and%20its%20types%20or%20Function%20overriding/)
   - [Virtual Functions, Friend Functions & Friend Classes](./Virtual%20Functions%2C%20Friend%20Functions%20%26%20Friend%20Classes/)
   - [Operator Overloading](./Operator%20Overloading/)
+  - [Abstract class in C++](./Abstract%20class%20in%20C++/)
