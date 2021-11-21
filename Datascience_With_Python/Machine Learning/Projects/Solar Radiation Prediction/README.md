@@ -30,7 +30,7 @@ The model that we built is now used to predict the radiation levels on the testi
 
 ---
 
-[Link to dataset used.](https://www.kaggle.com/dronio/SolarEnergy)
+[Link to dataset used.](https://github.com/photon149/winter-of-contributing/blob/d2fb8d36c29864f3d0d2d7905f57d7278d3d639e/Datascience_With_Python/DS%20Datasets/Solar%20Radiation%20Prediction/SolarPrediction.csv)
 
 ---
 
