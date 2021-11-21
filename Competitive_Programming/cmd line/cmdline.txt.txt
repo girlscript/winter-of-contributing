@@ -1,4 +1,5 @@
 A Beginner's Guide to the Windows Command Prompt
+![pic1](https://user-images.githubusercontent.com/77458628/142775653-bc65de9e-37ec-43d1-b95f-661ba1f7431b.jpg)
 
 If you're not familiar with the Command Prompt in Windows, here's a basic guide to the command line for beginners.
 
@@ -26,6 +27,7 @@ There are a few ways to open the Command Prompt in Windows. Below are the most c
 Type "command prompt" into the Start menu to search for it. You can also type "cmd" (the short name of the executable that runs the Command Prompt) if you prefer.
 Press Win + R to open the Run box, then type "cmd" and hit Enter to open it.
 Press Win + X (or right-click the Start button) and choose Command Prompt from the menu. Depending on your Windows settings, this may show Windows PowerShell instead. PowerShell is more powerful than the Command Prompt, but can run all the same commands.
+https://user-images.githubusercontent.com/77458628/142775662-6be07dcf-6ed7-4f27-8444-d0d9001a15ca.png
 Windows Open CMD Prompt
 Any of these will open the Command Prompt with regular permissions. A lot of useful commands require you to have administrator permissions, which will fail with a regular CMD window.
 
@@ -41,7 +43,7 @@ This is your current location. Any commands you run that rely on location (such 
 It's important to know that when working in the Command Prompt, you must type commands exactly as they should be. Since you're issuing commands directly to your computer, it won't understand if you type something wrong.
 
 If you type a command that your computer doesn't recognize, you'll see a message that says [Command] is not recognized... and Windows won't do anything.
-
+https://user-images.githubusercontent.com/77458628/142775663-a2182429-252d-4ae3-ad81-7bbf5576f549.png
 Command Prompt Command Not Recognized
 This isn't really a problem; what's more of a risk is accidentally typing the wrong command, or using a command in a way you didn't intend. For example, when trying to delete one file, you might accidentally tell it to delete an entire folder instead.
 
@@ -53,12 +55,14 @@ There are lots of Command Prompt commands, and most of them aren't intuitive for
 Let's look at a handful of CMD commands that illustrate its use for a beginner. These are just a very small sampling of what the Command Prompt can do, however. When you're ready to move on, have a look at more CMD commands you should know, as well as our cheat sheet of handy commands.
 
 Getting Help
+https://user-images.githubusercontent.com/77458628/142775664-36f5f5d9-1f45-462c-be19-832332fc17ce.png
 CMD Help Example Commands
 Typing help will list many common commands that you can use. These will get you started, so you don't have to go looking for command names on your own.
 
 If you'd like more specific information about how to use a certain command, type it followed by /?. This will give you more help, plus additional options for modifying how it works.
 
 Listing and Changing Directories
+https://user-images.githubusercontent.com/77458628/142775665-073bc43c-37c3-48d2-9dac-0c3840ad7753.png
 Windows Directory Command Example
 The dir command, which is short for directory, will list the contents of the folder that you're currently in. As mentioned earlier, you can check this by looking at the folder that appears to the left of your current command.
 
@@ -76,6 +80,7 @@ If there's too much clutter on the Command Prompt's screen, type cls to clear th
 
 Networking Commands and More
 Some of the most useful Command Prompt commands deal with networking. Commands like ping let you see if your computer can reach a remote destination and how long it takes. Meanwhile, ipconfig lets you see the network overview for your current connection.
+https://user-images.githubusercontent.com/77458628/142775666-5beb87d7-8adb-4dc5-abb2-12ab365e9b55.png
 
 Ping CMD Example
 Learning about CMD commands for managing networks is thus a great use of the tool.
