@@ -26,6 +26,7 @@
 
 ## **Example 1:**
 <br>
+
 ### In example below, we create a rollover effect that can change the color of its text using the style attribute.
 
 ```html
