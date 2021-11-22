@@ -39,14 +39,15 @@ It has varied options such as :
 * --help
 <br>
 **And many more.....**
-Refer the documentation [here](https://angular.io/cli/build#options) for more in depth knowledge.
+<br>
+Refer the documentation ![here](https://angular.io/cli/build#options) for more in depth knowledge.
 
 ## Building the new Application
 
 * To create a new angular application use this command ```ng new appname```.
 * Choose 'yes' for Angular routing option.
  <br>
-![](https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular1.png)
+![x](https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular1.png)
 <br>
 * Select the styles like CSS or SCSS.
 <br>
