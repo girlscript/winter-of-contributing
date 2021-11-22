@@ -67,3 +67,6 @@ Saturation is depth or intensity of color in an image. The following image is sa
 ## What are data augmentation libraries?
 There are libraries for developers, such as Albumentations, Augmentor, Imgaug, nlpaug, NLTK and spaCy. These libraries include geometric transformation & color space transformations  functions, Kernel filters (i.e. image processing function for sharpening and blurring) and other text transformations. Data augmentation libraries use different deep learning frameworks, for example, Keras, MxNet, PyTorch and TensorFlow.
 
+## Advantages
+
+Data augmentation is useful to improve performance and outcomes of machine learning models by forming new and different examples to train datasets. If dataset in a machine learning model is rich and sufficient, the model performs better and more accurate.
