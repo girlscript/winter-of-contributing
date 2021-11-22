@@ -34,6 +34,7 @@ of inputs passed
 **Advantages**
 - Quick predictions.
 - Can be performs with smaller data
+
 **Disadvantages:**
 - Cannot be applied on non-linear data.
 - Proper functioning of model depends on training of data.
