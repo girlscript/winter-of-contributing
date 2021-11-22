@@ -3,7 +3,7 @@
 
 * A Binary Search Tree(BST) is a binary tree in which for each node, value of all the nodes in left subtree is lesser or equal to node's value and value of all the nodes in right subtree is greater.
 
-![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Binary_search_tree.svg/1200px-Binary_search_tree.svg.png)
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6waxoTco3skyJiAPWHR44spwOCPUnQH_Pw&usqp=CAU)
 
 ## Algorithm to search an element in BST
 
@@ -14,7 +14,7 @@
 * If the number is less than mid element then search in left half of mid and if greater than mid then search in right half of mid.
   In case of equality, we have found the element.
 
-* Let's say we want to search key 3 from above figure. As 3 is less than 8, so go searching towards left.
+* Let's say we want to search key 3 from above figure. As 3 is less than 6, so go searching towards left.
 
 * Once again we'll compare to mid element and this time we got the element at mid.
 
