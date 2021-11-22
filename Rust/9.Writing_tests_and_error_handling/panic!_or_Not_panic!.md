@@ -1,0 +1,3 @@
+<h1>Panic! or Not to Panic!</h1>
+Rust handles critical errors in code with the panic! macro. When this macro executes, the whole program unwinds, that is, the program clears the stack and then quits. Due to the way a program quits after panicking, panic! is commonly used for unrecoverable errors.
+There may be times when panic is caused in the code that is called by our program. For such situations, a backtrace is printed on the console to find the name of the file where the program panicked. A backtrace is read from top to bottom until the name of a file we wrote appears. All lines above that point will be the code that our code called.
