@@ -40,7 +40,7 @@ It has varied options such as :
 
 **And many more.....**
 
-Refer the documentation ![here](https://angular.io/cli/build#options) for more in depth knowledge.
+Refer the documentation [here](https://angular.io/cli/build#options) for more in depth knowledge.
 
 ## Building the new Application
 
@@ -64,3 +64,10 @@ Refer the documentation ![here](https://angular.io/cli/build#options) for more i
 
 * After successfully building the Angular project, open your browser and enter "http://localhost:4200/" OR by using "ng serve --open " command to directly display UI in your browser.
 
+## Conclusion
+Hence, we successfully created an Angular App using CLI.
+
+## References 
+* https://angular.io/cli/build
+
+## Thank You!
