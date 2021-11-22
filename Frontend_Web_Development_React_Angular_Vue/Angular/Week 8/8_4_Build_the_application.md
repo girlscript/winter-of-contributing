@@ -60,5 +60,6 @@ Refer the documentation [here](https://angular.io/cli/build#options) for more in
 * To build and execute the project by using "ng serve" command.
 <br>
 ![](https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular4.png)
-
+<br>
+* After successfully building the Angular project, open your browser and enter "http://localhost:4200/" OR by using "ng serve --open " command to directly display UI in your browser.
 
