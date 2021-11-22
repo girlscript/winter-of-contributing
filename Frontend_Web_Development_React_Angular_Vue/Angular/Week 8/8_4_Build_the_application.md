@@ -18,6 +18,9 @@ If not then install in using ```npm install -g @angular/cli```
 
 ## Ng command
 
+* One can use ```ng build <project> [options]``` and ```ng b <project> [options]```.
+* It compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.
+
 **Arguments**
 ```<project>``` : The name of the project to build. Can be an application or a library. It has value type as ```string```.
 
@@ -34,34 +37,17 @@ It has varied options such as :
 * --deploy-url
 * --extract-licenses
 * --help
-* --i18n-missing-translation
-* --index
-* --inline-style-language
-* --localize
-* --main
-* --named-chunks
-* --ngsw-config-path
-* --optimization
-* --output-hashing
-* --output-path
-* --poll
-* --polyfills
-* --preserve-symlinks
-* --prod
-* --progress
-* --resources-output-path
-* --service-worker
-* --show-circular-dependencies
-* --source-map
+<br>
 **And many more.....**
-Refer the documentation here https://angular.io/cli/build#options for more in depth knowledge.
+Refer the documentation [here](https://angular.io/cli/build#options) for more in depth knowledge.
 
 ## Building the new Application
 
-* To create a new angular application use this command ```ng new appname```, choose 'yes' for Angular routing option and select the styles like CSS or SCSS. 
-* Once executed, Angular CLI will create an Angular project with some default node module packages. 
-* One can also use ```ng build <project> [options]``` and ```ng b <project> [options]```.
-* It compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.
+* To create a new angular application use this command ```ng new appname```.
+* Choose 'yes' for Angular routing option.
+![]
+* Select the styles like CSS or SCSS.
+![]
 
 
 
