@@ -5,4 +5,4 @@
 ## python threading
 ## the threading module
 ## synchronizing threads
-this https://drive.google.com/file/d/10XEc9VjuYLvgNAke2aNMGt0paLOSJ-Wm/view?usp=drivesdk
+https://github.com/girlscript/winter-of-contributing/files/7581780/Threading_in_Python.md
