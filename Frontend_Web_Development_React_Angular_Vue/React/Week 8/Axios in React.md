@@ -2,25 +2,38 @@
 
 ## What is Axios in React ?
 
-Promise based HTTP client for the browser and node.js.Axios as a data fetching library, how to set it up with React, and perform every type of HTTP request with it.
+Axios is a Promise based HTTP data fetching library that is based in javascript and used for the browser as well as Node applications.Axios makes it easy to perform asynchronous API calls to REST endpoints, perform **CRUD** (Create, Read, Update, Delete) operations and is compatible with front-end frameworks like React.
 
-**Setting Up Axios with React**
+**Setting Up Axios with React**:
+To set up Axios in React, run the following command in the terminal of the react app.
 
 ```
 npm install axios
 
 ```
 
+**Shorthand methods for Axios HTTP requests**:
+Axios library provides a set of shorthand methods for performing different types of HTTP requests. They are self-explanatory and match the HTTP method names. The methods are as follows:
+
+- axios.request(config)
+- axios.get(url, config)
+- axios.delete(url, config)
+- axios.head(url, config)
+- axios.options(url, config)
+- axios.post(url, data, config)
+- axios.put(url, data, config)
+- axios.patch(url, data, config)
+
 ## Where we use Axios in React ?
 
-- Make XMLHttpRequests from the browser
-- Make http requests from node.js
-- Supports the Promise API
-- Intercept request and response
-- Transform request and response data
-- Cancel requests
-- Automatic transforms for JSON data
-- Client side support for protecting against XSRF
+Axios is useful to perform a multitude of tasks involving HTTP Requests.
+
+- Making HTTP Requests from the browser and Node Applications
+- Intercepting Requests and Response data
+- Modifying and transforming Request and Response data
+- Cancelling Requests
+- Automatic transformation for JSON data
+- Providing Client side support for protecting against XSRF
 
 - #### Example 1: GET Request Using Axios
 
@@ -68,6 +81,12 @@ npm install axios
   ![](./assets/axios_example1.JPG)
 
   ##### Explanation :
+
+  - To perform a HTTP GET request and retrieve a list of news headlines from the endpoint **https://newsapi.org/v2/top-headlines?language=en** the **axios.get()** shorthand method is used.
+  - The url of the endpoint is passed as a parameter to this axios.get() method.
+  - This method then returns a Promise, so that we can use the .then() to store the res.data.articles in a state variable called articles.
+  - The articles is then mapped using .map() to render the list of news headlines on the screen.
+  - If something goes wrong, the .catch() handler logs the error to the console.
 
 - #### Example 2 : POST Request Using Axios
 
@@ -135,6 +154,17 @@ npm install axios
   export default App;
   ```
 
+  This code would render the following output:
+
+  ![](./assets/axios_example2.JPG)
+
+  ##### Explanation:
+
+  - For demonstrating a POST method, a form is used to let the user enter a new post title.
+  - So the first thing we need to do is to connect the submit event of the form with the event handler method performPostRequest().
+  - The HTTP post request is performed by calling axios.post(). Again, two parameter are needed. First we’re passing in the URI of the service endpoint. Second, we’re passing in an object which contains the properties of the new todo item: userId, title and completed.
+  - Processing the result is done in the same way as seen before when we’ve executed the HTTP GET requests.
+
 ## Benefits of the Axios
 
 - It has good defaults to work with JSON data. Unlike alternatives such as the Fetch API, you often don't need to set your headers. Or perform tedious tasks like converting your request body to a JSON string.
@@ -144,4 +174,4 @@ npm install axios
 ## References
 
 - https://www.freecodecamp.org/news/how-to-use-axios-with-react/
--
+- https://github.com/axios/axios
