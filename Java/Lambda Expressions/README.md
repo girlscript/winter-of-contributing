@@ -1,29 +1,32 @@
-![Generics](/Assets/Generics.png)
+![Lambda Expression](/Assets/Lambda%20Expressions.png)
 
+## Lambda Expressions
 
-## Generics
-
-- What are generics, importance of it<br>
+- Introduction to Lambda expressions<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()
-- Bounded types<br>
+- Block lambda expressions<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()
-- Wildcard Arguments<br>
+- Generic Functional Expressions<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()
-- Generic Methods and generic constructors<br>
+- Exception and variable captures<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()
-- Generic Interfaces<br>
+- Methods references<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()
-- Ambiguity and generic restrictions<br>
+- Constructor references<br>
+  [`Documentation📃`]()
+  [`Audio🔉`]()
+  [`Video🖥️`]()
+- Predefined functional interface<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()

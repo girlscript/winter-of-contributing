@@ -1,21 +1,21 @@
-![Applets](/Assets/Applets.png)
+![Stream API](/Assets/Stream%20API.png)
 
 
-## Applets
+## Stream API
 
-- Applet Fundamentals<br>
+- Stream basics<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()
-- Transient and volatile modifiers<br>
+- Parallel streams<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()
-- Instanceof, strictfp<br>
+- Mapping<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()
-- Asset, imports, static imports<br>
+- Collecting<br>
   [`Documentation📃`]()
   [`Audio🔉`]()
   [`Video🖥️`]()
