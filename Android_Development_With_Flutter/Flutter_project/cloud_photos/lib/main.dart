@@ -1,6 +1,4 @@
 import 'dart:async';
-
-import 'package:cloud_photos/Screen/home_screen.dart';
 import 'package:cloud_photos/widgets/colors.dart';
 import 'package:cloud_photos/widgets/text.dart';
 import 'package:flutter/material.dart';
@@ -36,11 +34,10 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-    // TODO: implement initState
     Timer(
-        Duration(seconds: 3),
+        const Duration(seconds: 3),
         () => Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (b) => LoginPage())));
+            context, MaterialPageRoute(builder: (b) => const LoginPage())));
     super.initState();
   }
 
