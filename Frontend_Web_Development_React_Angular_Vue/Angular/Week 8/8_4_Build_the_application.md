@@ -45,11 +45,11 @@ Refer the documentation [here](https://angular.io/cli/build#options) for more in
 
 * To create a new angular application use this command ```ng new appname```.
 * Choose 'yes' for Angular routing option.
-![https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular1.png]
+![](https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular1.png)
 * Select the styles like CSS or SCSS.
-![https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular2.png]
+![](https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular2.png)
 
-![https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular3.png]
-![https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular4.png]
+![](https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular3.png)
+![](https://github.com/HastiSutaria/winter-of-contributing/blob/Frontend_Web_Development_React_Angular_Vue/Frontend_Web_Development_React_Angular_Vue/Angular/Week%208/assets/Angular-App-Images/angular4.png)
 
 
