@@ -71,6 +71,70 @@ npm install axios
 
 - #### Example 2 : POST Request Using Axios
 
+  ```javascript
+  import "./App.css";
+  import React, { useState, useRef } from "react";
+  import axios from "axios";
+
+  const App = () => {
+    const [posts, setPosts] = useState([]);
+    const titleRef = useRef();
+    const bodyRef = useRef();
+    const createPost = (event) => {
+      event.preventDefault();
+      const title = titleRef.current.value;
+      const body = bodyRef.current.value;
+
+      axios
+        .post("https://jsonplaceholder.typicode.com/posts", {
+          title: title,
+          body: body,
+        })
+        .then((res) => {
+          console.log(res.data);
+          setPosts(res.data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+    };
+
+    return (
+      <div className="App">
+        <form onSubmit={createPost}>
+          <label htmlFor="title-input">Title</label>
+          <input
+            id="title-input"
+            type="text"
+            name="Title"
+            placeholder="Enter Post Title"
+            ref={titleRef}
+          />
+          <br />
+          <br />
+          <label htmlFor="body-input">Description</label>
+          <input
+            id="body-input"
+            name="Body"
+            placeholder="Enter Post Body"
+            type="textarea"
+            ref={bodyRef}
+          />
+          <br />
+          <br />
+          <button type="submit">Create Post</button>
+        </form>
+
+        <div key={posts.id}>
+          <h3>{posts.title}</h3>
+          <h5>{posts.body}</h5>
+        </div>
+      </div>
+    );
+  };
+  export default App;
+  ```
+
 ## Benefits of the Axios
 
 - It has good defaults to work with JSON data. Unlike alternatives such as the Fetch API, you often don't need to set your headers. Or perform tedious tasks like converting your request body to a JSON string.
