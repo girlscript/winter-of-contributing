@@ -1,0 +1,2 @@
+- [Max min problem using divide and conquer algorithm](./max_and_min_using_dac.md)
+- [Video on Binary Search](./binary_search/binary_search_video.md)

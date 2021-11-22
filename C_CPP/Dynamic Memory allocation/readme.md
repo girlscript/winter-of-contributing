@@ -1,0 +1,3 @@
+- [malloc,calloc,realloc](malloc,calloc,realloc.md)
+- [Audio for Dynamic memory allocation](Audio_Dynamic_memory_allocation.md) 
+- [Dynamic Memory Deallocation](dynamic-memory-deallocation.md)
