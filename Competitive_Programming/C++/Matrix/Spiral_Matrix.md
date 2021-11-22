@@ -9,6 +9,14 @@ I have given a Example for you to get a better understanding:
 
 Given a matrix of size r\*c. Traverse the matrix in spiral form.
 
+## Explaination
+* The algorithm starts from the top left corner of the array, and traverses the first row from left to right and at the end it increments the top corner index.
+* It traverses the right most column top to bottom and at the end it decrements the right corner index.
+* It traverses the bottom most row and the end it decrements the bottom corner index afterward.
+* It traverses the left most column and at he end it increments the left corner index once it’s done.
+
+The above steps continues till hte left index > the right index and the top index > the bottom index.
+
 
 
 ## Code
