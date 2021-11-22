@@ -1,13 +1,14 @@
-## REVERSE DELETE ALGORITHM FOR MINIMUM SPANNING TREE
+<h1 align="center">  REVERSE DELETE ALGORITHM FOR MINIMUM SPANNING TREE</h1>
 
-The reverse-delete algorithm is an algorithm in graph theory used to obtain a minimum spanning tree from a given connected, edge-weighted graph.
+* The reverse-delete algorithm is an algorithm in graph theory used to obtain a minimum spanning tree from a given connected, edge-weighted graph.In this Algorithm we study   about the graph in which we can identify how reverse delete algorithm works to obtain a minimum spanning tree from a given connected, edge-weighted graph.
 
-In this Algorithm we study about the graph in which we can identify how reverse delete algorithm works to obtain a minimum spanning tree from a given connected, edge-weighted graph.Reverse delete algorithm is opposite to kruskal algorithm. In kruskal algorithm we solve the graph in increasing order and in reverse delete algorithm we solve the graph in decreasing order.Kruskal’s algorithm starts with an empty graph and adds edges while the Reverse-Delete algorithm starts with the original graph and deletes edges from it. If the graph is disconnected, this algorithm will find a minimum spanning tree for each disconnected part of the graph.This algorithm is a greedy algorithm, choosing the best choice given any situation.
-
-The algorithm works as follows:<br>
- ***Start with a full graph, (V,E) and begin deleting edges in order of decreasing cost as long as deleting it does not disconnect the graph.***
+* Reverse delete algorithm is opposite to kruskal algorithm. In kruskal algorithm we solve the graph in increasing order and in reverse delete algorithm we solve the graph in decreasing order.Kruskal’s algorithm starts with an empty graph and adds edges while the Reverse-Delete algorithm starts with the original graph and deletes edges from it.
+ 
+* If the graph is disconnected, this algorithm will find a minimum spanning tree for each disconnected part of the graph.This algorithm is a greedy algorithm, choosing the best choice given any situation.
 
 ### :arrow_right:Algorithm:-
+The algorithm works as follows:<br>
+ ***Start with a full graph, (V,E) and begin deleting edges in order of decreasing cost as long as deleting it does not disconnect the graph.***
 ```
 Initially E is the set of all edges in G(Graph)
 T is E (* T will store edges of a MST *)
@@ -20,32 +21,25 @@ return the set T
 <hr></hr>
 
 ### :arrow_right:Example:-<br>
-Consider the below graph:<br>
-![Graph](https://user-images.githubusercontent.com/72224843/141634707-d4fc0d62-c91b-4573-bf58-33cfd8a38c24.png)
-&nbsp;&nbsp; &nbsp;
-![download-removebg-preview](https://user-images.githubusercontent.com/72224843/141615338-5cf5d86e-403d-483b-b8cc-6de93df6b9f6.png)&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;
-![MST-1](https://user-images.githubusercontent.com/72224843/141635036-8d3868a7-da41-4844-bf33-5fa9cf566fca.png)
+Consider the below graph:
+<br>
+<p><img src="https://user-images.githubusercontent.com/72224843/141634707-d4fc0d62-c91b-4573-bf58-33cfd8a38c24.png" width="300" height="300">
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+<img src="https://user-images.githubusercontent.com/72224843/141615338-5cf5d86e-403d-483b-b8cc-6de93df6b9f6.png" width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+<img src="https://user-images.githubusercontent.com/72224843/141635036-8d3868a7-da41-4844-bf33-5fa9cf566fca.png" width="300" height="300"></p>
 <br>
 
 **Step 1:-** Delete the edge 3-4 which does not disconnect the graph, so the edge can be removed.<br>
-![Reverse-Graph-1](https://user-images.githubusercontent.com/72224843/141635177-32b9bf7c-287e-46e5-999a-da194fca0059.png)
-<br>
+
 **Step 2:-** Next select the edge 5-6 with weight 11. Since, deleting the edge 5-6 does not disconnect the graph, so the edge can be removed.</br>
-![Reverse-Graph-2](https://user-images.githubusercontent.com/72224843/141635397-7e1066c9-0707-4bea-8821-750822e02627.png)
-<br>
+
 **Step 3:-** Delete the edge 1-3 which does not disconnect the graph, so the edge can be removed.<br>
-![Reverse-Graph-3](https://user-images.githubusercontent.com/72224843/141635966-ecb907d8-477f-4440-a0ac-465d923969a3.png)
-<br>
+
 **Step 4:-** Next select the edge 4-6 with weight 9. Deleting this edge will result in the graph being disconnected, as Node 6 gets seperated. So, we do not delete the edge.<br>
-![Reverse-Graph-4](https://user-images.githubusercontent.com/72224843/141636129-9b00744c-849a-4a87-96a7-458fd257cacb.png)
-<br>
+
 **Step 5:-** Next select the edge 1-2 with weight 8. Since, deleting the edge 1-2 does not disconnect the graph, so the edge can be removed.</br>
-![Reverse-Graph-5](https://user-images.githubusercontent.com/72224843/141636310-753d5f0c-ead0-40f0-b762-c37bfb19eef3.png)
-</br>
+
 **Step 6:-** Next select the edge 4-5 with weight 8. Since, deleting the edge 4-5 does not disconnect the graph, so the edge can be removed.</br>
-![MST-1](https://user-images.githubusercontent.com/72224843/141636481-238da6d9-5010-43e4-a6a3-4a3d9e224ebf.png)
-<br>
-***Minimum Spanning Tree(final graph returned by the algorithm)***<br>
 <hr></hr>
 
 ### :arrow_right:Implementation of Reverse Delete Algorithm (C++ Code):-<br>
