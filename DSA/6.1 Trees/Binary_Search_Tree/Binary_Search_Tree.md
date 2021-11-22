@@ -53,7 +53,7 @@ BstNode* GetNewNode(int data) {
 	return newNode;
 }
 
-//To insert data in BST
+//Function to insert data in BST
 BstNode* Insert(BstNode* root, int data) {
 	if(root == NULL) {
 		root = GetNewNode(data);
@@ -68,7 +68,7 @@ BstNode* Insert(BstNode* root, int data) {
 	return root;
 }
 
-//To search an element in BST
+//Function to search an element in BST
 bool Search(BstNode* root, int data) {
 	if(root == NULL) {
 		return false;
