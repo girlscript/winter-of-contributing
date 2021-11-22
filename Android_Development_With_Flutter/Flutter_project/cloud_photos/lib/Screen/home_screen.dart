@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -59,123 +60,126 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     final _advancedDrawerController = AdvancedDrawerController();
     return AdvancedDrawer(
-        drawer: Drawer(
-          child: Container(
-              color: appColor,
-              child: Column(
-                  mainAxisAlignment: MainAxisAlignment.center,
+      drawer: Drawer(
+        child: Container(
+            color: appColor,
+            child:
+                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
                   children: [
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        children: [
-                          Helper.text("Dashboard", 20, 0, secondaryColor,
-                              FontWeight.bold),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        children: [
-                          Helper.text(
-                              "Dashboard", 20, 0, Colors.grey, FontWeight.bold),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        children: [
-                          Helper.text(
-                              "Dashboard", 20, 0, Colors.grey, FontWeight.bold),
-                        ],
-                      ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Row(
-                        children: [
-                          Helper.text(
-                              "Logout", 20, 0, Colors.grey, FontWeight.bold),
-                        ],
-                      ),
-                    ),
-                  ])),
-        ),
-        backdropColor: appColor,
-        controller: _advancedDrawerController,
-        animationCurve: Curves.easeInOut,
-        animationDuration: const Duration(milliseconds: 300),
-        animateChildDecoration: true,
-        rtlOpening: false,
-        disabledGestures: false,
-        childDecoration: const BoxDecoration(
-            borderRadius: BorderRadius.all(Radius.circular(16))),
-        child: Scaffold(
-            resizeToAvoidBottomInset: false,
-            floatingActionButton: FloatingActionButton(
-              onPressed: () {
-                showModalBottomSheet(
-                  context: context,
-                  isDismissible: true,
-                  builder: (context) {
-                    return const BottomSheet();
-                  },
-                );
-              },
-              backgroundColor: appColor,
-              child: Icon(
-                Icons.cloud_upload,
-                size: 30,
-                color: secondaryColor,
+                    Helper.text(
+                        "Dashboard", 20, 0, secondaryColor, FontWeight.bold),
+                  ],
+                ),
               ),
-            ),
-            backgroundColor: secondaryColor,
-            body: SafeArea(
-                child: Column(children: [
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Helper.text(
+                        "Dashboard", 20, 0, Colors.grey, FontWeight.bold),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Helper.text(
+                        "Dashboard", 20, 0, Colors.grey, FontWeight.bold),
+                  ],
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  children: [
+                    Helper.text("Logout", 20, 0, Colors.grey, FontWeight.bold),
+                  ],
+                ),
+              ),
+            ])),
+      ),
+      backdropColor: appColor,
+      controller: _advancedDrawerController,
+      animationCurve: Curves.easeInOut,
+      animationDuration: const Duration(milliseconds: 300),
+      animateChildDecoration: true,
+      rtlOpening: false,
+      disabledGestures: false,
+      childDecoration: const BoxDecoration(
+          borderRadius: BorderRadius.all(Radius.circular(16))),
+      child: Scaffold(
+        resizeToAvoidBottomInset: false,
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            showModalBottomSheet(
+              context: context,
+              isDismissible: true,
+              builder: (context) {
+                return const BottomSheet();
+              },
+            );
+          },
+          backgroundColor: appColor,
+          child: Icon(
+            Icons.cloud_upload,
+            size: 30,
+            color: secondaryColor,
+          ),
+        ),
+        backgroundColor: secondaryColor,
+        body: SafeArea(
+          child: Column(
+            children: [
               Padding(
                 padding: const EdgeInsets.all(15.0),
                 child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Helper.text(
-                          "Welcome ${FirebaseAuth.instance.currentUser!.displayName} !",
-                          20,
-                          0,
-                          appColor,
-                          FontWeight.bold),
-                    ]),
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Helper.text(
+                        "Welcome ${FirebaseAuth.instance.currentUser!.displayName} !",
+                        20,
+                        0,
+                        appColor,
+                        FontWeight.bold),
+                  ],
+                ),
               ),
               Expanded(
-                  child: GestureDetector(
-                onLongPress: () {
-                  showAlertDialog(context);
-                },
-                child: GridView.builder(
-                  itemCount: images.length,
-                  gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-                    maxCrossAxisExtent: 100,
-                  ),
-                  itemBuilder: (BuildContext context, int index) {
-                    return Padding(
-                      padding: const EdgeInsets.all(8.0),
-                      child: Container(
+                child: GestureDetector(
+                  onLongPress: () {
+                    showAlertDialog(context);
+                  },
+                  child: GridView.builder(
+                    itemCount: images.length,
+                    gridDelegate:
+                        const SliverGridDelegateWithMaxCrossAxisExtent(
+                      maxCrossAxisExtent: 100,
+                    ),
+                    itemBuilder: (BuildContext context, int index) {
+                      return Container(
+                        margin: EdgeInsets.all(2),
                         height: 200,
                         width: 400,
-                        decoration: BoxDecoration(
-                            borderRadius: BorderRadius.all(Radius.circular(5)),
-                            image: DecorationImage(
-                                image: NetworkImage(
-                                  images[index]['url'],
-                                ),
-                                fit: BoxFit.cover)),
-                      ),
-                    );
-                  },
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(10),
+                          child: CachedNetworkImage(
+                              fit: BoxFit.cover,
+                              imageUrl: images[index]['url']),
+                        ),
+                      );
+                    },
+                  ),
                 ),
-              ))
-            ]))));
+              )
+            ],
+          ),
+        ),
+      ),
+    );
   }
 
   showAlertDialog(BuildContext context) {
