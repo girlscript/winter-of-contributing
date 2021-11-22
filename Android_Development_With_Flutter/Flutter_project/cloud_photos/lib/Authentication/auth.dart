@@ -1,4 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 // import 'package:many_apps/Firebase/localdb.dart';
 
@@ -21,13 +22,12 @@ Future<User?> signin() async {
     );
     final userCredential = await _auth.signInWithCredential(credential);
     final User? user = userCredential.user;
-    assert(await user!.getIdToken() != null);
 
     final User? currentuser = _auth.currentUser;
     assert(currentuser!.uid == user!.uid);
     return user;
   } catch (e) {
-    print(e);
+    debugPrint(e.toString());
   }
 }
 

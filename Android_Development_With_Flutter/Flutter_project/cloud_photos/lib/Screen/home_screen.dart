@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -22,7 +24,7 @@ firebase_storage.FirebaseStorage storage =
 var images = [];
 
 class _HomeScreenState extends State<HomeScreen> {
-  void get_image() async {
+  void getImage() async {
     var val = await FirebaseFirestore.instance
         .collection('photos')
         .doc(FirebaseAuth.instance.currentUser!.uid)
@@ -30,12 +32,12 @@ class _HomeScreenState extends State<HomeScreen> {
     setState(() {
       images = val.data()!['images'];
     });
-    print(images);
+    debugPrint(images.toString());
   }
 
   @override
   void initState() {
-    get_image();
+    getImage();
     super.initState();
   }
 
@@ -60,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
         drawer: Drawer(
           child: Container(
               color: appColor,
-              child: new Column(
+              child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Padding(
@@ -109,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen> {
         rtlOpening: false,
         disabledGestures: false,
         childDecoration: const BoxDecoration(
-            borderRadius: const BorderRadius.all(Radius.circular(16))),
+            borderRadius: BorderRadius.all(Radius.circular(16))),
         child: Scaffold(
             resizeToAvoidBottomInset: false,
             floatingActionButton: FloatingActionButton(
@@ -290,10 +292,10 @@ class _BottomSheetState extends State<BottomSheet> {
           ),
           !uploaded
               ? Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
+                  padding: const EdgeInsets.all(8.0),
+                  child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
                         Row(
                           children: [
                             IconButton(
@@ -301,7 +303,7 @@ class _BottomSheetState extends State<BottomSheet> {
                                   setState(() {
                                     uploaded = true;
                                   });
-                                  print(uploaded);
+                                  debugPrint(uploaded.toString());
                                   await getImage(true);
                                   Navigator.pop(context);
                                   // uploading();
@@ -342,7 +344,7 @@ class _BottomSheetState extends State<BottomSheet> {
                           ],
                         )
                       ]),
-              )
+                )
               : const Center(
                   child: CircularProgressIndicator(),
                 ),

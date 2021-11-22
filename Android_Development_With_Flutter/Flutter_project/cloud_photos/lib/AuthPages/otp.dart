@@ -117,7 +117,7 @@ class _OTPScreenState extends State<OTPScreen> {
                       // ignore: deprecated_member_use
                       .showSnackBar(
                     const SnackBar(
-                      content: Text('invalid OTP'),
+                      content: Text('Invalid OTP'),
                     ),
                   );
                 }
