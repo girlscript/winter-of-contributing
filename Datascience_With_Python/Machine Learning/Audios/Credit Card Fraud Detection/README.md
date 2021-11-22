@@ -2,6 +2,8 @@
 
 [Click here for the audio](https://drive.google.com/file/d/1d-UTAxLwMfqKFPOUVDimda29iJ4zPtjT/view?usp=sharing)
 
+Machine Learning for credit card fraud detection is one of those fields where most of the published research is unfortunately not reproducible. Real-world transaction data cannot be shared for confidentiality reasons, but we also believe authors do not make enough efforts to provide their code and make their results reproducible.
+
 ## ABOUT THE DATA
 The data for this is taken from a [Kaggle](https://www.kaggle.com/mlg-ulb/creditcardfraud) dataset.This dataset contains the real bank transactions made by European cardholders in the year 2013. As a security concern, the actual variables are not being shared but — they have been transformed versions of PCA. As a result, we can find 29 feature columns and 1 final class column.
 
@@ -100,7 +102,7 @@ print('F1 score of the Decision Tree model is {}'.format(f1_score(y_test, tree_y
 
 The accuracy score came out to be about 0.99 and the F1-score around 0.77
 
-### K-Nearest Neighbours
+### K-NEAREST NEIGHBOURS
 ```
 n = 7
 KNN = KNeighborsClassifier(n_neighbors = n)
@@ -111,7 +113,7 @@ print('F1 score of the K-Nearest Neighbors model is {}'.format(f1_score(y_test, 
 ```
 The accuracy score came out to be about 0.99 and the F1-score around 0.83
 
-### Logistic Regression
+### LOGISTIC REGRESSION
 ```
 lr = LogisticRegression()
 lr.fit(X_train, y_train)
@@ -120,3 +122,26 @@ print('Accuracy score of the Logistic Regression model is {}'.format(accuracy_sc
 print('F1 score of the Logistic Regression model is {}'.format(f1_score(y_test, lr_yhat)))
 ```
 The accuracy score came out to be about 0.99 and the F1-score around 0.69
+
+### SUPPORT VECTOR MACHINES
+```
+svm = SVC()
+svm.fit(X_train, y_train)
+svm_yhat = svm.predict(X_test)
+print('Accuracy score of the Support Vector Machines model is {}'.format(accuracy_score(y_test, svm_yhat)))
+print('F1 score of the Support Vector Machines model is {}'.format(f1_score(y_test, svm_yhat)))
+```
+The accuracy score came out to be about 0.99 and the F1-score around 0.77
+
+### RANDOM FOREST
+```
+rf = RandomForestClassifier(max_depth = 4)
+rf.fit(X_train, y_train)
+rf_yhat = rf.predict(X_test)
+print('Accuracy score of the Random Forest model is {}'.format(accuracy_score(y_test, rf_yhat)))
+print('Accuracy score of the Random Forest model is {}'.format(accuracy_score(y_test, rf_yhat)))
+```
+The accuracy score came out to be about 0.99 and the F1-score around 0.78
+
+## CONCLUSION
+Well, congratulation!! We just received 99% accuracy in our credit card fraud detection. This number should not be surprising as our data was balanced towards one class.
