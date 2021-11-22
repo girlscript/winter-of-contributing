@@ -1,3 +1,4 @@
+```
 1. Exception.cpp
 //Simple Exception Handling- Divide by 0
 #include <iostream>
@@ -89,3 +90,4 @@ int main()
     }
     return 0;
 }
+```
