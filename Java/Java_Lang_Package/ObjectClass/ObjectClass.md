@@ -1,5 +1,6 @@
 ![Object Class as Root Class](./Images/Title.png)
 
+
 - [Object Class](#object-class)
   * [Introduction to java.lang package](#introduction-to-javalang-package)
   * [Why Object class acts as a root for all the java classes -](#why-object-class-acts-as-a-root-for-all-the-java-classes--)
@@ -7,36 +8,36 @@
   * [Object Class Methods -](#object-class-methods--)
     + [Java Code  - To get above function list](#java-code----to-get-above-function-list)
   * [Object Class Methods Insight -](#object-class-methods-insight--)
-    + [1. **toString()**](#1---tostring----)
-    + [2. **hashCode()**](#2---hashcode----)
-      - [So, **What is hashcode ?**](#so----what-is-hashcode----)
-      - [**What exactly is the need of this unique number for every object ?**](#--what-exactly-is-the-need-of-this-unique-number-for-every-object----)
+    + [1. toString()](#1-tostring--)
+    + [2. hashCode()](#2-hashcode--)
+      - [So, What is hashcode ?](#so--what-is-hashcode--)
+      - [What exactly is the need of this unique number for every object ?](#what-exactly-is-the-need-of-this-unique-number-for-every-object--)
       - [Syntax of hashCode() method -](#syntax-of-hashcode---method--)
       - [What is the proper way of overriding hashcode method ?](#what-is-the-proper-way-of-overriding-hashcode-method--)
-      - [**`toString()`** VS **`hashCode()`**](#---tostring------vs----hashcode-----)
+      - [toString() VS hashCode()](#tostring---vs-hashcode--)
       - [Examples -](#examples--)
-    + [3. **equals(Object o)**](#3---equals-object-o---)
+    + [3. equals(Object o)](#3-equals-object-o-)
       - [What is the proper way of overriding equals() method ?](#what-is-the-proper-way-of-overriding-equals---method--)
-      - [So while overriding equals() method we have to take care of three points ->](#so-while-overriding-equals---method-we-have-to-take-care-of-three-points---)
-    + [4. **clone()**](#4---clone----)
-      - [What is Cloning ?](#what-is-cloning--)
-      - [What is the purpose of cloning ?](#what-is-the-purpose-of-cloning--)
-      - [How we can perform cloning ?](#how-we-can-perform-cloning--)
-      - [Important Points to take care while using clone() method -](#important-points-to-take-care-while-using-clone---method--)
-      - [**Shallow Cloning** and **Deep Cloning**](#--shallow-cloning---and---deep-cloning--)
-      - [Which cloning is the Best ?](#which-cloning-is-the-best--)
-    + [5. **finalize()**](#5---finalize----)
-      - [Signature of finalize() method -](#signature-of-finalize---method--)
-      - [Example - 1 :-](#example---1---)
-    + [6. **getClass()**](#6---getclass----)
-      - [Example - 1 :-](#example---1----1)
-      - [Example - 2 :-](#example---2---)
-      - [NOTES -](#notes--)
-    + [7. **wait()**](#7---wait----)
-    + [8. **wait(long ms)**](#8---wait-long-ms---)
-    + [9. **wait(long ms, int ns)**](#9---wait-long-ms--int-ns---)
-    + [10. **notify()**](#10---notify----)
-    + [11. **notifyAll()**](#11---notifyall----)
+      - [So while overriding equals() method we have to take care of three points](#so-while-overriding-equals---method-we-have-to-take-care-of-three-points)
+    + [4. clone()](#4-clone--)
+      - [What is Cloning?](#what-is-cloning-)
+      - [What is the purpose of cloning?](#what-is-the-purpose-of-cloning-)
+      - [How we can perform cloning?](#how-we-can-perform-cloning-)
+      - [Important Points to take care while using clone() method](#important-points-to-take-care-while-using-clone---method)
+      - [Shallow Cloning and Deep Cloning](#shallow-cloning-and-deep-cloning)
+      - [Which cloning is the Best?](#which-cloning-is-the-best-)
+    + [5. finalize()](#5-finalize--)
+      - [Signature of finalize() method](#signature-of-finalize---method)
+      - [Example-1](#example-1)
+    + [6. getClass()](#6-getclass--)
+      - [Example-1](#example-1-1)
+      - [Example-2](#example-2)
+      - [NOTES](#notes)
+    + [7. wait()](#7-wait--)
+    + [8. wait(long ms)](#8-wait-long-ms-)
+    + [9. wait(long ms, int ns)](#9-wait-long-ms--int-ns-)
+    + [10. notify()](#10-notify--)
+    + [11. notifyAll()](#11-notifyall--)
 
 
 # Object Class
@@ -112,7 +113,7 @@ class ObjectClassMethods
 }
 ```
 
-** Output -**    
+**Output -**    
 ```
 1. registerNatives
 2. getClass
@@ -132,7 +133,7 @@ Total Methods of Object Class are :- 12
 
 ## Object Class Methods Insight -
 Now we are going to look on each method which are defined in Object class -
-### 1. **toString()**    
+### 1. toString()    
 
 The **`toString()`** method is used to get the String representation of an object.
 Whenever we are trying to print any object reference, internally JVM will convert this object to String representation and print the String representation of that object.
@@ -156,7 +157,7 @@ In all Wrapper classes, in all Collection classes, String class, StringBuffer cl
 
 ---
 
-### 2. **hashCode()**   
+### 2. hashCode()    
 
 Before going dip down inside the topic, we will start with some basic questions about **`hashCode()`** and the most commonly beginner answers -    
 
@@ -175,23 +176,23 @@ Now the last question is -
 
 ![Hashcode of Object](./Images/Hashcode_Of_Object.png)
 
-#### So, **What is hashcode ?**   
+#### So, What is hashcode ?    
 For every object a unique number is generated by JVM which is nothing but hashcode. hashcode does not represent address of an object.
 
-#### **What exactly is the need of this unique number for every object ?**   
+#### What exactly is the need of this unique number for every object ?    
 JVM uses hashcode while saving objects into hashing related DS like hashtable, hashmap, hashset. The main advantage of saving objects based on hashcode is search operation will become easy (The most powerful search algorithm is hashing).
 
-#### Syntax of hashCode() method -   
+#### Syntax of hashCode() method -    
 public native int hashCode()
 
 If we are giving the chance to object class hashCode() method, it will generate hashcode based on address of the object. It does not mean hashcode represents address of the object. Based on our requirement we can override hashcode method in our class to generate our own hashcode.
 
-#### What is the proper way of overriding hashcode method ?   
+#### What is the proper way of overriding hashcode method ?    
 For every object if you generate a unique number as hashcode, such type of overriding a hashcode method is said to  be proper way of overriding hashcode method. Below example displays the proper and improper way of overriding hashcode method -   
 
 ![Proper Way and Improper Way Of Overriding HashCode Method](./Images/Proper_And_Improper_Way.png)
 
-#### **`toString()`** VS **`hashCode()`**   
+#### toString() VS hashCode()    
 * If we are giving the chance to Object class **`toString()`** method, it will internally calls **`hashCode()`** method.   
 * If we are overriding **`toString()`** method then our **`toString()`** method may not call **`hashCode()`** method.   
 
@@ -205,7 +206,7 @@ Now we are going to take some examples to understand above points -
 
 ---
 
-### 3. **equals(Object o)**   
+### 3. equals(Object o)    
 * We can use **`equals()`** method to check equality of two objects like object1.equals(object2).
 * If our class does not contains **`equals()`** method then object class **`equals()`** method will be executed.
 
@@ -215,7 +216,7 @@ Based on our requirement we can override **`equals()`** method for **Content Com
 
 ![Equals Method Example-2](./Images/Equals_Method_Example-2.png)
 
-#### What is the proper way of overriding equals() method ?
+#### What is the proper way of overriding equals() method ?    
 * If we try to compare two Heterogenous objects using **`equals()`** method then it will throw ClassCastException, which must be handled.
 
 ![ClassCastException in equals](./Images/ClassCastException.png)
@@ -235,7 +236,7 @@ More simplication version of **`equals()`** method -
 The first comparsion in above code is to check if both objects are binding the same object, which is checked using below code - To make above equals() method more efficient we have to write the following code at the beginning inside equals method.    
 According to this if both references pointing to the same object then without performing any comparsion equals() method returns true directly.   
 
-#### So while overriding equals() method we have to take care of three points ->
+#### So while overriding equals() method we have to take care of three points    
 1. What is the mkeaning of equality (for example - whether we have to check only names, or only rollno, or both)   
 2. If we are passing different type of object then our equals() method should not rise **ClassCastException** but should return false. i.e. we have to handle **ClassCastException** to return false.   
 3. If we are passing null argument then our equals() method should not rise **NullPointerException** but should return false.   
@@ -259,16 +260,16 @@ Default behaviour of equals() method is Reference Comparsion if you want we can 
 
 ---
 
-### 4. **clone()**    
+### 4. clone()    
 To understand about this method, we will first have a look on few simple questions -    
-#### What is Cloning ?    
+#### What is Cloning?    
 In very simple words it is exactly zerox copy. In terms on Java, Cloning is a process of creating the exact duplicate object.
 
-#### What is the purpose of cloning ?    
+#### What is the purpose of cloning?    
 * The main purpose of cloning is **to maintain a back up copy**. In terms of Java, lets suppose we have a very riskier operation to perform on some java object, then we maintain a clone of that object in case something goes wrong during that operation, we can always recover the original object.   
 * We also clone an object **to preserve the state of an object** at a particular instance. This is required in scenarios when after making some updates on the object, we may need to compare the updated values with the old values, then in such cases we do cloning to preserve the state of an object.   
 
-#### How we can perform cloning ?   
+#### How we can perform cloning?   
 We can perform cloning by using **`clone()`** method, present in java.lang.Object package. Below is the complete prototype of **`clone()`** method -   
 ```
 protected native Object clone() throws CloneNotSupportedException
@@ -282,14 +283,14 @@ Clonable interface does not contain any methods, it is a Marker interface.
 
 ![Clone Example-1](./Images/CloneExample1.png)
 
-#### Important Points to take care while using clone() method -     
+#### Important Points to take care while using clone() method        
 * We can perform cloning only for Clonable objects.    
 * An object is said to be clonable if and only if the corresponsing class implements Clonable interface.    
 * Clonable interface is present in java.lang package and it does not contain any method so it is a marker interface.    
 * If we are trying to perfom cloning for non clonable objects then we will get a Run Time Exception saying CloneNotSupportedException.   
 
 
-#### **Shallow Cloning** and **Deep Cloning**     
+#### Shallow Cloning and Deep Cloning    
 Related to cloning we have two concepts which are - **Shallow Cloning** and **Deep Cloning** -    
 
 ![Cloning Types](./Images/CloningTypes.png)
@@ -319,7 +320,7 @@ By default, the Object class **`clone()`** method meant for Shallow Cloning, but
 
 By using cloned object reference if we perform any change to the contained object then those changes won't be reflected to the main object.
 
-#### Which cloning is the Best ?    
+#### Which cloning is the Best?
 Depending on situation or requirement we have to choose between two.     
 Like if object contains only primitive variables, then Shallow cloning is the best choice, as Object class clone() method can perform the required things.    
 Like if object contains only reference variables, then Deep Cloning is the best choice.     
@@ -327,20 +328,20 @@ Like if object contains only reference variables, then Deep Cloning is the best 
 
 ---
 
-### 5. **finalize()**   
+### 5. finalize()
 * Just before destroying an object Garbage Collector calls **`finalize()`** method to perform cleanup activities or resource deallocation activities.   
 * Once **`finalize()`** method completes automatically Garbage Collection destroyes that object.   
 
-#### Signature of finalize() method -   
+#### Signature of finalize() method
 ```
 protected void finalize() throws Throwable
 ```
 
-#### Example - 1 :-   
+#### Example-1
 
 ![Finalize Example](./Images/FinalizeExample.png)
 
-** Output -**
+**Output -**
 ```
 460141958
 Garbage Collection Activity Completed
@@ -349,7 +350,7 @@ Executing Finalize Method
 
 ---
 
-### 6. **getClass()**   
+### 6. getClass()
 We can use **`getClass()`** method to get **Runtime Class Definition** of an object. Signature of **`getClass()`** method is as follows -   
 ```
 public final class getClass()
@@ -360,7 +361,7 @@ public final class getClass()
 2. methods information   
 3. Constructor information etc...   
 
-#### Example - 1 :-   
+#### Example-1
 
 ![GetClass Example](./Images/GetClassExample1.png)
 
@@ -448,21 +449,21 @@ Methods Information
 The number of methods are - 77
 ```
 
-#### Example - 2 :-   
+#### Example-2
 To display Database Vendor specific connection interface implemented class name -   
 ```
 Connection connection = DriverManager.getConnection();
 Sysout.out.println(connection.getClass().getName());
 ```
 
-#### NOTES -    
+#### NOTES
 1. After loading every .class file, JVM will create an object of the type java.lang.Class in the heap area.   
 2. Programmer can use this class object to get class level information.   
 3. We can use getClass() method very frequently in reflection API.   
 
 ---
 
-### 7. **wait()**   
+### 7. wait()
 This is related to Multi-Threading and are discussed in more depth under Multi-Threading.    
 **Prototype -**   
 ```
@@ -475,7 +476,7 @@ The thread which is responsible to perform updation, after performing updation t
 
 ---
 
-### 8. **wait(long ms)**   
+### 8. wait(long ms)
 This is related to Multi-Threading and are discussed in more depth under Multi-Threading.    
 **Prototype -**   
 ```
@@ -485,7 +486,7 @@ public final void wait (long ms) throws InterruptedException
 
 ---
 
-### 9. **wait(long ms, int ns)**   
+### 9. wait(long ms, int ns)
 This is related to Multi-Threading and are discussed in more depth under Multi-Threading.    
 **Prototype -**   
 ```
@@ -495,7 +496,7 @@ public final void wait (long ms, int ns) throws InterruptedException
 
 ---
 
-### 10. **notify()**   
+### 10. notify()
 This is related to Multi-Threading and are discussed in more depth under Multi-Threading.    
 **Prototype -**   
 ```
@@ -505,7 +506,7 @@ public native final void notify()
 
 ---
 
-### 11. **notifyAll()**   
+### 11. notifyAll()
 This is related to Multi-Threading and are discussed in more depth under Multi-Threading.    
 **Prototype -**   
 ```
