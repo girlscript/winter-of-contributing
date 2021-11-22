@@ -149,6 +149,7 @@
    - **IMDB Box office Prediction.**
    - **Customer Segmentation.**
    - **Fake News Classification.**
+   - **Market Basket Analysis.**
 
 
    
