@@ -18,7 +18,7 @@
 | 08 | **Breast Cancer Classification**| Creating a machine learning model, which will classify breast cancer and then predict accordingly. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Breast%20Cancer%20Classification) |
 | 09 | **IMDB Box office Prediction**| Machine learning model to predict the rating of the movies enlisted through IMDB Box Office. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/IMDB%20Box%20Office%20Prediction) |
 | 10 | **Customer Segmentation**| Analysing different types of customers around the globe and build a classification model accordingly. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Customer%20Segmentation) |
-| 11 | **Fake News Classification** |  Develop a Machine Learning Model which will predict the news is fake or, real. | -[Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Fake%20News%20Detection) |
+| 11 | **Fake News Classification** |  Develop a Machine Learning Model which will predict the news is fake or, real. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Fake%20News%20Detection) |
 | 12 | **Market Basket Analysis** | Machine learning model to finding out the most frequently bought products together by analysing the past buying behaviour of the customer. | - |
 
 *****************************************************************
