@@ -1,6 +1,6 @@
 # Data Augmentation Techniques
 
-## VIDEO LINK: [Data Augmentation Techniques]()
+## VIDEO LINK: [Data Augmentation Techniques](https://drive.google.com/file/d/1luf0C9T_QAmWxr1UA5vcGTsSuBACG7Yl/view?usp=sharing)
 
 - Data augmentation techniques generate different versions of a real dataset artificially to increase its size. Computer vision and natural language processing (NLP) models use data augmentation strategy to handle with data scarcity and insufficient data diversity.
 
