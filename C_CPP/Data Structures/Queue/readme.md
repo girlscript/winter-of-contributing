@@ -2,5 +2,5 @@
 - [Queue using Arrays](./Queue%20Implementation/Queue_Using_Array.cpp)
 - [Queue using linked list](./Queue%20Implementation/Queue_Using_LL.cpp)
 - [Queue Operations](./Queue-Operations.md)
-- [Implementation of queue using stack](./implementation_of_queue_using_stack.md)
+- [Implementation of Queue using Stack](./queue_using_stack.md)
 - [Reversing a queue](./Reversingqueue.md)
