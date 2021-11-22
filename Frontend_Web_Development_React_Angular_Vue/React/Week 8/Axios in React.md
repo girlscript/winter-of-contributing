@@ -5,6 +5,7 @@
 Axios is a Promise based HTTP data fetching library that is based in javascript and used for the browser as well as Node applications.Axios makes it easy to perform asynchronous API calls to REST endpoints, perform **CRUD** (Create, Read, Update, Delete) operations and is compatible with front-end frameworks like React.
 
 **Setting Up Axios with React**:
+
 To set up Axios in React, run the following command in the terminal of the react app.
 
 ```
@@ -13,6 +14,7 @@ npm install axios
 ```
 
 **Shorthand methods for Axios HTTP requests**:
+
 Axios library provides a set of shorthand methods for performing different types of HTTP requests. They are self-explanatory and match the HTTP method names. The methods are as follows:
 
 - axios.request(config)
@@ -160,16 +162,21 @@ Axios is useful to perform a multitude of tasks involving HTTP Requests.
 
   ##### Explanation:
 
-  - For demonstrating a POST method, a form is used to let the user enter a new post title.
-  - So the first thing we need to do is to connect the submit event of the form with the event handler method performPostRequest().
-  - The HTTP post request is performed by calling axios.post(). Again, two parameter are needed. First we’re passing in the URI of the service endpoint. Second, we’re passing in an object which contains the properties of the new todo item: userId, title and completed.
-  - Processing the result is done in the same way as seen before when we’ve executed the HTTP GET requests.
+  - For demonstrating a POST method, a form is used to let the user enter a new post title and post body.
+  - The submit event of the form is therefore connected with the event handler method createPost.
+  - The HTTP post request is performed by calling **axios.post()** that takes in two parameters.
+    - First one is the url of the API i.e. **https://jsonplaceholder.typicode.com/posts**.
+    - Second one is an object which contains the JSON data of the new post item: title and body.
+  - This method then returns a Promise, so that we can use the .then() to store the res.data in a state variable called posts.
+  - The post.title and post.body is then rendered on the screen.
 
 ## Benefits of the Axios
 
-- It has good defaults to work with JSON data. Unlike alternatives such as the Fetch API, you often don't need to set your headers. Or perform tedious tasks like converting your request body to a JSON string.
-- Axios has function names that match any HTTP methods. To perform a GET request, you use the .get() method.
-- Axios can be used on the server as well as the client. If you are writing a Node.js application, be aware that Axios can also be used in an environment separate from the browser.
+- One of the biggest benefits of Axios is that it has really good defaults to work around with **JSON data**. Unlike other alternatives like the Fetch API, it is not required to set any headers or convert the data or request body using .json() or JSON.stringify().
+- Axios provides **matching HTTP shorthand methods** which makes performing any HTTP Requests or API calls way easier, thereby providing a simpler development experience. For example, to perform a GET request, use the .get() method.
+- Axios helps to make **asynchronous requests** and handle responses better by using promises and thereby avoiding callback hell.
+- We can use async/await with it as well as write functions to modify a request before it is sent.
+- Axios can be used both on the server as well as the client.
 
 ## References
 
