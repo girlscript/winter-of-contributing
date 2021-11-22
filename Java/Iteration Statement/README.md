@@ -1,4 +1,4 @@
-![](/Assets\Iteration%20Statement.png)
+![Iteration Statements](../Assets/Iteration%20Statement.png)
 
 ## Iteration Statement
 

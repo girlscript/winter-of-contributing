@@ -1,4 +1,4 @@
-![](/Assets/exception%20handling.png)
+![Exception Handeling](../Assets/exception%20handling.png)
 ## Exception Handling
 
 - What are exceptions?<br>

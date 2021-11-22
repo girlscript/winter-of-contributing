@@ -1,4 +1,4 @@
-![](/Assets/inheritance.jpg)
+![Inheritance](../Assets/inheritance.jpg)
 ## Inheritance
 
 - Inheritance Basics<br>

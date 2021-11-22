@@ -1,4 +1,4 @@
-![](/Assets\Fundamentals.png)
+![Fundamentals](../Assets/Fundamentals.png)
 
 ## Fundamentals
 

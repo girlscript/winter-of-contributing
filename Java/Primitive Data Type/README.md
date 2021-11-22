@@ -1,4 +1,4 @@
-![](/Assets\Primitive%20Data%20Types.png)
+![Primitive Data Types](../Assets/Primitive%20Data%20Types.png)
 
 ## Primitive Data Types
 
