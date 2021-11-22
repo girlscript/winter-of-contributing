@@ -16,12 +16,14 @@ We store the prices in ascending or descending order and then add prices accordi
 ## Example
 
 ### Input
+```
 5
-
 2 4 5 6 3
-
+```
 ### Output
+```
 12
+```
 ### CODE 💻
 ```
 #include <bits/stdc++.h>
