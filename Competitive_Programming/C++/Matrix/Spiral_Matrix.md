@@ -23,7 +23,7 @@ The above steps continues till hte left index > the right index and the top inde
 The code is given below:
 
 ```
-   #include <bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 class Solution
 {
