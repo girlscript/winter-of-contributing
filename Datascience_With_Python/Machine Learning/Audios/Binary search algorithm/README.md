@@ -96,3 +96,8 @@ Best Case Scenario = O(1)
 Average Case Scenario = O(log n)
 
 Worst Case Scenario = O(log n)
+
+
+## Advantages
+
+The main advantage of using binary search is that it does not scan each element in the list. Instead of scanning each element, it performs the searching to the half of the list. So, the binary search takes less time to search an element as compared to a linear search.
