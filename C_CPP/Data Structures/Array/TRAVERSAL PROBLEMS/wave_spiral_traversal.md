@@ -1,14 +1,18 @@
-## WAVE TRAVERSAL USING 2D ARRAY
+## **WAVE TRAVERSAL USING 2D ARRAY**
 
 ### PROBLEM
 Suppose we have to visit a country and there are different monuments forming a matrix pattern on map as shown below.
+
 
 ```
 1  2  3
 4  5  6
 7  8  9
 ```
-we have to cover the following path (from 1 to 9) in order to visit all monuments
+
+
+we have to cover the following path (from 1 to 9) in order to visit all monuments.
+
 ``` 
      ___
 | 1 | 2 | 3 |
@@ -16,15 +20,22 @@ we have to cover the following path (from 1 to 9) in order to visit all monument
 | 7 | 8 | 9 |
 |___|   |___|
 ```
+<br>
+
 ## ALGORITHM
+
+
 1. First of all, enter the serial no. of all monuments .
 
 2. From fig. we can see ,for all even value of column no. we are moving downwards and for odd values of column i.e. j ,we are moving upwards .
 
 3. Apply for loop ,and write condition for odd and even according to above logic.
 
+<br>
+
 ## CODE
-```
+
+```C
 #define col 3
 #define row 3
 #include<stdio.h>
@@ -66,9 +77,13 @@ enter matrix(3*3):1
 9
 1->4->7->8->5->2->3->6->9->
 ```
-In this way, we will get a roadmap to the places we have to visit.
+In this way, we will get a roadmap to the places we have to visit.  
 
-## SPIRAL TRAVERSAL USING 2D ARRAY
+<br>
+
+<br>
+
+## **SPIRAL TRAVERSAL USING 2D ARRAY**
 
 Suppose we want to visit monuments by following a spiral path.
 let's see the procedure.
@@ -83,7 +98,7 @@ The path (1 to 6) to be followed will look as follows:
 | 7    8    9     |
 |___ _________ __ |
 ```
-
+<br>
 
 ## ALGORITHM
 
@@ -98,8 +113,10 @@ The path (1 to 6) to be followed will look as follows:
 
  4. we are considering count and tot here , to prevent the printing of middle elements twice (in case the middle monuments doesn't form close loop i.e. it forms straight line ,they will get printed twice ), each time element is printed , it is counted in count , after the condition is satisfied i.e. count exceeds tot  , it will stop.
 
+<br>
+
 ## CODE
-```
+```C
 #include<stdio.h>
 int main()
 {
