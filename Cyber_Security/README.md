@@ -118,7 +118,7 @@
 
 ## Week-7 Tools
  - [Wireshark](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/Wireshark.md)
- - [Nmap]
+ - [Nmap](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/nmap.md)
  - [OWASP-ZAP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/ZAP.md)
  - [Nikto]
  - [Burp Suite]
