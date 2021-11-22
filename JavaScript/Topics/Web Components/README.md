@@ -14,7 +14,7 @@ Web components incorporate four main technologies that can be used together to c
 
 1. Custom Elements
 2. Shadow DOM
-3. HTMl Template
+3. HTML Template
 4. ES Modules
 
 ### 1. Custom Elements
