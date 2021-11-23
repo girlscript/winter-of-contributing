@@ -11,7 +11,7 @@ int counter(struct node* head);
  
 int Intersection(int d, struct node* head1, struct node* head2);
  
-int IntersectionNode(struct node* head1, struct node* head2)
+int IntersectionNode(struct node* head1, struct node* head2) //finds by how many nodes to traverse the larger linked list
 {
     int c1 = counter(head1);
     int c2 = counter(head2);
@@ -27,7 +27,7 @@ int IntersectionNode(struct node* head1, struct node* head2)
     }
 }
 
-int Intersection(int d, struct node* head1, struct node* head2)
+int Intersection(int d, struct node* head1, struct node* head2) //finds intersection by parallely traversing and comparing the two linked lists
 {
     int i;
     struct node* current1 = head1;
@@ -50,7 +50,7 @@ int Intersection(int d, struct node* head1, struct node* head2)
     return -1;
 }
  
-int counter(struct node* head)
+int counter(struct node* head) // counts length of linked list
 {
     struct node* current = head;
     int count = 0;
@@ -63,7 +63,7 @@ int counter(struct node* head)
     return count;
 }
 
-void printList(struct node *head)
+void printList(struct node *head) // prints the linked list
 {
     struct node *temp = head;
     while(temp!=NULL)
