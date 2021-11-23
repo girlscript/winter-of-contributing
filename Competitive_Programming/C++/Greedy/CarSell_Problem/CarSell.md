@@ -25,7 +25,7 @@ We store the prices in ascending or descending order and then add prices accordi
 12
 ```
 ### CODE 💻
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 int main()
