@@ -22,6 +22,7 @@ class _ViewImageState extends State<ViewImage> {
           },
           child: Center(
             child: Container(
+              width: MediaQuery.of(context).size.width,
               child: Image.network(
                 widget.image,
                 fit: BoxFit.cover,
