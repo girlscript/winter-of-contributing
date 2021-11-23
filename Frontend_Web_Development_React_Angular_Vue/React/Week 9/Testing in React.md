@@ -4,23 +4,30 @@
 
 Testing can be defined as the procedure to make sure a software application or product behaves just the way it is supposed to do.Testing the code is essesntial before deployment.
 
-![](./assets/Testing.JPG)
+![](./assets/Testing.png)
 
 ## Required Testing Tools:
 
 - **Test Runner**:  
-  A test runner executes tests and provides validation library which performs comparisons and potentially throw some errors (if any). For example: **Jest** provides popular Javascript testing tools
+  A test runner executes tests and provides validation library which performs comparisons and potentially throw some errors (if any). For example: **Jest** provides popular Javascript testing tools.
+
+  ```
+  npm install jest
+  ```
 
 - **Testing Utilities**:
   Testing utilities "simulate" the React Application i.e. it mounts components and allows developers to dig into the DOM (Document Object Module). For example: **React Test Utils** or **Enzyme** are some of the popular testing utilities in React.
 
+  ```
+  npm install --save enzyme react-test-renderer enzyme-adapter-reat-16
+  ```
+
 ## What to Test?
 
-:x: Don't test the library
-:x: Dont't test complex connections
-
-:heavy_check_mark: Do test isolated units
-:heavy_check_mark: Do test the Conditional outputs
+| Do's                                               | Don'ts                              |
+| -------------------------------------------------- | ----------------------------------- |
+| :heavy_check_mark: Do test isolated units          | :x: Don't test the library          |
+| :heavy_check_mark: Do test the Conditional outputs | :x: Dont't test complex connections |
 
 ## What are the types ?
 
