@@ -27,13 +27,7 @@ This might look efficient but isn’t really. The main goal of an algorithm such
 
 Now let us consider a more descriptive example with the help of a problem statement.
 
-## Example 2
 
-### Problem Statement: Let us consider we want to predict if a soccer player will land a slot in a tier 1 football club based on his/her current performance in the tier 2 league.
-
-Now imagine, we train and fit the model with 10,000 such players with outcomes. When we try to predict the outcome on the original data set, let us say we got a 99% accuracy. But the accuracy on a different data set comes around 50 percent. This means the model does not generalize well from our training data and unseen data.
-
-This is what overfitting looks like. It is a very common problem in Machine Learning and even data science. Now let us understand the signal and noise.
 
 ## Signal vs Noise
 
