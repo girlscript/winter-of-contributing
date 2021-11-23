@@ -2,6 +2,7 @@
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:cloud_photos/Screen/viewImage.dart';
 import 'dart:io';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
@@ -160,15 +161,27 @@ class _HomeScreenState extends State<HomeScreen> {
                       maxCrossAxisExtent: 100,
                     ),
                     itemBuilder: (BuildContext context, int index) {
-                      return Container(
-                        margin: EdgeInsets.all(2),
-                        height: 200,
-                        width: 400,
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(10),
-                          child: CachedNetworkImage(
-                              fit: BoxFit.cover,
-                              imageUrl: images[index]['url']),
+                      return Hero(
+                        tag: images[index],
+                        child: GestureDetector(
+                          onTap: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                    builder: (b) => ViewImage(
+                                        image: images[index]['url'])));
+                          },
+                          child: Container(
+                            margin: EdgeInsets.all(2),
+                            height: 200,
+                            width: 400,
+                            child: ClipRRect(
+                              borderRadius: BorderRadius.circular(10),
+                              child: CachedNetworkImage(
+                                  fit: BoxFit.cover,
+                                  imageUrl: images[index]['url']),
+                            ),
+                          ),
                         ),
                       );
                     },
