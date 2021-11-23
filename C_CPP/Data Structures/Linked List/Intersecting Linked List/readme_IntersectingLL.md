@@ -13,10 +13,6 @@ h1 - 1 - 2 - 3 - 4
             h2 - 3
 
 The 2 linked lists intersect at node 5. 
-```
-</br>
-
-## Intersection
 
 <p> To just check whether the 2 nodes intersect or not, the sufficient condition is that they have the same tail.</br>
 So, we can just check whether the addresses of the two linked lists have the same address or not.
