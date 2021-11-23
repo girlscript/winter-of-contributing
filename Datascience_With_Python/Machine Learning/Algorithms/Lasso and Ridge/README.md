@@ -1,6 +1,6 @@
 **Ridge and Lasso are regresssion techniques used to reduce model complexity (the number of predictors) and prevent over-fitting which may result from simple Linear Regression.**
 
-<!-- Insert image here -->
+![cover](https://user-images.githubusercontent.com/81156510/143045988-944e0420-0e30-4559-bae5-cf353c5ab2e5.png)
 
 # Ridge
 
