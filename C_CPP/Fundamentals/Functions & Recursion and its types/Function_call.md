@@ -1,15 +1,15 @@
 # **Function call in c++**
+### Video Explanation :
+[![Function Call](https://user-images.githubusercontent.com/63473496/143050247-9cb27cca-119f-4f24-863f-fef224d7eed3.png)](https://drive.google.com/drive/folders/15JPWZV1X-8S4TQu4jY9FBXZHCtQtkr5W?usp=sharing)
 
 ## What is a function call in c++?
-### What is a function call in c++?
-
-## Function call :
  The word call itself indicates calling or approaching, in a function call the program calls or approach a function to hand it over to the management. The function which is called is defined with a certain task which it executes on being called and then returns the control to the main program.
 Function call :The word call itself indicates calling or approaching, in a function call the program calls or approach a function to hand it over to the management. The function which is called is defined with a certain task which it executes on being called and then returns the control to the main program.
 
  _Syntax of the function call statement :_
 
  ` Function_name(variable1,variable2,..); `
+ 
 > Points to remember before function call:
 1. The name & number also the type of the argument in the function call should be the same as the one given in the function declaration.
 2. The extra argument would be discarded if the parameters passed to the function are more than specified to accept.
@@ -17,7 +17,7 @@ Function call :The word call itself indicates calling or approaching, in a funct
 4. One has to make sure that arguments are not placed in the wrong order to avoid logical errors.
 5. Commas should be used to separate the parameter list.
 ---
-## Types of a function call:
+## Types of function call:
 There are three ways to *call a function: Call by value, Call by reference, Call by address.*
 ### CALL BY VALUE:
 In this function call if the called function is assumed to modify the value of the parameters passed to it then the changes would be reflected only in the called function. Whereas the calling function would not face any change in the value of the variable, because the changes were made on the copy of the variable and not the actual variable.
@@ -95,6 +95,3 @@ cout<<"The value of num in the called function ="<<n<<endl;
  
  _We now, can clearly understand the implementation of function call in c++._
  
- ### video explanation :
- 
- [![Function Call](https://user-images.githubusercontent.com/63473496/143050247-9cb27cca-119f-4f24-863f-fef224d7eed3.png)](https://drive.google.com/drive/folders/15JPWZV1X-8S4TQu4jY9FBXZHCtQtkr5W?usp=sharing)
