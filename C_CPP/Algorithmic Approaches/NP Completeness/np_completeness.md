@@ -1,82 +1,43 @@
+<h1>
+<p align='center'> NP Completeness</p> </h1>
+If a polynomial time algorithm exists for any of these problems, all problems in NP would be polynomial time solvable. These problems are called NP-complete. The phenomenon of NP-completeness is important for both theoretical and practical reasons. <br><br><br>
 
-<hr>
-<h1 align="center">Type Casting - C Programming</h1>
-<br>
+<p align='center'>
+<img src="https://www.tutorialspoint.com/design_and_analysis_of_algorithms/images/np_hard.jpg"></p>
 
-## What is type casting?
-*Type casting refers to changing an variable of one data type into another. 
-The compiler will automatically change one type of data into another if it makes sense.
-For instance, if you assign an integer value to a floating-point variable, the compiler will convert the int to a float.
-Casting allows us to make this type conversion explicit, or to force it when it wouldn’t normally happen.
+## What is NP?
+NP is the set of alll decision problems (question with yes-or-no answer) for which the 'yes'-answers can be verified in polynomial time (O(n^k) where n is the problem size and k is a constant) by a deterministic turing machine. Polynomial time is sometimes used as the definition of fast or quickly.
 
-*Type conversion in c can be classified into the following two types:
+## What is P?
+P is the set of all decision problems which can be solved in polynomial time by a deterministic turing machine. Since it can solve in polynomial time, it can also be verified in polynomial time. Therefore P is a subset of NP.
 
-### Implicit Type Conversion
-* Also known as ‘automatic type conversion.’
-* Done by the compiler on its own, without any external trigger from the user.
-* Generally takes place when in an expression more than one data type is present. In such condition type conversion (type promotion) takes place to avoid lose of data.
+## What is of NP-Completeness ?
+A problem B that is in NP is also in NP-Complete if and only if every other problem in NP can be quickly (i.e. in polynomial time) transformed into x.
 
-#### An example of implicit conversion
-```C
-#include <iostream>
-using namespace std;
-  
-int main()
-{
-    int x = 10; // integer x
-    char y = 'a'; // character c
-  
-    // y implicitly converted to int. ASCII
-    // value of 'a' is 97
-    x = x + y;
-  
-    // x is implicitly converted to float
-    float z = x + 1.0;
-  
-    cout << "x = " << x << endl
-         << "y = " << y << endl
-         << "z = " << z << endl;
-  
-    return 0;
-}
+In other words a language B is NP-complete if it satisfies two conditions:-
+1) B is in NP
+2) Every problem in NP is reducible to B.
+If a language satisfies the second property, but not necessarily the first one, the language B is known as NP-Hard
+Informally, a search problem B is NP-Hard if there exists some NP-Complete problem A that Turing reduces to B.
+The problem in NP-Hard cannot be solved in polynomial time, until P = NP. 
 
-```
-#### Output
-```
-x = 107
-y = a
-z = 108
-```
+NP-complete problems are the hardest problems in the NP set. A decision problem L is NP-complete if: 
+1) L is in NP  
+2) Every problem in NP is reducible to L in polynomial time
+If a problem is proved to be NPC, there is no need to waste time on trying to find an efficient algorithm for it.
+Instead, we can focus on design approximation algorithm.
 
-### Explict Type Conversion
-* The type conversion performed by the programmer by posing the data type of the expression of specific type is known as explicit type conversion. 
-* The explicit type conversion is also known as type casting.
+* <h3>NP-Complete Problems</h3>
+Following are some NP-Complete problems, for which no polynomial time algorithm is known.
+1) Determining whether a graph has a Hamiltonian cycle
+2) Determining whether a Boolean formula is satisfiable, etc.
 
-#### An example of explicit conversion
-```C
-#include <iostream>
-using namespace std;
-  
-int main()
-{
-    double x = 1.2;
-  
-    // Explicit conversion from double to int
-    int sum = (int)x + 1;
-  
-    cout << "Sum = " << sum;
-  
-    return 0;
-}
+## What is NP-Hard?
+NP-Hard are problems that are at least as hard as the hardest problems in NP. NP-Complete problems are also NP-Hard. However not all NP-hard problems are NP (or even a decision problem), despite having 'NP' as a prefix. That is the NP in NP-hard does not mean 'non-deterministic polynomial time.' 
 
-```
-#### Output
-```
-Sum = 2
-```
-
-### Advantages of Type Conversion:
-* This is done to take advantage of certain features of type hierarchies or type representations.
-* It helps to compute expressions containing variables of different data types.
-<hr>
-
+* <h3>NP-Hard Problems</h3>
+The following problems are NP-Hard
+1) The circuit-satisfiability problem
+2) Set Cover
+3) Vertex Cover
+4) Travelling Salesman Problem
