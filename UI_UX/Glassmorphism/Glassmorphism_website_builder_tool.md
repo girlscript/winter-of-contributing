@@ -6,4 +6,4 @@
 
 <br/><br/>
 
-### Do check this out on <a href="https://www.figma.com/community/file/1045050846020987463">Figma !</a> <br/><br/>
+### Do check this out on <a href="https://www.figma.com/community/file/1045050846020987463">Figma !</a> <br/>
