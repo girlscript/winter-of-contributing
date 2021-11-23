@@ -67,4 +67,5 @@ Now compare address of each node while traversing, to find the intersecting node
 ```
 
 [Intersecting linked list](readme_IntersectingLL.md)
-[References]("https://www.geeksforgeeks.org/intersection-point-of-two-linked-lists-set-3/")
+</br>
+[References](https://www.geeksforgeeks.org/intersection-point-of-two-linked-lists-set-3/)
