@@ -30,8 +30,8 @@ Then follow the following steps :
  3. Then parallely traverse the two lists and compare the address of each node.
  4. If the address matches, then that is the intersecting node.
 
- Eg :
-</br>
+ **Example :**  
+  
 ```
 h1 - 1 - 3 - 5 
               \
