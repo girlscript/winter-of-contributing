@@ -5,4 +5,4 @@
 ## python threading
 ## the threading module
 ## synchronizing threads
-https://github.com/girlscript/winter-of-contributing/files/7581780/Threading_in_Python.md
+[Threading_in_Python.md](https://github.com/nayakaj/winter-of-contributing/files/7589879/Threading_in_Python.md)
