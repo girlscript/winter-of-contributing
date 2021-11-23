@@ -1,7 +1,7 @@
 # HTML fieldset Tag
-This tag is used in form tag when we need to group related items in a form basically this tag makes border around all the related items of the form. This makes the form easier to understand.
+This tag is used in form tag when we need to group related items in a form basically this tag makes border around all the related items of the form we can also add captions to each fieldset using legend tag . This makes the form organised as well as easy to understand.
 ### HTML legend Tag
-This tag is used to mention captions in the form which makes form easy to understand.
+This tag is used to add caption for it's child element. These label tags acts like as a parent element and this is used in adding caption to fieldset tag which makes form easy to understand.
 ### Syntax
 ```html
 <form >
