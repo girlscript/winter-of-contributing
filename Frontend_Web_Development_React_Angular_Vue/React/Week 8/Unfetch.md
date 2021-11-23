@@ -73,7 +73,7 @@ The responses it returns are as follows:
 
 ## Lets write a Small Code
 
-This code call an fake api and gets the data in the form of JSON data and displays the value in the in the page
+This code call an fake api and gets the data in the form of JSON data and displays the value in the web page
 
 ```jsx
 import React, { useEffect, useState } from "react";
