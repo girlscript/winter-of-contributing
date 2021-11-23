@@ -1,4 +1,4 @@
-# Heap Application in Competitive Programming
+# Heap in Competitive Programming
 
 ## Kth Largest Element
 
