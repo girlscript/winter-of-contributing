@@ -66,5 +66,8 @@ int main() //main function
 }  //end of main
 
 //end of program
-
 ```
+
+# Output of this program
+![output](https://user-images.githubusercontent.com/78864134/143040323-4cca9d0f-7223-447f-ba1a-494f329d0c34.png)
+
