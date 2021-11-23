@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
               context: context,
               isDismissible: true,
               builder: (context) {
-                return const BottomSheet();
+                return BottomSheet(fetchImages: getImage);
               },
             );
           },
@@ -214,7 +214,8 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 class BottomSheet extends StatefulWidget {
-  const BottomSheet({Key? key}) : super(key: key);
+  final Function fetchImages;
+  const BottomSheet({Key? key, required this.fetchImages}) : super(key: key);
 
   @override
   _BottomSheetState createState() => _BottomSheetState();
@@ -258,6 +259,7 @@ class _BottomSheetState extends State<BottomSheet> {
     setState(() {
       flag = false;
     });
+    widget.fetchImages();
   }
 
   getImage(bool val) async {
@@ -296,56 +298,61 @@ class _BottomSheetState extends State<BottomSheet> {
           ),
           !uploaded
               ? Padding(
-                  padding: const EdgeInsets.all(8.0),
+                  padding: const EdgeInsets.all(0.0),
                   child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
-                        Row(
-                          children: [
-                            IconButton(
-                                onPressed: () async {
-                                  setState(() {
-                                    uploaded = true;
-                                  });
-                                  debugPrint(uploaded.toString());
-                                  await getImage(true);
-                                  Navigator.pop(context);
-                                  // uploading();
-                                },
-                                icon: Icon(
-                                  Icons.image,
-                                  size: 15,
-                                  color: appColor,
-                                )),
-                            Helper.text(
-                                "Gallery", 20, 0, appColor, FontWeight.bold),
-                          ],
+                        GestureDetector(
+                          onTap: () async {
+                            setState(() {
+                              uploaded = true;
+                            });
+                            debugPrint(uploaded.toString());
+                            await getImage(true);
+                            Navigator.pop(context);
+                            // uploading();
+                          },
+                          child: Row(
+                            children: [
+                              Icon(
+                                Icons.image,
+                                size: 25,
+                                color: appColor,
+                              ),
+                              SizedBox(
+                                width: 10,
+                              ),
+                              Helper.text(
+                                  "Gallery", 20, 0, appColor, FontWeight.bold),
+                            ],
+                          ),
                         ),
                         const SizedBox(
                           width: 10,
                         ),
-                        Row(
-                          children: [
-                            IconButton(
-                                onPressed: () {
-                                  Navigator.pop(context);
-                                  getImage(false);
-                                  uploading();
-                                  if (uploaded == false) {
-                                    const CircularProgressIndicator();
-                                  }
-                                },
-                                icon: Icon(
-                                  Icons.camera,
-                                  color: appColor,
-                                  size: 15,
-                                )),
-                            const SizedBox(
-                              width: 10,
-                            ),
-                            Helper.text(
-                                "Camera", 20, 0, appColor, FontWeight.bold),
-                          ],
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.pop(context);
+                            getImage(false);
+                            uploading();
+                            if (uploaded == false) {
+                              const CircularProgressIndicator();
+                            }
+                          },
+                          child: Row(
+                            children: [
+                              Icon(
+                                Icons.camera,
+                                color: appColor,
+                                size: 25,
+                              ),
+                              const SizedBox(
+                                width: 10,
+                              ),
+                              Helper.text(
+                                  "Camera", 20, 0, appColor, FontWeight.bold),
+                            ],
+                          ),
                         )
                       ]),
                 )
