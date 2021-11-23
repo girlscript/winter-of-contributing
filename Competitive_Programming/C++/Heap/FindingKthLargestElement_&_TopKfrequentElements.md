@@ -1,4 +1,4 @@
-# Heap in Competitive Programming
+# Kth Largest Element & Top K Frequent Elements
 
 ## Kth Largest Element
 
