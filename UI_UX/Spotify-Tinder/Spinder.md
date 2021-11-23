@@ -13,7 +13,7 @@ This is a user onboarding splash screen.It mainly shows the logo/branding of our
  
 ## Sign Up Screen
 
-![Sign Up Screen](https://user-images.githubusercontent.com/72400676/142984314-624fd20e-bd6e-4bfb-bd75-9638c1d402af.png)
+![Sign Up Screen](https://user-images.githubusercontent.com/72400676/143021230-c345a608-643a-4d17-92db-e048f7eb779e.png)
 
 This is where the new users can sign up or old users can sign in using the app or through their other socials.
 
@@ -59,7 +59,7 @@ When two users happen to love each other's profile,this screen acts as a confirm
   
 ## Message Screen
 
-![Message Screen](https://user-images.githubusercontent.com/72400676/143012630-33b32b82-1baf-4f10-b7cd-1698facaceda.png)
+![Message Screen](https://user-images.githubusercontent.com/72400676/143021143-633cad07-f6e7-46bb-a646-77e5a6bba535.png)
 
 This is the screen where two spinders can text each other to get to know themselves and talk about their musical preferences.
   
