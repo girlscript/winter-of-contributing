@@ -9,7 +9,7 @@ A man owns N cars (numbered from 1 to N). He wishes to sell all cars over N days
 
 ## EXPLANATION
 We use the greedy approach for solving this problem. 
-As we already know that price of any given car can never become negative. So, we will start by selling the car with maximum price and then proceed to car with lower price.
+As we already know the price of any given car can never become negative. So, we will start by selling the car with the maximum price and then proceed to the car with a lower price.
 We store the prices in ascending or descending order and then add prices accordingly until we get negative value for price of any car after depreciation on anyday.
 
 
