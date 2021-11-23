@@ -1,5 +1,8 @@
-Here we have Given an array of jobs where every job has a deadline and associated profit if the job is finished before the deadline. It is also given that every job takes a single unit of time, so the minimum possible deadline for any job is 1. How to maximize total profit if only one job can be scheduled at a time.
+#Job_Sequencing_Problem
 
+##Here we have Given an array of jobs where every job has a deadline and associated profit if the job is finished before the deadline. It is also given that every job takes a single unit of time, so the minimum possible deadline for any job is 1. How to maximize total profit if only one job can be scheduled at a time.
+
+```
 Input: Four Jobs with following 
 deadlines and profits
 JobID  Deadline  Profit
@@ -10,7 +13,9 @@ JobID  Deadline  Profit
 Output: Following is maximum 
 profit sequence of jobs
         c, a   
+```
 
+```
 
 Input:  Five Jobs with following
 deadlines and profits
@@ -23,6 +28,8 @@ JobID   Deadline  Profit
 Output: Following is maximum 
 profit sequence of jobs
         c, a, e
+	
+```
 
   A Simple Solution is to generate all subsets of a given set of jobs and check individual subsets for the feasibility of jobs in that subset. Keep track of maximum profit among all feasible subsets. The time complexity of this solution is exponential. 
 This is a standard Greedy Algorithm problem. 
@@ -37,6 +44,7 @@ b)If no such i exists, then ignore the job.
 
 The Following is the implementation of the above algorithm. 
 
+```cpp
 // Program to find the maximum profit job sequence from a given array
 // of jobs with deadlines and profits
 #include<iostream>
@@ -105,12 +113,13 @@ int main()
 	printJobScheduling(arr, n);
 	return 0;
 }
-Output
+
+##Output
 Following is maximum profit sequence of jobs 
 c a e 
 The Time Complexity of the above solution is O(n2). It can be optimized using Priority Queue(max heap).
 
-The algorithm goes as follow:
+###The algorithm goes as follow:
 
 Sort the jobs based on their deadlines.
 Iterate from the end and calculate the available slots between every two consecutive deadlines. Include the profit, deadline, and job ID of ith job in the max heap.
