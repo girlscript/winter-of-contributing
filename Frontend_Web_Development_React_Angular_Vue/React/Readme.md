@@ -15,7 +15,7 @@
 - [ ] Installing the React Developer Tools
 ### Week 2 
 - [ ] Components 
-- [ ] Class components 
+- [X] Class components 
 - [ ] Functional components 
 - [ ] import, export, modules 
 - [ ] React Props vs State 
