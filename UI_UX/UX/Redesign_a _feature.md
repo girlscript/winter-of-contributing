@@ -2,6 +2,12 @@
 
 Whenever I use "Google Meet app", sometimes its "About this call" feature frustrates me. Cause I want to see people but don't want to leave any part of the meet screen. So I tried to redesign Google Meet mobile application's "About this call" feature.
 
+## Original Slide
+
+![image](https://user-images.githubusercontent.com/87236107/142981721-e1882436-841f-4ac3-a90c-b0cfc356032e.png)
+
+## Redesigned slide
+
 ![2021-11-20](https://user-images.githubusercontent.com/87236107/142764356-2e02986c-3ce8-46f4-9d68-d2162a21157a.png)
 
 ## About this call- people slide
