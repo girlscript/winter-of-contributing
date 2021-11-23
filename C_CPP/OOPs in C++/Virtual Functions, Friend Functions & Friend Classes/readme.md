@@ -7,4 +7,5 @@
 - [Friend_Class](Friend_Class_in_c++.md)
 - [Pure Virtual Functions](pure-virtual-functions.md)
 - [Virtual Destructor](virtual-destructor.md)
+- [The 'set_new_handler()' Function](the-set-new-handler-function.md)
 
