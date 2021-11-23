@@ -33,17 +33,20 @@ import fetch from "unfetch";
 
 Now we can call it in useEffect() hook for fetching data
 
+useEffect is the first hook to be called in the function based component. So it is called first by default
+
 ```jsx
 import React, { useEffect } from "react";
 import fetch from "unfetch";
 export const Test = () => {
   useEffect(() => {
+    // sending the request
     await fetch("/push", {
-      method: "POST",
+      method: "POST", // POST method
       headers: {
-        "Content-Type": "application/json",
+        "Content-Type": "application/json", // JSON format
       },
-      body: JSON.stringify(),
+      body: JSON.stringify(), // Stringify it before passing it
     }).then((r) => {
       open(r.headers.get("confirm"));
       console.log(r.json());
@@ -52,7 +55,7 @@ export const Test = () => {
 };
 ```
 
-Now Lets Call an API using unfetch
+## Now Lets Call an API using unfetch
 
 The responses it returns are as follows:
 
@@ -70,24 +73,28 @@ The responses it returns are as follows:
 
 ## Lets write a Small Code
 
+This code call an fake api and gets the data in the form of JSON data and displays the value in the in the page
+
 ```jsx
 import React, { useEffect, useState } from "react";
 import fetch from "unfetch";
-export const Test = () => {
+export const Test = async () => {
   const [_data, setdata] = useState([]);
   const getData = async () => {
+    // async function to wait for the api to send the data
     await fetch("https://api.com/data"),
       {
-        method: "GET",
+        method: "GET", // GET request
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/json", // JSON format
         },
       }
-        .then((r) => r.json())
+        .then((r) => r.json()) // convert it to JSON format
         .then((data) => {
-          setdata(data);
+          setdata(data); // saving that data to _data variable state
         });
   };
+  // called first
   useEffect(() => {
     getData();
   });
@@ -96,6 +103,7 @@ export const Test = () => {
     <div>
       <h2>The Data is</h2>
       {_data.map((subdata) => {
+        // maps the value of the data in _data
         return <p>{subdata}</p>;
       })}
     </div>
