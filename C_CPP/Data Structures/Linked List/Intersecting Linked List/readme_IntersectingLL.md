@@ -20,8 +20,8 @@ So, we can just check whether the addresses of the two linked lists have the sam
 
 ## Finding node of Intersection
 
-<p> For finding the node at which two linked lists intersect we can compare the addresses of each node of a linked list with the other, but this would give the time complexity as O(m*n), where m and n are the lengths of the individual linked lists.
-</br>
+For finding the node at which two linked lists intersect we can compare the addresses of each node of a linked list with the other, but this would give the time complexity as O(m*n), where m and n are the lengths of the individual linked lists.  
+  
 So we use a different method. Let m and n be the length of the 2 linked lists and m>n.
 Then follow the following steps : 
  
