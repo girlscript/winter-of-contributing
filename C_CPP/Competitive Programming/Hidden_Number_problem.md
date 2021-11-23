@@ -32,7 +32,7 @@ Naman and Raman play a game of numbers. Raman gives Naman two number N and K. Th
 5
 ```
 ### CODE 💻
-```
+```cpp
 
 #include <bits/stdc++.h>
 using namespace std;
