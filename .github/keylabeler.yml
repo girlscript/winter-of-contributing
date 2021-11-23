@@ -31,7 +31,7 @@ labelMappings:
   Golang : Golang
   Interview Prep : Interview Prep
   Java_Domain : Java
-  JavaScript : JavaScript
+  JavaScript_Domain : JavaScript
   MERN : MERN
   Machine Learning : Machine Learning
   Open Source : Open Source
@@ -39,3 +39,4 @@ labelMappings:
   Rust : Rust
   Statistics : Statistics
   UI/UX : UI/UX
+  GWOC'21 : GWOC21
