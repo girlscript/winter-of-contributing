@@ -11,6 +11,13 @@
 
 ![Interact Screen](https://user-images.githubusercontent.com/72400676/142985545-18852221-c860-4025-a988-611f451b1df9.png)
 
+![Find Spinder Screen](https://user-images.githubusercontent.com/72400676/143012405-512f2b42-344e-4b0c-a30b-fb472a87220d.png)
+
+![Connection Screen](https://user-images.githubusercontent.com/72400676/143012471-bc079f0f-d4a5-4a79-b7ef-d9ed7aa516ae.png)
+
+![It's a Spinder](https://user-images.githubusercontent.com/72400676/143012557-bf469284-00a0-4102-b8a0-421af4e3163c.png)
+
+![Message Screen](https://user-images.githubusercontent.com/72400676/143012630-33b32b82-1baf-4f10-b7cd-1698facaceda.png)
 
 </div>
 
