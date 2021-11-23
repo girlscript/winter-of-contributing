@@ -30,27 +30,27 @@ We store the prices in ascending or descending order and then add prices accordi
 using namespace std;
 int main()
 {
-	// your code goes here
-    long long int n,k,i;
-	    cin>>n;
-	    k=0;
-        //create a vector to store price of cars
-	    vector <long long int> v(n);
-        //storing prices of cars in v
-	    for(i=0;i<n;i++)
-	    {
-	        cin>>v[i];
-	    }
-        //we sort this vector using sort() function
-	    sort(v.begin(),v.end());
-	    for(i=n-1;i>=0;i--)
-	    {
-                if(v[i]-n+1+i>0)k+=v[i]-n+1+i;
-                else break;
-	    }
-	    k=k%1000000007;
-	    cout<<k<<endl;
+	long long int n,k,i;
+	cin>>n;
+	k=0;
+    //create a vector to store price of cars
+	vector <long long int> v(n);
+    //storing prices of cars in v
+	for(i=0;i<n;i++)
+	{
+	    cin>>v[i];
 	}
+    //we sort this vector using sort() function
+	sort(v.begin(),v.end());
+	//calculation of price of cars after depreciation and then adding their sum in k
+	for(i=n-1;i>=0;i--)
+	{
+    	if(v[i]-n+1+i>0)k+=v[i]-n+1+i;
+        else break;
+	}
+	k=k%1000000007;
+	//printing maximum possible profit
+	cout<<k<<endl;
 	return 0;
 }
 ```
