@@ -1,0 +1,4 @@
+#+TITLE: Iterators
++ Rust comes with /support for loops and iterators/ .
++ *Iterators are objects that produce sequences of values, so they can be iterated or looped over* .
++
