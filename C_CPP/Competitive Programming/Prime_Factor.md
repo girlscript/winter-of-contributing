@@ -1,7 +1,11 @@
-Prime factor is the factor of the given number which is a prime number. Factors are the numbers you multiply together to get another number. In simple words, prime factor is finding which prime numbers multiply together to make the original number.
+# Prime Factor
+## Prime factor is the factor of the given number which is a prime number. Factors are the numbers you multiply together to get another number. In simple words, prime factor is finding which prime numbers multiply together to make the original number.
 
+```
 Example: The prime factors of 15 are 3 and 5 (because 3×5=15, and 3 and 5 are prime numbers). 
-Some interesting fact about Prime Factor : 
+
+```
+### Some interesting fact about Prime Factor : 
 
 
 There is only one (unique!) set of prime factors for any number.
@@ -13,12 +17,13 @@ How to print a prime factor of a number?
 Naive solution: 
 Given a number n, write a function to print all prime factors of n. For example, if the input number is 12, then output should be “2 2 3” and if the input number is 315, then output should be “3 3 5 7”.
 
-Following are the steps to find all prime factors: 
+### Following are the steps to find all prime factors: 
 
 While n is divisible by 2, print 2 and divide n by 2.
 After step 1, n must be odd. Now start a loop from i = 3 to square root of n. While i divides n, print i and divide n by i, increment i by 2 and continue.
 If n is a prime number and is greater than 2, then n will not become 1 by above two steps. So print n if it is greater than 2.
 
+``` 
 // Program to print all prime factors
 # include <stdio.h>
 # include <math.h>
@@ -59,11 +64,16 @@ int main()
 	return 0;
 }
 
+```
 
+```
 Output: 
 
 3 3 5 7
-How does this work? 
+
+```
+
+### How does this work? 
 
 Steps 1 and 2 take care of composite number and step-3 takes care of prime numbers. To prove that the complete algorithm works, we need to prove that steps 1 and 2 actually take care of composite numbers. 
 It’s clear that step-1 takes care of even numbers. After step-1, all remaining prime factor must be odd (difference of two prime factors must be at least 2), this explains why i is incremented by 2.
