@@ -2,11 +2,11 @@
 
 ### Aim:
 
-The aim of this project is to predict Solar Radiations emitted by the Sun. We will be using the Solar Radiation Dataset from Kaggle.We are going to analyze and try to predict the radiation using this dataset , keeping in mind the various factors and correlated coefficients which will help us in detereming the radiation emission levels.
+The aim of this project is to predict Pizza Prices based on the different features. We will be using the Pizza Prediction Dataset from Kaggle which is research based on Pizza Prices in Indonesia , hence the prices mentioned in the dataset are in Rupiah as well.We are going to analyze and try to predict the pizza prices using this dataset , keeping in mind the various factors and correlated coefficients which will help us in determining the accurate pizza prices.
 
 ---
 ### Desciption
-Solar radiation, often called the solar resource or just sunlight, is a general term for the electromagnetic radiation emitted by the sun. Solar radiation can be captured and turned into useful forms of energy, such as heat and electricity, using a variety of technologies. However, the technical feasibility and economical operation of these technologies at a specific location depends on the available solar resource.
+Pizza is an Italian dish consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients (such as anchovies, mushrooms, onions, olives, pineapple, meat, etc.), which is then baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta. A person who makes pizza is known as a pizzaiolo.
 
 ### Libraries Used:
 - pandas
@@ -22,32 +22,33 @@ All the required libraries have been imported.
 #### 2. Loading the dataset: 
 The dataset is read using pandas as a dataframe.
 #### 3.Understanding the dataset :
-We try to understand the dataset and try to find out factors for basing our models  , like using correalation b/w the variables ,heatmap etc.
+We try to understand the dataset and try to find out factors for basing our models  , like using correlation b/w the variables ,EDA,etc.
 #### 4.  Training the model:
-Using all the imported packages , we build three regressor  models which uses the concept of Random Forest , Linear Regression and Ridge Regression. We then train the model based on the training dataset. The loss function used here is mean squared error. 
+Using all the imported packages , we build four regressor  models which uses the concept of Random Forest ,XG Boost , Linear Regression and Ridge Regression. We then train the model based on the training dataset. The loss function used here is mean squared error. 
 #### 6. Predicting the model:
-The model that we built is now used to predict the radiation levels on the testing data. We do a 30:70 split of our dataset so as to give better training enviornment for our models.
+The model that we built is now used to predict the pizza prices on the testing data. We do a 30:70 split of our dataset so as to give better training enviornment for our models.
 
 ---
 
-[Link to dataset used.](https://github.com/photon149/winter-of-contributing/blob/d2fb8d36c29864f3d0d2d7905f57d7278d3d639e/Datascience_With_Python/DS%20Datasets/Solar%20Radiation%20Prediction/SolarPrediction.csv)
+[Link to dataset used.](https://github.com/photon149/winter-of-contributing/blob/b4f39647c53e43b2f25efb545af4bf0e68268a99/Datascience_With_Python/DS%20Datasets/Pizza%20Price%20Prediction/pizza_v2.csv)
 
 ---
 
 ### Model Scores (RMSE) 
-- Random Forest Regressor : 160.266186
-- Linear Regression : 210.044098
-- Ridge Regression : 210.045619
+- Linear Regression	: 23143.143935
+- Ridge Regression	: 23128.686700
+- Random Forest Regression :	12041.189166
+- XG Boost Regressor	: 14614.039151
 
 ---
 
 ### Application
-This system can come in Handy with weather and meteorological based nodal agencies.In areas where there is suspected breakage of ozone layer and chances occur of high intensity solar radiation , so this system can be connected to a ral time system and be used to predict high radiation levels in those areas.
+This system can come in Handy with local cafeterias or food chain outlets who are trying to expand into new territoties , as this can provide the firm with a price sensitivity of the market as well as suggest them what price should they sell their pizza at so as to provide a healthy competition as well as make reasonable profits and growth.
 
 ---
 
 ### Conclusion
-We have used three Regression Models to predict the Solar Radiation Levels on our Dataset.We used Linear Regression , Random Forest Regressor and Ridge Regression Models.Out of these 3 Random Forest gave us the lowest RMSE , so we can further use Random Forest Model for better accuracy models , rather than other Regression Models.
+We have used four Regression Models to predict the Pizza Prices based  on our Dataset.We used Linear Regression , XG Boost ,Random Forest Regressor and Ridge Regression Models.Out of these 3 Random Forest gave us the lowest RMSE , so we can further use Random Forest Model for better accuracy models , rather than other Regression Models.
  
 
 
