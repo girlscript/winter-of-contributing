@@ -1,6 +1,6 @@
-#Job_Sequencing_Problem
+# Job_Sequencing_Problem
 
-##Here we have Given an array of jobs where every job has a deadline and associated profit if the job is finished before the deadline. It is also given that every job takes a single unit of time, so the minimum possible deadline for any job is 1. How to maximize total profit if only one job can be scheduled at a time.
+## Here we have Given an array of jobs where every job has a deadline and associated profit if the job is finished before the deadline. It is also given that every job takes a single unit of time, so the minimum possible deadline for any job is 1. How to maximize total profit if only one job can be scheduled at a time.
 
 ```
 Input: Four Jobs with following 
@@ -114,12 +114,12 @@ int main()
 	return 0;
 }
 
-##Output
+## Output
 Following is maximum profit sequence of jobs 
 c a e 
 The Time Complexity of the above solution is O(n2). It can be optimized using Priority Queue(max heap).
 
-###The algorithm goes as follow:
+### The algorithm goes as follow:
 
 Sort the jobs based on their deadlines.
 Iterate from the end and calculate the available slots between every two consecutive deadlines. Include the profit, deadline, and job ID of ith job in the max heap.
