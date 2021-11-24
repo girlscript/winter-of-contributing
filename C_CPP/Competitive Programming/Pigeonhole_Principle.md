@@ -1,7 +1,7 @@
-Suppose that a flock of 20 pigeons flies into a set of 19 pigeonholes to roost. Because there are 20 pigeons but only 19 pigeonholes, a least one of these 19 pigeonholes must have at least two pigeons in it. To see why this is true, note that if each pigeonhole had at most one pigeon in it, at most 19 pigeons, one per hole, could be accommodated. This illustrates a general principle called the pigeonhole principle, which states that if there are more pigeons than pigeonholes, then there must be at least one pigeonhole with at least two pigeons in it.
-Theorem –
+# Pigeonhole Principle
+## Suppose that a flock of 20 pigeons flies into a set of 19 pigeonholes to roost. Because there are 20 pigeons but only 19 pigeonholes, a least one of these 19 pigeonholes must have at least two pigeons in it. To see why this is true, note that if each pigeonhole had at most one pigeon in it, at most 19 pigeons, one per hole, could be accommodated. This illustrates a general principle called the pigeonhole principle, which states that if there are more pigeons than pigeonholes, then there must be at least one pigeonhole with at least two pigeons in it.
 
-
+## Theorem –
 
 
 I) If “A” is the average number of pigeons per hole, where A is not an integer then
@@ -17,6 +17,7 @@ If X has more elements than Y, then f is not one-to-one.
 If X and Y have the same number of elements and f is onto, then f is one-to-one.
 If X and Y have the same number of elements and f is one-to-one, then f is onto.
 Pigeonhole principle is one of the simplest but most useful ideas in mathematics. We will see more applications that proof of this theorem.
+
 
 Example – 1: If (Kn+1) pigeons are kept in n pigeon holes where K is a positive integer, what is the average no. of pigeons per pigeon hole?
 Solution: average number of pigeons per hole = (Kn+1)/n
