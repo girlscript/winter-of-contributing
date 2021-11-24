@@ -10,6 +10,9 @@ For example if the first linked list a is 1->4->5->7 and the other linked list b
 
 We are done, the result is in dummynode->next. 
 
+- Time Complexity = O(n)
+- Space Complexity = O(n)
+
 ```CPP
 #include<iostream>
 using namespace std;
