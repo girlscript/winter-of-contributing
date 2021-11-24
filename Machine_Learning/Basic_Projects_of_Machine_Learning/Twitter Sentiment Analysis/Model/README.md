@@ -1,4 +1,3 @@
-﻿
 #  Sentiment Analysis on Twitter Data
 Sentiment analysis refers to identifying as well as classifying the sentiments that are expressed in the text source. Tweets are often useful in generating a vast amount of sentiment data upon analysis. These data are useful in understanding the opinion of the people about a variety of topics. Twitter is one of the social media that is gaining popularity. Twitter offers organizations a fast and effective way to analyze customers’ perspectives toward the critical to success in the market place. Developing a program for sentiment analysis is an approach to be used to computationally measure customers’ perceptions.
 
@@ -16,7 +15,7 @@ The goal of this project is to detect hate speech in tweets using various predic
 
 ##  What have I done?
 
-1. Importing all the required libraries. Check [`requirements.txt`](requirements.txt).
+1. Importing all the required libraries. Check [`requirements.txt`](../requirements.txt).
 
 2. Upload the dataset and the Jupyter Notebook file.
 
@@ -25,18 +24,14 @@ The goal of this project is to detect hate speech in tweets using various predic
 4. Data Processing
 
 5. Prediction Models
+    - RandomForest Classifier
+    - Linear Regression
+    - Decision Tree classifier
+    - XGBoost Classifier
 
-- RandomForest Classifier
+6.  Model Comparison
 
-- Linear Regression
-
-- Decision Tree classifier
-
-- XGBoost Classifier
-
-8.  Model Comparison
-
-9. Conclusion
+7. Conclusion
 
 ********************************
 
@@ -59,7 +54,21 @@ The goal of this project is to detect hate speech in tweets using various predic
 **********************************
 
 ##  Exploratory Data Analysis
+1. **Correlation between numerical parameters**
 
+![](../Images/twt1.png)
+
+2. **Most frequently occuring words**
+
+![](../Images/twt4.png)
+
+3. **Wordclouds generated for Neutral words and Negative Words**
+
+<img src="../Images/twt6.png" width="450" height="400">  <img src="../Images/twt7.png" width="450" height="400">
+
+4. **Collecting most used hashtags**
+
+<img src="../Images/twt8.png" width="1200" height="400">
 
 **************************************
 
@@ -68,16 +77,15 @@ The goal of this project is to detect hate speech in tweets using various predic
 Here I have deployed four algorithms to deploy the models, now let's check the accuracy scores for these models.
 
 |Models|Accuray Score|f1-score|
-
 |-|-|-|
-
 |RandomForest|0.95|0.61|
-
 |Linear Regression|0.94|0.59|
-
 |Decision Tree|0.93|0.54|
-
 |XGBoost|0.95|0.57|
+
+Here is the Accuracy vs Classifier graph :
+
+<img src="../Images/twt10.png">
 
 ***************************************
 
