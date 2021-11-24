@@ -20,7 +20,7 @@
 | 10 | **Customer Segmentation**| Analysing different types of customers around the globe and build a classification model accordingly. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Customer%20Segmentation) |
 | 11 | **Fake News Classification** |  Develop a Machine Learning Model which will predict the news is fake or, real. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Fake%20News%20Detection) |
 | 12 | **Market Basket Analysis** | Machine learning model to finding out the most frequently bought products together by analysing the past buying behaviour of the customer. | - |
-| 13 | **Gold Price Prediction** | Machine Learning model which will predict the Gold prices in the upcoming days, based on the price of the previous days. | - |
+| 13 | **Gold Price Prediction** | Machine Learning model which will predict the Gold prices in the upcoming days, based on the price of the previous days. | [Click Here](https://github.com/girlscript/winter-of-contributing/tree/Machine_Learning/Machine_Learning/Basic_Projects_of_Machine_Learning/Gold%20Price%20Prediction) |
 
 *****************************************************************
 **:copyright: GirlScript Winter of Contributions 2021**
