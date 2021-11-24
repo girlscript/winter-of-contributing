@@ -1,7 +1,7 @@
 # N Queens Problem
 N Queens problem is to place n queens in such a manner on an n x n chessboard that no queens attack each other by being in the same row, column or diagonal.
 
-N queens problem is not applicable for n = 1,2,3 as n=1 will generate a trivial solution and no solution exists for n=2 and n=3.
+N queens problem is not applicable for n = 1, 2, 3 as n = 1 will generate a trivial solution and no solution exists for n = 2 and n = 3.
 
 ## Implementation of N Queens Problem in C++
 We start by placing queens one by one in different columns, starting from the leftmost column. In the current column, if we find a row for which there is no clash, we mark this row and column as part of the solution. If we do not find such a row due to clashes, then we backtrack.
