@@ -1,12 +1,12 @@
 # Merge two sorted linked lists
 
-- Write a merge() function that takes two lists, each of which is sorted in increasing order, and merges the two together into one list which is in increasing order. merge() should return the new list. The new list should be made by splicing together the nodes of the first two lists.
+- Write a merge() function that takes two linked lists of sorted order, and merges both the linked list in increasing order. now, merge() function will return the new linked list
 
-For example if the first linked list a is 1->4->5->7 and the other linked list b is 2->3->6, then merge() should return a pointer to the head node of the merged list 1->2->3->4->5->6->7. 
+For example if the first linked list a is 1->4->5->7 and the other linked list b is 2->3->6, then merge() should return dummynode list 1->2->3->4->5->6->7. 
 
 ## Algorithm
 
-- The strategy here uses a temporary dummy node as the start of the result list. The pointer Tail always points to the last node in the result list, so appending new nodes is easy. The dummy node gives the tail something to point to initially when the result list is empty. This dummy node is efficient, since it is only temporary, and it is allocated in the stack. The loop proceeds, removing one node from either ‘a’ or ‘b’, and adding it to the tail. When 
+-We used the temporary dummy node as the start of the result list. The pointer Tail always points to the last node in the resultant list, so traversing new nodes is easy. The dummynode gives tail something to point to initially when the result list is empty. This dummy node is enough, since it is temporary, and it is allocated in the stack. The loop proceeds, removing one node from either ‘a’ or ‘b’, and adding it to the tail. When 
 
 We are done, the result is in dummynode->next. 
 
