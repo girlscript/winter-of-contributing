@@ -65,7 +65,7 @@ MLPs are suitable for classification prediction problems where inputs are assign
 
 6] DATA VISUALIZATION
 
-![My image](https://github.com/girlscript/winter-of-contributing/blob/ac5084e58eafeea0f047b755aae41d607422853b/Datascience_With_Python/Deep%20Learning/Algorithms/Multilayer%20Perceptrons/Images/Iris%20dataset%20Scatterplot.png)
+![alt text](https://github.com/girlscript/winter-of-contributing/blob/ac5084e58eafeea0f047b755aae41d607422853b/Datascience_With_Python/Deep%20Learning/Algorithms/Multilayer%20Perceptrons/Images/Iris%20dataset%20Scatterplot.png)
 
 7] CONCLUSION
 
