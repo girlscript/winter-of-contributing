@@ -10,7 +10,8 @@ For example if the first linked list a is 1->4->5->7 and the other linked list b
 
 We are done, the result is in dummynode->next. 
 
-- Time Complexity = O(n)
+- Time Complexity = O(m+n)
+- where m is a length of first linked list and n is a length of second linked list
 - Space Complexity = O(n)
 
 ```CPP
