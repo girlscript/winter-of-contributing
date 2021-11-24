@@ -25,8 +25,8 @@ The idea is to create an auxiliary array left[], where left[i] stores a sum of e
 
 #include <stdio.h>
  
-// Function to find the equilibrium index of an array
-void findEquilibriumIndex(int A[], int n)
+// Function to find the equilibrium index of an array void findEquilibriumIndex(int A[], int n)
+
 {
     // here `left[i]` stores the sum of elements of subarray `A[0…i-1]`
     int left[n];
@@ -72,9 +72,13 @@ int main(void)
 
 ### Output:
 
+```
+
 Equilibrium Index found at 7
 Equilibrium Index found at 3
 Equilibrium Index found at 0
+
+```
 
 **time complexity:** O(n) and requires O(n) extra space.
 
