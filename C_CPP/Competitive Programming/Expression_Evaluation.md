@@ -1,12 +1,31 @@
 # Expression Evaluation
 
-### Evaluate an expression represented by a String. The expression can contain parentheses, you can assume parentheses are well-matched. For simplicity, you can assume only binary operations allowed are +, -, *, and /. Arithmetic Expressions can be written in one of three forms:
-Infix Notation: Operators are written between the operands they operate on, e.g. 3 + 4.
+### Here we have to evaluate an expression which is represented by a String. That expression can contain parentheses, here we can assume that the  parentheses are well-matched. For our ease we will assume only binary operations such as  +, -, *, and /. Arithmetic Expressions can be written in one of three forms:
 
-Prefix Notation: Operators are written before the operands, e.g + 3 4
+What is expression evaluation?
+The Expression evaluation tool (sometimes called the Watch tool) makes it possible to evaluate expressions while the application is stopped in the debugger. A typical use for it is the case in which you would like to know the result that an external feature would
+
+What determines the order of evaluation in an expression?
+The precedence of operators determines the order of evaluation in an expression.
+
+What is expression evaluation in data structure?
+
+The stack organization is very effective in evaluating arithmetic expressions. Expressions are usually represented in what is known as Infix notation, in which each operator is written between two operands (i.e., A + B)
+
+Infix Notation:In this notation Operators are written between the operands they operate on.
+ The usual expressions which we encounter are infix expressions. 
+For example, 
+
+(A + B) * C / D – E
+
+Prefix Notation:Prefix notation's Operators are written before the operands, e.g + 3 4
+Now that we know what expressions we’re dealing with, solving them will be even easier. Before moving on to the evaluation, there is one more thing we need to learn – the precedence of operators.
 
 Postfix Notation: Operators are written after operands.
-Infix Expressions are harder for Computers to evaluate because of the additional work needed to decide precedence. Infix notation is how expressions are written and recognized by humans and, generally, input to programs. Given that they are harder to evaluate, they are generally converted to one of the two remaining forms. A very well known algorithm for converting an infix notation to a postfix notation is Shunting Yard Algorithm by Edgar Dijkstra. This algorithm takes as input an Infix Expression and produces a queue that has this expression converted to postfix notation. The same algorithm can be modified so that it outputs the result of the evaluation of expression instead of a queue. The trick is using two stacks instead of one, one for operands, and one for operators. The algorithm was described succinctly on http://www.cis.upenn.edu/matuszek/cit594-2002/Assignments/5-expressions.htm, and is reproduced here. (Note that credit for succinctness goes to the author of said page) 
+
+It is difficult for computers to evaluate infix expressions because additional work is required to determine the precedence. Infix notation is how expressions are written and recognized by humans and are typically input into programs. Given that they are difficult to evaluate, they usually converge to one of the two remaining forms.
+A very famous algorithm for converting an infix notation to a postfix notation is the shunting yard algorithm by Edgar Dijkstra. This algorithm takes as input an infix expression and generates a queue in which this expression is converted into postfix notation. The same algorithm can be modified so that it outputs the result of the evaluation of the expression instead of a queue.
+ The trick is using two stacks instead of one, one for operands, and one for operators. The algorithm was described succinctly on http://www.cis.upenn.edu/matuszek/cit594-2002/Assignments/5-expressions.htm, and is reproduced here. (Note that credit for succinctness goes to the author of said page) 
 
 ```
 
@@ -50,19 +69,17 @@ http://www2.lawrence.edu/fast/GREGGJ/CMSC270/Infix.html,
 http://faculty.cs.niu.edu/~hutchins/csci241/eval.htm.
 
 ```
-
-Following is the implementation of above algorithm:
+Now we will do the implementation of above algorithm:
 
 ```
 
-// CPP program to evaluate a given
-// expression where tokens are
-// separated by space.
+// CPP program to evaluate an expression
+ // here tokens are separated by space.
+
 #include <bits/stdc++.h>
 using namespace std;
 
-// Function to find precedence of
-// operators.
+
 int precedence(char op){
 	if(op == '+'||op == '-')
 	return 1;
@@ -71,7 +88,7 @@ int precedence(char op){
 	return 0;
 }
 
-// Function to perform arithmetic operations.
+// Function for arithmetic operations.
 int applyOp(int a, int b, char op){
 	switch(op){
 		case '+': return a + b;
@@ -81,21 +98,21 @@ int applyOp(int a, int b, char op){
 	}
 }
 
-// Function that returns value of
-// expression after evaluation.
+// Function to returns value of expression after evaluation.
+
 int evaluate(string tokens){
 	int i;
 	
-	// stack to store integer values.
+
 	stack <int> values;
 	
-	// stack to store operators.
+
 	stack <char> ops;
 	
 	for(i = 0; i < tokens.length(); i++){
 		
-		// Current token is a whitespace,
-		// skip it.
+		// Here the current token is a whitespace,
+		// we can skip it.
 		if(tokens[i] == ' ')
 			continue;
 		
@@ -121,17 +138,11 @@ int evaluate(string tokens){
 			
 			values.push(val);
 			
-			// right now the i points to
-			// the character next to the digit,
-			// since the for loop also increases
-			// the i, we would skip one
-			// token position; we need to
-			// decrease the value of i by 1 to
-			// correct the offset.
+			
 			i--;
 		}
 		
-		// Closing brace encountered, solve
+		// Now we are  Closing brace encountered, solve
 		// entire brace.
 		else if(tokens[i] == ')')
 		{
@@ -157,10 +168,7 @@ int evaluate(string tokens){
 		// Current token is an operator.
 		else
 		{
-			// While top of 'ops' has same or greater
-			// precedence to current token, which
-			// is an operator. Apply operator on top
-			// of 'ops' to top two elements in values stack.
+			
 			while(!ops.empty() && precedence(ops.top())
 								>= precedence(tokens[i])){
 				int val2 = values.top();
@@ -175,7 +183,7 @@ int evaluate(string tokens){
 				values.push(applyOp(val1, val2, op));
 			}
 			
-			// Push current token to 'ops'.
+			// Here we will Push current token to 'ops'.
 			ops.push(tokens[i]);
 		}
 	}
@@ -223,6 +231,7 @@ int main() {
 ```
 
 ### Time Complexity: O(n) 
+
 ### Space Complexity: O(n)
 
 This article is compiled by **Ciphe**. 
