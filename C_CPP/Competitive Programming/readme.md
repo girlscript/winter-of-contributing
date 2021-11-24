@@ -11,4 +11,3 @@
 - [Egg Dropping Problem using Recursion](Egg_Dropping.md)
 - [Greedy: Car Sell problem in C++](CarSell_problem.md)
 - [Hidden Number Problem in C++](Hidden_Number_problem.md)
-- [Tollbooth in c++](tollbooth.md)
