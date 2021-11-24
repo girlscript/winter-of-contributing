@@ -1,14 +1,6 @@
 # **Binary Search For Repeated Elements**
-
-<br>
-
-We will be looking at the concept and the implementation an optimized algorithm which gives the first occurrence of an element of a sorted vector or an array
-
-<br>
-
+We will be looking at the concept and the implementation an optimized algorithm which gives the first occurrence of an element of a sorted vector or an array  
 ## **Approach**
-
-<br>
 
 - This algorithm is based on the very basic yet extremely useful **BINARY SEARCH**
 - We start by defining the mid element of the container (vector or array)
@@ -21,11 +13,7 @@ contained between the elements : mid + 1 to end (both inclusive)
 - If the element is present in the vector or array under lookup then, this algorithm will output the index at which the element first occurred in the array or vector
 - If the element is not present in the vector or array, then the algorithm will simply return -1
 
-<br>
-
 ### ***Example***
-
-<br>
 
 ```txt
 Suppose we have the following vector
@@ -59,21 +47,13 @@ In this case we return -1
 Hence the final answer is going to be Temp Ans2 since this is the least index at which 2 is present is 1
 ```
 
-<br>
-
 ## **Space and Time Complexity Analysis**
-
-<br>
 
 - This Algorithm requires no extra space and thus the overall ***SPACE COMPLEXITY*** is going to be ***O(1)***
 - The algorithm is a divide and conquer algorithm, at a time it divides the container into 2 halves out of which, one part is discarded straight away, and the  same process happens for the remaining part.
 - The worst case ***TIME COMPLEXITY*** of this algorithm is : ***O(log(Size of the Container))*** which is when, if the key is located at either of the ends
 
-<br>
-
 ## **Code**
-
-<br>
 
 ```C++
 #include <iostream>
@@ -144,12 +124,6 @@ int main()
 }
 ```
 
-<br>
-
 ## **Output**
 
-<br>
-
 ![Output](https://user-images.githubusercontent.com/34866732/143109866-30c910f1-90bd-4039-bbf6-6662a858a890.png)
-
-<br>
