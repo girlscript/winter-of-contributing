@@ -1,16 +1,37 @@
-# cloud_photos
+<h1 align="center"> Photo Booth </h1>
 
-A new Flutter project.
+## 🎯 About the Project
+* Photo Booth is Flutter Application where you can upload your photos/images on to firebase storage with ease.  
+* It uses Flutter Framework as frontend , backend and Firebase as as server maintaining Databases .
 
-## Getting Started
+## ✨ Technologies Used
 
-This project is a starting point for a Flutter application.
+<p align = "center">
 
-A few resources to get you started if this is your first Flutter project:
+<a href="https://flutter.dev/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/flutter.png"/> </a>
+<a href="https://dart.dev/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/dart.png"/> </a>
+<a href="https://firebase.google.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/firebase.png"/> </a>
+<a href="https://git-scm.com/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/git.png"/> </a> 
+</p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 🚀 Features 
+✔️ Google Authentication
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+✔️ Phone Number Authentication
+
+✔️ Firebase Storage
+
+✔️ Firebase Firestore
+
+✔️ View your photos
+
+## 🏁 ScreenShots
+
+
+
+<p align="center">
+
+  <img src="images\Screenshot_2021-11-24-09-38-47-32_58b84a04f5e0ef05c042c55f2414b43f.jpg" width="350">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\Screenshot_2021-11-24-09-37-48-64_58b84a04f5e0ef05c042c55f2414b43f.jpg" width="350" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\Screenshot_2021-11-24-17-57-31-53_58b84a04f5e0ef05c042c55f2414b43f.jpg" width="350" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images\Screenshot_2021-11-24-17-58-57-37_58b84a04f5e0ef05c042c55f2414b43f.jpg" width="350" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\Screenshot_2021-11-24-17-59-22-12_58b84a04f5e0ef05c042c55f2414b43f.jpg" width="350" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images\Screenshot_2021-11-24-17-59-40-81_58b84a04f5e0ef05c042c55f2414b43f.jpg" width="350" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="images\Screenshot_2021-11-24-17-59-48-65_58b84a04f5e0ef05c042c55f2414b43f.jpg" width="350" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
