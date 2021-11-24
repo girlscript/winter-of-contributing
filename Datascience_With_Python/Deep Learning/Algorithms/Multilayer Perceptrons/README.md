@@ -20,7 +20,7 @@ In the forward pass, the signal flow moves from the input layer through the hidd
 
 In the backward pass, using backpropagation and the chain rule of calculus, partial derivatives of the error function w.r.t. the various weights and biases are back-propagated through the MLP. That act of differentiation gives us a gradient, or a landscape of error, along which the parameters may be adjusted as they move the MLP one step closer to the error minimum. This can be done with any gradient-based optimisation algorithm such as stochastic gradient descent. The network keeps playing that game of tennis until the error can go no lower. This state is known as convergence.
 
-
+![Multilayer Perceptron](https://user-images.githubusercontent.com/34959817/143298899-a1f024d8-2f59-4749-9891-a63f36e78b69.png)
 
 4] TERMS
 1--ARTIFICIAL NEURON
@@ -65,7 +65,7 @@ MLPs are suitable for classification prediction problems where inputs are assign
 
 6] DATA VISUALIZATION
 
-![alt text](https://github.com/girlscript/winter-of-contributing/blob/ac5084e58eafeea0f047b755aae41d607422853b/Datascience_With_Python/Deep%20Learning/Algorithms/Multilayer%20Perceptrons/Images/Iris%20dataset%20Scatterplot.png)
+![Iris dataset Scatterplot](https://user-images.githubusercontent.com/34959817/143298773-a4c58729-1165-46d2-a718-b6f664de698e.png)
 
 7] CONCLUSION
 
