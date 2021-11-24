@@ -2,7 +2,7 @@
 
 ## What is Testing ?
 
-Testing can be defined as the procedure to make sure a software application or product behaves just the way it is supposed to do.Testing the code is essesntial before deployment.
+Testing can be defined as the procedure to make sure a software application or product behaves just the way it is supposed to do.Testing the code is essesntial before deployment. In React, testing involves execution of React components using manual or automated testing tools to identify errors or missing requirements in contrast to actual expectations of the application.
 
 ![](./assets/Testing.png)
 
@@ -33,12 +33,8 @@ Testing can be defined as the procedure to make sure a software application or p
 
 There are a few ways to test React components and applications.
 
-- **Rendering component trees**:
-  in a simplified test environment and asserting on their output.
-
-- **End-to-End Tests**:
-  Running a complete app in a realistic browser environment (also known as “end-to-end” tests).
-  This documentation section focuses on testing strategies for the first case. While full end-to-end tests can be very useful to prevent regressions to important workflows, such tests are not concerned with React components in particular, and are out of the scope of this section.
+- **Rendering Component Trees**:
+  This testing method involves testing out React components by rendering the component trees in a Simplified test environment and providing assertions on their expected outputs.
 
 - **Test-Driven Development**:  
   Test-Driven Development is a development process in which tests are written for tasks before writing the code to implement those tasks. These tests can check for different scenarios and edge cases as well.
@@ -46,7 +42,10 @@ There are a few ways to test React components and applications.
 - **Unit Test**:
   A Unit Test is a type of test that covers a "unit" of code - that is usually a single function, independently from the rest of the program. Ideally, a test program is made to run that runs all the unit tests and lets the tester know which one failed and which one succeeded.
 
-Example: React Testing Library builds on top of DOM Testing Library by adding APIs for working with React components.is a very light-weight solution for testing React components. It provides light utility functions on top of react-dom and react-dom/test-utils, in a way that encourages better testing practices.
+- **End-to-End Tests**:
+  End-to-End Tests are executed by running the complete React Application in a realistic browser environment. They can prove to be really useful while testing longer workflows or those that are crucial tasks like Implementing a Payment Gateway or Authentication workflows by rendering the whole app in a real browser, implementing real API calls, using sessions, cookies, navigating routes etc .
+
+Example : For testing such React components **React Testing Library** provides a very light-weight solution by building on top of **DOM Testing Library**. This makes working with React components way easier by adding APIs and providing light utility functions on top of react-dom and react-dom/test-utils.
 
 ```
 npm install --save-dev @testing-library/react
@@ -54,10 +53,11 @@ npm install --save-dev @testing-library/react
 
 ## Benefits of the Testing
 
-- Testing helps developers catch errors and faulty conclusions before they make any major impact.
-- Logging plays an important role in testing any application.It helps to describe events that have occurred while running the React App .
+- Testing helps developers ensure that the React application will work as expected and intended for the users. It is a very cost-effective procedure as any bug caught in the earlier stages of development requires less amount to fix.
+- Logging plays an important role in testing any application. It helps to describe events that have occurred while running the React App to help in debugging.
 - Code Reviews benefit the testing procedure to promote best programming practices and thereby help to prepare code for production.
-- Testing is done to ensure that your app will work as intended for your end users. Having tests will make your app more robust and less error prone. It is a way to verify that the code is doing what the developers intended.
+- Testing makes the app robust and less error prone by catching errors and faulty conclusions before they make any major impact post deployment.
+- It ensures that the app is reliable, secure and is a high-performing one thereby increasing customer satisfaction.
 
 ## References
 
