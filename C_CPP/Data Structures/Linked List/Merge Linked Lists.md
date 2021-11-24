@@ -1,14 +1,11 @@
 # Merge two sorted linked lists
 
 - Write a merge() function that takes two linked lists of sorted order, and merges both the linked list in increasing order. now, merge() function will return the new linked list
-
 For example if the first linked list a is 1->4->5->7 and the other linked list b is 2->3->6, then merge() should return dummynode list 1->2->3->4->5->6->7. 
 
 ## Algorithm
 
-- We used the temporary dummy node as the start of the result list. The pointer Tail always points to the last node in the resultant list, so traversing new nodes is easy. The dummynode gives tail something to point to initially when the result list is empty. This dummy node is enough, since it is temporary, and it is allocated in the stack. The loop proceeds, removing one node from either ‘a’ or ‘b’, and adding it to the tail. When 
-
-We are done, the result is in dummynode->next. 
+- We used the temporary dummy node as the start of the result list. The pointer Tail always points to the last node in the resultant list, so traversing new nodes is easy. The dummynode gives tail something to point to initially when the result list is empty. This dummy node is enough.since it is temporary, and it is allocated in the stack. The loop proceeds till all the nodes are visited and removing one node from either from first linked list or from second linked list and adding it to the tail to form new linked list. When We are done,the result is in dummynode->next. 
 
 - Time Complexity = O(m+n)
 - where m is a length of first linked list and n is a length of second linked list
