@@ -9,7 +9,7 @@ Banker’s Algorithm is an algorithm which is used to avoid deadlock and allocat
 
 - Bank only processes the house loan when the bank has sufficient money i.e It checks whether the difference is more than or not M. So that there is sufficient balance even if all account holders withdraw the money M simultaneously.   
 
-## Data Structures used for implemention the Banker’s Algorithm
+## Data Structures used for implemention of banker’s algorithm-
 Let us assume that there are n processes and m resource types.   
 
 1. Available
@@ -27,7 +27,7 @@ It is a 2-D array (n x m matrix) which represents/tells remaining instances of e
 > Note:  Need[i][j] = Max[i][j] - Allocation [i][j], where i represents any process Pi and J represents resource type
 Rj.   
 
-## The Bankers Algorithm is a combination of the following two algorithms-
+## The bankers algorithm is a combination of the following two algorithms-
 
 1. Request-Resource Algorithm
 2. Safety Algorithm   
@@ -136,8 +136,7 @@ int main()
 
 ## Output-
 
-The SAFE Sequence is as follows   
- P1 ->  P3 ->  P4 ->  P0 ->  P2 
+![output](https://user-images.githubusercontent.com/75716335/143228060-764b2bd8-0d13-4651-9959-39d67fa44dfa.png)
 
 ## Advantages of banker's algorithm-
 
