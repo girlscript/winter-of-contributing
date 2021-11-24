@@ -101,7 +101,7 @@ SET SALARY = SALARY *  0.25 WHERE AGE IN (SELECT AGE FROM CUSTOMERS_BKP
 WHERE AGE >=  27  );
 ```
 
-This would impact two rows and finally CUSTOMERS table would have the following records.
+- This would impact two rows and finally CUSTOMERS table would have the following records.
 
 
 | ID | NAME     | AGE | ADDRESS   | SALARY   |
@@ -113,37 +113,34 @@ This would impact two rows and finally CUSTOMERS table would have the following 
 |  5 | Hardik   |  27 | Bhopal    |  2125.00 |
 |  6 | Komal    |  22 | MP        |  4500.00 |
 |  7 | Muffy    |  24 | Indore    | 10000.00 |
-+----+----------+-----+-----------+----------+
 
-Subqueries with the DELETE Statement
-------------------------------------
+
+## Subqueries with the DELETE Statement
 
 The subquery can be used in conjunction with the DELETE statement like with any other statements mentioned above.
-
 The basic syntax is as follows.
-
+```sql
 DELETE FROM TABLE_NAME
 [ WHERE OPERATOR [ VALUE ]
    (SELECT COLUMN_NAME
    FROM TABLE_NAME)
    [ WHERE) ]
+```
 
 ### Example
 
 Assuming, we have a CUSTOMERS_BKP table available which is a backup of the CUSTOMERS table. The following example deletes the records from the CUSTOMERS table for all the customers whose AGE is greater than or equal to 27.
-
-SQL> DELETE FROM CUSTOMERS
-   WHERE AGE IN (SELECT AGE FROM CUSTOMERS_BKP
-      WHERE AGE >=  27  );
-
+```sql
+DELETE FROM CUSTOMERS
+WHERE AGE IN (SELECT AGE FROM CUSTOMERS_BKP
+WHERE AGE >=  27  );
+```
 This would impact two rows and finally the CUSTOMERS table would have the following records.
-
-+----+----------+-----+---------+----------+
 | ID | NAME     | AGE | ADDRESS | SALARY   |
-+----+----------+-----+---------+----------+
+| :--: | :--: | :--: | :--: | :--: |
 |  2 | Khilan   |  25 | Delhi   |  1500.00 |
 |  3 | kaushik  |  23 | Kota    |  2000.00 |
 |  4 | Chaitali |  25 | Mumbai  |  6500.00 |
 |  6 | Komal    |  22 | MP      |  4500.00 |
 |  7 | Muffy    |  24 | Indore  | 10000.00 |
-+----+----------+-----+---------+----------+
+
