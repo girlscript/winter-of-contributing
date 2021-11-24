@@ -1,7 +1,7 @@
 # Merge two sorted linked lists
 
 - Write a merge() function that takes two linked lists of sorted order, and merges both the linked list in increasing order. now, merge() function will return the new linked list
-For example if the first linked list a is 1->4->5->7 and the other linked list b is 2->3->6, then merge() should return dummynode list 1->2->3->4->5->6->7. 
+For example if the first linked list a is 11->44->57->78 and the other linked list b is 25->36->63, then merge() should return dummynode list 11->25->36->44->57->63->78. 
 
 ## Algorithm
 
@@ -101,7 +101,7 @@ int main(){
 
 ## OUTPUT
 ```CPP
- 1->4->5->7->NULL
- 2->3->6->NULL
- 1->2->3->4->5->6->7->NULL
+ 11->44->57->78->NULL
+ 25->36->63->NULL
+ 11->25->36->44->57->63->78->NULL
 ```
