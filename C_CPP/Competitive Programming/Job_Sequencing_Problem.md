@@ -113,6 +113,7 @@ int main()
 	printJobScheduling(arr, n);
 	return 0;
 }
+```
 
 ## Output
 Following is maximum profit sequence of jobs 
