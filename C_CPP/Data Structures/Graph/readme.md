@@ -1,1 +1,7 @@
-- [Breadth First Search](BFS%20notes.md)
+- [Breadth First Search](./BreadthFirstSearch)
+- [Recursive Breadth First Search](./RECURSIVE_BFS)
+- [Depth First Search](./DepthFirstSearch)
+- [Topological Sorting](./TopologicalSorting)
+- [Flood Fill Algorithm](./Flood%20Fill%20Algorithm)
+- [Hamiltonian Path](./HamiltonianPath)
+- [Dijkstra's Algorithm](./Dijkstra's%20Algorithm)
