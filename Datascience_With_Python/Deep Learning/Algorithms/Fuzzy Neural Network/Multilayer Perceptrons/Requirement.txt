@@ -1,7 +1,0 @@
-Libraries used
-
--Numpy
--Matplotlib
--IPython
--sklearn
-
