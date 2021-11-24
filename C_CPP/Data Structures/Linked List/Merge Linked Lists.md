@@ -2,7 +2,13 @@
 
 - Write a merge() function that takes two lists, each of which is sorted in increasing order, and merges the two together into one list which is in increasing order. merge() should return the new list. The new list should be made by splicing together the nodes of the first two lists.
 
-For example if the first linked list a is 5->10->15 and the other linked list b is 2->3->20, then merge() should return a pointer to the head node of the merged list 2->3->5->10->15->20.
+For example if the first linked list a is 1->4->5->7 and the other linked list b is 2->3->6, then merge() should return a pointer to the head node of the merged list 1->2->3->4->5->6->7. 
+
+## Algorithm
+
+- The strategy here uses a temporary dummy node as the start of the result list. The pointer Tail always points to the last node in the result list, so appending new nodes is easy. The dummy node gives the tail something to point to initially when the result list is empty. This dummy node is efficient, since it is only temporary, and it is allocated in the stack. The loop proceeds, removing one node from either ‘a’ or ‘b’, and adding it to the tail. When 
+
+We are done, the result is in dummynode->next. 
 
 ```CPP
 #include<iostream>
@@ -18,7 +24,6 @@ class node{
         next=NULL;
     }
 };
-
 
 void insertattail(node* &head, int val){
 
@@ -85,10 +90,10 @@ int main(){
     for(int i=0;i<3;i++){
         insertattail(head2,arr2[i]);
     }
-    display(head1);
-    display(head2);
+    display(head1);//it will display linked list 1
+    display(head2);//it will display linked list 2
     node* newhead=merge(head1,head2);
-    display(newhead);
+    display(newhead);// it will display resulted merged linked list
     return (0);
 }
 ```
