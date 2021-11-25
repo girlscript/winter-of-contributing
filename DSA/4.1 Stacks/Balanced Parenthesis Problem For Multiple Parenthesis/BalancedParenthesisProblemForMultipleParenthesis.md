@@ -28,6 +28,16 @@
   - If the element at the top of the stack is not a match then we return false and the position of the element
   - If this is not the case then we just pop the topmost element of the stack(since it must have been a opening bracket match for the current closing bracket)
 - We repeat the same procedure all the elements of the string
+- In the end we just check if the stack is empty or not, if its empty then its a success and if its not then we display the error location
+
+<br>
+
+## **Space And Time Complexity**
+
+<br>
+
+- Since the algorithm just traverse through the string only once, hence we just visit every element of the file at most once, thus, the overall **TIME COMPLEXITY** of the algorithm is O(N)
+- We implement a stack of characters, which in the worst case can end up storing one closing bracket, thus the overall **SPACE COMPLEXITY** is just O(1) or constant
 
 <br>
 
@@ -175,8 +185,9 @@ void print_file_contents(char *FILE_NAME)
   int cnt = 0;
   int lines = 0;
 
-  
+  cout << "\n***********************************************************\n\n";
   cout << "Printing File :" << FILE_NAME << endl;
+  cout << "\n***********************************************************\n";
   char ch;
   while(input_file.get(ch))
   {
@@ -185,9 +196,10 @@ void print_file_contents(char *FILE_NAME)
     cnt ++;
     cout << ch;
   }
+  cout << "\n***********************************************************\n\n";
   cout << "Total Lines : " << lines << endl;
   cout << "Total Characters : " << cnt << endl;
-  
+  cout << "\n***********************************************************\n\n";
   input_file.close();
 }
 
@@ -315,6 +327,7 @@ int main(int argc, char *argv[])
       input_file_array[i] = argv[i + 1];
       print_file_contents(input_file_array[i]);
       check_brackets_from_file(input_file_array[i]);
+      cout << "***************************************************" << endl << endl;
     }
   }
 
