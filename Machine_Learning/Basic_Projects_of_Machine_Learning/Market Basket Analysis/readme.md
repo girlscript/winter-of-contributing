@@ -23,11 +23,7 @@ This project aims to identify which food products are frequently bought by the c
 **Most popular food products**
 ![image](https://user-images.githubusercontent.com/46518960/143446150-1cf62e27-569a-4e10-98b9-c88dba98c87c.png)
 
-**Apriori Model**
-![image](https://user-images.githubusercontent.com/46518960/143446441-902e257a-e083-48f6-a21a-44f2ae534df0.png)
-
-![image](https://user-images.githubusercontent.com/46518960/143446765-486d9563-a1fc-48c4-9bb8-7b1af84f718d.png)
-
+# List of itemsets having confidence more than 70% and lift more than 6
 
 
 # Conclusion :
