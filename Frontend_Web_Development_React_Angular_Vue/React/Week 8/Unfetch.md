@@ -8,7 +8,7 @@ UNFETCH IN REACT
 
 ## What is Unfetch
 
-It is just an external library for AJAX fetch() call with headers and text or json responses
+It is just an external library for AJAX fetch() call with headers and text or json responses. Its is about 500 bytes of ES3 gzipped so can be used without any worries. It can also habdle a API request easily using async function
 
 ## Installation
 
@@ -21,7 +21,10 @@ npm i unfetch
 
 ## Benefits of the Unfetch in React.
 
-With the help of module bundler like rollup or webpack, we can import unfetch to use in our code without declaring anything in global
+- With the help of module bundler like rollup or webpack, we can import unfetch to use in our code without declaring anything in 
+- Light Weight
+- fast 
+- make fetching APIs possible if fetch is not present by default 
 
 ## Usages
 
@@ -55,6 +58,11 @@ export const Test = () => {
 };
 ```
 
+- method: Indicates the request method to be performed on the target resource (The most common ones being GET, POST, PUT, PATCH, HEAD, OPTIONS or DELETE).
+- headers: An Object containing additional information to be sent with the request, e.g. { 'Content-Type': 'application/json' } to indicate a JSON-typed request body.
+- body: The content to be transmitted in request's body. Common content types include FormData, JSON, Blob, ArrayBuffer or plain text.
+
+
 ## Now Lets Call an API using unfetch
 
 The responses it returns are as follows:
@@ -70,6 +78,8 @@ The responses it returns are as follows:
 |                  headers.entries                  | Returns Array containing the pairs of key and value for each and every Header in the response. |
 |                 headers.get(key)                  |                        Returns the value associated with the given key.                        |
 |                 headers.has(key)                  |    Returns TRUE if the existence of a value for some given key among the response headers.     |
+
+The Promise returned from fetch() won't be reject in any case on HTTP error status even if the response is an HTTP 404 or 500. Instead, it will resolve normally, and it will only reject on network failure or if anything prevented the request from completing.
 
 ## Lets write a Small Code
 
@@ -111,6 +121,18 @@ export const Test = async () => {
 };
 ```
 
+OUTPUT
+```
+The Data is
+It is a very Humid day
+Temperature is around 32 degrees
+Have a Good day!!
+```
+
+## Conclusion
+We have seen the working as well as the implementation of the Unfetch in react 
+
 ## References
 
 [Documentation](https://www.npmjs.com/package/unfetch)
+  
