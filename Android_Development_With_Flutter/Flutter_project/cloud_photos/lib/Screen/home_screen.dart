@@ -63,9 +63,10 @@ class _HomeScreenState extends State<HomeScreen> {
     return AdvancedDrawer(
       drawer: Drawer(
         child: Container(
-            color: appColor,
-            child:
-                Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+          color: appColor,
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
@@ -79,29 +80,21 @@ class _HomeScreenState extends State<HomeScreen> {
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
                   children: [
-                    Helper.text(
-                        "Dashboard", 20, 0, Colors.grey, FontWeight.bold),
+                    Builder(builder: (context) {
+                      return GestureDetector(
+                          onTap: () async {
+                            await signoutmethod(context);
+                            showsnackbar(context);
+                          },
+                          child: Helper.text(
+                              "Logout", 20, 0, Colors.grey, FontWeight.bold));
+                    }),
                   ],
                 ),
               ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Row(
-                  children: [
-                    Helper.text(
-                        "Dashboard", 20, 0, Colors.grey, FontWeight.bold),
-                  ],
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Row(
-                  children: [
-                    Helper.text("Logout", 20, 0, Colors.grey, FontWeight.bold),
-                  ],
-                ),
-              ),
-            ])),
+            ],
+          ),
+        ),
       ),
       backdropColor: appColor,
       controller: _advancedDrawerController,
@@ -223,6 +216,15 @@ class _HomeScreenState extends State<HomeScreen> {
         return alert;
       },
     );
+  }
+
+  showsnackbar(BuildContext context) {
+    final snackbar = SnackBar(
+      content: Text("Logged Out"),
+      behavior: SnackBarBehavior.floating,
+      duration: Duration(seconds: 2),
+    );
+    ScaffoldMessenger.of(context).showSnackBar(snackbar);
   }
 }
 
