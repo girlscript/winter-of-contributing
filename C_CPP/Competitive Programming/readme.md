@@ -12,3 +12,4 @@
 - [Greedy: Car Sell problem in C++](CarSell_problem.md)
 - [Hidden Number Problem in C++](Hidden_Number_problem.md)
 - [Array and Equilibrium index](Array_and_Equilibrium_index.md)
+- [Prime Factor](Prime_Factor.md)
