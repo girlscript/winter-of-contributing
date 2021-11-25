@@ -5,10 +5,11 @@
 
 <br/>
 
-![Login Screens](https://user-images.githubusercontent.com/56426767/143457619-f5c6ae1a-0193-4563-97c4-70893e134686.png)
+![Login Screens](![Login Screens](https://user-images.githubusercontent.com/56426767/143467593-15d866d4-e825-43f4-b3d5-a52f36ff5c70.png))
 
 <br/><br/>
-### <ul><b>Colors used in hex:</b>
+### <ul>
+  <b>Colors used in hex:</b>
   <li><img src="https://via.placeholder.com/15/9313B2/000000?text=+ "> 9313B2</li>
   <li><img src="https://via.placeholder.com/15/EBA6E4/000000?text=+ "> EBA6E4</li>
   <li><img src="https://via.placeholder.com/15/631B68/000000?text=+ "> 631B68</li>
