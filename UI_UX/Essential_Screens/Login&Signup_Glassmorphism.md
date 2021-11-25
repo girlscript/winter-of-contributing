@@ -9,7 +9,7 @@
 
 <br/><br/>
 ### <ul>
-  <b>Colors used in hex:</b>
+  Colors used in hex:
   <li><img src="https://via.placeholder.com/15/9313B2/000000?text=+ "> 9313B2</li>
   <li><img src="https://via.placeholder.com/15/EBA6E4/000000?text=+ "> EBA6E4</li>
   <li><img src="https://via.placeholder.com/15/631B68/000000?text=+ "> 631B68</li>
