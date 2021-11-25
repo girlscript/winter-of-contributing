@@ -58,3 +58,10 @@ The accuracy score using:
 - Random Forest Classifier: 84%
 
 K Neighbors Classifier scored the best score of 87% with 8 neighbors.
+
+# References :
+
+- https://towardsdatascience.com/predicting-presence-of-heart-diseases-using-machine-learning-36f00f3edb2c
+- https://link.springer.com/article/10.1007/s42979-020-00365-y
+- https://www.analyticsvidhya.com/blog/2021/04/simple-understanding-and-implementation-of-knn-algorithm/
+- https://scikit-learn.org/stable/modules/svm.html
