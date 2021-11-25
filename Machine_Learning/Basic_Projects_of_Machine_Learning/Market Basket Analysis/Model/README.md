@@ -18,10 +18,10 @@ This project aims to identify which food products are frequently bought by the c
 
 ## Data Visualization :
 
-**Frequency of most popular items**
+##Frequency of most popular items
 ![image](https://user-images.githubusercontent.com/46518960/143446062-10eb5e6e-3a93-4750-8b14-984006d14780.png)
 
-**Most popular food products**
+#Most popular food products
 ![image](https://user-images.githubusercontent.com/46518960/143446150-1cf62e27-569a-4e10-98b9-c88dba98c87c.png)
 
 ## List of itemsets having confidence more than 70% and lift more than 6
