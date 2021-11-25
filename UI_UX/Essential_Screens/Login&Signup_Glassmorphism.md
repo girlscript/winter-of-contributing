@@ -8,8 +8,8 @@
 ![Login Screens](https://user-images.githubusercontent.com/56426767/143467593-15d866d4-e825-43f4-b3d5-a52f36ff5c70.png)
 
 <br/><br/>
-### <ul>
-  Colors used in hex:
+### <ul>Colors used in hex:
+  
   <li><img src="https://via.placeholder.com/15/9313B2/000000?text=+ "> 9313B2</li>
   <li><img src="https://via.placeholder.com/15/EBA6E4/000000?text=+ "> EBA6E4</li>
   <li><img src="https://via.placeholder.com/15/631B68/000000?text=+ "> 631B68</li>
