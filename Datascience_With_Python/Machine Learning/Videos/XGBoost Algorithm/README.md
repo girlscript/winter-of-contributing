@@ -1,6 +1,6 @@
 # XGBoost Algorithm
 
-## Video link : [XGBoost Algorithm]()
+## Video link : [XGBoost Algorithm](https://drive.google.com/file/d/1Wa1VGDkO5ErsqAOjGcRAaJjT7gemErLV/view?usp=sharing)
 
 ## XGBoost
 - XGBoost stands for eXtreme Gradient Boosting. It became popular in the recent days and is dominating applied machine learning and Kaggle competitions for structured data because of its scalability.
