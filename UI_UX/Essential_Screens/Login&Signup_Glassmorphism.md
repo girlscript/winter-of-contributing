@@ -1,5 +1,6 @@
 # Login and Sign up screens using Glassmorphism
 <br/>
+
 ### I have designed three screens: Welcome, Sign in and Sign up.
 
 <br/><br/>
@@ -8,4 +9,10 @@
 
 <br/><br/>
 
-### Do check this out on <a href="https://www.figma.com/community/file/1045705695725169464">Figma!</a>
+<ul>Colors used in hex:
+  <li><https://via.placeholder.com/150/EBA6E4>EBA6E4</li>
+  <li>631B68</li>
+  <li>000000</li>
+  <li>FFFFFF</li>
+
+### Do check this out on <a href="https://www.figma.com/community/file/1045707503852764986/Login-Screens-using-glassmorphism">Figma!</a>
