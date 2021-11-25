@@ -13,3 +13,4 @@
 - [Hidden Number Problem in C++](Hidden_Number_problem.md)
 - [Array and Equilibrium index](Array_and_Equilibrium_index.md)
 - [Prime Factor](Prime_Factor.md)
+- [Job_Sequencing_Problem](Job_Sequencing_Problem.md)
