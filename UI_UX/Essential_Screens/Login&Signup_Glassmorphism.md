@@ -16,6 +16,7 @@
   <li><img src="https://via.placeholder.com/15/FFFFFF/000000?text=+ "> FFFFFF</li>
   <li><img src="https://via.placeholder.com/15/000000/000000?text=+ "> 000000</li></ul>
 
+<br/>
 ### Fonts used:
    <ul>
   <li>Roboto</li></ul>
