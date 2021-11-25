@@ -6,30 +6,50 @@
 ## Roadmap
 
 1. **Learn Version Control System** 
-    - [x] Git, GitHub, Why, What, How
 
-2. **Learn Kotlin**  
-    - [x]  Datatypes
-    - [x]  Collection 
-    - [ ]  Control Flow 
-    - [x]  OOPS concept
-    - [x]  Functions
-    - [x]  Coroutines
-3. **Install Android Studio**  
-    - [x]  process explained
+    - [x] [Requirement of Version](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/01.%20Version%20Control%20System/01.1%20Requirement%20of%20Version%20Control%20System.md)
+    - [x] [Git flow & commands](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/01.%20Version%20Control%20System/01.2%20Git%20flow%20%26%20commands.md)
+    
+
+2. **Learn Kotlin Language**  
+
+    - [x]  [Datatypes](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/02.%20Basics%20of%20Kotlin/02.1%20Datatypes%20in%20Kotlin.md)
+    - [x]  [Collection](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/02.%20Basics%20of%20Kotlin/02.2%20Collection.md) 
+    - [x]  [Loops](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/02.%20Basics%20of%20Kotlin/02.3%20Loops.md) 
+    - [x]  [OOPS concepts](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/02.%20Basics%20of%20Kotlin/02.4%20OOPS%20Concepts%20in%20Kotlin.md)
+    - [x]  [Functions](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/02.%20Basics%20of%20Kotlin/02.5%20Functions%20in%20Kotlin.md)
+    - [x]  [Coroutines](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/02.%20Basics%20of%20Kotlin/02.6%20Coroutines.md)
+    - [x]  [Extention Function](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/02.%20Basics%20of%20Kotlin/02.7%20Extention%20Function%20in%20Kotlin.md)
+    - [x]  [Conditional Statements](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/02.%20Basics%20of%20Kotlin/02.8%20Conditional%20Statements.md)
+    
+    
+3. **Install Android Studio** 
+
+    - [x]  [Installing Android Studio](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/03.%20Install%20Android%20Studio/03.1%20Installing%20Android%20Studio.md)
+    - [x]  [Use your mobile or create a virtual device to run your app](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/03.%20Install%20Android%20Studio/03.3%20Use%20your%20mobile%20or%20create%20a%20virtual%20device%20to%20run%20your%20app.md)
+    
 4. **Android Studio IDE Overview**
+
     - [x]  Project Structure – Kotlin, XML, .Gradle files
 
-5. **Android Component** - 
+5. **Android Component**
+
     - [x]  Activity - Activity Lifecycle 
+    
     - [ ]  Tasks & Back Stack Service 
+    
     - [ ]  Broadcast Receiver 
+    
     - [x]  Content Provider
 
 6. **Views** 
+
     - [x]  Buttons
+    
     - [ ]  ImageView 
+    
     - [ ]  TextView 
+    
     - [ ]  EditText
 
 7. **View Groups**
