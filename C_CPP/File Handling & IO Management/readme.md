@@ -10,6 +10,7 @@
 - [File Pointer Manipulation Functions](file-pointer-manipulation-functions.md)
 - [Reasons for Multifile Programs](Reasons-for-Multifile-Programs.md)
 - [Creating a Multifile Program](Creating-a-Multifile-Program.md)
+- [Modes To Open Binary File](Modes_to_open_binary_file.md)
 
 
 
