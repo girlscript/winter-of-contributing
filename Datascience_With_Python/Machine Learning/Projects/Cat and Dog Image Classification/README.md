@@ -45,6 +45,10 @@ In this task, we will build a CNN that contains one convolutional layers and poo
 * os
 * cv2
 
+## Output:
+![Screenshot (197)](https://user-images.githubusercontent.com/89564985/143428335-78332b9c-c5b3-4d88-b865-5cd6b9dec94d.png)<br>
+![Screenshot (198)](https://user-images.githubusercontent.com/89564985/143428373-539c61a4-99b6-4522-8b55-77fd2788147f.png)
+
 ## Summary:
 Cats vs Dogs classification is a fundamental Deep Learning project that involves classifying photos as either containing a dog or cat. In this task, I developed a convolutional neural network to classify photos of dogs and cats and got an accuracy of around 0.824 on training set.
 
