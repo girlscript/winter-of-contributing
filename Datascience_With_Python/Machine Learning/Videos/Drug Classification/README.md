@@ -1,6 +1,5 @@
 # Drug Classification
-# [Click here to see the video](![image](https://user-images.githubusercontent.com/79050917/143412586-f43c7182-5b1e-439b-adcd-abb9054f3168.png)
-)
+# [Click here to see the video](https://drive.google.com/file/d/1156BtwaLhaX_a1ow31Yd7xF2cazMvqCa/view?usp=sharing)
 ## Intoduction:
 - Predict the outcome of the drugs that might be accurate for the patient.
 - Drug Classification is the data which contains the following columns:
