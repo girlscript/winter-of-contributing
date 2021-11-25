@@ -5,7 +5,7 @@
 
 <br/>
 
-![Login Screens](![Login Screens](https://user-images.githubusercontent.com/56426767/143467593-15d866d4-e825-43f4-b3d5-a52f36ff5c70.png))
+![Login Screens](https://user-images.githubusercontent.com/56426767/143467593-15d866d4-e825-43f4-b3d5-a52f36ff5c70.png)
 
 <br/><br/>
 ### <ul>
@@ -16,5 +16,8 @@
   <li><img src="https://via.placeholder.com/15/FFFFFF/000000?text=+ "> FFFFFF</li>
   <li><img src="https://via.placeholder.com/15/000000/000000?text=+ "> 000000</li></ul>
 
+### <ul>
+  <b>Fonts used:</b>
+  <li>Roboto</li></ul>
 <br/><br/>
 ### Do check this out on <a href="https://www.figma.com/community/file/1045707503852764986/Login-Screens-using-glassmorphism">Figma!</a>
