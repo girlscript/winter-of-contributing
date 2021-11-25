@@ -1,4 +1,3 @@
-
 # Binary Search Tree
 
 * A Binary Search Tree(BST) is a binary tree in which for each node, value of all the nodes in left subtree is lesser or equal to node's value and value of all the nodes in right subtree is greater.
@@ -122,4 +121,10 @@ int main() {
 
 * Here, h = Height of Binary Search Tree
 
+**Credits and References:**
 
+https://www.educative.io/edpresso/how-do-you-implement-a-binary-search-tree-in-multiple-languages
+
+http://www.btechsmartclass.com/data_structures/binary-search-tree.html
+
+https://www.gatevidyalay.com/time-complexity-of-bst-binary-search-tree/
