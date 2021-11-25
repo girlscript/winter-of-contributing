@@ -30,39 +30,46 @@
     
 4. **Android Studio IDE Overview**
 
-    - [x]  Project Structure – Kotlin, XML, .Gradle files
+    - [x]  [Manifest file](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/04.%20Android%20Studio%20IDE%20Overview/04.0%20Overview%20of%20Android-Manifest%20file.md)
+    - [x]  [Resource File](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/04.%20Android%20Studio%20IDE%20Overview/04.1%20Overview%20of%20%20Android%20Resource%20File.md)
+    - [x]  [Gradle for Android-Studio](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/04.%20Android%20Studio%20IDE%20Overview/04.2%20Overview%20of%20Gradle%20for%20Android-Studio.md)
+    - [x]  [XML and Android-Layouts](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/04.%20Android%20Studio%20IDE%20Overview/04.3%20Introduction%20to%20XML%20and%20Android-Layouts.md)
+    
 
 5. **Android Component**
 
-    - [x]  Activity - Activity Lifecycle 
-    
-    - [ ]  Tasks & Back Stack Service 
-    
-    - [ ]  Broadcast Receiver 
-    
-    - [x]  Content Provider
+    - [x]  [Activity Lifecycle](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/05.%20Android%20Component/05.0%20Android%20Activity%20Lifecycle.md)
+    - [x]  [Illustrations of Activity Lifecycle](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/05.%20Android%20Component/05.1%20Illustrations%20of%20Activity%20Lifecycle.md)
+    - [x]  [Android Services](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/05.%20Android%20Component/05.2%20Android%20Services.md)
+    - [x]  [Broadcast Reciever](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/05.%20Android%20Component/05.3%20Broadcast%20Reciever.md)
+    - [x]  [Content Provider](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/05.%20Android%20Component/05.4%20Android%20Content%20Provider.md)
+    - [x]  [Tasks and the back stacks](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/05.%20Android%20Component/05.5%20Tasks%20and%20the%20back%20stacks.md)
+    - [x]  [Loaders in Android](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/05.%20Android%20Component/05.6%20Loaders%20in%20Android.md)
+
 
 6. **Views** 
 
-    - [x]  Buttons
+    - [x]  [Introduction to views](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/06.%20Views/06.0%20Introduction%20to%20views.md)
+    - [x]  [Buttons](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/06.%20Views/06.1%20Buttons.md)
+    - [x]  [Circular Image-View](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/06.%20Views/06.2%20Circular%20ImageView.md)
+    - [x]  [Edit-Text with Text-Watcher](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/06.%20Views/06.3%20EditText%20with%20TextWatcher.md)
     
-    - [ ]  ImageView 
-    
-    - [ ]  TextView 
-    
-    - [ ]  EditText
 
 7. **View Groups**
-    - [x]  LinearLayout
-    - [x]  Relative Layout 
-    - [x]  Frame Layout 
-    - [x]  Constraint Layout
+    - [x]  [LinearLayout](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/07.%20View%20Groups/07.1%20Linear%20Layout.md)
+    - [x]  [Relative Layout](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/07.%20View%20Groups/07.2%20Relative%20Layout%20in%20Kotlin.md) 
+    - [x]  [Frame Layout](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/07.%20View%20Groups/07.3%20Frame%20Layout.md) 
+    - [x]  [Constraint Layout](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/07.%20View%20Groups/07.4%20Constraint%20Layout.md)
+
 
 8. **Intents**
+
     - [x]  Types
     - [ ]  Intent Filter
 
+
 9. **Dynamic User Interface**
+
     - [x]  Recycler View
     - [x]  ViewPager
     - [x]  Spinner
@@ -75,6 +82,7 @@
     - [x]  Tab Layout
     - [x]  Bottom Sheet
     - [x]  Card View
+
 
 10. **Custom Views**
     - [ ]  Canvas
