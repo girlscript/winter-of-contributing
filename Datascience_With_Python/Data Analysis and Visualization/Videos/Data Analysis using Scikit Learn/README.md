@@ -1,7 +1,7 @@
 
 # Data Analysis with Scikit-Learn
 
-## Video link: [Data Analysis with Scikit-Learn]()
+## Video link: [Data Analysis with Scikit-Learn](https://drive.google.com/file/d/1eWpk_L8lMSr8dKuB0wQ5dECch4q2RJFD/view?usp=sharing)
 
 Scikit-Learn is an open source machine learning library that supports supervised and unsupervised learning.
 
