@@ -17,7 +17,7 @@ Thus they created dynamically. We cannot name an arrow function as we do for the
 
 const Function_Name = (*params*) => { **return something** }
 
-###Destructing the syntax
+### Destructing the syntax
 
 In a Arrow function we have a **()** *(We write our parameters inside here)* followed by a **=>** which resembles the arrow symbol. Following this we will have a block statement **{}** in which we will perform the required operations
 
@@ -51,7 +51,7 @@ In a Arrow function we have a **()** *(We write our parameters inside here)* fol
 
 <hr>
 
-##Application of arrow functions
+## Application of arrow functions
 
 Arrow functions save you some keystrokes when working with the functions. They are especially useful for inline functions, as they pass along the outer this context.
 
