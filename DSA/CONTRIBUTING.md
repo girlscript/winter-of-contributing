@@ -37,8 +37,8 @@ $ git clone https://github.com/{username}/winter-of-contributing --branch DSA
 ## Add upstream remote
 $ git remote add upstream https://github.com/girlscript/winter-of-contributing
 
-## Syncing with upstream/main branch
-$ git pull upstream
+## Syncing with upstream branch
+$ git pull -r upstream DSA
 
 ## To create and shift to working branch
 $ git checkout -b sample-branch
@@ -69,10 +69,6 @@ $ git checkout DSA
 **</> After PR Merge/Close </>**
 
 ```bash
-## Syncing with upstream/main branch
-$ git fetch upstream
-$ git checkout main
-$ git merge upstream/main
 
 ## Deleting the branch in local repository
 # If PR is merged
