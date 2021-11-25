@@ -11,4 +11,5 @@
 9. Theano
 10. Scikit-learn (sklearn)
 
-[Reference video](https://drive.google.com/file/d/1KIcmx4v7yjf1HUD1NSfA3YuRU5MsylJD/view?usp=sharing)
+## I have explained these in the video:
+[Click for Video Explaination](https://drive.google.com/file/d/1KIcmx4v7yjf1HUD1NSfA3YuRU5MsylJD/view?usp=sharing)
