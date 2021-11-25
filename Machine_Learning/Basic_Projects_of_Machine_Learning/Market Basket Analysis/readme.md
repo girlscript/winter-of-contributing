@@ -3,7 +3,8 @@
 # Abstract:
 It is a technique to understant customer's behavoiur by analyzing the relation between the ites they buy. This technique is applied by retailers to boost their sales and improving customers experience. It works by looking for combination of itemsets that people buy frequently.
  
-# Dataset  :https://www.kaggle.com/devchauhan1/market-basket-optimisationcsv
+# Dataset :
+https://www.kaggle.com/devchauhan1/market-basket-optimisationcsv
  
 # Aim of the project :
 This project aims to identify which food products are frequently bought by the customers.
