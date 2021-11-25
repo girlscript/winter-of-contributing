@@ -41,7 +41,7 @@ for (int i = n - 1; i >= 0; i--)
 just in case if the add of parts of subarray `A[0…i-1]` is adequate
 the add of parts of the subarray `A[i+1…n)` in different words-
 `(A[0] + A[1] + … + A[i-1])` = `(A[i+1] + A[i+2] + … + A[n-1])`
-*/
+
 
  if (left[i] == right) {
             printf("Equilibrium Index found at %d\n", i);
