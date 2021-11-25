@@ -123,10 +123,10 @@
     - [ ]  Styles
 
 12. **Fragments**
-    - [ ]  [Basics](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.0%20Fragment%20Basics.md)
-    - [ ]  [Lifecycle](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.1%20Fragment%20Lifecycle.md)
-    - [ ]  [Jetpack Navigation Components](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.2%20Jetpack%20Navigation%20Components.md)
-    - [ ]  [Navigation using Fragment-Manager](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.3%20Fragment%20Navigation%20using%20FragmentManager.md)
+    - [x]  [Basics](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.0%20Fragment%20Basics.md)
+    - [x]  [Lifecycle](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.1%20Fragment%20Lifecycle.md)
+    - [x]  [Jetpack Navigation Components](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.2%20Jetpack%20Navigation%20Components.md)
+    - [x]  [Navigation using Fragment-Manager](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.3%20Fragment%20Navigation%20using%20FragmentManager.md)
 
 13. **Support User Interface**
     - [x]  [Progress Bar](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/13.%20Support%20User%20Interface/13.1%20Progress%20Bar.md)
@@ -144,38 +144,45 @@
 
 15. **Build**
     - [ ]  Gradle
-    - [ ]  Debug / Release Configuration
+    - [ ]  Debugging Gradle build scripts & plugins
+    - [ ]  configure build varients
 
 16. **Threading**
-    - [ ]  Thread
+    - [ ]  Run Android tasks in background threads?
     - [ ]  Handler / Looper
+    - [ ]  Coroutines vs Thread
+    - [ ]  AsyncTask
+    - [x]  [Coroutines replaced AsyncTask?](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/16.%20Threading/16.4%20How%20Coroutines%20replaced%20AsyncTask.md)
 
 17. **Debugging**
-    - [ ]  Exception
-    - [ ]  Error Handling
-    - [ ]  Memory Profiling
-    - [ ]  Logging
-    - [ ]  Systrace
+    - [ ]  Debugging
+    - [ ]  Memory profiler
+    - [x]  [System Tracing](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/17.%20Debugging/17.2%20Overview%20of%20System%20Tracing.md)
+    
 
 18. **Memory Leaks**
     - [ ]  Detecting and Fixing Memory Leaks
     - [ ]  Context
 
 19. **Architecture**
+    - [ ] Design Pattern
     - [ ]  MVVM
-    - [ ]  MVP
+    - [x]  [MVP](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/19.%20Architecture/19.2%20Overview%20of%20MVP%20architecture.md)
     - [ ]  MVI
-    - [ ]  Clean
     - [ ]  MVC
+    - [ ]  Clean
 
 20. **3rd Party Libraries**
+
     1. Image Loading
-        - [ ]  Glide
+        - [x]  [Glide Library](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/20.%203rd%20Party%20Library/20.01%20Image%20Loading/20.01.01%20Overview%20of%20Glide%20Library.md)
         - [ ]  Picasso
+        
     2. Dependency Injection
-        - [ ]  Dagger
-        - [ ]  Hilt Dependency injection framework
-        - [ ]  Koin
+        - [x]  [Dagger2](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/20.%203rd%20Party%20Library/20.02%20Dependency%20Injection/20.02.01%20Dependency%20Injection%20with%20Dagger2.md)
+        - [x]  [Hilt Dependency injection framework](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/20.%203rd%20Party%20Library/20.02%20Dependency%20Injection/20.02.02%20Migration%20from%20Dagger1%20to%20Dagger2.md)
+        - [x]  [Koin](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/20.%203rd%20Party%20Library/20.02%20Dependency%20Injection/20.02.03%20Dependency%20Injection%20with%20Hilt.md)
+        
     3. Networking    
         - [ ]  Fast Android Networking Library
         - [ ]  Retrofit
@@ -184,6 +191,7 @@
     4. MultiThreading
         - [ ]  RxJava
         - [ ]  Coroutines
+        
     5. Data Format
         - [ ]  JSON/GSON
         - [ ]  Flat Buffer
@@ -191,11 +199,13 @@
         - [ ]  Android MP Chart
 
 21. **Android Jetpack**
+
     1. Foundation Components
         - [ ]  AppCompat
         - [ ]  Android KTX
         - [ ]  Multidex
         - [ ]  Jetpack Compose
+        
     2. Architecture Components
         - [ ]  LiveData
         - [ ]  ViewModel
@@ -203,14 +213,16 @@
         - [ ]  Paging
         - [ ]  Work Manager/Alarm Manager, Job Scheduler
         - [ ]  Navigation
+        
     3. Behaviour Components
         - [ ]  Download Manager
         - [ ]  Media Playback
         - [ ]  Notification
-        - [ ]  Permissions
+        - [x]  [Permissions](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/21.%20Android%20JetPack/21.03%20Behaviour%20Components/21.03.04%20Android%20Permissions.md)
         - [ ]  Preference
         - [ ]  Sharing
         - [ ]  Slice
+        
     4. UI Component
         - [ ]  Animation & Transition
         - [ ]  Android Auto
@@ -250,9 +262,19 @@
     - [ ]  Proguard
     - [ ]  R8
 
+
 - **Additional**
     - [ ]  RESTAPI
     - [ ]  Google Services API
+
+
+
+- **Projects**
+    - [x]  [Marvel vs DC Quiz App](https://github.com/girlscript/winter-of-contributing/tree/Android_Development_With_Kotlin/Android_Development_with_Kotlin/Projects/Marvel%20vs%20DC%20Quiz%20App)
+    
+<br>
+
+<br>
 
 ---
 
