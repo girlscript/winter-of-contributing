@@ -1,4 +1,4 @@
-![Networking](/Assets/Networking.png)
+![Networking](../Assets/Networking.png)
 
 
 ## Networking

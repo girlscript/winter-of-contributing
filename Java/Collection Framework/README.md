@@ -1,4 +1,4 @@
-![Collection Framework](/Assets/Collection%20Framework.png)
+![Collection Framework](../Assets/Collection%20Framework.png)
 
 ## Collection Framework
 

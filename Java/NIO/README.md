@@ -1,4 +1,4 @@
-![NIO](/Assets/NIO.png)
+![NIO](../Assets/NIO.png)
 
 
 ## NIO

@@ -1,4 +1,4 @@
-![](/Assets/varags.png)
+![Varargs](../Assets/varags.png)
 ## Varargs
 
 - Variable Length Arguments<br>

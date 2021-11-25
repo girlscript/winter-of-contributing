@@ -1,4 +1,4 @@
-![Input and Output](/Assets/Input%20and%20Output.png)
+![Input and Output](../Assets/Input%20and%20Output.png)
 
 
 ## Input and Output

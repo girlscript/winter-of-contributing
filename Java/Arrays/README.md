@@ -1,4 +1,4 @@
-![](/Assets\Arrays.png)
+![Arrays](../Assets/Arrays.png)
 
 ## Arrays
 

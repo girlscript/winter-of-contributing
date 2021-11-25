@@ -1,4 +1,4 @@
-![](/Assets\Control%20Statements.png)
+![Control Statements](../Assets/Control%20Statements.png)
 
 ## Control Statements
 
