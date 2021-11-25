@@ -1,8 +1,9 @@
 # Drug Classification
 # [Click here to see the video](![image](https://user-images.githubusercontent.com/79050917/143412586-f43c7182-5b1e-439b-adcd-abb9054f3168.png)
 )
-
-Drug Classification is the data which contains the following columns:
+## Intoduction:
+- Predict the outcome of the drugs that might be accurate for the patient.
+- Drug Classification is the data which contains the following columns:
 - The target feature is
     - Drug type
 - The feature sets are:
