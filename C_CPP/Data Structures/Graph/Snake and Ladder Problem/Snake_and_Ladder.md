@@ -95,6 +95,6 @@ Number of minimum moves : 3
 ### Time Complexity
 *O(n)* here n is the nodes of the graphs.
 
-### Space COmplexity
+### Space Complexity
 *O(n)* here n is the nodes of the graphs.
  
