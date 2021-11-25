@@ -4,3 +4,5 @@
 - [Doubly Circular Linked List](Doubly_Circular_Linked_List.md)
 - [XOR Linked List](XOR%20Linked%20List)
 - [Implementation of linked list](linked%20list.md)
+- [Intersecting Linked List](Intersecting%20Linked%20List)
+- [Merge linked lists](Linked%20List/Merge%20Linked%20Lists.md)
