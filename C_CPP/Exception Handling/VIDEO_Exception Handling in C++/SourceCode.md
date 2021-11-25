@@ -1,5 +1,5 @@
-```
 1. Exception.cpp
+```cpp
 //Simple Exception Handling- Divide by 0
 #include <iostream>
 using namespace std;
@@ -23,8 +23,9 @@ int main()
     return 0;
 }
 ```
-```
+  
 2. Exception2.cpp
+```cpp
 //Exception Handling using multiple throw and catch
 #include <iostream>
 using namespace std;
@@ -62,8 +63,9 @@ int main()
     return 0;
 }
 ```
-```
+  
 3. Exception3.cpp
+```cpp
 //Multiple throw single catch block
 #include <iostream>
 using namespace std;
