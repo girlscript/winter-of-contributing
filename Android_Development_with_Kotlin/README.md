@@ -71,71 +71,76 @@
 9. **Dynamic User Interface**
 
     - [x]  [Adapters with ListView](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.00%20Adapters%20with%20ListView.md)
-    - [ ]  [RecyclerView]
+    - [ ]  RecyclerView
     - [x]  [Scroll-View and Horizontal-View](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.02%20ScrollView%20and%20HorizontalView.md)
     - [x]  [Spinner](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.03%20Spinner.md)
     - [x]  [View-Pager](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.04%20ViewPager.md)
     - [x]  [Migrating from ViewPager to ViewPager2](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.05%20Migrating%20from%20ViewPager%20to%20ViewPager2.md)
     - [x]  [Nested Recycler-View](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.06%20Nested%20RecyclerView.md)
     - [x]  [NestedScroll-View](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.07%20NestedScrollView.md)
-    - [ ]  [Navigation Drawer and Drawer Layout]
+    - [ ]  Navigation Drawer and Drawer Layout
     - [x]  [Navigation Drawer with Fragment](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.09%20Navigation%20Drawer%20with%20Fragment.md)
     - [x]  [Navigation Drawer with Navigation Component](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.10%20Navigation%20Drawer%20with%20Navigation%20Component.md)
     - [x]  [Bottom Navigation](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.11%20Bottom%20Navigation.md)
     - [x]  [Bottom Sheet Dialog](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.12%20Bottom%20Sheet%20Dialog.md)
     - [x]  [Date Picker](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.13%20Date%20Picker.md)
     - [x]  [Time Picker](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.14%20Time%20Picker.md)
-    - [ ]  [Checkbox]
+    - [ ]  Checkbox
     - [x]  [Chips](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.16%20Chips.md)
     - [x]  [Top AppBar](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.17%20Top%20AppBar.md)
     - [x]  [Card-View and Material-CardView](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.18%20CardView%20and%20MaterialCardView.md)
     - [x]  [Tab Layout](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.19%20Tab%20Layout.md)
     - [x]  [Flex Layout](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.20%20Flex%20Layout.md)
     - [x]  [Grid-View](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.21%20GridView.md)
-    - [ ]  [Calender View]
+    - [ ]  Calender View
     - [x]  [Analog Clock, Digital Clock and Text Clock](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.23%20Analog%20Clock%2C%20Digital%20Clock%20and%20Text%20Clock.md)
     - [x]  [Expandable List-View](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.24%20Expandable%20ListView.md)
     - [x]  [Expandable RecyclerView](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.25%20Expandable%20RecyclerView.md)
     - [x]  [Chronometer](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.26%20Chronometer.md)
     - [x]  [ZoomControls](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.27%20ZoomControls.md)
-    - [ ]  [WebView]
-    - [ ]  [SearchView]
+    - [ ]  WebView
+    - [ ]  SearchView
     - [x]  [SearchView on ToolBar](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.30%20SearchView%20on%20ToolBar.md)
-    - [ ]  [Option Menu]
-    - [ ]  [Context Menu]
+    - [ ]  Option Menu
+    - [ ]  Context Menu
     - [x]  [Popup Menu](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/09.%20Dynamic%20User%20Interface/09.33%20Popup%20Menu.md)
  
 
 10. **Custom Views**
     - [x]  [Implementation of Custom Views](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/10.Custom%20Views/10.0%20Basic%20Implementation%20of%20Custom%20Views.md)
-    - [ ]  [creating a simple Canvas object]
-    - [ ]  [drawing on a Canvas Object]
-    - [ ]  [Applying clipping to a Canvas object]
+    - [ ]  Creating a simple Canvas object
+    - [ ]  Drawing on a Canvas Object
+    - [ ]  Applying clipping to a Canvas object
     - [x]  [Creating a SurfaceView Object](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/10.Custom%20Views/10.4%20Creating%20a%20SurfaceView%20Object.md)
     - [x]  [Bitmap using Canvas](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/10.Custom%20Views/10.5%20Bitmap%20using%20Canvas.md)
     - [x]  [Paint Application](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/10.Custom%20Views/10.6%20Paint%20Application.md)
 
 
 11. **UI Resources**
+    - [ ]  UI RESOURCES
     - [ ]  Drawable
-    - [x]  String
+    - [x]  [String](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/11.%20UI%20Resources/11.2%20String.md)
     - [ ]  Styles
 
 12. **Fragments**
-    - [ ]  Fragment Lifecycle
-    - [ ]  Fragment Manager
-    - [ ]  Navigation Lifecycle Component
+    - [ ]  [Basics](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.0%20Fragment%20Basics.md)
+    - [ ]  [Lifecycle](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.1%20Fragment%20Lifecycle.md)
+    - [ ]  [Jetpack Navigation Components](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.2%20Jetpack%20Navigation%20Components.md)
+    - [ ]  [Navigation using Fragment-Manager](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/12.Fragments/12.3%20Fragment%20Navigation%20using%20FragmentManager.md)
 
 13. **Support User Interface**
-    - [x]  Progress Bar
+    - [x]  [Progress Bar](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/13.%20Support%20User%20Interface/13.1%20Progress%20Bar.md)
     - [ ]  Dialogs
-    - [x]  Toast & Snackbar
+    - [x]  [Toast & Snackbar](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/13.%20Support%20User%20Interface/13.3%20Toast%20%26%20Snackbar.md)
 
 14. **Storage**
-    - [ ]  Shared Preference
-    - [ ]  File System
-    - [ ]  Database Room Database
-    - [ ]  Realm DB
+    - [ ]  How to use Internal Storage
+    - [ ]  How to use External Storage
+    - [ ]  Shared Preferences
+    - [ ]  SQLite Database
+    - [x]  [Room Database](https://github.com/girlscript/winter-of-contributing/blob/Android_Development_With_Kotlin/Android_Development_with_Kotlin/14.%20Storage/14.5%20Room%20Database.md)  
+    - [ ]  Migrations in Room Database
+    - [ ]  Realm Database
 
 15. **Build**
     - [ ]  Gradle
