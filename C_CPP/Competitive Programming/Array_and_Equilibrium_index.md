@@ -2,16 +2,17 @@
 It is associate degree index into the sequence such the add of parts at lower indices is adequate the add of parts at higher indices.
 
 ## Statement:
+
 For associate degree array A containing n parts, index i is associate degree equilibrium index if the add of the weather of the subarray A[0…i-1] is adequate the add of the weather of the subarray A[i+1…n-1] . In different words
 
 `(A[0] + A[1] + … + A[i-1]) = (A[i+1] + A[i+2] + … + A[n-1]), wherever 0 < i < n-1`
+
 Here,
 zero is associate degree equilibrium index if A[1] + A[2] + … + A[n-1] sums to zero associate degreed n-1 is an equilibrium index if A[0] + A[1] + … + A[n-2] sums to zero.
-
-
 For example, think about the array . . The equilibrium index is found at index zero, 3, and 7
 
 In different words, the equilibrium index of associate degree array is outlined as associate degree index i that|during which|within which} the add of the weather at indices but i is adequate the add of the weather at indices which is bigger than i.
+
 Element at index i isn't enclosed in either half as we all know that and it's expressed that if quite one equilibrium index is gift, we'd like to come back the primary one. Also, come back -1 if no equilibrium index is gift
 
 ### Linear-time Solution
@@ -40,7 +41,7 @@ int right = 0;
 for (int i = n - 1; i >= 0; i--)
 {
        
-        */
+        
          /* just in case if the add of parts of subarray `A[0…i-1]` is adequate
             the add of parts of the subarray `A[i+1…n)` in different words-
             `(A[0] + A[1] + … + A[i-1])` = `(A[i+1] + A[i+2] + … + A[n-1])`
