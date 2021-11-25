@@ -51,3 +51,6 @@ O(n)
 ### Space Complexity
 
 O(1)
+
+#### Author
+- [Mayank Goel](https://github.com/yellowberard) For documentation
