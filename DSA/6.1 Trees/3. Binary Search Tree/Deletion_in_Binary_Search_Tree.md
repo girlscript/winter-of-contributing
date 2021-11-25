@@ -3,7 +3,7 @@
 
 There are three possible cases to consider when deleting a node from BST:
 
-**Case 1:** Deleting a leaf node (Node with no children): Simply remove from the tree.
+**Case 1:** Deleting a leaf node (Node with no children): Simply remove the node from the tree.
 
 **Case 2:** Deleting a node with one child: Copy the child to the node and delete the child.
 
