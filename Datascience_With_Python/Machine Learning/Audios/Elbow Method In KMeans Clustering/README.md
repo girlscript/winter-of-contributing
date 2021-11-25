@@ -44,6 +44,13 @@ Now, lets understand elbow-curve:
 
 ![image](https://user-images.githubusercontent.com/79050917/143386550-48266121-86f2-420a-beec-e9dd165edd01.png)
 
+## Conclusion:
+- k-means clustering is a non-hierarchical clustering.
+- It is used to group the similar groups.
+- The number of k in k-means can be identified by elbow curve.
+- Elbow curve is a visualization method.
+- Choose the k which has the highest accuracy is generally prefered.
+
 
 
 
