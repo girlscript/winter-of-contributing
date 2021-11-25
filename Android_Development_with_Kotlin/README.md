@@ -22,15 +22,15 @@
 
 5. **Android Component** - 
     - [x]  Activity - Activity Lifecycle 
-    - [ ]  Tasks & Back Stack Service 
-    - [ ]  Broadcast Receiver 
+    - [x]  Tasks & Back Stack Service 
+    - [x]  Broadcast Receiver 
     - [x]  Content Provider
 
 6. **Views** 
     - [x]  Buttons
-    - [ ]  ImageView 
+    - [x]  ImageView 
     - [ ]  TextView 
-    - [ ]  EditText
+    - [x]  EditText
 
 7. **View Groups**
     - [x]  LinearLayout
@@ -57,9 +57,9 @@
     - [x]  Card View
 
 10. **Custom Views**
-    - [ ]  Canvas
-    - [ ]  Bitmap
-    - [ ]  Paint
+    - [x]  Canvas
+    - [x]  Bitmap
+    - [x]  Paint
 
 11. **UI Resources**
     - [ ]  Drawable
@@ -67,9 +67,9 @@
     - [ ]  Styles
 
 12. **Fragments**
-    - [ ]  Fragment Lifecycle
-    - [ ]  Fragment Manager
-    - [ ]  Navigation Lifecycle Component
+    - [x]  Fragment Lifecycle
+    - [x]  Fragment Manager
+    - [x]  Navigation Lifecycle Component
 
 13. **Support User Interface**
     - [x]  Progress Bar
@@ -79,7 +79,7 @@
 14. **Storage**
     - [ ]  Shared Preference
     - [ ]  File System
-    - [ ]  Database Room Database
+    - [x]  Database Room Database
     - [ ]  Realm DB
 
 15. **Build**
@@ -95,7 +95,7 @@
     - [ ]  Error Handling
     - [ ]  Memory Profiling
     - [ ]  Logging
-    - [ ]  Systrace
+    - [x]  Systrace
 
 18. **Memory Leaks**
     - [ ]  Detecting and Fixing Memory Leaks
@@ -103,18 +103,18 @@
 
 19. **Architecture**
     - [ ]  MVVM
-    - [ ]  MVP
+    - [x]  MVP
     - [ ]  MVI
     - [ ]  Clean
     - [ ]  MVC
 
 20. **3rd Party Libraries**
     1. Image Loading
-        - [ ]  Glide
+        - [x]  Glide
         - [ ]  Picasso
     2. Dependency Injection
-        - [ ]  Dagger
-        - [ ]  Hilt Dependency injection framework
+        - [x]  Dagger
+        - [x]  Hilt Dependency injection framework
         - [ ]  Koin
     3. Networking    
         - [ ]  Fast Android Networking Library
@@ -147,7 +147,7 @@
         - [ ]  Download Manager
         - [ ]  Media Playback
         - [ ]  Notification
-        - [ ]  Permissions
+        - [x]  Permissions
         - [ ]  Preference
         - [ ]  Sharing
         - [ ]  Slice
