@@ -10,10 +10,10 @@
 <br/><br/>
 
 <ul>Colors used in hex:
-  <li><img src="https://via.placeholder.com/100/9313B2">9313B2</li>
-  <li><img src="https://via.placeholder.com/100/EBA6E4">EBA6E4</li>
-  <li><img src="https://via.placeholder.com/100/631B68">631B68</li>
-  <li><img src="https://via.placeholder.com/100/FFFFFF">FFFFFF</li>
-  <li><img src="https://via.placeholder.com/100/000000">000000</li></ul>
+  <li><img src="https://via.placeholder.com/10/9313B2">9313B2</li>
+  <li><img src="https://via.placeholder.com/10/EBA6E4">EBA6E4</li>
+  <li><img src="https://via.placeholder.com/10/631B68">631B68</li>
+  <li><img src="https://via.placeholder.com/10/FFFFFF">FFFFFF</li>
+  <li><img src="https://via.placeholder.com/10/000000">000000</li></ul>
 
 ### Do check this out on <a href="https://www.figma.com/community/file/1045707503852764986/Login-Screens-using-glassmorphism">Figma!</a>
