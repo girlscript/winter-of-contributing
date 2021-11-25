@@ -24,9 +24,9 @@ This project aims to identify which food products are frequently bought by the c
 **Most popular food products**
 ![image](https://user-images.githubusercontent.com/46518960/143446150-1cf62e27-569a-4e10-98b9-c88dba98c87c.png)
 
-# List of itemsets having confidence more than 70% and lift more than 6
+## List of itemsets having confidence more than 70% and lift more than 6
 ![image](https://user-images.githubusercontent.com/46518960/143447318-543a063a-08b3-4d05-847f-90e3083693f5.png)
 
 
-# Conclusion :
+## Conclusion :
 From the above analysis we can conclude that burgers along with turkey and ground beef and mineral water along with spafhetti is mostly preferred by the customers.
