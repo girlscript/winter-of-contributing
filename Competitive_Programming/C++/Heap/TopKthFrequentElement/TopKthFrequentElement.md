@@ -58,7 +58,14 @@
 >*O(d log d)*
 
  where d is the count of distinct elements in the vector/array.
+In the brute force approach we are maintaining a map with its frequency count .
+and then we are iterating to each element of the map and 
+then create a vector that has **all the elements** and then from that map,
+we are printing starting k elements.
 
+by creating a vector with all the elements in their decreasing frequency is the extra work done in brute force.
+
+So heap can be used to maintain only k size for maintaining frequency and element , this will save time as it is not doing extra work.
 
 The Optimize approach is to use heap,
 -  after forming a map, we can insert the pair of the frequency and the element in the min heap.
