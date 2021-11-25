@@ -1,4 +1,4 @@
-##Project Title : Market Basket Analysis
+## Project Title : Market Basket Analysis
 
 # Abstract:
 It is a technique to understant customer's behavoiur by analyzing the relation between the ites they buy. This technique is applied by retailers to boost their sales and improving customers experience. It works by looking for combination of itemsets that people buy frequently.
