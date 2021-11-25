@@ -7,7 +7,7 @@ A Tree is a graph with following properties:
 
 
 <div align="center">
-<img src="images\tree.png">
+![tree](https://user-images.githubusercontent.com/70436834/143482285-f587603e-068f-4ad1-a1fb-dfda20887842.png)
 </div>
 
 <div align="center">
