@@ -22,6 +22,11 @@ Data Structures are the main part of many computer science algorithms as they en
 ### 8.1 [Tries, Disjoint Set Union](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/8.1%20Tries%2C%20Disjoint%20Set%20Union)
 ## Algorithms
 ### 1.2 [Analysis of Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms)
+  1. [Asymptotic Analysis of Algorithms](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/1.%20Asymptotic%20Analysis%20of%20Algorithms)
+  2. [Recurrence Relations](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/2.%20Recurrence%20Relations)
+  3. [Space_Complexity](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/3.%20Space_Complexity)
+  4. [NP- Complete Problem](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/4.%20NP-%20Complete%20Problem)
+  5. [Approximation Algorithms](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/5.%20Approximation%20Algorithms)
 ### 2.2 [Searching & Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms)
 ### 3.2 [Greedy Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms)
 ### 4.3 [Pattern Searching Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.3%20Pattern%20Searching%20Algorithms)
