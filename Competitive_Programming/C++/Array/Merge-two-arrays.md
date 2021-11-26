@@ -19,7 +19,7 @@ The idea is simple – move non-empty elements of X[] at the beginning of X[] an
 
 ## Code:
 ``` Cpp
-#include <stdio.h>
+#include<bits/stdc++.h
  
 // Function to merge `X[0… m]` and `Y[0… n]` into `X[0… m+n+1]`
 void merge(int X[], int Y[], int m, int n)
@@ -102,4 +102,5 @@ int main()
 
 1 2 3 5 6 8 9 10 15
 
-### The time complexity of the above solution is O(m + n) and runs in constant space. Here, m and n are the size of the first and second array, respectively.
+## Time Complexity
+Time complexity of the above solution is O(m + n) and runs in constant space. Here, m and n are the size of the first and second array, respectively.
