@@ -16,7 +16,7 @@ So let us go through these plugin :point_down:
 # Unsplash
 
 <h2 align="center">
-  Unsplash is internet’s source of freely usable images.
+  Unsplash is internet’s source of freely usable images. It provides you with high quality images, also it's plugin is available in Figma
 </h2>
 
 ![g](https://s3-alpha-sig.figma.com/plugins/738454987945972471/19142/2a243e76-3bca-4f3a-a775-6fb98b4b78db-cover?Expires=1632700800&Signature=eKe71L9MzwgGSVaID1DyCBZxjImeu31PTGl9iJJYZsMFEK~381~vMHEpjCu-Jk~VTD2GhKo0~uXLlZYWZjJEf3mKwkURXe5By4zffNVQ01ISvZ88mi5AVd8teoOPPit75ofZdWebFTcxSnOjy-uIoRUH2fsyKT5zKZHmiDNI7JYK7qCh5WFws3Zw53B6A9iDKCER2zQoJcakGqniG7xPWWmAIUjCRl1K9-dKf6~T04uz3T~6msLYKBNHrB2dXFKX6ayyX9pZmIZ-l6lEKM2GjvYTjgkWj7wz3sc-0zv9Al6b4zRePKdU-Beke4bYB9Ou0DNGr21ceKuU6PxLXBq9FA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA)
