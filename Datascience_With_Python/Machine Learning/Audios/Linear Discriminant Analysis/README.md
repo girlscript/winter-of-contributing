@@ -9,6 +9,7 @@
 - Two criteria are used to create a new axis: 
          - Maximize the distance between means of the two classes.
          - Minimize the variation within each class
+
 ![image](https://user-images.githubusercontent.com/79050917/143612612-dbfd3697-109c-4b80-8272-ecc78639f17d.png)
 
 **The extensions to LDA:**
