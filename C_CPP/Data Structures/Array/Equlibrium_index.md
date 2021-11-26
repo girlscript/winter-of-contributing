@@ -4,7 +4,7 @@ Here we will see how to find a equlibrium index in a array.
 
 Equilibrium index means that index i such that the sum all the lower indexes is same to the sum of the higher indexes.
 
-I hve given a example to under stand it better.
+I have given a example to under stand it better.
 
 ## Example
 
