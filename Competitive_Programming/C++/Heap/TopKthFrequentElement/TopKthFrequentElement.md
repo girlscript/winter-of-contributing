@@ -6,7 +6,7 @@
 -now the first k elements of the sorted array , are the required result.
 
 ```c++
-//c++
+    //c++
     #include <bits/stdc++.h>
     using namespace std;
     typedef pair < int, int >pi;
@@ -73,7 +73,7 @@ The Optimize approach is to use heap,
 - by this method it will take O(k log d) complexity.
 where d is the count of distinct elements in the vector/array.
 ```c++
-//c++
+    //c++
     #include <bits/stdc++.h>
     using namespace std;
     typedef pair < int, int >pi;
