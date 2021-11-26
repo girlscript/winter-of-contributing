@@ -1,59 +1,44 @@
 # Data Structures and Algorithms
 
 
-Hey everyone! 👋 [GirlScript Winter of Contributing](https://gwoc.girlscript.tech/) is a three-month newly established initiative by GirlScript Foundation to be conducted during winters. GWOC encourages individuals to share their knowledge and ideas to develop technical skills and gain valuable experience in the field of tech education. Over the course of the program, participants can contribute to a variety of themes under the guidance of an expert facilitator.
+Hey everyone! 👋 [GirlScript Winter of Contributing](https://gwoc.girlscript.tech/) is a three-month newly established initiative by GirlScript Foundation to be conducted during winters. Over the course of the program, participants can contribute to a variety of themes under the guidance of an expert facilitator. This is the DSA branch for contribution under Girlscript Winter Of Contributing. All GWOC Contributors and Mentors are welcome to contribute to DSA.
 
-This is the DSA branch for contribution under Girlscript Winter Of Contributing. All the GWOC Contributors and Mentors are welcome!
-
-
-<div align="center">
-
-[![Issues](https://img.shields.io/github/issues/girlscript/winter-of-contributing)](https://github.com/girlscript/winter-of-contributing/issues)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Forks](https://img.shields.io/github/forks/girlscript/winter-of-contributing?style=social)](https://github.com/girlscript/winter-of-contributing) 
-[![Stars](https://img.shields.io/github/stars/girlscript/winter-of-contributing?style=social)](https://github.com/girlscript/winter-of-contributing) 
-[![Watchers](https://img.shields.io/github/watchers/girlscript/winter-of-contributing?style=social)](https://github.com/girlscript/winter-of-contributing)
-</div>
-
-## Introduction
+# Introduction
 Data Structures are the main part of many computer science algorithms as they enable the programmers to handle the data in an efficient way. Data Structures are widely used in almost every aspect of Computer Science i.e. Operating System, Compiler Design, Artifical intelligence, Graphics and many more.
 
   In this project, we're creating a multilingual content repository intended to contain tutorials, code walkthroughs, explanatory articles, etc pertaining to the DSA topics in the form of documentation, audio and video.
 
-## Roadmap (Overview of Code Structure)
-### Data Structures
-- Week 1: [Array](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.1%20Arrays)
-- Week 2: [Strings](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings)
-- Week 3: [Linked List](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.1%20Linked%20List)
-- Week 4: [Stacks](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.1%20Stacks), [Queues](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.2%20Queues)
-- Week 5: [Hash Tables](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/5.1%20Hash%20Tables)
-- Week 6: Trees, Fenwick Tree, Segment Tree
-- Week 7: Heap, Graphs
-- Week 8: Tries, Disjoint Set Union
-### Algorithms
-- Week 1: [Analysis of Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms)
-- Week 2: [Searching & Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms)
-- Week 3: [Greedy Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms)
-- Week 4: [Pattern Searching Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.3%20Pattern%20Searching%20Algorithms)
-- Week 5: [Backtracking](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/5.2%20Backtracking)
-- Week 6: Divide and Conquer, Dynamic Programming
-- Week 7: Bit Manipulation
-- Week 8: Misc Algorithms (Maths, Geometric, Randomized)
+# Table of Contents
+## Data Structures
+### 1.1 [Array](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.1%20Arrays)
+### 2.1 [Strings](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings)
+### 3.1 [Linked List](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.1%20Linked%20List)
+### 4.1 [Stacks](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.1%20Stacks)
+### 4.2 [Queues](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.2%20Queues)
+### 5.1 [Hash Tables](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/5.1%20Hash%20Tables)
+### 6.1 [Trees](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/6.1%20Trees)
+### 7.1 [Heap](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/7.1%20Heap)
+### 7.2 [Graphs](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/7.2%20Graphs)
+### 8.1 [Tries, Disjoint Set Union](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/8.1%20Tries%2C%20Disjoint%20Set%20Union)
+## Algorithms
+### 1.2 [Analysis of Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms)
+  1. [Asymptotic Analysis of Algorithms](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/1.%20Asymptotic%20Analysis%20of%20Algorithms)
+  2. [Recurrence Relations](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/2.%20Recurrence%20Relations)
+  3. [Space_Complexity](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/3.%20Space_Complexity)
+  4. [NP- Complete Problem](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/4.%20NP-%20Complete%20Problem)
+  5. [Approximation Algorithms](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/5.%20Approximation%20Algorithms)
+### 2.2 [Searching & Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms)
+### 3.2 [Greedy Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms)
+### 4.3 [Pattern Searching Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/4.3%20Pattern%20Searching%20Algorithms)
+### 5.2 [Backtracking](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/5.2%20Backtracking)
+### 6.2 [Divide and Conquer, Dynamic Programming](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/6.2%20Divide%20and%20Conquer%2C%20Dynamic%20Programming)
+### 7.3 [Bit Manipulation](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/7.3%20Bit%20Manipulation)
+### 8.2 [Misc Algorithms (Maths, Geometric, Randomized)](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/8.2%20Misc%20Algorithms%20(Maths%2C%20Geometric%2C%20Randomized))
 
-## Contribution Guidelines :gear:
+# Contribution Guidelines :gear:
 Please refer to the **[DSA Contribution Guidelines](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/CONTRIBUTING.md)** within the same folder for all the submission guidelines. It contains the documentation process to assist you. Please go through it before creating issues/PRs.
-  
-  **Important Note: Kindly create issues/PRs only according to the Week Agenda present above. Your issues/PRs will be closed if you take up any topic outside the specific week's mentioned topic. Example: For Week 1, the week agenda includes Array and Analysis of Algorithms so you may create issues/PRs pertaining to only these topics.**
 
-  References to get started in DSA:
-- [GeeksForGeeks](https://www.geeksforgeeks.org/)
-- [Hackerearth](https://www.hackerearth.com/practice/)
-
-## License
-
-This project follows the [MIT License](https://choosealicense.com/licenses/mit/).
-
-## Maintainers
+# Maintainers
 <a href="https://github.com/nimisha-yadav">
   <img src="https://contrib.rocks/image?repo=nimisha-yadav/nimisha-yadav" />
 </a>
