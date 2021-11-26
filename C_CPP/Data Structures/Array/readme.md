@@ -8,3 +8,4 @@
 - [Arrays Basic Questions](Arrays_questions.md)
 - [Matrix Multiplication](./Matrix_multiplication/Matrix_multiplication.md)
 - [Subarray & Subsequence](./Subarray&Subsequence.md)
+- [ARRAY BAR CHART](./ARRAY%20BAR%20CHART/bargraph.md)
