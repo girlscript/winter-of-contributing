@@ -65,13 +65,9 @@ In implicit form, it will automatically convert the value's type as needed.
 <!DOCTYPE html>
 <html>
 <body>
-
 <h2>JavaScript Explicit Type Conversions</h2>
-
 <p>Converting null to other types:</p>
-
 <p id="demo" style="font-family:Times New Roman"></p>
-
 <script>
 let x = null;
 document.getElementById("demo").innerHTML =
@@ -79,7 +75,6 @@ document.getElementById("demo").innerHTML =
 "String : " + String(x) + "<br>" +
 "Boolean: " + Boolean(x);
 </script>
-
 </body>
 </html>
 ```
