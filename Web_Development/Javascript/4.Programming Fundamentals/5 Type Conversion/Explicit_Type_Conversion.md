@@ -61,7 +61,7 @@ In implicit form, it will automatically convert the value's type as needed.
 
 ### Example illustrating the javascript Explicit type Conversion
 
-```
+```html
 <!DOCTYPE html>
 <html>
 <body>
