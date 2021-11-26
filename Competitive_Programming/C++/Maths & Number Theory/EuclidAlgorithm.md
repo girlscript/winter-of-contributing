@@ -12,6 +12,8 @@ Explaination : as 6 is the greatest common divisor.
 ## GCD 
 Greatest common divisor (GCD) of two nonzero integers a and b is the greatest positive integer d such that d is a divisor of both a and b.
 
+# Basic Approach
+
 ### Explaination:
 1. Initially gcd is equal to 1, as in all nonzero numbers the common divisor is 1.
 2. Check among the both the numbers (a and b) which is minimum, as the gcd will be less than or equal to the minimum number.
@@ -63,6 +65,7 @@ and since 6 divides both , so it will GCD of 18 and 12.
 <br>
 The disadvantage in this way of finding is that in competitive programming, this can result in TLE (Time Limit Exceeded). and GCD is a common sub question, which can be used in a problem and if this will add O(n) times then the code efficiency decrease.
 <br><br>
+# Optimised Approach
 
 ## Euclid Algorithm - GCD IN O(log(min(a, b))) Time Complexity
 
