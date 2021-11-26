@@ -1,11 +1,18 @@
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 <p align="center">
- <img src="https://user-images.githubusercontent.com/56113566/134766091-8f6f0c47-bca2-4fdf-8592-e93689ed266c.png" height= 400 width = 600 />
+ <img src="https://user-images.githubusercontent.com/56113566/141676219-00bcfed9-7abf-4596-b891-08d6630b473c.png" height= 300 width = 300 />
 </p>
+
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
- <h1 align="center">TABLE OF CONTENTS 📌</h1>
+# TABLE OF CONTENTS 📌
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+
+### See Live 🚀 [https://docsopensource.github.io/](https://docsopensource.github.io/)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -197,6 +204,11 @@
 
 - [5.38 Operator Framework](5.CNCF_Projects/5.38_OperatorFramework.md)
 
+- [5.39 Helm](5.CNCF_Projects/5.39_Helm.md)
+
+- [5.40 CoreDNS](5.CNCF_Projects/5.40_CoreDNS.md)
+
+
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ### 6. Popular open source projects and softwares :
@@ -360,6 +372,14 @@
 - [6.95 AntDesign](6.Popular_Projects/6.95_AntDesign.md)
 
 - [6.98 Swift](6.Popular_Projects/6.98_Swift.md)
+
+- [6.99 TypeScript](6.Popular_Projects/6.99_Typescript.md)
+
+- [6.100 Marlin](6.Popular_Projects/6.100_Marlin.md)
+
+- [6.101 Express](6.Popular_Projects/6.101_express.md)
+
+- [6.102 CodeIgniter](6.Popular_Projects/6.102_codeIgniter.md)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
