@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--TODO (STEP 5: Design the result activity layout.)-->
+<!--START-->
+<!--1. Add the trophy image to the drawable folders.-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/result_background_gradient"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Result"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:progress="0"
+        android:max="10"
+        android:layout_height="250dp"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/result_progress_drawable">
+    </ProgressBar>
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-150dp"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:text="0/10" />
+    <!--<ImageView
+        android:id="@+id/iv_trophy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="image"
+        android:src="@drawable/ic_trophy" /> -->
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:text="Username" />
+
+    <TextView
+        android:id="@+id/tv_congratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Hey, Congratulations!"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:text="FINISH"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>
+    <!--END-->
