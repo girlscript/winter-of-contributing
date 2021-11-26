@@ -56,7 +56,7 @@ JavaScript have a function called `JSON.stringify()` for converting an object in
 - Uses less data overall i.e. less cost for data exchange.
 - Multiple languages supported i.e. no repeated file for same data.
 
-## Acknowledgements
+## References
 
  - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
  - [W3Schools](https://www.w3schools.com/whatis/whatis_json.asp)
