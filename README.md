@@ -45,3 +45,19 @@ This project and everyone participating in it is governed by the [GirlScript Cod
   4. DELETE
   5. use of axios 
   6. fetching data from an API
+
+
+# NodeJs
+- [What is node](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/1.1_What_is_node.md)
+- [What is node Audio](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/1.1%20What_is_NodeJs(A).md)
+- [What is node Video](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/1.1_What_is_node(V).md)
+- Enviornment variable setup
+  1. [Windows](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/1.2_Environment%20Setup-Windows.md)
+  2. [Linux](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/1.4_Environment_Setup-Linux.md)
+  3. [MacOS](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/1.3_Environment_Setup_on_macOS.md)
+
+- [Understanding JSON](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/3.1_JSON.md)
+- [Initialising NPM packages](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/2.1_Initialize_npm_package.md)
+- [Difference between NPM and YARN](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/1.5_NPM_vs_Yarn.md)
+- [Using asynchorneous API](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/5.2_How_to_use_asynchronous_APIs.md)
+- [Example of node modules](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/Node/4.2_Example%20of%20using%20modules.md)
