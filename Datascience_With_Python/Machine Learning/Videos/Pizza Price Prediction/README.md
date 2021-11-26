@@ -1,6 +1,7 @@
 ## Pizza Price Prediction
 ## [Click here to see the video](https://drive.google.com/file/d/1opHRER8zsCV4__outJSHsljlKgcQflj3/view?usp=sharing)
 # Introduction:
+In this project, we are going to predict the price of pizza based on the attributes given in the dataset.
 The project is about predicting the pizza prices based on the below features:
 - company
 - price_rupiah
