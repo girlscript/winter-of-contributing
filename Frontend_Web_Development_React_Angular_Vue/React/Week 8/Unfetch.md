@@ -21,10 +21,10 @@ npm i unfetch
 
 ## Benefits of the Unfetch in React.
 
-- With the help of module bundler like rollup or webpack, we can import unfetch to use in our code without declaring anything in 
+- With the help of module bundler like rollup or webpack, we can import unfetch to use in our code without declaring anything in
 - Light Weight
-- fast 
-- make fetching APIs possible if fetch is not present by default 
+- fast
+- make fetching APIs possible if fetch is not present by default
 
 ## Usages
 
@@ -61,7 +61,6 @@ export const Test = () => {
 - method: Indicates the request method to be performed on the target resource (The most common ones being GET, POST, PUT, PATCH, HEAD, OPTIONS or DELETE).
 - headers: An Object containing additional information to be sent with the request, e.g. { 'Content-Type': 'application/json' } to indicate a JSON-typed request body.
 - body: The content to be transmitted in request's body. Common content types include FormData, JSON, Blob, ArrayBuffer or plain text.
-
 
 ## Now Lets Call an API using unfetch
 
@@ -121,7 +120,20 @@ export const Test = async () => {
 };
 ```
 
-OUTPUT
+### Lets see How the Code Works :
+
+- We first import the fetch function from unfetch
+- Also the useEffect and useState function from react
+- React first executes useEffect fuction so it calls the getData function in it.
+- The getData function is async so it waits for all the await statements in it.
+- using the fetch function we call the API with a GET request having a JSON format.
+- we then take the output and convert it into a JSON array
+- and now set that value to a statful varaible \_data
+- since the state changes, the page rerenders and now we map the array for all the values in it in p tag
+- It gives us the following Output
+
+## OUTPUT
+
 ```
 The Data is
 It is a very Humid day
@@ -130,9 +142,9 @@ Have a Good day!!
 ```
 
 ## Conclusion
-We have seen the working as well as the implementation of the Unfetch in react 
+
+We have seen the working as well as the implementation of the Unfetch in react
 
 ## References
 
 [Documentation](https://www.npmjs.com/package/unfetch)
-  
