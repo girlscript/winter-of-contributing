@@ -1,7 +1,7 @@
 # Data Structures and Algorithms
 
 
-Hey everyone! 👋 [GirlScript Winter of Contributing](https://gwoc.girlscript.tech/) is a three-month newly established initiative by GirlScript Foundation to be conducted during winters. Over the course of the program, participants can contribute to a variety of themes under the guidance of an expert facilitator. This is the DSA branch for contribution under Girlscript Winter Of Contributing. All the GWOC Contributors and Mentors are welcome!
+Hey everyone! 👋 [GirlScript Winter of Contributing](https://gwoc.girlscript.tech/) is a three-month newly established initiative by GirlScript Foundation to be conducted during winters. Over the course of the program, participants can contribute to a variety of themes under the guidance of an expert facilitator. This is the DSA branch for contribution under Girlscript Winter Of Contributing. All GWOC Contributors and Mentors are welcome to contribute to DSA.
 
 # Introduction
 Data Structures are the main part of many computer science algorithms as they enable the programmers to handle the data in an efficient way. Data Structures are widely used in almost every aspect of Computer Science i.e. Operating System, Compiler Design, Artifical intelligence, Graphics and many more.
