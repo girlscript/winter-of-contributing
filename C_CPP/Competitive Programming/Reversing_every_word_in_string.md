@@ -23,25 +23,37 @@ I have commented the code for explanation of the code and logic.
 ## Solution
 
 ```
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
-   string reverseWords(string A) {
+   string reverseWords(string A) 
+   {
 reverse(A.begin(),A.end()); //reverse the original string
 stringstream w(A);  //w comprises of all reversed words of A
 string word;
 string rev_word="";  //final string to be returned
-
 while(w>>word)
 {
     reverse(word.begin(),word.end());  //reversing the word so that it comes to original form
     rev_word += word;     //storing word
     rev_word += " ";     //adding space
 }
-
 rev_word.erase(rev_word.length()-1,1); //removing the additional last space added
 return rev_word;
 }
 };
+int main()
+{ 
+    string str;
+    Solution sol;
+   cout<<"Enter the string: ";
+   getline(cin,str);
+   cout<<"Reversed Strng is: "<< sol.reverseWords(str);
+    
+}
+
 ```
 
 ### Time Complexity
@@ -51,6 +63,3 @@ O(n)
 ### Space Complexity
 
 O(1)
-
-#### Author
-- [Mayank Goel](https://github.com/yellowberard) For documentation
