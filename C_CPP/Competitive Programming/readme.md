@@ -11,3 +11,8 @@
 - [Egg Dropping Problem using Recursion](Egg_Dropping.md)
 - [Greedy: Car Sell problem in C++](CarSell_problem.md)
 - [Hidden Number Problem in C++](Hidden_Number_problem.md)
+- [Array and Equilibrium index](Array_and_Equilibrium_index.md)
+- [Prime Factor](Prime_Factor.md)
+- [Job_Sequencing_Problem](Job_Sequencing_Problem.md)
+- [Pigeonhole_Principle](Pigeonhole_Principle.md)
+- [Reversing Every word in a String C++](Reversing_every_word_in_string.md)
