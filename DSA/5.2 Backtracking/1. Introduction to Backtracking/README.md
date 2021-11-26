@@ -13,16 +13,12 @@ A backtracking algorithm is a problem-solving algorithm that uses a brute force 
 A space state tree is a tree representing all the possible states (solution or nonsolution) of the problem from the root as an initial state to the leaf as a terminal state.
 
 
-<div align="center">
-<img src="images\space-tree.png">
-</div>
+![space-tree](https://user-images.githubusercontent.com/70436834/143566976-410157f7-e52a-49dd-8557-2bf75f336d3b.png)
 
 
 ## Algorithm:
 
-<div align="center">
-<img src="images\algo.png">
-</div>
+![algo](https://user-images.githubusercontent.com/70436834/143566992-f017ec07-02d4-4302-a10b-6a8c85bfd03b.png)
 
 ## Example:
 
@@ -32,15 +28,11 @@ A space state tree is a tree representing all the possible states (solution or n
 
 All the possibilities are:
 
-<div align="center">
-<img src="images\all-poss.png">
-</div>
+![all-poss](https://user-images.githubusercontent.com/70436834/143567019-bb20efaa-19ed-4562-871d-7248c78e8ac8.png)
 
 The following state space tree shows the possible solutions.
 
-<div align="center">
-<img src="images\space-sol.png">
-</div>
+![space-sol](https://user-images.githubusercontent.com/70436834/143567031-d98dcf8a-b680-4926-af64-8c9e0592edf0.png)
 
 
 ## Backtracking Applications:
