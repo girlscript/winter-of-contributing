@@ -33,14 +33,14 @@ int main()
 	long long int n,k,i;
 	cin>>n;
 	k=0;
-    //create a vector to store price of cars
+        //create a vector to store price of cars
 	vector <long long int> v(n);
-    //storing prices of cars in v
+        //storing prices of cars in v
 	for(i=0;i<n;i++)
 	{
 	    cin>>v[i];
 	}
-    //we sort this vector using sort() function
+        //we sort this vector using sort() function
 	sort(v.begin(),v.end());
 	//calculation of price of cars after depreciation and then adding their sum in k
 	for(i=n-1;i>=0;i--)
