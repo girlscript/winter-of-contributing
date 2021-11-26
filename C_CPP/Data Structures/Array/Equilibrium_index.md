@@ -1,10 +1,10 @@
 # Equilibrium Index of a Array
 
-Here we will see how to find a equlibrium index in a array.
+Here we will see how to find a equilibrium index in a array.
 
-Equilibrium index means that index i such that the sum all the lower indexes is same to the sum of the higher indexes.
+Equilibrium index means that index i such that the sum of all the lower indexes is same to the sum of the higher indexes.
 
-I have given a example to under stand it better.
+I have given a example to understand it better.
 
 ## Example
 
@@ -20,11 +20,11 @@ Arr[0] + Arr[1] + Arr[2] = Arr[4] + Arr[5] + Arr[6]
 
 ## Logic
 
-First we find the sum of the array.
+First we find the sum of the whole array.
 
-Then we define one more variable and subtract every element from sum and store in the new variable.
+Then we define tempsum variable and subtract every element from sum and store in the tempsum.
 
-We continue this till the both sum and new variable becomes equal else display -1.
+We continue this till the both sum and tempsum becomes equal else display -1.
 
 ## Solution
 
@@ -59,7 +59,7 @@ int main()
 {
 	int arr[] = { -7, 1, 5, 2, -4, 3, 0 };
 	int arr_size = sizeof(arr) / sizeof(arr[0]);
-	cout<<"First equilibrium index is: "<<eq(arr, arr_size));
+	cout<<"First Equilibrium index is: "<<eq(arr, arr_size));
 	return 0;
 }
 
