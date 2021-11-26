@@ -11,6 +11,8 @@ The project is about predicting the pizza prices based on the below features:
 - extra_sauce
 - extra_chees
 Dataset link: https://www.kaggle.com/knightbearr/pizza-price-prediction
+## Workflow:
+![workflow](https://user-images.githubusercontent.com/79050917/143599574-d88b1974-54ac-4145-b21a-c095a9761582.PNG)
 
 
 ## Goal:
