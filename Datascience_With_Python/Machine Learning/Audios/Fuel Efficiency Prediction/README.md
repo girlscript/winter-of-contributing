@@ -24,6 +24,10 @@
 
 Here is the link of the dataset : https://www.kaggle.com/uciml/autompg-dataset
 
+## Workflow:
+![image](https://user-images.githubusercontent.com/79050917/143594180-8f9e3a5d-fd3e-4071-9023-35e3458a46dc.png)
+
+
 ## Goal:
 Predicting the fuel efficiency of cars
 
