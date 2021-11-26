@@ -111,7 +111,7 @@
 - [Remediation](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/CyberSecurity%206.3%20Remediation.md)
 - [Information gathering]
 - [Reconnaissance](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/6.5%20Reconnaissance.md)
-- [Threat Modelling]
+- [Threat Modelling](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Cybersecurity%206.6%20Threat%20Modelling.md)
 - [Gaining access]
 - [Maintaining access]
 - [Covering Tracks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Cybersecurity%206.9%20Covering%20tracks.md)
