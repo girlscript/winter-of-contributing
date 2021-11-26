@@ -6,3 +6,4 @@ Index
 - [Bellman Ford Algorithm](BellmanFordAlgorithm.md)
 - [Traveling Salesman Problem(TSP)](TSP.md)
 - [Rod Cutting Problem](Rod_Cutting.md)
+- [Matrix Chain Multiplication](Matrix_Chain_Multiplication.md)
