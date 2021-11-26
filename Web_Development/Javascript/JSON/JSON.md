@@ -6,7 +6,7 @@ It is  standardized format  for  text-based representation of structured data ba
 
 The most common use of JSON is  data exchange in web application like sending  data from the servers to the client, so data can be used in a web page.
 
-It is language independent format i.e. it is supportedby many programming languages like C, C++, C#, Java, JavaScript. 
+It is language independent format i.e. it is supported by many programming languages like C, C++, C#, Java, JavaScript. 
 The file names for JSON use the extension **.json**.
 
 Most APIs use JSON for data exchange.
@@ -55,3 +55,11 @@ JavaScript have a function called `JSON.stringify()` for converting an object in
 - Light weight i.e. easily data exchange.
 - Uses less data overall i.e. less cost for data exchange.
 - Multiple languages supported i.e. no repeated file for same data.
+
+## Acknowledgements
+
+ - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+ - [W3Schools](https://www.w3schools.com/whatis/whatis_json.asp)
+ - [TutorialPoints](https://www.tutorialspoint.com/json/json_comparison.htm)
+
+
