@@ -20,14 +20,15 @@ Element at index i isn't enclosed in either half as we all know that and it's ex
 We will solve this drawback in linear time by victimization further house.
 The basic plan is to make associate degree auxiliary array left[], wherever left[i] stores a add of parts of the subarray A[0…i-1]. once left[] is crammed, traverse the array from right to left and update them right subarray add for every part encountered. Now, if the add of parts of the left subarray A[0…i-1] is adequate the add of parts of the proper subarray A[i+1…n) for part A[i], we've got found the equilibrium index at i.
 
-### implementation of the on top of approach in C language
+### Implementation of the on top of approach 
 
 
-```
+```cpp
 
 #include <stdio.h>
 
-// operate to search out the equilibrium index of associate degree array void find Equilibrium Index(int A[], int n) can stores the add of parts of subarray `A[0…i-1]`
+// operate to search out the equilibrium index of associate degree array void find Equilibrium Index(int A[], int n) 
+    can stores the add of parts of subarray `A[0…i-1]`
 
 {
 
@@ -71,6 +72,7 @@ int main(void)
  
     return 0;
 }
+
 ```
 
 ### Output:
