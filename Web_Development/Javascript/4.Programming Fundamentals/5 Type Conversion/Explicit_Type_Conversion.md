@@ -1,41 +1,45 @@
 # Explicit Type Conversion
 
 Type conversion is the process of converting data of one type to another.
+
 There are two types of type conversion in javascript:-
-Implicit conversion 
-Explicit conversion
+1. Implicit conversion 
+2. Explicit conversion
 
 ## Javascript Explicit Conversion
 
-- String to Numbers:
+- **String to Numbers**
 
 The number () function is used to convert strings to numbers.
+
 parseInt() is used to return an integer by parsing strings.
+
 parseFloat() is used to returns a floating-point number.
-Empty strings to zero.
-Strings containing numbers to numbers
-Else converts to a NOT a NUMBER(NaN)
+
+Number() function convert Empty strings to zero and strings containing numbers to numbers.
+Else converts to a NOT a NUMBER(NaN).
 
 The unary operator can be used to convert a variable to a number.
 
-- Number to Strings
+- **Number to Strings**
 
 String() pr toString() function is used to convert numbers to strings for any expressions.
+
 toPrecision() is used to return a string of numbers having a specific length.
 
-- Dates to Numbers
+- **Dates to Numbers**
 
 The number () function can be used to convert to numbers from date.
 
-- Booleans to Numbers/Strings
+- **Booleans to Numbers/Strings**
 
 The number () function is used for this conversion of booleans to numbers.
-For false it will return 0
-For true it will return 1
+- For false it will return 0
+- For true it will return 1
 
 Similarly, the String() function is used to convert booleans into strings.
-For false it will return false
-For true it will return true
+- For false it will return false
+- For true it will return true
 
 ### Javascript Type Conversion Table
 
