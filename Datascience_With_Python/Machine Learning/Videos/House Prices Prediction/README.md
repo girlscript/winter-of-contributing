@@ -6,7 +6,9 @@
 - With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, this competition challenges you to predict the final price of each home.
 
 - Link of dataset: https://www.kaggle.com/c/neolen-house-price-prediction/data
-- 
+
+# work flow:
+Loading the dataset -> EDA -> Model building -> Evaluation -> Deployment
 ## Goal:
 Prediction of house price
 
