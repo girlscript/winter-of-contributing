@@ -15,3 +15,4 @@
 - [Prime Factor](Prime_Factor.md)
 - [Job_Sequencing_Problem](Job_Sequencing_Problem.md)
 - [Pigeonhole_Principle](Pigeonhole_Principle.md)
+- [Reversing Every word in a String C++](Reversing_every_word_in_string.md)
