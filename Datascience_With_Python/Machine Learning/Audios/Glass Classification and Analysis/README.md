@@ -24,6 +24,8 @@
              -- 5 containers 
              -- 6 tableware 
              -- 7 headlamps
+## Work Flow:
+Loading the dataset -> EDA -> Building the model -> Evaluation -> Choosing the final model.
 
 ## Goal:
 Classification of glass
