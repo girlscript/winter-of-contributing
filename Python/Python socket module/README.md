@@ -1,1 +1,0 @@
-![Python socket module(audio)](Audio/README.md)
