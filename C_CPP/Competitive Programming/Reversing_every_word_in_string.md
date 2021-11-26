@@ -22,7 +22,7 @@ I have commented the code for explanation of the code and logic.
 
 ## Solution
 
-```
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
