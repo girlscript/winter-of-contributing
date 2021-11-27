@@ -1,6 +1,6 @@
 # Recurrent Neural Networks
 
-## Video Link : [Recurrent Neural Networks]()
+## Video Link : [Recurrent Neural Networks](https://drive.google.com/file/d/1IGLW3KoWXBC-4if3F37AMp1Ux0kVDxJH/view?usp=sharing)
 
 ## What are recurrent neural networks?
 
