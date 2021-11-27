@@ -1,16 +1,17 @@
 # TRANSPARENT FORM USING HTML AND CSS
-In this document , we look upon following parts while providing a glimpse on how to create a transparent effect on any professional/personal form:
+In order to create a transparent layout for any website , one has to focus on following components:
 - HTML 
 - CSS
-- LOGIN FORM : For simplicity , we consider a simple login form to layout the transparency feature in more appropriate way.
+
+For an easy start , here a login form is created by using HTML. Further CSS is used to add the desired outlook. 
 
 ## HTML
-The basic skeleton of our all websites , here provides the layout of the whole login form 
+HTML is referred as a basic skeleton for all websites. Here, it provides the layout of the whole login form. 
 ##### STEPS FOLLOWED:
-- Here we first signup into fontawesme.com and create our profile . the website in turn provides a kit of icons for our website.
-- First we import a file named as “kit . fontawesome” from a website named as fontawesome for the small icons used with email and password tag .  
-- Inside the container class we start building our form by catagorising it into two class boxes.
-- The three components that we add are email field , password and a button for signing-in.
+- Sign-up into fontawesome.com and create your profile. In return , you will receive a kit of icons which will be used in the following website. 
+- Import a file named as "kit.fontawesome" from your profile and select icons for email and password-input field.
+- Inside the container class, one can start building his/her form by dividing it into two classes ,named as 'box'.
+- The three components to be added inside file are: email field , password and a Sign-in button.
 
 #### IMPLEMENTATION :
 
@@ -44,20 +45,19 @@ The basic skeleton of our all websites , here provides the layout of the whole l
 ```
 
 ## CSS:
-The CSS is the major counterpart whose role is to design and add responsive effects to our website . 
+The CSS langauge has a major role in adding styles and responsive designs to one's website.
 #### STEPS FOLLOWED:
-- First we link a stylesheet in html document as shown above in the code.
-- The syntax followed here is:
-SELECTOR{
-Property: Value;
-}
-For class we use ‘.’ Dot before name of class . Similarly for id ‘#’ hash is used before name of id.
-For selecting a particular tag inside a class we first lay the class/id name and then the tag .
--Starting with the container class we provide design for whole form enclosed inside it.
--We then go on adding styles for the entry fields , image icons and lastly the button.
-- Looking deep we can observe , that all simple style features have been used to create a transparent look .
-- We can add background of our own for making it more appealing.   
-- 
+- First a stylesheet is linked in html document, as shown above.
+- The syntax followed:   
+SELECTOR{   
+Property: Value;  
+}  
+Put a dot before class-name and hash before id.  
+For selecting a particular tag inside a class, first lay the class/id-name foloowed by tag-name.  
+- After linking the sheet, we define the properties for whole form inside the container class.
+- For tiny components like entry fields, icons and button, style properties are added inside the respective selectors.
+- We can observe that by just using simple style features , one can create a transparent outlook with ease.
+- In order to make it more appealing, one can add background of their own choice.
 #### IMPLMENTATION:
 
 ```CSS
@@ -132,7 +132,7 @@ body::before{
 ```
 
 ## THE FINAL LOOK :
-We can add background of our own for making it more appealing.
+In order to make it more attractive, one can add background of their own choice.
  
 ![image](https://user-images.githubusercontent.com/77229404/143570034-57444114-9ae5-43bf-8b4f-152d84b2039b.png)
 
