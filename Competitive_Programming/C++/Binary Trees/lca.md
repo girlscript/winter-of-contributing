@@ -105,3 +105,7 @@ Node* LCA2(Node *curr, Node *node1, Node *node2){
 
 * Time Complexity: O(n)
 * Space Complexity: O(n)
+
+The time complexity for brute force and recursive approach stays the same as the tree is traversed maximum twice.
+
+But, in recursive approach space complexity becomes O(1) as no extra space is used.
