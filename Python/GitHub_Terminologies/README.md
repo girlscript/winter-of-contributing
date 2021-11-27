@@ -1,6 +1,8 @@
 # GitHub glossary
 ## This glossary introduces common Git and GitHub terminology.
 
+Source: https://docs.github.com/en/get-started/quickstart/github-glossary
+
 ### @mention
 To notify a person on GitHub by using @ before their username. Users in an organization on GitHub can also be a part of a team that can be mentioned.
 
