@@ -1,0 +1,7 @@
+The required libraries for this code work(version may vary):
+
+seaborn==0.11.1
+Numpy==1.19.5
+pandas==1.2.4
+matplotlib==3.4.2
+sklearn==0.24.2
