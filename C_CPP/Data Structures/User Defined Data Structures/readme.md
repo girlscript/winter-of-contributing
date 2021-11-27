@@ -1,1 +1,0 @@
-- [Binary Search Tree](Binary%20Search%20Tree)

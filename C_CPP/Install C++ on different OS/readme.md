@@ -1,2 +1,0 @@
-- [Installation Guide](installation.md)
-- [Installation Guide for linux](installation_in_linux.md)

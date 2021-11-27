@@ -1,1 +1,0 @@
-- [Errors in C_C++](./runtimeerror.md)
