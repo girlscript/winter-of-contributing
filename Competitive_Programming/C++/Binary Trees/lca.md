@@ -25,7 +25,7 @@ Output: The LCA of 5 and 1 is **3**.
 
 The problem can have two major approaches:
 
-* First method: Brute force Tree Traversal. This is done by storing paths from root to node 1 and root to node 2. This methods consumes O(n) time complexity.
+* First method: **Brute force Approach.** This is done by storing paths from root to node 1 and root to node 2. This methods consumes O(n) time complexity.
     ### Algortihm
     1. Create two vectors.
     2. Store path from root to node 1 in vector1.
@@ -33,19 +33,7 @@ The problem can have two major approaches:
     4. Traverse the vectors till elements are same.
     5. Return the last same element.
 
-* Second method: Recursive Approach. This method can be adopted to find LCA in a single traversal. The time complexity remains O(n).
-    ### Algorithm
-    1. Traverse tree from root.
-    2. If root == node1 or root == node2, then return root.
-    3. Recursively call the function for left and right subtrees.
-    4. If both the nodes are in left or right subtree exclusively then we will return the left or right subtree respectively.
-    5. If current node is NULL then we have reached the end of tree.
-
-## Code
-
-The following code snippet shows the LCA function used to find lowest commmon ancestor.
-
-**Method 1:**
+### Code (Method 1)
 
 ```c++
 bool Path(Node *root, vector<int> &path, int k){
@@ -81,7 +69,15 @@ int LCA(Node *root, int n1, int n2){
  
 ```
 
-**Method 2:**
+* Second method: **Recursive Approach**. This method can be adopted to find LCA in a single traversal. The time complexity remains O(n).
+    ### Algorithm
+    1. Traverse tree from root.
+    2. If root == node1 or root == node2, then return root.
+    3. Recursively call the function for left and right subtrees.
+    4. If both the nodes are in left or right subtree exclusively then we will return the left or right subtree respectively.
+    5. If current node is NULL then we have reached the end of tree.
+
+### Code (Method 2)
 
 ```C++
 Node* LCA2(Node *curr, Node *node1, Node *node2){
