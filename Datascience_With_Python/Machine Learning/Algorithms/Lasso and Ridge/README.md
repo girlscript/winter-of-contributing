@@ -5,7 +5,7 @@
 <!-- Insert image here -->
 ![cover](https://user-images.githubusercontent.com/81156510/143574615-d8254466-3c6f-4120-9456-4852043fa0ff.png)
 
-# 🧿Ridge
+## 🧿Ridge
 
 <!-- Insert image here -->
 ![ridge](https://user-images.githubusercontent.com/81156510/143574736-dbf874da-46c0-4811-9bef-3b4c9c33fa0a.png)
@@ -30,7 +30,7 @@
 
 - Selecting a good value of λ is critical and to make the task easier we use cross-validation for this.
 
-# 🧿Lasso
+## 🧿Lasso
 ![lasso](https://user-images.githubusercontent.com/81156510/143574649-a48b34be-97bb-440a-8976-bef940799067.png)
 
 <!-- Insert image here -->
@@ -44,6 +44,32 @@
 - L<sub>lasso</sub> (β) = Σ(y<sub>i</sub> - β x'<sub>i</sub>)<sup>2</sup> + λ (Σ |β<sub>k</sub>|)
   - here λ - Regularisation Penalty
     - as λ -> ∞ then, β = 0
+
+# ⬇️Workflow (Notebook)
+
+- Importing Libraries
+- Importing Dataset
+- Data Visualisation
+- Data Preprocessing
+  - Scaling (raw_data)
+- Model Building
+  - Lasso
+    - Lasso - Predict
+  - Ridge
+    - Ridge - Predict
+  - With and Without Regularisation
+- Summary (Conclusion)
+
+# 🧑‍💻Impementation
+*In this dataset we 2 columns namely age(years) and height (inches) of 100 rows. Here we have to predict the height of the given person provided the age. It is implemented in 2 different ways:*
+  
+  *1. Directly using the modules from Sklearn Library.*
+  
+  *2. Using the help of a function to train parmaters to get better predictions*
+
++ We can see from the plots that Untrained Predictions (linear regression) are very poor compared to Trained Predictions (Regularisation).
+
++ Similar results are obtained through using respective Modules from the Sklearn Library.
 
 # 🏹Overall Comparsion
 
@@ -59,7 +85,13 @@
 
 > Weights for different training data will be more or less the same — therefore model variance is reduced (in contrast, if we shifted our weights randomly each time just to move away from the overfitted solution, the variance would not change).
 
-**References:**
+# Conclusion
+- It is recommended to use simple Linear Regression wherever possible.
+- Use Regularisation Algorithms where Linear Regression doesn't come to prove handy or provides unexpected results.
+- Use Lasso when: need to perform feature selection
+- Use Ridge when: have collinear/codependent features
+
+**📚References:**
 
 1. [Meduim-Blog](https://towardsdatascience.com/ridge-and-lasso-regression-a-complete-guide-with-python-scikit-learn-e20e34bcbf0b)
 
