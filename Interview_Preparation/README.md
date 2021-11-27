@@ -9,70 +9,37 @@
 <hr>
 
 ### :orange_circle: *Introduction* :
-  - [Overview with examples](./Introduction.md)
+  - [Overview with examples](./content/Introduction.md)
 
 
 ### :orange_circle: *Online Assessments* :
-   - [Overview and Resources](./Online%20Assessments.md)
+   - [Overview and Resources](./content/Online%20Assessments.md)
 
 
 ### :orange_circle: *Technical Interview* :
    - [Overview]()
    - Resources
-     - [Most popular Algorithms asked in Interviews](./Most%20popular%20Algorithms%20asked%20in%20Interviews.md)
-     - [Puzzles](./Puzzles%20for%20Interviews.md)
+     - [Most popular Algorithms asked in Interviews](./content/Most%20popular%20Algorithms%20asked%20in%20Interviews.md)
+     - [Puzzles](./content/Puzzles%20for%20Interviews.md)
 
 
 ### :orange_circle: *Behavorial Interview* :
-   - [Overview and Resources](./Behavioural%20Questions.md)
+   - [Overview and Resources](./content/Behavioural%20Questions.md)
 
 
 ### :orange_circle: *Cheat Sheet - Notes* :
-  - [Operating System](./OS%20CheatSheet-Notes.md)
-  - [Object Oriented Programming](./OOP%20CheatSheet-Notes.md)
-  - [SQL](./SQL%20CheatSheet-Notes.md)
-  - [Computer Networks](./CN%20CheatSheet-Notes.md)
-  - [Bit Manipulation](./Technical Questions -Bit Manipulation.md)
+  - [Operating System](./content/OS%20CheatSheet-Notes.md)
+  - [Object Oriented Programming](./content/OOP%20CheatSheet-Notes.md)
+  - [SQL](./content/SQL%20CheatSheet-Notes.md)
+  - [Computer Networks](./content/CN%20CheatSheet-Notes.md)
+  - [Bit Manipulation](./content/Technical Questions -Bit Manipulation.md)
 
-### [:orange_circle: *Resources/Guide for preparation*](./Important%20Resources%20and%20Books.md)
-
-
-***************************************************************
-
-
-************************************************************
-
-## Roadmap for GWoC '21
-### :orange_circle: *Module 1* :
-   **Types of Interviews and What to expect from them-**   
-   - **Online Assessment**
-   - **Technical**
-
-   **Overview on different stages and flow of interview**
-   - **Quick notes or cheat sheets technology wise**
-   - **Online Assessment:**
-     - Topic Wise Content reference
-   - **Technical**
-       - Aspects one would be judged upon
-       - Common Topic wise Questions list
-   - **Behavorial**
-       - Commonly asked questions + references
-
-
-### :orange_circle: *Module 2* :
-   - **Early Career Opportunities**
-   - **Resources to be updated of openings**
-   - **Important Resources and Books**
-
-
-### :orange_circle: *Module 3* :
-   - **Major Projects role Wise**
-   - **Miscellaneous**
+### [:orange_circle: *Resources/Guide for preparation*](./content/Important%20Resources%20and%20Books.md)
 
 
 ***************************************************************
 
-### Supervisor
+<h2 align="center"> 🧡 Supervisor 🧡 </h2>
 
 <table>
   <tr>
@@ -80,6 +47,25 @@
 </tr>
    </table>
 
+<h2 align="center"> 🧡 Mentors 🧡 </h2>
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/syedareehaquasar"><img src="https://github.com/syedareehaquasar/Resume/blob/master/reeha%20profile.png?raw=true" width="50px;" alt=""/><br /><sub><b>Syeda Reeha Quasar</b></sub></a></td>        
+</tr>
+   </table>
+   
+<h2 align="center"> 🧡 CONTRIBUTORS 🧡 </h2>
+
+<p align="center">
+
+ <a href="https://github.com/girlscript/winter-of-contributing/graphs/contributors">
+ <img src="https://contrib.rocks/image?repo=girlscript/winter-of-contributing" />
+
+</p>
+   
+[Syeda Reeha Quasar](https://github.com/syedareehaquasar)
+  
 
 ### Happy Contributing!
 
