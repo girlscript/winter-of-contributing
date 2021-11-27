@@ -1,8 +1,4 @@
 # Threading_in_Python
-## what are threads
-## multi threading
-## diagram of thread starting
-## python threading
-## the threading module
-## synchronizing threads
-@nayakaj(https://drive.google.com/file/d/1JmXc2PgQLVR0poJWGrr80YOFAgR_pGGV/view?usp=sharing)
+Threading in python is used to run multiple threads(tasks,function calls) at same time
+python threads are used in cases where the execution of task involves some waiting
+[video link](https://drive.google.com/file/d/1JmXc2PgQLVR0poJWGrr80YOFAgR_pGGV/view?usp=sharing)
