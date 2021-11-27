@@ -1,4 +1,5 @@
-![](/Assets/annotations.png)
+![](../Assets/annotations.png)
+
 ## Annotations
 
 - Annotation Basics<br>
