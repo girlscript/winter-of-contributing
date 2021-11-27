@@ -5,4 +5,5 @@
 - [XOR Linked List](XOR%20Linked%20List)
 - [Implementation of linked list](linked%20list.md)
 - [Intersecting Linked List](Intersecting%20Linked%20List)
-- [Merge linked lists](Linked%20List/Merge%20Linked%20Lists.md)
+- [Merge linked lists](Merge%20Linked%20Lists.md)
+- [Binary Tree using Linked List](./Creating%20Binary%20tree%20in%20linked%20list)
