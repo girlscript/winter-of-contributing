@@ -14,9 +14,9 @@ Here the number of nodes in the list is 4, therefore the length of the list will
 
 #### Approach
 
--Firstly, we initialize a integer "size" and assign value '0' to it. 
--Then we create a node "temp" and make it equal to head node.
--Then we run a while loop until the temp node becomes NULL and we do the following:
+- Firstly, we initialize a integer "size" and assign value '0' to it. 
+- Then we create a node "temp" and make it equal to head node.
+- Then we run a while loop until the temp node becomes NULL and we do the following:
 
 1) make temp node equal to the node at the "next" pointer of the temp node.
 2) increment size by 1.
