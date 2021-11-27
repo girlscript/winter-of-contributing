@@ -1,3 +1,0 @@
-- [Linked List Basics Video](Linked_List_Basic_code_Video.md)
-- [Singly Linked List in C](Singly%20Linked%20List%20(Normal%20Linked%20List))
-- [Doubly Linked List](Doubly%20Linked%20List)

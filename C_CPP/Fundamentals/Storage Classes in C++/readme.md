@@ -1,1 +1,0 @@
-- [Storage Classes in C++](Storage_Classes.md)

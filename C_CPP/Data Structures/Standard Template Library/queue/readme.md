@@ -1,1 +1,0 @@
-- [Queue in STL](Queue.md)
