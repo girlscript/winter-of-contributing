@@ -5,6 +5,43 @@
 
 ************************************************************
 
+<h1 align="center">TABLE OF CONTENTS 📌</h1>
+<hr>
+
+### :orange_circle: *Introduction* :
+  - [Overview with examples](./Introduction.md)
+
+
+### :orange_circle: *Online Assessments* :
+   - [Overview and Resources](./Online%20Assessments.md)
+
+
+### :orange_circle: *Technical Interview* :
+   - [Overview]()
+   - Resources
+     - [Most popular Algorithms asked in Interviews](./Most%20popular%20Algorithms%20asked%20in%20Interviews.md)
+     - [Puzzles](./Puzzles%20for%20Interviews.md)
+
+
+### :orange_circle: *Behavorial Interview* :
+   - [Overview and Resources](./Behavioural%20Questions.md)
+
+
+### :orange_circle: *Cheat Sheet - Notes* :
+  - [Operating System](./OS%20CheatSheet-Notes.md)
+  - [Object Oriented Programming](./OOP%20CheatSheet-Notes.md)
+  - [SQL](./SQL%20CheatSheet-Notes.md)
+  - [Computer Networks](./CN%20CheatSheet-Notes.md)
+  - [Bit Manipulation](./Technical Questions -Bit Manipulation.md)
+
+### [:orange_circle: *Resources/Guide for preparation*](./Important%20Resources%20and%20Books.md)
+
+
+***************************************************************
+
+
+************************************************************
+
 ## Roadmap for GWoC '21
 ### :orange_circle: *Module 1* :
    **Types of Interviews and What to expect from them-**   
@@ -34,42 +71,6 @@
 
 
 ***************************************************************
-
-************************************************************
-
-<h1 align="center">TABLE OF CONTENTS 📌</h1>
-<hr>
-
-### :orange_circle: *Introduction* :
-  - [Overview](./Introduction)
-  - Examples
-
-
-### :orange_circle: *Online Assessments* :
-   - [Overview](./Online%20Assessments)
-   - Resources
-
-
-### :orange_circle: *Technical Interview* :
-   - [Overview]()
-   - Resources
-     - [Most popular Algorithms asked in Interviews](./Most%20popular%20Algorithms%20asked%20in%20Interviews.md)
-
-
-### :orange_circle: *Behavorial Interview* :
-   - [Overview](./Interview_Preparation/Behavioural%20Questions)
-   - Resources
-
-
-### :orange_circle: *Cheat Sheet - Notes* :
-  - [OS (Operating System)](./Interview_Preparation/OS%20CheatSheet-Notes.md)
-  - [SQL](./SQL%20CheatSheet-Notes.md)
-
-### [:orange_circle: *Resources/Guide for preparation*](./Interview_Preparation/Important%20Resources%20and%20Books.md)
-
-
-***************************************************************
-
 
 ### Supervisor
 
