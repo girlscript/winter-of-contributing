@@ -1,4 +1,4 @@
-![Applets](/Assets/Applets.png)
+![Applets](../Assets/Applets.png)
 
 
 ## Applets

@@ -1,4 +1,4 @@
-![](/Assets/autoboxing.png)
+![](../Assets/autoboxing.png)
 ## Autoboxing
 
 - Autoboxing and methods<br>
