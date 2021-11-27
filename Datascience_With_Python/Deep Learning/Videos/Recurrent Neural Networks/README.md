@@ -69,3 +69,18 @@ As discussed in the Learn on Neural Networks, an activation function determines 
 
 - This RNN variant is similar the LSTMs as it also works to address the short-term memory problem of RNN models. 
 - Instead of using a “cell state” regulate information, it uses hidden states, and instead of three gates, it has two—a reset gate and an update gate. Similar to the gates within LSTMs, the reset and update gates control how much and which information to retain.
+
+## Advantages of Recurrent Neural Network
+- An RNN remembers each and every information through time. It is useful in time series prediction only because of the feature to remember previous inputs as well. ...
+- Recurrent neural network are even used with convolutional layers to extend the effective pixel neighborhood.
+
+
+## Applications of Recurrent Neural Networks:
+- Prediction problems.
+- Machine Translation.
+- Speech Recognition.
+- Language Modelling and Generating Text.
+- Video Tagging.
+- Generating Image Descriptions.
+- Text Summarization.
+- Call Center Analysis.
