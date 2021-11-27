@@ -13,7 +13,7 @@
 
 ## Numbers <span id="numbers"> </span>
 ----
-**python's 2 main types for Numbers is int and float (or integers and floating point numbers)**
+**Python's 2 main types for Numbers is int and float (or integers and floating point numbers)**
 ```python
 type(1)   # int 
 type(-10) # int
@@ -115,7 +115,7 @@ p = bool(word.find(word[::-1]) + 1)
 print(p) # True
 ```
 
-## Boolean
+## Boolean <span id="boolean"> </span>
 ----
 **True or False. Used in a lot of comparison and logical operations in Python**
 ```python
@@ -137,7 +137,7 @@ print(bool(set()))
 # See Logical Operators and Comparison Operators section for more on booleans.
 ```
 
-Lists
+## Lists <span id="lists"> </span>
 ----
 **Unlike strings, lists are mutable sequences in python**
 ```python
@@ -254,7 +254,7 @@ with open("myfile.txt") as f:
   lines = [line.strip() for line in f]
 ```
 
-Dictionaries
+## Dictionaries <span id="dictionaries"> </span>
 ----------
 **Also known as mappings or hash tables. They are key value pairs that are guaranteed to retain order of insertion starting from Python 3.7**
 ```python
@@ -286,7 +286,7 @@ new_dict = my_dict.pop('favourite_snack')                              # Removes
 {key: value for key, value in new_dict.items() if key == 'age' or key == 'name'} # {'name': 'Andrei', 'age': 32} --> Filter dict by keys
 ```
 
-Tuples
+## Tuples <span id="tuples"> </span>
 ----
 **Like lists, but they are used for immutable thing (that don't change)**
 ```python
@@ -321,7 +321,7 @@ unzip = lambda z: list(zip(*z))
 unzip(z)
 ```
 
-Sets
+## Sets <span id="sets"> </span>
 ---
 **Unorderd collection of unique elements.**
 ```python
@@ -360,7 +360,7 @@ set1.isdisjoint(set2)                 # False --> return True if two sets have a
 <frozenset> = frozenset(<collection>)
 ```
 
-None
+## None <span id="none"> </span>
 ----
 **None is used for absence of a value and can be used to show nothing has been assigned to an object**
 ```python
@@ -368,7 +368,7 @@ type(None) # NoneType
 a = None
 ```
 
-Comparison Operators
+## Comparison Operators <span id="comp-operator"> </span>
 --------
 ```python
 ==                   # equal values
@@ -380,7 +380,7 @@ Comparison Operators
 <element> is <element> # check if two operands refer to same object in memory
 ```
 
-Logical Operators
+## Logical Operators <span id="log-operator"> </span>
 --------
 ```python
 1 < 2 and 4 > 1 # True
@@ -397,7 +397,7 @@ else:
   # perform action3
 ```
 
-Loops
+## Loops <span id="loops"> </span>
 --------
 ```python
 my_list = [1,2,3]
@@ -437,7 +437,7 @@ while msg != 'quit':
     print(msg)
 ```
 
-Range
+## Range <span id="range"> </span>
 -----
 ```python
 range(10)          # range(0, 10) --> 0 to 9
@@ -445,7 +445,7 @@ range(1,10)        # range(1, 10)
 list(range(0,10,2))# [0, 2, 4, 6, 8]
 ```
 
-Enumerate
+## Enumerate <span id="enumerate"> </span>
 ---------
 ```python
 for i, el in enumerate('helloo'):
@@ -458,7 +458,7 @@ for i, el in enumerate('helloo'):
 # 5, o
 ```
 
-Counter
+## Counter <span id="counter"> </span>
 -----
 ```python
 from collections import Counter
@@ -467,7 +467,7 @@ counter = Counter(colors)# Counter({'blue': 3, 'red': 2, 'yellow': 1})
 counter.most_common()[0] # ('blue', 3)
 ```
 
-Named Tuple
+## Named Tuple <span id="named-tuple"> </span>
 -----------
 * **Tuple is an immutable and hashable list.**
 * **Named tuple is its subclass with named elements.**
@@ -490,7 +490,7 @@ f'{person.height}'           # '187'
 '{p.height}'.format(p=person)# '187'
 ```
 
-OrderedDict
+## OrderedDict <span id="ordered-dict"> </span>
 --------
 * **Maintains order of insertion**
 ```python
@@ -508,7 +508,7 @@ for name, langs in programmers.items():
 
 ```
 
-Functions
+## Functions <span id="functions"> </span>
 -------
 
 #### \*args and \*\*kwargs
@@ -557,7 +557,7 @@ head, *body, tail = [1,2,3,4,5]
 ```
 
 
-Lambda
+## Lambda <span id="lambda"> </span>
 ------
 ```python
 # lambda: <return_value>
@@ -580,7 +580,7 @@ result = fib(10)
 print(result) #55
 ```
 
-Comprehensions
+## Comprehensions <span id="comprehensions"> </span>
 ------
 ```python
 <list> = [i+1 for i in range(10)]         # [1, 2, ..., 10]
@@ -599,7 +599,7 @@ for i in range(3):
     output.append(i+j)
 ```
 
-Ternary Condition
+## Ternary Condition <span id="ternary-cond"> </span>
 -------
 ```python
 # <expression_if_true> if <condition> else <expression_if_false>
@@ -607,7 +607,7 @@ Ternary Condition
 [a if a else 'zero' for a in [0, 1, 0, 3]] # ['zero', 1, 'zero', 3]
 ```
 
-Map Filter Reduce
+## Map Filter Reduce <span id="map-filter-reduce"> </span>
 ------
 ```python
 from functools import reduce
@@ -616,7 +616,7 @@ list(filter(lambda x: x > 5, range(10)))         # (6, 7, 8, 9)
 reduce(lambda acc, x: acc + x, range(10))        # 45
 ```
 
-Any All
+## Any All <span id="any-all"> </span>
 ------
 ```python
 any([False, True, False])# True if at least one item in collection is truthy, False if empty.
@@ -624,7 +624,7 @@ all([True,1,3,True])     # True if all items in collection are true
 ```
 
 
-Closures
+## Closures <span id="closures"> </span>
 -------
 **We have a closure in Python when:**
 * **A nested function references a value of its enclosing function and then**
@@ -648,7 +648,7 @@ def get_multiplier(a):
 
 
 
-### Scope
+### Scope <span id="scope"> </span>
 **If variable is being assigned to anywhere in the scope, it is regarded as a local variable, unless it is declared as a 'global' or a 'nonlocal'.**
 
 ```python
@@ -667,7 +667,7 @@ def get_counter():
 (1, 2, 3)
 ```
 
-Modules
+## Modules <span id="modules"> </span>
 ----
 ```python
 if __name__ == '__main__': # Runs main() if file wasn't imported.
@@ -683,7 +683,7 @@ from <module_name> import *
 ```
 
 
-Iterators
+## Iterators <span id="iterators"> </span>
 --------
 **In this cheatsheet `'<collection>'` can also mean an iterator.**
 
@@ -692,9 +692,7 @@ Iterators
 <iter> = iter(<function>, to_exclusive)     # Sequence of return values until 'to_exclusive'.
 <el>   = next(<iter> [, default])           # Raises StopIteration or returns 'default' on end.
 ```
-
-
-Generators
+## Generators <span id="generators"> </span>
 ---------
 **Convenient way to implement the iterator protocol.**
 
@@ -712,7 +710,7 @@ def count(start, step):
 ```
 
 
-Decorators
+## Decorators <span id="decorators"> </span>
 ---------
 **A decorator takes a function, adds some functionality and returns it.**
 
@@ -744,7 +742,7 @@ def add(x, y):
 
 
 
-Class
+## Class <span id="class"> </span>
 -----
 **User defined objects are created using the class keyword**
 
@@ -785,8 +783,8 @@ class C(A, B): pass
 [<class 'C'>, <class 'A'>, <class 'B'>, <class 'object'>]
 ```
 
-Exceptions
-----------
+## Exceptions <span id="exceptions"> </span>
+---------- 
 
 ```python
 try:
@@ -824,7 +822,7 @@ finally:
 
 
 
-Command Line Arguments
+## Command Line Arguments <span id="command-line-arguments"> </span>
 ----------------------
 ```python
 import sys
@@ -891,7 +889,7 @@ def append_to_file(filename, text):
         file.write(text)
 ```
 
-Useful Libraries
+## Useful Libraries <span id="useful-libraries"> </span>
 =========
 
 CSV
