@@ -11,7 +11,7 @@
 **Advanced Topics:** **[`Modules`](#modules)__,__[`Iterators`](#iterators)__,__[`Generators`](#generators)__,__[`Decorators`](#decorators)__,__[`Class`](#class)__,__[`Exceptions`](#exceptions)__,__[`Command Line Arguments`](#command-line-arguments)__,__[`File IO`](#file-io)__,__[`Useful Libraries`](#useful-libraries)**  
 
 
-Numbers
+## Numbers <span id="numbers"> </span>
 ----
 **python's 2 main types for Numbers is int and float (or integers and floating point numbers)**
 ```python
@@ -52,7 +52,7 @@ pi = input("What is the value of pi?")
 pi = float(pi)
 ```
 
-Strings
+## Strings <span id="strings"> </span>
 ----
 **strings in python as stored as sequences of letters in memory**
 ```python
@@ -115,7 +115,7 @@ p = bool(word.find(word[::-1]) + 1)
 print(p) # True
 ```
 
-Boolean
+## Boolean
 ----
 **True or False. Used in a lot of comparison and logical operations in Python**
 ```python
