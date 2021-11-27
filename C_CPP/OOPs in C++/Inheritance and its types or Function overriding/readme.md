@@ -5,3 +5,4 @@
 - [Hybrid Inheritance](hybrid-inheritance.md)
 - [Ambiguity in Hybrid Inheritance](hybrid_inheritance_ambiguity.md)
 - [Multiple Inheritance Audio](./multiple_inheritance.md)
+- [Object Slicing](./object_slicing_in_inheritance.md)
