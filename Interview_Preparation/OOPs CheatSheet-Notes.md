@@ -202,25 +202,25 @@ When you hide a method, you can still access the original method by upcasting to
 ~~~ cpp
 public class Sum  
 {  
-int a, b, c;  
-public int add();  
-{  
-c=a+b;  
-return c;  
-}  
-add(int a, int b);  
-{  
-//logic  
-}  
-add(int a, int b, int c);  
-{  
-//logic  
-}  
-add(double a, double b, double c);  
-{  
-//logic  
-}  
-//statements  
+   int a, b, c;  
+   public int add();  
+   {  
+      c=a+b;  
+      return c;  
+   }  
+   add(int a, int b);  
+   {  
+      //logic  
+   }  
+   add(int a, int b, int c);  
+   {  
+      //logic  
+   }  
+   add(double a, double b, double c);  
+   {  
+      //logic  
+   }  
+   //statements  
 }
 ~~~
 
@@ -231,32 +231,32 @@ If a method with the same method signature is presented in both child and parent
 ~~~ cpp
 class Dog  
 {  
-public void bark()  
-{  
-System.out.println("woof ");  
-}  
-}  
+   public void bark()  
+   {  
+      System.out.println("woof ");  
+   }  
+};  
 class Hound extends Dog  
 {  
-public void sniff()  
-{  
-System.out.println("sniff ");  
-}  
-//overrides the method bark() of the Dog class  
-public void bark()  
-{  
-System.out.println("bowl");  
-}  
-}  
-public class OverridingExample  
-{  
-public static void main(String args[])  
-{  
-Dog dog = new Hound();  
-//invokes the bark() method of the Hound class  
-dog.bark();  
-}  
-}  
+   public void sniff()  
+   {  
+      System.out.println("sniff ");  
+   }  
+   //overrides the method bark() of the Dog class  
+   public void bark()  
+   {  
+      System.out.println("bowl");  
+   }  
+ }; 
+ public class OverridingExample  
+ {  
+   public static void main(String args[])  
+   {  
+      Dog dog = new Hound();  
+      //invokes the bark() method of the Hound class  
+      dog.bark();  
+   }  
+ };  
 ~~~
 
 ### 25. What is Cohesion in OOP?
@@ -318,19 +318,19 @@ Yes, the constructors can be overloaded by changing the number of arguments acce
 ~~~ cpp
 public class Demo  
 {  
-Demo()  
-{  
-//logic  
-}  
-Demo(String str) //overloaded constructor   
-{  
-//logic  
-}  
-Demo(double d) //overloaded constructor  
-{  
-//logic  
-}  
-//statements  
+   Demo()  
+   {  
+      //logic  
+   }  
+   Demo(String str) //overloaded constructor   
+   {  
+      //logic  
+   }  
+   Demo(double d) //overloaded constructor  
+   {  
+      //logic  
+   }  
+   //statements  
 }
 ~~~
 
@@ -340,15 +340,15 @@ Yes, we can also overload the main() method in Java. Any number of main() method
 ~~~ java
 class OverloadMain    
 {    
-public static void main(int a)  //overloaded main method    
-{    
-System.out.println(a);    
-}    
-public static void main(String args[])    
-{       
-System.out.println("main method invoked");    
-main(6);    
-}    
+   public static void main(int a)  //overloaded main method    
+   {    
+      System.out.println(a);    
+   }    
+   public static void main(String args[])    
+   {       
+      System.out.println("main method invoked");    
+      main(6);    
+   }    
 }   
 ~~~
 
@@ -374,35 +374,36 @@ Example:
 ~~~ cpp
 // In this program, we will see how multiple functions are created with the same name, 
 // but the compiler decides which function to call easily at the compile time itself.
+
 class CompileTimePolymorphism{
    // 1st method with name add
    public int add(int x, int y){ 
-   return x+y;
+      return x+y;
    }
    // 2nd method with name add
    public int add(int x, int y, int z){
-   return x+y+z;
+      return x+y+z;
    }
    // 3rd method with name add
    public int add(double x, int y){ 
-   return (int)x+y;
+      return (int)x+y;
    }
    // 4th method with name add
    public int add(int x, double y){ 
-   return x+(int)y;
+      return x+(int)y;
    }
 }
 class Test{
    public static void main(String[] args){
-   CompileTimePolymorphism demo=new CompileTimePolymorphism();
-   // In the below statement, the Compiler looks at the argument types and decides to call method 1
-   System.out.println(demo.add(2,3));
-   // Similarly, in the below statement, the compiler calls method 2
-   System.out.println(demo.add(2,3,4));
-   // Similarly, in the below statement, the compiler calls method 4
-   System.out.println(demo.add(2,3.4));
-   // Similarly, in the below statement, the compiler calls method 3
-   System.out.println(demo.add(2.5,3)); 
+      CompileTimePolymorphism demo=new CompileTimePolymorphism();
+      // In the below statement, the Compiler looks at the argument types and decides to call method 1
+      System.out.println(demo.add(2,3));
+      // Similarly, in the below statement, the compiler calls method 2
+      System.out.println(demo.add(2,3,4));
+      // Similarly, in the below statement, the compiler calls method 4
+      System.out.println(demo.add(2,3.4));
+      // Similarly, in the below statement, the compiler calls method 3
+      System.out.println(demo.add(2.5,3)); 
    }
 }
 ~~~
@@ -415,23 +416,23 @@ Example:
 ~~~ cpp
 class AnyVehicle{
    public void move(){
-   System.out.println(“Any vehicle should move!!”);
+      System.out.println(“Any vehicle should move!!”);
    }
 }
 class Bike extends AnyVehicle{
    public void move(){
-   System.out.println(“Bike can move too!!”);
+      System.out.println(“Bike can move too!!”);
    }
 }
 class Test{
    public static void main(String[] args){
-   AnyVehicle vehicle = new Bike();
-   // In the above statement, as you can see, the object vehicle is of type AnyVehicle
-   // But the output of the below statement will be “Bike can move too!!”, 
-   // because the actual implementation of object ‘vehicle’ is decided during runtime vehicle.move();
-   vehicle = new AnyVehicle();
-   // Now, the output of the below statement will be “Any vehicle should move!!”, 
-   vehicle.move();
+      AnyVehicle vehicle = new Bike();
+      // In the above statement, as you can see, the object vehicle is of type AnyVehicle
+      // But the output of the below statement will be “Bike can move too!!”, 
+      // because the actual implementation of object ‘vehicle’ is decided during runtime vehicle.move();
+      vehicle = new AnyVehicle();
+      // Now, the output of the below statement will be “Any vehicle should move!!”, 
+      vehicle.move();
    }
 }
 ~~~
@@ -460,5 +461,4 @@ No, class and structure are not the same. Though they appear to be similar, they
 Object-oriented programming revolves around entities like objects. Each object consumes memory and there can be multiple objects of a class. So if these objects and their memories are not handled properly, then it might lead to certain memory-related errors and the system might fail.
 
 Garbage collection refers to this mechanism of handling the memory in the program. Through garbage collection, the unwanted memory is freed up by removing the objects that are no longer needed.
-
 
