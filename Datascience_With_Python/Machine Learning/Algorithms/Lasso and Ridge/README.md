@@ -67,9 +67,15 @@
   
   *2. Using the help of a function to train parmaters to get better predictions*
 
-+ We can see from the plots that Untrained Predictions (linear regression) are very poor compared to Trained Predictions (Regularisation).
+- We can see from the plots that Untrained Predictions (linear regression) are very poor compared to Trained Predictions (Regularisation).
 
-+ Similar results are obtained through using respective Modules from the Sklearn Library.
+<!-- Insert image here -->
+![untrained_predictions](https://user-images.githubusercontent.com/81156510/143675311-8e78f525-77f0-427f-83eb-7029d6b1bbd6.png)
+
+<!-- Insert image here -->
+![trained_predictions](https://user-images.githubusercontent.com/81156510/143675316-e12ea18a-7a75-490a-9085-29f10d91f0bd.png)
+
+- Similar results are obtained through using respective Modules from the Sklearn Library.
 
 # 🏹Overall Comparsion
 
