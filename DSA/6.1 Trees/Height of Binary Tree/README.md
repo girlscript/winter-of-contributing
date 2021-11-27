@@ -1,4 +1,3 @@
-
 # Height of a Binary Tree
 
 * Number of edges in longest path from the node to a leaf node is called **Height of a Node**.
