@@ -161,3 +161,11 @@ int main()
 
 ### Output
 
+#### Opening screen where the user inputs the number of discs
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143688760-153c7377-9b42-4bb9-86e0-42d302f01fd8.png"></p>
+#### First block moves to third empty space
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143690450-2acdc464-fcd2-4296-8eb1-54d4f546d912.png"></p>
+#### Tower of Hanoi procedure Completed
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143690767-6806cfe4-db6a-4d78-90e7-e4c695473d4c.png"></p>
+
+
