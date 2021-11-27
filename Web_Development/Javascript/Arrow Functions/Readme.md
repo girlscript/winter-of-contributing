@@ -1,9 +1,9 @@
 # Arrow Functions in javascript
 <hr>
-##What are arrow functions?
+## What are arrow functions?
 
-Arrow functions are introduced to write compact functions in a abbreviated way
-
+The 2015 edition of the ECMAScript specification (ES6) added arrow function expressions to the JavaScript language.An arrow function expression is a compact alternative to a traditional javascript function expression, but is limited and can't be used in all situations.It is similar to lambda functions in python.
+ 
 The following are a few facts about arrow functions:
 - Using the arrow function, curly braces, parenthesis, function, and return keywords become optional.
 
@@ -21,7 +21,7 @@ const Function_Name = (*params*) => { **return something** }
 
 In a Arrow function we have a **()** *(We write our parameters inside here)* followed by a **=>** which resembles the arrow symbol. Following this we will have a block statement **{}** in which we will perform the required operations
 
-###Ways to write arrow functions
+### Ways to write arrow functions
 
 1.) When there is only one param with a simple expression, we can write the arrow function in the following way:
      
