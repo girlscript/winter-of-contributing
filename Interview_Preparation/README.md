@@ -32,7 +32,9 @@
   - [Object Oriented Programming](./content/OOP%20CheatSheet-Notes.md)
   - [SQL](./content/SQL%20CheatSheet-Notes.md)
   - [Computer Networks](./content/CN%20CheatSheet-Notes.md)
-  - [Bit Manipulation](./content/Technical Questions -Bit Manipulation.md)
+  - [Bit Manipulation](./content/Technical%20Questions%20-Bit%20Manipulation.md)
+
+
 
 ### [:orange_circle: *Resources/Guide for preparation*](./content/Important%20Resources%20and%20Books.md)
 
