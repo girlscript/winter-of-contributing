@@ -6,7 +6,7 @@ In JavaScript, array is a single variable that is used to store different elemen
 There are basically two ways to declare an array.
 
 __Example:__
-``` java 
+``` js 
 var House = [ ]; // method 1 
 
 var House = new Array(); // method 2 
@@ -16,13 +16,13 @@ But generally method 1 is preferred over the method 2.
 ## __Initialization of an Array__
 
 __Example (for Method 1):__
-``` java
+``` js
 // Initializing while declaring
 var house = ["1BHK", "2BHK", "3BHK", "4BHK"];
 ```
 __Example (for Method 2):__
 
-``` java
+``` js
 
 // Initializing while declaring
 // Creates an array having elements 10, 20, 30, 40, 50
@@ -39,7 +39,7 @@ var home = new Array("!BHK");
 As shown in above example the house contains 5 elements i.e. (10 , 20, 30, 40, 50) while house1 contains 5 undefined elements instead of having a single element 5. Hence, while working with numbers this method is generally not preferred but it works fine with Strings and Boolean as shown in the example above home contains a single element 1BHK.
 We can also update after initialization. 
 
-```java
+```js
 // Creates an array of 4 undefined elements
 var house1 = new Array(4);
   
@@ -54,7 +54,7 @@ __An array in JavaScript can hold different elements.__
 We can store Numbers, Strings and Boolean in a single array. 
 
 __Example:__ 
-```java
+```js
 // Storing number, boolean, strings in an Array 
 var house = ["1BHK", 25000, "2BHK", 50000, "Rent", true]; 
 ```
@@ -62,7 +62,7 @@ var house = ["1BHK", 25000, "2BHK", 50000, "Rent", true];
 ## __Accessing Array Elements__ 
 Array in JavaScript are indexed from 0 so we can access array elements as follows:
  
-```java
+```js
 var house = ["1BHK", 25000, "2BHK", 50000, "Rent", true];
 alert(house[0]+" cost= "+house[1]);
 var cost_1BHK = house[1];
@@ -75,7 +75,7 @@ Length property of an Array returns the length of an Array. Length of an Array i
 
 __Example below illustrates the length property of an Array:__
 
-```java
+```js
 var house = ["1BHK", 25000, "2BHK", 50000, "Rent", true];
 
 //len contains the length of the array
