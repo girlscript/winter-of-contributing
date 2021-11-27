@@ -9,4 +9,4 @@
 - [Matrix Multiplication](./Matrix_multiplication/Matrix_multiplication.md)
 - [Subarray & Subsequence](./Subarray&Subsequence.md)
 - [ARRAY BAR CHART](./ARRAY%20BAR%20CHART/bargraph.md)
-- [Equilibrium Index of a Array](Equlibrium_index.md)
+- [Equilibrium Index of a Array](Equilibrium_index.md)
