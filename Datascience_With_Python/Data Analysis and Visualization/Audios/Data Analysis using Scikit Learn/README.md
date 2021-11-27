@@ -7,6 +7,8 @@
                 - NumPy
                 - SciPy
                 - Matplotlib
+![image](https://user-images.githubusercontent.com/79050917/143684194-d29f15ad-d6b4-4980-89fa-1938d21b962f.png)
+- The above pictures shows how sklearn provides the services for usage of models.
 
 ![image](https://user-images.githubusercontent.com/79050917/143678891-fc453c7f-be6f-40f0-a659-865f313f5eeb.png)
 
@@ -23,11 +25,26 @@
 
 **The main ways the Scikit-learn library is used:**
 - Classification
+- Classification algorithms in Scikit-learn include:
+      - Support vector machines (SVMs)
+      - Nearest neighbors
+      - Random forest
 - Regression
+- Regression algorithms include:
+      - SVMs
+      - Ridge regression
+      - Lasso
 - Clustering
-- Dimensionality reduction
-- Model selection
-- Preprocessing
+- Clustering algorithms include:
+      - K-means
+      - Spectral clustering
+      - Mean-shift
+- Dimensionality reduction:
+- Dimensionality reduction algorithms include:
+      - Principal component analysis (PCA)
+      - Feature selection
+      - Non-negative matrix factorization
+
 
 ![image](https://user-images.githubusercontent.com/79050917/143678924-9b667ce1-acf7-4df5-b1fb-d1cb69b45c97.png)
 
