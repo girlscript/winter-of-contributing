@@ -10,7 +10,7 @@
 
 ### Audios
 
-- [Disaster Tweets Prediction]()
+- [Disaster Tweets Prediction](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions/Audios/Disaster%20Tweets%20Prediction)
 
 ### Projects
 
@@ -20,4 +20,4 @@
 
 ### Videos
 
-[Titanic Survival Prediction]()
+- [Titanic Survival Prediction]()
