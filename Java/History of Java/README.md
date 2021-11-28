@@ -1,4 +1,4 @@
-![](/Assets/History%20of%20Java.png)
+![](../Assets/History%20of%20Java.png)
 
 ## History of Java
 
