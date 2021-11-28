@@ -1,5 +1,5 @@
-# Sum of all nodes at Kth level in Binary Tree - <br/>
-Consider a binary tree as -  <br/>
+# Sum of all nodes at Kth level in Binary Tree -  
+Consider a binary tree as -  
 
 ```
             5 
@@ -9,19 +9,19 @@ Consider a binary tree as -  <br/>
       2   4  6
 ```
 
-And we need to find the sum of all nodes present at level 2nd. <br/>
-The output will be  - 12  <br/>
+And we need to find the sum of all nodes present at level 2nd.  
+The output will be  - 12  
 
-## Approach <br/>
+## Approach  
 - Traverse the binary tree in Level order manner.
 - During traversal, pop each element out of the queue and push its left and right child (if present in given tree).
 - Keep the record of current level in binary tree.
 - To keep the record of current level, maintain a variable *level* and increase it whenever a child is traversed from the parent.
 - When the *level* becomes equal to k (as given in question), pop the elements from the queue and calculate their sum.
 
-## Code:  <br/>
+## Code:  
 
-```
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
  
@@ -111,11 +111,11 @@ int main()
 
 ```
 
-## Output : <br/>
-12 <br/>
+## Output :  
+12  
 
-## Time Complexity: <br/>
-O(n) where n is the number of nodes in the binary tree  <br/>
+## Time Complexity:  
+O(n) where n is the number of nodes in the binary tree  
 
-## Space Complexity: <br/>
+## Space Complexity:  
 O(n) where n is the number of nodes in the binary tree 
