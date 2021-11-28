@@ -2,7 +2,6 @@
 
 To enable minigrep to read the values of command line arguments we pass to it, we’ll need a function provided in Rust’s standard library, which is std::env::args. This function returns an iterator of the command line arguments that were given to minigrep. For now, you only need to know two details about iterators: iterators produce a series of values, and we can call the collect method on an iterator to turn it into a collection, such as a vector, containing all the elements the iterator produces.
 `use std::env;
-
 fn main() {
     let args: Vec<String> = env::args().collect();
     println!("{:?}", args);
