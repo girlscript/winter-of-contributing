@@ -12,7 +12,7 @@ To better understand when you should use animations, also see the material desig
 ## **Animate bitmaps**
 
 When you want to animate a bitmap graphic such as an icon or illustration, you should use the drawable animation APIs. Usually, these animations are defined statically with a drawable resource, but you can also define the animation behavior at runtime.
-![image](https://user-images.githubusercontent.com/66783850/143766182-a8193e07-a5f8-4db6-8b28-ac4cc0b870e0.png)
+![image](https://developer.android.com/training/animation/videos/drawable-animation.gif)
 
 
 For example, animating a play button transforming into a pause button when tapped is a nice way to communicate to the user that the two actions are related, and that pressing one makes the other visible.
@@ -21,7 +21,6 @@ For example, animating a play button transforming into a pause button when tappe
 ## **Animate UI visibility and motion**
 
 When you need to change the visibility or position of views in your layout, you should include subtle animations to help the user understand how the UI is changing.
-![image](https://user-images.githubusercontent.com/66783850/143766165-83935d82-0a54-4923-9d75-474a77392236.png)
 
 
 To move, reveal, or hide views within the current layout, you can use the property animation system provided by the android.animation package, available in Android 3.0 (API level 11) and higher. These APIs update the properties of your View objects over a period of time, continuously redrawing the view as the properties change. For example, when you change the position properties, the view moves across the screen, or when you change the alpha property, the view fades in or out.
@@ -43,7 +42,7 @@ To learn how to build animations with the property animation system, read the Pr
 Whenever possible, your animations should apply real-world physics so they are natural-looking. For example, they should maintain momentum when their target changes, and make smooth transitions during any changes.
 
 To provide these behaviors, the Android Support library includes physics-based animation APIs that rely on the laws of physics to control how your animations occur.
-![image](https://user-images.githubusercontent.com/66783850/143766141-ff5131fd-523c-4148-80d4-57399f70bccd.png)
+![image](https://developer.android.com/images/guide/topics/graphics/targetchange_pba.gif)
 
 
 Two common physics-based animations are the following:
