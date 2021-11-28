@@ -13,9 +13,10 @@
 - [Backend Web Development](./Backend-Web-Development)
 - [Android Development](./Android-development) -->
 
+
 ## Contributing Guidelines
 Please follow the [contributing guidelines](./.github/CONTRIBUTING.md) to contribute to the project.
 
 ## Code of Conduct
-This project and everyone participating in it is governed by the [GirlScript Code of Conduct](./.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code
 
+This project and everyone participating in it is governed by the [GirlScript Code of Conduct](./.github/CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code
