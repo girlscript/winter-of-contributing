@@ -76,6 +76,12 @@
 </tr>
    </table>
 
+### Mentors
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/rhythmjayee"><img src="https://avatars.githubusercontent.com/u/48250163?v=4" width="80px;" alt=""/><br /><sub><b>Rhythm Jayee</b></sub></a></td>        
+</tr>
+   </table>
 
 ### Happy Contributions!
 
