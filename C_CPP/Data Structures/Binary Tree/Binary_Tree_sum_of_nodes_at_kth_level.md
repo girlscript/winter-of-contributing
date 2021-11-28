@@ -1,15 +1,23 @@
 # Sum of all nodes at Kth level in Binary Tree - <br/>
 Consider a binary tree as -  <br/>
 
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \ <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    7  <br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /  &nbsp;&nbsp;   \     &nbsp;&nbsp;&nbsp;&nbsp;    /   <br/>
-&nbsp;&nbsp;&nbsp;&nbsp; 2 &nbsp;&nbsp;&nbsp;&nbsp;     4   &nbsp;&nbsp;  6  <br/>
+```
+            5 
+          /   \
+        3      7
+       / \    /
+      2   4  6
+```
 
 And we need to find the sum of all nodes present at level 2nd. <br/>
 The output will be  - 12  <br/>
+
+## Approach <br/>
+- Traverse the binary tree in Level order manner.
+- During traversal, pop each element out of the queue and push its left and right child (if present in given tree).
+- Keep the record of current level in binary tree.
+- To keep the record of current level, maintain a variable *level* and increase it whenever a child is traversed from the parent.
+- When the *level* becomes equal to k (as given in question), pop the elements from the queue and calculate their sum.
 
 ## Code:  <br/>
 
