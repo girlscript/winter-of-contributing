@@ -18,6 +18,10 @@ If A = {1, 2} and K = 3, then B = {1, 2, 1, 2, 1, 2}.
 
 For each test case, print a single line containing the maximum subarray sum of B.
 
+**Approach**
+
+Firstly, finding kadane's sum through a function for a single array, for the sum to be maximum negative sum/numbers are required to be ignored. Hence if kadane's sum for a whole single array comes out to be negative, maximum prefix and suffix sums are calculated which together form a maximum sum
+
 **Code**
 
 ```C++
@@ -108,4 +112,21 @@ int main(){
 
 Example case 1: B = {1, 2, 1, 2, 1, 2} and the subarray with maximum sum is the whole {1, 2, 1, 2, 1, 2}. Hence, the answer is 9.
 
-Example case 2: B = {1, -2, 1, 1, -2, 1} and the subarray with maximum sum is {1, 1}. Hence, the answer is 2.
+**Input 2**
+
+1
+
+3 3
+
+1 3 -2 
+
+**Output 2**
+
+6
+
+
+**Complexities**
+
+Time complexity - O(n)
+
+Space complexity - O(1)
