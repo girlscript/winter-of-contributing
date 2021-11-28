@@ -10,13 +10,13 @@
 
 ### Audios
 
-[Disaster Tweets Prediction]()
+- [Disaster Tweets Prediction]()
 
 ### Projects
 
-[Digit Recognizer](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions/Digit%20Recognizer)
-[Disaster Tweets Prediction](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions/Disaster%20Tweets%20Prediction)
-[House Prices Prediction](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions/House%20Prices%20Prediction)
+- [Digit Recognizer](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions/Digit%20Recognizer)
+- [Disaster Tweets Prediction](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions/Disaster%20Tweets%20Prediction)
+- [House Prices Prediction](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions/House%20Prices%20Prediction)
 
 ### Videos
 
