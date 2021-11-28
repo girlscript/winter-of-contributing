@@ -1,4 +1,4 @@
-![Generics](/Assets/Generics.png)
+![Generics](../Assets/Generics.png)
 
 
 ## Generics
