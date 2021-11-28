@@ -8,4 +8,4 @@ To overcome this disadvantage Recurrent Neural Network comes handy. They are net
 
 <!-- Insert Image Here -->
 
-
+![r1](https://user-images.githubusercontent.com/81156510/143775656-15c8d1bb-8488-44ba-847c-1756681aaf5b.png)
