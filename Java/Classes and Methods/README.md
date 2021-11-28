@@ -1,4 +1,4 @@
-![](/Assets\Classes%20and%20Methods.png)
+![](../Assets/Classes%20and%20Methods.png)
 
 ## Classes and Methods
 
