@@ -66,8 +66,8 @@
 
 </p>
    
-[Syeda Reeha Quasar](https://github.com/syedareehaquasar)
-  
+[Syeda Reeha Quasar](https://github.com/syedareehaquasar)  
+[Nikhil Singh](https://github.com/singhnikhiljsr)  
 
 ### Happy Contributing!
 
