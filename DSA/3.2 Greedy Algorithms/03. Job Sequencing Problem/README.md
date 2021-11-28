@@ -52,9 +52,7 @@ But above solution consumes a lot of time!! Hence go with below approach
 
 Initially, these jobs are ordered according to profit, i.e. **p1⩾p2⩾p3⩾...⩾pn**.
 
-<div align="center">
-<img src="images\algo.png">
-</div>
+![algo](https://user-images.githubusercontent.com/70436834/143767058-66a468a8-8bc8-4eba-978a-279a87959714.png)
 
 
 
@@ -68,15 +66,13 @@ In this algorithm, we are using two loops, one is within another. Hence, the com
 Let us consider a set of given jobs as shown in the following table. We have to find a sequence of jobs, which will be completed within their deadlines and will give maximum profit. Each job is associated with a deadline and profit.
 
 
-<div align="center">
-<img src="images\ex-problem.png">
-</div>
+![ex-problem](https://user-images.githubusercontent.com/70436834/143767075-bafefae3-02a4-4e0d-9953-1402b1427982.png)
+
 
 ### Solution:
 
-<div align="center">
-<img src="images\ex-sol.png">
-</div>
+
+![ex-sol](https://user-images.githubusercontent.com/70436834/143767086-8719183b-04b7-4fa3-99d9-474030bd316a.png)
 
 
 From this set of jobs, first we select **J2**, as it can be completed within its deadline and contributes maximum profit.
