@@ -1,4 +1,4 @@
-![Java.lang](/Assets/Java.lang.png)
+![Java.lang](../Assets/Java.lang.png)
 
 ## Java.lang
 
