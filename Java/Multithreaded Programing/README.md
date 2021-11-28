@@ -1,4 +1,4 @@
-![](/Assets/multithreaded%20programming.png)
+![](../Assets/multithreaded%20programming.png)
 ## Multithreaded Programming
 
 - Thread Priorities<br>
