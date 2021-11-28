@@ -1,5 +1,6 @@
 # Arrow Functions in javascript
 <hr>
+
 ## What are arrow functions?
 
 The 2015 edition of the ECMAScript specification (ES6) added arrow function expressions to the JavaScript language.An arrow function expression is a compact alternative to a traditional javascript function expression, but is limited and can't be used in all situations.It is similar to lambda functions in python.
