@@ -10,6 +10,9 @@ Each project in Android Studio contains one or more modules with source code fil
 * Library modules
 * Google App Engine modules
 
+![image](https://user-images.githubusercontent.com/66783850/143766317-ca52c4e9-9341-42f5-a148-2b0aa67e099d.png)
+
+
 By default, Android Studio displays your project files in the Android project view, as shown in figure 1. This view is organized by modules to provide quick access to your project's key source files.
 
 All the build files are visible at the top level under **Gradle Scripts** and each app module contains the following folders:
@@ -20,7 +23,9 @@ All the build files are visible at the top level under **Gradle Scripts** and ea
 * **java**: Contains the Java source code files, including JUnit test code.
 * **res**: Contains all non-code resources, such as XML layouts, UI strings, and bitmap images.
 
-The Android project structure on disk differs from this flattened representation. To see the actual file structure of the project, select **Project** from the **Project** dropdown (in figure 1, it's showing as **Android**).
+The Android project structure on disk differs from this flattened representation. To see the actual file structure of the project, select **Project** from the **Project** dropdown.
+![image](https://user-images.githubusercontent.com/66783850/143766331-42f9d10a-c269-4c34-96f2-5d943610d9d6.png)
+
 
 You can also customize the view of the project files to focus on specific aspects of your app development. For example, selecting the **Problems** view of your project displays links to the source files containing any recognized coding and syntax errors, such as a missing XML element closing tag in a layout file.
 
