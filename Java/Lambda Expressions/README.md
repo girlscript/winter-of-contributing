@@ -1,4 +1,4 @@
-![Lambda Expression](/Assets/Lambda%20Expressions.png)
+![Lambda Expression](../Assets/Lambda%20Expressions.png)
 
 ## Lambda Expressions
 
