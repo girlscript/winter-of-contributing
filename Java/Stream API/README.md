@@ -1,4 +1,4 @@
-![Stream API](/Assets/Stream%20API.png)
+![Stream API](../Assets/Stream%20API.png)
 
 
 ## Stream API
