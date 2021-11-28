@@ -1,4 +1,4 @@
-![](/Assets\Jump%20Statements.png)
+![](../Assets/Jump%20Statements.png)
 
 ## Jump Statements
 
