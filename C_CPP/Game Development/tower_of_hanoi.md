@@ -148,6 +148,7 @@ int main()
         board[i][2] = 0;
     }
     initwindow(800,600);
+    setbkcolor(BLUE);
     line(25,550,775,550);
     //block height = 20
     //block width = 25*block number
@@ -162,15 +163,18 @@ int main()
 ### Output
 
 #### Opening screen where the user inputs the number of discs
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143688760-153c7377-9b42-4bb9-86e0-42d302f01fd8.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143731064-223d2da3-3f79-4f73-b79d-d952b1f328af.png"></p>
+
 
 #### First block moves to third empty space
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143690450-2acdc464-fcd2-4296-8eb1-54d4f546d912.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143731220-91e43e4e-9a46-4273-9de8-f8edc00387df.png"></p>
 
 ### Program midway through the procedure
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143690918-2711e483-a568-4eba-9679-29e18ddea529.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143731457-005e0731-cc4e-4208-a90b-6af9c16939b3.png"></p>
+
 
 #### Tower of Hanoi procedure Completed
-<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143690767-6806cfe4-db6a-4d78-90e7-e4c695473d4c.png"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/77008381/143731286-c97d00f7-d38b-421c-b4b4-cf605ac85974.png"></p>
+
 
 
