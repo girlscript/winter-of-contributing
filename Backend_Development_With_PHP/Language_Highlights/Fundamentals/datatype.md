@@ -1,6 +1,6 @@
 # Data Types In PHP
 - A variable can store data of various types, and various data types can do different things.
-- In PHP we have the following type of data.
+- In PHP, we have the following type of data.
 
 | No            | Topics    |  
 | ------------- |:-------------| 
