@@ -1,1 +1,0 @@
-This file will be addressing the required packages, libraries that you need to run the project!
