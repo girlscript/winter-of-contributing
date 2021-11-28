@@ -1,4 +1,4 @@
-![](/Assets/enums.png)
+![](../Assets/enums.png)
 ## Enums
 
 - Enums structure and introduction<br>
