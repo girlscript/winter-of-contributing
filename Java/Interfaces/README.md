@@ -1,4 +1,4 @@
-![](/Assets/interfaces.png)
+![](../Assets/interfaces.png)
 ## Interfaces
 
 - Defining and Implementation of Interfaces<br>
