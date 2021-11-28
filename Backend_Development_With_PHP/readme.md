@@ -24,6 +24,7 @@
 - [Standard PHP Library](#)
 - [Command Line Interface](#)
 - [Xdebug](#)
+- [Fundamentals](Language_Highlights/Fundamentals/)
 
 ### 4. [Dependency Management](#)
 

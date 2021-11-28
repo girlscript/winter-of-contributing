@@ -1,1 +1,3 @@
-### GETTING STARTED
+# Language_Highlights
+
+- [Fundamentals](Fundamentals/)
