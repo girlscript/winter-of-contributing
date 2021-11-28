@@ -1,0 +1,26 @@
+Find maximum sum path involving elements of given arrays
+Given two sorted arrays of integers, find a maximum sum path involving elements of both arrays whose sum is maximum. We can start from either array, but we can switch between arrays only through its common elements.
+
+For example,
+
+Input:
+ 
+X = { 3, 6, 7, 8, 10, 12, 15, 18, 100 }
+Y = { 1, 2, 3, 5, 7, 9, 10, 11, 15, 16, 18, 25, 50 }
+ 
+ 
+The maximum sum path is:
+ 
+1 —> 2 —> 3 —> 6 —> 7 —> 9 —> 10 —> 12 —> 15 —> 16 —> 18 —> 100
+ 
+The maximum sum is 199
+Practice this problem
+
+The idea is simple – calculate the sum between common elements present in both arrays and include the maximum sum in the output. For example, consider the following arrays X and Y having four common elements A, B, C, D:
+
+X[]: [sum_x1 … A … sum_x2 … B … sum_x3 … C … sum_x4 … D … sum_x5]
+Y[]: [sum_x1 … A … sum_y2 … B … sum_y3 … C … sum_y4 … D … sum_y5]
+Here, sum_xi denotes the sum of elements between two common elements in array X. Similarly, sum_yi denotes the sum of elements between two common elements in array Y. For each pair (sum_xi, sum_yi), include max(sum_xi, sum_yi) in the solution, i.e.,
+
+Result = max(sum_x1, sum_y1) + A + max(sum_x2, sum_y2) + B + max(sum_x3, sum_y3) + C + max(sum_x4, sum_y4) + D + max(sum_x5, sum_y5)
+Following is the C, Java, and Python implementation based on the above
