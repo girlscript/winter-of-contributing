@@ -150,6 +150,7 @@
    - **Customer Segmentation.**
    - **Fake News Classification.**
    - **Market Basket Analysis.**
+   - **Restaurant Revenue Prediction.**
 
 
    
