@@ -1,27 +1,27 @@
-### Since, i have learned C as the first language of my career in Technology, i would like to share my learnings and hope you choose this as yours! 💯
+### Since, I have learned C as the first language of my career in Technology, I would like to share my learnings and hope you choose this as yours! 💯
 
 ## Facts about C Programming Language
 Let us talk about some general facts:
 
-- The  American  National  Standards  Institute (ANSI)  had formalized the C language.
-You know what this is an important step for a language to be recognised for future use and generation. 👍
+- The  American  National  Standards  Institute (ANSI) had formalized the C language.
+This is an important step for a language to be recognised for use by future generations.
 
 Secondly,
 - C was invented to write UNIX operating system. Linux OS, PHP, and MySQL are written in C. 
-- C has been written in assembly language.
+- C is written in assembly language.
 
-#### What else? Umm, let's talk about features of C Language
+#### What else? Umm, let's talk about the features of C Language
 
 ## Features of C Programming Language
-The most important features which i think makes C Language as the most supported language for the initial stage is:
+The most important features, which I think make C Language as the most supported language for the initial stage, are:
 - Easily extensible.
 - Highly portable
 - Efficient and fast
 - C is a robust language with a rich set of built-in functions and operators.
-- C is a collection of C library functions; we can also create our function and add it to the C library.
+- C is a collection of C library functions; we can also create our own functions and add them to the C library.
 
-#### Woahhh! These features are quite fascinating :) Isn't it?
- So, lets talk about Advantages of C language 
+#### Woahhh! These features are quite fascinating :) Aren't they?
+ So, lets talk about the Advantages of C language. 
 
 ## Advantages of C Programming Language
 - C is the building block for many other programming languages.
@@ -30,15 +30,15 @@ The most important features which i think makes C Language as the most supported
 
 #### All the features and advantages talked above are enough to choose C Language as the initial step of the ladder of success in Tech.
 
-#### AS a coin has two sides, similarly a language also has pros and cons!
+#### Like a coin has two sides, a language also has pros and cons!
 
 Now, lets talk about some disadvantages of C Language
 
 ## Disadvantages of C Programming Language 
-As compared to other language in today's era, i know it becomes a little difficult to digest these disadvantages but these do not cover the advantages of C Language at all.
+As compared to other languages in today's era, I know it becomes a little difficult to digest these disadvantages but these do not cover the advantages of C Language at all.
 
 - C does not provide Object Oriented Programming (OOP) concepts whereas C++ supports OOPS.
--  There are no concepts of Namespace in C.
+- There is no concept of Namespace in C.
 - C does not provide binding or wrapping up of data in a single unit. 
 - C does not provide Constructor and Destructor.
 
@@ -95,7 +95,7 @@ The individual tokens after breaking this above code into different statements w
 				
 				 
 ### Semicolon
-In a C Program, the semicolon is a statement terminator. That is, each individual statement must be ended with a semicolon terminator. It indicates the end of one logical entity.
+In a C Program, the semicolon is a statement terminator. That is, each individual statement must end with a semicolon terminator. It indicates the end of one logical entity.
 				
 				
 						printf("Welcome to Girlscript Winter Of Contributing! \n");
@@ -103,7 +103,7 @@ In a C Program, the semicolon is a statement terminator. That is, each individua
 
 
 ### Comments 
-Comments are likely helping text in your C program and they are ignored by the compiler.
+Comments are like helping text in your C program and they are ignored by the compiler.
 
 #### YES! You might wonder something written on the screen isn't compiled by the compiler and has not appeared as the output on the screen. Woahhh! 
 Comments are for your own convinience. You can write them anywhere, anytime as your small notes or hidden information.
@@ -153,7 +153,7 @@ Some common and mostly used keywords are:
 ### Whitespace
 Whitespace is the term used in C to describe blanks, tabs, newline characters and comments. Whitespace separates one part of a statement from another.
 
-## C Data Type
+## C Data Types
 C provides various types of data-types which allow the programmer to select the appropriate type for the variable to set its value.
 
 The data-type in a programming language is the collection of data with values having fixed meaning as well as characteristics. Some of them are an integer(int), floating point(float), character(char), etc.
@@ -173,7 +173,7 @@ Array, References, and Pointers.
 Structure, Union, and Enumeration.
 
 
-Usually, programming languages specify the range values for given data-type and storage size(in bits) which they a acquire in a given architecture. The storage sizes might differ in different programming languages and architecture.
+Usually, programming languages specify the range values for given data-type and storage size(in bits) which they acquire in a given architecture. The storage sizes might differ in different programming languages and architecture.
 
 #### Declaration:
 				int	age ; // 12
@@ -200,7 +200,7 @@ Usually, programming languages specify the range values for given data-type and 
 					};
 					
 ## sizeof()
-sizeof() operator can use to get the exact size of a type or a variable on a particular platform.
+sizeof() operator can be used to get the exact size of a type or a variable on a particular platform.
 
 				#include<stdio.h>
 				#include<limits.h>
@@ -213,8 +213,8 @@ sizeof() operator can use to get the exact size of a type or a variable on a par
 				
 ## Output: 
 			
-				Storagr size for int is:2
-				Storagr size for char is:1
+				Storage size for int is:2
+				Storage size for char is:1
 			
 				
 	
