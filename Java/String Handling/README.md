@@ -1,4 +1,4 @@
-![String Handeling](/Assets/String%20Handling.png)
+![String Handeling](../Assets/String%20Handling.png)
 
 ## String Handling
 

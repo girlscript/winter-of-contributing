@@ -1,4 +1,4 @@
-![](/Assets\Strings.png)
+![](../Assets/Strings.png)
 
 ## Strings
 
