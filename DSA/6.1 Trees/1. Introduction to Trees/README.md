@@ -50,7 +50,7 @@ Some important terms used in trees are:
 * A special kind of Tree - Trie is used to store dictionary.
 * Used in Network Routing Algorithm.
 
-## Types of Tree:
+## Types of Trees:
 
 * **General Tree:** A General Tree is tree in which there is no restriction on the number of children a node can contain.
 ![alt text](https://static.javatpoint.com/ds/images/types-of-tree1.png)
@@ -110,7 +110,7 @@ Binary trees are further divided into many types:
 
 ## Implementation
 
-* The most common ways of implementing tree is dynamically created nodes linked using pointers or references, just like Linked List.
+* The most common ways of implementing trees is dynamically created nodes linked using pointers or references, just like Linked List.
 
 ```cpp 
 struct Node {
