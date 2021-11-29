@@ -85,7 +85,7 @@
 ### 11. Rust gets Functional like Haskell :
 
 - [**Closures**](11.Rust_like_haskell/closures.org)
-- [**Iterators**](11.Rust_like_haskell/iterators.org)
+- [**Iterators**](11.Rust_like_haskell/Iterators.org)
 
 ### 12. Lets make a CLI program :
 
