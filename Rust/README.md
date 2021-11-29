@@ -58,7 +58,7 @@
 
 - [**Generic Data Types**](8.Generic_traits_and_lifetimes/generic.org)
 - [**Traits**](8.Generic_traits_and_lifetimes/traits.org)
-- [Refrence Validation With **Lifetimes**](8.Generic_traits_and_lifetimes/lifetimes.org))
+- [Refrence Validation With **Lifetimes**](8.Generic_traits_and_lifetimes/lifetimes.org)
 
 ### 9. Writing **Tests** &  **Error Handling** :
 
@@ -84,8 +84,8 @@
 
 ### 11. Rust gets Functional like Haskell :
 
-- [**Closures**](Rust_like_haskell/closures.org)
-- [**Iterators**](Rust_like_haskell/iterators.org)
+- [**Closures**](11.Rust_like_haskell/closures.org)
+- [**Iterators**](11.Rust_like_haskell/iterators.org)
 
 ### 12. Lets make a CLI program :
 
