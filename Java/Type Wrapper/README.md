@@ -1,4 +1,4 @@
-![](/Assets/type%20wrapper.png)
+![](../Assets/type%20wrapper.png)
 ## Type Wrapper
 
 - Character<br>
