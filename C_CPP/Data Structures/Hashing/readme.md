@@ -1,1 +1,2 @@
 - [Linear Probing](./linear_probing.md)
+- [Hashing](./Hashing.md)

@@ -36,12 +36,33 @@
   - [Namespaces in C++](./Fundamentals/Namespaces%20in%20C++)
 
 - ### [Strings and their functions](./Strings%20and%20their%20functions/)
+  - [Strings](strings.md)
+  - [String and their functions in C](stringAndTheirFunctionsInC.md)
+  - [Member Functions of "string" Class](member-function-of-string-class.md)
+
 - ### [Pointer and its types](./Pointer%20and%20its%20types/)
+  - [Introduction to Pointers](Introduction%20to%20Pointers)
+  - [Pointers & 1D Array](Pointers%20%26%201D%20Array)
+  - [Pointers & 2D Array](Pointers%20%26%202D%20Array)
+  - [Pointers & Functions](Pointers%20and%20Functions)
+  - [Types of Pointers](Types%20of%20Pointers)
+  - [Pointer vs References](pointervsreference.md)
+
 - ### [Procedural Structures](./Procedural%20Structures/)
 
 - ### [Dynamic Memory allocation](./Dynamic%20Memory%20allocation/)
+  - [malloc,calloc,realloc](malloc,calloc,realloc.md)
+  - [Audio for Dynamic memory allocation](Audio_Dynamic_memory_allocation.md) 
+  - [New and Delete keywords](new,delete.md)
+  - [Dynamic Memory Deallocation](dynamic-memory-deallocation.md)
+  - [Why is Deallocation Necessary?](why-is-deallocation-necessary.md)
 
 - ### [Structure padding, Union, Enum, & typedef](./Structure%20padding%2C%20Union%2C%20Enum%2C%20%26%20typedef/)
+  - [Enumerated Data Type](./Enum.md)
+  - [typedef](./typedef.md)
+  - [Union](./Union.md)
+  - [Structure Padding](Structure_Padding.md)
+  - [Audio for Introduction to structure in C](Audio_Introduction_to_structure.md)
 
 - ### [File Management / Handling](./File%20Management%20or%20Handling/)
 
@@ -62,10 +83,36 @@
 - ### [Templates & Libraries](./Templates%20%26%20Libraries/)
 
 - ### [Exception Handling](./Exception%20Handling/)
+  - [NaN Exception](./NaN.md)
+  - [Introduction to Exception Handling](Exception_Handling_C-Cpp.md)
+  - [Throwing Exception from Funcitons](throwing-exceptions-from-functions.md)
+  - [Rethrowing an Exception](rethrowing-an-exception.md)
+  - [Exception handling Involving Classes and Objects](exception-handling-with-classes-and-objects.md)
+  - [Exception Handling in C language](Exception_Handling_in_C.md)
+  - [Video of Exception Handling in C++](./VIDEO_Exception%20Handling%20in%20C++/Video_Exception_handling_in_C++.md)
 
 - ### [File Handling & IO Management](./File%20Handling%20%26%20IO%20Management/)
+  - [Stream Class Model in C++](stream-class-model.md)
+  - [Text Files and Binary Files](textfiles-and-binaryfiles.md)
+  - [Pre-Defined Manipulator](pre-defined-manipulators.md)
+  - [Input and Output Operations in Files](input-and-output-operations.md)
+  - [Stream Errors in C++](Stream-Errors.md)
+  - [Error Handling in Files](error-handling-in-files.md)
+  - [File Handling](file_haandling.md)
+  - [File Pointer Manipulation Functions](file-pointer-manipulation-functions.md)
+  - [Reasons for Multifile Programs](Reasons-for-Multifile-Programs.md)
+  - [Creating a Multifile Program](Creating-a-Multifile-Program.md)
+  - [Modes To Open Binary File](Modes_to_open_binary_file.md)
+
 
 - ### [Number System](./Number%20System/)
+  - [Types of Number System](./num_sys.md)
+  - [Goldbach Conjecture](./Goldbach%20Conjecture.md)
+  - [Conversion Programs](./Conversion-Programs)  
+    - [Decimal to other base conversion](./Conversion-Programs/Decimal-to-other-base-conversion.md)
+    - [Other base to decimal conversion](./Conversion-Programs/Other-base-to-Decimal-Conversion.md)
+    - [Roman to Integer](./Conversion-Programs/roman_to_integer.md)
+    - [Integer to Roman](./Conversion-Programs/integer_to_roman.md)
 
 - ### [Data Structures](Data%20Structures/)
 
@@ -118,16 +165,33 @@
   - [NP Complete Algorithm](./Algorithmic%20Approaches/NP%20Completeness)
 
 - ### [Projects in C/C++](./Projects%20in%20C_C++)
+  - [Calendar In C](Calendar_In_C.md)
+  - [School Management System](School_Management_System.md)
+  - [Simple ATM Bank In C](Simple_ATM_Bank_in_C.md)
+  - [Railway Reservation System](Railway_Reservation_System.md)
+  - [Tollbooth in c++](tollbooth.md)
 
 - ### [OpenGL using C++ (3D,2D graphics using C++)](<OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)/>)
 
 - ### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
+  -[Introduction to Unreal Engine](./Unreal%20Engine.md)
 
 - ### [Juice Framework with C++](Juice%20Framework%20with%20C%2B%2B/)
 
 - ### [Game Development](./Game%20Development/)
+  - [SuperBall Game In C](SuperBall_Game_In_C.md)
+  - [Snake Game 🐍](snake_game.md)
+  - [Sudoku Solver](SudokuSolver.md)
+  - [Tic Tac Toe](TIC%20TAC%20TOE.md)
+  - [Tower of Hanoi](tower_of_hanoi.md)
+
 
 - ### [C++ 14](C%2B%2B%2014/)
+  - [Data Types in Cpp](/Datatypes-cpp.md)
+  - [Assignment Operators in Cpp](/Assignment_Operators.md)
+  - [Comments in C++](Comments-in-Cpp.md)
+  - [Jump Statements in Cpp](Jump-Statements.md)
+
 
 - ### [C++ 17](C%2B%2B%2017/)
   
