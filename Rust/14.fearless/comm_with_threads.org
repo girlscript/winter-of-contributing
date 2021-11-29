@@ -1,0 +1,120 @@
+#+TITLE: Communicating between Threads
+
+** Using Message Passing to Transfer Data Between Threads
++ One increasingly popular approach to ensuring safe concurrency is message passing, where threads or actors communicate by sending each other messages containing data.
++ One major tool Rust has for accomplishing message-sending concurrency is the *channel*, a programming concept that Rust’s standard library provides an implementation of.
++ A channel in programming has two halves: a transmitter and a receiver. The transmitter half is the upstream location where you put rubber ducks into the river, and the receiver half is where the rubber duck ends up downstream.
+ #+begin_src rust
+use std::sync::mpsc;
+
+fn main() {
+    let (tx, rx) = mpsc::channel(); //multiple producer single consumer
+}
+ #+end_src
+
++ The =mpsc::channel= function returns a tuple, the first element of which is the sending end and the second element is the receiving end.
+
++ The abbreviations =tx= and =rx= are traditionally used in many fields for transmitter and receiver respectively, so we name our variables as such to indicate each end.
+
++ For example :Putting a rubber duck in the river upstream or sending a chat message from one thread to another.
+#+begin_src rust
+use std::sync::mpsc;
+use std::thread;
+
+fn main() {
+    let (tx, rx) = mpsc::channel();
+
+    thread::spawn(move || {
+        let val = String::from("hi");
+        tx.send(val).unwrap();
+    });
+}
+#+end_src
+
+** Sending Multiple Values and Seeing the Receiver Waiting
++ The spawned thread will now send multiple messages and pause for a second between each message.
+  #+begin_src rust
+use std::sync::mpsc;
+use std::thread;
+use std::time::Duration;
+
+fn main() {
+    let (tx, rx) = mpsc::channel();
+
+    thread::spawn(move || {
+        let vals = vec![
+            String::from("hi"),
+            String::from("from"),
+            String::from("the"),
+            String::from("thread"),
+        ];
+
+        for val in vals {
+            tx.send(val).unwrap();
+            thread::sleep(Duration::from_secs(1));
+        }
+    });
+
+    for received in rx {
+        println!("Got: {}", received);
+    }
+}
+  #+end_src
+
++ This time, the spawned thread has a vector of strings that we want to send to the main thread. We iterate over them, sending each individually, and pause between each by calling the =thread::sleep= function with a =Duration= value of 1 second.
+
++ In the main thread, we are not calling the =recv= function explicitly anymore: instead, we’re treating =rx= as an iterator.
+
+** Creating Multiple Producers by Cloning the Transmitter
++ Earlier we mentioned that /mpsc was an acronym for multiple producer, single consumer/.
+ #+begin_src rust
+ // --snip--
+
+    let (tx, rx) = mpsc::channel();
+
+    let tx1 = tx.clone();
+    thread::spawn(move || {
+        let vals = vec![
+            String::from("hi"),
+            String::from("from"),
+            String::from("the"),
+            String::from("thread"),
+        ];
+
+        for val in vals {
+            tx1.send(val).unwrap();
+            thread::sleep(Duration::from_secs(1));
+        }
+    });
+
+    thread::spawn(move || {
+        let vals = vec![
+            String::from("more"),
+            String::from("messages"),
+            String::from("for"),
+            String::from("you"),
+        ];
+
+        for val in vals {
+            tx.send(val).unwrap();
+            thread::sleep(Duration::from_secs(1));
+        }
+    });
+
+    for received in rx {
+        println!("Got: {}", received);
+    }
+
+    // --snip--
+
+ #+end_src
+
++ This time, before we create the first spawned thread, we call =clone= on the sending end of the channel.
+
++ This will give us a new sending handle we can pass to the first spawned thread. We pass the original sending end of the channel to a second spawned thread.
+
++ This gives us two threads, each sending different messages to the receiving end of the channel.
+
++ You might see the values in another order; it depends on your system. This is what makes concurrency interesting as well as difficult.
+
++ If you experiment with =thread::sleep= , giving it various values in the different threads, each run will be more nondeterministic and create different output each time.
