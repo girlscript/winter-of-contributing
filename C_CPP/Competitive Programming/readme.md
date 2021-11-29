@@ -17,3 +17,4 @@
 - [Pigeonhole_Principle](Pigeonhole_Principle.md)
 - [Reversing Every word in a String C++](Reversing_every_word_in_string.md)
 - [Line_Splicing_in_C_or_C++](Line_Splicing_in_C_or_C++.md)
+- [Find_Day_of_a_given_Date](Find_Day_of_a_given_Date.md)

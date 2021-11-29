@@ -5,55 +5,56 @@
 
 ## Roadmap
 
-1. **Learn Version Control System** - Git, GitHub, Why, What, How
+1. **Learn Version Control System** 
+    - [x] Git, GitHub, Why, What, How
 
 2. **Learn Kotlin**  
-    - [ ]  Datatypes
-    - [ ]  Collection 
+    - [x]  Datatypes
+    - [x]  Collection 
     - [ ]  Control Flow 
-    - [ ]  OOPS concept
-    - [ ]  Functions
-    - [ ]  Coroutines
-3. **Install Android Studio** – process explained
-
+    - [x]  OOPS concept
+    - [x]  Functions
+    - [x]  Coroutines
+3. **Install Android Studio**  
+    - [x]  process explained
 4. **Android Studio IDE Overview**
-    - [ ]  Project Structure – Kotlin, XML, .Gradle files
+    - [x]  Project Structure – Kotlin, XML, .Gradle files
 
 5. **Android Component** - 
-    - [ ]  Activity - Activity Lifecycle 
+    - [x]  Activity - Activity Lifecycle 
     - [ ]  Tasks & Back Stack Service 
     - [ ]  Broadcast Receiver 
-    - [ ]  Content Provider
+    - [x]  Content Provider
 
 6. **Views** 
-    - [ ]  Buttons
+    - [x]  Buttons
     - [ ]  ImageView 
     - [ ]  TextView 
     - [ ]  EditText
 
 7. **View Groups**
-    - [ ]  LinearLayout
-    - [ ]  Relative Layout 
-    - [ ]  Frame Layout 
-    - [ ]  Constraint Layout
+    - [x]  LinearLayout
+    - [x]  Relative Layout 
+    - [x]  Frame Layout 
+    - [x]  Constraint Layout
 
 8. **Intents**
-    - [ ]  Types
+    - [x]  Types
     - [ ]  Intent Filter
 
 9. **Dynamic User Interface**
-    - [ ]  Recycler View
-    - [ ]  ViewPager
-    - [ ]  Spinner
+    - [x]  Recycler View
+    - [x]  ViewPager
+    - [x]  Spinner
     - [ ]  WebView
-    - [ ]  ScrollView
-    - [ ]  NestedScrollView
+    - [x]  ScrollView
+    - [x]  NestedScrollView
     - [ ]  Drawer Layout
-    - [ ]  Navigation Drawer
-    - [ ]  Bottom Navigation Drawer
-    - [ ]  Tab Layout
-    - [ ]  Bottom Sheet
-    - [ ]  Card View
+    - [x]  Navigation Drawer
+    - [x]  Bottom Navigation Drawer
+    - [x]  Tab Layout
+    - [x]  Bottom Sheet
+    - [x]  Card View
 
 10. **Custom Views**
     - [ ]  Canvas
@@ -62,7 +63,7 @@
 
 11. **UI Resources**
     - [ ]  Drawable
-    - [ ]  String
+    - [x]  String
     - [ ]  Styles
 
 12. **Fragments**
@@ -71,9 +72,9 @@
     - [ ]  Navigation Lifecycle Component
 
 13. **Support User Interface**
-    - [ ]  Progress Bar
+    - [x]  Progress Bar
     - [ ]  Dialogs
-    - [ ]  Toast & Snackbar
+    - [x]  Toast & Snackbar
 
 14. **Storage**
     - [ ]  Shared Preference
