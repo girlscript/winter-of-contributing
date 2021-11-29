@@ -24,19 +24,22 @@ Algorithm to build a social distancing detector is -
 * Apply object detection to detect all people (and only people) in a video stream
 * Compute the pairwise distances between all detected people
 * Based on these distances, check to see if any two people are less than N pixels apart
+* Write the bounding box and the No. of people close together in the output
 
 Flowchart for the above algorithm is - 
 <p align="center"><img src ="https://user-images.githubusercontent.com/69648635/143787202-3170fabd-ed43-49dd-9c50-fb8e1c2ea5e5.png"></p>
 
-## Results
-Clone this repository in your system and open terminal in the folder cloned.
-Enter the following code to run the detector - 
-```
-python social_distance_detector.py --input pedestrians.mp4 --output output.avi
-```
-NOTE - You must have all the dependencies like cv2, scipy, numpy installed
+## Steps
+* Clone this repository in your system
+* Make sure you have all the libraries mentioned in requirements.txt installed
+* Install weights of YOLO V4 from this link - [YoloV4 Weights]( https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights) and put it inside the ```yolo-coco``` folder
+* Run Social Distancing Detector.ipynb
+* For custom input video, in **config** cell, change the path of ```input``` to any other video of your choice
+* Wait for the model to parse the video and generate the output.avi video.
 
-The following results was obtained:
+
+## Results and Output
+The following output was obtained for the pedestrians.mp4 video input:
 
 <p align="center"><img src ="https://user-images.githubusercontent.com/69648635/143787647-391889f5-6ad1-40ee-b901-a88279a03309.gif"></p>
 
