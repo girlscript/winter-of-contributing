@@ -1,0 +1,21 @@
+What are the different data types?
+The classification or categorising of knowledge things is known as data types. It offers a helpful type that indicates which operations are frequently done on given data. Data types are classes, and variables are instances (objects) of those classes, because everything in Python programming is an object.
+Within the Python programming language, data types are a crucial notion. In the Python programming language, each value has its own data type. Data Types refers to the classification of knowledge pieces or the assignment of information value to a certain data category. Knowing what silent procedures are frequently conducted on a worth is beneficial.
+
+
+
+Data Types in Python are divided into six categories: - 
+Numeric 
+String 
+List 
+Tuple 
+Set 
+Dictionary
+
+
+Numeric Data Type: A number data type in Python represents data with a numeric value. An integer, a floating number, or even a complex number might be used as the numeric value. In Python, these values are represented by the int, float, and complex classes.
+String Data type: A series of Unicode characters makes up the string. A string is a grouping of one or more characters enclosed in a quotation mark, double-quote, or triple-quote. An str class can be used to represent it.
+list data type: All of the items (elements) in a list are enclosed in square brackets [] and separated by commas. It can include any number of elements, which may or may not be of various sorts (integer, float, string, etc.). A list is malleable, implying that we will change it.
+tuple data type: An ordered collection of Python objects is referred to as a tuple. The sole difference between a tuple and a list is that tuples are immutable, which means they can't be changed once they've been generated. The tuple class is used to represent it. Parentheses can be used to express tuples ( ).
+set data type: A set is a group of elements that are not in any particular sequence. Each set element must be unique (no duplicates) and immutable (cannot be changed).
+dictionary data type: In Python, a Dictionary is an unordered collection of data values that is used to store data values like a map. Unlike other Data Types that carry only a single value as an element, a Dictionary is made up of key-value pairs. To make the dictionary more optimised, key-value pairs are supplied. Each key-value pair is separated by a colon in the representation of a dictionary data type, whereas each key is separated by a 'comma'.
