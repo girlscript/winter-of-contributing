@@ -1,0 +1,29 @@
+WHY PYTHON?
+Python is one of the top ten most popular programming languages in 2017, according to the TIOBE Programming Community Index. Python is a high-level, general-purpose programming language. Python is a programming language that may be used to create desktop GUI apps, websites, and online applications. Python, as a high-level programming language, also allows you to concentrate on the application's essential functionality while it handles routine programming duties. The programming language's minimal syntax constraints make it much easier to keep the code base understandable and the application manageable. There are a number of other reasons to choose Python over other programming languages.
+
+Reasons Why Python Is the Best Language for Software Development 
+
+1) Readable and Maintainable Code
+To make maintenance and upgrades easier, you should focus on the quality of the source code while creating a software programme. Python's syntax rules allow you to express ideas without having to write any additional code. Simultaneously, Python, unlike other programming languages, places a premium on code readability and allows you to utilise English terms rather than punctuation. As a result, you may utilise Python to create bespoke apps without having to write any more code. The understandable and clean code base will save you time and effort in maintaining and updating the product.
+
+2) Various Programming Methodologies
+Python, like other current programming languages, allows a variety of programming paradigms. It completely supports both structured and object-oriented programming. Its language features also support a variety of functional and aspect-oriented programming techniques. Python also has a dynamic type system and memory management that works automatically. Python's programming paradigms and language characteristics make it easy to create huge, complicated software applications.
+
+3) Compatible with the most popular platforms and operating systems
+Python now supports a wide range of operating systems. Python interpreters can even be used to run the code on certain platforms and tools. Python is also an interpretive programming language. It enables you to run the same code across many platforms without having to recompile it. As a result, you do not need to recompile the code after making any changes. You may quickly test the impact of changes made to the code by running the updated application code without recompiling it. The functionality allows you to make code changes more quickly without increasing development time.
+
+4) A well-balanced standard library
+Python outperforms other programming languages due to its vast and strong standard library. You can select from a broad choice of modules in the standard library to meet your specific requirements. Each module also allows you to extend the Python application's capabilities without having to write any new code. For example, you may utilise particular modules to construct web services, conduct string operations, handle operating system interfaces, and interact with internet protocols while creating a web application in Python. You may also learn about other modules by looking at the documentation for the Python Standard Library.
+
+5) There are a lot of open source frameworks and tools.
+Python, being an open source programming language, may dramatically reduce the cost of software development. You may also employ a variety of free source Python frameworks, libraries, and development tools to save development time without raising costs. You may even select from a variety of open source Python frameworks and development tools to meet your specific requirements. Use strong Python web frameworks like Django, Flask, Pyramid, Bottle, and Cherrypy to simplify and speed up online application development. Similarly, Python GUI frameworks and toolkits such as PyQT, PyJs, PyGUI, Kivy, PyGTK, and WxPython can help you construct desktop GUI applications faster.
+
+6) Make Complex Software Development Easier
+Python is a computer language that may be used for a variety of purposes. As a result, the programming language may be used to create both desktop and online applications. Python may also be used to create complicated scientific and numerical applications. Python has capabilities that make data analysis and visualisation easier. Python's data analysis tools may be used to construct unique big data solutions without requiring additional time and effort. Simultaneously, Python's data visualisation packages and APIs assist you in visualising and presenting data in a more appealing and effective manner. Python is also used by many Python programmers to do artificial intelligence (AI) and natural language processing tasks.
+
+7) Use Test-Driven Development (TDD).
+Python may be used to quickly construct a software application prototype. Additionally, by reworking the Python code, you may construct the software application directly from the prototype. By using a test-driven development (TDD) technique, Python makes it even easier to code and test at the same time. You can quickly write the necessary tests before developing code, and you can utilise the tests to regularly analyse the application code. The tests may also be used to see if the application's source code matches predetermined requirements.
+
+
+Python, like other programming languages, does, however, have flaws. Some of the built-in features of other current programming languages are missing. To speed up bespoke software development, you'll need to leverage Python libraries, modules, and frameworks. Python is also slower than some popular programming languages, including Java and C++, according to various studies.
+You must either make changes to the Python application code or use a custom runtime to speed up the Python programme. However, Python may be used to speed up programme development and make software maintenance easier.
