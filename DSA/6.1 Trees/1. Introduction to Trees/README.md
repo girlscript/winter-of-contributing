@@ -1,4 +1,4 @@
-# Introduction to Tree
+# Introduction to Trees
 
 * A tree is a non-linear data structure which is used to represent hierarchical data.
 
