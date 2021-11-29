@@ -16,13 +16,13 @@
 
 ### 2. Setting up Rustup :
 
-- [Installation]()
+- [Installation](2.setting_up/introduction.org)
   
-  - [Linux and macOS]()
+  - [Linux and macOS](2.setting_up/linux_macos.org)
   
-  - [Windows]()
+  - [Windows](2.setting_up/windows.org)
 
-- [Say hello to **Cargo**]() 
+- [Say hello to **Cargo**](2.setting_up/cargo.org) 
 
 ### 3. Quintessential Guessing game in Rust :
 
