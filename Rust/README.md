@@ -118,6 +118,6 @@
 
 ### 16. Patterns and Matching :
 
-- [Where Can Patterns be Used]()
-- [Pattern Syntax]()
+- [Where Can Patterns be Used](16.pattern/pattern1.org)
+- [Pattern Syntax](16.pattern/pattern2.org)
 
