@@ -1,4 +1,4 @@
-![](/Assets/packages.png)
+![](../Assets/packages.png)
 ## Packages
 
 - Defining Packages<br>
