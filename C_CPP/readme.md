@@ -117,6 +117,8 @@
   - [Branch & Bound Algorithm](./Algorithmic%20Approaches/Branch%20%26%20Bound)
   - [NP Complete Algorithm](./Algorithmic%20Approaches/NP%20Completeness)
 
+- ### [Projects in C/C++](./Projects%20in%20C_C++)
+
 - ### [OpenGL using C++ (3D,2D graphics using C++)](<OpenGL%20using%20C%2B%2B%20(3D%2C2D%20graphics%20using%20C%2B%2B)/>)
 
 - ### [Unreal Engine with C++](Unreal%20Engine%20with%20C%2B%2B/)
@@ -128,3 +130,85 @@
 - ### [C++ 14](C%2B%2B%2014/)
 
 - ### [C++ 17](C%2B%2B%2017/)
+  
+  
+## Maintainers
+
+<!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/Suvraneel">
+            <sub><b> :fountain_pen: Supervisor</b></sub>
+            <br /> <br />
+            <img src="https://avatars.githubusercontent.com/u/63473496?v=4" width="100;" alt="Suvraneel"/>
+            <br />
+            <sub><b>Suvraneel Bhuin</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Saviour1001">
+            <sub><b> :fountain_pen: Supervisor</b></sub>
+            <br /> <br />
+            <img src="https://avatars.githubusercontent.com/u/71517788?v=4" width="100;" alt="Saviour1001"/>
+            <br />
+            <sub><b>Harsh Ghodkar</b></sub>
+        </a>
+    </td>
+        <td align="center">
+        <a href="https://github.com/vasu-1">
+            <sub><b> :pen: Mentor</b></sub>
+            <br /> <br />
+            <img src="https://avatars.githubusercontent.com/u/76911582?v=4" width="100;" alt="vasu-1"/>
+            <br />
+            <sub><b>Vashishth Patel</b></sub>
+        </a>
+    </td>
+        <td align="center">
+        <a href="https://github.com/apeksha235">
+            <sub><b> :pen: Mentor</b></sub>
+            <br /> <br />
+            <img src="https://avatars.githubusercontent.com/u/84583787?v=4" width="100;" alt="apeksha235"/>
+            <br />
+            <sub><b>Apeksha Hegde</b></sub>
+        </a>
+    </td>
+      <td align="center">
+        <a href="https://github.com/ChetasShree">
+            <sub><b> :pen: Mentor</b></sub>
+            <br /> <br />
+            <img src="https://avatars.githubusercontent.com/u/75165587?v=4" width="100;" alt="ChetasShree"/>
+            <br />
+            <sub><b>Chetas Shree</b></sub>
+        </a>
+    </td>
+  <td align="center">
+        <a href="https://github.com/gunjan-g">
+            <sub><b> :pen: Mentor</b></sub>
+            <br /> <br />
+            <img src="https://avatars.githubusercontent.com/u/81305824?v=4" width="100;" alt="gunjan-g"/>
+            <br />
+            <sub><b>GUNJAN GUPTA</b></sub>
+        </a>
+    </td>
+      <td align="center">
+        <a href="https://github.com/kashishahuja2002">
+            <sub><b> :pen: Mentor</b></sub>
+            <br /> <br />
+            <img src="https://avatars.githubusercontent.com/u/55057608?v=4" width="100;" alt="kashishahuja2002"/>
+            <br />
+            <sub><b>Kashish Ahuja</b></sub>
+        </a>
+    </td>
+      <td align="center">
+        <a href="https://github.com/deeqakkk">
+            <sub><b> :pen: Mentor</b></sub>
+            <br /> <br />
+            <img src="https://avatars.githubusercontent.com/u/78724676?v=4" width="100;" alt="Deepak Verma"/>
+            <br />
+            <sub><b>Deepak Verma</b></sub>
+        </a>
+    </td>
+  </tr>
+  </table>
+  
