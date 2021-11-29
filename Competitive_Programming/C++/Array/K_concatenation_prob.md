@@ -125,7 +125,7 @@ Example case 1: B = {1, 2, 1, 2, 1, 2} and the subarray with maximum sum is the 
 6
 
 
-**Complexities**
+## Complexity
 
 Time complexity - O(n)
 
