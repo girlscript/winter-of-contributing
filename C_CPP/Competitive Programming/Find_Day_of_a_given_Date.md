@@ -33,9 +33,9 @@ using namespace std;
 class Day
 {
       public:
-             int k,m,D,C,F,R;
+             int k,m,D,C,F,R;                                              //Declaring variables 
              
-                void input_elements()
+                void input_elements()                                      //Taking variables' input from user.
                 {
                     cout<<"enter the date number"<<endl;
                     cin>>k;
@@ -46,16 +46,16 @@ class Day
                     cout<<"enter the last two digits of the year"<<endl;
                     cin>>D;
                 }
-             void Cal()
+             void Cal()                                                         
              {
-                m=m-2;
+                m=m-2;                                                     //m counts from March and ends on February.
                 if(m <=0)
                 {
                     m=m+12;
                     D=D-1;
                 }
                      
-                F= k+ (int)13*m-1/12+D + (int)D/4 + (int)C/4-2*C;
+                F= k+ (int)13*m-1/12+D + (int)D/4 + (int)C/4-2*C;          //Calculating value of F
                 if(F >= 0)
                 {
                     R=F%7;
@@ -66,7 +66,7 @@ class Day
                 }
                     
                           
-                switch(R)
+                switch(R)                                                  //Defining Days as per respective values of R.
                 {
                     case 0:
                         cout<<"Sunday"<<endl;
@@ -99,8 +99,8 @@ class Day
       
 int main()
 {
-    Day t;
-    t.input_elements();
+    Day t;                                                            // Defining object t for class Day.
+    t.input_elements();                                               // Function calling via object.
     t.Cal();
 }
  ```  
