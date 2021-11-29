@@ -104,10 +104,10 @@
 
 ### 14. Fearless Concurrency : 
 
-- [**Multithreading**]()
-- [**Communicating** Between **Threads**]()
-- [**Shared Concurrency**]()
-- [**Sync and Send Traits**]()
+- [**Multithreading**](14.fearless/multithreading.org)
+- [**Communicating** Between **Threads**](14.fearless/comm_with_threads.org)
+- [**Shared Concurrency**](14.fearless/shared.org)
+- [**Sync and Send Traits**](14.fearless/sync_send.org)
 
 
 ### 15. OOPS in RUST :
