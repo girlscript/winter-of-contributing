@@ -58,6 +58,21 @@ To find the point of intersection, Hough transform uses a voting method. In this
 >* The Standard Hough Line Transform - In OpenCV it is implemented with the function HoughLines()
 >* The Probabilistic Hough Line Transform - In OpenCV it is implemented with the function HoughLinesP() 
 
+### **WORKFLOW:**
+
+The workflow is same for both the types:
+* Input the image.
+* Find the edges in the image using canny detector.
+* Apply the function HoughLines() or HoughLinesP() for detecting points.
+* Draw lines through the detected points.
+
+### **OUTPUT IMAGE:**
+
+![image](https://user-images.githubusercontent.com/66793093/143815555-e7d11f7c-2b06-4941-83ed-449e9b72027c.png)<img/>
+
+![image](https://user-images.githubusercontent.com/66793093/143816078-6ce730b6-59f3-45a2-ba4d-b3bc94cd8a88.png)<img/>
+
+
 # **BASIC IDEA BEHIND HOUGH CIRCLE TRANSFORM:**
 
 In parametric form Circle can be expressed as:
@@ -77,6 +92,18 @@ A sparsity problem would occur because only a few accumulator cells would be fil
 
 ## **OpenCV:**
 >In OpenCV it is implemented with the function HoughCircles().
+
+### **WORKFLOW:**
+
+* Input the image.
+* Convert it to grayscale
+* Smoothen the image by blurring (median blur/ Gaussian blur)
+* Apply the function HoughCircles for detecting circles.
+* Draw a outer circle on the detected circles.
+
+### **OUTPUT IMAGE:**
+
+![image](https://user-images.githubusercontent.com/66793093/143821205-509178ae-1662-46e3-a6ef-650adaeb3f78.png)
 
 # **ADVANTAGES:**
 
