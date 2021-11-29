@@ -75,11 +75,83 @@ In traditional machine learning, models are developed by hand, and each step in 
 
 ---
 
+# AutoML Tutorial using Auto-sklearn
+
+<p>Auto-Sklearn is an open-source Python library for AutoML using machine learning models from the scikit-learn machine learning library.</p>
+
+<p>The first step is to install the Auto-Sklearn library, which can be achieved using pip, as follows:</p>
+
+```
+sudo pip install autosklearn
+```
+
+<p>Once installed, we can import the library and print the version number to confirm it was installed successfully:</p>
+
+```
+# print autosklearn version
+import autosklearn
+print('autosklearn: %s' % autosklearn.__version__)
+```
+
+<p>Running the example prints the version number. Your version number should be the same or higher.</p>
+
+```
+autosklearn: 0.6.0
+```
+
+<p>Next, we can demonstrate using Auto-Sklearn on a synthetic classification task.</p>
+<p>We can define an AutoSklearnClassifier class that controls the search and configure it to run for two minutes (120 seconds) and kill any single model that takes more than 30 seconds to evaluate. At the end of the run, we can report the statistics of the search and evaluate the best performing model on a holdout dataset.</p>
+<p>The complete example is listed below.</p>
+
+```
+# example of auto-sklearn for a classification dataset
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from autosklearn.classification import AutoSklearnClassifier
+# define dataset
+X, y = make_classification(n_samples=100, n_features=10, n_informative=5, n_redundant=5, random_state=1)
+# split into train and test sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.33, random_state=1)
+# define search
+model = AutoSklearnClassifier(time_left_for_this_task=2*60, per_run_time_limit=30, n_jobs=8)
+# perform the search
+model.fit(X_train, y_train)
+# summarize
+print(model.sprint_statistics())
+# evaluate best model
+y_hat = model.predict(X_test)
+acc = accuracy_score(y_test, y_hat)
+print("Accuracy: %.3f" % acc)
+```
+
+<p>Running the example will take about two minutes, given the hard limit we imposed on the run.</p>
+<p>At the end of the run, a summary is printed showing that 599 models were evaluated and the estimated performance of the final model was 95.6 percent.</p>
+
+```
+auto-sklearn results:
+Dataset name: 771625f7c0142be6ac52bcd108459927
+Metric: accuracy
+Best validation score: 0.956522
+Number of target algorithm runs: 653
+Number of successful target algorithm runs: 599
+Number of crashed target algorithm runs: 54
+Number of target algorithms that exceeded the time limit: 0
+Number of target algorithms that exceeded the memory limit: 0
+```
+
+<p>We then evaluate the model on the holdout dataset and see that a classification accuracy of 97 percent was achieved, which is reasonably skillful.</p>
+
+```
+Accuracy: 0.970
+```
+
 # Resources
 
 - https://www.automl.org/automl/
 - https://searchenterpriseai.techtarget.com/definition/automated-machine-learning-AutoML
 - https://en.wikipedia.org/wiki/Automated_machine_learning
+- https://machinelearningmastery.com/automl-libraries-for-python/
 
 ---
 
