@@ -62,9 +62,6 @@ Now let’s take the same graph but the order in which we will add flow will be 
 
 ![path2-3](https://user-images.githubusercontent.com/70436834/143924014-06011b3a-db86-42ba-8009-48ff8fabc310.png)
 
-<div align="center">
-<img src="images\path2-4.png">
-</div>
 ![path2-4](https://user-images.githubusercontent.com/70436834/143924053-d9ed2f98-7fc0-46a8-9d5f-b181dcb49d7c.png)
 
 ![path2-5](https://user-images.githubusercontent.com/70436834/143924065-1d917201-120b-440c-aac0-87a554f29e4b.png)
