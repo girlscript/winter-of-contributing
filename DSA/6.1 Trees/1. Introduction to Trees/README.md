@@ -1,4 +1,3 @@
-
 # Introduction to Tree
 
 * A tree is a non-linear data structure which is used to represent hierarchical data.
@@ -13,17 +12,17 @@
 
 Some important terms used in trees are:
 
-**Root Node:** The topmost node in the tree is called root of the tree. i.e, Node P.
+**Root Node:** The topmost node in the tree is called root of the tree. i.e, Node A.
 
 **Child Node:** All immediate successors of a node are called its children.
 
 **Parent Node:** Immediate predecessor of a node is called its parent node.
 
-**Sibling:** Children of same parent are called siblings. i.e, Node A and B are siblings.
+**Sibling:** Children of same parent are called siblings. i.e, Node F and G are siblings.
 
-**Leaf Nodes:** Any node in the tree that does not have a child is called leaf nodes. i.e., Nodes H and I are leaf nodes.
+**Leaf Nodes:** Any node in the tree that does not have a child is called leaf nodes. i.e., Nodes F and G are leaf nodes.
 
-**Edge:** Edge is a connection between one node to another. i.e., Line between P and R is edge.
+**Edge:** Edge is a connection between one node to another. i.e., Line between A and C is edge.
 
 **Subtree:** Descendants of a node represent subtree.
 
@@ -42,7 +41,7 @@ Some important terms used in trees are:
 * Tree is a recursive data structure.
 * In a tree with n Nodes, there are exactly n-1 links or edges.
 * Height and Depth of a tree may or may not be same.
-* In tree we can only go in one direction. i.e, In above example, from Node P we can go to Node R, but from Node R we cannot go to Node P.
+* In tree we can only go in one direction. i.e, In above example, from Node A we can go to Node C, but from Node C we cannot go to Node A.
 
 ## Applications:
 
