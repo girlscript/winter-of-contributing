@@ -56,16 +56,16 @@
 
 ### 8. Generic Types , Traits & Lifetimes :
 
-- [**Generic Data Types**]()
-- [**Traits**]()
-- [Refrence Validation With **Lifetimes**]()
+- [**Generic Data Types**](8.Generic_traits_and_lifetimes/generic.org)
+- [**Traits**](8.Generic_traits_and_lifetimes/lifetimes.org)
+- [Refrence Validation With **Lifetimes**](8.Generic_traits_and_lifetimes/traits.org)
 
 ### 9. Writing **Tests** &  **Error Handling** :
 
-- [Unrecoverable and Recoverable Errors]()
-- [To panic! or Not to panic!]()
-- [How to write and Organize Tests]()
-- [How to run Tests]()
+- [Unrecoverable and Recoverable Errors](9.Writing_tests_and_error_handling/error_types.md)
+- [To panic! or Not to panic!](9.Writing_tests_and_error_handling/error_types.md)
+- [How to write and Organize Tests](9.Writing_tests_and_error_handling/panic!_or_Not_panic!.md)
+- [How to run Tests](9.Writing_tests_and_error_handling/panic!_or_Not_panic!.md)
 
 ### 10. Managing Projects & Goodness of Crates and Crates.io :
 
