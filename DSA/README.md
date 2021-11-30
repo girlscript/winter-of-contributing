@@ -29,7 +29,7 @@ Data Structures are the main part of many computer science algorithms as they en
 4. [Arithmetic Operations Using Numbers as Strings](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings/4.%20Arithmetic%20Operations%20Using%20Numbers%20as%20Strings)
 5. [Types of Strings](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings/5.%20Types%20of%20Strings)
 6. [Pallindrome Problems](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings/6.%20Pallindrome%20Problems)
-7. [n-bit_Gray_Codes Problem]()
+7. [n-bit_Gray_Codes Problem](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings/7.%20n-bit_Gray_Codes%20Problem)
 8. [Longest Increasing, Decreasing Substring](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings/8.%20Longest%20Inc%2C%20Dec%20Substring)
 9. [Binary Patters And Lexicographic Patterns](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings/9.%20Binary%20Patters%20And%20Lexicographic%20Patterns)
 10. [Character Based Counting Problems](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.1%20Strings/10.%20Character%20based%20counting%20problems%20in%20strings)
