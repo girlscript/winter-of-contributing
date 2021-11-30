@@ -1,4 +1,5 @@
 # Algorithms
+- [Introduction To Algorithm](./Introduction_to_Algorithms)
 - [Searching Algorithm](./Searching)
 - [Sorting Algorithm](./Sorting)
 - [Brute Force Algorithm](./Brute%20Force)
