@@ -1,0 +1,7 @@
+numpy==1.21.0
+sklearn==0.24.2
+matplotlib==3.4.2
+tensorflow==2.6.0
+nltk==3.6.5
+pydot==1.4.2
+graphviz==0.19

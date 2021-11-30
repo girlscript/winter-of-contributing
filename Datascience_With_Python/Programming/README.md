@@ -1,7 +1,5 @@
 <h1 align="left">Programming 👨🏻‍💻</h1>
 
-# Programming
-
 ## Index
 
 - [Python](./Python)
@@ -10,6 +8,10 @@
 
 ## Learning path
 
-1. Python
-2. R
-3. SQL
+### Python
+
+- [Introduction to Scientific Python](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Programming/Python/Introduction%20to%20Scientific%20Python)
+
+### R
+ 
+### SQL
