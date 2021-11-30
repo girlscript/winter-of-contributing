@@ -45,9 +45,9 @@
 
 <h2 align="center"> 🧡 Supervisor 🧡 </h2>
 
-<table>
+<table align="center" style="margin: 0px auto;">
   <tr>
-<td align="center"><a href="https://github.com/syedareehaquasar"><img src="https://github.com/syedareehaquasar/Resume/blob/master/reeha%20profile.png?raw=true" width="80px;" alt=""/><br /><sub><b>Syeda Reeha Quasar</b></sub></a></td>        
+<td align="center"><a href="https://github.com/syedareehaquasar"><img src="https://media-exp1.licdn.com/dms/image/C4E03AQE0wsiyivvWIA/profile-displayphoto-shrink_400_400/0/1628809290603?e=1643846400&v=beta&t=YoQMIoBGVb-enhOvMA-RPi46WxhQmIm9ckRszazU6bE" width="120px;" alt=""/><br /><sub><b>Syeda Reeha Quasar</b></sub></a></td>        
 </tr>
    </table>
 
