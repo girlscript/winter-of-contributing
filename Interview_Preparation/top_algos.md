@@ -1,4 +1,4 @@
-# List of top 10 algorithms in Interview Questions
+# List of top 10 algorithms frequently asked in Interviews
 ## Topics :
 
 1. Graph
