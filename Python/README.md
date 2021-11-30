@@ -114,37 +114,83 @@
 ## Learning path
 
 1. Git & Github
-2. How To Install Python
-3. Installing development and debugging software for python
-4. Brief history of python
-5. What is a programming language?
-6. What are datatypes in Python?
-7. What is type conversion ?
-8. Use cases of Python
-9. Virtual Environment
-10. Operators
-11. List\_&_Matrix
-12. Objects in Python
-13. Stack and Queue
-14. Loop Break
-15. Decorators
-16. Functions
-17. What_is_Filter_in_python
-18. OOP-Class
-19. Generators
-20. Advanced function-reduce()
-21. Advanced Function - Zip
-22. List Comprehension
-23. Advanced function-map()
-24. What is Automation?
-25. Args and Kwargs
-26. Web_Scraping
-27. Python File I/O
-28. Python Strings
-29. Yield Keyword
-30. Dictionary Comprehension
-31. Django Framework
-32. Django Framework
-33. Regular expressions in Python
-34. Type Annotations in Python
+2. GitHub_Terminologies
+3. Number System
+4. What is a programming language?
+5. Why Python?
+6. Python_Scope
+7. Brief history of python.
+8. Beginners Notebook to Python
+9. How To Install Python?
+10. Installing development and debugging software for python
+11. What_Is_Interpreter?
+12. Operators
+13. What are datatypes in Python?
+14. Booleans in Python
+15. What is type conversion ?
+16. Python Strings
+17. Python format() method
+18. Python_Keywords
+19. Regular expressions in Python
+20. Conditional statements(if, if...elif...if, if...else )
+21. Python_SwitchCase
+22. Loops
+23. Break
+24. Continue
+25. Functions
+26. Return_in_Python
+27. Parameters_and_Arguments
+28. Recursion In Python
+29. Built-in_Data_Structures
+30. List\_&_Matrix
+31. List Comprehension
+32. List_Methods
+33. Tuples
+34. Dict_and_Set
+35. Dictionary Comprehension
+36. OOP-Class
+37. Objects in Python
+38. Reflection python
+39. Mutable and Immutable objects in Python
+40. Stack and Queue
+41. Common mistakes & errors in python programming
+42. Examples
+43. Python Threading
+44. Yield Keyword
+45. Args and Kwargs
+46. Itertools Module
+47. Python File I/O
+48. Python precision handling
+49. Python Errors and its Types
+50. Type Annotations in Python
+51. Libraries
+52. Python_Numpy
+53. Modules
+54. Python Plyer Module
+55. Itertools Module
+56. Python_Collections_Module
+57. Python_Math_Module
+58. Python Urllib Module
+59. Decorators
+60. Generators
+61. Ciphers
+62. Python_Regex
+63. Python Closure
+64. Python_Datetime
+65. Advanced_function_filter()
+66. Advanced_Function_Lambda
+67. Advanced function-reduce()
+68. Advanced function-map()
+69. Magic_Methods_In_Python
+70. Image_Processing
+71. Basic_of_Tkinter
+72. Virtual Environment
+73. Web_Scraping
+74. What is Automation?
+75. Django Framework
+76. Flask
+77. Django_VS_Flask
+78. JSON Python
+79. What is kivy & creating your first GUI APP?
+80. Python Online Resources.
 
