@@ -6,3 +6,4 @@
 - [Hamiltonian Path](./HamiltonianPath)
 - [Dijkstra's Algorithm](./Dijkstra's%20Algorithm)
 - [Snake and Ladder Problem](./Snake%20and%20Ladder%20Problem)
+- [Prim's Algorithm](./Prim's_Algorithm)
