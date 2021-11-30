@@ -62,25 +62,16 @@
 
 ### 9. Writing **Tests** &  **Error Handling** :
 
-- [Unrecoverable and Recoverable Errors]()
-- [To panic! or Not to panic!]()
-- [How to write and Organize Tests]()
-- [How to run Tests]()
+- [Unrecoverable and Recoverable Errors](9.Writing_tests_and_error_handling/error_types.md)
+- [To panic! or Not to panic!](9.Writing_tests_and_error_handling/error_types.md)
+- [How to write and Organize Tests](9.Writing_tests_and_error_handling/panic!_or_Not_panic!.md)
+- [How to run Tests](9.Writing_tests_and_error_handling/panic!_or_Not_panic!.md)
 
 ### 10. Managing Projects & Goodness of Crates and Crates.io :
 
-- [Paths for Referring an item in the module tree]()
-  
-  - [Exposing Paths with **pub** keyword]()
-  - [Starting Relative Paths with **super**]()
-  - [Making **Structs and Enums public**]()
+  - [Exposing Paths with **pub** keyword](10.crates/define_files.md)
+  - [Starting Relative Paths with **super**](10.crates/packages.md)
 
-- [Cargo Workspaces]()
-  
-  - [Installing Binaries from crates.io]()
-  - [Customizing builds with build profiles]()
-
-- [Publising your first crate to crates.io🦀]()
 
 ### 11. Rust gets Functional like Haskell :
 
@@ -89,17 +80,17 @@
 
 ### 12. Lets make a CLI program :
 
-- [Parsing Command Line Arguments]()
-- [Modularity Improvements and Error Hanling]()
-- [writing Error messages to **stderror instead of stdout**]()
+- [Parsing Command Line Arguments](Making_a_CLI_Program/accepting_args.md)
+- [Modularity Improvements and Error Hanling](Making_a_CLI_Program/read_arg.md)
+- [writing Error messages to **stderror instead of stdout**](Making_a_CLI_Program/saving_in_vars.md)
 
 ### 13. Smart Pointers :
 
-- [**Box** Smart Pointer]()
-- [**Deref** Trait]()
-- [**Drop** Trait]()
-- [**Rc** and **RefCell** Smart Pointer]()
-- [**Reference Cycle**]()
+- [**Box** Smart Pointer](13.Smart_Pointers/box<T>.md)
+- [**Deref** Trait](13.Smart_Pointers/deref_trait.md)
+- [**Drop** Trait](13.Smart_Pointers/drop_trait.md)
+- [**Rc** and **RefCell** Smart Pointer](13.Smart_Pointers/Rc<T>.md)
+- [**Reference Cycle**](13.Smart_Pointers/Introduction.md)
 
 
 ### 14. Fearless Concurrency : 
@@ -112,12 +103,13 @@
 
 ### 15. OOPS in RUST :
 
-- [Characteristics of Object Orietned Languages]()
-- [Trait Objects That Allow For Values of Different Types]()
-- [Implementing Object-Oriented Design Pattern]()
+- [Characteristics of Object Orietned Languages](15.OOPS/chars.md)
+- [Trait Objects That Allow For Values of Different Types](15.OOPS/hide_impl_details.md)
+- [Implementing Object-Oriented Design Pattern](15.OOPS/objects.md)
 
 ### 16. Patterns and Matching :
 
 - [Where Can Patterns be Used](16.pattern/pattern1.org)
 - [Pattern Syntax](16.pattern/pattern2.org)
+
 
