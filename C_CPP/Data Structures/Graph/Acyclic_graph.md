@@ -1,30 +1,4 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "name": "Acyclic graph.ipynb",
-      "provenance": [],
-      "collapsed_sections": []
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "DhBqiX_OLaXK"
-      },
-      "source": [
-        "#Acyclic graph\n",
-        "\n",
-        "In mathematics, especially graph theory, and computer science, a direct acyclic graph (DAG) is a target graph with no target cycles. That is, it consists of vertices and edges (also called arcs), with each edge directed from one vertex to another, so that following those directions will never form a closed loop. The target graph is DAG if and only if it can be sorted by weather, by arranging the vertices as a line sequence corresponding to all directions. DAGs have a wide range of scientific and mathematical applications, from biology (evolution, family medicine, epidemiology) to citation networks to arithmetic. The graph is made up of vertices and edges that connect pairs of vertices, where the vertices can be of any type of object connected by pairs with edges. In the case of a target graph, each edge has a shape, from one vertex to another vertex. The path to the target graph is the sequence of ends with a point where the last vertex of each edge in sequence corresponds to the first vertex of the next edge in sequence; the method forms a cycle when the first vertex of the first edge is equal to the last vertex of its last edge. Direct acyclic graph is a straightforward graph with no cycles.\n",
+"In mathematics, especially graph theory, and computer science, a direct acyclic graph (DAG) is a target graph with no target cycles. That is, it consists of vertices and edges (also called arcs), with each edge directed from one vertex to another, so that following those directions will never form a closed loop. The target graph is DAG if and only if it can be sorted by weather, by arranging the vertices as a line sequence corresponding to all directions. DAGs have a wide range of scientific and mathematical applications, from biology (evolution, family medicine, epidemiology) to citation networks to arithmetic. The graph is made up of vertices and edges that connect pairs of vertices, where the vertices can be of any type of object connected by pairs with edges. In the case of a target graph, each edge has a shape, from one vertex to another vertex. The path to the target graph is the sequence of ends with a point where the last vertex of each edge in sequence corresponds to the first vertex of the next edge in sequence; the method forms a cycle when the first vertex of the first edge is equal to the last vertex of its last edge. Direct acyclic graph is a straightforward graph with no cycles.\n",
         "\n",
         "```\n",
         "#include<iostream>\n",
