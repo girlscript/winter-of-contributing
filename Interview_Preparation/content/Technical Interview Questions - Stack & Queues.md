@@ -966,6 +966,12 @@ int main()
 }
 ```
 
+### **References**
+
+- https://www.geeksforgeeks.org/stack-data-structure/
+- https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/
+- https://www.geeksforgeeks.org/queue-data-structure/
+
 ## Author
 
 - [Tanushree](https://github.com/Tanushree-coder)
