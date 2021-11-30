@@ -13,10 +13,10 @@ Web servers communicate with database servers anytime they need to retrieve or s
 #### Example of SQL Injection
 Suppose we have an application based on student records. Any student can view only his or her own records by entering a unique and private student ID. Suppose we have a field like below:
 
-##### Student id:
+#### Student id:
 
 And the student enters the following in the input field:
-##### 12222345 or 1=1.
+#### 12222345 or 1=1.
 
 So this basically translates to :
     SELECT * from STUDENT where 
