@@ -113,3 +113,7 @@
 8. Find the smallest positive integer value that cannot be represented as sum of any subset of a given array
 9. Smallest subarray with sum greater than a given value
 10. Stock Buy Sell to Maximize Profit
+
+
+## References:
+- https://www.geeksforgeeks.org/
