@@ -114,7 +114,7 @@ Data Structures are the main part of many computer science algorithms as they en
   4. [NP- Complete Problem](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/4.%20NP-%20Complete%20Problem)
   5. [Approximation Algorithms](https://github.com/nimisha-yadav/winter-of-contributing/tree/DSA/DSA/1.2%20Analysis%20of%20Algorithms/5.%20Approximation%20Algorithms)
 ### 2.2 [Searching & Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms)
-Searching Algorithms:
+- Searching Algorithms:
 1. [Linear Search](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/2.2%20Linear%20Search%20and%20Binary%20Search.md#-linear-search-)
 2. [Binary Search](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/2.2%20Linear%20Search%20and%20Binary%20Search.md#binary-search-)
 3. [Ternary Search](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/2.2.2.1_Ternary_search.md)
@@ -122,7 +122,7 @@ Searching Algorithms:
 5. [Jump Search](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/Jump_Search.md)
 6. [Fibonacci Search](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/2.2.6.2%20fibonacci%20search.md)
 
-Sorting Algorithms:
+- Sorting Algorithms:
 1. [Pigeonhole Sort](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/2.2.5_Pigeonhole_Sort.md)
 2. [Insertion Sort](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/2.2.7_Insertion_Sort.md)
 3. [Bubble Sort](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/Bubble_Sort.md)
@@ -132,7 +132,7 @@ Sorting Algorithms:
 7. [Odd Even Sort](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/Odd_Even_Sort_Algorithm.md)
 8. [Pancake Sort Problem](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/Pancake_Sort.md)
 9. [DNF Sort Problem](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/DNF_Sort.md)
-More Details about Searching and Sorting:
+- More Details about Searching and Sorting:
 1. [When To Use which Sorting Algorithm](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/When%20to%20use%20which%20Sorting%20Algorithm.md)
 2. [Stability In Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/Stability_In_Sorting_Algorithms.md)
 3. [Difference Between Searching and Sorting Algorithms](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/2.2%20Searching%20%26%20Sorting%20Algorithms/2.2.1.2_Difference_Between_Searching_and_Sorting_Algorithm.md)
