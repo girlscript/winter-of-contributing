@@ -12,3 +12,5 @@
 - [Bucket Sort in C++](./BucketSort.md)
 - [Counting Sort in C++](./Counting_Sort.md)
 - [Radix Sort in C++](./Radix_Sort.md)
+- [Quick Sort in C++](./Quick_Sort.md)
+- [Shell Sort in C++](./ShellSort.md)
