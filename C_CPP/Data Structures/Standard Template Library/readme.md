@@ -12,10 +12,11 @@ In this project, we'll talk about Deque (Double Ended Queue), a topic under The 
 - [Array](Array)
 - [Vector](Vector)
 - [Stack](Stack)
-- Queue
+- [Queue](queue)
 - [Deque](Deque)
-- Set
+- [Pair](pair.md)
+- [Set](Set.md)
 - [Map](./Maps)
-- Multimap
+- [Multimap](#)
 - [Lists](STL-LISTS.md)
 - [Forward List](Forward_List.md)
