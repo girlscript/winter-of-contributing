@@ -1,4 +1,5 @@
-Topics :
+# List of top 10 algorithms in Interview Questions
+## Topics :
 
 1. Graph
 2. Linked List
@@ -9,7 +10,7 @@ Topics :
 7. BIT Manipulation
 8. String / Array
 
-Graph -
+### Graph -
 
 1. Breadth First Search (BFS)
 2. Depth First Search (DFS)
@@ -22,7 +23,7 @@ Graph -
 9. Boggle (Find all possible words in a board of characters)
 10. Bridges in a Graph
 
-Linked List -
+### Linked List -
 
 1. Insertion of a node in Linked List (On the basis of some constraints)
 2. Delete a given node in Linked List (under given constraints)
@@ -35,7 +36,7 @@ Linked List -
 9. Merge Sort For Linked Lists
 10. Select A Random Node from A Singly Linked List
 
-Dynamic Programming -
+### Dynamic Programming -
 
 1. Longest Common Subsequence
 2. Longest Increasing Subsequence
@@ -48,7 +49,7 @@ Dynamic Programming -
 9. 0-1 Knapsack Problem
 10. Boolean Parenthesization Problem
 
-Sorting And Searching -
+### Sorting And Searching -
 
 1. Binary Search
 2. Search an element in a sorted and rotated array
@@ -61,7 +62,7 @@ Sorting And Searching -
 9. Find Kth Smallest/Largest Element In Unsorted Array
 10. Given a sorted array and a number x, find the pair in array whose sum is closest to x
 
-Tree / Binary Search Tree -
+### Tree / Binary Search Tree -
 
 1. Find Minimum Depth of a Binary Tree
 2. Maximum Path Sum in a Binary Tree
@@ -74,7 +75,7 @@ Tree / Binary Search Tree -
 9. Check if a binary tree is subtree of another binary tree
 10. Reverse alternate levels of a perfect binary tree
 
-Number Theory -
+### Number Theory -
 
 1. Modular Exponentiation
 2. Modular multiplicative inverse
@@ -87,7 +88,7 @@ Number Theory -
 9. Chinese remainder theorem
 10. Lucas Theorem
 
-BIT Manipulation -
+### BIT Manipulation -
 
 1. Maximum Subarray XOR
 2. Magic Number
@@ -100,7 +101,7 @@ BIT Manipulation -
 9. Count number of bits to be flipped to convert A to B
 10. Find Next Sparse Number
 
-String / Array -
+### String / Array -
 
 1. Reverse an array without affecting special characters
 2. All Possible Palindromic Partitions
