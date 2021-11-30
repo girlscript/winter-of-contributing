@@ -1,5 +1,4 @@
-response=['Welcome to smart calculator','My name is Calc', 
-		'Thanks for enjoy with me ','Sorry ,this is beyond my ability'] 
+response=['Welcome to smart calculator'] 
 
 # fetching tokens from the text command 
 def extract_from_text(text): 
