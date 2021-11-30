@@ -15,7 +15,7 @@
 
 ## :world_map: [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
 
-# Topics in the C++ language &nbsp;&nbsp;&nbsp;&nbsp; ![C](https://img.shields.io/badge/C-black?style=for-the-badge&logo=c&labelColor=black&color=404040) &nbsp;&nbsp; ![C++](https://img.shields.io/badge/CPP-blue?style=for-the-badge&logo=cplusplus&labelColor=006199)
+# Topics in the C/C++ language &nbsp;&nbsp;&nbsp;&nbsp; ![C](https://img.shields.io/badge/C-black?style=for-the-badge&logo=c&labelColor=black&color=404040) &nbsp;&nbsp; ![C++](https://img.shields.io/badge/CPP-blue?style=for-the-badge&logo=cplusplus&labelColor=006199)
 
 - ### [Install C++ on different OS](Install%20C%2B%2B%20on%20different%20OS/)
 
@@ -198,10 +198,10 @@
   - [Jump Statements in Cpp](./C%2B%2B%2014/Jump-Statements.md)
 
 
-- ### [C++ 17](./C%2B%2B%2017/)
+- ### [C++ 17](./C%2B%2B%2017/)  
   
-  
-  
+<br />
+
 ## Maintainers
 
 <!-- readme: contributors -start -->
