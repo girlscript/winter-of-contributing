@@ -16,4 +16,8 @@
   - [Constants](./Constants)
   - [Undefined Behaviour](./Undefined%20Behaviour)
   - [Input Buffer](./Input%20Buffer)
-  
+  - [Colors](./Colors)
+  - [Namespaces](./Namespaces%20in%20C++)
+  - [Patterns](./Patterns)
+  - [Storage Classes](./Storage%20Classes%20in%20C++)
+  - 
