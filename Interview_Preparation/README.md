@@ -33,6 +33,8 @@
   - [SQL](./content/SQL%20CheatSheet-Notes.md)
   - [Computer Networks](./content/CN%20CheatSheet-Notes.md)
   - [Bit Manipulation](./content/Technical%20Questions%20-Bit%20Manipulation.md)
+  - [C++](./content/Cheat%20Sheet%20C%2B%2B.md)
+  - [Python](./content/Cheet%20Sheat%20Python.md)
 
 
 
@@ -53,8 +55,8 @@
 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/syedareehaquasar"><img src="https://github.com/syedareehaquasar/Resume/blob/master/reeha%20profile.png?raw=true" width="50px;" alt=""/><br /><sub><b>Syeda Reeha Quasar</b></sub></a></td>  
     <td align="center"><a href="https://github.com/rhythmjayee"><img src="https://avatars.githubusercontent.com/u/48250163?v=4" width="80px;" alt=""/><br /><sub><b>Rhythm Jayee</b></sub></a></td>  
+    <td align="center"><a href="https://github.com/syedareehaquasar"><img src="https://avatars.githubusercontent.com/u/56428237?v=4" width="80px;" alt=""/><br /><sub><b>Reeha</b></sub></a></td>  
 </tr>
    </table>
    
@@ -66,8 +68,7 @@
  <img src="https://contrib.rocks/image?repo=girlscript/winter-of-contributing" />
 
 </p>
-   
-[Syeda Reeha Quasar](https://github.com/syedareehaquasar)  
+ 
 [Nikhil Singh](https://github.com/singhnikhiljsr)  
 
 ### Happy Contributing!
