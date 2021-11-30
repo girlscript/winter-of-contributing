@@ -15,7 +15,10 @@
         function function_Alert() {
         alert('Congrats, your account is created');
         }
-    </script>
+    </script> 
+OUTPUT 
+
+<img src="https://github.com/I-ArchanaDash/winter-of-contributing/blob/c79206a52e252f75f80720f42f75884ba6b7e737/Web_Development/Javascript/Timing%20events%20in%20JavaScript/Images/Screenshot%202021-11-30%20183142.png" width="100%" height="300"> 
 
 - ## setInterval()
   - The setTimeout(function,milliseconds) method calls function at every given interval.
@@ -29,6 +32,10 @@
         var var2 = document.write("Welcome to GWOC"+"<br>");
         }
     </script> 
+OUTPUT 
+
+<img src="https://github.com/I-ArchanaDash/winter-of-contributing/blob/c79206a52e252f75f80720f42f75884ba6b7e737/Web_Development/Javascript/Timing%20events%20in%20JavaScript/Images/Screenshot%202021-11-30%20183044.png" width="300" height="300"><br> ........................
+
 - To stop the timer - 
   1. clearTimeout(setTimeout variable) 
   2. clearInterval(setInterval variable)
