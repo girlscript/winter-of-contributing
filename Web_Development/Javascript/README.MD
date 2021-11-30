@@ -1,17 +1,30 @@
 # 📕Roadmap for Javascript 📕 
 
-- Functions and Scope
-- Specifications
-- Code Structure
-- Programming Fundamentals
-- Functions and Scope
-- Objects and Arrays
-- The DOM
-- jQuery
-- Javascript vs JQuery
-- Developer Console
-- AJAX
-- Integrating with Other People's Libraries
-- Git and Bash
-- Node JS
-- Vanilla JS
+- [Functions and Scope](./1.Functions_And_Scope)
+- [Specifications](./2.Specifications)
+- [Code Structure](./3.Code_Structure)
+- [Programming Fundamentals](./4.Programming%20Fundamentals)
+- [Objects and Arrays](./6.Objects%20and%20Arrays)
+- [Strings and its methods](./String%20Methods/String_method.md)
+- [Bitwise operator](./JavaScript%20Bitwise%20Operator/JS%20Bitwise.md)
+- [The DOM](./7.The%20DOM)
+- [Condition statements](./Conditional_Statements)
+- [Iteration statements](./Iteration_Statements)
+- [Functions](./Functions%20in%20Javascript)
+- [Arrow functions](./Arrow%20Functions)
+- [Callbacks and promises](./Callbacks%20and%20Promises)
+- [Require vs Import](./Require%20vs%20Import)
+- [Async and await](./Async-Await)
+- [Javascript animations](./Javascript_Animations)
+- [Web Storage](./Web%20Storage/Web_Storage.md)
+- [Stack in Javascript](./Javascript_Stack)
+- [jQuery](./JavaScript%20vs%20jQuery/JS%20vs%20jQuery.md)
+- [Javascript vs JQuery](./JavaScript%20vs%20jQuery/JS%20vs%20jQuery.md)
+- [Developer Console](./Javascript/8.Developer_Console)
+- [AJAX](./9.AJAX)
+- [Integrating with Other People's Libraries](./Integrating_Libraries.md)
+- [Git and Bash](./Git%20and%20Bash)
+- [JSON](./JSON)
+- [Spread vs Rest](./Spread%20vs.%20Rest/spread_vs_rest.md)
+- [Node JS](./Node_JS)
+- [Vanilla JS](./Vanilla%20JavaScript.md)
