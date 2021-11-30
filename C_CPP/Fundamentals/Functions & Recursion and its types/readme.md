@@ -6,3 +6,4 @@
 - ['inline' Functions](inline-function.md)
 - [Audio Passing Parameters to a function](Audio_passing_parameters_to_a_function.md)
 - [Function_Call in C++](./Function_Call.md)
+- [Nested Functions in C](./Nested%20Functions%20in%20C.md)
