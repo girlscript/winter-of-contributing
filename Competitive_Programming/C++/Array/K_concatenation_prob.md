@@ -87,13 +87,18 @@ int main(){
 ```
 ## Input 1
 2
+
 2 3
+
 1 2
+
 3 2
+
 1 -2 1
 
 ## Output 1
 9
+
 2
 
 ## Explanation
@@ -101,7 +106,9 @@ Example case 1: B = {1, 2, 1, 2, 1, 2} and the subarray with maximum sum is the 
 
 ## Input 2
 1
+
 3 3
+
 1 3 -2 
 
 ## Output 2
