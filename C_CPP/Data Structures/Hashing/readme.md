@@ -1,2 +1,3 @@
 - [Linear Probing](./linear_probing.md)
 - [Hashing](./Hashing.md)
+-[quadratic probing](https://github.com/Mahi1901/winter-of-contributing/blob/C_CPP/C_CPP/Data%20Structures/Hashing/Quadratic_Hash.md)
