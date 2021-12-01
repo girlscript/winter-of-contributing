@@ -70,8 +70,7 @@
 
 </p>
  
-[Nikhil Singh](https://github.com/singhnikhiljsr)  
-[Tanushree](https://github.com/Tanushree-coder)
+[Nikhil Singh](https://github.com/singhnikhiljsr)   [Tanushree](https://github.com/Tanushree-coder)
   
 ### Happy Contributing!
 
