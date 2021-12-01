@@ -14,6 +14,12 @@ children.
 A binary tree such that the data contained in each node is less 
 than or equal to the data in that node’s children. 
 
+
+## Algorithm
+In this problem we traverse the tree first in inorder manner and enqueue the keys
+and then we traverse in preorder manner and dequeue the keys and assign it to the node.
+
+
 ## Code
 
 ```cpp
@@ -132,3 +138,7 @@ int main()
 
 Time Complexity: O(n)<br>
 Space Complexity: O(n)
+
+## Applications
+1. Priority queues can be implemented.
+2. Helps in Dijkstra’s algorithm in finding the shortest path.
