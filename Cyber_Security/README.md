@@ -121,6 +121,6 @@
  - [Nmap](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/nmap.md)
  - [OWASP-ZAP](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/ZAP.md)
  - [Nikto](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/7.3_NIKTO.md)
- - [Burp Suite]
+ - [Burp Suite](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_7/7.4_Burp_suite_tutorial.md)
  - [Metasploit]
 
