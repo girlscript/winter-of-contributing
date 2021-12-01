@@ -5,15 +5,17 @@
     </td>
     <td>
       <h1> GirlScript Winter of Contributing </h1>
-      <img src="https://badges.frapsoft.com/os/v2/open-source.svg?v=103">
-      <a href="../LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"/></a>
-      <a href="../.github/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg"/></a> 
-      <a href="../.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-green.svg"/></a> </div>
+      <a href="../LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a>
+      <a href="../.github/CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-blue.svg"/></a> 
+      <a href="../.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-blue.svg"/></a> 
+      <a href="https://github.com/girlscript/winter-of-contributing/network/members"><img src="https://img.shields.io/github/forks/girlscript/winter-of-contributing?style=dark"/></a>
+      <a href="https://github.com/girlscript/winter-of-contributing/stargazers"><img src="https://img.shields.io/github/stars/girlscript/winter-of-contributing?style=dark"/></a>
+  </div>
     </td>
   </tr>
 </table>
 
-## :world_map: [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB)
+## :world_map: [Roadmap](https://whimsical.com/c-c-roadmap-XSXfAHap1m9Uo7y6hYmksB) :world_map:
 
 # Topics in the C/C++ language &nbsp;&nbsp;&nbsp;&nbsp; ![C](https://img.shields.io/badge/C-black?style=for-the-badge&logo=c&labelColor=black&color=404040) &nbsp;&nbsp; ![C++](https://img.shields.io/badge/CPP-blue?style=for-the-badge&logo=cplusplus&labelColor=006199)
 
@@ -202,7 +204,7 @@
   
 <br />
 
-## Maintainers
+## :octocat: Maintainers :octocat:
 
 <!-- readme: contributors -start -->
 <table>
@@ -281,4 +283,4 @@
     </td>
   </tr>
   </table>
-  
+<!-- readme: contributors -end -->  
