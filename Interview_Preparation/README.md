@@ -21,6 +21,7 @@
    - Resources
      - [Most popular Algorithms asked in Interviews](./content/Most%20popular%20Algorithms%20asked%20in%20Interviews.md)
      - [Puzzles](./content/Puzzles%20for%20Interviews.md)
+     - [Stack and Queue](./content/Technical%20Interview%20Questions%20-%20Stack%20%26%20Queues.md)
 
 
 ### :orange_circle: *Behavorial Interview* :
