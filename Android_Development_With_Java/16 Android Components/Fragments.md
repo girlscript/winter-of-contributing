@@ -222,5 +222,3 @@ public class Fragment2 extends Fragment {
 
 
 <br>
-
-Contributor: [Utkarsha Kakade](https://github.com/utkarshakakade)
