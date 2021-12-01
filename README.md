@@ -70,6 +70,7 @@ This project and everyone participating in it is governed by the [GirlScript Cod
   2. [MacOS](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/MongoDB/2.2_MongoDB_Installation_and_Configuration_MacOS.md)
   
 - [mongoDB Introduction and basics](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/MongoDB/5.1_Mongoose_Introduction_and_Installation.md)
+- [Creating database in mongoDB](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/MongoDB/3.1_Creating_Database_in_MongoDB/3.1_Creating_Database_in_MongoDB.md)
 - [Connecting application to database](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/MongoDB/5.2_Connecting_application_to_database_using_Mongoose.md)
 - [How to deploy with mongoDB](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/MongoDB/6.1_How_to_Deploy_with_MongoDB_Atlas.md)
 - [CRUD_operations in mongoDB](https://github.com/girlscript/winter-of-contributing/blob/MERN/MERN/Topic/Backend/MongoDB/3.2_CRUD_Operations_in_MongoDB.md)
