@@ -13,11 +13,15 @@
 
 ### Audios
 
-- [Introduction to OpenCV](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Audios/Introduction%20to%20OpenCV%20library)
+- [Color to Gray Scale Image using Numpy](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Audios/Color%20to%20Gray%20Scale%20Image%20using%20Numpy)
+- [Edges & Contours using OpenCV](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Audios/Edges%20%26%20Contours%20using%20OpenCV)
+- [Introduction to OpenCV Library](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Audios/Introduction%20to%20OpenCV%20library)
+- [RANSAC Algorithm](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Audios/RANSAC%20Algorithm)
 
 ### Libraries
 
 - [Edges & Contours](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Libraries/Edges%20%26%20Contours)
+- [Introduction to OpenCV Library](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Libraries/Introduction%20to%20OpenCV%20Library)
 - [Video Analysis with Computer Vision](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Libraries/Video%20analysis%20with%20Computer%20Vision)
 
 ### Projects
@@ -39,14 +43,18 @@
 - [Convert Images to Pencil Sketch using OpenCV](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Tutorials/Convert%20Images%20to%20Pencil%20Sketch%20using%20OpenCV)
 - [Data Augmentation Techniques](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Tutorials/Data%20Augmentation%20techniques)
 - [Depth Map from Stereo Pair Images](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Tutorials/Depth%20Map%20from%20Stereo%20Pair%20Images)
+- [Hough Transform Implementation](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Tutorials/Hough%20Transform%20Implementation)
 - [Image Contours with Open CV](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Tutorials/Image%20Contours%20with%20open%20CV)
 - [Image Retreival](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Tutorials/Image%20Retrieval)
 - [Image Segmentation using KMeans Clustering](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Tutorials/Image%20Segmentation%20Using%20K%20Means%20Clustering)
+- [Optical Flow Algorithms](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Tutorials/Optical%20Flow%20Algorithm)
 - [Thresholding with Open CV](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Tutorials/Thresholding%20with%20open%20CV)
 
 ### Videos
 
+- [Cheatsheet of OpenCV Library](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Videos/Cheatsheet%20on%20Open%20CV%20Library)
 - [Data Augmentation Techniques](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Videos/Data%20Augmentation%20Techniques)
+- [Edges & Contours using OpenCV](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Videos/Edges%20%26%20Contours%20using%20OpenCV)
 - [Image Contours with OpenCV](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Videos/Image%20Contours%20with%20open%20CV)
 - [Optical Flow Algorithms](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Videos/Optical%20flow%20algorithms)
 - [RANSAC Algorithm](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Computer%20Vision/Videos/RANSAC%20Algorithm)
