@@ -1,0 +1,11 @@
+ String pool :
+	String Pool in java is a pool of Strings stored in Java Heap Memory. 
+   String is a special class in java and we can create String objects using a 
+	new operator as well as providing values in double-quotes.
+	String s1 = "Hello";
+	String s2 = "Hello";
+	String s3 =  new String("Hello");
+   
+       s1 ans s2 are equal but s1 ans s3 are not equal.
+   String Pool is possible only because String is immutable in Java and its implementation of String interning concept. 
+	String pool is also example of Flyweight design pattern.
