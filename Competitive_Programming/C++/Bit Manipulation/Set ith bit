@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+
+    int t;
+    cin>>t; //test cases
+    while(t--){
+        int n,i;   //n is number and i is place that we have to set
+        cin>>n>>i;
+        
+        int m=n|(1<<i);//using bit or and left shift operator
+        cout<<m<<endl;
+        
+    }
+    
+    return 0;
+}
