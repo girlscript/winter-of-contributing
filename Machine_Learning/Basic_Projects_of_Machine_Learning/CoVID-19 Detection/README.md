@@ -14,12 +14,15 @@ A machine learning based COVID-19 cough classifier which can discriminate COVID-
 ### Technologies used
 
 - PyTorch
-
 - torchaudio
 - scipy
 - librosa 
 - NumPy
 - matplotlib
+
+### Citation
+
+`Pahar M, Klopper M, Warren R, Niesler T. COVID-19 Cough Classification using Machine Learning and Global Smartphone Recordings★. Computers in Biology and Medicine. 2021 Jun 17:104572.`
 
 ### Implementation link ⬇
 
