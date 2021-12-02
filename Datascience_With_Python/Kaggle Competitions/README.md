@@ -20,4 +20,5 @@
 
 ### Videos
 
-- [Titanic Survival Prediction]()
+- [Digit Recognizer](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions/Videos/Digit%20Recognizer)
+- [Titanic Survival Prediction](https://github.com/girlscript/winter-of-contributing/tree/Datascience_With_Python/Datascience_With_Python/Kaggle%20Competitions/Titanic%20Survival%20Prediction)
