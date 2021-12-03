@@ -176,8 +176,7 @@ Data Structures are the main part of many computer science algorithms as they en
   2. [Introduction to Dynamic Programming](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/6.2%20Divide%20and%20Conquer%2C%20Dynamic%20Programming/2.%20Introduction%20to%20Dynamic%20Programming)
 ### 7.3 [Bit Manipulation](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/7.3%20Bit%20Manipulation)
 ### 8.2 [Misc Algorithms (Maths, Geometric, Randomized)](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/8.2%20Misc%20Algorithms%20(Maths%2C%20Geometric%2C%20Randomized))
-  1. [Tower Of Hanoi Using Recursion](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/8.2%20Misc%20Algorithms%20(Maths%2C%20Geometric%2C%20Randomized)/1.%20Tower%20Of%20Hanoi%20Using%20Recursion)
-  2. [Recursion Tower of Hanoi](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/8.2%20Misc%20Algorithms%20(Maths%2C%20Geometric%2C%20Randomized)/2.Recursion%20Tower%20of%20Hanoi)
+  1. [Tower Of Hanoi Using Recursion](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/8.2%20Misc%20Algorithms%20(Maths%2C%20Geometric%2C%20Randomized)/2.Recursion%20Tower%20of%20Hanoi)
 
 # Contribution Guidelines :gear:
 Please refer to the **[DSA Contribution Guidelines](https://github.com/girlscript/winter-of-contributing/blob/DSA/DSA/CONTRIBUTING.md)** within the same folder for all the submission guidelines. It contains the documentation process to assist you. Please go through it before creating issues/PRs.
@@ -195,8 +194,6 @@ Please refer to the **[DSA Contribution Guidelines](https://github.com/girlscrip
 <a href="https://github.com/Muskan-creator">
   <img src="https://contrib.rocks/image?repo=Muskan-creator/Muskan-creator" />
 </a>
-  
-
 <hr>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/nimisha-yadav)
