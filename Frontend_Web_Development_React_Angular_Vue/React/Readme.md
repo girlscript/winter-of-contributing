@@ -45,18 +45,18 @@
  
 ### Week 7 
 - [x] state management in react 
-- [ ] importance of state managment in react 
+- [x] importance of state managment in react 
 - [x] Redux 
  
 ### Week 8 
-- [ ] REST API Calls 
-- [ ] Using built-in Fetch API
-- [ ] Axios  
-- [ ] Unfetch 
-- [ ] Superagent 
+- [x] REST API Calls 
+- [x] Using built-in Fetch API
+- [x] Axios  
+- [x] Unfetch 
+- [x] Superagent 
  
 ### Week-9 
-- [ ] Testing 
-- [ ] Jest 
-- [ ] React icons
-- [ ] React Testing Library
+- [x] Testing 
+- [x] Jest 
+- [x] React icons
+- [x] React Testing Library
