@@ -149,7 +149,7 @@ Data Structures are the main part of many computer science algorithms as they en
 10. [Prim's Algorithm](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms/10.%20Prim's%20Algorithm)
 11. [Boruvka's Minimum Spanning Tree](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms/11.%20Boruvka's%20Minimum%20Spanning%20Tree)
 12. [Reverse Delete algorithm for MST](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms/12.%20Reverse%20Delete%20algorithm%20for%20MST)
-13. [Problem Solving for MST (Kruskal's and Prim's)](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms/Problem%20Solving%20for%20MST%20(Kruskal's%20and%20Prim's))
+13. [Problem Solving for MST (Kruskal's and Prim's)](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms/13.%20Problem%20Solving%20for%20MST%20(Kruskal's%20and%20Prim's))
 14. [Dijkstra’s Shortest Path Algorithm](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms/14.%20Dijkstra%E2%80%99s%20Shortest%20Path%20Algorithm)
 15. [Dial's Algorithm](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms/15.%20Dial's%20Algorithm)
 16. [Dijkstra’s Algorithm for Adjacency List](https://github.com/girlscript/winter-of-contributing/tree/DSA/DSA/3.2%20Greedy%20Algorithms/16.%20Dijkstra%E2%80%99s%20Algorithm%20for%20Adjacency%20List)
