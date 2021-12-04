@@ -150,7 +150,9 @@
    - **Customer Segmentation.**
    - **Fake News Classification.**
    - **Market Basket Analysis.**
+   - **Gold Price Prediction.**
    - **Restaurant Revenue Prediction.**
+   - **Covid-19 Cough Detection.**
 
 
    
