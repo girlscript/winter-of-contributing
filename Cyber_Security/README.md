@@ -112,7 +112,7 @@
 - [Information gathering]
 - [Reconnaissance](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/6.5%20Reconnaissance.md)
 - [Threat Modelling](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Cybersecurity%206.6%20Threat%20Modelling.md)
-- [Gaining access]
+- [Gaining access](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Cybersecurity%206.7:%20Gaining%20Access.md)
 - [Maintaining access]
 - [Covering Tracks](https://github.com/girlscript/winter-of-contributing/blob/Cyber_Security/Cyber_Security/Week_6/Cybersecurity%206.9%20Covering%20tracks.md)
 
