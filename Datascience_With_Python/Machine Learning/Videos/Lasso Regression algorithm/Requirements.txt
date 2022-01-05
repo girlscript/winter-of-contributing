@@ -1,0 +1,7 @@
+Libraries Required to implement Lasso Regression Algorithm
+pandas
+numpy 
+matplotlib
+StandardScaler
+Lassocross_val_score
+

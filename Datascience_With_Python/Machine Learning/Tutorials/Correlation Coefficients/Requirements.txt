@@ -1,0 +1,7 @@
+Libraries Required in Correlation Coeifficients:
+pandas
+numpy
+matplotlib
+seaborn
+kendalltau
+rcParams

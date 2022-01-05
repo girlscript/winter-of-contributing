@@ -1,0 +1,1060 @@
+case,cc3,country,year,systemic_crisis,exch_usd,domestic_debt_in_default,sovereign_external_debt_default,gdp_weighted_default,inflation_annual_cpi,independence,currency_crises,inflation_crises,banking_crisis
+1,DZA,Algeria,1870,1,0.052264,0,0,0,3.441455696,0,0,0,crisis
+1,DZA,Algeria,1871,0,0.052798,0,0,0,14.14913958,0,0,0,no_crisis
+1,DZA,Algeria,1872,0,0.052274,0,0,0,-3.718592965,0,0,0,no_crisis
+1,DZA,Algeria,1873,0,0.05168,0,0,0,11.20389701,0,0,0,no_crisis
+1,DZA,Algeria,1874,0,0.051308,0,0,0,-3.848560701,0,0,0,no_crisis
+1,DZA,Algeria,1875,0,0.051546,0,0,0,-20.92417833,0,0,0,no_crisis
+1,DZA,Algeria,1876,0,0.051867,0,0,0,-1.769547325,0,0,0,no_crisis
+1,DZA,Algeria,1877,0,0.051867,0,0,0,29.11604525,0,0,1,no_crisis
+1,DZA,Algeria,1878,0,0.051948,0,0,0,-1.492537313,0,0,0,no_crisis
+1,DZA,Algeria,1879,0,0.052029,0,0,0,-16.83135705,0,0,0,no_crisis
+1,DZA,Algeria,1880,0,0.052356,0,0,0,3.881188119,0,0,0,no_crisis
+1,DZA,Algeria,1881,0,0.052029,0,0,0,12.61913839,0,0,0,no_crisis
+1,DZA,Algeria,1882,0,0.050761,0,0,0,-12.35612729,0,0,0,no_crisis
+1,DZA,Algeria,1883,0,0.052002,0,0,0,-1.390498262,0,0,0,no_crisis
+1,DZA,Algeria,1884,0,0.052165,0,0,0,-15.94202899,0,0,0,no_crisis
+1,DZA,Algeria,1939,0,0.44903,0,0,0,9.756097561,0,0,0,no_crisis
+1,DZA,Algeria,1940,0,0.49189,0,0,0,22.22222222,0,0,1,no_crisis
+1,DZA,Algeria,1941,0,0.44937,0,0,0,16.36363636,0,0,0,no_crisis
+1,DZA,Algeria,1942,0,0.75,0,0,0,28.125,0,0,1,no_crisis
+1,DZA,Algeria,1943,0,0.5,0,0,0,46.34146341,0,1,1,no_crisis
+1,DZA,Algeria,1944,0,0.5,0,0,0,41.66666667,0,1,1,no_crisis
+1,DZA,Algeria,1945,0,1.191,0,0,0,29.41176471,0,0,1,no_crisis
+1,DZA,Algeria,1946,0,1.191,0,0,0,18.18181818,0,0,0,no_crisis
+1,DZA,Algeria,1947,0,1.193,0,0,0,69.23076923,0,0,1,no_crisis
+1,DZA,Algeria,1948,0,2.662,0,0,0,63.63636364,0,0,1,no_crisis
+1,DZA,Algeria,1949,0,3.49,0,0,0,23.61111111,0,0,1,no_crisis
+1,DZA,Algeria,1950,0,3.499,0,0,0,0,0,0,0,no_crisis
+1,DZA,Algeria,1951,0,3.5,0,0,0,6.741573034,0,0,0,no_crisis
+1,DZA,Algeria,1952,0,3.5,0,0,0,6.315789474,0,0,0,no_crisis
+1,DZA,Algeria,1953,0,3.5,0,0,0,-0.99009901,0,0,0,no_crisis
+1,DZA,Algeria,1954,0,3.5,0,0,0,1,0,0,0,no_crisis
+1,DZA,Algeria,1955,0,3.5,0,0,0,0,0,0,0,no_crisis
+1,DZA,Algeria,1956,0,3.5,0,0,0,1.98019802,0,0,0,no_crisis
+1,DZA,Algeria,1957,0,4.199,0,0,0,2.912621359,0,0,0,no_crisis
+1,DZA,Algeria,1958,0,4.906,0,0,0,12.26415094,0,0,0,no_crisis
+1,DZA,Algeria,1959,0,4.909,0,0,0,9.243697479,0,0,0,no_crisis
+1,DZA,Algeria,1960,0,4.93706,0,0,0,5.384615385,0,1,0,no_crisis
+1,DZA,Algeria,1961,0,4.93706,0,0,0,2.919708029,0,0,0,no_crisis
+1,DZA,Algeria,1968,0,4.93706,0,0,0,6.599987838,1,0,0,no_crisis
+1,DZA,Algeria,1969,0,4.93706,0,0,0,2.626631862,1,0,0,no_crisis
+1,DZA,Algeria,1970,0,4.93706,0,0,0,3.656320975,1,0,0,no_crisis
+1,DZA,Algeria,1971,0,4.644,0,0,0,6.172816266,1,0,0,no_crisis
+1,DZA,Algeria,1972,0,4.556,0,0,0,4.734228715,1,0,0,no_crisis
+1,DZA,Algeria,1973,0,4.185,0,0,0,8.961134756,1,0,0,no_crisis
+1,DZA,Algeria,1974,0,3.997,0,0,0,8.87917187,1,0,0,no_crisis
+1,DZA,Algeria,1975,0,4.125,0,0,0,12.09893382,1,0,0,no_crisis
+1,DZA,Algeria,1976,0,4.359,0,0,0,17.17351914,1,0,0,no_crisis
+1,DZA,Algeria,1977,0,4.035,0,0,0,11.45037883,1,0,0,no_crisis
+1,DZA,Algeria,1978,0,3.8345,0,0,0,9.668492611,1,0,0,no_crisis
+1,DZA,Algeria,1979,0,3.7555,0,0,0,14.60957788,1,0,0,no_crisis
+1,DZA,Algeria,1980,0,3.9715,0,0,0,9.668,1,0,0,no_crisis
+1,DZA,Algeria,1981,0,4.378,0,0,0,14.61,1,0,0,no_crisis
+1,DZA,Algeria,1982,0,4.6355,0,0,0,6.593,1,0,0,no_crisis
+1,DZA,Algeria,1983,0,4.9165,0,0,0,7.835,1,0,0,no_crisis
+1,DZA,Algeria,1984,0,5.1227,0,0,0,6.31,1,0,0,no_crisis
+1,DZA,Algeria,1985,0,4.7728,0,0,0,10.432,1,0,0,no_crisis
+1,DZA,Algeria,1986,0,4.8235,0,0,0,14.007,1,0,0,no_crisis
+1,DZA,Algeria,1987,0,4.9363,0,0,0,5.857,1,0,0,no_crisis
+1,DZA,Algeria,1988,0,6.7308,0,0,0,5.938,1,1,0,no_crisis
+1,DZA,Algeria,1989,0,8.0324,0,0,0,9.172,1,1,0,no_crisis
+1,DZA,Algeria,1990,1,12.1908,0,0,0,9.272,1,1,0,crisis
+1,DZA,Algeria,1991,1,21.3919,0,1,0.23,25.9,1,1,1,crisis
+1,DZA,Algeria,1992,1,22.7814,0,1,0.23,31.7,1,0,1,crisis
+1,DZA,Algeria,1993,0,24.123,0,1,0.23,20.5,1,0,1,no_crisis
+1,DZA,Algeria,1994,0,42.8925,0,1,0.23,29,1,1,1,no_crisis
+1,DZA,Algeria,1995,0,52.175,0,1,0.23,29.8,1,1,1,no_crisis
+1,DZA,Algeria,1996,0,56.1859,0,1,0.23,18.7,1,0,0,no_crisis
+1,DZA,Algeria,1997,0,58.4139,0,0,0,5.7,1,0,0,no_crisis
+1,DZA,Algeria,1998,0,60.3531,0,0,0,4.95,1,0,0,no_crisis
+1,DZA,Algeria,1999,0,69.3143,0,0,0,2.6,1,0,0,no_crisis
+1,DZA,Algeria,2000,0,75.3428,0,0,0,0.3,1,0,0,no_crisis
+1,DZA,Algeria,2001,0,77.8196,0,0,0,4.2,1,0,0,no_crisis
+1,DZA,Algeria,2002,0,79.7234,0,0,0,1.43,1,0,0,no_crisis
+1,DZA,Algeria,2003,0,72.6128,0,0,0,4.259,1,0,0,no_crisis
+1,DZA,Algeria,2004,0,72.6137,0,0,0,3.972,1,0,0,no_crisis
+1,DZA,Algeria,2005,0,73.3799,0,0,0,1.382,1,0,0,no_crisis
+1,DZA,Algeria,2006,0,71.1582,0,0,0,2.315,1,0,0,no_crisis
+1,DZA,Algeria,2007,0,66.8299,0,0,0,3.674,1,0,0,no_crisis
+1,DZA,Algeria,2008,0,71.1826,0,0,0,4.855,1,0,0,no_crisis
+1,DZA,Algeria,2009,0,72.7309,0,0,0,5.743,1,0,0,no_crisis
+1,DZA,Algeria,2010,0,74.9437,0,0,0,3.913,1,0,0,no_crisis
+1,DZA,Algeria,2011,0,76.0563,0,0,0,4.522,1,0,0,no_crisis
+1,DZA,Algeria,2012,0,78.1025,0,0,0,8.916,1,0,0,no_crisis
+1,DZA,Algeria,2013,0,78.1487013,0,0,0,3.255,1,0,0,no_crisis
+1,DZA,Algeria,2014,0,87.9706983,0,0,0,2.917,1,0,0,no_crisis
+2,AGO,Angola,1921,0,1.25E-08,0,0,0,29.62962963,0,0,1,no_crisis
+2,AGO,Angola,1922,0,2.21E-08,0,0,0,45.71428571,0,0,1,no_crisis
+2,AGO,Angola,1923,0,2.81E-08,0,0,0,68.62745098,0,0,1,no_crisis
+2,AGO,Angola,1924,0,2.08E-08,0,0,0,126.744186,0,0,1,no_crisis
+2,AGO,Angola,1925,0,1.95E-08,0,0,0,-27.17948718,0,0,0,no_crisis
+2,AGO,Angola,1926,0,1.95E-08,0,0,0,-7.042253521,0,0,0,no_crisis
+2,AGO,Angola,1927,0,2.02E-08,0,0,0,-17.42424242,0,0,0,no_crisis
+2,AGO,Angola,1928,0,2.27E-08,0,0,0,-9.174311927,0,0,0,no_crisis
+2,AGO,Angola,1929,0,2.22E-08,0,0,0,-5.050505051,0,0,0,no_crisis
+2,AGO,Angola,1930,0,2.23E-08,0,0,0,-5.319148936,0,0,0,no_crisis
+2,AGO,Angola,1931,0,3.10E-08,0,0,0,0,0,0,0,no_crisis
+2,AGO,Angola,1932,0,3.31E-08,0,0,0,-2.247191011,0,0,0,no_crisis
+2,AGO,Angola,1933,0,2.13E-08,0,0,0,2.298850575,0,0,0,no_crisis
+2,AGO,Angola,1934,0,2.22E-08,0,0,0,3.370786517,0,0,0,no_crisis
+2,AGO,Angola,1935,0,2.23E-08,0,0,0,5.434782609,0,0,0,no_crisis
+2,AGO,Angola,1936,0,2.25E-08,0,0,0,-1.030927835,0,0,0,no_crisis
+2,AGO,Angola,1937,0,2.21E-08,0,0,0,2.083333333,0,0,0,no_crisis
+2,AGO,Angola,1938,0,2.36E-08,0,0,0,2.040816327,0,0,0,no_crisis
+2,AGO,Angola,1939,0,2.77E-08,0,0,0,1,0,0,0,no_crisis
+2,AGO,Angola,1940,0,2.51E-08,0,0,0,13.86138614,0,0,0,no_crisis
+2,AGO,Angola,1941,0,0.000000025,0,0,0,16.52173913,0,0,0,no_crisis
+2,AGO,Angola,1942,0,0.000000025,0,0,0,17.91044776,0,0,0,no_crisis
+2,AGO,Angola,1943,0,0.000000025,0,0,0,13.92405063,0,0,0,no_crisis
+2,AGO,Angola,1944,0,0.000000025,0,0,0,7.777777778,0,0,0,no_crisis
+2,AGO,Angola,1945,0,0.000000025,0,0,0,5.154639175,0,0,0,no_crisis
+2,AGO,Angola,1946,0,2.63E-08,0,0,0,4.901960784,0,0,0,no_crisis
+2,AGO,Angola,1947,0,2.50E-08,0,0,0,13.55140187,0,0,0,no_crisis
+2,AGO,Angola,1948,0,2.58E-08,0,0,0,-16.87242798,0,0,0,no_crisis
+2,AGO,Angola,1949,0,2.86E-08,0,0,0,-0.99009901,0,0,0,no_crisis
+2,AGO,Angola,1950,0,2.91E-08,0,0,0,4,0,0,0,no_crisis
+2,AGO,Angola,1951,0,2.91E-08,0,0,0,-7.692307692,0,0,0,no_crisis
+2,AGO,Angola,1952,0,0.000000029,0,0,0,3.125,0,0,0,no_crisis
+2,AGO,Angola,1953,0,0.000000029,0,0,0,0,0,0,0,no_crisis
+2,AGO,Angola,1954,0,2.88E-08,0,0,0,-4.04040404,0,0,0,no_crisis
+2,AGO,Angola,1955,0,2.88E-08,0,0,0,0,0,0,0,no_crisis
+2,AGO,Angola,1956,0,2.88E-08,0,0,0,3.157894737,0,0,0,no_crisis
+2,AGO,Angola,1957,0,2.88E-08,0,0,0,1.020408163,0,0,0,no_crisis
+2,AGO,Angola,1958,0,2.88E-08,0,0,0,2.02020202,0,0,0,no_crisis
+2,AGO,Angola,1959,0,2.89E-08,0,0,0,0,0,1,0,no_crisis
+2,AGO,Angola,1960,0,2.88E-08,0,0,0,-0.99009901,0,0,0,no_crisis
+2,AGO,Angola,1961,0,2.88E-08,0,0,0,2,0,0,0,no_crisis
+2,AGO,Angola,1962,0,2.89E-08,0,0,0,5.882352941,0,0,0,no_crisis
+2,AGO,Angola,1970,0,2.88E-08,0,0,0,7.965434021,0,1,0,no_crisis
+2,AGO,Angola,1971,0,2.76E-08,0,0,0,5.777758599,0,0,0,no_crisis
+2,AGO,Angola,1972,0,0.000000027,0,0,0,15.79827455,0,1,0,no_crisis
+2,AGO,Angola,1973,0,2.58E-08,0,0,0,15.67485015,0,1,0,no_crisis
+2,AGO,Angola,1974,0,2.46E-08,0,0,0,27.41525989,0,0,1,no_crisis
+2,AGO,Angola,1975,0,2.75E-08,0,0,0,29.00043489,1,0,1,no_crisis
+2,AGO,Angola,1976,0,2.99E-08,1,0,0,80.69990445,1,0,1,no_crisis
+2,AGO,Angola,1977,0,2.99E-08,0,0,0,69.00935079,1,0,1,no_crisis
+2,AGO,Angola,1978,0,2.99E-08,0,0,0,48.46106867,1,0,1,no_crisis
+2,AGO,Angola,1979,0,2.99E-08,0,0,0,101.3013176,1,0,1,no_crisis
+2,AGO,Angola,1980,0,2.99E-08,0,0,0,46.70755462,1,0,1,no_crisis
+2,AGO,Angola,1991,0,0.00000018,0,1,0,85.265,1,1,1,no_crisis
+2,AGO,Angola,1992,0,0.00000055,1,1,0,299.097,1,1,1,crisis
+2,AGO,Angola,1993,0,0.0000065,1,1,0,1379.476,1,1,1,crisis
+2,AGO,Angola,1994,0,0.000509262,1,1,0,949.771,1,1,1,crisis
+2,AGO,Angola,1995,0,0.005692,1,1,0,2672.23,1,2,1,crisis
+2,AGO,Angola,1996,0,0.201994,1,1,0,4146.01,1,1,1,crisis
+2,AGO,Angola,1997,0,0.262376,1,1,0,221.492,1,1,1,crisis
+2,AGO,Angola,1998,0,0.6965,1,1,0,107.429,1,1,1,crisis
+2,AGO,Angola,1999,0,5.57992,1,1,0,248.248,1,2,1,no_crisis
+2,AGO,Angola,2000,0,16.81784,1,1,0,325.029,1,1,1,no_crisis
+2,AGO,Angola,2001,0,31.94936,1,1,0,152.586,1,1,1,no_crisis
+2,AGO,Angola,2002,0,58.66637,1,1,0,108.893,1,1,1,no_crisis
+2,AGO,Angola,2003,0,79.08149,0,1,0,98.342,1,1,1,no_crisis
+2,AGO,Angola,2004,0,85.98779,0,0,0,43.559,1,1,1,no_crisis
+2,AGO,Angola,2005,0,80.77951,0,0,0,22.961,1,1,1,no_crisis
+2,AGO,Angola,2006,0,80.26442,0,0,0,13.305,1,0,0,no_crisis
+2,AGO,Angola,2007,0,75.023,0,0,0,12.249,1,0,0,no_crisis
+2,AGO,Angola,2008,0,75.169,0,0,0,12.465,1,0,0,no_crisis
+2,AGO,Angola,2009,0,89.398,0,0,0,13.721,1,1,0,no_crisis
+2,AGO,Angola,2010,0,92.643,0,0,0,14.48,1,0,0,no_crisis
+2,AGO,Angola,2011,0,95.272,0,0,0,13.484,1,0,0,no_crisis
+2,AGO,Angola,2012,0,95.82588521,0,0,0,10.285,1,0,0,no_crisis
+2,AGO,Angola,2013,0,97.56,0,0,0,8.782,1,0,0,no_crisis
+2,AGO,Angola,2014,0,101.49,0,0,0,7.296,1,0,0,no_crisis
+10,CAF,Central African Republic,1957,0,209.9498515,0,0,0,6.818181818,0,0,0,no_crisis
+10,CAF,Central African Republic,1958,0,245.2998265,0,0,0,12.76595745,0,0,0,no_crisis
+10,CAF,Central African Republic,1959,0,245.4498264,0,0,0,3.773584906,0,1,0,no_crisis
+10,CAF,Central African Republic,1960,0,245.1298266,0,0,0,10.90909091,1,0,0,no_crisis
+10,CAF,Central African Republic,1961,0,245.0648267,0,0,0,6.557377049,1,0,0,no_crisis
+10,CAF,Central African Republic,1962,0,245.0048267,0,0,0,7.692307692,1,0,0,no_crisis
+10,CAF,Central African Republic,1963,0,245.0998266,0,0,0,3.714285714,1,0,0,no_crisis
+10,CAF,Central African Republic,1964,0,245.0048267,0,0,0,10.05509642,1,0,0,no_crisis
+10,CAF,Central African Republic,1965,0,245.0748266,0,0,0,9.386733417,1,0,0,no_crisis
+10,CAF,Central African Republic,1966,0,247.5898249,0,0,0,2.745995423,1,0,0,no_crisis
+10,CAF,Central African Republic,1967,0,245.4248264,0,0,0,1.893095768,1,0,0,no_crisis
+10,CAF,Central African Republic,1968,0,247.404825,0,0,0,4.808743169,1,0,0,no_crisis
+10,CAF,Central African Republic,1969,0,277.9148034,0,0,0,0.521376434,1,0,0,no_crisis
+10,CAF,Central African Republic,1970,0,276.0248048,0,0,0,3.734439834,1,0,0,no_crisis
+10,CAF,Central African Republic,1971,0,261.2248152,0,0,0,27.69953052,1,0,1,no_crisis
+10,CAF,Central African Republic,1972,0,256.0498189,0,0,0,-8.823529412,1,0,0,no_crisis
+10,CAF,Central African Republic,1973,0,235.4248335,0,0,0,5.64516129,1,0,0,no_crisis
+10,CAF,Central African Republic,1974,0,222.2248428,0,0,0,9.541984733,1,0,0,no_crisis
+10,CAF,Central African Republic,1975,0,224.2748413,0,0,0,16.02787456,1,0,0,no_crisis
+10,CAF,Central African Republic,1976,1,248.4873242,0,0,0,10.51051051,1,0,0,crisis
+10,CAF,Central African Republic,1977,1,235.2498335,0,0,0,11.14130435,1,0,0,crisis
+10,CAF,Central African Republic,1978,1,208.9998521,0,0,0,11.49144254,1,0,0,crisis
+10,CAF,Central African Republic,1979,1,200.9998578,0,0,0,9.210526316,1,0,0,crisis
+10,CAF,Central African Republic,1980,1,225.7998402,0,0,0,13.3,1,0,0,crisis
+10,CAF,Central African Republic,1981,1,287.3997967,0,1,0,14.66,1,0,0,crisis
+10,CAF,Central African Republic,1982,1,336.2497621,0,0,0,13.243,1,0,0,crisis
+10,CAF,Central African Republic,1983,0,417.3747047,0,1,0,14.558,1,0,0,no_crisis
+10,CAF,Central African Republic,1984,0,479.5996607,0,1,0,2.604,1,0,0,no_crisis
+10,CAF,Central African Republic,1985,0,378.0497326,0,1,0,10.457,1,0,0,no_crisis
+10,CAF,Central African Republic,1986,0,322.7497717,0,1,0,2.411,1,0,0,no_crisis
+10,CAF,Central African Republic,1987,0,266.9998111,0,1,0,-6.986,1,0,0,no_crisis
+10,CAF,Central African Republic,1988,1,302.9497857,0,1,0,-3.934,1,0,0,crisis
+10,CAF,Central African Republic,1989,1,289.3997953,0,1,0,0.645,1,0,0,crisis
+10,CAF,Central African Republic,1990,1,256.4498186,0,1,0,-0.203,1,0,0,crisis
+10,CAF,Central African Republic,1991,1,258.9998168,0,1,0,-2.848,1,0,0,crisis
+10,CAF,Central African Republic,1992,1,275.3248052,0,1,0,-0.757,1,0,0,crisis
+10,CAF,Central African Republic,1993,1,294.7747915,0,1,0,-2.909,1,0,0,crisis
+10,CAF,Central African Republic,1994,1,534.5996218,0,1,0,24.55,1,1,1,crisis
+10,CAF,Central African Republic,1995,1,489.9996534,0,1,0,19.2,1,0,0,crisis
+10,CAF,Central African Republic,1996,1,523.6996296,0,1,0,3.723,1,0,0,crisis
+10,CAF,Central African Republic,1997,1,598.8095764,0,1,0,1.597,1,0,0,crisis
+10,CAF,Central African Republic,1998,1,562.2096023,0,1,0,-1.871,1,0,0,crisis
+10,CAF,Central African Republic,1999,1,652.9534143,0,1,0,-1.415,1,0,0,crisis
+10,CAF,Central African Republic,2000,0,704.9511016,0,1,0,3.202,1,0,0,no_crisis
+10,CAF,Central African Republic,2001,0,744.3061387,0,1,0,3.843,1,0,0,no_crisis
+10,CAF,Central African Republic,2002,0,625.4953752,0,1,0,2.298,1,0,0,no_crisis
+10,CAF,Central African Republic,2003,0,519.3642122,0,1,0,4.353,1,0,0,no_crisis
+10,CAF,Central African Republic,2004,0,481.5777109,0,1,0,-2.244,1,0,0,no_crisis
+10,CAF,Central African Republic,2005,0,556.0371281,0,1,0,2.885,1,0,0,no_crisis
+10,CAF,Central African Republic,2006,0,498.0690964,0,1,0,6.694,1,0,0,no_crisis
+10,CAF,Central African Republic,2007,0,445.5926907,0,1,0,0.935,1,0,0,no_crisis
+10,CAF,Central African Republic,2008,0,471.3350578,0,1,0,9.262,1,0,0,no_crisis
+10,CAF,Central African Republic,2009,0,455.3359711,0,1,0,3.522,1,0,0,no_crisis
+10,CAF,Central African Republic,2010,0,490.9122886,0,1,0,1.491,1,0,0,no_crisis
+10,CAF,Central African Republic,2011,0,506.9611253,0,1,0,1.195,1,0,0,no_crisis
+10,CAF,Central African Republic,2012,0,497.1631044,0,1,0,5.874,1,0,0,no_crisis
+10,CAF,Central African Republic,2013,0,475.6413603,0,1,0,6.552,1,0,0,no_crisis
+10,CAF,Central African Republic,2014,0,540.2825138,0,1,0,11.584,1,0,0,no_crisis
+15,CIV,Ivory Coast,1952,0,0,0,0,0,16.21609969,0,0,0,no_crisis
+15,CIV,Ivory Coast,1953,0,0,0,0,0,2.326185353,0,0,0,no_crisis
+15,CIV,Ivory Coast,1954,0,0,0,0,0,-2.273304086,0,0,0,no_crisis
+15,CIV,Ivory Coast,1955,0,0,0,0,0,2.326185353,0,0,0,no_crisis
+15,CIV,Ivory Coast,1956,0,0,0,0,0,4.54479533,0,0,0,no_crisis
+15,CIV,Ivory Coast,1957,0,0,0,0,0,13.04340287,0,0,0,no_crisis
+15,CIV,Ivory Coast,1958,0,0,0,0,0,21.15476063,0,0,1,no_crisis
+15,CIV,Ivory Coast,1959,0,0,0,0,0,6.348281887,0,0,0,no_crisis
+15,CIV,Ivory Coast,1960,0,0,0,0,0,-2.152483452,1,0,0,no_crisis
+15,CIV,Ivory Coast,1961,0,0,0,0,0,14.43033046,1,0,0,no_crisis
+15,CIV,Ivory Coast,1962,0,0,0,0,0,-0.177568901,1,0,0,no_crisis
+15,CIV,Ivory Coast,1963,0,0,0,0,0,8.719549217,1,0,0,no_crisis
+15,CIV,Ivory Coast,1964,0,0,0,0,0,-3.169044947,1,0,0,no_crisis
+15,CIV,Ivory Coast,1965,0,0,0,0,0,1.757528693,1,0,0,no_crisis
+15,CIV,Ivory Coast,1966,0,0,0,0,0,4.665098294,1,0,0,no_crisis
+15,CIV,Ivory Coast,1967,0,0,0,0,0,2.766186537,1,0,0,no_crisis
+15,CIV,Ivory Coast,1968,0,0,0,0,0,7.747595621,1,0,0,no_crisis
+15,CIV,Ivory Coast,1969,0,0,0,0,0,2.502927383,1,0,0,no_crisis
+15,CIV,Ivory Coast,1970,0,278,0,0,0,8.075116891,1,0,0,no_crisis
+15,CIV,Ivory Coast,1971,0,264,0,0,0,-1.07225635,1,0,0,no_crisis
+15,CIV,Ivory Coast,1972,0,255.5,0,0,0,1.194615424,1,0,0,no_crisis
+15,CIV,Ivory Coast,1973,0,238,0,0,0,12.9325741,1,0,0,no_crisis
+15,CIV,Ivory Coast,1974,0,222,0,0,0,18.22418299,1,0,0,no_crisis
+15,CIV,Ivory Coast,1975,0,220,0,0,0,10.61769304,1,0,0,no_crisis
+15,CIV,Ivory Coast,1976,0,247,0,0,0,12.90885269,1,0,0,no_crisis
+15,CIV,Ivory Coast,1977,0,236,0,0,0,24.48243736,1,0,1,no_crisis
+15,CIV,Ivory Coast,1978,0,243.5,0,0,0,16.03173523,1,0,0,no_crisis
+15,CIV,Ivory Coast,1979,0,205,0,0,0,21.75954473,1,0,1,no_crisis
+15,CIV,Ivory Coast,1980,0,221,0,0,0,8.81,1,0,0,no_crisis
+15,CIV,Ivory Coast,1981,0,290,0,0,0,8.682,1,0,0,no_crisis
+15,CIV,Ivory Coast,1982,0,352,0,0,0,7.389,1,0,0,no_crisis
+15,CIV,Ivory Coast,1983,0,450,0,1,0,5.879,1,0,0,no_crisis
+15,CIV,Ivory Coast,1984,0,486.5,0,1,0,4.281,1,0,0,no_crisis
+15,CIV,Ivory Coast,1985,0,380,0,1,0,1.753,1,0,0,no_crisis
+15,CIV,Ivory Coast,1986,0,319,0,1,0,6.837,1,0,0,no_crisis
+15,CIV,Ivory Coast,1987,0,277,0,1,0,6.978,1,0,0,no_crisis
+15,CIV,Ivory Coast,1988,1,310,0,1,0,6.935,1,0,0,crisis
+15,CIV,Ivory Coast,1989,1,305,0,1,0,0.986,1,0,0,crisis
+15,CIV,Ivory Coast,1990,1,267,0,1,0,-0.658,1,0,0,crisis
+15,CIV,Ivory Coast,1991,1,265,0,1,0,1.575,1,0,0,crisis
+15,CIV,Ivory Coast,1992,0,278,0,1,0,4.218,1,0,0,no_crisis
+15,CIV,Ivory Coast,1993,0,297,0,1,0,2.13,1,0,0,no_crisis
+15,CIV,Ivory Coast,1994,0,540,0,1,0,25.956,1,1,1,no_crisis
+15,CIV,Ivory Coast,1995,0,495,0,1,0,14.1,1,0,0,no_crisis
+15,CIV,Ivory Coast,1996,0,525.7,0,1,0,2.7,1,0,0,no_crisis
+15,CIV,Ivory Coast,1997,0,616,0,1,0,6.301,1,0,0,no_crisis
+15,CIV,Ivory Coast,1998,0,576,0,1,0,5.219,1,0,0,no_crisis
+15,CIV,Ivory Coast,1999,0,0,0,0,0,0.92,1,0,0,no_crisis
+15,CIV,Ivory Coast,2000,0,0,0,1,0,-0.381,1,0,0,no_crisis
+15,CIV,Ivory Coast,2001,0,0,0,1,0,4.355,1,0,0,no_crisis
+15,CIV,Ivory Coast,2002,0,0,0,1,0,3.08,1,0,0,no_crisis
+15,CIV,Ivory Coast,2003,0,0,0,1,0,3.297,1,0,0,no_crisis
+15,CIV,Ivory Coast,2004,0,0,0,1,0,1.459,1,0,0,no_crisis
+15,CIV,Ivory Coast,2005,0,0,0,1,0,3.884,1,0,0,no_crisis
+15,CIV,Ivory Coast,2006,0,0,0,1,0,2.466,1,0,0,no_crisis
+15,CIV,Ivory Coast,2007,0,0,0,1,0,1.896,1,0,0,no_crisis
+15,CIV,Ivory Coast,2008,0,0,0,1,0,6.315,1,0,0,no_crisis
+15,CIV,Ivory Coast,2009,0,0,0,1,0,1.009,1,0,0,no_crisis
+15,CIV,Ivory Coast,2010,0,0,0,1,0,1.8,1,0,0,no_crisis
+15,CIV,Ivory Coast,2011,0,0,0,1,0,4.448,1,0,0,no_crisis
+15,CIV,Ivory Coast,2012,0,0,0,1,0,1.3,1,0,0,no_crisis
+15,CIV,Ivory Coast,2013,0,0,0,0,0,2.584,1,0,0,no_crisis
+15,CIV,Ivory Coast,2014,0,0,0,0,0,0.449,1,0,0,no_crisis
+19,EGY,Egypt,1860,0,0.20661157,0,0,0,5.944477972,1,0,0,no_crisis
+19,EGY,Egypt,1861,0,0.20661157,0,0,0,5.952720023,1,0,0,no_crisis
+19,EGY,Egypt,1862,0,0.20661157,0,0,0,5.940860215,1,0,0,no_crisis
+19,EGY,Egypt,1863,0,0.20661157,0,0,0,5.95026643,1,0,0,no_crisis
+19,EGY,Egypt,1864,0,0.20661157,0,0,0,5.951383068,1,0,0,no_crisis
+19,EGY,Egypt,1865,0,0.20661157,0,0,0,5.944846293,1,0,0,no_crisis
+19,EGY,Egypt,1866,0,0.20661157,0,0,0,5.941967143,1,0,0,no_crisis
+19,EGY,Egypt,1867,0,0.20661157,0,0,0,5.95106233,1,0,0,no_crisis
+19,EGY,Egypt,1868,0,0.20661157,0,0,0,5.94943927,1,0,0,no_crisis
+19,EGY,Egypt,1869,0,0.1967,0,0,0,5.938284894,1,0,0,no_crisis
+19,EGY,Egypt,1870,0,0.196,0,0,0,5.952582557,1,0,0,no_crisis
+19,EGY,Egypt,1871,0,0.1978,0,0,0,12.97850236,1,0,0,no_crisis
+19,EGY,Egypt,1872,0,0.1984,0,0,0,-4.201740115,1,0,0,no_crisis
+19,EGY,Egypt,1873,0,0.197,0,0,0,-4.171896921,1,0,0,no_crisis
+19,EGY,Egypt,1874,0,0.198,0,0,0,1.556480197,1,0,0,no_crisis
+19,EGY,Egypt,1875,0,0.1941,0,0,0,-8.528072838,1,0,0,no_crisis
+19,EGY,Egypt,1876,0,0.1983,0,1,0.4,-10.87425348,1,0,0,no_crisis
+19,EGY,Egypt,1877,0,0.1955,0,1,0.4,-0.43741275,1,0,0,no_crisis
+19,EGY,Egypt,1878,0,0.1967,0,1,0.4,-0.514114788,1,0,0,no_crisis
+19,EGY,Egypt,1879,0,0.1981,0,1,0.4,10.55153622,1,0,0,no_crisis
+19,EGY,Egypt,1880,0,0.201,0,1,0.4,1.784803672,1,0,0,no_crisis
+19,EGY,Egypt,1881,0,0.2,0,0,0,-12.40814963,1,0,0,no_crisis
+19,EGY,Egypt,1882,0,0.1998,0,0,0,4.232602479,1,0,0,no_crisis
+19,EGY,Egypt,1883,0,0.1998,0,0,0,-2.231571246,1,0,0,no_crisis
+19,EGY,Egypt,1884,0,0.2003,0,0,0,-0.477081384,1,0,0,no_crisis
+19,EGY,Egypt,1885,0,0.1991,0,0,0,-6.438575054,1,0,0,no_crisis
+19,EGY,Egypt,1886,0,0.2007,0,0,0,3.616636528,1,0,0,no_crisis
+19,EGY,Egypt,1887,0,0.1999,0,0,0,-2.840798914,1,0,0,no_crisis
+19,EGY,Egypt,1888,0,0.1987,0,0,0,-6.216944417,1,0,0,no_crisis
+19,EGY,Egypt,1889,0,0.2005,0,0,0,-12.33241115,1,0,0,no_crisis
+19,EGY,Egypt,1890,0,0.2003,0,0,0,7.949993931,1,0,0,no_crisis
+19,EGY,Egypt,1891,0,0.201,0,0,0,10.17539915,1,0,0,no_crisis
+19,EGY,Egypt,1892,0,0.1993,0,0,0,1.959383611,1,0,0,no_crisis
+19,EGY,Egypt,1893,0,0.1983,0,0,0,-13.92253028,1,0,0,no_crisis
+19,EGY,Egypt,1894,0,0.199,0,0,0,-4.953488372,1,0,0,no_crisis
+19,EGY,Egypt,1895,0,0.1971,0,0,0,-5.578664057,1,0,0,no_crisis
+19,EGY,Egypt,1896,0,0.1976,0,0,0,9.70458668,1,0,0,no_crisis
+19,EGY,Egypt,1897,0,0.1986,0,0,0,2.846344632,1,0,0,no_crisis
+19,EGY,Egypt,1898,0,0.1985,0,0,0,14.21681213,1,0,0,no_crisis
+19,EGY,Egypt,1899,0,0.1951,0,0,0,-6.374422378,1,0,0,no_crisis
+19,EGY,Egypt,1900,0,0.1999,0,0,0,7.388316151,1,0,0,no_crisis
+19,EGY,Egypt,1901,0,0.1975,0,0,0,0.11,1,0,0,no_crisis
+19,EGY,Egypt,1902,0,0.1988,0,0,0,-0.549395665,1,0,0,no_crisis
+19,EGY,Egypt,1903,0,0.2009,0,0,0,-7.533145842,1,0,0,no_crisis
+19,EGY,Egypt,1904,0,0.1994,0,0,0,-2.639582881,1,0,0,no_crisis
+19,EGY,Egypt,1905,0,0.201,0,0,0,15.36315966,1,0,0,no_crisis
+19,EGY,Egypt,1906,0,0.2003,0,0,0,9.448742747,1,0,0,no_crisis
+19,EGY,Egypt,1907,1,0.2006,0,0,0,1.307767076,1,0,0,crisis
+19,EGY,Egypt,1908,0,0.1994,0,0,0,8.87047536,1,0,0,no_crisis
+19,EGY,Egypt,1909,0,0.1995,0,0,0,1.185707419,1,0,0,no_crisis
+19,EGY,Egypt,1910,0,0.1999,0,0,0,-11.7418844,1,0,0,no_crisis
+19,EGY,Egypt,1911,0,0.1996,0,0,0,1.291827398,1,0,0,no_crisis
+19,EGY,Egypt,1912,0,0.1998,0,0,0,6.24391108,1,0,0,no_crisis
+19,EGY,Egypt,1913,0,0.2007,0,0,0,11.40380127,1,0,0,no_crisis
+19,EGY,Egypt,1914,0,0.1996,0,0,0,-1.137384017,1,0,0,no_crisis
+19,EGY,Egypt,1915,0,0.206,0,0,0,-16.00060551,1,0,0,no_crisis
+19,EGY,Egypt,1916,0,0.2049,0,0,0,19.326921,1,0,0,no_crisis
+19,EGY,Egypt,1917,0,0.2049,0,0,0,35.4800225,1,0,1,no_crisis
+19,EGY,Egypt,1918,0,0.2042,0,0,0,18.04671609,1,0,0,no_crisis
+19,EGY,Egypt,1919,0,0.2554,0,0,0,12.1743099,1,0,0,no_crisis
+19,EGY,Egypt,1920,0,0.2787,0,0,0,20.60262757,1,0,1,no_crisis
+19,EGY,Egypt,1921,0,0.2343,0,0,0,-28.50213688,1,0,0,no_crisis
+19,EGY,Egypt,1922,0,0.2112,0,0,0,-11.8067676,1,0,0,no_crisis
+19,EGY,Egypt,1923,0,0.2244,0,0,0,-10.90447887,1,0,0,no_crisis
+19,EGY,Egypt,1924,0,0.2074,0,0,0,7.201266764,1,0,0,no_crisis
+19,EGY,Egypt,1925,0,0.2008,0,0,0,5.682103785,1,0,0,no_crisis
+19,EGY,Egypt,1926,0,0.2011,0,0,0,-11.35479535,1,0,0,no_crisis
+19,EGY,Egypt,1927,0,0.1998,0,0,0,-8.356955722,1,0,0,no_crisis
+19,EGY,Egypt,1928,0,0.201,0,0,0,4.5057024,1,0,0,no_crisis
+19,EGY,Egypt,1929,0,0.1998,0,0,0,-3.339660342,1,0,0,no_crisis
+19,EGY,Egypt,1930,0,0.2008,0,0,0,-6.922294859,1,0,0,no_crisis
+19,EGY,Egypt,1931,1,0.289,0,0,0,-5.020231154,1,0,0,crisis
+19,EGY,Egypt,1932,0,0.2975,0,0,0,-10.84823995,1,0,0,no_crisis
+19,EGY,Egypt,1933,0,0.1906,0,0,0,-9.7931274,1,0,0,no_crisis
+19,EGY,Egypt,1934,0,0.1971,0,0,0,23.96925479,1,0,1,no_crisis
+19,EGY,Egypt,1935,0,0.1979,0,0,0,5.648570427,1,0,0,no_crisis
+19,EGY,Egypt,1936,0,0.1987,0,0,0,-7.249727068,1,0,0,no_crisis
+19,EGY,Egypt,1937,0,0.1952,0,0,0,-1.022813275,1,0,0,no_crisis
+19,EGY,Egypt,1938,0,0.2088,0,0,0,11.43314281,1,0,0,no_crisis
+19,EGY,Egypt,1939,0,0.2481,0,0,0,-1.435148115,1,0,0,no_crisis
+19,EGY,Egypt,1940,0,0.2416,0,0,0,10.38362042,1,0,0,no_crisis
+19,EGY,Egypt,1941,0,0.2416,0,0,0,24.18818835,1,0,1,no_crisis
+19,EGY,Egypt,1942,0,0.2416,0,0,0,40.76638415,1,0,1,no_crisis
+19,EGY,Egypt,1943,0,0.2416,0,0,0,17.48643148,1,0,0,no_crisis
+19,EGY,Egypt,1944,0,0.2416,0,0,0,11.37938502,1,0,0,no_crisis
+19,EGY,Egypt,1945,0,0.2416,0,0,0,0,1,0,0,no_crisis
+19,EGY,Egypt,1946,0,0.2416,0,0,0,2.119179547,1,0,0,no_crisis
+19,EGY,Egypt,1947,0,0.2416,0,0,0,-3.112803427,1,0,0,no_crisis
+19,EGY,Egypt,1948,0,0.2416,0,0,0,0.713958211,1,0,0,no_crisis
+19,EGY,Egypt,1949,0,0.3484,0,0,0,0,1,1,0,no_crisis
+19,EGY,Egypt,1950,0,0.3484,0,0,0,8.510015609,1,0,0,no_crisis
+19,EGY,Egypt,1951,0,0.3484,0,0,0,7.599868141,1,0,0,no_crisis
+19,EGY,Egypt,1952,0,0.3484,0,0,0,-10.25483916,1,0,0,no_crisis
+19,EGY,Egypt,1953,0,0.3484,0,0,0,-0.952735624,1,0,0,no_crisis
+19,EGY,Egypt,1954,0,0.3484,0,0,0,-2.885699962,1,0,0,no_crisis
+19,EGY,Egypt,1955,0,0.3484,0,0,0,0,1,0,0,no_crisis
+19,EGY,Egypt,1956,0,0.3484,0,0,0,3.961929343,1,0,0,no_crisis
+19,EGY,Egypt,1957,0,0.3509,0,0,0,3.249231915,1,0,0,no_crisis
+19,EGY,Egypt,1958,0,0.3509,0,0,0,-1.340547039,1,0,0,no_crisis
+19,EGY,Egypt,1959,0,0.3509,0,0,0,0.694613697,1,0,0,no_crisis
+19,EGY,Egypt,1960,0,0.3509,0,0,0,0.726128525,1,0,0,no_crisis
+19,EGY,Egypt,1961,0,0.3509,0,0,0,1.17746005,1,0,0,no_crisis
+19,EGY,Egypt,1962,0,0.4348,0,0,0,-4.203776274,1,1,0,no_crisis
+19,EGY,Egypt,1963,0,0.4348,0,0,0,2.060865254,1,0,0,no_crisis
+19,EGY,Egypt,1964,0,0.4348,0,0,0,7.824338769,1,0,0,no_crisis
+19,EGY,Egypt,1965,0,0.4348,0,0,0,13.12090131,1,0,0,no_crisis
+19,EGY,Egypt,1966,0,0.4348,0,0,0,6.693697414,1,0,0,no_crisis
+19,EGY,Egypt,1967,0,0.4348,0,0,0,0.119617553,1,0,0,no_crisis
+19,EGY,Egypt,1968,0,0.4348,0,0,0,0.455818017,1,0,0,no_crisis
+19,EGY,Egypt,1969,0,0.4348,0,0,0,3.676736584,1,0,0,no_crisis
+19,EGY,Egypt,1970,0,0.4348,0,0,0,3.36871659,1,0,0,no_crisis
+19,EGY,Egypt,1971,0,0.4348,0,0,0,2.942979233,1,0,0,no_crisis
+19,EGY,Egypt,1972,0,0.4348,0,0,0,2.424102664,1,0,0,no_crisis
+19,EGY,Egypt,1973,0,0.4348,0,0,0,5.740312478,1,0,0,no_crisis
+19,EGY,Egypt,1974,0,0.3913,0,0,0,10.64040499,1,0,0,no_crisis
+19,EGY,Egypt,1975,0,0.3913,0,0,0,9.899265451,1,0,0,no_crisis
+19,EGY,Egypt,1976,0,0.3913,0,0,0,10.29192345,1,0,0,no_crisis
+19,EGY,Egypt,1977,0,0.3913,0,0,0,11.61462645,1,0,0,no_crisis
+19,EGY,Egypt,1978,0,0.3913,0,0,0,11.27087249,1,0,0,no_crisis
+19,EGY,Egypt,1979,0,0.7,0,0,0,9.90279235,1,1,0,no_crisis
+19,EGY,Egypt,1980,1,0.699999999,0,0,0,20.5,1,0,1,no_crisis
+19,EGY,Egypt,1981,1,0.699999999,0,0,0,10.4,1,0,0,crisis
+19,EGY,Egypt,1982,1,0.699999999,0,0,0,14.9,1,0,0,crisis
+19,EGY,Egypt,1983,1,0.699999999,0,0,0,15.982,1,0,0,crisis
+19,EGY,Egypt,1984,0,0.7,0,1,0.4,17.06,1,0,0,no_crisis
+19,EGY,Egypt,1985,0,0.7,0,0,0,12.108,1,0,0,no_crisis
+19,EGY,Egypt,1986,0,0.7,0,0,0,23.9,1,0,1,no_crisis
+19,EGY,Egypt,1987,0,0.7,0,0,0,25.185,1,0,1,no_crisis
+19,EGY,Egypt,1988,0,0.7,0,0,0,15.185,1,0,0,no_crisis
+19,EGY,Egypt,1989,0,1.1,0,0,0,20.129,1,1,1,no_crisis
+19,EGY,Egypt,1990,0,2,0,0,0,21.219,1,1,1,crisis
+19,EGY,Egypt,1991,0,3.33221,0,0,0,14.737,1,1,0,crisis
+19,EGY,Egypt,1992,0,3.33861,0,0,0,21.142,1,0,1,crisis
+19,EGY,Egypt,1993,0,3.3718,0,0,0,11.042,1,0,0,crisis
+19,EGY,Egypt,1994,0,3.391,0,0,0,9.046,1,0,0,crisis
+19,EGY,Egypt,1995,0,3.39,0,0,0,9.361,1,0,0,crisis
+19,EGY,Egypt,1996,0,3.388,0,0,0,7.095,1,0,0,no_crisis
+19,EGY,Egypt,1997,0,3.388,0,0,0,6.167,1,0,0,no_crisis
+19,EGY,Egypt,1998,0,3.388,0,0,0,5.041,1,0,0,no_crisis
+19,EGY,Egypt,1999,0,3.405,0,0,0,3.745,1,0,0,no_crisis
+19,EGY,Egypt,2000,0,3.69,0,0,0,2.849,1,0,0,no_crisis
+19,EGY,Egypt,2001,0,4.49,0,0,0,2.431,1,1,0,no_crisis
+19,EGY,Egypt,2002,0,4.5,0,0,0,3.21,1,0,0,no_crisis
+19,EGY,Egypt,2003,0,6.1532,0,0,0,0,1,1,0,no_crisis
+19,EGY,Egypt,2004,0,6.1314,0,0,0,8.106,1,0,0,no_crisis
+19,EGY,Egypt,2005,0,5.7322,0,0,0,8.826,1,0,0,no_crisis
+19,EGY,Egypt,2006,0,5.7036,0,0,0,4.202,1,0,0,no_crisis
+19,EGY,Egypt,2007,0,5.5038,0,0,0,10.959,1,0,0,no_crisis
+19,EGY,Egypt,2008,0,5.5041,0,0,0,11.698,1,0,0,no_crisis
+19,EGY,Egypt,2009,0,5.4754,0,0,0,16.24,1,0,0,no_crisis
+19,EGY,Egypt,2010,0,5.7926,0,0,0,11.69,1,0,0,no_crisis
+19,EGY,Egypt,2011,0,6.0169,0,0,0,11.09,1,0,0,no_crisis
+19,EGY,Egypt,2012,0,6.3057,0,0,0,8.65,1,0,0,no_crisis
+19,EGY,Egypt,2013,0,6.94,0,0,0,6.914,1,0,0,no_crisis
+19,EGY,Egypt,2014,0,7.15,0,0,0,10.099,1,0,0,no_crisis
+35,KEN,Kenya,1948,0,4.9582,0,0,0,9.339830607,0,0,0,no_crisis
+35,KEN,Kenya,1949,0,4.9582,0,0,0,3.522920204,0,0,0,no_crisis
+35,KEN,Kenya,1950,0,7.1428,0,0,0,8.553710537,0,0,0,no_crisis
+35,KEN,Kenya,1951,0,7.1428,0,0,0,10.87767339,0,0,0,no_crisis
+35,KEN,Kenya,1952,0,7.1428,0,0,0,6.450926123,0,0,0,no_crisis
+35,KEN,Kenya,1953,0,7.1428,0,0,0,3.032,0,0,0,no_crisis
+35,KEN,Kenya,1954,0,7.1429,0,0,0,4.410280301,0,0,0,no_crisis
+35,KEN,Kenya,1955,0,7.1429,0,0,0,6.369450435,0,0,0,no_crisis
+35,KEN,Kenya,1956,0,7.1429,0,0,0,1.786276086,0,0,0,no_crisis
+35,KEN,Kenya,1957,0,7.1429,0,0,0,2.630675184,0,0,0,no_crisis
+35,KEN,Kenya,1958,0,7.1429,0,0,0,0,0,0,0,no_crisis
+35,KEN,Kenya,1959,0,7.1429,0,0,0,0.856645697,0,0,0,no_crisis
+35,KEN,Kenya,1960,0,7.1429,0,0,0,0.846051758,0,0,0,no_crisis
+35,KEN,Kenya,1961,0,7.1429,0,0,0,2.520151341,0,0,0,no_crisis
+35,KEN,Kenya,1962,0,7.1429,0,0,0,2.740605244,0,0,0,no_crisis
+35,KEN,Kenya,1963,0,7.1429,0,0,0,0,1,0,0,no_crisis
+35,KEN,Kenya,1964,0,7.1429,0,0,0,-0.285715557,1,0,0,no_crisis
+35,KEN,Kenya,1965,0,7.1429,0,0,0,5.762329909,1,0,0,no_crisis
+35,KEN,Kenya,1966,0,7.1429,0,0,0,3.761913134,1,0,0,no_crisis
+35,KEN,Kenya,1967,0,7.1429,0,0,0,0.537398087,1,0,0,no_crisis
+35,KEN,Kenya,1968,0,7.1429,0,0,0,0.661865236,1,0,0,no_crisis
+35,KEN,Kenya,1969,0,7.1429,0,0,0,-0.131090559,1,0,0,no_crisis
+35,KEN,Kenya,1970,0,7.1429,0,0,0,1.832593812,1,0,0,no_crisis
+35,KEN,Kenya,1971,0,7.1429,0,0,0,5.614773537,1,0,0,no_crisis
+35,KEN,Kenya,1972,0,7.1429,0,0,0,4.52521913,1,0,0,no_crisis
+35,KEN,Kenya,1973,0,6.9,0,0,0,12.66289775,1,0,0,no_crisis
+35,KEN,Kenya,1974,0,7.1429,0,0,0,16.41376144,1,0,0,no_crisis
+35,KEN,Kenya,1975,0,7.1429,0,0,0,19.7347384,1,0,0,no_crisis
+35,KEN,Kenya,1976,0,8.27,0,0,0,9.527607326,1,1,0,no_crisis
+35,KEN,Kenya,1977,0,7.9471,0,0,0,18.01088176,1,0,0,no_crisis
+35,KEN,Kenya,1978,0,7.1588,0,0,0,15.35621451,1,0,0,no_crisis
+35,KEN,Kenya,1979,0,7.3276,0,0,0,8.080283232,1,0,0,no_crisis
+35,KEN,Kenya,1980,0,7.568499999,0,0,0,13.866,1,0,0,no_crisis
+35,KEN,Kenya,1981,0,10.2862,0,0,0,7.895,1,1,0,no_crisis
+35,KEN,Kenya,1982,0,12.7249,0,0,0,13.821,1,1,0,no_crisis
+35,KEN,Kenya,1983,0,13.7959,0,0,0,11.603,1,0,0,no_crisis
+35,KEN,Kenya,1984,0,15.7813,0,0,0,20.667,1,0,1,no_crisis
+35,KEN,Kenya,1985,1,16.2843,0,0,0,11.398,1,0,0,crisis
+35,KEN,Kenya,1986,1,16.0422,0,0,0,10.284,1,0,0,crisis
+35,KEN,Kenya,1987,1,16.5149,0,0,0,13.007,1,0,0,crisis
+35,KEN,Kenya,1988,1,18.5994,0,0,0,4.804,1,0,0,crisis
+35,KEN,Kenya,1989,1,21.601,0,0,0,7.617,1,1,0,no_crisis
+35,KEN,Kenya,1990,0,24.0841,0,0,0,11.2,1,0,0,no_crisis
+35,KEN,Kenya,1991,0,28.0741,0,0,0,19.104,1,1,0,no_crisis
+35,KEN,Kenya,1992,1,36.2163,0,0,0,27.332,1,1,1,crisis
+35,KEN,Kenya,1993,1,68.1631,0,0,0,45.979,1,1,1,crisis
+35,KEN,Kenya,1994,1,44.8389,0,1,0,28.814,1,0,1,crisis
+35,KEN,Kenya,1995,1,55.9389,0,1,0,1.554,1,0,0,crisis
+35,KEN,Kenya,1996,1,55.0211,0,1,0,8.862,1,0,0,no_crisis
+35,KEN,Kenya,1997,1,62.6778,0,1,0,11.924,1,0,0,no_crisis
+35,KEN,Kenya,1998,1,61.9056,0,1,0,6.716,1,0,0,no_crisis
+35,KEN,Kenya,1999,1,72.9306,0,0,0,5.753,1,1,0,no_crisis
+35,KEN,Kenya,2000,0,78.0361,0,1,0,9.955,1,0,0,no_crisis
+35,KEN,Kenya,2001,0,78.6,0,0,0,5.824,1,0,0,no_crisis
+35,KEN,Kenya,2002,0,77.0722,0,0,0,2.156,1,0,0,no_crisis
+35,KEN,Kenya,2003,0,76.1389,0,0,0,5.983,1,0,0,no_crisis
+35,KEN,Kenya,2004,0,77.3444,0,0,0,8.381,1,0,0,no_crisis
+35,KEN,Kenya,2005,0,72.3667,0,0,0,7.823,1,0,0,no_crisis
+35,KEN,Kenya,2006,0,69.3967,0,0,0,6.041,1,0,0,no_crisis
+35,KEN,Kenya,2007,0,62.675,0,0,0,4.265,1,0,0,no_crisis
+35,KEN,Kenya,2008,0,77.71111111,0,0,0,15.101,1,1,0,no_crisis
+35,KEN,Kenya,2009,0,75.82,0,0,0,10.552,1,0,0,no_crisis
+35,KEN,Kenya,2010,0,80.75194444,0,0,0,4.309,1,0,0,no_crisis
+35,KEN,Kenya,2011,0,85.0681,0,0,0,14.022,1,0,0,no_crisis
+35,KEN,Kenya,2012,0,86.0008,0,0,0,9.378,1,0,0,no_crisis
+35,KEN,Kenya,2013,0,86.31,0,0,0,5.717,1,0,0,no_crisis
+35,KEN,Kenya,2014,0,89.35,0,0,0,6.878,1,0,0,no_crisis
+38,MUS,Mauritius,1947,0,3.3085,0,0,0,-9.090909091,0,0,0,no_crisis
+38,MUS,Mauritius,1948,0,3.3085,0,0,0,31.99785465,0,0,1,no_crisis
+38,MUS,Mauritius,1949,0,4.7619,0,0,0,1.023932388,0,0,0,no_crisis
+38,MUS,Mauritius,1950,0,4.7619,0,0,0,4.904878735,0,0,0,no_crisis
+38,MUS,Mauritius,1951,0,4.79201,0,0,0,11.15115499,0,0,0,no_crisis
+38,MUS,Mauritius,1952,0,4.74495,0,0,0,1.941981994,0,0,0,no_crisis
+38,MUS,Mauritius,1953,0,4.74292,0,0,0,-0.634431887,0,0,0,no_crisis
+38,MUS,Mauritius,1954,0,4.78754,0,0,0,0.956872627,0,0,0,no_crisis
+38,MUS,Mauritius,1955,0,4.75544,0,0,0,-0.315372291,0,0,0,no_crisis
+38,MUS,Mauritius,1956,0,4.78651,0,0,0,2.857481221,0,0,0,no_crisis
+38,MUS,Mauritius,1957,0,4.66297,0,0,0,-0.926032535,0,0,0,no_crisis
+38,MUS,Mauritius,1958,0,4.75764,0,0,0,0.622571969,0,0,0,no_crisis
+38,MUS,Mauritius,1959,0,4.76189,0,0,0,-0.618719992,0,0,0,no_crisis
+38,MUS,Mauritius,1960,0,4.75544,0,0,0,1.8693761,0,0,0,no_crisis
+38,MUS,Mauritius,1961,0,4.74816,0,0,0,-0.612777053,0,0,0,no_crisis
+38,MUS,Mauritius,1962,0,4.75764,0,0,0,0.798570117,0,0,0,no_crisis
+38,MUS,Mauritius,1963,0,4.76768,0,0,0,1.753672463,1,0,0,no_crisis
+38,MUS,Mauritius,1964,0,4.77879,0,0,0,1.8269885,1,0,0,no_crisis
+38,MUS,Mauritius,1965,0,4.75714,0,0,0,1.893322561,1,0,0,no_crisis
+38,MUS,Mauritius,1966,0,4.77862,0,0,0,2.982014118,1,0,0,no_crisis
+38,MUS,Mauritius,1967,0,5.541,0,0,0,2.937830401,1,0,0,no_crisis
+38,MUS,Mauritius,1968,0,5.59189,0,0,0,5.329676052,1,0,0,no_crisis
+38,MUS,Mauritius,1969,0,5.55392,0,0,0,2.978677387,1,0,0,no_crisis
+38,MUS,Mauritius,1970,0,5.57016,0,0,0,0.011228728,1,0,0,no_crisis
+38,MUS,Mauritius,1971,0,5.22362,0,0,0,1.886196037,1,0,0,no_crisis
+38,MUS,Mauritius,1972,0,5.6783,0,0,0,5.551930333,1,0,0,no_crisis
+38,MUS,Mauritius,1973,0,5.7392,0,0,0,20.82296472,1,0,1,no_crisis
+38,MUS,Mauritius,1974,0,5.6774,0,0,0,23.79801683,1,0,1,no_crisis
+38,MUS,Mauritius,1975,0,6.5892,0,0,0,15.20534955,1,0,0,no_crisis
+38,MUS,Mauritius,1976,0,6.639,0,0,0,10.75945144,1,0,0,no_crisis
+38,MUS,Mauritius,1977,0,6.3503,0,0,0,9.794534493,1,0,0,no_crisis
+38,MUS,Mauritius,1978,0,5.921,0,0,0,9.063188827,1,0,0,no_crisis
+38,MUS,Mauritius,1979,0,7.5855,0,0,0,23.21616753,1,1,1,no_crisis
+38,MUS,Mauritius,1980,0,7.8349,0,0,0,33.04,1,0,1,no_crisis
+38,MUS,Mauritius,1981,0,10.3293,0,0,0,26.45,1,1,1,no_crisis
+38,MUS,Mauritius,1982,0,10.8605,0,0,0,13.384,1,0,0,no_crisis
+38,MUS,Mauritius,1983,0,12.7233,0,0,0,7.452,1,1,0,no_crisis
+38,MUS,Mauritius,1984,0,15.6033,0,0,0,5.525,1,1,0,no_crisis
+38,MUS,Mauritius,1985,0,14.31,0,0,0,8.321,1,0,0,no_crisis
+38,MUS,Mauritius,1986,0,13.1367,0,0,0,4.336,1,0,0,no_crisis
+38,MUS,Mauritius,1987,0,12.1752,0,0,0,0.719,1,0,0,no_crisis
+38,MUS,Mauritius,1988,0,13.8337,0,0,0,3.6,1,0,0,no_crisis
+38,MUS,Mauritius,1989,0,14.996,0,0,0,13.61,1,0,0,no_crisis
+38,MUS,Mauritius,1990,0,14.322,0,0,0,10.705,1,0,0,no_crisis
+38,MUS,Mauritius,1991,0,14.7939,0,0,0,12.817,1,0,0,no_crisis
+38,MUS,Mauritius,1992,0,16.998,0,0,0,2.857,1,0,0,no_crisis
+38,MUS,Mauritius,1993,0,18.6558,0,0,0,15.288,1,0,0,no_crisis
+38,MUS,Mauritius,1994,0,17.8626,0,0,0,7.335,1,0,0,no_crisis
+38,MUS,Mauritius,1995,0,17.6641,0,0,0,6.026,1,0,0,no_crisis
+38,MUS,Mauritius,1996,0,17.9715,0,0,0,6.553,1,0,0,crisis
+38,MUS,Mauritius,1997,0,22.265,0,0,0,6.831,1,1,0,no_crisis
+38,MUS,Mauritius,1998,0,24.7835,0,0,0,6.808,1,0,0,no_crisis
+38,MUS,Mauritius,1999,0,25.468,0,0,0,6.872,1,0,0,no_crisis
+38,MUS,Mauritius,2000,0,27.8817,0,0,0,4.23,1,0,0,no_crisis
+38,MUS,Mauritius,2001,0,30.3942,0,0,0,5.391,1,0,0,no_crisis
+38,MUS,Mauritius,2002,0,29.1968,0,0,0,6.414,1,0,0,no_crisis
+38,MUS,Mauritius,2003,0,26.0877,0,0,0,3.931,1,0,0,no_crisis
+38,MUS,Mauritius,2004,0,28.2044,0,0,0,4.703,1,0,0,no_crisis
+38,MUS,Mauritius,2005,0,30.6666,0,0,0,4.921,1,0,0,no_crisis
+38,MUS,Mauritius,2006,0,34.3368,0,0,0,8.93,1,0,0,no_crisis
+38,MUS,Mauritius,2007,0,28.2162,0,0,0,8.827,1,0,0,no_crisis
+38,MUS,Mauritius,2008,0,31.7555,0,0,0,9.731,1,0,0,no_crisis
+38,MUS,Mauritius,2009,0,30.2905,0,0,0,2.516,1,0,0,no_crisis
+38,MUS,Mauritius,2010,0,30.39,0,0,0,2.929,1,0,0,no_crisis
+38,MUS,Mauritius,2011,0,29.33,0,0,0,6.526,1,0,0,no_crisis
+38,MUS,Mauritius,2012,0,30.52,0,0,0,4.902,1,0,0,no_crisis
+38,MUS,Mauritius,2013,0,30.12512987,0,0,0,4.131,1,0,0,no_crisis
+38,MUS,Mauritius,2014,0,31.7374584,0,0,0,3.772,1,0,0,no_crisis
+40,MAR,Morocco,1940,0,0.917,0,0,0,25,0,0,1,no_crisis
+40,MAR,Morocco,1941,0,0.917,0,0,0,32,0,0,1,no_crisis
+40,MAR,Morocco,1942,0,0.75,0,0,0,38.1935295,0,0,1,no_crisis
+40,MAR,Morocco,1943,0,0.5,0,0,0,28.50635593,0,1,1,no_crisis
+40,MAR,Morocco,1944,0,0.5674,0,0,0,34.8116396,0,1,1,no_crisis
+40,MAR,Morocco,1945,0,0.5657,0,0,0,18.98618075,0,0,0,no_crisis
+40,MAR,Morocco,1946,0,1.2228,0,0,0,56.75522894,0,0,1,no_crisis
+40,MAR,Morocco,1947,0,1.2228,0,0,0,57.47303544,0,1,1,no_crisis
+40,MAR,Morocco,1948,0,1.2228,0,0,0,40.14656285,0,0,1,no_crisis
+40,MAR,Morocco,1949,0,2.197,0,0,0,22.99979203,0,1,1,no_crisis
+40,MAR,Morocco,1950,0,3.5824,0,0,0,1.625584232,0,1,0,no_crisis
+40,MAR,Morocco,1951,0,3.5824,0,0,0,23.2010648,0,0,1,no_crisis
+40,MAR,Morocco,1952,0,3.5824,0,0,0,5.194366741,0,0,0,no_crisis
+40,MAR,Morocco,1953,0,3.5824,0,0,0,-1.234239604,0,0,0,no_crisis
+40,MAR,Morocco,1954,0,3.5824,0,0,0,2.49932689,0,0,0,no_crisis
+40,MAR,Morocco,1955,0,3.5824,0,0,0,5.86226574,0,0,0,no_crisis
+40,MAR,Morocco,1956,0,3.5824,0,0,0,5.714750199,1,0,0,no_crisis
+40,MAR,Morocco,1957,0,3.5875,0,0,0,2.317242942,1,0,0,no_crisis
+40,MAR,Morocco,1958,0,4.2958,0,0,0,4.383973421,1,1,0,no_crisis
+40,MAR,Morocco,1959,0,4.908,0,0,0,-2.171161818,1,1,0,no_crisis
+40,MAR,Morocco,1960,0,5.0605,0,0,0,2.219347442,1,0,0,no_crisis
+40,MAR,Morocco,1961,0,5.0605,0,0,0,2.27574134,1,0,0,no_crisis
+40,MAR,Morocco,1962,0,5.0241,0,0,0,5.408269117,1,0,0,no_crisis
+40,MAR,Morocco,1963,0,5.0226,0,0,0,5.738828475,1,0,0,no_crisis
+40,MAR,Morocco,1964,0,5.0226,0,0,0,4.233330742,1,0,0,no_crisis
+40,MAR,Morocco,1965,0,5.0235,0,0,0,2.481368989,1,0,0,no_crisis
+40,MAR,Morocco,1966,0,5.0265,0,0,0,-0.234959675,1,0,0,no_crisis
+40,MAR,Morocco,1967,0,5.0276,0,0,0,-1.126519599,1,0,0,no_crisis
+40,MAR,Morocco,1968,0,5.0409,0,0,0,1.138535071,1,0,0,no_crisis
+40,MAR,Morocco,1969,0,5.0493,0,0,0,1.691647635,1,0,0,no_crisis
+40,MAR,Morocco,1970,0,5.0269,0,0,0,1.915840245,1,0,0,no_crisis
+40,MAR,Morocco,1971,0,4.76,0,0,0,4.397441072,1,0,0,no_crisis
+40,MAR,Morocco,1972,0,4.5569,0,0,0,3.211368966,1,0,0,no_crisis
+40,MAR,Morocco,1973,0,3.8851,0,0,0,7.193348119,1,0,0,no_crisis
+40,MAR,Morocco,1974,0,4.1548,0,0,0,15.97890765,1,0,0,no_crisis
+40,MAR,Morocco,1975,0,3.8379,0,0,0,7.00696628,1,0,0,no_crisis
+40,MAR,Morocco,1976,0,4.2041,0,0,0,10.97328486,1,0,0,no_crisis
+40,MAR,Morocco,1977,0,4.32,0,0,0,10.81415052,1,0,0,no_crisis
+40,MAR,Morocco,1978,0,3.88645,0,0,0,9.720054887,1,0,0,no_crisis
+40,MAR,Morocco,1979,0,3.7388,0,0,0,8.651393052,1,0,0,no_crisis
+40,MAR,Morocco,1980,0,4.334149999,0,0,0,9.408,1,0,0,no_crisis
+40,MAR,Morocco,1981,0,5.333349999,0,0,0,12.493,1,0,0,no_crisis
+40,MAR,Morocco,1982,0,6.267549999,0,0,0,10.528,1,0,0,no_crisis
+40,MAR,Morocco,1983,1,8.060999999,0,1,0.13,6.208,1,0,0,crisis
+40,MAR,Morocco,1984,1,9.551199999,0,0,0,12.448,1,0,0,crisis
+40,MAR,Morocco,1985,0,9.621299999,0,0,0,7.729,1,1,0,no_crisis
+40,MAR,Morocco,1986,0,8.7117,0,1,0.13,8.734,1,0,0,no_crisis
+40,MAR,Morocco,1987,0,7.8003,0,1,0.13,2.699,1,0,0,no_crisis
+40,MAR,Morocco,1988,0,8.2106,0,1,0.13,2.369,1,0,0,no_crisis
+40,MAR,Morocco,1989,0,8.1218,0,1,0.13,3.138,1,0,0,no_crisis
+40,MAR,Morocco,1990,0,8.0429,0,1,0.13,6.026,1,0,0,no_crisis
+40,MAR,Morocco,1991,0,8.1499,0,0,0,8.991,1,0,0,no_crisis
+40,MAR,Morocco,1992,0,9.0487,0,0,0,5.74,1,0,0,no_crisis
+40,MAR,Morocco,1993,0,9.6512,0,0,0,5.183,1,0,0,no_crisis
+40,MAR,Morocco,1994,0,8.9596,0,0,0,5.142,1,0,0,no_crisis
+40,MAR,Morocco,1995,0,8.4689,0,0,0,6.124,1,0,0,no_crisis
+40,MAR,Morocco,1996,0,8.7995,0,0,0,2.987,1,0,0,no_crisis
+40,MAR,Morocco,1997,0,9.7141,0,0,0,1.041,1,0,0,no_crisis
+40,MAR,Morocco,1998,0,9.2551,0,0,0,2.745,1,0,0,no_crisis
+40,MAR,Morocco,1999,0,10.087,0,0,0,0.69,1,0,0,no_crisis
+40,MAR,Morocco,2000,0,10.619,0,0,0,1.923,1,0,0,no_crisis
+40,MAR,Morocco,2001,0,11.56,0,0,0,0.613,1,0,0,no_crisis
+40,MAR,Morocco,2002,0,10.167,0,0,0,2.779,1,0,0,no_crisis
+40,MAR,Morocco,2003,0,8.7499,0,0,0,1.163,1,0,0,no_crisis
+40,MAR,Morocco,2004,0,8.2177,0,0,0,1.493,1,0,0,no_crisis
+40,MAR,Morocco,2005,0,9.2494,0,0,0,0.983,1,0,0,no_crisis
+40,MAR,Morocco,2006,0,8.4566,0,0,0,3.285,1,0,0,no_crisis
+40,MAR,Morocco,2007,0,7.7132,0,0,0,2.036,1,0,0,no_crisis
+40,MAR,Morocco,2008,0,8.0982,0,0,0,3.891,1,0,0,no_crisis
+40,MAR,Morocco,2009,0,7.8601,0,0,0,0.972,1,0,0,no_crisis
+40,MAR,Morocco,2010,0,8.3569,0,0,0,0.994,1,0,0,no_crisis
+40,MAR,Morocco,2011,0,8.5772,0,0,0,0.907,1,0,0,no_crisis
+40,MAR,Morocco,2012,0,8.4335,0,0,0,1.287,1,0,0,no_crisis
+40,MAR,Morocco,2013,0,8.15,0,0,0,1.881,1,0,0,no_crisis
+40,MAR,Morocco,2014,0,8.82,0,0,0,0.443,1,0,0,no_crisis
+45,NGA,Nigeria,1954,0,0,0,0,0,3.10291645,0,0,0,no_crisis
+45,NGA,Nigeria,1955,0,0,0,0,0,6.173562277,0,0,0,no_crisis
+45,NGA,Nigeria,1956,0,0,0,0,0,6.862909067,0,0,0,no_crisis
+45,NGA,Nigeria,1957,0,0,0,0,0,1.546396847,0,0,0,no_crisis
+45,NGA,Nigeria,1958,0,0,0,0,0,-3.399990138,0,0,0,no_crisis
+45,NGA,Nigeria,1959,0,0,0,0,0,4.707596881,0,0,0,no_crisis
+45,NGA,Nigeria,1960,0,0,0,0,0,4.325727898,1,0,0,no_crisis
+45,NGA,Nigeria,1961,0,0,0,0,0,6.217386806,1,0,0,no_crisis
+45,NGA,Nigeria,1962,0,0,0,0,0,2.911602856,1,0,0,no_crisis
+45,NGA,Nigeria,1963,0,0,0,0,0,-1.028492383,1,0,0,no_crisis
+45,NGA,Nigeria,1964,0,0,0,0,0,0.938030761,1,0,0,no_crisis
+45,NGA,Nigeria,1965,0,0,0,0,0,4.601492449,1,0,0,no_crisis
+45,NGA,Nigeria,1966,0,0,0,0,0,8.140460297,1,0,0,no_crisis
+45,NGA,Nigeria,1967,0,0,0,0,0,-4.55304656,1,0,0,no_crisis
+45,NGA,Nigeria,1968,0,0,0,0,0,2.733415482,1,0,0,no_crisis
+45,NGA,Nigeria,1969,0,0,0,0,0,11.00320434,1,0,0,no_crisis
+45,NGA,Nigeria,1970,0,0,0,0,0,13.41347233,1,0,0,no_crisis
+45,NGA,Nigeria,1971,0,0,0,0,0,15.47842436,1,0,0,no_crisis
+45,NGA,Nigeria,1972,0,0,0,0,0,-0.008248214,1,0,0,no_crisis
+45,NGA,Nigeria,1973,0,0.657894999,0,0,0,11.67346946,1,1,0,no_crisis
+45,NGA,Nigeria,1974,0,0.616218881,0,0,0,11.25943742,1,0,0,no_crisis
+45,NGA,Nigeria,1975,0,0.614665929,0,0,0,38.50391131,1,0,1,no_crisis
+45,NGA,Nigeria,1976,0,0.631074088,0,0,0,18.33643443,1,0,0,no_crisis
+45,NGA,Nigeria,1977,0,0.651380928,0,0,0,22.3551061,1,0,1,no_crisis
+45,NGA,Nigeria,1978,0,0.64808814,0,0,0,15.78133117,1,0,0,no_crisis
+45,NGA,Nigeria,1979,0,0.570613409,0,0,0,10.06822352,1,0,0,no_crisis
+45,NGA,Nigeria,1980,0,0.544454729,0,0,0,9.97,1,0,0,no_crisis
+45,NGA,Nigeria,1981,0,0.636902109,0,0,0,20.555,1,1,0,no_crisis
+45,NGA,Nigeria,1982,0,0.670241287,0,0,0,5.882,1,0,1,no_crisis
+45,NGA,Nigeria,1983,0,0.748559024,0,0,0,22.222,1,0,0,no_crisis
+45,NGA,Nigeria,1984,0,0.808276754,0,0,0,40.909,1,0,1,no_crisis
+45,NGA,Nigeria,1985,0,0.99960016,0,0,0,3.226,1,1,1,no_crisis
+45,NGA,Nigeria,1986,0,3.316749585,0,0,0,6.25,1,1,0,no_crisis
+45,NGA,Nigeria,1987,0,4.140786749,0,1,0,11.765,1,1,0,no_crisis
+45,NGA,Nigeria,1988,0,5.353319058,0,1,0,34.211,1,1,0,no_crisis
+45,NGA,Nigeria,1989,0,7.651109411,0,1,0,49.02,1,1,1,no_crisis
+45,NGA,Nigeria,1990,0,9.00090009,0,1,0,7.895,1,1,1,no_crisis
+45,NGA,Nigeria,1992,1,19.64636542,0,1,0,44.565,1,1,0,crisis
+45,NGA,Nigeria,1993,1,21.88183807,0,1,0,57.143,1,0,1,crisis
+45,NGA,Nigeria,1994,1,21.99736032,0,1,0,57.416,1,0,1,crisis
+45,NGA,Nigeria,1995,1,21.88662727,0,0,0,72.729,1,0,1,crisis
+45,NGA,Nigeria,1996,0,21.8861,0,0,0,29.292,1,0,1,no_crisis
+45,NGA,Nigeria,1997,0,21.886,0,0,0,10.673,1,0,1,crisis
+45,NGA,Nigeria,1998,0,21.886,0,0,0,7.862,1,0,0,no_crisis
+45,NGA,Nigeria,1999,0,97.95,0,0,0,6.618,1,1,0,no_crisis
+45,NGA,Nigeria,2000,0,109.55,0,0,0,6.938,1,0,0,no_crisis
+45,NGA,Nigeria,2001,0,112.95,0,0,0,18.869,1,0,0,no_crisis
+45,NGA,Nigeria,2002,0,126.4,0,0,0,12.883,1,0,0,no_crisis
+45,NGA,Nigeria,2003,0,136.5,0,0,0,14.033,1,0,0,no_crisis
+45,NGA,Nigeria,2004,0,132.35,0,1,0,15.001,1,0,0,no_crisis
+45,NGA,Nigeria,2005,0,129,0,1,0,17.856,1,0,0,no_crisis
+45,NGA,Nigeria,2006,0,128.27,0,0,0,8.218,1,0,0,no_crisis
+45,NGA,Nigeria,2007,0,117.968,0,0,0,5.413,1,0,0,no_crisis
+45,NGA,Nigeria,2008,0,132.5625,0,0,0,11.581,1,0,0,no_crisis
+45,NGA,Nigeria,2009,1,149.581,0,0,0,12.543,1,0,0,crisis
+45,NGA,Nigeria,2010,1,150.6617,0,0,0,13.72,1,0,0,crisis
+45,NGA,Nigeria,2011,1,158.267,0,0,0,10.841,1,0,0,crisis
+45,NGA,Nigeria,2012,1,155.27,0,0,0,12.225,1,0,0,crisis
+45,NGA,Nigeria,2013,1,155.2,0,0,0,8.495,1,0,0,crisis
+45,NGA,Nigeria,2014,1,155.25,0,0,0,8.048,1,0,0,crisis
+56,ZAF,South Africa,1900,0,0.2061,0,0,0,4.109589041,0,0,0,no_crisis
+56,ZAF,South Africa,1901,0,0.2045,0,0,0,9.204368175,0,0,0,no_crisis
+56,ZAF,South Africa,1902,0,0.2049,0,0,0,2.414285714,0,0,0,no_crisis
+56,ZAF,South Africa,1903,0,0.2047,0,0,0,-8.236853118,0,0,0,no_crisis
+56,ZAF,South Africa,1904,0,0.20455,0,0,0,-5.130348864,0,0,0,no_crisis
+56,ZAF,South Africa,1905,0,0.20485,0,0,0,-6.753725365,0,0,0,no_crisis
+56,ZAF,South Africa,1906,0,0.2053,0,0,0,-7.251482086,0,0,0,no_crisis
+56,ZAF,South Africa,1907,0,0.20405,0,0,0,-1.556276054,0,0,0,no_crisis
+56,ZAF,South Africa,1908,0,0.2052,0,0,0,-1.590288887,0,0,0,no_crisis
+56,ZAF,South Africa,1909,0,0.2049,0,0,0,4.838401224,0,0,0,no_crisis
+56,ZAF,South Africa,1910,0,0.2048,0,0,0,15.38672018,1,0,0,no_crisis
+56,ZAF,South Africa,1911,0,0.2051,0,0,0,3.999683819,1,0,0,no_crisis
+56,ZAF,South Africa,1912,0,0.20485,0,0,0,2.561374173,1,0,0,no_crisis
+56,ZAF,South Africa,1913,0,0.20485,0,0,0,1.252408478,1,0,0,no_crisis
+56,ZAF,South Africa,1914,0,0.18925,0,0,0,1.236917222,1,0,0,no_crisis
+56,ZAF,South Africa,1915,0,0.2063,0,0,0,4.87275882,1,0,0,no_crisis
+56,ZAF,South Africa,1916,0,0.20965,0,0,0,5.81828209,1,0,0,no_crisis
+56,ZAF,South Africa,1917,0,0.20985,0,0,0,9.889250814,1,0,0,no_crisis
+56,ZAF,South Africa,1918,0,0.2098,0,0,0,7.001422812,1,0,0,no_crisis
+56,ZAF,South Africa,1919,0,0.20985,0,0,0,0.93079949,1,0,0,no_crisis
+56,ZAF,South Africa,1920,0,0.2532,0,0,0,35.18691332,1,0,1,no_crisis
+56,ZAF,South Africa,1921,0,0.2406,0,0,0,-18.07365899,1,0,0,no_crisis
+56,ZAF,South Africa,1922,0,0.21695,0,0,0,-3.95519429,1,0,0,no_crisis
+56,ZAF,South Africa,1923,0,0.21295,0,0,0,0.758592218,1,0,0,no_crisis
+56,ZAF,South Africa,1924,0,0.21295,0,0,0,0,1,0,0,no_crisis
+56,ZAF,South Africa,1925,0,0.20575,0,0,0,-1.505761844,1,0,0,no_crisis
+56,ZAF,South Africa,1926,0,0.2056,0,0,0,-1.523581717,1,0,0,no_crisis
+56,ZAF,South Africa,1927,0,0.2065,0,0,0,2.323371,1,0,0,no_crisis
+56,ZAF,South Africa,1928,0,0.2065,0,0,0,-0.758592218,1,0,0,no_crisis
+56,ZAF,South Africa,1929,0,0.2065,0,0,0,-1.523581717,1,0,0,no_crisis
+56,ZAF,South Africa,1930,0,0.2065,0,0,0,-2.328651389,1,0,0,no_crisis
+56,ZAF,South Africa,1931,0,0.2065,0,0,0,-3.968211061,1,0,0,no_crisis
+56,ZAF,South Africa,1932,0,0.2084,0,0,0,-5.432640883,1,0,0,no_crisis
+56,ZAF,South Africa,1933,0,0.19635,0,0,0,2.39909513,1,1,0,no_crisis
+56,ZAF,South Africa,1934,0,0.1963,0,0,0,-1.453403872,1,0,0,no_crisis
+56,ZAF,South Africa,1935,0,0.20385,0,0,0,-0.44835113,1,0,0,no_crisis
+56,ZAF,South Africa,1936,0,0.2008,0,0,0,0.906666667,1,0,0,no_crisis
+56,ZAF,South Africa,1937,0,0.202,0,0,0,5.63777308,1,0,0,no_crisis
+56,ZAF,South Africa,1938,0,0.2012,0,0,0,-0.32243718,1,0,0,no_crisis
+56,ZAF,South Africa,1939,0,0.21565,0,0,0,0.858895706,1,0,0,no_crisis
+56,ZAF,South Africa,1940,0,0.25125,0,0,0,3.926122539,1,1,0,no_crisis
+56,ZAF,South Africa,1941,0,0.25125,0,0,0,6.02851974,1,0,0,no_crisis
+56,ZAF,South Africa,1942,0,0.25125,0,0,0,8.671651528,1,0,0,no_crisis
+56,ZAF,South Africa,1943,0,0.25125,0,0,0,4.964211498,1,0,0,no_crisis
+56,ZAF,South Africa,1944,0,0.25125,0,0,0,3.884733832,1,0,0,no_crisis
+56,ZAF,South Africa,1945,0,0.2497,0,0,0,0.762291958,1,0,0,no_crisis
+56,ZAF,South Africa,1946,0,0.2497,0,0,0,6.060606061,1,0,0,no_crisis
+56,ZAF,South Africa,1947,0,0.3077,0,0,0,4.287695661,1,0,0,no_crisis
+56,ZAF,South Africa,1948,0,0.28985,0,0,0,6.847285025,1,0,0,no_crisis
+56,ZAF,South Africa,1949,0,0.31745,0,0,0,2.564102564,1,0,0,no_crisis
+56,ZAF,South Africa,1950,0,0.35715,0,0,0,6.875866852,1,1,0,no_crisis
+56,ZAF,South Africa,1951,0,0.35715,0,0,0,7.653375726,1,0,0,no_crisis
+56,ZAF,South Africa,1952,0,0.35715,0,0,0,6.609004882,1,0,0,no_crisis
+56,ZAF,South Africa,1953,0,0.35715,0,0,0,0.777385159,1,0,0,no_crisis
+56,ZAF,South Africa,1954,0,0.35715,0,0,0,3.8457223,1,0,0,no_crisis
+56,ZAF,South Africa,1955,0,0.35715,0,0,0,1.699035682,1,0,0,no_crisis
+56,ZAF,South Africa,1956,0,0.35715,0,0,0,1.888446215,1,0,0,no_crisis
+56,ZAF,South Africa,1957,0,0.3568,0,0,0,3.263731394,1,0,0,no_crisis
+56,ZAF,South Africa,1958,0,0.3554,0,0,0,3.160578598,1,0,0,no_crisis
+56,ZAF,South Africa,1959,0,0.35555,0,0,0,0.785513275,1,0,0,no_crisis
+56,ZAF,South Africa,1960,0,0.3557,0,0,0,1.583062206,1,0,0,no_crisis
+56,ZAF,South Africa,1961,0,0.3557,0,0,0,2.079449304,1,0,0,no_crisis
+56,ZAF,South Africa,1962,0,0.3557,0,0,0,1.325278636,1,0,0,no_crisis
+56,ZAF,South Africa,1963,0,0.3573,0,0,0,1.005222535,1,0,0,no_crisis
+56,ZAF,South Africa,1964,0,0.3576,0,0,0,4.141937863,1,0,0,no_crisis
+56,ZAF,South Africa,1965,0,0.3571,0,0,0,3.489437844,1,0,0,no_crisis
+56,ZAF,South Africa,1966,0,0.3571,0,0,0,3.638360819,1,0,0,no_crisis
+56,ZAF,South Africa,1967,0,0.7093,0,0,0,2.151507653,1,2,0,no_crisis
+56,ZAF,South Africa,1968,0,0.7119,0,0,0,3.045535464,1,0,0,no_crisis
+56,ZAF,South Africa,1969,0,0.7149,0,0,0,3.812391596,1,0,0,no_crisis
+56,ZAF,South Africa,1970,0,0.7131,0,0,0,4.882526907,1,0,0,no_crisis
+56,ZAF,South Africa,1971,0,0.696,0,0,0,6.705448811,1,0,0,no_crisis
+56,ZAF,South Africa,1972,0,0.7394,0,0,0,8.431511329,1,0,0,no_crisis
+56,ZAF,South Africa,1973,0,0.6667,0,0,0,10.76861601,1,0,0,no_crisis
+56,ZAF,South Africa,1974,0,0.6678,0,0,0,13.81223876,1,0,0,no_crisis
+56,ZAF,South Africa,1975,0,0.6725,0,0,0,11.25107466,1,0,0,no_crisis
+56,ZAF,South Africa,1976,0,0.8673,0,0,0,11.31771632,1,0,0,no_crisis
+56,ZAF,South Africa,1977,0,0.8681,0,0,0,10.21066965,1,0,0,crisis
+56,ZAF,South Africa,1978,0,0.8684,0,0,0,12.23442663,1,0,0,crisis
+56,ZAF,South Africa,1979,0,0.8244,0,0,0,13.89287442,1,0,0,no_crisis
+56,ZAF,South Africa,1980,0,0.745378653,0,0,0,14.236,1,0,0,no_crisis
+56,ZAF,South Africa,1981,0,0.956571648,0,0,0,15.741,1,1,0,no_crisis
+56,ZAF,South Africa,1982,0,1.076310408,0,0,0,14.4,1,0,0,no_crisis
+56,ZAF,South Africa,1983,0,1.221896383,0,0,0,12.587,1,0,0,no_crisis
+56,ZAF,South Africa,1984,0,1.984914649,0,0,0,11.18,1,1,0,no_crisis
+56,ZAF,South Africa,1985,0,2.557544764,0,1,0.36,16.201,1,1,0,no_crisis
+56,ZAF,South Africa,1986,0,2.183406114,0,1,0.36,18.75,1,0,0,no_crisis
+56,ZAF,South Africa,1987,0,1.929943067,0,1,0.36,16.194,1,0,0,no_crisis
+56,ZAF,South Africa,1988,0,2.377725468,0,0,0,12.892,1,1,0,no_crisis
+56,ZAF,South Africa,1989,0,2.536011361,0,1,0.36,14.506,1,0,0,crisis
+56,ZAF,South Africa,1990,0,2.562525625,0,0,0,14.286,1,0,0,no_crisis
+56,ZAF,South Africa,1991,0,2.743032697,0,0,0,15.566,1,0,0,no_crisis
+56,ZAF,South Africa,1992,0,3.053,0,0,0,13.673,1,0,0,no_crisis
+56,ZAF,South Africa,1993,0,3.3975,0,1,0.36,9.874,1,0,0,no_crisis
+56,ZAF,South Africa,1994,0,3.5435,0,0,0,8.824,1,0,0,no_crisis
+56,ZAF,South Africa,1995,0,3.6475,0,0,0,8.709,1,0,0,no_crisis
+56,ZAF,South Africa,1996,0,4.6825,0,0,0,7.32,1,1,0,no_crisis
+56,ZAF,South Africa,1997,0,4.8675,0,0,0,8.623,1,0,0,no_crisis
+56,ZAF,South Africa,1998,0,5.86,0,0,0,6.872,1,1,0,no_crisis
+56,ZAF,South Africa,1999,0,6.1545,0,0,0,5.211,1,0,0,no_crisis
+56,ZAF,South Africa,2000,0,7.5685,0,0,0,5.374,1,1,0,no_crisis
+56,ZAF,South Africa,2001,0,12.1265,0,0,0,5.7,1,1,0,no_crisis
+56,ZAF,South Africa,2002,0,8.64,0,0,0,9.177,1,0,0,no_crisis
+56,ZAF,South Africa,2003,0,6.64,0,0,0,5.806,1,0,0,no_crisis
+56,ZAF,South Africa,2004,0,5.63,0,0,0,1.392,1,0,0,no_crisis
+56,ZAF,South Africa,2005,0,6.325,0,0,0,3.393,1,0,0,no_crisis
+56,ZAF,South Africa,2006,0,6.97,0,0,0,4.688,1,0,0,no_crisis
+56,ZAF,South Africa,2007,0,6.81,0,0,0,7.09,1,0,0,no_crisis
+56,ZAF,South Africa,2008,0,9.305,0,0,0,11.536,1,1,0,no_crisis
+56,ZAF,South Africa,2009,0,7.38,0,0,0,7.13,1,0,0,no_crisis
+56,ZAF,South Africa,2010,0,6.6316,0,0,0,4.257,1,0,0,no_crisis
+56,ZAF,South Africa,2011,0,8.1429,0,0,0,5,1,1,0,no_crisis
+56,ZAF,South Africa,2012,0,8.50115,0,0,0,5.654,1,0,0,no_crisis
+56,ZAF,South Africa,2013,0,10.48985,0,0,0,5.752,1,1,0,no_crisis
+63,TUN,Tunisia,1940,0,49.189,0,0,0,22.01300157,0,0,1,no_crisis
+63,TUN,Tunisia,1941,0,44.937,0,0,0,24.58203197,0,0,1,no_crisis
+63,TUN,Tunisia,1942,0,129.831,0,0,0,24.99631323,0,0,1,no_crisis
+63,TUN,Tunisia,1943,0,50,0,0,0,72.10948561,0,0,1,no_crisis
+63,TUN,Tunisia,1944,0,55.355,0,0,0,37.61310666,0,1,1,no_crisis
+63,TUN,Tunisia,1945,0,55.191,0,0,0,13.77833126,0,0,0,no_crisis
+63,TUN,Tunisia,1946,0,119.3,0,0,0,49.61253886,0,1,1,no_crisis
+63,TUN,Tunisia,1947,0,119.3,0,0,0,67.09975712,0,0,1,no_crisis
+63,TUN,Tunisia,1948,0,119.3,0,0,0,69.14172635,0,0,1,no_crisis
+63,TUN,Tunisia,1949,0,214.34,0,0,0,4.156960191,0,1,0,no_crisis
+63,TUN,Tunisia,1950,0,349.5,0,0,0,3.502982107,0,1,0,no_crisis
+63,TUN,Tunisia,1951,0,349.5,0,0,0,15.03591871,0,0,0,no_crisis
+63,TUN,Tunisia,1952,0,349.5,0,0,0,7.006177993,0,0,0,no_crisis
+63,TUN,Tunisia,1953,0,349.5,0,0,0,-0.595293824,0,0,0,no_crisis
+63,TUN,Tunisia,1954,0,349.5,0,0,0,4.192011553,0,0,0,no_crisis
+63,TUN,Tunisia,1955,0,349.5,0,0,0,0,0,0,0,no_crisis
+63,TUN,Tunisia,1956,0,349.5,0,1,0.06,4.807532957,1,0,0,no_crisis
+63,TUN,Tunisia,1957,0,350,0,0,0,5.504844321,1,0,0,no_crisis
+63,TUN,Tunisia,1958,0,0.4197,0,1,0.06,5.216941093,1,2,0,no_crisis
+63,TUN,Tunisia,1959,0,0.42,0,0,0,-8.264216667,1,0,0,no_crisis
+63,TUN,Tunisia,1960,0,0.42,0,0,0,1.801884462,1,0,0,no_crisis
+63,TUN,Tunisia,1961,0,0.42,0,0,0,-1.769991264,1,0,0,no_crisis
+63,TUN,Tunisia,1962,0,0.42,0,0,0,5.78395737,1,0,0,no_crisis
+63,TUN,Tunisia,1963,0,0.42,0,1,0.06,0.970776621,1,0,0,no_crisis
+63,TUN,Tunisia,1964,0,0.42,0,0,0,5.939573494,1,0,0,no_crisis
+63,TUN,Tunisia,1965,0,0.52,0,0,0,5.549985502,1,1,0,no_crisis
+63,TUN,Tunisia,1966,0,0.52,0,0,0,4.536102074,1,0,0,no_crisis
+63,TUN,Tunisia,1967,0,0.52,0,0,0,2.843700217,1,0,0,no_crisis
+63,TUN,Tunisia,1968,0,0.52,0,0,0,2.498763969,1,0,0,no_crisis
+63,TUN,Tunisia,1969,0,0.52,0,0,0,2.804694188,1,0,0,no_crisis
+63,TUN,Tunisia,1970,0,0.52,0,0,0,1.562639485,1,0,0,no_crisis
+63,TUN,Tunisia,1971,0,0.48,0,0,0,4.253194018,1,0,0,no_crisis
+63,TUN,Tunisia,1972,0,0.475,0,0,0,2.715966924,1,0,0,no_crisis
+63,TUN,Tunisia,1973,0,0.3865,0,0,0,5.784875818,1,0,0,no_crisis
+63,TUN,Tunisia,1974,0,0.425,0,0,0,4.685641394,1,1,0,no_crisis
+63,TUN,Tunisia,1975,0,0.4712,0,0,0,10.05684308,1,0,0,no_crisis
+63,TUN,Tunisia,1976,0,0.5587,0,0,0,3.293128476,1,0,0,no_crisis
+63,TUN,Tunisia,1977,0,0.4275,0,0,0,8.19487405,1,0,0,no_crisis
+63,TUN,Tunisia,1978,0,0.46,0,0,0,4.63026082,1,1,0,no_crisis
+63,TUN,Tunisia,1979,0,0.405,0,1,0.06,8.557119849,1,0,0,no_crisis
+63,TUN,Tunisia,1980,0,0.418699999,0,1,0.06,10.011,1,0,0,no_crisis
+63,TUN,Tunisia,1981,0,0.515649999,0,1,0.06,8.903,1,0,0,no_crisis
+63,TUN,Tunisia,1982,0,0.615749999,0,1,0.06,13.673,1,0,0,no_crisis
+63,TUN,Tunisia,1983,0,0.7271,0,0,0,8.972,1,0,0,no_crisis
+63,TUN,Tunisia,1984,0,0.8666,0,0,0,8.596,1,0,0,no_crisis
+63,TUN,Tunisia,1985,0,0.75695,0,0,0,7.551,1,0,0,no_crisis
+63,TUN,Tunisia,1986,0,0.8402,0,0,0,6.159,1,1,0,no_crisis
+63,TUN,Tunisia,1987,0,0.77785,0,0,0,8.224,1,0,0,no_crisis
+63,TUN,Tunisia,1988,0,0.89845,0,0,0,7.156,1,0,0,no_crisis
+63,TUN,Tunisia,1989,0,0.9046,0,0,0,7.722,1,0,0,no_crisis
+63,TUN,Tunisia,1990,0,0.83675,0,0,0,6.502,1,0,0,no_crisis
+63,TUN,Tunisia,1991,1,0.8645,0,0,0,7.693,1,0,0,crisis
+63,TUN,Tunisia,1992,1,0.95065,0,0,0,5.518,1,0,0,crisis
+63,TUN,Tunisia,1993,1,1.0466,0,0,0,4.04,1,0,0,crisis
+63,TUN,Tunisia,1994,1,0.9912,0,0,0,5.423,1,0,0,crisis
+63,TUN,Tunisia,1995,1,0.9508,0,0,0,6.232,1,0,0,crisis
+63,TUN,Tunisia,1996,0,0.9985,0,0,0,3.733,1,0,0,no_crisis
+63,TUN,Tunisia,1997,0,1.1475,0,0,0,3.599,1,0,0,no_crisis
+63,TUN,Tunisia,1998,0,1.101,0,0,0,3.102,1,0,0,no_crisis
+63,TUN,Tunisia,1999,0,1.2525,0,0,0,2.768,1,0,0,no_crisis
+63,TUN,Tunisia,2000,0,1.3853,0,0,0,2.77,1,0,0,no_crisis
+63,TUN,Tunisia,2001,0,1.4683,0,0,0,1.987,1,0,0,no_crisis
+63,TUN,Tunisia,2002,0,1.3341,0,0,0,2.706,1,0,0,no_crisis
+63,TUN,Tunisia,2003,0,1.2083,0,0,0,2.724,1,0,0,no_crisis
+63,TUN,Tunisia,2004,0,1.1994,0,0,0,3.621,1,0,0,no_crisis
+63,TUN,Tunisia,2005,0,1.3634,0,0,0,1.444,1,0,0,no_crisis
+63,TUN,Tunisia,2006,0,1.2971,0,0,0,4.143,1,0,0,no_crisis
+63,TUN,Tunisia,2007,0,1.2207,0,0,0,3.438,1,0,0,no_crisis
+63,TUN,Tunisia,2008,0,1.3099,0,0,0,4.913,1,0,0,no_crisis
+63,TUN,Tunisia,2009,0,1.3173,0,0,0,3.53,1,0,0,no_crisis
+63,TUN,Tunisia,2010,0,1.4379,0,0,0,4.409,1,0,0,no_crisis
+63,TUN,Tunisia,2011,0,1.4993,0,0,0,3.541,1,0,0,no_crisis
+63,TUN,Tunisia,2012,0,1.5506,0,0,0,5.139,1,0,0,no_crisis
+63,TUN,Tunisia,2013,0,1.653095696,0,0,0,5.805,1,0,0,no_crisis
+63,TUN,Tunisia,2014,0,1.862411798,0,0,0,4.924,1,0,0,no_crisis
+69,ZMB,Zambia,1943,0,0.0004976,0,0,0,2.857142857,0,0,0,no_crisis
+69,ZMB,Zambia,1944,0,0.0004976,0,0,0,2.777777778,0,0,0,no_crisis
+69,ZMB,Zambia,1945,0,0.0004968,0,0,0,2.702702703,0,0,0,no_crisis
+69,ZMB,Zambia,1946,0,0.0004968,0,0,0,7.894736842,0,0,0,no_crisis
+69,ZMB,Zambia,1947,0,0.0004958,0,0,0,2.43902439,0,0,0,no_crisis
+69,ZMB,Zambia,1948,0,0.000496,0,0,0,4.761904762,0,0,0,no_crisis
+69,ZMB,Zambia,1949,0,0.0007142,0,0,0,2.272727273,0,0,0,no_crisis
+69,ZMB,Zambia,1950,0,0.000714,0,0,0,4.444444444,0,1,0,no_crisis
+69,ZMB,Zambia,1951,0,0.000719,0,0,0,6.382978723,0,0,0,no_crisis
+69,ZMB,Zambia,1952,0,0.0007118,0,0,0,4,0,0,0,no_crisis
+69,ZMB,Zambia,1953,0,0.0007116,0,0,0,3.846153846,0,0,0,no_crisis
+69,ZMB,Zambia,1954,0,0.000718,0,0,0,3.703703704,0,0,0,no_crisis
+69,ZMB,Zambia,1955,0,0.0007136,0,0,0,3.571428571,0,0,0,no_crisis
+69,ZMB,Zambia,1956,0,0.000718,0,0,0,3.103448276,0,0,0,no_crisis
+69,ZMB,Zambia,1957,0,0.000712,0,0,0,3.177257525,0,0,0,no_crisis
+69,ZMB,Zambia,1958,0,0.0007138,0,0,0,1.13452188,0,0,0,no_crisis
+69,ZMB,Zambia,1959,0,0.0007144,0,0,0,2.083333333,0,0,0,no_crisis
+69,ZMB,Zambia,1960,0,0.0007134,0,0,0,3.453689168,0,0,0,no_crisis
+69,ZMB,Zambia,1961,0,0.0007122,0,0,0,0.151745068,0,0,0,no_crisis
+69,ZMB,Zambia,1962,0,0.0007136,0,0,0,1.363636364,0,0,0,no_crisis
+69,ZMB,Zambia,1963,0,0.000715,0,0,0,-0.448430493,0,0,0,no_crisis
+69,ZMB,Zambia,1964,0,0.0007168,0,0,0,3.003003003,1,0,0,no_crisis
+69,ZMB,Zambia,1965,0,0.0007136,0,0,0,8.163265306,1,0,0,no_crisis
+69,ZMB,Zambia,1966,0,0.0007168,0,0,0,10.2425876,1,0,0,no_crisis
+69,ZMB,Zambia,1967,0,0.0007104,0,0,0,5.012224939,1,0,0,no_crisis
+69,ZMB,Zambia,1968,0,0.0007168,0,0,0,10.71012806,1,0,0,no_crisis
+69,ZMB,Zambia,1969,0,0.0007126,0,0,0,2.523659306,1,0,0,no_crisis
+69,ZMB,Zambia,1970,0,0.0007141,0,0,0,2.564102564,1,0,0,no_crisis
+69,ZMB,Zambia,1971,0,0.0007143,0,0,0,6.52173913,1,0,0,no_crisis
+69,ZMB,Zambia,1972,0,0.0007143,0,0,0,4.761904762,1,0,0,no_crisis
+69,ZMB,Zambia,1973,0,0.0006429,0,0,0,6.493506494,1,0,0,no_crisis
+69,ZMB,Zambia,1974,0,0.0006429,0,0,0,7.926829268,1,0,0,no_crisis
+69,ZMB,Zambia,1975,0,0.0006429,0,0,0,10.16949153,1,0,0,no_crisis
+69,ZMB,Zambia,1976,0,0.0007934,0,0,0,18.97435897,1,0,0,no_crisis
+69,ZMB,Zambia,1977,0,0.0007589,0,0,0,19.82758621,1,1,0,no_crisis
+69,ZMB,Zambia,1978,0,0.0007862,0,0,0,16.18705036,1,0,0,no_crisis
+69,ZMB,Zambia,1979,0,0.0007775,0,0,0,9.59752322,1,0,0,no_crisis
+69,ZMB,Zambia,1980,0,0.0008031,0,0,0,11.729,1,0,0,no_crisis
+69,ZMB,Zambia,1981,0,0.00088,0,0,0,13.997,1,0,0,no_crisis
+69,ZMB,Zambia,1982,0,0.0009285,0,0,0,12.495,1,0,0,no_crisis
+69,ZMB,Zambia,1983,0,0.001236,0,1,0,19.692,1,1,0,no_crisis
+69,ZMB,Zambia,1984,0,0.002105,0,1,0,20.019,1,1,1,no_crisis
+69,ZMB,Zambia,1985,0,0.00563,0,1,0,37.43,1,1,1,no_crisis
+69,ZMB,Zambia,1986,0,0.01448,0,1,0,54.8,1,1,1,no_crisis
+69,ZMB,Zambia,1987,0,0.0077,0,1,0,47.028,1,0,1,no_crisis
+69,ZMB,Zambia,1988,0,0.0095,0,1,0,54.042,1,1,1,no_crisis
+69,ZMB,Zambia,1989,0,0.01841,0,1,0,128.294,1,1,1,no_crisis
+69,ZMB,Zambia,1990,0,0.0459,0,1,0,109.558,1,1,1,no_crisis
+69,ZMB,Zambia,1991,0,0.08733,0,1,0,97.701,1,1,1,no_crisis
+69,ZMB,Zambia,1992,0,0.31496,0,1,0,165.725,1,1,1,no_crisis
+69,ZMB,Zambia,1993,0,0.561,0,1,0,183.263,1,1,1,no_crisis
+69,ZMB,Zambia,1994,0,0.699,0,1,0,54.614,1,1,1,no_crisis
+69,ZMB,Zambia,1995,1,0.978,0,0,0,34.905,1,1,1,crisis
+69,ZMB,Zambia,1996,1,1.287,0,0,0,43.095,1,1,1,crisis
+69,ZMB,Zambia,1997,1,1.44,0,0,0,24.41,1,0,1,crisis
+69,ZMB,Zambia,1998,1,2.425,0,0,0,24.456,1,1,1,crisis
+69,ZMB,Zambia,1999,0,2.76,0,0,0,26.79,1,0,1,no_crisis
+69,ZMB,Zambia,2000,0,4.45,0,0,0,26.1,1,1,1,no_crisis
+69,ZMB,Zambia,2001,0,3.735,0,0,0,21.357,1,0,1,no_crisis
+69,ZMB,Zambia,2002,0,4.5,0,0,0,22.239,1,0,1,no_crisis
+69,ZMB,Zambia,2003,0,4.4,0,0,0,21.4,1,0,1,no_crisis
+69,ZMB,Zambia,2004,0,4.6,0,0,0,17.969,1,0,0,no_crisis
+69,ZMB,Zambia,2005,0,3.34,0,0,0,18.325,1,0,0,no_crisis
+69,ZMB,Zambia,2006,0,4.41722,0,0,0,9.017,1,0,0,no_crisis
+69,ZMB,Zambia,2007,0,3.83,0,0,0,10.655,1,0,0,no_crisis
+69,ZMB,Zambia,2008,0,4.83226,0,0,0,12.449,1,1,0,no_crisis
+69,ZMB,Zambia,2009,0,4.631,0,0,0,13.392,1,0,0,no_crisis
+69,ZMB,Zambia,2010,0,4.7899,0,0,0,8.5,1,0,0,no_crisis
+69,ZMB,Zambia,2011,0,5.11398,0,0,0,8.658,1,0,0,no_crisis
+69,ZMB,Zambia,2012,0,5.1466133,0,0,0,6.575,1,0,0,no_crisis
+69,ZMB,Zambia,2013,0,5.52,0,0,0,6.978,1,1,0,no_crisis
+69,ZMB,Zambia,2014,0,6.3856,0,0,0,7.811,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1921,0,4.81E-27,0,0,0,-17.24137931,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1922,0,4.34E-27,0,0,0,-13.88888889,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1923,0,4.59E-27,0,0,0,-4.032258065,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1927,0,4.10E-27,0,0,0,0.847457627,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1928,0,4.12E-27,0,0,0,0.840336134,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1929,0,4.10E-27,0,0,0,0,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1930,0,4.12E-27,0,0,0,-5,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1931,0,5.93E-27,0,0,0,-7.01754386,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1932,0,6.10E-27,0,0,0,-3.773584906,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1933,0,3.91E-27,0,0,0,-2.941176471,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1934,0,4.04E-27,0,0,0,-1.01010101,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1935,0,4.06E-27,0,0,0,0,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1936,0,4.08E-27,0,0,0,-1.020408163,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1937,0,4.00E-27,0,0,0,6.18556701,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1938,0,4.28E-27,0,0,0,-2.912621359,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1939,0,5.09E-27,0,0,0,0.906344411,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1940,0,4.96E-27,0,0,0,2.994011976,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1941,0,4.96E-27,0,0,0,3.779069767,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1942,0,4.96E-27,0,0,0,5.602240896,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1943,0,4.96E-27,0,0,0,6.100795756,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1944,0,4.96E-27,0,0,0,3,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1945,0,4.96E-27,0,0,0,2.669902913,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1946,0,4.96E-27,0,0,0,5.200945626,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1947,0,4.96E-27,0,0,0,2.921348315,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1948,0,4.96E-27,0,0,0,9.388646288,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1949,0,7.14E-27,0,0,0,3.79241517,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1950,0,7.14E-27,0,0,0,7.692307692,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1951,0,7.14E-27,0,0,0,6.964285714,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1952,0,7.14E-27,0,0,0,8.180300501,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1953,0,7.14E-27,0,0,0,2.777777778,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1954,0,7.14E-27,0,0,0,0,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1955,0,7.14E-27,0,0,0,1.651651652,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1956,0,7.18E-27,0,0,0,4.431314623,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1957,0,7.10E-27,0,0,0,2.97029703,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1958,0,7.10E-27,0,0,0,3.571428571,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1959,0,7.12E-27,0,0,0,2.652519894,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1960,0,7.15E-27,0,0,0,2.454780362,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1961,0,7.11E-27,0,0,0,2.90037831,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1962,0,7.14E-27,0,0,0,2.083333333,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1963,0,7.14E-27,0,0,0,1.080432173,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1964,0,7.14E-27,0,0,0,2.500022554,0,0,0,no_crisis
+70,ZWE,Zimbabwe,1965,0,7.14E-27,1,1,0,2.500003432,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1966,0,7.14E-27,1,1,0,3.121953195,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1967,0,7.14E-27,1,1,0,2.365179967,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1968,0,7.14E-27,1,1,0,1.38631904,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1969,0,7.14E-27,1,1,0,0.364644862,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1970,0,7.16E-27,1,1,0,2.088991186,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1971,0,6.71E-27,1,1,0,3.024884047,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1972,0,6.52E-27,1,1,0,2.84975748,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1973,0,6.06E-27,1,1,0,3.106641376,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1974,0,5.49E-27,1,1,0,6.596092646,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1975,0,6.25E-27,1,1,0,10.00764002,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1976,0,6.19E-27,1,1,0,11.0416805,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1977,0,6.47E-27,1,1,0,10.25640067,1,1,0,no_crisis
+70,ZWE,Zimbabwe,1978,0,6.75E-27,1,1,0,8.229915112,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1979,0,6.74E-27,1,1,0,12.55279758,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1980,0,6.31E-27,1,1,0,7.2,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1981,0,7.23E-27,0,0,0,13.2,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1982,0,7.39E-27,0,0,0,10.4,1,1,0,no_crisis
+70,ZWE,Zimbabwe,1983,0,1.11E-26,0,0,0,23.2,1,1,1,no_crisis
+70,ZWE,Zimbabwe,1984,0,1.45E-26,0,0,0,20.3,1,1,1,no_crisis
+70,ZWE,Zimbabwe,1985,0,1.63E-26,0,0,0,8.3,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1986,0,1.68E-26,0,0,0,14.5,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1987,0,1.60E-26,0,0,0,12.5,1,0,0,no_crisis
+70,ZWE,Zimbabwe,1988,0,1.93E-26,0,0,0,7.4,1,1,0,no_crisis
+70,ZWE,Zimbabwe,1989,0,2.22E-26,0,0,0,12.8,1,1,0,no_crisis
+70,ZWE,Zimbabwe,1990,0,2.61E-26,0,0,0,17.4,1,1,0,no_crisis
+70,ZWE,Zimbabwe,1991,0,5.04E-26,0,0,0,24,1,1,1,no_crisis
+70,ZWE,Zimbabwe,1992,0,5.37E-26,0,0,0,41.6,1,0,1,no_crisis
+70,ZWE,Zimbabwe,1993,0,6.81E-26,0,0,0,28.2,1,1,1,no_crisis
+70,ZWE,Zimbabwe,1994,0,8.38E-26,0,0,0,21.11354311,1,1,1,no_crisis
+70,ZWE,Zimbabwe,1995,1,9.31E-26,0,0,0,25.80873955,1,0,1,crisis
+70,ZWE,Zimbabwe,1996,1,1.08E-25,0,0,0,16.40028408,1,1,0,crisis
+70,ZWE,Zimbabwe,1997,1,1.83E-25,0,0,0,20.0650384,1,1,1,crisis
+70,ZWE,Zimbabwe,1998,1,3.71E-25,0,0,0,46.61127497,1,1,1,crisis
+70,ZWE,Zimbabwe,1999,1,3.72E-25,0,0,0,56.92320336,1,0,1,crisis
+70,ZWE,Zimbabwe,2000,1,5.50E-25,1,1,0,55.20369616,1,1,1,crisis
+70,ZWE,Zimbabwe,2001,1,5.51E-25,1,1,0,112.1184112,1,0,1,crisis
+70,ZWE,Zimbabwe,2002,1,5.50E-25,1,1,0,198.928606,1,0,1,crisis
+70,ZWE,Zimbabwe,2003,1,7.95E-24,1,1,0,598.7447505,1,1,1,crisis
+70,ZWE,Zimbabwe,2004,1,5.60E-23,1,1,0,132.7467739,1,1,1,crisis
+70,ZWE,Zimbabwe,2005,1,8.46E-22,1,1,0,585.8443656,1,1,1,crisis
+70,ZWE,Zimbabwe,2006,1,3.00E-19,1,1,0,1281.113605,1,1,1,crisis
+70,ZWE,Zimbabwe,2007,1,1.90E-16,1,1,0,66279.89237,1,1,1,crisis
+70,ZWE,Zimbabwe,2008,1,0.002,1,1,0,21989695.22,1,1,1,crisis
+70,ZWE,Zimbabwe,2009,1,354.8,1,1,0,-7.67,1,1,0,crisis
+70,ZWE,Zimbabwe,2010,0,378.2,1,1,0,3.217,1,0,0,no_crisis
+70,ZWE,Zimbabwe,2011,0,361.9,1,1,0,4.92,1,0,0,no_crisis
+70,ZWE,Zimbabwe,2012,0,361.9,1,1,0,3.72,1,0,0,no_crisis
+70,ZWE,Zimbabwe,2013,0,361.9,1,1,0,1.632,1,0,0,no_crisis

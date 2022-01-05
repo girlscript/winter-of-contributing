@@ -1,0 +1,13 @@
+Libraries installed
+
+-seaborn
+-Tensorflow
+
+Libraries imported
+
+-Matplotlib
+-Numpy
+-Pandas
+-Seaborn
+-Tensorflow
+-Keras
