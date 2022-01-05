@@ -1,0 +1,42 @@
+#+TITLE: Hello , Cargo !
+
++ Cargo is Rust’s build system and package manager. Most Rustaceans use this tool to manage their Rust projects because Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries.
++ Because the vast majority of Rust projects use Cargo, the rest of this book assumes that you’re using Cargo too.
+ #+begin_src bash
+$ cargo --version
+ #+end_src
+
+** Creating a Project with Cargo
++ The first command creates a new directory called hello_cargo. We’ve named our project hello_cargo, and Cargo creates its files in a directory of the same name.
+ #+begin_src bash
+$ cargo new hello_cargo
+$ cd hello_cargo
+ #+end_src
+  + Open Cargo.toml in your text editor of choice.
+   #+begin_src toml
+ [package]
+ name = "hello_cargo"
+ version = "0.1.0"
+ edition = "2018"
+
+ [dependencies]
+   #+end_src
+    + This file is in the =TOML (Tom’s Obvious, Minimal Language)= format, which is Cargo’s configuration format.
+
+    + The last line, =[dependencies]=, is the start of a section for you to list any of your project’s dependencies.
+
+
+** Building and Running a Cargo Project
++ Now let’s look at what’s different when we build and run the “Hello, world!” program with Cargo! From your hello_cargo directory, build your project by entering the following command:
+  #+begin_src bash
+$ cargo build
+   Compiling hello_cargo v0.1.0 (file:///projects/hello_cargo)
+    Finished dev [unoptimized + debuginfo] target(s) in 2.85 secs
+  #+end_src
++ This command creates an executable file in target/debug/hello_cargo (or target\debug\hello_cargo.exe on Windows) rather than in your current directory. You can run the executable with this command:
+ #+begin_src powershell
+$ ./target/debug/hello_cargo # or .\target\debug\hello_cargo.exe on Windows
+Hello, world!
+ #+end_src
++ If all goes well, Hello, world! should print to the terminal. Running cargo build for the first time also causes Cargo to create a new file at the top level: Cargo.lock.
++ This file keeps track of the exact versions of dependencies in your project.

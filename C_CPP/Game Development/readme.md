@@ -1,0 +1,5 @@
+- [SuperBall Game In C](SuperBall_Game_In_C.md)
+- [Snake Game 🐍](snake_game.md)
+- [Sudoku Solver](SudokuSolver.md)
+- [Tic Tac Toe](TIC%20TAC%20TOE.md)
+- [Tower of Hanoi](tower_of_hanoi.md)

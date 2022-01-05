@@ -1,0 +1,7 @@
+libraries used:
+
+Scikit-Learn
+pandas
+matplotib
+pyplot
+numpy

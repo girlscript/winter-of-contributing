@@ -1,0 +1,93 @@
+#+TITLE: Shared Concurrency
+
++ In a way, channels in any programming language are similar to single ownership, because once you transfer a value down a channel, you should no longer use that value.
++ *Shared memory concurrency* is like multiple ownership: multiple threads can access the same memory location at the same time.
++ Rust’s type system and ownership rules greatly assist in getting this management correct.
+
+** Using Mutexes to Allow Access to Data from One Thread at a Time
++ =Mutex= is an abbreviation for *mutual exclusion*, as in, a mutex allows only one thread to access some data at any given time.
++ To access the data in a mutex, a thread must first signal that it wants access by asking to acquire the mutex’s lock.
++ The lock is a data structure that is part of the mutex that keeps track of who currently has exclusive access to the data.
++ Therefore, the mutex is described as *guarding* the data it holds via the locking system.
++ Mutexes have a reputation for being difficult to use because you have to remember two rules:
+  * You must attempt to acquire the lock before using the data.
+  * When you’re done with the data that the mutex guards, you must unlock the data so other threads can acquire the lock.
+
+
+** The API of Mutex<T>
+
+#+begin_src rust
+use std::sync::Mutex;
+
+fn main() {
+    let m = Mutex::new(5);
+
+    {
+        let mut num = m.lock().unwrap();
+        *num = 6;
+    }
+
+    println!("m = {:?}", m);
+}
+#+end_src
+
++ As with many types, we create a =Mutex<T>= using the associated function =new=. To access the data inside the mutex, we use the lock method to acquire the lock
++ The call to =lock= would fail if another thread holding the lock panicked. In that case, no one would ever be able to get the lock, so we’ve chosen to =unwrap= and have this thread panic if we’re in that situation.
+
+** Multiple Ownership with Multiple Threads
++ We gave a value multiple owners by using the smart pointer =Rc<T>= to create a reference counted value. Let’s do the same here and see what happens.
+ #+begin_src rust
+use std::rc::Rc;
+use std::sync::Mutex;
+use std::thread;
+
+fn main() {
+    let counter = Rc::new(Mutex::new(0));
+    let mut handles = vec![];
+
+    for _ in 0..10 {
+        let counter = Rc::clone(&counter);
+        let handle = thread::spawn(move || {
+            let mut num = counter.lock().unwrap();
+
+            *num += 1;
+        });
+        handles.push(handle);
+    }
+
+    for handle in handles {
+        handle.join().unwrap();
+    }
+
+    println!("Result: {}", *counter.lock().unwrap());
+}
+ #+end_src
+
+** Atomic Reference Counting with Arc<T>
++ Fortunately, =Arc<T>= is a type like =Rc<T>= that is safe to use in concurrent situations.
++ The *a stands for atomic, meaning it’s an atomically reference counted type*.
+#+begin_src rust
+use std::sync::{Arc, Mutex};
+use std::thread;
+
+fn main() {
+    let counter = Arc::new(Mutex::new(0));
+    let mut handles = vec![];
+
+    for _ in 0..10 {
+        let counter = Arc::clone(&counter);
+        let handle = thread::spawn(move || {
+            let mut num = counter.lock().unwrap();
+
+            *num += 1;
+        });
+        handles.push(handle);
+    }
+
+    for handle in handles {
+        handle.join().unwrap();
+    }
+
+    println!("Result: {}", *counter.lock().unwrap());
+}
+#+end_src

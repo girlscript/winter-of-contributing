@@ -1,0 +1,2 @@
+Libraries Used - OpenCV of Python
+The Library is imported as : import cv2 

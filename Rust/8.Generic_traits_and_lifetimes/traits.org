@@ -1,0 +1,109 @@
+#+TITLE: Traits
+
++ Traits can be used to implement a standard set of behaviors (methods) across multiple structures.
++ Traits are like interfaces in Object-oriented Programming.
+
+ #+begin_src rust
+trait some_trait {
+   //abstract or method which is empty
+   fn method1(&self);
+   // this is already implemented , this is free
+   fn method2(&self){
+      //some contents of method2
+   }
+}
+
+ #+end_src
+  + *Traits* /can contain/ *concrete methods (methods with body)* /or/ *abstract methods (methods without a body)*.
+
+  + *Use a concrete method if the method definition will be shared by all structures implementing the Trait*.
+
+  + However, *a structure can choose to override a function defined by the trait*.
+
+  + *Use abstract methods if the method definition varies for the implementing structures*.
+*** Implementing a trait :
+
+#+begin_src rust
+impl some_trait for structure_name {
+   // implement method1() there..
+   fn method1(&self ){
+   }
+}
+#+end_src
+
++ The following examples defines a trait =Printable= with a method =print()=, which is implemented by the structure =book=.
+
+ #+begin_src rust
+fn main(){
+   //create an instance of the structure
+   let b1 = Book {
+      id:1001,
+      name:"Rust in Action"
+   };
+   b1.print();
+}
+//declare a structure
+struct Book {
+   name:&'static str,
+   id:u32
+}
+//declare a trait
+trait Printable {
+   fn print(&self);
+}
+//implement the trait
+impl Printable for Book {
+   fn print(&self){
+      println!("Printing book with id:{} and name {}",self.id,self.name)
+   }
+}
+ #+end_src
++ *The workflow here is two-part; we first describe the behavior as a trait*, and /then implement that behavior in a concrete type/.
+** Trait Default Implementations :
++ Rather than forcing all types to implement traits on their own, traits can be created with default implementations that structs can simply use, or override as needed.
++ This is especially useful if you have a bunch of different types, and you wish them to all have some kind of shared behavior.
+ #+begin_src rust
+trait Speak {
+    // This is the default implementation of the say_hello function
+    fn say_hello(&self) -> String {
+        String::from("Hello!")
+    }
+}
+
+// Person1 and Person2 simply use the default implementation, and don't
+// have to redefine it
+struct Person1 {}
+impl Speak for Person1 {}
+struct Person2 {}
+impl Speak for Person2 {}
+
+// Person3 can redefine the say_hello function, provided it follows the
+// signature required by the trait
+struct Person3 {}
+impl Speak for Person3 {
+    fn say_hello(&self) -> String {
+        String::from("Hello World!")
+    }
+}
+
+fn main() {
+    let p1 = Person1{};
+    println!("{}", p1.say_hello());
+    let p2 = Person2{};
+    println!("{}", p2.say_hello());
+    let p3 = Person3{};
+    println!("{}", p3.say_hello());
+
+    // Output:
+    //
+    //  Hello!
+    //  Hello!
+    //  Hello World!
+}
+ #+end_src
++ Default implementations are most useful when I am creating the trait and the types that use that trait’s implementation.
++ This is a way of reducing unnecessarily duplicated code, primarily.
+
+ #+begin_quote
+🦀 THERE IS LOT MORE TO TRAITS THAT WE WILL COVER IN CONSEQUENT CHAPTERS , TILL THEN STAY RUSTY 🦀 .
+ #+end_quote

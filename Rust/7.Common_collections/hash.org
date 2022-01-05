@@ -1,0 +1,62 @@
+#+TITLE: Hash Maps
++ Hash map is one of common collections in Rust, *with key value as a pair*, =HashMap<K, V>= .
++ It’s *useful when we want to store and retrieve data by a certain name/key not by the index*.
+** Create Hashmap :
++ We can use insert method. Insert take 2 params. First the string as a key, and second is the value.
+
+ #+begin_src rust
+
+use std::collections::HashMap;
+
+let mut scores = HashMap::new();
+
+scores.insert(String::from("Blue"), 10);
+scores.insert(String::from("Yellow"), 50);
+
+ #+end_src
+
+  * Hash maps are homogeneous: all of the keys must have the same type, and all of the values must have the same type.
+
+** Retrieve value from Hashmap :
++ We can iterate all the key value pair with
+
+ #+begin_src rust
+for (key, value) in &scores {
+      println!("{}: {}", key, value);
+}
+ #+end_src
+
+** Iteration :
++ We can iterate all the key value pair with =for= as such :
+
+ #+begin_src rust
+for (key, value) in &scores {
+      println!("{}: {}", key, value);
+}
+ #+end_src
+
+** Updating :
++ /Each value in hashmap can only have one key/. *If we re-assign a value with the same key name, it will overwrite the previous one*.
++ If we want to be safe, we can use =or_insert= to only insert data if the key don’t have any value yet
+
+ #+begin_src rust
+scores.entry(String::from("Blue")).or_insert(50);
+ #+end_src
+
+** Storing two vectors in a Hashmap:
++ Assume we have two different vectors we got from some type of database.
++ We want to store them as key-value pair in hashmap.
+
+#+begin_src rust
+use std::collections::HashMap;
+
+let teams = vec![String::from("Blue"), String::from("Yellow")];
+let initial_scores = vec![10, 50];
+
+let mut scores: HashMap<_, _> =
+    teams.into_iter().zip(initial_scores.into_iter()).collect();
+#+end_src
+
+ * =zip()= create an iterator of tuples.
+
+ * =collect()= return hash map from iterated tuples

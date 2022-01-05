@@ -1,0 +1,32 @@
+In this file, I'll introduce you to all the Python libraries that are required in for implementing Principal Component Analysis along their functions that I've used in the
+examples of .ipynb file.
+So Let's get started:
+
+Numpy Library
+
+NumPy stands for Numerical Python. It is a Python library used for working with arrays. 
+ 
+ It also has functions for working in the sphere of linear algebra, Fourier transfromation, and matrices. 
+NumPy was created in 2005 by Travis Oliphant. It's an open source design and you can use it freely.   It's one of the the most popular library for scientific computing with Python. 
+ 
+NumPy aims to give an array object that's over to 50x faster than traditional Python lists. 
+The array object in NumPy is called ndarray.
+I've used the following functions from the numpy library:
+
+*array()- We can create a NumPy ndarray object by using the array() function.
+*mean()- It compute the arithmetic mean of the given array elements along the specified axis.
+*cov()- It provides the a measure of strength of correlation between two variable or more set of variables.
+*numpy.linalg.eig() - we can compute the eigenvalues and right eigenvectors of a given square array with the help of numpy.linalg.eig().
+
+Scikit-learn Library
+
+sklearn is used to make machine learning models.
+It provides a selection of effective tools for machine learning and statistical modeling including classification, regression, 
+clustering and dimensionality reduction via a viscosity interface in Python. Scikit- learn comes loaded with a lot of features like
+Supervised learning algorithms,Cross-validation, Unsupervised learning algorithms and feature extraction. 
+
+*sklearn.decomposition import PCA - When there are numerous input attributes, it's very hard to visualize the data properly. 
+There's a veritably  term‘ Curse of dimensionality in the machine learning domain. 
+ Principally, it refers to the fact that a advanced number of attributes in a dataset negatively affects the accuracy and training time of the ML model. 
+ So, Principal Component Analysis (PCA) is a way to address this issue and is used for better data visualization and perfecting accuracy.
+

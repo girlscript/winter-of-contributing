@@ -1,0 +1,11 @@
+Requirements for the Breast Cancer Prediction projcect:
+
+1. Basic understanding and knowledge of python with a working connection of internet.
+2. Jupyter Notebook or, Google colab to work on ipynb files.
+3. Libraries to be imported before starting the project:
+
+3.1 NumPy - Used for performing complex Mathematical Calculations on Arrays.
+3.2 Pandas - One of the Most extensively used Library for EDA-Exploratory Data Analysis.
+3.3 Matplotlib - Data Visualization Library built on NumPy arrays and could be integrated with SciPy.
+3.4 Seaborn - Data Visualization Library built on top-of Matplotlib Library making it easier to work with Dataframes.
+3.5 Scikit-Learn - Another Extensively used Library in Data Science and ML having robust functions.

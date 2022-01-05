@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "157699061988",
+    "project_id": "cloud-photos-dc7cd",
+    "storage_bucket": "cloud-photos-dc7cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157699061988:android:7408da85dcea42d3cb94f1",
+        "android_client_info": {
+          "package_name": "com.asmit.cloud_photos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157699061988-q8oesc67351g7j5r6ed76oevg18jj5p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.asmit.cloud_photos",
+            "certificate_hash": "f51b75e1771822b726abb7f91333fa745f0e399c"
+          }
+        },
+        {
+          "client_id": "157699061988-vbqbq8ftj07abdsbecl1f8fo1qdu1vib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6-twIkyiKG7nHNfJbkwiCxppcV3NSuYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "157699061988-vbqbq8ftj07abdsbecl1f8fo1qdu1vib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

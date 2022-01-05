@@ -1,0 +1,69 @@
+#+TITLE: Iterators
+
++ Rust comes with /support for loops and iterators/ .
+
++ *Iterators are objects that produce sequences of values, so they can be iterated or looped over* .
+
++ =Iterator::next()= method is called either explicitly or under the hood by the for-in construct or by other Iterator trait methods called adapters
+
++ =Iterator::next()= returns an =Option<T>= type:
+  * If =None= is returned, iteration stops. If None is never returned, the iterator is infinite
+
+  * If =Some(T)= is returned, iteration continues.
++ Once Iterator::next() is implemented, other trait' methods come for free
+
+** Adapters :
+ + A Rust iterator adapter (or just an adapter) is a method from the Iterator trait which takes an iterator and returns either another iterator
+
+ + Among those methods, =collect()= is of paramount importance because it converts an iterator into a collection
+
+ + It's important to note that iterator adapters take their input by value using self as their first parameters, not by reference or mutable reference. This means their input value is moved once used
+
+** IntoIterator trait :
++ This trait defines one method used to transfrom a value into an iterator: into_iter()
+
++ This method consumes =self= by value:
+ #+begin_src rust
+fn into_iter(self) -> Self::IntoIter;
+
+ #+end_src
+  * This method is used implicitly during the for-in construct
+
+  * But can also be used explicitly with adapters.
+   #+begin_src rust
+   // with for-in
+   // loop through a vector
+let v = vec![0,1,2,3];
+
+// standard loop
+for i in v {
+    // blah blah
+}
+
+// this desugars as
+let mut iter = IntoIterator::into_iter(v);
+loop {
+    match iter.next() {
+        Some(i) => {
+            // blah blah
+        },
+        None => break,
+    }
+}
+
+
+//with adapters explicitly
+let v1 = vec![0,1,2,3];
+
+// after that, v1 is moved and not longer accessible
+assert_eq!(v1.into_iter().count(), 4);
+
+let mut v2 = vec![0,1,2,3];
+
+// that way, it's possible to re-use v2, but clumsy and not very elegant
+assert_eq!((&v2).into_iter().count(), 4);
+assert_eq!((&v2).into_iter().nth(1).unwrap(), &1);
+assert_eq!((&mut v2).into_iter().nth(1).unwrap(), &mut 1);
+   #+end_src
+
++ One can also implement their own iterator.

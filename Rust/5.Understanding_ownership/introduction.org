@@ -1,0 +1,146 @@
+#+TITLE: Introduction
+
++ *Ownership* is one of those features of Rust that make it special
++ *Memory in Rust is managed through a system of ownership* with a set of rules that the compiler checks at compile time. None of the ownership features slow down your program while it’s running.
+** Ownership Rules👑:
+1. Each value in Rust has a variable that’s called its owner.
+2. There can only be one owner at a time.
+3. When the owner goes out of scope, the value will be dropped.
+** Variable Scope🔭:
++ A scope is the range within a program for which an item is valid
+ #+begin_src rust
+   {                      // s is not valid here, it’s not yet declared
+        let s = "hello";   // s is valid from this point forward
+
+        // do stuff with s
+    }                      // this scope is now over, and s is no longer valid
+ #+end_src
+  * Hence =s= comes into *scope* , and is /valid until it goes out of scope/.
+
+  * Relationship between scopes and when variables are valid is similar to that in other programming languages.
+
+** String Type🥚:
++ Rust has a second string type, String
++ This type manages data allocated on the heap and as such is able to store an amount of text that is unknown to us at compile time.
+ #+begin_src rust
+let a = String::from("Girlscript is changing lives🔑");
+ #+end_src
++ The double colon =(::)= is an operator that allows us to namespace this particular =from= function under the =string= type . *These can be mutated*
+
+** Memory And Allocation🎈:
++ The memory is automatically returned once the variable that owns it goes out of scope.
++ There is a natural point at which we can return the memory our =String= needs to the allocator: when =s= *goes out of scope*.
++ /When a variable goes out of scope/, Rust calls a *special function* for us. This function is called =drop=, and it’s where the author of String can put the code to return the memory
++ =drop= is called *automatically when closing curly brackets are encountered*.
+** Move :
+ + This is similar to /shallow Copy/ but since Rust invalidates the first variable , it is called as a *move* .
+  #+begin_src rust
+   let s1 = String::from("hello");
+   let s2 = s1; // s1 is moved into s2
+
+   println!("{}, world!", s1);
+  #+end_src
+   * *This will result in an error* as the =s1= has been moved to =s2=.
+
+   * With only =s2= valid , when it goes out of scope , *it alone will free the memory* .
+
+** Clone :
++ If we want a *deep copy* the heap data of =String= , not just the stack , we use =clone= for that .
+ #+begin_src rust
+
+    let s1 = String::from("hello");
+    let s2 = s1.clone();
+
+    println!("s1 = {}, s2 = {}", s1, s2);
+ #+end_src
+  * Here the *heap data gets copied too*.
+
+  * When you see a call to =clone=, you know that some arbitrary code is being executed and that code may be expensive. It’s a visual indicator that something different is going on.
+** Copy :
++ This is *valid for integers as we know their size at compile time* .
++ There is not difference between *shallow and deep copy* here.
+#+begin_src rust
+
+    let x = 5;
+    let y = x;
+
+    println!("x = {}, y = {}", x, y);
+
+#+end_src
++ This is valid code , and is *true for all the types that implement the* =Copy= /trait/.
++ Types that implement that copy trait :
+  * All the integer types, such as =u32=.
+  * The Boolean type, bool, with values true and false.
+  * All the floating point types, such as =f64=.
+  * The character type, =char=.
+  * *Tuples, if they only contain types* that also implement =Copy=. For example, =(i32, i32)= implements Copy, *but =(i32, String)= does not*.
+** Ownership and Funtions⚙:
++ The semantics for passing a value to a function are similar to those for assigning a value to a variable.
++ *Passing a variable to a function will move or copy*, just as assignment does.
+ #+begin_src rust
+fn main() {
+    let s = String::from("hello");  // s comes into scope
+
+    takes_ownership(s);             // s's value moves into the function...
+                                    // ... and so is no longer valid here
+
+    let x = 5;                      // x comes into scope
+
+    makes_copy(x);                  // x would move into the function,
+                                    // but i32 is Copy, so it's okay to still
+                                    // use x afterward
+
+} // Here, x goes out of scope, then s. But because s's value was moved, nothing
+  // special happens.
+
+fn takes_ownership(some_string: String) { // some_string comes into scope
+    println!("{}", some_string);
+} // Here, some_string goes out of scope and `drop` is called. The backing
+  // memory is freed.
+
+fn makes_copy(some_integer: i32) { // some_integer comes into scope
+    println!("{}", some_integer);
+} // Here, some_integer goes out of scope. Nothing special happens.
+ #+end_src
+ * If we tried to use =s= after the call to =takes_ownership=, *Rust would throw a compile-time error*.
+
+** Return Values and Scope🦀:
++ *Returning values can also transfer ownership*.
++ *The ownership of a variable follows the same pattern every time: assigning a value to another variable moves it*.
++ *When a variable that includes data on the heap goes out of scope*, the value will be cleaned up by =drop= *unless the data has been moved to be owned by another variable*.
+ #+begin_src rust
+fn main() {
+    let s1 = gives_ownership();         // gives_ownership moves its return
+                                        // value into s1
+
+    let s2 = String::from("hello");     // s2 comes into scope
+
+    let s3 = takes_and_gives_back(s2);  // s2 is moved into
+                                        // takes_and_gives_back, which also
+                                        // moves its return value into s3
+} // Here, s3 goes out of scope and is dropped. s2 was moved, so nothing
+  // happens. s1 goes out of scope and is dropped.
+
+fn gives_ownership() -> String {             // gives_ownership will move its
+                                             // return value into the function
+                                             // that calls it
+
+    let some_string = String::from("yours"); // some_string comes into scope
+
+    some_string                              // some_string is returned and
+                                             // moves out to the calling
+                                             // function
+}
+
+// This function takes a String and returns one
+fn takes_and_gives_back(a_string: String) -> String { // a_string comes into
+                                                      // scope
+
+    a_string  // a_string is returned and moves out to the calling function
+}
+ #+end_src
+
+#+begin_quote
+Pheww this has been a long one . time to take some rest , come back stronger than ever.
+*🦀STAY RUSTY🦀*
+#+end_quote

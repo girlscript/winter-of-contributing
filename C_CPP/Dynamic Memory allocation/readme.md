@@ -1,0 +1,5 @@
+- [malloc,calloc,realloc](malloc,calloc,realloc.md)
+- [Audio for Dynamic memory allocation](Audio_Dynamic_memory_allocation.md) 
+- [New and Delete keywords](new,delete.md)
+- [Dynamic Memory Deallocation](dynamic-memory-deallocation.md)
+- [Why is Deallocation Necessary?](why-is-deallocation-necessary.md)

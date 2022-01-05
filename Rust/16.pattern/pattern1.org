@@ -1,0 +1,111 @@
+#+TITLE: Where can Patterns be used
+
+
+
++ Patterns pop up in a number of places in Rust, and you’ve been using them a lot without realizing it! This section discusses all the places where patterns are valid.
+
+** match Arms
++ we use patterns in the arms of =match= expressions. Formally, match expressions are defined as the keyword match, a value to match on, and one or more match arms that consist of a pattern and an expression to run if the value matches that arm’s pattern, like this:
+
+#+begin_src rust
+match VALUE {
+    PATTERN => EXPRESSION,
+    PATTERN => EXPRESSION,
+    PATTERN => EXPRESSION,
+}
+#+end_src
+
++ One requirement for match expressions is that they need to be exhaustive in the sense that all possibilities for the value in the match expression must be accounted for.
++ One way to ensure you’ve covered every possibility is to have a catchall pattern for the last arm: for example, a variable name matching any value can never fail and thus covers every remaining case.
++ A particular pattern _ will match anything, but it never binds to a variable, so it’s often used in the last match arm.
++ The _ pattern can be useful when you want to ignore any value not specified, for example.
+
+** Conditional if let Expressions
+
+#+begin_src rust
+fn main() {
+    let favorite_color: Option<&str> = None;
+    let is_tuesday = false;
+    let age: Result<u8, _> = "34".parse();
+
+    if let Some(color) = favorite_color {
+        println!("Using your favorite color, {}, as the background", color);
+    } else if is_tuesday {
+        println!("Tuesday is green day!");
+    } else if let Ok(age) = age {
+        if age > 30 {
+            println!("Using purple as the background color");
+        } else {
+            println!("Using orange as the background color");
+        }
+    } else {
+        println!("Using blue as the background color");
+    }
+}
+#+end_src
+
++ If the user specifies a favorite color, that color is the background color. If today is Tuesday, the background color is green.
++ If the user specifies their age as a string and we can parse it as a number successfully, the color is either purple or orange depending on the value of the number.
++ If none of these conditions apply, the background color is blue.
+
+** while let Conditional Loops
+
++ Similar in construction to if let, the while let conditional loop allows a while loop to run for as long as a pattern continues to match.
+#+begin_src rust
+  let mut stack = Vec::new();
+
+    stack.push(1);
+    stack.push(2);
+    stack.push(3);
+
+    while let Some(top) = stack.pop() {
+        println!("{}", top);
+    }
+
+#+end_src
+
+** for Loops
++ We mentioned that the =for= loop is the most common loop construction in Rust code, but we haven’t yet discussed the pattern that for takes. In a =for= loop, the pattern is the value that directly follows the keyword for, so in =for x in y= the =x= is the pattern.
+
+#+begin_src rust
+    let v = vec!['a', 'b', 'c'];
+
+    for (index, value) in v.iter().enumerate() {
+        println!("{} is at index {}", value, index);
+    }
+#+end_src
+
+
+** let Statements
++ We had only explicitly discussed using patterns with match and =if let=, but in fact, we’ve used patterns in other places as well, including in =let= statements.
+ #+begin_src rust
+let (x, y) = (1, 2, 3);
+ #+end_src
+
+** Function Parameters
+
++ Function parameters can also be patterns. The code below, which declares a function named foo that takes one parameter named =x= of type =i32=, should by now look familiar.
+ #+begin_src rust
+
+fn foo(x: i32) {
+    // code goes here
+}
+
+ #+end_src
+
++ The =x= part is a pattern! As we did with =let=, we could match a tuple in a function’s arguments to the pattern. code below splits the values in a tuple as we pass it to a function.
+ #+begin_src rust
+fn print_coordinates(&(x, y): &(i32, i32)) {
+    println!("Current location: ({}, {})", x, y);
+}
+
+fn main() {
+    let point = (3, 5);
+    print_coordinates(&point);
+}
+ #+end_src
+  * This code prints =Current location: (3, 5)=. The values =&(3, 5)= match the pattern =&(x, y)=, so =x= is the value =3= and =y= is the value =5=.
+
+  * We can also use patterns in closure parameter lists in the same way as in function parameter lists, because closures are similar to functions
+
+  * At this point, you’ve seen several ways of using patterns, but patterns don’t work the same in every place we can use them.

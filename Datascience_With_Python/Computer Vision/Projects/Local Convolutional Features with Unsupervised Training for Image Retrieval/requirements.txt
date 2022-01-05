@@ -1,0 +1,38 @@
+Libraries used:
+
+from cam_functions import extract_feat_cam
+from utils import create_folders, save_data, preprocess_images, load_data, print_classes
+from pooling_functions import weighted_cam_pooling, descriptor_aggregation, retrieve_n_descriptors, compute_pca, sum_pooling
+from scipy.misc import imread
+import math
+from reranking import re_ranking
+import pickle
+import resnet
+import densenet
+import numpy as np
+import os
+import h5py
+import sys
+import getopt
+import evaluate_oxford_paris as eval
+import time
+import torch
+import torchvision
+import torch.nn.parallel
+import torch.backends.cudnn as cudnn
+
+import pickle
+import math
+
+import torch.nn as nn
+
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import torch.utils.model_zoo as model_zoo
+from collections import OrderedDict
+from utils import preprocess_images
+from pooling_functions import weighted_cam_pooling, descriptor_aggregation
+from cam_functions import extract_feat_cam
+from scipy.misc import imread
+import torch

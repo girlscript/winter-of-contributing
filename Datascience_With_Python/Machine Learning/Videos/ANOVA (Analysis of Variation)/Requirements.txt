@@ -1,0 +1,8 @@
+Libraries Required in ANOVA(Analysis of Variation)
+1.pandas
+2.matplotlib
+3.seaborn
+4.scipy.stats
+5.statsmodels.api
+6.statsmodels.formula.api
+7.bioinfokit.analys

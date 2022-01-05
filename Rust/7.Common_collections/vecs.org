@@ -1,0 +1,84 @@
+#+TITLE: Vectors to store lists of values
++ Vectors allow you to store more than one value in a single data structure that puts all the values next to each other in memory. Vectors can only store values of the same type.
++ They are useful when you have a list of items, such as the lines of text in a file or the prices of items in a shopping cart.
+
+** Creating a New Vector↗:
++ To create a new, empty vector, we can call the Vec::new function
+#+begin_src rust
+    let v: Vec<i32> = Vec::new();
+#+end_src
++ We are annotating the type here as =Vec<T>= are implemented using *generics* , which we will cover later .
++ For a *generics* is a drop in replacement for any type .
++ Rust can infer types if the vector is initialized most of the times .
+ #+begin_src rust
+let v = vec![1, 2, 3];
+ #+end_src
+** Updating a vector↖:
++ As with any variable, if we want to be able to change its value, we need to make it mutable using the mut keyword.
++ The numbers we place inside are all of type =i32=, and Rust infers this from the data, so we don’t need the =Vec<i32>= annotation.
+#+begin_src rust
+    let mut v = Vec::new();
+
+    v.push(5);
+    v.push(6);
+    v.push(7);
+    v.push(8);
+#+end_src
+** Reading Elements of vectors📖:
+ + There are two ways to reference a value stored in a vector.
+ + Methods of accessing a value in a vector, either with indexing syntax or the get method.
+  #+begin_src rust
+    let v = vec![1, 2, 3, 4, 5];
+
+    let third: &i32 = &v[2];
+    println!("The third element is {}", third);
+
+    match v.get(2) {
+        Some(third) => println!("The third element is {}", third),
+        None => println!("There is no third element."),
+    }
+
+  #+end_src
+   * Indexing as in =&v[2]= can be used .
+
+   * Also =get()= can be used , which gives us an =Option<&T>= .
+** Iterating over the Values in a Vector:
++ If we want to access each element in a vector in turn, we can iterate through all of the elements rather than use indices to access one at a time.
+ #+begin_src rust
+    let v = vec![100, 32, 57];
+    for i in &v {
+        println!("{}", i);
+    }
+
+ #+end_src
++ We can also iterate over mutable references to each element in a mutable vector in order to make changes to all the elements.
++ we can use the =mut= keyword .
+ #+begin_src rust
+    let mut v = vec![100, 32, 57];
+    for i in &mut v {
+        *i += 50;
+    }
+
+ #+end_src
+ * To change the value that the mutable reference refers to, we have to use the dereference operator =(*)= to get to the value in =i= before we can use the =+== operator.
+** Using an Enum to Store Multiple Types:
+ + We can define an enum whose variants will hold the different value types, and then all the enum variants will be considered the same type: that of the =enum=.
+ + Then we can create a vector that holds that enum and so, ultimately, holds different types.
+  #+begin_src rust
+    enum SpreadsheetCell {
+        Int(i32),
+        Float(f64),
+        Text(String),
+    }
+
+    let row = vec![
+        SpreadsheetCell::Int(3),
+        SpreadsheetCell::Text(String::from("blue")),
+        SpreadsheetCell::Float(10.12),
+    ];
+
+  #+end_src
+ + *Rust needs to know what types will be in the vector at compile time so it knows exactly how much memory on the heap will be needed to store each element*.
+ + *A secondary advantage is that we can be explicit about what types are allowed in this vector*.
+ + *If Rust allowed a vector to hold any type, there would be a chance that one or more of the types would cause errors with the operations performed on the elements of the vector*.
+ + *Using an enum plus a match expression means that Rust will ensure at compile time that every possible case is handled*.
