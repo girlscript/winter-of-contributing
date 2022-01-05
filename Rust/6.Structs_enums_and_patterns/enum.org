@@ -1,0 +1,84 @@
+#+TITLE:Enums
++ When we have to select a value from a list of possible variants we use enumeration data types.
++ An enumerated type is declared using the =enum= keyword.
+  - The Syntax is  as follows :
+   #+begin_src rust
+enum enum_name {
+   variant1,
+   variant2,
+   variant3
+}
+   #+end_src
+** Option Enums :
+ + Option is a predefined enum in the Rust standard library.
+ + This enum has two values − =Some(data)= and =None=.
+  #+begin_src rust
+enum Option<T> {
+   Some(T),      //used to return a value
+   None          // used to return null, as Rust doesn't support
+   the null keyword
+}
+
+  #+end_src
+   * The *type T represents value of any type*.
+
+   * *Rust does not support the null keyword*. The value None, in the *enumOption*, can be used by a function to return a null value. If there is data to return, the function can return =Some=(data).
+** Match Statement and Enum :
+ + The match statement can be used to compare values stored in an enum.
+ + The following example defines a function, =print_size=, which takes =CarType= enum as parameter.
+ + The function compares the parameter values with a pre-defined set of constants and displays the appropriate message.
+  #+begin_src rust
+num CarType {
+   Hatch,
+   Sedan,
+   SUV
+}
+fn print_size(car:CarType) {
+   match car {
+      CarType::Hatch => {
+         println!("Small sized car");
+      },
+      CarType::Sedan => {
+         println!("medium sized car");
+      },
+      CarType::SUV =>{
+         println!("Large sized Sports Utility car");
+      }
+   }
+}
+fn main(){
+   print_size(CarType::SUV);
+   print_size(CarType::Hatch);
+   print_size(CarType::Sedan);
+}
+
+  #+end_src
+
+** Match & Enum with Data Type :
++ It is possible to add data type to each variant of an enum.
++ It is possible to add data type to each variant of an enum. In the following example, Name and =Usr_ID= variants of the enum are of String and integer types respectively.
++ The following example shows the use of match statement with an enum having a data type.
+#+begin_src rust
+// The `derive` attribute automatically creates the implementation
+// required to make this `enum` printable with `fmt::Debug`.
+#[derive(Debug)]
+enum GenderCategory {
+   Name(String),Usr_ID(i32)
+}
+fn main() {
+   let p1 = GenderCategory::Name(String::from("YOUGWOC"));
+   let p2 = GenderCategory::Usr_ID(100);
+   println!("{:?}",p1);
+   println!("{:?}",p2);
+
+   match p1 {
+      GenderCategory::Name(val)=> {
+         println!("{}",val);
+      }
+      GenderCategory::Usr_ID(val)=> {
+         println!("{}",val);
+      }
+   }
+}
+
+#+end_src

@@ -1,0 +1,83 @@
+#+TITLE: References and Borrowing
++ As Rust Ownership rules say one owner at a time but there might some cases where we need to perform an action on data without affecting its original value. *This is done via borrowing*.
++ *Borrowing is like in general when we borrow something, and we are done with it, we give it back, but this doesn’t make us the owner of the data.*
++ *Reference is an address that is passed to a function as an argument, and they always start with ampersand(&).*
+#+begin_src rust
+fn main() {
+    let s1 = String::from("hello");
+
+    let len = calculate_length(&s1);
+
+    println!("The length of '{}' is {}.", s1, len);
+}
+
+fn calculate_length(s: &String) -> usize {
+    s.len()
+}
+
+#+end_src
++ /These ampersands are references, and they allow you to refer to some value without taking ownership of it/.
+
++ If we trying to *modify the data that we have borrowed then it will result in an error*.
+
++ *References by default are immutable just like variables*.
+
+** Mutable References💱:
++ This can be done by adding the =mut= keyword in front of the variable name .
+ #+begin_src rust
+
+fn main() {
+    let mut s = String::from("hello");
+
+    change(&mut s);
+}
+
+fn change(some_string: &mut String) {
+    some_string.push_str(", GWOC!!!");
+}
+
+ #+end_src
+  * *But mutable references have one big restriction: you can have only one mutable reference to a particular piece of data at a time*.
+    - This won't work :
+
+    #+begin_src rust
+
+     let mut s = String::from("hello");
+
+     let r1 = &mut s; // here we take the mutable borrow
+     let r2 = &mut s; // this fails as we already have a borrow held by r1‼
+
+     println!("{}, {}", r1, r2);
+
+    #+end_src
+
+  * The restriction preventing multiple mutable references to the same data at the same time allows for mutation but in a very controlled fashion
+*** HOW THIS ALL PREVENTS DATA RACE:
++ A data race is similar to a race condition and happens when these three behaviors occur:
+  1. Two or more pointers access the same data at the same time.
+  2. At least one of the pointers is being used to write to the data.
+  3. There’s no mechanism being used to synchronize access to the data.
+
+
+** Dangling References :
+  + *Dangling pointer*, /a pointer that references a location in memory that may have been given to someone else, by freeing some memory while preserving a pointer to that memory/.
+  + In Rust, by contrast, *the compiler guarantees that references will never be dangling references*.
+  + If you have a reference to some data, *the compiler will ensure that the data will not go out of scope before the reference to the data does*.
+  + Hence *code such as the one below will never compile*.
+   #+begin_src rust
+
+fn main() {
+    let reference_to_nothing = dangle();
+}
+
+fn dangle() -> &String {
+    let s = String::from("hello");
+
+    &s
+}
+
+   #+end_src
+
+** To sum up the main takeaways :
++ /At any given time, you can have either one mutable reference or any number of immutable references/.
++ /References must always be valid/.

@@ -1,0 +1,51 @@
+#+TITLE: Closures
++ Closures are anonoymous functions that can capture their environment
++ Rust’s closures are anonymous functions you can *save in a variable or pass as arguments to other functions*.
++ You can create the /closure in one place/ and *then call the closure to evaluate it in a different context*.
++ Unlike functions, *closures can capture values from the scope in which they’re defined*.
+
+** Refactoring Code with Closures :
+ + We can define a closure and store the closure in a variable rather than storing the result of the function call
+  #+begin_src rust
+let expensive_closure = |num| {
+        println!("calculating slowly...");
+        thread::sleep(Duration::from_secs(2));
+        num // return num
+};// semicolon needed as this is a statement
+  #+end_src
+   * The closure definition comes after the === to assign it to the variable =expensive_closure= .
+   * To define a closure, we start with a pair of vertical pipes =(|)=, inside which we specify the parameters to the closure; this syntax was chosen because of its similarity to closure definitions in Smalltalk and Ruby.
+   * The end of the closure, after the curly brackets, needs a semicolon to complete the =let= statement.
+    #+begin_quote
+Note that this =let= statement means =expensive_closure= /contains the definition of an anonymous function/, *not the resulting value of calling the anonymous function*.
+    #+end_quote
+ + *Finally could be used to calculate some value instead of making some expensive calls to some function*.
+  #+begin_src rust
+fn generate_workout(intensity: u32, random_number: u32) {
+    let expensive_closure = |num| {
+        println!("calculating slowly...");
+        thread::sleep(Duration::from_secs(2));
+        num
+    };
+
+    if intensity < 25 {
+        println!("Today, do {} pushups!", expensive_closure(intensity));
+        println!("Next, do {} situps!", expensive_closure(intensity));
+    } else {
+        if random_number == 3 {
+            println!("Take a break today! Remember to stay hydrated!");
+        } else {
+            println!(
+                "Today, run for {} minutes!",
+                expensive_closure(intensity)
+            );
+        }
+    }
+}
+
+
+  #+end_src
+  * *Now how to perform the expensive calculation is defined in only one place, and we’re only executing that code where we need the results* .
+#+begin_quote
+There is much more to closures , about which you can learn at your own accord🏹
+#+end_quote

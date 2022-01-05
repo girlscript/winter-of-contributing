@@ -1,0 +1,52 @@
+#+TITLE: FUNCTIONS :
+* Basics :
++ Functions are prevalent in Rust code. You’ve already seen one of the most important functions in the language: the *main* function, which is the entry point of many programs. You’ve also seen the *fn* keyword, which allows you to declare new functions
++ Rust code uses snake case as the conventional style for function and variable names. In snake case, all letters are lowercase and underscores separate words.
+* Function Parameters :
++ Functions can also be defined to have parameters, which are special variables that are part of a function’s signature.
++ When a function has parameters, you can provide it with concrete values for those parameters. Technically, the concrete values are called *arguments*, but in casual conversation, people tend to *use the words parameter and argument interchangeably* for either the variables in a function’s definition or the concrete values passed in when you call a function.
+ #+begin_src rust
+ fn main() {
+    print_labeled_measurement(5, 'h');
+}
+
+fn print_labeled_measurement(value: i32, unit_label: char) {
+    println!("The measurement is: {}{}", value, unit_label);
+}
+ #+end_src
++ This example creates a function named print_labeled_measurement with two parameters. The *first parameter is named value and is an i32. The second is named unit_label and is type char*. The function then prints text containing both the value and the unit_label.
+* Function Bodies Contain Statements and Expressions:
++ Function bodies are made up of a series of statements optionally ending in an expression
++ *Rust is an expression-based language*, this is an important distinction to /understand/
++ *Statements are instructions that perform some action and do not return a value*.
++ *Expressions evaluate to a resulting value*.
++  This is different from what happens in *other languages, such as C and Ruby, where the assignment returns the value of the assignment*.
+ #+begin_src rust
+ fn main() {
+    let x = 5;
+
+    let y = {
+        let x = 3;
+        x + 1 //expression as x+1 is returned
+    };
+
+    println!("The value of y is: {}", y);
+}
+ #+end_src
+* Functions with Return Values
++ *Functions can return values to the code that calls them*. We don’t name return values, but *we do declare their type after an arrow (->)*.
++ In Rust, *the return value of the function is /synonymous/ with the value of the final expression in the block of the body of a function*.
++ You *can return early from a function by using the /return/ keyword and specifying a value*, but *most functions return the last expression implicitly*.
+#+begin_src rust
+
+fn five() -> i32 {
+    5
+}
+
+fn main() {
+    let x = five();
+
+    println!("The value of x is: {}", x);
+}
+#+end_src
+  + There are no function calls, macros, or even let statements in the five function—just the number 5 by itself. That’s a perfectly valid function in Rust. *Note that the function’s return type is specified too, as -> i32*.

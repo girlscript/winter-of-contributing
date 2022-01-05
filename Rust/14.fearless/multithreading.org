@@ -1,0 +1,62 @@
+#+TITLE: Multithreading
+
+
+** Using Threads to Run Code Simultaneously
++ In most current operating systems, an executed program’s code is run in a process, and the operating system manages multiple processes at once.
++ Within your program, you can also have independent parts that run simultaneously. The features that run these independent parts are called threads.
++ Splitting the computation in your program into multiple threads can improve performance because the program does multiple tasks at the same time, but it also adds complexity
++ Because threads can run simultaneously, there’s no inherent guarantee about the order in which parts of your code on different threads will run. This can lead to problems, such as:
+  * Race conditions, where threads are accessing data or resources in an inconsistent order
+  * Deadlocks, where two threads are waiting for each other to finish using a resource the other thread has, preventing both threads from continuing
+  * Bugs that happen only in certain situations and are hard to reproduce and fix reliably
++ Rust attempts to mitigate the negative effects of using threads, but programming in a multithreaded context still takes careful thought and requires a code structure that is different from that in programs running in a single thread.
++ Most important to Rust is *runtime* support. Runtime is a confusing term and can have different meanings in different contexts.
+
+
+** Creating a New Thread with spawn
++ To create a new thread, we call the thread::spawn function and pass it a closure containing the code we want to run in the new thread.
+ #+begin_src rust
+use std::thread;
+use std::time::Duration;
+
+fn main() {
+    thread::spawn(|| {
+        for i in 1..10 {
+            println!("hi number {} from the spawned thread!", i);
+            thread::sleep(Duration::from_millis(1));
+        }
+    });
+
+    for i in 1..5 {
+        println!("hi number {} from the main thread!", i);
+        thread::sleep(Duration::from_millis(1));
+    }
+}
+ #+end_src
++ Note that with this function, the new thread will be stopped when the main thread ends, whether or not it has finished running.
+
+** Waiting for All Threads to Finish Using join Handles
++ The code in above not only stops the spawned thread prematurely most of the time due to the main thread ending, but also can’t guarantee that the spawned thread will get to run at all.
++ The reason is that there is no guarantee on the order in which threads run!
++ We can fix the problem of the spawned thread not getting to run, or not getting to run completely, by saving the return value of =thread::spawn= in a variable.
++ The return type of =thread::spawn= is =JoinHandle=.
+#+begin_src rust
+use std::thread;
+use std::time::Duration;
+
+fn main() {
+    let handle = thread::spawn(|| {
+        for i in 1..10 {
+            println!("hi number {} from the spawned thread!", i);
+            thread::sleep(Duration::from_millis(1));
+        }
+    });
+
+    for i in 1..5 {
+        println!("hi number {} from the main thread!", i);
+        thread::sleep(Duration::from_millis(1));
+    }
+
+    handle.join().unwrap();
+}
+#+end_src

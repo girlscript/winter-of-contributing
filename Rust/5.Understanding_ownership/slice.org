@@ -1,0 +1,36 @@
+#+TITLE: Slice
++ *Slice* does not have ownership
++ *Slices let you reference a contigous sequence of elements in a collection rather than the whole collection*.
+
+
+** String Slices🍰:
++ A string slice is a reference to part of a =String= .
+ #+begin_src rust
+ let s = String::from("hello GWOC");
+
+ let hello = &s[0..5];
+ let world = &s[6..11];
+ #+end_src
+  + This is similar to taking a reference to the whole =String= but with the extra =[0..5]=.
+
+  + Rather than a reference to the entire =String=, it’s a reference to a portion of the =String=.
++ We can create slices using a range within brackets by specifying =[starting_index..ending_index]=, where =starting_index= is the first position in the slice and =ending_index= is one more than the last position in the slice.
++ Internally, the slice data structure stores the starting position and the length of the slice, which corresponds to =ending_index= minus =starting_index=.
+
+
+ #+begin_quote
+String slice range indices must occur at valid UTF-8 character boundaries. If you attempt to create a string slice in the middle of a multibyte character, your program will exit with an error.
+ #+end_quote
+
+** Other Slices :
+#+begin_src rust
+let a = [1, 2, 3, 4, 5];
+
+let slice = &a[1..3];
+
+assert_eq!(slice, &[2, 3]);
+#+end_src
+ + This slice has the type =&[i32]=. It works the same way as string slices do, by storing a reference to the first element and a length.
+#+begin_quote
+The concepts of ownership, borrowing, and slices ensure memory safety in Rust programs at compile time.
+#+end_quote

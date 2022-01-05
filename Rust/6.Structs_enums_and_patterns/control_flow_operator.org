@@ -1,0 +1,34 @@
+#+TITLE: Control Flow Operator
+
+** The Match Control Flow Operator
+ + The =match= is an exceptionally powerful control flow operator that permits us to compare a value against a series of patterns and then execute code based on which pattern matches.
+ + Patterns may be made up of literal values, variable names, wildcards, and many other things.
+ + When the match expression executes, it compares the resulting value against the pattern of each arm, in order.
+ + The code associated with that pattern is executed if a pattern matches the value.
+ + Execution continues to the next arm if that pattern doesn’t match the value, much as in a coin-sorting machine.
+ + The code is connected and joined with every arm is an expression, and the resulting value of the expression in the matching arm is the value that gets returned for the entire match expression.
+** Concise control flow with if let
+ + The =if let= syntax is used to combine if and let which handles the values that matches one of the patterns while ignoring the rest of the code.
+ + The working of "match" operator and "if let" expression is similar.
+  #+begin_src rust
+ fn main()
+{
+let a=Some(9);
+if let Some(9)=a{
+println!("NINE!!!");
+}
+}
+
+  #+end_src
+ + equivalent =match= would be :
+  #+begin_src rust
+ fn main()
+{
+let a = Some(5);
+match a {
+    Some(5) => println!("five"),
+    _ => (),
+}}
+
+  #+end_src
+  + As we can see =if let= uses less code .

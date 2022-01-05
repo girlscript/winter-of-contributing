@@ -1,0 +1,26 @@
+#+TITLE: Generic Data type
++ *Generics* are a facility to write code for multiple contexts with different types.
++ In Rust, *generics refer to the parameterization of data types and traits*.
++ *Generics allows to write more concise and clean code by reducing code duplication and providing type-safety* .
++ Rust can make use of generics in several places:
+  1. Functions
+  2. Structs
+  3. Enums
+  4. Methods
++ Generic structure  :
+  * The type parameter represents a type, which the compiler will fill in later.
+#+begin_src rust
+struct Data<T> {
+   value:T,
+}
+fn main() {
+   //generic type of i32
+   let t:Data<i32> = Data{value:350};
+   println!("value is :{} ",t.value);
+   //generic type of String
+   let t2:Data<String> = Data{value:"Tom".to_string()};
+   println!("value is :{} ",t2.value);
+}
+#+end_src
+  * The =<T>= type indicates some data type.
+  * The *main() function creates two instances* − /an integer instance and a string instance/, *of the structure*.
