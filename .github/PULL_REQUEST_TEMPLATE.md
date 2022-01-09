@@ -3,23 +3,36 @@
 ## Description 📜
 
 Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. 
+<<<<<<< HEAD
 Fixes # <issue_number_here> 
+=======
+Fixes #issue_number_here 
+>>>>>>> 140f00932d30b17a75abfa77a5fd338dc0ca6608
 
 <hr>
 
 ## Type of change 📝
 
+<<<<<<< HEAD
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 
 - [ ] Audio (Should be in mp3 format Includes speech clarity, Concise ,Low distortion)
 - [ ] Video (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
 - [ ] Documentation (Content Creation in the form of codes or tutorials)
+=======
+<!----Please delete the hashtag from the correct option----->
+
+- [ ] Au#dio (Should be in mp3 format Includes speech clarity, Concise ,Low distortion)
+- [ ] Vi#deo (Animations, screen-recordings, presentations and regular explanatory films are all possibilties etc)
+- [ ] Doc#umentation (Content Creation in the form of codes or tutorials)
+>>>>>>> 140f00932d30b17a75abfa77a5fd338dc0ca6608
 - [ ] Other (If you choose other, Please mention changes below) 
 
 <hr>
 
 ## Domain of Contribution 📊
 
+<<<<<<< HEAD
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 
 - [ ] Android Dev (Flutter, Java, Kotlin)
@@ -47,6 +60,40 @@ Fixes # <issue_number_here>
 
 <hr>
  
+=======
+<!----Please delete the hashtag from your domain----->
+
+- [ ] Android Dev #(Flutter)
+- [ ] Android Dev #(Java)
+- [ ] Android Dev #(Kotlin)
+- [ ] Backend Dev #(Java)
+- [ ] Backend Dev #(.NET)
+- [ ] Backend Dev #(PHP)
+- [ ] Backend Dev #(Python)
+- [ ] C/#CPP
+- [ ] Competitive #Programming
+- [ ] Cyber #Security
+- [ ] DS#A
+- [ ] Data#base
+- [ ] Datascience with #Python
+- [ ] Datascience with #R
+- [ ] Frontend Dev #HTML/CSS/JS
+- [ ] Frontend Dev #React/Angular/Vue
+- [ ] Go#lang
+- [ ] Interview #Prep
+- [ ] Java_#Domain
+- [ ] JavaScript_#Domain
+- [ ] ME#RN
+- [ ] Machine #Learning
+- [ ] Open #Source
+- [ ] Python_#Domain
+- [ ] Ru#st
+- [ ] Statis#tics
+- [ ] UI/#UX
+
+<hr>
+
+>>>>>>> 140f00932d30b17a75abfa77a5fd338dc0ca6608
 ## Checklist ✅
 
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
@@ -59,8 +106,16 @@ Fixes # <issue_number_here>
 
 <hr>
 
+<<<<<<< HEAD
 <!----Please delete options that are not relevant.And in order to tick the check box just but x inside them for example [x] like this----->
 
 ## Screenshots / Gif (Optional) 📸
 
 <hr>
+=======
+<!----Please delete options that are not relevant.----->
+
+## Screenshots / Gif (Optional) 📸
+
+<hr>
+>>>>>>> 140f00932d30b17a75abfa77a5fd338dc0ca6608
