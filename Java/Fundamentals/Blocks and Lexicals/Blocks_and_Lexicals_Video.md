@@ -1,0 +1,1 @@
+[![Blocks_And_Lexicals](https://github.com/Arjun2905/winter-of-contributing/blob/Java/Java/Fundamentals/Assets/BlocksAndLexicals.png)](https://drive.google.com/file/d/1LFX3-DWrvRvMqptxl2L77NJ3d8zoLHBE/view?usp=sharing "Blocks_And_Lexicals")
