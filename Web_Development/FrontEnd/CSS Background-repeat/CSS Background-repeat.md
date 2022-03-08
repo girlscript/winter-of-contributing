@@ -1,4 +1,8 @@
-# CSS Background-Repeat
+# Introduction CSS Background-Repeat 
+
+The background-repeat property sets if/how a background image will be repeated.
+By default, a background-image is repeated both vertically and horizontally.
+The background image is placed according to the background-position property. If no background-position is specified, the image is always placed at the element's top left corner
 
 Background-repeat property of CSS, is used to set the rules for the background images to be repeated. A background image can be repeted according to the value provided.
 
