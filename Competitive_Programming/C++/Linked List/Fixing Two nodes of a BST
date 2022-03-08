@@ -1,0 +1,52 @@
+# Fixing Two nodes of a BST
+
+## Problem Statement
+You are given the root of a binary search tree(BST), where exactly two nodes were swapped by mistake. Fix (or correct) the BST by swapping them back. Do not change the structure of the tree.
+Note: It is guaranteed that the given input will form BST, except for 2 nodes that will be wrong. All changes must be reflected in the original linked list.
+Link https://practice.geeksforgeeks.org/problems/fixed-two-nodes-of-a-bst/1#
+
+#### Example
+```
+Input: {10, 5, 8, 2, 20}
+Output: {10, 5, 20, 2, 8}
+
+```
+#### C++ Implementation
+```
+class Solution {
+  public:
+
+    Node *prev=NULL, *first=NULL, *second=NULL;
+    void g(Node *curr)
+    {
+        if(curr==NULL) return ;
+        g(curr->left);
+        if(prev!=NULL and curr->data <= prev->data){
+            if(first==NULL){
+               first=prev;
+           }
+           second=curr;
+        }
+        prev=curr;
+        return g(curr->right);
+    }
+    void correctBST( struct Node* root )
+    {
+        Node *curr=root;
+        g(curr);
+        int n1 = first->data;
+        first->data=second->data;
+        second->data=n1;
+    }
+};
+
+
+```
+**Input** \
+11 3 17 N 4 10 \
+**Output** \
+10 3 17 N 4 11
+
+#### Complexity:
+***Time Complexity:*** O(n) \
+***Auxilary Space:*** O(1)
