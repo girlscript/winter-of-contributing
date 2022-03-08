@@ -1,0 +1,63 @@
+# DNS and Working of DNS
+## What is DNS ? 
+**Domain Name System (DNS)** is a various leveled naming framework based on a circulated information base for PCs, administrations,or any asset associated with the Internet or a private organization. 
+## What does DNS do?  
+It is difficult for us to remember all the IP addresses for the various websites we visit everyday. Instead we use Domain Names like "girlscript.com" or "github.com". You can simply think of the DNS system as the internet’s phonebook. 
+
+**DNS converts this Domain Name to actual IP address of the server.**
+![Logo](https://www.thesslstore.com/blog/wp-content/uploads/2019/04/DNS-Diagram.png)
+
+## History of DNS  
+In earlier days, the use of the Internet was very small as it was a newly emerging phenomenon.Therefore storing IP addresses was a very simple task. When the Internet started,  names and addresses were personally assigned in a master list of every Internet-connected computer in a text file was called “hosts.txt”. But that didn’t last long as more devices and people joined the growing network, this was not a sustainable solution. Then the concept of DNS came into the picture. Now, Internet Engineering Task Force (IETF) in RFC 1035 is maintaining the standards of DNS.
+
+## DNS servers and IP addresses  
+A DNS server stores explicit data that matches a domain name with specific IP addresses. Uber.com, for instance, has a large number of servers across the globe, and the physical server that a user associates inside one nation is reasonable totally unique in relation to another user somewhere else all throughout the planet. The worldwide idea of Internet administrations requires an organization of disseminated and versatile DNS servers to guarantee that users can easily look up and resolve the mentioned server's location, from any place throughout the planet.
+
+## Domains
+**What is a Domain Name?** 
+A domain name is your personal or business home on the web , it’s a bit of online land that you simply control completely—as long as you own the rights to that name.A fully qualified name is formed from a top-level domain and a subdomain.A uniform resource locator (URL), sometimes called an internet address, contains the name of a site also as other information, including the transfer protocol and therefore the path.
+
+![Logo](https://www.webdancers.com/wp-content/uploads/2015/12/url_diagram.png)
+
+### Different types of Domains :
+- #### Top Level Domains(TLD) :
+      Domain name which is at the top level of the internet’s domain name system. There are over a thousand TLDs available but the most common include .com, .org, .net, and .edu.
+- #### Country Code Top Level Domains(ccTLD) :
+      These use just two alphabets based upon international country codes.For example, .us for the United States and .jp for Japan. 
+- #### Generic Top Level Domain(gTLD) :
+       Doesn’t rely on a country code. Some examples of gTLDs include .mil (military), .gov (government), .org (for non-profits and organizations), and .net, which was originally designed for internet service providers (ISPs) but is now used more widely.
+![Logo](https://www.computerhope.com/jargon/d/dns.gif)
+
+## Basic Terms Associated With Domains
+- #### Name Servers 
+      They are the physical servers that contain the records pointing browsers to the proper IP addresses.
+- #### A Records 
+      Points your name to at least one or more IP addresses.
+- #### TXT Records 
+      Allows you to enter text into the DNS.
+- #### MX Records 
+      Stands for mail exchange records. They are liable for directing an email to a mail server.
+- #### Domain Registrar 
+      A company that sells domain names
+- #### Domain Registrant
+      The person who registers a domain name
+
+## DNS Lookup
+    1. User Enters Domain Name (Eg. goibibo.com) in the browser
+    2. The query is sent to DNS resolver via internet service providers
+    3. Resolver sends a question to the basis DNS nameserver (.).
+    4. The address of the top-level domain DNS root server is returned.
+    5. The TLD name server responds to the resolver with the targeted IP address of the domain’s nameserver.
+    6.  A query is sent to the domain’s DNS server by the DNS recursive resolver sends the.
+    7. IP address is returned by the domain's DNS server to the DNS resolver for the requested domain
+    8. The DNS resolver returns the IP address of the requested domain to the requesting web browser.
+    9. A HTTPS request is sent from the browser to the targeted IP address, 
+       the server returns the webpage, and is rendered in the user’s browser.
+## Acknowledgements
+
+ - (https://securityboulevard.com/2020/01/dns-poisoning-attacks-a-guide-for-website-admins/)
+ - (https://www.korapala.com/website-design/what-are-domains/)
+ - (https://www.computerhope.com/jargon/d/domaname.htm)
+ - (https://www.webdancers.com/are-http-and-www-necesary/)
+
+  
