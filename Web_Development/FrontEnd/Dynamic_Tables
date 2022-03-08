@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <style type="text/css">
+        body,
+        td {
+            font-size: 10pt;
+        }
+
+        table {
+            background-color: black;
+            border: 2px black solid;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 2px outset rgb(136, 136, 136);
+            background-color: rgb(0, 157, 178);
+            color: white;
+        }
+
+        tr {
+            background-color: white;
+            margin: 3px;
+        }
+
+        tr.striped {
+            background-color: rgb(36, 214, 134);
+        }
+
+        td {
+            padding: 1px 8px;
+        }
+
+        button {
+            margin-top: 1%;
+            background-color: rgb(36, 214, 134);
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: rgb(0, 157, 178);
+        }
+    </style>
+    <!-- CSS Ends -->
+    <title>19BCT0175 Q6</title>
+</head>
+<!-- HTML Code for table, adding data by default is optional -->
+<body>
+    <table id="table" cellpadding="1" cellspacing="1" id="resultTable" border="2px"
+        style="text-align: center; width: 50%;">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>City</th>
+                <th>State</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mannix</td>
+                <td>Bolton</td>
+                <td>Merizo</td>
+                <td>Michigan</td>
+            </tr>
+            <tr>
+                <td>Mannix</td>
+                <td>Bolton</td>
+                <td>Merizo</td>
+                <td>Michigan</td>
+            </tr>
+            <tr>
+                <td>Suki</td>
+                <td>King</td>
+                <td>Fairmont</td>
+                <td>Oklahoma</td>
+            </tr>
+            <tr>
+                <td>Shelby</td>
+                <td>English</td>
+                <td>Durham</td>
+                <td>Arkansas</td>
+            </tr>
+            <tr>
+                <td>Portia</td>
+                <td>Burns</td>
+                <td>Princeton</td>
+                <td>Rhode Island</td>
+            </tr>
+            <tr>
+                <td>Dacey </td>
+                <td>Young</td>
+                <td>Covina</td>
+                <td>South Carolina</td>
+            </tr>
+            <tr>
+                <td>Clark</td>
+                <td>Reyes</td>
+                <td>Grand Rapids</td>
+                <td>New Jersey</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button onclick="myFunction()">Delete</button>
+    <button onclick="adding()">Add</button>
+    <button onclick="addingColor()">Put Colours</button>
+    
+    <!-- JS/JQuery Code Starts -->
+    <script>
+        function myFunction() {
+            document.getElementById("table").deleteRow(-1);
+        }
+    </script>
+    <script>
+        function adding() {
+            var fname = prompt('Enter First Name')
+            var lname = prompt('Enter Last Name')
+            var city = prompt('Enter City')
+            var state = prompt('Enter State')
+            var new_row =
+                "<tr><td>" + fname + "</td><td>" + lname + "</td><td>" + city + "</td><td>" + state + "</td></tr>"
+            $("table tbody").append(new_row); <!-- Actual code for adding tables dynamically -->
+
+
+        }
+    </script>
+    <!-- this script is optional, giving user the choice to add coloours to the table or not -->
+    <script type="text/javascript">
+        function addingColor() {
+            $("table tr:nth-child(even)").addClass("striped");
+        }
+    </script>
+
+
+</body>
+
+</html>
