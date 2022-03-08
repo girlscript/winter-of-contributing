@@ -1,0 +1,5 @@
+Python>= 3.7
+NumPy>= 1.14.6
+SciPy>= 1.1.0
+joblib>= 0.11
+threadpoolctl>= 2.0.0
