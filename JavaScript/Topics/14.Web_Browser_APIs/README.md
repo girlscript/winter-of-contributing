@@ -1,6 +1,6 @@
 # What is an API?
- API stands for **Application Programming Interface**. APIs are the little pieces of code that make it possible for digital devices, software applications, and data servers to talk with each other, and they’re the essential backbone of so many services we now rely on.
-
+ API stands for **Application Programming Interface**. APIs are the little pieces of code that make it possible for digital devices, software applications, and data servers to talk with each other,these set of codes allow programmers to acquire some specific features or the data of an application and they’re the essential backbone of so many services we now rely on.
+ 
  Application Programming Interfaces (APIs) are constructs made available in programming languages to allow developers to create complex functionality more easily. They abstract more complex code away from you, providing some easier syntax to use in its place.
 
 # What are APIs used for?
