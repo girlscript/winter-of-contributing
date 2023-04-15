@@ -2,7 +2,7 @@
 
 ##INHERITANCE-
 
-Inheritance is one of an important topic in Object Oriented Programming Language . Inheritance is a mechanism in which one Derivedclass acquires all the data members and methods(functions) of the BaseClass just like as a child inherits traits from his/her parents.
+Inheritance is one of an important topic in Object Oriented Programming Language .Inheritance is a feature  in which, new classes are created from the existing classes. The new class created is called “derived class” or “child class” and the existing class is known as the “base class” or “parent class”. The derived class now is said to be inherited from the base class.
 
 The concept of using Inheritance is we can create new classes that are built upon existing classes.
 
@@ -15,6 +15,7 @@ The concept of using Inheritance is we can create new classes that are built upo
 
 #Types of Inheritance :
 There are basically 5 types of Inheritance in Java:
+
 1) Single Inheritance - It is a type of Inheritance in which One Derivedclass inherits all the proprities of a Baseclass , example - class B extends class A.
 2) Multilevel Inheritance - It is defined as when a class extends a class that extends another class
  example- class C extends class B, and class B extends class A.
