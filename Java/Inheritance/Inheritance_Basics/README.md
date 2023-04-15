@@ -11,19 +11,25 @@ The concept of using Inheritance is we can create new classes that are built upo
 1) Code Reusability --> the capacity to repurpose pre-existing code i.e Deriving classes from Baseclass
 2) For Method Overriding (so runtime polymorphism can be achieved)
 
-![inheritance](https://user-images.githubusercontent.com/115156321/232258340-c5776aa8-58ad-446e-a66f-f9dc061adb1a.png)
-
-
 #Types of Inheritance :
 There are basically 5 types of Inheritance in Java:
 
-1) Single Inheritance - It is a type of Inheritance in which One Derivedclass inherits all the proprities of a Baseclass , example - class B extends class A.
-2) Multilevel Inheritance - It is defined as when a class extends a class that extends another class
+ Single Inheritance - It is a type of Inheritance in which One Derivedclass inherits all the proprities of a Baseclass , example - class B extends class A.
+![2](https://user-images.githubusercontent.com/115156321/232258576-438f59ef-cd1b-4d47-a300-f8395600c13a.png)
+ 
+ Multilevel Inheritance - It is defined as when a class extends a class that extends another class
  example- class C extends class B, and class B extends class A.
-3) Multiple Inheritance - It is a type of Inheritance in which a Derived class acquires the properties of more than one Base classes. example- class C extends class A and class B.
-4) Hierarchial Inheritance - the type of inheritance that has a hierarchical structure of classes. A single base class can have multiple derived classes, and other subclasses can further inherit these derived classes, forming a hierarchy of classes ,example - class D, class C, class B extends class A
-5) Hybrid Inheritance - It is a combination of all types of Inheritance . example- class B and class C extends class A moreover class D extends  class B and class C.
+ ![1](https://user-images.githubusercontent.com/115156321/232258567-dc2b7d76-ad20-41ca-b519-5f48a00cea0a.png)
 
-![types_inheirtance](https://user-images.githubusercontent.com/115156321/232258033-7f0c12c9-eddd-4fb4-9ed7-432544e21242.jpg)
+Multiple Inheritance - It is a type of Inheritance in which a Derived class acquires the properties of more than one Base classes. example- class C extends class A and class B.
+
+![5](https://user-images.githubusercontent.com/115156321/232258593-ce610ebd-7a4c-4d91-8d11-4658458d54fc.png)
+
+Hierarchial Inheritance - the type of inheritance that has a hierarchical structure of classes. A single base class can have multiple derived classes, and other subclasses can further inherit these derived classes, forming a hierarchy of classes ,example - class D, class C, class B extends class A
+ 
+ ![3](https://user-images.githubusercontent.com/115156321/232258586-4e02ef2e-b9e0-41f5-9893-e9b0c1ce1853.png)
+
+Hybrid Inheritance - It is a combination of all types of Inheritance . example- class B and class C extends class A moreover class D extends  class B and class C.
+![4](https://user-images.githubusercontent.com/115156321/232258590-3d40b66d-6a1b-4b9f-8cc5-fb915da8efda.png)
 
 
