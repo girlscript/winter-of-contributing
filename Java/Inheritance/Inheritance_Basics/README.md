@@ -11,7 +11,8 @@ The concept of using Inheritance is we can create new classes that are built upo
 1) Code Reusability --> the capacity to repurpose pre-existing code i.e Deriving classes from Baseclass
 2) For Method Overriding (so runtime polymorphism can be achieved)
 
-![inheritance](https://user-images.githubusercontent.com/115156321/232258017-e8af3c90-3edf-4809-9ca2-5eb21bf91e9a.png)
+![inheritance](https://user-images.githubusercontent.com/115156321/232258340-c5776aa8-58ad-446e-a66f-f9dc061adb1a.png)
+
 
 #Types of Inheritance :
 There are basically 5 types of Inheritance in Java:
